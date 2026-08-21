@@ -1,6 +1,6 @@
 # Unit 1 handoff
 
-Status: ready for the authorized GitHub publication transaction  
+Status: published; public bytes verified  
 Date: 2026-08-21
 
 ## Completed reader boundary
@@ -41,8 +41,18 @@ called monic; it changes no factor, root argument, or mathematical result.
 
 ## Resume cursor
 
-After public push and anonymous byte verification, freeze Lecture 2 and
-Worksheet 2 at exact current revisions, including their transcluded semantic
-closure, available source solutions, and media. Then translate the complete
-pair in source order. Do not insert the schemes bridge yet and do not use later
-curriculum admission as evidence for or against completing this edition.
+Freeze Lecture 2 and Worksheet 2 at exact current revisions, including their
+transcluded semantic closure, available source solutions, and media. Then
+translate the complete pair in source order. Do not insert the schemes bridge
+yet and do not use later curriculum admission as evidence for or against
+completing this edition.
+
+## Public boundary
+
+- Repository: <https://github.com/KokunoYumeto/algebraic-geometry-bridge-id>
+- Reader: <https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/>
+- Release: <https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-01>
+- Content commit: `10506db01536f0510a35ea35510d34e405f88baf`.
+- GitHub Pages built that exact commit successfully. Anonymous raw-GitHub,
+  GitHub Pages, and release-asset downloads each reproduced the local HTML and
+  PDF byte counts and SHA-256 values exactly.
