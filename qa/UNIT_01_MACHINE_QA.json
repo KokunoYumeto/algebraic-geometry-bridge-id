@@ -1,0 +1,29 @@
+{
+  "schema": "ag-bridge-machine-qa-receipt-v1",
+  "tested_build_utc": "2026-08-21T17:03:01.487965+00:00",
+  "status": "PASS",
+  "source_ids": 54,
+  "lecture_math": 178,
+  "lecture_images": 23,
+  "worksheet_math": 106,
+  "worksheet_exercises": 28,
+  "solution_math": 95,
+  "solutions": 7,
+  "media_assets": 23,
+  "pdf_pages": 27,
+  "html_sha256": "100409626b86dbf2da139ab79a95b118efe478782c02c646c303fe5e3c6f2120",
+  "pdf_sha256": "8666aa744b6200ff89043c801420ead551d02bcb922599238e101ec8aaf1a79f",
+  "qa_script": {
+    "path": "scripts/qa_reader.py",
+    "sha256": "b63950e8f87329e5f59364b2732107037b5fd030d6b7ddf9a7778848f22410dd"
+  },
+  "check_families": [
+    "source_placeholders_and_ids",
+    "pandoc_math_and_image_surfaces",
+    "exercise_solution_mapping",
+    "asset_rights_and_hashes",
+    "html_language_links_and_local_assets",
+    "build_receipt_replay",
+    "pdf_structure_metadata_and_text"
+  ]
+}

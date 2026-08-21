@@ -1,0 +1,175 @@
+{
+  "schema": "ag-bridge-backend-export-manifest-v1",
+  "schema_version": "1.0.0",
+  "generated_from_build_utc": "2026-08-21T17:03:01.487965+00:00",
+  "unit": "unit-01",
+  "encoding": "UTF-8",
+  "serialization": "canonical JSON Lines: sorted records and keys, compact separators, LF",
+  "record_count": 684,
+  "counts": {
+    "artifact": 8,
+    "asset": 23,
+    "concept": 18,
+    "correction": 4,
+    "course": 1,
+    "edition": 3,
+    "program": 1,
+    "qa_event": 2,
+    "relation": 250,
+    "resource": 3,
+    "rights": 27,
+    "segment": 272,
+    "term": 18,
+    "unit": 54
+  },
+  "files": [
+    {
+      "path": "backend/unit-01/record.schema.json",
+      "bytes": 3196,
+      "sha256": "b63956eebee7313173aa199b78a0e8684aca445aedb7f6c2c417dfa59df3fa3f"
+    },
+    {
+      "path": "backend/unit-01/records.jsonl",
+      "bytes": 719788,
+      "sha256": "469369311ab2b1b415195bf8ec1e3f7c4fdc8ccafd53af4aae690cc7a89bdd95"
+    },
+    {
+      "path": "backend/unit-01/artifact.jsonl",
+      "bytes": 7933,
+      "sha256": "3a1bba5c408824fc166660761b400ae8e675faab6417f6824bf944cc64a21e72"
+    },
+    {
+      "path": "backend/unit-01/asset.jsonl",
+      "bytes": 28151,
+      "sha256": "7ac40bf2857e79ee464531ae6967fa8390b236094ab3897f6662ac98d59b1928"
+    },
+    {
+      "path": "backend/unit-01/concept.jsonl",
+      "bytes": 14913,
+      "sha256": "539ae3fb6d2c545fca8d5c33cad3c3b874993f5cf7a6d35c7dc0963a525e06fc"
+    },
+    {
+      "path": "backend/unit-01/correction.jsonl",
+      "bytes": 5581,
+      "sha256": "8905115da3a8b64544de69d929dafbb10a8079c496b5a53cb351760218563e85"
+    },
+    {
+      "path": "backend/unit-01/course.jsonl",
+      "bytes": 1232,
+      "sha256": "b5759a253c554bc8f89f8922aced79ce85b320b0df83adb54642162b388cf5c2"
+    },
+    {
+      "path": "backend/unit-01/edition.jsonl",
+      "bytes": 3441,
+      "sha256": "d0b0ea73210eeec11c4c67f04799de4ef7c681a757f7d88890a59005bfd807af"
+    },
+    {
+      "path": "backend/unit-01/program.jsonl",
+      "bytes": 1009,
+      "sha256": "7d216a158dadd5de231f9b45c0991464f0fe128ab08340e172b06e88fa83d4f6"
+    },
+    {
+      "path": "backend/unit-01/qa_event.jsonl",
+      "bytes": 3559,
+      "sha256": "9f2d3dd4598aae876caa0d35686289e9b2a57794af404eb3120fa424bfe0cd57"
+    },
+    {
+      "path": "backend/unit-01/relation.jsonl",
+      "bytes": 225129,
+      "sha256": "851223e41068d3fa731645692dcb02cd47368a5572e12abd4f6b94c4e7a5403a"
+    },
+    {
+      "path": "backend/unit-01/resource.jsonl",
+      "bytes": 3107,
+      "sha256": "c4b28080d4041d6b1371a6e24f94f7cea81f915a3661b1daa68a26420b0ddea8"
+    },
+    {
+      "path": "backend/unit-01/rights.jsonl",
+      "bytes": 27453,
+      "sha256": "cbf620c2bd0f98621472116962e96290ef1618a2f2e45a29a1374ed495afe043"
+    },
+    {
+      "path": "backend/unit-01/segment.jsonl",
+      "bytes": 299890,
+      "sha256": "1733d3fb83e9136e90e062b42b768e3995964de7d827f62acaaafa8202454fab"
+    },
+    {
+      "path": "backend/unit-01/term.jsonl",
+      "bytes": 18555,
+      "sha256": "3594eba19d9fd103d08acc2ec85e575390dc137c1275762e9e4636c58d003551"
+    },
+    {
+      "path": "backend/unit-01/unit.jsonl",
+      "bytes": 79835,
+      "sha256": "8edb4251240d8074f8f544fab1b82eb02058c666c26130b8bf32991d3b9456f9"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "source/id-ID/frontmatter.md",
+      "bytes": 2378,
+      "sha256": "5cf76a16e92ad946e4d53a06362119961b3e473eb4f8479903c57a32405ee079"
+    },
+    {
+      "path": "source/id-ID/lecture-01.md",
+      "bytes": 18910,
+      "sha256": "6cf20fdbb2f0930010729c77f689d9bbcfc5cddecd66f60d854c38f091762080"
+    },
+    {
+      "path": "source/id-ID/worksheet-01.md",
+      "bytes": 10602,
+      "sha256": "dad226e3f8e09d96a5c7b5e8e3dd089dc9e064ee2f7214d76e0ab7d38d5fe45c"
+    },
+    {
+      "path": "source/id-ID/worksheet-01-solutions.md",
+      "bytes": 6585,
+      "sha256": "517f6810390261353b0b172b07919bdd6acab8655500b4a5224f540484c82bb7"
+    },
+    {
+      "path": "source/id-ID/media-credits.md",
+      "bytes": 5005,
+      "sha256": "d2e491b7b33d02b3f8cfca2a6d021d593b6d5c98c4d005d7600fe999d27295fd"
+    },
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 2313,
+      "sha256": "c202ec27f65e2be89c79e2a4e49258a94d077dfeea092654e43b123d0348933d"
+    },
+    {
+      "path": "00_control/CORRECTIONS.csv",
+      "bytes": 1606,
+      "sha256": "1365f63b8e3dd1ab4e21f40a3e51806174b0f112cb16b687eeeda3767da1adc3"
+    },
+    {
+      "path": "authority/RIGHTS.csv",
+      "bytes": 15187,
+      "sha256": "4b8274d40f472882da8ba4b5bca50b015c101010556bc8bfbea58819be32875e"
+    },
+    {
+      "path": "authority/ASSET_CLOSURE.json",
+      "bytes": 5183,
+      "sha256": "326ae10cd6ff01232976c48ffae33fd48298092684d925546adb4e78541cd88a"
+    },
+    {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 6093,
+      "sha256": "0e37d36b490a75aa0c6d418280ac68338245305a4cae6f1010c29f4440307b52"
+    },
+    {
+      "path": "qa/UNIT_01_MACHINE_QA.json",
+      "bytes": 942,
+      "sha256": "b4d363e5a630435b2a3cb24a37ce715aa9c54e9f61e1b3bd8d66ee9294bf2097"
+    },
+    {
+      "path": "qa/UNIT_01_VISUAL_QA.json",
+      "bytes": 1260,
+      "sha256": "5c3c66afd5276b9a8eab2faa37be73ff6b263977c73c221ec8f246b732f82595"
+    }
+  ],
+  "validation": {
+    "unique_stable_ids": true,
+    "parent_closure": true,
+    "required_entity_class_closure": true,
+    "deterministic_replay_required": true
+  }
+}

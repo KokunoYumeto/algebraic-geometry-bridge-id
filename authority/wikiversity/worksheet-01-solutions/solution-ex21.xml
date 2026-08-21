@@ -1,0 +1,84 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Algebraisch abgeschlossener Körper/Charakterisierung mit Linearfaktoren/Fakt/Beweis/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>53096</id>
+    <revision>
+      <id>1054755</id>
+      <parentid>804882</parentid>
+      <timestamp>2025-10-01T21:10:25Z</timestamp>
+      <contributor>
+        <username>Λυκας</username>
+        <id>38324</id>
+      </contributor>
+      <origin>1054755</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1403" sha1="2l5ll2sndrzka767xi95db2ktzpfni6" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei &lt;math&gt;K&lt;/math&gt; algebraisch abgeschlossen und &lt;math&gt;F\in K\left[X\right]&lt;/math&gt; nicht-konstant.
+Wir beweisen, dass &lt;math&gt;F&lt;/math&gt; in Linearfaktoren zerfällt per Induktion nach
+&lt;math&gt;n=\deg F&lt;/math&gt;. Es sei zunächst &lt;math&gt;n=1&lt;/math&gt;, also &lt;math&gt;F=a_{1}X+a_{0}&lt;/math&gt;. Somit ist
+&lt;math&gt;F&lt;/math&gt; bereits ein einzelner Linearfaktor. Angenommen, jedes Polynom
+&lt;math&gt;G\in K\left[X\right]&lt;/math&gt; mit &lt;math&gt;\deg G=n-1&lt;/math&gt; zerfalle in Linearfaktoren.
+Da &lt;math&gt;K&lt;/math&gt; algebraisch abgeschlossen ist, hat &lt;math&gt;F&lt;/math&gt; eine Nullstelle &lt;math&gt;x_{0}&lt;/math&gt;.
+Damit lässt sich &lt;math&gt;F&lt;/math&gt; schreiben als &lt;math&gt;G\cdot\left(X-x_{0}\right)&lt;/math&gt;
+mit einem Polynom &lt;math&gt;G\in K\left[X\right]&lt;/math&gt;. Der Grad von &lt;math&gt;G&lt;/math&gt; ist dabei
+&lt;math&gt;n-1&lt;/math&gt;. Das folgt direkt daraus, dass ein Körper auch ein Integritätsbereich
+ist und einer leichten Abwandlung des Beweises aus Aufgabe 8. Wir
+wissen aus der Induktionsvoraussetzung, dass &lt;math&gt;G&lt;/math&gt; in Linearfaktoren
+zerfällt, also auch &lt;math&gt;G\cdot\left(X-x_{0}\right)&lt;/math&gt;. Damit zerfällt
+jedes nicht-konstante Polynom &lt;math&gt;F\in K\left[X\right]&lt;/math&gt; in Linearfaktoren.
+Die Umkehrung ist trivial, da jeder Linearfaktor eines Polynoms eine Nullstelle repräsentiert.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>2l5ll2sndrzka767xi95db2ktzpfni6</sha1>
+    </revision>
+  </page>
+</mediawiki>

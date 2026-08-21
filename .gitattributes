@@ -1,0 +1,10 @@
+# Integrity-first repository: preserve every committed byte exactly.  Build,
+# authority, and backend receipts bind byte hashes, so newline normalization is
+# deliberately disabled even for text files.
+* -text
+*.pdf binary
+*.png binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.svg -text

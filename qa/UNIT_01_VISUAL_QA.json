@@ -1,0 +1,42 @@
+{
+  "schema": "algebraic-geometry-bridge-visual-qa-v1",
+  "review_date": "2026-08-21",
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-unit-01.pdf",
+    "bytes": 2161667,
+    "sha256": "8666aa744b6200ff89043c801420ead551d02bcb922599238e101ec8aaf1a79f",
+    "pages": 27
+  },
+  "render_manifest": {
+    "path": "qa/unit-01-pdf-visual-8666aa74/MANIFEST.json",
+    "bytes": 5507,
+    "sha256": "ea7c96b3a66e6e831661a9e858b0e4451f0bc80ae898cf1d5c0dc494765ae74f"
+  },
+  "contact_sheet": {
+    "path": "qa/unit-01-pdf-visual-8666aa74/contact-sheet.png",
+    "bytes": 3351785,
+    "sha256": "3d52933ab693beb49c0ee6cfab212e4a7021dc89dc99348bcc9f56cf0d1c6bf4"
+  },
+  "review": {
+    "contact_sheet_reviewed_all_pages": true,
+    "full_resolution_pages_reviewed": [
+      1,
+      3,
+      14,
+      20,
+      24,
+      26,
+      27
+    ],
+    "title_and_contents_checked": true,
+    "image_scale_and_captions_checked": true,
+    "worksheet_math_checked": true,
+    "solution_math_checked": true,
+    "media_credits_checked": true,
+    "visible_clipping_count": 0,
+    "visible_overlap_count": 0,
+    "visible_broken_glyph_count": 0,
+    "visible_unresolved_source_marker_count": 0
+  },
+  "result": "PASS"
+}

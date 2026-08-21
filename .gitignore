@@ -1,0 +1,26 @@
+# Python and operating-system transients
+__pycache__/
+*.py[cod]
+Thumbs.db
+.DS_Store
+
+# Local donor/build witnesses retained outside the public edition repository
+authority/artifacts/
+authority/napkin-e50be9a/
+
+# Superseded and high-volume render/build scratch
+qa/official-unit-renders/
+qa/unit-01-pdf-visual/
+qa/unit-01-pdf-visual-admitted/
+qa/unit-01-pdf-visual-final/
+qa/unit-01-pdf-visual-8666aa74/page-*.png
+qa/unit-01-pdf-visual-8666aa74/contact-sheet.png
+qa/*.log
+qa/*.txt
+qa/*pandoc.md
+qa/capture-*.ps1
+qa/run-*.ps1
+
+build/reader-id/pandoc-*.log
+build/reader-id/pdf-*.md
+

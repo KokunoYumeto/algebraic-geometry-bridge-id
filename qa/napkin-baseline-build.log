@@ -1,0 +1,42 @@
+**********************
+PowerShell transcript start
+Start time: 20260821120319
+Username: DESKTOP-BK0R5MC\Floris
+RunAs User: DESKTOP-BK0R5MC\Floris
+Configuration Name: 
+Machine: DESKTOP-BK0R5MC (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+& 'C:\Users\Floris\Documents\interlanguage\04_mirrors\id\algebraic-geometry-bridge-id\qa\run-napkin-baseline-build.ps1'; exit $LASTEXITCODE
+Process ID: 48964
+PSVersion: 7.5.0
+PSEdition: Core
+GitCommitId: 7.5.0
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Napkin exact-head baseline build
+Frozen upstream commit: e50be9a0b2b12d080c273619424d0ee13372cc91
+Started UTC: 2026-08-21T10:03:19.5052447Z
+Source root: C:\Users\Floris\Documents\interlanguage\04_mirrors\id\algebraic-geometry-bridge-id\authority\napkin-e50be9a
+nix: unavailable; using the documented latexmk/Asymptote route.
+latexmk path: C:\Users\Floris\AppData\Local\Programs\MiKTeX\miktex\bin\x64\latexmk.exe
+
+pdflatex path: C:\Users\Floris\AppData\Local\Programs\MiKTeX\miktex\bin\x64\pdflatex.exe
+
+asy path: C:\Users\Floris\AppData\Local\Programs\MiKTeX\miktex\bin\x64\asy.exe
+
+biber path: C:\Users\Floris\AppData\Local\Programs\MiKTeX\miktex\bin\x64\biber.exe
+
+MIKTEX_ENABLE_INSTALLER=0
+COMMAND: latexmk "-pdflatex=pdflatex --disable-installer %O %S" -interaction=nonstopmode -file-line-error Napkin.tex
+
+Build exit code: 12
+Finished UTC: 2026-08-21T10:05:08.3252023Z
+**********************
+PowerShell transcript end
+End time: 20260821120508
+**********************

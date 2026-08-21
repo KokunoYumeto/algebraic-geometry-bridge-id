@@ -1,0 +1,39 @@
+{
+  "schema": "ag-bridge-backend-qa-receipt-v1",
+  "tested_build_utc": "2026-08-21T17:03:01.487965+00:00",
+  "status": "PASS",
+  "manifest_path": "backend/unit-01/MANIFEST.json",
+  "manifest_sha256": "45d160a3710a8654d7c163bf565a88d7a0fc66380be7efb3da89c4e5e7abd42f",
+  "deterministic_double_replay": true,
+  "record_count": 684,
+  "class_counts": {
+    "artifact": 8,
+    "asset": 23,
+    "concept": 18,
+    "correction": 4,
+    "course": 1,
+    "edition": 3,
+    "program": 1,
+    "qa_event": 2,
+    "relation": 250,
+    "resource": 3,
+    "rights": 27,
+    "segment": 272,
+    "term": 18,
+    "unit": 54
+  },
+  "json_schema_errors": 0,
+  "unique_stable_ids": true,
+  "parent_closure": true,
+  "relation_endpoint_closure": true,
+  "class_projection_round_trip": true,
+  "source_and_export_hash_replay": true,
+  "exporter": {
+    "path": "scripts/export_backend_unit1.py",
+    "sha256": "1c50355549d099d09c453e527ac669b14c1e8124cac125ec1d7ff70a8b441aaf"
+  },
+  "qa_script": {
+    "path": "scripts/qa_backend_unit1.py",
+    "sha256": "7e3dae4a9317f572589f3b76a1ef1be95a6a0bf8551d5fe17e1839edc478eceb"
+  }
+}

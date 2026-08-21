@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/1033000"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/0"/><meta property="mw:revisionSHA1" content="5mpvl81u97hs35l9k2lrqpklqf8f5gh"/><meta property="dc:modified" content="2025-08-11T13:50:46Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="165954"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_1/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 1/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="1f63b1e4-9c17-11f1-b894-6d8a2f671430"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{1}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Ebene algebraische Kurven}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Was ist eine algebraische Kurve? Zum Beispiel das, was auf den folgenden schönen Bildern zu sehen ist:   </p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Linear_function} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Linear function.svg } {} {Luks} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Polynomialdeg4} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Polynomialdeg4.png } {} {Derbeth} {Commons} {CC-BY-SA-2.5} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesunggif {RationalDegree2byXedi} {gif} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { RationalDegree2byXedi.gif } {Sam Derbyshire} {Ylebru} {en-wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Disk_1} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Disk 1.svg } {} {Paris 16} {Commons} {CC-BY-SA-4.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Ellipse} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Ellipse.svg } {} {Zorgit} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Cusp} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Cusp.png } {} {Satipatthana} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Elliptic_curve_simple} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Elliptic curve simple.svg } {Sean K.} {Giro720} {en-wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tschirnhausen_cubic} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Tschirnhausen cubic.svg } {Oleg Alexandrov} {Oleg Alexandrov} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Eudoxus} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Eudoxus.png } {Donald Hosek} {Oleg Alexandrov} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Conchoid_of_Pascal} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Conchoid of Pascal.png } {} {Luke33} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Bifolium} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Bifolium.png } {Oleg Alexandrov} {Oleg Alexandrov} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Limacon} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Limacon.png } {} {Berto} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Quadrifolium} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Quadrifolium.svg } {} {Gunther} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Lemniscate_of_Bernoulli} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Lemniscate of Bernoulli.svg } {} {Zorgit} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/></p><span about="#mwt1">
+</span><span about="#mwt1">
+</span><p about="#mwt1">Nun kann man natürlich viel malen. Schön sind auch die folgenden Kurven, doch das sind keine algebraischen Kurven:</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Cicloide} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Cicloide.svg } {} {Elborgo} {Commons} {CC-BY-SA-2.5} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Logarithmic_spiral} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Logarithmic spiral.png } {} {Anarkman} {en.wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Sin} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Sin.svg } {Keytotime} {Ysae} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Quadratic_Koch} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Quadratic Koch.png } {Alexis Monnerot-Dumaine} {Prokofiev} {Commons} {CC-BY-SA-2.5} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+ <br/>
+Das \anfuehrung{algebraisch}{} in algebraische Kurve kommt daher, dass zu ihrer Definition nur algebraische Operationen verwendet werden dürfen, d.h. Addition und Multiplikation, nicht aber analytische Prozesse wie Limes nehmen, unendliche Summen, Approximieren, Differenzieren und Integrieren. Die erlaubten Abbildungen in unserem Kontext sind durch Polynome in mehreren Variablen gegeben. In den obigen Bildern geht es um ebene algebraische Kurven, die durch ein Polynom in zwei Variablen definiert werden. Die beiden ersten Bilder sind \stichwort {Graphen} {} zu einer polynomialen Funktion in einer Variablen, sie werden beschrieben durch
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ Y
+}<br/>{ =} { P(X)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+wobei im ersten Bild
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P(X)
+}<br/>{ = }{X
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist
+\zusatzklammer {es liegt also ein lineares Polynom vor} {} {}
+und im zweiten Bild etwas wie 
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ P(X)
+}<br/>{ =} {a_4X^4+a_3X^3+a_2X^2+a_1X+a_0 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+mit gewissen Koeffizienten $a_i$ aus einem Körper $K$ vorliegt. In der algebraischen Geometrie fixiert man einen \stichwort {Grundkörper} {} $K$. Wichtige Körper sind für uns die \stichwort {reellen Zahlen} {}
+\zusatzklammer {insbesondere sind die Bilder so zu verstehen} {!} {}
+oder die \stichwort {komplexen Zahlen} {} ${\mathbb C}$. Ein solcher Graph ist insofern ein einfaches Gebilde, dass es zu jedem Wert für $X$ genau einen Wert für $Y$
+\zusatzklammer {den Funktionswert} {} {}
+gibt, und den man auch noch einfach ausrechnen kann, wenn man im gegebenen Körper rechnen kann. Der Graph ist in gewissem Sinne eine \anfuehrung{gebogene}{} Kopie der Grundlinie, der $X$-Achse.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Betrachten wir das dritte Bild. Das ist der Graph einer \stichwort {rationalen Funktion} {,} d.h. man hat zwei Polynome $P,Q$ in einer Variablen $X$ und schaut sich den Quotienten <br/>\mathl{{ \frac{  P(X) }{ Q(X) } }}{} an. Dieser Ausdruck ergibt nur dort Sinn, wo der Nenner nicht $0$ ist. An den Nullstellen des Nennerpolynoms ist die rationale Funktion nicht definiert
+\zusatzklammer {wenn Nenner und Zähler an der gleichen Stelle $0$ sind, so kann man durch Kürzen manchmal erreichen, dass der Quotient auch an dieser Stelle einen Sinn bekommt} {} {.}
+Wenn der Nenner $0$ ist, der Zähler aber nicht, so ist die Undefiniertheitsstelle ein \anfuehrung{Pol}{} 
+\zusatzgs {der reelle Graph strebt nach $+ \infty$ bzw. $-\infty$} {}
+Es ist verlockend zu sagen, dass der Wert der rationalen Funktion an diesen undefinierten Stellen \anfuehrung{unendlich}{} ist, und im Kontext der projektiven Geometrie macht das durchaus Sinn, wie wir später sehen werden. Die \anfuehrung{Graphengleichung}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ { \frac{  P(X) }{ Q(X) } }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist jedenfalls wegen der Undefinierbarkeitsstellen keine optimale Beschreibung für die Kurve. Wenn man sie hingegen mit dem Nenner multipliziert, so erhält man die Bedingung (oder \stichwort {Gleichung} {})
+<br/>\mathdisp {Y Q(X) = P(X) \text{ bzw. genauer } \left\{ (x,y) \in K^2  \mid   yQ(x) = P(x)         \right\}} { , }<br/>
+in der links und rechts wohldefinierte Polynome stehen. Die \stichwort {Erfüllungsmenge} {}
+\zusatzklammer {oder \stichwort {Lösungsmenge} {}} {} {}
+ist eindeutig definiert, wobei bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Q(x)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+für ein bestimmtes $x$ die linke Seite null ist, und es dann dort bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P(x)
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+keine Lösung gibt 
+\zusatzklammer {wie im Bild} {} {}
+und bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P(x)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+jeder $Y$-Wert erlaubt ist. In letzterem Fall gehört also eine zur $X$-Achse senkrechte Gerade durch <br/>\mathl{(x,0)}{} zu dem Gebilde.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Ein typisches und wichtiges Beispiel für eine rationale Funktion ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ 1/X
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Den zugehörigen Graphen nennt man <br/>\definitionswortenp{Hyperbel}{} $H$. Nennerfrei geschrieben ergibt sich die Gleichung
+<br/>\mathdisp {XY=1 \text{ bzw. } H = \left\{  (x,y)  \mid   xy = 1         \right\}} { . }<br/>
+Diese rationale Funktion ist auf
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K^\times
+}<br/>{ = }{ K \setminus  \{0\}
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+eine echte Funktion 
+\zusatzklammer {mit $H$ als Graphen} {} {}
+und stiftet eine \anfuehrung{natürliche}{} Bijektion
+\maabbeledisp {} { K ^{\times} } { H
+} { x } { \left(  x,{ \frac{   1  }{  x } }  \right)
+} {.}
+$K^\times$ und $H$ sind also in einem später zu präzisierenden Sinn \anfuehrung{äquivalent}{} oder \anfuehrung{isomorph}{.}</p>
+
+<p>Beide Beschreibungen haben etwas für sich. Die Beschreibung als
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K^\times
+}<br/>{ \subset }{ K
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+spielt sich auf einer Geraden ab
+\zusatzklammer {wenn man an
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K
+}<br/>{ = }{ \R
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+denkt} {} {,}
+dafür gehört der Punkt $0$, der ein \stichwort {Häufungspunkt} {} von $K^\times$ ist, nicht zu $K^\times$. D.h., $K^\times$ ist nicht \stichwort {abgeschlossen} {.} Dagegen ist die Hyperbel in $\R^2$ abgeschlossen, für die abgeschlossene Realisierung muss man also in eine höhere Dimension gehen. Die Frage, was eine gute Beschreibung für ein Objekt der algebraischen Geometrie ist, wird immer wieder auftauchen.
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Rectangular_hyperbola} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Rectangular hyperbola.svg } {} {Qef} {Commons} {PD} {}<br/> <br/></p>
+
+<p>Im reellen Fall, also bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K
+}<br/>{ = }{ \R
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,}
+besteht <br/>\mathl{\R^\times}{} 
+\zusatzklammer {und entsprechend \mathlk{H_{\R}}{}} {} {}
+aus zwei disjunkten \anfuehrung{Zweigen}{,} ist also nicht \stichwort {zusammenhängend} {.} Im komplexen Fall, also bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K
+}<br/>{ = }{ \Complex
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+ist <br/>\mathl{\Complex^\times}{} 
+\zusatzklammer {und entsprechend \mathlk{H_{\Complex}}{}} {} {}
+eine punktierte reelle Ebene, also zusammenhängend. Dies ist ein typisches Phänomen der algebraischen Geometrie, dass wichtige Eigenschaften vom Grundkörper abhängen. Besonders wichtig sind dann aber Eigenschaften, die nur von den beschreibenden Gleichungen abhängen und für die Lösungsmengen zu allen Körpern gelten.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Das vierte Bild ist ein \stichwort {Kreis} {,} seine Gleichung ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K
+}<br/>{ = }{ \left\{ (x,y)  \mid   x^2+y^2 = r^2        \right\} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+wobei $r$ den Radius des Kreises bezeichnet. Schon das Bild zeigt, dass dieses Gebilde nicht der Graph einer Funktion
+\zusatzklammer {Abbildung} {} {}
+sein kann, da bei einem Graphen zu einem $x$-Wert stets genau ein $y$-Wert gehört. Man kann aber keine Funktion finden mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y
+}<br/>{ = }{ \varphi(x)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{K
+}<br/>{ = }{ \left\{  (x,\varphi(x))  \mid   x \in \R         \right\} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die Frage, ob man ein algebraisches Lösungsgebilde als einen Graphen realisieren kann, ist äquivalent dazu, ob man die definierende Gleichung nach $y$ \anfuehrung{auflösen}{} kann. Im Beispiel kann man 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y^2
+}<br/>{ = }{r^2-x^2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und damit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y
+}<br/>{ = }{ \sqrt{r^2-x^2}
+}<br/>{ = }{ \sqrt{(r-x)(r+x)}
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+schreiben. Ist es also doch ein Graph? Hier gibt es zwei Interpretationen:
+\auflistungzwei{Wenn man sich auf reelle Zahlen und auf positive Wurzeln beschränkt, so hat man im letzten Schritt keine Äquivalenzumformung durchgeführt, und Information \anfuehrung{hinzugefügt}{,} die in der ursprünglichen Gleichung nicht vorhanden war. Die positive Wurzel zu nehmen bedeutet, sich auf den oberen Halbkreis zu beschränken (Information, also Bedingungen hinzufügen, bewirkt, dass die Lösungsmenge verkleinert wird).
+}{Wenn man stattdessen unter $\sqrt{\, }$ alle Lösungen berücksichtigt \zusatzklammer {d.h. im Reellen die positive und die negative Quadratwurzel, was man häufig als $\pm \sqrt{\, }$ schreibt} {} {,} so hat man keine Information dazugetan, aber auch nicht nach einer Funktion aufgelöst \zusatzklammer {sondern nur, wie man manchmal sagt, nach einer \anfuehrung{mehrwertigen Funktion}{}} {} {.}
+}
+Beide Standpunkte haben etwas für sich. Dass man für einen Teil des geometrischen Objektes 
+\zusatzklammer {dem oberen Halbbogen} {} {}
+versucht, eine einfache Beschreibung als Graph zu finden, kehrt im Satz über implizite Funktionen, im Potenzreihenansatz, in Parametrisierungen und in der lokalen Theorie wieder. </p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Gleichungen der Form <br/>\mathl{Y^2 = G(X)}{} }</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesunggif {Newtonbig} {gif} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Newtonbig.gif } {} {Pokipsy76} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {GodfreyKneller-IsaacNewton-1689} {jpg} }<br/>\end{center} <br/>\bildtext {<a rel="mw:WikiLink/Interwiki" href="https://de.wikipedia.org/wiki/Isaac%20Newton" title="w:Isaac Newton" class="extiw">Isaac Newton (1643–1727)</a>} }<br/><br/>\bildlizenz { GodfreyKneller-IsaacNewton-1689.jpg } {Godfrey Kneller} {} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Eine Kreisgleichung kann man als eine Gleichung der Form
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ Y^2
+}<br/>{ =} { G(X)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+auffassen, wobei $G$ ein Polynom in der einen Variablen $X$ bezeichnet 
+\zusatzklammer {im Fall eines Kreises ist
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{G
+}<br/>{ = }{ -X^2+1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}} {} {.}
+Das ist kein Graph, aber die \anfuehrung{Wurzel}{} eines Graphen. Betrachten wir generell eine solche Situation, wo <br/>\mathl{G(X)}{} auch komplizierter sein darf. Das Nullstellengebilde repräsentiert hier die Quadratwurzel <br/>\mathl{\sqrt{G(X)}}{.} Wenn man sich für $X$ einen beliebigen Wert $x$ vorgibt, so gibt es 
+\zusatzklammer {im Reellen} {} {}
+drei Möglichkeiten für zugehörige Lösungen:
+\auflistungdrei{Wenn <br/>\mathl{G(x)}{} negativ ist, so gibt es keine Lösung.
+}{Wenn <br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G(x)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} ist, so gibt es genau die Lösung <br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+}{Wenn <br/>\mathl{G(x)}{} positiv ist, so gibt es die beiden Lösungen <br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y 
+}<br/>{ = }{ \pm \sqrt{G(x)}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+}
+Das gibt auch einen Ansatz, wie das reelle Bild aussieht: Für jedes $x$ berechnet man $G(x)$ und markiert bei <br/>\mathl{(x, \pm \sqrt{G(x)})}{} 
+\zusatzklammer {falls der Radikand nichtnegativ ist} {} {}
+einen Punkt.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Im Komplexen  sind nur die Fälle
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{G(x)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+oder
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G(x)
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zu unterscheiden. Wenn $G$ selbst nur den Grad zwei besitzt, so handelt es sich um einen \stichwort {Kegelschnitt} {,} die schon in der Antike betrachtet wurden<span typeof="mw:Entity"> </span> \zusatzklammer {siehe die siebte Vorlesung} {} {.}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Mit dem Fall, dass $G(X)$ ein kubisches
+\zusatzklammer {reelles} {} {}
+Polynom ist 
+\zusatzklammer {also den Grad drei besitzt} {} {,}
+hat sich Isaac Newton intensiv beschäftigt. Dieses Beispielmaterial ist schon sehr reichhaltig.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {ECexamples01} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { ECexamples01.png } {} {Dake} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Betrachten wir den Fall
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{G(X)
+}<br/>{ = }{ X^3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+also das durch
+<br/>\mathdisp {\left\{ (x,y)  \mid   y^2=x^3         \right\}} {  }<br/>
+beschriebene Gebilde. Dieses Gebilde nennt man die \stichwort {Neilsche Parabel} {.} Hier tritt ein neues Phänomen auf, nämlich, dass der Nullpunkt anders ist als alle anderen Punkte. Man spricht von einer \stichwort {Singularität} {;} im Gegensatz dazu nennt man die anderen Punkte \stichwort {glatt} {} oder \stichwort {nicht-singulär} {.} Eine genaue Definition zu geben ist Teil dieses Kurses, als erste ungenaue Formulierung kann man sagen, dass eine Kurve in einem glatten Punkt lokal und in geeigneten Koordinaten so aussieht wie der
+\zusatzklammer {gedrehte} {} {}
+Graph einer differenzierbaren Funktion. Die Singularität in der Neilschen Parabel nennt man auch eine \stichwort {Spitze} {}
+\zusatzklammer {oder eine \stichwort {Kuspe} {,} was einfach Spitze bedeutet} {} {.}
+Dagegen ist die Singularität im Bild 8 ein \stichwort {Kreuzungspunkt} {} oder \stichwort {Doppelpunkt} {.}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Im Bild 7 vom Anfang und oben sieht man ebenfalls Nullstellengebilde der Form
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y^2
+}<br/>{ = }{ G(X)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+wobei $G(X)$ ein Polynom vom Grad drei ist. Wie sieht $G(X)$ aus, damit sich solch eine Kurve ergibt? Die zuletzt genannten Beispiele zeigen auch, dass es von der genauen Gestalt von $G(X)$ abhängt, ob die Kurve eine Singularität besitzt oder nicht.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Bleiben wir noch bei der Neilschen Parabel $C$. Wenn $t$ irgendeine reelle oder komplexe Zahl ist, so liegt der Punkt mit den Koordinaten
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (x,y)
+}<br/>{ = }{ \left( t^2  , \,  t^3                   \right)  
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+stets auf der Neilschen Parabel, da ja
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \left(  t^2  \right)^3
+}<br/>{ = }{ t^6
+}<br/>{ = }{ \left(  t^3  \right)^2
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist. Man kann auch umgekehrt zeigen
+\zusatzklammer {siehe
+<a rel="mw:WikiLink" href="./Neilsche_Parabel/Bildbeschreibung_durch_Gleichung/Aufgabe" title="Neilsche Parabel/Bildbeschreibung durch Gleichung/Aufgabe">Aufgabe 1.6</a>} {} {,}
+dass jeder Punkt der Neilschen Parabel eine solche Gestalt besitzt, dass es also zu <br/>\mathl{(x,y)}{} mit 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y^2
+}<br/>{ = }{ x^3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein
+\zusatzklammer {und zwar genau ein} {} {}
+$t$ mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (x,y)
+}<br/>{ = }{ \left( t^2  , \,  t^3                   \right)  
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+gibt. Man sagt, dass die Abbildung
+\maabbeledisp {} {\R} {C
+} {t} {(t^2,t^3)
+} {,}
+eine 
+\zusatzklammer {bijektive polynomiale} {} {}
+\stichwort {Parametrisierung} {} der Neilschen Parabel ist. Es ist eine nicht-triviale Frage, welche algebraischen Kurven eine polynomiale Parametrisierung besitzen. Eine Kurve der Form
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y^2
+}<br/>{ = }{G(X)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+die glatt ist und wo $G$ den Grad drei hat, besitzt keine solche Parametrisierung. In der elementaren Zahlentheorie lernt man, dass alle \stichwort {pythagoreischen Tripel} {} auf eine einfache übersichtliche Gestalt gebracht werden können, siehe
+<a rel="mw:WikiLink" href="./Pythagoreische_Tripel/Parametrische_Charakterisierung/Fakt" title="Pythagoreische Tripel/Parametrische Charakterisierung/Fakt">Satz 10.6 (Zahlentheorie (Osnabrück 2025))</a>.
+Äquivalent dazu ist eine
+\zusatzklammer {rationale} {} {}
+Parametrisierung des rationalen Einheitskreises, siehe
+<a rel="mw:WikiLink" href="./Einheitskreis/Rationale_Parametrisierung/Fakt" title="Einheitskreis/Rationale Parametrisierung/Fakt">Satz 10.4 (Zahlentheorie (Osnabrück 2025))</a>.
+Dies werden wir in größerer Allgemeinheit in
+<a rel="mw:WikiLink" href="./Quadrik_in_zwei_Variablen/Rationale_Parametrisierung/Fakt" title="Quadrik in zwei Variablen/Rationale Parametrisierung/Fakt">Satz 7.6</a>
+behandeln. </p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir kommen zur ersten allgemeinen Definition.
+<br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein
+\definitionsverweis {Körper}{}{.}
+Eine \definitionswort {ebene affin-algebraische Kurve}{} über $K$ ist das 
+\definitionsverweis {Nullstellengebilde}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V(F)
+}<br/>{ \subseteq }{ K^2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eines nicht-konstanten Polynoms $F$ in zwei Variablen, also
+<br/>\mathdisp {F=\sum_{0 \leq i,j \leq m} \, a_{ij} X^{i}Y^{j} \,  (\text{mit } a_{ij} \in K)} { . }<br/>
+D.h. es ist
+<br/>\mavergleichskettedisphandlinks<br/>{\vergleichskettedisphandlinks<br/>{ V(F)
+}<br/>{ =} { \left\{  (x,y) \in K^2   \mid   F(x,y) = \sum_{0 \leq i,j \leq m} \, a_{ij} x^{i}y^{j} = 0         \right\} 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Als Lieblingspolynome in den zwei Variablen
+\mathkor {} {X} {und} {Y} {}
+wurden im Kurs genannt:
+\auflistungzweireihe  {\listitemfuenf {$X^2-Y^2$, 
+}{<br/>\mathl{2X+4Y+3}{,} 
+}{<br/>\mathl{X^2+Y^2-3}{,} 
+}{<br/>\mathl{X^2+Y^2}{,} 
+}{<br/>\mathl{5X^2 +12Y^2 -26}{,}  
+} } {\listitemfuenf  {<br/>\mathl{3X^2 -15Y^2 -3}{,} 
+}{<br/>\mathl{X^3 + Y^3+ XY}{,} 
+}{<br/>\mathl{X^3-4Y^2 - XY}{,} 
+}{$X^4$, 
+}{<br/>\mathl{X^2 Y^2 -X^2}{.} 
+} }
+Das zugehörige Nullstellengebilde <br/>\mathl{V(F)}{} ist unterschiedlich schwierig zu erfassen. Nach der dritten binomischen Formel ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{X^2 -Y^2
+}<br/>{ = }{ (X+Y) (X-Y)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+und ein Produkt ist in einem Körper genau dann gleich $0$, wenn einer der Faktoren gleich $0$ ist. Daher ist diese Nullstellenmenge einfach die Vereinigung der Hauptdiagonalen mit der Nebendiagonalen, also eine Vereinigung von zwei affinen Geraden.
+Die Nullstellenmenge zu <br/>\mathl{2X+4Y+3}{} ist einfach die Lösungsmenge dieser linearen Gleichung, also eine affine Gerade.
+Die reelle Nullstellenmenge zu <br/>\mathl{X^2+Y^2 - 3}{} ist der Kreis um den Ursprung mit dem Radius $\sqrt{3}$. Dagegen ist die reelle Nullstellenmenge von  <br/>\mathl{X^2+Y^2}{} allein der Nullpunkt <br/>\mathl{(0,0)}{}
+\zusatzklammer {über ${\mathbb C}$ sieht das anders aus} {} {.} 
+Die Nullstellenmenge zu  <br/>\mathl{5X^2 + 12Y^2 -26}{} ist eine 
+\zusatzklammer {achsenparallele} {} {}
+Ellipse, dagegen ist die Nullstellenmenge von <br/>\mathl{3X^2 -15 Y^2 -3}{} eine gestauchte Hyperbel. Nullstellenmengen von quadratischen Polynomen werden wir ausführlich in der siebten Vorlesung besprechen und klassifizieren. Die beiden Polynome  <br/>\mathl{X^3 + Y^3 +XY}{} und  <br/>\mathl{X^3 - 4Y^2 -XY}{} haben den Grad $3$ und sind deutlich schwieriger zu verstehen. Die erste Frage wird sein, ob sie glatt sind oder ob Singularitäten vorliegen. Die Nullstellenmenge $V(X^4)$ stimmt mit der Nullstellenmenge   <br/>\mathl{V(X)}{} überein und ist somit die $y$-Achse. Das letzte Polynom erlaubt die Faktorisierung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ X^2Y^2-X^2
+}<br/>{ =} { X^2 (Y^2-1)
+}<br/>{ =} { X^2 (Y-1)(Y+1)
+}<br/>{ } { 
+}<br/>{ } { 
+}<br/>}
+{}{}{} und ist von daher einfach zu erfassen. Sein Nullstellengebilde ist die Vereinigung von drei Geraden, der $y$-Achse und zwei zur $x$-Achse parallelen Geraden. </p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir beweisen ein Lemma, aus dem direkt folgt, dass die oben zuletzt abgebildeten Kurven nicht algebraisch sind.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurven/Schnitt mit Geraden/Ist endlich oder voll/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $C$ eine 
+\definitionsverweis {ebene affin-algebraische Kurve}{}{} 
+und sei $L$ eine Gerade in $K^2$.}<br/>\faktfolgerung {Dann ist der Durchschnitt <br/>\mathl{C \cap L}{} die ganze Gerade, oder er besteht nur aus endlich vielen Punkten.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Eine ebene algebraische Kurve
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C
+}<br/>{ = }{ V(F)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist nach Definition immer die Nullstelle eines Polynoms $F$ in zwei Variablen. Die Gerade $L$ sei durch die Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ aX+bY+c
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+gegeben. Ohne Einschränkung sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+dann kann man nach $X$ auflösen und erhält die Geradengleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{X
+}<br/>{ = }{ \alpha Y + \beta
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Ein Schnittpunkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ C \cap L
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+muss sowohl
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+als auch die Geradengleichung erfüllen. Mit der Geradengleichung kann man $X$ in $F$ durch <br/>\mathl{\alpha Y + \beta}{} ersetzen. Dadurch wird $F$ zu einem Polynom in der einen Variablen $Y$, das wir $\tilde{F}$ nennen. Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ C \cap L
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+äquivalent dazu, dass
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ L
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \tilde{F}(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist. D.h. die Schnittmenge wird durch das Polynom $\tilde{F}$ beschrieben. Bei 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \tilde{F}
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist die ganze Gerade der Schnitt. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \tilde{F}
+}<br/>{ \neq }{ 0
+}<br/>{  }{ 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt es nach
+<a rel="mw:WikiLink" href="./Polynomring_(Körper)/Nullstellen/Anzahl/Fakt" title="Polynomring (Körper)/Nullstellen/Anzahl/Fakt">Korollar 19.9 (Lineare Algebra (Osnabrück 2024-2025))</a>
+nur endlich viele Nullstellen.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+In den obigen Beispielen gibt es aber Geraden, die die Kurven in unendlich vielen Punkten schneiden – deshalb sind sie nicht algebraisch.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Polynomringe}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Nach diesen einführenden Beispielen fixieren wir ein paar Begrifflichkeiten, die wahrscheinlich schon bekannt sind.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Der \definitionswort {Polynomring}{} über einem
+\definitionsverweis {kommutativen Ring}{}{}
+$R$ besteht aus allen <br/>\definitionswortenp{Polynomen}{} 
+<br/>\mathbedtermdisp { P=a_0 + a_1X+a_2X^2 + \cdots + a_nX^n }<br/>{ mit } { a_i \in R }<br/>{  } { i = 0 , \ldots ,  n } {  } { n \in \N } { , }
+und mit komponentenweiser Addition und einer Multiplikation, die durch distributive Fortsetzung der Regel
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{  X^n \cdot X^m 
+}<br/>{ \defeq} {   X^{n+m}
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+definiert ist.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Darauf aufbauend kann man auch Polynomringe in mehreren Variablen definieren. Man setzt
+<br/>\mathdisp {K[X,Y] \defeq (K[X] )[Y], \, K[X,Y,Z] \defeq (K[X,Y])[Z]} { , }<br/>
+etc. Ein Polynom in $n$ Variablen hat die Gestalt
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F
+}<br/>{ =} { \sum_{(\nu_1 , \ldots , \nu_n)}  a_{(\nu_1 , \ldots , \nu_n)}  X_1^{\nu_1 } \cdots X_n^{\nu_n }
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Es wird dabei summiert über eine endliche Familie von \stichwort {Exponententupel} {} <br/>\mathl{(\nu_1 , \ldots , \nu_n)}{.} Die Ausdrücke <br/>\mathl{X_1^{\nu_1 } \cdots X_n^{\nu_n }}{}
+nennt man auch \stichwort {Monome} {.} Ein Polynom schreibt man zumeist abkürzend als 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ = }{ \sum_{\nu} a_{\nu} X^{\nu}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Das Produkt von zwei Monomen bedeutet Addition der Exponententupel, also
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left(  X_1^{\nu_1 } \cdots X_n^{\nu_n }  \right) \cdot \left(  X_1^{\mu_1 } \cdots X_n^{\mu_n }  \right) 
+}<br/>{ \defeq} { X_1^{\nu_1+\mu_1 } \cdots X_n^{\nu_n+ \mu_n }
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.} </p><span about="#mwt1">
+
+</span><p about="#mwt1">Für uns, im Kontext der algebraischen Geometrie, ist hauptsächlich der Fall interessant, wo der Grundring $R$ ein Körper ist. In der algebraischen Geometrie interessiert man sich für die Gestalt von Nullstellengebilden von Polynomen in mehreren Variablen. Wir werden später sehen, dass die Beziehung zwischen algebraischen und geometrischen Eigenschaften besonders stark ist, wenn der Grundkörper algebraisch abgeschlossen ist.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Ein 
+\definitionsverweis {Körper}{}{}
+$K$ heißt \definitionswort {algebraisch abgeschlossen}{,} wenn jedes nichtkonstante 
+\definitionsverweis {Polynom}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ \in }{ K[X]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine Nullstelle in $K$ besitzt.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Carl_Friedrich_Gauss} {jpg} }<br/>\end{center} <br/>\bildtext {<a rel="mw:WikiLink/Interwiki" href="https://de.wikipedia.org/wiki/Carl%20Friedrich%20Gauss" title="w:Carl Friedrich Gauss" class="extiw">Carl Friedrich Gauss (1777–1855)</a>} }<br/><br/>\bildlizenz { Carl Friedrich Gauss.jpg } {} {Bcrowell} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Der sogenannte \stichwort {Fundamentalsatz der Algebra} {} wurde erstmals von Gauss bewiesen.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1">\inputfaktbeweis<br/>{Fundamentalsatz der Algebra/Algebraisch abgeschlossen/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {Der
+\definitionsverweis {Körper}{}{}
+$\mathbb C$ der 
+\definitionsverweis {komplexen Zahlen}{}{}}<br/>\faktfolgerung {ist
+\definitionsverweis {algebraisch abgeschlossen}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+<pre>}<br/>{Wir werden den Satz hier nicht beweisen. Die Beweise dafür benutzen topologische oder analytische Mittel.</pre>
+
+ }</div><span about="#mwt1">
+
+ </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

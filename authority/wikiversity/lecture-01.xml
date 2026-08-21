@@ -1,0 +1,157 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 1</title>
+    <ns>106</ns>
+    <id>165889</id>
+    <revision>
+      <id>1108084</id>
+      <parentid>1055438</parentid>
+      <timestamp>2026-07-20T08:57:22Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1108084</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3571" sha1="sbohlbklicv2bb3w2dxf1d2h6qa1ogt" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|1|
+
+{{Zwischenüberschrift|Ebene algebraische Kurven}}
+
+Was ist eine algebraische Kurve? Zum Beispiel das, was auf den folgenden schönen Bildern zu sehen ist:   
+
+{{:Algebraische Kurven/Einführung/Gallerie}}
+
+Nun kann man natürlich viel malen. Schön sind auch die folgenden Kurven, doch das sind keine algebraischen Kurven:
+
+{{
+inputbild
+|Cicloide|svg| 200px {{!}} {{!}} |
+|Autor=
+|Benutzer=Elborgo
+|Domäne=
+|Lizenz=CC-BY-SA-2.5
+|Bemerkung=
+}}
+{{
+inputbild
+|Logarithmic spiral|png| 200px {{!}} {{!}} |
+|Zusname=Logarithmic_spiral
+|Autor=
+|Benutzer=Anarkman
+|Domäne=en.wikipedia.org
+|Lizenz=CC-BY-SA-3.0
+|Bemerkung=
+}}
+{{
+inputbild
+|Sin|svg| 200px {{!}} {{!}} |
+|Autor=Keytotime
+|Benutzer=Ysae
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{
+inputbild
+|Quadratic Koch|png| 200px {{!}}  {{!}} |
+|Zusname=Quadratic_Koch
+|Autor=Alexis Monnerot-Dumaine
+|Benutzer=Prokofiev
+|Domäne=
+|Lizenz=CC-BY-SA-2.5
+|Bemerkung=
+}}
+ 
+Das {{Anführung|algebraisch}} in algebraische Kurve kommt daher, dass zu ihrer Definition nur algebraische Operationen verwendet werden dürfen, d.h. Addition und Multiplikation, nicht aber analytische Prozesse wie Limes nehmen, unendliche Summen, Approximieren, Differenzieren und Integrieren. Die erlaubten Abbildungen in unserem Kontext sind durch Polynome in mehreren Variablen gegeben. In den obigen Bildern geht es um ebene algebraische Kurven, die durch ein Polynom in zwei Variablen definiert werden. {{:Algebraische Kurven/Einführung/Gallerie/Erläuterung/Textabschnitt}}
+
+{{Zwischenüberschrift|Gleichungen der Form {{mathl|term= Y^2 = G(X) |SZ=}} }}
+
+{{:Algebraische Kurven/Einführung/Gallerie/Erläuterung/Fortsetzung/Newton/Textabschnitt|zusatz1=&amp;nbsp; {{
+Zusatz/Klammer
+|text=siehe die siebte Vorlesung|
+|ISZ=|ESZ=.
+}}}}
+
+Wir kommen zur ersten allgemeinen Definition.
+{{inputdefinition
+|Ebene affin-algebraische Kurve/Definition|}}
+
+{{:Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Lieblingspolynome/Textabschnitt}}
+
+Wir beweisen ein Lemma, aus dem direkt folgt, dass die oben zuletzt abgebildeten Kurven nicht algebraisch sind.
+
+{{inputfaktbeweis
+|Ebene algebraische Kurven/Schnitt mit Geraden/Ist endlich oder voll/Fakt|Lemma|}}
+
+In den obigen Beispielen gibt es aber Geraden, die die Kurven in unendlich vielen Punkten schneiden – deshalb sind sie nicht algebraisch.
+
+{{Zwischenüberschrift|Polynomringe}}
+
+Nach diesen einführenden Beispielen fixieren wir ein paar Begrifflichkeiten, die wahrscheinlich schon bekannt sind.
+
+{{:Kommutative Ringtheorie/Polynomring/Eine und mehrere Variablen/Einführung/Textabschnitt}}
+
+Für uns, im Kontext der algebraischen Geometrie, ist hauptsächlich der Fall interessant, wo der Grundring {{math|term= R }} ein Körper ist. In der algebraischen Geometrie interessiert man sich für die Gestalt von Nullstellengebilden von Polynomen in mehreren Variablen. Wir werden später sehen, dass die Beziehung zwischen algebraischen und geometrischen Eigenschaften besonders stark ist, wenn der Grundkörper algebraisch abgeschlossen ist.
+
+{{inputdefinition
+|Körpertheorie (Algebra)/Algebraisch abgeschlossen/Definition|}}
+
+{{
+inputbild
+|Carl Friedrich Gauss|jpg|{{!}} thumb {{!}} 
+|Zusname=Carl_Friedrich_Gauss
+|Text=[[w:Carl Friedrich Gauss|Carl Friedrich Gauss (1777–1855)]] 
+|Autor=
+|Benutzer=Bcrowell
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+
+Der sogenannte {{Stichwort|Fundamentalsatz der Algebra}} wurde erstmals von Gauss bewiesen.
+
+{{inputfaktbeweisverweis|Fundamentalsatz der Algebra/Algebraisch abgeschlossen/Fakt|Satz|}}
+
+}}</text>
+      <sha1>sbohlbklicv2bb3w2dxf1d2h6qa1ogt</sha1>
+    </revision>
+  </page>
+</mediawiki>

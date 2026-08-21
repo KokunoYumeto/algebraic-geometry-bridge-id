@@ -1,0 +1,37 @@
+{
+  "schema": "ag-bridge-production-cursor-v1",
+  "updated": "2026-08-21",
+  "lane": "O016/D100 algebraic-geometry-bridge-id",
+  "language": "id-ID",
+  "status": "unit_01_ready_for_publication",
+  "completed_source_boundary": {
+    "lecture": 1,
+    "worksheet": 1,
+    "worksheet_exercises": 28,
+    "public_source_solutions": 7,
+    "media_positions": 23,
+    "reader_html": true,
+    "reader_pdf_pages": 27,
+    "backend_records": 684,
+    "machine_qa": "PASS",
+    "visual_qa": "PASS",
+    "backend_qa": "PASS"
+  },
+  "next_source_boundary": {
+    "lecture": 2,
+    "worksheet": 2,
+    "action": "freeze exact current source revisions, semantic dependencies, solutions, and media before translating in source order"
+  },
+  "later_bridge": {
+    "state": "not_started",
+    "placement": "only after documented classical prerequisites",
+    "donor": "Napkin Part XX exact frozen six-file closure",
+    "original_connector": "affine gluing and cocycles; P^1 from two affine lines; doubled origin; one Brenner projective curve in charts; original exercises and solutions"
+  },
+  "publication": {
+    "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+    "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
+    "state": "pending_transaction"
+  }
+}
+

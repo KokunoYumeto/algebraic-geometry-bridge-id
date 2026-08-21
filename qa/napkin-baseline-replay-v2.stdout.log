@@ -1,0 +1,18 @@
+Initial Win CP for (console input, console output, system): (CP1252, CP65001, CP1252)
+I changed them all to CP1252
+Rc files read (in order):
+  ./.latexmkrc
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+Latexmk: applying rule 'cusdep asy pdf asy/Napkin-94A'...
+Rule 'cusdep asy pdf asy/Napkin-94A':  Reasons for rerun
+Category 'no_dest':
+  cusdep asy pdf asy/Napkin-94A
+
+------------
+Run number 1 of rule 'cusdep asy pdf asy/Napkin-94A'
+------------
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  cusdep asy pdf asy/Napkin-94A: Command for 'cusdep asy pdf asy/Napkin-94A' gave return code 256
+  cusdep asy pdf asy/Napkin-9A: gave an error in previous invocation of latexmk.
+

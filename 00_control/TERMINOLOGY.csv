@@ -1,0 +1,19 @@
+term_id,source_language,source_term,target_language,preferred_target,rejected_or_variant,scope,status,rationale
+AGT-0001,de,algebraische Kurve,id-ID,kurva aljabar,kurva algebraik,whole_lane,admitted,Established Indonesian mathematical usage and direct transparent rendering
+AGT-0002,de,ebene algebraische Kurve,id-ID,kurva aljabar bidang,kurva aljabar datar,Brenner,admitted,Uses bidang consistently for the affine plane
+AGT-0003,de,affin,id-ID,afin,affine,whole_lane,admitted,Standard Indonesian spelling
+AGT-0004,de,Grundkörper,id-ID,medan dasar,lapangan dasar,whole_lane,admitted,Uses the established field=medan convention
+AGT-0005,de,Polynomring,id-ID,gelanggang polinomial,cincin polinomial,whole_lane,admitted,Uses the established ring=gelanggang convention
+AGT-0006,de,Nullstellengebilde,id-ID,lokus nol,himpunan akar,Brenner,admitted,Geometric zero locus rather than merely a list of scalar roots
+AGT-0007,de,Lösungsmenge,id-ID,himpunan solusi,,whole_lane,admitted,Direct mathematical usage
+AGT-0008,de,algebraisch abgeschlossen,id-ID,tertutup secara aljabar,tertutup aljabar,whole_lane,admitted,Explicit adverb avoids ambiguity
+AGT-0009,de,irreduzibel,id-ID,tak tereduksi,ireduksibel,whole_lane,admitted,Transparent standard mathematical rendering
+AGT-0010,de,rationale Funktion,id-ID,fungsi rasional,,whole_lane,admitted,Established Indonesian usage
+AGT-0011,de,Pol,id-ID,kutub,,whole_lane,admitted,Established complex-analysis and algebraic-geometry usage
+AGT-0012,de,Fundamentalsatz der Algebra,id-ID,teorema dasar aljabar,,whole_lane,admitted,Established theorem name
+AGT-0013,en,scheme,id-ID,skema,,scheme_bridge,admitted,Established Indonesian mathematical borrowing
+AGT-0014,en,affine scheme,id-ID,skema afin,skema affine,scheme_bridge,admitted,Matches the admitted spelling afin
+AGT-0015,en,structure sheaf,id-ID,berkas struktur,,scheme_bridge,provisional,Must remain consistent with the later sheaf module
+AGT-0016,en,stalk,id-ID,tangkai,,scheme_bridge,provisional,Define together with germ on first use
+AGT-0017,en,locally ringed space,id-ID,ruang bergelanggang lokal,,scheme_bridge,provisional,Compositional terminology pending first translated use
+AGT-0018,en,gluing data,id-ID,data pengeleman,data perekatan,scheme_bridge,provisional,Select final form during original supplement drafting
