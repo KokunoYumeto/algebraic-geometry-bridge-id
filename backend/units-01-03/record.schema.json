@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/algebraic-geometry-bridge/backend-record-units-01-03-v1.schema.json",
+  "title": "Algebraic Geometry Bridge cumulative backend record through Units 1--3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "schema_version",
+    "entity_class",
+    "stable_id",
+    "source_local_id",
+    "parent_id",
+    "order",
+    "path",
+    "resource_id",
+    "edition_id",
+    "source_locator",
+    "content_sha256",
+    "language",
+    "translation_state",
+    "provenance",
+    "concept_ids",
+    "prerequisite_ids",
+    "rights_id",
+    "status",
+    "timestamp",
+    "responsible_workflow",
+    "supersedes",
+    "payload"
+  ],
+  "properties": {
+    "schema": {
+      "const": "ag-bridge-backend-record"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "entity_class": {
+      "enum": [
+        "artifact",
+        "asset",
+        "concept",
+        "correction",
+        "course",
+        "edition",
+        "exercise",
+        "program",
+        "qa_event",
+        "relation",
+        "resource",
+        "rights",
+        "segment",
+        "solution",
+        "term",
+        "unit"
+      ]
+    },
+    "stable_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_local_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "order": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "resource_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "edition_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "content_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "language": {
+      "type": "string"
+    },
+    "translation_state": {
+      "enum": [
+        "source_frozen",
+        "queued",
+        "draft",
+        "translated",
+        "structurally_verified",
+        "mathematically_reviewed",
+        "language_reviewed",
+        "built",
+        "visually_checked",
+        "published",
+        "superseded",
+        "blocked"
+      ]
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "concept_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "prerequisite_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "rights_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "responsible_workflow": {
+      "type": "string"
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

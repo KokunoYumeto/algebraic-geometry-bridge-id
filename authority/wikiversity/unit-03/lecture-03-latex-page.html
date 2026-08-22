@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/1033002"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/0"/><meta property="mw:revisionSHA1" content="5mpvl81u97hs35l9k2lrqpklqf8f5gh"/><meta property="dc:modified" content="2025-08-11T13:51:06Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="165956"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_3/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 3/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="7ccb2a52-9cef-11f1-bc30-53afd7f7a2cf"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{3}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Die Zariski-Topologie}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Oscar_Zariski} {jpg} }<br/>\end{center} <br/>\bildtext {<a rel="mw:WikiLink/Interwiki" href="https://de.wikipedia.org/wiki/Oscar%20Zariski" title="w:Oscar Zariski" class="extiw">Oscar Zariski (1899-1986)</a>} }<br/><br/>\bildlizenz { Oscar Zariski.jpg } {} {} {Commons} {} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1">In
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Vereinigung_und_Durchschnitt_von_affin-algebraischen_Mengen_im_affinen_Raum/Fakt" title="Affine Varietäten/Vereinigung und Durchschnitt von affin-algebraischen Mengen im affinen Raum/Fakt">Proposition 2.8</a>
+haben wir gezeigt, dass die affin-algebraischen Teilmengen eines affinen Raumes die Axiome für abgeschlossene Mengen einer 
+\definitionsverweis {Topologie}{}{}
+erfüllen. Diese Topologie nennt man die <a rel="mw:WikiLink/Interwiki" href="https://de.wikipedia.org/wiki/Oscar%20Zariski" title="w:Oscar Zariski" class="extiw">Zariski</a>-Topologie.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>In einem 
+\definitionsverweis {affinen Raum}{}{} 
+<br/>\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} versteht man unter der \definitionswort {Zariski-Topologie}{} diejenige 
+\definitionsverweis {Topologie}{}{,} 
+bei der die 
+\definitionsverweis {affin-algebraischen Mengen}{}{} 
+als abgeschlossen erklärt werden.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die offenen Mengen der Zariski-Topologie sind also die Komplemente der affin-algebraischen Mengen. Sie werden zu einem Ideal ${\mathfrak a}$ mit
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ D({\mathfrak a})
+}<br/>{ =} { { {\mathbb A}_{ K }^{ n  } }  \setminus V({\mathfrak a})
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+bezeichnet. Die Zariski-Topologie weicht sehr stark von anderen Topologien ab, insbesondere von solchen, die durch eine Metrik gegeben sind. Insbesondere ist die Zariski-Topologie nicht
+\definitionsverweis {hausdorffsch}{}{.}
+Generell kann man sagen, dass die offenen Mengen
+\zusatzklammer {außer der leeren Menge} {} {}
+in der Zariski-Topologie sehr groß sind 
+\zusatzklammer {siehe
+<a rel="mw:WikiLink" href="./Zariski-Topologie/Affiner_Raum/Offene_Mengen_sind_dicht/Aufgabe" title="Zariski-Topologie/Affiner Raum/Offene Mengen sind dicht/Aufgabe">Aufgabe 3.20</a>} {} {,}
+während die abgeschlossenen 
+\zusatzklammer {also die affin-algebraischen Mengen} {} {}
+sehr dünn sind 
+\zusatzklammer {außer dem ganzen Raum selbst} {} {.}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Die Zariski-Topologie auf der affinen Geraden <br/>\mathl{{\mathbb A}^{1}_{ K }}{} über einem 
+\definitionsverweis {Körper}{}{}
+$K$ lässt sich einfach beschreiben. Als
+\zusatzklammer {Zariski} {} {-}abgeschlossene Teilmenge haben wir zunächst einmal die gesamte affine Gerade, die durch <br/>\mathl{V(0)}{} beschrieben wird. Alle anderen abgeschlossenen Teilmengen werden durch <br/>\mathl{V({\mathfrak a})}{} mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ \neq }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+beschrieben. Da <br/>\mathl{K[X]}{} ein 
+\definitionsverweis {Hauptidealbereich}{}{}
+ist, kann man sogar 
+<br/>\mathbed {{\mathfrak a} =(f)} {} <br/> {f \neq 0} {} <br/> {} {} {} {,}
+ansetzen. Die zugehörige Nullstellenmenge besteht also aus endlich vielen Punkten. Andererseits ist jeder einzelne Punkt $P$ mit der Koordinate $a$ die einzige Nullstelle des linearen Polynoms <br/>\mathl{X-a}{,} also ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \{P\}
+}<br/>{ = }{ V(X-a)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+Zariski-abgeschlossen. Eine endliche Ansammlung von Punkten <br/>\mathl{P_1 , \ldots ,  P_k}{} mit den Koordinaten <br/>\mathl{a_1 , \ldots , a_k}{} ist die Nullstellenmenge des Polynoms <br/>\mathl{(X-a_1) \cdots (X-a_k)}{.} Die Zariski-abgeschlossenen Mengen der affinen Geraden bestehen also aus allen endlichen Teilmengen
+\zusatzklammer {einschließlich der leeren} {} {}
+und der gesamten Menge.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Lineline} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Lineline.jpg } {} {Astur1} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Jeder Punkt
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{P
+}<br/>{ =} { (a_1 , \ldots , a_n)
+}<br/>{ \in} { { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+ist
+\definitionsverweis {Zariski-abgeschlossen}{}{,}
+und zwar ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{P
+}<br/>{ =} { V(X_1-a_1,X_2-a_2 , \ldots , X_n- a_n )
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Punkte sind
+\zusatzklammer {neben der leeren Menge und dem gesamten Raum} {} {}
+die einfachsten affin-algebraischen Mengen. Das Ideal 
+\zusatzklammer {genannt \stichwort {Punktideal} {}} {} {} 
+<br/>\mathl{(X_1-a_1, X_2-a_2 , \ldots , X_n- a_n )}{} ist
+\definitionsverweis {maximal}{}{,}
+siehe
+<a rel="mw:WikiLink" href="./Affiner_Raum/Punktideal/Maximal/Aufgabe" title="Affiner Raum/Punktideal/Maximal/Aufgabe">Aufgabe 2.12</a>.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {IntersectingPlanes} {png} }<br/>\end{center} <br/>\bildtext {Der Schnitt von zwei und} }<br/><br/>\bildlizenz { IntersectingPlanes.png } {} {Stib} {en.wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Secretsharing-3-point} {png} }<br/>\end{center} <br/>\bildtext {von drei Ebenen} }<br/><br/>\bildlizenz { Secretsharing-3-point.png } {} {Stib} {en.wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1"> 
+
+</span><p about="#mwt1">Nach 
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Vereinigung_und_Durchschnitt_von_affin-algebraischen_Mengen_im_affinen_Raum/Fakt" title="Affine Varietäten/Vereinigung und Durchschnitt von affin-algebraischen Mengen im affinen Raum/Fakt">Proposition 2.8<span typeof="mw:Entity"> </span> (3)</a>
+sind somit alle endlichen Teilmengen des affinen Raumes Zariski-abgeschlossen und somit sind die Komplemente <br/>\mathl{{ {\mathbb A}_{ K }^{ n  } } \setminus E}{,} wenn $E$ eine endliche Punktemenge bezeichnet, Zariski-offen. Ferner ist zu einer rationalen Funktion <br/>\mathl{P/Q}{} mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P,Q
+}<br/>{ \in }{ K[X_1 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Q
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der Definitionsbereich, nämlich $D(Q)$, offen.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Das Verschwindungsideal}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{T
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine Teilmenge. Dann nennt man
+<br/>\mathdisp {\left\{  F \in  K[X_1 , \ldots ,  X_n]   \mid   F(P) = 0 \text { für alle } P \in T        \right\}} {  }<br/>
+das \definitionswort {Verschwindungsideal}{} zu $T$. Es wird mit <br/>\mathl{\operatorname{Id} \,(T)}{} bezeichnet.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Es handelt sich dabei in der Tat um ein Ideal: Wenn
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+für alle
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, so gilt dies auch für die Summe <br/>\mathl{F+G}{} und für jedes Vielfache $HF$.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Damit haben wir zwei Zuordnungen in entgegengesetzte Richtung: Einer Teilmenge im affinen Raum wird das Verschwindungsideal zugeordnet und einem Ideal im Polynomring das zugehörige Nullstellengebilde. Wir interessieren uns dafür, inwiefern sich Ideale und Nullstellengebilde entsprechen.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Das
+\definitionsverweis {Verschwindungsideal}{}{}
+zur leeren Menge ist das 
+\definitionsverweis {Einheitsideal}{}{,}
+da es keinen Punkt gibt, auf dem die Nullstellenbedingung überprüft werden müsste.</p>
+
+<p>Das Verschwindungsideal zum Gesamtraum <br/>\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} hängt vom Körper ab. Wenn dieser unendlich ist, so gibt es nur das Nullpolynom, das überall verschwindet, und folglich ist das Verschwindungsideal gleich dem Nullideal. Dies folgt aus
+<a rel="mw:WikiLink" href="./Identitätssatz_für_Polynome/Unendlicher_Körper/Zariski-offene_nicht-leere_Menge/Aufgabe" title="Identitätssatz für Polynome/Unendlicher Körper/Zariski-offene nicht-leere Menge/Aufgabe">Aufgabe 3.18</a>.</p>
+
+<p>Ist hingegen der Körper endlich mit $q$ Elementen, so ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ x^q -x
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+für jedes
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ x
+}<br/>{ \in }{ K
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Also verschwindet das Polynom <br/>\mathl{X^q-X}{} auf jedem Punkt der affinen Geraden und gehört somit zum Verschwindungsideal der affinen Geraden. In höherer Dimension ist das Verschwindungsideal von <br/>\mathl{{ {\mathbb A}_{  K }^{  n   } }}{}   gleich <br/>\mathl{(X_1^q-X_1,X_2^q-X_2 , \ldots , X_n^q-X_n)}{.}</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ = }{ (a_1 , \ldots , a_n) 
+}<br/>{ \in }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann ist das 
+\definitionsverweis {Verschwindungsideal}{}{}
+<br/>\mathl{\operatorname{Id}  \, (P)}{} gleich dem Ideal <br/>\mathl{(X_1-a_1 , \ldots ,  X_n -a_n)}{.} Zunächst ist klar, dass die linearen Polynome <br/>\mathl{X_i-a_i}{} im Punkt $P$ verschwinden
+\zusatzklammer {wegen
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ (X_i-a_i)(P)
+}<br/>{ = }{ a_i -a_i
+}<br/>{ = }{ 0
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {.}
+Damit gehört auch das von diesen Polynomen erzeugte Ideal zum Verschwindungsideal. Es sei umgekehrt $F$ ein Polynom mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Wir schreiben $F$ in den \anfuehrung{neuen Variablen}{}
+<br/>\mathdisp {\tilde{X}_1 = X_1-a_1 , \ldots ,  \tilde{X}_n = X_n -a_n} { , }<br/></p>
+
+<p>indem wir $X_i$ durch <br/>\mathl{X_i-a_i+a_i}{} ersetzen. In den neuen Variablen sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ = }{ \sum_\nu b_\nu \tilde{X}^\nu 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Dieses Polynom besteht aus der Konstanten $b_0$, in jedem anderen Monom kommt mindestens eine Variable vor. Also können wir 
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{F 
+}<br/>{ =} { F_1 \tilde{X}_1 + \cdots + F_n \tilde{X}_n + c
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+mit gewissen Polynomen $F_i$ schreiben. Daher ist 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ = }{ c
+}<br/>{ = }{ 0
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ (\tilde{X}_1 , \ldots ,  \tilde{X}_n)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affine Varietäten/Verschwindungsideal/Antimonotonie/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ \subseteq }{ W
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+Teilmengen.}<br/>\faktfolgerung {Dann gilt für die zugehörigen
+\definitionsverweis {
+Verschwindungsideale
+}{}{}
+die Inklusion
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \operatorname{Id}  \, (W)
+}<br/>{ \subseteq} { \operatorname{Id} \, (V) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ \operatorname{Id} \,(W)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+d.h. es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+für alle
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ W
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Dann ist erst recht
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+für alle 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Also ist auch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ \operatorname{Id} \,(V)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ I
+}<br/>{ \subseteq }{ K[X_1 , \ldots ,  X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein 
+\definitionsverweis {Ideal}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{T
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+eine Teilmenge.}<br/>\faktuebergang {Dann gelten folgende Aussagen.}<br/>\faktfolgerung {\aufzaehlungvier{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{T
+}<br/>{ \subseteq }{ V ( \operatorname{Id}(T))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ I 
+}<br/>{ \subseteq }{ \operatorname{Id} (V(I)) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V(I)
+}<br/>{ = }{ V ( \operatorname{Id}(V(I)))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{Id} (T)
+}<br/>{ = }{ \operatorname{Id} (V( \operatorname{Id} (T)  ))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>(1). Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Punkt. Dann verschwindet nach Definition jedes Polynom
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ \operatorname{Id}(T) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+auf $T$, also 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ V(  \operatorname{Id} (T))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>(2). Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ I
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann verschwindet $F$ auf ganz $V(I)$ und daher ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ \operatorname{Id} \, (V(I)) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} </p>
+
+<p>(3). Nach (1), angewandt auf
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T
+}<br/>{ = }{ V(I)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+haben wir die Inklusion \anfuehrung{ $\subseteq$ }{.} Nach (2) ist 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ I
+}<br/>{ \subseteq }{ \operatorname{Id} \, (V(I)) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Wendet man darauf $V(-)$ an, so ergibt sich nach
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Polynomring_und_affiner_Raum/Idealinklusion_und_Nullstellenmenge/Fakt" title="Affine Varietäten/Polynomring und affiner Raum/Idealinklusion und Nullstellenmenge/Fakt">Lemma 2.7</a>
+die andere Inklusion.</p>
+
+<p>(4). Wie (3).</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Die Inklusionen in
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Verschwindungsideal_zu_Teilmenge/Nullstellengebilde/Beziehung/Fakt" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt">Lemma 3.8</a>
+(1), (2) sind echt. Es sei zum Beispiel
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T
+}<br/>{ \subset }{ {\mathbb A}^{1}_{K} 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+eine unendliche echte Teilmenge
+\zusatzklammer {was voraussetzt, dass $K$ unendlich ist} {} {.}
+Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{Id} (T)  
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+und also ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V(0)
+}<br/>{ = }{ {\mathbb A}^{1}_{K} 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+echt größer als $T$.</p>
+
+<p>Zu (2). Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ I
+}<br/>{ = }{ (X^2)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R
+}<br/>{ = }{ K[X]
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V(I)
+}<br/>{ = }{ \{0\}
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{Id} \,(\{0\})
+}<br/>{ = }{ (X)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+aber
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X
+}<br/>{ \notin }{ (X^2) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Ein extremeres Beispiel für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R
+}<br/>{ = }{ \R [X,Y]
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ I
+}<br/>{ = }{ (X^2+Y^2)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V(I)
+}<br/>{ = }{ \{(0,0)\}  
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Das Verschwindungsideal zu diesem Punkt ist aber das Ideal <br/>\mathl{(X,Y)}{.}</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affiner Raum/Zariski-Topologie/Zariski-Abschluss ist V zu Verschwindungsideal/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{T
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+eine Teilmenge.}<br/>\faktfolgerung {Dann ist der Zariski-Abschluss von $T$ gleich
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \overline{T} 
+}<br/>{ =} { V( \operatorname{Id} \,(T)  )
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die Inklusion
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T 
+}<br/>{ \subseteq }{ V( \operatorname{Id} \,(T) )
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+wurde in
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Verschwindungsideal_zu_Teilmenge/Nullstellengebilde/Beziehung/Fakt" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt">Lemma 3.8<span typeof="mw:Entity"> </span> (1)</a>
+gezeigt. Da <br/>\mathl{V( \operatorname{Id} \,(T))}{} nach Definition abgeschlossen ist, folgt daraus
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \overline{T} 
+}<br/>{ \subseteq }{ V( \operatorname{Id} \,(T))
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}</p>
+
+<p>Es sei umgekehrt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ V( \operatorname{Id} \,(T))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \notin }{ \overline{T}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+angenommen. Dies bedeutet, dass es eine Zariski-offene Menge $U$ gibt mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ U
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U \cap T
+}<br/>{ = }{ \emptyset
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Es sei 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U
+}<br/>{ = }{ D( {\mathfrak a} )
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Die Bedingung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ U
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+bedeutet, dass es ein
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ \in }{ {\mathfrak a}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G(P)
+}<br/>{ \neq }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+geben muss. Es ist dann
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ D(G) 
+}<br/>{ \subseteq }{ U
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und damit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T \cap D(G)
+}<br/>{ = }{ \emptyset
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Also ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T
+}<br/>{ \subseteq }{ V(G)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+und somit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ \in }{ \operatorname{Id} \,(T) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G(P)
+}<br/>{ \neq }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+ergibt sich ein Widerspruch zu
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ V( \operatorname{Id} \,(T)) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+</div>
+
+}</div><span about="#mwt1"> 
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Das Radikal}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Ein 
+\definitionsverweis {Ideal}{}{}
+${\mathfrak a}$ in einem 
+\definitionsverweis {kommutativen Ring}{}{}
+$R$ heißt \definitionswort {Radikal}{}
+\zusatzklammer {oder \definitionswort {Radikalideal}{}} {} {,}
+wenn Folgendes gilt: Falls
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f^n
+}<br/>{ \in }{ {\mathfrak a} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist für ein
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ n
+}<br/>{ \in }{ \N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+so ist bereits
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ {\mathfrak a} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{ }<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $R$ ein 
+\definitionsverweis {kommutativer Ring}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ \subseteq }{ R 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+ein
+\definitionsverweis {Ideal}{}{.}
+Dann nennt man die Menge
+<br/>\mathdisp {\left\{  f \in R   \mid   \text{es gibt ein } r \text{ mit } f^r \in {\mathfrak a}         \right\}} {  }<br/>
+das \definitionswort {Radikal}{} zu ${\mathfrak a}$. Es wird mit <br/>\mathl{\operatorname{rad}  \left(    {\mathfrak a}   \right)}{} bezeichnet.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Das Radikal zu einem Ideal ist selbst ein Radikal und insbesondere ein Ideal.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Theorie der Radikale (kommutative Algebra)/Radikal zu einem Ideal/ist ein Ideal/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $R$ ein 
+\definitionsverweis {kommutativer Ring}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a} 
+}<br/>{ \subseteq }{ R
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+ein 
+\definitionsverweis {Ideal}{}{.}}<br/>\faktfolgerung {Dann ist das 
+\definitionsverweis {Radikal}{}{} 
+zu ${\mathfrak a}$ ein 
+\definitionsverweis {Radikalideal}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir zeigen zunächst, dass ein Ideal vorliegt. $0$ gehört offenbar zum Radikal und mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+sagen wir
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f^r
+}<br/>{ \in }{ {\mathfrak a} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+ist auch 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (af)^r
+}<br/>{ = }{ a^rf^r 
+}<br/>{ \in }{ {\mathfrak a} 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,}
+also gehört $af$ zum Radikal. Zur Summeneigenschaft seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f,g
+}<br/>{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f^r
+}<br/>{ \in }{ {\mathfrak a}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ g^s
+}<br/>{ \in }{ {\mathfrak a}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann ist
+<br/>\mavergleichskettealign<br/>{\vergleichskettealign<br/>{ (f+g)^{r+s}
+}<br/>{ =} { \sum_{i+j = r+s} \binom{r+s}{i}  f^{i}g^{j} 
+}<br/>{ =} { \sum_{i+j = r+s,\, i &lt;r } \binom{r+s}{i}  f^{i}g^{j}  +\sum_{i+j = r+s,\, i \geq r} \binom{r+s}{i}  f^{i}g^{j} 
+}<br/>{ \in} { {\mathfrak a}
+}<br/>{ } { 
+}<br/>}
+{}
+{}{.}
+Es sei nun
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f^k
+}<br/>{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (f^k)^r
+}<br/>{ = }{ f^{kr}
+}<br/>{ \in }{ {\mathfrak a}
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+</div>
+
+}</div><span about="#mwt1"> 
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affine Varietäten/Verschwindungsideal zu Teilmenge/ist Radikal/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine Teilmenge.}<br/>\faktfolgerung {Dann ist das 
+\definitionsverweis {Verschwindungsideal}{}{} 
+zu $T$ ein 
+\definitionsverweis {Radikal}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X_1 , \ldots ,  X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Polynom, und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F^s
+}<br/>{ \in }{ \operatorname{Id} \,(T) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F^s(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+für alle
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Dann ist aber auch 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+für alle
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ \operatorname{Id} \,(T)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Wir werden später sehen, dass über einem algebraisch abgeschlossenen Körper sich Radikale und algebraische Nullstellengebilde entsprechen. Das ist der Inhalt des \stichwort {Hilbertschen Nullstellensatzes} {.}
+
+ <link rel="mw:PageProp/Category" href="./Kategorie:Latexseite"/></p></section></body></html>

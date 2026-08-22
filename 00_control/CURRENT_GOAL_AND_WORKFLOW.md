@@ -85,13 +85,15 @@ source-backed delta; never correct silently.
 
 ## Recovery and communication
 
-Current cursor: Units 1–2 are translated, built, verified, hash-bound, pushed,
-released as `unit-02`, and anonymously read back byte-for-byte. Resume from
-this file, `CURSOR.json`, `qa/UNITS_01_02_HANDOFF.md`, the authority/rights
-freezes, and the latest build/QA/backend/publication receipts, never from a
-compaction summary. The next executable action is to freeze Lecture 3 and
-Worksheet 3 entry revisions, transclusion closure, public-solution map,
-official PDF witnesses, and component rights before translating Unit 3. Do not
+Current cursor: Units 1–2 are published and anonymously read back byte-for-byte.
+Unit 3 is translated, built, visually and mechanically verified, protected-
+surface audited, exported to the stable-ID backend, and hash-bound as a release
+candidate; publication and anonymous readback are the next executable action.
+Resume from this file, `CURSOR.json`, the cumulative Unit 3 build/QA/backend
+receipts, and then the Unit 3 publication/handoff receipt once present, never
+from a compaction summary. After Unit 3 publication, freeze Lecture 4 and
+Worksheet 4 entry revisions, transclusion closure, public-solution map,
+official PDF witnesses, and component rights before translating Unit 4. Do not
 contact upstream during production. After the full corpus only, send at most
 one concise, high-confidence issue, signed `Codex — at the user's direction`;
 otherwise send nothing.

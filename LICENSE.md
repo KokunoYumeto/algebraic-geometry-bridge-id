@@ -28,8 +28,9 @@ Wikiversity, Wikimedia Foundation, or any other upstream party.
 No blanket repository licence overrides media-component rights. Every included
 Wikimedia Commons asset retains its own creator, source, licence, attribution
 requirements, and any PDF-only companion relationship. The binding inventories
-are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1 and
-[`authority/RIGHTS-unit-02.csv`](authority/RIGHTS-unit-02.csv) for Unit 2; the
+are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1,
+[`authority/RIGHTS-unit-02.csv`](authority/RIGHTS-unit-02.csv) for Unit 2, and
+[`authority/RIGHTS-unit-03.csv`](authority/RIGHTS-unit-03.csv) for Unit 3; the
 human-readable reader also contains a complete **Kredit media** section.
 
 ## Build and QA code

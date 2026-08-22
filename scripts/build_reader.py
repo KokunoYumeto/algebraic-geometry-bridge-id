@@ -60,7 +60,28 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Dua kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-02.pdf",
         )
-    raise ValueError("only the verified contiguous scopes --through 1 and --through 2 are supported")
+    if through == 3:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-03.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "lecture-03.md",
+                SOURCE_DIR / "worksheet-03.md",
+                SOURCE_DIR / "worksheet-03-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+                SOURCE_DIR / "media-credits-unit-03.md",
+            ),
+            "Kurva Aljabar — Unit 1–3",
+            "Tiga kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-03.pdf",
+        )
+    raise ValueError("only the verified contiguous scopes --through 1, --through 2, and --through 3 are supported")
 
 
 def sha256(path: Path) -> str:

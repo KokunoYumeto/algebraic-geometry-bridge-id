@@ -1,0 +1,3514 @@
+\setcounter{section}{3}
+
+
+  \zwischenueberschrift{Die Zariski-Topologie}
+
+
+\bild{ \begin{center}
+
+
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Oscar_Zariski} {jpg} }
+
+
+\end{center}
+
+
+\bildtext {
+Oscar Zariski (1899-1986)
+} }
+
+
+\bildlizenz { Oscar Zariski.jpg } {} {} {Commons} {} {}
+
+
+In
+
+Proposition 2.8
+
+haben wir gezeigt, dass die affin-algebraischen Teilmengen eines affinen Raumes die Axiome für abgeschlossene Mengen einer
+\definitionsverweis {Topologie}{}{}
+erfüllen. Diese Topologie nennt man die
+Zariski
+-Topologie.
+
+
+\inputdefinition
+
+
+{}
+
+
+{
+
+
+In einem
+\definitionsverweis {affinen Raum}{}{}
+
+
+\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} versteht man unter der \definitionswort {Zariski-Topologie}{} diejenige
+\definitionsverweis {Topologie}{}{,}
+bei der die
+\definitionsverweis {affin-algebraischen Mengen}{}{}
+als abgeschlossen erklärt werden.
+
+
+}
+
+
+Die offenen Mengen der Zariski-Topologie sind also die Komplemente der affin-algebraischen Mengen. Sie werden zu einem Ideal ${\mathfrak a}$ mit
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ D({\mathfrak a})
+}
+
+
+{ =} { { {\mathbb A}_{ K }^{ n  } }  \setminus V({\mathfrak a})
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+bezeichnet. Die Zariski-Topologie weicht sehr stark von anderen Topologien ab, insbesondere von solchen, die durch eine Metrik gegeben sind. Insbesondere ist die Zariski-Topologie nicht
+\definitionsverweis {hausdorffsch}{}{.}
+Generell kann man sagen, dass die offenen Mengen
+\zusatzklammer {außer der leeren Menge} {} {}
+in der Zariski-Topologie sehr groß sind
+\zusatzklammer {siehe
+
+Aufgabe 3.20
+} {} {,}
+während die abgeschlossenen
+\zusatzklammer {also die affin-algebraischen Mengen} {} {}
+sehr dünn sind
+\zusatzklammer {außer dem ganzen Raum selbst} {} {.}
+
+
+\inputbeispiel{}
+
+
+{
+
+
+Die Zariski-Topologie auf der affinen Geraden
+
+
+\mathl{{\mathbb A}^{1}_{ K }}{} über einem
+\definitionsverweis {Körper}{}{}
+$K$ lässt sich einfach beschreiben. Als
+\zusatzklammer {Zariski} {} {-}abgeschlossene Teilmenge haben wir zunächst einmal die gesamte affine Gerade, die durch
+
+
+\mathl{V(0)}{} beschrieben wird. Alle anderen abgeschlossenen Teilmengen werden durch
+
+
+\mathl{V({\mathfrak a})}{} mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ {\mathfrak a}
+}
+
+
+{ \neq }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+beschrieben. Da
+
+
+\mathl{K[X]}{} ein
+\definitionsverweis {Hauptidealbereich}{}{}
+ist, kann man sogar
+
+
+\mathbed {{\mathfrak a} =(f)} {}
+
+
+ {f \neq 0} {}
+
+
+ {} {} {} {,}
+ansetzen. Die zugehörige Nullstellenmenge besteht also aus endlich vielen Punkten. Andererseits ist jeder einzelne Punkt $P$ mit der Koordinate $a$ die einzige Nullstelle des linearen Polynoms
+
+
+\mathl{X-a}{,} also ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \{P\}
+}
+
+
+{ = }{ V(X-a)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+Zariski-abgeschlossen. Eine endliche Ansammlung von Punkten
+
+
+\mathl{P_1 , \ldots ,  P_k}{} mit den Koordinaten
+
+
+\mathl{a_1 , \ldots , a_k}{} ist die Nullstellenmenge des Polynoms
+
+
+\mathl{(X-a_1) \cdots (X-a_k)}{.} Die Zariski-abgeschlossenen Mengen der affinen Geraden bestehen also aus allen endlichen Teilmengen
+\zusatzklammer {einschließlich der leeren} {} {}
+und der gesamten Menge.
+
+
+}
+
+
+\bild{ \begin{center}
+
+
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Lineline} {jpg} }
+
+
+\end{center}
+
+
+\bildtext {} }
+
+
+\bildlizenz { Lineline.jpg } {} {Astur1} {Commons} {PD} {}
+
+
+\inputbeispiel{}
+
+
+{
+
+
+Jeder Punkt
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{P
+}
+
+
+{ =} { (a_1 , \ldots , a_n)
+}
+
+
+{ \in} { { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+ist
+\definitionsverweis {Zariski-abgeschlossen}{}{,}
+und zwar ist
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{P
+}
+
+
+{ =} { V(X_1-a_1,X_2-a_2 , \ldots , X_n- a_n )
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{.}
+Punkte sind
+\zusatzklammer {neben der leeren Menge und dem gesamten Raum} {} {}
+die einfachsten affin-algebraischen Mengen. Das Ideal
+\zusatzklammer {genannt \stichwort {Punktideal} {}} {} {}
+
+
+\mathl{(X_1-a_1, X_2-a_2 , \ldots , X_n- a_n )}{} ist
+\definitionsverweis {maximal}{}{,}
+siehe
+
+Aufgabe 2.12
+.
+
+
+}
+
+
+\bild{ \begin{center}
+
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {IntersectingPlanes} {png} }
+
+
+\end{center}
+
+
+\bildtext {Der Schnitt von zwei und} }
+
+
+\bildlizenz { IntersectingPlanes.png } {} {Stib} {en.wikipedia.org} {CC-BY-SA-3.0} {}
+
+
+\bild{ \begin{center}
+
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Secretsharing-3-point} {png} }
+
+
+\end{center}
+
+
+\bildtext {von drei Ebenen} }
+
+
+\bildlizenz { Secretsharing-3-point.png } {} {Stib} {en.wikipedia.org} {CC-BY-SA-3.0} {}
+
+
+Nach
+
+Proposition 2.8
+
+ (3)
+
+sind somit alle endlichen Teilmengen des affinen Raumes Zariski-abgeschlossen und somit sind die Komplemente
+
+
+\mathl{{ {\mathbb A}_{ K }^{ n  } } \setminus E}{,} wenn $E$ eine endliche Punktemenge bezeichnet, Zariski-offen. Ferner ist zu einer rationalen Funktion
+
+
+\mathl{P/Q}{} mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P,Q
+}
+
+
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ Q
+}
+
+
+{ \neq }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+der Definitionsbereich, nämlich $D(Q)$, offen.
+
+
+  \zwischenueberschrift{Das Verschwindungsideal}
+
+
+\inputdefinition
+
+
+{}
+
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{T
+}
+
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+eine Teilmenge. Dann nennt man
+
+
+\mathdisp {\left\{  F \in  K[X_1 , \ldots ,  X_n]   \mid   F(P) = 0 \text { für alle } P \in T        \right\}} {  }
+
+
+das \definitionswort {Verschwindungsideal}{} zu $T$. Es wird mit
+
+
+\mathl{\operatorname{Id} \,(T)}{} bezeichnet.
+
+
+}
+
+
+Es handelt sich dabei in der Tat um ein Ideal: Wenn
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ G(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ T
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist, so gilt dies auch für die Summe
+
+
+\mathl{F+G}{} und für jedes Vielfache $HF$.
+
+
+Damit haben wir zwei Zuordnungen in entgegengesetzte Richtung: Einer Teilmenge im affinen Raum wird das Verschwindungsideal zugeordnet und einem Ideal im Polynomring das zugehörige Nullstellengebilde. Wir interessieren uns dafür, inwiefern sich Ideale und Nullstellengebilde entsprechen.
+
+
+\inputbeispiel{}
+
+
+{
+
+
+Das
+\definitionsverweis {Verschwindungsideal}{}{}
+zur leeren Menge ist das
+\definitionsverweis {Einheitsideal}{}{,}
+da es keinen Punkt gibt, auf dem die Nullstellenbedingung überprüft werden müsste.
+
+
+Das Verschwindungsideal zum Gesamtraum
+
+
+\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} hängt vom Körper ab. Wenn dieser unendlich ist, so gibt es nur das Nullpolynom, das überall verschwindet, und folglich ist das Verschwindungsideal gleich dem Nullideal. Dies folgt aus
+
+Aufgabe 3.18
+.
+
+
+Ist hingegen der Körper endlich mit $q$ Elementen, so ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ x^q -x
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für jedes
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ x
+}
+
+
+{ \in }{ K
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Also verschwindet das Polynom
+
+
+\mathl{X^q-X}{} auf jedem Punkt der affinen Geraden und gehört somit zum Verschwindungsideal der affinen Geraden. In höherer Dimension ist das Verschwindungsideal von
+
+
+\mathl{{ {\mathbb A}_{  K }^{  n   } }}{}   gleich
+
+
+\mathl{(X_1^q-X_1,X_2^q-X_2 , \ldots , X_n^q-X_n)}{.}
+
+
+}
+
+
+\inputbeispiel{}
+
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ = }{ (a_1 , \ldots , a_n)
+}
+
+
+{ \in }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist das
+\definitionsverweis {Verschwindungsideal}{}{}
+
+
+\mathl{\operatorname{Id}  \, (P)}{} gleich dem Ideal
+
+
+\mathl{(X_1-a_1 , \ldots ,  X_n -a_n)}{.} Zunächst ist klar, dass die linearen Polynome
+
+
+\mathl{X_i-a_i}{} im Punkt $P$ verschwinden
+\zusatzklammer {wegen
+
+
+\mavergleichskettek
+
+
+{\vergleichskettek
+
+
+{ (X_i-a_i)(P)
+}
+
+
+{ = }{ a_i -a_i
+}
+
+
+{ = }{ 0
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}} {} {.}
+Damit gehört auch das von diesen Polynomen erzeugte Ideal zum Verschwindungsideal. Es sei umgekehrt $F$ ein Polynom mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Wir schreiben $F$ in den \anfuehrung{neuen Variablen}{}
+
+
+\mathdisp {\tilde{X}_1 = X_1-a_1 , \ldots ,  \tilde{X}_n = X_n -a_n} { , }
+
+
+indem wir $X_i$ durch
+
+
+\mathl{X_i-a_i+a_i}{} ersetzen. In den neuen Variablen sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ = }{ \sum_\nu b_\nu \tilde{X}^\nu
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dieses Polynom besteht aus der Konstanten $b_0$, in jedem anderen Monom kommt mindestens eine Variable vor. Also können wir
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{F
+}
+
+
+{ =} { F_1 \tilde{X}_1 + \cdots + F_n \tilde{X}_n + c
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+mit gewissen Polynomen $F_i$ schreiben. Daher ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ c
+}
+
+
+{ = }{ 0
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ (\tilde{X}_1 , \ldots ,  \tilde{X}_n)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+\inputfaktbeweis
+
+
+{Affine Varietäten/Verschwindungsideal/Antimonotonie/Fakt}
+
+
+{Lemma}
+
+
+{}
+
+
+{
+
+
+\faktsituation {Es seien
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{V
+}
+
+
+{ \subseteq }{ W
+}
+
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+Teilmengen.}
+
+
+\faktfolgerung {Dann gilt für die zugehörigen
+\definitionsverweis {
+Verschwindungsideale
+}{}{}
+die Inklusion
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ \operatorname{Id}  \, (W)
+}
+
+
+{ \subseteq} { \operatorname{Id} \, (V)
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{.}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ \operatorname{Id} \,(W)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+d.h. es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ W
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist erst recht
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Also ist auch
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ \operatorname{Id} \,(V)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+\inputfaktbeweis
+
+
+{Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt}
+
+
+{Lemma}
+
+
+{}
+
+
+{
+
+
+\faktsituation {}
+
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ I
+}
+
+
+{ \subseteq }{ K[X_1 , \ldots ,  X_n]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ein
+\definitionsverweis {Ideal}{}{}
+und sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{T
+}
+
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+eine Teilmenge.}
+
+
+\faktuebergang {Dann gelten folgende Aussagen.}
+
+
+\faktfolgerung {\aufzaehlungvier{Es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{T
+}
+
+
+{ \subseteq }{ V ( \operatorname{Id}(T))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+}{Es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ I
+}
+
+
+{ \subseteq }{ \operatorname{Id} (V(I))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+}{Es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(I)
+}
+
+
+{ = }{ V ( \operatorname{Id}(V(I)))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+}{Es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \operatorname{Id} (T)
+}
+
+
+{ = }{ \operatorname{Id} (V( \operatorname{Id} (T)  ))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+(1). Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ T
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ein Punkt. Dann verschwindet nach Definition jedes Polynom
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ \operatorname{Id}(T)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+auf $T$, also
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V(  \operatorname{Id} (T))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+(2). Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ I
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann verschwindet $F$ auf ganz $V(I)$ und daher ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ \operatorname{Id} \, (V(I))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+(3). Nach (1), angewandt auf
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ T
+}
+
+
+{ = }{ V(I)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+haben wir die Inklusion \anfuehrung{ $\subseteq$ }{.} Nach (2) ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ I
+}
+
+
+{ \subseteq }{ \operatorname{Id} \, (V(I))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Wendet man darauf $V(-)$ an, so ergibt sich nach
+
+Lemma 2.7
+
+die andere Inklusion.
+
+
+(4). Wie (3).
+
+
+}
+
+
+\inputbeispiel{}
+
+
+{
+
+
+Die Inklusionen in
+
+Lemma 3.8
+
+(1), (2) sind echt. Es sei zum Beispiel
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ T
+}
+
+
+{ \subset }{ {\mathbb A}^{1}_{K}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+eine unendliche echte Teilmenge
+\zusatzklammer {was voraussetzt, dass $K$ unendlich ist} {} {.}
+Dann ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \operatorname{Id} (T)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+und also ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(0)
+}
+
+
+{ = }{ {\mathbb A}^{1}_{K}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+echt größer als $T$.
+
+
+Zu (2). Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ I
+}
+
+
+{ = }{ (X^2)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ R
+}
+
+
+{ = }{ K[X]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(I)
+}
+
+
+{ = }{ \{0\}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \operatorname{Id} \,(\{0\})
+}
+
+
+{ = }{ (X)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+aber
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ X
+}
+
+
+{ \notin }{ (X^2)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Ein extremeres Beispiel für
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ R
+}
+
+
+{ = }{ \R [X,Y]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ I
+}
+
+
+{ = }{ (X^2+Y^2)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(I)
+}
+
+
+{ = }{ \{(0,0)\}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Das Verschwindungsideal zu diesem Punkt ist aber das Ideal
+
+
+\mathl{(X,Y)}{.}
+
+
+}
+
+
+\inputfaktbeweis
+
+
+{Affiner Raum/Zariski-Topologie/Zariski-Abschluss ist V zu Verschwindungsideal/Fakt}
+
+
+{Lemma}
+
+
+{}
+
+
+{
+
+
+\faktsituation {Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{T
+}
+
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+eine Teilmenge.}
+
+
+\faktfolgerung {Dann ist der Zariski-Abschluss von $T$ gleich
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ \overline{T}
+}
+
+
+{ =} { V( \operatorname{Id} \,(T)  )
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{.}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+Die Inklusion
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ T
+}
+
+
+{ \subseteq }{ V( \operatorname{Id} \,(T) )
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+wurde in
+
+Lemma 3.8
+
+ (1)
+
+gezeigt. Da
+
+
+\mathl{V( \operatorname{Id} \,(T))}{} nach Definition abgeschlossen ist, folgt daraus
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \overline{T}
+}
+
+
+{ \subseteq }{ V( \operatorname{Id} \,(T))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+Es sei umgekehrt
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V( \operatorname{Id} \,(T))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \notin }{ \overline{T}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+angenommen. Dies bedeutet, dass es eine Zariski-offene Menge $U$ gibt mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ U
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ U \cap T
+}
+
+
+{ = }{ \emptyset
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ U
+}
+
+
+{ = }{ D( {\mathfrak a} )
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Die Bedingung
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ U
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+bedeutet, dass es ein
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ G
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ G(P)
+}
+
+
+{ \neq }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+geben muss. Es ist dann
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ D(G)
+}
+
+
+{ \subseteq }{ U
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und damit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ T \cap D(G)
+}
+
+
+{ = }{ \emptyset
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Also ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ T
+}
+
+
+{ \subseteq }{ V(G)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und somit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ G
+}
+
+
+{ \in }{ \operatorname{Id} \,(T)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Wegen
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ G(P)
+}
+
+
+{ \neq }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ergibt sich ein Widerspruch zu
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V( \operatorname{Id} \,(T))
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+  \zwischenueberschrift{Das Radikal}
+
+
+\inputdefinition
+
+
+{}
+
+
+{
+
+
+Ein
+\definitionsverweis {Ideal}{}{}
+${\mathfrak a}$ in einem
+\definitionsverweis {kommutativen Ring}{}{}
+$R$ heißt \definitionswort {Radikal}{}
+\zusatzklammer {oder \definitionswort {Radikalideal}{}} {} {,}
+wenn Folgendes gilt: Falls
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f^n
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist für ein
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ n
+}
+
+
+{ \in }{ \N
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+so ist bereits
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+\inputdefinition
+
+
+{ }
+
+
+{
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ {\mathfrak a}
+}
+
+
+{ \subseteq }{ R
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ein
+\definitionsverweis {Ideal}{}{.}
+Dann nennt man die Menge
+
+
+\mathdisp {\left\{  f \in R   \mid   \text{es gibt ein } r \text{ mit } f^r \in {\mathfrak a}         \right\}} {  }
+
+
+das \definitionswort {Radikal}{} zu ${\mathfrak a}$. Es wird mit
+
+
+\mathl{\operatorname{rad}  \left(    {\mathfrak a}   \right)}{} bezeichnet.
+
+
+}
+
+
+Das Radikal zu einem Ideal ist selbst ein Radikal und insbesondere ein Ideal.
+
+
+\inputfaktbeweis
+
+
+{Theorie der Radikale (kommutative Algebra)/Radikal zu einem Ideal/ist ein Ideal/Fakt}
+
+
+{Lemma}
+
+
+{}
+
+
+{
+
+
+\faktsituation {}
+
+
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ {\mathfrak a}
+}
+
+
+{ \subseteq }{ R
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ein
+\definitionsverweis {Ideal}{}{.}}
+
+
+\faktfolgerung {Dann ist das
+\definitionsverweis {Radikal}{}{}
+zu ${\mathfrak a}$ ein
+\definitionsverweis {Radikalideal}{}{.}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+Wir zeigen zunächst, dass ein Ideal vorliegt. $0$ gehört offenbar zum Radikal und mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f
+}
+
+
+{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+sagen wir
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f^r
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+ist auch
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ (af)^r
+}
+
+
+{ = }{ a^rf^r
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+also gehört $af$ zum Radikal. Zur Summeneigenschaft seien
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f,g
+}
+
+
+{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f^r
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ g^s
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist
+
+
+\mavergleichskettealign
+
+
+{\vergleichskettealign
+
+
+{ (f+g)^{r+s}
+}
+
+
+{ =} { \sum_{i+j = r+s} \binom{r+s}{i}  f^{i}g^{j}
+}
+
+
+{ =} { \sum_{i+j = r+s,\, i <r } \binom{r+s}{i}  f^{i}g^{j}  +\sum_{i+j = r+s,\, i \geq r} \binom{r+s}{i}  f^{i}g^{j}
+}
+
+
+{ \in} { {\mathfrak a}
+}
+
+
+{ } {
+}
+
+
+}
+{}
+{}{.}
+Es sei nun
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f^k
+}
+
+
+{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ (f^k)^r
+}
+
+
+{ = }{ f^{kr}
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+also
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f
+}
+
+
+{ \in }{ \operatorname{rad}  \left(    {\mathfrak a}   \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+\inputfaktbeweis
+
+
+{Affine Varietäten/Verschwindungsideal zu Teilmenge/ist Radikal/Fakt}
+
+
+{Lemma}
+
+
+{}
+
+
+{
+
+
+\faktsituation {}
+
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ T
+}
+
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+eine Teilmenge.}
+
+
+\faktfolgerung {Dann ist das
+\definitionsverweis {Verschwindungsideal}{}{}
+zu $T$ ein
+\definitionsverweis {Radikal}{}{.}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ K[X_1 , \ldots ,  X_n]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ein Polynom, und sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F^s
+}
+
+
+{ \in }{ \operatorname{Id} \,(T)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F^s(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ T
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist aber auch
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ T
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+also
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ \operatorname{Id} \,(T)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+Wir werden später sehen, dass über einem algebraisch abgeschlossenen Körper sich Radikale und algebraische Nullstellengebilde entsprechen. Das ist der Inhalt des \stichwort {Hilbertschen Nullstellensatzes} {.}
