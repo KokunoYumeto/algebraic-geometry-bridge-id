@@ -1,0 +1,170 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v1",
+  "audited_utc": "2026-08-22T06:50:55.845624+00:00",
+  "status": "PASS",
+  "unit": 4,
+  "authority": {
+    "manifest_path": "authority/wikiversity/unit-04/UNIT_AUTHORITY_MANIFEST.json",
+    "manifest_bytes": 109726,
+    "manifest_sha256": "ca53854947c3da0b800f8ed87bc1ff4aeeb3113cb3ee2ffecf571b4e0a900276",
+    "manifest_files_replayed": 40,
+    "manifest_file_mismatches": 0,
+    "lecture": {
+      "pageid": 165893,
+      "revid": 1112250,
+      "parentid": 1056163,
+      "timestamp": "2026-08-20T16:46:15Z",
+      "mediawiki_sha1": "5931f665f4ab4e6180050ddde5164d5edc94e37a",
+      "transclusions_requested": 84,
+      "transclusions_captured": 84,
+      "transclusions_missing": 0
+    },
+    "worksheet": {
+      "pageid": 165923,
+      "revid": 1075377,
+      "parentid": 1074206,
+      "timestamp": "2026-03-11T10:41:52Z",
+      "mediawiki_sha1": "e938dbe41b7474eff311dfc04732ab251fe9c086",
+      "transclusions_requested": 140,
+      "transclusions_captured": 140,
+      "transclusions_missing": 0
+    },
+    "ordered_exercise_map_path": "authority/wikiversity/unit-04/ORDERED_EXERCISE_MAP.json",
+    "ordered_exercise_map_bytes": 13360,
+    "ordered_exercise_map_sha256": "a6e2631e9b4156d5f32bf5f55c1a201987f9da9c41d247d51755fb8727079420"
+  },
+  "targets": [
+    {
+      "path": "source/id-ID/lecture-04.md",
+      "bytes": 12229,
+      "sha256": "30101a8c44828775ed51087c12b20b1fada751591e71027d5899c1c793fbe681",
+      "headings": 15,
+      "math_nodes": 169,
+      "images": 7
+    },
+    {
+      "path": "source/id-ID/worksheet-04.md",
+      "bytes": 12665,
+      "sha256": "5d5af872b912283aae1d138b4dafa1b85d9b08adc6a6cea47212385348005040",
+      "headings": 33,
+      "math_nodes": 115,
+      "images": 2
+    },
+    {
+      "path": "source/id-ID/worksheet-04-solutions.md",
+      "bytes": 6774,
+      "sha256": "5890d6727319a32ed5c734a7786a4fd88b00c6423abf649bf9dec6922c301617",
+      "headings": 7,
+      "math_nodes": 102,
+      "images": 0
+    }
+  ],
+  "topology": {
+    "unit_heading_ids": 55,
+    "duplicate_heading_ids": 0,
+    "invalid_id_patterns": 0,
+    "exercises": 30,
+    "practice_exercises": "4.1-4.24",
+    "submission_exercises": "4.25-4.30",
+    "submission_points": [
+      6,
+      3,
+      4,
+      3,
+      4,
+      4
+    ],
+    "starred_exercises": [
+      10,
+      11,
+      12,
+      14,
+      15,
+      17
+    ],
+    "public_solutions": 6,
+    "solution_exercises": [
+      10,
+      11,
+      12,
+      14,
+      15,
+      17
+    ],
+    "solution_revisions": [
+      1067858,
+      1067949,
+      1110006,
+      1075363,
+      1072981,
+      485196
+    ],
+    "broken_solution_links": 0,
+    "untranslated_german_prose": 0,
+    "source_notes_and_hints_preserved": [
+      "4.25",
+      "4.27",
+      "4.28"
+    ],
+    "source_topology_definitions_preserved": [
+      "pemetaan tertutup",
+      "pemetaan terbuka"
+    ],
+    "media_positions": 9,
+    "binary_surfaces": 11,
+    "missing_media_positions": 0
+  },
+  "math_count_reconciliation": {
+    "lecture": {
+      "authority_math_nodes": 175,
+      "target_math_nodes": 169,
+      "explanation": "The six-node net decrease is accounted for by consolidation of paired conditions, ideals, and aligned equalities; the factorization and final ideal identity remain present. The target explicitly typesets the source-prose nonzero denominator-clearing polynomial and uses isomorphism notation for quotient identification. The source's repeated E1 referent is rendered as the intended E2 and is correction-ledger bound."
+    },
+    "worksheet": {
+      "authority_math_nodes": 121,
+      "target_math_nodes": 115,
+      "explanation": "The six-node net decrease comes from consolidating renderer-split hypotheses, displays, projection formulas, and alternatives. The edition note for Exercise 4.6 adds three explicit math nodes for the omitted empty-zero-locus counterexample; all source task formulas remain present."
+    },
+    "solutions": {
+      "authority_math_nodes": 100,
+      "target_math_nodes": 102,
+      "explanation": "The two-node net increase is caused by separately typesetting prose variables and residue classes. The local polynomial-degree index in Solution 4.12 is renamed from the source's overloaded n to m without changing the argument; aligned equalities are semantically preserved."
+    }
+  },
+  "fidelity_findings": {
+    "fixed_before_build": [
+      "Worksheet 4.6 source omission is exposed in a non-invasive edition note.",
+      "Lecture 4's repeated E1 referent is rendered as the intended E2."
+    ],
+    "remaining_mathematical_defects": 0,
+    "remaining_omissions": 0,
+    "invented_solutions": 0
+  },
+  "rights": {
+    "path": "authority/RIGHTS-unit-04.csv",
+    "bytes": 7121,
+    "sha256": "a26f33fc92e62576851025bf75914535e66aac255d4c23315619e770e9f4afed",
+    "closure_path": "authority/ASSET_CLOSURE-unit-04.json",
+    "closure_sha256": "de21682007feb58d05a326861e0a7c50fcf6e516c33f698c289ec78dfde40a71"
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "bytes": 4140,
+    "sha256": "58eceffdfa87c6876757cbc748789453f76dd0ce1d03eee10a48dd3d4c9a901e",
+    "rows": 9,
+    "unit_04_additions": 2
+  },
+  "comparison_script": {
+    "path": "scripts/compare_math_surfaces.py",
+    "bytes": 3949,
+    "sha256": "1c2ecde81f89bb6c7026143deee650d3e7725da363e18f6c26484440c3fcc675"
+  },
+  "bound_qa": {
+    "machine_receipt_path": "qa/UNITS_01_04_MACHINE_QA.json",
+    "machine_receipt_sha256": "fa3bc572a6f9d809cc59960edebe18ad22b5d98087fbdb3881decce2593f595c",
+    "visual_receipt_path": "qa/UNITS_01_04_VISUAL_QA.json",
+    "visual_receipt_sha256": "9da1089d693570341103f8f8ced46f99492c74013a612055c60335591d9f717b",
+    "responsive_receipt_path": "qa/UNITS_01_04_RESPONSIVE_QA.json",
+    "responsive_receipt_sha256": "f20dd444b2490412e883b52af9e2b4b6615d918f32f1b54e3ff57b27bb1f6f65"
+  }
+}

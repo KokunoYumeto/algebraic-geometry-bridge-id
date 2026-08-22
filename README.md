@@ -1,21 +1,22 @@
-# Kurva Aljabar — Edisi Bahasa Indonesia
+# Kurva Aljabar - Edisi Bahasa Indonesia
 
 Edisi Bahasa Indonesia independen dari *Algebraische Kurven (Osnabrück
-2025–2026)* karya Holger Brenner. Repositori ini sengaja memakai akhiran
+2025-2026)* karya Holger Brenner. Repositori ini sengaja memakai akhiran
 `-id`, metadata bahasa `id-ID`, dan judul Bahasa Indonesia agar edisi dan
 bahasanya dapat ditemukan langsung.
 
-Status saat ini: **Unit 1–3 lengkap** — tiga kuliah, seluruh 77 soal dari tiga
-lembar kerja, 18 solusi publik yang tersedia pada revisi sumber, 29 posisi
-media, atribusi per komponen, HTML mandiri, PDF A4 kumulatif 60 halaman, dan
-backend ID stabil dengan 2.003 rekaman. Penerjemahan 30 kuliah dan 30 lembar
+Status saat ini: **Unit 1-4 lengkap** - empat kuliah, seluruh 107 soal dari
+empat lembar kerja, 24 solusi publik yang tersedia pada revisi sumber, 38
+posisi media, atribusi per komponen, HTML mandiri, PDF A4 kumulatif 80 halaman,
+dan backend ID stabil dengan 2.775 rekaman. Penerjemahan 30 kuliah dan 30 lembar
 kerja tetap berlanjut dalam urutan sumber.
 
 ## Baca
 
 - [Pembaca HTML](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/)
-- [PDF kumulatif Unit 1–3](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-03.pdf)
-- [PDF historis Unit 1–2](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-02.pdf)
+- [PDF kumulatif Unit 1-4](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-04.pdf)
+- [PDF historis Unit 1-3](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-03.pdf)
+- [PDF historis Unit 1-2](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-02.pdf)
 - [PDF historis Unit 1](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-unit-01.pdf)
 - [Sumber resmi di Wikiversity](https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026))
 
@@ -27,29 +28,31 @@ animasi. PDF adalah permukaan cetak dan tidak diklaim sebagai PDF bertag.
 
 - [`authority/AUTHORITY_FREEZE.md`](authority/AUTHORITY_FREEZE.md) mengikat
   revisi dan penutupan Unit 1; [`authority/UNIT_02_AUTHORITY_FREEZE.md`](authority/UNIT_02_AUTHORITY_FREEZE.md)
-  dan [`authority/UNIT_03_AUTHORITY_FREEZE.md`](authority/UNIT_03_AUTHORITY_FREEZE.md)
-  mengikat revisi, transklusi, solusi, PDF resmi, media, dan hash Unit 2–3.
+  [`authority/UNIT_03_AUTHORITY_FREEZE.md`](authority/UNIT_03_AUTHORITY_FREEZE.md),
+  dan [`authority/UNIT_04_AUTHORITY_FREEZE.md`](authority/UNIT_04_AUTHORITY_FREEZE.md)
+  mengikat revisi, transklusi, solusi, PDF resmi, media, dan hash Unit 2-4.
 - [`authority/RIGHTS.csv`](authority/RIGHTS.csv) memisahkan hak setiap media.
 - [`build/reader-id/BUILD_RECEIPT.json`](build/reader-id/BUILD_RECEIPT.json)
   mengikat semua input dan kedua keluaran pembaca.
-- [`qa/UNITS_01_03_MACHINE_QA.json`](qa/UNITS_01_03_MACHINE_QA.json),
-  [`qa/UNITS_01_03_VISUAL_QA.json`](qa/UNITS_01_03_VISUAL_QA.json),
-  [`qa/UNIT_03_PROTECTED_SURFACES.json`](qa/UNIT_03_PROTECTED_SURFACES.json),
-  dan [`qa/UNITS_01_03_BACKEND_QA.json`](qa/UNITS_01_03_BACKEND_QA.json)
+- [`qa/UNITS_01_04_MACHINE_QA.json`](qa/UNITS_01_04_MACHINE_QA.json),
+  [`qa/UNITS_01_04_VISUAL_QA.json`](qa/UNITS_01_04_VISUAL_QA.json),
+  [`qa/UNITS_01_04_RESPONSIVE_QA.json`](qa/UNITS_01_04_RESPONSIVE_QA.json),
+  [`qa/UNIT_04_PROTECTED_SURFACES.json`](qa/UNIT_04_PROTECTED_SURFACES.json),
+  dan [`qa/UNITS_01_04_BACKEND_QA.json`](qa/UNITS_01_04_BACKEND_QA.json)
   merekam gerbang QA kumulatif.
-- [`backend/units-01-03/MANIFEST.json`](backend/units-01-03/MANIFEST.json)
-  mengikat 2.003 rekaman deterministik untuk unit, segmen, latihan, solusi,
+- [`backend/units-01-04/MANIFEST.json`](backend/units-01-04/MANIFEST.json)
+  mengikat 2.775 rekaman deterministik untuk unit, segmen, latihan, solusi,
   konsep, istilah, aset, hak, koreksi, relasi, QA, dan artefak.
 
 Bangun ulang dengan Python 3, Pandoc 3.9+, LuaLaTeX, dan dependensi Python
 `pypandoc`, `pypdf`, serta `jsonschema`:
 
 ```powershell
-python scripts/build_reader.py --through 3
-python scripts/qa_reader_units_01_03.py
-python scripts/qa_protected_surfaces_unit_03.py
-python scripts/export_backend_units_01_03.py
-python scripts/qa_backend_units_01_03.py
+python scripts/build_reader.py --through 4
+python scripts/qa_reader_units_01_04.py
+python scripts/qa_protected_surfaces_unit_04.py
+python scripts/export_backend_units_01_04.py
+python scripts/qa_backend_units_01_04.py
 ```
 
 Gerbang visual tetap memerlukan pemeriksaan manusia terhadap render halaman;

@@ -81,7 +81,32 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Tiga kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-03.pdf",
         )
-    raise ValueError("only the verified contiguous scopes --through 1, --through 2, and --through 3 are supported")
+    if through == 4:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-04.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "lecture-03.md",
+                SOURCE_DIR / "worksheet-03.md",
+                SOURCE_DIR / "worksheet-03-solutions.md",
+                SOURCE_DIR / "lecture-04.md",
+                SOURCE_DIR / "worksheet-04.md",
+                SOURCE_DIR / "worksheet-04-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+                SOURCE_DIR / "media-credits-unit-03.md",
+                SOURCE_DIR / "media-credits-unit-04.md",
+            ),
+            "Kurva Aljabar - Unit 1-4",
+            "Empat kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-04.pdf",
+        )
+    raise ValueError("only the verified contiguous scopes --through 1, --through 2, --through 3, and --through 4 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -207,6 +232,10 @@ def main() -> int:
                 "authority/assets/Newtonbig-frame-1.png",
             "authority/assets/Conjuntos_algebraicos_2.svg":
                 "authority/assets/Conjuntos_algebraicos_2-500.png",
+            "authority/assets/Gerade.svg":
+                "authority/assets/Gerade-500.png",
+            "authority/assets/Straight_lines.svg":
+                "authority/assets/Straight_lines-500.png",
         }
         for source in sources:
             pdf_source = stage / f"pdf-{source.name}"

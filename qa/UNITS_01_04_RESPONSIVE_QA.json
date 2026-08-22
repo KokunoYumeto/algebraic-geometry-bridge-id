@@ -1,0 +1,70 @@
+{
+  "schema": "ag-bridge-responsive-html-qa-v1",
+  "audited_utc": "2026-08-22T06:34:21.9058860Z",
+  "status": "PASS",
+  "through_unit": 4,
+  "artifact": {
+    "path": "build/reader-id/index.html",
+    "bytes": 4459047,
+    "sha256": "287d720c8376ca88f21d22c5a35f9593ace12aa428ccf5f64993b585f45f80cf",
+    "title": "Kurva Aljabar - Unit 1-4",
+    "language": "id-ID",
+    "headings_level_1": 19,
+    "mathml_nodes": 1453,
+    "images": 38
+  },
+  "responsive_source": {
+    "path": "source/id-ID/reader.css",
+    "bytes": 1671,
+    "sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa",
+    "display_math_overflow": "local horizontal auto-scroll",
+    "long_link_wrapping": "anywhere"
+  },
+  "desktop": {
+    "viewport_css_pixels": {
+      "width": 1440,
+      "height": 900
+    },
+    "document_client_width": 1425,
+    "document_scroll_width": 1425,
+    "body_left": 100,
+    "body_right": 1324,
+    "body_width": 1224,
+    "page_horizontal_overflow": false,
+    "centered_reader": true
+  },
+  "mobile": {
+    "viewport_css_pixels": {
+      "width": 390,
+      "height": 844
+    },
+    "document_client_width": 375,
+    "document_scroll_width": 375,
+    "body_left": 0,
+    "body_right": 375,
+    "body_width": 375,
+    "page_horizontal_overflow": false,
+    "images_over_viewport": 0,
+    "largest_rendered_image_width": 263,
+    "display_math_blocks_with_local_scroll": 32,
+    "long_formula_spot_check": {
+      "anchor": "br-ak-2025-2026-w04-ex-25",
+      "local_scrollbar_visible": true,
+      "formula_remains_accessible": true
+    }
+  },
+  "fixed_before_publication": {
+    "finding": "Long MathML widened the 390-pixel mobile document to 643 pixels and created a page-wide horizontal scrollbar.",
+    "action": "Constrain block MathML to the content width and provide local horizontal scrolling; permit long links to wrap.",
+    "post_fix_document_scroll_width": 375,
+    "remaining_page_overflow": 0
+  },
+  "bound_receipts": {
+    "build_receipt_path": "build/reader-id/BUILD_RECEIPT.json",
+    "build_receipt_sha256": "b873ccbbefc6a4b943d8e5658ab1e8216da0decd8d3b138e12bd3f0b7847568f",
+    "machine_qa_path": "qa/UNITS_01_04_MACHINE_QA.json",
+    "machine_qa_sha256": "fa3bc572a6f9d809cc59960edebe18ad22b5d98087fbdb3881decce2593f595c",
+    "visual_qa_path": "qa/UNITS_01_04_VISUAL_QA.json",
+    "visual_qa_sha256": "9da1089d693570341103f8f8ced46f99492c74013a612055c60335591d9f717b"
+  }
+}

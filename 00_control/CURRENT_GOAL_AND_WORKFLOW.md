@@ -85,16 +85,20 @@ source-backed delta; never correct silently.
 
 ## Recovery and communication
 
-Current cursor: Units 1–3 are translated, built, mechanically and visually
-verified, protected-surface audited, exported to the stable-ID backend,
-published, and anonymously read back byte-for-byte. The controlling Unit 3
-publication receipt is `qa/UNIT_03_PUBLICATION.json`; the complete checkpoint
-is `qa/UNITS_01_03_HANDOFF.md`. Resume from this file, `CURSOR.json`, those two
-receipts, and the cumulative Unit 3 build/QA/backend receipts, never from a
-compaction summary. The next executable action is to freeze Lecture 4 and
-Worksheet 4 entry revisions, transclusion closure, public-solution map,
-official PDF witnesses, and component rights before translating Unit 4 in
-source order. Continue the complete edition independently of the separate
+Current cursor: Units 1–3 are published and anonymously verified. Unit 4 is
+fully translated, authority- and rights-frozen, built into the cumulative
+self-contained HTML and 80-page A4 PDF, and has passed protected-surface,
+machine, all-page visual, responsive-browser, deterministic-backend, schema,
+and closure QA. The responsive gate specifically proves a centered desktop
+reader and a 390-pixel mobile reflow with no page-wide horizontal overflow;
+long display mathematics scrolls locally. The 2,775-record stable-ID export
+preserves every one of the 2,003 prior records byte-for-byte. Resume from this
+file, `CURSOR.json`, `qa/UNIT_04_RELEASE_CANDIDATE.json`, and
+`qa/UNITS_01_04_HANDOFF.md`, never from a compaction summary. The next
+executable action is the already authorized publication of branch `main` and
+tag `unit-04`, followed by anonymous public-byte readback and a sanitized
+publication receipt. Then freeze and translate Lecture 5/Worksheet 5 in source
+order. Continue the complete edition independently of the separate
 curriculum-admission decision. Do not contact upstream during production.
-After the full corpus only, send at most one concise, high-confidence issue,
-signed `Codex — at the user's direction`; otherwise send nothing.
+After the full corpus only, send at most one concise, high-confidence issue, signed
+`Codex — at the user's direction`; otherwise send nothing.

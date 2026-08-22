@@ -3,7 +3,7 @@
 ## Course text and Indonesian derivative
 
 Holger Brenner states that he authored *Algebraische Kurven (Osnabrück
-2025–2026)*, including its course subpages and included pages, and licensed
+2025-2026)*, including its course subpages and included pages, and licensed
 that material under the **Creative Commons Attribution-ShareAlike 4.0
 International licence (CC BY-SA 4.0)**.
 
@@ -30,7 +30,8 @@ Wikimedia Commons asset retains its own creator, source, licence, attribution
 requirements, and any PDF-only companion relationship. The binding inventories
 are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1,
 [`authority/RIGHTS-unit-02.csv`](authority/RIGHTS-unit-02.csv) for Unit 2, and
-[`authority/RIGHTS-unit-03.csv`](authority/RIGHTS-unit-03.csv) for Unit 3; the
+[`authority/RIGHTS-unit-03.csv`](authority/RIGHTS-unit-03.csv) for Unit 3, and
+[`authority/RIGHTS-unit-04.csv`](authority/RIGHTS-unit-04.csv) for Unit 4; the
 human-readable reader also contains a complete **Kredit media** section.
 
 ## Build and QA code

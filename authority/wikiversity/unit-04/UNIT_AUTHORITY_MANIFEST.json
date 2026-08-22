@@ -1,0 +1,2947 @@
+{
+  "schema": "brenner-unit-authority-freeze-v1",
+  "unit_number": 4,
+  "source_api": "https://de.wikiversity.org/w/api.php",
+  "lecture": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 4",
+    "pageid": 165893,
+    "revid": 1112250,
+    "parentid": 1056163,
+    "timestamp": "2026-08-20T16:46:15Z",
+    "mediawiki_sha1": "5931f665f4ab4e6180050ddde5164d5edc94e37a",
+    "wikitext_bytes": 1197,
+    "api_file": "lecture-04-api.json",
+    "api_bytes": 1604,
+    "api_sha256": "eebb20916497548cc610003ab04c2f7265cd27e84c84a5ea5f9692f138dc236b",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112250",
+    "xml_file": "lecture-04.xml",
+    "xml_bytes": 4336,
+    "xml_sha256": "6f05e8211d97754fd94991d984e996271bb0f5db352a162d6b8c22aee8032433",
+    "html_file": "lecture-04.html",
+    "html_bytes": 117656,
+    "html_sha256": "355777496ba14588501ba8777cddc37c2fb95dc31147fa4f48f4477ed20f132a",
+    "parse_api_file": "lecture-04-parse-api.json",
+    "parse_api_bytes": 12517,
+    "parse_api_sha256": "3ed6e20d05b64018d39ed466320b5e0e8e28a617c4dd36acea855f862ab99a6d",
+    "template_count": 84,
+    "image_count": 9,
+    "link_count": 30,
+    "external_link_count": 0
+  },
+  "worksheet": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 4",
+    "pageid": 165923,
+    "revid": 1075377,
+    "parentid": 1074206,
+    "timestamp": "2026-03-11T10:41:52Z",
+    "mediawiki_sha1": "e938dbe41b7474eff311dfc04732ab251fe9c086",
+    "wikitext_bytes": 4472,
+    "api_file": "worksheet-04-api.json",
+    "api_bytes": 5037,
+    "api_sha256": "0c582c62fa4d92ce5f3787cf5b8680c7adb53aa15f49e5d678c631be7811f7f7",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1075377",
+    "xml_file": "worksheet-04.xml",
+    "xml_bytes": 7618,
+    "xml_sha256": "a84bc60208876c3db72976be3a0f0e2580e511ee8ef3b291da75cf22c043c126",
+    "html_file": "worksheet-04.html",
+    "html_bytes": 91693,
+    "html_sha256": "4b64082679e88a881085cdde4ac24a2a6da4014dfa92c714a4b60e1414613cd0",
+    "parse_api_file": "worksheet-04-parse-api.json",
+    "parse_api_bytes": 23007,
+    "parse_api_sha256": "b4114597a619b1c4057c2083f950da968f8ca221060c6ab38028362e12206a59",
+    "template_count": 140,
+    "image_count": 4,
+    "link_count": 76,
+    "external_link_count": 0
+  },
+  "lecture_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 4/latex",
+    "pageid": 165957,
+    "revid": 1033003,
+    "parentid": 0,
+    "timestamp": "2025-08-11T13:51:16Z",
+    "mediawiki_sha1": "3034e92c1843eab298fb5f6f859d2c89cf824d61",
+    "wikitext_bytes": 9,
+    "api_file": "lecture-04-latex-page-api.json",
+    "api_bytes": 372,
+    "api_sha256": "86a8fd9a139690246fe645e1033fc2447c549c5cb2b20a4eb4da5c7e1c1a694a",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1033003",
+    "xml_file": "lecture-04-latex-page.xml",
+    "xml_bytes": 3173,
+    "xml_sha256": "f6aae234741bacde1f9955d1d419707b42ae58ba36b9589500dddc18dc1c6f45",
+    "html_file": "lecture-04-latex-page.html",
+    "html_bytes": 30683,
+    "html_sha256": "d616349345d710724e8476c89dc4683b93dc223fac7a826c2a43427489948890"
+  },
+  "worksheet_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 4/latex",
+    "pageid": 166017,
+    "revid": 1033064,
+    "parentid": 0,
+    "timestamp": "2025-08-11T14:01:16Z",
+    "mediawiki_sha1": "3034e92c1843eab298fb5f6f859d2c89cf824d61",
+    "wikitext_bytes": 9,
+    "api_file": "worksheet-04-latex-page-api.json",
+    "api_bytes": 375,
+    "api_sha256": "5dcccddc0102af23fd72644fc538b3cb030a2d2729a4fd10f8a6f7a67d278240",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1033064",
+    "xml_file": "worksheet-04-latex-page.xml",
+    "xml_bytes": 3176,
+    "xml_sha256": "a141ad166acd60631b6e973b63602f3401f9abdbc51644445f8fe20b7410a1d6",
+    "html_file": "worksheet-04-latex-page.html",
+    "html_bytes": 24681,
+    "html_sha256": "87c480990b50b917a5c57cc873721d5944852a5e3c7633b09e7cd0411c486ea7"
+  },
+  "derived_expanded_tex": [
+    {
+      "file": "lecture-04-expanded.tex",
+      "bytes": 25279,
+      "sha256": "12770df1bf47f03532b6331523fdaa146d8f5247cb110e483fd086a362d5dd4c"
+    },
+    {
+      "file": "worksheet-04-expanded.tex",
+      "bytes": 16610,
+      "sha256": "fe1f877dd92eca70b890c3b53d9ec972ea36d8afe074db40fecc31ef63ba2143"
+    }
+  ],
+  "lecture_transclusion_closure": {
+    "requested_template_count": 84,
+    "captured_page_count": 84,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "lecture-04-transclusions-01.json",
+        "bytes": 32068,
+        "sha256": "6dab394bf4e622b2563564f4f7711a3c0494c98691f31b67a6ac7da1b8bb5e77",
+        "requested_titles": [
+          "Affin-algebraische Mengen/Irreduzible Komponenten/Definition",
+          "Affine Varietät/Irreduzibilität/Einführung/Textabschnitt",
+          "Affine Varietäten/Affin-algebraische Mengen/Irreduzibel/Definition",
+          "Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt",
+          "Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt/Beweis",
+          "Affine Varietäten/Irreduzible Teilmengen/Reell und komplex/Y^2+X^2(X+1)^2/Beispiel",
+          "Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel",
+          "Affiner Raum/Irreduzibilität/Unendlicher Körper/Beispiel",
+          "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt",
+          "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Beweis",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affin-algebraische Teilmengen/Zerlegung in irreduzible Komponenten/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene algebraische Kurven/Schnitt mit Geraden/Ist endlich oder voll/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Zariski-Topologie/Affiner Raum/Offene Mengen sind dicht/Aufgabe/Aufgabereferenznummer",
+          "MDLUL/Hauptideal",
+          "MDLUL/Hauptidealbereich",
+          "MDLUL/Körper",
+          "MDLUL/Körper der rationalen Funktionen (Eine Variable)",
+          "MDLUL/Polynomring in einer Variablen",
+          "MDLUL/Primideal"
+        ]
+      },
+      {
+        "file": "lecture-04-transclusions-02.json",
+        "bytes": 41776,
+        "sha256": "539bb72e7d836bc933534cb2febb1215d67cf753ca8758b5ddc21bead4e4a00d",
+        "requested_titles": [
+          "MDLUL/Primpolynom",
+          "MDLUL/Quotientenkörper",
+          "MDLUL/Verschwindungsideal",
+          "MDLUL/affin-algebraische Menge",
+          "MDLUL/affin-algebraischen Mengen",
+          "MDLUL/irreduzibel (Varietät)",
+          "Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt",
+          "Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt/Beweis",
+          "Quotientenkörper/Polynomring/Eine Variable/Rationaler Funktionenkörper/Definition",
+          "Vorlage:Aufgabelink",
+          "Vorlage:Beweisstruktur",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionswort",
+          "Vorlage:Drucktrenn",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:Faktstruktur",
+          "Vorlage:Ideala",
+          "Vorlage:Idealb",
+          "Vorlage:ImageNoteControl",
+          "Vorlage:Imaginäre Einheit",
+          "Vorlage:Inputbeispiel",
+          "Vorlage:Inputbild",
+          "Vorlage:Inputdefinition"
+        ]
+      },
+      {
+        "file": "lecture-04-transclusions-03.json",
+        "bytes": 53158,
+        "sha256": "e017a7f66579e4967554eacfe1490c9c023c08bfbe8c18a2caf7ad3674ad3d00",
+        "requested_titles": [
+          "Vorlage:Inputfaktbeweis",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathbed",
+          "Vorlage:Mathbed1",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Beispiel",
+          "Vorlage:Mathematischer Text/Beweis",
+          "Vorlage:Mathematischer Text/Definition",
+          "Vorlage:Mathematischer Text/Fakt",
+          "Vorlage:Mathematischer Textabschnitt",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathl",
+          "Vorlage:Mengebed",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affiner Raum",
+          "Vorlage:Qed",
+          "Vorlage:Relationskette"
+        ]
+      },
+      {
+        "file": "lecture-04-transclusions-04.json",
+        "bytes": 10869,
+        "sha256": "1c26f7fb425de1653c82c3b92ee31d7db67e5e0e5124037a807fce215a87deff",
+        "requested_titles": [
+          "Vorlage:Relationskette/display",
+          "Vorlage:Relationskette/k",
+          "Vorlage:Stichwort",
+          "Vorlage:Teilbeweis",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+          "Vorlage:Verschlagworte:Stichwort",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Affin-algebraische Mengen/Irreduzible Komponenten/Definition",
+        "pageid": 19094,
+        "revid": 1073285,
+        "parentid": 1054963,
+        "timestamp": "2026-02-24T15:32:28Z",
+        "mediawiki_sha1": "d76291b1ef242fa8d02129d76336f1587d4a6945",
+        "wikitext_bytes": 747
+      },
+      {
+        "title": "Affine Varietät/Irreduzibilität/Einführung/Textabschnitt",
+        "pageid": 50854,
+        "revid": 1075014,
+        "parentid": 1075008,
+        "timestamp": "2026-03-07T17:04:41Z",
+        "mediawiki_sha1": "c074b97dc7223e1e4e52c39861db4223768e536a",
+        "wikitext_bytes": 3020
+      },
+      {
+        "title": "Affine Varietäten/Affin-algebraische Mengen/Irreduzibel/Definition",
+        "pageid": 18073,
+        "revid": 1034931,
+        "parentid": 1027806,
+        "timestamp": "2025-08-11T19:29:16Z",
+        "mediawiki_sha1": "67352cb06608fc02e0ef2d3184394ba1e5a535b1",
+        "wikitext_bytes": 772
+      },
+      {
+        "title": "Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt",
+        "pageid": 18074,
+        "revid": 1101921,
+        "parentid": 1043203,
+        "timestamp": "2026-06-17T17:51:48Z",
+        "mediawiki_sha1": "b765f3bf10bfcc453feebfe27266dfcf6a3ad29b",
+        "wikitext_bytes": 1054
+      },
+      {
+        "title": "Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt/Beweis",
+        "pageid": 18075,
+        "revid": 1085925,
+        "parentid": 1043057,
+        "timestamp": "2026-05-30T10:28:15Z",
+        "mediawiki_sha1": "8f76fc2e132456e4e1754f5bfd2cdbaabef4420a",
+        "wikitext_bytes": 3613
+      },
+      {
+        "title": "Affine Varietäten/Irreduzible Teilmengen/Reell und komplex/Y^2+X^2(X+1)^2/Beispiel",
+        "pageid": 18312,
+        "revid": 980402,
+        "parentid": 970583,
+        "timestamp": "2025-01-21T13:23:19Z",
+        "mediawiki_sha1": "eb6c57017ee797b92d6ad65d816380bb8ea2ac67",
+        "wikitext_bytes": 1782
+      },
+      {
+        "title": "Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel",
+        "pageid": 18303,
+        "revid": 1084818,
+        "parentid": 1034769,
+        "timestamp": "2026-05-30T06:46:02Z",
+        "mediawiki_sha1": "9f56206e8ce5248314870ab2a7f4fd80480360cf",
+        "wikitext_bytes": 4920
+      },
+      {
+        "title": "Affiner Raum/Irreduzibilität/Unendlicher Körper/Beispiel",
+        "pageid": 19196,
+        "revid": 1084821,
+        "parentid": 1056159,
+        "timestamp": "2026-05-30T06:46:32Z",
+        "mediawiki_sha1": "5caa7d9d17189c8d1e3ebbf0fc737a6b7960c556",
+        "wikitext_bytes": 1344
+      },
+      {
+        "title": "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt",
+        "pageid": 18039,
+        "revid": 1044607,
+        "parentid": 972679,
+        "timestamp": "2025-08-12T22:36:00Z",
+        "mediawiki_sha1": "ba58bad15e7ffdda2a4f4d5924713e44dc8a4eed",
+        "wikitext_bytes": 680
+      },
+      {
+        "title": "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Beweis",
+        "pageid": 18042,
+        "revid": 1044254,
+        "parentid": 1011101,
+        "timestamp": "2025-08-12T21:37:04Z",
+        "mediawiki_sha1": "c9c3b790721a3e7186e302005b3a80b40e7fb1ff",
+        "wikitext_bytes": 1899
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affin-algebraische Teilmengen/Zerlegung in irreduzible Komponenten/Fakt/Faktreferenznummer",
+        "pageid": 167199,
+        "revid": 1056168,
+        "parentid": 0,
+        "timestamp": "2025-10-21T09:42:08Z",
+        "mediawiki_sha1": "f6f6383647b6725f6e83bc844df74c244242b0d9",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt/Faktreferenznummer",
+        "pageid": 166357,
+        "revid": 1051288,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:31:09Z",
+        "mediawiki_sha1": "b8b89bc66e22925c9e343f29fbeadc2e25e4d24d",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt/Faktreferenznummer",
+        "pageid": 166354,
+        "revid": 1051284,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:30:39Z",
+        "mediawiki_sha1": "5a6d9e1a6df267c382713bb9ca4a78d2dc921537",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Faktreferenznummer",
+        "pageid": 166344,
+        "revid": 1051273,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:28:59Z",
+        "mediawiki_sha1": "fd313c3266eca47477e6cbae622110eeb75b420c",
+        "wikitext_bytes": 44
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene algebraische Kurven/Schnitt mit Geraden/Ist endlich oder voll/Fakt/Faktreferenznummer",
+        "pageid": 166358,
+        "revid": 1051289,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:31:39Z",
+        "mediawiki_sha1": "275b7735ccfb3589cdae397091f86919d6f75e12",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166359,
+        "revid": 1068470,
+        "parentid": 1056170,
+        "timestamp": "2026-02-02T08:48:37Z",
+        "mediawiki_sha1": "2fb2013839d9e4310503e3fe22b63bb2a8b01bbc",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung/Fuß",
+        "pageid": 165887,
+        "revid": 1032932,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:46Z",
+        "mediawiki_sha1": "8fbfbd4087c4235b5b2d95c55b7d805d5dae149d",
+        "wikitext_bytes": 1011
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung",
+        "pageid": 165885,
+        "revid": 1032930,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:26Z",
+        "mediawiki_sha1": "8842223dc4805ab2598ed30647381ee75d52522b",
+        "wikitext_bytes": 393
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Zariski-Topologie/Affiner Raum/Offene Mengen sind dicht/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166356,
+        "revid": 1061789,
+        "parentid": 1051287,
+        "timestamp": "2025-12-08T09:48:46Z",
+        "mediawiki_sha1": "bc081e10e0b2f98986bcbfc88be672c6cc27683f",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "MDLUL/Hauptideal",
+        "pageid": 51926,
+        "revid": 305123,
+        "parentid": 0,
+        "timestamp": "2012-03-19T16:41:48Z",
+        "mediawiki_sha1": "0e46450715d1c691732a2856e9463688da5cb5c9",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "MDLUL/Hauptidealbereich",
+        "pageid": 51972,
+        "revid": 305298,
+        "parentid": 0,
+        "timestamp": "2012-03-21T11:30:39Z",
+        "mediawiki_sha1": "6d62612cd66a8e1e0dd57509bb6e0a4cff5f73e4",
+        "wikitext_bytes": 119
+      },
+      {
+        "title": "MDLUL/Körper",
+        "pageid": 45898,
+        "revid": 267506,
+        "parentid": 0,
+        "timestamp": "2011-06-07T13:51:29Z",
+        "mediawiki_sha1": "ce01f7f216f5f8bd6b1401f9f4ae5020af5040d1",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Körper der rationalen Funktionen (Eine Variable)",
+        "pageid": 52857,
+        "revid": 310160,
+        "parentid": 0,
+        "timestamp": "2012-04-15T13:42:06Z",
+        "mediawiki_sha1": "2006e38d03ee0c99878f0d24bac253903948180e",
+        "wikitext_bytes": 183
+      },
+      {
+        "title": "MDLUL/Polynomring in einer Variablen",
+        "pageid": 53441,
+        "revid": 526354,
+        "parentid": 314533,
+        "timestamp": "2017-11-16T22:11:10Z",
+        "mediawiki_sha1": "0a96ac6c156eb40207a7d1bb64b94a8faa480778",
+        "wikitext_bytes": 140
+      },
+      {
+        "title": "MDLUL/Primideal",
+        "pageid": 38653,
+        "revid": 234731,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:03:40Z",
+        "mediawiki_sha1": "181985521d2d58403aa175517f1317e960b273e1",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/Primpolynom",
+        "pageid": 51854,
+        "revid": 304859,
+        "parentid": 0,
+        "timestamp": "2012-03-17T16:50:38Z",
+        "mediawiki_sha1": "29ea8f28d304850553ae9d0131e878740b45b39d",
+        "wikitext_bytes": 125
+      },
+      {
+        "title": "MDLUL/Quotientenkörper",
+        "pageid": 38667,
+        "revid": 234771,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:12:57Z",
+        "mediawiki_sha1": "6e1f853b4db22f7635f6b8996981c4bec7ecb9c5",
+        "wikitext_bytes": 110
+      },
+      {
+        "title": "MDLUL/Verschwindungsideal",
+        "pageid": 53446,
+        "revid": 314540,
+        "parentid": 0,
+        "timestamp": "2012-05-17T08:26:23Z",
+        "mediawiki_sha1": "0411e8ef4c9f27fe1d51cbcdae133de4ce30f5a1",
+        "wikitext_bytes": 131
+      },
+      {
+        "title": "MDLUL/affin-algebraische Menge",
+        "pageid": 51088,
+        "revid": 300406,
+        "parentid": 0,
+        "timestamp": "2012-02-13T22:30:56Z",
+        "mediawiki_sha1": "5815f97d79c5b12ba6441b20ae32da7c5f860bfa",
+        "wikitext_bytes": 128
+      },
+      {
+        "title": "MDLUL/affin-algebraischen Mengen",
+        "pageid": 51090,
+        "revid": 300417,
+        "parentid": 0,
+        "timestamp": "2012-02-13T22:47:41Z",
+        "mediawiki_sha1": "5089b200a71a940c58c7dfff6081188dbc34f741",
+        "wikitext_bytes": 111
+      },
+      {
+        "title": "MDLUL/irreduzibel (Varietät)",
+        "pageid": 54087,
+        "revid": 320710,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:48:34Z",
+        "mediawiki_sha1": "81baeb21386d7dba6914eacb76380c6875a0aaaa",
+        "wikitext_bytes": 140
+      },
+      {
+        "title": "Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt",
+        "pageid": 93610,
+        "revid": 1048411,
+        "parentid": 976809,
+        "timestamp": "2025-08-13T09:07:30Z",
+        "mediawiki_sha1": "8cccb5c011a9194c67dc61d2a4cae26af2154c6d",
+        "wikitext_bytes": 852
+      },
+      {
+        "title": "Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt/Beweis",
+        "pageid": 93611,
+        "revid": 1047537,
+        "parentid": 979226,
+        "timestamp": "2025-08-13T06:44:25Z",
+        "mediawiki_sha1": "30e24d9e4cc362610cdc5011d17de0d91b5a3c4c",
+        "wikitext_bytes": 1138
+      },
+      {
+        "title": "Quotientenkörper/Polynomring/Eine Variable/Rationaler Funktionenkörper/Definition",
+        "pageid": 18283,
+        "revid": 1039222,
+        "parentid": 1017848,
+        "timestamp": "2025-08-12T07:25:26Z",
+        "mediawiki_sha1": "c2b6e42b35443dfacd3cccf15b356fc1aeb88049",
+        "wikitext_bytes": 896
+      },
+      {
+        "title": "Vorlage:Aufgabelink",
+        "pageid": 30300,
+        "revid": 1070423,
+        "parentid": 1069816,
+        "timestamp": "2026-02-06T14:22:11Z",
+        "mediawiki_sha1": "6b0c4bbe7084da3f232f6649820be7b5f7bae36f",
+        "wikitext_bytes": 1864
+      },
+      {
+        "title": "Vorlage:Beweisstruktur",
+        "pageid": 24025,
+        "revid": 165764,
+        "parentid": 165744,
+        "timestamp": "2009-06-13T14:14:07Z",
+        "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionswort",
+        "pageid": 23952,
+        "revid": 1107662,
+        "parentid": 1061423,
+        "timestamp": "2026-07-17T08:06:31Z",
+        "mediawiki_sha1": "f1aff98d04a0bd4a7894808a36cedfb412c7d021",
+        "wikitext_bytes": 822
+      },
+      {
+        "title": "Vorlage:Drucktrenn",
+        "pageid": 169679,
+        "revid": 1073199,
+        "parentid": 0,
+        "timestamp": "2026-02-24T14:17:08Z",
+        "mediawiki_sha1": "7b15634ab69c147b7ff06ddd5d901e7363d65017",
+        "wikitext_bytes": 164
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Faktstruktur",
+        "pageid": 18814,
+        "revid": 1061914,
+        "parentid": 276624,
+        "timestamp": "2025-12-08T17:03:41Z",
+        "mediawiki_sha1": "627b618e705049f2b3fd2617c9568bed098096b9",
+        "wikitext_bytes": 1379
+      },
+      {
+        "title": "Vorlage:Ideala",
+        "pageid": 20015,
+        "revid": 232980,
+        "parentid": 135804,
+        "timestamp": "2010-08-10T21:48:04Z",
+        "mediawiki_sha1": "4875a8b79be582d65c4fb26b028e450546ead17e",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Idealb",
+        "pageid": 20068,
+        "revid": 232986,
+        "parentid": 135811,
+        "timestamp": "2010-08-10T21:49:53Z",
+        "mediawiki_sha1": "76e066651725e9a3959c0eff1d159748a14cf3c1",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:ImageNoteControl",
+        "pageid": 31352,
+        "revid": 200442,
+        "parentid": 200441,
+        "timestamp": "2009-12-20T10:26:01Z",
+        "mediawiki_sha1": "18862d5c418a35f12237fcf8a6ad5f33b9e4e5bb",
+        "wikitext_bytes": 421
+      },
+      {
+        "title": "Vorlage:Imaginäre Einheit",
+        "pageid": 86104,
+        "revid": 647820,
+        "parentid": 485353,
+        "timestamp": "2020-07-19T13:20:16Z",
+        "mediawiki_sha1": "0dfbceac5421db7c61c11b8f35daefd8921de8dd",
+        "wikitext_bytes": 199
+      },
+      {
+        "title": "Vorlage:Inputbeispiel",
+        "pageid": 11588,
+        "revid": 1074988,
+        "parentid": 1061937,
+        "timestamp": "2026-03-07T16:01:24Z",
+        "mediawiki_sha1": "c3ede97421bca4f5a97a08dedaaa9b4ddd5e6590",
+        "wikitext_bytes": 4706
+      },
+      {
+        "title": "Vorlage:Inputbild",
+        "pageid": 17287,
+        "revid": 1074342,
+        "parentid": 1074341,
+        "timestamp": "2026-03-07T09:46:59Z",
+        "mediawiki_sha1": "7574f2aef8023c692b7abc57f24c52900da83526",
+        "wikitext_bytes": 1976
+      },
+      {
+        "title": "Vorlage:Inputdefinition",
+        "pageid": 11022,
+        "revid": 1106756,
+        "parentid": 1061928,
+        "timestamp": "2026-07-12T13:31:00Z",
+        "mediawiki_sha1": "855519104da8c6681b207bb5a475d262ae77f669",
+        "wikitext_bytes": 11717
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweis",
+        "pageid": 17490,
+        "revid": 1110004,
+        "parentid": 1110003,
+        "timestamp": "2026-08-04T10:35:43Z",
+        "mediawiki_sha1": "170d71d038f2328a676563b4b9ecbeeed82a35c9",
+        "wikitext_bytes": 16503
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathbed",
+        "pageid": 20302,
+        "revid": 210531,
+        "parentid": 168213,
+        "timestamp": "2010-02-21T19:52:49Z",
+        "mediawiki_sha1": "90ef94f9c38b656a0b6da21f640e23950c2d52b3",
+        "wikitext_bytes": 687
+      },
+      {
+        "title": "Vorlage:Mathbed1",
+        "pageid": 24996,
+        "revid": 168056,
+        "parentid": 168055,
+        "timestamp": "2009-06-28T11:29:14Z",
+        "mediawiki_sha1": "6190d5f97bdd37bd1124140c9be987360537fa53",
+        "wikitext_bytes": 189
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beispiel",
+        "pageid": 33519,
+        "revid": 864970,
+        "parentid": 864906,
+        "timestamp": "2022-10-19T16:21:27Z",
+        "mediawiki_sha1": "46aba056083d4e975d314608d3ffc651a584f5d8",
+        "wikitext_bytes": 1603
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beweis",
+        "pageid": 33517,
+        "revid": 861548,
+        "parentid": 748239,
+        "timestamp": "2022-10-05T08:00:16Z",
+        "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+        "wikitext_bytes": 2144
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Definition",
+        "pageid": 33515,
+        "revid": 763985,
+        "parentid": 762832,
+        "timestamp": "2022-08-15T04:47:42Z",
+        "mediawiki_sha1": "63e0d410c36911e0ac432f7074f4e6ba1f0baf56",
+        "wikitext_bytes": 1585
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Fakt",
+        "pageid": 33511,
+        "revid": 1063451,
+        "parentid": 1008461,
+        "timestamp": "2025-12-30T15:41:25Z",
+        "mediawiki_sha1": "a849aa72a036768f23044c44e16a302f42de8697",
+        "wikitext_bytes": 2588
+      },
+      {
+        "title": "Vorlage:Mathematischer Textabschnitt",
+        "pageid": 33589,
+        "revid": 865046,
+        "parentid": 864983,
+        "timestamp": "2022-10-19T18:54:33Z",
+        "mediawiki_sha1": "e988d41699849e3b0bee35d6ea687aac2d34b2aa",
+        "wikitext_bytes": 986
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:Mengebed",
+        "pageid": 19920,
+        "revid": 1106268,
+        "parentid": 604716,
+        "timestamp": "2026-07-09T15:57:00Z",
+        "mediawiki_sha1": "bb1821bdbec724ce06ccc446f906e7bea290f2b3",
+        "wikitext_bytes": 667
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affiner Raum",
+        "pageid": 45165,
+        "revid": 594907,
+        "parentid": 332226,
+        "timestamp": "2019-07-21T15:59:27Z",
+        "mediawiki_sha1": "4686037d6435c99c266f178f71b76faf17ef7239",
+        "wikitext_bytes": 236
+      },
+      {
+        "title": "Vorlage:Qed",
+        "pageid": 11116,
+        "revid": 92011,
+        "parentid": 92010,
+        "timestamp": "2008-04-20T08:14:57Z",
+        "mediawiki_sha1": "7cacc755daead99c6816a2540e477c0fe5def465",
+        "wikitext_bytes": 1564
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Relationskette/k",
+        "pageid": 85381,
+        "revid": 1106120,
+        "parentid": 972253,
+        "timestamp": "2026-07-07T08:54:28Z",
+        "mediawiki_sha1": "59744cdfaafba2bc8bce851e220c82b5c7feb58b",
+        "wikitext_bytes": 1948
+      },
+      {
+        "title": "Vorlage:Stichwort",
+        "pageid": 23961,
+        "revid": 1067874,
+        "parentid": 1061532,
+        "timestamp": "2026-01-30T10:47:00Z",
+        "mediawiki_sha1": "ceca7248a5c70c86413f4880b4f90f88611c4063",
+        "wikitext_bytes": 685
+      },
+      {
+        "title": "Vorlage:Teilbeweis",
+        "pageid": 24707,
+        "revid": 298764,
+        "parentid": 244845,
+        "timestamp": "2012-02-05T10:52:18Z",
+        "mediawiki_sha1": "95284555ec3ff9fb573ff8fb416528dad06b883d",
+        "wikitext_bytes": 686
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+        "pageid": 24050,
+        "revid": 790374,
+        "parentid": 790369,
+        "timestamp": "2022-08-23T11:13:50Z",
+        "mediawiki_sha1": "5dd904e06ce5855ebdf98901569dd4673f98cb29",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Stichwort",
+        "pageid": 24184,
+        "revid": 1067875,
+        "parentid": 794079,
+        "timestamp": "2026-01-30T10:49:46Z",
+        "mediawiki_sha1": "bc938285eaf43311874531de8d3c26bb3b14e5de",
+        "wikitext_bytes": 842
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      }
+    ]
+  },
+  "worksheet_transclusion_closure": {
+    "requested_template_count": 140,
+    "captured_page_count": 140,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "worksheet-04-transclusions-01.json",
+        "bytes": 20021,
+        "sha256": "9c7fd159d2b416f791bc5b3f85d192a6bd619ba75628c5440be88768cf5ef608",
+        "requested_titles": [
+          "Affin-algebraische Mengen/Finde Beschreibung als Nullstellenmenge zu Bild/Fläche und senkrechte Gerade/Aufgabe",
+          "Affin-algebraische Mengen/Irreduzibel/Ohne endlich viele Punkte/ist irreduzibel/Aufgabe",
+          "Affin-algebraische Mengen/Zusammenhängend/Nicht irreduzibel/Beispiel/Aufgabe",
+          "Affine Ebene (K)/Ist quasikompakt/Aufgabe",
+          "Affine Ebene/Projektion/Nicht abgeschlossen/Beispiel/Aufgabe",
+          "Affine Ebene/Projektion/Offen/Aufgabe",
+          "Affiner Raum/Irreduzibilität/Schnitt von Zylinder und Kugel/Aufgabe",
+          "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Frage zu Beweis in mehr Variablen/Aufgabe",
+          "Ebene algebraische Kurven/C/Ist nicht kompakt/Aufgabe",
+          "Kommutative Ringtheorie/Maximales Ideal/Primideal/Fakt/Beweis/Aufgabe",
+          "Kommutative Ringtheorie/Primideal/Charakterisierung mit Restklassenring/Fakt/Beweis/Aufgabe",
+          "Kommutative Ringtheorie/Primideal/Unter Morphismus/Aufgabe",
+          "Kommutativer Ring/Polynomring/1/Restklassenring/Aufgabe",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblattgestaltung",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Einheitskreis/Rationale Parametrisierung/Funktionaler Ausdruck/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Restklassenringe (Z)/p prim/Quadratsumme/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Schnittmultiplizität/Graphen/Differenz/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Zahlentheorie (Osnabrück 2025)/Restklassenringe (Z)/p prim/Quadratsumme/Aufgabe/Aufgabereferenznummer",
+          "Körper/Situation",
+          "MDLUL/Algebraisomorphie",
+          "MDLUL/Algebraisomorphismus",
+          "MDLUL/Charakteristik (Körper)"
+        ]
+      },
+      {
+        "file": "worksheet-04-transclusions-02.json",
+        "bytes": 9650,
+        "sha256": "e5ae376d3073c153c4c9a9ea43471f53f13601c7553c2243579cbe9f0895c07a",
+        "requested_titles": [
+          "MDLUL/Erzeugern (Ideal)",
+          "MDLUL/Ideal",
+          "MDLUL/Ideal (kommutativer Ring)",
+          "MDLUL/Idealerzeuger",
+          "MDLUL/Integritätsbereich",
+          "MDLUL/Kern",
+          "MDLUL/Kommutativer Ring",
+          "MDLUL/Körper",
+          "MDLUL/Maximales Ideal",
+          "MDLUL/Nullstellenmenge",
+          "MDLUL/Polynom (K)",
+          "MDLUL/Polynom (n)",
+          "MDLUL/Polynome (K)",
+          "MDLUL/Polynomring (1)",
+          "MDLUL/Polynomrings (1)",
+          "MDLUL/Primideal",
+          "MDLUL/Primpolynom",
+          "MDLUL/Primzahl",
+          "MDLUL/Quotientenkörper",
+          "MDLUL/Restklassenkörper",
+          "MDLUL/Restklassenring",
+          "MDLUL/Restklassenringe",
+          "MDLUL/Ringhomomorphismus",
+          "MDLUL/Ringisomorphie",
+          "MDLUL/Verschwindungsmenge (affiner Raum)"
+        ]
+      },
+      {
+        "file": "worksheet-04-transclusions-03.json",
+        "bytes": 14211,
+        "sha256": "6ddd128056257b97699ec994fe710da211a67ee2b5ad7767ef8d9664c3b6b56b",
+        "requested_titles": [
+          "MDLUL/abgeschlossen (Abbildung)",
+          "MDLUL/abgeschlossenen Mengen",
+          "MDLUL/endlicher Körper",
+          "MDLUL/faktorieller Integritätsbereich",
+          "MDLUL/irreduzibel (Ring)",
+          "MDLUL/irreduzibel (Topologie)",
+          "MDLUL/isomorph (Ring)",
+          "MDLUL/kommutative Ringe",
+          "MDLUL/kommutativen Ring",
+          "MDLUL/kommutativer Ring",
+          "MDLUL/maximalen Ideales",
+          "MDLUL/maximales Ideal",
+          "MDLUL/rationale Zahl",
+          "MDLUL/rationalen Zahlen",
+          "MDLUL/stetige Abbildung",
+          "MDLUL/topologischen Räumen",
+          "MDLUL/topologischer Raum",
+          "MDLUL/zusammenhängend (Raum)",
+          "MDLUL/zusammenhängenden (Raum)",
+          "Polynome in je einer Variable/Durchschnitt/Abschätzung/Aufgabe",
+          "Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe",
+          "Primideal/Charakterisierung als Kern nach Körper/Aufgabe",
+          "Primideal/Idealdurchschnitt/Inklusion/Aufgabe",
+          "Primideal/Verschwindungsmenge/Affine Gerade/Aufgabe",
+          "Primideal/Verschwindungsmenge/Endlicher Körper/Aufgabe"
+        ]
+      },
+      {
+        "file": "worksheet-04-transclusions-04.json",
+        "bytes": 26852,
+        "sha256": "07a860bb258e4fde2970bb5f8f54c4c875b643b8fbebff81bb8c3d87725aae4c",
+        "requested_titles": [
+          "Primideal/Verschwindungsmenge/R/Primpolynom/Aufgabe",
+          "Punktmengen im affinen Raum/Irreduzibel genau dann, wenn einpunktig/Aufgabe",
+          "Quadrik in zwei Variablen/Kreis/Rationale Zahlen/Irreduzibel/Aufgabe",
+          "Quadrik in zwei Variablen/X^2+Y^2+a/a nicht 0/Irreduzibel/Aufgabe",
+          "Rationaler Funktionenkörper/Unendlich viele Zwischenkörper/Aufgabe",
+          "Reelle Hyperbel/Irreduzible Komponenten/Aufgabe",
+          "Reelle Zahlen/Topologie/Mit metrischer Topologie irreduzibel/Aufgabe",
+          "Restklassenkörper (Z)/Summe von zwei Quadraten/Lösung/Fakt/Beweis/Aufgabe",
+          "Restklassenringe (Z)/p prim/Quadratische Form/Hat Lösung oder beschreibt Nichtquadrat in einer Variablen/Aufgabe",
+          "Stetige Abbildung/Abgeschlossene Abbildung/Definition",
+          "Vorlage:Abbildung",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Arbeitsblatt",
+          "Vorlage:Aufgabelink",
+          "Vorlage:Aufzählung2/a",
+          "Vorlage:Aufzählung3",
+          "Vorlage:Bildskip",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionswort",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink"
+        ]
+      },
+      {
+        "file": "worksheet-04-transclusions-05.json",
+        "bytes": 54261,
+        "sha256": "444bd4cdcd82fd9cd41d77bcb61429bbba1c6011cc7f86f53463bdcb65cf280c",
+        "requested_titles": [
+          "Vorlage:Ideala",
+          "Vorlage:Idealb",
+          "Vorlage:Idealm",
+          "Vorlage:Idealp",
+          "Vorlage:ImageNoteControl",
+          "Vorlage:Inputaufgabe",
+          "Vorlage:Inputbild",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:ManSie",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Aufgabe",
+          "Vorlage:Mathematischer Text/AufgabePunkteZerlegung",
+          "Vorlage:Mathematischer Text/Definition",
+          "Vorlage:Mathematischer Text/Situation",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathl",
+          "Vorlage:N Sie",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs"
+        ]
+      },
+      {
+        "file": "worksheet-04-transclusions-06.json",
+        "bytes": 15043,
+        "sha256": "80e1fd9d235765ff39b9e780f758998056a8f0cd5cda5baeb68c8c4768dce3a9",
+        "requested_titles": [
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affine Gerade",
+          "Vorlage:Op:Affiner Raum",
+          "Vorlage:Op:Zmod",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Stichwort",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+          "Vorlage:Verschlagworte:Stichwort",
+          "Vorlage:Zahlentheorie/Standardkurs",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift",
+          "Zwei Kreise/Durchschnitt/Restklassenring/Gerade/Aufgabe",
+          "Zwei Polynome in einer Variablen/Graph/Restklassenring/Aufgabe"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Affin-algebraische Mengen/Finde Beschreibung als Nullstellenmenge zu Bild/Fläche und senkrechte Gerade/Aufgabe",
+        "pageid": 19303,
+        "revid": 1097120,
+        "parentid": 1074856,
+        "timestamp": "2026-06-15T12:17:44Z",
+        "mediawiki_sha1": "582c84ed73fbf5390d85553edeaef869507ab1ad",
+        "wikitext_bytes": 618
+      },
+      {
+        "title": "Affin-algebraische Mengen/Irreduzibel/Ohne endlich viele Punkte/ist irreduzibel/Aufgabe",
+        "pageid": 19138,
+        "revid": 1081572,
+        "parentid": 1035871,
+        "timestamp": "2026-05-29T15:57:19Z",
+        "mediawiki_sha1": "44915468eb9ff9ed78742306db7a3c623ad65fc9",
+        "wikitext_bytes": 636
+      },
+      {
+        "title": "Affin-algebraische Mengen/Zusammenhängend/Nicht irreduzibel/Beispiel/Aufgabe",
+        "pageid": 19182,
+        "revid": 852029,
+        "parentid": 766693,
+        "timestamp": "2022-09-26T16:24:30Z",
+        "mediawiki_sha1": "a3553b6a2754f46f0bf7666aa522f521348760f3",
+        "wikitext_bytes": 604
+      },
+      {
+        "title": "Affine Ebene (K)/Ist quasikompakt/Aufgabe",
+        "pageid": 19257,
+        "revid": 513974,
+        "parentid": 313347,
+        "timestamp": "2017-08-10T12:41:27Z",
+        "mediawiki_sha1": "862438b918879368e86d0b2bcdc0e171b0862d57",
+        "wikitext_bytes": 575
+      },
+      {
+        "title": "Affine Ebene/Projektion/Nicht abgeschlossen/Beispiel/Aufgabe",
+        "pageid": 19220,
+        "revid": 1112344,
+        "parentid": 1056313,
+        "timestamp": "2026-08-21T11:07:15Z",
+        "mediawiki_sha1": "5e3324dac90d2ad77559d799f84383e8afabbeb2",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Affine Ebene/Projektion/Offen/Aufgabe",
+        "pageid": 19229,
+        "revid": 867984,
+        "parentid": 832631,
+        "timestamp": "2022-10-28T08:38:52Z",
+        "mediawiki_sha1": "558f3d64e8eaf981b20fa6cde932eda6562d3050",
+        "wikitext_bytes": 647
+      },
+      {
+        "title": "Affiner Raum/Irreduzibilität/Schnitt von Zylinder und Kugel/Aufgabe",
+        "pageid": 19417,
+        "revid": 1112341,
+        "parentid": 1035886,
+        "timestamp": "2026-08-21T11:01:48Z",
+        "mediawiki_sha1": "8f73f84c18234f044549f1687ff461300522d2bb",
+        "wikitext_bytes": 635
+      },
+      {
+        "title": "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Frage zu Beweis in mehr Variablen/Aufgabe",
+        "pageid": 19197,
+        "revid": 1069870,
+        "parentid": 905195,
+        "timestamp": "2026-02-06T08:06:30Z",
+        "mediawiki_sha1": "c2eba725b6bafa3b541f79a73eeb7eba0cbc58ab",
+        "wikitext_bytes": 520
+      },
+      {
+        "title": "Ebene algebraische Kurven/C/Ist nicht kompakt/Aufgabe",
+        "pageid": 19371,
+        "revid": 513973,
+        "parentid": 313346,
+        "timestamp": "2017-08-10T12:41:05Z",
+        "mediawiki_sha1": "1a7f1d2069eb0dcb1dbaaaa512cecd68d5f94f8c",
+        "wikitext_bytes": 513
+      },
+      {
+        "title": "Kommutative Ringtheorie/Maximales Ideal/Primideal/Fakt/Beweis/Aufgabe",
+        "pageid": 72656,
+        "revid": 966172,
+        "parentid": 844058,
+        "timestamp": "2024-12-03T13:56:10Z",
+        "mediawiki_sha1": "5051bd5dcb50f4badf492c5f202cfdf561845b0b",
+        "wikitext_bytes": 436
+      },
+      {
+        "title": "Kommutative Ringtheorie/Primideal/Charakterisierung mit Restklassenring/Fakt/Beweis/Aufgabe",
+        "pageid": 24912,
+        "revid": 1042412,
+        "parentid": 844096,
+        "timestamp": "2025-08-12T16:36:15Z",
+        "mediawiki_sha1": "2e94299b360a6c50964a83828f051ad756670927",
+        "wikitext_bytes": 662
+      },
+      {
+        "title": "Kommutative Ringtheorie/Primideal/Unter Morphismus/Aufgabe",
+        "pageid": 10920,
+        "revid": 1083152,
+        "parentid": 1003101,
+        "timestamp": "2026-05-29T20:20:43Z",
+        "mediawiki_sha1": "f1c5c78868c30091cbef2ff074fb1f1f0a1ba6c3",
+        "wikitext_bytes": 824
+      },
+      {
+        "title": "Kommutativer Ring/Polynomring/1/Restklassenring/Aufgabe",
+        "pageid": 95283,
+        "revid": 1112342,
+        "parentid": 1098306,
+        "timestamp": "2026-08-21T11:02:27Z",
+        "mediawiki_sha1": "6ec8989226c0d2f41808bb89a3a2947673c4b5cd",
+        "wikitext_bytes": 1459
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt/Fuß",
+        "pageid": 165888,
+        "revid": 1032933,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:56Z",
+        "mediawiki_sha1": "206f8ae058ce6cedf600e08f41a0281b27f64145",
+        "wikitext_bytes": 1015
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblattgestaltung",
+        "pageid": 165886,
+        "revid": 1032931,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:36Z",
+        "mediawiki_sha1": "65585745ef99292181d41eae7d3b3bf1c077ec10",
+        "wikitext_bytes": 393
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Faktreferenznummer",
+        "pageid": 166344,
+        "revid": 1051273,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:28:59Z",
+        "mediawiki_sha1": "fd313c3266eca47477e6cbae622110eeb75b420c",
+        "wikitext_bytes": 44
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Einheitskreis/Rationale Parametrisierung/Funktionaler Ausdruck/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166345,
+        "revid": 1055590,
+        "parentid": 1055487,
+        "timestamp": "2025-10-16T09:57:21Z",
+        "mediawiki_sha1": "141b9c8eac5b7dedd7137e19a9a178e8d7cd7762",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt/Faktreferenznummer",
+        "pageid": 166346,
+        "revid": 1051275,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:29:19Z",
+        "mediawiki_sha1": "56810553ba1a26c09b57b18a272e47463623dcde",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Restklassenringe (Z)/p prim/Quadratsumme/Aufgabe/Aufgabereferenznummer",
+        "pageid": 167310,
+        "revid": 1057125,
+        "parentid": 0,
+        "timestamp": "2025-10-31T11:44:36Z",
+        "mediawiki_sha1": "90a2e620565cb5621ff330cd9e0ff50f20a9fd83",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Schnittmultiplizität/Graphen/Differenz/Aufgabe/Aufgabereferenznummer",
+        "pageid": 168392,
+        "revid": 1067862,
+        "parentid": 1067861,
+        "timestamp": "2026-01-30T10:03:07Z",
+        "mediawiki_sha1": "d60e597fd7404dda8c947e68e40eaeed49603aa0",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Zahlentheorie (Osnabrück 2025)/Restklassenringe (Z)/p prim/Quadratsumme/Aufgabe/Aufgabereferenznummer",
+        "pageid": 167311,
+        "revid": 1057126,
+        "parentid": 0,
+        "timestamp": "2025-10-31T11:44:57Z",
+        "mediawiki_sha1": "3ad061a463666775c1eba8728a79000ed38ab48f",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Körper/Situation",
+        "pageid": 23664,
+        "revid": 960491,
+        "parentid": 947228,
+        "timestamp": "2024-11-08T10:35:19Z",
+        "mediawiki_sha1": "c65cb47d37ff9d187f3da1c6e3b3f750d0fb9e73",
+        "wikitext_bytes": 278
+      },
+      {
+        "title": "MDLUL/Algebraisomorphie",
+        "pageid": 61827,
+        "revid": 373240,
+        "parentid": 0,
+        "timestamp": "2013-08-08T21:29:30Z",
+        "mediawiki_sha1": "53ff0670bef3bcc5e6e50078d14ae951695be417",
+        "wikitext_bytes": 98
+      },
+      {
+        "title": "MDLUL/Algebraisomorphismus",
+        "pageid": 61807,
+        "revid": 373212,
+        "parentid": 0,
+        "timestamp": "2013-08-08T19:53:16Z",
+        "mediawiki_sha1": "2584b0e3b531e7bd26af569391469facd3576ea3",
+        "wikitext_bytes": 137
+      },
+      {
+        "title": "MDLUL/Charakteristik (Körper)",
+        "pageid": 45278,
+        "revid": 264850,
+        "parentid": 0,
+        "timestamp": "2011-05-13T11:55:33Z",
+        "mediawiki_sha1": "3621cbe1782c5f80038048e2a916982f82d3cfd0",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/Erzeugern (Ideal)",
+        "pageid": 95285,
+        "revid": 536442,
+        "parentid": 0,
+        "timestamp": "2018-01-06T13:21:26Z",
+        "mediawiki_sha1": "4575d2159ed168c136510892c3bc730b86d8566f",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/Ideal",
+        "pageid": 51031,
+        "revid": 299631,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:11:10Z",
+        "mediawiki_sha1": "73d551c21d8a5054c1d7f8406c40443ea99c0171",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/Ideal (kommutativer Ring)",
+        "pageid": 45306,
+        "revid": 264882,
+        "parentid": 0,
+        "timestamp": "2011-05-13T13:02:50Z",
+        "mediawiki_sha1": "5b654b7c4198a57eccff394886e0bc394b327bb6",
+        "wikitext_bytes": 107
+      },
+      {
+        "title": "MDLUL/Idealerzeuger",
+        "pageid": 95262,
+        "revid": 536378,
+        "parentid": 0,
+        "timestamp": "2018-01-06T11:50:49Z",
+        "mediawiki_sha1": "d34466e8b4a2f1fae14b7e53334845d925b01875",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/Integritätsbereich",
+        "pageid": 24173,
+        "revid": 301290,
+        "parentid": 301289,
+        "timestamp": "2012-02-18T20:25:56Z",
+        "mediawiki_sha1": "94d1bc5db80e84abfc3fd6ee64a77f768ca88040",
+        "wikitext_bytes": 123
+      },
+      {
+        "title": "MDLUL/Kern",
+        "pageid": 58422,
+        "revid": 341971,
+        "parentid": 0,
+        "timestamp": "2012-12-03T13:21:38Z",
+        "mediawiki_sha1": "39cd2152f706397c5d8bc22544315460b7fe428a",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/Kommutativer Ring",
+        "pageid": 58870,
+        "revid": 342638,
+        "parentid": 0,
+        "timestamp": "2012-12-06T10:54:59Z",
+        "mediawiki_sha1": "c14d6affe5d857b9c5b2b4110b94fa95bb3e7e53",
+        "wikitext_bytes": 119
+      },
+      {
+        "title": "MDLUL/Körper",
+        "pageid": 45898,
+        "revid": 267506,
+        "parentid": 0,
+        "timestamp": "2011-06-07T13:51:29Z",
+        "mediawiki_sha1": "ce01f7f216f5f8bd6b1401f9f4ae5020af5040d1",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Maximales Ideal",
+        "pageid": 51039,
+        "revid": 299640,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:40:10Z",
+        "mediawiki_sha1": "669b80ec86f88f0b18227bf009f40c7a27f322bb",
+        "wikitext_bytes": 115
+      },
+      {
+        "title": "MDLUL/Nullstellenmenge",
+        "pageid": 52004,
+        "revid": 305420,
+        "parentid": 0,
+        "timestamp": "2012-03-21T18:31:09Z",
+        "mediawiki_sha1": "87c12d4abb2a807d7e5b1a436fb3b23f21ee8359",
+        "wikitext_bytes": 143
+      },
+      {
+        "title": "MDLUL/Polynom (K)",
+        "pageid": 67833,
+        "revid": 400626,
+        "parentid": 0,
+        "timestamp": "2014-08-30T20:22:24Z",
+        "mediawiki_sha1": "d3fa35b47b7b84446439bd7d47f3f9999e7dda5b",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "MDLUL/Polynom (n)",
+        "pageid": 52852,
+        "revid": 310153,
+        "parentid": 0,
+        "timestamp": "2012-04-15T13:36:40Z",
+        "mediawiki_sha1": "b9c4a9b054b1e8ec6d561608350a9243be850310",
+        "wikitext_bytes": 103
+      },
+      {
+        "title": "MDLUL/Polynome (K)",
+        "pageid": 67832,
+        "revid": 400625,
+        "parentid": 0,
+        "timestamp": "2014-08-30T20:21:28Z",
+        "mediawiki_sha1": "8e2f436c086f66a21480ec34c21c5867691af753",
+        "wikitext_bytes": 84
+      },
+      {
+        "title": "MDLUL/Polynomring (1)",
+        "pageid": 38643,
+        "revid": 373298,
+        "parentid": 234707,
+        "timestamp": "2013-08-09T16:28:07Z",
+        "mediawiki_sha1": "1d3074e5880ca4ee50abc40609c2c0874e1ccd65",
+        "wikitext_bytes": 116
+      },
+      {
+        "title": "MDLUL/Polynomrings (1)",
+        "pageid": 38646,
+        "revid": 373299,
+        "parentid": 234715,
+        "timestamp": "2013-08-09T16:28:59Z",
+        "mediawiki_sha1": "29c5dcfd741f76d0270e0b171b6cb2e335c171e6",
+        "wikitext_bytes": 92
+      },
+      {
+        "title": "MDLUL/Primideal",
+        "pageid": 38653,
+        "revid": 234731,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:03:40Z",
+        "mediawiki_sha1": "181985521d2d58403aa175517f1317e960b273e1",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/Primpolynom",
+        "pageid": 51854,
+        "revid": 304859,
+        "parentid": 0,
+        "timestamp": "2012-03-17T16:50:38Z",
+        "mediawiki_sha1": "29ea8f28d304850553ae9d0131e878740b45b39d",
+        "wikitext_bytes": 125
+      },
+      {
+        "title": "MDLUL/Primzahl",
+        "pageid": 38654,
+        "revid": 234734,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:04:19Z",
+        "mediawiki_sha1": "a150a33fd902d6ffc993baf499ffc69dbdc1a5f3",
+        "wikitext_bytes": 82
+      },
+      {
+        "title": "MDLUL/Quotientenkörper",
+        "pageid": 38667,
+        "revid": 234771,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:12:57Z",
+        "mediawiki_sha1": "6e1f853b4db22f7635f6b8996981c4bec7ecb9c5",
+        "wikitext_bytes": 110
+      },
+      {
+        "title": "MDLUL/Restklassenkörper",
+        "pageid": 38678,
+        "revid": 234796,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:19:37Z",
+        "mediawiki_sha1": "10f48cff776cd5eca3ac3452a14050ff1b2d0bfa",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/Restklassenring",
+        "pageid": 38680,
+        "revid": 234800,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:20:57Z",
+        "mediawiki_sha1": "5d42a88249e2194279dc6d57835e0f159b64336f",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/Restklassenringe",
+        "pageid": 93599,
+        "revid": 525675,
+        "parentid": 0,
+        "timestamp": "2017-11-13T20:53:24Z",
+        "mediawiki_sha1": "6574132c44ad4ad83063293efa809fc0e87b3004",
+        "wikitext_bytes": 92
+      },
+      {
+        "title": "MDLUL/Ringhomomorphismus",
+        "pageid": 38690,
+        "revid": 234820,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:27:36Z",
+        "mediawiki_sha1": "d4d966a36aea0f89864111275a94f80b345f1567",
+        "wikitext_bytes": 100
+      },
+      {
+        "title": "MDLUL/Ringisomorphie",
+        "pageid": 85536,
+        "revid": 481436,
+        "parentid": 0,
+        "timestamp": "2016-12-28T21:50:14Z",
+        "mediawiki_sha1": "24f6eaafb2ecce02c3448db7e0c4b42a76628e43",
+        "wikitext_bytes": 116
+      },
+      {
+        "title": "MDLUL/Verschwindungsmenge (affiner Raum)",
+        "pageid": 93322,
+        "revid": 524189,
+        "parentid": 0,
+        "timestamp": "2017-11-06T08:47:55Z",
+        "mediawiki_sha1": "33fece916663cf5b5c4a55f890ddf5635abc6b87",
+        "wikitext_bytes": 161
+      },
+      {
+        "title": "MDLUL/abgeschlossen (Abbildung)",
+        "pageid": 56994,
+        "revid": 335165,
+        "parentid": 0,
+        "timestamp": "2012-10-29T21:24:30Z",
+        "mediawiki_sha1": "b31d669d8cd66fb161c310387296be6fa15637d3",
+        "wikitext_bytes": 128
+      },
+      {
+        "title": "MDLUL/abgeschlossenen Mengen",
+        "pageid": 41308,
+        "revid": 243161,
+        "parentid": 243160,
+        "timestamp": "2010-10-30T16:44:29Z",
+        "mediawiki_sha1": "0ee64149d3acab629af2ad0779e2ea5814b718c8",
+        "wikitext_bytes": 115
+      },
+      {
+        "title": "MDLUL/endlicher Körper",
+        "pageid": 45610,
+        "revid": 266263,
+        "parentid": 0,
+        "timestamp": "2011-05-27T14:30:18Z",
+        "mediawiki_sha1": "e48123a8e87e5a29e75139e7f2a63a34a09671fe",
+        "wikitext_bytes": 110
+      },
+      {
+        "title": "MDLUL/faktorieller Integritätsbereich",
+        "pageid": 74303,
+        "revid": 429403,
+        "parentid": 0,
+        "timestamp": "2015-07-25T16:29:19Z",
+        "mediawiki_sha1": "bd92c0176e061e6dc9e778aed8f95380f200f866",
+        "wikitext_bytes": 137
+      },
+      {
+        "title": "MDLUL/irreduzibel (Ring)",
+        "pageid": 47151,
+        "revid": 274190,
+        "parentid": 0,
+        "timestamp": "2011-07-31T11:12:57Z",
+        "mediawiki_sha1": "eea0c404066d712c5b59b645d2816b229e02bedb",
+        "wikitext_bytes": 141
+      },
+      {
+        "title": "MDLUL/irreduzibel (Topologie)",
+        "pageid": 106397,
+        "revid": 586122,
+        "parentid": 0,
+        "timestamp": "2019-04-05T06:14:54Z",
+        "mediawiki_sha1": "d11c88675f408b89c44e385710ca8964b41bc719",
+        "wikitext_bytes": 111
+      },
+      {
+        "title": "MDLUL/isomorph (Ring)",
+        "pageid": 45669,
+        "revid": 266341,
+        "parentid": 0,
+        "timestamp": "2011-05-27T16:57:14Z",
+        "mediawiki_sha1": "225c0bb9b5031cf9f392801c672f527b76f5756f",
+        "wikitext_bytes": 89
+      },
+      {
+        "title": "MDLUL/kommutative Ringe",
+        "pageid": 58869,
+        "revid": 342637,
+        "parentid": 342636,
+        "timestamp": "2012-12-06T10:54:40Z",
+        "mediawiki_sha1": "d5d8819ff3110e732d59007e5e607c765fd894ac",
+        "wikitext_bytes": 99
+      },
+      {
+        "title": "MDLUL/kommutativen Ring",
+        "pageid": 58872,
+        "revid": 342641,
+        "parentid": 0,
+        "timestamp": "2012-12-06T10:57:00Z",
+        "mediawiki_sha1": "d60b2ebab7ec085d86a6e0b653991040e100da3e",
+        "wikitext_bytes": 99
+      },
+      {
+        "title": "MDLUL/kommutativer Ring",
+        "pageid": 51197,
+        "revid": 300841,
+        "parentid": 0,
+        "timestamp": "2012-02-15T18:51:50Z",
+        "mediawiki_sha1": "503e0e3d5791aa295bc273ff9c26c6899eeb7625",
+        "wikitext_bytes": 119
+      },
+      {
+        "title": "MDLUL/maximalen Ideales",
+        "pageid": 53451,
+        "revid": 343503,
+        "parentid": 314545,
+        "timestamp": "2012-12-12T11:08:04Z",
+        "mediawiki_sha1": "7638cdbb3c1ba79aea721b98292332b4b85922a2",
+        "wikitext_bytes": 93
+      },
+      {
+        "title": "MDLUL/maximales Ideal",
+        "pageid": 53444,
+        "revid": 343775,
+        "parentid": 343041,
+        "timestamp": "2012-12-13T13:36:43Z",
+        "mediawiki_sha1": "b411e2399762f6b32eac0d46e141f5f802ada105",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/rationale Zahl",
+        "pageid": 59169,
+        "revid": 368284,
+        "parentid": 343171,
+        "timestamp": "2013-06-15T16:32:33Z",
+        "mediawiki_sha1": "b143f5be93b76296a0f3d67cfccf8024c2f77251",
+        "wikitext_bytes": 99
+      },
+      {
+        "title": "MDLUL/rationalen Zahlen",
+        "pageid": 59173,
+        "revid": 343175,
+        "parentid": 0,
+        "timestamp": "2012-12-10T15:00:57Z",
+        "mediawiki_sha1": "525f68fb4d65a01c12162dab51382f206b8df72b",
+        "wikitext_bytes": 92
+      },
+      {
+        "title": "MDLUL/stetige Abbildung",
+        "pageid": 38911,
+        "revid": 235467,
+        "parentid": 0,
+        "timestamp": "2010-08-18T07:04:06Z",
+        "mediawiki_sha1": "f8ab2a5d9cac1ca2387e9e65238114b898ef00fd",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "MDLUL/topologischen Räumen",
+        "pageid": 62238,
+        "revid": 373904,
+        "parentid": 0,
+        "timestamp": "2013-08-14T17:38:54Z",
+        "mediawiki_sha1": "571b4fd810ca21816bce73d02a8157deaeb049fd",
+        "wikitext_bytes": 100
+      },
+      {
+        "title": "MDLUL/topologischer Raum",
+        "pageid": 39382,
+        "revid": 236417,
+        "parentid": 0,
+        "timestamp": "2010-08-21T06:04:58Z",
+        "mediawiki_sha1": "723c7b7dad4d4fceb6574033f392cd02313ba501",
+        "wikitext_bytes": 98
+      },
+      {
+        "title": "MDLUL/zusammenhängend (Raum)",
+        "pageid": 66321,
+        "revid": 393371,
+        "parentid": 0,
+        "timestamp": "2014-05-08T16:05:41Z",
+        "mediawiki_sha1": "a72586300da5080d4af00afb1fe9d6044987e813",
+        "wikitext_bytes": 134
+      },
+      {
+        "title": "MDLUL/zusammenhängenden (Raum)",
+        "pageid": 66320,
+        "revid": 393370,
+        "parentid": 0,
+        "timestamp": "2014-05-08T16:05:30Z",
+        "mediawiki_sha1": "0128f33d99ae25283f91df8a6ef58b9c6d0be24e",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "Polynome in je einer Variable/Durchschnitt/Abschätzung/Aufgabe",
+        "pageid": 93330,
+        "revid": 785037,
+        "parentid": 524217,
+        "timestamp": "2022-08-22T07:37:58Z",
+        "mediawiki_sha1": "7ce8b922f3d037d4b30564e3730e0d0b682f5391",
+        "wikitext_bytes": 581
+      },
+      {
+        "title": "Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe",
+        "pageid": 19195,
+        "revid": 1056316,
+        "parentid": 1046628,
+        "timestamp": "2025-10-23T09:43:50Z",
+        "mediawiki_sha1": "2823e1c9f1e5aa5aa98113f30377171898da22cd",
+        "wikitext_bytes": 712
+      },
+      {
+        "title": "Primideal/Charakterisierung als Kern nach Körper/Aufgabe",
+        "pageid": 15095,
+        "revid": 1083861,
+        "parentid": 1010201,
+        "timestamp": "2026-05-29T22:16:53Z",
+        "mediawiki_sha1": "f4bce09d6ab434ded67c320de11068d883d73cdf",
+        "wikitext_bytes": 837
+      },
+      {
+        "title": "Primideal/Idealdurchschnitt/Inklusion/Aufgabe",
+        "pageid": 107797,
+        "revid": 1083862,
+        "parentid": 1047108,
+        "timestamp": "2026-05-29T22:17:03Z",
+        "mediawiki_sha1": "09a05b81695052b5e7cb88fdb35b6df5a7358c46",
+        "wikitext_bytes": 777
+      },
+      {
+        "title": "Primideal/Verschwindungsmenge/Affine Gerade/Aufgabe",
+        "pageid": 93320,
+        "revid": 1083863,
+        "parentid": 1061157,
+        "timestamp": "2026-05-29T22:17:13Z",
+        "mediawiki_sha1": "1c8a8dcb4f0ad890f870fcbc89e009a66d6c315a",
+        "wikitext_bytes": 879
+      },
+      {
+        "title": "Primideal/Verschwindungsmenge/Endlicher Körper/Aufgabe",
+        "pageid": 93321,
+        "revid": 1083864,
+        "parentid": 1047114,
+        "timestamp": "2026-05-29T22:17:23Z",
+        "mediawiki_sha1": "0a4962dd79fd838b0dc18eaed05c1819b1bfbc9a",
+        "wikitext_bytes": 722
+      },
+      {
+        "title": "Primideal/Verschwindungsmenge/R/Primpolynom/Aufgabe",
+        "pageid": 93323,
+        "revid": 1083865,
+        "parentid": 987217,
+        "timestamp": "2026-05-29T22:17:33Z",
+        "mediawiki_sha1": "ef236f77bfb4ce48df9f81050d9f36f254c836d3",
+        "wikitext_bytes": 622
+      },
+      {
+        "title": "Punktmengen im affinen Raum/Irreduzibel genau dann, wenn einpunktig/Aufgabe",
+        "pageid": 19061,
+        "revid": 1047673,
+        "parentid": 987477,
+        "timestamp": "2025-08-13T07:06:06Z",
+        "mediawiki_sha1": "eedd7dfc85cce3d227bf53e9776ee5a6264c6188",
+        "wikitext_bytes": 621
+      },
+      {
+        "title": "Quadrik in zwei Variablen/Kreis/Rationale Zahlen/Irreduzibel/Aufgabe",
+        "pageid": 19208,
+        "revid": 1112343,
+        "parentid": 1099051,
+        "timestamp": "2026-08-21T11:02:57Z",
+        "mediawiki_sha1": "ba3f34a3a5eab049fb7afa69a7b5a350923fa24a",
+        "wikitext_bytes": 768
+      },
+      {
+        "title": "Quadrik in zwei Variablen/X^2+Y^2+a/a nicht 0/Irreduzibel/Aufgabe",
+        "pageid": 19207,
+        "revid": 1048096,
+        "parentid": 987748,
+        "timestamp": "2025-08-13T08:15:37Z",
+        "mediawiki_sha1": "ff1946c16d3fc29391d908483374780d98cc6548",
+        "wikitext_bytes": 757
+      },
+      {
+        "title": "Rationaler Funktionenkörper/Unendlich viele Zwischenkörper/Aufgabe",
+        "pageid": 43672,
+        "revid": 1048439,
+        "parentid": 987836,
+        "timestamp": "2025-08-13T09:12:07Z",
+        "mediawiki_sha1": "d53bb439857e413a010031412bf91a07e66ea912",
+        "wikitext_bytes": 607
+      },
+      {
+        "title": "Reelle Hyperbel/Irreduzible Komponenten/Aufgabe",
+        "pageid": 93329,
+        "revid": 1074958,
+        "parentid": 1068638,
+        "timestamp": "2026-03-07T15:17:09Z",
+        "mediawiki_sha1": "e2185a04cb59b0d0f7b50b5597aed55fe11e31cf",
+        "wikitext_bytes": 474
+      },
+      {
+        "title": "Reelle Zahlen/Topologie/Mit metrischer Topologie irreduzibel/Aufgabe",
+        "pageid": 19192,
+        "revid": 847765,
+        "parentid": 786085,
+        "timestamp": "2022-09-25T22:29:29Z",
+        "mediawiki_sha1": "64ada0d1ad78dae22618db5dbc44dacad6cd3f55",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Restklassenkörper (Z)/Summe von zwei Quadraten/Lösung/Fakt/Beweis/Aufgabe",
+        "pageid": 19122,
+        "revid": 1075370,
+        "parentid": 1075359,
+        "timestamp": "2026-03-11T10:37:59Z",
+        "mediawiki_sha1": "129dfeb7280361e8db3ed77dac5080273589b870",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Restklassenringe (Z)/p prim/Quadratische Form/Hat Lösung oder beschreibt Nichtquadrat in einer Variablen/Aufgabe",
+        "pageid": 19124,
+        "revid": 1112345,
+        "parentid": 1084204,
+        "timestamp": "2026-08-21T11:08:08Z",
+        "mediawiki_sha1": "27d5218bf42d94c43024482e52b4f8e54b7b3d56",
+        "wikitext_bytes": 1357
+      },
+      {
+        "title": "Stetige Abbildung/Abgeschlossene Abbildung/Definition",
+        "pageid": 19225,
+        "revid": 1034581,
+        "parentid": 961493,
+        "timestamp": "2025-08-11T18:30:56Z",
+        "mediawiki_sha1": "f8abde8b4e3c01438634fc411a853bfda49e426f",
+        "wikitext_bytes": 653
+      },
+      {
+        "title": "Vorlage:Abbildung",
+        "pageid": 22825,
+        "revid": 834813,
+        "parentid": 831449,
+        "timestamp": "2022-09-24T09:18:56Z",
+        "mediawiki_sha1": "365fba0c32ba421147738a7191e667e4f45f5cf9",
+        "wikitext_bytes": 361
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element",
+        "pageid": 146804,
+        "revid": 834774,
+        "parentid": 0,
+        "timestamp": "2022-09-24T09:09:45Z",
+        "mediawiki_sha1": "a10994eb018217546f4702b0cd2eafaa8526ad04",
+        "wikitext_bytes": 336
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Arbeitsblatt",
+        "pageid": 28743,
+        "revid": 938901,
+        "parentid": 938893,
+        "timestamp": "2024-07-23T16:20:47Z",
+        "mediawiki_sha1": "cdd0ba6a7f93d6d5df80b0e93030ff714636e5b9",
+        "wikitext_bytes": 248
+      },
+      {
+        "title": "Vorlage:Aufgabelink",
+        "pageid": 30300,
+        "revid": 1070423,
+        "parentid": 1069816,
+        "timestamp": "2026-02-06T14:22:11Z",
+        "mediawiki_sha1": "6b0c4bbe7084da3f232f6649820be7b5f7bae36f",
+        "wikitext_bytes": 1864
+      },
+      {
+        "title": "Vorlage:Aufzählung2/a",
+        "pageid": 84499,
+        "revid": 1007146,
+        "parentid": 475653,
+        "timestamp": "2025-07-04T10:11:13Z",
+        "mediawiki_sha1": "193accfc8c49ee9157ab201d3e7be975393aabd9",
+        "wikitext_bytes": 226
+      },
+      {
+        "title": "Vorlage:Aufzählung3",
+        "pageid": 17070,
+        "revid": 1075092,
+        "parentid": 1061902,
+        "timestamp": "2026-03-08T09:22:41Z",
+        "mediawiki_sha1": "e86a69f3c3338174e3e3abcd52fcedeb8b111cff",
+        "wikitext_bytes": 319
+      },
+      {
+        "title": "Vorlage:Bildskip",
+        "pageid": 167735,
+        "revid": 1060033,
+        "parentid": 0,
+        "timestamp": "2025-11-26T10:30:06Z",
+        "mediawiki_sha1": "6a9f92ee3da83a3912f75cf7534dce938eadf7bb",
+        "wikitext_bytes": 195
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionswort",
+        "pageid": 23952,
+        "revid": 1107662,
+        "parentid": 1061423,
+        "timestamp": "2026-07-17T08:06:31Z",
+        "mediawiki_sha1": "f1aff98d04a0bd4a7894808a36cedfb412c7d021",
+        "wikitext_bytes": 822
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Ideala",
+        "pageid": 20015,
+        "revid": 232980,
+        "parentid": 135804,
+        "timestamp": "2010-08-10T21:48:04Z",
+        "mediawiki_sha1": "4875a8b79be582d65c4fb26b028e450546ead17e",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Idealb",
+        "pageid": 20068,
+        "revid": 232986,
+        "parentid": 135811,
+        "timestamp": "2010-08-10T21:49:53Z",
+        "mediawiki_sha1": "76e066651725e9a3959c0eff1d159748a14cf3c1",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Idealm",
+        "pageid": 20065,
+        "revid": 232982,
+        "parentid": 135808,
+        "timestamp": "2010-08-10T21:48:41Z",
+        "mediawiki_sha1": "6f2507cd4f92838f934a63110ff79c9097426dfa",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Idealp",
+        "pageid": 20033,
+        "revid": 162315,
+        "parentid": 135805,
+        "timestamp": "2009-05-30T20:20:13Z",
+        "mediawiki_sha1": "09b94076e16a834aa8ac1475adfc4ffed6e80814",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:ImageNoteControl",
+        "pageid": 31352,
+        "revid": 200442,
+        "parentid": 200441,
+        "timestamp": "2009-12-20T10:26:01Z",
+        "mediawiki_sha1": "18862d5c418a35f12237fcf8a6ad5f33b9e4e5bb",
+        "wikitext_bytes": 421
+      },
+      {
+        "title": "Vorlage:Inputaufgabe",
+        "pageid": 18012,
+        "revid": 1074928,
+        "parentid": 1074886,
+        "timestamp": "2026-03-07T15:07:51Z",
+        "mediawiki_sha1": "7d986984e8f142ccf7bcab8075ecfc2406ab4883",
+        "wikitext_bytes": 15973
+      },
+      {
+        "title": "Vorlage:Inputbild",
+        "pageid": 17287,
+        "revid": 1074342,
+        "parentid": 1074341,
+        "timestamp": "2026-03-07T09:46:59Z",
+        "mediawiki_sha1": "7574f2aef8023c692b7abc57f24c52900da83526",
+        "wikitext_bytes": 1976
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:ManSie",
+        "pageid": 22977,
+        "revid": 154703,
+        "parentid": 154702,
+        "timestamp": "2009-05-02T07:51:29Z",
+        "mediawiki_sha1": "ac241a6dd0ce0be7df949462f1a96974f855b890",
+        "wikitext_bytes": 186
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Aufgabe",
+        "pageid": 33520,
+        "revid": 945699,
+        "parentid": 945698,
+        "timestamp": "2024-10-06T15:36:10Z",
+        "mediawiki_sha1": "e66acdf4e9f704b519f910a3ac8b123ac3aab145",
+        "wikitext_bytes": 7332
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/AufgabePunkteZerlegung",
+        "pageid": 144492,
+        "revid": 1105116,
+        "parentid": 1094064,
+        "timestamp": "2026-06-21T13:11:03Z",
+        "mediawiki_sha1": "ad6c047b3f7193cd54ddb7907dff7714934631cc",
+        "wikitext_bytes": 3038
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Definition",
+        "pageid": 33515,
+        "revid": 763985,
+        "parentid": 762832,
+        "timestamp": "2022-08-15T04:47:42Z",
+        "mediawiki_sha1": "63e0d410c36911e0ac432f7074f4e6ba1f0baf56",
+        "wikitext_bytes": 1585
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Situation",
+        "pageid": 33540,
+        "revid": 767085,
+        "parentid": 766579,
+        "timestamp": "2022-08-15T15:08:59Z",
+        "mediawiki_sha1": "65d1f00fe22a0226a8f8eab7b35aceeda37869d0",
+        "wikitext_bytes": 789
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:N Sie",
+        "pageid": 22975,
+        "revid": 1106829,
+        "parentid": 1106828,
+        "timestamp": "2026-07-13T16:36:50Z",
+        "mediawiki_sha1": "1e1bbe37a637c31bb179415b8336da2c795bc96e",
+        "wikitext_bytes": 173
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affine Gerade",
+        "pageid": 20276,
+        "revid": 564066,
+        "parentid": 313324,
+        "timestamp": "2018-10-29T18:00:10Z",
+        "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+        "wikitext_bytes": 232
+      },
+      {
+        "title": "Vorlage:Op:Affiner Raum",
+        "pageid": 45165,
+        "revid": 594907,
+        "parentid": 332226,
+        "timestamp": "2019-07-21T15:59:27Z",
+        "mediawiki_sha1": "4686037d6435c99c266f178f71b76faf17ef7239",
+        "wikitext_bytes": 236
+      },
+      {
+        "title": "Vorlage:Op:Zmod",
+        "pageid": 24011,
+        "revid": 255414,
+        "parentid": 161634,
+        "timestamp": "2011-02-12T08:37:03Z",
+        "mediawiki_sha1": "9ba9be51eb87aaac340c279a46ec2bf30b5f780d",
+        "wikitext_bytes": 211
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Stichwort",
+        "pageid": 23961,
+        "revid": 1067874,
+        "parentid": 1061532,
+        "timestamp": "2026-01-30T10:47:00Z",
+        "mediawiki_sha1": "ceca7248a5c70c86413f4880b4f90f88611c4063",
+        "wikitext_bytes": 685
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+        "pageid": 24050,
+        "revid": 790374,
+        "parentid": 790369,
+        "timestamp": "2022-08-23T11:13:50Z",
+        "mediawiki_sha1": "5dd904e06ce5855ebdf98901569dd4673f98cb29",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Stichwort",
+        "pageid": 24184,
+        "revid": 1067875,
+        "parentid": 794079,
+        "timestamp": "2026-01-30T10:49:46Z",
+        "mediawiki_sha1": "bc938285eaf43311874531de8d3c26bb3b14e5de",
+        "wikitext_bytes": 842
+      },
+      {
+        "title": "Vorlage:Zahlentheorie/Standardkurs",
+        "pageid": 106157,
+        "revid": 997067,
+        "parentid": 585615,
+        "timestamp": "2025-02-21T16:41:44Z",
+        "mediawiki_sha1": "3a4e5d2e9108d3ac76c6e08850c360db91c243bb",
+        "wikitext_bytes": 114
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      },
+      {
+        "title": "Zwei Kreise/Durchschnitt/Restklassenring/Gerade/Aufgabe",
+        "pageid": 168401,
+        "revid": 1067948,
+        "parentid": 1067947,
+        "timestamp": "2026-01-30T14:38:10Z",
+        "mediawiki_sha1": "07617a4aac50580bf71d2ef6c437f92e14539a9e",
+        "wikitext_bytes": 1014
+      },
+      {
+        "title": "Zwei Polynome in einer Variablen/Graph/Restklassenring/Aufgabe",
+        "pageid": 168390,
+        "revid": 1067859,
+        "parentid": 1067857,
+        "timestamp": "2026-01-30T09:57:47Z",
+        "mediawiki_sha1": "63d4d430aa09fad4987f4089e89346e218c51757",
+        "wikitext_bytes": 725
+      }
+    ]
+  },
+  "solutions": {
+    "schema": "brenner-worksheet-solution-map-v2",
+    "worksheet": {
+      "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 4",
+      "pageid": 165923,
+      "revid": 1075377,
+      "parentid": 1074206,
+      "timestamp": "2026-03-11T10:41:52Z",
+      "mediawiki_sha1": "e938dbe41b7474eff311dfc04732ab251fe9c086",
+      "wikitext_bytes": 4472,
+      "api_file": "worksheet-04-api.json",
+      "api_bytes": 5037,
+      "api_sha256": "0c582c62fa4d92ce5f3787cf5b8680c7adb53aa15f49e5d678c631be7811f7f7",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1075377",
+      "xml_file": "worksheet-04.xml",
+      "xml_bytes": 7618,
+      "xml_sha256": "a84bc60208876c3db72976be3a0f0e2580e511ee8ef3b291da75cf22c043c126",
+      "html_file": "worksheet-04.html",
+      "html_bytes": 91693,
+      "html_sha256": "4b64082679e88a881085cdde4ac24a2a6da4014dfa92c714a4b60e1414613cd0",
+      "parse_api_file": "worksheet-04-parse-api.json",
+      "parse_api_bytes": 23007,
+      "parse_api_sha256": "b4114597a619b1c4057c2083f950da968f8ca221060c6ab38028362e12206a59",
+      "template_count": 140,
+      "image_count": 4,
+      "link_count": 76,
+      "external_link_count": 0
+    },
+    "exercise_count": 30,
+    "solution_count": 6,
+    "candidate_api_file": "worksheet-solution-candidates-api.json",
+    "candidate_api_bytes": 12884,
+    "candidate_api_sha256": "4eb09ae7f63abf217107078898d1374295fc736b7dd4c8521d8b791b35b02062",
+    "entries": [
+      {
+        "exercise_number": 1,
+        "exercise_title": "Affin-algebraische Mengen/Finde Beschreibung als Nullstellenmenge zu Bild/Fläche und senkrechte Gerade/Aufgabe",
+        "solution_title": "Affin-algebraische Mengen/Finde Beschreibung als Nullstellenmenge zu Bild/Fläche und senkrechte Gerade/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 2,
+        "exercise_title": "Punktmengen im affinen Raum/Irreduzibel genau dann, wenn einpunktig/Aufgabe",
+        "solution_title": "Punktmengen im affinen Raum/Irreduzibel genau dann, wenn einpunktig/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 3,
+        "exercise_title": "Affin-algebraische Mengen/Zusammenhängend/Nicht irreduzibel/Beispiel/Aufgabe",
+        "solution_title": "Affin-algebraische Mengen/Zusammenhängend/Nicht irreduzibel/Beispiel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 4,
+        "exercise_title": "Reelle Hyperbel/Irreduzible Komponenten/Aufgabe",
+        "solution_title": "Reelle Hyperbel/Irreduzible Komponenten/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 5,
+        "exercise_title": "Quadrik in zwei Variablen/X^2+Y^2+a/a nicht 0/Irreduzibel/Aufgabe",
+        "solution_title": "Quadrik in zwei Variablen/X^2+Y^2+a/a nicht 0/Irreduzibel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 6,
+        "exercise_title": "Primideal/Verschwindungsmenge/Affine Gerade/Aufgabe",
+        "solution_title": "Primideal/Verschwindungsmenge/Affine Gerade/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 7,
+        "exercise_title": "Primideal/Verschwindungsmenge/Endlicher Körper/Aufgabe",
+        "solution_title": "Primideal/Verschwindungsmenge/Endlicher Körper/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 8,
+        "exercise_title": "Primideal/Verschwindungsmenge/R/Primpolynom/Aufgabe",
+        "solution_title": "Primideal/Verschwindungsmenge/R/Primpolynom/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 9,
+        "exercise_title": "Affiner Raum/Irreduzibilität/Schnitt von Zylinder und Kugel/Aufgabe",
+        "solution_title": "Affiner Raum/Irreduzibilität/Schnitt von Zylinder und Kugel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 10,
+        "exercise_title": "Zwei Polynome in einer Variablen/Graph/Restklassenring/Aufgabe",
+        "solution_title": "Zwei Polynome in einer Variablen/Graph/Restklassenring/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 168391,
+        "revid": 1067858,
+        "parentid": 0,
+        "timestamp": "2026-01-30T09:57:30Z",
+        "mediawiki_sha1": "f95cd9516e1c3d2ea5dc2c9feb4767ef659af45c",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1067858",
+        "xml_file": "solution-ex10.xml",
+        "xml_bytes": 4735,
+        "xml_sha256": "91a2f12f1bb7bac5eb737bb08f9b6b9498775e9495e302247c221ed7e7d8a95d",
+        "html_file": "solution-ex10.html",
+        "html_bytes": 14733,
+        "html_sha256": "d4a74d512f09013640ee5f462bc99a13e1c97b654bb65f54daa883c41c5e11b0"
+      },
+      {
+        "exercise_number": 11,
+        "exercise_title": "Zwei Kreise/Durchschnitt/Restklassenring/Gerade/Aufgabe",
+        "solution_title": "Zwei Kreise/Durchschnitt/Restklassenring/Gerade/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 168402,
+        "revid": 1067949,
+        "parentid": 0,
+        "timestamp": "2026-01-30T14:48:08Z",
+        "mediawiki_sha1": "3bd96eb4afd9fde65ebecceb18cfc7df9378e3df",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1067949",
+        "xml_file": "solution-ex11.xml",
+        "xml_bytes": 4669,
+        "xml_sha256": "8f98e3e1bcd21d13947c27d45cceeb5880b86901b1792dd8c1afdbe4221e64b8",
+        "html_file": "solution-ex11.html",
+        "html_bytes": 14291,
+        "html_sha256": "7b29c0942ba271647dc2cbc7f10aef5e52cf3eeb1a60d8ae5b82cf927d8d1d25"
+      },
+      {
+        "exercise_number": 12,
+        "exercise_title": "Kommutativer Ring/Polynomring/1/Restklassenring/Aufgabe",
+        "solution_title": "Kommutativer Ring/Polynomring/1/Restklassenring/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 95286,
+        "revid": 1110006,
+        "parentid": 1096289,
+        "timestamp": "2026-08-04T10:39:40Z",
+        "mediawiki_sha1": "6cc3491cb492bc1519aea93b26c79df123c7e09f",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1110006",
+        "xml_file": "solution-ex12.xml",
+        "xml_bytes": 5515,
+        "xml_sha256": "31c8484ef6d1e2e954708bb9800953f14c2435dc65b16795422d6c9bc5a5295f",
+        "html_file": "solution-ex12.html",
+        "html_bytes": 22977,
+        "html_sha256": "b8e7d441bf4e3bec69b19a67b855cbbef2105ea87b36087808b57bd83ac7d332"
+      },
+      {
+        "exercise_number": 13,
+        "exercise_title": "Reelle Zahlen/Topologie/Mit metrischer Topologie irreduzibel/Aufgabe",
+        "solution_title": "Reelle Zahlen/Topologie/Mit metrischer Topologie irreduzibel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 14,
+        "exercise_title": "Restklassenkörper (Z)/Summe von zwei Quadraten/Lösung/Fakt/Beweis/Aufgabe",
+        "solution_title": "Restklassenkörper (Z)/Summe von zwei Quadraten/Lösung/Fakt/Beweis/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 169803,
+        "revid": 1075363,
+        "parentid": 1075361,
+        "timestamp": "2026-03-11T10:33:00Z",
+        "mediawiki_sha1": "d3a7ad1e4c1f464db5938ac5087442c382a3305b",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1075363",
+        "xml_file": "solution-ex14.xml",
+        "xml_bytes": 3371,
+        "xml_sha256": "a722c4dad9f2dbcc23207c9ce768aa22be5f0cb88f524566ebcdb6008b008c96",
+        "html_file": "solution-ex14.html",
+        "html_bytes": 8324,
+        "html_sha256": "34c1d3795cf7c6af64a297433c52db6ac6c37184bd1ae4d748ce7941899dc2ee"
+      },
+      {
+        "exercise_number": 15,
+        "exercise_title": "Primideal/Charakterisierung als Kern nach Körper/Aufgabe",
+        "solution_title": "Primideal/Charakterisierung als Kern nach Körper/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 169650,
+        "revid": 1072981,
+        "parentid": 1072966,
+        "timestamp": "2026-02-22T16:11:27Z",
+        "mediawiki_sha1": "2a3bbf7e03e614ef53b227a2153c985d7caebe08",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1072981",
+        "xml_file": "solution-ex15.xml",
+        "xml_bytes": 4927,
+        "xml_sha256": "4378a85b4c158cb6cdeb16a2e91361ea7ca623a65e2460bf8233eb1ce7f2793b",
+        "html_file": "solution-ex15.html",
+        "html_bytes": 12787,
+        "html_sha256": "ce9e222249cf03b456d24b6988b6512430391b7ca24ed040cc3612b17b9378ea"
+      },
+      {
+        "exercise_number": 16,
+        "exercise_title": "Kommutative Ringtheorie/Maximales Ideal/Primideal/Fakt/Beweis/Aufgabe",
+        "solution_title": "Kommutative Ringtheorie/Maximales Ideal/Primideal/Fakt/Beweis/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 17,
+        "exercise_title": "Kommutative Ringtheorie/Primideal/Charakterisierung mit Restklassenring/Fakt/Beweis/Aufgabe",
+        "solution_title": "Kommutative Ringtheorie/Primideal/Charakterisierung mit Restklassenring/Fakt/Beweis/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 86076,
+        "revid": 485196,
+        "parentid": 0,
+        "timestamp": "2017-01-22T18:50:39Z",
+        "mediawiki_sha1": "ea019f083d8af1fe044923f7dd6f86f675ee9624",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=485196",
+        "xml_file": "solution-ex17.xml",
+        "xml_bytes": 3501,
+        "xml_sha256": "d886f4e752b7d1de0b267fe874d7332cad1bbc00e05d37624f80f9cddc38f076",
+        "html_file": "solution-ex17.html",
+        "html_bytes": 11938,
+        "html_sha256": "8d50f23876988471a8f809a21c8a9e1a5abe7167ecd8b89dc3cc4a245a40a152"
+      },
+      {
+        "exercise_number": 18,
+        "exercise_title": "Primideal/Idealdurchschnitt/Inklusion/Aufgabe",
+        "solution_title": "Primideal/Idealdurchschnitt/Inklusion/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 19,
+        "exercise_title": "Kommutative Ringtheorie/Primideal/Unter Morphismus/Aufgabe",
+        "solution_title": "Kommutative Ringtheorie/Primideal/Unter Morphismus/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 20,
+        "exercise_title": "Rationaler Funktionenkörper/Unendlich viele Zwischenkörper/Aufgabe",
+        "solution_title": "Rationaler Funktionenkörper/Unendlich viele Zwischenkörper/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 21,
+        "exercise_title": "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Frage zu Beweis in mehr Variablen/Aufgabe",
+        "solution_title": "Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Frage zu Beweis in mehr Variablen/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 22,
+        "exercise_title": "Polynome in je einer Variable/Durchschnitt/Abschätzung/Aufgabe",
+        "solution_title": "Polynome in je einer Variable/Durchschnitt/Abschätzung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 23,
+        "exercise_title": "Affine Ebene/Projektion/Nicht abgeschlossen/Beispiel/Aufgabe",
+        "solution_title": "Affine Ebene/Projektion/Nicht abgeschlossen/Beispiel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 24,
+        "exercise_title": "Ebene algebraische Kurven/C/Ist nicht kompakt/Aufgabe",
+        "solution_title": "Ebene algebraische Kurven/C/Ist nicht kompakt/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 25,
+        "exercise_title": "Restklassenringe (Z)/p prim/Quadratische Form/Hat Lösung oder beschreibt Nichtquadrat in einer Variablen/Aufgabe",
+        "solution_title": "Restklassenringe (Z)/p prim/Quadratische Form/Hat Lösung oder beschreibt Nichtquadrat in einer Variablen/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 26,
+        "exercise_title": "Affin-algebraische Mengen/Irreduzibel/Ohne endlich viele Punkte/ist irreduzibel/Aufgabe",
+        "solution_title": "Affin-algebraische Mengen/Irreduzibel/Ohne endlich viele Punkte/ist irreduzibel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 27,
+        "exercise_title": "Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe",
+        "solution_title": "Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 28,
+        "exercise_title": "Quadrik in zwei Variablen/Kreis/Rationale Zahlen/Irreduzibel/Aufgabe",
+        "solution_title": "Quadrik in zwei Variablen/Kreis/Rationale Zahlen/Irreduzibel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 29,
+        "exercise_title": "Affine Ebene/Projektion/Offen/Aufgabe",
+        "solution_title": "Affine Ebene/Projektion/Offen/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 30,
+        "exercise_title": "Affine Ebene (K)/Ist quasikompakt/Aufgabe",
+        "solution_title": "Affine Ebene (K)/Ist quasikompakt/Aufgabe/Lösung",
+        "has_public_solution": false
+      }
+    ],
+    "map_file": "ORDERED_EXERCISE_MAP.json",
+    "map_bytes": 13360,
+    "map_sha256": "a6e2631e9b4156d5f32bf5f55c1a201987f9da9c41d247d51755fb8727079420"
+  },
+  "images": {
+    "lecture": [
+      "Delaunay_points.png",
+      "Gerade.svg",
+      "Straight_lines.svg",
+      "Linear_space2.png",
+      "Hydrant_Insel_Krk_Kroatien.jpg",
+      "Cylinder_principal_directions.svg",
+      "Two_cubic_curves.png",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Vorlesung4.pdf",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Arbeitsblatt4.pdf"
+    ],
+    "worksheet": [
+      "Non_cohen_macaulay_scheme_thumb.png",
+      "Rectangular_hyperbola.svg",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Arbeitsblatt4.pdf",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Vorlesung4.pdf"
+    ]
+  },
+  "files": [
+    {
+      "file": "ORDERED_EXERCISE_MAP.json",
+      "bytes": 13360,
+      "sha256": "a6e2631e9b4156d5f32bf5f55c1a201987f9da9c41d247d51755fb8727079420"
+    },
+    {
+      "file": "lecture-04-api.json",
+      "bytes": 1604,
+      "sha256": "eebb20916497548cc610003ab04c2f7265cd27e84c84a5ea5f9692f138dc236b"
+    },
+    {
+      "file": "lecture-04-expanded.tex",
+      "bytes": 25279,
+      "sha256": "12770df1bf47f03532b6331523fdaa146d8f5247cb110e483fd086a362d5dd4c"
+    },
+    {
+      "file": "lecture-04-latex-page-api.json",
+      "bytes": 372,
+      "sha256": "86a8fd9a139690246fe645e1033fc2447c549c5cb2b20a4eb4da5c7e1c1a694a"
+    },
+    {
+      "file": "lecture-04-latex-page.html",
+      "bytes": 30683,
+      "sha256": "d616349345d710724e8476c89dc4683b93dc223fac7a826c2a43427489948890"
+    },
+    {
+      "file": "lecture-04-latex-page.xml",
+      "bytes": 3173,
+      "sha256": "f6aae234741bacde1f9955d1d419707b42ae58ba36b9589500dddc18dc1c6f45"
+    },
+    {
+      "file": "lecture-04-parse-api.json",
+      "bytes": 12517,
+      "sha256": "3ed6e20d05b64018d39ed466320b5e0e8e28a617c4dd36acea855f862ab99a6d"
+    },
+    {
+      "file": "lecture-04-transclusions-01.json",
+      "bytes": 32068,
+      "sha256": "6dab394bf4e622b2563564f4f7711a3c0494c98691f31b67a6ac7da1b8bb5e77"
+    },
+    {
+      "file": "lecture-04-transclusions-02.json",
+      "bytes": 41776,
+      "sha256": "539bb72e7d836bc933534cb2febb1215d67cf753ca8758b5ddc21bead4e4a00d"
+    },
+    {
+      "file": "lecture-04-transclusions-03.json",
+      "bytes": 53158,
+      "sha256": "e017a7f66579e4967554eacfe1490c9c023c08bfbe8c18a2caf7ad3674ad3d00"
+    },
+    {
+      "file": "lecture-04-transclusions-04.json",
+      "bytes": 10869,
+      "sha256": "1c26f7fb425de1653c82c3b92ee31d7db67e5e0e5124037a807fce215a87deff"
+    },
+    {
+      "file": "lecture-04.html",
+      "bytes": 117656,
+      "sha256": "355777496ba14588501ba8777cddc37c2fb95dc31147fa4f48f4477ed20f132a"
+    },
+    {
+      "file": "lecture-04.xml",
+      "bytes": 4336,
+      "sha256": "6f05e8211d97754fd94991d984e996271bb0f5db352a162d6b8c22aee8032433"
+    },
+    {
+      "file": "solution-ex10.html",
+      "bytes": 14733,
+      "sha256": "d4a74d512f09013640ee5f462bc99a13e1c97b654bb65f54daa883c41c5e11b0"
+    },
+    {
+      "file": "solution-ex10.xml",
+      "bytes": 4735,
+      "sha256": "91a2f12f1bb7bac5eb737bb08f9b6b9498775e9495e302247c221ed7e7d8a95d"
+    },
+    {
+      "file": "solution-ex11.html",
+      "bytes": 14291,
+      "sha256": "7b29c0942ba271647dc2cbc7f10aef5e52cf3eeb1a60d8ae5b82cf927d8d1d25"
+    },
+    {
+      "file": "solution-ex11.xml",
+      "bytes": 4669,
+      "sha256": "8f98e3e1bcd21d13947c27d45cceeb5880b86901b1792dd8c1afdbe4221e64b8"
+    },
+    {
+      "file": "solution-ex12.html",
+      "bytes": 22977,
+      "sha256": "b8e7d441bf4e3bec69b19a67b855cbbef2105ea87b36087808b57bd83ac7d332"
+    },
+    {
+      "file": "solution-ex12.xml",
+      "bytes": 5515,
+      "sha256": "31c8484ef6d1e2e954708bb9800953f14c2435dc65b16795422d6c9bc5a5295f"
+    },
+    {
+      "file": "solution-ex14.html",
+      "bytes": 8324,
+      "sha256": "34c1d3795cf7c6af64a297433c52db6ac6c37184bd1ae4d748ce7941899dc2ee"
+    },
+    {
+      "file": "solution-ex14.xml",
+      "bytes": 3371,
+      "sha256": "a722c4dad9f2dbcc23207c9ce768aa22be5f0cb88f524566ebcdb6008b008c96"
+    },
+    {
+      "file": "solution-ex15.html",
+      "bytes": 12787,
+      "sha256": "ce9e222249cf03b456d24b6988b6512430391b7ca24ed040cc3612b17b9378ea"
+    },
+    {
+      "file": "solution-ex15.xml",
+      "bytes": 4927,
+      "sha256": "4378a85b4c158cb6cdeb16a2e91361ea7ca623a65e2460bf8233eb1ce7f2793b"
+    },
+    {
+      "file": "solution-ex17.html",
+      "bytes": 11938,
+      "sha256": "8d50f23876988471a8f809a21c8a9e1a5abe7167ecd8b89dc3cc4a245a40a152"
+    },
+    {
+      "file": "solution-ex17.xml",
+      "bytes": 3501,
+      "sha256": "d886f4e752b7d1de0b267fe874d7332cad1bbc00e05d37624f80f9cddc38f076"
+    },
+    {
+      "file": "worksheet-04-api.json",
+      "bytes": 5037,
+      "sha256": "0c582c62fa4d92ce5f3787cf5b8680c7adb53aa15f49e5d678c631be7811f7f7"
+    },
+    {
+      "file": "worksheet-04-expanded.tex",
+      "bytes": 16610,
+      "sha256": "fe1f877dd92eca70b890c3b53d9ec972ea36d8afe074db40fecc31ef63ba2143"
+    },
+    {
+      "file": "worksheet-04-latex-page-api.json",
+      "bytes": 375,
+      "sha256": "5dcccddc0102af23fd72644fc538b3cb030a2d2729a4fd10f8a6f7a67d278240"
+    },
+    {
+      "file": "worksheet-04-latex-page.html",
+      "bytes": 24681,
+      "sha256": "87c480990b50b917a5c57cc873721d5944852a5e3c7633b09e7cd0411c486ea7"
+    },
+    {
+      "file": "worksheet-04-latex-page.xml",
+      "bytes": 3176,
+      "sha256": "a141ad166acd60631b6e973b63602f3401f9abdbc51644445f8fe20b7410a1d6"
+    },
+    {
+      "file": "worksheet-04-parse-api.json",
+      "bytes": 23007,
+      "sha256": "b4114597a619b1c4057c2083f950da968f8ca221060c6ab38028362e12206a59"
+    },
+    {
+      "file": "worksheet-04-transclusions-01.json",
+      "bytes": 20021,
+      "sha256": "9c7fd159d2b416f791bc5b3f85d192a6bd619ba75628c5440be88768cf5ef608"
+    },
+    {
+      "file": "worksheet-04-transclusions-02.json",
+      "bytes": 9650,
+      "sha256": "e5ae376d3073c153c4c9a9ea43471f53f13601c7553c2243579cbe9f0895c07a"
+    },
+    {
+      "file": "worksheet-04-transclusions-03.json",
+      "bytes": 14211,
+      "sha256": "6ddd128056257b97699ec994fe710da211a67ee2b5ad7767ef8d9664c3b6b56b"
+    },
+    {
+      "file": "worksheet-04-transclusions-04.json",
+      "bytes": 26852,
+      "sha256": "07a860bb258e4fde2970bb5f8f54c4c875b643b8fbebff81bb8c3d87725aae4c"
+    },
+    {
+      "file": "worksheet-04-transclusions-05.json",
+      "bytes": 54261,
+      "sha256": "444bd4cdcd82fd9cd41d77bcb61429bbba1c6011cc7f86f53463bdcb65cf280c"
+    },
+    {
+      "file": "worksheet-04-transclusions-06.json",
+      "bytes": 15043,
+      "sha256": "80e1fd9d235765ff39b9e780f758998056a8f0cd5cda5baeb68c8c4768dce3a9"
+    },
+    {
+      "file": "worksheet-04.html",
+      "bytes": 91693,
+      "sha256": "4b64082679e88a881085cdde4ac24a2a6da4014dfa92c714a4b60e1414613cd0"
+    },
+    {
+      "file": "worksheet-04.xml",
+      "bytes": 7618,
+      "sha256": "a84bc60208876c3db72976be3a0f0e2580e511ee8ef3b291da75cf22c043c126"
+    },
+    {
+      "file": "worksheet-solution-candidates-api.json",
+      "bytes": 12884,
+      "sha256": "4eb09ae7f63abf217107078898d1374295fc736b7dd4c8521d8b791b35b02062"
+    }
+  ]
+}

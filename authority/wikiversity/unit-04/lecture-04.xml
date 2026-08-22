@@ -1,0 +1,102 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 4</title>
+    <ns>106</ns>
+    <id>165893</id>
+    <revision>
+      <id>1112250</id>
+      <parentid>1056163</parentid>
+      <timestamp>2026-08-20T16:46:15Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112250</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1197" sha1="af30ewh1kvlzh5szfip5jpucdlc1iey" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|4|
+
+{{Zwischenüberschrift|Irreduzible affin-algebraische Mengen}}
+
+{{:Affine Varietät/Irreduzibilität/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Zur Anzahl der Punkte auf Kurven}}
+
+Wir haben bereits gesehen, dass der Schnitt einer Kurve mit einer Geraden nur aus endlich vielen Punkten besteht, es sei denn, die Gerade ist selbst eine Komponente der Kurve 
+{{
+Zusatz/Klammer
+|text=siehe
+{{
+Faktlink
+|Präwort=||Faktseitenname=
+Ebene algebraische Kurven/Schnitt mit Geraden/Ist endlich oder voll/Fakt
+|Nr=
+|SZ=
+}}
+|ISZ=|ESZ=.
+}}
+Dies wollen wir zunächst auf den Schnitt von zwei beliebigen ebenen Kurven verallgemeinern. Als Hilfsmittel benötigen wir die folgende Definition.
+
+{{inputdefinition
+|Quotientenkörper/Polynomring/Eine Variable/Rationaler Funktionenkörper/Definition|}}
+
+{{inputfaktbeweis
+|Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt|Satz||}}
+
+{{
+inputbild
+|Two cubic curves|png| 200px {{!}}  
+|Zusname=Two_cubic_curves
+|Autor=
+|Benutzer=Hack
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+
+{{
+inputfaktbeweis
+|Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt|Korollar||
+}}
+}}</text>
+      <sha1>af30ewh1kvlzh5szfip5jpucdlc1iey</sha1>
+    </revision>
+  </page>
+</mediawiki>

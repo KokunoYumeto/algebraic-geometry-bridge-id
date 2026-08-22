@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/1033003"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/0"/><meta property="mw:revisionSHA1" content="5mpvl81u97hs35l9k2lrqpklqf8f5gh"/><meta property="dc:modified" content="2025-08-11T13:51:16Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="165957"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_4/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 4/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="16c3c5c1-9deb-11f1-b21a-092bce0d17ed"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{4}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Irreduzible affin-algebraische Mengen}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Eine
+\definitionsverweis {affin-algebraische Menge}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+heißt
+\definitionswort {irreduzibel}{,}
+wenn
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ \neq }{ \emptyset
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist und es keine Zerlegung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ = }{ Y \cup Z
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit 
+\definitionsverweis {affin-algebraischen Mengen}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y,Z
+}<br/>{ \subset }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die Zariski-abgeschlossene Menge $V$ ist also irreduzibel genau dann, wenn
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ V
+}<br/>{ \neq} { \emptyset 
+}<br/>{ } { 
+}<br/>{ } { 
+}<br/>{ } { 
+}<br/>}
+{}{}{} 
+ist und eine Zerlegung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V
+}<br/>{ = }{ Y \cup Z
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+nur mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V
+}<br/>{ = }{ Y
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+oder mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V
+}<br/>{ = }{ Z
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+möglich ist. Dasselbe folgt dann sofort für endliche Darstellungen.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die Irreduzibilität ist eine rein topologische Eigenschaft, wobei man die obige Definition mit abgeschlossenen Mengen formulieren muss anstatt mit affin-algebraischen Mengen
+\zusatzklammer {den abgeschlossenen Mengen in der Zariski-Topologie} {} {.}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die folgenden Bilder zeigen einige (nicht) irreduzible affin-algebraische Teilmengen. Was sind dabei die irreduziblen Komponenten 
+\zusatzklammer {siehe unten} {} {?}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Delaunay_points} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Delaunay points.png } {} {Nü Es} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+ 
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Gerade} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Gerade.svg } {} {Lokilech} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+ </span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Straight_lines} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Straight lines.svg } {} {Lokilech} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+ 
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Linear_space2} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Linear space2.png } {} {Kmhkmh} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten den affinen Raum <br/>\mathl{{ {\mathbb A}_{  K }^{  n   } }}{.} Wenn $K$ endlich ist, so besteht der Raum nur aus endlich vielen Punkten und nur die einpunktigen Teilmengen sind irreduzibel. Insbesondere ist der affine Raum außer bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ n
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+nicht irreduzibel.</p>
+
+<p>Bei unendlichem $K$ ist der affine Raum <br/>\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} hingegen irreduzibel. Es sei nämlich
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ { {\mathbb A}_{  K }^{  n   } }  
+}<br/>{ = }{ Y \cup Z 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+mit echt kleineren affin-algebraischen Teilmengen. D.h. für die offenen Komplemente
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U
+}<br/>{ = }{ { {\mathbb A}_{  K }^{  n   } }  \setminus Y 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ W
+}<br/>{ = }{ { {\mathbb A}_{  K }^{  n   } } \setminus Z
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+ist einerseits
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U,W 
+}<br/>{ \neq }{ \emptyset
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,}
+aber 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U \cap W 
+}<br/>{ = }{ \emptyset
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Das widerspricht aber
+<a rel="mw:WikiLink" href="./Zariski-Topologie/Affiner_Raum/Offene_Mengen_sind_dicht/Aufgabe" title="Zariski-Topologie/Affiner Raum/Offene Mengen sind dicht/Aufgabe">Aufgabe 3.20</a>.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine
+\definitionsverweis {affin-algebraische Menge}{}{}
+mit
+\definitionsverweis {Verschwindungsideal}{}{}
+<br/>\mathl{\operatorname{Id} \,(V)}{.}}<br/>\faktfolgerung {Dann ist $V$ genau dann
+\definitionsverweis {irreduzibel}{}{,}
+wenn <br/>\mathl{\operatorname{Id} \, (V)}{} ein
+\definitionsverweis {Primideal}{}{}
+ist.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>\teilbeweis {}{}{}<br/>{Es sei <br/>\mathl{\operatorname{Id} \, (V)}{} kein Primideal. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{Id} \, (V)
+}<br/>{ = }{ K[X_1 , \ldots , X_n]
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V
+}<br/>{ = }{ \emptyset
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,}
+also ist $V$ nicht irreduzibel nach Definition. Andernfalls gibt es Polynome
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G 
+}<br/>{ \in }{ K[X_1 , \ldots ,  X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F G
+}<br/>{ \in }{ \operatorname{Id} \, (V) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+aber
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G  
+}<br/>{ \notin }{ \operatorname{Id}\,(V)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Dies bedeutet, dass es Punkte
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P,Q
+}<br/>{ \in }{ V 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P) 
+}<br/>{ \neq }{ 0 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G(Q)
+}<br/>{ \neq }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+gibt. Wir betrachten die beiden Ideale
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}_1
+}<br/>{ = }{ \operatorname{Id}\, (V)+(F) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}_2 
+}<br/>{ = }{ \operatorname{Id} \, (V)+(G) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Daher ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ V( {\mathfrak a}_1 ), V( {\mathfrak a}_2 ) 
+}<br/>{ \subseteq} { V(\operatorname{Id}\, (V)  )
+}<br/>{ =} { V
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+nach
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Verschwindungsideal_zu_Teilmenge/Nullstellengebilde/Beziehung/Fakt" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt">Lemma 3.8<span typeof="mw:Entity"> </span> (3)</a>.
+Wegen
+\mathkor {} {P \not\in V({\mathfrak a}_1)} {und} {Q \not\in V({\mathfrak a}_2)} {}
+sind diese Inklusionen echt. Andererseits ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ V({\mathfrak a}_1) \cup V({\mathfrak a}_2)
+}<br/>{ =} { V({\mathfrak a}_1 \cdot {\mathfrak a}_2)
+}<br/>{ =} { V( \operatorname{Id} \,(V)  )
+}<br/>{ =} { V
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+sodass eine nicht-triviale Zerlegung von $V$ vorliegt und somit $V$ nicht irreduzibel ist.}<br/>{}
+\teilbeweis {}{}{}<br/>{Es sei nun $V$ nicht irreduzibel. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V
+}<br/>{ = }{ \emptyset
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{Id}\, (V) 
+}<br/>{ = }{ K[X_1 , \ldots , X_n]
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+kein Primideal. Es sei also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V
+}<br/>{ \neq }{ \emptyset
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+mit der nicht-trivialen Zerlegung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V
+}<br/>{ = }{ Y \cup Z
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ V \left(  {\mathfrak a}_1   \right) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Z
+}<br/>{ = }{ V \left(  {\mathfrak a}_2  \right) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ \subset }{ V
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+gibt es einen Punkt
+<br/>\mathbed {P \in V = V(\operatorname{Id}\, (V))} {} <br/> {P \not\in V( {\mathfrak a}_1 )} {} <br/> {} {} {} {.}
+Also gibt es auch ein
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ {\mathfrak a}_1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(P)
+}<br/>{ \neq }{ 0 
+}<br/>{  }{
+}<br/>{    }{ 
+}<br/>{   }{}<br/>}
+{}{}{,} 
+und somit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \notin }{ \operatorname{Id} \, (V)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Ebenso gibt es
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ \in }{ {\mathfrak a}_2 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ \notin }{ \operatorname{Id} \, (V)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{}<br/>}
+{}{}{.}
+Für einen beliebigen Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Q
+}<br/>{ \in }{ V
+}<br/>{ = }{ Y \cup Z
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (FG)(Q) 
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,}
+da $F$ auf $Y$ und $G$ auf $Z$ verschwindet. Also ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ FG
+}<br/>{ \in }{ \operatorname{Id} \, (V)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und daher ist <br/>\mathl{\operatorname{Id} \, (V)}{} kein Primideal.}<br/>{}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $V$ eine
+\definitionsverweis {affin-algebraische Menge}{}{.} 
+Eine affin-algebra\-ische Teilmenge
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{W 
+}<br/>{ \subseteq }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+heißt eine \definitionswort {irreduzible Komponente}{} von $V$, wenn sie
+\definitionsverweis {irreduzibel}{}{}
+ist und wenn es keine irreduzible Teilmenge
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{W
+}<br/>{ \subset }{ W'
+}<br/>{ \subseteq }{ V
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Ist $V$ irreduzibel, so ist $V$ selbst die einzige irreduzible Komponente von $V$. Wir werden in
+<a rel="mw:WikiLink" href="./Affin-algebraische_Teilmengen/Zerlegung_in_irreduzible_Komponenten/Fakt" title="Affin-algebraische Teilmengen/Zerlegung in irreduzible Komponenten/Fakt">Satz 9.11</a>
+sehen, dass jede affin-algebraische Menge sich als eine endliche Vereinigung von irreduziblen Komponenten schreiben lässt.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten die Gleichung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F
+}<br/>{ =} { Y^2+X^2(X+1)^2
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+In den reellen Zahlen hat diese Gleichung zwei Lösungen: da ein reelles Quadrat nie negativ ist, kann $F$ nur dann $0$ sein, wenn beide Summanden null sind, und das impliziert einerseits
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+und andererseits
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+oder 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X
+}<br/>{ = }{ -1
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Insbesondere ist die reelle Lösungsmenge nicht zusammenhängend und nicht irreduzibel
+\zusatzklammer {und das Verschwindungsideal zur reellen Situation ist sehr groß} {} {.}</p>
+
+<p>Betrachtet man $F$ dagegen über den komplexen Zahlen, so gibt es eine Faktorisierung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{F 
+}<br/>{ =} { (Y+ { \mathrm i} X(X+1))(Y- { \mathrm i} X(X+1)) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+in irreduzible Polynome. Dies zeigt zugleich, dass $F$ als Polynom in <br/>\mathl{\R [X,Y]}{} irreduzibel ist
+\zusatzklammer {obwohl das reelle Nullstellengebilde nicht irreduzibel ist} {} {.}
+Die Nullstellenmenge über den komplexen Zahlen besteht aus den beiden Graphen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ \pm { \mathrm i} X(X+1) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{,} 
+die sich in
+\mathkor {} {(0,0)} {und} {(-1,0)} {}
+schneiden.</p>
+
+<p>Bei der Gleichung <br/>\mathl{Y^2+Z^2+X^2(X+1)^2}{} gibt es wieder nur zwei reelle Lösungspunkte, das Polynom ist aber sowohl reell als auch komplex betrachtet irreduzibel.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Hydrant_Insel_Krk_Kroatien} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Hydrant Insel Krk Kroatien.jpg } {} {Usien} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten im affinen Raum <br/>\mathl{{ {\mathbb A}_{  K  }^{  3   } }}{} 
+\zusatzklammer {<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ K
+}<br/>{ = }{ \R
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {}
+die beiden \stichwort {Zylinder} {}
+<br/>\mathdisp {S_1= \left\{  (x,y,z)   \mid   x^2+y^2 = 1         \right\}  \text{ und }  S_2= \left\{  (x,y,z)   \mid   y^2+z^2 = 1        \right\}} { . }<br/>
+Das sind beides irreduzible Mengen, wie wir später sehen werden 
+\zusatzklammer {für $K$ unendlich} {} {.}
+Wie sieht ihr Durchschnitt aus? Der Durchschnitt wird durch das Ideal ${\mathfrak a}$ beschrieben, das durch <br/>\mathl{X^2+Y^2-1}{} und <br/>\mathl{Y^2+Z^2-1}{} erzeugt wird. Zieht man die eine Gleichung von der anderen ab, so erhält man
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ X^2-Z^2 
+}<br/>{ =} { (X-Z)(X+Z) 
+}<br/>{ \in} { {\mathfrak a}
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Die beiden einzelnen Faktoren gehören aber nicht zu ${\mathfrak a}$, da beispielsweise <br/>\mathl{(1,0,-1)}{} ein Punkt des Schnittes ist, an dem <br/>\mathl{X-Z}{} nicht verschwindet 
+\zusatzklammer {Charakteristik $\neq 2$} {} {,}
+und <br/>\mathl{(1,0,1)}{} ein Punkt des Schnittes ist, an dem <br/>\mathl{X+Z}{} nicht verschwindet. Die Komponenten des Schnittes werden vielmehr durch
+<br/>\mathdisp {{\mathfrak b}_1= {\mathfrak a} + (X-Z) \text{ und } {\mathfrak b}_2= {\mathfrak a} + (X+Z)} {  }<br/>
+beschrieben. Das sind beides Primideale, der Restklassenring ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ K[X,Y,Z]/({\mathfrak b}_1)
+}<br/>{ =} { K[X,Y,Z]/({\mathfrak a} + (X-Z))
+}<br/>{ =} { K[X,Y]/ \left(  X^2+Y^2-1  \right)  
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Um die zweite Gleichung einzusehen, eliminiert man $Z$ mit der hinteren Gleichung, und die beiden Zylindergleichungen werden dann identisch. Ebenso ist die Argumentation für das andere Ideal. Geometrisch gesprochen heißt dies, dass ein Punkt des Durchschnittes <br/>\mathl{S_1 \cap S_2}{} in der Ebene
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ E_1
+}<br/>{ = }{ V(Z-X)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+oder in der Ebene
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ E_2
+}<br/>{ = }{ V(Z+X)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+liegt. Es ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ E_1 \cap S_1 
+}<br/>{ =} { E_1 \cap S_1 \cap S_2
+}<br/>{ =} { E_1 \cap S_2
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+und ebenso für $E_1$, da auf diesen Ebenen die beiden Zylindergleichungen identisch werden. </p>
+
+<p>Wie sehen die Durchschnitte in den Ebenen aus? Wir betrachten die Ebene $E_1$ mit den Koordinaten $Y$ und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U
+}<br/>{ = }{ Z+X
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Es ist dann
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X
+}<br/>{ = }{ \frac{1}{2} ((Z+X) - (Z-X)) 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und damit kann man die erste Zylindergleichung als
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left(  \frac{1}{2} ((Z+X) - (Z-X))  \right)^2+Y^2
+}<br/>{ =} { 1
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+schreiben. Auf der Ebene $E_1$, die ja durch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Z
+}<br/>{ = }{ X
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+festgelegt ist, wird aus dieser Gleichung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left(  \frac{1}{2} U  \right)^2+Y^2 
+}<br/>{ =} { 1
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \frac{1}{4}U^2+Y^2
+}<br/>{ = }{ 1
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Dies ist die Gleichung einer \stichwort {Ellipse} {,} was auch anschaulich klar ist. Man beachte, dass in der obigen Berechnung des Restklassenringes <br/>\mathl{K[X,Y,Z]/({\mathfrak b}_1)}{} aber eine Kreisgleichung auftritt. Dies sollte deshalb nicht überraschen, da Kreis und Ellipse durch eine lineare Variablentransformation ineinander überführbar sind und dass daher insbesondere die Restklassenringe isomorph sind. Als \stichwort {metrisches Gebilde} {} sind Kreis und Ellipse verschieden, und der Durchschnitt der beiden Zylinder besteht aus zwei Ellipsen. Bei einer \stichwort {orthonormalen Variablentransformation} {} bleibt die metrische Struktur erhalten. Die Variablen <br/>\mathl{Y, \left(  X+Z  \right) , \left(  X-Z  \right)}{} definieren aber keine orthonormale Transformation.</p>
+
+<p>Halten wir also fest: Der Durchschnitt der beiden Zylinder ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ S_1 \cap S_2
+}<br/>{ =} { V({\mathfrak b}_1) \cup V({\mathfrak b}_2)  
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+wobei 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak b}_1
+}<br/>{ = }{ (X^2+Y^2-1, X-Z )
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak b}_2 
+}<br/>{ = }{ (X^2+Y^2-1, X+Z )
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+zwei Ellipsen beschreiben.</p>
+
+<p>Wie liegen diese beiden Ellipsen zueinander? Dazu berechnen wir ihren Durchschnitt, der durch die Summe von ${\mathfrak b}_1$ und ${\mathfrak b}_2$ beschrieben wird. Es ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ {\mathfrak b}_1 + {\mathfrak b}_2
+}<br/>{ =} { \left(  X^2+Y^2-1 , X-Z, X+Z  \right)
+}<br/>{ =} { \left(  Y^2-1,X,Z  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Die Lösungsmenge davon besteht aus den beiden Punkten
+\mathkor {} {(0,1,0)} {und} {(0,-1,0)} {.}</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Cylinder_principal_directions} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Cylinder principal directions.svg } {Luca Antonelli} {Luke Antony} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1"> 
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Zur Anzahl der Punkte auf Kurven}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir haben bereits gesehen, dass der Schnitt einer Kurve mit einer Geraden nur aus endlich vielen Punkten besteht, es sei denn, die Gerade ist selbst eine Komponente der Kurve 
+\zusatzklammer {siehe
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurven/Schnitt_mit_Geraden/Ist_endlich_oder_voll/Fakt" title="Ebene algebraische Kurven/Schnitt mit Geraden/Ist endlich oder voll/Fakt">Lemma 1.3</a>} {} {.}
+Dies wollen wir zunächst auf den Schnitt von zwei beliebigen ebenen Kurven verallgemeinern. Als Hilfsmittel benötigen wir die folgende Definition.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und <br/>\mathl{K[X]}{} der 
+\definitionsverweis {Polynomring in einer Variablen}{}{}
+über $K$. Dann nennt man den 
+\definitionsverweis {Quotientenkörper}{}{}
+<br/>\mathl{Q(K[X])}{} den \definitionswort {rationalen Funktionenkörper}{} über $K$
+\zusatzklammer {oder \definitionswort {Körper der rationalen Funktionen}{} über $K$} {} {.}
+Er wird mit <br/>\mathl{K(X)}{} bezeichnet.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F,G
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+zwei Polynome ohne gemeinsamen nichtkonstanten Faktor.}<br/>\faktfolgerung {Dann gibt es nur endlich viele Punkte <br/>\mathl{P_1 , \ldots , P_n}{} mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P_i
+}<br/>{ \in }{ V(F,G)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G
+}<br/>{ \in }{ K[X,Y] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+als Elemente in <br/>\mathl{K(X)[Y]}{,} wobei <br/>\mathl{K(X)}{} den
+\definitionsverweis {Körper der rationalen Funktionen}{}{}
+in $X$ bezeichne. Es haben dann nach
+<a rel="mw:WikiLink" href="./Polynomring_über_faktoriellem_Grundring/Teilerfremd/Teilerfremd_über_Quotientenkörper/Aufgabe" title="Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe">Aufgabe 4.27</a>
+auch $F$ und $G$ keinen gemeinsamen Teiler in <br/>\mathl{K(X)[Y]}{.} Da dieser Ring ein
+\definitionsverweis {Hauptidealbereich}{}{}
+ist, erzeugen sie zusammen das Einheitsideal, d.h. es gibt Polynome
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ A,B
+}<br/>{ \in }{ K(X)[Y] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ AF+BG
+}<br/>{ = }{ 1
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Multiplikation mit dem Hauptnenner von $A$ und $B$ ergibt in <br/>\mathl{K[X,Y]}{} die Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \tilde{A} F + \tilde{B}G
+}<br/>{ = }{ H
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ H
+}<br/>{ \in }{ K[X] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Eine gemeinsame Nullstelle in <br/>\mathl{{\mathbb A}^{2}_{ K }}{} von $F$ und von $G$ muss also eine Nullstelle von $H$ sein. Es gibt also nur endlich viele Werte für $X$, für die eine gemeinsame Nullstelle vorliegt. Wenn man die Rollen von $X$ und von $Y$ vertauscht, so sieht man, dass es auch nur endlich viele Werte für $Y$ gibt, an denen eine gemeinsame Nullstelle vorliegen kann. Damit kann es überhaupt nur endlich viele gemeinsame Nullstellen geben.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Two_cubic_curves} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Two cubic curves.png } {} {Hack} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Primpolynom/Ebene Kurve/Unendlich viele Punkte/Irreduzibel/Fakt}<br/>{Korollar}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein 
+\definitionsverweis {Primpolynom}{}{.}
+Die Kurve $V(F)$ besitze unendlich viele Elemente.}<br/>\faktfolgerung {Dann ist das
+\definitionsverweis {Verschwindungsideal}{}{}
+zu $V(F)$ gleich dem
+\definitionsverweis {Hauptideal}{}{}
+$(F)$ und $V(F)$ ist
+\definitionsverweis {irreduzibel}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (F)
+}<br/>{ \subseteq }{ \operatorname{Id} \,(V(F))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ \in }{ \operatorname{Id} \,(V(F))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Nach
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Verschwindungsideal_zu_Teilmenge/Nullstellengebilde/Beziehung/Fakt" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt">Lemma 3.8<span typeof="mw:Entity"> </span> (3)</a>
+ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ V(F)
+}<br/>{ =} { V (\operatorname{Id} \,(V(F)) )
+}<br/>{ \subseteq} { V(F,G)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Wenn $G$ kein Vielfaches von $F$ ist, so ergibt sich mit
+<a rel="mw:WikiLink" href="./Ebene_Kurven/Schnitt_ohne_Komponenten/Endlich_viele_Punkte/Fakt" title="Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt">Satz 4.8</a>
+direkt ein Widerspruch zur Voraussetzung. Also ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \operatorname{Id} \,(V(F)) 
+}<br/>{ =} {(F)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+ein
+\definitionsverweis {Primideal}{}{}
+und nach
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Irreduzible_Teilmengen/Primideale/Fakt" title="Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt">Lemma 4.3</a>
+ist $V(F)$ irreduzibel.</p>
+</div>
+
+}</div><span about="#mwt1">
+
+ </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

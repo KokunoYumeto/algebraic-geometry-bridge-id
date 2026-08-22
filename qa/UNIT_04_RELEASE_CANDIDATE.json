@@ -1,0 +1,83 @@
+{
+  "schema": "ag-bridge-release-candidate-v1",
+  "frozen_utc": "2026-08-22T06:52:09Z",
+  "status": "PASS",
+  "through_unit": 4,
+  "language": "id-ID",
+  "publication_target": {
+    "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+    "branch": "main",
+    "tag": "unit-04",
+    "release_name": "Kurva Aljabar - Unit 1-4 (Bahasa Indonesia)",
+    "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/"
+  },
+  "reader": {
+    "html": {
+      "path": "build/reader-id/index.html",
+      "bytes": 4459047,
+      "sha256": "287d720c8376ca88f21d22c5a35f9593ace12aa428ccf5f64993b585f45f80cf"
+    },
+    "pdf": {
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-04.pdf",
+      "bytes": 2969593,
+      "sha256": "7b6b824cbd9deb575b321554ca274e40500ed6f6f0d228cec8ef005e70108e37",
+      "pages": 80
+    },
+    "build_receipt": {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 11351,
+      "sha256": "b873ccbbefc6a4b943d8e5658ab1e8216da0decd8d3b138e12bd3f0b7847568f"
+    },
+    "docs_html_byte_identical": true,
+    "docs_pdf_byte_identical": true
+  },
+  "qa": {
+    "machine": {
+      "path": "qa/UNITS_01_04_MACHINE_QA.json",
+      "bytes": 4950,
+      "sha256": "fa3bc572a6f9d809cc59960edebe18ad22b5d98087fbdb3881decce2593f595c"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_04_VISUAL_QA.json",
+      "bytes": 19210,
+      "sha256": "9da1089d693570341103f8f8ced46f99492c74013a612055c60335591d9f717b"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_04_RESPONSIVE_QA.json",
+      "bytes": 2421,
+      "sha256": "f20dd444b2490412e883b52af9e2b4b6615d918f32f1b54e3ff57b27bb1f6f65"
+    },
+    "protected_surfaces": {
+      "path": "qa/UNIT_04_PROTECTED_SURFACES.json",
+      "bytes": 6067,
+      "sha256": "1836c1545c322c6ad1b21924900bd3290a9ec43d21f9cf649e8cf5dc8bc56343"
+    },
+    "backend": {
+      "path": "qa/UNITS_01_04_BACKEND_QA.json",
+      "bytes": 4308,
+      "sha256": "aac703d3c02ce328109de968d849d884aecf3b492ca4c6fa4b6c7b0175e97877"
+    }
+  },
+  "backend": {
+    "records": 2775,
+    "manifest_path": "backend/units-01-04/MANIFEST.json",
+    "manifest_bytes": 9687,
+    "manifest_sha256": "5c548ca6b5257840b25f721b0e5548b89eb872b264d3d82a3afb7e7fb5186ac1",
+    "records_path": "backend/units-01-04/records.jsonl",
+    "records_bytes": 3747637,
+    "records_sha256": "65434f1f6503d90569f39e2faa43d6d7bdcc752ea0a21e7ddae2d36c9d68c059",
+    "prior_records_preserved_byte_for_byte": 2003,
+    "deterministic_double_replay": true
+  },
+  "checks": {
+    "authority_and_solution_closure": true,
+    "component_rights_and_local_assets": true,
+    "translation_and_math_fidelity": true,
+    "machine_qa": true,
+    "all_page_visual_qa": true,
+    "desktop_and_mobile_reflow": true,
+    "backend_schema_closure_and_replay": true,
+    "credential_findings": 0,
+    "ready_to_publish": true
+  }
+}

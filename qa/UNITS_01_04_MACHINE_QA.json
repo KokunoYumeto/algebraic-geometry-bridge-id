@@ -1,0 +1,169 @@
+{
+  "schema": "ag-bridge-machine-qa-receipt-v3",
+  "tested_build_utc": "2026-08-22T06:29:37.231031+00:00",
+  "status": "PASS",
+  "through_unit": 4,
+  "stable_ids": 219,
+  "ast_surfaces": {
+    "lecture-01.md": {
+      "Header": 12,
+      "Math": 178,
+      "Image": 23
+    },
+    "worksheet-01.md": {
+      "Header": 31,
+      "Math": 106,
+      "Image": 0
+    },
+    "worksheet-01-solutions.md": {
+      "Header": 8,
+      "Math": 95,
+      "Image": 0
+    },
+    "lecture-02.md": {
+      "Header": 14,
+      "Math": 178,
+      "Image": 2
+    },
+    "worksheet-02.md": {
+      "Header": 30,
+      "Math": 96,
+      "Image": 0
+    },
+    "worksheet-02-solutions.md": {
+      "Header": 10,
+      "Math": 145,
+      "Image": 0
+    },
+    "lecture-03.md": {
+      "Header": 23,
+      "Math": 157,
+      "Image": 4
+    },
+    "worksheet-03.md": {
+      "Header": 27,
+      "Math": 89,
+      "Image": 0
+    },
+    "worksheet-03-solutions.md": {
+      "Header": 3,
+      "Math": 23,
+      "Image": 0
+    },
+    "lecture-04.md": {
+      "Header": 15,
+      "Math": 169,
+      "Image": 7
+    },
+    "worksheet-04.md": {
+      "Header": 33,
+      "Math": 115,
+      "Image": 2
+    },
+    "worksheet-04-solutions.md": {
+      "Header": 7,
+      "Math": 102,
+      "Image": 0
+    }
+  },
+  "solutions": {
+    "unit_01": {
+      "exercise_count": 28,
+      "solution_count": 7,
+      "map_sha256": "a7c08cd69d400106014d2fc7d0365cd27c261f0f338e63723fb473240fe49885"
+    },
+    "unit_02": {
+      "exercise_count": 27,
+      "solution_count": 9,
+      "map_sha256": "46918a79aa0aa47fe1c4685cc3e0d611957d643195a6bd1cbeabb310b5d9053e"
+    },
+    "unit_03": {
+      "exercise_count": 22,
+      "solution_count": 2,
+      "map_sha256": "0cd5be78df020c99ba2baefe4a39fffeb49268c266896f86679ca2b90ed259fb"
+    },
+    "unit_04": {
+      "exercise_count": 30,
+      "solution_count": 6,
+      "map_sha256": "a6e2631e9b4156d5f32bf5f55c1a201987f9da9c41d247d51755fb8727079420"
+    }
+  },
+  "rights": {
+    "unit_01": {
+      "positions": 23,
+      "surfaces": 26,
+      "rights_sha256": "4b8274d40f472882da8ba4b5bca50b015c101010556bc8bfbea58819be32875e",
+      "closure_sha256": "326ae10cd6ff01232976c48ffae33fd48298092684d925546adb4e78541cd88a"
+    },
+    "unit_02": {
+      "positions": 2,
+      "surfaces": 3,
+      "rights_sha256": "ba2d98145c6e8b925ef4b2f722a839556f35a023f46a86cbf9f3f76a03ed3ebf",
+      "closure_sha256": "d1553e0207ab330f960490940cf53a0966e53bc9ac430beaa44676ec2d43cb20"
+    },
+    "unit_03": {
+      "positions": 4,
+      "surfaces": 4,
+      "rights_sha256": "147be61cbc73224e98079e87088bdba76692270de588e7dfe030f2f854fab077",
+      "closure_sha256": "6a88a01f43c9a60ed4091b7474a676e2913bd360888ff7c44f1f90ebe3903b0e"
+    },
+    "unit_04": {
+      "positions": 9,
+      "surfaces": 11,
+      "rights_sha256": "a26f33fc92e62576851025bf75914535e66aac255d4c23315619e770e9f4afed",
+      "closure_sha256": "de21682007feb58d05a326861e0a7c50fcf6e516c33f698c289ec78dfde40a71"
+    }
+  },
+  "authority": {
+    "unit_03": {
+      "manifest_sha256": "64cfcc3df49ac9fdf9dc4e9d2bbe4f3733cab7db79e19eb8638445fd8cf13d72",
+      "file_count": 31,
+      "lecture_revid": 1052207,
+      "worksheet_revid": 1061785
+    },
+    "unit_04": {
+      "manifest_sha256": "ca53854947c3da0b800f8ed87bc1ff4aeeb3113cb3ee2ffecf571b4e0a900276",
+      "file_count": 40,
+      "lecture_revid": 1112250,
+      "worksheet_revid": 1075377
+    }
+  },
+  "html": {
+    "bytes": 4459047,
+    "sha256": "287d720c8376ca88f21d22c5a35f9593ace12aa428ccf5f64993b585f45f80cf",
+    "images": 38,
+    "mathml_nodes": 1453,
+    "broken_internal_links": 0,
+    "remote_images": 0,
+    "responsive_css_sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa",
+    "display_math_local_horizontal_scroll": true,
+    "long_link_wrapping": true
+  },
+  "pdf": {
+    "bytes": 2969593,
+    "sha256": "7b6b824cbd9deb575b321554ca274e40500ed6f6f0d228cec8ef005e70108e37",
+    "pages": 80,
+    "encrypted": false,
+    "font_rows": 13,
+    "unembedded_fonts": 0,
+    "type3_fonts": 0
+  },
+  "build_receipt": {
+    "bytes": 11351,
+    "sha256": "b873ccbbefc6a4b943d8e5658ab1e8216da0decd8d3b138e12bd3f0b7847568f"
+  },
+  "qa_script": {
+    "path": "scripts/qa_reader_units_01_04.py",
+    "sha256": "248ec6cf032847c750b8aefd442d09c97670f2e4200ea083c6e3172763fe93c9"
+  },
+  "check_families": [
+    "source_placeholders_language_hints_and_secrets",
+    "pandoc_math_image_heading_and_stable_id_surfaces",
+    "exercise_solution_revision_and_witness_closure",
+    "component_rights_and_asset_hash_closure",
+    "unit3_and_unit4_revision_authority_manifest_and_file_hash_replay",
+    "html_language_alt_mathml_internal_links_and_local_assets",
+    "build_input_and_output_receipt_replay",
+    "pdf_structure_metadata_text_and_fonts"
+  ]
+}
