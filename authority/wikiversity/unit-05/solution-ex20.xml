@@ -1,0 +1,180 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Körper/Nullstellen auf Polynomkoeffizienten/Eigenschaften/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>97047</id>
+    <revision>
+      <id>1096346</id>
+      <parentid>1095080</parentid>
+      <timestamp>2026-06-15T08:37:14Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096346</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3861" sha1="egrc9kkf4qvj72hf9q5m8yano093xef" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung7
+|Bei
+{{
+Relationskette
+|n
+|| 2
+||
+||
+||
+|SZ=
+}}
+handelt es sich wegen
+{{
+Relationskette/display
+| {{makl| X - \lambda_1 |}} {{makl| X - \lambda_2 |}} 
+|| X^2 - {{makl| \lambda_1+\lambda_2 |}}  X + \lambda_1\lambda_2
+||
+||
+||
+|SZ=
+}}
+um die Abbildung
+{{
+Abbildung/display
+|name=\varphi
+|K^2| K^2
+| {{op:Zeilenvektor| \lambda_1 | \lambda_2 |}} | {{op:Zeilenvektor| \lambda_1\lambda_2 | - {{makl| \lambda_1+ \lambda_2 |}} |}} 
+|SZ=.
+}}
+|Bei
+{{
+Relationskette
+|n
+|| 3
+||
+||
+||
+|SZ=
+}}
+handelt es sich wegen
+{{
+Relationskette/display
+| {{makl| X - \lambda_1 |}} {{makl| X - \lambda_2 |}}  {{makl| X - \lambda_3 |}} 
+|| X^3 - {{makl| \lambda_1+\lambda_2 + \lambda_3 |}}  X^2  + {{makl|  \lambda_1\lambda_2 +\lambda_1\lambda_3 + \lambda_2\lambda_3 |}}   X- \lambda_1\lambda_2\lambda_3
+||
+||
+||
+|SZ=
+}}
+um die Abbildung
+{{
+Abbildung/display
+|name=\varphi
+|K^3| K^3
+| {{op:Zeilenvektor| \lambda_1 | \lambda_2 | \lambda_3}} | {{op:Zeilenvektor| - \lambda_1\lambda_2\lambda_3 | \lambda_1\lambda_2 +\lambda_1\lambda_3 + \lambda_2\lambda_3 | - {{makl| \lambda_1+ \lambda_2 + \lambda_3 |}} |}} 
+|SZ=.
+}}
+|Es sei {{math|term= n \in \N_+|SZ=}} und {{math|term= k |SZ=}} zwischen {{math|term= 0 |SZ=}} und {{math|term= n-1 |SZ=}} fixiert. Dann ist der Koeffizient {{math|term= c_k |SZ=}} des Polynoms {{mathl|term= \prod_{i = 1}^n {{makl| X- \lambda_i |}}  |SZ=}} aufgrund des Distributivgesetzes gleich
+{{
+Math/display|term=
+ \pm \sum_{1 \leq i_1 &lt; i_2 {{lechtdots}} i_{n-k} \leq  n}    \lambda_{i_1} \lambda_{i_2} \cdots \lambda_{i_{n-k} }
+|SZ=,
+}}
+wobei das Vorzeichen von der Parität von {{math|term= n-k|SZ=}} abhängt. Somit liegt in jeder Komponente eine
+{{
+Definitionslink
+|polynomiale Abbildung|
+|Kontext=|
+|SZ=
+}}
+vor.
+|Ein Tupel {{mathl|term= {{op:Zeilenvektor| \lambda_1 | \ldots| \lambda_n}} |SZ=}} gehört genau dann zur Faser über dem Koeffiziententupel
+{{mathl|term= {{op:Zeilenvektor|c_0 | \ldots|c_{n-1} }} |SZ=,}} wenn
+{{
+Relationskette/display
+| \prod_{i {{=}} 1}^n {{makl| X- \lambda_i |}}
+|| \sum_{j {{=}} 0 }^{n-1} c_j  X^{j} + X^n
+|| P
+||
+||
+|SZ=
+}}
+ist. Dies bedeutet insbesondere, dass die {{math|term= \lambda_i |SZ=}} Nullstellen von {{math|term= P |SZ=}} sein müssen. Da ein Polynom nur endliche viele Nullstellen besitzt, gibt es auch nur endlich viele Permutationen davon.
+|Die Faser zu einem Koeffiziententupel {{mathl|term= {{op:Zeilenvektor|c_0 | \ldots|c_{n-1} }} |SZ=}} ist genau dann leer, wenn das dadurch gegebene Polynom {{mathl|term=  \sum_{j= 0 }^{n-1} c_j  X^{j} + X^n |SZ=}} nicht vollständig in Linearfaktoren zerfällt.
+|Die maximale Anzahl in einer Faser ist {{math|term= n!|SZ=.}} Die Faser besteht aus den 
+{{
+Zusatz/Klammer
+|text=geordneten|
+|ISZ=|ESZ=
+}}
+Nullstellentupeln zu dem durch das Koeffiziententupel gegebenen Polynom, wenn dieses vollständig in Linearfaktoren zerfällt
+{{
+Zusatz/Klammer
+|text=andernfalls ist die Faser leer|
+|ISZ=|ESZ=.
+}}
+Da es maximal {{math|term= n |SZ=}} Nullstellen gibt, kann man höchstens {{math|term= n!|SZ=}} geordnete Tupel daraus bilden. Wenn es {{math|term= n |SZ=}} verschiedene Nullstellen gibt, so kann man daraus durch Permutationen genau {{math|term= n!|SZ=}} geordnete Tupel bilden.
+Beispielsweise wird das Nullstellentupel {{mathl|term=  {{op:Zeilenvektor| 1| 2| 3| \ldots|n}} |SZ=}} auf ein Koeffiziententupel abgebildet, dessen Faser aus all den Permutationen davon besteht.
+|Wenn {{math|term= K |SZ=}}
+{{
+Definitionslink
+|algebraisch abgeschlossen|
+|Kontext=|
+|SZ=
+}}
+ist, so zerfällt jedes normierte Polynom in normierte Linearfaktoren, was nach Teil (5) bedeutet, dass die Faser nicht leer ist. Dies bedeutet insgesamt die Surjektivität von {{math|term= \varphi|SZ=.}}
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>egrc9kkf4qvj72hf9q5m8yano093xef</sha1>
+    </revision>
+  </page>
+</mediawiki>

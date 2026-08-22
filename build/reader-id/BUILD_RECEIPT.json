@@ -1,9 +1,9 @@
 {
   "schema": "ag-bridge-build-receipt-v2",
-  "built_utc": "2026-08-22T06:29:37.231031+00:00",
+  "built_utc": "2026-08-22T16:27:22.314997+00:00",
   "language": "id-ID",
-  "through_unit": 4,
-  "title": "Kurva Aljabar - Unit 1-4",
+  "through_unit": 5,
+  "title": "Kurva Aljabar - Unit 1-5",
   "pandoc": "pandoc 3.9.0.2",
   "latex": "This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5)",
   "inputs": [
@@ -68,6 +68,11 @@
       "sha256": "f47694853a66d0157aab9b952d6d7a1d77c00d16275915755d77fcae6b6b95a2"
     },
     {
+      "path": "authority/assets/Elipsoid_trojosy321.png",
+      "bytes": 11301,
+      "sha256": "6384fe155c134d0131d79e6d6c409be22416c9a27056f7b0b1ddeead4fb150ba"
+    },
+    {
       "path": "authority/assets/Ellipse-250.png",
       "bytes": 5298,
       "sha256": "e500b835ac6cf054a3f8686239edb8df93a03be5e0d866603ce6f7417fdb20a3"
@@ -113,6 +118,16 @@
       "sha256": "ca7b9747bdde0e21709a6b4c92cbd53c4fca31c8affed35dc4ba272487a3d0b0"
     },
     {
+      "path": "authority/assets/Kuzel_obecny-500.png",
+      "bytes": 9612,
+      "sha256": "3ceb1caa56c896effd5dcb0d732d6f87521a608946a0c8879bfd3a3fb817f55b"
+    },
+    {
+      "path": "authority/assets/Kuzel_obecny.svg",
+      "bytes": 4285,
+      "sha256": "7635fb8bd10a4f31be63b986024f64cb272774baa73d87139320d59629308f3e"
+    },
+    {
       "path": "authority/assets/Lemniscate_of_Bernoulli-250.png",
       "bytes": 4470,
       "sha256": "89fa3b5d2f2a9af3b9dc1f74962fbf5e70b5e805e804ea09d8a0a25af2ce39f2"
@@ -151,6 +166,11 @@
       "path": "authority/assets/Newtonbig.gif",
       "bytes": 322474,
       "sha256": "3ed1c97d7e6e4e03d479039fb1170f7b46aafece9cef25bd0f34357de545e7b8"
+    },
+    {
+      "path": "authority/assets/Noether.jpg",
+      "bytes": 937271,
+      "sha256": "796367640a95be0e387652842074cd7a3c5cc891a46a590806ed227ef50b3bfe"
     },
     {
       "path": "authority/assets/Non_cohen_macaulay_scheme_thumb.png",
@@ -228,9 +248,9 @@
       "sha256": "489afccf2128371df697f6121da75c376f4910a2404dfe572c7ae7adbdac663a"
     },
     {
-      "path": "source/id-ID/frontmatter-units-01-04.md",
-      "bytes": 3209,
-      "sha256": "226aa94d4672c6cc5fca12b389ce16391181f17a589558cc4e0e48ae6fde4a05"
+      "path": "source/id-ID/frontmatter-units-01-05.md",
+      "bytes": 3450,
+      "sha256": "9a4de91358b15872945e7b31b38274c586f34ba8ede4e7fdd1a08483bee5fa04"
     },
     {
       "path": "source/id-ID/lecture-01.md",
@@ -253,6 +273,11 @@
       "sha256": "30101a8c44828775ed51087c12b20b1fada751591e71027d5899c1c793fbe681"
     },
     {
+      "path": "source/id-ID/lecture-05.md",
+      "bytes": 13912,
+      "sha256": "f531379fc279a09d3ebb917c8b4d0deba388806153e2d45fc9457894bf75630d"
+    },
+    {
       "path": "source/id-ID/media-credits-unit-02.md",
       "bytes": 692,
       "sha256": "2d1794aadd5462eccf5574af6a875699ced4d371f5a4d44e4c19d0b489088b37"
@@ -268,9 +293,19 @@
       "sha256": "6aab4fbb41704ba74c807efae600da2fdfe58c26f735861cb8ad75ba48bcc822"
     },
     {
+      "path": "source/id-ID/media-credits-unit-05.md",
+      "bytes": 888,
+      "sha256": "b155bc3eeed80412336cd6a17b643c643b8105758746eb595e83dca4e134ffdf"
+    },
+    {
       "path": "source/id-ID/media-credits.md",
       "bytes": 5005,
       "sha256": "d2e491b7b33d02b3f8cfca2a6d021d593b6d5c98c4d005d7600fe999d27295fd"
+    },
+    {
+      "path": "source/id-ID/pdf-header.tex",
+      "bytes": 61,
+      "sha256": "52be57f686048e62509a5b6f6a3d7eee2c762d19713c806773f5b62fc54a4d73"
     },
     {
       "path": "source/id-ID/reader.css",
@@ -289,8 +324,8 @@
     },
     {
       "path": "source/id-ID/worksheet-02-solutions.md",
-      "bytes": 11873,
-      "sha256": "861c9e42b2f5e159d6c0c10cd2fd3ba869c6d0e4f40f7c563005933a65e8639b"
+      "bytes": 11874,
+      "sha256": "dbdb4ce7fa868eea28a809a1c82c70aa6ae442531f39121e7902d4998aff1961"
     },
     {
       "path": "source/id-ID/worksheet-02.md",
@@ -316,18 +351,28 @@
       "path": "source/id-ID/worksheet-04.md",
       "bytes": 12665,
       "sha256": "5d5af872b912283aae1d138b4dafa1b85d9b08adc6a6cea47212385348005040"
+    },
+    {
+      "path": "source/id-ID/worksheet-05-solutions.md",
+      "bytes": 5748,
+      "sha256": "8cb0321a07f36150f1ea53aab4076e45eb135647eee3c590b39f4a16a54d6ce3"
+    },
+    {
+      "path": "source/id-ID/worksheet-05.md",
+      "bytes": 11564,
+      "sha256": "107c4c660a68539f1778d0aa75abc5e32441e524112f8c0577ab47fcf6002838"
     }
   ],
   "outputs": [
     {
-      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-04.pdf",
-      "bytes": 2969593,
-      "sha256": "7b6b824cbd9deb575b321554ca274e40500ed6f6f0d228cec8ef005e70108e37"
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-05.pdf",
+      "bytes": 4016449,
+      "sha256": "17a5bad9fa92db95593f5c16f1a9aa59c989714848f53b22304b6addc50b9b44"
     },
     {
       "path": "build/reader-id/index.html",
-      "bytes": 4459047,
-      "sha256": "287d720c8376ca88f21d22c5a35f9593ace12aa428ccf5f64993b585f45f80cf"
+      "bytes": 5873642,
+      "sha256": "2eb4e99b329b2f6d834c0f16f570da9eba13a974e073cbbe4627f0460b9b98f5"
     }
   ]
 }

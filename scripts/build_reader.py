@@ -26,6 +26,7 @@ ASSET_DIR = LANE / "authority" / "assets"
 BUILD_DIR = LANE / "build"
 FINAL_DIR = BUILD_DIR / "reader-id"
 CSS = SOURCE_DIR / "reader.css"
+PDF_HEADER = SOURCE_DIR / "pdf-header.tex"
 EXPECTED_PANDOC_PREFIX = "pandoc 3.9.0.2"
 
 
@@ -106,7 +107,36 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Empat kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-04.pdf",
         )
-    raise ValueError("only the verified contiguous scopes --through 1, --through 2, --through 3, and --through 4 are supported")
+    if through == 5:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-05.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "lecture-03.md",
+                SOURCE_DIR / "worksheet-03.md",
+                SOURCE_DIR / "worksheet-03-solutions.md",
+                SOURCE_DIR / "lecture-04.md",
+                SOURCE_DIR / "worksheet-04.md",
+                SOURCE_DIR / "worksheet-04-solutions.md",
+                SOURCE_DIR / "lecture-05.md",
+                SOURCE_DIR / "worksheet-05.md",
+                SOURCE_DIR / "worksheet-05-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+                SOURCE_DIR / "media-credits-unit-03.md",
+                SOURCE_DIR / "media-credits-unit-04.md",
+                SOURCE_DIR / "media-credits-unit-05.md",
+            ),
+            "Kurva Aljabar - Unit 1-5",
+            "Lima kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-05.pdf",
+        )
+    raise ValueError("only the verified contiguous scopes --through 1, --through 2, --through 3, --through 4, and --through 5 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -181,7 +211,7 @@ def main() -> int:
     args = parser.parse_args()
     sources, title, subtitle, pdf_name = build_scope(args.through)
 
-    for path in (*sources, CSS):
+    for path in (*sources, CSS, PDF_HEADER):
         regular_file(path)
 
     pandoc = shutil.which("pandoc")
@@ -236,12 +266,20 @@ def main() -> int:
                 "authority/assets/Gerade-500.png",
             "authority/assets/Straight_lines.svg":
                 "authority/assets/Straight_lines-500.png",
+            "authority/assets/Kuzel_obecny.svg":
+                "authority/assets/Kuzel_obecny-500.png",
         }
         for source in sources:
             pdf_source = stage / f"pdf-{source.name}"
             text = source.read_text(encoding="utf-8")
             for before, after in replacements.items():
                 text = text.replace(before, after)
+            text = text.replace("★", r"\sourceblackstar{}")
+            text = text.replace("κ", r"$\kappa$")
+            text = text.replace(
+                "](authority/assets/Hydrant_Insel_Krk_Kroatien-500.jpg)",
+                "](authority/assets/Hydrant_Insel_Krk_Kroatien-500.jpg){height=72%}",
+            )
             pdf_source.write_text(text, encoding="utf-8", newline="\n")
             pdf_sources.append(pdf_source)
         pdf_common = [
@@ -253,6 +291,7 @@ def main() -> int:
             f"--metadata=subtitle:{subtitle}",
             "--metadata=author:Holger Brenner (karya sumber)",
             f"--resource-path={resource_path}",
+            f"--include-in-header={PDF_HEADER}",
             *(str(path) for path in pdf_sources),
         ]
         run_logged(
@@ -270,7 +309,7 @@ def main() -> int:
         if html.stat().st_size < 10_000 or pdf.stat().st_size < 10_000:
             raise RuntimeError("reader artifact is implausibly small")
 
-        input_paths = [*sources, CSS]
+        input_paths = [*sources, CSS, PDF_HEADER]
         if ASSET_DIR.is_dir():
             input_paths.extend(path for path in ASSET_DIR.rglob("*") if path.is_file())
         receipt = {

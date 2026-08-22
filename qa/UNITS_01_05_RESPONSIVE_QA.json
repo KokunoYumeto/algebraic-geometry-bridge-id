@@ -1,0 +1,85 @@
+{
+  "schema": "ag-bridge-responsive-html-qa-v1",
+  "audited_utc": "2026-08-22T16:40:21.3109146Z",
+  "status": "PASS",
+  "through_unit": 5,
+  "browser_surface": "Codex In-app Browser",
+  "artifact": {
+    "path": "build/reader-id/index.html",
+    "bytes": 5873642,
+    "sha256": "2eb4e99b329b2f6d834c0f16f570da9eba13a974e073cbbe4627f0460b9b98f5",
+    "title": "Kurva Aljabar - Unit 1-5",
+    "language": "id-ID",
+    "headings_level_1": 23,
+    "mathml_nodes": 1794,
+    "images": 41
+  },
+  "responsive_source": {
+    "path": "source/id-ID/reader.css",
+    "bytes": 1671,
+    "sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa",
+    "display_math_overflow": "local horizontal auto-scroll",
+    "long_link_wrapping": "anywhere"
+  },
+  "desktop": {
+    "viewport_css_pixels": {
+      "width": 1440,
+      "height": 900
+    },
+    "document_client_width": 1425,
+    "document_scroll_width": 1425,
+    "body_left": 100.44444274902344,
+    "body_right": 1324.4444427490234,
+    "body_width": 1224,
+    "center_margin_difference_css_pixels": 0.111114501953125,
+    "page_horizontal_overflow": false,
+    "centered_reader": true,
+    "unit_05_lecture_anchor_visible": true
+  },
+  "mobile": {
+    "viewport_css_pixels": {
+      "width": 390,
+      "height": 844
+    },
+    "document_client_width": 375,
+    "document_scroll_width": 375,
+    "body_left": 0,
+    "body_right": 375.1111145019531,
+    "body_width": 375.1111145019531,
+    "page_horizontal_overflow": false,
+    "images_over_viewport": 0,
+    "largest_rendered_image_width": 263.1111145019531,
+    "display_math_blocks": 430,
+    "display_math_blocks_with_local_scroll": 42,
+    "overflowing_links": 0,
+    "unit_05_anchor_closure": {
+      "lecture": "br-ak-2025-2026-l05",
+      "worksheet": "br-ak-2025-2026-w05",
+      "last_exercise": "br-ak-2025-2026-w05-ex-27",
+      "last_public_solution": "br-ak-2025-2026-w05-sol-20",
+      "all_present": true
+    },
+    "long_formula_spot_check": {
+      "anchor": "br-ak-2025-2026-w05-sol-20",
+      "formula_client_width": 303,
+      "formula_scroll_width": 452,
+      "local_scrollbar_visible": true,
+      "formula_remains_accessible": true,
+      "visual_result": "PASS"
+    }
+  },
+  "cumulative_reflow": {
+    "finding_fixed_before_unit_04_publication": "Long MathML had widened the mobile document and created a page-wide horizontal scrollbar.",
+    "retained_action": "Constrain block MathML to the content width and provide local horizontal scrolling; permit long links to wrap.",
+    "unit_05_post_build_document_scroll_width": 375,
+    "remaining_page_overflow": 0
+  },
+  "bound_receipts": {
+    "build_receipt_path": "build/reader-id/BUILD_RECEIPT.json",
+    "build_receipt_sha256": "48dec0b3666e3dc31d5004ba49b8d72482eae4ece25b0dc0bea303124245d8b8",
+    "machine_qa_path": "qa/UNITS_01_05_MACHINE_QA.json",
+    "machine_qa_sha256": "182b67324c2c8a5e1a75cac37d8fbe6b655adb6d8b34aa0e2a852bcab710ab9f",
+    "visual_qa_path": "qa/UNITS_01_05_VISUAL_QA.json",
+    "visual_qa_sha256": "97b5b0296425e36931b7c7e2afd16bd5699a442b326458cf2d519f0d113c6c7b"
+  }
+}

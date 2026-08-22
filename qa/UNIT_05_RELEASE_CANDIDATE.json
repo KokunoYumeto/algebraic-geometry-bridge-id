@@ -1,0 +1,94 @@
+{
+  "schema": "ag-bridge-release-candidate-v1",
+  "frozen_utc": "2026-08-22T17:06:00Z",
+  "status": "PASS",
+  "through_unit": 5,
+  "language": "id-ID",
+  "publication_targets": {
+    "github": {
+      "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+      "branch": "main",
+      "tag": "unit-05",
+      "release_name": "Kurva Aljabar - Unit 1-5 (Bahasa Indonesia)",
+      "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
+      "state": "blocked_by_user_confirmed_account_suspension",
+      "support_ticket_filed": true
+    },
+    "zenodo": {
+      "state": "authorized_for_maintained_cumulative_preservation",
+      "record_title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+      "version": "unit-05",
+      "new_concept_required": true,
+      "public_byte_readback_required": true
+    }
+  },
+  "reader": {
+    "html": {
+      "path": "build/reader-id/index.html",
+      "bytes": 5873642,
+      "sha256": "2eb4e99b329b2f6d834c0f16f570da9eba13a974e073cbbe4627f0460b9b98f5"
+    },
+    "pdf": {
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-05.pdf",
+      "bytes": 4016449,
+      "sha256": "17a5bad9fa92db95593f5c16f1a9aa59c989714848f53b22304b6addc50b9b44",
+      "pages": 96
+    },
+    "build_receipt": {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 12862,
+      "sha256": "48dec0b3666e3dc31d5004ba49b8d72482eae4ece25b0dc0bea303124245d8b8"
+    },
+    "docs_html_byte_identical": true,
+    "docs_pdf_byte_identical": true
+  },
+  "qa": {
+    "machine": {
+      "path": "qa/UNITS_01_05_MACHINE_QA.json",
+      "bytes": 5990,
+      "sha256": "182b67324c2c8a5e1a75cac37d8fbe6b655adb6d8b34aa0e2a852bcab710ab9f"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_05_VISUAL_QA.json",
+      "bytes": 23691,
+      "sha256": "97b5b0296425e36931b7c7e2afd16bd5699a442b326458cf2d519f0d113c6c7b"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_05_RESPONSIVE_QA.json",
+      "bytes": 3089,
+      "sha256": "5ecb9a1480e8b98f7dfbc3111db74b8931b93b30734f3ddfe193de8d97ee76a1"
+    },
+    "protected_surfaces": {
+      "path": "qa/UNIT_05_PROTECTED_SURFACES.json",
+      "bytes": 5942,
+      "sha256": "570c10f0f780788c2d7bcc0ec25eeac0e7115c5b91185a5b74a153d136abccab"
+    },
+    "backend": {
+      "path": "qa/UNITS_01_05_BACKEND_QA.json",
+      "bytes": 4236,
+      "sha256": "9fd0f628ff9eba44329b8263e0d9077f6f068209042f09e7113d9941258d375a"
+    }
+  },
+  "backend": {
+    "records": 3471,
+    "manifest_path": "backend/units-01-05/MANIFEST.json",
+    "manifest_bytes": 9688,
+    "manifest_sha256": "325958e8350b5a179dbad96d9a7bda71adfc82ef8b4abf78d0dc34d51ac2eadf",
+    "records_path": "backend/units-01-05/records.jsonl",
+    "records_bytes": 4744219,
+    "records_sha256": "6fd038ef29dd5fc7c7fdbf956e4e20d53e35f851feb16459f05c634ce240cb0d",
+    "prior_records_preserved_byte_for_byte": 2775,
+    "deterministic_double_replay": true
+  },
+  "checks": {
+    "authority_and_solution_closure": true,
+    "component_rights_and_local_assets": true,
+    "translation_and_math_fidelity": true,
+    "machine_qa": true,
+    "all_page_visual_qa": true,
+    "desktop_and_mobile_reflow": true,
+    "backend_schema_closure_and_replay": true,
+    "credential_findings": 0,
+    "ready_to_publish": true
+  }
+}

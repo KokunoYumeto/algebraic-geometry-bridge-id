@@ -5,16 +5,18 @@ Edisi Bahasa Indonesia independen dari *Algebraische Kurven (Osnabrück
 `-id`, metadata bahasa `id-ID`, dan judul Bahasa Indonesia agar edisi dan
 bahasanya dapat ditemukan langsung.
 
-Status saat ini: **Unit 1-4 lengkap** - empat kuliah, seluruh 107 soal dari
-empat lembar kerja, 24 solusi publik yang tersedia pada revisi sumber, 38
-posisi media, atribusi per komponen, HTML mandiri, PDF A4 kumulatif 80 halaman,
-dan backend ID stabil dengan 2.775 rekaman. Penerjemahan 30 kuliah dan 30 lembar
+Status saat ini: **Unit 1-5 lengkap** - lima kuliah, seluruh 134 soal dari
+lima lembar kerja, 28 solusi publik yang tersedia pada revisi sumber, 41
+posisi media, atribusi per komponen, HTML mandiri, PDF A4 kumulatif 96 halaman,
+dan backend ID stabil dengan 3.471 rekaman. Penerjemahan 30 kuliah dan 30 lembar
 kerja tetap berlanjut dalam urutan sumber.
 
 ## Baca
 
+- [Rilis preservasi Unit 1-5 di Zenodo](https://doi.org/10.5281/zenodo.22059687)
 - [Pembaca HTML](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/)
-- [PDF kumulatif Unit 1-4](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-04.pdf)
+- [PDF kumulatif Unit 1-5](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-05.pdf)
+- [PDF historis Unit 1-4](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-04.pdf)
 - [PDF historis Unit 1-3](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-03.pdf)
 - [PDF historis Unit 1-2](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-02.pdf)
 - [PDF historis Unit 1](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-unit-01.pdf)
@@ -29,30 +31,31 @@ animasi. PDF adalah permukaan cetak dan tidak diklaim sebagai PDF bertag.
 - [`authority/AUTHORITY_FREEZE.md`](authority/AUTHORITY_FREEZE.md) mengikat
   revisi dan penutupan Unit 1; [`authority/UNIT_02_AUTHORITY_FREEZE.md`](authority/UNIT_02_AUTHORITY_FREEZE.md)
   [`authority/UNIT_03_AUTHORITY_FREEZE.md`](authority/UNIT_03_AUTHORITY_FREEZE.md),
-  dan [`authority/UNIT_04_AUTHORITY_FREEZE.md`](authority/UNIT_04_AUTHORITY_FREEZE.md)
-  mengikat revisi, transklusi, solusi, PDF resmi, media, dan hash Unit 2-4.
+  [`authority/UNIT_04_AUTHORITY_FREEZE.md`](authority/UNIT_04_AUTHORITY_FREEZE.md),
+  dan [`authority/UNIT_05_AUTHORITY_FREEZE.md`](authority/UNIT_05_AUTHORITY_FREEZE.md)
+  mengikat revisi, transklusi, solusi, PDF resmi, media, dan hash Unit 2-5.
 - [`authority/RIGHTS.csv`](authority/RIGHTS.csv) memisahkan hak setiap media.
 - [`build/reader-id/BUILD_RECEIPT.json`](build/reader-id/BUILD_RECEIPT.json)
   mengikat semua input dan kedua keluaran pembaca.
-- [`qa/UNITS_01_04_MACHINE_QA.json`](qa/UNITS_01_04_MACHINE_QA.json),
-  [`qa/UNITS_01_04_VISUAL_QA.json`](qa/UNITS_01_04_VISUAL_QA.json),
-  [`qa/UNITS_01_04_RESPONSIVE_QA.json`](qa/UNITS_01_04_RESPONSIVE_QA.json),
-  [`qa/UNIT_04_PROTECTED_SURFACES.json`](qa/UNIT_04_PROTECTED_SURFACES.json),
-  dan [`qa/UNITS_01_04_BACKEND_QA.json`](qa/UNITS_01_04_BACKEND_QA.json)
+- [`qa/UNITS_01_05_MACHINE_QA.json`](qa/UNITS_01_05_MACHINE_QA.json),
+  [`qa/UNITS_01_05_VISUAL_QA.json`](qa/UNITS_01_05_VISUAL_QA.json),
+  [`qa/UNITS_01_05_RESPONSIVE_QA.json`](qa/UNITS_01_05_RESPONSIVE_QA.json),
+  [`qa/UNIT_05_PROTECTED_SURFACES.json`](qa/UNIT_05_PROTECTED_SURFACES.json),
+  dan [`qa/UNITS_01_05_BACKEND_QA.json`](qa/UNITS_01_05_BACKEND_QA.json)
   merekam gerbang QA kumulatif.
-- [`backend/units-01-04/MANIFEST.json`](backend/units-01-04/MANIFEST.json)
-  mengikat 2.775 rekaman deterministik untuk unit, segmen, latihan, solusi,
+- [`backend/units-01-05/MANIFEST.json`](backend/units-01-05/MANIFEST.json)
+  mengikat 3.471 rekaman deterministik untuk unit, segmen, latihan, solusi,
   konsep, istilah, aset, hak, koreksi, relasi, QA, dan artefak.
 
 Bangun ulang dengan Python 3, Pandoc 3.9+, LuaLaTeX, dan dependensi Python
 `pypandoc`, `pypdf`, serta `jsonschema`:
 
 ```powershell
-python scripts/build_reader.py --through 4
-python scripts/qa_reader_units_01_04.py
-python scripts/qa_protected_surfaces_unit_04.py
-python scripts/export_backend_units_01_04.py
-python scripts/qa_backend_units_01_04.py
+python scripts/build_reader.py --through 5
+python scripts/qa_reader_units_01_05.py
+python scripts/qa_protected_surfaces_unit_05.py
+python scripts/export_backend_units_01_05.py
+python scripts/qa_backend_units_01_05.py
 ```
 
 Gerbang visual tetap memerlukan pemeriksaan manusia terhadap render halaman;

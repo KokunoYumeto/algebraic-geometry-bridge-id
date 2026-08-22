@@ -1,0 +1,1424 @@
+\setcounter{section}{5}
+
+
+
+
+
+
+
+
+  \zwischenueberschrift{Homogene Komponenten}
+
+Wir besprechen den Grad und die Zerlegung in homogene Komponenten von Polynomen in mehreren Variablen.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $S$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ = }{ S[X_1 , \ldots ,  X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der
+\definitionsverweis {Polynomring}{}{}
+über $S$ in $n$ Variablen. Dann heißt zu einem Monom
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G
+}
+{ =} { X^\nu
+}
+{ =} { X_1^{\nu_1 } \cdots X_n^{\nu_n }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die Zahl
+
+\mavergleichskettedisp
+{\vergleichskette
+{ |\nu |
+}
+{ =} { \sum_{j = 1}^n \nu_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+der \definitionswort {Grad}{} von $G$. Zu einem Polynom
+
+\mavergleichskette
+{\vergleichskette
+{F
+}
+{ = }{ \sum_{\nu} a_\nu X^\nu
+}
+{ \neq }{ 0
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt das Maximum
+
+\mathdisp {\max\{ |\nu |: \, a_\nu \neq 0 \}} {  }
+
+der \definitionswort {Grad}{} von $F$.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $S$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ = }{ S[X_1 , \ldots ,  X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der
+\definitionsverweis {Polynomring}{}{}
+über $S$ in $n$ Variablen. Zu einem Polynom
+
+\mavergleichskette
+{\vergleichskette
+{F
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ \sum_{\nu} a_\nu X^\nu
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt die Zerlegung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F
+}
+{ =} { \sum_{i = 0}^d F_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_i
+}
+{ =} { \sum_{\nu,\, | \nu | =  i} a_\nu X^\nu
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die \definitionswort {homogene Zerlegung}{} von $F$. Die $F_i$ nennt man die \definitionswort {homogenen Komponenten}{} von $F$ zum
+\definitionsverweis {Grad
+}{}{}
+$i$. Das Polynom $F$ selbst heißt \definitionswort {homogen}{,} wenn in der homogenen Zerlegung von $F$ nur ein $F_i$ vorkommt.
+
+
+
+
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Kuzel_obecny} {svg} }
+\end{center}
+\bildtext {Die Nullstellenmenge eines homogenen Polynoms $F$ ist ein (Geraden-)Kegel durch den Nullpunkt. D.h. mit einem Punkt $P$ gehört auch die ganze Gerade durch $P$ und $0$ zu $V(F)$.} }
+\bildlizenz { Kuzel obecny.svg } {} {Pajs} {cs.wikipedia.org} {PD} {}
+
+
+
+
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Das Polynom
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { 4X^3YZ^2+ 2X^2Y^5+ 5XYZ^7-3X^4YZ^4+X^8-Y^7+2Y^6Z^3+X+5
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+hat den Grad $9$ und die
+\definitionsverweis {homogenen Komponenten}{}{}
+sind
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_9
+}
+{ =} { 5XYZ^7-3X^4YZ^4+2Y^6Z^3
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_8
+}
+{ =} { X^8
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F_7
+}
+{ =} { 2X^2Y^5-Y^7
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_6
+}
+{ =} { 4X^3YZ^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F_5
+}
+{ =} { F_4
+}
+{ =} { F_3
+}
+{ =} { F_2
+}
+{ =} { 0
+}
+}
+{}{}{,}
+
+\mathdisp {F_1=X \text{ und } F_0=5} { . }
+
+Wenn man es als Polynom in
+\mathl{(K[Y,Z])[X]}{} auffasst und sich nur dafür interessiert, in welcher Potenz $X$ vorkommt, so spricht man vom $X$-Grad. Der $X$-Grad von $F$ ist $8$. Es gibt natürlich auch eine homogene Zerlegung entlang der $X$-Graduierung; dabei ist beispielsweise die Komponente zum $X$-Grad $0$ gleich
+\mathl{-Y^7+2Y^6Z^3+5}{} und zum $X$-Grad $1$ gleich
+\mathl{5XYZ^7+X}{.}
+
+
+
+
+
+}
+
+
+
+
+
+  \zwischenueberschrift{Zur Anzahl der Punkte auf Kurven II}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Noether} {jpg} }
+\end{center}
+\bildtext {
+Emmy Noether (1882-1935)
+} }
+\bildlizenz { Noether.jpg } {Unbekannt (vor 1910)} {} {Commons} {PD} {}
+
+
+
+
+Der folgende Satz heißt
+\zusatzklammer {Satz über die} {} {}
+
+\stichwort {Noethersche Normalisierung} {.}
+
+
+
+
+
+\inputfaktbeweis
+{Ebene Kurven/Algebraisch abgeschlossener Körper/Noethersche Normalisierung/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{F
+}
+{ \in }{ K[X,Y]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein nichtkonstantes Polynom vom
+\definitionsverweis {Grad}{}{}
+$d$, das die
+\definitionsverweis {algebraische Kurve}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{C
+}
+{ = }{ V(F)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert.}
+\faktfolgerung {Dann gibt es eine lineare Koordinatentransformation derart, dass in den neuen Koordinaten
+\mathl{\tilde{X}, \tilde{Y}}{} das transformierte Polynom die Form
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{F}
+}
+{ =} { \tilde{X}^d + \text{ Terme von kleinerem Grad in } \tilde{X}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+besitzt.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir schreiben $F$ in homogener Zerlegung als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F
+}
+{ =} { F_d+F_{d-1} + \cdots + F_1 +F_0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit den homogenen Komponenten
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_i
+}
+{ =} { \sum_{a+b = i}  c_{a,b} X^{a}Y^{b}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Ein homogenes Polynom in zwei Variablen hat die gleichen Faktorisierungseigenschaften wie ein Polynom in einer Variablen. Da wir uns über einem algebraisch abgeschlossenen Körper befinden, gibt es eine Faktorisierung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_d
+}
+{ =} { c (Y-e_1X) \cdots (Y-e_k X)X^{d-k}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da $c$ eine $d$-te Wurzel besitzt, können wir durch Streckung der Variablen erreichen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Da $K$ insbesondere unendlich ist, finden wir ein $e$, das von allen $e_j$ verschieden ist. Wir schreiben die Gleichung in den neuen Variablen
+
+\mathdisp {\tilde{Y}=Y-eX \text{   und } \tilde{X}=X} {  }
+
+und erhalten eine Gleichung $\tilde{F}$, in der die Linearfaktoren von $\tilde{F}_d$ die Gestalt
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ Y-e_jX
+}
+{ =} { Y-eX +eX-e_jX
+}
+{ =} { \tilde{Y}- \left(  e_j-e  \right) X
+}
+{ =} { \tilde{Y} -  \left(  e_j-e  \right) \tilde{X}
+}
+{ } {
+}
+}
+{}
+{}{}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ e_j-e
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+bzw.
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{X}
+}
+{ = }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+haben. Multipliziert man dies aus, so sieht man, dass $\tilde{X}^d$ mit einem bestimmten Vorfaktor aus $K$ vorkommt, den wir wieder durch Streckung als $1$ annehmen können. Dann hat $\tilde{F}_d$ die Gestalt
+\mathl{\tilde{X}^d +}{} Terme, in denen maximal
+\mathl{\tilde{X}^{d-1}}{} vorkommt. Die homogenen Komponenten von kleinerem Grad behalten auch ihren Grad, sodass es in $\tilde{F}$ nur noch weitere Monome vom $\tilde{X}$-Grad
+\mathl{\leq d-1}{} gibt.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Ebene algebraische Kurve/Algebraisch abgeschlossener Körper/Unendlich viele Elemente/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ K[X,Y]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein nicht-konstantes Polynom, das die
+\definitionsverweis {algebraische Kurve}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ C
+}
+{ = }{ V(F)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert.}
+\faktfolgerung {Dann besitzt $C$ unendlich viele Elemente.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Aufgrund von
+
+Satz 5.4
+
+können wir annehmen, dass $F$ die Gestalt hat
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { X^d + P_{d-1}(Y)X^{d-1}  + \cdots +  P_1(Y)X+ P_0(Y)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit Polynomen
+
+\mavergleichskette
+{\vergleichskette
+{ P_i(Y)
+}
+{ \in }{ K[Y]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zu jedem beliebig vorgegebenen Wert
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ K
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für $Y$ ergibt sich also ein normiertes Polynom in $X$ vom Grad $d$. Da der Körper algebraisch abgeschlossen ist, gibt es jeweils (mindestens) eine Nullstelle in $X$. D.h. zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ K
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es ein
+
+\mavergleichskette
+{\vergleichskette
+{ b
+}
+{ \in }{ K
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass
+\mathl{(a,b)}{} eine Nullstelle von $F$ ist, also zur Kurve gehört. Da $K$ unendlich ist, gibt es also unendlich viele Punkte auf der Kurve.
+
+
+
+
+}
+
+
+
+
+
+
+  \zwischenueberschrift{Polynomiale Abbildungen zwischen affinen Räumen}
+
+Wir betrachten Abbildungen
+\maabbelementzeiledisplay {\varphi} { { {\mathbb A}_{  K }^{  r   } } } { { {\mathbb A}_{  K }^{  n   } }
+} { ( t_1 , \ldots , t_r) } { (\varphi_1( t_1 , \ldots , t_r) , \ldots , \varphi_n(t_1 , \ldots , t_r))
+ \mathdisplaybruch
+= (x_1 , \ldots , x_n)
+} {,}
+wobei die Komponentenfunktionen
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_i
+}
+{ \in }{ K[X_1 , \ldots , X_r]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Polynome sind. Die Abbildung wird also in jeder Komponenten durch ein Polynom in $r$ Variablen gegeben. Der Fall
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist der eines Polynoms in $r$ Variablen, der Fall
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist der Fall der Parametrisierung von algebraischen Kurven. Später werden wir allgemeiner Morphismen zwischen affin-algebraischen Mengen definieren.
+
+Eine wichtige \anfuehrung{Begleiterscheinung}{} einer polynomialen Abbildung
+\maabb {\varphi} { { {\mathbb A}_{  K }^{  r   } } } { { {\mathbb A}_{  K }^{  n   } }
+} {}
+ist, dass sie einen $K$-\stichwort {Algebrahomomorphismus} {} zwischen den zugehörigen Polynomringen in die entgegengesetzte Richtung induziert, nämlich den durch
+\mathl{X_i \mapsto \varphi_i}{} definierten \stichwort {Einsetzungshomomorphismus} {.} Diesen bezeichnen wir mit
+\maabbeledisp {\tilde{\varphi}} { K[X_1 , \ldots , X_n] } { K[T_1 , \ldots , T_r]
+} { F } { F \circ \varphi = F( \varphi_i/X_i)
+} {}
+\zusatzklammer {die Schreibweise \mathlk{\varphi_i/X_i}{} bedeutet, dass die Variable $X_i$ durch $\varphi_i$ zu ersetzen ist} {} {.}
+Als Funktion auf
+\mathl{{ {\mathbb A}_{  K }^{  r   } }}{} betrachtet ist
+\mathl{F \circ \varphi}{} die \stichwort {hintereinandergeschaltete Abbildung} {}
+
+\mathdisp {{ {\mathbb A}_{  K }^{  r   } }  \stackrel{\varphi}{\longrightarrow} { {\mathbb A}_{  K }^{  n   } } \stackrel{F}{\longrightarrow} {\mathbb A}^{1}_{K}} { . }
+
+Für die Nullstellenmenge
+
+\mavergleichskette
+{\vergleichskette
+{ V(F)
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt dabei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^{-1} (V(F))
+}
+{ =} { V(\tilde{\varphi}(F))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die einfachsten polynomialen Abbildungen sind, neben den \stichwort {konstanten Abbildungen} {,} die \stichwort {affin-linearen Abbildungen} {,} die durch affin-lineare Polynome gegeben sind, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_i
+}
+{ =} { a_{i1}T_1 + \cdots +  a_{ir} T_r + c_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Man beachte, dass dies keine linearen Abbildungen sind, da der Nullpunkt nicht auf den Nullpunkt gehen muss, sondern auch \stichwort {Verschiebungen} {} zugelassen sind. Eine affin-lineare Abbildung ist die Hintereinanderschaltung einer linearen Abbildung und einer Verschiebung. Im Fall
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ = }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+betrachtet man eine solche affin-lineare Abbildung, wenn sie zusätzlich bijektiv ist, als eine \stichwort {(Koordinaten- oder Variablen-)Transformation} {} des Raumes.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{.}
+Dann nennt man eine
+\definitionsverweis {Abbildung}{}{}
+\maabb {\varphi} { { {\mathbb A}_{  K  }^{  n   } } } { { {\mathbb A}_{  K  }^{  n   } }
+} {}
+der Form
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi (x_1 ,\ldots, x_n)
+}
+{ =} { M \begin{pmatrix}  x_1  \\ \vdots \\  x_n   \end{pmatrix} + (v_1 ,\ldots, v_n)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $M$ eine
+\definitionsverweis {invertierbare Matrix}{}{}
+ist, eine \definitionswort {affin-lineare Variablentransformation }{.}
+
+
+
+
+
+}
+
+Man kann sich dabei darüber streiten, ob bei einer linearen Variablentransformation im Raum etwas bewegt wird oder ob sich nur die Koordinaten ändern. Jedenfalls sind solche Transformationen wichtige Hilfsmittel, um ein Polynom, ein algebraisches Gleichungssystem oder eine affin-algebraische Menge auf eine einfachere Gestalt zu bringen. Unter einer Variablentransformation wird eine affin-algebraische Menge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ V(F_1 , \ldots ,  F_m)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{V}
+}
+{ = }{ V(\tilde{F}_1  , \ldots , \tilde{F}_m)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ \tilde{F}_i
+}
+{ = }{ \tilde{\varphi} (F_i)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+transformiert, und zwar ist dann $\tilde{V}$ das Urbild unter der Abbildung $\varphi$.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zwei
+\definitionsverweis {affin-algebraische Mengen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ V, \tilde{V}
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißen \definitionswort {affin-linear äquivalent}{,} wenn es eine
+\definitionsverweis {affin-lineare Variablentransformation}{}{}
+\maabb {\varphi} { { {\mathbb A}_{  K }^{  n   } }  } { { {\mathbb A}_{  K }^{  n   } }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^{-1}(V)
+}
+{ =} {\tilde{V}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt.
+
+
+
+
+
+}
+
+Dies ist also ein Begriff, der Bezug darauf nimmt, wie die Situation eingebettet ist. Wir werden später sehen, dass die Parabel und eine Gerade in der Ebene \anfuehrung{isomorph}{} sind
+\zusatzklammer {da sie beide isomorph zur affinen Geraden sind} {} {,}
+aber nicht linear-äquivalent.
+
+Die wesentlichen algebraischen und topologischen Eigenschaften einer affin-algebraischen Menge bleiben unter einer affin-linearen Variablentransformation erhalten: Irreduzibilität, Singularitäten, Überschneidungen, Zusammenhang, Kompaktheit. Dagegen verändern sich typische Eigenschaften der reell-metrischen Geometrie: Winkel, Längen und Längenverhältnisse, Volumina, Formen. Diese zuletzt genannten Begriffe sind nicht relevant für die algebraische Geometrie. Wir werden von nun an ohne große Betonung eine Situation in eine gewünschte Gestalt transformieren, sofern das möglich ist.
+
+
+
+
+
+\inputfaktbeweis
+{Affin-algebraische Mengen/Affin-linear äquivalent/Impliziert isomorphen Restklassenring/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und seien
+
+\mavergleichskette
+{\vergleichskette
+{ V , \tilde{V}
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zwei
+\definitionsverweis {affin-algebraische Teilmengen}{}{,}
+die
+\definitionsverweis {affin-linear äquivalent}{}{}
+seien. Es seien
+\mathl{\operatorname{Id}\, (V), \operatorname{Id} \,(\tilde{V})}{} die zugehörigen
+\definitionsverweis {Verschwindungsideale}{}{.}}
+\faktfolgerung {Dann sind die
+\definitionsverweis {Restklassenringe}{}{}
+\zusatzklammer {als $K$-Al\-gebren} {} {}
+isomorph, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K[X_1 , \ldots , X_n]/\operatorname{Id}\, (V)
+}
+{ \cong} { K[X_1 , \ldots , X_n]/\operatorname{Id}\, (\tilde{V})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Nach Definition von
+\definitionsverweis {affin-linear äquivalent
+}{}{}
+gibt es eine
+\definitionsverweis {affin-lineare Variablentransformation
+}{}{}
+\maabbeledisp {} { { {\mathbb A}_{  K }^{  n   } }  } { { {\mathbb A}_{  K }^{  n   } }
+} { P } { \varphi(P)
+} {,}
+mit
+\mathl{\varphi^{-1}(V) = \tilde{V}}{.} Es sei $\tilde{\varphi}$ der zugehörige Automorphismus  des Polynomrings
+\mathl{K[X_1 , \ldots ,  X_n]}{.} Dabei ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\varphi}^{-1}\, ( \operatorname{Id} (\tilde{V} ))
+}
+{ =} { \operatorname{Id} \,  (V)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach dem Isomorphiesatz folgt die Isomorphie der Restklassenringe.
+
+
+
+
+}
+
+
+
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+In
+
+Satz 5.8
+
+kommt ein wichtiges Prinzip der algebraischen Geometrie zum Ausdruck, nämlich, dass das algebraische Objekt, das zu einer Nullstellenmenge gehört, der \stichwort {Restklassenring des Polynomringes nach dem Verschwindungsideal} {} ist. Dies ist eine \anfuehrung{intrinsische Invariante}{} der Nullstellenmenge, d.h., unabhängig von einer Einbettung. Unter dieser Betrachtungsweise rückt auch die Noethersche Normalisierung im ebenen Fall in ein neues Licht. Man kann unter den Voraussetzungen der Aussage annehmen, dass die Kurvengleichung die Form
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F
+}
+{ =} { X^d+P_{d-1}(Y)X^{d-1}  + \cdots + P_1(Y)X+P_0(Y)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+besitzt. Wenn man dieses Polynom \anfuehrung{gleich null setzt}{,} so bedeutet dies eine \stichwort {Ganzheitsgleichung} {} für $X$. Genauer, über dem Polynomring $K[Y]$ in einer Variablen ist die Restklasse von $X$ im Restklassenring
+\mathl{K[X,Y]/(F)}{} ganz. Diese Begriffe sind vielleicht aus der elementaren Zahlentheorie bekannt und werden auch hier wieder eine wichtige Rolle spielen. Da $X$ über $K[Y]$ den Polynomring erzeugt, liegt überhaupt eine \stichwort {ganze} {}
+\zusatzklammer {sogar \stichwort {endliche} {}} {} {}
+Ringerweiterung
+\maabbdisp {} { K[Y] } { K[X,Y]/( X^d+P_{d-1}(Y)X^{d-1}  + \cdots +  P_1(Y)X+P_0(Y))
+} {}
+vor. Damit kann man den Noetherschen Normalisierungssatz auch so formulieren, dass sich über einem algebraisch abgeschlossenen Körper zu jeder algebraischen Kurve der zugehörige Restklassenring als endliche Erweiterung des Hauptidealbereiches
+\mathl{K[Y]}{} realisieren lässt. Dies ist eine direkte Analogie zu den Ganzheitsringen der Zahlentheorie, die ebenfalls endliche Erweiterungen über dem Hauptidealbereich $\Z$ sind.
+
+
+
+
+
+}
+
+Unter beliebigen polynomialen Abbildungen zwischen affinen Räumen können sich, im Gegensatz zu affin-linearen Transformationen, viele algebraische Eigenschaften ändern, die Dimension kann sich ändern, Singularitäten können entstehen, etc. Dagegen überträgt sich die Irreduzibilität auf
+\zusatzklammer {den Zariski-Abschluss des} {} {}
+das Bild der Abbildung.
+
+
+
+
+
+\inputfaktbeweis
+{Affine Räume/K unendlich/Bild unter polynomialer Abbildung/ist irreduzibel/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein unendlicher Körper und
+\maabbdisp {\varphi} { { {\mathbb A}_{  K }^{  r   } }  } { { {\mathbb A}_{  K }^{  n   } }
+} {}
+sei eine durch $n$ Polynome in $r$ Variablen gegebene Abbildung.}
+\faktfolgerung {Dann ist der
+\definitionsverweis {Zariski-Abschluss
+}{}{}
+des Bildes der Abbildung
+\definitionsverweis {irreduzibel}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ B
+}
+{ = }{ \varphi( { {\mathbb A}_{  K }^{  r   } } )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Bild der Abbildung. Nach
+
+Lemma 3.10
+
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \overline{B}
+}
+{ =} { V(\operatorname{Id} \,(B) )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nun gilt für
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \varphi(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ { {\mathbb A}_{  K }^{  r   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und für
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(P)
+}
+{ =} { F(\varphi(Q))
+}
+{ =} { (F \circ \varphi  )  (Q)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{ F \circ \varphi
+}
+{ \in }{ K[T_1 , \ldots ,  T_r]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Polynom ist, das sich ergibt, wenn man in $F$ die Variable $X_i$ durch die $i$-te Koeffizientenfunktion
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_i
+}
+{ \in }{ K[T_1 , \ldots , T_r]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ersetzt. Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ F(P)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ ( F \circ \varphi  )  (Q)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, und $F$ verschwindet auf ganz $B$ genau dann, wenn
+\mathl{F \circ \varphi}{} auf dem ganzen ${ {\mathbb A}_{  K  }^{  r   } }$ verschwindet. Da $K$ unendlich ist, bedeutet dies, dass
+\mathl{F \circ \varphi}{} das Nullpolynom ist. Daher gilt, dass
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ \operatorname{Id} \,(B)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann ist, wenn $F$ unter dem zugehörigen Ringhomomorphismus
+\maabbdisp {\tilde{\varphi}} { K[X_1 , \ldots ,  X_n] } { K[T_1 , \ldots , T_r]
+} {}
+auf $0$ abgebildet wird. Damit ist
+\mathl{\operatorname{Id} \,(B)}{} das Urbild eines Primideals
+\zusatzklammer {nämlich des Nullideals} {} {}
+und somit nach
+
+Aufgabe 4.19
+
+selbst ein Primideal. Aufgrund von
+
+Lemma 4.3
+
+ist
+\mathl{V( \operatorname{Id} \,(B) )}{} irreduzibel.
+
+
+
+
+}

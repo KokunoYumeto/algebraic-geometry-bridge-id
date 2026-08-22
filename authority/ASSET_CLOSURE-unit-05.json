@@ -1,0 +1,44 @@
+{
+  "schema": "brenner-unit-media-closure-v1",
+  "unit": 5,
+  "reader_media_positions": 3,
+  "unique_local_assets": 4,
+  "metadata_file": "authority/commons-imageinfo-unit-05.json",
+  "metadata_bytes": 10232,
+  "metadata_sha256": "0cf366127e1abf7f82785e73c98d2ae2fb1f0e92fcdbd6657801a6c21bd7e083",
+  "rights_file": "authority/RIGHTS-unit-05.csv",
+  "rights_bytes": 2859,
+  "rights_sha256": "614a09ceb977f23ec5113c4264e993b36e427db0aef2080682a5e448306f8204",
+  "reader_credits_file": "source/id-ID/media-credits-unit-05.md",
+  "reader_credits_bytes": 888,
+  "reader_credits_sha256": "b155bc3eeed80412336cd6a17b643c643b8105758746eb595e83dca4e134ffdf",
+  "assets": [
+    {
+      "asset_id": "br-ak-u05-media-001",
+      "local_path": "authority/assets/Kuzel_obecny.svg",
+      "local_bytes": 4285,
+      "local_sha256": "7635fb8bd10a4f31be63b986024f64cb272774baa73d87139320d59629308f3e",
+      "pdf_local_path": "authority/assets/Kuzel_obecny-500.png",
+      "pdf_local_bytes": 9612,
+      "pdf_local_sha256": "3ceb1caa56c896effd5dcb0d732d6f87521a608946a0c8879bfd3a3fb817f55b"
+    },
+    {
+      "asset_id": "br-ak-u05-media-002",
+      "local_path": "authority/assets/Noether.jpg",
+      "local_bytes": 937271,
+      "local_sha256": "796367640a95be0e387652842074cd7a3c5cc891a46a590806ed227ef50b3bfe",
+      "pdf_local_path": "",
+      "pdf_local_bytes": "",
+      "pdf_local_sha256": ""
+    },
+    {
+      "asset_id": "br-ak-u05-media-003",
+      "local_path": "authority/assets/Elipsoid_trojosy321.png",
+      "local_bytes": 11301,
+      "local_sha256": "6384fe155c134d0131d79e6d6c409be22416c9a27056f7b0b1ddeead4fb150ba",
+      "pdf_local_path": "",
+      "pdf_local_bytes": "",
+      "pdf_local_sha256": ""
+    }
+  ]
+}

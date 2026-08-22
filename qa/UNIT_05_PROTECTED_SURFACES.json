@@ -1,0 +1,161 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v1",
+  "audited_utc": "2026-08-22T16:41:11.864374+00:00",
+  "status": "PASS",
+  "unit": 5,
+  "authority": {
+    "manifest_path": "authority/wikiversity/unit-05/UNIT_AUTHORITY_MANIFEST.json",
+    "manifest_bytes": 104728,
+    "manifest_sha256": "0caf11bb3658480a3696790673f8e899668ef3233d0f59042701dccb622dda24",
+    "manifest_files_replayed": 37,
+    "manifest_file_mismatches": 0,
+    "official_pdf_witnesses_replayed": 2,
+    "official_pdf_mismatches": 0,
+    "official_pdf_pages": {
+      "authority/artifacts/lecture-05-official.pdf": 9,
+      "authority/artifacts/worksheet-05-official.pdf": 7
+    },
+    "lecture": {
+      "pageid": 165894,
+      "revid": 1051269,
+      "parentid": 1032939,
+      "timestamp": "2025-08-18T07:26:27Z",
+      "mediawiki_sha1": "31f879dfdf7a47a2387eb3fa1200ae7918cc205e",
+      "transclusions_requested": 101,
+      "transclusions_captured": 101,
+      "transclusions_missing": 0
+    },
+    "worksheet": {
+      "pageid": 165924,
+      "revid": 1062652,
+      "parentid": 1055912,
+      "timestamp": "2025-12-19T11:50:54Z",
+      "mediawiki_sha1": "23ae014ac445f9189e80c6d48007971cd596c227",
+      "transclusions_requested": 115,
+      "transclusions_captured": 115,
+      "transclusions_missing": 0
+    },
+    "ordered_exercise_map_path": "authority/wikiversity/unit-05/ORDERED_EXERCISE_MAP.json",
+    "ordered_exercise_map_bytes": 11898,
+    "ordered_exercise_map_sha256": "d7b9b302ea2a57199d9ff7940f6a8440d50abdc7e4fe1ccdfdd96f27686d84d5"
+  },
+  "targets": [
+    {
+      "path": "source/id-ID/lecture-05.md",
+      "bytes": 13912,
+      "sha256": "f531379fc279a09d3ebb917c8b4d0deba388806153e2d45fc9457894bf75630d",
+      "headings": 18,
+      "math_nodes": 182,
+      "images": 2
+    },
+    {
+      "path": "source/id-ID/worksheet-05.md",
+      "bytes": 11564,
+      "sha256": "107c4c660a68539f1778d0aa75abc5e32441e524112f8c0577ab47fcf6002838",
+      "headings": 30,
+      "math_nodes": 100,
+      "images": 1
+    },
+    {
+      "path": "source/id-ID/worksheet-05-solutions.md",
+      "bytes": 5748,
+      "sha256": "8cb0321a07f36150f1ea53aab4076e45eb135647eee3c590b39f4a16a54d6ce3",
+      "headings": 5,
+      "math_nodes": 58,
+      "images": 0
+    }
+  ],
+  "topology": {
+    "unit_heading_ids": 53,
+    "duplicate_heading_ids": 0,
+    "invalid_id_patterns": 0,
+    "exercises": 27,
+    "practice_exercises": "5.1-5.22",
+    "submission_exercises": "5.23-5.27",
+    "submission_points": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "starred_exercises": [
+      3,
+      15,
+      19,
+      20
+    ],
+    "public_solutions": 4,
+    "solution_exercises": [
+      3,
+      15,
+      19,
+      20
+    ],
+    "solution_revisions": [
+      1068012,
+      1028148,
+      1096503,
+      1096346
+    ],
+    "broken_solution_links": 0,
+    "untranslated_german_prose": 0,
+    "media_positions": 3,
+    "binary_surfaces": 4,
+    "missing_media_positions": 0
+  },
+  "math_count_reconciliation": {
+    "lecture": {
+      "authority_math_nodes": 185,
+      "target_math_nodes": 182,
+      "explanation": "The three-node net decrease comes from consolidating renderer-split hypotheses and aligned equalities after two explicit edition notes add coordinate and parameter-ring math nodes. Every theorem, factorization, substitution, quotient-ring, integral-extension, and image-closure formula is protected by replayable needles; the three source deltas are correction-ledger bound."
+    },
+    "worksheet": {
+      "authority_math_nodes": 98,
+      "target_math_nodes": 100,
+      "explanation": "The two-node net increase results from separately typesetting the substitution homomorphism and image/fiber surfaces. All 27 tasks, four stars, five point values, hypotheses, maps, equations, and the ellipsoid position remain in exact source order."
+    },
+    "solutions": {
+      "authority_math_nodes": 54,
+      "target_math_nodes": 58,
+      "explanation": "The four-node net increase is caused by the explicit corrected coefficient-product note and separately displayed intermediate identities. The four and only four public solutions remain source-bound; no unavailable solution was authored."
+    }
+  },
+  "fidelity_findings": {
+    "protected_formula_needles": {
+      "lecture": 14,
+      "worksheet": 11,
+      "solutions": 10
+    },
+    "fixed_before_build": [
+      "Lecture 5's reversed ordered-pair referent is exposed and rendered with X=b, Y=a.",
+      "Lecture 5's component-function ring uses the source's established T-parameters consistently.",
+      "Solution 5.3's leading coefficient occurs once outside the factor product."
+    ],
+    "remaining_mathematical_defects": 0,
+    "remaining_omissions": 0,
+    "invented_solutions": 0
+  },
+  "rights": {
+    "path": "authority/RIGHTS-unit-05.csv",
+    "bytes": 2859,
+    "sha256": "614a09ceb977f23ec5113c4264e993b36e427db0aef2080682a5e448306f8204",
+    "closure_path": "authority/ASSET_CLOSURE-unit-05.json",
+    "closure_sha256": "97409d360a2503b4082a9bb45699eb549c80f6d77219d60dd8b2ae90dd591bad"
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "bytes": 7640,
+    "sha256": "1df1e7c7b7f57fb0726be054bf1b5e47d0c0a367198d08a779bd57916817f4fe",
+    "rows": 16,
+    "unit_05_additions": 3
+  },
+  "bound_qa": {
+    "machine_receipt_path": "qa/UNITS_01_05_MACHINE_QA.json",
+    "machine_receipt_sha256": "182b67324c2c8a5e1a75cac37d8fbe6b655adb6d8b34aa0e2a852bcab710ab9f",
+    "visual_receipt_path": "qa/UNITS_01_05_VISUAL_QA.json",
+    "visual_receipt_sha256": "97b5b0296425e36931b7c7e2afd16bd5699a442b326458cf2d519f0d113c6c7b",
+    "responsive_receipt_path": "qa/UNITS_01_05_RESPONSIVE_QA.json",
+    "responsive_receipt_sha256": "5ecb9a1480e8b98f7dfbc3111db74b8931b93b30734f3ddfe193de8d97ee76a1"
+  }
+}

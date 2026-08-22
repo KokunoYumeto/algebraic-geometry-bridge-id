@@ -1,0 +1,171 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Affine Ebene/Unendlicher Körper/Endliche Punktmenge/Irreduzibler Kurvenschnitt/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>134024</id>
+    <revision>
+      <id>1028148</id>
+      <parentid>980503</parentid>
+      <timestamp>2025-08-10T19:06:58Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1028148</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1428" sha1="exwybnrsaf8n90czintwjsjfpgof77a" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung2
+|Man findet eine 
+{{
+Zusatz/Klammer
+|text=hinreichend generische|
+|ISZ=|ESZ=
+}}
+Linearform, die für die Punkte unterschiedliche Werte ergibt. Man kann also annehmen, dass Koordinaten derart vorliegen, dass in den Punkten
+{{
+Relationskette/display
+|P_i
+|| (a_i,b_i)
+||
+||
+||
+|Shttps://upload.wikimedia.org/wikipedia/commons/3/3f/Button_clipboard_math.pngZ=
+}}
+die ersten Koordinaten verschieden sind. Es sei
+{{
+Relationskette/display
+|F
+|| (X-a_1) \cdots (X-a_n)
+||
+||
+||
+|SZ=.
+}}
+Wir wählen ein Polynom {{math|term= H |SZ=}} in der einen Variablen {{math|term= X |SZ=}} gemäß
+{{
+Faktlink
+|Präwort=dem|Interpolationssatz|Faktseitenname=
+Polynom/K/Interpolation/Fakt
+|Nr=
+|SZ=
+}}
+mit
+{{
+Relationskette/display
+|H(a_i)
+|| b_i
+||
+||
+||
+|SZ=
+}}
+für
+{{
+Relationskette
+|i
+|| 1 {{kommadots}} n
+||
+||
+||
+|SZ=.
+}}
+Mit
+{{
+Relationskette
+|G
+|| Y-H
+||
+||
+||
+|SZ=
+}}
+ist
+{{
+Relationskette/display
+|M
+|| V(F) \cap V(G)
+||
+||
+||
+|SZ=
+}}
+erhält man {{math|term= M |SZ=}} als Durchschnitt von zwei Kurven. 
+|Wir ersetzen {{math|term= F |SZ=}} durch
+{{
+Relationskette 
+|F'
+|| Y-H+F
+||
+||
+||
+|SZ=.
+}} 
+Es ist
+{{
+Relationskette/display
+|V(G) \cap V(F')
+|| V(G) \cap V(F)
+|| M
+||
+||
+|SZ=
+}}
+und die beiden Kurven sind Graphen, also irreduzibel.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>exwybnrsaf8n90czintwjsjfpgof77a</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -85,20 +85,27 @@ source-backed delta; never correct silently.
 
 ## Recovery and communication
 
-Current cursor: Units 1–3 are published and anonymously verified. Unit 4 is
-fully translated, authority- and rights-frozen, built into the cumulative
-self-contained HTML and 80-page A4 PDF, and has passed protected-surface,
-machine, all-page visual, responsive-browser, deterministic-backend, schema,
-and closure QA. The responsive gate specifically proves a centered desktop
-reader and a 390-pixel mobile reflow with no page-wide horizontal overflow;
-long display mathematics scrolls locally. The 2,775-record stable-ID export
-preserves every one of the 2,003 prior records byte-for-byte. Resume from this
-file, `CURSOR.json`, `qa/UNIT_04_RELEASE_CANDIDATE.json`, and
-`qa/UNITS_01_04_HANDOFF.md`, never from a compaction summary. The next
-executable action is the already authorized publication of branch `main` and
-tag `unit-04`, followed by anonymous public-byte readback and a sanitized
-publication receipt. Then freeze and translate Lecture 5/Worksheet 5 in source
-order. Continue the complete edition independently of the separate
+Current cursor: Units 1–3 are published on GitHub and anonymously verified.
+Units 4 and 5 are fully translated, authority- and rights-frozen, and locally
+release-complete. The cumulative reader through Unit 5 is a self-contained
+HTML and 96-page A4 PDF; protected-surface, machine, all-page visual,
+responsive-browser, deterministic-backend, schema, and closure QA all pass.
+The responsive gate proves a centered desktop reader and a 390-pixel mobile
+reflow with no page-wide horizontal overflow; long display mathematics scrolls
+locally. The 3,471-record stable-ID export preserves every one of the 2,775
+Unit 1-4 records byte-for-byte. Resume from this file, `CURSOR.json`,
+`qa/UNIT_05_RELEASE_CANDIDATE.json`, and `qa/UNITS_01_05_HANDOFF.md`, never
+from a compaction summary.
+
+GitHub publication of Units 4-5 is externally blocked: the user confirmed that
+the account was suspended after VPN use and filed a support ticket. Do not
+retry while that condition persists. Zenodo is the active maintained
+preservation channel. Draft 22059687 reserves DOI
+`10.5281/zenodo.22059687` for *Kurva Aljabar — Edisi Bahasa Indonesia*,
+version `unit-05`. The next executable action is the narrow local Unit 5
+commit/tag, source snapshot, Zenodo upload/publish, anonymous public-byte
+readback, and sanitized receipt; then freeze and translate Lecture 6/Worksheet
+6 in source order. Continue the complete edition independently of the separate
 curriculum-admission decision. Do not contact upstream during production.
-After the full corpus only, send at most one concise, high-confidence issue, signed
-`Codex — at the user's direction`; otherwise send nothing.
+After the full corpus only, send at most one concise, high-confidence issue,
+signed `Codex — at the user's direction`; otherwise send nothing.

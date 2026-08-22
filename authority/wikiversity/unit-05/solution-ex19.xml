@@ -1,0 +1,85 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Polynomiale Abbildung/A^2 nach A^1/Eine Faser reduzibel, sonst irreduzibel/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21337</id>
+    <revision>
+      <id>1096503</id>
+      <parentid>1023766</parentid>
+      <timestamp>2026-06-15T09:00:45Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1108" sha1="1xr9dq67x2isu203kwuytb1ee72wst2" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei {{math|term= K |SZ=}} ein algebraisch abgeschlossener Körper. Wir betrachten die Abbildung
+{{Abbildung/display
+|{{op:Affine Ebene|K}} |{{op:Affine Gerade|K}} |(x,y)| xy
+|SZ=.
+}}
+Die Faser über dem Nullpunkt ist das Achsenkreuz {{math|term= V(xy) =V(x) \cup V(y) |SZ=,}} das nicht irreduzibel. Die Faser über einem Punkt {{mathbed|term=\lambda \in K|bedterm1=\lambda \neq 0 |SZ=,}} ist {{math|term= V(xy- \lambda) |SZ=.}} Es genügt zu zeigen, dass {{math|term= xy-\lambda|SZ=}} ein Primpolynom ist. Dies folgt aber aus der Isomorphie
+{{
+Math/display|term=
+K[x,y]/(xy-  \lambda) \longrightarrow K[u]_u,\, x \mapsto u,\, y \mapsto  \lambda u^{-1}
+|SZ=,
+}}
+mit der Umkehrabbildung {{math|term= u \mapsto x |SZ=.}} Die universellen Eigenschaften von Restklassenbildung und Nenneraufnahme sichern dabei, dass wirklich eine Bijektion vorliegt.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=Die Einheitshyperbel
+|Objektkategorie2=Das Achsenkreuz (affin-algebraische Kurve)
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>1xr9dq67x2isu203kwuytb1ee72wst2</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,61 @@
+{
+  "schema": "ag-bridge-publication-blocker-v1",
+  "recorded_utc": "2026-08-22T07:00:30Z",
+  "status": "BLOCKED_EXTERNAL_AUTHENTICATION",
+  "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+  "branch": "main",
+  "intended_tag": "unit-04",
+  "local_content_commit": "4f57396c90d7c64b0575e597d99a00f2ccf98e9f",
+  "release_candidate": "qa/UNIT_04_RELEASE_CANDIDATE.json",
+  "attempts": [
+    {
+      "surface": "configured_https_git_credential",
+      "operation": "git push origin main",
+      "result": "HTTP 403; GitHub states that the account is suspended"
+    },
+    {
+      "surface": "designated_Github_Tokens_note_candidate_0",
+      "operation": "authenticated GET /user and runtime-only HTTPS push header",
+      "result": "HTTP 403; the push repeats GitHub's account-suspended response"
+    },
+    {
+      "surface": "designated_Github_Tokens_note_candidate_1",
+      "operation": "authenticated GET /user",
+      "result": "HTTP 401; bad or expired credential"
+    },
+    {
+      "surface": "ssh",
+      "operation": "non-interactive authentication and ls-remote",
+      "result": "no accepted public key"
+    },
+    {
+      "surface": "local_GitHub_CLI_keyring",
+      "operation": "authentication status",
+      "result": "stored token is invalid"
+    },
+    {
+      "surface": "in_app_browser",
+      "operation": "open repository",
+      "result": "redirected to GitHub sign-in; no authenticated session"
+    },
+    {
+      "surface": "connected_external_browser",
+      "operation": "select Chrome session",
+      "result": "no connected browser session available"
+    }
+  ],
+  "secret_handling": {
+    "token_values_logged": false,
+    "token_values_persisted": false,
+    "token_values_printed": false,
+    "runtime_auth_header_removed_after_attempt": true
+  },
+  "publication_state": {
+    "content_committed_locally": true,
+    "remote_branch_updated": false,
+    "remote_tag_created": false,
+    "release_created": false,
+    "public_readback_possible": false
+  },
+  "resolution_required": "Restore the repository owner's GitHub account or provide a valid credential from an unsuspended account with write access; then push the existing commit and tag without rebuilding."
+}
