@@ -1,0 +1,141 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v1",
+  "audited_utc": "2026-08-22T04:09:45.7284897Z",
+  "status": "PASS",
+  "unit": 2,
+  "authority": {
+    "manifest_path": "authority/wikiversity/unit-02/UNIT_AUTHORITY_MANIFEST.json",
+    "manifest_bytes": 104748,
+    "manifest_sha256": "c7ef84bd925d5baa7e6646d7b5251d51f7645650c9a040e89dce6a4aba7a8ba5",
+    "manifest_files_replayed": 46,
+    "manifest_file_mismatches": 0,
+    "lecture": {
+      "pageid": 165891,
+      "revid": 1055217,
+      "parentid": 1055215,
+      "timestamp": "2025-10-10T09:51:04Z",
+      "mediawiki_sha1": "be3bd8706fc4945584860560ee832690f17184ab",
+      "transclusions_requested": 109,
+      "transclusions_captured": 109,
+      "transclusions_missing": 0
+    },
+    "worksheet": {
+      "pageid": 165921,
+      "revid": 1062654,
+      "parentid": 1062158,
+      "timestamp": "2025-12-19T11:52:22Z",
+      "mediawiki_sha1": "37a2abba78dc4a43846840da237f022d4576adfe",
+      "transclusions_requested": 102,
+      "transclusions_captured": 102,
+      "transclusions_missing": 0
+    },
+    "ordered_exercise_map_path": "authority/wikiversity/unit-02/ORDERED_EXERCISE_MAP.json",
+    "ordered_exercise_map_bytes": 14307,
+    "ordered_exercise_map_sha256": "46918a79aa0aa47fe1c4685cc3e0d611957d643195a6bd1cbeabb310b5d9053e"
+  },
+  "targets": [
+    {
+      "path": "source/id-ID/lecture-02.md",
+      "bytes": 14617,
+      "sha256": "850bebf6bd56aea2e980e26988f69d6ce584f8138a55f765971d374236ee6250",
+      "headings": 14,
+      "math_nodes": 178,
+      "images": 2
+    },
+    {
+      "path": "source/id-ID/worksheet-02.md",
+      "bytes": 10886,
+      "sha256": "ffd19cc6644a6bbad9c62a45bb9595f31b28e63b894f1598caa5056e7b27ee68",
+      "headings": 30,
+      "math_nodes": 96,
+      "images": 0
+    },
+    {
+      "path": "source/id-ID/worksheet-02-solutions.md",
+      "bytes": 11873,
+      "sha256": "861c9e42b2f5e159d6c0c10cd2fd3ba869c6d0e4f40f7c563005933a65e8639b",
+      "headings": 10,
+      "math_nodes": 145,
+      "images": 0
+    }
+  ],
+  "topology": {
+    "unit_heading_ids": 54,
+    "duplicate_heading_ids": 0,
+    "invalid_id_patterns": 0,
+    "exercises": 27,
+    "practice_exercises": "2.1-2.22",
+    "submission_exercises": "2.23-2.27",
+    "submission_points": [3, 3, 3, 4, 4],
+    "starred_exercises": [2, 6, 7, 8, 9, 11, 15, 16, 20],
+    "public_solutions": 9,
+    "solution_exercises": [2, 6, 7, 8, 9, 11, 15, 16, 20],
+    "solution_revisions": [1096652, 1096317, 1096561, 1096094, 1096689, 1094978, 1089351, 1112335, 1096251],
+    "broken_solution_links": 0,
+    "untranslated_german_prose": 0,
+    "media_positions": 2,
+    "missing_media_positions": 0
+  },
+  "math_count_reconciliation": {
+    "lecture": {
+      "authority_math_nodes": 176,
+      "target_math_nodes": 178,
+      "section_deltas": [-1, -1, 0, 1, -2, 0, 1, 2, 2],
+      "explanation": "Macro normalization and intentional AST-boundary changes: coordinate and family-index expressions were combined, matrix equations were split or merged, and assumptions/indices already present in the prose were explicitly typeset."
+    },
+    "worksheet": {
+      "authority_math_nodes": 93,
+      "target_math_nodes": 96,
+      "explanation": "The three added nodes are the split paired ellipses in exercises 2.7 and 2.26 and the explicitly typeset V in exercise 2.11."
+    },
+    "solutions": {
+      "authority_math_nodes": 144,
+      "target_math_nodes": 145,
+      "per_solution_deltas": {
+        "2": 0,
+        "6": 0,
+        "7": -1,
+        "8": 0,
+        "9": 1,
+        "11": -4,
+        "15": -1,
+        "16": 6,
+        "20": 0
+      },
+      "explanation": "The net difference is fully accounted for by verbalizing a subtraction step, removing an empty source math node, splitting point and monomial labels, combining matrix displays, and typesetting degree labels. No formula or mathematical step is lost."
+    }
+  },
+  "fidelity_findings": {
+    "fixed_before_publication": [
+      "Exercise and solution 2.16 restored the source product F\\cdot(X^2+Y^2+1).",
+      "Exercise 2.21 removed an extraneous comma from the exponent in the ideal-power identity."
+    ],
+    "logged_source_precision": [
+      "Solution 2.9 accurately says nonnegative rather than the source's positive; both sides vanish at endpoints."
+    ],
+    "semantically_neutral_presentational_changes": [
+      "Solution 2.2 appends the implied =0 to the normalized quadratic.",
+      "Solution 2.11 omits redundant displayed factor matrices while retaining their products and results.",
+      "Solution 2.16 verbalizes coefficient checks and omits checkmark glyphs."
+    ],
+    "remaining_mathematical_defects": 0,
+    "remaining_omissions": 0
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "bytes": 3037,
+    "sha256": "a1a112e173011aed3499ea69d765a80efadd4a40c678868697825dbb01f0abb2",
+    "rows": 7
+  },
+  "comparison_script": {
+    "path": "scripts/compare_math_surfaces.py",
+    "bytes": 3949,
+    "sha256": "1c2ecde81f89bb6c7026143deee650d3e7725da363e18f6c26484440c3fcc675"
+  },
+  "bound_qa": {
+    "machine_receipt_path": "qa/UNITS_01_02_MACHINE_QA.json",
+    "machine_receipt_sha256": "009d236814934c6ed317f62f0cdb9159e56d92f9318dea24218b86938ea1e47d",
+    "visual_receipt_path": "qa/UNITS_01_02_VISUAL_QA.json",
+    "visual_receipt_sha256": "7e17b10c23cb69c4c6a69603eb898117b699777cffec1c548fb78829135e2d82"
+  }
+}

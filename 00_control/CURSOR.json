@@ -1,26 +1,57 @@
 {
   "schema": "ag-bridge-production-cursor-v1",
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "lane": "O016/D100 algebraic-geometry-bridge-id",
   "language": "id-ID",
-  "status": "unit_01_published_unit_02_authority_freeze_pending",
+  "status": "unit_02_release_candidate_all_local_gates_pass",
   "completed_source_boundary": {
-    "lecture": 1,
-    "worksheet": 1,
-    "worksheet_exercises": 28,
-    "public_source_solutions": 7,
-    "media_positions": 23,
+    "through_unit": 2,
+    "lectures": 2,
+    "worksheets": 2,
+    "worksheet_exercises": 55,
+    "public_source_solutions": 16,
+    "media_positions": 25,
+    "stable_heading_ids": 109,
     "reader_html": true,
-    "reader_pdf_pages": 27,
-    "backend_records": 684,
+    "reader_pdf_pages": 48,
+    "backend_records": 1466,
     "machine_qa": "PASS",
+    "protected_surface_qa": "PASS",
     "visual_qa": "PASS",
     "backend_qa": "PASS"
   },
+  "unit_02_authority": {
+    "lecture_revid": 1055217,
+    "lecture_mediawiki_sha1": "be3bd8706fc4945584860560ee832690f17184ab",
+    "worksheet_revid": 1062654,
+    "worksheet_mediawiki_sha1": "37a2abba78dc4a43846840da237f022d4576adfe",
+    "authority_manifest_sha256": "c7ef84bd925d5baa7e6646d7b5251d51f7645650c9a040e89dce6a4aba7a8ba5",
+    "worksheet_exercises": 27,
+    "public_source_solutions": 9,
+    "solution_map_sha256": "46918a79aa0aa47fe1c4685cc3e0d611957d643195a6bd1cbeabb310b5d9053e",
+    "lecture_transclusions": 109,
+    "worksheet_transclusions": 102,
+    "media_positions": 2,
+    "media_binary_surfaces": 3,
+    "media_closure_sha256": "d1553e0207ab330f960490940cf53a0966e53bc9ac430beaa44676ec2d43cb20",
+    "official_lecture_pdf_sha256": "34666a55715879e1a74348deaa2826566a154f0ed6fd0e8ccf5bdc7a36ceda73",
+    "official_worksheet_pdf_sha256": "3837f6eba6464942c8b3993df49eab062f9c05a94b7e9f790059c1c073871b67"
+  },
+  "release_candidate": {
+    "html_sha256": "035d371f6e37477d5bbbff683ad3bd5b891584fbb31fe431fc6b91035009990b",
+    "pdf_sha256": "c31b6d47c3b5a0567bd4b379b08f53f05261f17d3cdfaae98ae87cffcae870c8",
+    "build_receipt_sha256": "7c16ff22da73b75384d6036f6408b2ea859ad5d575a8bde36953065f6ef25694",
+    "machine_qa_sha256": "009d236814934c6ed317f62f0cdb9159e56d92f9318dea24218b86938ea1e47d",
+    "protected_surface_qa_path": "qa/UNIT_02_PROTECTED_SURFACES.json",
+    "visual_qa_sha256": "7e17b10c23cb69c4c6a69603eb898117b699777cffec1c548fb78829135e2d82",
+    "backend_manifest_sha256": "3918c8fcd8df7d4a5c65072b29701dc3a1a2103169152e5bb8d8beac6e5df",
+    "backend_qa_sha256": "2c76df724e5e102efbccea896520fe53f976410f5d5319e0fd285653e28a98ba"
+  },
   "next_source_boundary": {
-    "lecture": 2,
-    "worksheet": 2,
-    "action": "freeze exact current source revisions, semantic dependencies, solutions, and media before translating in source order"
+    "lecture": 3,
+    "worksheet": 3,
+    "state": "not_frozen",
+    "action": "freeze exact Lecture 3 and Worksheet 3 entry revisions, complete transclusion closure, public solution map, official PDF witnesses, and component media rights before translation"
   },
   "later_bridge": {
     "state": "not_started",
@@ -28,11 +59,19 @@
     "donor": "Napkin Part XX exact frozen six-file closure",
     "original_connector": "affine gluing and cocycles; P^1 from two affine lines; doubled origin; one Brenner projective curve in charts; original exercises and solutions"
   },
+  "overlap_check": {
+    "checked": "2026-08-22",
+    "scope": "recent 50 Codex tasks, title/role inventory only",
+    "active_o016_owners": 1,
+    "owner_thread": "01a02166-c5fb-7e11-91d6-e26af23b8654",
+    "result": "no active duplicate O016 production task found"
+  },
   "publication": {
     "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
     "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
-    "release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-01",
-    "content_commit": "10506db01536f0510a35ea35510d34e405f88baf",
-    "state": "published_and_public_bytes_verified"
+    "latest_published_release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-01",
+    "latest_published_content_commit": "10506db01536f0510a35ea35510d34e405f88baf",
+    "unit_01_state": "published_and_public_bytes_verified",
+    "unit_02_state": "authorized_and_ready_to_publish"
   }
 }

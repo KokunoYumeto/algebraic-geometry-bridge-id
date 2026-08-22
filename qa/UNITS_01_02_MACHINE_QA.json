@@ -1,0 +1,99 @@
+{
+  "schema": "ag-bridge-machine-qa-receipt-v2",
+  "tested_build_utc": "2026-08-22T04:02:53.428634+00:00",
+  "status": "PASS",
+  "through_unit": 2,
+  "stable_ids": 109,
+  "ast_surfaces": {
+    "lecture-01.md": {
+      "Header": 12,
+      "Math": 178,
+      "Image": 23
+    },
+    "worksheet-01.md": {
+      "Header": 31,
+      "Math": 106,
+      "Image": 0
+    },
+    "worksheet-01-solutions.md": {
+      "Header": 8,
+      "Math": 95,
+      "Image": 0
+    },
+    "lecture-02.md": {
+      "Header": 14,
+      "Math": 178,
+      "Image": 2
+    },
+    "worksheet-02.md": {
+      "Header": 30,
+      "Math": 96,
+      "Image": 0
+    },
+    "worksheet-02-solutions.md": {
+      "Header": 10,
+      "Math": 145,
+      "Image": 0
+    }
+  },
+  "solutions": {
+    "unit_01": {
+      "exercise_count": 28,
+      "solution_count": 7,
+      "map_sha256": "a7c08cd69d400106014d2fc7d0365cd27c261f0f338e63723fb473240fe49885"
+    },
+    "unit_02": {
+      "exercise_count": 27,
+      "solution_count": 9,
+      "map_sha256": "46918a79aa0aa47fe1c4685cc3e0d611957d643195a6bd1cbeabb310b5d9053e"
+    }
+  },
+  "rights": {
+    "unit_01": {
+      "positions": 23,
+      "surfaces": 26,
+      "rights_sha256": "4b8274d40f472882da8ba4b5bca50b015c101010556bc8bfbea58819be32875e",
+      "closure_sha256": "326ae10cd6ff01232976c48ffae33fd48298092684d925546adb4e78541cd88a"
+    },
+    "unit_02": {
+      "positions": 2,
+      "surfaces": 3,
+      "rights_sha256": "ba2d98145c6e8b925ef4b2f722a839556f35a023f46a86cbf9f3f76a03ed3ebf",
+      "closure_sha256": "d1553e0207ab330f960490940cf53a0966e53bc9ac430beaa44676ec2d43cb20"
+    }
+  },
+  "html": {
+    "bytes": 3586982,
+    "sha256": "035d371f6e37477d5bbbff683ad3bd5b891584fbb31fe431fc6b91035009990b",
+    "images": 25,
+    "mathml_nodes": 798,
+    "broken_internal_links": 0,
+    "remote_images": 0
+  },
+  "pdf": {
+    "bytes": 2341887,
+    "sha256": "c31b6d47c3b5a0567bd4b379b08f53f05261f17d3cdfaae98ae87cffcae870c8",
+    "pages": 48,
+    "encrypted": false,
+    "font_rows": 13,
+    "unembedded_fonts": 0,
+    "type3_fonts": 0
+  },
+  "build_receipt": {
+    "bytes": 7387,
+    "sha256": "7c16ff22da73b75384d6036f6408b2ea859ad5d575a8bde36953065f6ef25694"
+  },
+  "qa_script": {
+    "path": "scripts/qa_reader_units_01_02.py",
+    "sha256": "003436e89352c78db689183ad3ba57e155445509f4a3e148a0e4f64c06ddbf8b"
+  },
+  "check_families": [
+    "source_placeholders_language_and_secrets",
+    "pandoc_math_image_heading_and_stable_id_surfaces",
+    "exercise_solution_revision_and_witness_closure",
+    "component_rights_and_asset_hash_closure",
+    "html_language_alt_mathml_internal_links_and_local_assets",
+    "build_input_and_output_receipt_replay",
+    "pdf_structure_metadata_text_and_fonts"
+  ]
+}

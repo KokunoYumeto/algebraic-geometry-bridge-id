@@ -1,0 +1,120 @@
+{
+  "schema": "ag-bridge-backend-qa-receipt-v2",
+  "tested_build_utc": "2026-08-22T04:02:53.428634+00:00",
+  "status": "PASS",
+  "through_unit": 2,
+  "manifest_path": "backend/units-01-02/MANIFEST.json",
+  "manifest_sha256": "3918c8fcd8bd8df7d4a5c65072b29701dc3a1a2103169152e5bb8d8beac6e5df",
+  "export_tree_sha256": "fb1b1dc30e28a8ba8d15392e5a4225b148a1f9a019bf6c455d3d0f7069e22355",
+  "deterministic_double_replay": true,
+  "record_count": 1466,
+  "class_counts": {
+    "artifact": 16,
+    "asset": 25,
+    "concept": 18,
+    "correction": 7,
+    "course": 1,
+    "edition": 4,
+    "exercise": 55,
+    "program": 1,
+    "qa_event": 3,
+    "relation": 526,
+    "resource": 3,
+    "rights": 29,
+    "segment": 633,
+    "solution": 16,
+    "term": 18,
+    "unit": 111
+  },
+  "jsonl_parse_errors": 0,
+  "json_schema_errors": 0,
+  "unique_and_well_formed_stable_ids": true,
+  "unit_1_record_bytes_preserved": 684,
+  "parent_closure": true,
+  "relation_endpoint_closure": true,
+  "resource_edition_rights_and_concept_closure": true,
+  "class_projection_round_trip": true,
+  "source_and_export_hash_replay": true,
+  "reader_binding": {
+    "build_receipt_sha256": "7c16ff22da73b75384d6036f6408b2ea859ad5d575a8bde36953065f6ef25694",
+    "output_count": 2,
+    "outputs": [
+      {
+        "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-02.pdf",
+        "bytes": 2341887,
+        "sha256": "c31b6d47c3b5a0567bd4b379b08f53f05261f17d3cdfaae98ae87cffcae870c8"
+      },
+      {
+        "path": "build/reader-id/index.html",
+        "bytes": 3586982,
+        "sha256": "035d371f6e37477d5bbbff683ad3bd5b891584fbb31fe431fc6b91035009990b"
+      }
+    ]
+  },
+  "authority_binding": {
+    "unit_2_manifest_sha256": "c7ef84bd925d5baa7e6646d7b5251d51f7645650c9a040e89dce6a4aba7a8ba5",
+    "file_count": 46,
+    "lecture_revid": 1055217,
+    "worksheet_revid": 1062654
+  },
+  "exercise_solution_mapping": {
+    "unit_01": {
+      "exercise_count": 28,
+      "solution_count": 7,
+      "map_sha256": "a7c08cd69d400106014d2fc7d0365cd27c261f0f338e63723fb473240fe49885",
+      "typed_solve_relations": 7
+    },
+    "unit_02": {
+      "exercise_count": 27,
+      "solution_count": 9,
+      "map_sha256": "46918a79aa0aa47fe1c4685cc3e0d611957d643195a6bd1cbeabb310b5d9053e",
+      "typed_solve_relations": 9
+    }
+  },
+  "rights_and_assets": {
+    "unit_01": {
+      "positions": 23,
+      "unique_local_assets": 26,
+      "rights_sha256": "4b8274d40f472882da8ba4b5bca50b015c101010556bc8bfbea58819be32875e",
+      "closure_sha256": "326ae10cd6ff01232976c48ffae33fd48298092684d925546adb4e78541cd88a"
+    },
+    "unit_02": {
+      "positions": 2,
+      "unique_local_assets": 3,
+      "rights_sha256": "ba2d98145c6e8b925ef4b2f722a839556f35a023f46a86cbf9f3f76a03ed3ebf",
+      "closure_sha256": "d1553e0207ab330f960490940cf53a0966e53bc9ac430beaa44676ec2d43cb20"
+    }
+  },
+  "corrections": {
+    "rows": 7,
+    "ledger_sha256": "a1a112e173011aed3499ea69d765a80efadd4a40c678868697825dbb01f0abb2",
+    "applied_before_publication": [
+      "AGC-CORR-0002",
+      "AGC-CORR-0003",
+      "AGC-CORR-0004"
+    ]
+  },
+  "credential_findings": 0,
+  "check_families": [
+    "jsonl_parse_canonical_serialization_and_json_schema",
+    "stable_id_uniqueness_format_and_unit1_byte_preservation",
+    "parent_relation_resource_edition_rights_and_concept_closure",
+    "class_projection_round_trip",
+    "deterministic_double_export_and_file_tree_identity",
+    "reader_build_receipt_input_output_and_artifact_hash_bindings",
+    "unit2_revision_authority_manifest_and_file_hash_replay",
+    "unit1_unit2_exercise_solution_family_and_map_closure",
+    "unit1_unit2_component_rights_asset_and_companion_hash_closure",
+    "seven_row_correction_ledger_hash_payload_target_and_relation_closure",
+    "credential_pattern_scan"
+  ],
+  "replay_command": "\"C:\\Users\\Floris\\miniconda3\\python.exe\" \"scripts/qa_backend_units_01_02.py\"",
+  "exporter": {
+    "path": "scripts/export_backend_units_01_02.py",
+    "sha256": "f0c7ba117f5c573b90435ebcf9de8a57665db686078e283817fda12a5b550180"
+  },
+  "qa_script": {
+    "path": "scripts/qa_backend_units_01_02.py",
+    "sha256": "06ec680eaa4f024e7b6eb72f12c47e167e5813c998a71ffa2619f13dc3d74443"
+  }
+}

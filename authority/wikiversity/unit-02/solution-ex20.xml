@@ -1,0 +1,132 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ideal/Binomische Formel/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>73985</id>
+    <revision>
+      <id>1096251</id>
+      <parentid>1089662</parentid>
+      <timestamp>2026-06-15T08:21:24Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096251</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1708" sha1="43q4zj40e1z2byp1x8jonhf6vhsiy36" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Zum Beweis der Inklusion {{math|term= \subseteq|SZ=}} sei {{mathl|term= f \in (I+J)^n |SZ=.}} Da das Produkt von Idealen aus allen Summen von Produkten besteht, bedeutet dies, dass
+{{
+Relationskette/display
+|f
+|| f_1 + f_2 {{plusdots|}} f_k
+||
+||
+||
+|SZ=,
+}}
+wobei
+{{
+Relationskette/display
+|f_\ell
+|| c_{\ell 1} \cdot c_{\ell 2} \cdots c_{\ell n}
+||
+||
+||
+|SZ=
+}}
+mit {{mathl|term= c_{\ell r}  \in I+J |SZ=}} ist. Dies bedeutet wiederum, dass
+{{
+Relationskette/display
+| c_{\ell r}
+|| a_{\ell r} + b_{\ell r}
+||
+||
+||
+|SZ=
+}}
+mit
+{{
+mathkor|term1=
+  a_{\ell r} \in I
+|und|term2=
+  b_{\ell r} \in J
+|SZ=
+}}
+ist. Somit ist
+{{
+Relationskette/display
+|f_\ell
+|| {{makl| a_{\ell 1} + b_{\ell 1} |}}   {{makl| a_{\ell 2} + b_{\ell 2} |}}  \cdots  {{makl| a_{\ell n} + b_{\ell n} |}} 
+||
+||
+||
+|SZ=.
+}}
+Wenn man ein solches Produkt distributiv ausrechnet, so erhält man eine Summe von Produkten mit {{math|term= n |SZ=}} Faktoren, wobei {{math|term= s |SZ=}} Faktoren zu {{math|term= I |SZ=}} und {{mathl|term= n-s|SZ=}} Faktoren zu {{math|term= J |SZ=}} gehören. Damit gehören diese Summanden zur rechten Seite und somit auch die {{math|term= f_\ell|SZ=}} und auch {{math|term= f |SZ=.}} 
+
+Zum Beweis der Inklusion {{math|term= \supseteq|SZ=}} genügt es, die Inklusion {{math|term= I^s J^{n-s} \subseteq (I+J)^n |SZ=}} für jedes {{math|term= s |SZ=}} zu zeigen. Wegen {{mathl|term= I,J \subseteq I+J|SZ=}} ist aber sofort
+{{
+Relationskette/display
+| I^s J^{n-s}
+| \subseteq | (I+J)^s \cdot (I+J)^{n-s}
+||  (I+J)^n
+||
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>43q4zj40e1z2byp1x8jonhf6vhsiy36</sha1>
+    </revision>
+  </page>
+</mediawiki>

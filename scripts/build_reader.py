@@ -8,6 +8,7 @@ published only after both artifacts and their manifest are complete.
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import os
@@ -24,15 +25,42 @@ SOURCE_DIR = LANE / "source" / "id-ID"
 ASSET_DIR = LANE / "authority" / "assets"
 BUILD_DIR = LANE / "build"
 FINAL_DIR = BUILD_DIR / "reader-id"
-SOURCES = (
-    SOURCE_DIR / "frontmatter.md",
-    SOURCE_DIR / "lecture-01.md",
-    SOURCE_DIR / "worksheet-01.md",
-    SOURCE_DIR / "worksheet-01-solutions.md",
-    SOURCE_DIR / "media-credits.md",
-)
 CSS = SOURCE_DIR / "reader.css"
 EXPECTED_PANDOC_PREFIX = "pandoc 3.9.0.2"
+
+
+def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
+    if through == 1:
+        return (
+            (
+                SOURCE_DIR / "frontmatter.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+            ),
+            "Kurva Aljabar — Unit 1",
+            "Kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-unit-01.pdf",
+        )
+    if through == 2:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-02.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+            ),
+            "Kurva Aljabar — Unit 1–2",
+            "Dua kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-02.pdf",
+        )
+    raise ValueError("only the verified contiguous scopes --through 1 and --through 2 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -102,7 +130,12 @@ def projected_output_rows(paths: tuple[Path, ...]) -> list[dict[str, object]]:
 
 
 def main() -> int:
-    for path in (*SOURCES, CSS):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--through", type=int, default=2)
+    args = parser.parse_args()
+    sources, title, subtitle, pdf_name = build_scope(args.through)
+
+    for path in (*sources, CSS):
         regular_file(path)
 
     pandoc = shutil.which("pandoc")
@@ -120,18 +153,18 @@ def main() -> int:
     stage = Path(tempfile.mkdtemp(prefix=".reader-id-stage-", dir=BUILD_DIR))
     try:
         html = stage / "index.html"
-        pdf = stage / "algebraic-geometry-bridge-id-unit-01.pdf"
+        pdf = stage / pdf_name
         resource_path = os.pathsep.join((str(SOURCE_DIR), str(ASSET_DIR), str(LANE)))
         common = [
             "--from=markdown+yaml_metadata_block+tex_math_dollars+fenced_divs+bracketed_spans",
             "--standalone",
             "--toc",
             "--metadata=lang:id-ID",
-            "--metadata=title:Kurva Aljabar — Unit 1",
-            "--metadata=subtitle:Kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            f"--metadata=title:{title}",
+            f"--metadata=subtitle:{subtitle}",
             "--metadata=author:Holger Brenner (karya sumber)",
             f"--resource-path={resource_path}",
-            *(str(path) for path in SOURCES),
+            *(str(path) for path in sources),
         ]
         run_logged(
             stage / "pandoc-html.log",
@@ -151,8 +184,10 @@ def main() -> int:
                 "authority/assets/Ellipse-250.png",
             "authority/assets/Newtonbig.gif":
                 "authority/assets/Newtonbig-frame-1.png",
+            "authority/assets/Conjuntos_algebraicos_2.svg":
+                "authority/assets/Conjuntos_algebraicos_2-500.png",
         }
-        for source in SOURCES:
+        for source in sources:
             pdf_source = stage / f"pdf-{source.name}"
             text = source.read_text(encoding="utf-8")
             for before, after in replacements.items():
@@ -164,8 +199,8 @@ def main() -> int:
             "--standalone",
             "--toc",
             "--metadata=lang:id-ID",
-            "--metadata=title:Kurva Aljabar — Unit 1",
-            "--metadata=subtitle:Kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            f"--metadata=title:{title}",
+            f"--metadata=subtitle:{subtitle}",
             "--metadata=author:Holger Brenner (karya sumber)",
             f"--resource-path={resource_path}",
             *(str(path) for path in pdf_sources),
@@ -185,13 +220,15 @@ def main() -> int:
         if html.stat().st_size < 10_000 or pdf.stat().st_size < 10_000:
             raise RuntimeError("reader artifact is implausibly small")
 
-        input_paths = [*SOURCES, CSS]
+        input_paths = [*sources, CSS]
         if ASSET_DIR.is_dir():
             input_paths.extend(path for path in ASSET_DIR.rglob("*") if path.is_file())
         receipt = {
-            "schema": "ag-bridge-build-receipt-v1",
+            "schema": "ag-bridge-build-receipt-v2",
             "built_utc": datetime.now(timezone.utc).isoformat(),
             "language": "id-ID",
+            "through_unit": args.through,
+            "title": title,
             "pandoc": pandoc_version,
             "latex": latex_version,
             "inputs": canonical_rows(input_paths),

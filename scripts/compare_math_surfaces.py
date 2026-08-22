@@ -60,9 +60,34 @@ def target_math(path: Path) -> list[str]:
     return [node["c"][1] for node in walk(ast["blocks"]) if node.get("t") == "Math"]
 
 
-def compare(stem: str) -> bool:
-    source = authority_math(LANE / "authority" / "wikiversity" / f"{stem}.html")
+def source_and_target_for(stem: str) -> tuple[list[str], list[str]]:
+    solution_match = re.fullmatch(r"worksheet-(\d{2})-solutions", stem)
+    if solution_match:
+        unit = solution_match.group(1)
+        authority_dir = LANE / "authority" / "wikiversity"
+        if unit != "01":
+            authority_dir = authority_dir / f"unit-{unit}"
+        mapping = json.loads(
+            (authority_dir / "ORDERED_EXERCISE_MAP.json").read_text(encoding="utf-8")
+        )
+        source: list[str] = []
+        for entry in mapping["entries"]:
+            if entry.get("has_public_solution"):
+                source.extend(authority_math(authority_dir / entry["html_file"]))
+        target = target_math(LANE / "source" / "id-ID" / f"{stem}.md")
+        return source, target
+
+    unit_match = re.search(r"-(\d{2})$", stem)
+    authority_dir = LANE / "authority" / "wikiversity"
+    if unit_match and unit_match.group(1) != "01":
+        authority_dir = authority_dir / f"unit-{unit_match.group(1)}"
+    source = authority_math(authority_dir / f"{stem}.html")
     target = target_math(LANE / "source" / "id-ID" / f"{stem}.md")
+    return source, target
+
+
+def compare(stem: str) -> bool:
+    source, target = source_and_target_for(stem)
     left = [normalize(item) for item in source]
     right = [normalize(item) for item in target]
     matcher = difflib.SequenceMatcher(a=left, b=right, autojunk=False)
@@ -95,7 +120,8 @@ def compare(stem: str) -> bool:
 
 def main() -> int:
     stems = sys.argv[1:] or ["lecture-01", "worksheet-01"]
-    return 0 if all(compare(stem) for stem in stems) else 1
+    results = [compare(stem) for stem in stems]
+    return 0 if all(results) else 1
 
 
 if __name__ == "__main__":

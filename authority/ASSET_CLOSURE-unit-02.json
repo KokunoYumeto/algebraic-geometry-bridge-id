@@ -1,0 +1,35 @@
+{
+  "schema": "brenner-unit-media-closure-v1",
+  "unit": 2,
+  "reader_media_positions": 2,
+  "unique_local_assets": 3,
+  "metadata_file": "authority/commons-imageinfo-unit-02.json",
+  "metadata_bytes": 4539,
+  "metadata_sha256": "e45a1347c58808f108253ac166de117aa37809ef3b3cad709351ae6d571f57dc",
+  "rights_file": "authority/RIGHTS-unit-02.csv",
+  "rights_bytes": 2122,
+  "rights_sha256": "ba2d98145c6e8b925ef4b2f722a839556f35a023f46a86cbf9f3f76a03ed3ebf",
+  "reader_credits_file": "source/id-ID/media-credits-unit-02.md",
+  "reader_credits_bytes": 692,
+  "reader_credits_sha256": "2d1794aadd5462eccf5574af6a875699ced4d371f5a4d44e4c19d0b489088b37",
+  "assets": [
+    {
+      "asset_id": "br-ak-u02-media-001",
+      "local_path": "authority/assets/Conic_sections_2n-330.png",
+      "local_bytes": 39791,
+      "local_sha256": "4ad5b53eab8f04841d7c294900bcd9ee23775273e44a2eb424c45d7a21ac802a",
+      "pdf_local_path": "",
+      "pdf_local_bytes": "",
+      "pdf_local_sha256": ""
+    },
+    {
+      "asset_id": "br-ak-u02-media-002",
+      "local_path": "authority/assets/Conjuntos_algebraicos_2.svg",
+      "local_bytes": 118580,
+      "local_sha256": "89765c0e3a107ed0c7196285bdfd177f16156e2fd5208261eaa7f66323df1f80",
+      "pdf_local_path": "authority/assets/Conjuntos_algebraicos_2-500.png",
+      "pdf_local_bytes": 27988,
+      "pdf_local_sha256": "9cbd2fb0f85091b55fc3b9d9b9b23710148e359267610af9dbb45061f978bf85"
+    }
+  ]
+}

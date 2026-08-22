@@ -1,0 +1,2900 @@
+\setcounter{section}{2}
+
+
+  \zwischenueberschrift{Affin-algebraische Mengen}
+
+
+\inputdefinition
+
+
+{}
+
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{.}
+Dann nennt man
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{ = }{ K^n
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+den \definitionswort {affinen Raum}{} über $K$ der Dimension $n$.
+
+
+}
+
+
+Der affine Raum ist also zunächst einfach eine Menge aus Punkten. Ein Punkt im affinen Raum ist einfach ein $n$-Tupel
+
+
+\mathl{(a_1 , \ldots , a_n)}{} mit Koordinaten aus $K$. Warum dann ein neuer Begriff? Mit dem Begriff \anfuehrung{affiner Raum}{} wird angedeutet, dass wir den $K^n$ als Objekt der algebraischen Geometrie verstehen wollen. D.h. wir betrachten den affinen $n$-dimensionalen Raum als das natürliche geometrische Objekt, auf dem Polynome in $n$ Variablen
+\zusatzklammer {als Funktionen} {} {}
+operieren. Wir werden zunehmend den affinen Raum um weitere Strukturen
+\zusatzklammer {Zariski-Topologie, Strukturgarbe} {} {}
+ergänzen, die deutlich machen, dass er \anfuehrung{mehr}{} ist als \anfuehrung{nur}{} ein $K^n$. Für
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ n
+}
+
+
+{ = }{ 1
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+spricht man von der \stichwort {affinen Geraden} {} und für
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ n
+}
+
+
+{ = }{ 2
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+von der \stichwort {affinen Ebene} {.}
+
+
+Ein Polynom
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+fasst man in natürlicher Weise als Funktion auf dem affinen Raum auf: Einem Punkt
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ { {\mathbb A}_{ K }^{ n  } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ = }{ \left(  a_1 , \ldots , a_n  \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+wird der Wert
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ F \left(  a_1 , \ldots , a_n  \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+zugeordnet, indem die Variable $X_i$ durch $a_i$ ersetzt wird und alles in $K$ ausgerechnet wird. Zu einem Polynom
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+kann man sich fragen, ob
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist oder nicht. Zu $F$ rückt dann insbesondere das dadurch definierte \anfuehrung{Nullstellengebilde}{} ins Interesse, nämlich
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ V(F)
+}
+
+
+{ =} { \left\{  P \in { {\mathbb A}_{ K }^{ n  } }   \mid   F(P) = 0         \right\}
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{.}
+
+Davon haben wir schon einige in der ersten Vorlesung kennengelernt. Es ist aber auch sinnvoll, zu untersuchen, wie das gemeinsame
+\zusatzklammer {simultane} {} {}
+Nullstellengebilde zu mehreren Polynomen aussieht. Dieses beschreibt den Durchschnitt der einzelnen beteiligten Nullstellengebilde
+\zusatzklammer {wie beispielsweise bei Kegelschnitten, wo man einen Kegel im dreidimensionalen Raum mit verschiedenen Ebenen schneidet} {} {.}
+
+
+\bild{ \begin{center}
+
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Conic_sections_2n} {png} }
+
+
+\end{center}
+
+
+\bildtext {Kegelschnitte} }
+
+
+\bildlizenz { Conic sections 2n.png } {} {NK} {Commons} {CC-BY-SA-3.0} {}
+
+
+Daher definieren wir allgemein.
+
+
+\inputdefinition
+
+
+{}
+
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und sei
+
+
+\mathbed {F_j \in K[X_1, \ldots, X_n]} {}
+
+
+ {j \in J} {}
+
+
+ {} {} {} {,}
+eine Familie von
+\definitionsverweis {Polynomen}{}{}
+in $n$ Variablen. Dann nennt man
+
+
+\mathdisp {\left\{  P  \in { {\mathbb A}_{  K }^{  n   } }   \mid   F_j(P) = 0 \text { für alle } j \in J         \right\}} {  }
+
+
+das durch die Familie definierte \definitionswort {Nullstellengebilde}{}
+\zusatzklammer {oder \definitionswort {Nullstellenmenge}{}} {} {.}
+Es wird mit
+
+
+\mathl{V(F_j, j \in J)}{} bezeichnet.
+
+
+}
+
+
+Diejenigen Teilmengen des affinen Raumes, die als Nullstellenmengen auftreten, verdienen einen eigenen Namen.
+
+
+\inputdefinition
+
+
+{}
+
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und sei
+
+
+\mathl{K[X_1 , \ldots , X_n]}{} der
+\definitionsverweis {Polynomring}{}{}
+in $n$ Variablen. Dann heißt eine Teilmenge
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V
+}
+
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+im affinen Raum \definitionswort {affin-algebraisch}{,} wenn sie die
+\definitionsverweis {Nullstellenmenge}{}{}
+zu einer Familie
+
+
+\mathbed {F_j} {}
+
+
+ {j \in J} {}
+
+
+ {} {} {} {,}
+von Polynomen
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F_j
+}
+
+
+{ \in }{ K[X_1 , \ldots ,  X_n]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist, wenn also
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V
+}
+
+
+{ = }{ V(F_j, j \in J)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+gilt.
+
+
+}
+
+
+Die einfachsten Beispiele sind eine endliche Punktemenge auf der affinen Geraden
+
+
+\mathl{{\mathbb A}^{1}_{K}}{,} die durch ein einzelnes Polynom gegeben sind, und affin-lineare Unterräume im ${ {\mathbb A}_{ K }^{ n  } }$, die ja als Lösungsmenge eines
+\definitionsverweis {inhomogenen linearen Gleichungssystems}{}{}
+über $K$ gegeben sind.
+
+
+\inputbeispiel{}
+
+
+{
+
+
+Wir betrachten die affine Ebene ${\mathbb A}^{2}_{ K }$ und darin einige affin-algebraische Teilmengen, die durch die Variablen $X$ und $Y$ definiert sind. Das Nullstellengebilde
+
+
+\mathl{V(X,Y)}{} besteht einfach aus dem \stichwort {Nullpunkt} {}
+
+
+\mathl{(0,0)}{.} Die Bedingung sagt ja hier, dass beide Variablen null sein müssen. Die Menge
+
+
+\mathl{V(X)}{} ist die $Y$-\stichwort {Achse} {}
+\zusatzklammer {alle Punkte der Form \mathlk{(0,y)}{}} {} {}
+und
+
+
+\mathl{V(Y)}{} ist die $X$-Achse. Die Menge
+
+
+\mathl{V(X+Y)}{} besteht aus allen Punkten
+
+
+\mathl{(x,y)}{} mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ y
+}
+
+
+{ = }{ -x
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Das ist also die \stichwort {Gegendiagonale} {.} Die Menge
+
+
+\mathl{V(XY)}{} besteht aus den Punkten
+
+
+\mathl{(x,y)}{,} wo das Produkt
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ xy
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+sein muss. Über einem Körper kann nach
+
+Lemma 3.10 (Lineare Algebra (Osnabrück 2024-2025))
+
+ein Produkt aber nur dann null sein, wenn einer der Faktoren null ist. D.h. es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(XY)
+}
+
+
+{ = }{ V(X) \cup V(Y)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und es liegt das \stichwort {Achsenkreuz} {} vor.
+
+
+}
+
+
+Die Punkte in einem affinen Raum oder auf einer affin-algebraischen Menge interpretiert man häufig so, dass sie selbst ein gewisses komplizierteres mathematisches Objekt repräsentieren. Eigenschaften der Objekte werden dann dadurch reflektiert, dass die repräsentierenden Punkte gewisse algebraische Gleichungen erfüllen oder nicht, oder, was äquivalent ist, auf gewissen affin-algebraischen Mengen liegen oder nicht. Dies soll durch das nächste Beispiel illustriert werden.
+
+
+\inputbeispiel{}
+
+
+{
+
+
+Eine
+$2 \times 2$-\definitionsverweis {Matrix}{}{}
+
+
+\mathdisp {\begin{pmatrix} a_{11}   &   a_{21}   \\  a_{12}  &  a_{22} \end{pmatrix}} {  }
+
+
+ist durch die vier Zahlen
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ a_{11} ,a_{21} , a_{12}, a_{22}
+}
+
+
+{ \in }{ K
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+eindeutig festgelegt. Man kann eine solche Matrix also mit einem Punkt im
+
+
+\mathl{{ {\mathbb A}_{ K }^{  4   } }}{}
+identifizieren. Bei dieser Interpretation ist es sinnvoll, die Variablen mit
+
+
+\mathl{X_{11} ,X_{21} , X_{12}, X_{22}}{} zu bezeichnen. Man kann sich dann fragen, welche Eigenschaften von Matrizen sich durch algebraische Gleichungen beschreiben lassen. Wir diskutieren dazu einige typische Eigenschaften.
+
+
+Eine
+\definitionsverweis {obere Dreiecksmatrix}{}{}
+liegt genau dann vor, wenn
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ a_{12}
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist. Die Menge der oberen Dreiecksmatrizen ist also die Nullstellenmenge von
+
+
+\mathl{X_{12}}{.}
+
+
+Eine
+\definitionsverweis {invertierbare Matrix}{}{}
+liegt vor, wenn
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ a_{11}a_{22}- a_{12}a_{21}
+}
+
+
+{ \neq }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist. Die Menge der nicht invertierbaren Matrizen wird also durch die algebraische \stichwort {Determinantenbedingung} {}
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ X_{11}X_{22}- X_{12}X_{21}
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+beschrieben.
+
+
+Eine Matrix beschreibt die Multiplikation mit einem Skalar, wenn sie eine Diagonalmatrix mit konstantem Diagonaleintrag ist. Diese Menge wird durch die drei Gleichungen
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{  X_{12}
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{  X_{21}
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ X_{11}-X_{22}
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+beschrieben.
+
+
+Ein Element
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \lambda
+}
+
+
+{ \in }{ K
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist
+nach
+Satz 23.2 (Lineare Algebra (Osnabrück 2024-2025))
+
+ein
+\definitionsverweis {Eigenwert}{}{}
+einer Matrix genau dann, wenn $\lambda$ eine Nullstelle des
+\definitionsverweis {charakteristischen Polynoms}{}{}
+der Matrix ist, d.h. wenn
+
+
+\mavergleichskettedisphandlinks
+
+
+{\vergleichskettedisphandlinks
+
+
+{ \det  \begin{pmatrix}  \lambda - a_{11}   &   - a_{21}   \\  - a_{12}   &  \lambda - a_{22}  \end{pmatrix}
+}
+
+
+{ =} { \lambda^2 - \lambda \left(  a_{11} + a_{22}  \right)  + a_{11}a_{22}- a_{12}a_{21}
+}
+
+
+{ =} { 0
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+ist. In der linearen Algebra ist normalerweise die Matrix vorgegeben und man sucht nach Nullstellen $\lambda$ dieses Polynoms in einer Variablen. Man kann es aber auch umgekehrt sehen und $\lambda$ vorgeben, und das Nullstellengebilde
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ \lambda^2 - \lambda (X_{11}+X_{22})+ X_{11}X_{22}- X_{12}X_{21}
+}
+
+
+{ =} { 0
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+in den vier Variablen untersuchen. Diese Gleichung beschreibt also die Menge aller Matrizen, die $\lambda$ als Eigenwert besitzen.
+
+
+Entsprechend besitzt eine Matrix genau dann die beiden Eigenwerte
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \lambda
+}
+
+
+{ \neq }{ \delta
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+wenn
+
+
+\mathdisp {\lambda^2 - \lambda (X_{11}+X_{22})+ X_{11}X_{22}- X_{12}X_{21}=0} {  }
+
+
+und
+
+
+\mathdisp {\delta^2 - \delta (X_{11}+X_{22})+ X_{11}X_{22}- X_{12}X_{21}=0} { . }
+
+
+ist. Die Differenz der beiden Gleichungen ist
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ \lambda^2- \delta^2 - (\lambda - \delta)(X_{11}+X_{22})
+}
+
+
+{ =} { 0
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{,}
+die eine solche Matrix erst recht erfüllen muss. Wegen
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \lambda
+}
+
+
+{ \neq }{ \delta
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+kann man das als
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ X_{11}+X_{22}
+}
+
+
+{ =} { \lambda + \delta
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+schreiben. Für eine Matrix nennt man die Summe der Diagonaleinträge die
+\definitionsverweis {Spur}{}{}
+der Matrix. Die zuletzt hingeschriebene Gleichung besagt also, dass für eine Matrix mit Eigenwerten
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \lambda
+}
+
+
+{ \neq }{ \delta
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+die Spur die Summe dieser Eigenwerte sein muss.
+
+
+Das charakteristische Polynom einer Matrix kann man auch schreiben als
+
+
+\mathdisp {\lambda^2 - \lambda \cdot \operatorname{Spur} \left(  M  \right)  + \det \left( M \right)} { , }
+
+
+mit
+
+
+\mathdisp {\operatorname{Spur} \left(  M  \right) = X_{11}+X_{22} \text{   und } \det \left( M \right) = X_{11}X_{22}- X_{12}X_{21}} { . }
+
+
+Insbesondere haben Matrizen genau dann das gleiche charakteristische Polynom, wenn ihre Spur und ihre Determinante übereinstimmen. Damit kann man auch sagen, dass die Menge der Matrizen mit einem vorgegebenen charakteristischen Polynom die
+\definitionsverweis {Faser}{}{}
+unter der Abbildung
+\maabbeledisp {} { { {\mathbb A}_{  K  }^{  4   } } } { {\mathbb A}^{2}_{ K }
+} { M } {  ( \operatorname{Spur} \left(  M  \right)  , \det \left( M \right))
+} {,}
+ist. Diese Abbildung ist durch einfache polynomiale Ausdrücke gegeben. Ist diese Abbildung surjektiv? Sehen die Fasern immer gleich aus, d.h., besitzt die Menge der Matrizen mit vorgegebener Spur und Determinante immer die gleiche Struktur, oder gibt es da Unterschiede? Es sei $s$ und $d$ vorgegeben. Dann geht es um die Lösungsmenge zu
+
+
+\mathdisp {X_{11} + X_{22} =s \text{   und } X_{11}X_{22}- X_{12}X_{21} = d} { . }
+
+
+Hierbei ist $X_{11}$ durch $X_{22}$ eindeutig festgelegt, und umgekehrt. Man kann daher eine Variable \stichwort {eliminieren} {,} indem man
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ X_{22}
+}
+
+
+{ = }{ s- X_{11}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+setzt. Dann ergibt sich das \anfuehrung{äquivalente}{} System in den drei Variablen
+
+
+\mathl{X_{11},X_{12},X_{21}}{,} mit der einzigen Gleichung
+
+
+\mathdisp {X_{11}(s-X_{11}) - X_{12}X_{21} = d} {  }
+
+
+bzw.
+
+
+\mathdisp {X_{11}^2 -sX_{11} + X_{12}X_{21} + d =0} { . }
+
+
+Unter \anfuehrung{äquivalent}{} verstehen wir hier, dass die Lösungen des einen Systems mit den Lösungen des anderen Systems in einer Bijektion stehen, die durch Polynome gegeben ist. An dieser letzten Umformung sieht man, dass es stets eine Lösung geben muss: Man kann für $X_{11}$ einen beliebigen Wert vorgeben und erhält eine Gleichung der Form
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ X_{12} X_{21}
+}
+
+
+{ = }{ a
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+die Lösungen besitzt.
+
+
+Durch eine \stichwort {lineare Variablentransformation} {} kann man die Gleichung noch weiter vereinfachen. Es sei vorausgesetzt, dass $2$ in $K$ invertierbar ist
+\zusatzklammer {dass also die Charakteristik von $K$ nicht $2$ ist} {} {.}
+Dann kann man mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ X
+}
+
+
+{ = }{ X_{11} - s/2
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+\zusatzklammer {und mit \mathlk{Y=X_{12}, Z=X_{21}}{}} {} {}
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ X^2 + YZ + c
+}
+
+
+{ =} { 0
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ c
+}
+
+
+{ = }{ - { \frac{  s^2 }{  4 } } +d
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+schreiben. Daraus sieht man, dass die Gestalt der Matrizenmenge mit vorgegebener Spur und Determinante nur von
+
+
+\mathl{-\frac{s^2}{4}+d}{} abhängt. In der Tat ist nun, abhängig davon, ob dieser Term null ist oder nicht, das Nullstellengebilde verschieden. Im ersten Fall hat es eine Singularität, im zweiten Fall nicht, wie wir später sehen werden.
+
+
+}
+
+
+  \zwischenueberschrift{Ideale und Nullstellengebilde}
+
+
+Da wir zunächst beliebige Familien von Polynomen zulassen, die Nullstellengebilde und damit affin-algebraische Mengen definieren, erscheinen diese zunächst sehr unübersichtlich. Es gelten hier aber drei wichtige Aussagen, die wir nach und nach beweisen werden, nämlich:
+\aufzaehlungdrei{Das Nullstellengebilde zu einer Polynom-Familie ist gleich dem Nullstellengebilde des Ideals, das von der Familie erzeugt wird.
+}{Zu jedem Ideal gibt es ein endliches Ideal-Erzeugendensystem, so dass jedes Nullstellengebilde durch endlich viele Polynome beschrieben werden kann
+\zusatzklammer {Hilbertscher Basissatz} {} {.}
+}{Über einem algebraisch abgeschlossenen Körper stehen die Nullstellengebilde in Bijektion mit den sogenannten Radikalen
+\zusatzklammer {das sind spezielle Ideale} {} {}
+\zusatzklammer {Hilbertscher Nullstellensatz} {} {.}
+}
+Die erste dieser Aussagen können wir sofort beweisen, die anderen beiden verlangen einige algebraische Vorbereitungen, die wir in den nächsten Vorlesungen entwickeln werden.
+
+
+\inputfaktbeweis
+
+
+{Affine Varietäten/Affiner Raum/Nullstellengebilde zu Polynommenge und zu Ideal/Fakt}
+
+
+{Lemma}
+
+
+{}
+
+
+{
+
+
+\faktsituation {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und sei
+
+
+\mathbed {F_j \in K[X_1 , \ldots ,  X_n]} {}
+
+
+ {j \in J} {}
+
+
+ {} {} {} {,}
+eine Familie von Polynomen in $n$ Variablen. Es sei ${\mathfrak a}$ das von den $F_j$
+\definitionsverweis {erzeugte Ideal}{}{}
+in
+
+
+\mathl{K[X_1 , \ldots , X_n]}{.}}
+
+
+\faktfolgerung {Dann ist
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ V(F_j, j \in J)
+}
+
+
+{ =} { V( {\mathfrak a} )
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{.}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+Das Ideal ${\mathfrak a}$ besteht aus allen Linearkombinationen der $F_j$ und enthält insbesondere alle $F_j$. Daher ist die Inklusion
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(F_j, j \in J)
+}
+
+
+{ \supseteq }{ V( {\mathfrak a} )
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+klar. Für die umgekehrte Inklusion sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V(F_j, j \in J)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ H
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ H
+}
+
+
+{ = }{ \sum_{i = 1}^k A_iF_{j_i }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+\zusatzklammer {mit
+
+
+\mavergleichskettek
+
+
+{\vergleichskettek
+
+
+{ A_i
+}
+
+
+{ \in }{ K[X_1 , \ldots ,  X_n]
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}} {} {}
+und somit ist
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ H(P)
+}
+
+
+{ =} { \sum_{i = 1}^k A_i(P)F_{j_i }(P)
+}
+
+
+{ =} { 0
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{,}
+also verschwindet jedes Element aus dem Ideal im Punkt $P$. Daher ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V( {\mathfrak a} )
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+Wir können also im Folgenden bei jeder Nullstellenmenge davon ausgehen, dass sie durch ein Ideal gegeben ist.
+
+
+\inputfaktbeweis
+
+
+{Affine Varietäten/Polynomring und affiner Raum/Idealinklusion und Nullstellenmenge/Fakt}
+
+
+{Lemma}
+
+
+{}
+
+
+{
+
+
+\faktsituation {Für
+\definitionsverweis {Ideale}{}{}
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ {\mathfrak a}
+}
+
+
+{ \subseteq }{ {\mathfrak b}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+in
+
+
+\mathl{K[X_1 , \ldots , X_n]}{}}
+
+
+\faktfolgerung {gilt
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V( {\mathfrak a} )
+}
+
+
+{ \supseteq }{ V( {\mathfrak b} )
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für die zugehörigen
+\definitionsverweis {Nullstellengebilde}{}{.}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V( {\mathfrak b} )
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+D.h. für jedes
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ {\mathfrak b}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist erst recht
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{}
+
+
+{   }{}
+
+
+}
+{}{}{}
+für jedes
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ F
+}
+
+
+{ \in }{ {\mathfrak a}
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+
+
+}
+
+
+Affin-algebraische Teilmengen des affinen Raumes erfüllen einige wichtige strukturelle Eigenschaften.
+
+
+\inputfaktbeweis
+
+
+{Affine Varietäten/Vereinigung und Durchschnitt von affin-algebraischen Mengen im affinen Raum/Fakt}
+
+
+{Proposition}
+
+
+{}
+
+
+{
+
+
+\faktsituation {Es sei $K$ ein
+\definitionsverweis {Körper}{}{,}
+
+
+\mathl{K[X_1 , \ldots , X_n]}{} der
+\definitionsverweis {Polynomring}{}{}
+in $n$ Variablen und sei
+
+
+\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} der zugehörige
+\definitionsverweis {affine Raum}{}{.}}
+
+
+\faktuebergang {Dann gelten folgende Eigenschaften.}
+
+
+\faktfolgerung {\aufzaehlungvier{Es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(0)
+}
+
+
+{ = }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+d.h. der ganze affine Raum ist eine
+\definitionsverweis {affin-algebra\-ische Menge}{}{.}
+}{Es ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V(1)
+}
+
+
+{ = }{ \emptyset
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+d.h. die leere Menge ist eine affin-algebraische Menge.
+}{Es seien
+
+
+\mathl{V_1 , \ldots , V_k}{} affin-algebraische Mengen mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V_i
+}
+
+
+{ = }{ V \left(  {\mathfrak a}_i  \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann gilt
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ V_1 \cup V_2 \cup \ldots \cup V_k
+}
+
+
+{ =} { V({\mathfrak a}_1 \cdot {\mathfrak a}_2 \cdots {\mathfrak a}_k)
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{.}
+Insbesondere ist die Vereinigung von endlich vielen affin-algebraischen Mengen wieder eine affin-algebraische Menge.
+}{Es seien
+
+
+\mathbed {V_i} {}
+
+
+ {i \in I} {}
+
+
+ {} {} {} {,}
+affin-algebraische Mengen mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ V_i
+}
+
+
+{ = }{ V \left(  {\mathfrak a}_i  \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann gilt
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ \bigcap_{i \in I} V_i
+}
+
+
+{ =} { V \left(  \sum_{i \in I} {\mathfrak a}_i  \right)
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{.}
+Insbesondere ist der Durchschnitt von beliebig vielen affin-algebra\-ischen Mengen wieder eine affin-algebraische Menge.}}
+
+
+\faktzusatz {}
+
+
+\faktzusatz {}
+
+
+}
+
+
+{
+
+
+(1) und (2) sind klar, da das konstante Polynom $0$ überall und das konstante Polynom $1$ nirgendwo verschwindet.
+
+
+(3). Es sei $P$ ein Punkt in der Vereinigung, sagen wir
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V({\mathfrak a}_1)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+D.h.
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für jedes Polynom
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f
+}
+
+
+{ \in }{ {\mathfrak a}_1
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Ein beliebiges Element aus dem Produktideal
+
+
+\mathl{{\mathfrak a}_1 \cdot {\mathfrak a}_2 \cdots {\mathfrak a}_k}{}
+hat die Gestalt
+
+
+\mavergleichskettedisp
+
+
+{\vergleichskette
+
+
+{ h
+}
+
+
+{ =} { \sum_{j = 1}^m r_j f_{1j}\cdot f_{2j} \cdots f_{kj}
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+{ } {
+}
+
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f_{ij}
+}
+
+
+{ \in }{ {\mathfrak a}_i
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Damit ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ h(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+da stets
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f_{1j}(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+gilt, also gehört $P$ zum rechten Nullstellengebilde. Gehört hingegen $P$ nicht zu der Vereinigung links, so ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \notin }{ V \left(  {\mathfrak a}_i  \right)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ i
+}
+
+
+{ = }{ 1 , \ldots , k
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+D.h. es gibt
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f_i
+}
+
+
+{ \in }{ {\mathfrak a}_i
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f_i(P)
+}
+
+
+{ \neq }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{}
+
+
+}
+{}{}{.}
+Dann ist aber
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ \left(  f_1f_2 \cdots f_k  \right) (P)
+}
+
+
+{ \neq }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f_1 f_2 \cdots f_k
+}
+
+
+{ \in }{ {\mathfrak a}_1 \cdot {\mathfrak a}_2 \cdots {\mathfrak a}_k
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{,}
+sodass $P$ nicht zur Nullstellenmenge rechts gehören kann.
+
+
+(4). Es sei
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dann ist
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ P
+}
+
+
+{ \in }{ V({\mathfrak a}_i)
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ i
+}
+
+
+{ \in }{ I
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+genau dann, wenn
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f
+}
+
+
+{ \in }{ {\mathfrak a}_i
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+und für alle
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ i
+}
+
+
+{ \in }{ I
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{.}
+Dies ist genau dann der Fall, wenn
+
+
+\mavergleichskette
+
+
+{\vergleichskette
+
+
+{ f(P)
+}
+
+
+{ = }{ 0
+}
+
+
+{  }{
+}
+
+
+{    }{
+}
+
+
+{   }{
+}
+
+
+}
+{}{}{}
+ist für alle $f$ aus der Summe dieser Ideale.
+
+
+}
+
+
+\bild{ \begin{center}
+
+
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Conjuntos_algebraicos_2} {svg} }
+
+
+\end{center}
+
+
+\bildtext {} }
+
+
+\bildlizenz { Conjuntos algebraicos 2.svg } {} {Drini} {Commons} {CC-BY-SA-3.0} {}

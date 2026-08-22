@@ -1,0 +1,153 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Quadratische Gleichungen/Durchschnitt/1/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>90661</id>
+    <revision>
+      <id>1096561</id>
+      <parentid>1095444</parentid>
+      <timestamp>2026-06-15T09:10:05Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096561</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1196" sha1="6mau7asxp203n52ruc6vc7jvmejyjx7" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es geht um die Lösungen des Gleichungssystems
+{{
+Relationskette/display
+| x^2+xy+3y^2 
+|| 3
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| 2x^2-xy+y^2
+|| 4
+||
+||
+||
+|SZ=.
+}}
+Die Summe der beiden Gleichungen ist
+{{
+Relationskette/display
+| 3x^2+4y^2
+|| 7
+||
+||
+||
+|SZ=
+}}
+und {{mathl|term= 2I-II|SZ=}} ist
+{{
+Relationskette/display
+|  3xy + 5 y^2
+|| 2
+||
+||
+||
+|SZ=.
+}}
+Mit der letzten Gleichung schreiben wir
+{{
+Relationskette/display
+| x
+|| {{op:Bruch| 2-5y^2| 3y}}
+||
+||
+||
+|SZ=,
+}}
+wobei es bei
+{{
+Relationskette
+| y
+|| 0
+||
+||
+||
+|SZ=
+}}
+definitiv keine Lösung gibt. Wir setzen diesen Ausdruck für {{math|term= x |SZ=}} in die obige Gleichung ein und erhalten
+{{
+Relationskette/display
+| 3 {{makl| {{op:Bruch| 2-5y^2| 3y}}     |}}^2 + 4y^2
+|| 7
+||
+||
+||
+|SZ=.
+}}
+Multiplikation mit {{mathl|term=  3y^2 |SZ=}} führt auf
+{{
+Relationskette/align
+|  0
+|| {{makl| 2-5y^2 |}}^2  +  12 y^4   -21 y^2
+|| 4 -20y^2  +25 y^4 +  12 y^4   -21 y^2
+|| 37 y^4 -41 y^2 +4
+||
+|SZ=.
+}}
+Dies ist eine biquadratische Gleichung.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>6mau7asxp203n52ruc6vc7jvmejyjx7</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,168 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Schnittpunkte von Kreis und Gerade/Koordinaten/Durch Punkte/1/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>90791</id>
+    <revision>
+      <id>1096652</id>
+      <parentid>1095603</parentid>
+      <timestamp>2026-06-15T09:24:45Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096652</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2175" sha1="d2ken56xl7fvuaq6ldv7vm5rxsxq0bw" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Der Richtungsvektor der Geraden ist {{mathl|term= {{op:Spaltenvektor| 5| -3}} |SZ=.}} Somit besitzt die Geradengleichung die Form
+{{
+Relationskette/display
+| 3x+5y
+|| c
+||
+||
+||
+|SZ=.
+}}
+Einsetzen eines Punkt ergibt
+{{
+Relationskette
+|c
+|| 2
+||
+||
+||
+|SZ=.
+}}
+Somit ist
+{{
+Relationskette/display
+| y 
+|| {{op:Bruch| 2- 3x| 5}}
+||
+||
+||
+|SZ=.
+}}
+Dies setzen wir in die Kreisgleichung
+{{
+Relationskette/display
+| x^2+y^2
+|| 1
+||
+||
+||
+|SZ=
+}}
+ein und erhalten
+{{
+Relationskette/display
+| x^2 + {{makl| {{op:Bruch| 2- 3x| 5}}  |}}^2 
+|| 1
+||
+||
+||
+|SZ=
+}}
+oder
+{{
+Relationskette/display
+| x^2  +   {{op:Bruch| 4 - 12x +9x^2 | 25}}     -1 
+|| {{op:Bruch| 34 | 25}}  x^2 - {{op:Bruch| 12 | 25}} x - {{op:Bruch| 21 | 25}}
+|| 0
+||
+||
+|SZ=.
+}}
+Die Normierung davon ist
+{{
+Math/display|term=
+ x^2 - {{op:Bruch| 6 | 17}} x - {{op:Bruch| 21 | 34}}
+|SZ=.
+}}
+Somit ist
+{{
+Relationskette/align
+| x_{1,2}
+|| {{op:Bruch| {{op:Bruch| 6 | 17}} \pm \sqrt{ {{makl| {{op:Bruch| 6 | 17}} |}}^2 + 4 \cdot {{op:Bruch| 21 | 34}}   }| 2}} 
+|| {{op:Bruch| {{op:Bruch| 6 | 17}} \pm \sqrt{ {{makl| {{op:Bruch| 6 | 17}} |}}^2 + {{op:Bruch| 42 | 17 }}   }| 2}} 
+|| {{op:Bruch|   6   \pm \sqrt{  6^2 + 714   }| 34 }} 
+|| {{op:Bruch|   6   \pm \sqrt{  750   }| 34 }} 
+|| {{op:Bruch|   6   \pm 5 \sqrt{  30   }| 34 }} 
+|SZ=
+}}
+und
+{{
+Relationskette/align
+| y_{1,2} 
+|| {{op:Bruch| 2- 3x_{1,2} | 5}}
+|| {{op:Bruch|     2- 3 {{makl| {{op:Bruch|  6   \pm 5 \sqrt{  30   }  | 34 }}    }}             | 5}}
+|| {{op:Bruch| 68 - 3 {{makl|    6   \pm 5 \sqrt{  30   }     }}       | 170}}
+|| {{op:Bruch| 50       \mp 15 \sqrt{  30   }           | 170}}
+|| {{op:Bruch| 10      \mp 3 \sqrt{  30   }           | 34}}
+|SZ=.
+}}
+Die Schnittpunkte sind also
+{{
+Mathkor/display|term1=
+ {{op:Zeilenvektor| {{op:Bruch|   6  + 5 \sqrt{  30   }| 34 }}  |{{op:Bruch| 10 - 3 \sqrt{  30   }           | 34}} }}
+|und|term2=
+ {{op:Zeilenvektor| {{op:Bruch|   6  - 5 \sqrt{  30   }| 34 }}  |{{op:Bruch| 10  + 3 \sqrt{  30   }           | 34 }} }}
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>d2ken56xl7fvuaq6ldv7vm5rxsxq0bw</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,248 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kommutierende Matrizen/2/Algebraische Gleichungen/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>93908</id>
+    <revision>
+      <id>1094978</id>
+      <parentid>1089758</parentid>
+      <timestamp>2026-06-14T17:25:19Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1094978</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2622" sha1="dntc858hx9lnz4vjsipunxekbdec8zn" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung3
+|Es sei
+{{
+Relationskette/display
+|A
+|| {{op:Matrix22|X_1 |X_2 |X_3 |X_4}} 
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|B
+|| {{op:Matrix22|Y_1 |Y_2 |Y_3 |Y_4}} 
+||
+||
+||
+|SZ=.
+}}
+Dann ist
+{{
+Relationskette/display
+|AB 
+|| {{op:Matrix22|X_1 |X_2 |X_3 |X_4}} {{op:Matrix22|Y_1 |Y_2 |Y_3 |Y_4}} 
+|| {{op:Matrix22|X_1Y_1 +X_2Y_3 |X_1 Y_2 +X_2 Y_4   | X_3 Y_1 + X_4 Y_3 |  X_3Y_2 + X_4Y_4}} 
+||
+||
+|SZ=
+}}
+und 
+{{
+Relationskette/display
+| BA 
+|| {{op:Matrix22|Y_1 |Y_2 |Y_3 |Y_4}} {{op:Matrix22|X_1 |X_2 |X_3 |X_4}} 
+|| {{op:Matrix22|X_1Y_1 +X_3Y_2 |X_2 Y_1 +X_4 Y_2   | X_1 Y_3 + X_3 Y_4 |  X_2Y_3 + X_4Y_4}} 
+||
+||
+|SZ=.
+}}
+Diese beiden Produktmatrizen sind genau dann gleich, wenn die vier Einträge übereinstimmen, wenn also
+{{
+Relationskette/display
+| X_1Y_1 +X_2Y_3
+|| X_1Y_1 +X_3Y_2
+||
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+| X_1Y_2 +X_2Y_4
+|| X_2Y_1 +X_4Y_2
+||
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+| X_3Y_1 +X_4 Y_3
+|| X_1Y_3 + X_3Y_4
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| X_3Y_2 +X_4Y_4
+|| X_2Y_3 +X_4Y_4
+||
+||
+||
+|SZ=
+}}
+gilt. Somit liegt eine affine Varietät vor. Die erste und die vierte Gleichung sind zueinander und zu
+{{
+Relationskette
+| X_2Y_3
+|| X_3Y_2
+||
+||
+||
+|SZ=,
+}}
+äquivalent, also werden die kommutierenden Matrizen durch das Gleichungssystem
+{{
+Relationskette/display
+| X_2Y_3
+|| X_3Y_2
+||
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+| X_1Y_2 +X_2Y_4
+|| X_2Y_1 +X_4Y_2
+||
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+| X_3Y_1 +X_4 Y_3
+|| X_1Y_3 + X_3Y_4
+||
+||
+||
+|SZ=
+}}
+beschrieben.
+|Die Einheitsmatrix {{math|term= E_2 |SZ=}} kommutiert mit jeder Matrix, daher ist {{mathl|term=  (A, E_2) |SZ=}} ein Urbild von {{math|term= A |SZ=.}} 
+|Es geht um die Matrizen
+{{
+Relationskette/display
+|B
+|| {{op:Matrix22|Y_1 |Y_2 |Y_3 |Y_4}} 
+||
+||
+||
+|SZ=,
+}}
+die zu
+{{
+Relationskette/display
+| A
+|| {{op:Matrix22|X_1 |X_2 |X_3 |X_4}} 
+|| {{op:Matrix22| 1| 1| 0| 0}} 
+||
+||
+||
+|SZ=
+}}
+das obige Gleichungssystem erfüllen. Die Bedingungen werden zu
+{{
+Relationskette/display
+| Y_3
+|| 0
+||
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+| Y_2 +Y_4
+|| Y_1 
+||
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+| 0
+|| Y_3  
+||
+||
+||
+|SZ=,
+}}
+wobei man die dritte Bedingung weglassen kann. Das Urbild von {{mathl|term=  {{op:Matrix22| 1| 1| 0| 0}} |SZ=}} ist also
+{{
+Math/display|term=
+ {{Mengebed|  {{op:Zeilentupel| {{op:Matrix22| 1| 1| 0| 0}} |{{op:Matrix22|Y_2+Y_4|Y_2 | 0|Y_4}} ||}}  |Y_2,Y_4 \in K }} 
+|SZ=.
+}}
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>dntc858hx9lnz4vjsipunxekbdec8zn</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -27,9 +27,10 @@ Wikiversity, Wikimedia Foundation, or any other upstream party.
 
 No blanket repository licence overrides media-component rights. Every included
 Wikimedia Commons asset retains its own creator, source, licence, attribution
-requirements, and any PDF-only companion relationship. The binding inventory
-is [`authority/RIGHTS.csv`](authority/RIGHTS.csv); the human-readable reader
-also contains a complete **Kredit media** section.
+requirements, and any PDF-only companion relationship. The binding inventories
+are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1 and
+[`authority/RIGHTS-unit-02.csv`](authority/RIGHTS-unit-02.csv) for Unit 2; the
+human-readable reader also contains a complete **Kredit media** section.
 
 ## Build and QA code
 
@@ -58,4 +59,3 @@ unless a file itself states otherwise:
 
 The licence on build code does not relicense the course text, translated text,
 source witnesses, or third-party media processed by that code.
-
