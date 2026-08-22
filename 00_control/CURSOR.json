@@ -3,7 +3,7 @@
   "updated": "2026-08-22",
   "lane": "O016/D100 algebraic-geometry-bridge-id",
   "language": "id-ID",
-  "status": "unit_02_release_candidate_all_local_gates_pass",
+  "status": "unit_02_published_public_bytes_verified",
   "completed_source_boundary": {
     "through_unit": 2,
     "lectures": 2,
@@ -69,9 +69,14 @@
   "publication": {
     "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
     "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
-    "latest_published_release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-01",
-    "latest_published_content_commit": "10506db01536f0510a35ea35510d34e405f88baf",
+    "latest_published_release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-02",
+    "latest_published_content_commit": "73545e4793c53fe1887e2e92eb55aa983b909ec1",
+    "latest_published_tag": "unit-02",
+    "published_utc": "2026-08-22T04:20:07Z",
+    "public_readback_receipt": "qa/UNIT_02_PUBLICATION.json",
+    "public_readback_receipt_sha256": "2c958cdcbdef351a8fd1bb1c7cf4c82351922dca0145044b63f0252ec3440be4",
+    "handoff": "qa/UNITS_01_02_HANDOFF.md",
     "unit_01_state": "published_and_public_bytes_verified",
-    "unit_02_state": "authorized_and_ready_to_publish"
+    "unit_02_state": "published_and_public_bytes_verified"
   }
 }

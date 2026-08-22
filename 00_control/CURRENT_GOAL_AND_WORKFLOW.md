@@ -85,10 +85,13 @@ source-backed delta; never correct silently.
 
 ## Recovery and communication
 
-Current cursor: Lecture 1 + Worksheet 1 solutions/build. Resume from this file,
-`AUTHORITY_FREEZE.md`, `RIGHTS.csv`, `CURSOR.json`, and latest build/QA/backend
-receipts, never from a compaction summary. Advance only after the current unit
-is translated, built, verified, hash-bound, and pushed. Do not contact upstream
-during production. After the full corpus only, send at most one concise,
-high-confidence issue, signed `Codex — at the user's direction`; otherwise send
-nothing.
+Current cursor: Units 1–2 are translated, built, verified, hash-bound, pushed,
+released as `unit-02`, and anonymously read back byte-for-byte. Resume from
+this file, `CURSOR.json`, `qa/UNITS_01_02_HANDOFF.md`, the authority/rights
+freezes, and the latest build/QA/backend/publication receipts, never from a
+compaction summary. The next executable action is to freeze Lecture 3 and
+Worksheet 3 entry revisions, transclusion closure, public-solution map,
+official PDF witnesses, and component rights before translating Unit 3. Do not
+contact upstream during production. After the full corpus only, send at most
+one concise, high-confidence issue, signed `Codex — at the user's direction`;
+otherwise send nothing.
