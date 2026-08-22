@@ -3,7 +3,7 @@
   "updated": "2026-08-22",
   "lane": "O016/D100 algebraic-geometry-bridge-id",
   "language": "id-ID",
-  "status": "unit_03_release_candidate_all_gates_passed",
+  "status": "unit_03_published_public_bytes_verified",
   "completed_source_boundary": {
     "through_unit": 3,
     "lectures": 3,
@@ -52,7 +52,7 @@
     "lecture": 4,
     "worksheet": 4,
     "state": "not_frozen",
-    "action": "publish and anonymously verify the passed Unit 3 release candidate; then freeze exact Lecture 4 and Worksheet 4 entry revisions, transclusion closure, public solution map, official PDF witnesses, and component media rights before translation"
+    "action": "freeze exact Lecture 4 and Worksheet 4 entry revisions, transclusion closure, public solution map, official PDF witnesses, and component media rights before translating Unit 4 in source order"
   },
   "later_bridge": {
     "state": "not_started",
@@ -70,15 +70,18 @@
   "publication": {
     "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
     "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
-    "latest_published_release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-02",
-    "latest_published_content_commit": "73545e4793c53fe1887e2e92eb55aa983b909ec1",
-    "latest_published_tag": "unit-02",
-    "published_utc": "2026-08-22T04:20:07Z",
-    "public_readback_receipt": "qa/UNIT_02_PUBLICATION.json",
-    "public_readback_receipt_sha256": "2c958cdcbdef351a8fd1bb1c7cf4c82351922dca0145044b63f0252ec3440be4",
-    "handoff": "qa/UNITS_01_02_HANDOFF.md",
+    "latest_published_release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-03",
+    "latest_published_content_commit": "3c5d5b5aa0a72ad1d3409b7eeab9657c2c8e854c",
+    "latest_published_tag": "unit-03",
+    "published_utc": "2026-08-22T05:21:02Z",
+    "public_readback_verified_utc": "2026-08-22T05:27:24Z",
+    "public_readback_surfaces": 7,
+    "public_readback_receipt": "qa/UNIT_03_PUBLICATION.json",
+    "public_readback_receipt_sha256": "5d188d976900dafc5f4be44fc31f900639d36eeb4d47fc8106b73184a6bad84d",
+    "handoff": "qa/UNITS_01_03_HANDOFF.md",
+    "handoff_sha256": "f0b9015801397c463a74c61d5cc57f0f256321afdaa2ecc0e08a000b589696a5",
     "unit_01_state": "published_and_public_bytes_verified",
     "unit_02_state": "published_and_public_bytes_verified",
-    "unit_03_state": "release_candidate_all_gates_passed_publication_pending"
+    "unit_03_state": "published_and_public_bytes_verified"
   }
 }
