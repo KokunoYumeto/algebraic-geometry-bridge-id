@@ -1,0 +1,1152 @@
+\setcounter{section}{18}
+
+
+
+
+
+
+  \zwischenueberschrift{Monomiale Kurven}
+
+Wir spezialisieren nun die Theorie der Monoidringe auf den eindimensionalen Fall und gelangen zu denjenigen Ringen, die monomiale Kurven beschreiben.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Eine \definitionswort {monomiale Kurve}{} ist das Bild der affinen Geraden ${\mathbb A}^{1}_{K}$ unter einer Abbildung der Form
+\maabbeledisp {} { {\mathbb A}^{1}_{K} } { { {\mathbb A}_{ K }^{ n  } }
+} { t } { \left(  t^{e_1 }   , \,   \ldots  , \,   t^{e_n }                 \right)
+} {,}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ e_i
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $i$.
+
+
+
+
+
+}
+
+Wir werden gleich sehen, dass das Bild einer solchen monomialen Abbildung Zariski-abgeschlossen ist, d.h., dass eine monomiale Kurve wirklich eine algebraische Kurve ist. Eine monomiale Kurve ist insbesondere eine parametrisierte und damit eine
+\zusatzklammer {aber im Allgemeinen nicht ebene} {} {}
+rationale Kurve.
+Manchmal bezeichnet man auch die Abbildung selbst als monomiale Kurve. Häufig beschränkt man sich auf den Fall, wo die Exponenten $e_i$ insgesamt teilerfremd sind. Dies ist keine wesentliche Einschränkung, da man andernfalls stets
+
+\mavergleichskette
+{\vergleichskette
+{ e_i
+}
+{ = }{ m f_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit dem größten gemeinsamen Teiler $m$ und teilerfremden Zahlen $f_i$ schreiben kann. Dann kann man die Gesamtabbildung als Hintereinanderschaltung
+
+\mathdisp {{\mathbb A}^{1}_{K}  \longrightarrow {\mathbb A}^{1}_{K} \longrightarrow { {\mathbb A}_{ K }^{ n  } } \text{ mit }
+
+ \mathdisplaybruch t \longmapsto t^m =s \text{ und } s \longmapsto  (s_1^{f_1} , \ldots, s_n^{f_n})} {  }
+
+auffassen, wobei vorne ein einfaches Potenzieren und hinten eine monomiale Kurvenabbildung mit teilerfremden Exponenten vorliegt.
+
+\inputbemerkung
+{ }
+{
+
+
+
+
+
+Eine monomiale Abbildung
+\mathl{t \mapsto (t_1^{e_1 } , \ldots , t_n^{e_n })}{} ist nichts anderes als die zum
+\definitionsverweis {Monoidhomomorphismus}{}{}
+\maabb {} {\N^n } { \N
+} {,}
+der den $i$-ten Basisvektor auf $e_i$ schickt, im Sinne von
+
+Bemerkung 17.9
+
+gehörende Abbildung der zugehörigen $K$-Spektren. Diese Monoidabbildung faktorisiert
+
+\mathdisp {\N^n \longrightarrow M \longrightarrow \N} { , }
+
+wobei $M$ das von den $e_i$ erzeugte Untermonoid der natürlichen Zahlen ist. Ein solches Untermonoid heißt
+\definitionswortenp{numerisches Monoid}{.} Die erste Abbildung ist dabei eine Surjektion. Es liegen also insgesamt Ringhomomorphismen
+
+\mathdisp {K[\N^n] = K[X_1 , \ldots ,  X_n] \longrightarrow K[M] \longrightarrow K[\N]=K[T]} {  }
+
+und geometrisch die
+\definitionsverweis {Spektrumsabbildungen}{}{}
+\maabbdisp {} { {\mathbb A}^{1}_{ K } } { K\!-\!\operatorname{Spek}\, \left(  K[M]   \right) \subseteq { {\mathbb A}_{  K }^{  n   } }
+} {}
+vor. Das Bild der affinen Geraden liegt also im $K$-Spektrum des Monoidringes $K[M]$. Wir werden in
+
+Satz 18.10
+
+sehen, dass die Abbildung
+\maabb {} { {\mathbb A}^{1}_{K} } { K\!-\!\operatorname{Spek}\, \left(  K[M]  \right)
+} {}
+stets surjektiv ist und im Fall, dass die Exponenten $e_i$ teilerfremd sind, auch injektiv.
+
+
+
+
+
+}
+
+\inputbeispiel{ }
+{
+
+
+
+
+
+$\,$
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Cusp} {svg} }
+\end{center}
+\bildtext {} }
+\bildlizenz { Cusp.svg } {} {Satipatthana} {Commons} {PD} {}
+
+
+
+Die
+\definitionswortenp{Neilsche Parabel}{} $C$ ist das Bild unter der monomialen Abbildung
+\maabbeledisp {} { {\mathbb A}^{1}_{ K } } { {\mathbb A}^{2}_{ K }
+} { t } { (t^2,t^3) = (x,y)
+} {.}
+Die zugehörige Gleichung ist
+
+\mavergleichskette
+{\vergleichskette
+{ y^2
+}
+{ = }{ x^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+d.h. es ist
+
+\mavergleichskette
+{\vergleichskette
+{C
+}
+{ = }{ V(Y^2-X^3)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+
+Das Besondere an monomialen Kurven ist, dass sie zwar allein durch das Exponententupel
+\mathl{(e_1 , \ldots ,  e_n)}{} bzw. das davon erzeugte numerische Monoid gegeben sind, also durch einen sehr kleinen Betrag an
+\zusatzklammer {kombinatorischer} {} {}
+Information, aber zugleich ein reichhaltiges Beispielmaterial an algebraischen Kurven liefern
+\zusatzklammer {dies gilt allgemein für Monoidringe und die dadurch definierten algebraischen Varietäten} {} {.}
+
+
+
+
+
+\inputfaktbeweis
+{Numerische Halbgruppe/Teilerfremde Erzeuger/Ab n alles/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {numerisches Monoid}{}{,}
+das von teilerfremden natürlichen Zahlen
+\mathl{e_1 , \ldots , e_n}{} erzeugt sei.}
+\faktfolgerung {Dann gibt es zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ m
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Darstellung
+
+\mathdisp {m = a_1e_1 + \cdots + a_n e_n \text{ mit }
+ \mathdisplaybruch 0 \leq a_i < e_{i+1} \text{ für } 1 \leq i \leq n-1} { . }
+
+Für $m$ hinreichend groß kann man zusätzlich noch
+
+\mavergleichskette
+{\vergleichskette
+{ a_n
+}
+{ \geq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+erreichen, sodass es dann eine Darstellung mit nichtnegativen Koeffizienten gibt.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wegen der Teilerfremdheit gibt es natürlich eine Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ m
+}
+{ =} { b_1e_1 + \cdots + b_n e_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit ganzzahligen Koeffizienten $b_i$. Wir werden sie schrittweise auf die gewün\-schte Gestalt bringen. Wir schreiben
+
+\mavergleichskette
+{\vergleichskette
+{ b_1
+}
+{ = }{ c_1e_2 + a_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \leq }{ a_1
+}
+{ < }{ e_2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {Division mit Rest} {} {.}
+Dies setzt man in die Gleichung für $m$ ein und schlägt den Term
+\mathl{c_1e_2e_1}{} zu $b_2e_2$ dazu. Ebenso bringt man den
+\zusatzklammer {neuen} {} {}
+zweiten Koeffizienten auf die gewünschte Form, indem man ihn mit dem dritten Erzeuger verarbeitet. So kann man alle ersten $n-1$ Koeffizienten auf die gewünschte Gestalt bringen.
+
+Es sei die Darstellung nun in der gewünschten Form. Dann ist die Summe der ersten $n-1$ Summanden beschränkt. Wenn $m$ größer als diese Schranke ist, so muss der letzte Summand und damit auch der letzte Koeffizient nichtnegativ sein.
+
+
+
+
+}
+
+
+
+Zu einem von teilerfremden Elementen erzeugten Untermonoid gehören also ab einer gewissen Stelle alle natürlichen Zahlen. Diese bekommt sogar einen eigenen Namen.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein durch teilerfremde Erzeuger definiertes
+\definitionsverweis {numerisches Monoid}{}{.}
+Dann nennt man die minimale Zahl $f$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ \N_{\geq f}
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die \definitionswort {Führungszahl}{} von $M$.
+
+
+
+
+
+}
+
+Wir geben noch einige weitere Definitionen von numerischen Invarianten von monomialen Kurven, die man diskret, also auf der Ebene des numerischen Monoids berechnen kann. Wir werden später sehen, dass diese Invarianten allgemeiner für beliebige algebraische Kurven definiert werden können, dort aber im allgemeinen schwieriger zu berechnen sind.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {numerisches Monoid}{}{}
+mit teilerfremden Erzeugern. Dann nennt man die minimale Anzahl von Elementen in einem Erzeugendensystem für $M$ die \definitionswort {Einbettungsdimension}{} von $M$.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein durch teilerfremde Erzeuger definiertes
+\definitionsverweis {numerisches Monoid}{}{.}
+Dann nennt man das minimale positive Element
+
+\mathbed {e \in M} {}
+ {e \geq 1} {}
+ {} {} {} {,}
+die \definitionswort {Multiplizität}{} von $M$, geschrieben
+\mathl{e(M)}{.}
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein durch teilerfremde Erzeuger definiertes
+\definitionsverweis {numerisches Monoid}{}{.}
+Dann nennt man die Anzahl der Lücken, d.h. der natürlichen Zahlen
+\mathl{\N \setminus M}{,} den \definitionswort {Singularitätsgrad}{} von $M$, geschrieben $\delta(M)$.
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten das durch $5,8$ und $11$ erzeugte numerische Monoid $M$. $M$ besteht also aus allen Summen
+\mathl{5a_1+8a_2+11a_3}{} mit nichtnegativen Koeffizienten
+\mathl{a_1,a_2,a_3}{.} Es lässt sich einfach überlegen, dass $M$ die folgenden Elemente enthält:
+
+\mathdisp {0,5,8,10,11,13,15,16,18,19,20,21,22,23,24,25, \ldots} { . }
+
+Da es insbesondere fünf Zahlen hintereinander enthält
+\zusatzklammer {von $18$ bis $22$} {} {,}
+muss jede weitere Zahl auch dazu gehören, da man ja einfach
+
+\mavergleichskette
+{\vergleichskette
+{ 5
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dazuaddieren kann. Damit ist die
+\definitionsverweis {Führungszahl}{}{}
+$18$, die
+\definitionsverweis {Multiplizität}{}{}
+ist $5$, der
+\definitionsverweis {Singularitätsgrad}{}{}
+ist $10$ und die
+\definitionsverweis {Einbettungsdimension}{}{}
+ist $3$.
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Monomiale Kurvenabbildung/Bijektiv/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein durch teilerfremde natürliche Zahlen
+\mathl{e_1 , \ldots ,  e_n}{} erzeugtes Untermonoid.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {monomiale Abbildung}{}{}
+\maabbdisp {} { {\mathbb A}^{1}_{K} } { K\!-\!\operatorname{Spek}\, \left(  K[M]  \right)
+} {}
+eine
+\definitionsverweis {Bijektion}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Abbildung kann man nach
+
+Bemerkung 17.9
+
+als die natürliche Abbildung
+\maabbdisp {} { {\mathbb A}^{1}_{K} = \operatorname{Mor}_{ \operatorname{mon} } \, (\N, K) } { \operatorname{Mor}_{ \operatorname{mon} } \, ( M ,  K)
+} {}
+auffassen, die durch die Inklusion von Monoiden
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+induziert ist. Zur Injektivität seien
+
+\mavergleichskette
+{\vergleichskette
+{ a,b
+}
+{ \in }{ K
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben und sei angenommen, dass für alle
+
+\mavergleichskette
+{\vergleichskette
+{ m
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt:
+
+\mavergleichskette
+{\vergleichskette
+{ a^{m}
+}
+{ = }{ b^{m}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Bei
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+folgt sofort
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sei also
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+was
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach sich zieht. Da es für $M$ ein teilerfremdes Erzeugendensystem gibt, gehören nach
+
+Lemma 18.4
+
+ab einem gewissen $f$ alle natürlichen Zahlen zu $M$. Es ist also insbesondere
+
+\mavergleichskette
+{\vergleichskette
+{ a^f
+}
+{ = }{ b^f
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ a^{f+1}
+}
+{ = }{ b^{f+1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Damit ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ a
+}
+{ =} { { \frac{  a^{f+1} }{ a^f  } }
+}
+{ =} { { \frac{  b^{f+1} }{ b^f  } }
+}
+{ =} { b
+}
+{ } {}
+}
+{}{}{.}
+Zur Surjektivität. Es sei ein Monoidhomomorphismus
+\maabb {\varphi} { M } { K
+} {}
+gegeben, und wir müssen ihn zu einem Monoidhomomorphismus auf ganz $\N$ fortsetzen. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(e_i)
+}
+{ = }{ a_i
+}
+{ \in }{ K
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zwischen diesen Werten gilt die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ a_j^{e_i }
+}
+{ =} { \varphi(e_j)^{e_i }
+}
+{ =} { \varphi (e_i e_j)
+}
+{ =} { \varphi(e_i)^{e_j }
+}
+{ =} { a_i^{e_j }
+}
+}
+{}{}{.}
+Wenn eines der
+
+\mavergleichskette
+{\vergleichskette
+{ a_i
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, so müssen alle $=0$ sein und die Nullabbildung ist eine Fortsetzung. Wir können also annehmen, dass alle $a_i$ Einheiten sind. Wegen der Teilerfremdheit der $e_i$ gibt es eine Darstellung der Eins, d.h. es gibt ganze Zahlen
+\mathl{m_1 , \ldots , m_n}{} mit
+
+\mavergleichskette
+{\vergleichskette
+{ m_1e_1 + \cdots + m_ne_n
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir behaupten, dass durch
+\mathl{1 \mapsto a = a_1^{m_1 } \cdots a_n^{m_n }}{} eine Fortsetzung auf $\N$ gegeben ist. Dazu müssen wir zeigen, dass der durch
+\mathl{1 \mapsto a}{}
+\zusatzklammer {also \mathlk{k \mapsto a^k}{}} {} {}
+definierte Monoidhomomorphismus mit $\varphi$ übereinstimmt, was man nur für die $e_i$ überprüfen muss. Betrachten wir also $e_1$. Dann ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ a^{e_1 }
+}
+{ =} { (a_1^{m_1 } \cdots a_n^{m_n } )^{e_1 }
+}
+{ =} { a_1^{e_1m_1 } \cdot a_2^{e_1m_2 } \cdots a_n^{e_1 m_n }
+}
+{ =} { a_1^{1- \sum_{i = 2}^n m_ie_i } ( a_2^{e_1m_2 } \cdots a_n^{e_1 m_n } )
+}
+{ =} { a_1 \cdot (a_1^{-m_2e_2 }a_2^{e_1m_2 }) \cdots (a_1^{-m_ne_n }a_n^{e_1m_n })
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { a_1 \cdot (a_1^{-e_2 }a_2^{e_1 })^{m_2 } \cdots (a_1^{-e_n }a_n^{e_1 })^{m_n }
+}
+{ =} { a_1
+}
+{ } {}
+{ } {}
+}
+{}{,}
+da die Faktoren rechts in der vorletzten Zeile alle gleich $1$ nach der Vorüberlegung
+\zusatzklammer {oberes Display} {} {}
+sind.
+
+
+
+
+}
+
+
+
+\inputbemerkung
+{}
+{
+Den vorstehenden Satz kann man auch über die universelle Eigenschaft der Differenzengruppe beweisen. Wir skizzieren dies kurz für die Surjektivität. Die Differenzengruppe eines numerischen Monoids mit teilerfremden Erzeugern ist $\Z$. Der Fall, dass ein Erzeuger auf $0$ geht, wird wie im Beweis abgehandelt. Dann kann man davon ausgehen, dass ein Monoidhomomorphismus
+\maabb {\varphi} { M } { K^\times
+} {}
+in die Einheitengruppe des Körpers vorliegt. Dann gibt es nach der universellen Eigenschaft der Monoidringe eine
+\zusatzklammer {eindeutig bestimmte} {} {}
+Fortsetzung
+\maabb {\tilde{\varphi}} { \Z } { K^\times
+} {,}
+die das Urbild liefert.
+}
+
+Die folgenden beiden Aussagen zeigen, dass es für ein numerisches Monoid ein kanonisches Erzeugendensystem gibt und dass damit die Einbettungsdimension eine neue Interpretation erhält, die sich später auf beliebige noethersche lokale Ringe übertragen lässt
+\zusatzklammer {ein Monoidring ist natürlich nicht lokal, wohl aber die Lokalisierung an der Singularität eines numerischen Monoids} {} {.}
+
+
+
+
+
+\inputfaktbeweis
+{Numerische Halbgruppe/Teilerfremde Erzeuger/Minimales Standard-Erzeugendensystem/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {numerisches Monoid}{}{}
+mit teilerfremden Erzeugern, und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M_+
+}
+{ = }{ \left\{ m \in M  \mid   m \geq 1        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ M_+ +M_+
+}
+{ = }{ \left\{ m+m'  \mid  m, m' \in M_+        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist
+
+\mathdisp {M_+ \setminus (M_+ + M_+)} {  }
+
+ein Erzeugendensystem für $M$, und jedes andere Erzeugendensystem enthält dieses.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Ein Element
+
+\mavergleichskette
+{\vergleichskette
+{ m
+}
+{ \in }{ M_+ \setminus (M_+ + M_+)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+lässt sich nicht als Summe von anderen Elementen darstellen, daher gehört es zu jedem Erzeugendensystem. Umgekehrt ist es aber schon ein Erzeugendensystem. Wäre das nicht der Fall, so gäbe es ein minimales Element
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+das nicht von diesen Elementen erzeugt würde. Insbesondere gehört dann $x$ nicht zu diesen Elementen und daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ x_1+x_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ x_1,x_2
+}
+{ \in }{ M_+ + M_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Diese beiden Summanden sind aber kleiner als $x$ und deshalb gibt es für sie eine Summendarstellung aus diesen Elementen, was sofort ein Widerspruch ist.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Numerische Halbgruppe/Teilerfremde Erzeuger/Numerische Einbettungsdimension/Charakterisierung mit M+ ohne M+^2/Fakt}
+{Korollar}
+{}
+{
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {numerisches Monoid}{}{}
+mit teilerfremden Erzeugern, und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M_+
+}
+{ = }{ \left\{  m \in M   \mid   m \geq 1        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ M_+ +M_+
+}
+{ = }{ \left\{  m+m'   \mid   m, m' \in M_+        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist die
+\definitionsverweis {Einbettungsdimension}{}{}
+von $M$ gleich der Anzahl von
+\mathl{M_+ \setminus (M_+ + M_+)}{.}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Dies folgt direkt aus
+
+Lemma 18.12
+.
+
+
+
+
+}

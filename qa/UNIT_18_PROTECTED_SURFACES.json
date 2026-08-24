@@ -1,0 +1,62 @@
+{
+  "schema": "ag-bridge-protected-surfaces-v2",
+  "status": "PASS",
+  "verified_date": "2026-08-24",
+  "through_unit": 18,
+  "unit_15_baseline": {
+    "path": "qa/UNIT_15_PROTECTED_SURFACES.json",
+    "bytes": 9656,
+    "sha256": "633df9e390d6aceb55baf40f7ddc79173963a076593c0ba68d83f8fa7e245a3b",
+    "status": "PASS"
+  },
+  "units_16_18": {
+    "16": {
+      "tokens": 13,
+      "source_files": 3,
+      "missing": 0
+    },
+    "17": {
+      "tokens": 20,
+      "source_files": 3,
+      "missing": 0
+    },
+    "18": {
+      "tokens": 20,
+      "source_files": 3,
+      "missing": 0
+    }
+  },
+  "protected_token_count": 53,
+  "source_missing": 0,
+  "html_mathml_annotations": 7186,
+  "html_missing": 0,
+  "pdf_terminal_pages_checked": 53,
+  "pdf_terminal_markers_checked": 9,
+  "correction_disclosures": [
+    "AGC-CORR-0034",
+    "AGC-CORR-0035",
+    "AGC-CORR-0036",
+    "AGC-CORR-0037",
+    "AGC-CORR-0038",
+    "AGC-CORR-0039",
+    "AGC-CORR-0040",
+    "AGC-CORR-0041",
+    "AGC-CORR-0042",
+    "AGC-CORR-0043",
+    "AGC-CORR-0044",
+    "AGC-CORR-0045",
+    "AGC-CORR-0046",
+    "AGC-CORR-0047",
+    "AGC-CORR-0048",
+    "AGC-CORR-0049",
+    "AGC-CORR-0050"
+  ],
+  "checks": [
+    "Unit 15 protected baseline is exact and PASS",
+    "Units 16--18 per-unit math gates are exact and PASS",
+    "53 protected source formulas survive as HTML TeX annotations",
+    "terminal PDF contains every lecture, worksheet, and public-solution boundary",
+    "all source correction disclosures remain ledger-bound"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

@@ -1,0 +1,130 @@
+{
+  "schema": "ag-bridge-unit-translation-qa-v1",
+  "status": "PASS",
+  "unit": 17,
+  "verified_date": "2026-08-24",
+  "authority": {
+    "manifest_bytes": 116257,
+    "manifest_sha256": "c6747335c58fb3b4303cf3095705df7f991143f79d2d3598582a1cc8c99bef1a",
+    "lecture_revid": 1112301,
+    "worksheet_revid": 1068111,
+    "lecture_transclusions": 116,
+    "worksheet_transclusions": 133,
+    "exercises": 39,
+    "public_solutions": 4,
+    "solution_numbers": [
+      3,
+      12,
+      31,
+      32
+    ],
+    "authority_files_verified": 38
+  },
+  "media_and_rights": {
+    "media_positions": 0,
+    "binary_surfaces": 0,
+    "rights_rows": 0,
+    "facts": [
+      {
+        "path": "authority/RIGHTS-unit-17.csv",
+        "bytes": 443,
+        "sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544"
+      },
+      {
+        "path": "authority/ASSET_CLOSURE-unit-17.json",
+        "bytes": 3013,
+        "sha256": "87c3d88789d822210b388e0c21e0e25a7418e77930e245ab2bc32916a0508d4f"
+      },
+      {
+        "path": "authority/commons-imageinfo-unit-17.json",
+        "bytes": 7634,
+        "sha256": "e8531c2bebfb0dc0e761bfe2bd88d18a01ec73584024182a5fa3a59a2cf8b0fc"
+      },
+      {
+        "path": "scripts/freeze_no_image_unit_rights.py",
+        "bytes": 5075,
+        "sha256": "389b22f640c52ee2bbbc1903efe2a5cf94ead08ead74721c855262a292e83a75"
+      }
+    ]
+  },
+  "translation": {
+    "source_and_control_facts": [
+      {
+        "path": "source/id-ID/lecture-17.md",
+        "bytes": 15109,
+        "sha256": "53bdc1f91f02a4b28dcc0c78247ef2ab9f5102377d8d0b6eedc88ed6879f37e8"
+      },
+      {
+        "path": "source/id-ID/worksheet-17.md",
+        "bytes": 15940,
+        "sha256": "2ec3c00332fad5683d56d9a608bf6544371732207312c4dc77c479621624efa0"
+      },
+      {
+        "path": "source/id-ID/worksheet-17-solutions.md",
+        "bytes": 5104,
+        "sha256": "5a56a15a9cb38ef4859a53ccd690309965c22a1fef54b018f162ec12fac6adef"
+      },
+      {
+        "path": "source/id-ID/media-credits-unit-17.md",
+        "bytes": 451,
+        "sha256": "2647366a9bad10aff220f263a3a9c14d3620c43b42c0b4d2195e0c38d263f537"
+      },
+      {
+        "path": "00_control/TERMINOLOGY.csv",
+        "bytes": 18332,
+        "sha256": "483df95662eb38ac8173d0718e7a56d3c8c28c44d8caf6a5ea730eb106091519"
+      },
+      {
+        "path": "00_control/CORRECTIONS.csv",
+        "bytes": 32909,
+        "sha256": "f66dae4b899358de190cd495841ff156f20505897e949b063d61eeac708bd53b"
+      }
+    ],
+    "stable_ids": 71,
+    "exercises": 39,
+    "public_solutions": 4,
+    "ast": {
+      "lecture-17.md": {
+        "headers": 24,
+        "math_nodes": 189,
+        "images": 0,
+        "stable_header_ids": 24,
+        "pandoc_warnings": 0
+      },
+      "worksheet-17.md": {
+        "headers": 42,
+        "math_nodes": 189,
+        "images": 0,
+        "stable_header_ids": 42,
+        "pandoc_warnings": 0
+      },
+      "worksheet-17-solutions.md": {
+        "headers": 5,
+        "math_nodes": 54,
+        "images": 0,
+        "stable_header_ids": 5,
+        "pandoc_warnings": 0
+      },
+      "media-credits-unit-17.md": {
+        "headers": 1,
+        "math_nodes": 0,
+        "images": 0,
+        "stable_header_ids": 1,
+        "pandoc_warnings": 0
+      }
+    },
+    "visible_german_residue": 0,
+    "placeholder_count": 0,
+    "secret_like_count": 0,
+    "protected_math_checks": 20,
+    "correction_bindings": [
+      "AGC-CORR-0040",
+      "AGC-CORR-0041",
+      "AGC-CORR-0042",
+      "AGC-CORR-0043",
+      "AGC-CORR-0044",
+      "AGC-CORR-0045"
+    ]
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

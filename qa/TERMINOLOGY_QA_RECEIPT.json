@@ -1,5 +1,5 @@
 {
-  "boundary": "cumulative Units 1--15",
+  "boundary": "cumulative Units 1--18",
   "changed_paths": [
     "source/id-ID/lecture-01.md",
     "source/id-ID/lecture-02.md",
@@ -109,43 +109,43 @@
     "reason": "local terminology evidence only; rights are absent or conflicting"
   },
   "replay_validation": {
-    "common_backend_record_count": 26158,
-    "common_backend_virtual_records_jsonl_sha256": "af964afbbb6cff5fffe633d37e4047b357349603c8fb207923dc6d460335021a",
+    "common_backend_record_count": 32473,
+    "common_backend_virtual_records_jsonl_sha256": "8f64e2ae8d40c25c303806347ec0b6c55c07ff09508952970a9417c8e70b7e53",
     "evidence": [
       {
-        "bytes": 26028,
+        "bytes": 29068,
         "path": "build/reader-id/BUILD_RECEIPT.json",
-        "sha256": "0468085b9dd2e98f1a8b586b53c2b4e4e16b93562a6d611acf26f09e18eeb7d2"
+        "sha256": "4b11ab1cdad6f8685133e3c5c0facc2bcce7de8ede7e060b558c8f6d9ecfbeb9"
       },
       {
-        "bytes": 18674,
-        "path": "qa/UNITS_01_15_MACHINE_QA.json",
-        "sha256": "ee2d2f8ea2b181eeee32177e0320a0e8450f64744189708e53f394ec02edc38e"
+        "bytes": 9029,
+        "path": "qa/UNITS_01_18_MACHINE_QA.json",
+        "sha256": "fdd7a3b70d74bb8454440c28eb6a8840e8da448bcd57a7a86cefbb8f29b43f00"
       },
       {
-        "bytes": 3807,
-        "path": "qa/UNITS_01_15_VISUAL_QA.json",
-        "sha256": "ec29a754845159ab8f236821dcf32c71202344c745c0521f23edd28e26aa0461"
+        "bytes": 3732,
+        "path": "qa/UNITS_01_18_VISUAL_QA.json",
+        "sha256": "192f2661cf2d5bdcdbcd469ed6c8aaabff8023b022ed20eff160ef5426845753"
       },
       {
-        "bytes": 2915,
-        "path": "qa/UNITS_01_15_RESPONSIVE_QA.json",
-        "sha256": "edaafd54d7bafcddf175b4e456cf3a801be88b196333fe7333bdaeeadb455de5"
+        "bytes": 3330,
+        "path": "qa/UNITS_01_18_RESPONSIVE_QA.json",
+        "sha256": "ed9ee8e369950f9bde2d5b8d557db8cb901c523c3cbec623ee06df686cb5bc0a"
       },
       {
-        "bytes": 9656,
-        "path": "qa/UNIT_15_PROTECTED_SURFACES.json",
-        "sha256": "633df9e390d6aceb55baf40f7ddc79173963a076593c0ba68d83f8fa7e245a3b"
+        "bytes": 1566,
+        "path": "qa/UNIT_18_PROTECTED_SURFACES.json",
+        "sha256": "29a6a329361515dadc7c6399538a010a3717c43e38fb9564ac681b8670786bc9"
       },
       {
-        "bytes": 4660,
-        "path": "qa/UNITS_01_15_BACKEND_QA.json",
-        "sha256": "434d491e9bd05d382d7ff8e270084c7edca7ffa736d4822d5cc208b27fdbecdf"
+        "bytes": 4601,
+        "path": "qa/UNITS_01_18_BACKEND_QA.json",
+        "sha256": "3eb07d0f9e3d7a1d1365d1ca4d69ee536375542ba6df0ccd867da59524b1ab37"
       },
       {
-        "bytes": 14651,
-        "path": "backend/units-01-15/MANIFEST.json",
-        "sha256": "5d8d6afec1a6fac89dbcbc396a374648a08e7493350aa876bfe6ac9b4684f571"
+        "bytes": 14833,
+        "path": "backend/units-01-18/MANIFEST.json",
+        "sha256": "fe9bfb98528d03d5d82f6d0ff66e3b15d2e28defd64190b3ec293f8dfd0ab96a"
       }
     ],
     "result": "pass"

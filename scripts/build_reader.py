@@ -328,7 +328,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Sembilan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-09.pdf",
         )
-    if through in (10, 11, 12, 13, 14, 15):
+    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18):
         number_words = {
             10: "Sepuluh",
             11: "Sebelas",
@@ -336,6 +336,9 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             13: "Tiga belas",
             14: "Empat belas",
             15: "Lima belas",
+            16: "Enam belas",
+            17: "Tujuh belas",
+            18: "Delapan belas",
         }
         unit_sources: list[Path] = [
             SOURCE_DIR / f"frontmatter-units-01-{through:02d}.md"
@@ -351,7 +354,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
         unit_sources.append(SOURCE_DIR / "media-credits.md")
         unit_sources.extend(
             SOURCE_DIR / f"media-credits-unit-{unit:02d}.md"
-            for unit in (*range(2, 10), 11, 12, 13, 14, 15)
+            for unit in (*range(2, 10), 11, 12, 13, 14, 15, 16, 17, 18)
             if unit <= through
         )
         return (
@@ -360,7 +363,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             f"{number_words[through]} kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             f"algebraic-geometry-bridge-id-units-01-{through:02d}.pdf",
         )
-    raise ValueError("only contiguous scopes --through 1 through --through 15 are supported")
+    raise ValueError("only contiguous scopes --through 1 through --through 18 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -488,6 +491,10 @@ def main() -> int:
             # cannot encode it.  Keep the exact attribution in HTML/source;
             # use a readable Latin transliteration only in the PDF-stage copy.
             text = text.replace("דוד שי", "David Shai")
+            # Apply the same PDF-only treatment to the Japanese Commons user
+            # name １３２人目 (literally "132nd person").  The exact account
+            # string remains intact in the HTML, source, and rights ledger.
+            text = text.replace("１３２人目", "132ninme")
             # Pandoc serializes the source's definition-equality relation as
             # \vcentcolon=; MiKTeX does not provide that macro by default.
             # Keep the mathematical relation unchanged in the reader source,

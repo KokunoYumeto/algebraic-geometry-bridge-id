@@ -1,0 +1,123 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Einheitskreis/Punktepaar/Automorphismus/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>95397</id>
+    <revision>
+      <id>1094645</id>
+      <parentid>1023043</parentid>
+      <timestamp>2026-06-14T16:29:59Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1094645</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1566" sha1="fbmyack0lwqq8l96o2emhbc8ilzg65z" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es genügt, für die beiden Punkte {{mathl|term= (1,0) |SZ=}} und {{mathl|term= P=(a,b) \in V |SZ=}} einen Automorphismus des Kreises anzugeben, der {{mathl|term= (1,0) |SZ=}} in {{math|term= P |SZ=}} überführt, da man den geforderten Automorphismus dann als eine Hintereinanderschaltung solcher Morphismen 
+{{
+Zusatz/Klammer
+|text=bzw. des Umkehrmorphismus|
+|ISZ=|ESZ=
+}}
+erhalten kann. Wir betrachten die bijektive
+{{
+Definitionslink
+|lineare Abbildung|
+|Kontext=|
+|SZ=
+}}
+{{
+Abbildung
+|name=\varphi
+|K^2| K^2
+||
+|SZ=,
+}}
+die durch die Matrix
+{{
+Math/display|term=
+ {{op:Matrix22| a | -b| b |a}} 
+|SZ=
+}}
+gegeben ist. Diese bildet den Punkt {{math|term= (1,0) |SZ=}} auf {{mathl|term= (a,b) |SZ=}} ab. Ein Punkt {{mathl|term= (x,y) \in V |SZ=}} wird dabei auf {{mathl|term= (ax-by, bx+ay) |SZ=}} abgebildet. Für den Bildpunkt gilt
+{{
+Relationskette/align
+| (ax-by)^2 + (bx+ax)^2
+|| a^2x^2 -2abxy +b^2y^2 +b^2x^2 + 2abxy+ a^2y^2
+|| (a^2+b^2)x^2 +  (a^2+b^2)y^2
+|| x^2+y^2
+|| 1
+|SZ=,
+}}
+d.h. der Bildpunkt liegt wieder auf dem Kreis. Somit induziert {{math|term= \varphi|SZ=}} eine
+{{
+Zusatz/Klammer
+|text=algebraische|
+|ISZ=|ESZ=
+}}
+Abbildung
+{{
+Abbildung
+|name=\varphi
+| V |V
+||
+|SZ=.
+}}
+Entsprechend liefert die durch die Matrix {{mathl|term= {{op:Matrix22| a | b | -b|a}}  |SZ=}} gegebene inverse Abbildung einen inversen Morphismus, sodass insgesamt ein Automorphismus vorliegt.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>fbmyack0lwqq8l96o2emhbc8ilzg65z</sha1>
+    </revision>
+  </page>
+</mediawiki>

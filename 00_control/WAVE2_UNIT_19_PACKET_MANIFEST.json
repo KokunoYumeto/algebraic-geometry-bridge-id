@@ -1,0 +1,229 @@
+{
+  "schema": "d100-disjoint-helper-packet-manifest-v1",
+  "created_date": "2026-08-24",
+  "status": "FROZEN_NOT_DISPATCHED_NO_HELPER_OWNERSHIP",
+  "lane": "D100/O016 algebraic-geometry-bridge-id",
+  "owner_role": "sole canonical owner, integrator, validator, and publisher",
+  "packet_scope": {
+    "unit": 19,
+    "semantic_title": "Residue-class presentations for monomial curves; integrality, integral closure, integral extensions, and integrally closed rings",
+    "reason_for_boundary": "Unit 19 is one coherent lecture/worksheet pair, is strictly beyond the active owner range Units 17-18, and has a complete independently frozen source, exercise, solution, PDF, media, and rights closure.",
+    "proposed_helper_deliverables_only": [
+      "source/id-ID/lecture-19.md",
+      "source/id-ID/worksheet-19.md",
+      "source/id-ID/worksheet-19-solutions.md"
+    ],
+    "pre_frozen_owner_file_do_not_replace": "source/id-ID/media-credits-unit-19.md",
+    "publication_or_integration_authority_transferred": false,
+    "helper_may_edit_neighboring_units": false
+  },
+  "owner_cursor_at_freeze": {
+    "path": "00_control/CURSOR.json",
+    "bytes": 36697,
+    "sha256": "2168f0b8eb7e4531551f42f1415f33e15c76bb6e60c04185751b1d58ef7438f1",
+    "latest_public_boundary": 15,
+    "latest_internal_verified_boundary": 16,
+    "active_owner_range": [17, 18],
+    "next_public_milestone_through_unit": 18
+  },
+  "excluded_scope": {
+    "completed_owner_units_do_not_touch": "Units 1-16",
+    "active_owner_units_do_not_touch": "Units 17-18",
+    "packet_unit_only": 19,
+    "later_units_do_not_touch": "Units 20-30, the complete BGK course, and the original bridge/capstone",
+    "controls_backends_and_publication_do_not_touch": true,
+    "no_upstream_contact": true,
+    "no_git_or_publication": true
+  },
+  "official_authority": {
+    "authority_manifest": {
+      "path": "authority/wikiversity/unit-19/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 83621,
+      "sha256": "52245060a54f973b4fba19878eec234904430b9e5058defdbd9feaa7a868080e",
+      "bound_file_count": 31,
+      "schema": "brenner-unit-authority-freeze-v2"
+    },
+    "lecture": {
+      "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 19",
+      "pageid": 165908,
+      "revid": 1051386,
+      "timestamp": "2025-08-18T08:16:13Z",
+      "mediawiki_sha1": "d256e22d3ab01cb721aa6dd2162e54aebd5789c1",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1051386",
+      "xml": {
+        "path": "authority/wikiversity/unit-19/lecture-19.xml",
+        "bytes": 4070,
+        "sha256": "850f012e21ac7a2045dfe0ae1e4c77878ca6aab9f42b02ea3a48564f0c808430"
+      },
+      "expanded_tex": {
+        "path": "authority/wikiversity/unit-19/lecture-19-expanded.tex",
+        "bytes": 21311,
+        "sha256": "8d6d6bad20f9d4e6a5321a4add51b32416bf1d04c7ed857c080fb2439628974d"
+      },
+      "transclusions_captured": 94,
+      "transclusions_missing": 0
+    },
+    "worksheet": {
+      "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 19",
+      "pageid": 165938,
+      "revid": 1068448,
+      "timestamp": "2026-02-02T08:21:09Z",
+      "mediawiki_sha1": "353782c5c739a0355fe7943ae88af68b2b9f4618",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1068448",
+      "xml": {
+        "path": "authority/wikiversity/unit-19/worksheet-19.xml",
+        "bytes": 4817,
+        "sha256": "00b85f28946ec93dd88aa038fb85f188f7bd70ccf6846b68622ee93801fb6c97"
+      },
+      "expanded_tex": {
+        "path": "authority/wikiversity/unit-19/worksheet-19-expanded.tex",
+        "bytes": 6801,
+        "sha256": "27b7e92f1ef400db6aba15b85103b2582e6456198c086b4520664feba5c9ef81"
+      },
+      "transclusions_captured": 93,
+      "transclusions_missing": 0
+    },
+    "official_pdfs": [
+      {
+        "role": "lecture",
+        "path": "authority/artifacts/lecture-19-official.pdf",
+        "bytes": 416322,
+        "sha256": "12c2025465a87480a346acfc83487abfc466abd01d775b97e24e8cae1df0cf37",
+        "source_mediawiki_sha1": "f00da3f5218bfb1be70c070b0a06bf8a069d1019",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Vorlesung19.pdf"
+      },
+      {
+        "role": "worksheet",
+        "path": "authority/artifacts/worksheet-19-official.pdf",
+        "bytes": 129307,
+        "sha256": "809fab79dca83cd379524c2c4f9d615eb7ccbee6c4b802c6a4c153310c276151",
+        "source_mediawiki_sha1": "b4fbd87523766146ad24571d85092d1be26d1f32",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Arbeitsblatt19.pdf"
+      }
+    ]
+  },
+  "exercise_and_solution_closure": {
+    "ordered_map": {
+      "path": "authority/wikiversity/unit-19/ORDERED_EXERCISE_MAP.json",
+      "bytes": 6379,
+      "sha256": "f75bcc8e564cef327687b486bb074fa8c799b065994f4a1d79e7abf2b78b30dd"
+    },
+    "exercise_count": 15,
+    "practice_exercises": "1-13",
+    "submitted_exercises": [
+      {"exercise": 14, "points": 4},
+      {"exercise": 15, "points": 3}
+    ],
+    "public_solution_exercises": [4, 12],
+    "solutions": [
+      {
+        "exercise": 4,
+        "title": "Ganze Erweiterung/Integritätsbereich/Nichteinheit bleibt Nichteinheit/Aufgabe/Lösung",
+        "pageid": 17225,
+        "revid": 1089525,
+        "timestamp": "2026-05-31T10:43:02Z",
+        "mediawiki_sha1": "4c928c601b38472a96593d25a27e0611eece9cb2",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1089525",
+        "xml": {"path": "authority/wikiversity/unit-19/solution-ex04.xml", "bytes": 4393, "sha256": "d7bb006cf095c0f6bd86d7690802bf62956452bc2d6f739b1c3005325828981a"},
+        "html": {"path": "authority/wikiversity/unit-19/solution-ex04.html", "bytes": 10168, "sha256": "9847995ca1dcc0c8a1ebd1e8ceb130af5886910e692ce6b873f86861b0cce506"}
+      },
+      {
+        "exercise": 12,
+        "title": "Endliche Erweiterung/KX/Explizit/Relation über X invers/Aufgabe/Lösung",
+        "pageid": 134951,
+        "revid": 1089395,
+        "timestamp": "2026-05-31T10:22:22Z",
+        "mediawiki_sha1": "c26f0725f98590aaca51e6ce16ca25e194ad76be",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1089395",
+        "xml": {"path": "authority/wikiversity/unit-19/solution-ex12.xml", "bytes": 4614, "sha256": "c1f14a69bfcc5cc33d7f2b50a07abf49163fa04631cfcd5cd083cea81a62f3c5"},
+        "html": {"path": "authority/wikiversity/unit-19/solution-ex12.html", "bytes": 10428, "sha256": "ef91ee366da7897eec863cc0e3333880f99a192d7eff8f950e50387be8a910f4"}
+      }
+    ],
+    "invent_missing_solutions": false
+  },
+  "media_and_rights_closure": {
+    "metadata": {"path": "authority/commons-imageinfo-unit-19.json", "bytes": 21758, "sha256": "334062d5007df11f89ad82007a13513c4bb38796f8f5abc84218d7baa82c1486"},
+    "rights": {"path": "authority/RIGHTS-unit-19.csv", "bytes": 2066, "sha256": "1feb699d361be0379de5c785cc6c073adf3d47d31c8b07df3db1d3fc6ed7bdb1"},
+    "closure": {"path": "authority/ASSET_CLOSURE-unit-19.json", "bytes": 4042, "sha256": "4ee0c05610b30f25038484a4dc147bdcddda9ebb29cfbded53d4e72a5b32be4e"},
+    "credits": {"path": "source/id-ID/media-credits-unit-19.md", "bytes": 780, "sha256": "498212f6e34bba635ac89a320b207ac65cb3093d4bbeb04998f193e56429e21e"},
+    "reader_media_positions": 1,
+    "asset": {
+      "title": "File:Twisted cubic curve.png",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Twisted_cubic_curve.png",
+      "description_pageid": 2720219,
+      "description_revid": 1127559982,
+      "description_timestamp": "2025-12-08T06:33:51Z",
+      "description_mediawiki_sha1": "f0f45098517694fd6fee2c5378ca68ae33cc9b67",
+      "creator": "Claudio Rocchini",
+      "local_path": "authority/assets/Twisted_cubic_curve.png",
+      "local_bytes": 227605,
+      "local_sha256": "44f04844c89dd948820ba434a53103b6b3066b7a96492c463c37409f1fb39b16",
+      "original_bytes": 148160,
+      "original_mediawiki_sha1": "9917fa35db5030739b7be571c79d3c401551911d",
+      "reuse_license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "commons_description_license_templates": "{{self|GFDL|cc-by-3.0}}",
+      "source_course_inline_label": "CC-BY-SA-3.0",
+      "license_discrepancy_policy": "Use and attribute the frozen Commons CC BY 3.0 option; preserve the source inline label only as provenance and do not misstate it as the governing reuse license."
+    },
+    "course_text_license": "CC BY-SA 4.0",
+    "mixed_set_blanket_license_forbidden": true
+  },
+  "translation_and_identifier_contract": {
+    "language": "id-ID",
+    "stable_roots": {
+      "lecture": "br-ak-2025-2026-l19",
+      "worksheet": "br-ak-2025-2026-w19",
+      "solutions": "br-ak-2025-2026-w19-solutions"
+    },
+    "exercise_id_pattern": "br-ak-2025-2026-w19-ex-{01..15}",
+    "solution_id_pattern": "br-ak-2025-2026-w19-sol-{04,12}",
+    "preserve": [
+      "all formulas and proof scope",
+      "source order and all 15 exercises",
+      "solution stars only on Exercises 4 and 12",
+      "submitted points 4 and 3",
+      "all upstream_entity and upstream_solution identities",
+      "the local image, alt text, credit, and component licence",
+      "CC BY-SA 4.0 attribution, changes, ShareAlike, and non-endorsement",
+      "exact provenance OpenAI Codex gpt-5.6-sol, Ultra."
+    ],
+    "source_error_policy": "Never silently repair or normalize. Record each candidate in the owner correction format and disclose any adopted correction in the reader. Invent no solution.",
+    "integration_policy": "Return only the three proposed Markdown files plus a concise candidate-corrections list; the owner independently validates, integrates, exports backends, builds readers, and publishes."
+  },
+  "current_contract_hashes": {
+    "terminology": [
+      {"path": "00_control/TERMINOLOGY.csv", "bytes": 16611, "sha256": "5a7864ef341bf5fc5ea4d4f5342c44aa404aa959cd2831dd8ab0f9f6146b61ed"}
+    ],
+    "style_and_latest_exemplars": [
+      {"path": "source/id-ID/lecture-16.md", "bytes": 16456, "sha256": "c7cb0a1bc34e2003db18024d206c87d522a8df2082d186456d7a987cf0775d39"},
+      {"path": "source/id-ID/worksheet-16.md", "bytes": 11252, "sha256": "871ea30f571ebc9e0e2a7b1e4d30cddfe719822f48b2bdbe97bd6d8a52a5268a"},
+      {"path": "source/id-ID/worksheet-16-solutions.md", "bytes": 9286, "sha256": "5df1b9f46ba65622644feed0bf99191d5737d2edc2cc887c3b00efd2b50f8860"},
+      {"path": "source/id-ID/media-credits-unit-16.md", "bytes": 1316, "sha256": "4a5bc83795b780ad26bffe425924bb010b966ed49dcbd0c3b073bc3be77f7a99"},
+      {"path": "source/id-ID/reader.css", "bytes": 1671, "sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa"},
+      {"path": "source/id-ID/frontmatter-units-01-15.md", "bytes": 2887, "sha256": "d0a7f7d3d8c76789212caef445f39b15b61caed88a1662ca825ba4956b628cb5"},
+      {"path": "scripts/build_reader.py", "bytes": 23958, "sha256": "bc25b4fef3904c99ab57af27f7fcef3a09c799aba9ba8779799846aa8566efde"}
+    ],
+    "native_and_common_backend": [
+      {"path": "backend/units-01-15/record.schema.json", "bytes": 3278, "sha256": "72f6249b930de994c31ac6bbbd6e3d8de86a2ae6eaa15b50f47f254b1fe22df1"},
+      {"path": "backend/units-01-15/MANIFEST.json", "bytes": 14651, "sha256": "5d8d6afec1a6fac89dbcbc396a374648a08e7493350aa876bfe6ac9b4684f571"},
+      {"path": "backend/common-backend-v1-contract/README.md", "bytes": 1899, "sha256": "db0dce92b7c0d084833c74d3ed6a628129bb0824a668dd734069950337ab8a71"},
+      {"path": "backend/common-backend-v1-contract/UPSTREAM_MANIFEST.json", "bytes": 1941, "sha256": "f2cb90502f9765be56b8a1cacf29a959548b98528fe656ce1c4e561dce486255"},
+      {"path": "backend/common-backend-v1/MIGRATION_RECEIPT.json", "bytes": 8371, "sha256": "7d6b4ab33a73631eae7f09de9f79797d27ad6aac445d80511a5062ec8a2a507f"}
+    ],
+    "helper_backend_write_permission": false
+  },
+  "helper_match": {
+    "recommended_helper": {
+      "label": "C60",
+      "thread_id": "01a01fa7-51cd-71e0-934d-187b3b7da5ba",
+      "reason": "Its number-theory corpus work is the closer semantic match for Unit 19's numerical monoids, monomial curves, finite/integral extensions, and integrality vocabulary."
+    },
+    "less_suitable_helper": {
+      "label": "D110",
+      "thread_id": "01a02038-8aa8-7670-a586-806fe6cde236",
+      "reason": "Its Mathematics in Lean lane has strong deterministic backend and formal-structure experience, but this packet forbids backend writes and its subject match is weaker than C60's number-theoretic algebra."
+    },
+    "dispatch_performed": false
+  }
+}

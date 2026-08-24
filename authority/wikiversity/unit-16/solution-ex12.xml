@@ -1,0 +1,282 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Achsenkreuz/Drei Geraden in Ebene/Beziehung/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>95122</id>
+    <revision>
+      <id>1112750</id>
+      <parentid>1112738</parentid>
+      <timestamp>2026-08-21T17:06:08Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112750</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3467" sha1="17vpa47i26l68ybqpx8dk0xmyd2u0rg" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung3
+|{{
+inputbild
+|Draft0|svg| 230px {{!}} right {{!}} |
+|Text=
+|Autor=
+|Benutzer=Kalan
+|Domäne=
+|Lizenz=CC-by-sa 3.0
+|Bemerkung=
+}}
+{{
+Relationskette/display
+|V
+|| V(XY,XZ,YZ)
+|| V(XY) \cup V(XZ) \cup V(YZ)
+||
+||
+|SZ=
+}}
+ist die Vereinigung der drei Achsen im Raum.
+|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Die lineare Abbildung
+{{
+Abbildung/display
+|name=
+|K^3|K^2
+||
+|SZ=,
+}}
+die durch die Matrix {{mathl|term=  {{op:Matrix23| 1 | 0 | 1 | 0 | 1 | 1 }} |SZ=}} bezüglich der Standardbasen gegeben ist, bildet die {{math|term= X-Y |SZ=-}}Ebene identisch auf sich ab und die {{math|term= Z |SZ=-}}Achse auf die Hauptdiagonale in dieser Ebene. Damit liegt das Bild des Achsenkreuzes ganz im Nullstellengebilde
+{{
+Relationskette
+| W
+|| V(ST(S-T))
+||
+||
+||
+|SZ=
+}}
+und ergibt somit einen Morphismus
+{{
+Abbildung
+|name= \varphi
+| V | W
+||
+|SZ=.
+}}
+Dieser ist bijektiv, da jede beteiligte Gerade bijektiv auf eine Gerade abgebildet wird. 
+|Algebraisch liegt der 
+{{
+Definitionslink
+|Prämath=K
+|Algebrahomomorphismus|
+|Kontext=|
+|SZ=
+}}
+{{
+Abbildung/display
+|name=
+| K[S,T]/(ST(S-T)) | K[X,Y,Z] /(XY,XZ,YZ)
+||
+|SZ=
+}}
+mit {{math|term= S \mapsto X+Z |SZ=}} und {{mathl|term= T \mapsto Y+Z |SZ=}} vor. Dies induziert einen {{math|term= K |SZ=-}}Algebrahomomorphismus der Nenneraufnahmen
+{{
+Abbildung/display
+|name=
+| (K[S,T]/(ST(S-T)) )_{S+T} |  (K[X,Y,Z] /(XY,XZ,YZ))_{X+Y+2Z}
+||
+|SZ=.
+}}
+Dabei ist der Schnittpunkt von {{mathl|term= V(S+T) |SZ=}} bzw. {{mathl|term= V(X+Y+2Z) |SZ=}} mit den drei Geraden jeweils der Nullpunkt
+{{
+Zusatz/Klammer
+|text=die Charakteristik ist nicht {{math|term= 2 |SZ=}}|
+|ISZ=|ESZ=,
+}}
+sodass diese Nenneraufnahmen jeweils das Komplement des Nullpunktes beschreiben. Der rechte Ring ist, geschrieben in den Variablen {{math|term= A=X+Z,B=Y+Z, Z |SZ=,}} gleich
+{{
+Math/display|term=
+K[A,B,Z, (A+B)^{-1} ]/ ( (A-Z)Z, (B-Z)Z, (A-Z)(B-Z)  ))
+|SZ=.
+}}
+In diesem Ring ist
+{{
+Relationskette/display
+| 2AB
+|| 2 Z(A+B) -2Z^2
+|| 2 Z(A+B) -AZ-BZ 
+|| Z(A+B)
+||
+|SZ=
+}}
+und somit ist
+{{
+Relationskette/display
+| Z 
+|| {{op:Bruch| 2AB | A+B }} 
+||
+||
+||
+|SZ=.
+}}
+Man kann also {{math|term= Z |SZ=}} eliminieren, die Idealerzeuger werden dann wegen
+{{
+Relationskette/display
+| A-Z
+|| A- {{op:Bruch| 2AB | A+B}}
+|| {{op:Bruch| A^2 +AB - 2AB | A+B}}
+|| {{op:Bruch| A^2 - AB | A+B}}
+||
+|SZ=
+}}
+zu
+{{
+Relationskette/align
+| ( A-Z)Z
+|| {{op:Bruch| A^2 - AB | A+B}} \cdot {{op:Bruch| 2AB | A+B }} 
+|| {{op:Bruch| 2A^2  B (A-B) | (A+B)^2}} 
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/align
+| ( B-Z)Z
+|| {{op:Bruch| 2A  B^2 (A-B) | (A+B)^2}} 
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| ( A-Z)(B-Z)
+|| {{op:Bruch| A^2 - AB | A+B}} \cdot {{op:Bruch| B^2 - AB | A+B }}
+|| {{op:Bruch| A^2 B^2 + A^2B^2 - AB^3-A^3B   | (A+B)^2}}
+||
+||
+|SZ=.
+}}
+Da {{mathl|term= A+B |SZ=}} und {{math|term= 2 |SZ=}} Einheiten sind, bedeuten die beiden ersten Idealerzeuger
+{{
+Relationskette/display
+| A^3B
+|| A^2B^2
+|| AB^3
+||
+||
+|SZ=,
+}}
+sodass der dritte Erzeuger überflüssig ist. Wegen
+{{
+Relationskette/display
+| AB(A-B)(A+B)
+|| AB {{makl| A^2-B^2 |}} 
+||
+||
+||
+|SZ=
+}}
+gehört auch {{mathl|term= AB(A-B) |SZ=}} zum Ideal, das andererseits das Ideal erzeugt. Also ist die durch {{mathl|term= S \mapsto A |SZ=}} und {{math|term= T \mapsto B |SZ=}} gegebene Abbildung ein Isomorphismus.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>17vpa47i26l68ybqpx8dk0xmyd2u0rg</sha1>
+    </revision>
+  </page>
+</mediawiki>

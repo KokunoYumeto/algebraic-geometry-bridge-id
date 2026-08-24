@@ -21,24 +21,29 @@ Stacks pages are references, not translated course pages.
 
 ## Live boundary
 
-Units 1–15 are the latest verified public cumulative reader: 15 lectures,
-15 worksheets, 423 exercises, all 75 public source solutions, 69 media
-positions, 861 source/control IDs, 5,989 MathML nodes, a 267-page A4 PDF, and a
-10,938-record native backend. All reader, visual, responsive, protected,
-backend, deterministic-replay, terminology, and common-adapter gates pass.
-Exact identities are in `qa/UNIT_15_RELEASE_CANDIDATE.json` and
-`qa/UNITS_01_15_HANDOFF.md`.
+Units 1–18 are the current verified cumulative reader: 18 lectures, 18
+worksheets, 513 exercises, all 90 frozen public source solutions, 74 media
+positions, 1,046 source/control IDs, 7,186 MathML nodes, a 320-page A4 PDF, and
+a 13,626-record native backend. Every reader, visual, responsive, protected,
+backend, deterministic-replay, terminology, and common-adapter gate passes;
+all 10,938 Unit 15 baseline records remain byte-identical. Exact identities
+are in `qa/UNIT_18_RELEASE_CANDIDATE.json`, `qa/UNITS_01_18_HANDOFF.md`, and
+the Unit 16–18 worklogs.
 
-The deterministic Unit 15 package is published to the existing Zenodo concept
-`10.5281/zenodo.22059686` as record 22077441 / DOI
-`10.5281/zenodo.22077441`, and to the existing GitHub repository, Pages reader,
-and `unit-15` release at content commit
-`aada4c2320a79e5dcdce0d7fa767c67dd0b24a9e`. Anonymous readback matched all
-eight files at both releases, both raw commit reader files, and both Pages
-reader files by byte count and SHA-256. Receipts are
-`qa/UNIT_15_ZENODO_PUBLICATION.json` and
-`qa/UNIT_15_GITHUB_PUBLICATION.json`. The live source cursor is Unit 16; freeze
-and translate it next without restarting or renumbering.
+The deterministic Unit 18 package is published to the existing Zenodo concept
+`10.5281/zenodo.22059686` as record 22087566 / DOI
+`10.5281/zenodo.22087566`; anonymous readback matched all eight files by byte
+count and SHA-256. The live operation is the already-authorized publication of
+the identical checkpoint to the existing GitHub main/tag/release/Pages lineage
+and anonymous verification of every release, raw-commit, and Pages byte. Unit
+19 is atomically reserved as
+helper packet `HP-D100-001` to existing helper task
+`01a01fa7-51cd-71e0-934d-187b3b7da5ba`; do not translate it while that
+reservation is active. The helper may return only the three translated
+Markdown files and packet evidence outside this tree. After the Units 1--18
+transaction, independently review any schema-clean return three ways against
+the frozen source, the candidate, and then-current terminology before owner
+integration. This lane remains the sole integrator, validator, and publisher.
 
 ## Finite workflow
 

@@ -1,0 +1,145 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Monoidring/Q geq 0/Über K/Teiler von X/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>72875</id>
+    <revision>
+      <id>1090074</id>
+      <parentid>1029581</parentid>
+      <timestamp>2026-05-31T12:12:02Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1090074</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1386" sha1="he3h3dqo1k68fmr2me5vlp6q064m3fh" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die Teiler von {{math|term= X |SZ=}} sind genau die Elemente der Form
+{{
+Math/display|term=
+aX^q \text{ mit } a \neq 0 \text{ und } q \in \Q_{\geq 0}, q \leq 1
+|SZ=.
+}}
+Solche Elemente sind Teiler, da ja
+{{
+Relationskette/display
+| {{makl| aX^q |}}  {{makl| a^{-1} X^{1-q}  |}}  
+|| X^q X^{1-q} 
+|| X^{q+1-q}
+|| X
+||
+|SZ=
+}}
+gilt. Wenn umgekehrt
+{{
+Relationskette
+|P
+|| a_{q_1} X^{q_1} + a_{q_2} X^{q_2} {{plusdots|}} a_{q_n} X^{q_n}
+||
+||
+||
+|SZ=
+}}
+mit {{mathl|term= 0 \leq q_1&lt; q_2 &lt; \ldots &lt; q_n |SZ=}} ein Teiler von {{math|term= X |SZ=}} ist, so gibt es ein
+{{
+Relationskette
+|Q
+||b_{r_1} X^{r_1} + b_{r_2} X^{r_2} {{plusdots|}} b_{r_m} X^{r_m}
+||
+||
+||
+|SZ=
+}}
+mit entsprechend {{mathl|term= 0 \leq r_1&lt; r_2 &lt; \ldots &lt; r_m |SZ=}} und mit
+{{
+Relationskette/display
+|PQ
+|| X
+||
+||
+||
+|SZ=.
+}}
+Dabei seien die angeführten Koeffizienten {{mathl|term= \neq 0 |SZ=.}} Das Produkt ist daher von der Form
+{{
+Math/display|term=
+a_{q_1} b_{r_1}X^{q_1 +r_1} {{plusdots|}} a_{q_n} b_{r_n}X^{q_n +r_m}
+|SZ=.
+}}
+Dies kann nur dann gleich {{math|term= X |SZ=}} sein, wenn
+{{
+Relationskette/display
+| q_1 +r_1
+|| q_n +r_m
+||
+||
+||
+|SZ=
+}}
+ist, was nur bei
+{{
+Relationskette
+|n
+|| m
+|| 1
+||
+||
+|SZ=
+}}
+möglich ist.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>he3h3dqo1k68fmr2me5vlp6q064m3fh</sha1>
+    </revision>
+  </page>
+</mediawiki>

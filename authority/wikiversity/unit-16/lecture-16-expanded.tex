@@ -1,0 +1,1623 @@
+\setcounter{section}{16}
+
+
+
+
+
+
+  \zwischenueberschrift{Irreduzible Filter}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg  {Kaffeefilter} {jpg } }
+\end{center}
+\bildtext {Einen Filter kann man mit dem, was in ihm hängen bleibt, identifizieren.} }
+\bildlizenz { Kaffeefilter.jpg  } {Elke Wetzig} {Elya} {Commons} {CC-BY-SA-3.0} {}
+
+
+
+
+Wir haben in der letzten Vorlesung gesehen, dass zu einem Punkt $P$ in einem $K$-Spektrum
+\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} der Umgebungsfilter gehört und dass der Halm in diesem Filter gleich der Lokalisierung von $R$ an dem zugehörigen maximalen Ideal
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak m}_P
+}
+{ \subseteq }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Ebenfalls haben wir gesehen, dass bei integrem $R$ der Halm über alle nichtleeren offenen Mengen den Quotientenkörper von $R$ liefert, der wiederum die Lokalisierung am Nullideal ist. Dieser Zusammenhang wird mit dem Begriff des irreduziblen Filters verallgemeinert.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Ein \definitionsverweis {topologischer Filter}{}{}
+$F$ heißt \definitionswort {irreduzibel}{,} wenn
+
+\mavergleichskette
+{\vergleichskette
+{  \emptyset
+}
+{ \notin }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und folgendes gilt: Sind $U,V$ zwei
+\definitionsverweis {offene Mengen}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{  U \cup V
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+so ist
+\mathkor {} {U \in F} {oder} {V \in F} {.}
+
+
+
+
+
+}
+
+Für Zariski-Filter
+\zusatzklammer {also topologische Filter in der Zariski-Topologie} {} {}
+gilt folgender Zusammenhang.
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Irreduzible Filter, Primideale, irreduzible Teilmengen/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei $R$ eine kommutative
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+mit
+$K$-\definitionsverweis {Spektrum}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann entsprechen sich folgende Objekte.
+\aufzaehlungdrei{ \definitionsverweis {Primideale}{}{}
+in $R$.
+}{ \definitionsverweis {Irreduzible}{}{}
+\definitionsverweis {abgeschlossene Teilmengen}{}{}
+von $X$.
+}{ \definitionsverweis {Irreduzible Filter}{}{}
+in $X$.
+}}
+\faktzusatz {Dabei entspricht der irreduziblen abgeschlossenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Filter
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(Y)
+}
+{ =} { \left\{  U \subseteq X   \mid   U \cap Y \neq \emptyset        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Der
+\definitionsverweis {Halm}{}{}
+der Strukturgarbe an diesem Filter ist die Lokalisierung $R_{\mathfrak p}$, wobei ${\mathfrak p}$ das zugehörige Primideal bezeichnet.}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Korrespondenz zwischen Primidealen und abgeschlossenen irreduziblen Teilmengen
+\zusatzklammer {zu einem Primideal ${\mathfrak p}$ gehört die irreduzible abgeschlossene Teilmenge \mathlk{V({\mathfrak p})}{}} {} {}
+ist bekannt
+\zusatzklammer {siehe
+Lemma 4.3
+
+und
+
+Proposition 11.7
+} {} {.}
+Die angegebene Konstruktion zu einer irreduziblen abgeschlossenen Menge $Y$ liefert in der Tat einen irreduziblen Filter. Dabei ist die Irreduzibilität trivial, zu zeigen ist lediglich die Durchschnittseigenschaft eines Filters. Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ U, V
+}
+{ \in }{ F
+}
+{ = }{ F(Y)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sodass also
+die Durchschnitte
+\mathl{Y \cap U}{} und
+\mathl{Y \cap V}{} nicht leer sind. Dann ist aber wegen der Irreduzibilität von $Y$ auch der Durchschnitt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (Y \cap U) \cap (Y \cap V)
+}
+{ =} { Y \cap (U \cap V)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nicht leer und daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ U \cap V
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+Es sei nun $F$ irgendein irreduzibler topologischer Filter. Wir behaupten, dass das Komplement von
+
+\mavergleichskettedisp
+{\vergleichskette
+{S
+}
+{ =} { \left\{  f \in R   \mid   D(f)\in F        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ein Primideal ist. Es ist sofort ein saturiertes multiplikatives System in $R$. Es bleibt zu zeigen, dass das Komplement additiv abgeschlossen ist. Es seien dazu
+
+\mavergleichskette
+{\vergleichskette
+{ h,g
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ g+h
+}
+{ \in }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+also
+
+\mavergleichskette
+{\vergleichskette
+{ D(g+h)
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann gehört erst recht
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D(g) \cup D(h)
+}
+{ =} { D(g,h)
+}
+{ \supseteq} { D(g+h)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zu $F$ und wegen der Irreduzibilität von $F$ ist
+
+\mavergleichskette
+{\vergleichskette
+{ D(g)
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oder
+
+\mavergleichskette
+{\vergleichskette
+{ D(h)
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+woraus sich
+
+\mavergleichskette
+{\vergleichskette
+{ g
+}
+{ \in }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oder
+
+\mavergleichskette
+{\vergleichskette
+{ h
+}
+{ \in }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ergibt.
+
+Diese drei Zuordnungen hintereinandergenommen führen dabei immer wieder zum Ausgangsobjekt zurück. Dazu muss man lediglich beachten, dass ein irreduzibler Zariski-Filter durch offene Mengen der Form
+\mathl{D(f)}{} erzeugt wird, siehe
+
+Aufgabe 16.1
+.
+Der Zusatz ist ein Spezialfall von
+
+Aufgabe 15.27
+.
+
+
+
+
+}
+
+
+
+Den zu einer irreduziblen abgeschlossenen Menge gehörenden Filter nennen wir auch den zugehörigen \stichwort {generischen Filter} {} zu $Y$ und den Halm davon den \stichwort {generischen Halm} {} zu $Y$. Ein Spezialfall der Korrespondenz von
+
+Satz 16.2
+
+ist die Beziehung zwischen minimalen Primidealen, irreduziblen Komponenten und Ultrafiltern. Auf der anderen Seite hat man die Korrespondenz zwischen maximalen Idealen, Punkten und Umgebungsfiltern.
+
+
+
+
+
+  \zwischenueberschrift{Morphismen zwischen Varietäten}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es seien $X$ und $Y$
+\definitionsverweis {quasiaffine Varietäten}{}{}
+und sei
+\maabbdisp {{\psi}} { Y } { X
+} {}
+eine stetige Abbildung. Dann nennt man ${\psi}$ einen \definitionswort {Morphismus}{}
+\zusatzklammer {von quasiaffinen Varietäten} {} {,}
+wenn für jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und jede
+\definitionsverweis {algebraische Funktion}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \Gamma ( U , {\mathcal O} )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt, dass die zusammengesetzte Funktion
+
+\mathdisp {f \circ {\psi} : {\psi}^{-1}(U)  \longrightarrow U \stackrel{f}{\longrightarrow} {\mathbb A}^{1}_{K}} {  }
+
+zu
+\mathl{\Gamma ( {\psi}^{-1}(U), {\mathcal O} )}{} gehört.
+
+
+
+
+
+}
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+Ein Morphismus
+\maabbdisp {{\psi}} { Y } { X
+} {}
+induziert nach Definition zu jeder offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einen
+\definitionsverweis {Ringhomomorphismus}{}{}
+\maabbdisp {\tilde{\psi}} { \Gamma ( U , {\mathcal O} ) } { \Gamma ( {\psi}^{-1}(U), {\mathcal O} )
+} {,}
+Insbesondere gibt es einen \stichwort {globalen Ringhomomorphismus} {}
+\maabbdisp {\tilde{\psi}} { \Gamma ( X , {\mathcal O} ) } { \Gamma ( Y, {\mathcal O} )
+} {.}
+Sind
+
+\mavergleichskette
+{\vergleichskette
+{ U_1
+}
+{ \subseteq }{ U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offene Teilmengen in $Y$, so liegt ein kommutatives Diagramm von stetigen Abbildungen vor
+\zusatzklammer {wobei die senkrechten Pfeile offene Inklusionen sind} {} {}
+
+\mathdisp {\begin{matrix}
+
+
+
+{\psi}^{-1}(U_1)  & \stackrel{  }{\longrightarrow} &  U_1
+&  \\ \downarrow & & \downarrow  & \\  {\psi}^{-1}(U_2)  & \stackrel{  }{\longrightarrow} &  U_2
+& \! \! \! \!\!\!\!\! ,  \\ \end{matrix}} {  }
+
+
+
+
+das wiederum zu dem kommutativen Diagramm
+
+\mathdisp {\begin{matrix}
+
+\Gamma ( {\psi}^{-1}(U_1), {\mathcal O} )  & \stackrel{}{\longleftarrow} &  \Gamma ( U_1 , {\mathcal O} )
+
+
+
+&  \\
+
+
+
+\uparrow &  & \uparrow & \\
+
+
+
+\Gamma ( {\psi}^{-1}(U_2), {\mathcal O} )  & \stackrel{}{\longleftarrow} &  \Gamma ( U_2 , {\mathcal O} )
+& \!\!\!\!\!    \\
+
+
+
+\end{matrix}} {  }
+
+von Ringhomomorphismen führt.
+
+
+
+
+
+}
+
+Wir fassen einige einfache Eigenschaften von Morphismen zusammen.
+
+
+
+\inputfaktbeweistrivial
+{K-Spektrum/Morphismus/Verknüpfung/Offene Einbettung/Fakt}
+{Proposition}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein algebraisch abgeschlossener Körper, und seien
+\mathl{U,X,Y,Z}{} quasiaffine Varietäten.}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungzwei {Eine offene Einbettung
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist ein
+\definitionsverweis {Morphismus}{}{.}
+} {Sind
+\mathl{{\theta}:Z \rightarrow Y}{} und
+\mathl{{\psi}:Y \rightarrow X}{} Morphismen, so ist auch die Verknüpfung
+\mathl{{\psi} \circ {\theta}}{} ein Morphismus.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+Wichtiger sind die folgenden Eigenschaften.
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Ringhomomorphismus induziert Morphismus/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien $R$ und $S$ kommutative
+$K$-\definitionsverweis {Algebren vom endlichen Typ}{}{}
+mit zugehörigen
+$K$-\definitionsverweis {Spektren}{}{}
+
+\mathl{X= K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} und
+\mathl{Y= K\!-\!\operatorname{Spek}\, \left(  S  \right)}{.}}
+\faktfolgerung {Dann ist die durch einen
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabb {\varphi} { R } { S
+} {}
+induzierte
+\definitionsverweis {Spektrumsabbildung}{}{}
+\maabbdisp {\varphi^*} { Y} { X
+} {}
+ein
+\definitionsverweis {Morphismus}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir wissen bereits nach
+
+Satz 12.7
+,
+dass
+\maabbdisp {} { Y = K\!-\!\operatorname{Spek}\, \left(  S  \right) } { X = K\!-\!\operatorname{Spek}\, \left(  R  \right)
+} {}
+eine stetige Abbildung ist. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Teilmenge und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ (\varphi^*)^{-1}(U)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Urbild. Es sei
+\maabb {f} { U } { K
+} {}
+eine
+\definitionsverweis {algebraische Funktion
+}{}{}
+mit der Hintereinanderschaltung
+\maabb {f \circ \varphi^*} { V } { K
+} {.}
+Wir müssen zeigen, dass diese Abbildung ebenfalls algebraisch ist. Es sei dazu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt mit dem Bildpunkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \varphi^*(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ D(H)
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ G/H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf $D(H)$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ G, H
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ \in} { (\varphi^*)^{-1}( D(H))
+}
+{ =} { D( \varphi (H))
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gemäß
+
+Satz 12.7
+.
+Wir behaupten, dass auf
+\mathl{D( \varphi (H))}{} die Gleichheit
+
+\mavergleichskette
+{\vergleichskette
+{ f \circ \varphi^*
+}
+{ = }{ { \frac{   \varphi(G)  }{  \varphi(H)  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt. Dies folgt für
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{P}
+}
+{ \in }{ D( \varphi (H))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f \circ \varphi^*   (\tilde{P})
+}
+{ =} { f( \varphi^*(\tilde{P}) )
+}
+{ =} { \frac{ G( \varphi^*( \tilde{P} ) )}{ H( \varphi^*( \tilde{P}) ) }
+}
+{ =} { \frac{ ( \varphi(G)) (\tilde{P})}{( \varphi(H)) ( \tilde{P} )}
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+
+
+}
+
+
+
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+In der Situation von
+
+Satz 16.6
+
+ist der zu
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ D(f)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gehörende
+\definitionsverweis {Ringhomomorphismus}{}{}
+die natürliche Abbildung
+\maabbdisp {} { \Gamma (D(f), {\mathcal O} ) \cong R_f } { \Gamma ((\varphi^*)^{-1}(D(f)), {\mathcal O} ) = \Gamma (D(\varphi(f)), {\mathcal O} ) =  S_{\varphi(f)}
+} {.}
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Quasiaffine Varietät/Globale algebraische Funktion/Ist Morphismus nach affiner Geraden/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $U$ eine
+\definitionsverweis {quasiaffine Varietät}{}{}
+über einem
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+$K$ und sei
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \Gamma (U, {\mathcal O} )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {algebraische Funktion}{}{.}}
+\faktfolgerung {Dann definiert $f$ einen
+\definitionsverweis {Morphismus}{}{}
+\maabbdisp {f} { U } { {\mathbb A}^{1}_{ K }  \cong K
+} {.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Eine stetige Abbildung liegt aufgrund von
+
+Aufgabe 14.4
+
+vor. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ D(s)
+}
+{ \subseteq }{ {\mathbb A}^{1}_{K}
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Teilmenge und
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ f^{-1}(V)
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Urbild davon. Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ q
+}
+{ =} { { \frac{   r  }{  s^n  } }
+}
+{ \in} { \Gamma (V, {\mathcal O} )
+}
+{ =} { K[T]_{ s }
+}
+{ } {
+}
+}
+{}{}{}
+eine algebraische Funktion auf $V$. Wir müssen zeigen, dass die Verknüpfung
+\mathl{q \circ f}{} eine algebraische Funktion auf $W$ ist. Es sei dazu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ G/H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Beschreibung der nach Voraussetzung algebraischen Funktion $f$ in der Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ D(H)
+}
+{ \ni }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( q \circ f ) (P)
+}
+{ =} { q (f(P))
+}
+{ =} { \frac{r}{s^n} \left(  \frac{G}{H} (P)  \right)
+}
+{ =} { \frac{ r( G(P)/H(P) )}{(s(G(P)/H(P)))^n}
+}
+{ } {
+}
+}
+{}{}{.}
+Dabei ist der Nenner
+\mathl{(s(G(P)/H(P)))^n}{} nicht $0$, da
+
+\mavergleichskette
+{\vergleichskette
+{ f(P)
+}
+{ \in }{  D(s)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, sodass dies eine rationale Darstellung ist.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Quasiaffine Varietät/Morphismus nach affiner Geraden/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $U$ eine quasiaffine Varietät über einem
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+$K$, und zwar sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $R$ eine kommutative $K$-Algebra von endlichem Typ sei.}
+\faktfolgerung {Dann gibt es eine natürliche Bijektion
+\maabbeledisp {} { \operatorname{Mor} \,( U ,  {\mathbb A}^{1}_{K} ) } { \Gamma (U, {\mathcal O} )
+} { {\psi}  } { \tilde{\psi} (T)
+} {,}
+wobei $T$ die Variable in
+
+\mavergleichskette
+{\vergleichskette
+{ K[T]
+}
+{ = }{ \Gamma ( {\mathbb A}^{1}_{K} , {\mathcal O} )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bezeichnet.}
+\faktzusatz {Insbesondere sind Morphismen von $U$ in die affine Gerade durch den globalen Ringhomomorphismus
+\maabbdisp {\tilde{\psi}} { \Gamma ( {\mathbb A}^{1}_{K}, {\mathcal O} ) = K[T] } { \Gamma (U, {\mathcal O} )
+} {}
+eindeutig bestimmt.}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Abbildung ist wohldefiniert und surjektiv. Ist nämlich eine globale algebraische Funktion
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \Gamma (U, {\mathcal O} )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben, so ist zunächst
+\maabb {f} { U } { K
+} {.}
+Die Variable $T$, die auf
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ = }{ {\mathbb A}^{1}_{K}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der identischen Abbildung entspricht, wird unter
+\zusatzklammer {der Verknüpfung mit} {} {}
+$f$ auf das Element
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \Gamma (U, {\mathcal O} )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+abgebildet. Nach
+
+Lemma 16.8
+
+ist $f$ ein Morphismus.
+
+Die Injektivität ergibt sich, da sowohl der Morphismus als auch die algebraische Funktion durch die zugrunde liegende stetige Abbildung eindeutig festgelegt sind.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Quasiaffine Varietät/Morphismus nach affiner Varietät/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $U$ eine quasiaffine Varietät, und zwar sei
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $R$ eine kommutative $K$-Algebra von endlichem Typ über einem algebraisch abgeschlossener Körper $K$ sei. Es sei $S$ eine weitere kommutative $K$-Algebra von endlichem Typ.}
+\faktfolgerung {Dann gibt es eine natürliche Bijektion
+\maabbeledisp {} { \operatorname{Mor} \,( U ,  K\!-\!\operatorname{Spek}\, \left(  S  \right) ) } { \operatorname{Hom}^{\rm alg}_{ K } \, \left(   S , \Gamma (U, {\mathcal O} )   \right)
+} { {\psi} } { \tilde{\psi}
+} {,}
+wobei $\tilde{\psi}$ den zu ${\psi}$ gehörigen globalen Ringhomomorphismus bezeichnet.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Abbildung ist wohldefiniert. Aus
+
+Satz 16.9
+
+folgt, dass die Aussage für
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ = }{ K[T]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+richtig ist. Daraus ergibt sich, dass die Aussage für jeden Polynomring
+\mathl{K[T_1 , \ldots , T_n]}{} richtig ist, da ein Morphismus nach ${ {\mathbb A}_{  K }^{  n   } }$ durch seine Komponenten und ein $K$-Algebrahomomorphismus durch die Einsetzungen für $T_i$ gegeben ist. Es sei nun
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ = }{ K [ T_1, \ldots ,  T_{ n }]/{\mathfrak a}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K\!-\!\operatorname{Spek}\, \left(  S  \right)
+}
+{ \cong} { V( {\mathfrak a} )
+}
+{ =} { V
+}
+{ \subseteq} { { {\mathbb A}_{  K }^{  n   } }
+}
+{ } {
+}
+}
+{}{}{.}
+Zu einem Morphismus
+\maabb {} { U } { K\!-\!\operatorname{Spek}\, \left(  S  \right)
+} {}
+ist die Verknüpfung mit der abgeschlossenen Einbettung in den affinen Raum ebenfalls ein Morphismus. D.h. es liegt ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix}
+\operatorname{Mor} \,( U ,  K\!-\!\operatorname{Spek}\, \left(  S  \right))  & \stackrel{  }{\longrightarrow} &  \operatorname{Hom}^{\rm alg}_{ K } \, \left(   S , \Gamma (U, {\mathcal O} )  \right)
+
+
+
+&  \\ \downarrow & & \downarrow  & \\  \operatorname{Mor} \,( U ,  { {\mathbb A}_{  K }^{  n   } })  & \stackrel{  }{\longrightarrow} &  \operatorname{Hom}^{\rm alg}_{ K } \, \left(   K [ T_1, \ldots ,  T_{ n }] , \Gamma (U, {\mathcal O} )  \right)
+& \! \! \! \!\!\!\!\! ,  \\ \end{matrix}} {  }
+
+
+
+
+vor, wobei die untere Abbildung bereits als Bijektion nachgewiesen wurde. Die vertikalen Abbildungen sind injektiv. Wir müssen daher zeigen, dass die untere Abbildung die oberen Teilmengen ineinander überführt.
+
+Ein Morphismus
+\maabb {} { U } { { {\mathbb A}_{  K }^{  n   } }
+} {,}
+der
+\zusatzklammer {als Abbildung} {} {}
+durch $V$ faktorisiert, ist auch ein Morphismus nach $V$. Die Morphismuseigenschaft ist nur für offene Mengen der Form $D(H)$ zu überprüfen,
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \in }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{   \tilde{H}
+}
+{ \in }{ K [ T_1, \ldots ,  T_{ n }]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Repräsentant für $H$. Dann ist
+\maabb {} { K [ T_1, \ldots ,  T_{ n }]_{\tilde{H} }} { S_H
+} {}
+surjektiv und damit wird jedes Element aus $S_H$ auf eine algebraische Funktion abgebildet.
+
+Auf der rechten Seite des Diagramms gehört ein Algebrahomomorphismus genau dann zur oberen Menge, wenn ${\mathfrak a}$ zum Kern gehört. Damit folgt die Aussage aus
+
+Aufgabe 16.8
+.
+
+
+
+
+}
+
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Cone_intersects_line} {png} }
+\end{center}
+\bildtext {Nicht jede außerhalb der Gerade auf dem Kegel definierte Funktion lässt sich auf den affinen Raum ohne die Gerade fortsetzen.} }
+\bildlizenz { Cone intersects line.png } {} {Pmidden} {Commons} {PD} {}
+
+
+
+
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten den Standardkegel, der als abgeschlossene Teilmenge
+
+\mavergleichskettedisp
+{\vergleichskette
+{V
+}
+{ =} { V(X^2+Y^2-Z^2)
+}
+{ \subseteq} { { {\mathbb A}_{ K }^{  3   } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{ D(X,Z-Y)
+}
+{ \subseteq }{ { {\mathbb A}_{ K }^{  3   } }
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die offene Teilmenge mit dem Durchschnitt
+
+\mavergleichskette
+{\vergleichskette
+{ V \cap U
+}
+{ = }{ D(X,Z-Y)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {in $V$} {} {,}
+der eine offene Menge in $V$ ist. Wir behaupten, dass der zugehörige Ringhomomorphismus
+\maabbdisp {} { \Gamma (U, {\mathcal O} ) } { \Gamma ( U \cap V , {\mathcal O} )
+} {}
+nicht surjektiv ist. Das liegt daran, dass links einfach der Polynomring in drei Variablen steht
+\zusatzklammer {vergleiche
+
+Aufgabe 14.24
+} {} {.}
+Dagegen ergibt sich aus der Gleichung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X^2
+}
+{ =} { Z^2-Y^2
+}
+{ =} { (Z-Y)(Z+Y)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dass es auf
+\mathl{U \cap V}{} die algebraische Funktion
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \frac{X}{Z-Y}
+}
+{ =} { \frac{Z+Y}{X}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt, die nicht im Bild der Abbildung liegt, da es keine Funktion auf dem ganzen Kegel ist.
+
+
+
+
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {FiberBundle_2} {png} }
+\end{center}
+\bildtext {Die Fasern einer Abbildung ($M$ ist der Zielbereich, der Definitionsbereich ist die Vereinigung aller Fasern; die Abbildung geht von oben nach unten).} }
+\bildlizenz { FiberBundle 2.png } {} {１３２人目'} {ja.wikipedia.org} {CC-BY-SA-3.0} {}
+
+
+
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einem
+\definitionsverweis {Morphismus}{}{}
+\maabb {{\psi}} { Y } { X
+} {}
+zwischen
+\definitionsverweis {affinen Varietäten}{}{}
+bezeichnet man zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Urbild
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\psi}^{-1} (P)
+}
+{ \subseteq} { Y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als die \definitionswort {Faser}{} über $P$. Als abgeschlossene Menge von $Y$ ist sie selbst eine affine Varietät.
+
+
+
+
+
+}

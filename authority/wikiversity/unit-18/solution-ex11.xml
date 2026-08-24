@@ -1,0 +1,331 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Neilsches Monoid/Werte in Z mod 9/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>167325</id>
+    <revision>
+      <id>1111901</id>
+      <parentid>1073788</parentid>
+      <timestamp>2026-08-16T17:28:24Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1111901</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4076" sha1="eykabqblc7blyk91sgxxo9z6k3t8m27" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung6/a
+|Es sind {{mathl|term= 1,2,4,5,7,8 |SZ=}} Einheiten, da sie teilerfremd zu {{math|term= 3 |SZ=}} sind, und {{mathl|term= 0,3,6 |SZ=}} sind nilpotent, da ihr Quadrat gleich {{math|term= 0 |SZ=}} ist.
+|Für einen Monoidhomomorphismus
+{{
+Abbildung/display
+|name= \pi
+|\N|R
+||
+|SZ=
+}}
+muss
+{{
+Relationskette
+|  \pi (0)
+|| 1
+|| 
+|| 
+|| 
+|SZ=
+}}
+sein und {{math|term=  \pi |SZ=}} ist durch den Wert an der Stelle  {{math|term= 1 |SZ=}} eindeutig festgelegt, und dabei ist jedes {{math|term= \pi(1) |SZ=}} möglich. Daher gibt es {{math|term= 9 |SZ=}} Elemente in {{mathl|term=  {{Mormon| \N | R}} |SZ=.}} 
+|Es sei 
+{{
+Relationskette
+| \rho(2)
+| \in | R
+||
+||
+||
+|SZ=
+}}
+eine Einheit. Die einzige Möglichkeit ist
+{{
+Relationskette/display
+|  \pi(1)
+|| \rho(3) \cdot \rho(2)^{-1}
+|| 
+|| 
+|| 
+|SZ=
+}}
+zu setzen, da ja
+{{
+Relationskette/display
+| \rho(3)
+|| \pi(3)
+|| \pi(2) \cdot \pi (1)
+|| \rho(2) \cdot \pi(1)
+|| 
+|| 
+|SZ=
+}}
+gelten muss 
+{{
+Zusatz/Klammer
+|text=für alle anderen Zahlen ist ja {{math|term= \pi |SZ=}} durch {{math|term= \rho |SZ=}} festgelegt|
+|ISZ=|ESZ=.
+}}
+Wir müssen zeigen, dass dadurch ein Monoidhomomorphismus von {{math|term= \N |SZ=}} nach {{math|term= R |SZ=}} festgelegt ist. Wir müssen also
+{{
+Relationskette/display
+|  \pi (i+j)
+||  \pi(i) \cdot \pi(j)
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle
+{{
+Relationskette
+| i,j
+| \in | \N 
+||
+||
+||
+|SZ=
+}}
+zeigen. Dies ist für
+{{
+Relationskette
+| i
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und für
+{{
+Relationskette
+| i,j
+| \geq | 2
+|| 
+|| 
+|| 
+|SZ=
+}}
+klar, da ja {{math|term= \rho |SZ=}} ein Homomorphismus ist. Es sei also
+{{
+Relationskette
+| i
+|| 1
+|| 
+|| 
+|| 
+|SZ=.
+}} 
+Bei
+{{
+Relationskette
+| j
+|| 1
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist
+{{
+Relationskette/align
+| \pi (1) \cdot \pi(1)
+|| \rho(3) \cdot \rho(2)^{-1} \cdot \rho(3) \cdot \rho(2)^{-1}
+|| \rho(3+3) \cdot \rho(2+2)^{-1}  \cdot \rho(2)^{-1} \cdot \rho(2)
+|| \rho(6) \cdot \rho (6)^{-1} \cdot \rho(2)
+|| \rho(2)
+|| \pi(2)
+|SZ=.
+}}
+Bei
+{{
+Relationskette
+|  j
+| \geq| 2
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist
+{{
+Relationskette/align
+| \pi (1) \cdot \pi(j)
+|| \pi (1) \cdot \rho(j)
+|| \rho(3) \cdot \rho(2)^{-1} \cdot \rho(j)
+|| \rho (3 + j )    \cdot \rho(2)^{-1} 
+|| \rho (1 + j ) \cdot  \rho(2) \cdot \rho(2)^{-1}  
+|| \rho(1+j)
+|| \pi(1+j)
+|SZ=.
+}}
+|Wenn {{mathl|term= \pi(1) |SZ=}} eine Einheit ist, so besteht das ganze Bild nur aus Einheiten und  {{math|term= \pi |SZ=}} ist auf {{math|term= M \setminus \{0\} |SZ=}} nicht die Nullfunktion. Wenn dagegen
+{{
+Relationskette
+| \pi(1)
+|| 0,3,6
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist, so ist zunächst
+{{
+Relationskette
+|  \pi(2)
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und damit ist auch
+{{
+Relationskette
+|  \pi(i)
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle
+{{
+Relationskette
+| i
+| \geq| 2
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Nach Teil (c) kommen nur {{math|term= \rho |SZ=}} mit {{math|term= \rho(2) |SZ=}}  nilpotent in Frage. Es ist dann auch {{math|term=  \rho(3) |SZ=}} nilpotent. Wäre nämlich {{math|term=  \rho(3) |SZ=}} eine Einheit, so auch 
+{{
+Relationskette
+|  \rho(3+3)
+|| \rho(6)
+|| \rho(2+2+2)
+|| 
+|| 
+|SZ=
+}}
+und damit auch {{math|term= \rho(2) |SZ=.}} Wenn man für {{math|term= \rho(2) |SZ=}} und  {{math|term= \rho(3) |SZ=}} beliebige nilpotente Elemente aus {{math|term= R |SZ=}} vorgibt, so muss 
+{{
+Relationskette
+| \rho(n)
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+für
+{{
+Relationskette
+| n
+| \geq | 4
+|| 
+|| 
+|| 
+|SZ=
+}}
+sein, da man
+{{
+Relationskette
+| n
+|| 2i+3j
+|| 
+|| 
+|| 
+|SZ=
+}}
+mit
+{{
+Relationskette
+| i+j
+| \geq | 2
+|| 
+|| 
+|| 
+|SZ=
+}}
+schreiben kann. Eine solche Vorgabe von nilpotenten Werten liefert umgekehrt einen Monoidhomomorphimus von  {{math|term= M |SZ=}} nach {{math|term= R |SZ=.}} Ein solcher Morphismus besitzt nur bei
+{{
+Relationskette
+|  \rho(2)
+|| \rho(3)
+|| 0
+|| 
+|| 
+|SZ=
+}}
+eine Fortsetzung nach {{math|term= \N |SZ=;}} die {{math|term= 8 |SZ=}} anderen Kombinationen besitzen keine Fortsetzung.
+|Es gibt
+{{
+Relationskette
+| 6+8+1
+|| 15
+|| 
+|| 
+|| 
+|SZ=
+}}
+Elemente in {{mathl|term=  {{Mormon| M | R}}  |SZ=.}} 
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}</text>
+      <sha1>eykabqblc7blyk91sgxxo9z6k3t8m27</sha1>
+    </revision>
+  </page>
+</mediawiki>

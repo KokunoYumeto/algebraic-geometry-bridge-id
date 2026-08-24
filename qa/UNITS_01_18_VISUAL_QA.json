@@ -1,0 +1,75 @@
+{
+  "schema": "ag-bridge-visual-qa-v1",
+  "checked_utc": "2026-08-24T20:45:20.5247610Z",
+  "status": "PASS",
+  "result": "PASS",
+  "through_unit": 18,
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-18.pdf",
+    "bytes": 6905745,
+    "sha256": "ba62b61759a50925dcefa1a3a0153c8b597ee1386dd2033b610dae622e33ed99",
+    "pages": 320,
+    "page_size": "A4",
+    "encrypted": false
+  },
+  "deterministic_raster": {
+    "renderer": "pdftoppm",
+    "resolution_dpi": 96,
+    "page_manifest": "qa/UNITS_01_18_VISUAL_PAGE_MANIFEST.json",
+    "page_manifest_bytes": 105914,
+    "page_manifest_sha256": "1373cb0f8e7bf3d2badfe5b2bffb38a18b4b82380b959376589cb9b6d248970f",
+    "page_png_count": 320,
+    "dimensions_px": [794, 1123],
+    "total_png_bytes": 36736031,
+    "visible_ink_threshold_gray_lt": 248,
+    "minimum_visible_ink_fraction": 0.005839656730913732,
+    "minimum_visible_ink_page": 249,
+    "maximum_visible_ink_fraction": 0.578810132090411,
+    "maximum_visible_ink_page": 32,
+    "blank_pages_detected": 0,
+    "dimension_mismatches": 0
+  },
+  "visual_inspection": {
+    "all_page_contact_sheets": [
+      "pages 1-20", "pages 21-40", "pages 41-60", "pages 61-80",
+      "pages 81-100", "pages 101-120", "pages 121-140", "pages 141-160",
+      "pages 161-180", "pages 181-200", "pages 201-220", "pages 221-240",
+      "pages 241-260", "pages 261-280", "pages 281-300", "pages 301-320"
+    ],
+    "full_size_pages_checked": [266, 272, 273, 274, 279, 281, 284, 290, 298, 300, 302, 306, 312, 315, 319, 320],
+    "checks": {
+      "populated_and_legible": "PASS",
+      "consistent_margins_and_page_numbers": "PASS",
+      "no_clipping_or_overlap": "PASS",
+      "no_black_boxes_or_broken_glyphs": "PASS",
+      "unit_16_images_present_centered_and_legible": "PASS",
+      "unit_17_text_exercises_and_solutions_intact": "PASS",
+      "unit_18_cusp_image_present_centered_and_page_filling": "PASS",
+      "unit_16_17_18_solution_headings_intact": "PASS",
+      "unit_boundaries_and_rights_pages_intact": "PASS",
+      "page_312_spacing_commands_not_visible": "PASS"
+    }
+  },
+  "new_boundary_observations": [
+    {
+      "pages": [266, 272, 273, 274, 279, 281],
+      "finding": "Unit 16 begins cleanly; all four media positions are centered and legible; the worksheet and six frozen public solutions begin intact."
+    },
+    {
+      "pages": [284, 290, 298],
+      "finding": "Unit 17 lecture, worksheet, and four frozen public solutions render without collision, clipping, or malformed mathematics."
+    },
+    {
+      "pages": [300, 302, 306, 312, 315, 319, 320],
+      "finding": "Unit 18, its cusp figure, worksheet, five frozen public solutions, provenance, and cumulative component-rights pages render cleanly through the final page."
+    }
+  ],
+  "findings_resolved_before_freeze": [
+    {
+      "location": "page 312, Unit 18 public solution 18.3",
+      "finding": "The first full-resolution inspection exposed three intended TeX spacing commands as visible qquad text because their leading backslashes were absent in the Markdown source.",
+      "resolution": "Restored the three leading backslashes, reran Unit 18 translation QA, rebuilt HTML/PDF, reran cumulative machine and protected-surface QA, rerendered all 320 pages, re-inspected all contact sheets, and confirmed the repaired final page 312 at full size. Mathematical equalities and source-solution scope did not change."
+    }
+  ],
+  "conclusion": "All 320 final PDF pages were rasterized and inspected through 16 contact sheets. Units 16-18 boundaries, media, mathematics, exercises, public solutions, provenance, and rights pages were additionally inspected at full size. No unresolved visual or formatting defect remains."
+}

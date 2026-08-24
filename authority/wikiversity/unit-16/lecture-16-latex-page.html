@@ -1,0 +1,861 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{16}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Irreduzible Filter}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungjpg  {Kaffeefilter} {jpg } }<br />\end{center} <br />\bildtext {Einen Filter kann man mit dem, was in ihm hängen bleibt, identifizieren.} }<br /><br />\bildlizenz { Kaffeefilter.jpg  } {Elke Wetzig} {Elya} {Commons} {CC-BY-SA-3.0} {}<br /> <br />
+</p><p><br />
+Wir haben in der letzten Vorlesung gesehen, dass zu einem Punkt $P$ in einem $K$-Spektrum <br />\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} der Umgebungsfilter gehört und dass der Halm in diesem Filter gleich der Lokalisierung von $R$ an dem zugehörigen maximalen Ideal
+<br />\mavergleichskette<br />{\vergleichskette<br />{ {\mathfrak m}_P 
+}<br />{ \subseteq }{ R
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist. Ebenfalls haben wir gesehen, dass bei integrem $R$ der Halm über alle nichtleeren offenen Mengen den Quotientenkörper von $R$ liefert, der wiederum die Lokalisierung am Nullideal ist. Dieser Zusammenhang wird mit dem Begriff des irreduziblen Filters verallgemeinert.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein \definitionsverweis {topologischer Filter}{}{}
+$F$ heißt \definitionswort {irreduzibel}{,} wenn
+<br />\mavergleichskette<br />{\vergleichskette<br />{  \emptyset
+}<br />{ \notin }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und folgendes gilt: Sind $U,V$ zwei 
+\definitionsverweis {offene Mengen}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{  U \cup V
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+so ist
+\mathkor {} {U \in F} {oder} {V \in F} {.}  
+</p>
+</div>
+<p>}
+</p><p>Für Zariski-Filter
+\zusatzklammer {also topologische Filter in der Zariski-Topologie} {} {}
+gilt folgender Zusammenhang.
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{K-Spektrum/Irreduzible Filter, Primideale, irreduzible Teilmengen/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei $R$ eine kommutative
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+mit
+$K$-\definitionsverweis {Spektrum}{}{}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X
+}<br />{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}}<br />\faktfolgerung {Dann entsprechen sich folgende Objekte.
+\aufzaehlungdrei{ \definitionsverweis {Primideale}{}{}
+in $R$.
+}{ \definitionsverweis {Irreduzible}{}{}
+\definitionsverweis {abgeschlossene Teilmengen}{}{}
+von $X$.
+}{ \definitionsverweis {Irreduzible Filter}{}{}
+in $X$.
+}}<br />\faktzusatz {Dabei entspricht der irreduziblen abgeschlossenen Teilmenge
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Y
+}<br />{ \subseteq }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+der Filter
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ F(Y)
+}<br />{ =} { \left\{  U \subseteq X   \mid   U \cap Y \neq \emptyset        \right\} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Der 
+\definitionsverweis {Halm}{}{}
+der Strukturgarbe an diesem Filter ist die Lokalisierung $R_{\mathfrak p}$, wobei ${\mathfrak p}$ das zugehörige Primideal bezeichnet.}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die Korrespondenz zwischen Primidealen und abgeschlossenen irreduziblen Teilmengen
+\zusatzklammer {zu einem Primideal ${\mathfrak p}$ gehört die irreduzible abgeschlossene Teilmenge \mathlk{V({\mathfrak p})}{}} {} {}
+ist bekannt
+\zusatzklammer {siehe <a href="/wiki/Affine_Variet%C3%A4ten/Irreduzible_Teilmengen/Primideale/Fakt" title="Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt">Lemma 4.3</a>
+und
+<a href="/wiki/Affine-algebraische_Mengen/Koordinatenring/Grundeigenschaften/Fakt" title="Affine-algebraische Mengen/Koordinatenring/Grundeigenschaften/Fakt">Proposition 11.7</a>} {} {.}
+Die angegebene Konstruktion zu einer irreduziblen abgeschlossenen Menge $Y$ liefert in der Tat einen irreduziblen Filter. Dabei ist die Irreduzibilität trivial, zu zeigen ist lediglich die Durchschnittseigenschaft eines Filters. Es seien
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U, V
+}<br />{ \in }{ F
+}<br />{ = }{ F(Y) 
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+sodass also
+die Durchschnitte <br />\mathl{Y \cap U}{} und <br />\mathl{Y \cap V}{} nicht leer sind. Dann ist aber wegen der Irreduzibilität von $Y$ auch der Durchschnitt
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (Y \cap U) \cap (Y \cap V)
+}<br />{ =} { Y \cap (U \cap V)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+nicht leer und daher ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U \cap V 
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+</p><p>Es sei nun $F$ irgendein irreduzibler topologischer Filter. Wir behaupten, dass das Komplement von
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{S
+}<br />{ =} { \left\{  f \in R   \mid   D(f)\in F        \right\} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+ein Primideal ist. Es ist sofort ein saturiertes multiplikatives System in $R$. Es bleibt zu zeigen, dass das Komplement additiv abgeschlossen ist. Es seien dazu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ h,g
+}<br />{ \in }{ R
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ g+h
+}<br />{ \in }{ S 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+also
+<br />\mavergleichskette<br />{\vergleichskette<br />{ D(g+h)
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dann gehört erst recht
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ D(g) \cup D(h)
+}<br />{ =} { D(g,h)
+}<br />{ \supseteq} { D(g+h)
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+zu $F$ und wegen der Irreduzibilität von $F$ ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ D(g) 
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+oder
+<br />\mavergleichskette<br />{\vergleichskette<br />{ D(h)
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+woraus sich 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ g
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+oder
+<br />\mavergleichskette<br />{\vergleichskette<br />{ h
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ergibt.
+</p><p>Diese drei Zuordnungen hintereinandergenommen führen dabei immer wieder zum Ausgangsobjekt zurück. Dazu muss man lediglich beachten, dass ein irreduzibler Zariski-Filter durch offene Mengen der Form <br />\mathl{D(f)}{} erzeugt wird, siehe
+<a href="/wiki/Zariski-Filter/Irreduzibler_Filter_ist_durch_D(f)_bestimmt/Aufgabe" title="Zariski-Filter/Irreduzibler Filter ist durch D(f) bestimmt/Aufgabe">Aufgabe 16.1</a>.
+Der Zusatz ist ein Spezialfall von
+<a href="/wiki/Kommutative_Ringtheorie/K-Spektrum/Multiplikatives_System_und_topologischer_Filter/Aufgabe" title="Kommutative Ringtheorie/K-Spektrum/Multiplikatives System und topologischer Filter/Aufgabe">Aufgabe 15.27</a>.
+</p>
+</div>
+}</div>
+<p><br />
+Den zu einer irreduziblen abgeschlossenen Menge gehörenden Filter nennen wir auch den zugehörigen \stichwort {generischen Filter} {} zu $Y$ und den Halm davon den \stichwort {generischen Halm} {} zu $Y$. Ein Spezialfall der Korrespondenz von
+<a href="/wiki/K-Spektrum/Irreduzible_Filter,_Primideale,_irreduzible_Teilmengen/Fakt" title="K-Spektrum/Irreduzible Filter, Primideale, irreduzible Teilmengen/Fakt">Satz 16.2</a>
+ist die Beziehung zwischen minimalen Primidealen, irreduziblen Komponenten und Ultrafiltern. Auf der anderen Seite hat man die Korrespondenz zwischen maximalen Idealen, Punkten und Umgebungsfiltern.  
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Morphismen zwischen Varietäten}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien $X$ und $Y$
+\definitionsverweis {quasiaffine Varietäten}{}{}
+und sei
+\maabbdisp {{\psi}} { Y } { X
+} {}
+eine stetige Abbildung. Dann nennt man ${\psi}$ einen \definitionswort {Morphismus}{}
+\zusatzklammer {von quasiaffinen Varietäten} {} {,}
+wenn für jede offene Teilmenge
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und jede 
+\definitionsverweis {algebraische Funktion}{}{}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ \in }{ \Gamma ( U , {\mathcal O} )
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gilt, dass die zusammengesetzte Funktion
+<br />\mathdisp {f \circ {\psi}&#160;: {\psi}^{-1}(U)  \longrightarrow U \stackrel{f}{\longrightarrow} {\mathbb A}^{1}_{K}} {  }<br />
+zu <br />\mathl{\Gamma ( {\psi}^{-1}(U), {\mathcal O} )}{} gehört.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br /><br /><br />\inputbemerkung<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein Morphismus
+\maabbdisp {{\psi}} { Y } { X
+} {}
+induziert nach Definition zu jeder offenen Teilmenge
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+einen 
+\definitionsverweis {Ringhomomorphismus}{}{}
+\maabbdisp {\tilde{\psi}} { \Gamma ( U , {\mathcal O} ) } { \Gamma ( {\psi}^{-1}(U), {\mathcal O} )
+} {,}
+Insbesondere gibt es einen \stichwort {globalen Ringhomomorphismus} {}
+\maabbdisp {\tilde{\psi}} { \Gamma ( X , {\mathcal O} ) } { \Gamma ( Y, {\mathcal O} )
+} {.}
+Sind
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U_1 
+}<br />{ \subseteq }{ U_2 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+offene Teilmengen in $Y$, so liegt ein kommutatives Diagramm von stetigen Abbildungen vor
+\zusatzklammer {wobei die senkrechten Pfeile offene Inklusionen sind} {} {}
+<br />\mathdisp {\begin{matrix} 
+</p>
+<pre>{\psi}^{-1}(U_1)  &amp; \stackrel{  }{\longrightarrow} &amp;  U_1
+&amp;  \\ \downarrow &amp; &amp; \downarrow  &amp; \\  {\psi}^{-1}(U_2)  &amp; \stackrel{  }{\longrightarrow} &amp;  U_2
+&amp; \! \! \! \!\!\!\!\! ,  \\ \end{matrix}} {  }<br />
+</pre>
+<p>das wiederum zu dem kommutativen Diagramm
+<br />\mathdisp {\begin{matrix}
+</p><p>\Gamma ( {\psi}^{-1}(U_1), {\mathcal O} )  &amp; \stackrel{}{\longleftarrow} &amp;  \Gamma ( U_1 , {\mathcal O} )
+</p>
+<pre>&amp;  \\
+</pre>
+<p>\uparrow &amp;  &amp; \uparrow &amp; \\
+</p>
+<pre>\Gamma ( {\psi}^{-1}(U_2), {\mathcal O} )  &amp; \stackrel{}{\longleftarrow} &amp;  \Gamma ( U_2 , {\mathcal O} )
+&amp; \!\!\!\!\!    \\
+</pre>
+<p>\end{matrix}} {  }<br />
+von Ringhomomorphismen führt.
+</p>
+</div>
+<p>}
+</p><p>Wir fassen einige einfache Eigenschaften von Morphismen zusammen.
+</p>
+<div class="latex">\inputfaktbeweistrivial<br />{K-Spektrum/Morphismus/Verknüpfung/Offene Einbettung/Fakt}<br />{Proposition}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein algebraisch abgeschlossener Körper, und seien <br />\mathl{U,X,Y,Z}{} quasiaffine Varietäten.}<br />\faktuebergang {Dann gelten folgende Aussagen.}<br />\faktfolgerung {\aufzaehlungzwei {Eine offene Einbettung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist ein
+\definitionsverweis {Morphismus}{}{.}
+} {Sind <br />\mathl{{\theta}:Z \rightarrow Y}{} und <br />\mathl{{\psi}:Y \rightarrow X}{} Morphismen, so ist auch die Verknüpfung <br />\mathl{{\psi} \circ {\theta}}{} ein Morphismus.
+}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p><br />}<br />
+</p>
+</div>
+<p><br />
+Wichtiger sind die folgenden Eigenschaften.
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{K-Spektrum/Ringhomomorphismus induziert Morphismus/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien $R$ und $S$ kommutative
+$K$-\definitionsverweis {Algebren vom endlichen Typ}{}{}
+mit zugehörigen
+$K$-\definitionsverweis {Spektren}{}{}
+<br />\mathl{X= K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} und <br />\mathl{Y= K\!-\!\operatorname{Spek}\, \left(  S  \right)}{.}}<br />\faktfolgerung {Dann ist die durch einen 
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabb {\varphi} { R } { S
+} {}
+induzierte 
+\definitionsverweis {Spektrumsabbildung}{}{}
+\maabbdisp {\varphi^*} { Y} { X
+} {}
+ein 
+\definitionsverweis {Morphismus}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir wissen bereits nach
+<a href="/wiki/Affine_Variet%C3%A4ten/K-Spektren_als_Funktor/Fakt" title="Affine Varietäten/K-Spektren als Funktor/Fakt">Satz 12.7</a>,
+dass
+\maabbdisp {} { Y = K\!-\!\operatorname{Spek}\, \left(  S  \right) } { X = K\!-\!\operatorname{Spek}\, \left(  R  \right)
+} {}
+eine stetige Abbildung ist. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+eine offene Teilmenge und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ (\varphi^*)^{-1}(U) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+das Urbild. Es sei
+\maabb {f} { U } { K
+} {}
+eine
+\definitionsverweis {algebraische Funktion
+}{}{}
+mit der Hintereinanderschaltung
+\maabb {f \circ \varphi^*} { V } { K
+} {.}
+Wir müssen zeigen, dass diese Abbildung ebenfalls algebraisch ist. Es sei dazu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ V
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ein Punkt mit dem Bildpunkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Q
+}<br />{ = }{ \varphi^*(P) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Q
+}<br />{ \in }{ D(H) 
+}<br />{ \subseteq }{ U 
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ = }{ G/H
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+auf $D(H)$ mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G, H
+}<br />{ \in }{ R
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Es ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ P
+}<br />{ \in} { (\varphi^*)^{-1}( D(H))
+}<br />{ =} { D( \varphi (H))
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gemäß
+<a href="/wiki/Affine_Variet%C3%A4ten/K-Spektren_als_Funktor/Fakt" title="Affine Varietäten/K-Spektren als Funktor/Fakt">Satz 12.7</a>.
+Wir behaupten, dass auf <br />\mathl{D( \varphi (H))}{} die Gleichheit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f \circ \varphi^*
+}<br />{ = }{ { \frac{   \varphi(G)  }{  \varphi(H)  } } 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+gilt. Dies folgt für
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \tilde{P}  
+}<br />{ \in }{ D( \varphi (H))
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+aus
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ f \circ \varphi^*   (\tilde{P})
+}<br />{ =} { f( \varphi^*(\tilde{P}) )
+}<br />{ =} { \frac{ G( \varphi^*( \tilde{P} ) )}{ H( \varphi^*( \tilde{P}) ) }
+}<br />{ =} { \frac{ ( \varphi(G)) (\tilde{P})}{( \varphi(H)) ( \tilde{P} )}
+}<br />{ } {
+}<br />}
+{}{}{.}
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br /><br /><br />\inputbemerkung<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>In der Situation von
+<a href="/wiki/K-Spektrum/Ringhomomorphismus_induziert_Morphismus/Fakt" title="K-Spektrum/Ringhomomorphismus induziert Morphismus/Fakt">Satz 16.6</a>
+ist der zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ = }{ D(f)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+gehörende 
+\definitionsverweis {Ringhomomorphismus}{}{}
+die natürliche Abbildung
+\maabbdisp {} { \Gamma (D(f), {\mathcal O} ) \cong R_f } { \Gamma ((\varphi^*)^{-1}(D(f)), {\mathcal O} ) = \Gamma (D(\varphi(f)), {\mathcal O} ) =  S_{\varphi(f)}
+} {.}
+</p>
+</div>
+<p>}
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Quasiaffine Varietät/Globale algebraische Funktion/Ist Morphismus nach affiner Geraden/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $U$ eine 
+\definitionsverweis {quasiaffine Varietät}{}{}
+über einem 
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+$K$ und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ \in }{ \Gamma (U, {\mathcal O} )
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+eine 
+\definitionsverweis {algebraische Funktion}{}{.}}<br />\faktfolgerung {Dann definiert $f$ einen
+\definitionsverweis {Morphismus}{}{}
+\maabbdisp {f} { U } { {\mathbb A}^{1}_{ K }  \cong K
+} {.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Eine stetige Abbildung liegt aufgrund von
+<a href="/wiki/K-Spektrum/Quasiaffin/Globaler_Schnitt/Stetige_Abbildung/Aufgabe" title="K-Spektrum/Quasiaffin/Globaler Schnitt/Stetige Abbildung/Aufgabe">Aufgabe 14.4</a>
+vor. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ D(s)
+}<br />{ \subseteq }{ {\mathbb A}^{1}_{K}
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine offene Teilmenge und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ W
+}<br />{ = }{ f^{-1}(V) 
+}<br />{ \subseteq }{ U
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+das Urbild davon. Es sei
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ q 
+}<br />{ =} { { \frac{   r  }{  s^n  } } 
+}<br />{ \in} { \Gamma (V, {\mathcal O} )
+}<br />{ =} { K[T]_{ s }
+}<br />{ } {
+}<br />}
+{}{}{}
+eine algebraische Funktion auf $V$. Wir müssen zeigen, dass die Verknüpfung <br />\mathl{q \circ f}{} eine algebraische Funktion auf $W$ ist. Es sei dazu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ W
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ = }{ G/H
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine Beschreibung der nach Voraussetzung algebraischen Funktion $f$ in der Umgebung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ D(H)
+}<br />{ \ni }{ P 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dann ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ ( q \circ f ) (P)
+}<br />{ =} { q (f(P))
+}<br />{ =} { \frac{r}{s^n} \left(  \frac{G}{H} (P)  \right) 
+}<br />{ =} { \frac{ r( G(P)/H(P) )}{(s(G(P)/H(P)))^n}
+}<br />{ } {
+}<br />}
+{}{}{.}
+Dabei ist der Nenner <br />\mathl{(s(G(P)/H(P)))^n}{} nicht $0$, da
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f(P)  
+}<br />{ \in }{  D(s)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ist, sodass dies eine rationale Darstellung ist.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Quasiaffine Varietät/Morphismus nach affiner Geraden/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $U$ eine quasiaffine Varietät über einem 
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+$K$, und zwar sei 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,}
+wobei $R$ eine kommutative $K$-Algebra von endlichem Typ sei.}<br />\faktfolgerung {Dann gibt es eine natürliche Bijektion
+\maabbeledisp {} { \operatorname{Mor} \,( U ,  {\mathbb A}^{1}_{K} ) } { \Gamma (U, {\mathcal O} ) 
+} { {\psi}  } { \tilde{\psi} (T)
+} {,}
+wobei $T$ die Variable in
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K[T]
+}<br />{ = }{ \Gamma ( {\mathbb A}^{1}_{K} , {\mathcal O} )
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+bezeichnet.}<br />\faktzusatz {Insbesondere sind Morphismen von $U$ in die affine Gerade durch den globalen Ringhomomorphismus
+\maabbdisp {\tilde{\psi}} { \Gamma ( {\mathbb A}^{1}_{K}, {\mathcal O} ) = K[T] } { \Gamma (U, {\mathcal O} )
+} {}
+eindeutig bestimmt.}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die Abbildung ist wohldefiniert und surjektiv. Ist nämlich eine globale algebraische Funktion
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ \in }{ \Gamma (U, {\mathcal O} )
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gegeben, so ist zunächst
+\maabb {f} { U } { K
+} {.}
+Die Variable $T$, die auf
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K
+}<br />{ = }{ {\mathbb A}^{1}_{K}
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+der identischen Abbildung entspricht, wird unter
+\zusatzklammer {der Verknüpfung mit} {} {}
+$f$ auf das Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ \in }{ \Gamma (U, {\mathcal O} )
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+abgebildet. Nach
+<a href="/wiki/Quasiaffine_Variet%C3%A4t/Globale_algebraische_Funktion/Ist_Morphismus_nach_affiner_Geraden/Fakt" title="Quasiaffine Varietät/Globale algebraische Funktion/Ist Morphismus nach affiner Geraden/Fakt">Lemma 16.8</a>
+ist $f$ ein Morphismus.
+</p><p>Die Injektivität ergibt sich, da sowohl der Morphismus als auch die algebraische Funktion durch die zugrunde liegende stetige Abbildung eindeutig festgelegt sind.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Quasiaffine Varietät/Morphismus nach affiner Varietät/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $U$ eine quasiaffine Varietät, und zwar sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right) 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+wobei $R$ eine kommutative $K$-Algebra von endlichem Typ über einem algebraisch abgeschlossener Körper $K$ sei. Es sei $S$ eine weitere kommutative $K$-Algebra von endlichem Typ.}<br />\faktfolgerung {Dann gibt es eine natürliche Bijektion
+\maabbeledisp {} { \operatorname{Mor} \,( U ,  K\!-\!\operatorname{Spek}\, \left(  S  \right) ) } { \operatorname{Hom}^{\rm alg}_{ K } \, \left(   S , \Gamma (U, {\mathcal O} )   \right)
+} { {\psi} } { \tilde{\psi}
+} {,}
+wobei $\tilde{\psi}$ den zu ${\psi}$ gehörigen globalen Ringhomomorphismus bezeichnet.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die Abbildung ist wohldefiniert. Aus
+<a href="/wiki/Quasiaffine_Variet%C3%A4t/Morphismus_nach_affiner_Geraden/Fakt" title="Quasiaffine Varietät/Morphismus nach affiner Geraden/Fakt">Satz 16.9</a>
+folgt, dass die Aussage für
+<br />\mavergleichskette<br />{\vergleichskette<br />{ S
+}<br />{ = }{ K[T]
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+richtig ist. Daraus ergibt sich, dass die Aussage für jeden Polynomring <br />\mathl{K[T_1 , \ldots , T_n]}{} richtig ist, da ein Morphismus nach ${ {\mathbb A}_{  K }^{  n   } }$ durch seine Komponenten und ein $K$-Algebrahomomorphismus durch die Einsetzungen für $T_i$ gegeben ist. Es sei nun
+<br />\mavergleichskette<br />{\vergleichskette<br />{ S
+}<br />{ = }{ K [ T_1, \ldots ,  T_{ n }]/{\mathfrak a} 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ K\!-\!\operatorname{Spek}\, \left(  S  \right)
+}<br />{ \cong} { V( {\mathfrak a} )
+}<br />{ =} { V
+}<br />{ \subseteq} { { {\mathbb A}_{  K }^{  n   } }
+}<br />{ } {
+}<br />}
+{}{}{.}
+Zu einem Morphismus
+\maabb {} { U } { K\!-\!\operatorname{Spek}\, \left(  S  \right)
+} {} 
+ist die Verknüpfung mit der abgeschlossenen Einbettung in den affinen Raum ebenfalls ein Morphismus. D.h. es liegt ein kommutatives Diagramm
+<br />\mathdisp {\begin{matrix} 
+\operatorname{Mor} \,( U ,  K\!-\!\operatorname{Spek}\, \left(  S  \right))  &amp; \stackrel{  }{\longrightarrow} &amp;  \operatorname{Hom}^{\rm alg}_{ K } \, \left(   S , \Gamma (U, {\mathcal O} )  \right)
+</p>
+<pre>&amp;  \\ \downarrow &amp; &amp; \downarrow  &amp; \\  \operatorname{Mor} \,( U ,  { {\mathbb A}_{  K }^{  n   } })  &amp; \stackrel{  }{\longrightarrow} &amp;  \operatorname{Hom}^{\rm alg}_{ K } \, \left(   K [ T_1, \ldots ,  T_{ n }] , \Gamma (U, {\mathcal O} )  \right)
+&amp; \! \! \! \!\!\!\!\! ,  \\ \end{matrix}} {  }<br />
+</pre>
+<p>vor, wobei die untere Abbildung bereits als Bijektion nachgewiesen wurde. Die vertikalen Abbildungen sind injektiv. Wir müssen daher zeigen, dass die untere Abbildung die oberen Teilmengen ineinander überführt.
+</p><p>Ein Morphismus
+\maabb {} { U } { { {\mathbb A}_{  K }^{  n   } }
+} {,}
+der 
+\zusatzklammer {als Abbildung} {} {}
+durch $V$ faktorisiert, ist auch ein Morphismus nach $V$. Die Morphismuseigenschaft ist nur für offene Mengen der Form $D(H)$ zu überprüfen,
+<br />\mavergleichskette<br />{\vergleichskette<br />{ H
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{   \tilde{H} 
+}<br />{ \in }{ K [ T_1, \ldots ,  T_{ n }]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein Repräsentant für $H$. Dann ist
+\maabb {} { K [ T_1, \ldots ,  T_{ n }]_{\tilde{H} }} { S_H
+} {}
+surjektiv und damit wird jedes Element aus $S_H$ auf eine algebraische Funktion abgebildet.
+</p><p>Auf der rechten Seite des Diagramms gehört ein Algebrahomomorphismus genau dann zur oberen Menge, wenn ${\mathfrak a}$ zum Kern gehört. Damit folgt die Aussage aus
+<a href="/wiki/K-Spektrum/Quasiaffin/Abbildung_nach_affiner_Raum_faktorisiert_durch_V_genau_dann,_wenn_Ideal_im_Kern/Aufgabe" title="K-Spektrum/Quasiaffin/Abbildung nach affiner Raum faktorisiert durch V genau dann, wenn Ideal im Kern/Aufgabe">Aufgabe 16.8</a>.
+</p>
+</div>
+}</div> 
+<p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Cone_intersects_line} {png} }<br />\end{center} <br />\bildtext {Nicht jede außerhalb der Gerade auf dem Kegel definierte Funktion lässt sich auf den affinen Raum ohne die Gerade fortsetzen.} }<br /><br />\bildlizenz { Cone intersects line.png } {} {Pmidden} {Commons} {PD} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten den Standardkegel, der als abgeschlossene Teilmenge
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{V 
+}<br />{ =} { V(X^2+Y^2-Z^2)
+}<br />{ \subseteq} { { {\mathbb A}_{ K }^{  3   } }
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gegeben sei. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{U 
+}<br />{ = }{ D(X,Z-Y) 
+}<br />{ \subseteq }{ { {\mathbb A}_{ K }^{  3   } }
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+die offene Teilmenge mit dem Durchschnitt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V \cap U
+}<br />{ = }{ D(X,Z-Y)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+\zusatzklammer {in $V$} {} {,}
+der eine offene Menge in $V$ ist. Wir behaupten, dass der zugehörige Ringhomomorphismus
+\maabbdisp {} { \Gamma (U, {\mathcal O} ) } { \Gamma ( U \cap V , {\mathcal O} ) 
+} {}
+nicht surjektiv ist. Das liegt daran, dass links einfach der Polynomring in drei Variablen steht
+\zusatzklammer {vergleiche
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossen/Affine_Ebene_ohne_einen_Punkt/Schnittring/Aufgabe" title="K-Spektrum/Algebraisch abgeschlossen/Affine Ebene ohne einen Punkt/Schnittring/Aufgabe">Aufgabe 14.24</a>} {} {.}
+Dagegen ergibt sich aus der Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ X^2
+}<br />{ =} { Z^2-Y^2
+}<br />{ =} { (Z-Y)(Z+Y)
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+dass es auf <br />\mathl{U \cap V}{} die algebraische Funktion
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \frac{X}{Z-Y}
+}<br />{ =} { \frac{Z+Y}{X}
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gibt, die nicht im Bild der Abbildung liegt, da es keine Funktion auf dem ganzen Kegel ist.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {FiberBundle_2} {png} }<br />\end{center} <br />\bildtext {Die Fasern einer Abbildung ($M$ ist der Zielbereich, der Definitionsbereich ist die Vereinigung aller Fasern; die Abbildung geht von oben nach unten).} }<br /><br />\bildlizenz { FiberBundle 2.png } {} {１３２人目'} {ja.wikipedia.org} {CC-BY-SA-3.0} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zu einem 
+\definitionsverweis {Morphismus}{}{}
+\maabb {{\psi}} { Y } { X
+} {}
+zwischen 
+\definitionsverweis {affinen Varietäten}{}{}
+bezeichnet man zu einem Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+das Urbild
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ {\psi}^{-1} (P) 
+}<br />{ \subseteq} { Y
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+als die \definitionswort {Faser}{} über $P$. Als abgeschlossene Menge von $Y$ ist sie selbst eine affine Varietät.  
+</p>
+</div>
+<p>}
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐ext.eqiad.main‐747884cc85‐2bj9k
+Cached time: 20260824075701
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.307 seconds
+Real time usage: 0.438 seconds
+Preprocessor visited node count: 12933/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 473199/2097152 bytes
+Template argument size: 139558/2097152 bytes
+Highest expansion depth: 40/100
+Expensive parser function count: 12/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  413.648      1 Vorlage:Latex
+100.00%  413.648      1 -total
+ 99.46%  411.401      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesung_16
+ 98.52%  407.511      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+ 97.80%  404.565      1 Vorlage:Kapitelnummer
+ 82.19%  339.971      2 Vorlage:Mathematischer_Textabschnitt
+ 55.76%  230.670      5 Vorlage:Inputfaktbeweis
+ 54.32%  224.700      1 Quasiaffine_Varietät/K-Spektren/Morphismen/Einführung/Textabschnitt
+ 29.61%  122.485      1 Zariski-Filter/Irreduzibel/Korrespondenz/Textabschnitt
+ 29.08%  120.305      5 Vorlage:Mathematischer_Text/Beweis
+-->
+
+<!-- Render ID 63490ed8-9f91-11f1-bd7b-9f544850d633 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165969:|#|:idhash:canonical and timestamp 20260824075701 and revision id 1033015. Rendering was triggered because: api-parse
+ -->
+</div>

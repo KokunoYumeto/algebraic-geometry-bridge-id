@@ -1,0 +1,742 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{17}<br /><br />
+</p><p>Nachdem wir nun die Theorie hinreichend weit entwickelt haben, wenden wir uns einer umfassenden Beispielsklasse zu, den \stichwort {Monoidringen} {.} 
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Monoidringe}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $M$ ein kommutatives
+\zusatzklammer {additiv geschriebenes} {} {}
+\definitionsverweis {Monoid}{}{}
+und $R$ ein
+\definitionsverweis {kommutativer Ring}{}{.}
+Dann wird der \definitionswort {Monoidring}{} $R[M]$ wie folgt konstruiert. Als
+$R$-\definitionsverweis {Modul}{}{}
+ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ R[M]
+}<br />{ =} {\bigoplus_{m \in M} R e_m
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+d.h. $R [M]$ ist der 
+\definitionsverweis {freie Modul}{}{}
+mit 
+\definitionsverweis {Basis}{}{}
+<br />\mathbed {e_m} {} <br /> {m \in M} {} <br /> {} {} {} {.}
+Die Multiplikation wird auf den Basiselementen durch
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ e_m \cdot e_k
+}<br />{ \defeq} {e_{m+k}
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+definiert und auf ganz <br />\mathl{R[M]}{} distributiv fortgesetzt. Dabei definiert das neutrale Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ 0
+}<br />{ \in }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+das neutrale Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ 1
+}<br />{ = }{ e_0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+der Multiplikation.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br /><br /><br />\inputbemerkung<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein Element in einem 
+\definitionsverweis {Monoidring}{}{}
+lässt sich eindeutig als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ f 
+}<br />{ =} { \sum_{m \in \tilde{M} } a_m e_m 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+schreiben, wobei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \tilde{M}
+}<br />{ \subseteq }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine endliche Teilmenge ist und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a_m
+}<br />{ \in }{ R 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Addiert wird komponentenweise und die Multiplikation ist explizit durch
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ f \cdot g
+}<br />{ =} { \left(  \sum_{m \in \tilde{M} } a_m e_m  \right) \left(  \sum_{k \in \bar{M} } b_k e_k  \right) 
+}<br />{ =} { \sum_{\ell \in M} \left(  \sum_{m+k = \ell, m \in \tilde{M}, k \in \bar{M} } a_mb_k  \right) e_\ell
+}<br />{ } {}<br />{ } {}<br />}
+{}{}{}
+gegeben. Dies ist mit distributiver Fortsetzung gemeint. Die Menge der $\ell$, über die hier summiert wird, ist endlich, und auch die inneren Summen sind jeweils endlich.
+</p><p>Es ist üblich, statt $e_m$ suggestiver $X^m$ zu schreiben, wobei $X$ ein Symbol ist, das an eine Variable erinnern soll. Die Multiplikationsregel
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X^m X^k
+}<br />{ = }{ X^{m+k}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+erinnert dann an die entsprechende Regel für Polynomringe. In der Tat sind Polynomringe Spezialfälle von Monoidringen, und diese Notation stammt von dort. Auch ein exakter Beweis, dass in der Tat ein Ring mit assoziativer und distributiver Multiplikation vorliegt, funktioniert wie im Fall von Polynomringen. Meistens schreibt man ein Element einfach als <br />\mathl{\sum_{m \in M } a_m X^m}{,} wobei fast alle
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a_m
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+sind. Elemente der Form $X^m$ nennt man \stichwort {Monome} {.} Die Abbildung
+\maabbele {} { M } { R[M]
+} { m } { X^m
+} {,}
+ist ein Monoidhomomorphismus, wobei rechts die multiplikative Monoidstruktur des Monoidringes genommen wird.
+</p><p>Ein Monoidring ist in natürlicher Weise eine
+$R$-\definitionsverweis {Algebra}{}{,}
+und zwar sind die Elemente $f$ aus $R$ aufgefasst in $R[M]$ gleich
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ f 
+}<br />{ =} { f \cdot 1
+}<br />{ =} { fX^0
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Man nennt daher auch $R$ den \stichwort {Grundring } {}  des Monoidringes. Monoidringe sind bereits für
+\definitionsverweis {Grundkörper}{}{}
+interessant.
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $n$ eine natürliche Zahl und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ M
+}<br />{ = }{ \N^n
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+das $n$-fache direkte Produkt der natürlichen Zahlen. Ein Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k
+}<br />{ \in }{ \N^n 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ist also ein $n$-Tupel <br />\mathl{(k_1 , \ldots ,  k_n)}{} mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k_i
+}<br />{ \in }{ \N 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dies kann man auch als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (k_1 , \ldots ,  k_n)
+}<br />{ =} { k_1(1,0,0, \ldots ,  0) + k_2(0, 1,0, \ldots ,  0) + \cdots +  k_n(0,0,0, \ldots ,  1) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+schreiben. Damit lässt sich das zugehörige Monom $X^k$ eindeutig  als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ X^k
+}<br />{ =} { X_1^{k_1 } X_2^{k_2 } \cdots X_n^{k_n }
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+schreiben, wobei wir
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X_i
+}<br />{ = }{ X^{e_i }
+}<br />{ = }{ X^{(0 , \ldots , 0,1, 0 , \ldots , 0) } 
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+für das Monom zum $i$-ten Basiselement geschrieben haben. Das bedeutet aber, dass der Monoidring zum Monoid $\N^n$ über $R$ genau der Polynomring in $n$ Variablen ist. Insbesondere ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ R[\N] 
+}<br />{ = }{ R[X]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Der Monoidring zum trivialen Monoid $\{0\}$ ist der Grundring selbst.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $n$ eine natürliche Zahl und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ M
+}<br />{ = }{ \Z^n
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+das $n$-fache direkte Produkt der ganzen Zahlen. $M$ ist also die 
+\definitionsverweis {freie kommutative Gruppe}{}{}
+vom Rang $n$. Jedes Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k
+}<br />{ \in }{ \Z^n
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ist ein $n$-Tupel <br />\mathl{(k_1 , \ldots , k_n)}{} mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k_i
+}<br />{ \in }{ \Z 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dies kann man auch  als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (k_1 , \ldots , k_n)
+}<br />{ =} { k_1(1,0,0 , \ldots ,   0) + k_2(0, 1,0 , \ldots ,  0) + \cdots +  k_n(0,0,0 , \ldots , 1)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+schreiben und das zugehörige Monom $X^k$ kann man eindeutig als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ X^k
+}<br />{ =} { X_1^{k_1 } X_2^{k_2 } \cdots X_n^{k_n } 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k_i
+}<br />{ \in }{ \Z 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+schreiben, wobei wir wie in
+<a href="/wiki/Kommutative_Monoidringe/Polynomring_als_Monoidring_(mehrere_Variablen)/Beispiel" title="Kommutative Monoidringe/Polynomring als Monoidring (mehrere Variablen)/Beispiel">Beispiel 17.3</a>
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X_i 
+}<br />{ = }{ X^{e_i }
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+geschrieben haben. Für diesen Monoidring schreibt man auch
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ R[M]
+}<br />{ =} { R[X_1 , \ldots , X_n,X_1^{-1} , \ldots ,  X_n^{-1}]
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+und dieser ist isomorph zur Nenneraufnahme des Polynomringes am Produkt der Variablen, also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ R[M]
+}<br />{ =} { R[X_1 , \ldots , X_n,X_1^{-1} , \ldots , X_n^{-1} ]
+}<br />{ =} { R[X_1 , \ldots , X_n]_{X_1 \cdots X_n }
+}<br />{ } {}<br />{ } {}<br />}
+{}{}{,}
+Diesen Ring nennt man auch den <br />\definitionswortenp{Laurent-Ring}{} in $n$ Variablen über $R$.
+</p>
+</div><p><br />
+</p><p>} 
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Universelle Eigenschaft der Monoidringe}
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Monoidringe/Universelle Eigenschaft für R-Algebren mit Monoidabbildung/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei $M$ ein
+\definitionsverweis {kommutatives Monoid}{}{.}
+Es sei $B$ eine kommutative $R$-Algebra und
+\maabbdisp {\varphi} { M } { B
+} {}
+ein 
+\definitionsverweis {Monoidhomomorphismus}{}{}
+\zusatzklammer {bezüglich der multiplikativen Struktur von $B$} {} {.}}<br />\faktfolgerung {Dann gibt es einen eindeutig bestimmten
+$R$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabbdisp {\tilde{\varphi}} { R [M] } { B
+} {}
+derart, dass das Diagramm
+<br />\mathdisp {\begin{matrix} M   &amp; \stackrel{  }{\longrightarrow} &amp;  R[M]   &amp; \\ &amp;  \searrow &amp; \downarrow &amp; \\ &amp; &amp;  B   &amp; \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }<br />
+kommutiert.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein
+$R$-\definitionsverweis {Modulhomomorphismus}{}{}
+\maabb {\tilde{\varphi}} { R[M] } { B
+} {} 
+ist festgelegt durch die Bilder der Basiselemente
+<br />\mathbed {X^m} {} <br /> {m \in M} {} <br /> {} {} {} {.}
+Das Diagramm kommutiert genau dann, wenn
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \tilde{\varphi} \left(  X^m  \right) 
+}<br />{ = }{ \varphi(m)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist. Durch diese Bedingung ist die Abbildung also eindeutig festgelegt und ist bereits ein $R$-Modulhomomorphismus. Es ist zu zeigen, dass dieser Homomorphismus auch die Multiplikation respektiert. Es ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \tilde{\varphi}(1)
+}<br />{ = }{ \tilde{\varphi} \left(  X^0  \right) 
+}<br />{ = }{ \varphi(0)
+}<br />{ =   }{ 1
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Ferner ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \tilde{\varphi} \left(  X^m X^k  \right) 
+}<br />{ =} { \tilde{\varphi} \left(  X ^{m+k}  \right) 
+}<br />{ =} { {\varphi(m+k)}
+}<br />{ =} { \varphi(m) \cdot \varphi(k) 
+}<br />{ =} { \tilde{\varphi} \left(  X^m  \right)  \cdot  \tilde{\varphi} \left(  X^k  \right) 
+}<br />}
+{}{}{.}
+Auf der Ebene der Monome respektiert die Abbildung also die Multiplikation. Daraus folgen für Elemente
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ = }{ \sum_{m \in M} a_m X^m
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ g
+}<br />{ = }{ \sum_{k \in M} b_k X^k
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+die Identitäten
+<br />\mavergleichskettealignhandlinks<br />{\vergleichskettealignhandlinks<br />{ \tilde{\varphi} \left(  \left(  \sum_{m \in M} a_m X^m  \right) \left(  \sum_{k \in M} b_k X^k  \right)  \right)  
+}<br />{ =} { \tilde{\varphi} \left(  \sum_{\ell \in M} \left(  \sum_{m+k = \ell} a_mb_k  \right) X^\ell  \right)  
+}<br />{ =} { \sum_{\ell \in M} \left(  \sum_{m+k = \ell} a_mb_k  \right) \varphi(\ell) 
+}<br />{ =} { \sum_{m,k \in M} a_mb_k \varphi(m)\varphi(k) 
+}<br />{ =} { \left(  \sum_{m \in M} a_m \varphi(m)  \right) \left(  \sum_{k \in M} b_k \varphi(k)  \right)  
+}<br />}
+{<br />\vergleichskettefortsetzungalign<br />{ =} { \tilde{\varphi} \left(  \sum_{m \in M} a_m X^m  \right)  \tilde{\varphi} \left(  \sum_{k \in M} b_k X^k  \right) 
+}<br />{ } {}<br />{ } {}<br />{ } {}<br />}
+{}{,}
+sodass die Abbildung ein Ringhomomorphismus ist.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Monoidringe/Funktorialität im Monoid/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $R$ ein 
+\definitionsverweis {kommutativer Ring}{}{.}
+Es seien $M$ und $N$ 
+\definitionsverweis {kommutative Monoide}{}{}
+und sei
+\maabbdisp {\varphi} { M } { N
+} {}
+ein 
+\definitionsverweis {Monoidhomomorphismus}{}{.}}<br />\faktfolgerung {Dann induziert dies einen
+$R$-\definitionsverweis {Algebrahomomor\-phismus}{}{}
+zwischen den zugehörigen 
+\definitionsverweis {Monoidringen}{}{}
+\maabbeledisp {\tilde{\varphi}} { R [M] } { R[N]
+} {X^m } { X^{\varphi(m)}
+} {.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Dies folgt aus
+<a href="/wiki/Kommutative_Monoidringe/Universelle_Eigenschaft_f%C3%BCr_R-Algebren_mit_Monoidabbildung/Fakt" title="Kommutative Monoidringe/Universelle Eigenschaft für R-Algebren mit Monoidabbildung/Fakt">Satz 17.5</a>
+angewandt auf die 
+$R$-Algebra
+<br />\mavergleichskette<br />{\vergleichskette<br />{ B
+}<br />{ = }{ R[N]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und den zusammengesetzten Monoidhomomorphismus <br />\mathl{M \stackrel{\varphi}{\rightarrow} N \rightarrow R[N]}{.}
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br /><br /><br />\inputbemerkung<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Eine Familie von Elementen
+<br />\mathbed {m_i \in M} {} <br /> {i \in I} {} <br /> {} {} {} {,}
+in einem Monoid $M$ ergibt einen 
+\definitionsverweis {Monoidhomomorphismus}{}{}
+\maabb {} { \N^{(I)} } { M
+} {,}
+indem das $i$-te Basiselement $e_i$ auf $m_i$ geschickt wird. Dies ist insbesondere für endliche Indexmengen
+<br />\mavergleichskette<br />{\vergleichskette<br />{ I
+}<br />{ = }{ \{ 1 , \ldots , n \}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+relevant. Der Monoidhomomorphismus induziert dann nach
+<a href="/wiki/Kommutative_Monoidringe/Funktorialit%C3%A4t_im_Monoid/Fakt" title="Kommutative Monoidringe/Funktorialität im Monoid/Fakt">Korollar 17.6</a>
+einen
+$R$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabb {} { R[\N^n] = R[X_1 , \ldots ,  X_n] } { R[M]
+} {}
+von der Polynomalgebra in den Monoidring. Diese Abbildung ist der 
+\definitionsverweis {Einsetzungshomomorphismus}{}{,}
+der durch <br />\mathl{X_i \mapsto X^{m_i }}{} gegeben ist.
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{ }<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zu einem 
+\definitionsverweis {kommutativen Monoid}{}{}
+$M$ und einem 
+\definitionsverweis {kommutativen Ring}{}{}
+$R$ nennt man einen 
+\definitionsverweis {Monoidhomomorphismus}{}{}
+\maabbdisp {} { M } { (R,\cdot,1)
+} {}
+auch einen
+\definitionswortpraemath {R}{ wertigen Punkt }{}
+von $M$.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br /><br /><br />\inputbemerkung<br />{ }<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein $R$-wertiger Punkt eines
+\definitionsverweis {Monoids}{}{}
+$M$ ist nach
+<a href="/wiki/Kommutative_Monoidringe/Universelle_Eigenschaft_f%C3%BCr_R-Algebren_mit_Monoidabbildung/Fakt" title="Kommutative Monoidringe/Universelle Eigenschaft für R-Algebren mit Monoidabbildung/Fakt">Satz 17.5</a>
+äquivalent zu einem
+$R$-\definitionsverweis {Algebrahomomorphismus}{}{}
+von $R[M]$ nach $R$. Diese Sprechweise ist insbesondere im Fall eines Grundkörpers $K$ üblich. Dann haben wir also
+<br />\mavergleichskettealign<br />{\vergleichskettealign<br />{ K\!-\!\operatorname{Spek}\, \left(  K[M]  \right)
+}<br />{ =} { \operatorname{Hom}^{\rm alg}_{ K } \, \left(  K[M] , K  \right)
+}<br />{ =} { \operatorname{Mor}_{ \operatorname{mon} } \, ( M ,  K)
+}<br />{ =} { \{K-\text{wertige Punkte von } M \}
+}<br />{ } {}<br />}
+{}
+{}{.}
+Das bedeutet, dass hier das $K$-Spektrum bereits auf der Ebene des Monoids eine einfache Beschreibung besitzt, die rein multiplikativ ist. Das impliziert, wie wir sehen werden, dass es für die $K$-Spektren der Monoidringe im Allgemeinen eine viel übersichtlichere Beschreibung gibt als sonst. Man beachte allerdings, dass zur Definition der Zariski-Topologie und der Garbe der algebraischen Funktionen auf <br />\mathl{K\!-\!\operatorname{Spek}\, \left(  K[M]   \right)}{} der Monoidring unverzichtbar ist.
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br /><br /><br />\inputbemerkung<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein kommutatives Monoid wird häufig durch endlich viele Erzeuger <br />\mathl{e_1 , \ldots , e_r}{} zusammen mit binomialen Gleichungen zwischen den Erzeugern beschrieben. Diese sind von der Form
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ n_1e_1 + \cdots + n_r e_r
+}<br />{ =} { m_1e_1 + \cdots + m_r e_r
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ n_i
+}<br />{ \in }{ \N 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Ein
+$K$-\definitionsverweis {wertiger Punkt}{}{}
+\maabb {\varphi} { M } { K
+} {}
+ist durch die Werte
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a_i
+}<br />{ = }{ \varphi(e_i)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eindeutig festgelegt. Dabei muss die Bedingung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ a_1^{n_1 } \cdots a_r^{n_r} 
+}<br />{ =} { a_1^{m_1 } \cdots a_r^{m_r} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+erfüllt sein, und zwar für jede im Monoid gültige binomiale Gleichung.
+</p>
+</div>
+<p>}
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Monoidringe/Funktorialität im Monoid/Surjektivität/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $R$ ein von $0$ verschiedener 
+\definitionsverweis {kommutativer Ring}{}{.}
+Es seien $M$ und $N$ 
+\definitionsverweis {kommutative Monoide}{}{}
+und sei
+\maabb {\varphi} { M } { N
+} {}
+ein 
+\definitionsverweis {Monoidhomomorphismus}{}{.}}<br />\faktfolgerung {Dann ist $\varphi$ genau dann injektiv
+\zusatzklammer {surjektiv} {} {,}
+wenn der zugehörige
+$R$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabb {\tilde{\varphi}} { R[M] } { R[N]
+} {}
+injektiv
+\zusatzklammer {surjektiv} {} {}
+ist.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $\varphi$ injektiv, und angenommen, dass
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \tilde{\varphi} \left(  \sum_{m \in M} a_mX^m  \right)
+}<br />{ =} { \sum_{m \in M} a_m X^{\varphi(m)}
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Da die \mathind { \varphi(m)  } { m \in M   }{,} alle verschieden sind, folgt daraus
+<br />\mavergleichskette<br />{\vergleichskette<br />{a_m
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Ist umgekehrt $\varphi$ nicht injektiv, sagen wir \mathind {  \varphi(m)= \varphi(k) } {  m \neq k }{,} so ist auch
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \tilde{\varphi} (X^m)
+}<br />{ = }{ \tilde{\varphi} (X^k)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+obwohl
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X^m 
+}<br />{ \neq }{ X^k
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist.
+</p><p>Ist $\varphi$ surjektiv, so kann man für ein beliebiges Element <br />\mathl{\sum_{n \in N} a_nX^n}{} aus $R[N]$ sofort ein Urbild angeben, nämlich <br />\mathl{\sum_{n \in N} a_nX^{m_n }}{,} wobei $m_n$ ein beliebiges Urbild von $n$ sei. Ist hingegen $\varphi$ nicht surjektiv, so sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ n
+}<br />{ \in }{ N
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ein Element, das nicht zum Bild gehört. Dann ist das Monom $X^n$ von $0$ verschieden und kann nicht im Bild des Algebrahomomorphismus liegen.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Monoidringe/Erzeugendensystem für Monoid und Polynomring/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $R$ ein von $0$ verschiedener 
+\definitionsverweis {kommutativer Ring}{}{.}
+Es sei $M$ ein 
+\definitionsverweis {kommutatives Monoid}{}{}
+und \mathind { m_i \in M  } { i \in I   }{,} eine Familie von Elementen aus $M$.}<br />\faktfolgerung {Dann bilden die $m_i$ genau dann ein Monoid-Erzeugendensystem für $M$, wenn die \mathind { X^{m_i }  } { i \in I   }{,} ein $R$-Algebra-Erzeugendensystem für den Monoidring $R[M]$ bilden.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die \mathind { m_i   } { i \in I   }{,} bilden genau dann ein 
+\definitionsverweis {Monoid-Erzeugendensystem}{}{}
+für $M$, wenn der 
+\definitionsverweis {Monoidhomomorphismus}{}{}
+\maabb {} {{\N}^{(I)}} {M
+} {}
+surjektiv ist.
+Dies ist nach
+<a href="/wiki/Kommutative_Monoidringe/Funktorialit%C3%A4t_im_Monoid/Surjektivit%C3%A4t/Fakt" title="Kommutative Monoidringe/Funktorialität im Monoid/Surjektivität/Fakt">Lemma 17.11</a>
+genau dann der Fall, wenn der zugehörige Homomorphismus
+\maabbeledisp {} {R[X_i, i \in I] } { R[M]
+} {X_i } { X^{m_i }
+} {,}
+surjektiv ist. Dies ist aber genau dann der Fall, wenn die $X^{m_i }$ ein $R$-Algebra-Erzeugendensystem bilden.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Monoidringe/Funktorialität im Ring/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und $S$ eine
+$R$-\definitionsverweis {Algebra}{}{.}
+Es sei $M$ ein
+\definitionsverweis {kommutatives Monoid}{}{.}}<br />\faktfolgerung {Dann gibt es einen natürlichen
+$R$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabbeledisp {} {R[M] } { S[M]
+} { \sum_{m \in M} a_mX^m } { \sum_{m \in M} a_mX^m
+} {,}
+\zusatzklammer {die Koeffizienten aus $R$ werden also einfach in $S$ aufgefasst} {} {.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Dies folgt aus
+<a href="/wiki/Kommutative_Monoidringe/Universelle_Eigenschaft_f%C3%BCr_R-Algebren_mit_Monoidabbildung/Fakt" title="Kommutative Monoidringe/Universelle Eigenschaft für R-Algebren mit Monoidabbildung/Fakt">Satz 17.5</a>,
+angewandt auf die $R$-Algebra $S[M]$ und den Monoidhomorphismus <br />\mathl{M \rightarrow S[M]}{.}
+</p>
+</div>
+}</div> 
+<p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Differenzengruppe zu einem Monoid}
+</p><p>Wir interessieren uns nun für die Frage, wann ein Monoidring ein Integritätsbereich ist
+\zusatzklammer {was nur bei integrem Grundring sein kann} {} {}
+und wie man dann den Quotientenkörper beschreiben kann. Da im Quotientenkörper jedes von $0$ verschiedene Element invertierbar sein muss, gilt das insbesondere für die Monome
+<br />\mathbed {T^m} {} <br /> {m \in M} {} <br /> {} {} {} {,}
+und es liegt nahe, nach einer additiven Gruppe zu suchen, die $M$ umfasst.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $M$ ein 
+\definitionsverweis {kommutatives Monoid}{}{.}
+Dann nennt man die Menge der \definitionswort {formalen Differenzen}{}
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \Gamma(M)
+}<br />{ =} { \left\{  m-n  \mid   m ,n \in M         \right\}  
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit der Addition
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \left(  m_1-n_1  \right)  + \left(  m_2-n_2  \right) 
+}<br />{ \defeq} { \left(  m_1+m_2  \right)  - \left(  n_1+n_2  \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+und der Identifikation 
+<br />\mathdisp {m_1-n_1 =m_2-n_2 \, \text{ falls es ein } m \in M \text{ gibt mit } m+m_1+n_2 = m+m_2+n_1} { . }<br />
+die \definitionswort {Differenzengruppe}{} zu $M$.  
+</p>
+</div>
+<p>}
+</p><p>Wir überlassen es dem Leser als Aufgabe, zu zeigen, dass die Differenzengruppe wirklich eine Gruppe ist, siehe
+<a href="/wiki/Kommutative_Monoidtheorie/Differenzengruppe/Gruppe/Aufgabe" title="Kommutative Monoidtheorie/Differenzengruppe/Gruppe/Aufgabe">Aufgabe 17.13</a>.
+Die vorstehende Konstruktion ist natürlich der Konstruktion von Quotientenkörpern nachempfunden, man muss nur die multiplikative Schreibweise dort additiv umdeuten. Die Konstruktion der Differenzengruppe ist eigentlich elementarer. Die Differenzengruppe zum additiven Monoid $\N$ ist natürlich $\Z$. Die Elemente in einem Monoid kann man direkt im Differenzenmonoid auffassen, und zwar durch den Monoidhomomorphismus
+\maabbeledisp {} { M } { \Gamma(M)
+} { m } { m-0
+} {.}
+wobei wir statt <br />\mathl{m-0}{} einfach $m$ schreiben. Völlig unproblematisch ist dieser Übergang aber doch nicht, da diese Abbildung im Allgemeinen nicht injektiv sein muss. Das hat damit zu tun, dass in der obigen Definition bei der Identifizierung links und rechts ein $m$ auftreten darf
+\zusatzklammer {und das lässt sich auch nicht vermeiden} {} {.}
+Natürlich will man auch diejenigen Monoide charakterisieren, für die man dieses Extra-$m$ nicht braucht.
+</p><p><br /><br /><br />
+\inputdefinition<br />{ }<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Man sagt, dass in einem 
+\definitionsverweis {kommutativen Monoid}{}{}
+$M$ die \definitionswort {Kürzungsregel}{} gilt
+\zusatzklammer {oder dass $M$ ein \definitionswort {Monoid mit Kürzungsregel}{} ist} {} {,}
+wenn aus einer Gleichung
+<br />\mathdisp {m+n=m+k \text{ mit } m,n,k \in M} { , }<br />
+stets 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ n
+}<br />{ = }{ k
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+folgt.  
+</p>
+</div>
+<p>}
+</p><p>Für ein solches Monoid ist die Abbildung in die Differenzengruppe injektiv, siehe
+<a href="/wiki/Monoid/Zugeh%C3%B6rige_Differenzengruppe/Charakterisierungen_K%C3%BCrzungsregel/Aufgabe" title="Monoid/Zugehörige Differenzengruppe/Charakterisierungen Kürzungsregel/Aufgabe">Aufgabe 17.16</a>.
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐7845465fdf‐pkzm2
+Cached time: 20260823035016
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.220 seconds
+Real time usage: 0.302 seconds
+Preprocessor visited node count: 12871/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 398007/2097152 bytes
+Template argument size: 117608/2097152 bytes
+Highest expansion depth: 34/100
+Expensive parser function count: 6/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  286.660      1 Vorlage:Latex
+100.00%  286.660      1 -total
+ 99.39%  284.909      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesung_17
+ 98.55%  282.516      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+ 97.75%  280.206      1 Vorlage:Kapitelnummer
+ 93.19%  267.129      3 Vorlage:Mathematischer_Textabschnitt
+ 56.57%  162.156      1 Monoidring/Universelle_Eigenschaft/Funktorialität/Einführung/Textabschnitt
+ 37.42%  107.265      5 Vorlage:Inputfaktbeweis
+ 31.06%   89.026      1 Monoidring/Eigenschaften/Einführung/Textabschnitt
+ 20.91%   59.941      4 Vorlage:Inputdefinition
+-->
+
+<!-- Render ID c067964c-9ea5-11f1-84fb-5f2b1b596271 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165970:|#|:idhash:canonical and timestamp 20260823035016 and revision id 1033016. Rendering was triggered because: page_view
+ -->
+</div>
