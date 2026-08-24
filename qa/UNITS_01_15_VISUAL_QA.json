@@ -1,0 +1,109 @@
+{
+  "schema": "ag-bridge-visual-qa-v1",
+  "checked_utc": "2026-08-24T07:10:32.8478072Z",
+  "status": "PASS",
+  "result": "PASS",
+  "through_unit": 15,
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-15.pdf",
+    "bytes": 6502255,
+    "sha256": "e56aae414a9d7e252485d06e7da790fae9bf972514c8fe47fc31d26eddd3699c",
+    "pages": 267
+  },
+  "scope": {
+    "language": "id-ID",
+    "through_unit": 15,
+    "pdf": "build/reader-id/algebraic-geometry-bridge-id-units-01-15.pdf",
+    "pdf_bytes": 6502255,
+    "pdf_sha256": "e56aae414a9d7e252485d06e7da790fae9bf972514c8fe47fc31d26eddd3699c",
+    "pages": 267,
+    "page_size": "A4",
+    "encrypted": false
+  },
+  "deterministic_raster": {
+    "renderer": "pdftoppm",
+    "resolution_dpi": 96,
+    "page_manifest": "qa/UNITS_01_15_VISUAL_PAGE_MANIFEST.json",
+    "page_manifest_bytes": 88457,
+    "page_manifest_sha256": "da7bf8ccd92eb50432553d88f613312d8da9c7d9163f7c9ca3740effded51e4e",
+    "page_png_count": 267,
+    "dimensions_px": [794, 1123],
+    "total_png_bytes": 30914668,
+    "visible_ink_threshold_gray_lt": 248,
+    "minimum_visible_ink_fraction": 0.004389555683655915,
+    "minimum_visible_ink_page": 267,
+    "maximum_visible_ink_fraction": 0.578810132090411,
+    "maximum_visible_ink_page": 29,
+    "blank_pages_detected": 0,
+    "dimension_mismatches": 0
+  },
+  "visual_inspection": {
+    "all_page_contact_sheets": [
+      "pages 1-20",
+      "pages 21-40",
+      "pages 41-60",
+      "pages 61-80",
+      "pages 81-100",
+      "pages 101-120",
+      "pages 121-140",
+      "pages 141-160",
+      "pages 161-180",
+      "pages 181-200",
+      "pages 201-220",
+      "pages 221-240",
+      "pages 241-260",
+      "pages 261-267"
+    ],
+    "full_size_pages_checked": [
+      216,
+      220,
+      223,
+      229,
+      234,
+      235,
+      238,
+      246,
+      247,
+      249,
+      252,
+      255,
+      261,
+      264,
+      266,
+      267
+    ],
+    "checks": {
+      "populated_and_legible": "PASS",
+      "consistent_margins_and_page_numbers": "PASS",
+      "no_clipping_or_overlap": "PASS",
+      "no_black_boxes_or_broken_glyphs": "PASS",
+      "unit_13_image_present_and_centered": "PASS",
+      "unit_14_image_present_and_centered": "PASS",
+      "unit_15_image_present_centered_and_page_filling": "PASS",
+      "unit_13_14_15_solution_headings_intact": "PASS",
+      "unit_boundaries_and_rights_pages_intact": "PASS"
+    }
+  },
+  "new_boundary_observations": [
+    {
+      "pages": [216, 220, 229],
+      "finding": "Unit 13 begins cleanly; its full-page image is centered and legible; the public-solutions section begins intact."
+    },
+    {
+      "pages": [234, 238, 246, 247],
+      "finding": "Unit 14 begins without collision, the monkey-saddle image is centered, the sparse final-exercise page is intentional, and the public-solutions heading is intact."
+    },
+    {
+      "pages": [249, 252, 255, 261, 264, 266, 267],
+      "finding": "Unit 15, its concentric-circles image, worksheet transition, public solutions, and rights pages render cleanly. The final sparse credit page is intentional and nonblank."
+    }
+  ],
+  "findings_resolved_before_freeze": [
+    {
+      "location": "Unit 15 public solution 15.6",
+      "finding": "The first PDF build used an unsupported diagram spacing command.",
+      "resolution": "Re-expressed the two vertical arrow labels with standard downward-arrow notation, reran Unit 15 translation QA, rebuilt the PDF, and verified the final diagram at full size on page 261."
+    }
+  ],
+  "conclusion": "All 267 final PDF pages were rasterized and inspected through 14 contact sheets. New unit boundaries, images, mathematics, exercises, public solutions, and rights pages were additionally inspected at full size. No unresolved visual or formatting defect remains."
+}

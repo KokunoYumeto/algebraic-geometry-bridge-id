@@ -1,0 +1,92 @@
+{
+  "schema": "brenner-unit-media-closure-v2",
+  "unit": 15,
+  "authority_only_boundary": true,
+  "reader_media_positions": 1,
+  "animated_html_positions": 0,
+  "unique_local_assets": 2,
+  "metadata_file": {
+    "file": "authority/commons-imageinfo-unit-15.json",
+    "bytes": 13862,
+    "sha256": "860588698c312dcf2909d9d8fdf41cd6f7b56a8223fb11f2de156c611f20fdb3"
+  },
+  "commons_reported_thumbnail_dimensions": [
+    500,
+    500
+  ],
+  "decoded_thumbnail_dimensions": [
+    500,
+    501
+  ],
+  "thumbnail_dimension_note": "Commons reports 500x500; the returned PNG decodes as 500x501, retained byte-exactly.",
+  "rights_file": "authority/RIGHTS-unit-15.csv",
+  "rights_bytes": 1980,
+  "rights_sha256": "28ed5e373e07f80cef981315733e53069bdcf8f14c4447d1d21c3fabb2b5f4d7",
+  "reader_credits_file": "source/id-ID/media-credits-unit-15.md",
+  "reader_credits_bytes": 424,
+  "reader_credits_sha256": "ccb29926735e5cdf47f628e2a66cf8c8e9017d64f3357a116e7e5abec3c41734",
+  "official_pdf_witnesses_are_not_media_positions": true,
+  "official_pdf_component_rights": [
+    {
+      "title": "File:Algebraische Kurven (Osnabrück 2025-2026)Vorlesung15.pdf",
+      "pageid": 178907962,
+      "revid": 1228811373,
+      "timestamp": "2026-06-10T03:37:19Z",
+      "mediawiki_sha1": "1446b60a6dc087ae3c58395d10674470ef9fe586",
+      "description_wikitext_bytes": 321,
+      "description_wikitext_sha256": "59dd7ad34a4668f265d33c847672a911b51cb6070d341edd69e78ed8840ed354",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)Vorlesung15.pdf",
+      "artist": "User:Bocardodarapti",
+      "credit": "Own work",
+      "license_short": "CC BY-SA 4.0",
+      "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution_required": "true",
+      "local_path": "authority/artifacts/lecture-15-official.pdf",
+      "local_bytes": 206189,
+      "local_sha256": "f8682cc415719772732e897d005be59f1f261c24a7cb8b1b71886d972b1c92ed",
+      "source_bytes": 206189,
+      "source_sha1": "fdbe144f26f7bbaca39ea4b7c905080030f8e40d",
+      "source_timestamp": "2026-02-02T16:02:26Z"
+    },
+    {
+      "title": "File:Algebraische Kurven (Osnabrück 2025-2026)Arbeitsblatt15.pdf",
+      "pageid": 182948678,
+      "revid": 1168719643,
+      "timestamp": "2026-02-19T14:51:42Z",
+      "mediawiki_sha1": "ae37a8e4125f48efa929c4502b350636c2ca6553",
+      "description_wikitext_bytes": 327,
+      "description_wikitext_sha256": "8288479bc804f5f7ca79a172dc61d2dde02d91081ae6eb1fc4996fc8457153e9",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)Arbeitsblatt15.pdf",
+      "artist": "User:Bocardodarapti",
+      "credit": "Own work",
+      "license_short": "CC BY-SA 4.0",
+      "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution_required": "true",
+      "local_path": "authority/artifacts/worksheet-15-official.pdf",
+      "local_bytes": 160974,
+      "local_sha256": "242b92bb6c752d3ed4d49d1396f3643376c2e7140fd2e99db22b2b99eb99c59a",
+      "source_bytes": 160974,
+      "source_sha1": "9d3385fce6ab3d6a3930db2c39093779556a9e98",
+      "source_timestamp": "2026-02-02T13:41:59Z"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "br-ak-u15-media-001",
+      "repository": "commons",
+      "metadata_title": "File:Concentric Circles.svg",
+      "local_path": "authority/assets/Concentric_Circles.svg",
+      "local_bytes": 1322,
+      "local_sha256": "6f0e0f26b61f100e45ac7bc5b8848277f5dbdc65800590a6995bf3a40238fe0b",
+      "pdf_local_path": "authority/assets/Concentric_Circles-500.png",
+      "pdf_local_bytes": 28917,
+      "pdf_local_sha256": "72640399ebd372c13b73037f056081de05bdf09ced7210ae16b668a298943b98",
+      "selected_form": "original Commons SVG",
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "html_animation_preserved": false
+    }
+  ]
+}

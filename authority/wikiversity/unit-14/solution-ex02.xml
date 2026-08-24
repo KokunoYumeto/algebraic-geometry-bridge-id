@@ -1,0 +1,187 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Integritätsbereich/Faktoriell/K-Spektrum/Algebraische Abbildung/Eindeutige Darstellung/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>168430</id>
+    <revision>
+      <id>1068085</id>
+      <timestamp>2026-01-31T10:04:00Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <comment>Automatische Zusammenfassung: Die Seite wurde neu angelegt.</comment>
+      <origin>1068085</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2097" sha1="ffby1hjlmkyx4myjoa3vn3uj04135wi" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei
+{{
+Relationskette/display
+| U
+|| \bigcup_{i \in I} D(H_i )
+|| 
+|| 
+|| 
+|SZ=
+}}
+mit einer endlichen Menge {{math|term= I |SZ=,}} und {{math|term= f |SZ=}} habe auf den {{math|term= U_i |SZ=}} eine Beschreibung der Form
+{{
+Relationskette/display
+| f
+||  {{op:Bruch|F_i|H_i}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+im Sinne von
+{{
+Relationskette/display
+| f(Q)
+|| {{op:Bruch|F_i (Q) |H_i(Q) }} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle
+{{
+Relationskette
+| Q
+| \in | D(H_i)
+||
+||
+||
+|SZ=.
+}}
+Auf den Durchschnitten {{mathl|term= D(H_i) \cap D(H_j) |SZ=}}  gilt
+{{
+Relationskette/display
+|   {{op:Bruch|F_i (Q) |H_i(Q) }}
+||  f (Q)
+||  {{op:Bruch|F_j (Q) |H_j(Q) }}
+|| 
+|| 
+|SZ=. 
+}}
+Dies bedeutet
+{{
+Relationskette/display
+|  H_j(Q) F_i(Q) -H_i(Q) F_j(Q)
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle 
+{{
+Relationskette
+| Q
+| \in |  D(H_i) \cap D(H_j)
+||
+||
+||
+|SZ=.
+}}
+Damit ist  {{mathl|term=  H_iH_j  {{makl| H_j  F_i  -H_i  F_j  |}}  |SZ=}} auf ganz {{mathl|term=  {{op:KSpek| R |}}  |SZ=}} die Nullabbildung. Wegen der Integrität und der algebraischen Abgeschlossenheit folgt daraus, dass
+{{
+Relationskette/display
+|   H_iH_j  {{makl| H_j  F_i  -H_i  F_j  |}}
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+in {{math|term= R |SZ=}} ist und damit, dass
+{{
+Relationskette/display
+|   H_j  F_i  -H_i  F_j
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist. Also ist
+{{
+Relationskette/display
+| H_j F_i
+|| H_i F_j
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Aufgrund der eindeutigen Primfaktorzerlegung gibt es Elemente {{math|term= A,B,C,D |SZ=}} und eine Einheit {{math|term= u |SZ=}} mit
+{{
+Relationskette/display
+| H_j F_i
+|| (AB)(CD)
+|| (u^{-1} AD)( u BC) 
+|| H_i F_j
+|| 
+|SZ=.
+}}
+Dann ist
+{{
+Relationskette/display
+|   {{op:Bruch|F_i|H_i}} 
+||   {{op:Bruch|u CD|AD}} 
+||   {{op:Bruch|u C|A}} 
+||  {{op:Bruch|u BC| AB}} 
+||  {{op:Bruch|F_j|H_j}} 
+|SZ=
+}}
+und die Bruchbeschreibung {{mathl|term= {{op:Bruch|u C|A}} |SZ=}} gilt auf {{mathl|term= U_i \cup U_j |SZ=.}} In dieser Weise kann man die Indexmenge {{math|term= I |SZ=}} verkleinern bis sie einelementig wird.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}</text>
+      <sha1>ffby1hjlmkyx4myjoa3vn3uj04135wi</sha1>
+    </revision>
+  </page>
+</mediawiki>

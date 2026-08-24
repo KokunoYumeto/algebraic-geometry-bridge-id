@@ -1,0 +1,2088 @@
+\setcounter{section}{14}
+
+
+
+
+
+
+  \zwischenueberschrift{Algebraische Funktionen auf Varietäten}
+
+Was ist ein Morphismus zwischen zwei affin-algebraischen Mengen $V$ und $W$? Wir betrachten zuerst die Situation, wo
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{  {\mathbb A}^{1}_{K}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die affine Gerade ist. Sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ V(  {\mathfrak a} )
+}
+{ \subseteq }{ { {\mathbb A}_{ K }^{ n  } }
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als abgeschlossene Teilmenge eines affinen Raumes gegeben. Dann liefert jedes Polynom
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{  K[X_1  , \ldots ,  X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Abbildung
+\maabb {F} { { {\mathbb A}_{ K }^{ n  } } } { {\mathbb A}^{1}_{K}  = K
+} {}
+und damit durch Einschränkung auch eine Abbildung auf $V$. Das haben wir schon bei der Definition des Koordinatenrings betrachtet. Ebenso liefert ein Element
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in einer endlich erzeugten $K$-Algebra $R$ eine Funktion auf $K\!-\!\operatorname{Spek}\, \left(  R  \right)$, nämlich
+\maabbeledisp {} { K\!-\!\operatorname{Spek}\, \left(  R  \right) } { {\mathbb A}^{1}_{K}
+} { P } { F(P)
+} {.}
+Dies ist auch die
+\definitionsverweis {Spektrumsabbildung}{}{,}
+die nach
+
+Proposition 12.8  (2)
+
+zum
+\definitionsverweis {Einsetzungshomomorphismus}{}{}
+\maabbeledisp {} {K[T]  } { R
+} {T} { F
+} {,}
+gehört.
+
+Für die offenen Mengen
+
+\mavergleichskette
+{\vergleichskette
+{  D(F)
+}
+{ \cong }{ K\!-\!\operatorname{Spek}\, \left(  R_F  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist $1/F$
+nach
+Satz 13.4
+
+eine wohldefinierte Funktion. Wir werden allgemein für eine Zariski-offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+erklären, was eine algebraische Funktion auf $U$ ist. Die folgende Definition ist so strukturiert, dass die Bedingung \anfuehrung{algebraisch}{} eine \stichwort {lokale Eigenschaft} {} ist.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt,
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Zariski-offene Menge}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und es sei
+\maabb {f} { U } { {\mathbb A}^{1}_{ K } = K
+} {}
+eine Funktion. Dann heißt $f$ \definitionswort {algebraisch}{}
+\zusatzklammer {oder \definitionswort {regulär}{} oder \definitionswort {polynomial}{}} {} {}
+im Punkt $P$, wenn es Elemente
+
+\mavergleichskette
+{\vergleichskette
+{ G,H
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ D(H)
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und mit
+
+\mathdisp {f(Q)= { \frac{  G(Q) }{ H(Q) } } \text{ für alle } Q \in D(H)} { . }
+
+Die Funktion $f$ heißt \definitionswort {algebraisch}{}
+\zusatzklammer {oder \definitionswort {algebraisch auf $U$ }{}} {} {,}
+wenn $f$ in jedem Punkt von $U$ algebraisch ist.
+
+
+
+
+
+}
+
+Natürlich definiert jedes Element
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine algebraische Funktion auf jeder offenen Teilmenge des $K$-Spektrums. Es ist aber im Allgemeinen eher schwierig, die algebraischen Funktionen übersichtlich zu beschreiben.
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+In der
+
+Definition 14.1
+
+ist die Bedingung
+
+\mavergleichskette
+{\vergleichskette
+{ D(H)
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nicht wichtig. Wenn es eine Beschreibung für $f$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ G/H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf
+\mathl{D(H)}{} mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ D(H)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt, so betrachtet man ein $H'$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ D(H')
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ D(H')
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann kann man zu
+
+\mavergleichskette
+{\vergleichskette
+{ D(H) \cap D(H')
+}
+{ = }{ D( H H' )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+übergehen, und dort die Darstellung
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ (GH')/(HH')
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+betrachten.
+
+Wenn es im Punkt $P$ eine Bruchdarstellung für $f$ als
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ G/H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt, so kann man diese Darstellung für alle Punkte aus
+\mathl{D(H)}{} verwenden. D.h. $f$ ist auf der ganzen offenen Menge
+\mathl{D(H)}{} algebraisch. Insbesondere muss man nicht mit unendlich vielen verschiedenen Darstellungen arbeiten, sondern man kann sich auf die
+\zusatzklammer {endlich vielen} {} {}
+Darstellungen
+\mathl{G_i/H_i}{} zu einer Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \bigcup_{i \in I} D(H_i)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beschränken.
+
+Bei
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ = }{ {\mathbb C}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist eine algebraische Funktion auch stetig bezüglich der metrischen Topologie, und bei
+
+\mavergleichskette
+{\vergleichskette
+{ R
+}
+{ = }{ {\mathbb C}[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist sie \stichwort {holomorph} {.}
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ V(WX-ZY)
+}
+{ \subseteq }{ { {\mathbb A}_{  K  }^{  4   } }
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ D(X,Y)
+}
+{ = }{ D(X) \cup D(Y)
+}
+{ \subset   }{ V
+}
+{   }{
+}
+}
+{}{}{}
+die durch $X$ und $Y$ definierte Zariski-offene Menge. Auf $U$ ist die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f
+}
+{ =} { { \frac{   Z  }{  X } }
+}
+{ =} { { \frac{   W  }{  Y } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definierte Funktion algebraisch. Die beiden rationalen Darstellungen liefern offenbar eine algebraische Funktion auf den beiden offenen Teilmengen $D(X)$ und $D(Y)$. Damit es eine Funktion auf $U$ definiert, muss sichergestellt werden, dass die Brüche auf dem Durchschnitt, also auf
+
+\mavergleichskette
+{\vergleichskette
+{ D(X) \cap D(Y)
+}
+{ = }{ D(XY)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die gleichen Funktionswerte haben. Es sei also
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ (w,x,y,z)
+}
+{ \in }{ D(XY)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+D.h.
+
+\mavergleichskette
+{\vergleichskette
+{ x,y
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ wx
+}
+{ = }{ zy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist aber sofort
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \frac{Z}{X}(Q)
+}
+{ =} { \frac{z}{x}
+}
+{ =} { \frac{w}{y}
+}
+{ =} { \frac{W}{Y}(Q)
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische Funktion auf offener Menge/Ring/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Zariski-offene}{}{}
+Menge.}
+\faktfolgerung {Dann bildet die Menge der
+\definitionsverweis {algebraischen Funktionen}{}{}
+auf $U$ einen Unterring
+\zusatzklammer {und zwar eine $K$-Unteralgebra} {} {}
+des Rings der Funktionen von $U$ nach $K$}
+\faktzusatz {\zusatzklammer {wobei die Operationen in $K$ ausgeführt werden} {} {.}}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir müssen zeigen, dass die konstante Nullfunktion und die konstante Einsfunktion auf $U$, das Negative einer algebraischen Funktion, und die Summe und das Produkt von zwei algebraischen Funktionen auf $U$ wieder algebraisch sind. Wir beschränken uns auf die Summe der algebraischen Funktionen $f_1$ und $f_2$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt. Nach Voraussetzung gibt es Elemente
+
+\mavergleichskette
+{\vergleichskette
+{ G_1,H_1,G_2,H_2
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mathdisp {f_1(Q) = \frac{G_1(Q)}{H_1(Q)} \text{ für alle }
+ \mathdisplaybruch Q \in D(H_1) \subseteq U, P \in D(H_1)} { , }
+
+und
+
+\mathdisp {f_2(Q) = \frac{G_2(Q)}{H_2(Q)}  \text{ für alle }
+ \mathdisplaybruch Q \in  D(H_2) \subseteq U, P \in D(H_2)} { . }
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ \defeq} { H_1 H_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ D(H)
+}
+{ = }{ D(H_1) \cap D(H_2)
+}
+{ \subseteq   }{ U
+}
+{   }{
+}
+}
+{}{}{.}
+Für einen beliebigen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ D(H)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dann
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (f_1+f_2)(Q)
+}
+{ =} { f_1(Q)+f_2(Q)
+}
+{ =} { \frac{G_1(Q)}{H_1(Q)} + \frac{G_2(Q)}{H_2(Q)}
+}
+{ =} { \frac{G_1(Q)H_2(Q) + G_2(Q) H_1(Q)}{H_1(Q) H_2(Q) }
+}
+{ =} { \frac{ (G_1H_2+G_2H_1)(Q) }{(H_1H_2)(Q)}
+}
+}
+{}
+{}{,}
+was eine polynomiale Darstellung der Summenfunktion in der Zariski-offenen Umgebung
+\mathl{D(H)}{} des Punktes $P$ ergibt.
+
+
+
+
+}
+
+
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Zariski-offene Menge}{}{.}
+Dann bezeichnet man mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma (U, {\mathcal O} )
+}
+{ =} { \left\{ f:U \longrightarrow K  \mid  f \text{ ist algebraisch}         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+den \definitionswort {Ring der algebraischen Funktionen}{} auf $U$. Man bezeichnet ihn auch als \definitionswort {Strukturring zu}{} $U$ oder als \definitionswort {Schnittring}{} zu $U$.
+
+
+
+
+
+}
+
+Aufgrund von
+
+Lemma 14.4
+
+handelt es sich in der Tat um einen Ring. Das Symbol $\mathcal O$
+\zusatzklammer {sprich \anfuehrung{O}{}} {} {}
+bezeichnet die sogenannte \stichwort {Strukturgarbe} {.}
+
+
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Ring der algebraischen Funktionen/Restriktion/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine $K$-
+\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$. Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ U_1
+}
+{ \subseteq }{ U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offene Teilmengen von $V$.}
+\faktfolgerung {Dann gibt es einen natürlichen
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabbdisp {} { \Gamma (U_2 , {\mathcal O} ) } { \Gamma (U_1 , {\mathcal O} )
+} {.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Funktion
+\maabb {f} { U_2 } { K
+} {}
+liefert sofort durch Einschränkung eine auf $U_1$ definierte Funktion. Die lokal-algebraische Beschreibung, die für $f$ an jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vorliegt, kann direkt auf der kleineren Teilmenge $U_1$ interpretiert werden.
+
+
+
+
+}
+
+
+
+Die im vorstehenden Lemma beschriebene Abbildung heißt \stichwort {Restriktionsabbildung} {} oder \stichwort {Einschränkungsabbildung } {.}
+
+
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Ring der algebraischen Funktionen/U subseteq D(f)/Unabhängigkeit/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ D(F)
+}
+{ \subseteq }{ V
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Menge.}
+\faktfolgerung {Dann ist es egal, ob man
+\mathl{\Gamma (U, {\mathcal O} )}{} mit Bezug auf $V$ oder mit Bezug auf
+
+\mavergleichskette
+{\vergleichskette
+{ D(F)
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R_F   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Natürlich hängen die Funktionen auf $U$ nur von $U$ selbst ab, nicht von einem umgebenden Raum. Wir müssen zeigen, dass die lokal-algebraische Bedingung ebenfalls nur von $U$ abhängt. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Eine Beschreibung
+
+\mathdisp {\varphi = \frac{G}{H} \text{ auf } D(H)
+ \mathdisplaybruch \text{ mit } P \in D(H) \text{ und mit } G,H \in R} {  }
+
+liefert sofort eine Beschreibung als Bruch auf
+\mathl{D(HF)}{,} da man ja $H,G$ sofort in $R_F$ auffassen kann.
+
+Es liege nun umgekehrt eine Bruchdarstellung
+
+\mathdisp {\varphi = \frac{\tilde{G} }{\tilde{H} } \text{ auf } D(\tilde{H})
+ \mathdisplaybruch \text{ mit } P \in D(\tilde{H}) \text{ und mit } \tilde{G},\tilde{H} \in R_F} {  }
+
+vor. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{G}
+}
+{ = }{ G/F^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{H}
+}
+{ = }{ H/F^s
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann gilt für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ D(HF)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(Q)
+}
+{ =} { \frac{\tilde{G}(Q)}{\tilde{H}(Q)}
+}
+{ =} { \frac{G(Q)/F^r(Q)}{ H(Q)/F^s(Q)}
+}
+{ =} { \frac{G(Q)F^s(Q)}{ H(Q)F^r(Q)}
+}
+{ } {
+}
+}
+{}{}{.}
+Dabei haben wir im letzten Schritt mit
+\mathl{F^{r+s}}{} erweitert. In der letzten Darstellung sind Zähler und Nenner aus $R$, und es ist
+
+\mavergleichskette
+{\vergleichskette
+{ HF^r(P)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+also ist
+\mathl{D(HF^r)}{} eine offene Umgebung von $P$.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Algebraisch abgeschlossener Körper/Verschiedene rationale Darstellungen einer aIgebraischen Funktion/Beziehung im Koordinatenring/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine $K$-
+\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Zariski-offene Menge,
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt und es sei
+\maabb {f} { U } { K
+} {}
+eine
+\definitionsverweis {algebraische Funktion}{}{,}
+für die es die beiden rationalen Darstellungen
+
+\mathdisp {\frac{G_1 }{H_1 } \text{ und } \frac{G_2 }{H_2 }} {  }
+
+gebe mit
+
+\mavergleichskette
+{\vergleichskette
+{ G_1,H_1,G_2,H_2
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ D(H_1), D(H_2)
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann gibt es ein
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mathdisp {H_1^rH_2^r(G_1H_2-G_2H_1)^r = 0 \text{ in } R} { . }
+}
+\faktzusatz {Ist $R$
+\definitionsverweis {reduziert}{}{,}
+so gilt sogar
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H_1H_2(G_1H_2-G_2H_1)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir betrachten das Element
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ H_1H_2 \left(  G_1H_2-G_2H_1  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf $V$ und behaupten, dass dies die Nullfunktion induziert. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Bei
+
+\mavergleichskette
+{\vergleichskette
+{ H_1(Q)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oder
+
+\mavergleichskette
+{\vergleichskette
+{ H_2(Q)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ F(Q)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sei also
+
+\mavergleichskette
+{\vergleichskette
+{ H_1(Q), H_2(Q)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vorausgesetzt. Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ D(H_1) \cap D(H_2)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und dort gelten die beiden rationalen Darstellungen für $f$, nämlich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \frac{G_1(Q)}{H_1(Q)}
+}
+{ =} { f(Q)
+}
+{ =} { \frac{G_2(Q)}{H_2(Q)}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daraus folgt
+
+\mavergleichskette
+{\vergleichskette
+{ G_1(Q)H_2(Q)
+}
+{ = }{ G_2(Q)H_1(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und somit ist die Differenz $0$. Insgesamt ist also $F$ die Nullfunktion auf $V$ und daher gibt es nach
+dem
+Hilbertschen Nullstellensatz
+
+ein $r$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ F^r
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in $R$.
+
+
+
+
+}
+
+
+
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Monkey_Saddle_Surface_(Shaded)} {png} }
+\end{center}
+\bildtext {Der Graph einer globalen Funktion auf ${\mathbb A}^{2}_{K}$.} }
+\bildlizenz { Monkey Saddle Surface (Shaded).png } {} {Inductiveload} {Commons} {PD} {}
+
+
+
+
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf offener Menge/Globaler Schnittring ist Koordinatenring/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine
+\definitionsverweis {reduzierte}{}{}
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$.}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma (V, {\mathcal O} )
+}
+{ =} { R
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Ein Element
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liefert direkt eine algebraische Funktion auf ganz $V$, was einen
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabbdisp {} { R } { \Gamma (V, {\mathcal O} )
+} {}
+ergibt. Wenn dabei $F$ an jedem Punkt die Nullfunktion induziert, so ist nach
+
+Satz 11.1
+
+und wegen der Reduziertheit auch
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+D.h. die Abbildung ist injektiv.
+
+Es sei nun
+\maabb {f} { V } { K
+} {}
+ein algebraische Funktion. Dann gibt es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Elemente
+
+\mavergleichskette
+{\vergleichskette
+{ G_P, H_P
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ D(H_P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und mit
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ { \frac{  G_P  }{  H_P  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf
+\mathl{D(H_P)}{.} Die $D(H_P)$ bilden eine offene Überdeckung von $V$ und das bedeutet nach
+
+Korollar 11.12
+,
+dass die $H_P$ in $R$ das
+\definitionsverweis {Einheitsideal}{}{}
+erzeugen. Dann gibt es aber auch eine endliche Auswahl davon, die das Einheitsideal erzeugen, sagen wir
+
+\mathbed {H_i = H_{P_i }} {}
+ {i= 1 , \ldots ,  m} {}
+ {} {} {} {.}
+Dann wiederum überdecken diese
+
+\mathbed {D(H_i)} {}
+ {i= 1 , \ldots ,  m} {}
+ {} {} {} {,}
+ganz $V$.
+
+Auf den Durchschnitten
+
+\mavergleichskette
+{\vergleichskette
+{ D(H_iH_j)
+}
+{ = }{ D(H_i) \cap D(H_j)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+haben wir die Identitäten
+
+\mathdisp {f(Q) = \frac{G_i(Q)}{H_i(Q)} = \frac{G_j(Q)}{H_j(Q)} \text{ für alle } Q \in D(H_iH_j)} { . }
+
+Daraus folgt nach
+
+Lemma 14.8
+
+und der Reduziertheit, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H_iH_j G_iH_j
+}
+{ =} { H_iH_j G_j H_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+in $R$ gilt. Wir ersetzen $H_i$ durch $H_i^2$ und $G_i$ durch
+\mathl{G_i H_i}{.} Dann ist nach wie vor $G_i/H_i$ eine lokale Beschreibung für $f$, und die letzte Bedingung vereinfacht sich zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H_i G_j
+}
+{ =} { H_j G_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+Da die $H_i$ das Einheitsideal erzeugen, gibt es Elemente
+
+\mavergleichskette
+{\vergleichskette
+{ A_i
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{i = 1}^m A_i H_i
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+in $R$. Wir behaupten, dass das Element
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F
+}
+{ =} { \sum_{i = 1}^m A_i G_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf ganz $V$ die Funktion $f$ induziert. Dazu sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein beliebiger Punkt, und zwar sei ohne Einschränkung
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ D(H_1)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ f(Q)
+}
+{ =} { \frac{G_1(Q)}{H_1(Q)}
+}
+{ =} { \frac{G_1(Q)}{H_1(Q)} \left(  \sum_{i = 1}^m A_i H_i  \right) (Q)
+}
+{ =} { \sum_{i = 1}^m A_i(Q) \frac{ G_1(Q) H_i(Q) }{H_1(Q)}
+}
+{ =} { \sum_{i = 1}^m A_i(Q) G_i(Q)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { F(Q)
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf D(f)/Ist R_f/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine
+\definitionsverweis {reduzierte}{}{}
+$K$-
+\definitionsverweis {Algebra von endlichem Typ}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+$K$-\definitionsverweis {Spektrum}{}{}
+von $R$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit zugehöriger offener Menge
+
+\mavergleichskette
+{\vergleichskette
+{ D(F)
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma (D(F), {\mathcal O} )
+}
+{ =} { R_F
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Dies folgt direkt aus
+
+Lemma 14.7
+
+und
+
+Satz 14.9
+.
+
+
+
+
+}
+
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+Eine Variante des 14. Hilbertschen Problems ist die Frage, ob zu jeder offenen Menge $U$ der Ring der
+\definitionsverweis {algebraischen Funktionen}{}{}
+$\Gamma ( U , {\mathcal O} )$
+\definitionsverweis {endlich erzeugt}{}{}
+ist. Für offene Mengen der Form
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{ D(f)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies richtig, ebenfalls, wenn $R$ regulär oder faktoriell ist, und auch in kleinen Dimensionen. Im Allgemeinen ist es aber nicht richtig.
+
+
+
+
+
+}

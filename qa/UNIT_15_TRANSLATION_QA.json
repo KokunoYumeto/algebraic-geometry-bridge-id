@@ -1,0 +1,136 @@
+{
+  "schema": "ag-bridge-unit-translation-qa-v1",
+  "status": "PASS",
+  "unit": 15,
+  "verified_date": "2026-08-24",
+  "authority": {
+    "manifest_bytes": 116332,
+    "manifest_sha256": "86e394725e766838f01eb035ca53044c4d3b85ff20eb99f8fecda9c2a0156425",
+    "lecture_revid": 1051357,
+    "worksheet_revid": 1062620,
+    "lecture_transclusions": 116,
+    "worksheet_transclusions": 142,
+    "exercises": 29,
+    "public_solutions": 4,
+    "solution_numbers": [
+      6,
+      9,
+      19,
+      22
+    ],
+    "authority_files_verified": 38
+  },
+  "media_and_rights": {
+    "media_positions": 1,
+    "binary_surfaces": 2,
+    "rights_rows": 1,
+    "facts": [
+      {
+        "path": "authority/RIGHTS-unit-15.csv",
+        "bytes": 1980,
+        "sha256": "28ed5e373e07f80cef981315733e53069bdcf8f14c4447d1d21c3fabb2b5f4d7"
+      },
+      {
+        "path": "authority/ASSET_CLOSURE-unit-15.json",
+        "bytes": 4103,
+        "sha256": "cdf6371ba9e44f9828f166f8da5ecfe4b6141e0b9ba0c7c02a5dfba156fea0a4"
+      },
+      {
+        "path": "authority/commons-imageinfo-unit-15.json",
+        "bytes": 13862,
+        "sha256": "860588698c312dcf2909d9d8fdf41cd6f7b56a8223fb11f2de156c611f20fdb3"
+      },
+      {
+        "path": "authority/assets/Concentric_Circles.svg",
+        "bytes": 1322,
+        "sha256": "6f0e0f26b61f100e45ac7bc5b8848277f5dbdc65800590a6995bf3a40238fe0b"
+      },
+      {
+        "path": "authority/assets/Concentric_Circles-500.png",
+        "bytes": 28917,
+        "sha256": "72640399ebd372c13b73037f056081de05bdf09ced7210ae16b668a298943b98"
+      },
+      {
+        "path": "scripts/freeze_unit15_media.py",
+        "bytes": 14581,
+        "sha256": "8d7e47c3b796a41188fb4bb7c58b46d74edeafea789b1905610b90f407167bdd"
+      }
+    ]
+  },
+  "translation": {
+    "source_and_control_facts": [
+      {
+        "path": "source/id-ID/lecture-15.md",
+        "bytes": 16666,
+        "sha256": "e1affd57e9f9d33f7e85a2b8c8fe993ecd821d1fff1075588f51dca2014763b4"
+      },
+      {
+        "path": "source/id-ID/worksheet-15.md",
+        "bytes": 13700,
+        "sha256": "feb6d9c38b669718c548608865f416eb1b3a03ac2d1ce6fac92cb5a288f48784"
+      },
+      {
+        "path": "source/id-ID/worksheet-15-solutions.md",
+        "bytes": 6476,
+        "sha256": "49fecc0631064c646bd8fe2707f2ab84f8e33f32e9c4f99028b4dc9f508ec948"
+      },
+      {
+        "path": "source/id-ID/media-credits-unit-15.md",
+        "bytes": 424,
+        "sha256": "ccb29926735e5cdf47f628e2a66cf8c8e9017d64f3357a116e7e5abec3c41734"
+      },
+      {
+        "path": "00_control/TERMINOLOGY.csv",
+        "bytes": 15577,
+        "sha256": "50b90c41f918d8fc75ea170cecf8063148b1c78540a3d00cc96bff614ebe6cfe"
+      },
+      {
+        "path": "00_control/CORRECTIONS.csv",
+        "bytes": 26995,
+        "sha256": "b0895d2b5e21cb02cb4aabb65c598ee7f190ba2ae6a93c62823cf26718676fd4"
+      }
+    ],
+    "stable_ids": 60,
+    "exercises": 29,
+    "public_solutions": 4,
+    "ast": {
+      "lecture-15.md": {
+        "headers": 23,
+        "math_nodes": 204,
+        "images": 1,
+        "stable_header_ids": 23,
+        "pandoc_warnings": 0
+      },
+      "worksheet-15.md": {
+        "headers": 32,
+        "math_nodes": 177,
+        "images": 0,
+        "stable_header_ids": 32,
+        "pandoc_warnings": 0
+      },
+      "worksheet-15-solutions.md": {
+        "headers": 5,
+        "math_nodes": 87,
+        "images": 0,
+        "stable_header_ids": 5,
+        "pandoc_warnings": 0
+      },
+      "media-credits-unit-15.md": {
+        "headers": 1,
+        "math_nodes": 0,
+        "images": 0,
+        "stable_header_ids": 1,
+        "pandoc_warnings": 0
+      }
+    },
+    "visible_german_residue": 0,
+    "placeholder_count": 0,
+    "secret_like_count": 0,
+    "protected_math_checks": 12,
+    "correction_bindings": [
+      "AGC-CORR-0032",
+      "AGC-CORR-0033"
+    ]
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

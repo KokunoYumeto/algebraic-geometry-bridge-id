@@ -1,0 +1,306 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v3",
+  "status": "PASS",
+  "unit": 15,
+  "scope": "cumulative release boundary; direct replay of Units 13--15 over frozen Units 1--12 baseline",
+  "units_01_12_baseline": {
+    "machine_sha256": "55ccc57fb61a2dd69e802d816521460d919176f35c99838c1bb7109de3c5897e",
+    "visual_sha256": "ef306f95ac740dcc5d1a7192dbfd37c2189108eca9d1e671942a61e8cd18b5c6",
+    "responsive_sha256": "f53f433e1d4db1e2ba7a3e488e1d81f5e55f47750bf134842b931453f2a3bfe3",
+    "protected_sha256": "75c9725cb79bb3a4b3e7e889ca661310cc6fdef5e1fdaa91fa58ee4d58648b33",
+    "qa_script_sha256": "7d1a081287a65a5149ee4a8e1250707a0eaef904a312218557658914aa48a0e7"
+  },
+  "units_13_15": {
+    "unit_13": {
+      "source_ids": 75,
+      "exercises": 37,
+      "public_solutions": 14,
+      "solution_exercises": [
+        3,
+        6,
+        8,
+        9,
+        11,
+        14,
+        15,
+        17,
+        20,
+        21,
+        24,
+        27,
+        28,
+        31
+      ],
+      "solution_revisions": [
+        1023890,
+        663088,
+        1112836,
+        1060069,
+        1023327,
+        1089391,
+        1029221,
+        1113410,
+        1095814,
+        1096486,
+        1060010,
+        1094892,
+        1089663,
+        1065090
+      ],
+      "literal_source_stars": [
+        3,
+        6,
+        8,
+        9,
+        11,
+        14,
+        15,
+        17,
+        20,
+        21,
+        24,
+        27,
+        28,
+        31
+      ],
+      "invented_solutions": 0,
+      "media_positions": 2,
+      "binary_surfaces": 4,
+      "solution_map": {
+        "exercise_count": 37,
+        "solution_count": 14,
+        "map_sha256": "f954f09c996c8aa22f94ec826a1503b135a7b4fb9f9e0d5d6ff21f36a519e52a"
+      },
+      "rights": {
+        "positions": 2,
+        "surfaces": 4,
+        "rights_sha256": "cdf370a6e3d7b80e137e6eb98a1180519b0cb97865ee39197de07c37e1a3c825",
+        "closure_sha256": "771a8f09fd262838873e1390c43cae7da1f3989b74d8d2a7f67a856da9ea5e23"
+      },
+      "authority": {
+        "manifest_sha256": "dc86b4d124c7e775fb635a1f9672a8b8faadc4ff2259b0779f7bac6302d18848",
+        "manifest_files_replayed": 60,
+        "lecture_revid": 1112285,
+        "worksheet_revid": 1065092,
+        "lecture_transclusions": 142,
+        "worksheet_transclusions": 171,
+        "official_pdf_pages": {
+          "authority/artifacts/lecture-13-official.pdf": 7,
+          "authority/artifacts/worksheet-13-official.pdf": 9
+        }
+      }
+    },
+    "unit_14": {
+      "source_ids": 55,
+      "exercises": 27,
+      "public_solutions": 2,
+      "solution_exercises": [
+        2,
+        7
+      ],
+      "solution_revisions": [
+        1068085,
+        1095255
+      ],
+      "literal_source_stars": [
+        2,
+        7
+      ],
+      "invented_solutions": 0,
+      "media_positions": 1,
+      "binary_surfaces": 1,
+      "solution_map": {
+        "exercise_count": 27,
+        "solution_count": 2,
+        "map_sha256": "0d223f7f3c56c4714736dfc6eb3dbd40dc8cd3cb30a05f66281a6f2b1b875dbe"
+      },
+      "rights": {
+        "positions": 1,
+        "surfaces": 1,
+        "rights_sha256": "9c377f7c679ff0730bcd075201a4d587a322f004b118b0e31fc9c51b267e8973",
+        "closure_sha256": "8fd50fae2515e6150e3d81c98573dd7bb204211e787d68405f7c3b03aab452d0"
+      },
+      "authority": {
+        "manifest_sha256": "a63c3481d0a9cfa9b960f12c9bf0eec9a5d39cecfb61eddb8f9d96190e52e83e",
+        "manifest_files_replayed": 35,
+        "lecture_revid": 1051343,
+        "worksheet_revid": 1061213,
+        "lecture_transclusions": 106,
+        "worksheet_transclusions": 164,
+        "official_pdf_pages": {
+          "authority/artifacts/lecture-14-official.pdf": 7,
+          "authority/artifacts/worksheet-14-official.pdf": 9
+        }
+      }
+    },
+    "unit_15": {
+      "source_ids": 61,
+      "exercises": 29,
+      "public_solutions": 4,
+      "solution_exercises": [
+        6,
+        9,
+        19,
+        22
+      ],
+      "solution_revisions": [
+        663110,
+        1095144,
+        1112864,
+        1089392
+      ],
+      "literal_source_stars": [
+        6,
+        9,
+        19,
+        22
+      ],
+      "invented_solutions": 0,
+      "media_positions": 1,
+      "binary_surfaces": 2,
+      "solution_map": {
+        "exercise_count": 29,
+        "solution_count": 4,
+        "map_sha256": "3c8c41458f5418ff858a58748ba4b23bc0a8cb34d9c386c155806b4482760470"
+      },
+      "rights": {
+        "positions": 1,
+        "surfaces": 2,
+        "rights_sha256": "28ed5e373e07f80cef981315733e53069bdcf8f14c4447d1d21c3fabb2b5f4d7",
+        "closure_sha256": "cdf6371ba9e44f9828f166f8da5ecfe4b6141e0b9ba0c7c02a5dfba156fea0a4"
+      },
+      "authority": {
+        "manifest_sha256": "86e394725e766838f01eb035ca53044c4d3b85ff20eb99f8fecda9c2a0156425",
+        "manifest_files_replayed": 38,
+        "lecture_revid": 1051357,
+        "worksheet_revid": 1062620,
+        "lecture_transclusions": 116,
+        "worksheet_transclusions": 142,
+        "official_pdf_pages": {
+          "authority/artifacts/lecture-15-official.pdf": 9,
+          "authority/artifacts/worksheet-15-official.pdf": 7
+        }
+      }
+    }
+  },
+  "topology": {
+    "new_source_ids": 191,
+    "duplicate_new_source_ids": 0,
+    "cumulative_source_ids": 861,
+    "new_exercises": 93,
+    "cumulative_exercises": 423,
+    "new_public_solutions": 20,
+    "cumulative_public_solutions": 75,
+    "invented_solutions": 0,
+    "untranslated_german_prose": 0,
+    "placeholder_markers": 0,
+    "credential_markers": 0,
+    "new_media_positions": 4,
+    "new_binary_surfaces": 7
+  },
+  "source_findings": {
+    "unit_13": {
+      "path": "qa/UNIT_13_TRANSLATION_QA.json",
+      "bytes": 4441,
+      "sha256": "f10a5fa657c17c17619edaaab7caa35a703c6c9f4b44e31ce7019aa28fbcc083"
+    },
+    "unit_14": {
+      "path": "qa/UNIT_14_TRANSLATION_QA.json",
+      "bytes": 3689,
+      "sha256": "ed727071ce0c91a334230049ee5f9eaa3d7fc42b54a64941c0da8c1fcc682e1d"
+    },
+    "unit_15": {
+      "path": "qa/UNIT_15_TRANSLATION_QA.json",
+      "bytes": 3905,
+      "sha256": "ed3425ed0c4b71ce9841e897eaf43e358aa468b38618306a94843a6a35da0ba4"
+    }
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "bytes": 26995,
+    "sha256": "b0895d2b5e21cb02cb4aabb65c598ee7f190ba2ae6a93c62823cf26718676fd4",
+    "rows": 54,
+    "bindings": {
+      "AGC-CORR-0028": {
+        "scope": "worksheet_13_exercise_13_29",
+        "status": "applied_at_unit_13_translation"
+      },
+      "AGC-CORR-0029": {
+        "scope": "worksheet_solution_13_11",
+        "status": "applied_at_unit_13_translation"
+      },
+      "AGC-CORR-0030": {
+        "scope": "worksheet_solution_13_20",
+        "status": "applied_at_unit_13_translation"
+      },
+      "AGC-CORR-0031": {
+        "scope": "worksheet_solution_14_7",
+        "status": "applied_at_unit_14_translation"
+      },
+      "AGC-CORR-0032": {
+        "scope": "lecture_15_colimit_representative",
+        "status": "applied_at_unit_15_translation"
+      },
+      "AGC-CORR-0033": {
+        "scope": "worksheet_solution_15_19",
+        "status": "applied_at_unit_15_translation"
+      }
+    },
+    "protected_correction_surfaces_replayed": 6
+  },
+  "artifacts": {
+    "build_receipt": {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 26028,
+      "sha256": "0468085b9dd2e98f1a8b586b53c2b4e4e16b93562a6d611acf26f09e18eeb7d2"
+    },
+    "html": {
+      "path": "build/reader-id/index.html",
+      "bytes": 10196592,
+      "sha256": "b4d6090cdaade5498e8021bab473497235f962e29fd28a2a9fb8e9a1f26ef4b9",
+      "images": 69,
+      "mathml_nodes": 5989
+    },
+    "pdf": {
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-15.pdf",
+      "bytes": 6502255,
+      "sha256": "e56aae414a9d7e252485d06e7da790fae9bf972514c8fe47fc31d26eddd3699c",
+      "pages": 267
+    }
+  },
+  "bound_qa": {
+    "machine": {
+      "path": "qa/UNITS_01_15_MACHINE_QA.json",
+      "bytes": 18674,
+      "sha256": "ee2d2f8ea2b181eeee32177e0320a0e8450f64744189708e53f394ec02edc38e"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_15_VISUAL_QA.json",
+      "bytes": 3807,
+      "sha256": "ec29a754845159ab8f236821dcf32c71202344c745c0521f23edd28e26aa0461"
+    },
+    "visual_page_manifest": {
+      "path": "qa/UNITS_01_15_VISUAL_PAGE_MANIFEST.json",
+      "bytes": 88457,
+      "sha256": "da7bf8ccd92eb50432553d88f613312d8da9c7d9163f7c9ca3740effded51e4e"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_15_RESPONSIVE_QA.json",
+      "bytes": 2915,
+      "sha256": "edaafd54d7bafcddf175b4e456cf3a801be88b196333fe7333bdaeeadb455de5"
+    }
+  },
+  "qa_script": {
+    "path": "scripts/qa_protected_surfaces_units_13_15.py",
+    "sha256": "e51c978ae4875734cb51d0c355b27bc6d7bd74b151022d1fabbc39fc9bcfe591"
+  },
+  "validation": {
+    "authority_revision_transclusion_file_and_official_pdf_replay": true,
+    "exercise_map_solution_witness_literal_star_and_no_invention_closure": true,
+    "rights_asset_position_alt_text_credit_and_binary_hash_closure": true,
+    "source_hash_ast_language_placeholder_secret_quirk_and_correction_binding": true,
+    "stable_id_html_mathml_image_heading_link_alt_and_build_receipt_closure": true,
+    "pdf_page_a4_font_text_and_all_page_visual_render_closure": true,
+    "responsive_desktop_centering_mobile_overflow_and_browser_console_closure": true
+  }
+}

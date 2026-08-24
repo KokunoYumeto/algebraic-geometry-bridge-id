@@ -1,0 +1,121 @@
+{
+  "schema": "ag-bridge-backend-qa-v6",
+  "result": "PASS",
+  "through_unit": 15,
+  "backend": {
+    "manifest_path": "backend/units-01-15/MANIFEST.json",
+    "manifest_sha256": "5d8d6afec1a6fac89dbcbc396a374648a08e7493350aa876bfe6ac9b4684f571",
+    "records_path": "backend/units-01-15/records.jsonl",
+    "records_sha256": "0ec98ae73421c04ab7ff62387de35cd5f7cb9721ff8c4aff56ac47048e262ca8",
+    "schema_path": "backend/units-01-15/record.schema.json",
+    "schema_sha256": "72f6249b930de994c31ac6bbbd6e3d8de86a2ae6eaa15b50f47f254b1fe22df1",
+    "record_count": 10938,
+    "new_record_count": 2447,
+    "counts": {
+      "artifact": 145,
+      "asset": 69,
+      "concept": 101,
+      "correction": 54,
+      "course": 1,
+      "edition": 13,
+      "exercise": 423,
+      "program": 1,
+      "qa_event": 41,
+      "relation": 4804,
+      "resource": 4,
+      "rights": 74,
+      "segment": 4147,
+      "solution": 75,
+      "term": 105,
+      "unit": 881
+    },
+    "units_01_12_baseline_record_count": 8491,
+    "units_01_12_baseline_records_exactly_preserved": true
+  },
+  "units_13_15": {
+    "13": {
+      "exercise_count": 37,
+      "public_solution_count": 14,
+      "solution_exercise_numbers": [
+        3,
+        6,
+        8,
+        9,
+        11,
+        14,
+        15,
+        17,
+        20,
+        21,
+        24,
+        27,
+        28,
+        31
+      ],
+      "media_positions": 2,
+      "binary_surfaces": 4,
+      "manifest_sha256": "dc86b4d124c7e775fb635a1f9672a8b8faadc4ff2259b0779f7bac6302d18848",
+      "exercise_map_sha256": "f954f09c996c8aa22f94ec826a1503b135a7b4fb9f9e0d5d6ff21f36a519e52a",
+      "rights_sha256": "cdf370a6e3d7b80e137e6eb98a1180519b0cb97865ee39197de07c37e1a3c825",
+      "asset_closure_sha256": "771a8f09fd262838873e1390c43cae7da1f3989b74d8d2a7f67a856da9ea5e23"
+    },
+    "14": {
+      "exercise_count": 27,
+      "public_solution_count": 2,
+      "solution_exercise_numbers": [
+        2,
+        7
+      ],
+      "media_positions": 1,
+      "binary_surfaces": 1,
+      "manifest_sha256": "a63c3481d0a9cfa9b960f12c9bf0eec9a5d39cecfb61eddb8f9d96190e52e83e",
+      "exercise_map_sha256": "0d223f7f3c56c4714736dfc6eb3dbd40dc8cd3cb30a05f66281a6f2b1b875dbe",
+      "rights_sha256": "9c377f7c679ff0730bcd075201a4d587a322f004b118b0e31fc9c51b267e8973",
+      "asset_closure_sha256": "8fd50fae2515e6150e3d81c98573dd7bb204211e787d68405f7c3b03aab452d0"
+    },
+    "15": {
+      "exercise_count": 29,
+      "public_solution_count": 4,
+      "solution_exercise_numbers": [
+        6,
+        9,
+        19,
+        22
+      ],
+      "media_positions": 1,
+      "binary_surfaces": 2,
+      "manifest_sha256": "86e394725e766838f01eb035ca53044c4d3b85ff20eb99f8fecda9c2a0156425",
+      "exercise_map_sha256": "3c8c41458f5418ff858a58748ba4b23bc0a8cb34d9c386c155806b4482760470",
+      "rights_sha256": "28ed5e373e07f80cef981315733e53069bdcf8f14c4447d1d21c3fabb2b5f4d7",
+      "asset_closure_sha256": "cdf6371ba9e44f9828f166f8da5ecfe4b6141e0b9ba0c7c02a5dfba156fea0a4"
+    }
+  },
+  "reader_evidence": {
+    "build_receipt_sha256": "0468085b9dd2e98f1a8b586b53c2b4e4e16b93562a6d611acf26f09e18eeb7d2",
+    "machine_qa_sha256": "ee2d2f8ea2b181eeee32177e0320a0e8450f64744189708e53f394ec02edc38e",
+    "visual_qa_sha256": "ec29a754845159ab8f236821dcf32c71202344c745c0521f23edd28e26aa0461",
+    "responsive_qa_sha256": "edaafd54d7bafcddf175b4e456cf3a801be88b196333fe7333bdaeeadb455de5",
+    "protected_surfaces_sha256": "633df9e390d6aceb55baf40f7ddc79173963a076593c0ba68d83f8fa7e245a3b"
+  },
+  "ledger_evidence": {
+    "terminology_path": "00_control/TERMINOLOGY.csv",
+    "terminology_sha256": "50b90c41f918d8fc75ea170cecf8063148b1c78540a3d00cc96bff614ebe6cfe",
+    "new_term_count": 30,
+    "new_concept_count": 26,
+    "corrections_path": "00_control/CORRECTIONS.csv",
+    "corrections_sha256": "b0895d2b5e21cb02cb4aabb65c598ee7f190ba2ae6a93c62823cf26718676fd4",
+    "new_correction_count": 6
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "validation": {
+    "canonical_jsonl_and_schema_surface": true,
+    "unique_stable_ids": true,
+    "parent_resource_edition_rights_concept_and_relation_closure": true,
+    "units_01_12_record_and_payload_byte_identity": true,
+    "source_hashes_match_frozen_values_and_reader_inputs": true,
+    "authority_manifest_map_rights_asset_solution_closure": true,
+    "units_13_15_terminology_and_correction_ledger_closure": true,
+    "reader_build_machine_visual_responsive_and_protected_qa": true,
+    "exact_model_provenance_on_every_new_record": true
+  }
+}

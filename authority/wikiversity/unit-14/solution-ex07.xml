@@ -1,0 +1,144 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Neilsche Parabel/Rationale Funktion mit Pol in (1,1)/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>94830</id>
+    <revision>
+      <id>1095255</id>
+      <parentid>1090105</parentid>
+      <timestamp>2026-06-14T18:11:29Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1095255</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1502" sha1="2tmjq89gfip1pdrpo3oco30tr74dvkx" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Das maximale Ideal zum Punkt {{math|term= P |SZ=}} wird durch {{mathl|term= (X-1,Y-1) |SZ=}} beschrieben. Im Koordinatenring 
+{{
+Relationskette
+|R
+|| K[X,Y]/(Y^2-X^3)
+||
+||
+||
+|SZ=
+}}
+gilt
+{{
+Relationskette/align
+| X^2(X-1)
+|| X^3-X^2
+|| Y^2-X^2
+|| (Y-X)(Y+X)
+||
+|SZ=.
+}}
+Somit gilt im Quotientenkörper
+{{
+Relationskette/display
+|f
+| {{defeq}} |  {{op:Bruch|X^2|Y-X}} 
+|| {{op:Bruch|X+Y|X-1}} 
+||
+||
+||
+|SZ=.
+}}
+Dies ist auf der offenen Menge
+{{
+Relationskette/display
+| D(Y-X,X-1)
+|| D( Y-1,X-1 )
+|| C \setminus \{P\}
+||
+||
+|SZ=
+}}
+eine rationale Funktion. 
+
+Um zu zeigen, dass diese Funktion nicht auf ganz {{math|term= C |SZ=}} definiert ist, arbeiten wir mit der Abbildung
+{{
+Abbildung/display
+|name=\varphi
+| {{op:Affine Gerade| K |}} | C
+| t | {{op:Zeilenvektor|t^2|t^3}}
+|SZ=.
+}}
+Dabei ist
+{{
+Relationskette/display
+| \varphi^{-1} (C \setminus P)
+|| {{op:Affine Gerade| K |}} \setminus \{1\}
+||
+||
+||
+|SZ=.
+}}
+Unter dieser Abbildung wird die betrachtete rationale Funktion {{math|term= f |SZ=}} zu
+{{
+Relationskette/display
+| {{op:Bruch|t^2+t^3|t^2-1}} 
+|| {{op:Bruch|t^2 (1+t) |(t+1)(t-1) }} 
+|| {{op:Bruch| - t^2 |(t-1) }} 
+||
+||
+|SZ=.
+}}
+Diese Funktion kann nicht auf die affine Gerade fortgesetzt werden, also kann auch {{math|term= f |SZ=}} nicht auf ganz {{math|term= C |SZ=}} algebraisch fortgesetzt werden.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>2tmjq89gfip1pdrpo3oco30tr74dvkx</sha1>
+    </revision>
+  </page>
+</mediawiki>

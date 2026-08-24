@@ -1,0 +1,157 @@
+{
+  "schema": "ag-bridge-unit-translation-qa-v1",
+  "status": "PASS",
+  "unit": 13,
+  "verified_date": "2026-08-24",
+  "authority": {
+    "manifest_bytes": 149341,
+    "manifest_sha256": "dc86b4d124c7e775fb635a1f9672a8b8faadc4ff2259b0779f7bac6302d18848",
+    "lecture_revid": 1112285,
+    "worksheet_revid": 1065092,
+    "lecture_transclusions": 142,
+    "worksheet_transclusions": 171,
+    "exercises": 37,
+    "public_solutions": 14,
+    "solution_numbers": [
+      3,
+      6,
+      8,
+      9,
+      11,
+      14,
+      15,
+      17,
+      20,
+      21,
+      24,
+      27,
+      28,
+      31
+    ],
+    "authority_files_verified": 60
+  },
+  "media_and_rights": {
+    "media_positions": 2,
+    "binary_surfaces": 4,
+    "rights_rows": 2,
+    "facts": [
+      {
+        "path": "authority/RIGHTS-unit-13.csv",
+        "bytes": 3677,
+        "sha256": "cdf370a6e3d7b80e137e6eb98a1180519b0cb97865ee39197de07c37e1a3c825"
+      },
+      {
+        "path": "authority/ASSET_CLOSURE-unit-13.json",
+        "bytes": 4489,
+        "sha256": "771a8f09fd262838873e1390c43cae7da1f3989b74d8d2a7f67a856da9ea5e23"
+      },
+      {
+        "path": "authority/commons-imageinfo-unit-13.json",
+        "bytes": 19061,
+        "sha256": "5f3c11df072f416668556047c0580ef3614c933810cb0444568a36e0d76e9aa5"
+      },
+      {
+        "path": "authority/assets/Hyperbola_one_over_x.svg",
+        "bytes": 24384,
+        "sha256": "7007de14361a2f26446deee17751207ad13ec86d1572f1892a652df35107c85a"
+      },
+      {
+        "path": "authority/assets/Hyperbola_one_over_x-500.png",
+        "bytes": 14689,
+        "sha256": "37faab77218828c177fe61e1efe9aa5417c6c986667b53c25b2880a56e31ddf2"
+      },
+      {
+        "path": "authority/assets/Connected_and_disconnected_spaces2.svg",
+        "bytes": 652,
+        "sha256": "7bd06a32030d958226587efc35242c624a67c19a5cc31680569321d2f68887f5"
+      },
+      {
+        "path": "authority/assets/Connected_and_disconnected_spaces2-500.png",
+        "bytes": 17967,
+        "sha256": "1d23e9a59e6fbbdccd3e58ab1e48e3088a102bc4661199554cb931339a197b08"
+      },
+      {
+        "path": "scripts/freeze_unit13_media.py",
+        "bytes": 16130,
+        "sha256": "ab30c73f8cf4f5271caa6f8f656130fab05626bf1058988830a9e7265bf77617"
+      }
+    ]
+  },
+  "translation": {
+    "source_and_control_facts": [
+      {
+        "path": "source/id-ID/lecture-13.md",
+        "bytes": 14295,
+        "sha256": "6b2c8a6aac3c80a3bf45cdb83db085e59f72f09bb7829528f2719c6b7af178fa"
+      },
+      {
+        "path": "source/id-ID/worksheet-13.md",
+        "bytes": 16401,
+        "sha256": "b9dbf3ee514c8e7d59bdf60ba4617cb0b8a38b5e299cc65af53cdd8e7f56adcd"
+      },
+      {
+        "path": "source/id-ID/worksheet-13-solutions.md",
+        "bytes": 15292,
+        "sha256": "787b24f616ac7823c88b7f45ea827df5bbdea34be111bb36822d542121e89774"
+      },
+      {
+        "path": "source/id-ID/media-credits-unit-13.md",
+        "bytes": 742,
+        "sha256": "f5aa7d11bb7fd29860bdaec51fdb03790fdd6361e6f0ef2b4fbac72040de1341"
+      },
+      {
+        "path": "00_control/TERMINOLOGY.csv",
+        "bytes": 11768,
+        "sha256": "7d3711bc1890ec3451aa2e8cb51752cfc7a04526841966458fee85af6546177f"
+      },
+      {
+        "path": "00_control/CORRECTIONS.csv",
+        "bytes": 25527,
+        "sha256": "9fcff85e47c97bf98fd49b6be6a14946250a2a2aa671c20e7184662931052d6f"
+      }
+    ],
+    "stable_ids": 74,
+    "exercises": 37,
+    "public_solutions": 14,
+    "ast": {
+      "lecture-13.md": {
+        "headers": 19,
+        "math_nodes": 188,
+        "images": 2,
+        "stable_header_ids": 19,
+        "pandoc_warnings": 0
+      },
+      "worksheet-13.md": {
+        "headers": 40,
+        "math_nodes": 202,
+        "images": 0,
+        "stable_header_ids": 40,
+        "pandoc_warnings": 0
+      },
+      "worksheet-13-solutions.md": {
+        "headers": 15,
+        "math_nodes": 189,
+        "images": 0,
+        "stable_header_ids": 15,
+        "pandoc_warnings": 0
+      },
+      "media-credits-unit-13.md": {
+        "headers": 1,
+        "math_nodes": 0,
+        "images": 0,
+        "stable_header_ids": 1,
+        "pandoc_warnings": 0
+      }
+    },
+    "visible_german_residue": 0,
+    "placeholder_count": 0,
+    "secret_like_count": 0,
+    "protected_math_checks": 12,
+    "correction_bindings": [
+      "AGC-CORR-0028",
+      "AGC-CORR-0029",
+      "AGC-CORR-0030"
+    ]
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

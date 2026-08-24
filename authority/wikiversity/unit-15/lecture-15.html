@@ -1,0 +1,565 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><div style="margin:-1.0em; border:3px solid green; padding: 1.5em; font-align:font-size:100%"><span style="font-size: 1.0em">
+<div class="chapter"><div class="nextDecChapter" style="display:inline;"> <div class="nextChapter" style="display:inline;"><div class="nextChapter" style="display:inline;"><div class="nextChapter" style="display:inline;"><div class="nextChapter" style="display:inline;"><div class="nextChapter" style="display:inline;">
+<div class="floatleft"></div>
+<p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Affine und quasiaffine Varietäten</em></big></dd></dl>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition"><a href="/wiki/Affine_Variet%C3%A4t/Algebraisch_abgeschlossener_K%C3%B6rper/K-Punkte/Definition" title="Affine Varietät/Algebraisch abgeschlossener Körper/K-Punkte/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Affine_Variet%C3%A4t/Algebraisch_abgeschlossener_K%C3%B6rper/K-Punkte/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Affine_Variet%C3%A4t/Algebraisch_abgeschlossener_K%C3%B6rper/K-Punkte/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math> ein
+<a href="/wiki/K%C3%B6rpertheorie_(Algebra)/Algebraisch_abgeschlossen/Definition" title="Körpertheorie (Algebra)/Algebraisch abgeschlossen/Definition">algebraisch abgeschlossener Körper</a>
+und sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> eine
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-<a href="/wiki/Kommutative_Ringtheorie/Algebra_von_endlichem_Typ/Definition" title="Kommutative Ringtheorie/Algebra von endlichem Typ/Definition">Algebra von endlichem Typ</a>.
+Dann nennt man das
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-<a href="/wiki/Endlich_erzeugte_K-Algebren/K-Spektrum_mit_Zariski-Topologie/Definition" title="Endlich erzeugte K-Algebren/K-Spektrum mit Zariski-Topologie/Definition">Spektrum</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">=</mo><mi>K</mi><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">−</mo><mspace width="-0.167em"></mspace><mo data-mjx-texclass="OP" mathvariant="normal">Spek</mo><mo>&#x2061;</mo><mspace width="0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>R</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math>, wobei alle Zariski-offenen Mengen
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi></mstyle></mrow></math>&#160;
+mit dem
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Algebraische_(regul%C3%A4re)_Funktion_auf_offener_Menge/Schnittring/Definition" title="K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf offener Menge/Schnittring/Definition">Ring der algebraischen Funktionen</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mstyle></mrow></math> versehen seien, eine <em>affine Varietät</em>.  
+</p>
+</div>
+</div></div>
+<p>Eine offene Teilmenge einer affinen Varietät, wobei ebenfalls alle offenen Mengen mit den Strukturringen versehen seien, nennt man eine <em>quasiaffine Varietät</em>. Eine quasiaffine Varietät wird überdeckt durch endlich viele offene Mengen der Form <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>D</mi><mo stretchy="false">(</mo><mi>f</mi><mo stretchy="false">)</mo></mstyle></mrow></math>, welche selbst affine Varietäten sind. Manche Autoren nennen nur irreduzible <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-Spektren eine Varietät.
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Algebraische_(regul%C3%A4re)_Funktion_auf_offener_Menge/Globaler_Schnittring_ist_Koordinatenring/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf offener Menge/Globaler Schnittring ist Koordinatenring/Fakt">Satz 14.9</a>
+sichert, dass man beim Übergang von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> zu
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">=</mo><mi>K</mi><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">−</mo><mspace width="-0.167em"></mspace><mo data-mjx-texclass="OP" mathvariant="normal">Spek</mo><mo>&#x2061;</mo><mspace width="0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>R</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+nichts verliert, da man den Ring <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> als <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>V</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mstyle></mrow></math> zurückgewinnen kann. Dies ist aus dem topologischen Raum allein nicht möglich.
+</p><p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Lokale Ringe</em></big></dd></dl>
+<p>Zu einem gegebenen Punkt <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> in einem <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-Spektrum interessieren wir uns für die Menge aller algebraischen Funktionen, die in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> definiert sind und in einer gewissen Umgebung von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> eine rationale Darstellung besitzen. Dabei sind die algebraischen Funktionen auf unterschiedlichen Umgebungen definiert, und es gibt keine kleinste Umgebung, auf der alle in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> definierten algebraischen Funktionen definiert sind. Es liegt ein System von Ringen
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>,
+vor, das wir geometrisch und algebraisch verstehen wollen. Es stellt sich heraus, dass man diesem System einen sinnvollen Limes
+(„direkter Limes“ oder „Kolimes“)
+zuordnen kann, und dass dieser mit der Lokalisierung <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mrow></msub></mstyle></mrow></math> an dem zu <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> gehörenden maximalen Ideal <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mstyle></mrow></math> übereinstimmt. Wir führen zunächst die algebraischen Begriffe ein.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_2"><a href="/wiki/Kommutative_Ringtheorie/Lokaler_Ring/Definition" title="Kommutative Ringtheorie/Lokaler Ring/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokaler_Ring/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokaler_Ring/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Ein
+<a href="/wiki/Kommutative_Ringtheorie/Kommutativer_Ring/Definition" title="Kommutative Ringtheorie/Kommutativer Ring/Definition">kommutativer Ring</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> heißt <em>lokal</em>, wenn <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> genau ein
+<a href="/wiki/Kommutative_Ringtheorie/Maximales_Ideal/Definition" title="Kommutative Ringtheorie/Maximales Ideal/Definition">maximales Ideal</a>
+besitzt.  
+</p>
+</div>
+</div></div>
+<p>Dazu ist äquivalent, dass das Komplement der Einheitengruppe von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> abgeschlossen unter der Addition ist. Die einfachsten lokalen Ringe sind die Körper. Zu jedem lokalen Ring <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> gehört der Restklassenkörper <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi><mo lspace="0" rspace="0">/</mo><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mstyle></mrow></math>, den man den <em>Restekörper</em> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> nennt.&#160;Wir werden bald sehen, dass es zu jedem Punkt in einem <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-Spektrum einen zugehörigen lokalen Ring gibt, der das „lokale Aussehen“ der Varietät in dem Punkt algebraisch beschreibt.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_3"><a href="/wiki/Kommutative_Ringtheorie/Lokalisierung_f%C3%BCr_Primideal/Definition" title="Kommutative Ringtheorie/Lokalisierung für Primideal/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokalisierung_f%C3%BCr_Primideal/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokalisierung_f%C3%BCr_Primideal/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> ein
+<a href="/wiki/Kommutative_Ringtheorie/Kommutativer_Ring/Definition" title="Kommutative Ringtheorie/Kommutativer Ring/Definition">kommutativer Ring</a>
+und sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mstyle></mrow></math> ein
+<a href="/wiki/Kommutative_Ringtheorie/Primideal/Definition" title="Kommutative Ringtheorie/Primideal/Definition">Primideal</a>.
+Dann nennt man die
+<a href="/wiki/Nenneraufnahme/Mit_Nullteilern/Begriff/Aufgabe" title="Nenneraufnahme/Mit Nullteilern/Begriff/Aufgabe">Nenneraufnahme</a>
+an
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>S</mi><mo stretchy="false">=</mo><mi>R</mi><mo stretchy="false">∖</mo><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mstyle></mrow></math>&#160;
+die <em>Lokalisierung</em> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> an <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mstyle></mrow></math>. Man schreibt dafür <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub></mstyle></mrow></math>. Es ist also
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub><mo stretchy="false">:=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mrow data-mjx-texclass="ORD"><mfrac><mrow data-mjx-texclass="ORD"><mi>f</mi></mrow><mrow data-mjx-texclass="ORD"><mi>g</mi></mrow></mfrac></mrow><mo stretchy="false">∣</mo><mi>f</mi><mo stretchy="false">∈</mo><mi>R</mi><mo>,</mo><mspace width="0.167em"></mspace><mi>g</mi><mo stretchy="false">∈&#x338;</mo><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>  
+</div>
+</div></div>
+<p>Der folgende Satz zeigt, dass diese Namensgebung sinnvoll ist.
+</p>
+<br clear="left" /><div class="factproof">
+<h2 id="Satz" class="mw-html-heading"> <a href="/wiki/Kommutative_Ringtheorie/Lokalisierung/Lokaler_Ring/Fakt" title="Kommutative Ringtheorie/Lokalisierung/Lokaler Ring/Fakt">Satz </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokalisierung/Lokaler_Ring/Fakt&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokalisierung/Lokaler_Ring/Fakt&amp;action=edit">&#160;</a></span></h2>
+<div class="content" style="font-style:italic;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> ein
+<a href="/wiki/Kommutative_Ringtheorie/Kommutativer_Ring/Definition" title="Kommutative Ringtheorie/Kommutativer Ring/Definition">kommutativer Ring</a>
+und sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mstyle></mrow></math> ein 
+<a href="/wiki/Kommutative_Ringtheorie/Primideal/Definition" title="Kommutative Ringtheorie/Primideal/Definition">Primideal</a>
+in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math>.  
+</p><p><b> Dann ist die 
+<a href="/wiki/Kommutative_Ringtheorie/Lokalisierung_f%C3%BCr_Primideale_in_Integrit%C3%A4tsbereichen/Definition" title="Kommutative Ringtheorie/Lokalisierung für Primideale in Integritätsbereichen/Definition">Lokalisierung</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub></mstyle></mrow></math> ein 
+<a href="/wiki/Kommutative_Ringtheorie/Lokaler_Ring/Definition" title="Kommutative Ringtheorie/Lokaler Ring/Definition">lokaler Ring</a>
+mit 
+<a href="/wiki/Kommutative_Ringtheorie/Maximales_Ideal/Definition" title="Kommutative Ringtheorie/Maximales Ideal/Definition">maximalem Ideal</a>
+</b></p><b>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub><mo stretchy="false">:=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mrow data-mjx-texclass="ORD"><mfrac><mrow data-mjx-texclass="ORD"><mi>f</mi></mrow><mrow data-mjx-texclass="ORD"><mi>g</mi></mrow></mfrac></mrow><mo stretchy="false">∣</mo><mi>f</mi><mo stretchy="false">∈</mo><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow><mo>,</mo><mspace width="0.167em"></mspace><mi>g</mi><mo stretchy="false">∉</mo><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl> </b>
+</div>
+</div>
+<h3 id="Beweis" class="mw-html-heading"> <a href="/wiki/Kommutative_Ringtheorie/Lokalisierung/Lokaler_Ring/Fakt/Beweis" title="Kommutative Ringtheorie/Lokalisierung/Lokaler Ring/Fakt/Beweis">Beweis</a>  <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokalisierung/Lokaler_Ring/Fakt/Beweis&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Kommutative_Ringtheorie/Lokalisierung/Lokaler_Ring/Fakt/Beweis&amp;action=edit">&#160;</a></span> </h3> 
+<div class="content">
+<div style="margin-right:1.2em;text-align:justify;"><div id="Artikelinhalt">
+<p>Die angegebene Menge ist in der Tat ein Ideal in der 
+<a href="/wiki/Kommutative_Ringtheorie/Lokalisierung_f%C3%BCr_Primideale_in_Integrit%C3%A4tsbereichen/Definition" title="Kommutative Ringtheorie/Lokalisierung für Primideale in Integritätsbereichen/Definition">Lokalisierung</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub><mo stretchy="false">=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mrow data-mjx-texclass="ORD"><mfrac><mrow data-mjx-texclass="ORD"><mi>f</mi></mrow><mrow data-mjx-texclass="ORD"><mi>g</mi></mrow></mfrac></mrow><mo stretchy="false">∣</mo><mi>f</mi><mo stretchy="false">∈</mo><mi>R</mi><mo>,</mo><mspace width="0.167em"></mspace><mi>g</mi><mo stretchy="false">∈&#x338;</mo><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+<p>Wir zeigen, dass das Komplement von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub></mstyle></mrow></math>  nur aus Einheiten besteht, sodass es sich um ein 
+<a href="/wiki/Kommutative_Ringtheorie/Maximales_Ideal/Definition" title="Kommutative Ringtheorie/Maximales Ideal/Definition">maximales Ideal</a>
+handeln muss. Es sei also
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>q</mi><mo stretchy="false">=</mo><mrow data-mjx-texclass="ORD"><mfrac><mrow data-mjx-texclass="ORD"><mi>f</mi></mrow><mrow data-mjx-texclass="ORD"><mi>g</mi></mrow></mfrac></mrow><mo stretchy="false">∈</mo><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub></mstyle></mrow></math>,&#160;
+aber nicht in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mrow></msub></mstyle></mrow></math>. Dann sind
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo>,</mo><mi>g</mi><mo stretchy="false">∉</mo><mrow data-mjx-texclass="ORD"><mi>𝔭</mi></mrow></mstyle></mrow></math>&#160;
+und somit gehört der inverse Bruch <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mfrac><mrow data-mjx-texclass="ORD"><mi>g</mi></mrow><mrow data-mjx-texclass="ORD"><mi>f</mi></mrow></mfrac></mrow></mstyle></mrow></math> ebenfalls zur Lokalisierung.
+</p>
+</div><div class="floatright" style="position:relative; bottom:1.2em; right:-1.2em;"><math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>◻</mi></mstyle></mrow></math></div></div>
+</div></div> 
+<p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Quotientenkörper und Funktionenkörper</em></big></dd></dl>
+<p>Wenn <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> ein Integritätsbereich ist, so ist der Quotientenkörper eine Lokalisierung, und zwar am Primideal <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mn>0</mn></mstyle></mrow></math>. Wir zeigen jetzt, dass für die zugehörige irreduzible affine Varietät <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">−</mo><mspace width="-0.167em"></mspace><mi data-mjx-texclass="OP" mathvariant="normal">Spek</mi><mo>&#x2061;</mo><mspace width="0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>R</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> jede algebraische Funktion in natürlicher Weise im Quotientenkörper liegt. 
+</p>
+<br clear="left" /><div class="factproof">
+<h2 id="Lemma" class="mw-html-heading"> <a href="/wiki/K-Spektrum/Integrit%C3%A4tsbereich/Algebraische_Funktion_ist_Element_im_Quotientenk%C3%B6rper/Fakt" title="K-Spektrum/Integritätsbereich/Algebraische Funktion ist Element im Quotientenkörper/Fakt">Lemma </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Algebraische_Funktion_ist_Element_im_Quotientenk%C3%B6rper/Fakt&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Algebraische_Funktion_ist_Element_im_Quotientenk%C3%B6rper/Fakt&amp;action=edit">&#160;</a></span></h2>
+<div class="content" style="font-style:italic;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math> ein 
+<a href="/wiki/K%C3%B6rpertheorie_(Algebra)/Algebraisch_abgeschlossen/Definition" title="Körpertheorie (Algebra)/Algebraisch abgeschlossen/Definition">algebraisch abgeschlossener Körper</a>,
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> eine
+<a href="/wiki/Kommutative_Ringtheorie/Integrit%C3%A4tsbereich/Definition" title="Kommutative Ringtheorie/Integritätsbereich/Definition">integre</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-<a href="/wiki/Kommutative_Ringtheorie/Algebra_von_endlichem_Typ/Definition" title="Kommutative Ringtheorie/Algebra von endlichem Typ/Definition">Algebra von endlichem Typ</a>,
+und sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>K</mi><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">−</mo><mspace width="-0.167em"></mspace><mi data-mjx-texclass="OP" mathvariant="normal">Spek</mi><mo>&#x2061;</mo><mspace width="0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>R</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+eine offene nicht-leere Teilmenge.  
+</p><p><b> Dann gibt es einen eindeutig bestimmten 
+<a href="/wiki/Abbildung/Injektiv/Definition" title="Abbildung/Injektiv/Definition">injektiven</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math>-<a href="/wiki/Kommutative_Ringtheorie/Algebra-Homomorphismus_%C3%BCber_Ring/Definition" title="Kommutative Ringtheorie/Algebra-Homomorphismus über Ring/Definition">Algebrahomomorphismus</a>
+</b></p><b>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">⟶</mo><mi>Q</mi><mo stretchy="false">(</mo><mi>R</mi><mo stretchy="false">)</mo><mo stretchy="false">.</mo></mstyle></mrow></math> </dd></dl> </b>
+<p>Insbesondere ist jede auf einer nicht-leeren offenen Menge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>K</mi><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">−</mo><mspace width="-0.167em"></mspace><mi data-mjx-texclass="OP" mathvariant="normal">Spek</mi><mo>&#x2061;</mo><mspace width="0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>R</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+definierte
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Algebraische_(regul%C3%A4re)_Funktion_auf_offener_Menge/Punktweise_und_global/Definition" title="K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf offener Menge/Punktweise und global/Definition">algebraische Funktion</a>
+ein Element im 
+<a href="/wiki/Kommutative_Ringtheorie/Quotientenk%C3%B6rper/Definition" title="Kommutative Ringtheorie/Quotientenkörper/Definition">Quotientenkörper</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Q</mi><mo stretchy="false">(</mo><mi>R</mi><mo stretchy="false">)</mo></mstyle></mrow></math>.
+</p>
+</div>
+</div>
+<h3 id="Beweis_2" class="mw-html-heading"> <a href="/wiki/K-Spektrum/Integrit%C3%A4tsbereich/Algebraische_Funktion_ist_Element_im_Quotientenk%C3%B6rper/Fakt/Beweis" title="K-Spektrum/Integritätsbereich/Algebraische Funktion ist Element im Quotientenkörper/Fakt/Beweis">Beweis</a>  <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Algebraische_Funktion_ist_Element_im_Quotientenk%C3%B6rper/Fakt/Beweis&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Algebraische_Funktion_ist_Element_im_Quotientenk%C3%B6rper/Fakt/Beweis&amp;action=edit">&#160;</a></span> </h3> 
+<div class="content">
+<div style="margin-right:1.2em;text-align:justify;"><div id="Artikelinhalt">
+<p>Es sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>&#160;
+ein Punkt und die algebraische Funktion <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi></mstyle></mrow></math> sei in einer Umgebung von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> durch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false">=</mo><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi></mstyle></mrow></math>&#160; 
+gegeben,
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo>,</mo><mi>H</mi><mo stretchy="false">∈</mo><mi>R</mi></mstyle></mrow></math>,&#160; 
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>H</mi><mo stretchy="false">≠</mo><mn>0</mn></mstyle></mrow></math>.&#160;
+Dann kann man <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi></mstyle></mrow></math> sofort als Element im Quotientenkörper auffassen. Es sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Q</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>&#160; 
+ein anderer Punkt mit einer Darstellung
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false">=</mo><msup><mi>G</mi><mo>&#x2032;</mo></msup><mo lspace="0" rspace="0">/</mo><msup><mi>H</mi><mo>&#x2032;</mo></msup></mstyle></mrow></math>.&#160;
+Nach
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Verschiedene_rationale_Darstellungen_einer_aIgebraischen_Funktion/Beziehung_im_Koordinatenring/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Verschiedene rationale Darstellungen einer aIgebraischen Funktion/Beziehung im Koordinatenring/Fakt">Lemma 14.8</a>
+und da ein Integritätsbereich vorliegt ist
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><msup><mi>H</mi><mo>&#x2032;</mo></msup><mo stretchy="false">=</mo><msup><mi>G</mi><mo>&#x2032;</mo></msup><mi>H</mi></mstyle></mrow></math>&#160; 
+in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math>. Daher ist der Quotient im Quotientenkörper wohldefiniert. Die Abbildung ist dann offensichtlich ein Ringhomomorphismus und das Diagramm
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mo data-mjx-texclass="OPEN"></mo><mtable><mtr><mtd><mi>R</mi></mtd><mtd></mtd><mtd></mtd></mtr><mtr><mtd><mo stretchy="false">↓</mo></mtd><mtd><mo stretchy="false">↘</mo></mtd><mtd></mtd></mtr><mtr><mtd><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mtd><mtd><mo stretchy="false">⟶</mo></mtd><mtd><mi>Q</mi><mo stretchy="false">(</mo><mi>R</mi><mo stretchy="false">)</mo></mtd></mtr></mtable><mo fence="true" stretchy="true" symmetric="true" data-mjx-texclass="CLOSE"></mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>kommutiert. Die Abbildung ist auch durch die Eigenschaften eindeutig festgelegt, da die algebraischen Funktionen, die Elementen aus <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> entsprechen, auf die zugehörigen Elemente im Quotientenkörper gehen müssen. Damit sind bereits die Bilder der Brüche festgelegt.
+</p><p>Die Injektivität ergibt sich daraus, dass aus
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi><mo stretchy="false">=</mo><mn>0</mn></mstyle></mrow></math>&#160;
+im Quotientenkörper sofort
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo stretchy="false">=</mo><mn>0</mn></mstyle></mrow></math>&#160;
+folgt, und damit ist auch die zugehörige Funktion auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>D</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo></mstyle></mrow></math> die Nullfunktion. Wenn es eine weitere Darstellung
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi><mo stretchy="false">=</mo><msup><mi>G</mi><mo>&#x2032;</mo></msup><mo lspace="0" rspace="0">/</mo><msup><mi>H</mi><mo>&#x2032;</mo></msup></mstyle></mrow></math>&#160; 
+gibt, so folgt wiederum
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msup><mi>G</mi><mo>&#x2032;</mo></msup><mo stretchy="false">=</mo><mn>0</mn></mstyle></mrow></math>&#160;
+und erneut ist das die Nullfunktion.
+</p>
+</div><div class="floatright" style="position:relative; bottom:1.2em; right:-1.2em;"><math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>◻</mi></mstyle></mrow></math></div></div>
+</div></div>
+<p><br />
+Aus der Eindeutigkeit folgt ebenfalls sofort, dass für zwei offene Mengen
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><msup><mi>U</mi><mo>&#x2032;</mo></msup></mstyle></mrow></math>&#160;
+das Diagramm
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mo data-mjx-texclass="OPEN"></mo><mtable><mtr><mtd><mi>Γ</mi><mo stretchy="false">(</mo><msup><mi>U</mi><mo>&#x2032;</mo></msup><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mtd><mtd></mtd><mtd></mtd></mtr><mtr><mtd><mo stretchy="false">↓</mo></mtd><mtd><mo stretchy="false">↘</mo></mtd><mtd></mtd></mtr><mtr><mtd><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mtd><mtd><mo stretchy="false">⟶</mo></mtd><mtd><mi>Q</mi><mo stretchy="false">(</mo><mi>R</mi><mo stretchy="false">)</mo></mtd></mtr></mtable><mo fence="true" stretchy="true" symmetric="true" data-mjx-texclass="CLOSE"></mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>kommutiert, wobei links der Restriktionshomomorphismus steht. Wir werden im integren Fall von nun an eine algebraische Funktion mit dem zugehörigen Element im Quotientenkörper identifizieren.
+</p><p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Topologische Filter und ihre Halme</em></big></dd></dl>
+<p>Das Ergebnis des letzten Abschnitts besagt, dass man den Quotientenkörper als eine geordnete Vereinigung aller Schnittringe <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mstyle></mrow></math> über alle nichtleeren offenen Mengen gewinnen kann. Eine ähnliche Konstruktion kann man generell für sinnvoll strukturierte Systeme von offenen Mengen durchführen. Dazu benötigen wir den Begriff des Filters.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_4"><a href="/wiki/Topologie/Topologischer_Filter/Definition" title="Topologie/Topologischer Filter/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Topologie/Topologischer_Filter/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Topologie/Topologischer_Filter/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ein
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischer Raum</a>.
+Ein System <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math> aus offenen Teilmengen von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> heißt <em>Filter</em>, wenn folgende Eigenschaften gelten
+(<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo>,</mo><mi>V</mi></mstyle></mrow></math> seien offen).
+</p>
+<ol>
+<li> &#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>.&#160;
+</li>
+<li>Mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>&#160; 
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi></mstyle></mrow></math>&#160;
+ist auch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>.&#160;
+</li>
+<li>Mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>&#160;
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>&#160;
+ist auch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">∩</mo><mi>V</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>.&#160;
+</li>
+</ol>  
+</div>
+</div></div>
+<div class="wpImageAnnotatorControl wpImageAnnotatorCaptionOff"><figure typeof="mw:File/Thumb"><a href="/wiki/Datei:Concentric_Circles.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Concentric_Circles.svg/250px-Concentric_Circles.svg.png?utm_source=de.wikiversity.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="200" height="200" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Concentric_Circles.svg/500px-Concentric_Circles.svg.png?utm_source=de.wikiversity.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="354" data-file-height="354" /></a><figcaption> Schematische Darstellung eines Umgebungsfilters</figcaption></figure></div>
+<p><br />
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_5"><a href="/wiki/Topologische_Filter/Umgebungsfilter/Definition" title="Topologische Filter/Umgebungsfilter/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Topologische_Filter/Umgebungsfilter/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Topologische_Filter/Umgebungsfilter/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ein
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischer Raum</a>
+und sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>M</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+eine Teilmenge. Dann nennt man das System
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">(</mo><mi>M</mi><mo stretchy="false">)</mo><mo stretchy="false">=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi><mrow data-mjx-texclass="ORD"><mtext>&#xA0;offen&#xA0;</mtext></mrow><mo stretchy="false">∣</mo><mi>M</mi><mo stretchy="false">⊆</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>den <em>Umgebungsfilter</em> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>M</mi></mstyle></mrow></math>.  
+</p>
+</div>
+</div></div>
+<p>Es handelt sich dabei offensichtlich um einen topologischen Filter. Insbesondere gibt es zu einem einzelnen Punkt
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>X</mi></mstyle></mrow></math>&#160; 
+den Umgebungsfilter <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">(</mo><mi>P</mi><mo stretchy="false">)</mo></mstyle></mrow></math>. Der Umgebungsfilter fasst alle offenen Umgebungen des Punktes zusammen. Wenn zwei offene Umgebungen <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub></mstyle></mrow></math> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> gegeben sind zusammen mit zwei algebraischen Funktionen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>f</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo stretchy="false">∈</mo><mi>Γ</mi><mo stretchy="false">(</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mrow data-mjx-texclass="ORD"><mtext>&#xA0;und&#xA0;</mtext></mrow><msub><mi>f</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub><mo stretchy="false">∈</mo><mi>Γ</mi><mo stretchy="false">(</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p>so ergibt die Summe <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>f</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo stretchy="false">+</mo><msub><mi>f</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub></mstyle></mrow></math>
+(ebenso wenig das Produkt)
+zunächst keinen Sinn, da die Definitionsbereiche verschieden sind. Im integren Fall kann man beide Funktionen als Elemente im Quotientenkörper auffassen und dort addieren. Man kann aber auch zum Durchschnitt <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub></mstyle></mrow></math>
+(der ebenfalls eine offene Umgebung des Punktes ist)
+übergehen und dort die Einschränkungen der beiden Funktionen addieren. Wichtig ist hierbei die Eigenschaft eines Filters, dass man zu je zwei offenen Mengen auch den Durchschnitt im Filter hat mit den zugehörigen Inklusionen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub><mo stretchy="false">⊆</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>und den zugehörigen Restriktionen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo>,</mo><mi>Γ</mi><mo stretchy="false">(</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">⟶</mo><mi>Γ</mi><mo stretchy="false">(</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mn>2</mn></mrow></msub><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">.</mo></mstyle></mrow></math> </dd></dl>
+<p>Diese Beobachtung wird durch den Begriff der gerichteten Menge und des gerichteten Systems präzisiert.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_6"><a href="/wiki/Ordnungstheorie/Gerichtete_Menge/Definition" title="Ordnungstheorie/Gerichtete Menge/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Ordnungstheorie/Gerichtete_Menge/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Ordnungstheorie/Gerichtete_Menge/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Eine
+<a href="/wiki/Ordnungstheorie/Geordnete_Menge/Definition" title="Ordnungstheorie/Geordnete Menge/Definition">geordnete Menge</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mi>I</mi><mo>,</mo><mo stretchy="false">≼</mo><mo stretchy="false">)</mo></mstyle></mrow></math> heißt <em>gerichtet geordnet</em> oder <em>gerichtet</em>, wenn es zu jedem
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>&#160; 
+ein 
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>k</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>&#160;
+mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>&#160; 
+gibt.  
+</p>
+</div>
+</div></div>
+<p>Wir fassen einen topologischen Filter als eine durch die Inklusion geordnete Menge auf. Aus der Durchschnittseigenschaft eines Filters ergibt sich, dass eine gerichtete Menge vorliegt
+(Es ist dabei
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">≼</mo><mo stretchy="false">=</mo><mo stretchy="false">⊇</mo></mstyle></mrow></math>).
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_7"><a href="/wiki/Geordnetes_und_gerichtetes_System/Von_Mengen/Definition" title="Geordnetes und gerichtetes System/Von Mengen/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Geordnetes_und_gerichtetes_System/Von_Mengen/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Geordnetes_und_gerichtetes_System/Von_Mengen/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mi>I</mi><mo>,</mo><mo stretchy="false">≼</mo><mo stretchy="false">)</mo></mstyle></mrow></math> eine
+<a href="/wiki/Ordnungstheorie/Geordnete_Menge/Definition" title="Ordnungstheorie/Geordnete Menge/Definition">geordnete Indexmenge</a>.
+Eine Familie
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo>,</mo><mspace width="0.167em"></mspace><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p>von Mengen nennt man ein <em>geordnetes System von Mengen</em>, wenn folgende Eigenschaften erfüllt sind.
+</p>
+<ol>
+<li>Zu <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">≼</mo><mi>j</mi></mstyle></mrow></math> gibt es eine Abbildung
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">→</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mstyle></mrow></math>.
+</li>
+<li>Zu
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">≼</mo><mi>j</mi></mstyle></mrow></math>&#160;
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>&#160; 
+ist
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">=</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>j</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">∘</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub></mstyle></mrow></math>.&#160;
+</li>
+</ol>
+<p>Ist die Indexmenge zusätzlich
+<a href="/wiki/Ordnungstheorie/Gerichtete_Menge/Definition" title="Ordnungstheorie/Gerichtete Menge/Definition">gerichtet</a>,
+so spricht man von einem <em>gerichteten System von Mengen</em>.  
+</p>
+</div>
+</div></div>
+<p>Wenn die beteiligten Mengen <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math> allesamt Gruppen 
+(Ringe)
+sind und alle Abbildungen zwischen ihnen Gruppenhomorphismen 
+(Ringhomomorphismen),
+so spricht man von einem geordneten bzw. gerichteten System von Gruppen 
+(Ringen). 
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_8"><a href="/wiki/Geordnetes_System/Von_Mengen/Kolimes/Definition" title="Geordnetes System/Von Mengen/Kolimes/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Geordnetes_System/Von_Mengen/Kolimes/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Geordnetes_System/Von_Mengen/Kolimes/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>, 
+ein
+<a href="/wiki/Geordnetes_und_gerichtetes_System/Von_Mengen/Definition" title="Geordnetes und gerichtetes System/Von Mengen/Definition">gerichtetes System von Mengen</a>.
+Dann nennt man
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo data-mjx-texclass="OP" mathvariant="normal">colim</mo><mo>&#x2061;</mo><msub><mspace width="0.167em"></mspace><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi></mrow></mrow></msub><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">=</mo><munder><mo movablelimits="false" stretchy="false">⨄</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi></mrow></mrow></munder><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo lspace="0" rspace="0">/</mo><mo stretchy="false">∼</mo><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>den <em>Kolimes</em>
+(oder <em>direkten</em> oder <em>induktiven Limes</em>)
+des Systems. Dabei bezeichnet <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">∼</mo></mstyle></mrow></math> die 
+<a href="/wiki/Mengen/%C3%84quivalenzrelation/Definition" title="Mengen/Äquivalenzrelation/Definition">Äquivalenzrelation</a>,
+bei der zwei Elemente
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>m</mi><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math>&#160; 
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>n</mi><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mstyle></mrow></math>&#160;
+als äquivalent erklärt werden, wenn es ein
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>k</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>&#160;
+mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>&#160; 
+und mit
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo><mo stretchy="false">=</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>j</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>gibt.  
+</p>
+</div>
+</div></div>
+<p>Bei dieser Definition ist insbesondere ein Element
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∈</mo><mi>M</mi></mstyle></mrow></math>&#160; 
+äquivalent zu seinem Bild
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">(</mo><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">)</mo><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>k</mi></mrow></msub></mstyle></mrow></math>&#160; 
+für alle
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>.&#160; 
+Wenn ein gerichtetes System von Gruppen
+(Ringen)
+vorliegt, so kann man auf dem soeben eingeführten Kolimes der Mengen auch eine Gruppenstruktur
+(Ringstruktur)
+definieren. Dies beruht darauf, dass zwei Elemente in diesem Kolimes, die durch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math>&#160; 
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mstyle></mrow></math>&#160; 
+repräsentiert seien, mit ihren Bildern in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>k</mi></mrow></msub></mstyle></mrow></math> 
+(<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>)
+identifiziert werden können. Dann kann man dort die Gruppenverknüpfung erklären, siehe
+<a href="/wiki/Gerichtetes_System/Von_kommutativen_Gruppen/Kolimes_ist_kommutative_Gruppe/Aufgabe" title="Gerichtetes System/Von kommutativen Gruppen/Kolimes ist kommutative Gruppe/Aufgabe">Aufgabe 15.23</a>.
+Unser Hauptbeispiel für ein gerichtetes System ist das durch einen topologischen Filter gerichtete System der Ringe
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo>,</mo><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi><mo stretchy="false">.</mo></mstyle></mrow></math> </dd></dl>
+<p>Der zugehörige Kolimes über dieses System bekommt einen eigenen Namen.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_9"><a href="/wiki/Quasiaffine_Variet%C3%A4t/Topologischer_Filter/Halm_der_Strukturgarbe/Definition" title="Quasiaffine Varietät/Topologischer Filter/Halm der Strukturgarbe/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Quasiaffine_Variet%C3%A4t/Topologischer_Filter/Halm_der_Strukturgarbe/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Quasiaffine_Variet%C3%A4t/Topologischer_Filter/Halm_der_Strukturgarbe/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mi>V</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mstyle></mrow></math> eine quasiaffine Varietät und sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math> ein
+<a href="/wiki/Topologie/Topologischer_Filter/Definition" title="Topologie/Topologischer Filter/Definition">topologischer Filter</a>
+in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi></mstyle></mrow></math>. Dann nennt man
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>F</mi></mrow></msub><mo stretchy="false">=</mo><mo data-mjx-texclass="OP" mathvariant="normal">colim</mo><mo>&#x2061;</mo><msub><mspace width="0.167em"></mspace><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi></mrow></mrow></msub><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>den <em>Halm</em> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow></mstyle></mrow></math> in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>.  
+</p>
+</div>
+</div></div>
+<p>Den Halm im Umgebungsfilter eines Punktes <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> nennt man auch den Halm in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> und schreibt dafür <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math>.
+</p><p><br />
+</p>
+<br clear="left" /><div class="factproof">
+<h2 id="Satz_2" class="mw-html-heading"> <a href="/wiki/K-Spektrum/Algebraisch_abgeschlossen/Punkt/Halm_ist_Lokalisierung/Fakt" title="K-Spektrum/Algebraisch abgeschlossen/Punkt/Halm ist Lokalisierung/Fakt">Satz </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=K-Spektrum/Algebraisch_abgeschlossen/Punkt/Halm_ist_Lokalisierung/Fakt&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=K-Spektrum/Algebraisch_abgeschlossen/Punkt/Halm_ist_Lokalisierung/Fakt&amp;action=edit">&#160;</a></span></h2>
+<div class="content" style="font-style:italic;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> eine 
+<a href="/wiki/Kommutative_Ringtheorie/Reduzierter_Ring/Definition" title="Kommutative Ringtheorie/Reduzierter Ring/Definition">reduzierte</a>
+kommutative 
+<a href="/wiki/Kommutative_Ringtheorie/Algebra_von_endlichem_Typ/Definition" title="Kommutative Ringtheorie/Algebra von endlichem Typ/Definition">Algebra von endlichem Typ</a>
+über einem 
+<a href="/wiki/K%C3%B6rpertheorie_(Algebra)/Algebraisch_abgeschlossen/Definition" title="Körpertheorie (Algebra)/Algebraisch abgeschlossen/Definition">algebraisch abgeschlossenen Körper</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>. Es sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>K</mi><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">−</mo><mspace width="-0.167em"></mspace><mi data-mjx-texclass="OP" mathvariant="normal">Spek</mi><mo>&#x2061;</mo><mspace width="0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>R</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160; 
+ein Punkt im
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-<a href="/wiki/Endlich_erzeugte_K-Algebren/K-Spektrum_mit_Zariski-Topologie/Definition" title="Endlich erzeugte K-Algebren/K-Spektrum mit Zariski-Topologie/Definition">Spektrum</a>
+mit zugehörigem 
+<a href="/wiki/Kommutative_Ringtheorie/Maximales_Ideal/Definition" title="Kommutative Ringtheorie/Maximales Ideal/Definition">maximalen Ideal</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow><mo stretchy="false">⊆</mo><mi>R</mi></mstyle></mrow></math>.&#160;  
+</p><p><b> Dann gibt es eine natürliche 
+<a href="/wiki/Lineare_Abbildung/K%C3%B6rper/Isomorphismus/Definition" title="Lineare Abbildung/Körper/Isomorphismus/Definition">Isomorphie</a>
+(von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math>-Algebren)
+</b></p><b>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mrow></msub><mo stretchy="false">⟶</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">.</mo></mstyle></mrow></math> </dd></dl> </b>
+</div>
+</div>
+<h3 id="Beweis_3" class="mw-html-heading"> <a href="/wiki/K-Spektrum/Algebraisch_abgeschlossen/Punkt/Halm_ist_Lokalisierung/Fakt/Beweis" title="K-Spektrum/Algebraisch abgeschlossen/Punkt/Halm ist Lokalisierung/Fakt/Beweis">Beweis</a>  <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=K-Spektrum/Algebraisch_abgeschlossen/Punkt/Halm_ist_Lokalisierung/Fakt/Beweis&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=K-Spektrum/Algebraisch_abgeschlossen/Punkt/Halm_ist_Lokalisierung/Fakt/Beweis&amp;action=edit">&#160;</a></span> </h3> 
+<div class="content">
+<div style="margin-right:1.2em;text-align:justify;"><div id="Artikelinhalt">
+<p>Der Halm <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math> hat eine eindeutige Struktur als <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math>-Algebra, da ja die Gesamtmenge zum Filter gehört. Es sei
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi><mo stretchy="false">∈</mo><mi>R</mi></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi><mo stretchy="false">∈&#x338;</mo><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mstyle></mrow></math>. 
+Dann ist <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mn>1</mn><mo lspace="0" rspace="0">/</mo><mi>F</mi></mstyle></mrow></math> auf der offenen Umgebung <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>D</mi><mo stretchy="false">(</mo><mi>F</mi><mo stretchy="false">)</mo></mstyle></mrow></math> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> definiert. Dabei gilt dort
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi><mo stretchy="false">⋅</mo><mn>1</mn><mo lspace="0" rspace="0">/</mo><mi>F</mi><mo stretchy="false">=</mo><mn>1</mn></mstyle></mrow></math>,&#160; 
+sodass <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math> in dieser Menge und damit auch im Kolimes eine Einheit ist. Nach der universellen Eigenschaft der Nenneraufnahme gibt es also einen
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math>-<a href="/wiki/Kommutative_Ringtheorie/Algebra-Homomorphismus_%C3%BCber_Ring/Definition" title="Kommutative Ringtheorie/Algebra-Homomorphismus über Ring/Definition">Algebrahomomorphismus</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mrow></msub><mo stretchy="false">⟶</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p>den wir als bijektiv nachweisen müssen. Es sei zuerst
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false">∈</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math>.&#160;
+Dieses Element wird repräsentiert durch eine algebraische Funktion
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false">∈</mo><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo></mstyle></mrow></math>&#160;
+mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>.&#160;
+Insbesondere gibt es eine rationale Darstellung für <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi></mstyle></mrow></math> in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math>, d.h.
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false">=</mo><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi></mstyle></mrow></math>&#160;
+auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>D</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo></mstyle></mrow></math> und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>D</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo></mstyle></mrow></math>.&#160; 
+Letzteres bedeutet
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>H</mi><mo stretchy="false">(</mo><mi>P</mi><mo stretchy="false">)</mo><mo stretchy="false">≠</mo><mn>0</mn></mstyle></mrow></math>&#160;
+und somit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>H</mi><mo stretchy="false">∉</mo><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mstyle></mrow></math>.&#160;
+Daher ist <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi></mstyle></mrow></math> ein Element in der Lokalisierung <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>R</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mrow></msub></mstyle></mrow></math>, und dieses wird auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi></mstyle></mrow></math> geschickt.
+</p><p>Zur Injektivität sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi></mstyle></mrow></math> gegeben mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>H</mi><mo stretchy="false">∉</mo><mrow data-mjx-texclass="ORD"><mi>𝔪</mi></mrow></mstyle></mrow></math>&#160;
+und vorausgesetzt, dass es als Element im Halm <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mn>0</mn></mstyle></mrow></math> ist. Dies bedeutet, dass es eine offene Umgebung <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> gibt, auf der <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi></mstyle></mrow></math> die Nullfunktion ist. Wir können annehmen, dass diese offene Menge die Form
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>D</mi><mo stretchy="false">(</mo><msup><mi>H</mi><mo>&#x2032;</mo></msup><mo stretchy="false">)</mo><mo stretchy="false">⊆</mo><mi>D</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo></mstyle></mrow></math>&#160;
+hat. Wegen
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Algebraische_(regul%C3%A4re)_Funktion_auf_D(f)/Ist_R_f/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf D(f)/Ist R f/Fakt">Korollar 14.10</a>
+gibt es dann auch eine Beschreibung
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi><mo stretchy="false">=</mo><msup><mi>G</mi><mo>&#x2032;</mo></msup><mo lspace="0" rspace="0">/</mo><msup><mi>H</mi><mo>&#x2032;</mo></msup><mo stretchy="false">=</mo><mn>0</mn></mstyle></mrow></math>.&#160;
+Das heißt nach
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Verschiedene_rationale_Darstellungen_einer_aIgebraischen_Funktion/Beziehung_im_Koordinatenring/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Verschiedene rationale Darstellungen einer aIgebraischen Funktion/Beziehung im Koordinatenring/Fakt">Lemma 14.8</a>,
+dass
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>H</mi><msup><mi>H</mi><mo>&#x2032;</mo></msup><msup><mi>H</mi><mo>&#x2032;</mo></msup><mi>G</mi><mo stretchy="false">=</mo><mn>0</mn></mstyle></mrow></math>&#160; 
+in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> ist. Dann ist auch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi><mo stretchy="false">=</mo><mn>0</mn></mstyle></mrow></math>&#160;
+in der Lokalisierung.
+</p>
+</div><div class="floatright" style="position:relative; bottom:1.2em; right:-1.2em;"><math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>◻</mi></mstyle></mrow></math></div></div>
+</div></div>
+<p><br />
+</p>
+<br clear="left" /><div class="factproof">
+<h2 id="Lemma_2" class="mw-html-heading"> <a href="/wiki/K-Spektrum/Integrit%C3%A4tsbereich/Durchschnitt_von_lokalen_Ringen/Fakt" title="K-Spektrum/Integritätsbereich/Durchschnitt von lokalen Ringen/Fakt">Lemma </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Durchschnitt_von_lokalen_Ringen/Fakt&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Durchschnitt_von_lokalen_Ringen/Fakt&amp;action=edit">&#160;</a></span></h2>
+<div class="content" style="font-style:italic;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math> ein 
+<a href="/wiki/K%C3%B6rpertheorie_(Algebra)/Algebraisch_abgeschlossen/Definition" title="Körpertheorie (Algebra)/Algebraisch abgeschlossen/Definition">algebraisch abgeschlossener Körper</a>
+und sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>R</mi></mstyle></mrow></math> eine 
+<a href="/wiki/Kommutative_Ringtheorie/Integrit%C3%A4tsbereich/Definition" title="Kommutative Ringtheorie/Integritätsbereich/Definition">integre</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>K</mi></mstyle></mrow></math>-<a href="/wiki/Kommutative_Ringtheorie/Algebra_von_endlichem_Typ/Definition" title="Kommutative Ringtheorie/Algebra von endlichem Typ/Definition">Algebra von endlichem Typ</a>.
+Es sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>K</mi><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">−</mo><mspace width="-0.167em"></mspace><mi data-mjx-texclass="OP" mathvariant="normal">Spek</mi><mo>&#x2061;</mo><mspace width="0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>R</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+eine 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offene Teilmenge</a>.  
+</p><p><b> Dann ist
+</b></p><b>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">=</mo><munder><mo movablelimits="false" stretchy="false">⋂</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mrow></mrow></munder><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl> </b>
+<p>(dabei wird der Durchschnitt im 
+<a href="/wiki/Kommutative_Ringtheorie/Quotientenk%C3%B6rper/Definition" title="Kommutative Ringtheorie/Quotientenkörper/Definition">Quotientenkörper</a>
+genommen).
+</p>
+</div>
+</div>
+<h3 id="Beweis_4" class="mw-html-heading"> <a href="/wiki/K-Spektrum/Integrit%C3%A4tsbereich/Durchschnitt_von_lokalen_Ringen/Fakt/Beweis" title="K-Spektrum/Integritätsbereich/Durchschnitt von lokalen Ringen/Fakt/Beweis">Beweis</a>  <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Durchschnitt_von_lokalen_Ringen/Fakt/Beweis&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=K-Spektrum/Integrit%C3%A4tsbereich/Durchschnitt_von_lokalen_Ringen/Fakt/Beweis&amp;action=edit">&#160;</a></span> </h3> 
+<div class="content">
+<div style="margin-right:1.2em;text-align:justify;"><div id="Artikelinhalt">
+<p>Zu jedem Punkt
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>&#160; 
+gibt es
+<a href="/wiki/Ringtheorie/Ringhomomorphismus/Definition" title="Ringtheorie/Ringhomomorphismus/Definition">Ringhomomorphismen</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi mathvariant="normal">Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">→</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math>
+und
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">→</mo><mi>Q</mi><mo stretchy="false">(</mo><mi>R</mi><mo stretchy="false">)</mo></mstyle></mrow></math>,
+die jeweils 
+<a href="/wiki/Abbildung/Injektiv/Definition" title="Abbildung/Injektiv/Definition">injektiv</a>
+sind. Damit gibt es auch einen injektiven Ringhomomorphismus
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">⟶</mo><munder><mo movablelimits="false" stretchy="false">⋂</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mrow></mrow></munder><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">.</mo></mstyle></mrow></math> </dd></dl>
+<p>Es sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false">∈</mo><mi>Q</mi><mo stretchy="false">(</mo><mi>R</mi><mo stretchy="false">)</mo></mstyle></mrow></math>&#160;
+ein Element im Durchschnitt rechts. Dann gibt es zu jedem Punkt
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>&#160; 
+eine Darstellung
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false">=</mo><mi>G</mi><mo lspace="0" rspace="0">/</mo><mi>H</mi></mstyle></mrow></math>&#160;
+mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>D</mi><mo stretchy="false">(</mo><mi>H</mi><mo stretchy="false">)</mo><mo stretchy="false">⊆</mo><mi>U</mi></mstyle></mrow></math>.&#160;
+Dies bedeutet direkt, dass <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi></mstyle></mrow></math> eine algebraische Funktion auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math> ist.
+</p>
+</div><div class="floatright" style="position:relative; bottom:1.2em; right:-1.2em;"><math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>◻</mi></mstyle></mrow></math></div></div>
+</div></div>
+<p><br />
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_10"><a href="/wiki/Quasiaffine_Variet%C3%A4ten/Irreduzibel/Funktionenk%C3%B6rper/Definition" title="Quasiaffine Varietäten/Irreduzibel/Funktionenkörper/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Quasiaffine_Variet%C3%A4ten/Irreduzibel/Funktionenk%C3%B6rper/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Quasiaffine_Variet%C3%A4ten/Irreduzibel/Funktionenk%C3%B6rper/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi></mstyle></mrow></math> eine
+<a href="/wiki/Affine_Variet%C3%A4ten/Affin-algebraische_Mengen/Irreduzibel/Definition" title="Affine Varietäten/Affin-algebraische Mengen/Irreduzibel/Definition">irreduzible</a>
+<a href="/wiki/Quasiaffine_Variet%C3%A4t/Algebraisch_abgeschlossener_K%C3%B6rper/K-Punkte/Definition" title="Quasiaffine Varietät/Algebraisch abgeschlossener Körper/K-Punkte/Definition">quasiaffine Varietät</a>.
+Dann ist der 
+<a href="/wiki/Pr%C3%A4garbe/Punkt/Halm/Definition" title="Prägarbe/Punkt/Halm/Definition">Halm</a>
+von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒪</mi></mrow><mrow data-mjx-texclass="ORD"><mi>V</mi></mrow></msub></mstyle></mrow></math> über alle nichtleeren offenen Mengen von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi></mstyle></mrow></math> ein 
+<a href="/wiki/K%C3%B6rpertheorie_(Algebra)/K%C3%B6rper/Direkt/Definition" title="Körpertheorie (Algebra)/Körper/Direkt/Definition">Körper</a>,
+den man den <em>Funktionenkörper</em> von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi></mstyle></mrow></math> nennt.  
+</p>
+</div>
+</div></div> 
+<p><br clear="all" />
+</p>
+<table class="prettytable center kursnavigation" style="margin-top:0;">
+
+
+
+<tbody><tr style="text-align:center;">
+<th style="text-align:center;background-color:lightgray;"><a href="/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_14" title="Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 14">&lt;&lt;</a> | <a href="/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)" title="Kurs:Algebraische Kurven (Osnabrück 2025-2026)">Kurs:Algebraische Kurven (Osnabrück 2025-2026)</a> | <a href="/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_16" title="Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 16">&gt;&gt;</a><br /> <a href="//upload.wikimedia.org/wikipedia/commons/a/a9/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Vorlesung15.pdf?utm_source=de.wikiversity.org&amp;utm_campaign=index&amp;utm_content=original" class="internal" title="Algebraische Kurven (Osnabrück 2025-2026)Vorlesung15.pdf">PDF-Version dieser Vorlesung</a><br /> <a href="/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Arbeitsblatt_15" title="Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 15">Arbeitsblatt zur Vorlesung</a> (<a href="//upload.wikimedia.org/wikipedia/commons/0/01/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Arbeitsblatt15.pdf?utm_source=de.wikiversity.org&amp;utm_campaign=index&amp;utm_content=original" class="internal" title="Algebraische Kurven (Osnabrück 2025-2026)Arbeitsblatt15.pdf">PDF</a>)
+</th></tr></tbody></table>
+<p><br />
+</p>
+</div></div></div></div></div>
+</div>
+</div> </span></div>
+<p><br />
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐7f7db4796‐7db7j
+Cached time: 20260821083113
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [no‐toc]
+CPU time usage: 0.282 seconds
+Real time usage: 0.416 seconds
+Preprocessor visited node count: 20909/1000000
+Revision size: 4131/2097152 bytes
+Post‐expand include size: 489762/2097152 bytes
+Template argument size: 168331/2097152 bytes
+Highest expansion depth: 42/100
+Expensive parser function count: 35/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7524/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  352.956      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+100.00%  352.956      1 -total
+ 99.25%  350.314      1 Vorlage:Umrahmung/grün
+ 98.99%  349.406      1 Vorlage:Kapitelnummer
+ 67.79%  239.285      2 Vorlage:Mathematischer_Textabschnitt
+ 48.01%  169.462      1 K-Spektrum/Zariski-Filter/Kolimes_und_Halm/Einführung/Textabschnitt
+ 43.40%  153.170      4 Vorlage:Inputfaktbeweis
+ 40.45%  142.768     10 Vorlage:Inputdefinition
+ 34.88%  123.126     49 Vorlage:Definitionslink
+ 33.22%  117.243     49 Vorlage:Definitionslink_in_Kurs
+-->
+
+<!-- Render ID ab223095-9d3a-11f1-bc8b-fb42109b01f6 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165904:|#|:idhash:canonical and timestamp 20260821083113 and revision id 1051357. Rendering was triggered because: page_view
+ -->
+</div>

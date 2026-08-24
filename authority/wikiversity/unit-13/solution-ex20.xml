@@ -1,0 +1,169 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Z/Restklassenring nach Primelementpotenz/Ist zusammenhängend/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>73535</id>
+    <revision>
+      <id>1095814</id>
+      <parentid>1090758</parentid>
+      <timestamp>2026-06-14T19:44:20Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1095814</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1258" sha1="9n3y760hyutvg1krdeb9mmydf7cwvut" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei {{math|term= e \in {{op:Zmod|p^n |}} |SZ=}} ein idempotentes Element. Dies bedeutet
+{{
+Relationskette/display
+|e^2
+|| e
+||
+||
+||
+|SZ=
+}}
+und somit ist {{mathl|term= e(e-1) |SZ=}} ein Vielfaches von {{math|term= p^n |SZ=,}} sagen wir
+{{
+Relationskette/display
+| e(e-1)
+|| a p^n
+||
+||
+||
+|SZ=.
+}}
+Nehmen wir {{mathl|term= e \neq 0,1 |SZ=}} an. Wegen der eindeutigen Primfaktorzerlegung in {{math|term= \Z|SZ=}} ist
+{{
+Relationskette/display
+|e
+|| bp^i
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|e-1
+|| c p^j
+||
+||
+||
+|SZ=
+}}
+mit
+{{
+Relationskette/display
+|i+j
+|| n
+||
+||
+||
+|SZ=.
+}}
+Wären {{mathl|term= i,j \geq 1 |SZ=,}} so wäre sowohl
+{{
+mathkor|term1=
+e
+|als auch|term2=
+e-1
+|SZ=
+}}
+ein Vielfaches von {{math|term= p |SZ=,}} und das würde dann auch für
+{{
+Relationskette
+| 1
+|| e- (e-1)
+||
+||
+||
+|SZ=
+}} 
+gelten, was nicht der Fall ist. Also ist
+{{
+mathkor|term1=
+i=n
+|oder|term2=
+j=n
+|SZ=,
+}} 
+was
+{{
+Relationskette
+|e
+|| 0
+||
+||
+||
+|SZ=
+}}
+oder
+{{
+Relationskette
+| e-1
+|| 0
+||
+||
+||
+|SZ=
+}}
+im Restklassenring {{mathl|term=  {{op:Zmod|p^n |}} |SZ=}} bedeutet.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>9n3y760hyutvg1krdeb9mmydf7cwvut</sha1>
+    </revision>
+  </page>
+</mediawiki>

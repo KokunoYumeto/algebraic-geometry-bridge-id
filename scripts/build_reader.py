@@ -57,6 +57,12 @@ PDF_ASSET_REPLACEMENTS = {
         "authority/assets/Lemniscate_Building-frame-1.png",
     "authority/assets/Steam_engine_in_action.gif":
         "authority/assets/Steam_engine_in_action-frame-1.png",
+    "authority/assets/Hyperbola_one_over_x.svg":
+        "authority/assets/Hyperbola_one_over_x-500.png",
+    "authority/assets/Connected_and_disconnected_spaces2.svg":
+        "authority/assets/Connected_and_disconnected_spaces2-500.png",
+    "authority/assets/Concentric_Circles.svg":
+        "authority/assets/Concentric_Circles-500.png",
 }
 
 
@@ -322,8 +328,15 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Sembilan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-09.pdf",
         )
-    if through in (10, 11, 12):
-        number_words = {10: "Sepuluh", 11: "Sebelas", 12: "Dua belas"}
+    if through in (10, 11, 12, 13, 14, 15):
+        number_words = {
+            10: "Sepuluh",
+            11: "Sebelas",
+            12: "Dua belas",
+            13: "Tiga belas",
+            14: "Empat belas",
+            15: "Lima belas",
+        }
         unit_sources: list[Path] = [
             SOURCE_DIR / f"frontmatter-units-01-{through:02d}.md"
         ]
@@ -338,7 +351,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
         unit_sources.append(SOURCE_DIR / "media-credits.md")
         unit_sources.extend(
             SOURCE_DIR / f"media-credits-unit-{unit:02d}.md"
-            for unit in (*range(2, 10), 11, 12)
+            for unit in (*range(2, 10), 11, 12, 13, 14, 15)
             if unit <= through
         )
         return (
@@ -347,7 +360,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             f"{number_words[through]} kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             f"algebraic-geometry-bridge-id-units-01-{through:02d}.pdf",
         )
-    raise ValueError("only contiguous scopes --through 1 through --through 12 are supported")
+    raise ValueError("only contiguous scopes --through 1 through --through 15 are supported")
 
 
 def sha256(path: Path) -> str:

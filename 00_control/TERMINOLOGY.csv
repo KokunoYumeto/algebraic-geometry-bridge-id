@@ -14,7 +14,7 @@ AGT-0012,de,Fundamentalsatz der Algebra,id-ID,teorema dasar aljabar,,whole_lane,
 AGT-0013,en,scheme,id-ID,skema,,scheme_bridge,admitted,Established Indonesian mathematical borrowing
 AGT-0014,en,affine scheme,id-ID,skema afin,skema affine,scheme_bridge,admitted,Matches the admitted spelling afin
 AGT-0015,en,structure sheaf,id-ID,berkas struktur,,scheme_bridge,provisional,Must remain consistent with the later sheaf module
-AGT-0016,en,stalk,id-ID,tangkai,,scheme_bridge,provisional,Define together with germ on first use
+AGT-0016,en,stalk,id-ID,tangkai,,whole_lane,admitted,Admitted at the complete Unit 15 construction as the local colimit of section rings
 AGT-0017,en,locally ringed space,id-ID,ruang bergelanggang lokal,,scheme_bridge,provisional,Compositional terminology pending first translated use
 AGT-0018,en,gluing data,id-ID,data pengeleman,data perekatan,scheme_bridge,provisional,Select final form during original supplement drafting
 AGT-0019,de,Zariski-Topologie,id-ID,topologi Zariski,,Brenner,admitted,Standard eponym retained and consistently capitalized
@@ -55,7 +55,7 @@ AGT-0053,de,quadratische Form,id-ID,bentuk kuadratik,kuadrik,Brenner,admitted,Na
 AGT-0054,de,algebraischer Abschluss,id-ID,ketertutupan aljabar,penutupan aljabar,whole_lane,provisional,Directly attested in the representative Indonesian algebraic-curve paper; admit when the noun first appears
 AGT-0055,de,kurze exakte Sequenz,id-ID,barisan eksak pendek,urutan eksak pendek,Brenner,admitted,Uses barisan consistently for exact sequences and preserves the short qualifier
 AGT-0056,de,Nichtnullteiler,id-ID,bukan pembagi nol,pembagi bukan nol,Brenner,admitted,Distinguishes a non-zero-divisor from a merely nonzero element
-AGT-0057,de,Nenneraufnahme,id-ID,pelokalan,lokalisasi,Brenner,provisional,Transparent Indonesian rendering used consistently at the first localization passage
+AGT-0057,de,Nenneraufnahme,id-ID,pelokalan,lokalisasi,Brenner,admitted,Established at the complete Unit 13 localization treatment and consistent with the earlier Unit 10 occurrence
 AGT-0058,de,Punktideal,id-ID,ideal titik,,Brenner,admitted,Direct geometric rendering for the maximal ideal associated with a point
 AGT-0059,de,artinsch,id-ID,Artin,Artinian,Brenner,admitted,Uses the mathematician-derived Indonesian adjective without an English suffix
 AGT-0060,de,algebraisch abhängig,id-ID,bergantung secara aljabar,,Brenner,admitted,Preserves the dependence relation and its algebraic qualifier
@@ -74,3 +74,33 @@ AGT-0072,de,Tensorprodukt,id-ID,hasil kali tensor,produk tensor,Brenner,admitted
 AGT-0073,de,Produkttopologie,id-ID,topologi produk,,Brenner,admitted,Standard direct rendering of the product topology
 AGT-0074,de,Identitätssatz,id-ID,teorema identitas,,Brenner,admitted,Standard name for the identity theorem in the comparison argument
 AGT-0075,de,Funktor,id-ID,funktor,,whole_lane,admitted,Standard categorical term in Indonesian mathematical usage
+AGT-0076,de,multiplikatives System,id-ID,sistem multiplikatif,,Brenner,admitted,Direct standard algebraic rendering used throughout Unit 13
+AGT-0077,de,idempotentes Element,id-ID,unsur idempoten,elemen idempoten,Brenner,admitted,Preserves the established unsur terminology for ring elements
+AGT-0078,de,Produktring,id-ID,gelanggang produk,cincin produk,Brenner,admitted,Consistent with the admitted gelanggang rendering of Ring
+AGT-0079,de,zusammenhängender Ring,id-ID,gelanggang terhubung,,Brenner,admitted,Composes the admitted ring and connectedness terms transparently
+AGT-0080,de,randlos oder clopen,id-ID,clopen,sekaligus terbuka dan tertutup,Brenner,admitted,Retains the internationally standard concise topology term after defining it explicitly
+AGT-0081,de,saturiertes multiplikatives System,id-ID,sistem multiplikatif jenuh,,Brenner,admitted,Direct algebraic rendering with jenuh for saturation
+AGT-0082,de,Nichtnullteiler,id-ID,unsur bukan pembagi nol,unsur reguler,Brenner,admitted,Transparent term that avoids ambiguity with a regular element in other contexts
+AGT-0083,de,algebraische Funktion,id-ID,fungsi aljabar,fungsi algebraik,Brenner,admitted,Matches the established use of aljabar and distinguishes the local regular-function concept from a merely polynomial expression
+AGT-0084,de,reguläre Funktion,id-ID,fungsi reguler,,Brenner,admitted,Standard concise synonym for an algebraic function on an open set
+AGT-0085,de,Strukturring,id-ID,gelanggang struktur,,Brenner,admitted,Directly names the ring attached to an open set by the structure sheaf
+AGT-0086,de,Schnittring,id-ID,gelanggang seksi,gelanggang irisan,Brenner,admitted,Uses section in the sheaf-theoretic sense rather than the unrelated set-theoretic meaning of intersection
+AGT-0087,de,Strukturgarbe,id-ID,berkas struktur,,Brenner,admitted,Promotes the existing scheme-bridge term to the Brenner reader at its first classical-course occurrence
+AGT-0088,de,Prägarbe,id-ID,praberkas,presheaf,Brenner,admitted,Transparent Indonesian formation paired with berkas and explicitly defined before use
+AGT-0089,de,Garbe,id-ID,berkas,sheaf,Brenner,admitted,Established Indonesian mathematical rendering used consistently with berkas struktur
+AGT-0090,de,Restriktionsabbildung,id-ID,pemetaan restriksi,pemetaan pembatasan,Brenner,admitted,Consistent with the lane convention that Abbildung is pemetaan and with standard function restriction terminology
+AGT-0091,de,minimales Primideal,id-ID,ideal prima minimal,,Brenner,admitted,Preserves the order-theoretic qualifier without changing the algebraic object
+AGT-0092,de,Ultrafilter,id-ID,ultrafilter,,Brenner,admitted,Retains the source label and immediately defines its course-specific maximal-multiplicative-system meaning
+AGT-0093,de,holomorph,id-ID,holomorfik,,Brenner,admitted,Standard Indonesian complex-analysis adjective
+AGT-0094,de,affine Varietät,id-ID,varietas afin,varietas affine,Brenner,admitted,Combines the established varietas and afin spellings at the first formal definition
+AGT-0095,de,quasiaffine Varietät,id-ID,varietas kuasiafin,varietas kuasi-afin,Brenner,admitted,Uses the productive kuasi prefix without a hyphen and remains paired with varietas afin
+AGT-0096,de,lokaler Ring,id-ID,gelanggang lokal,cincin lokal,Brenner,admitted,Standard commutative-algebra rendering consistent with the lane term gelanggang
+AGT-0097,de,Lokalisierung an einem Primideal,id-ID,pelokalan pada ideal prima,lokalisasi pada ideal prima,Brenner,admitted,Extends the admitted pelokalan term with its exact prime-ideal qualifier
+AGT-0098,de,topologischer Filter,id-ID,filter topologis,filter topologi,Brenner,admitted,Uses the established Indonesian adjective topologis for a topology-defined filter
+AGT-0099,de,Umgebungsfilter,id-ID,filter lingkungan,filter ketetanggaan,Brenner,admitted,Pairs lingkungan with the established use of lingkungan terbuka for neighborhood
+AGT-0100,de,gerichtete Menge,id-ID,himpunan terarah,himpunan terarah atas,Brenner,admitted,Standard order-theoretic rendering introduced with the direction convention
+AGT-0101,de,gerichtetes System,id-ID,sistem terarah,sistem berarah,Brenner,admitted,Paired with himpunan terarah and the transition maps of the source definition
+AGT-0102,de,Kolimes,id-ID,kolimit,limit langsung,Brenner,admitted,Uses the standard categorical borrowing and records the source synonym at first definition
+AGT-0103,de,Halm,id-ID,tangkai,stalk,Brenner,admitted,Matches the admitted scheme-bridge term and defines it explicitly as a colimit
+AGT-0104,de,Funktionenkörper,id-ID,lapangan fungsi,medan fungsi,Brenner,admitted,Extends the evidence-backed lapangan convention to the irreducible-variety function field
+AGT-0105,de,direkter Limes,id-ID,limit langsung,limit direk,Brenner,admitted,Retains the familiar direct-limit synonym while using kolimit as the primary term

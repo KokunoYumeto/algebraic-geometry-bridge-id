@@ -1,0 +1,135 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Polynomring zwei Variablen/Multiplikatives System/Eine Gleichung/Verträglichkeit/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21362</id>
+    <revision>
+      <id>1112836</id>
+      <parentid>986240</parentid>
+      <timestamp>2026-08-21T17:31:28Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112836</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1701" sha1="034n39zi3hwz0hs9ckircxi2jbn5pd0" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Alle Homomorphismen sind im Folgenden
+{{
+Definitionslink
+|Prämath=R
+|Algebrahomomorphismen|
+|Kontext=|
+|SZ=
+}}
+und durch ihre Eigenschaften eindeutig festgelegt. Es gibt zunächst den Homomorphismus {{math|term= R \rightarrow R_S|SZ=}} und daher einen induzierten Homomorphismus
+{{
+Abbildung/display
+|name=
+| R/(F) | R_S/(F)
+||
+|SZ=.
+}}
+Da das Bild von {{math|term= S |SZ=}} in {{math|term= R/(F) |SZ=}} in {{math|term= R_S/(F) |SZ=}} zu Einheiten werden, induziert dies einen Homomorphismus
+{{
+Abbildung/display
+|name=
+| (R/(F))_S | R_S/(F)
+||
+|SZ=.
+}}
+Dabei geht explizit ein Element {{math|term= \frac{\bar{r} }{\bar{s} } |SZ=}} auf {{math|term=  \overline{ (\frac{r}{s}) } |SZ=.}} Zur Surjektivität: Ein Element rechts wird repräsentiert durch {{math|term= r/s|SZ=}} mit {{math|term= s \in S |SZ=,}} und das kommt von {{math|term= \frac{\bar{r} }{\bar{s} } |SZ=}} her. Zur Injektivität sei angenommen, dass {{math|term= \frac{\bar{r} }{\bar{s} } |SZ=}} auf {{math|term= 0 |SZ=}} geht. Dann ist {{math|term= r/s \in (F)R_S |SZ=,}} also {{math|term= r/s=F a/t|SZ=}} mit {{math|term= a \in R,\, t \in S |SZ=.}} Die Gleichheit bedeutet zurückübersetzt nach {{math|term= R |SZ=,}} dass
+{{
+Relationskette/display
+| tr
+|| s Fa
+||
+||
+||
+|SZ=
+}}
+gilt. Das heißt, dass
+{{
+Relationskette
+| tr
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+in {{math|term= R/(F) |SZ=}} ist und wegen
+{{
+Relationskette
+| t
+| \in | S
+||
+||
+||
+|SZ=
+}} 
+folgt daraus, dass
+{{
+Relationskette
+|  \bar{r}
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+in {{math|term= (R/(F))_S |SZ=}} ist.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>034n39zi3hwz0hs9ckircxi2jbn5pd0</sha1>
+    </revision>
+  </page>
+</mediawiki>

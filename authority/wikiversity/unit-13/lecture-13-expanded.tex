@@ -1,0 +1,1376 @@
+\setcounter{section}{13}
+
+
+
+
+
+
+  \zwischenueberschrift{Die offenen Mengen D(f)}
+
+Wir wollen zeigen, dass die Zariski-offenen Teilmengen
+
+\mavergleichskette
+{\vergleichskette
+{  D(f)
+}
+{ \subseteq }{ K-\operatorname{Spek}\, (R)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+selbst homöomorph zum $K$-Spektrum einer endlich erzeugten $K$-Algebra sind. Dazu benötigen wir den Begriff des multiplikativen Systems und der Nenneraufnahme.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{.}
+Eine Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{S
+}
+{ \subseteq }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt \definitionswort {multiplikatives System}{,} wenn die beiden Eigenschaften
+\aufzaehlungzwei {
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \in }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+} {Wenn
+
+\mavergleichskette
+{\vergleichskette
+{f,g
+}
+{ \in }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dann ist auch
+
+\mavergleichskette
+{\vergleichskette
+{fg
+}
+{ \in }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}
+gelten.
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{f
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Element. Dann bilden die Potenzen
+
+\mathbed {f^n} {}
+ {n \in \N} {}
+ {} {} {} {,}
+ein
+\definitionsverweis {multiplikatives System}{}{.}
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {Integritätsbereich}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{S
+}
+{ \subseteq }{R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {multiplikatives System}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \notin }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man den Unterring
+
+\mavergleichskettedisp
+{\vergleichskette
+{  R_S
+}
+{ \defeq} { \left\{  \frac{f}{g}   \mid   f \in R , \,  g \in S       \right\}
+}
+{ \subseteq} { Q(R)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die \definitionswort {Nenneraufnahme}{} zu $S$.
+
+
+
+
+
+}
+
+Für die Nenneraufnahme an einem Element $f$ schreibt man einfach $R_f$ statt
+\mathl{R_{ \left\{ f^n   \mid   n \in {\mathbb N}         \right\}  }}{.} Für den Begriff der Nenneraufnahme für beliebige kommutative Ringe, siehe
+
+Aufgabe 13.1
+.
+
+
+
+
+
+\inputfaktbeweis
+{Affine Varietäten/K-Spektrum/D(f) als K-Spek von R_f/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und sei $R$ eine
+\definitionsverweis {endlich erzeugte}{}{}
+$K$-\definitionsverweis {Algebra}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Zariski-offene}{}{}
+Menge
+
+\mavergleichskette
+{\vergleichskette
+{ D(f)
+}
+{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(   R   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in natürlicher Weise
+\definitionsverweis {homöomorph}{}{}
+zu
+\mathl{K\!-\!\operatorname{Spek}\, \left(  R_f  \right)}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+\teilbeweis {}{}{}
+{Wir betrachten die zum
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabb {\varphi} { R } { R_f
+} {}
+gehörende
+\definitionsverweis {Spektrumsabbildung}{}{}
+\maabbeledisp {\varphi^*} { K\!-\!\operatorname{Spek}\, \left(  R_f  \right) } { K\!-\!\operatorname{Spek}\, \left(  R  \right)
+} { P } { P \circ \varphi
+} {,}
+die nach
+
+Satz 12.7
+
+stetig ist. Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ f( P \circ \varphi )
+}
+{ = }{ P ( \varphi (f))
+}
+{ \neq }{ 0
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+da ja $f$ in $R_f$ eine
+\definitionsverweis {Einheit}{}{}
+wird. Daher liegt das Bild von $\varphi^*$ in
+\mathl{D(f)}{.}}
+{}
+\teilbeweis {}{}{}
+{Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ D(f)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+irgendein Punkt, d.h. $Q$ ist ein $K$-Algebrahomomorphismus
+\maabb {Q} { R } { K
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ Q(f)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+\mathl{Q(f)}{} eine Einheit und daher lässt sich dieser Homomorphismus nach der universellen Eigenschaft der Nenneraufnahme
+\zusatzklammer {siehe
+
+Aufgabe 13.6
+} {} {}
+zu einem Homomorphismus von $R_f$ nach $K$ fortsetzen. Dieser Homomorphismus ist das gesuchte Urbild und daher ist $\varphi^*$ als Abbildung nach
+\mathl{D(f)}{} surjektiv.}
+{}
+\teilbeweis {}{}{}
+{Zur Injektivität seien zwei $K$-Algebrahomomorphismen
+\maabbdisp {P_1,P_2} { R_f } { K
+} {}
+gegeben, deren Verknüpfungen mit
+\maabbdisp {} { R } { R_f
+} {}
+übereinstimmen. Wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P_1 \left( \frac{r}{f^s} \right)
+}
+{ =} { P_1(r f^{-s})
+}
+{ =} { P_1(r) P_1(f^s)^{-1}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und ebenso für $P_2$ ist dann aber
+
+\mavergleichskette
+{\vergleichskette
+{ P_1
+}
+{ = }{ P_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+{}
+\teilbeweis {}{}{}
+{Zur Homöomorphie ist lediglich zu beachten, dass die Zariski-offenen Mengen von
+\mathl{K\!-\!\operatorname{Spek}\, \left(  R_f  \right)}{} von
+
+\mathbed {D(g)} {}
+ {g \in R_f} {}
+ {} {} {} {,}
+überdeckt werden. Dabei kann man
+
+\mavergleichskette
+{\vergleichskette
+{ g
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+annehmen, da $f$ eine Einheit in $R_f$ ist. Dann ist aber dieses
+\mathl{D(g)}{} gleich
+\mathl{(\varphi^*)^{-1} (D(gf))}{,} wo letzteres
+\mathl{D(gf)}{} die offene Menge in
+\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} bezeichnet.}
+{}
+
+
+
+
+}
+
+
+
+
+\inputbemerkung
+{ }
+{
+
+
+
+
+
+Satz 13.4
+
+besagt insbesondere, dass eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{D(f)
+}
+{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(   R   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+selbst das
+$K$-\definitionsverweis {Spektrum}{}{}
+einer
+\definitionsverweis {endlich erzeugten}{}{}
+$K$-\definitionsverweis {Algebra}{}{}
+ist
+\zusatzklammer {nämlich von $R_f$, das über $R$ von $1/f$ erzeugt wird} {} {,}
+und sich daher auch als Zariski-abgeschlossene Menge eines affinen Raumes realisieren lassen muss. Aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{R_f
+}
+{ \cong} { R[T]/(Tf- 1)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {siehe
+
+Aufgabe 13.4
+} {} {}
+erhält man eine solche Realisierung. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ R
+}
+{ = }{ K[X_1 , \ldots ,  X_n]/ {\mathfrak a}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann liefert der
+\definitionsverweis {surjektive}{}{}
+\definitionsverweis {Ringhomomorphismus}{}{}
+
+\mathdisp {K[X_1 , \ldots , X_n,T] \longrightarrow (K[X_1 , \ldots , X_n]/ {\mathfrak a} )[T]
+ \mathdisplaybruch \longrightarrow ((K[X_1 , \ldots , X_n]/ {\mathfrak a} )[T])/(Tf-1) \cong R_f} {  }
+
+eine
+\zusatzklammer {nach
+
+Proposition 12.8  (3)
+} {} {}
+\definitionsverweis {abgeschlossene Einbettung}{}{}
+von
+\mathl{D(f)}{} in
+\mathl{{ {\mathbb A}_{ K }^{ n+1  } }}{.} Ist $\psi$ die Gesamtinklusion
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D(f)
+}
+{ \subseteq} { K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}
+{ \subseteq} { { {\mathbb A}_{  K }^{  n   } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+so kann man die abgeschlossene Einbettung auch als
+\maabbdisp {\psi \times \frac{1}{f}} {D(f)} { { {\mathbb A}_{  K }^{  n   } } \times {\mathbb A}^{1}_{K}
+} {}
+auffassen, wobei hier wieder das Produkt von Varietäten auftritt.
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Betrachten wir in Anschluss an
+
+Bemerkung 13.5
+
+die offene Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D(X)
+}
+{ =} { \left\{ P \in {\mathbb A}^{1}_{K}   \mid   P \neq 0         \right\}
+}
+{ \subset} { {\mathbb A}^{1}_{K}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Diese offene Menge nennt man die
+\definitionswortenp{punktierte affine Gerade}{.} Auf dieser offenen Menge ist $X$ invertierbar, d.h. die rationale Funktion ${ \frac{   1  }{  X  } }$ ist darauf definiert. Diese Abbildung liefert zusammen mit der gegebenen
+\zusatzklammer {offenen} {} {}
+Inklusion
+
+\mavergleichskette
+{\vergleichskette
+{ D(X)
+}
+{ \subseteq }{ {\mathbb A}^{1}_{ K }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die abgeschlossene Inklusion
+\maabbeledisp {} {D(X)  } { V(XY-1) \subseteq {\mathbb A}^{2}_{ K }
+} { x } { \left(  x   , \,   { \frac{   1  }{  x  } }                   \right)
+} {,}
+dessen Bild eine
+\zusatzklammer {in der affinen Ebene abgeschlossene} {} {}
+Hyperbel ist. Die punktierte affine Gerade und die Hyperbel sind also homöomorph
+\zusatzklammer {und die zugehörigen Ringe, nämlich
+
+\mavergleichskette
+{\vergleichskette
+{ K[X]_{X}
+}
+{ = }{ K[X,X^{-1}]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\mathl{K[X,Y]/(XY-1)}{,} sind isomorph} {} {.}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Hyperbola_one_over_x} {svg} }
+\end{center}
+\bildtext {} }
+\bildlizenz { Hyperbola_one_over_x.svg } {} {Ktims} {Commons} {CC-by-sa 3.0} {}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+  \zwischenueberschrift{Zusammenhang und idempotente Elemente}
+
+Wir interessieren uns dafür, wie es sich auf den Koordinatenring auswirkt, wenn eine affin-algebraische Menge zusammenhängend ist, und wie sich gegebenenfalls die Zusammenhangskomponenten charakterisieren lassen. Wir beginnen mit einem Beispiel, das zeigt, dass über einem nicht algebraisch abgeschlossenen Körper keine überzeugende Theorie zu erwarten ist.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten \zusatzklammer {wie in
+
+Beispiel 11.5
+} {} {} die beiden algebraischen Kurven
+
+\mathdisp {V_1=V(X^2+Y^2-2) \text{ und } V_2=V(X^2+2Y^2-1) \subseteq \mathbb A^2_K} { . }
+
+Der Durchschnitt wird beschrieben durch das Ideal
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (X^2+Y^2-2,X^2+2Y^2-1)
+}
+{ =} { (Y^2+1,X^2-3)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ = }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ V_1 \cap V_2
+}
+{ = }{ \emptyset
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+leer.
+
+Die affin-algebraische Menge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ V_1 \cup V_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist nicht zusammenhängend
+\zusatzklammer {$V_1$ und $V_2$ sind die irreduziblen Komponenten und die Zusammenhangskomponenten} {} {.}
+Der
+\definitionsverweis {Koordinatenring}{}{}
+von $V$ ist
+
+\mathdisp {\R[X,Y]/((X^2+Y^2-2) (X^2+2Y^2-1))} { . }
+
+Man könnte erwarten, dass die Funktion auf $V$, die auf $V_1$ konstant gleich $1$ und auf $V_2$ konstant gleich $0$ ist, sich im Koordinatenring wiederfindet. Dies ist aber nicht der Fall, und zwar liegt das daran, dass über den komplexen Zahlen $V_{\Complex}$ zusammenhängend ist. Daher besitzt der komplexe Koordinatenring nur die trivialen
+\definitionsverweis {idempotenten Elemente}{}{,}
+und das überträgt sich auf den reellen Koordinatenring.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Ein Element $e$ eines
+\definitionsverweis {kommutativen Ringes}{}{}
+heißt \definitionswort {idempotent}{,} wenn
+
+\mavergleichskette
+{\vergleichskette
+{e^2
+}
+{ = }{ e
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt.
+
+
+
+
+
+}
+
+Die Elemente
+\mathkor {} {0} {und} {1} {}
+sind idempotent.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es seien
+\mathl{R_1 , \ldots , R_n}{}
+\definitionsverweis {kommutative Ringe}{}{.}
+Dann heißt das Produkt
+
+\mathdisp {R_1 \times \cdots \times  R_n} { , }
+
+versehen mit komponentenweiser Addition und Multiplikation, der \definitionswort {Produkt\-ring}{} der
+
+\mathbed {R_i} {}
+ {i=1 , \ldots , n} {}
+ {} {} {} {.}
+
+
+
+
+
+}
+
+In einem Produktring gibt es viele idempotente Elemente, nämlich solche Elemente, deren Komponenten alle $0$ oder $1$ sind.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Ein
+\definitionsverweis {kommutativer Ring}{}{}
+$R$ heißt \definitionswort {zusammenhängend}{,} wenn er genau zwei
+\definitionsverweis {idempotente Elemente}{}{}
+\zusatzklammer {nämlich \mathlk{0 \neq 1}{}} {} {}
+enthält.
+
+
+
+
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Connected_and_disconnected_spaces2} {svg} }
+\end{center}
+\bildtext {Ein zusammenhängender topologischer Raum (rot) und ein nicht zusammenhängender Raum (grün).} }
+\bildlizenz { Connected and disconnected spaces2.svg } {} {Dbc334} {Commons} {PD} {}
+
+
+
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Ein
+\definitionsverweis {topologischer Raum}{}{}
+$X$ heißt \definitionswort {zusammenhängend}{,} wenn es in $X$ genau zwei Teilmengen gibt
+\zusatzklammer {nämlich $\emptyset$ und der Gesamtraum \mathlk{X \neq \emptyset}{}} {} {,}
+die sowohl
+\definitionsverweis {offen}{}{}
+als auch
+\definitionsverweis {abgeschlossen}{}{}
+sind.
+
+
+
+
+
+}
+
+Die leere Menge und der Gesamtraum sind stets zugleich offen und abgeschlossen. Solche Mengen nennt man auch \stichwort {randlos} {} oder
+\stichwort{clopen}{.} Der leere topologische Raum gilt nicht als zusammenhängend, da es in ihm nur eine zugleich offene und abgeschlossene Menge gibt.
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/K-Spektrum/Produktring/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und seien $R_1$ und $R_2$
+\definitionsverweis {endlich erzeugte}{}{}
+$K$-\definitionsverweis {Algebren}{}{}
+mit dem
+\definitionsverweis {Produktring
+
+}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ = }{ R_1 \times R_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann gibt es eine natürliche
+\definitionsverweis {Homöomorphie}{}{}
+\maabbdisp {} { K\!-\!\operatorname{Spek}\, \left(  R_1 \times R_2   \right)  } { K\!-\!\operatorname{Spek}\, \left(  R_1   \right)  \uplus K\!-\!\operatorname{Spek}\, \left(  R_2   \right)
+} {.}}
+\faktzusatz {Dabei werden die Einbettungen von rechts nach links durch die Projektionen
+\maabb {} { R } { R_i
+} {,}
+$i=1,2$, induziert.}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Projektion
+\maabb {} {R_1 \times R_2 } { R_1
+} {}
+ist ein
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{}
+und liefert daher \zusatzklammer {nach
+
+Proposition 12.8  (3)
+} {} {} eine
+\definitionsverweis {stetige Abbildung}{}{}
+
+\zusatzklammer {und zwar eine abgeschlossene Einbettung} {} {}
+\maabbdisp {} { K\!-\!\operatorname{Spek}\, \left(   R_1   \right)  } { K\!-\!\operatorname{Spek}\, \left(   R_1 \times R_2   \right)
+} {.}
+Ebenso gibt es eine Abbildung auf
+\mathl{K\!-\!\operatorname{Spek}\, \left(   R_2   \right)}{.} Diese zusammengenommen definieren eine stetige Abbildung
+\maabbdisp {} { K\!-\!\operatorname{Spek}\, \left(   R_1   \right)  \uplus K\!-\!\operatorname{Spek}\, \left(   R_2   \right) } { K\!-\!\operatorname{Spek}\, \left(   R_1 \times R_2   \right)
+} {.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ K\!-\!\operatorname{Spek}\, \left(   R_1 \times R_2   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+es sei also
+\maabb {P} { R_1 \times R_2 } { K
+} {}
+ein $K$-Algebra\-homomorphismus. Seien
+\mathkor {} {e_1=(1,0)} {und} {e_2=(0,1)} {}
+die zur Produktzerlegung gehörenden idempotenten Elemente. Wegen
+
+\mavergleichskette
+{\vergleichskette
+{ e_1+e_2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ e_1 e_2
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+wird genau eines dieser Elemente
+\zusatzklammer {sagen wir $e_1$} {} {}
+unter $P$ auf $0$ abgebildet
+\zusatzklammer {das andere auf $1$} {} {.}
+Dann wird aber
+\mathl{R_1 \times 0}{} auf $0$ geschickt und $P$ faktorisiert durch eine Projektion. Das beweist die Surjektivität.
+
+Zur Injektivität seien
+\mathl{P_1, P_2}{} in der disjunkten Vereinigung gegeben,
+
+\mavergleichskette
+{\vergleichskette
+{ P_1
+}
+{ \neq }{ P_2
+}
+{  }{
+}
+{    }{
+}
+{   }{}
+}
+{}{}{.}
+Wenn sie beide in einem der Teilstücke liegen, so bleiben sie unter der Abbildung verschieden, da auf den Teilstücken eine abgeschlossene Einbettung vorliegt. Wenn sie auf verschiedenen Teilstücken liegen, so faktorisieren sie durch die beiden verschiedenen Projektionen und für den einen Punkt ist
+
+\mavergleichskette
+{\vergleichskette
+{ P_1(e_1)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und für den anderen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P_2(e_1)
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Sie sind also verschieden als Elemente in
+\mathl{K\!-\!\operatorname{Spek}\, \left(  R_1 \times R_2   \right)}{.}
+
+Eine Homöomorphie liegt vor, da sich die einzelnen abgeschlossenen Einbettungen zu einer abgeschlossenen Abbildung zusammensetzen.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/K-Spektrum/Algebraisch abgeschlossen/Idempotente Elemente und randlose Mengen/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei $R$ eine
+\definitionsverweis {reduzierte}{}{}
+kommutative
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{.}}
+\faktfolgerung {Dann stiftet die Abbildung
+
+\mathdisp {e \longmapsto D(e)} {  }
+
+eine Bijektion zwischen den
+\definitionsverweis {idempotenten Elementen}{}{}
+in $R$ und denjenigen Teilmengen aus
+\mathl{K\!-\!\operatorname{Spek}\, \left(   R   \right)}{,} die sowohl offen als auch abgeschlossen sind.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+\teilbeweis {}{}{}
+{Zunächst ist
+
+\mavergleichskette
+{\vergleichskette
+{ D(e)
+}
+{ = }{ V(1-e)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und abgeschlossen. Dies folgt aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D(e) \cup D(1-e)
+}
+{ =} { D(1)
+}
+{ =} { K\!-\!\operatorname{Spek}\, \left(   R   \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D(e) \cap D(1-e)
+}
+{ =} { D(e(1-e))
+}
+{ =} { D \left(  e-e^2  \right)
+}
+{ =} { D(0)
+}
+{ =} { \emptyset
+}
+}
+{}{}{.}
+D.h. die Abbildung ist wohldefiniert.}
+{}
+\teilbeweis {}{}{}
+{Es seien
+\mathl{e_1,e_2}{} zwei idempotente Elemente mit
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ D \left(  e_1  \right)
+}
+{ = }{ D \left(  e_2  \right)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Da ein idempotentes Element in einem Körper nur die Werte
+\mathkor {} {0} {oder} {1} {}
+annehmen kann, haben sowohl $e_1$ als auch $e_2$ auf $U$ den Wert $1$ und außerhalb den Wert $0$. Damit haben $e_1$ und $e_2$ überall den gleichen Wert und sind
+nach dem
+Identitätssatz
+
+für Polynome überhaupt gleich. Dies beweist die Injektivität.}
+{}
+\teilbeweis {}{}{}
+{Es sei nun
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ D( {\mathfrak a} )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sowohl offen als auch abgeschlossen. D.h. es gibt ein weiteres Ideal ${\mathfrak b}$ mit
+\mathkor {} {D({\mathfrak a}) \cup D({\mathfrak b}) = K\!-\!\operatorname{Spek}\, \left(   R   \right)} {und} {D({\mathfrak a}) \cap D({\mathfrak b}) = \emptyset} {.}
+Nach
+
+Korollar 11.12
+
+erzeugen ${\mathfrak a}$ und ${\mathfrak b}$ zusammen das Einheitsideal. D.h. es gibt
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ {\mathfrak a}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ b
+}
+{ \in }{ {\mathfrak b}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ a+b
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wegen
+
+\mavergleichskette
+{\vergleichskette
+{ D(a) \cap D(b)
+}
+{ = }{ D(ab)
+}
+{ = }{ \emptyset
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist nach
+
+Aufgabe 12.11
+
+das Element $ab$
+\definitionsverweis {nilpotent}{}{}
+und wegen der Reduziertheit ist
+
+\mavergleichskette
+{\vergleichskette
+{ ab
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Also ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ a
+}
+{ =} { a \cdot 1
+}
+{ =} { a (a+b)
+}
+{ =} { a^2+ab
+}
+{ =} { a^2
+}
+}
+{}{}{}
+idempotent. Wegen
+\mathkor {} {D(a) \subseteq D( {\mathfrak a} )} {,} {D(b) \subseteq D( {\mathfrak b} )} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ D(a) \cup D(b)
+}
+{ = }{ K\!-\!\operatorname{Spek}\, \left(   R   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ D( {\mathfrak a} )
+}
+{ = }{ D(a)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+{}
+
+
+
+
+}
+
+
+
+Es folgt, dass über einem algebraisch abgeschlossenen Körper eine
+\definitionsverweis {reduzierte}{}{}
+$K$-Algebra $R$ von endlichem Typ genau dann zusammenhängend ist, wenn das zugehörige
+\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} zusammenhängend ist.
+
+Die vorstehende Aussage gilt auch im nichtreduzierten Fall, da überhaupt die idempotenten Elemente bei der Reduktion in Bijektion zueinander stehen, siehe
+
+Aufgabe 13.27
+
+und
+
+Aufgabe 13.30
+.

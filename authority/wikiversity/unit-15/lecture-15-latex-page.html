@@ -1,0 +1,953 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{15}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Affine und quasiaffine Varietäten}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei $R$ eine
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{.}
+Dann nennt man das
+$K$-\definitionsverweis {Spektrum}{}{}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+von $R$, wobei alle Zariski-offenen Mengen
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ V
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit dem
+\definitionsverweis {Ring der algebraischen Funktionen}{}{}
+<br />\mathl{\Gamma (U, {\mathcal O} )}{} versehen seien, eine \definitionswort {affine Varietät}{.}  
+</p>
+</div>
+<p>}
+</p><p>Eine offene Teilmenge einer affinen Varietät, wobei ebenfalls alle offenen Mengen mit den Strukturringen versehen seien, nennt man eine \stichwort {quasiaffine Varietät} {.} Eine quasiaffine Varietät wird überdeckt durch endlich viele offene Mengen der Form $D(f)$, welche selbst affine Varietäten sind. Manche Autoren nennen nur irreduzible $K$-Spektren eine Varietät.
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Algebraische_(regul%C3%A4re)_Funktion_auf_offener_Menge/Globaler_Schnittring_ist_Koordinatenring/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf offener Menge/Globaler Schnittring ist Koordinatenring/Fakt">Satz 14.9</a>
+sichert, dass man beim Übergang von $R$ zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+nichts verliert, da man den Ring $R$ als <br />\mathl{\Gamma (V, {\mathcal O} )}{} zurückgewinnen kann. Dies ist aus dem topologischen Raum allein nicht möglich.
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Lokale Ringe}
+</p><p>Zu einem gegebenen Punkt $P$ in einem $K$-Spektrum interessieren wir uns für die Menge aller algebraischen Funktionen, die in $P$ definiert sind und in einer gewissen Umgebung von $P$ eine rationale Darstellung besitzen. Dabei sind die algebraischen Funktionen auf unterschiedlichen Umgebungen definiert, und es gibt keine kleinste Umgebung, auf der alle in $P$ definierten algebraischen Funktionen definiert sind. Es liegt ein System von Ringen
+<br />\mathbed {\Gamma (U, {\mathcal O} )} {} <br /> {P \in U} {} <br /> {} {} {} {,}
+vor, das wir geometrisch und algebraisch verstehen wollen. Es stellt sich heraus, dass man diesem System einen sinnvollen Limes
+\zusatzklammer {\anfuehrung{direkter Limes}{} oder \anfuehrung{Kolimes}{}} {} {}
+zuordnen kann, und dass dieser mit der Lokalisierung $R_{\mathfrak m}$ an dem zu $P$ gehörenden maximalen Ideal ${\mathfrak m}$ übereinstimmt. Wir führen zunächst die algebraischen Begriffe ein.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein
+\definitionsverweis {kommutativer Ring}{}{}
+$R$ heißt \definitionswort {lokal}{}, wenn $R$ genau ein
+\definitionsverweis {maximales Ideal}{}{}
+besitzt.  
+</p>
+</div>
+<p>}
+</p><p>Dazu ist äquivalent, dass das Komplement der Einheitengruppe von $R$ abgeschlossen unter der Addition ist. Die einfachsten lokalen Ringe sind die Körper. Zu jedem lokalen Ring $R$ gehört der Restklassenkörper $R/{\mathfrak m}$, den man den \stichwort {Restekörper} {} von $R$ nennt.&#160;Wir werden bald sehen, dass es zu jedem Punkt in einem $K$-Spektrum einen zugehörigen lokalen Ring gibt, der das \anfuehrung{lokale Aussehen}{} der Varietät in dem Punkt algebraisch beschreibt.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei ${\mathfrak p}$ ein
+\definitionsverweis {Primideal}{}{.}
+Dann nennt man die
+\definitionsverweis {Nenneraufnahme}{}{}
+an
+<br />\mavergleichskette<br />{\vergleichskette<br />{S
+}<br />{ = }{ R \setminus {\mathfrak p}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+die \definitionswort {Lokalisierung}{} von $R$ an ${\mathfrak p}$. Man schreibt dafür $R_{\mathfrak p}$. Es ist also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ R_{\mathfrak p} 
+}<br />{ \defeq} {  \left\{ \frac{f}{g}  \mid  f \in R , \,  g \not\in {\mathfrak p}       \right\} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}  
+</p>
+</div>
+<p>}
+</p><p>Der folgende Satz zeigt, dass diese Namensgebung sinnvoll ist.
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Ringtheorie/Lokalisierung/Lokaler Ring/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei ${\mathfrak p}$ ein 
+\definitionsverweis {Primideal}{}{}
+in $R$.}<br />\faktfolgerung {Dann ist die 
+\definitionsverweis {Lokalisierung}{}{}
+$R_{\mathfrak p}$ ein 
+\definitionsverweis {lokaler Ring}{}{}
+mit 
+\definitionsverweis {maximalem Ideal}{}{}
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ {\mathfrak p}R_{\mathfrak p}
+}<br />{ \defeq} { \left\{  \frac{f}{g}   \mid   f \in {\mathfrak p}  , \, g \notin {\mathfrak p}       \right\} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die angegebene Menge ist in der Tat ein Ideal in der 
+\definitionsverweis {Lokalisierung}{}{}
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ R_{\mathfrak p}
+}<br />{ =} { \left\{ \frac{f}{g}  \mid  f \in R , \,  g \not\in {\mathfrak p}       \right\} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Wir zeigen, dass das Komplement von <br />\mathl{{\mathfrak p} R_{\mathfrak p}}{}  nur aus Einheiten besteht, sodass es sich um ein 
+\definitionsverweis {maximales Ideal}{}{}
+handeln muss. Es sei also
+<br />\mavergleichskette<br />{\vergleichskette<br />{q
+}<br />{ = }{ { \frac{   f  }{ g } } 
+}<br />{ \in }{ R_{\mathfrak p}
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+aber nicht in <br />\mathl{{\mathfrak p} R_{\mathfrak p}}{.} Dann sind
+<br />\mavergleichskette<br />{\vergleichskette<br />{f,g
+}<br />{ \notin }{ {\mathfrak p}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und somit gehört der inverse Bruch <br />\mathl{{ \frac{   g  }{ f } }}{} ebenfalls zur Lokalisierung.
+</p>
+</div>
+}</div> 
+<p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Quotientenkörper und Funktionenkörper}
+</p><p>Wenn $R$ ein Integritätsbereich ist, so ist der Quotientenkörper eine Lokalisierung, und zwar am Primideal $0$. Wir zeigen jetzt, dass für die zugehörige irreduzible affine Varietät <br />\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} jede algebraische Funktion in natürlicher Weise im Quotientenkörper liegt. 
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{K-Spektrum/Integritätsbereich/Algebraische Funktion ist Element im Quotientenkörper/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+$R$ eine
+\definitionsverweis {integre}{}{}
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{,}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine offene nicht-leere Teilmenge.}<br />\faktfolgerung {Dann gibt es einen eindeutig bestimmten 
+\definitionsverweis {injektiven}{}{}
+$R$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabbdisp {} { \Gamma (U, {\mathcal O} ) } { Q(R)
+} {.}}<br />\faktzusatz {Insbesondere ist jede auf einer nicht-leeren offenen Menge
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+definierte
+\definitionsverweis {algebraische Funktion}{}{}
+ein Element im 
+\definitionsverweis {Quotientenkörper}{}{}
+$Q(R)$.}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ U
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein Punkt und die algebraische Funktion $f$ sei in einer Umgebung von $P$ durch
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ = }{ G/H
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+gegeben,
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G,H 
+}<br />{ \in }{ R
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ H
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Dann kann man <br />\mathl{G/H}{} sofort als Element im Quotientenkörper auffassen. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Q
+}<br />{ \in }{ U
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ein anderer Punkt mit einer Darstellung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ = }{ G'/H'
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Nach
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Verschiedene_rationale_Darstellungen_einer_aIgebraischen_Funktion/Beziehung_im_Koordinatenring/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Verschiedene rationale Darstellungen einer aIgebraischen Funktion/Beziehung im Koordinatenring/Fakt">Lemma 14.8</a>
+und da ein Integritätsbereich vorliegt ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G H'
+}<br />{ = }{ G' H
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+in $R$. Daher ist der Quotient im Quotientenkörper wohldefiniert. Die Abbildung ist dann offensichtlich ein Ringhomomorphismus und das Diagramm
+<br />\mathdisp {\begin{matrix} R &amp; &amp;  \\ \downarrow &amp;  \searrow &amp; \\
+\Gamma (U, {\mathcal O} ) &amp; \longrightarrow  &amp; Q(R) \end{matrix}} {  }<br />
+kommutiert. Die Abbildung ist auch durch die Eigenschaften eindeutig festgelegt, da die algebraischen Funktionen, die Elementen aus $R$ entsprechen, auf die zugehörigen Elemente im Quotientenkörper gehen müssen. Damit sind bereits die Bilder der Brüche festgelegt.
+</p><p>Die Injektivität ergibt sich daraus, dass aus
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G/H
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+im Quotientenkörper sofort
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+folgt, und damit ist auch die zugehörige Funktion auf <br />\mathl{D(H)}{} die Nullfunktion. Wenn es eine weitere Darstellung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G/H
+}<br />{ = }{ G'/H'
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+gibt, so folgt wiederum
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G'
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und erneut ist das die Nullfunktion.
+</p>
+</div>
+}</div>
+<p><br />
+Aus der Eindeutigkeit folgt ebenfalls sofort, dass für zwei offene Mengen
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ U'
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+das Diagramm
+<br />\mathdisp {\begin{matrix} \Gamma (U', {\mathcal O} ) &amp; &amp;  \\ \downarrow &amp;  \searrow &amp; \\ \Gamma (U, {\mathcal O} ) &amp; \longrightarrow  &amp; Q(R) \end{matrix}} {  }<br />
+kommutiert, wobei links der Restriktionshomomorphismus steht. Wir werden im integren Fall von nun an eine algebraische Funktion mit dem zugehörigen Element im Quotientenkörper identifizieren.
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Topologische Filter und ihre Halme}
+</p><p>Das Ergebnis des letzten Abschnitts besagt, dass man den Quotientenkörper als eine geordnete Vereinigung aller Schnittringe <br />\mathl{\Gamma (U, {\mathcal O} )}{} über alle nichtleeren offenen Mengen gewinnen kann. Eine ähnliche Konstruktion kann man generell für sinnvoll strukturierte Systeme von offenen Mengen durchführen. Dazu benötigen wir den Begriff des Filters.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}
+Ein System $F$ aus offenen Teilmengen von $X$ heißt \definitionswort {Filter}{,} wenn folgende Eigenschaften gelten
+\zusatzklammer {\mathlk{U,V}{} seien offen} {} {.}
+\aufzaehlungdrei{ <br />\mavergleichskette<br />{\vergleichskette<br />{X
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+}{Mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \subseteq }{ V
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist auch
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+}{Mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist auch
+<br />\mavergleichskette<br />{\vergleichskette<br />{U \cap V
+}<br />{ \in }{ F
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+}  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Concentric_Circles} {svg} }<br />\end{center} <br />\bildtext {Schematische Darstellung eines Umgebungsfilters} }<br /><br />\bildlizenz { Concentric Circles.svg } {Pearson Scott Foresman} {} {Commons} {PD} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ M
+}<br />{ \subseteq }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+eine Teilmenge. Dann nennt man das System
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ U(M)
+}<br />{ =} { \left\{ U\subseteq X \text{ offen }  \mid   M \subseteq U        \right\} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+den \definitionswort {Umgebungsfilter}{} von $M$.  
+</p>
+</div>
+<p>}
+</p><p>Es handelt sich dabei offensichtlich um einen topologischen Filter. Insbesondere gibt es zu einem einzelnen Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+den Umgebungsfilter <br />\mathl{U(P)}{.} Der Umgebungsfilter fasst alle offenen Umgebungen des Punktes zusammen. Wenn zwei offene Umgebungen <br />\mathl{U_1,U_2}{} von $P$ gegeben sind zusammen mit zwei algebraischen Funktionen
+<br />\mathdisp {f_1 \in \Gamma (U_1, {\mathcal O} ) \text{ und } f_2 \in \Gamma (U_2, {\mathcal O} )} { , }<br />
+so ergibt die Summe <br />\mathl{f_1+f_2}{}
+\zusatzklammer {ebenso wenig das Produkt} {} {}
+zunächst keinen Sinn, da die Definitionsbereiche verschieden sind. Im integren Fall kann man beide Funktionen als Elemente im Quotientenkörper auffassen und dort addieren. Man kann aber auch zum Durchschnitt <br />\mathl{U_1 \cap U_2}{}
+\zusatzklammer {der ebenfalls eine offene Umgebung des Punktes ist} {} {}
+übergehen und dort die Einschränkungen der beiden Funktionen addieren. Wichtig ist hierbei die Eigenschaft eines Filters, dass man zu je zwei offenen Mengen auch den Durchschnitt im Filter hat mit den zugehörigen Inklusionen
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ U_1 \cap U_2
+}<br />{ \subseteq} { U_1,U_2
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+und den zugehörigen Restriktionen
+<br />\mathdisp {\Gamma (U_1, {\mathcal O} ), \Gamma (U_2, {\mathcal O} ) \longrightarrow \Gamma (U_1\cap U_2, {\mathcal O} )} { . }<br />
+Diese Beobachtung wird durch den Begriff der gerichteten Menge und des gerichteten Systems präzisiert.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Eine
+\definitionsverweis {geordnete Menge}{}{}
+$(I, \preccurlyeq)$ heißt \definitionswort {gerichtet geordnet}{} oder \definitionswort {gerichtet}{,} wenn es zu jedem
+<br />\mavergleichskette<br />{\vergleichskette<br />{ i,j 
+}<br />{ \in }{ I
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ein 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k
+}<br />{ \in }{ I
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{  i,j
+}<br />{ \preccurlyeq }{ k
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+gibt.  
+</p>
+</div>
+<p>}
+</p><p>Wir fassen einen topologischen Filter als eine durch die Inklusion geordnete Menge auf. Aus der Durchschnittseigenschaft eines Filters ergibt sich, dass eine gerichtete Menge vorliegt
+\zusatzklammer {Es ist dabei
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ \preccurlyeq
+}<br />{ = }{ \supseteq
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {.}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $(I,  \preccurlyeq)$ eine
+\definitionsverweis {geordnete Indexmenge}{}{.}
+Eine Familie
+<br />\mathdisp {M_i, \, i \in I} { , }<br />
+von Mengen nennt man ein \definitionswort {geordnetes System von Mengen}{,} wenn folgende Eigenschaften erfüllt sind.
+\aufzaehlungzwei {Zu <br />\mathl{i \preccurlyeq j}{} gibt es eine Abbildung
+\maabb {\varphi_{ij}} {M_i } { M_j
+} {.}
+} {Zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ i 
+}<br />{ \preccurlyeq }{ j 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ j 
+}<br />{ \preccurlyeq }{ k 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \varphi_{ik}
+}<br />{ = }{ \varphi_{jk} \circ  \varphi_{ij}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+}
+Ist die Indexmenge zusätzlich
+\definitionsverweis {gerichtet}{}{,}
+so spricht man von einem \definitionswort {gerichteten System von Mengen}{.}  
+</p>
+</div>
+<p>}
+</p><p>Wenn die beteiligten Mengen $M_i$ allesamt Gruppen 
+\zusatzklammer {Ringe} {} {}
+sind und alle Abbildungen zwischen ihnen Gruppenhomorphismen 
+\zusatzklammer {Ringhomomorphismen} {} {,}
+so spricht man von einem geordneten bzw. gerichteten System von Gruppen 
+\zusatzklammer {Ringen} {} {.} 
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mathbed {M_i} {} <br /> {i \in I} {} <br /> {} {} {} {,} 
+ein
+\definitionsverweis {gerichtetes System von Mengen}{}{.}
+Dann nennt man
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \operatorname{colim}\,_{i \in I} M_i
+}<br />{ =} { \biguplus_{i \in I} M_i / \sim
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+den \definitionswort {Kolimes}{}
+\zusatzklammer {oder \definitionswort {direkten}{} oder \definitionswort {induktiven Limes}{}} {} {}
+des Systems. Dabei bezeichnet $\sim$ die 
+\definitionsverweis {Äquivalenzrelation}{}{,}
+bei der zwei Elemente
+<br />\mavergleichskette<br />{\vergleichskette<br />{ m
+}<br />{ \in }{ M_i
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ n
+}<br />{ \in }{ M_j
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+als äquivalent erklärt werden, wenn es ein
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k
+}<br />{ \in }{ I
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ i,j
+}<br />{ \preccurlyeq }{ k 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+und mit
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \varphi_{ik} (m) 
+}<br />{ =} { \varphi_{jk} (n)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gibt.  
+</p>
+</div>
+<p>}
+</p><p>Bei dieser Definition ist insbesondere ein Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ s_i
+}<br />{ \in }{ M 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+äquivalent zu seinem Bild
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \varphi_{ik}(s_i)
+}<br />{ \in }{ M_k
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+für alle
+<br />\mavergleichskette<br />{\vergleichskette<br />{ i 
+}<br />{ \preccurlyeq }{ k
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Wenn ein gerichtetes System von Gruppen
+\zusatzklammer {Ringen} {} {}
+vorliegt, so kann man auf dem soeben eingeführten Kolimes der Mengen auch eine Gruppenstruktur
+\zusatzklammer {Ringstruktur} {} {}
+definieren. Dies beruht darauf, dass zwei Elemente in diesem Kolimes, die durch
+<br />\mavergleichskette<br />{\vergleichskette<br />{ s_i 
+}<br />{ \in }{  M_i
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ s_j 
+}<br />{ \in }{  M_j
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+repräsentiert seien, mit ihren Bildern in <br />\mathl{M_k}{} 
+\zusatzklammer {<br />\mavergleichskettek<br />{\vergleichskettek<br />{  i,j 
+}<br />{ \preccurlyeq }{ k
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {}
+identifiziert werden können. Dann kann man dort die Gruppenverknüpfung erklären, siehe
+<a href="/wiki/Gerichtetes_System/Von_kommutativen_Gruppen/Kolimes_ist_kommutative_Gruppe/Aufgabe" title="Gerichtetes System/Von kommutativen Gruppen/Kolimes ist kommutative Gruppe/Aufgabe">Aufgabe 15.23</a>.
+Unser Hauptbeispiel für ein gerichtetes System ist das durch einen topologischen Filter gerichtete System der Ringe
+<br />\mathdisp {\Gamma (U, {\mathcal O} ), U \in F} { . }<br />
+Der zugehörige Kolimes über dieses System bekommt einen eigenen Namen.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei <br />\mathl{(V,{\mathcal O})}{} eine quasiaffine Varietät und sei $F$ ein
+\definitionsverweis {topologischer Filter}{}{}
+in $V$. Dann nennt man
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ {\mathcal O}_F 
+}<br />{ =} { \operatorname{colim}\,_{U \in F} \Gamma (U, {\mathcal O} )
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+den \definitionswort {Halm}{} von ${\mathcal O}$ in $F$.  
+</p>
+</div>
+<p>}
+</p><p>Den Halm im Umgebungsfilter eines Punktes $P$ nennt man auch den Halm in $P$ und schreibt dafür ${\mathcal O}_P$.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{K-Spektrum/Algebraisch abgeschlossen/Punkt/Halm ist Lokalisierung/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $R$ eine 
+\definitionsverweis {reduzierte}{}{}
+kommutative 
+\definitionsverweis {Algebra von endlichem Typ}{}{}
+über einem 
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+$K$. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ein Punkt im
+$K$-\definitionsverweis {Spektrum}{}{}
+mit zugehörigem 
+\definitionsverweis {maximalen Ideal}{}{}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ {\mathfrak m}
+}<br />{ \subseteq }{ R 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}}<br />\faktfolgerung {Dann gibt es eine natürliche 
+\definitionsverweis {Isomorphie}{}{}
+\zusatzklammer {von $R$-Algebren} {} {}
+\maabbdisp {} {R_{\mathfrak m} } { {\mathcal O}_P
+} {.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Der Halm ${\mathcal O}_P$ hat eine eindeutige Struktur als $R$-Algebra, da ja die Gesamtmenge zum Filter gehört. Es sei
+<br />\mathbed {F \in R} {} <br /> {F \not\in {\mathfrak m}} {} <br /> {} {} {} {.} 
+Dann ist $1/F$ auf der offenen Umgebung <br />\mathl{D(F)}{} von $P$ definiert. Dabei gilt dort
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F \cdot 1/F
+}<br />{ = }{ 1
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+sodass $F$ in dieser Menge und damit auch im Kolimes eine Einheit ist. Nach der universellen Eigenschaft der Nenneraufnahme gibt es also einen
+$R$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabbdisp {} { R_{\mathfrak m} } { {\mathcal O}_P
+} {,}
+den wir als bijektiv nachweisen müssen. Es sei zuerst
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ \in }{ {\mathcal O}_P 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dieses Element wird repräsentiert durch eine algebraische Funktion
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ \in }{ \Gamma (U, {\mathcal O} )
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ U
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Insbesondere gibt es eine rationale Darstellung für $f$ in $P$, d.h.
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ = }{ G/H
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+auf <br />\mathl{D(H)}{} und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ D(H)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Letzteres bedeutet
+<br />\mavergleichskette<br />{\vergleichskette<br />{ H(P)
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und somit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ H
+}<br />{ \notin }{ {\mathfrak m}  
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Daher ist $G/H$ ein Element in der Lokalisierung $R_{\mathfrak m}$, und dieses wird auf $f$ geschickt.
+</p><p>Zur Injektivität sei $G/H$ gegeben mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ H
+}<br />{ \notin }{ {\mathfrak m}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und vorausgesetzt, dass es als Element im Halm $0$ ist. Dies bedeutet, dass es eine offene Umgebung $U$ von $P$ gibt, auf der $G/H$ die Nullfunktion ist. Wir können annehmen, dass diese offene Menge die Form
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{ D(H')
+}<br />{ \subseteq }{ D(H)
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+hat. Wegen
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Algebraische_(regul%C3%A4re)_Funktion_auf_D(f)/Ist_R_f/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf D(f)/Ist R f/Fakt">Korollar 14.10</a>
+gibt es dann auch eine Beschreibung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G/H
+}<br />{ = }{ G'/H'
+}<br />{ = }{ 0
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Das heißt nach
+<a href="/wiki/K-Spektrum/Algebraisch_abgeschlossener_K%C3%B6rper/Verschiedene_rationale_Darstellungen_einer_aIgebraischen_Funktion/Beziehung_im_Koordinatenring/Fakt" title="K-Spektrum/Algebraisch abgeschlossener Körper/Verschiedene rationale Darstellungen einer aIgebraischen Funktion/Beziehung im Koordinatenring/Fakt">Lemma 14.8</a>,
+dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ HH'H'G
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+in $R$ ist. Dann ist auch
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G/H
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+in der Lokalisierung.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{K-Spektrum/Integritätsbereich/Durchschnitt von lokalen Ringen/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei $R$ eine 
+\definitionsverweis {integre}{}{}
+$K$-\definitionsverweis {Algebra von endlichem Typ}{}{.}
+Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine 
+\definitionsverweis {offene Teilmenge}{}{.}}<br />\faktfolgerung {Dann ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \Gamma (U, {\mathcal O} )
+}<br />{ =} { \bigcap_{P \in U} {\mathcal O}_P
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}}<br />\faktzusatz {\zusatzklammer {dabei wird der Durchschnitt im 
+\definitionsverweis {Quotientenkörper}{}{}
+genommen} {} {.}}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zu jedem Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ U
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+gibt es
+\definitionsverweis {Ringhomomorphismen}{}{}
+\maabb {} { \Gamma (U, {\mathcal O} )  } { {\mathcal O}_P
+} {}
+und
+\maabb {} { {\mathcal O}_P } { Q(R)
+} {,}
+die jeweils 
+\definitionsverweis {injektiv}{}{}
+sind. Damit gibt es auch einen injektiven Ringhomomorphismus
+\maabbdisp {} { \Gamma (U, {\mathcal O} ) } { \bigcap_{P \in U} {\mathcal O}_P
+} {.}
+Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ \in }{ Q(R) 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein Element im Durchschnitt rechts. Dann gibt es zu jedem Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ U
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+eine Darstellung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ f
+}<br />{ = }{ G/H
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ D(H)
+}<br />{ \subseteq }{ U
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dies bedeutet direkt, dass $f$ eine algebraische Funktion auf $U$ ist.
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $V$ eine
+\definitionsverweis {irreduzible}{}{}
+\definitionsverweis {quasiaffine Varietät}{}{.}
+Dann ist der 
+\definitionsverweis {Halm}{}{}
+von ${\mathcal O}_{ V }$ über alle nichtleeren offenen Mengen von $V$ ein 
+\definitionsverweis {Körper}{}{,}
+den man den \definitionswort {Funktionenkörper}{} von $V$ nennt.  
+</p>
+</div>
+<p>}
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐7845465fdf‐bkpcc
+Cached time: 20260823234948
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.129 seconds
+Real time usage: 0.208 seconds
+Preprocessor visited node count: 13440/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 439358/2097152 bytes
+Template argument size: 126826/2097152 bytes
+Highest expansion depth: 34/100
+Expensive parser function count: 4/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  194.720      1 Vorlage:Latex
+100.00%  194.720      1 -total
+ 99.19%  193.134      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesung_15
+ 97.83%  190.485      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+ 96.91%  188.710      1 Vorlage:Kapitelnummer
+ 62.73%  122.151      2 Vorlage:Mathematischer_Textabschnitt
+ 44.91%   87.455      1 K-Spektrum/Zariski-Filter/Kolimes_und_Halm/Einführung/Textabschnitt
+ 37.52%   73.057      4 Vorlage:Inputfaktbeweis
+ 35.87%   69.847     10 Vorlage:Inputdefinition
+ 22.08%   42.988     10 Vorlage:Mathematischer_Text/Definition
+-->
+
+<!-- Render ID 530f36e6-9f4d-11f1-8b0d-dfd1e9c40c24 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165968:|#|:idhash:canonical and timestamp 20260823234948 and revision id 1033014. Rendering was triggered because: page_view
+ -->
+</div>

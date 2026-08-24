@@ -1,0 +1,189 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 14</title>
+    <ns>106</ns>
+    <id>165903</id>
+    <revision>
+      <id>1051343</id>
+      <parentid>1032948</parentid>
+      <timestamp>2025-08-18T08:06:49Z</timestamp>
+      <contributor>
+        <username>ThHem</username>
+        <id>40320</id>
+      </contributor>
+      <origin>1051343</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2360" sha1="apvhjlpn0l67lrfli0i7kj46bex0rl4" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|14|
+
+{{Zwischenüberschrift|Algebraische Funktionen auf Varietäten}}
+
+Was ist ein Morphismus zwischen zwei affin-algebraischen Mengen {{math|term= V }} und {{math|term= W |SZ=?}} Wir betrachten zuerst die Situation, wo
+{{
+Relationskette
+| W
+||  {{op:Affine Gerade|K|}}
+|| 
+|| 
+|| 
+|SZ=
+}} 
+die affine Gerade ist. Sei
+{{
+Relationskette
+| V
+|| V(  {{ideala|}} )
+| \subseteq | {{op:Affiner Raum|n|K}}
+||
+||
+|SZ=
+}}
+als abgeschlossene Teilmenge eines affinen Raumes gegeben. Dann liefert jedes Polynom
+{{
+Relationskette
+| F
+|\in|  K[X_1  {{kommadots|}}  X_n]
+||
+||
+||
+|SZ=
+}} 
+eine Abbildung
+{{
+Abbildung
+|name= F
+| {{op:Affiner Raum|n|K|}} | {{op:Affine Gerade|K|}}  {{=}} K
+||
+|SZ=
+}} 
+und damit durch Einschränkung auch eine Abbildung auf {{math|term= V |SZ=.}} Das haben wir schon bei der Definition des Koordinatenrings betrachtet. Ebenso liefert ein Element
+{{
+Relationskette
+| F
+|\in| R
+||
+||
+||
+|SZ=
+}}
+in einer endlich erzeugten {{math|term= K |SZ=-}}Algebra {{math|term= R |SZ=}} eine Funktion auf {{math|term= {{op:KSpek|R}} |SZ=,}} nämlich
+{{
+Abbildung/display
+|name=
+| {{op:KSpek|R}} | {{op:Affine Gerade|K|}} 
+| P | F(P)
+|SZ=.
+}}
+Dies ist auch die 
+{{
+Definitionslink
+|Prämath=
+|Spektrumsabbildung|
+|Kontext=K|
+|SZ=,
+}}
+die nach
+{{
+Faktlink
+|Präwort=||Faktseitenname=
+Endlich erzeugte K-Algebren/K-Spektren als Funktor/Verschiedene Homomorphismen/Fakt
+|Nr=2
+|SZ=
+}}
+zum
+{{
+Definitionslink
+|Prämath=
+|Einsetzungshomomorphismus|
+|Kontext=|
+|SZ=
+}}
+{{
+Abbildung/display
+|name=
+|K[T]  | R
+|T| F
+|SZ=,
+}}
+gehört.
+
+Für die offenen Mengen
+{{
+Relationskette 
+|  D(F) 
+| \cong | {{op:KSpek|R_F}}
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist {{math|term= 1/F |SZ=}}
+{{
+Faktlink
+|Präwort=nach||Faktseitenname=
+Affine Varietäten/K-Spektrum/D(f) als K-Spek von R f/Fakt
+|Nr=
+|SZ=
+}}
+eine wohldefinierte Funktion. Wir werden allgemein für eine Zariski-offene Menge
+{{
+Relationskette
+|U
+|\subseteq|V
+||
+||
+||
+|SZ=
+}} 
+erklären, was eine algebraische Funktion auf {{math|term= U |SZ=}} ist. Die folgende Definition ist so strukturiert, dass die Bedingung {{Anführung|algebraisch}} eine {{Stichwort|lokale Eigenschaft}} ist.
+
+{{:K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische Funktion/Einführung/Textabschnitt}}
+
+{{
+inputbemerkung
+|Hilbertsches Problem/14/Schnittring/Bemerkung||
+}}
+
+}}</text>
+      <sha1>apvhjlpn0l67lrfli0i7kj46bex0rl4</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,107 @@
+{
+  "schema": "ag-bridge-zenodo-publication-receipt-v3",
+  "status": "PASS",
+  "record": {
+    "id": 22077441,
+    "url": "https://zenodo.org/records/22077441",
+    "api_url": "https://zenodo.org/api/records/22077441",
+    "doi": "10.5281/zenodo.22077441",
+    "concept_doi": "10.5281/zenodo.22059686",
+    "previous_record_id": 22074716,
+    "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+    "version": "unit-15",
+    "publication_date": "2026-08-24",
+    "published_timestamp": "2026-08-24T07:48:28.811912+00:00",
+    "zenodo_state": "done",
+    "zenodo_status": "published"
+  },
+  "reader_boundary": {
+    "through_unit": 15,
+    "planned_units": 30,
+    "full_edition_complete": false,
+    "pdf_pages": 267,
+    "exercises": 423,
+    "public_source_solutions": 75,
+    "reader_media_positions": 69,
+    "backend_records": 10938
+  },
+  "metadata_cleanliness": {
+    "creator": "Brenner, Holger",
+    "creator_count": 1,
+    "organization_name": "TTP",
+    "organization_contributor_count": 1,
+    "organization_hub": "https://github.com/KokunoYumeto/program-matematika-indonesia",
+    "model_contributor": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "model_contributor_count": 1,
+    "exact_model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+    "work_title_preserved_without_organization_prefix": true,
+    "description_lead_preserved_without_organization_prefix": true,
+    "non_endorsement_disclosed": true,
+    "license_field": "other-open",
+    "license_field_rationale": "Avoids applying a false blanket licence to the mixed-rights file set.",
+    "translated_course_text_license": "CC BY-SA 4.0",
+    "third_party_media_license_policy": "Per-component rights and attribution are preserved in the source package."
+  },
+  "anonymous_public_byte_readback": {
+    "verified_at": "2026-08-24T07:48:41Z",
+    "credential_used": false,
+    "files_expected": 8,
+    "files_verified": 8,
+    "all_size_and_sha256_matches": true,
+    "files": [
+      {
+        "name": "kurva-aljabar-id-unit-15.pdf",
+        "bytes": 6502255,
+        "sha256": "e56aae414a9d7e252485d06e7da790fae9bf972514c8fe47fc31d26eddd3699c",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-15.html",
+        "bytes": 10196592,
+        "sha256": "b4d6090cdaade5498e8021bab473497235f962e29fd28a2a9fb8e9a1f26ef4b9",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-15-source.zip",
+        "bytes": 9239261,
+        "sha256": "00630627b4c78ab33ba8a1b4cc741bcb4f9aa175262136a1a6d3f32e3df86848",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-15-authority-witnesses.zip",
+        "bytes": 14918664,
+        "sha256": "bc8e36eb7908a0ed755ee7afff69c4d07b0adc5a75dcce93f91b1f5cdb229b64",
+        "public_readback": true
+      },
+      {
+        "name": "BUILD_RECEIPT-unit-15.json",
+        "bytes": 26028,
+        "sha256": "0468085b9dd2e98f1a8b586b53c2b4e4e16b93562a6d611acf26f09e18eeb7d2",
+        "public_readback": true
+      },
+      {
+        "name": "LICENSE-unit-15.md",
+        "bytes": 4032,
+        "sha256": "e9ea15f86f341a27112b0b99d94d8016951ec995fda9a6c40f59c5253a51b33f",
+        "public_readback": true
+      },
+      {
+        "name": "ZENODO_FILE_MANIFEST-unit-15.json",
+        "bytes": 4617,
+        "sha256": "d601df9d3d07b5a64989c3691b4030e2c6551e49cd1b776a21598f79606a084d",
+        "public_readback": true
+      },
+      {
+        "name": "MIGRATION_RECEIPT.json",
+        "bytes": 6796,
+        "sha256": "040dada9eabd84e067c7657b2cc1a7b4611fcbc1cca8a3c062b26c70c858742d",
+        "public_readback": true
+      }
+    ]
+  },
+  "credential_handling": {
+    "public_readback_used_anonymous_requests": true,
+    "credential_value_logged_or_persisted": false,
+    "credential_file_path_recorded": false
+  }
+}

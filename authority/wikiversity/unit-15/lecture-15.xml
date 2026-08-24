@@ -1,0 +1,136 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 15</title>
+    <ns>106</ns>
+    <id>165904</id>
+    <revision>
+      <id>1051357</id>
+      <parentid>1032949</parentid>
+      <timestamp>2025-08-18T08:08:44Z</timestamp>
+      <contributor>
+        <username>ThHem</username>
+        <id>40320</id>
+      </contributor>
+      <origin>1051357</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4131" sha1="ddu0qdrpxifvak8gzo57pionimvv259" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|15|
+
+{{Zwischenüberschrift|Affine und quasiaffine Varietäten}}
+
+{{inputdefinition
+|Affine Varietät/Algebraisch abgeschlossener Körper/K-Punkte/Definition|}}
+
+Eine offene Teilmenge einer affinen Varietät, wobei ebenfalls alle offenen Mengen mit den Strukturringen versehen seien, nennt man eine {{Stichwort|quasiaffine Varietät|SZ=.}} Eine quasiaffine Varietät wird überdeckt durch endlich viele offene Mengen der Form {{math|term= D(f) |SZ=,}} welche selbst affine Varietäten sind. Manche Autoren nennen nur irreduzible {{math|term= K |SZ=-}}Spektren eine Varietät.
+{{
+Faktlink
+|Präwort=||Faktseitenname=
+K-Spektrum/Algebraisch abgeschlossener Körper/Algebraische (reguläre) Funktion auf offener Menge/Globaler Schnittring ist Koordinatenring/Fakt
+|Nr=
+|SZ=
+}}
+sichert, dass man beim Übergang von {{math|term= R |SZ=}} zu
+{{
+Relationskette
+| V
+|| {{op:KSpek|R}}
+|| 
+|| 
+|| 
+|SZ=
+}}
+nichts verliert, da man den Ring {{math|term= R |SZ=}} als {{mathl|term= {{op:Schnittring|V}} |SZ=}} zurückgewinnen kann. Dies ist aus dem topologischen Raum allein nicht möglich.
+
+{{Zwischenüberschrift|Lokale Ringe}}
+
+Zu einem gegebenen Punkt {{math|term= P |SZ=}} in einem {{math|term= K |SZ=-}}Spektrum interessieren wir uns für die Menge aller algebraischen Funktionen, die in {{math|term= P |SZ=}} definiert sind und in einer gewissen Umgebung von {{math|term= P |SZ=}} eine rationale Darstellung besitzen. Dabei sind die algebraischen Funktionen auf unterschiedlichen Umgebungen definiert, und es gibt keine kleinste Umgebung, auf der alle in {{math|term= P |SZ=}} definierten algebraischen Funktionen definiert sind. Es liegt ein System von Ringen
+{{
+mathbed|term=
+ {{op:Schnittring|U}}
+||bedterm1=
+P \in U
+||bedterm2=
+|SZ=,
+}}
+vor, das wir geometrisch und algebraisch verstehen wollen. Es stellt sich heraus, dass man diesem System einen sinnvollen Limes
+{{
+Zusatz/Klammer
+|text={{Anführung|direkter Limes}} oder {{Anführung|Kolimes}}|
+|ISZ=|ESZ=
+}}
+zuordnen kann, und dass dieser mit der Lokalisierung {{math|term= R_{{idealm}} |SZ=}} an dem zu {{math|term= P |SZ=}} gehörenden maximalen Ideal {{math|term= {{idealm}} |SZ=}} übereinstimmt. Wir führen zunächst die algebraischen Begriffe ein.
+
+{{:Kommutative Ringtheorie/Lokaler Ring/Kurze Einführung/Textabschnitt|zusatz1=&amp;nbsp;Wir werden bald sehen, dass es zu jedem Punkt in einem {{math|term= K |SZ=-}}Spektrum einen zugehörigen lokalen Ring gibt, der das {{Anführung|lokale Aussehen}} der Varietät in dem Punkt algebraisch beschreibt.}}
+
+{{Zwischenüberschrift|Quotientenkörper und Funktionenkörper}}
+
+Wenn {{math|term= R |SZ=}} ein Integritätsbereich ist, so ist der Quotientenkörper eine Lokalisierung, und zwar am Primideal {{math|term= 0 |SZ=.}} Wir zeigen jetzt, dass für die zugehörige irreduzible affine Varietät {{mathl|term= {{op:KSpek|R}} |SZ=}} jede algebraische Funktion in natürlicher Weise im Quotientenkörper liegt. 
+{{inputfaktbeweis
+|K-Spektrum/Integritätsbereich/Algebraische Funktion ist Element im Quotientenkörper/Fakt|Lemma| |}}
+
+Aus der Eindeutigkeit folgt ebenfalls sofort, dass für zwei offene Mengen
+{{
+Relationskette
+| U
+| \subseteq | U'
+|| 
+|| 
+|| 
+|SZ=
+}}
+das Diagramm
+{{
+Math/display|term=
+\begin{matrix} {{op:Schnittring|U'}} &amp; &amp;  \\ \downarrow &amp;  \searrow &amp; \\ {{op:Schnittring|U}} &amp; \longrightarrow  &amp; Q(R) \end{matrix}
+|SZ=
+}}
+kommutiert, wobei links der Restriktionshomomorphismus steht. Wir werden im integren Fall von nun an eine algebraische Funktion mit dem zugehörigen Element im Quotientenkörper identifizieren.
+
+{{Zwischenüberschrift|Topologische Filter und ihre Halme}}
+
+Das Ergebnis des letzten Abschnitts besagt, dass man den Quotientenkörper als eine geordnete Vereinigung aller Schnittringe {{mathl|term= {{op:Schnittring|U}} |SZ=}} über alle nichtleeren offenen Mengen gewinnen kann. Eine ähnliche Konstruktion kann man generell für sinnvoll strukturierte Systeme von offenen Mengen durchführen. Dazu benötigen wir den Begriff des Filters.
+
+{{:K-Spektrum/Zariski-Filter/Kolimes und Halm/Einführung/Textabschnitt}}
+
+}}</text>
+      <sha1>ddu0qdrpxifvak8gzo57pionimvv259</sha1>
+    </revision>
+  </page>
+</mediawiki>
