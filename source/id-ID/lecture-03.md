@@ -43,7 +43,7 @@ seluruh ruang itu sendiri.
 
 ### Contoh: topologi Zariski pada garis afin {#br-ak-2025-2026-l03-ex-01}
 
-Topologi Zariski pada garis afin $\mathbb A_K^1$ di atas suatu medan $K$ mudah
+Topologi Zariski pada garis afin $\mathbb A_K^1$ di atas suatu lapangan $K$ mudah
 dideskripsikan. Seluruh garis afin adalah himpunan tertutup yang diberikan oleh
 $V(0)$. Semua subhimpunan tertutup lainnya diberikan oleh $V(\mathfrak a)$
 dengan $\mathfrak a\ne0$. Karena $K[X]$ adalah domain ideal utama, kita bahkan
@@ -149,7 +149,7 @@ Ideal pelenyapan seluruh ruang $\mathbb A_K^n$ bergantung pada medannya. Jika
 $K$ takhingga, hanya polinom nol yang lenyap di mana-mana, sehingga ideal
 pelenyapannya adalah ideal nol. Pernyataan ini mengikuti dari Soal 3.18.
 
-Sebaliknya, jika $K$ adalah medan berhingga dengan $q$ unsur, maka
+Sebaliknya, jika $K$ adalah lapangan berhingga dengan $q$ unsur, maka
 
 $$
 x^q-x=0
@@ -390,7 +390,7 @@ $$
 untuk setiap $P\in T$. Karena itu, $F(P)=0$ untuk setiap $P\in T$, sehingga
 $F\in\operatorname{Id}(T)$. $\square$
 
-Kelak kita akan melihat bahwa di atas medan tertutup secara aljabar, ideal
+Kelak kita akan melihat bahwa di atas lapangan tertutup secara aljabar, ideal
 radikal dan lokus nol aljabar saling bersesuaian. Inilah isi teorema
 Nullstellensatz Hilbert.
 

@@ -1,0 +1,80 @@
+{
+  "schema": "ag-bridge-zenodo-reservation-v1",
+  "status": "PASS",
+  "state": "reserved_draft",
+  "record_id": 22074716,
+  "record_url": "https://zenodo.org/records/22074716",
+  "doi": "10.5281/zenodo.22074716",
+  "concept_doi": "10.5281/zenodo.22059686",
+  "version": "unit-12",
+  "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+  "credentials_recorded": false,
+  "previous_record_id": 22070936,
+  "reader_boundary": {
+    "through_unit": 12,
+    "planned_units": 30,
+    "full_edition_complete": false,
+    "pdf_pages": 215,
+    "exercises": 330,
+    "public_source_solutions": 55,
+    "reader_media_positions": 65,
+    "backend_records": 8491
+  },
+  "declared_files": [
+    "kurva-aljabar-id-unit-12.pdf",
+    "kurva-aljabar-id-unit-12.html",
+    "kurva-aljabar-id-unit-12-source.zip",
+    "kurva-aljabar-id-unit-12-authority-witnesses.zip",
+    "BUILD_RECEIPT-unit-12.json",
+    "LICENSE-unit-12.md",
+    "ZENODO_FILE_MANIFEST-unit-12.json",
+    "MIGRATION_RECEIPT.json"
+  ],
+  "files": [
+    {
+      "name": "kurva-aljabar-id-unit-12.pdf",
+      "bytes": 5981024,
+      "sha256": "3213bee4e472c11c480bb2241077ffad4fb62d95ac590f3448a6fbd188c9159d"
+    },
+    {
+      "name": "kurva-aljabar-id-unit-12.html",
+      "bytes": 9396856,
+      "sha256": "29b8bc205bff3776ed231ac64064d8cfa53bbf42b1a674690a60c1b0fee8016d"
+    },
+    {
+      "name": "kurva-aljabar-id-unit-12-source.zip",
+      "bytes": 8324315,
+      "sha256": "b5ee95d8d782c4528a0174d8c260aeebf0a41114080e55ea2ffcec642e25cfac"
+    },
+    {
+      "name": "kurva-aljabar-id-unit-12-authority-witnesses.zip",
+      "bytes": 12537549,
+      "sha256": "c0f63308958f12db520db3547a5d84e3d508b3f72ccc208d68dd6f81377b431b"
+    },
+    {
+      "name": "BUILD_RECEIPT-unit-12.json",
+      "bytes": 22731,
+      "sha256": "9650aefa3dfd8c19c4e40c700e4c0afadc0c3c3599fa55cc46c28fec30000fdb"
+    },
+    {
+      "name": "LICENSE-unit-12.md",
+      "bytes": 3804,
+      "sha256": "525b40e82a887d89da9f5b6884533ca47067d20072881409d1cde60d428873e3"
+    },
+    {
+      "name": "ZENODO_FILE_MANIFEST-unit-12.json",
+      "bytes": 4615,
+      "sha256": "d62e66cec3a840edfe603975f474e860f38be188e77e02f7f96825e3f2b876ec"
+    },
+    {
+      "name": "MIGRATION_RECEIPT.json",
+      "bytes": 6787,
+      "sha256": "0eecffff85d90d06df5a80f4d83eb58e2a3d568da1db2d96ab72ef98880eee7c"
+    }
+  ],
+  "release_contract_state": "verified",
+  "credential_handling": {
+    "credential_value_logged_or_persisted": false,
+    "credential_file_path_recorded": false
+  }
+}

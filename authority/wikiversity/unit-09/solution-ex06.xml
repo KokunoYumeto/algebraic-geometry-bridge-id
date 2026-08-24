@@ -1,0 +1,124 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Noetherscher Ring/Unterring/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>100296</id>
+    <revision>
+      <id>1107958</id>
+      <parentid>1058409</parentid>
+      <timestamp>2026-07-19T09:34:05Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1107958</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1070" sha1="md5w842dd1yj1gswdmhscg3qpjilx3h" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Man betrachte
+{{
+Relationskette
+| S
+|| K[X,Y]
+|| 
+|| 
+|| 
+|SZ=
+}} 
+als den Polynomring in zwei Variablen über einem Körper {{mathl|term= K |SZ=.}} Dieser ist nach
+{{
+Faktlink
+|Faktseitenname=
+Kommutative Ringtheorie/Polynomring über Körper/Endliche viele Variablen/Noethersch/Fakt
+}}
+noethersch.
+In diesem Ring betrachte man den Unterring
+{{
+Relationskette/align
+| R
+|| {{Mengebed| Xg(X,Y)+c | g \in K[X,Y], c \in K }}
+||
+||
+|| 
+|SZ=
+}} 
+und darin die Idealkette
+{{
+Relationskette
+| {{ideala|}}_n
+|| (X,XY,...,XY^n)
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dann ist
+{{
+Relationskette
+| XY^{n+1}
+|\in {{ideala|}}_{n+1} \setminus {{ideala|}}_n
+||
+|| 
+|| 
+|SZ=
+}}
+für alle {{mathl|term= n \in \N |SZ=,}} und somit wird die Kette nicht stationär. {{mathl|term= R |SZ=}} ist also nach
+{{
+Faktlink
+|Faktseitenname=
+Kommutative Ringtheorie/Noethersche Ringe/Äquivalente Formulierungen/Fakt
+}}
+nicht noethersch.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>md5w842dd1yj1gswdmhscg3qpjilx3h</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,902 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{7}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Kegelschnitte und Quadriken}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {DoubleCone} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { DoubleCone.png } {Lars H. Rohwedder} {RokerHRO} {Commons} {PD} {}<br /> <br />
+</p><p><br />
+Der \stichwort {Standardkegel} {} im dreidimensionalen affinen Raum ist durch die homogene Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ Z^2
+}<br />{ =} {X^2+Y^2
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gegeben. Das kann man sich so vorstellen, dass $z$ den Radius eines Kreises vorgibt, der in der zur <br />\mathl{x-y}{-}Ebene parallelen Ebene durch den Punkt <br />\mathl{(0,0,z)}{} liegt. Jeden Schnitt dieses Kegels mit einer affinen Ebene $E$ nennt man einen \stichwort {Kegelschnitt} {.}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Conic_sections} {svg} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Conic sections.svg } {} {Anuskafm} {Commons} {CC-BY-SA-3.0} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein \definitionswort {Kegelschnitt}{} $C$ ist der Durchschnitt des Standardkegels <br />\mathl{V(Z^2-X^2-Y^2)}{} mit einer affinen Ebene <br />\mathl{V (aX+bY+cZ+d )}{} 
+\zusatzklammer {nicht alle
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ a,b,c
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {,}
+also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ C
+}<br />{ =} { V(Z^2-X^2-Y^2) \cap V(aX+bY+cZ+d)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}  
+</p>
+</div>
+<p>}
+</p><p>Die Theorie der Kegelschnitte ist ein klassisches Thema, über das schon <a href="https://de.wikipedia.org/wiki/Apollonios_von_Perge" class="extiw" title="w:Apollonios von Perge">Apollonios von Perge</a> eine Arbeit geschrieben hat. Da die Ebene durch eine Gleichung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ aX+bY+cZ+d 
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+gegeben wird, kann man nach einer Variablen linear auflösen und erhält eine neue Gleichung in zwei Variablen für den Kegelschnitt. Dies ist eine affin-lineare Variablensubstitution, daher hat die neue Gleichung ebenfalls den Grad zwei.
+</p><p>Wir betrachten daher generell \stichwort {affine Quadriken} {} in zwei Variablen.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein Polynom der Form
+<br />\mathdisp {F=\alpha X^2+\beta XY + \gamma Y^2 + \delta X + \epsilon Y + \eta \text{ mit } \alpha,\beta, \gamma, \delta  , \epsilon , \eta \in K} { , }<br />
+wobei mindestens einer der Koeffizienten <br />\mathl{\alpha, \beta, \gamma}{} ungleich null ist, heißt eine \definitionswort {quadratische Form in zwei Variablen}{} 
+\zusatzklammer {über $K$} {} {}
+oder eine \definitionswort {Quadrik in zwei Variablen}{.} Das zugehörige Nullstellengebilde
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ V(F)
+}<br />{ \subseteq} { {\mathbb A}^{2}_{ K } 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+nennt man ebenfalls \definitionswort {Quadrik}{.}  
+</p>
+</div>
+<p>}
+</p><p>Wir interessieren uns dafür, wie viele verschiedene Typen von Quadriken es gibt. Die Antwort hängt vom Grundkörper ab. Darüber hinaus muss man festlegen, welchen Äquivalenzbegriff man jeweils verwenden möchte. Zu zwei Quadriken
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F,G
+}<br />{ \in }{ K[X,Y]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+sind die folgenden Äquivalenzbegriffe untersuchenswert.
+\auflistungvier{$F$ und $G$ sind als Polynome \stichwort {affin-äquivalent} {,} d.h. es gibt eine
+\zusatzklammer {bijektive} {} {}
+affin-lineare Variablentransformation
+<br />\mathdisp {\varphi&#160;: K[X,Y] \longrightarrow K[X,Y] ,\, X \longmapsto rX+sY+t,  Y \longmapsto \tilde{r}X+\tilde{s}Y+\tilde{t}} { , }<br />
+derart, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G
+}<br />{ = }{ \varphi(F)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist.
+}{Die Hauptideale
+\mathkor {} {(F)} {und} {(G)} {}
+sind \stichwort {affin-äquivalent} {,} d.h. es gibt eine (bijektive) affin-lineare Variablentransformation $\varphi$ derart, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ ( G)
+}<br />{ = }{ ( \varphi(F) )
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist.
+}{Die Restklassenringe
+<br />\mathdisp {K[X,Y]/(F) \text{ und } K[X,Y]/(G)} {  }<br />
+sind als
+$K$-\definitionsverweis {Algebren}{}{}
+isomorph.
+}{Die Nullstellenmengen
+\mathkor {} {V(F)} {und} {V(G)} {}
+sind
+\definitionsverweis {affin-linear äquivalent}{}{.}
+}
+</p><p>Der erste Äquivalenzbegriff ist stärker als der zweite, und der zweite ist stärker als die beiden letzten. Ein wesentlicher Unterschied zwischen $(1)$ und $(2)$ ist, dass man bei $(2)$ immer mit einer Einheit multiplizieren darf
+\zusatzklammer {das ändert auch nicht das Nullstellengebilde} {} {.}
+Über einem Körper, der nicht algebraisch abgeschlossen ist, kann die Äquivalenz in $(4)$ sehr grob sein, da alle $F$ mit leerem Nullstellengebilde im Sinne von $(4)$ äquivalent sind.
+</p><p>Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K
+}<br />{ = }{ \R
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K
+}<br />{ = }{ {\mathbb C}
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+interessiert man sich auch dafür, ob topologische Eigenschaften der zugehörigen Nullstellengebilde übereinstimmen. Wir werden hier für zwei Quadriken $F$ und $G$ die verschiedenen Äquivalenzbegriffe parallel betrachten, aber vor allem an $(2)$ interessiert sein.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affine Quadriken in zwei Variablen/Erste Reduktion/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+der 
+\definitionsverweis {Charakteristik}{}{}
+$\neq 2$. Es sei
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{F
+}<br />{ =} { \alpha X^2+\beta XY + \gamma Y^2 + \delta X + \epsilon Y + \eta
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+eine Quadrik.}<br />\faktfolgerung {Dann gibt es eine
+\definitionsverweis {Variablentransformation}{}{}
+der affinen Ebene derart, dass das transformierte Polynom in den neuen Variablen die Form
+<br />\mathdisp {G= \gamma Y^2 + H( X) \, \text{ mit } H( X) = aX^2+bX+c} {  }<br />
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{  \gamma
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+hat. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+kann man
+<br />\mavergleichskette<br />{\vergleichskette<br />{ b
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+erreichen.}<br />\faktzusatz {Über einem 
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+kann man
+\zusatzklammer {durch eine Variablentransformation} {} {}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \gamma
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+erreichen.}<br />\faktzusatz {Wenn man sich für das erzeugte Ideal bzw. das Nullstellengebilde interessiert, so kann man
+\zusatzklammer {durch Division} {} {}
+ebenfalls
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \gamma
+}<br />{ = }{ 1
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+erreichen.}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zunächst reduzieren wir auf den Fall, wo
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \gamma
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \gamma
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \alpha
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+kann man
+\mathkor {} {X} {und} {Y} {} 
+vertauschen. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \alpha
+}<br />{ = }{ \gamma
+}<br />{ = }{ 0
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+muss
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \beta
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+sein. Dann kann man durch <br />\mathl{X \mapsto X+Y, \, Y \mapsto Y}{} erreichen, dass der Koeffizient von $Y^2$ nicht null ist. Es sei also im Folgenden
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \gamma
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+</p><p>Wir schreiben die Gleichung als
+<br />\mathdisp {\gamma Y^2 +(\beta X + \epsilon) Y  +\tilde{H} ( X)} { , }<br />
+wobei $\tilde{H}$ ein Polynom in $X$ vom Grad $\leq 2$ ist. Durch quadratisches Ergänzen kann man das als
+<br />\mathdisp {\gamma \left(Y+ \frac{\beta X + \epsilon}{2\gamma} \right)^2+\tilde{H} ( X) - \frac{ (\beta X + \epsilon)^2}{4 \gamma}} {  }<br />
+schreiben. In den neuen Variablen
+\mathkor {} {Y+(\beta X + \epsilon)/2\gamma} {und} {X} {}
+schreibt sich die Gleichung als
+<br />\mathdisp {G= \gamma Y^2 + H(X) \, \text{ mit } H( X) = aX^2+bX+c} { . }<br />
+</p><p>Bei $K$ algebraisch abgeschlossen besitzt $\gamma$ eine Quadratwurzel, sodass man durch <br />\mathl{Y \mapsto Y/\sqrt{\gamma}}{} den Koeffizient zu $1$ machen kann. Der andere Zusatz ist klar.
+</p>
+</div>
+}</div> 
+<p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Klassifikation von reellen und komplexen Quadriken}
+</p><p><br /><br /><br />\inputbeispiel{ }<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K
+}<br />{ = }{ \R
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Wir wollen die reellen Quadriken klassifizieren, und zwar hauptsächlich hinsichtlich der affin-linearen Äquivalenz für die erzeugten Hauptideale. D.h. wir dürfen affine Variablentransformationen durchführen und 
+\zusatzklammer {durch $-1$} {} {}
+teilen. Aufgrund von
+<a href="/wiki/Affine_Quadriken_in_zwei_Variablen/Erste_Reduktion/Fakt" title="Affine Quadriken in zwei Variablen/Erste Reduktion/Fakt">Lemma 7.3</a>
+kann man annehmen, dass die beschreibende Gleichung die Form
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ Y^2
+}<br />{ =} { aX^2+bX+c
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+hat. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ = }{ b
+}<br />{ = }{ 0
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+kann man durch eine Transformation <br />\mathl{Y \mapsto \sqrt{c}Y}{}
+\zusatzklammer {bei
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ c
+}<br />{ &gt; }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {}
+bzw. <br />\mathl{Y \mapsto \sqrt{-c}Y}{} 
+\zusatzklammer {bei
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ c
+}<br />{ &lt; }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {}
+und anschließende Division durch $\pm c$ erreichen, dass die rechte Seite gleich
+$1,\, -1$ oder $0$
+ist.
+</p><p>Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ b
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+kann man <br />\mathl{bX+c}{} als neue Variable nehmen, und erhält die Gleichung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+</p><p>Es sei nun
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ \neq }{ 0 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Dann kann man durch eine Transformation <br />\mathl{X \mapsto X/\sqrt{a}}{} bzw. <br />\mathl{X \mapsto X/\sqrt{-a}}{} erreichen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ = }{ \pm 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist. Durch quadratisches Ergänzen kann man $b$ zu $0$  machen. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ c
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+kann man auf
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ \pm X^2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+transformieren. Es sei also
+<br />\mavergleichskette<br />{\vergleichskette<br />{ c
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Dann kann man durch eine simultane Transformation <br />\mathl{X \mapsto uX,\, Y \mapsto uY}{}
+\zusatzklammer {<br />\mavergleichskettek<br />{\vergleichskettek<br />{ u
+}<br />{ = }{ \sqrt{ \pm c}
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {}
+und anschließende Division erreichen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ c
+}<br />{ = }{ \pm 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist. Wir haben also noch die Möglichkeiten
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ \pm X^2 \pm 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+zu betrachten, wobei
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ Y^2-X^2
+}<br />{ =} { \pm 1
+}<br />{ } { 
+}<br />{ } { 
+}<br />{ } { 
+}<br />}
+{}{}{}
+zueinander äquivalent sind.
+</p><p>Wir wissen also, dass jede reelle Quadrik auf eine der folgenden neun Formen gebracht werden kann.
+\auflistungneun{ <br />\mathl{Y^2=0 \,}{} $\,$ $\,$ Das ist eine \stichwort {verdoppelte Gerade} {.}
+}{ <br />\mathl{Y^2=1\,}{} $\,$ $\,$ Das bedeutet <br />\mathl{Y= \pm 1}{,} das sind also \stichwort {zwei parallele Geraden} {.}
+}{ <br />\mathl{Y^2=-1\,}{} $\,$ $\,$ Das ist \stichwort {leer} {}.
+}{ <br />\mathl{Y^2=X \,}{} $\,$ $\,$ Das ist eine \stichwort {Parabel} {.}
+}{ <br />\mathl{Y^2=X^2\,}{} $\,$ $\,$ Das bedeutet <br />\mathl{(Y-X)(Y+X)=0}{,} es handelt sich also um \stichwort {zwei sich kreuzende Geraden} {.}
+}{ <br />\mathl{Y^2=-X^2\,}{} $\,$ $\,$ Die einzige Lösung ist der \stichwort {Punkt} {} <br />\mathl{(0,0)}{.}
+}{ <br />\mathl{Y^2=X^2+1\,}{} $\,$ $\,$ Das bedeutet <br />\mathl{(Y-X)(Y+X)=1}{,} das ist also eine \stichwort {Hyperbel} {.}
+}{ <br />\mathl{Y^2=-X^2+1\,}{} $\,$ $\,$ Das ist ein \stichwort {Einheitskreis} {.}
+}{ <br />\mathl{Y^2=-X^2-1\,}{} $\,$ $\,$ Das ist wieder \stichwort {leer} {.}
+}
+Sind diese neun Typen alle untereinander verschieden? Das hängt davon ab, welchen Äquivalenz-Begriff man zugrunde legt. Die Typen III und IX sind beide leer, haben also identisches Nullstellengebilde. Andererseits sind die zugehörigen Restklassenringe
+<br />\mathdisp {\R[X,Y]/(Y^2+1) \text{   und } \R[X,Y]/(X^2+Y^2+1)} {  }<br />
+nicht isomorph, und über den komplexen Zahlen sind die Nullstellengebilde nicht gleich. Deshalb werden sie auch hier als verschieden betrachtet. Ansonsten sind diese Nullstellengebilde meistens schon aus topologischen Gründen verschieden
+\zusatzklammer {z.B. ist der Einheitkreis
+\definitionsverweis {kompakt}{}{,}
+die Hyperbel ist nicht kompakt und hat zwei Zusammenhangskomponenten, die Parabel ist nicht kompakt mit einer Zusammenhangskomponente, etc.} {} {.}
+Allerdings ist die verdoppelte Gerade und die Parabel reell-topologisch gleich, und die Hyperbel und die parallelen Geraden ebenfalls. Hier sind aber jeweils die Restklassenringe und im zweiten Fall auch die komplexen Versionen verschieden. Z. B. ist <br />\mathl{K[X,Y]/(Y^2)}{} nicht reduziert, aber
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K[X,Y]/(Y^2-X) 
+}<br />{ \cong }{ K[Y]
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist ein Integritätsbereich. Die komplexe Hyperbel ist zusammenhängend, da sie isomorph zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ {\mathbb C}^\times
+}<br />{ = }{ {\mathbb C} \setminus \{ 0\}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist, also zur punktierten komplexen Geraden <br />\mathl{{\mathbb A}^{1}_{ {\mathbb C} } \setminus \{ 0\}}{.}
+</p>
+</div><p><br />
+</p><p>}
+</p><p>Die folgenden Bilder zeigen die Drehung und die Verschiebung einer Quadrik.
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Hauptachsentransformation1} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Hauptachsentransformation1.png } {} {Rdb} {Commons} {PD} {}<br /> <br />
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Hauptachsentransformation2} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Hauptachsentransformation2.png } {} {Rdb} {Commons} {PD} {}<br /> <br />
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Hauptachsentransformation3} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Hauptachsentransformation3.png } {} {Rdb} {Commons} {PD} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />\inputbeispiel{ }<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K
+}<br />{ = }{ {\mathbb C} 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Wir wollen die komplexen Quadriken klassifizieren. Aufgrund von
+<a href="/wiki/Affine_Quadriken_in_zwei_Variablen/Erste_Reduktion/Fakt" title="Affine Quadriken in zwei Variablen/Erste Reduktion/Fakt">Lemma 7.3</a>
+kann man annehmen, dass die beschreibende Gleichung die Form
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ Y^2
+}<br />{ =} { aX^2+bX+c
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+hat. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ = }{ b
+}<br />{ = }{ 0
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+kann man durch eine Transformation <br />\mathl{Y \mapsto \sqrt{c}Y}{} und anschließende Division durch $\pm c$ erreichen, dass die rechte Seite $1$ oder $0$ ist.
+</p><p>Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ b
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+kann man <br />\mathl{bX+c}{} als neue Variable nehmen, und erhält die Gleichung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+</p><p>Es sei nun
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Dann kann man durch die Transformation <br />\mathl{X \mapsto X/\sqrt{a}}{} erreichen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist. Durch quadratisches Ergänzen kann man $b$ zu null machen. Schließlich kann man durch simultane Transformation <br />\mathl{X \mapsto uX,\, Y \mapsto uY}{} und anschließende Division erreichen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ c
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist.
+</p><p>Wir wissen also, dass jede komplexe Quadrik auf eine der folgenden fünf Formen gebracht werden kann:
+\auflistungfuenf{ <br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}  
+Das ist eine \stichwort {verdoppelte Gerade} {.}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Das bedeutet
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Y
+}<br />{ = }{ \pm 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,} 
+das sind also \stichwort {zwei parallele komplexe Geraden} {.}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ X
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Das ist eine \stichwort {komplexe Parabel} {.}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ X^2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Das bedeutet
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (Y-X)(Y+X)
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,} 
+es handelt sich also um \stichwort {zwei komplexe Geraden} {,} die sich in einem Punkt kreuzen.
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ X^2+1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Das bedeutet
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (Y-X)(Y+X)
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,} 
+das ist also eine \stichwort {komplexe Hyperbel} {.}
+}
+Typ I und Typ III sind dabei komplex-topologisch betrachtet eine komplexe affine Gerade, also eine reelle Ebene und damit topologisch gleich
+\zusatzklammer {von komplexer Ebene zu sprechen ist im Kontext der algebraischen Geometrie gefährlich, es kann ${\mathbb C}$ oder ${\mathbb C}^2$ gemeint sein} {} {.}
+Die Restklassenringe sind aber verschieden, weshalb sie hier als verschieden aufgelistet werden. Ansonsten sind alle Typen komplex-topologisch untereinander verschieden. Neben der reellen Ebene gibt es die punktiere komplexe affine Gerade
+\zusatzklammer {die Hyperbel, die topologisch eine punktierte reelle Ebene ist} {} {,}
+zwei disjunkte Geraden und zwei sich
+\zusatzklammer {in einem Punkt} {} {}
+schneidende Geraden.
+</p>
+</div><p><br />
+</p><p>} 
+</p><p>Die im letzten Beispiel vorgestellte Klassifikation von komplexen Quadriken gilt über jedem algebraisch abgeschlossenen Körper mit Charakteristik $\neq 2$.
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Parametrisierung von Quadriken}
+</p><p>In der elementaren Zahlentheorie lernt man, wie sich alle pythagoreischen Tripel systematisch erfassen lassen. Der Grund dafür ist, dass es eine Parametrisierung für den Einheitskreis mit rationalen Funktion gibt. Wir zeigen jetzt in Verallgemeinerung von
+<a href="/wiki/Einheitskreis/Rationale_Parametrisierung/Funktionaler_Ausdruck/Aufgabe" title="Einheitskreis/Rationale Parametrisierung/Funktionaler Ausdruck/Aufgabe">Aufgabe 1.28</a>,
+dass sich jede irreduzible Quadrik rational parametrisieren lässt.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Quadrik in zwei Variablen/Rationale Parametrisierung/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ C
+}<br />{ = }{ V(F)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+eine Quadrik in zwei Variablen, also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ F 
+}<br />{ =} { \alpha X^2+ \beta XY+\gamma Y^2 + \delta X + \epsilon Y + \eta 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+\zusatzklammer {mit $\alpha$, $\beta$, $\gamma$ nicht alle $0$} {} {.}
+Es sei vorausgesetzt, dass es mindestens einen Punkt auf der Quadrik gibt.}<br />\faktfolgerung {Dann gibt es Polynome
+<br />\mathbed {P_1,P_2,Q \in K[T]} {} <br /> {Q \neq 0} {} <br /> {} {} {} {,} 
+derart, dass das Bild der rationalen Abbildung
+<br />\mathdisp {{\mathbb A}^{1}_{ K }  \supseteq D(Q) \longrightarrow {\mathbb A}^{2}_{ K } \, \text{ mit } t \longmapsto \left( \frac{P_1(t)}{Q(t)}, \frac{P_2(t)}{Q(t)}\right)} {  }<br />
+in $C$ liegt.}<br />\faktzusatz {Besitzt $C$ zumindest zwei Punkte, so ist die Abbildung nicht konstant und bis auf endlich viele Ausnahmen injektiv.}<br />\faktzusatz {Ist $C$ zusätzlich
+\definitionsverweis {irreduzibel}{}{,}
+so ist die Abbildung bis auf endlich viele Ausnahmen surjektiv. Insbesondere ist eine irreduzible Quadrik mit mindestens zwei Punkten eine
+\definitionsverweis {rationale Kurve}{}{.}}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir können durch eine Variablentransformation erreichen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \alpha 
+}<br />{ \neq }{ 0 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ist, und dann können wir durch $\alpha$ teilen, und annehmen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \alpha  
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ist. Wir können durch Verschieben annehmen, dass der Nullpunkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ 0
+}<br />{ = }{ (0,0)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+auf der Kurve liegt. Dann ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \eta
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Wenn zwei sich kreuzende Geraden vorliegen, so können wir durch Verschieben annehmen, dass der Nullpunkt nicht der Kreuzungspunkt ist
+\zusatzklammer {aber auf einer der Geraden liegt} {} {.}
+</p><p>Die Idee ist, zu einem Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ H
+}<br />{ = }{ (t,1)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+die Gerade durch $0$ und $H$ zu betrachten und den Schnitt dieser Geraden mit $C$ zu betrachten. Dieser Schnitt besteht aus maximal zwei Punkten
+\zusatzklammer {es sei denn, der Schnitt ist die volle Gerade} {} {,}
+und da $0$ einer der Punkte ist, ist der andere Punkt, den es geben muss, eindeutig bestimmt.
+</p><p>Es sei also
+<br />\mavergleichskette<br />{\vergleichskette<br />{ H
+}<br />{ = }{ (t,1)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gegeben. Die Gerade durch $H$ und durch $0$ besteht aus allen Punkten
+<br />\mathbed {(at,a)} {} <br /> {a \in K} {} <br /> {} {} {} {.} 
+Die Schnittpunkte mit $C$ erhält man also, wenn man
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (x,y)
+}<br />{ = }{ (at,a)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+in $F$ einsetzt und nach den Lösungen in $a$ sucht. Einsetzen ergibt die Bedingung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ F(at,a)
+}<br />{ =} { (at)^2+ \beta (at a)+\gamma a^2 + \delta at + \epsilon a
+}<br />{ } {}<br />{ } {}<br />{ } {}<br />}
+{}{}{.}
+Die Lösung
+<br />\mavergleichskette<br />{\vergleichskette<br />{a
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+entspricht dem Nullpunkt, die wir schon kennen, die zweite Lösung ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ a_2 
+}<br />{ =} { \frac{- \delta t - \epsilon }{ t^2 + \beta t + \gamma }
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Dieser Ausdruck ist wohldefiniert, wenn
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Q(t)
+}<br />{ = }{ t^2 + \beta t + \gamma 
+}<br />{ \neq }{ 0
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist
+\zusatzklammer {was maximal zwei Werte für $t$ ausschließt} {} {.}
+</p><p>Zu $a_2$ gehört auf $C$ der Punkt
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ a_2 (t,1)
+}<br />{ =} { (a_2t, a_2)
+}<br />{ =} { \left(  t \frac{- \delta t - \epsilon }{ t^2 + \beta t + \gamma }   , \,   \frac{- \delta t - \epsilon }{ t^2 + \beta t + \gamma }                   \right)
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+sodass
+<br />\mathdisp {P_1 =- t  ( \delta t + \epsilon ) \text{ und } P_2 =  - \delta t - \epsilon} {  }<br />
+zu setzen ist.
+</p><p>Dies Abbildung ist auf der durch <br />\mathl{D(Q)}{} gegebenen Zariski-offenen Menge wohldefiniert
+\zusatzklammer {und diese Menge ist nicht leer, sobald der Körper mindestens drei Elemente besitzt} {} {.}
+</p><p>Von nun an sei vorausgesetzt, dass $C$ mindestens zwei Punkte besitzt. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \delta
+}<br />{ = }{ \epsilon
+}<br />{ = }{ 0
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+hat $F$ die Gestalt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F 
+}<br />{ = }{ X^2+\beta XY + \gamma Y^2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Da wir vorausgesetzt haben, dass es mindestens zwei Punkte auf $C$ gibt, folgt, dass $F$ das Produkt von zwei
+\zusatzklammer {in $X$ normierten} {} {}
+homogenen Linearformen ist. Wenn $F$ das Quadrat einer Linearform ist, so liegt geometrisch einfach eine \anfuehrung{verdoppelte Gerade}{} vor, die sich direkt
+\zusatzklammer {bijektiv} {} {}
+parametrisieren lässt. Andernfalls ist $F$ das Produkt von zwei verschiedenen homogenen Linearformen und die zugehörigen Geraden verlaufen beide durch den Nullpunkt, was wir ausgeschlossen haben. In diesem Fall kann also nicht sowohl 
+\mathkor {} {\delta} {als auch} {\epsilon} {}
+gleich $0$ sein.
+</p><p>Wir haben also nur noch die Situation zu betrachten, wo <br />\mathl{\delta t + \epsilon}{} nicht das Nullpolynom ist. Daraus folgt, dass die Abbildung auf ihrem Definitionsbereich bis auf endlich viele Ausnahmen injektiv ist, da sich bei
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \delta t + \epsilon
+}<br />{ \neq} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+wegen
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{t
+}<br />{ =} { \frac{P_1 }{Q} \cdot \frac{Q}{P_2 }
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+aus dem Bild das Urbild $t$ rekonstruieren lässt.
+</p><p>Um zu zeigen, dass die Abbildung surjektiv bis auf endlich viele Ausnahmen ist, brauchen wir die Voraussetzung, dass $C$ irreduzibel ist. Dies bedeutet insbesondere, dass $C$ nicht die Vereinigung von zwei Geraden ist. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ C
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+und die $y$-Koordinate von $P$ sei nicht null
+\zusatzklammer {es gibt maximal zwei Punkte mit $y$-Koordinate null} {} {.}
+Dann hat die Gerade durch $P$ und $0$ einen Schnittpunkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{H
+}<br />{ = }{ (t,1)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit der Parametrisierungsgeraden <br />\mathl{V(Y-1)}{.} Bis auf endlich viele Werte von $t$ ist die Abbildung in diesem Punkt $H$ definiert und $P$ ist dann der Bildpunkt der Abbildung. Wegen der Irreduzibilität liegen auf den Ausnahmegeraden nur endlich viele Punkte von $C$, daher werden fast alle Punkte erreicht.
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Johannes_Kepler_1610} {jpg} }<br />\end{center} <br />\bildtext {<a href="https://de.wikipedia.org/wiki/Johannes_Kepler" class="extiw" title="w:Johannes Kepler">Johannes Kepler (1571-1630)</a>} }<br /><br />\bildlizenz { Johannes Kepler 1610.jpg } {Unbekannt (1610)} {} {Commons} {PD} {}<br /> <br />
+</p><p><br />
+</p>
+<div id="Artikelinhalt">
+<p>Die 
+\zusatzklammer {singularitätenfreien} {} {} Kegelschnitte sind auch die Bewegungsbahnen von Himmelskörpern. Die möglichen Himmelsbahnen wurden erstmals von Johannes Kepler beschrieben. Das zugrunde liegende Gesetz ist, dass die Beschleunigung zu jedem Zeitpunkt proportional zur Gravitationskraft zwischen dem zentralen Massenpunkt 
+\zusatzklammer {dem Stern, der Sonne} {} {} und dem bewegten Massenpunkt
+\zusatzklammer {dem Planeten, dem Kometen} {} {} ist. Die Anziehungskraft selbst hängt von den beiden Massen und dem Quadrat ihrer Entfernung ab. Es gibt \anfuehrung{gebundene}{} 
+\zusatzklammer {Ellipsen} {} {}
+und \anfuehrung{ungebundene}{} Bahnen
+\zusatzklammer {Parabel, Hyperbel} {} {.}
+Kreis und Ellipse können durch eine lineare Variablentransformation ineinander überführt werden. Man beachte, dass die rationalen Parametrisierungen nicht die \anfuehrung{physikalischen Parametrisierungen}{} sind. Letztere beschreiben wirklich den Bewegungsablauf, d.h. der Parameter ist dort die Zeit und die Ableitung an einem Zeitpunkt ist die Momentangeschwindigkeit. Die rationalen Parametrisierungen beschreiben \anfuehrung{nur}{} die Bahn. Der Kreis wird bekanntlich durch
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (x,y)
+}<br />{ =} {(\cos t, \sin t)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gleichmäßig
+\zusatzklammer {mit konstantem Geschwindigkeitsbetrag} {} {}
+durchlaufen.
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesunggif {Elliptic_orbit} {gif} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Elliptic orbit.gif } {} {Brandir} {Commons} {CC-BY-SA 2.5} {}<br /> <br />
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesunggif {Parabolic_orbit} {gif} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Parabolic orbit.gif } {} {Brandir} {Commons} {CC-BY-SA 2.5} {}<br /> <br />
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesunggif {Hyperbolic_orbit} {gif} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Hyperbolic orbit.gif } {} {Brandir} {Commons} {CC-BY-SA 2.5} {}<br /> <br />
+</p>
+</div>
+<p><br />
+<br /><br /><br /><br /><br />\inputbemerkung<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die Parametrisierung einer Quadrik hängt nicht vom Grund\-körper ab, denn die Terme, die die Abbildung definieren, sind immer dieselben. Allerdings kann über einem endlichen Körper der Definitionsbereich einer rationalen Abbildung leer sein. Wenn man aber zu einem größeren endlichen Körper ${\mathbb F}_{ q  }$ übergeht, so hat die Abbildung stets einen nichtleeren Definitionsbereich.
+</p><p>Geometrisch gesprochen rühren die Definitionslücken der Parametrisierung daher, dass die im Beweis zu
+<a href="/wiki/Quadrik_in_zwei_Variablen/Rationale_Parametrisierung/Fakt" title="Quadrik in zwei Variablen/Rationale Parametrisierung/Fakt">Satz 7.6</a>
+konstruierten Verbindungsgeraden außer dem Nullpunkt keinen weiteren Schnittpunkt mit der Quadrik besitzen, oder aber die volle Gerade auf der Quadrik liegt
+\zusatzklammer {was nur im reduziblen Fall oder bei einer verdoppelten Geraden sein kann} {} {.}
+Die Ausnahmemenge der Punkte der Quadrik, die nicht im Bild der Abbildung liegen, sind die Punkte auf der $x$-Achse
+\zusatzklammer {insbesondere der Nullpunkt} {} {,}
+und, im reduziblen Fall, die Punkte auf der Geraden, die ganz auf der Quadrik liegt und durch den Nullpunkt geht.
+</p>
+</div>
+<p>}
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐ext.eqiad.main‐747884cc85‐bmvzr
+Cached time: 20260822193001
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.107 seconds
+Real time usage: 0.180 seconds
+Preprocessor visited node count: 10058/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 474381/2097152 bytes
+Template argument size: 140046/2097152 bytes
+Highest expansion depth: 32/100
+Expensive parser function count: 3/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  165.024      1 Vorlage:Latex
+100.00%  165.024      1 -total
+ 98.67%  162.835      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesung_7
+ 97.23%  160.456      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+ 95.93%  158.311      1 Vorlage:Kapitelnummer
+ 64.91%  107.109      2 Vorlage:Mathematischer_Textabschnitt
+ 46.11%   76.085      1 Kegelschnitte_und_Quadriken/Einführung/Textabschnitt
+ 34.28%   56.577      2 Vorlage:Inputfaktbeweis
+ 22.29%   36.789      1 Quadriken/R_und_C/Klassifikation/Textabschnitt
+ 20.17%   33.291      2 Vorlage:Inputbeispiel
+-->
+
+<!-- Render ID de1209db-9e5f-11f1-b791-596b4218e1fb -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165960:|#|:idhash:canonical and timestamp 20260822193001 and revision id 1033006. Rendering was triggered because: api-parse
+ -->
+</div>

@@ -1,0 +1,76 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>K-Spektrum/Einheitsideal und leere Nullstellenmenge/Nilpotent und ganze Nullstellenmenge/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21584</id>
+    <revision>
+      <id>1089724</id>
+      <parentid>958825</parentid>
+      <timestamp>2026-05-31T11:14:32Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1089724</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1648" sha1="504w4sdmo12v32dpltidtds3oi6f619" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wenn {{math|term= {{ideala}} |SZ=}} das Einheitsideal ist, so ist {{math|term= V({{ideala|}}) = \emptyset|SZ=,}} da die {{math|term= 1 |SZ=}} in keinem Punkt verschwindet. Die Umkehrung davon gilt wenn {{math|term= K |SZ=}} algebraisch abgeschlossen ist, da dann aus der Voraussetzung {{math|term= V(1) \subseteq V({{ideala|}}) |SZ=}} (da beides die leere Menge ist) mit dem Hilbertschen Nullstellensatz sofort {{math|term= 1=1^n \in {{ideala|}} |SZ=}} gilt. Bei {{math|term= K=\R|SZ=}} gilt die Aussage nicht, wie das Polynom {{math|term= F=X^2+1 |SZ=}} zeigt, das keine Einheit ist, dessen Nullstellenmenge aber leer ist.
+
+Wenn {{math|term= {{ideala|}} |SZ=}} nilpotent ist, so ist jedes Element davon nilpotent und damit verschwindet jedes Element davon unter jedem Ringhomomorphismus in einen Körper (da ein Körper reduziert ist). Bei einem algebraisch abgeschlossenen Grundkörper gilt wieder die Umkehrung, da man die Voraussetzung für jedes {{math|term= f \in {{ideala|}} |SZ=}} schreiben kann als {{math|term= V({{ideala|}}) \subseteq V(f) =X=V(0) |SZ=.}} Nach dem Hilbertschen Nullstellensatz folgt daraus {{math|term= f^n =0 |SZ=, }} d.h. {{math|term= f |SZ=}} ist nilpotent (in einem noetherschen Ring ist dann auch das Ideal selbst nilpotent). Über einem endlichen Körper gilt die Umkehrung nicht. Bei {{math|term= K=\mathbb F_2 |SZ=}} ist das Polynom
+{{math|term= X^2-X \in K[X] |SZ=}} nicht nilpotent, aber es verschwindet an beiden (allen) Punkten.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>504w4sdmo12v32dpltidtds3oi6f619</sha1>
+    </revision>
+  </page>
+</mediawiki>

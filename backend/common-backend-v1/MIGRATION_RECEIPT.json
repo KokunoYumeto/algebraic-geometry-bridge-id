@@ -1,0 +1,215 @@
+{
+  "coverage": {
+    "native_ids_preserved": 8491,
+    "native_records": 8491,
+    "strict_source_profile_witness_files": 24,
+    "strict_source_profiles_bound": 3217,
+    "strict_source_profiles_eligible": 3217,
+    "strict_source_profiles_missing": 0,
+    "through_unit": 12
+  },
+  "credentials_recorded": false,
+  "materialization": {
+    "mode": "zero-copy virtual adapter",
+    "native_backend_unchanged": true,
+    "reader_unchanged": true,
+    "target_records_materialized": false,
+    "virtual_stream_assembled_twice": true
+  },
+  "migration_id": "ag-bridge-id-units-01-12-common-backend-v1",
+  "migration_mode": "additive zero-copy adapter",
+  "public_artifacts": [
+    {
+      "concept_doi": "10.5281/zenodo.22059686",
+      "doi": "10.5281/zenodo.22074716",
+      "files": [
+        {
+          "bytes": 5981024,
+          "path": "release/unit-12/kurva-aljabar-id-unit-12.pdf",
+          "sha256": "3213bee4e472c11c480bb2241077ffad4fb62d95ac590f3448a6fbd188c9159d"
+        },
+        {
+          "bytes": 9396856,
+          "path": "release/unit-12/kurva-aljabar-id-unit-12.html",
+          "sha256": "29b8bc205bff3776ed231ac64064d8cfa53bbf42b1a674690a60c1b0fee8016d"
+        },
+        {
+          "bytes": 8324315,
+          "path": "release/unit-12/kurva-aljabar-id-unit-12-source.zip",
+          "sha256": "b5ee95d8d782c4528a0174d8c260aeebf0a41114080e55ea2ffcec642e25cfac"
+        },
+        {
+          "bytes": 12537549,
+          "path": "release/unit-12/kurva-aljabar-id-unit-12-authority-witnesses.zip",
+          "sha256": "c0f63308958f12db520db3547a5d84e3d508b3f72ccc208d68dd6f81377b431b"
+        },
+        {
+          "bytes": 22731,
+          "path": "release/unit-12/BUILD_RECEIPT-unit-12.json",
+          "sha256": "9650aefa3dfd8c19c4e40c700e4c0afadc0c3c3599fa55cc46c28fec30000fdb"
+        },
+        {
+          "bytes": 3804,
+          "path": "release/unit-12/LICENSE-unit-12.md",
+          "sha256": "525b40e82a887d89da9f5b6884533ca47067d20072881409d1cde60d428873e3"
+        },
+        {
+          "bytes": 4615,
+          "path": "release/unit-12/ZENODO_FILE_MANIFEST-unit-12.json",
+          "sha256": "d62e66cec3a840edfe603975f474e860f38be188e77e02f7f96825e3f2b876ec"
+        }
+      ],
+      "publication_uri": "https://zenodo.org/records/22074716",
+      "receipt_public_readback_required_by_release_workflow": true,
+      "repository": "Zenodo"
+    }
+  ],
+  "schema_name": "interlanguage-math-modular-backend-migration-receipt",
+  "schema_version": "1.0.0",
+  "source": {
+    "dataset_id": "algebraic-geometry-bridge-id-native-backend",
+    "dataset_version": "1.2.0",
+    "manifest": {
+      "bytes": 14466,
+      "path": "backend/units-01-12/MANIFEST.json",
+      "sha256": "9c22a4eb308fd5d50cca9151f3617b833fe800749de8087038386af952a683ce"
+    },
+    "record_count": 8491,
+    "record_schema_version": "1.0.0",
+    "records_jsonl": {
+      "bytes": 12785272,
+      "path": "backend/units-01-12/records.jsonl",
+      "sha256": "914d659bde3a32bce7f10b39f3f0ec12f852cffdfb6f83c12ca150d0ba1d3925"
+    },
+    "schema_name": "ag-bridge-backend-export-manifest-v2",
+    "scope": "cumulative Units 1--12",
+    "serialization": "canonical JSON Lines: records and keys sorted, compact separators, CRLF; frozen Units 1--9 records carried forward byte-for-byte",
+    "tables": {
+      "artifact": 126,
+      "asset": 65,
+      "concept": 75,
+      "correction": 48,
+      "course": 1,
+      "edition": 12,
+      "exercise": 330,
+      "program": 1,
+      "qa_event": 37,
+      "relation": 3606,
+      "resource": 4,
+      "rights": 70,
+      "segment": 3298,
+      "solution": 55,
+      "term": 75,
+      "unit": 688
+    },
+    "through_unit": 12
+  },
+  "tables": {
+    "accessibility": 0,
+    "aliases": 0,
+    "alignments": 0,
+    "artifact_members": 0,
+    "artifacts": 126,
+    "asset_revisions": 65,
+    "assets": 65,
+    "build_recipes": 0,
+    "concepts": 75,
+    "correction_bindings": 0,
+    "correction_claims": 0,
+    "corrections": 48,
+    "courses": 1,
+    "editions": 12,
+    "experiments": 0,
+    "file_revisions": 24,
+    "files": 24,
+    "interactives": 0,
+    "module_members": 0,
+    "modules": 0,
+    "occurrences": 0,
+    "placeholders": 0,
+    "programs": 1,
+    "qa_events": 37,
+    "relations": 3678,
+    "release_snapshots": 0,
+    "resources": 4,
+    "rights": 70,
+    "rights_assignments": 8421,
+    "rights_rule_members": 0,
+    "rights_rules": 0,
+    "route_members": 0,
+    "routes": 0,
+    "segment_variants": 3298,
+    "segments": 3298,
+    "term_variants": 0,
+    "terms": 75,
+    "units": 1075
+  },
+  "target": {
+    "dataset_id": "urn:uuid:32f215a0-8924-5fb6-93e4-7372995100e9",
+    "dataset_version": "units-01-12.native-1.2.0",
+    "record_count": 20397,
+    "schema_name": "interlanguage-math-modular-backend",
+    "schema_sha256": "3de8d107b1c75db0f8d60c42ef7e3488bc3fcc93f72e955def71a771475cf2b2",
+    "schema_version": "1.0.0",
+    "virtual_dataset_json_sha256": "5726e3370886df308a86bce2afe35fbedd7d561a3a3396260f012986b23467c9",
+    "virtual_records_jsonl_bytes": 31844513,
+    "virtual_records_jsonl_sha256": "67dd8a82fc4e637c492799248ae2e433d7e5fc2a76e227e44d1ce239331a547b"
+  },
+  "transformation": {
+    "adapter": "scripts/generate_common_backend_v1_receipts.py",
+    "edition_commit_sha_ambiguity": "common schema requires 40-hex commit_sha for non-VCS editions; zero sentinel is explicitly qualified in extensions and native revision evidence remains authoritative",
+    "identity_formula": "UUIDv5(namespace, record_type|stable_key)",
+    "identity_namespace": "7790e70a-ae6d-5cf3-b7f5-c53d7d4c0fbd",
+    "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+    "native_id_policy": "every native stable_id is preserved verbatim as stable_key",
+    "native_payload_policy": "complete native record preserved in ag-bridge.native-record extension",
+    "reader_or_native_mutation": false,
+    "segment_policy": "locale-neutral segment plus localized segment_variant",
+    "source_profile_policy": "complete locally witnessed MediaWiki identities promoted to strict interlanguage.source-profile; all native provenance retained losslessly",
+    "upstream_contract": {
+      "backend_schema": {
+        "bytes": 126423,
+        "path": "backend/common-backend-v1-contract/upstream/backend-v1.v0.41.0.schema.json",
+        "sha256": "3de8d107b1c75db0f8d60c42ef7e3488bc3fcc93f72e955def71a771475cf2b2",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.41.0/schemas/backend-v1.schema.json"
+      },
+      "handoff": {
+        "bytes": 5320,
+        "path": "backend/common-backend-v1-contract/upstream/MIGRATION_HANDOFF_V1.v0.42.0.md",
+        "sha256": "83de5379aa08f25fb3fb2774ed8bde99eca76e9a6ba80da9ccf2ee211e5e3a7a",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.42.0/backend/MIGRATION_HANDOFF_V1.md"
+      },
+      "migration_receipt_schema": {
+        "bytes": 2563,
+        "path": "backend/common-backend-v1-contract/upstream/backend-migration-receipt-v1.v0.42.0.schema.json",
+        "sha256": "0147b14972dd562805b3b5f76fac453a9f32a6d298827d3f588316d4a8f5ffe0",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.42.0/schemas/backend-migration-receipt-v1.schema.json"
+      },
+      "source_format_profile_schema": {
+        "bytes": 12228,
+        "path": "backend/common-backend-v1-contract/upstream/source-format-profile-v1.v0.41.0.schema.json",
+        "sha256": "2bb1429c36236329be94d58205b6123a0266a1e111277e3d303692ca8430e271",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.41.0/schemas/profiles/source-format-profile-v1.schema.json"
+      }
+    }
+  },
+  "validation": {
+    "canonical_jsonl": true,
+    "deterministic_double_replay": true,
+    "foreign_key_closure": true,
+    "foreign_keys_checked": 48259,
+    "global_id_uniqueness": true,
+    "lossless_native_reverse": true,
+    "native_reverse_bytes": 12785272,
+    "native_reverse_sha256": "914d659bde3a32bce7f10b39f3f0ec12f852cffdfb6f83c12ca150d0ba1d3925",
+    "result": "pass",
+    "schema_draft": "2020-12",
+    "strict_target_schema": true,
+    "terminology_qa_receipt": {
+      "bytes": 8741,
+      "path": "qa/TERMINOLOGY_QA_RECEIPT.json",
+      "result": "pass",
+      "sha256": "d887327e492b9cf357f1360b64aa864bdb140a94b055cb185caccce0f0d4b627"
+    }
+  }
+}

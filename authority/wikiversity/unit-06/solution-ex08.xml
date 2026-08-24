@@ -1,0 +1,122 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Homogene Polynome/S T ST/Homogene Gleichung/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>167309</id>
+    <revision>
+      <id>1057120</id>
+      <parentid>1057119</parentid>
+      <timestamp>2025-10-31T11:11:04Z</timestamp>
+      <contributor>
+        <username>Λυκας</username>
+        <id>38324</id>
+      </contributor>
+      <origin>1057120</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1654" sha1="ft5047nc7gwkmbwmd1yjg85np4hw2dv" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Ein solches Polynom existiert nicht. Denn sei
+{{
+Relationskette/display
+|F
+|| \sum_{\alpha + \beta + \gamma {{=}} d} a_{(\alpha , \beta , \gamma)} X^\alpha Y^\beta Z^\gamma 
+|| 
+||
+||
+|SZ=
+}}
+ein homogenes Polynom vom Grad {{math|term=  d |SZ=.}} Dann soll
+{{
+Relationskette/display
+|F(S,T,ST)
+|| \sum_{\alpha + \beta + \gamma {{=}} d} a_{(\alpha , \beta , \gamma)} S^{\alpha + \gamma} T^{\beta + \gamma} 
+|| 0
+||
+||
+|SZ=
+}}
+gelten. Seien
+{{
+Relationskette
+|S^{\alpha_1 + \gamma_1} T^{\beta_1 + \gamma_1}
+|| S^{\alpha_2 + \gamma_2} T^{\beta_2 + \gamma_2}
+||
+||
+||
+|SZ=
+}}
+Monome in {{math|term= F(S,T,ST) |SZ=,}} dann gilt {{math|term= \alpha_1 + \gamma_1 {{=}} \alpha_2 + \gamma_2 |SZ=}} und {{math|term= \beta_1+ \gamma_1 {{=}} \beta_2 + \gamma_2 |SZ=,}} zusammen also
+{{
+Relationskette/display
+|\alpha_1 + \beta_1 + 2\gamma_1
+|| \alpha_2 + \beta_2 + 2\gamma_2
+||
+||
+||
+|SZ=,
+}}
+und da
+{{
+Relationskette/display
+|\alpha_1 + \beta_1 + \gamma_1
+|| \alpha_2 + \beta_2 + \gamma_2
+|| d
+||
+||
+|SZ=
+}}
+ist, folgt {{math|term= \gamma_1 {{=}} \gamma_2 |SZ=,}} und somit auch {{math|term= \alpha_1 {{=}} \alpha_2 |SZ=}} und {{math|term= \beta_1 {{=}} \beta_2 |SZ=.}}
+Die Monome {{math|term= S^{\alpha + \gamma} T^{\beta + \gamma} |SZ=}} in obiger Summe sind also paarweise verschieden. Damit {{math|term= F(S,T,ST) = 0 |SZ=}} ist, müssen folglich schon alle {{math|term= a_{(\alpha , \beta , \gamma)} |SZ=}} gleich {{math|term= 0 |SZ=}} sein, d.h. es ist {{math|term= F = 0 |SZ=.}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>ft5047nc7gwkmbwmd1yjg85np4hw2dv</sha1>
+    </revision>
+  </page>
+</mediawiki>

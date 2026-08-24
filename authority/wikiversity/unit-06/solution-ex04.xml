@@ -1,0 +1,99 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ebene Kurve/Rationale Parametrisierung/t^2+1,t^3-t/Gleichung/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>55069</id>
+    <revision>
+      <id>958133</id>
+      <parentid>825761</parentid>
+      <timestamp>2024-11-07T16:26:20Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>958133</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="741" sha1="6u522edq4fw8yaqm6vpimu5js1bcpd0" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir berechnen einige Monome in {{math|term= X |SZ=}} und {{math|term= Y |SZ=.}} Es ist
+{{
+Math/display|term= X^0Y^0=1 |SZ=,}}
+{{
+Math/display|term=
+X= t^2+1
+|SZ=,}}
+{{
+Math/display|term=
+X^2=t^4+2t^2+1
+|SZ=,}}
+{{
+Math/display|term=
+X^3=t^6+3t^4+3t^2+1
+|SZ=,}}
+{{
+Math/display|term=
+Y^2=t^6 -2t^4+t^2
+|SZ=.}}
+Dies sind {{math|term= 5 |SZ=}} Polynome, in denen nur die Potenzen {{mathl|term= t^0,t^2,t^4,t^6 |SZ=}} vorkommen, also müssen sie linear abhängig sein.
+Eine lineare Relation ist durch
+{{
+Math/display|term=
+ -Y^2+ X^3-5X^2 +8X -4 = 0
+|SZ=
+}}
+gegeben.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>6u522edq4fw8yaqm6vpimu5js1bcpd0</sha1>
+    </revision>
+  </page>
+</mediawiki>

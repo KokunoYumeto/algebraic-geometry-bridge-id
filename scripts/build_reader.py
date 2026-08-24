@@ -28,6 +28,36 @@ FINAL_DIR = BUILD_DIR / "reader-id"
 CSS = SOURCE_DIR / "reader.css"
 PDF_HEADER = SOURCE_DIR / "pdf-header.tex"
 EXPECTED_PANDOC_PREFIX = "pandoc 3.9.0.2"
+PDF_ASSET_REPLACEMENTS = {
+    "authority/assets/RationalDegree2byXedi.gif":
+        "authority/assets/RationalDegree2byXedi-frame-1.png",
+    "authority/assets/Ellipse.svg":
+        "authority/assets/Ellipse-250.png",
+    "authority/assets/Newtonbig.gif":
+        "authority/assets/Newtonbig-frame-1.png",
+    "authority/assets/Conjuntos_algebraicos_2.svg":
+        "authority/assets/Conjuntos_algebraicos_2-500.png",
+    "authority/assets/Gerade.svg":
+        "authority/assets/Gerade-500.png",
+    "authority/assets/Straight_lines.svg":
+        "authority/assets/Straight_lines-500.png",
+    "authority/assets/Kuzel_obecny.svg":
+        "authority/assets/Kuzel_obecny-500.png",
+    "authority/assets/Cubic_with_double_point.svg":
+        "authority/assets/Cubic_with_double_point-500.png",
+    "authority/assets/Conic_sections.svg":
+        "authority/assets/Conic_sections-500.png",
+    "authority/assets/Elliptic_orbit.gif":
+        "authority/assets/Elliptic_orbit-frame-1.png",
+    "authority/assets/Parabolic_orbit.gif":
+        "authority/assets/Parabolic_orbit-frame-1.png",
+    "authority/assets/Hyperbolic_orbit.gif":
+        "authority/assets/Hyperbolic_orbit-frame-1.png",
+    "authority/assets/Lemniscate_Building.gif":
+        "authority/assets/Lemniscate_Building-frame-1.png",
+    "authority/assets/Steam_engine_in_action.gif":
+        "authority/assets/Steam_engine_in_action-frame-1.png",
+}
 
 
 def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
@@ -136,7 +166,188 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Lima kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-05.pdf",
         )
-    raise ValueError("only the verified contiguous scopes --through 1, --through 2, --through 3, --through 4, and --through 5 are supported")
+    if through == 6:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-06.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "lecture-03.md",
+                SOURCE_DIR / "worksheet-03.md",
+                SOURCE_DIR / "worksheet-03-solutions.md",
+                SOURCE_DIR / "lecture-04.md",
+                SOURCE_DIR / "worksheet-04.md",
+                SOURCE_DIR / "worksheet-04-solutions.md",
+                SOURCE_DIR / "lecture-05.md",
+                SOURCE_DIR / "worksheet-05.md",
+                SOURCE_DIR / "worksheet-05-solutions.md",
+                SOURCE_DIR / "lecture-06.md",
+                SOURCE_DIR / "worksheet-06.md",
+                SOURCE_DIR / "worksheet-06-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+                SOURCE_DIR / "media-credits-unit-03.md",
+                SOURCE_DIR / "media-credits-unit-04.md",
+                SOURCE_DIR / "media-credits-unit-05.md",
+                SOURCE_DIR / "media-credits-unit-06.md",
+            ),
+            "Kurva Aljabar - Unit 1-6",
+            "Enam kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-06.pdf",
+        )
+    if through == 7:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-07.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "lecture-03.md",
+                SOURCE_DIR / "worksheet-03.md",
+                SOURCE_DIR / "worksheet-03-solutions.md",
+                SOURCE_DIR / "lecture-04.md",
+                SOURCE_DIR / "worksheet-04.md",
+                SOURCE_DIR / "worksheet-04-solutions.md",
+                SOURCE_DIR / "lecture-05.md",
+                SOURCE_DIR / "worksheet-05.md",
+                SOURCE_DIR / "worksheet-05-solutions.md",
+                SOURCE_DIR / "lecture-06.md",
+                SOURCE_DIR / "worksheet-06.md",
+                SOURCE_DIR / "worksheet-06-solutions.md",
+                SOURCE_DIR / "lecture-07.md",
+                SOURCE_DIR / "worksheet-07.md",
+                SOURCE_DIR / "worksheet-07-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+                SOURCE_DIR / "media-credits-unit-03.md",
+                SOURCE_DIR / "media-credits-unit-04.md",
+                SOURCE_DIR / "media-credits-unit-05.md",
+                SOURCE_DIR / "media-credits-unit-06.md",
+                SOURCE_DIR / "media-credits-unit-07.md",
+            ),
+            "Kurva Aljabar - Unit 1-7",
+            "Tujuh kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-07.pdf",
+        )
+    if through == 8:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-08.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "lecture-03.md",
+                SOURCE_DIR / "worksheet-03.md",
+                SOURCE_DIR / "worksheet-03-solutions.md",
+                SOURCE_DIR / "lecture-04.md",
+                SOURCE_DIR / "worksheet-04.md",
+                SOURCE_DIR / "worksheet-04-solutions.md",
+                SOURCE_DIR / "lecture-05.md",
+                SOURCE_DIR / "worksheet-05.md",
+                SOURCE_DIR / "worksheet-05-solutions.md",
+                SOURCE_DIR / "lecture-06.md",
+                SOURCE_DIR / "worksheet-06.md",
+                SOURCE_DIR / "worksheet-06-solutions.md",
+                SOURCE_DIR / "lecture-07.md",
+                SOURCE_DIR / "worksheet-07.md",
+                SOURCE_DIR / "worksheet-07-solutions.md",
+                SOURCE_DIR / "lecture-08.md",
+                SOURCE_DIR / "worksheet-08.md",
+                SOURCE_DIR / "worksheet-08-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+                SOURCE_DIR / "media-credits-unit-03.md",
+                SOURCE_DIR / "media-credits-unit-04.md",
+                SOURCE_DIR / "media-credits-unit-05.md",
+                SOURCE_DIR / "media-credits-unit-06.md",
+                SOURCE_DIR / "media-credits-unit-07.md",
+                SOURCE_DIR / "media-credits-unit-08.md",
+            ),
+            "Kurva Aljabar - Unit 1-8",
+            "Delapan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-08.pdf",
+        )
+    if through == 9:
+        return (
+            (
+                SOURCE_DIR / "frontmatter-units-01-09.md",
+                SOURCE_DIR / "lecture-01.md",
+                SOURCE_DIR / "worksheet-01.md",
+                SOURCE_DIR / "worksheet-01-solutions.md",
+                SOURCE_DIR / "lecture-02.md",
+                SOURCE_DIR / "worksheet-02.md",
+                SOURCE_DIR / "worksheet-02-solutions.md",
+                SOURCE_DIR / "lecture-03.md",
+                SOURCE_DIR / "worksheet-03.md",
+                SOURCE_DIR / "worksheet-03-solutions.md",
+                SOURCE_DIR / "lecture-04.md",
+                SOURCE_DIR / "worksheet-04.md",
+                SOURCE_DIR / "worksheet-04-solutions.md",
+                SOURCE_DIR / "lecture-05.md",
+                SOURCE_DIR / "worksheet-05.md",
+                SOURCE_DIR / "worksheet-05-solutions.md",
+                SOURCE_DIR / "lecture-06.md",
+                SOURCE_DIR / "worksheet-06.md",
+                SOURCE_DIR / "worksheet-06-solutions.md",
+                SOURCE_DIR / "lecture-07.md",
+                SOURCE_DIR / "worksheet-07.md",
+                SOURCE_DIR / "worksheet-07-solutions.md",
+                SOURCE_DIR / "lecture-08.md",
+                SOURCE_DIR / "worksheet-08.md",
+                SOURCE_DIR / "worksheet-08-solutions.md",
+                SOURCE_DIR / "lecture-09.md",
+                SOURCE_DIR / "worksheet-09.md",
+                SOURCE_DIR / "worksheet-09-solutions.md",
+                SOURCE_DIR / "media-credits.md",
+                SOURCE_DIR / "media-credits-unit-02.md",
+                SOURCE_DIR / "media-credits-unit-03.md",
+                SOURCE_DIR / "media-credits-unit-04.md",
+                SOURCE_DIR / "media-credits-unit-05.md",
+                SOURCE_DIR / "media-credits-unit-06.md",
+                SOURCE_DIR / "media-credits-unit-07.md",
+                SOURCE_DIR / "media-credits-unit-08.md",
+                SOURCE_DIR / "media-credits-unit-09.md",
+            ),
+            "Kurva Aljabar - Unit 1-9",
+            "Sembilan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            "algebraic-geometry-bridge-id-units-01-09.pdf",
+        )
+    if through in (10, 11, 12):
+        number_words = {10: "Sepuluh", 11: "Sebelas", 12: "Dua belas"}
+        unit_sources: list[Path] = [
+            SOURCE_DIR / f"frontmatter-units-01-{through:02d}.md"
+        ]
+        for unit in range(1, through + 1):
+            unit_sources.extend(
+                (
+                    SOURCE_DIR / f"lecture-{unit:02d}.md",
+                    SOURCE_DIR / f"worksheet-{unit:02d}.md",
+                    SOURCE_DIR / f"worksheet-{unit:02d}-solutions.md",
+                )
+            )
+        unit_sources.append(SOURCE_DIR / "media-credits.md")
+        unit_sources.extend(
+            SOURCE_DIR / f"media-credits-unit-{unit:02d}.md"
+            for unit in (*range(2, 10), 11, 12)
+            if unit <= through
+        )
+        return (
+            tuple(unit_sources),
+            f"Kurva Aljabar - Unit 1-{through}",
+            f"{number_words[through]} kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
+            f"algebraic-geometry-bridge-id-units-01-{through:02d}.pdf",
+        )
+    raise ValueError("only contiguous scopes --through 1 through --through 12 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -253,32 +464,29 @@ def main() -> int:
             f"--output={html}",
         )
         pdf_sources: list[Path] = []
-        replacements = {
-            "authority/assets/RationalDegree2byXedi.gif":
-                "authority/assets/RationalDegree2byXedi-frame-1.png",
-            "authority/assets/Ellipse.svg":
-                "authority/assets/Ellipse-250.png",
-            "authority/assets/Newtonbig.gif":
-                "authority/assets/Newtonbig-frame-1.png",
-            "authority/assets/Conjuntos_algebraicos_2.svg":
-                "authority/assets/Conjuntos_algebraicos_2-500.png",
-            "authority/assets/Gerade.svg":
-                "authority/assets/Gerade-500.png",
-            "authority/assets/Straight_lines.svg":
-                "authority/assets/Straight_lines-500.png",
-            "authority/assets/Kuzel_obecny.svg":
-                "authority/assets/Kuzel_obecny-500.png",
-        }
         for source in sources:
             pdf_source = stage / f"pdf-{source.name}"
             text = source.read_text(encoding="utf-8")
-            for before, after in replacements.items():
+            for before, after in PDF_ASSET_REPLACEMENTS.items():
                 text = text.replace(before, after)
             text = text.replace("★", r"\sourceblackstar{}")
             text = text.replace("κ", r"$\kappa$")
+            # The Commons uploader name is Hebrew and the selected PDF font
+            # cannot encode it.  Keep the exact attribution in HTML/source;
+            # use a readable Latin transliteration only in the PDF-stage copy.
+            text = text.replace("דוד שי", "David Shai")
+            # Pandoc serializes the source's definition-equality relation as
+            # \vcentcolon=; MiKTeX does not provide that macro by default.
+            # Keep the mathematical relation unchanged in the reader source,
+            # and use the portable TeX spelling only in the PDF-stage copy.
+            text = text.replace(r"\vcentcolon=", r":=")
             text = text.replace(
                 "](authority/assets/Hydrant_Insel_Krk_Kroatien-500.jpg)",
                 "](authority/assets/Hydrant_Insel_Krk_Kroatien-500.jpg){height=72%}",
+            )
+            text = text.replace(
+                "](authority/assets/Dioklova_kisoida.png)",
+                "](authority/assets/Dioklova_kisoida.png){height=72%}",
             )
             pdf_source.write_text(text, encoding="utf-8", newline="\n")
             pdf_sources.append(pdf_source)

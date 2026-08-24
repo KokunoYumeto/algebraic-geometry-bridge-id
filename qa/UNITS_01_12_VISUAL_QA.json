@@ -1,0 +1,93 @@
+{
+  "schema": "ag-bridge-visual-qa-v1",
+  "checked_utc": "2026-08-24T03:13:18.8494505Z",
+  "status": "PASS",
+  "result": "PASS",
+  "through_unit": 12,
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-12.pdf",
+    "bytes": 5981024,
+    "sha256": "3213bee4e472c11c480bb2241077ffad4fb62d95ac590f3448a6fbd188c9159d",
+    "pages": 215
+  },
+  "scope": {
+    "language": "id-ID",
+    "through_unit": 12,
+    "pdf": "build/reader-id/algebraic-geometry-bridge-id-units-01-12.pdf",
+    "pdf_bytes": 5981024,
+    "pdf_sha256": "3213bee4e472c11c480bb2241077ffad4fb62d95ac590f3448a6fbd188c9159d",
+    "pages": 215,
+    "page_size": "A4",
+    "encrypted": false
+  },
+  "deterministic_raster": {
+    "renderer": "pdftoppm",
+    "resolution_dpi": 96,
+    "page_manifest": "qa/UNITS_01_12_VISUAL_PAGE_MANIFEST.json",
+    "page_manifest_bytes": 57000,
+    "page_manifest_sha256": "985fea7f4bb21d91eb290cb05ffb26ab5901e87412646e7c2588725cc20cf426",
+    "page_png_count": 215,
+    "dimensions_px": [794, 1123],
+    "total_png_bytes": 25277666,
+    "visible_ink_threshold_gray_lt": 248,
+    "minimum_visible_ink_fraction": 0.006578726019500662,
+    "minimum_visible_ink_page": 129,
+    "maximum_visible_ink_fraction": 0.5788034030832311,
+    "maximum_visible_ink_page": 25,
+    "blank_pages_detected": 0,
+    "dimension_mismatches": 0
+  },
+  "visual_inspection": {
+    "all_page_contact_sheets": [
+      "pages 1-20",
+      "pages 21-40",
+      "pages 41-60",
+      "pages 61-80",
+      "pages 81-100",
+      "pages 101-120",
+      "pages 121-140",
+      "pages 141-160",
+      "pages 161-180",
+      "pages 181-200",
+      "pages 201-215"
+    ],
+    "full_size_pages_checked": [
+      173,
+      174,
+      183,
+      184,
+      185,
+      188,
+      196,
+      197,
+      198,
+      199,
+      204,
+      210,
+      211,
+      215
+    ],
+    "checks": {
+      "populated_and_legible": "PASS",
+      "consistent_margins_and_page_numbers": "PASS",
+      "no_clipping_or_overlap": "PASS",
+      "no_black_boxes_or_broken_glyphs": "PASS",
+      "new_unit_images_present": "PASS",
+      "unit_12_solutions_heading_intact": "PASS",
+      "unit_10_corrected_math_spacing_intact": "PASS"
+    }
+  },
+  "findings_resolved_before_freeze": [
+    {
+      "location": "page 210 before correction",
+      "finding": "The Unit 12 public-solutions heading split and clipped at a page boundary.",
+      "resolution": "Added a PDF-only clearpage immediately before the heading; the final reader places the intact heading on page 211 without changing HTML or mathematical content."
+    },
+    {
+      "location": "Unit 10 public solution 10.6",
+      "finding": "A missing TeX backslash rendered the spacing command as literal math letters.",
+      "resolution": "Restored the intended \\quad command and recorded AGC-CORR-0027; final page 183 renders the membership statement correctly."
+    }
+  ],
+  "conclusion": "Every final PDF page was rasterized and inspected through contact sheets; all affected pages and representative unit boundaries, mathematics, images, exercises, solutions, and rights pages were additionally inspected at full size. No unresolved visual defect remains."
+}

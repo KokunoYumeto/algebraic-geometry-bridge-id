@@ -1,0 +1,108 @@
+{
+  "schema": "ag-bridge-backend-qa-v6",
+  "result": "PASS",
+  "through_unit": 12,
+  "backend": {
+    "manifest_path": "backend/units-01-12/MANIFEST.json",
+    "manifest_sha256": "9c22a4eb308fd5d50cca9151f3617b833fe800749de8087038386af952a683ce",
+    "records_path": "backend/units-01-12/records.jsonl",
+    "records_sha256": "914d659bde3a32bce7f10b39f3f0ec12f852cffdfb6f83c12ca150d0ba1d3925",
+    "schema_path": "backend/units-01-12/record.schema.json",
+    "schema_sha256": "4dbb0acff7e301420250f30cbe9457fd2df4469d820c82d3a30c7f09b7c2bc41",
+    "record_count": 8491,
+    "new_record_count": 2098,
+    "counts": {
+      "artifact": 126,
+      "asset": 65,
+      "concept": 75,
+      "correction": 48,
+      "course": 1,
+      "edition": 12,
+      "exercise": 330,
+      "program": 1,
+      "qa_event": 37,
+      "relation": 3606,
+      "resource": 4,
+      "rights": 70,
+      "segment": 3298,
+      "solution": 55,
+      "term": 75,
+      "unit": 688
+    },
+    "units_01_09_baseline_record_count": 6393,
+    "units_01_09_baseline_records_exactly_preserved": true
+  },
+  "units_10_12": {
+    "10": {
+      "exercise_count": 29,
+      "public_solution_count": 6,
+      "solution_exercise_numbers": [
+        1,
+        6,
+        9,
+        16,
+        17,
+        20
+      ],
+      "media_positions": 0,
+      "manifest_sha256": "f8b4f8bf12a0613f774352df31941d79a35d9eed10f2d8fb5570f9ffe07bfb43",
+      "exercise_map_sha256": "972e36256d128916533a33be1d2feedfdecbd133a0dbba96193a85477cf7e92c",
+      "rights_sha256": "688820e2de7916d7c3299fca0a3ce5d415cdb325e3061ffd5f9ca8220ffc617f",
+      "asset_closure_sha256": "981122ef8078677affd5735ffe022be8c08359717dc5794c21c7fb591fc15738"
+    },
+    "11": {
+      "exercise_count": 26,
+      "public_solution_count": 2,
+      "solution_exercise_numbers": [
+        6,
+        7
+      ],
+      "media_positions": 1,
+      "manifest_sha256": "ea2d4936bb27e88b2863f8fecbddd5570992c432aee66c72066597709da65a47",
+      "exercise_map_sha256": "6298bafd7656e4653b504706b437e89de7faa92a75fac10c31d51ad9644a20cf",
+      "rights_sha256": "54dd27757dc7a7a2084c2c333d0405483377d6e8ce4d52f2c3f3fdb487bfeb99",
+      "asset_closure_sha256": "eecc6bb22fbead45c6cdf064fcce66c3d39ca24453b35455b31f865212895c55"
+    },
+    "12": {
+      "exercise_count": 30,
+      "public_solution_count": 2,
+      "solution_exercise_numbers": [
+        6,
+        12
+      ],
+      "media_positions": 4,
+      "manifest_sha256": "181ce377bd68639b12511a9b1402ca03fd76c6107325195d3aa51a81b7286559",
+      "exercise_map_sha256": "a37f874ffa17dd35ed4375f2956786793e475fcd5e2ded0333207c546e7e91db",
+      "rights_sha256": "d645f9f0898da0d7b4c918900677f837846a3d16d5fb6424e77547ff2847b691",
+      "asset_closure_sha256": "058cd370d365150ea39a62ca0ed151189d6cf4b4e3cfcca27e9030eea148cea4"
+    }
+  },
+  "reader_evidence": {
+    "build_receipt_sha256": "9650aefa3dfd8c19c4e40c700e4c0afadc0c3c3599fa55cc46c28fec30000fdb",
+    "machine_qa_sha256": "55ccc57fb61a2dd69e802d816521460d919176f35c99838c1bb7109de3c5897e",
+    "visual_qa_sha256": "ef306f95ac740dcc5d1a7192dbfd37c2189108eca9d1e671942a61e8cd18b5c6",
+    "responsive_qa_sha256": "f53f433e1d4db1e2ba7a3e488e1d81f5e55f47750bf134842b931453f2a3bfe3",
+    "protected_surfaces_sha256": "75c9725cb79bb3a4b3e7e889ca661310cc6fdef5e1fdaa91fa58ee4d58648b33"
+  },
+  "ledger_evidence": {
+    "terminology_path": "00_control/TERMINOLOGY.csv",
+    "terminology_sha256": "61781bf1f1b20c3fa9f37ffed04d0c2b811f81e6f99d9c5a7eb1cf345350b7d3",
+    "new_term_count": 21,
+    "new_concept_count": 21,
+    "corrections_path": "00_control/CORRECTIONS.csv",
+    "corrections_sha256": "2b6e38324ce5368fd091b0438903c3ed131ad94c55139a1579155c3845b72686",
+    "new_correction_count": 7
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "validation": {
+    "canonical_jsonl_and_schema_surface": true,
+    "unique_stable_ids": true,
+    "parent_resource_edition_rights_concept_and_relation_closure": true,
+    "units_01_09_record_and_payload_byte_identity": true,
+    "source_hashes_match_frozen_values_and_reader_inputs": true,
+    "authority_manifest_map_rights_asset_solution_closure": true,
+    "units_10_12_terminology_and_correction_ledger_closure": true,
+    "reader_build_machine_visual_responsive_and_protected_qa": true,
+    "exact_model_provenance_on_every_new_record": true
+  }
+}

@@ -1,0 +1,123 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mechanisch definierte Kurven/Stangenkonfiguration/Kreis und tangentiale Gerade/Zweidimensionale Interpretation/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>94101</id>
+    <revision>
+      <id>1096407</id>
+      <parentid>1095205</parentid>
+      <timestamp>2026-06-15T08:47:05Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096407</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1365" sha1="sb5v3m944yq82agw09xfoumi48mo5ia" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Mit
+{{
+Math/display|term=
+P_1 = (x_1,1) \text{ und } P_2=(x_2,y_2)
+|SZ= 
+}}
+gelangt man zu den beiden Bedingungen
+{{
+Aufzählung2
+|{{mathl|term= x_2^2+y_2^2=1 |SZ= }}
+|{{mathl|term= (x_2-x_1)^2 +(y_2-1)^2=4 |SZ=.}}
+}}
+Wir ziehen die erste Gleichung von der zweiten ab und erhalten
+{{
+Relationskette/align
+| 0
+|| (x_2-x_1)^2 +(y_2-1)^2 -4 -(x_2^2+y_2^2 -1)
+|| x_2^2 +x_1^2 -2x_1x_2 +y_2^2 -2y_2 +1 -4 -x_2^2-y_2^2 +1
+|| x_1^2   -2x_1x_2  -2y_2    -2
+|| 
+||
+|SZ=.
+}}
+Diese Gleichung ist zusammen mit der Einheitskreisgleichung äquivalent zum Ausgangssystem. Mit dieser neuen zweiten Gleichung kann man {{math|term= y_2 |SZ=}} mittels
+{{
+Relationskette/display
+| y_2
+|| {{op:Bruch| 1| 2}} x_1^2-x_1x_2 -1
+||
+||
+||
+|SZ=
+}}
+eliminieren. Das System kann also allein in den Variablen
+{{
+mathkor|term1=
+x_1
+|und|term2=
+x_2
+|SZ=
+}}
+beschrieben werden, und zwar als Nullstellenmenge des Polynoms
+{{
+Relationskette/align
+| x_2^2 +y_2^2 -1
+|| x_2^2 + {{makl| {{op:Bruch| 1| 2}} x_1^2-x_1x_2 -1  |}}^2 -1
+|| x_2^2 + {{op:Bruch| 1| 4}} x_1^4  +x_1^2x_2^2    +1  - x_1^3x_2   - x_1^2 + 2x_1x_2      -1
+|| {{op:Bruch| 1| 4}} x_1^4  - x_1^3x_2 +x_1^2x_2^2  - x_1^2 + 2x_1x_2    +   x_2^2  
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>sb5v3m944yq82agw09xfoumi48mo5ia</sha1>
+    </revision>
+  </page>
+</mediawiki>

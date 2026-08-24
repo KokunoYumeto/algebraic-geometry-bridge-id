@@ -31,15 +31,23 @@ requirements, and any PDF-only companion relationship. The binding inventories
 are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1,
 [`authority/RIGHTS-unit-02.csv`](authority/RIGHTS-unit-02.csv) for Unit 2, and
 [`authority/RIGHTS-unit-03.csv`](authority/RIGHTS-unit-03.csv) for Unit 3, and
-[`authority/RIGHTS-unit-04.csv`](authority/RIGHTS-unit-04.csv) for Unit 4; the
-human-readable reader also contains a complete **Kredit media** section.
+[`authority/RIGHTS-unit-04.csv`](authority/RIGHTS-unit-04.csv) for Unit 4,
+[`authority/RIGHTS-unit-05.csv`](authority/RIGHTS-unit-05.csv) for Unit 5,
+[`authority/RIGHTS-unit-06.csv`](authority/RIGHTS-unit-06.csv) for Unit 6,
+[`authority/RIGHTS-unit-07.csv`](authority/RIGHTS-unit-07.csv) for Unit 7,
+[`authority/RIGHTS-unit-08.csv`](authority/RIGHTS-unit-08.csv) for Unit 8,
+[`authority/RIGHTS-unit-09.csv`](authority/RIGHTS-unit-09.csv) for Unit 9,
+[`authority/RIGHTS-unit-10.csv`](authority/RIGHTS-unit-10.csv) for Unit 10,
+[`authority/RIGHTS-unit-11.csv`](authority/RIGHTS-unit-11.csv) for Unit 11, and
+[`authority/RIGHTS-unit-12.csv`](authority/RIGHTS-unit-12.csv) for Unit 12. The
+reader also contains a complete **Kredit media** section.
 
 ## Build and QA code
 
 Repository-authored files under `scripts/` are available under the MIT License,
 unless a file itself states otherwise:
 
-> Copyright (c) 2026 Floris and contributors
+> Copyright (c) 2026 Indonesian-edition contributors
 >
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal

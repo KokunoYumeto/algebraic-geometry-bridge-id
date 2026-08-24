@@ -1,12 +1,32 @@
 {
   "schema": "ag-bridge-build-receipt-v2",
-  "built_utc": "2026-08-22T16:27:22.314997+00:00",
+  "built_utc": "2026-08-24T03:10:26.237107+00:00",
   "language": "id-ID",
-  "through_unit": 5,
-  "title": "Kurva Aljabar - Unit 1-5",
+  "through_unit": 12,
+  "title": "Kurva Aljabar - Unit 1-12",
   "pandoc": "pandoc 3.9.0.2",
   "latex": "This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5)",
   "inputs": [
+    {
+      "path": "authority/assets/120px-Polynomialdeg5.png",
+      "bytes": 4838,
+      "sha256": "a00ab550f16915cafe88c55e238335cb8f0743857a1e6a1b0bcba473c48f060c"
+    },
+    {
+      "path": "authority/assets/250px-Lineair-cartesiaans.png",
+      "bytes": 11096,
+      "sha256": "2827bd16eb6d65eb9e2e158af309c7740ba2a17342cce57aba03a08b7e37735c"
+    },
+    {
+      "path": "authority/assets/Alexander_Grothendieck.jpg",
+      "bytes": 14417,
+      "sha256": "9be130d9a00a5e8d52ef8821cdade34114e6a654908faa8b2e7b90fe377572f2"
+    },
+    {
+      "path": "authority/assets/Alg_Kurven_OS2008_Lsg8.10_v2.png",
+      "bytes": 19373,
+      "sha256": "b5c6b5e1192e3b079220cae6b2e40dc51d407d4ca295933855da8216fd13eae9"
+    },
     {
       "path": "authority/assets/Bifolium.png",
       "bytes": 45817,
@@ -28,6 +48,16 @@
       "sha256": "9a337d72a1fce03097bd23a98a95d7b49c9bda3e5041939c26017fa03ee9121c"
     },
     {
+      "path": "authority/assets/Conic_sections-500.png",
+      "bytes": 53233,
+      "sha256": "703b60855486c5be76723fb5b432cd6b9cd37acbdb774349e91dd407da0d7ac8"
+    },
+    {
+      "path": "authority/assets/Conic_sections.svg",
+      "bytes": 47168,
+      "sha256": "1dec2b99a1407321e4c979f06c8aff39dfd3d1a74897eabf7e62db6f22fd1cbc"
+    },
+    {
       "path": "authority/assets/Conic_sections_2n-330.png",
       "bytes": 39791,
       "sha256": "4ad5b53eab8f04841d7c294900bcd9ee23775273e44a2eb424c45d7a21ac802a"
@@ -43,6 +73,16 @@
       "sha256": "89765c0e3a107ed0c7196285bdfd177f16156e2fd5208261eaa7f66323df1f80"
     },
     {
+      "path": "authority/assets/Cubic_with_double_point-500.png",
+      "bytes": 12146,
+      "sha256": "7c39aa0435abed871046f327987d511c27c4315b7c0832e2b90d346bd969a239"
+    },
+    {
+      "path": "authority/assets/Cubic_with_double_point.svg",
+      "bytes": 1484,
+      "sha256": "1f6afa90631abb935df525eecb14b0462be0a161ca5542f73fb8b2222792a1f2"
+    },
+    {
       "path": "authority/assets/Cusp-250.png",
       "bytes": 26407,
       "sha256": "ccd2cac81b1dd4f0feaaa19c56fa349b7e83bd6074b08c96b3cc888077352d1d"
@@ -53,14 +93,34 @@
       "sha256": "62bd57cb61a6bf539dfd71fe5317f1794f819d92a5b39378b4d4434c12063185"
     },
     {
+      "path": "authority/assets/David_Hilbert_1886.jpg",
+      "bytes": 131401,
+      "sha256": "c64d462b61219ee497bae09e61067f3b410c6d9fb0a553f377be991230ec33d0"
+    },
+    {
       "path": "authority/assets/Delaunay_points.png",
       "bytes": 2115,
       "sha256": "52caf1494e51911787264c678138c956a376e58722027d76df461acbc7eb3669"
     },
     {
+      "path": "authority/assets/Dioklova_kisoida.png",
+      "bytes": 3823,
+      "sha256": "7eeb7d346fd7334ca1f6156244c5a8f594cdd649ba8ba35784a2ee36e5eae6c8"
+    },
+    {
+      "path": "authority/assets/Disjoint_ellipses.png",
+      "bytes": 11115,
+      "sha256": "c6f71e6f2ecf41be4a3fa66536b5efd4cc33a92b3962c45e95884be7b7a8fddc"
+    },
+    {
       "path": "authority/assets/Disk_1-250.png",
       "bytes": 4811,
       "sha256": "1ef50b64d023899f66bf5a0f11f2201560ad901948c476b67a00db768baa8262"
+    },
+    {
+      "path": "authority/assets/DoubleCone.png",
+      "bytes": 251538,
+      "sha256": "4935614e7bfc7cf6bfdf281d4c0cd2eb86117aa98656acc6a1b6a7ba37a8cf68"
     },
     {
       "path": "authority/assets/ECexamples01-330.png",
@@ -83,9 +143,24 @@
       "sha256": "f2681d9180c747b5c346892ef9b6148d86ed8049a17d66e5ab1755eecae1244d"
     },
     {
+      "path": "authority/assets/Ellipse_tri.png",
+      "bytes": 2266,
+      "sha256": "af8f2681dcf9b038bd5c6bb46c5d9e72cc58633c1b0f561327323e3d5c8962ec"
+    },
+    {
       "path": "authority/assets/Elliptic_curve_simple-250.png",
       "bytes": 5809,
       "sha256": "7fae70723ddf5ad6a8afa0b9bd4cfa5faca9382c3ef9f811566972c17b5bceb6"
+    },
+    {
+      "path": "authority/assets/Elliptic_orbit-frame-1.png",
+      "bytes": 5550,
+      "sha256": "6304dcaa58992b7e1de019967efac48ea4698bbdaf7805084ab635c893148d6f"
+    },
+    {
+      "path": "authority/assets/Elliptic_orbit.gif",
+      "bytes": 25637,
+      "sha256": "454befafbb96ec32fc8dfe5aca3a18bf5128656d5eb800ad3b1b3247640af812"
     },
     {
       "path": "authority/assets/Gerade-500.png",
@@ -103,9 +178,34 @@
       "sha256": "d2d2c6b74b70428a3fc997786c8a179b503d0f8e17bd2dd73a1ec36f7a0fdc1f"
     },
     {
+      "path": "authority/assets/Hauptachsentransformation1.png",
+      "bytes": 4977,
+      "sha256": "c5522c81d188d79c8e284f95d096752454f3a71879ab9842ac601dc96bc3c458"
+    },
+    {
+      "path": "authority/assets/Hauptachsentransformation2.png",
+      "bytes": 6150,
+      "sha256": "0b5db6d54a46418313f402338b83e9dbf9bd544edf33c60ce6b42a494ab7ac5a"
+    },
+    {
+      "path": "authority/assets/Hauptachsentransformation3.png",
+      "bytes": 6067,
+      "sha256": "4fbf5933c658f3a54da426001f825fb582e70cd41fc02030eebc8dea53d32355"
+    },
+    {
       "path": "authority/assets/Hydrant_Insel_Krk_Kroatien-500.jpg",
       "bytes": 301722,
       "sha256": "988e605826ee2764e086248a087a648672d61554f286a5cf66cbc770a1556529"
+    },
+    {
+      "path": "authority/assets/Hyperbolic_orbit-frame-1.png",
+      "bytes": 7458,
+      "sha256": "02316355add5a3b6e62638316a0f4fdd3edd910f4a62f13b22be1bce55ce1b30"
+    },
+    {
+      "path": "authority/assets/Hyperbolic_orbit.gif",
+      "bytes": 10827,
+      "sha256": "dd7a0a55338c31e0c91ea7f5cc4ace9334d0c9af15b1dd482994544a01dd17d5"
     },
     {
       "path": "authority/assets/IntersectingPlanes.png",
@@ -113,9 +213,19 @@
       "sha256": "64df10e6fc8448e55981d59b0eebfd03a2eefe47aeba738f9d0435d2b08b38ac"
     },
     {
+      "path": "authority/assets/Intersection_of_cylinders.jpg",
+      "bytes": 27268,
+      "sha256": "3d4742d71e26f4f31f83352284306ef2edead02fd69cff837af0e36d65dbe4eb"
+    },
+    {
       "path": "authority/assets/Kampyle_Eudoxus-250.png",
       "bytes": 35500,
       "sha256": "ca7b9747bdde0e21709a6b4c92cbd53c4fca31c8affed35dc4ba272487a3d0b0"
+    },
+    {
+      "path": "authority/assets/Krivka_parametricky.png",
+      "bytes": 1598,
+      "sha256": "0ba72359246bdfc6ab819da948a2adf4f8310b884e0585f24ad8bb65c38ff250"
     },
     {
       "path": "authority/assets/Kuzel_obecny-500.png",
@@ -126,6 +236,16 @@
       "path": "authority/assets/Kuzel_obecny.svg",
       "bytes": 4285,
       "sha256": "7635fb8bd10a4f31be63b986024f64cb272774baa73d87139320d59629308f3e"
+    },
+    {
+      "path": "authority/assets/Lemniscate_Building-frame-1.png",
+      "bytes": 6532,
+      "sha256": "8bd3f37bab6250de122d80d1d5d609bfffc351cebc898db8de1ed5a30e300514"
+    },
+    {
+      "path": "authority/assets/Lemniscate_Building.gif",
+      "bytes": 334877,
+      "sha256": "9fbb2d4522cace0cb56e4e02838ccc3fb5e8c80067fab6797d113754e2a1eaf4"
     },
     {
       "path": "authority/assets/Lemniscate_of_Bernoulli-250.png",
@@ -183,9 +303,29 @@
       "sha256": "37716351a6d56c83a876ee23743a1825d3ef5e597c71bf2b5b7d8f521f8e832e"
     },
     {
+      "path": "authority/assets/Parabolic_orbit-frame-1.png",
+      "bytes": 4047,
+      "sha256": "5c9a9f19a45551fb51eed87a7bee262276cb21e330b83f0b8ad6c3e80d7f31ab"
+    },
+    {
+      "path": "authority/assets/Parabolic_orbit.gif",
+      "bytes": 10605,
+      "sha256": "0d9bf982d325d79a50aaae37dd35765a0f01c2f4e194086856a6247108042535"
+    },
+    {
+      "path": "authority/assets/Parallelle_lijnen.png",
+      "bytes": 681,
+      "sha256": "67e66fee3a5a6ad2c9b0e0b0f76709a916a82410956f5cfb1f2f9906138b62d9"
+    },
+    {
       "path": "authority/assets/Polynomialdeg4.png",
       "bytes": 2184,
       "sha256": "e1997aba85dfd5a6e240298b1a0825a67ce069f1be15b9f981fd8d879ea07d68"
+    },
+    {
+      "path": "authority/assets/Portrait_Confused_With_Johannes_Kepler_1610.jpg",
+      "bytes": 761776,
+      "sha256": "d7a8c1984a47df396f4d0dc090b836e8073e4f2b1729636f6e871809535a7d4a"
     },
     {
       "path": "authority/assets/Quadratic_Koch.png",
@@ -228,6 +368,16 @@
       "sha256": "b4eeac37b370423b506230506a30a476681ccdc9d905f3dd3cc0cb65d0a77797"
     },
     {
+      "path": "authority/assets/Steam_engine_in_action-frame-1.png",
+      "bytes": 47378,
+      "sha256": "fb145cb93b78fa68e47d78382b102aa3d0a0cdbcff787a69941aca9cdea7cedb"
+    },
+    {
+      "path": "authority/assets/Steam_engine_in_action.gif",
+      "bytes": 130202,
+      "sha256": "cca050f328d32e759e1522fa8a63051b1d3c4fcb155631fa7dca4d7b6a7fd5a7"
+    },
+    {
       "path": "authority/assets/Straight_lines-500.png",
       "bytes": 19412,
       "sha256": "cba4d6e56ccfeb570de3f658697c6f0b17aef187f7d45e331c066930f8316780"
@@ -248,34 +398,69 @@
       "sha256": "489afccf2128371df697f6121da75c376f4910a2404dfe572c7ae7adbdac663a"
     },
     {
-      "path": "source/id-ID/frontmatter-units-01-05.md",
-      "bytes": 3450,
-      "sha256": "9a4de91358b15872945e7b31b38274c586f34ba8ede4e7fdd1a08483bee5fa04"
+      "path": "source/id-ID/frontmatter-units-01-12.md",
+      "bytes": 2925,
+      "sha256": "b1ff35e4f17b8cab93489dc28eaab1d15b77f6212859a4cc9eae67527cabd8ce"
     },
     {
       "path": "source/id-ID/lecture-01.md",
-      "bytes": 18910,
-      "sha256": "6cf20fdbb2f0930010729c77f689d9bbcfc5cddecd66f60d854c38f091762080"
+      "bytes": 18949,
+      "sha256": "46eeeb1a2e939ba7ff8641d5985a68ea8d8ed737dd7350d3f67412651eee0cbe"
     },
     {
       "path": "source/id-ID/lecture-02.md",
-      "bytes": 14617,
-      "sha256": "850bebf6bd56aea2e980e26988f69d6ce584f8138a55f765971d374236ee6250"
+      "bytes": 14641,
+      "sha256": "9a429e98a56cdc7b3c678ee289f10d5f1af20712ae32b368cafcb7ea1754e348"
     },
     {
       "path": "source/id-ID/lecture-03.md",
-      "bytes": 11959,
-      "sha256": "d9077b0c66ad2615ede67bbe7f53bf0dec7805af92fcf988140b74dd4b5af83c"
+      "bytes": 11968,
+      "sha256": "56de1ed24a7a55af1d3573811954b3669c8b7a44993392a34d911eb7f1cff151"
     },
     {
       "path": "source/id-ID/lecture-04.md",
-      "bytes": 12229,
-      "sha256": "30101a8c44828775ed51087c12b20b1fada751591e71027d5899c1c793fbe681"
+      "bytes": 12238,
+      "sha256": "6a89da35f6ba952a2ca7a0cb4b622023e025328f6ef7ff0c60e32c9634c3cd29"
     },
     {
       "path": "source/id-ID/lecture-05.md",
-      "bytes": 13912,
-      "sha256": "f531379fc279a09d3ebb917c8b4d0deba388806153e2d45fc9457894bf75630d"
+      "bytes": 13921,
+      "sha256": "bba00a1a3c1e0961141e0b87ded4989cc9ea5866982c9c3ceef2fd8750cda6d7"
+    },
+    {
+      "path": "source/id-ID/lecture-06.md",
+      "bytes": 12938,
+      "sha256": "ea599dabf44a83a8acda7019e51a5335dad7ed54be7d53939a66e56a474cc6dd"
+    },
+    {
+      "path": "source/id-ID/lecture-07.md",
+      "bytes": 22411,
+      "sha256": "45023a789b52b562d2fbcd0aaf680453cf3dbef60c41542a89a42be01f63ff52"
+    },
+    {
+      "path": "source/id-ID/lecture-08.md",
+      "bytes": 22707,
+      "sha256": "a81665fbdc0ba82f6d5a490b64e9853a537c319b75b942a8dcbdc1e4a528dbe4"
+    },
+    {
+      "path": "source/id-ID/lecture-09.md",
+      "bytes": 17091,
+      "sha256": "ab050d8e321638632546755f9f0f2f5c6328753e25728f0c7627814b5e3b81e4"
+    },
+    {
+      "path": "source/id-ID/lecture-10.md",
+      "bytes": 14540,
+      "sha256": "08a496387da53cefb7e1f427fa8d762465d31c18618be7ea897fe8246da21e6d"
+    },
+    {
+      "path": "source/id-ID/lecture-11.md",
+      "bytes": 15657,
+      "sha256": "268324606509f055a70c35d782982108763d58ccc2993e33e42d80e54aea4dcb"
+    },
+    {
+      "path": "source/id-ID/lecture-12.md",
+      "bytes": 18692,
+      "sha256": "bab84765bec69ceef42a658579aa02162b45d4e1b2cdf55331031b1663596cd4"
     },
     {
       "path": "source/id-ID/media-credits-unit-02.md",
@@ -298,14 +483,44 @@
       "sha256": "b155bc3eeed80412336cd6a17b643c643b8105758746eb595e83dca4e134ffdf"
     },
     {
+      "path": "source/id-ID/media-credits-unit-06.md",
+      "bytes": 930,
+      "sha256": "82bf0832d5c5a5f31f06617fae9fa1b1fc8133f7d814cf188ab00ab819da5d42"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-07.md",
+      "bytes": 2438,
+      "sha256": "5f475ae90e97f737c608ea34a4ed37ddd8ad2d852e180186185f40cb554ee016"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-08.md",
+      "bytes": 1693,
+      "sha256": "5b1a02184e38eb8f91d1a30e32d188f66493616d7449fc52eb4bf3dd6e5c4f84"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-09.md",
+      "bytes": 471,
+      "sha256": "f51ff5450b2822d80688e473a1b83f78cf7980b2f96ac39e1632bab01bdc7490"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-11.md",
+      "bytes": 723,
+      "sha256": "423cdad2e676539994766627b9ff48aa20f337ea4b6ed806bee565481c50f7a3"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-12.md",
+      "bytes": 1622,
+      "sha256": "aefe17911251cd292ae4431441f122003a5307b2b9205918809e5c077de593c0"
+    },
+    {
       "path": "source/id-ID/media-credits.md",
       "bytes": 5005,
       "sha256": "d2e491b7b33d02b3f8cfca2a6d021d593b6d5c98c4d005d7600fe999d27295fd"
     },
     {
       "path": "source/id-ID/pdf-header.tex",
-      "bytes": 61,
-      "sha256": "52be57f686048e62509a5b6f6a3d7eee2c762d19713c806773f5b62fc54a4d73"
+      "bytes": 253,
+      "sha256": "e7dfc6344d5bd755e5f54f3f00b702336c179e88b4bc1df463f6951572931cc9"
     },
     {
       "path": "source/id-ID/reader.css",
@@ -314,65 +529,135 @@
     },
     {
       "path": "source/id-ID/worksheet-01-solutions.md",
-      "bytes": 6585,
-      "sha256": "517f6810390261353b0b172b07919bdd6acab8655500b4a5224f540484c82bb7"
+      "bytes": 6588,
+      "sha256": "6f7b2cb79f1b26dca11ce3710eeaeb3516b1662b45bfca2d8fd7c3307fc74417"
     },
     {
       "path": "source/id-ID/worksheet-01.md",
-      "bytes": 10602,
-      "sha256": "dad226e3f8e09d96a5c7b5e8e3dd089dc9e064ee2f7214d76e0ab7d38d5fe45c"
+      "bytes": 10620,
+      "sha256": "bdc24c1933498cbe52b82b58f639d3ab0c8611840b610fe5e3b843d1ec80c3a0"
     },
     {
       "path": "source/id-ID/worksheet-02-solutions.md",
-      "bytes": 11874,
-      "sha256": "dbdb4ce7fa868eea28a809a1c82c70aa6ae442531f39121e7902d4998aff1961"
+      "bytes": 11873,
+      "sha256": "acf76ba53521911ac1f3b652756d7497eb9998d907e4a0f3f096a951aa5554ab"
     },
     {
       "path": "source/id-ID/worksheet-02.md",
-      "bytes": 10886,
-      "sha256": "ffd19cc6644a6bbad9c62a45bb9595f31b28e63b894f1598caa5056e7b27ee68"
+      "bytes": 10910,
+      "sha256": "1553c44cd7cfd394ea3ea03ea84c50acfb914ba01d42b0b2ed40b803ab70b592"
     },
     {
       "path": "source/id-ID/worksheet-03-solutions.md",
-      "bytes": 1905,
-      "sha256": "f65c9af8dd38f42952084fe9621e209bb5ca102c2c1a1befb100199695cf8fec"
+      "bytes": 1889,
+      "sha256": "77015f5792f038b231dacdc9f7a08e81b73f6726a30aa45f04341120b36efdb4"
     },
     {
       "path": "source/id-ID/worksheet-03.md",
-      "bytes": 9196,
-      "sha256": "c8cdfc72e56f48d3b01fe36a169d1323d153a0255dea34df09801616408abcb6"
+      "bytes": 9207,
+      "sha256": "9225b190dc148b7c8e735f3f72b916df0cfc875c42fb47f7cf2a2e139c230e2d"
     },
     {
       "path": "source/id-ID/worksheet-04-solutions.md",
-      "bytes": 6774,
-      "sha256": "5890d6727319a32ed5c734a7786a4fd88b00c6423abf649bf9dec6922c301617"
+      "bytes": 6781,
+      "sha256": "7e31413480e46712722babaac188e513b330845ca86d4e17d5180d4a46ff9053"
     },
     {
       "path": "source/id-ID/worksheet-04.md",
-      "bytes": 12665,
-      "sha256": "5d5af872b912283aae1d138b4dafa1b85d9b08adc6a6cea47212385348005040"
+      "bytes": 12692,
+      "sha256": "2375caa8d98288504f0043d4c1233d8be767ae0a572f39c8cb8db412046e70bd"
     },
     {
       "path": "source/id-ID/worksheet-05-solutions.md",
-      "bytes": 5748,
-      "sha256": "8cb0321a07f36150f1ea53aab4076e45eb135647eee3c590b39f4a16a54d6ce3"
+      "bytes": 5750,
+      "sha256": "4a7de3d81f23c30f0a04aef3a37c1dc46076a3277c609602979a86d68bbad79b"
     },
     {
       "path": "source/id-ID/worksheet-05.md",
-      "bytes": 11564,
-      "sha256": "107c4c660a68539f1778d0aa75abc5e32441e524112f8c0577ab47fcf6002838"
+      "bytes": 11582,
+      "sha256": "1a0af2f3cba336a7d3b1ef30a6725d97e59142b40fbea04c4e2b1acc47b34c2f"
+    },
+    {
+      "path": "source/id-ID/worksheet-06-solutions.md",
+      "bytes": 7954,
+      "sha256": "8f2118a46ef4b3cd25d3bdf1e579e81c2197cdadb000ba04a894816599b5b530"
+    },
+    {
+      "path": "source/id-ID/worksheet-06.md",
+      "bytes": 13278,
+      "sha256": "a064ff157d4829b6926dc7e2e1ad7133c98b0db851ee5064c5358b57836aa855"
+    },
+    {
+      "path": "source/id-ID/worksheet-07-solutions.md",
+      "bytes": 5326,
+      "sha256": "8c6c52e4aa7e6be203be41235c2bb7a97c2689e4226738f78d62175fe770ecbf"
+    },
+    {
+      "path": "source/id-ID/worksheet-07.md",
+      "bytes": 16757,
+      "sha256": "8350ea75756c19a05e09f51074366e4ba85829819690b20a84122c6f9d0e94d3"
+    },
+    {
+      "path": "source/id-ID/worksheet-08-solutions.md",
+      "bytes": 3899,
+      "sha256": "aacfbdc5dd88f92c84b35448d930fc1e7524eff74bf817d08e5e4539b6628563"
+    },
+    {
+      "path": "source/id-ID/worksheet-08.md",
+      "bytes": 11853,
+      "sha256": "96a98b6767af0743b84078ddd75654a3bc9d054a7221c247a4de00091a555817"
+    },
+    {
+      "path": "source/id-ID/worksheet-09-solutions.md",
+      "bytes": 4230,
+      "sha256": "322d7f1d46ce2ac5828ee747ab2b26a9cfcf665eccc7bec6e1af05b85d5d390b"
+    },
+    {
+      "path": "source/id-ID/worksheet-09.md",
+      "bytes": 10408,
+      "sha256": "93c40c95817bf1331ef2ee0052d1fe02a065c5f7032d5853029badde5bf915ab"
+    },
+    {
+      "path": "source/id-ID/worksheet-10-solutions.md",
+      "bytes": 7794,
+      "sha256": "1ccbbc4377c44889f4659a54c6cba8e5314eb32b2443a9d74352aeb631a56a08"
+    },
+    {
+      "path": "source/id-ID/worksheet-10.md",
+      "bytes": 13115,
+      "sha256": "aa3a60bf17308df5d07ae88941eaf3cda9171a17e4ddd9e9c8c84053ee1d0f62"
+    },
+    {
+      "path": "source/id-ID/worksheet-11-solutions.md",
+      "bytes": 2636,
+      "sha256": "9799331d7eb1ed32b3d9c092b54d5e77bad71dab831090065f347a0d50c3b2a2"
+    },
+    {
+      "path": "source/id-ID/worksheet-11.md",
+      "bytes": 12609,
+      "sha256": "92f97d3eb40474184b678ba80c4f804b1d81600380fe14a322a19143905ecb39"
+    },
+    {
+      "path": "source/id-ID/worksheet-12-solutions.md",
+      "bytes": 3244,
+      "sha256": "aea4ad61cfc3bb7412f6690a850377c9418021aa5ff226173b51f9fb9b06d516"
+    },
+    {
+      "path": "source/id-ID/worksheet-12.md",
+      "bytes": 13722,
+      "sha256": "e4228a331ce1471dbef7e8f408ceaab309b8b92f51400a011998944e347fea99"
     }
   ],
   "outputs": [
     {
-      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-05.pdf",
-      "bytes": 4016449,
-      "sha256": "17a5bad9fa92db95593f5c16f1a9aa59c989714848f53b22304b6addc50b9b44"
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-12.pdf",
+      "bytes": 5981024,
+      "sha256": "3213bee4e472c11c480bb2241077ffad4fb62d95ac590f3448a6fbd188c9159d"
     },
     {
       "path": "build/reader-id/index.html",
-      "bytes": 5873642,
-      "sha256": "2eb4e99b329b2f6d834c0f16f570da9eba13a974e073cbbe4627f0460b9b98f5"
+      "bytes": 9396856,
+      "sha256": "29b8bc205bff3776ed231ac64064d8cfa53bbf42b1a674690a60c1b0fee8016d"
     }
   ]
 }

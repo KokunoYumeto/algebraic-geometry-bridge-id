@@ -1,0 +1,1290 @@
+\setcounter{section}{10}
+
+
+
+
+
+
+  \zwischenueberschrift{Noethersche Moduln}
+
+Wir wollen zeigen, dass für einen noetherschen Ring $R$ und einen endlich erzeugten $R$-Modul jeder $R$-Untermodul wieder endlich erzeugt ist. Solche Moduln nennt man noethersch.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und $M$ ein
+$R$-\definitionsverweis {Modul}{}{.}
+Dann heißt $M$ \definitionswort {noethersch}{,} wenn jeder
+$R$-\definitionsverweis {Untermodul}{}{}
+von $M$
+\definitionsverweis {endlich erzeugt}{}{}
+ist.
+
+
+
+
+
+}
+
+Für
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+stimmt dies mit der Definition eines noetherschen Ringes überein, da ja die $R$-Untermoduln von $R$ gerade die Ideale sind.
+
+In den folgenden Aussagen verwenden wir folgende Sprech- bzw. Schreibweise.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und seien
+\mathl{M_1,M_2,M_3}{}
+$R$-\definitionsverweis {Moduln}{}{.}
+Man nennt ein Diagramm der Form
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, M_1   \, \stackrel{  }{ \longrightarrow}   \,  M_2   \, \stackrel{  }{\longrightarrow} \,  M_3  \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+eine \definitionswort {kurze exakte Sequenz}{} von $R$-Moduln, wenn $M_1$ ein $R$-Untermodul von $M_2$ ist, und wenn $M_3$ ein Restklassenmodul von $M_2$ ist, der isomorph zu
+\mathl{M_2/M_1}{} ist.
+
+
+
+
+
+}
+
+Die Exaktheit bedeutet, dass an jeder Stelle die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \operatorname{kern} \varphi_{i+1}
+}
+{ =} {  \operatorname{bild} \varphi_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt, wenn $\varphi_i$ die
+$R$-\definitionsverweis {Modulhomomorphismen}{}{}
+bezeichnet.
+
+
+
+
+
+\inputfaktbeweis
+{Modultheorie (kommutative Algebra)/Noethersche Moduln/Kurze exakte Sequenz/Äquivalentes Kriterium/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $R$ ein kommutativer Ring und
+
+\mathdisp {0 \longrightarrow M_1 \longrightarrow M \longrightarrow M_3 \longrightarrow 0} {  }
+
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von $R$-Moduln.}
+\faktfolgerung {Dann ist $M$ genau dann
+\definitionsverweis {noethersch}{}{,}
+wenn sowohl $M_1$ als auch $M_3$ noethersch sind.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es sei zunächst $M$ noethersch, und
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Untermodul. Dann ist $U$ direkt auch ein Untermodul von $M$, also nach Voraussetzung endlich erzeugt. Es sei nun
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ M_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Untermodul des Restklassenmoduls. Das Urbild von $V$ in $M$ unter der Restklassenabbildung sei $\tilde{V}$. Dieser Modul ist nach Voraussetzung endlich erzeugt, und die Bilder eines solchen Erzeugendensystems erzeugen auch den Bildmodul $V$.
+
+Es seien nun die äußeren Moduln $M_1$ und $M_3$ noethersch, und sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Untermodul. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U_3
+}
+{ \subseteq }{ M_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Bild-Untermodul davon. $U_3$ wird von endlich vielen Elementen
+\mathl{s_1 , \ldots , s_n}{} erzeugt, und wir können annehmen, dass diese
+
+\mavergleichskette
+{\vergleichskette
+{ s_i
+}
+{ = }{ \overline{r}_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Bilder von Elementen
+
+\mavergleichskette
+{\vergleichskette
+{ r_i
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sind. Betrachte
+\mathl{U \cap M_1}{.} Dies ist ein Untermodul von $M_1$, und daher endlich erzeugt, sagen wir von
+\mathl{t_1 , \ldots , t_k}{,} die wir als Elemente in $U$ auffassen. Wir behaupten, dass
+
+\mathdisp {r_1 , \ldots , r_n,t_1 , \ldots , t_k} {  }
+
+ein Erzeugendensystem von $U$ bilden. Es sei dazu
+
+\mavergleichskette
+{\vergleichskette
+{ m
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein beliebiges Element. Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ \overline{m}
+}
+{ = }{ \sum_{i = 1}^n  a_i s_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher geht das Element
+\mathl{m-\sum_{i=1}^n  a_i r_i}{} rechts auf $0$. Dann gehört es aber zum Kern der Restklassenabbildung, also zu $M_1$. Andererseits gehört dieses Element auch zu $U$, also zum Durchschnitt
+\mathl{M_1 \cap U}{,} der ja von den
+\mathl{t_1 , \ldots , t_k}{} erzeugt wird. Also kann man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ m-\sum_{i = 1}^n  a_i r_i
+}
+{ =} { \sum_{j = 1}^k  b_j t_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+bzw.
+
+\mavergleichskette
+{\vergleichskette
+{m
+}
+{ = }{ \sum_{i = 1}^n  a_i r_i+ \sum_{j = 1}^k  b_j t_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+schreiben.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/Noethersche Ringe/Endlich erzeugte Moduln sind noethersch/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {kommutativer Ring}{}{} und $M$ ein
+\definitionsverweis {endlich erzeugter}{}{}
+$R$-\definitionsverweis {Modul}{}{.}}
+\faktfolgerung {Dann ist $M$ ein
+\definitionsverweis {noetherscher Modul}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir beweisen die Aussage durch Induktion über die Anzahl $n$ der Modulerzeuger von $M$. Bei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt der Nullmodul vor. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann gibt es eine surjektive Abbildung
+\maabb {} { R } { M \cong R/ {\mathfrak a}
+} {.}
+Nach
+
+Lemma 10.3
+
+ist aber ein Restklassenmodul eines noetherschen Moduls wieder noethersch, und der Ring selbst ist nach Voraussetzung noethersch, also ist $M$ noethersch.
+
+Es sei nun
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und die Aussage für kleinere $n$ bereits bewiesen. Es sei
+\mathl{m_1 , \ldots ,  m_n}{} ein Erzeugendensystem von $M$. Wir betrachten den durch
+\mathl{m_1 , \ldots , m_{n-1}}{} erzeugten $R$-Untermodul, den wir mit $M_1$ bezeichnen. Dieser Untermodul gibt Anlass zu einer
+\definitionsverweis {kurzen exakten Sequenz}{}{,}
+nämlich
+
+\mathdisp {0 \longrightarrow M_1 \longrightarrow M \longrightarrow M/M_1 =:M_3 \longrightarrow 0} { . }
+
+Hier wird der linke Modul von \mathlk{n-1}{} Elementen erzeugt und ist nach Induktionsvoraussetzung noethersch. Der rechte Modul wird von der Restklasse von $m_n$, also von einem Element erzeugt, ist also auch noethersch. Nach
+
+Lemma 10.3
+
+ist dann $M$ noethersch.
+
+
+
+
+}
+
+
+
+
+
+
+  \zwischenueberschrift{Hilbertscher Nullstellensatz - algebraische Version}
+
+Im Folgenden werden für eine
+$R$-\definitionsverweis {Algebra}{}{}
+$A$ die Begriffe
+\definitionsverweis {endlich}{}{}
+und
+\definitionsverweis {endlich erzeugt}{}{}
+wichtig sein. Ersteres bedeutet, dass $A$, aufgefasst als
+$R$-\definitionsverweis {Modul}{}{,}
+endlich erzeugt ist, das zweite, dass $A$ als Algebra endlich erzeugt ist. Der Polynomring
+\mathl{R[X_1 , \ldots , X_n]}{} ist im letzteren Sinne endlich erzeugt, und zwar bilden die Variablen ein endliches Algebra-Erzeugendensystem. Der Polynomring ist aber nicht als Modul endlich erzeugt, das einfachste Modul-Erzeugendensystem ist durch alle Monome gegeben.
+
+Wir wollen die algebraische Version des Hilbertschen Nullstellensatzes beweisen. Dazu benötigen wir die beiden folgenden Lemmata.
+
+
+
+
+
+\inputfaktbeweis
+{Endlich erzeugte kommutative Algebren/R noethersch/A über R endlich erzeugt/A endlich über B/B ist endlich erzeugt/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {kommutativer Ring}{}{}
+und $A$ eine
+\definitionsverweis {endlich erzeugte}{}{}
+$R$-Algebra. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ B
+}
+{ \subseteq }{ A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine $R$-Unteralgebra, über der $A$
+\definitionsverweis {endlich}{}{}
+\zusatzklammer {als $B$-Modul} {} {}
+sei.}
+\faktfolgerung {Dann ist auch $B$ eine endlich erzeugte $R$-Algebra.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir schreiben
+
+\mavergleichskette
+{\vergleichskette
+{A
+}
+{ = }{ R[x_1 , \ldots ,  x_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ A
+}
+{ = }{ Ba_1 + \cdots +  Ba_m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ a_i
+}
+{ \in }{ A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir setzen
+\mathkor {} {x_i = \sum_{j=1}^m b_{ij} a_j} {und} {a_ia_j= \sum_{k=1}^m b_{ijk} a_k} {}
+mit Koeffizienten
+
+\mavergleichskette
+{\vergleichskette
+{ b_{ij}, b_{ijk}
+}
+{ \in }{ B
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir betrachten die von diesen Koeffizienten erzeugte $R$-Unteralgebra $S$ von $B$ und den
+$S$-\definitionsverweis {Untermodul}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{A}
+}
+{ = }{ Sa_1 + \cdots + Sa_m
+}
+{ \subseteq }{ A
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Produkte
+\mathl{a_i a_j}{} gehören wieder zu diesem Modul, daher ist $\tilde{A}$ sogar eine $S$-Algebra. Weil die $x_i$ ebenfalls zu $\tilde{A}$ gehören, gilt sogar
+
+\mavergleichskette
+{\vergleichskette
+{A
+}
+{ = }{ \tilde{A}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dies bedeutet, dass $A$ ein endlicher $S$-Modul ist. Nach
+
+Korollar 9.9
+
+ist $S$ ein noetherscher Ring und nach
+
+Satz 10.4
+
+ist der $S$-Untermodul
+
+\mavergleichskette
+{\vergleichskette
+{B
+}
+{ \subseteq }{ A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ebenfalls endlicher $S$-Modul. Die Kette
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ \subseteq }{ S
+}
+{ \subseteq }{ B
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zeigt schließlich, dass $B$ eine endlich erzeugte $R$-Algebra ist.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Endlich erzeugte kommutative Algebren/Rationaler Funktionenkörper ist nicht endlich erzeugt/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ R
+}
+{ = }{ K(X)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der zugehörige
+\definitionsverweis {rationale Funktionenkörper}{}{.}}
+\faktfolgerung {Dann ist $R$ keine endlich erzeugte $K$-Algebra.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es sei angenommen, dass die rationalen Funktionen
+
+\mathbed {F_i= \frac{P_i }{Q_i }} {}
+ {i=1, \ldots , n} {}
+ {} {} {} {,}
+ein endliches Erzeugendensystem von
+\mathl{K(X)}{} bilden, mit
+
+\mathbed {P_i,Q_i \in K[X]} {}
+ {Q_i \neq 0} {}
+ {} {} {} {.}
+Durch Übergang zu einem Hauptnenner kann man annehmen, dass die Nenner
+
+\mavergleichskette
+{\vergleichskette
+{Q_i
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gleich sind. Die Annahme bedeutet also insbesondere, dass der Körper der rationalen Funktionen sich durch Nenneraufnahme an nur einem Element ergeben würde. Da $Q$ keine Konstante ist
+\zusatzklammer {sonst wäre
+
+\mavergleichskettek
+{\vergleichskettek
+{ K[X]
+}
+{ = }{ K(X)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+was nicht der Fall ist} {} {,}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{Q-1
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ \frac{1}{Q-1}
+}
+{ \in }{ K(X)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Also gibt es eine Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \frac{1}{Q-1}
+}
+{ =} { \frac{P}{Q^s}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einem geeigneten $s$. Daraus folgt
+
+\mavergleichskette
+{\vergleichskette
+{Q^s
+}
+{ = }{ (Q-1)P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Da
+\mathkor {} {Q^s} {und} {Q-1} {}
+das
+\definitionsverweis {Einheitsideal}{}{}
+in
+\mathl{K[X]}{} erzeugen, folgt daraus, dass bereits
+\mathl{Q-1}{} das Einheitsideal erzeugt, also selbst eine Einheit ist. Dann wäre $Q$ aber doch eine Konstante, was es nicht ist.
+
+
+
+
+}
+
+
+
+Die folgende Aussage ist die algebraische Version des Hilbertschen Nullstellensatzes.
+
+
+
+\inputfaktbeweis
+{Hilbertscher Nullstellensatz (algebraisch)/Endlich erzeugte Körpererweiterung ist endlich/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{K
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Körpererweiterung}{}{,}
+die
+\zusatzklammer {als $K$-Algebra} {} {}
+\definitionsverweis {endlich erzeugt}{}{}
+sei.}
+\faktfolgerung {Dann ist $L$
+\definitionsverweis {endlich}{}{}
+über $K$.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{ L
+}
+{ = }{ K[x_1 , \ldots ,  x_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei $K_i$ der
+\definitionsverweis {Quotientenkörper}{}{}
+von
+\mathl{K[x_1 , \ldots , x_i]}{}
+\zusatzklammer {innerhalb von $L$} {} {.}
+Wir haben also eine Körperkette
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { K_0
+}
+{ \subseteq} { K_1
+}
+{ \subseteq} { \ldots
+}
+{ \subseteq} { K_n
+}
+}
+{
+\vergleichskettefortsetzung
+{ =} { L
+}
+{ } {}
+{ } {}
+{ } {}
+}{}{.}
+Wir wollen zeigen, dass $L$ endlich über $K$ ist, und dazu genügt es
+nach
+Satz 2.8 (Körper- und Galoistheorie (Osnabrück 2018-2019))
+
+zu zeigen, dass jeder Schritt in der Körperkette endlich ist. Es sei angenommen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ K_i
+}
+{ \subseteq }{ K_{i+1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nicht endlich ist, aber alle folgenden Schritte endlich sind. Wir wenden
+
+Lemma 10.5
+
+auf
+
+\mavergleichskettedisp
+{\vergleichskette
+{K
+}
+{ \subseteq} { K_{i+1}
+}
+{ \subset} { L
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+an und erhalten, dass
+\mathl{K_{i+1}}{}
+\definitionsverweis {endlich erzeugt}{}{}
+über $K$ ist. Dann ist insbesondere
+\mathl{K_{i+1}}{} auch endlich erzeugt über $K_i$. Andererseits ist
+\mathl{K_{i+1}}{} der Quotientenkörper von
+\mathl{K_i[x_{i+1}]}{.} Wir haben also eine Kette
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K_i
+}
+{ \subseteq} { K_i[x_{i+1}]
+}
+{ \subseteq} { Q( K_i[x_{i+1}])
+}
+{ =} { K_{i+1}
+}
+{ } {
+}
+}
+{}{}{,}
+wo
+\mathl{K_{i+1}}{} endlich erzeugt über $K_i$ ist, aber nicht endlich. Wäre
+\mathl{x_{i+1}}{}
+\definitionsverweis {algebraisch}{}{}
+über $K_i$, so auch endlich, und dann wäre
+\mathl{K_i[x_{i+1}]}{} bereits ein Körper
+nach
+Aufgabe 10.1
+.
+Dann wäre die letzte Kette insgesamt endlich, im Widerspruch zur Wahl von $i$. Also ist
+\mathl{x_{i+1}}{}
+\definitionsverweis {transzendent}{}{}
+über $K_i$. Dann ist aber
+\mathl{K_i[x_{i+1}]}{} isomorph zu einem
+\definitionsverweis {Polynomring in einer Variablen}{}{}
+und
+\mathl{Q( K_i[x_{i+1}])}{} ist isomorph zum
+\definitionsverweis {rationalen Funktionenkörper}{}{}
+über $K_i$. Dieser ist aber nach
+
+Lemma 10.6
+
+nicht endlich erzeugt, sodass sich erneut ein Widerspruch ergibt.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Algebren von endlichem Typ über Körper/Homomorphismen/Urbild von maximalem Ideal ist maximal/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und seien $A$ und $B$ zwei $K$-Algebren von
+\definitionsverweis {endlichem Typ}{}{.}
+Es sei
+\maabb {\varphi} { A } { B
+} {}
+ein
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{.}}
+\faktfolgerung {Dann ist für jedes
+\definitionsverweis {maximale Ideal}{}{}
+${\mathfrak m}$ aus $B$ auch das Urbild
+\mathl{\varphi ^{-1} ({\mathfrak m})}{} ein maximales Ideal.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es sei ${\mathfrak m}$ ein maximales Ideal aus $B$. Wir wissen nach
+
+Aufgabe 4.19
+,
+dass unter jedem
+\definitionsverweis {Ringhomomorphismus}{}{}
+das Urbild eines
+\definitionsverweis {Primideals}{}{}
+wieder prim ist, also ist
+\mathl{\varphi^{-1}( {\mathfrak m} )}{} zunächst ein Primideal, das wir ${\mathfrak p}$ nennen. Wir erhalten induzierte Ringhomomorphismen
+
+\mathdisp {K \longrightarrow A/ {\mathfrak p} \longrightarrow B/ {\mathfrak m} = L} { , }
+
+wobei $L$ ein Körper ist und wobei beide Homomorphismen injektiv und von endlichem Typ sind. Da die Gesamtabbildung von endlichem Typ ist und $K$ und $L$ Körper sind, folgt aus
+
+Satz 10.7
+,
+dass diese Abbildung
+\definitionsverweis {endlich}{}{}
+ist. Wir wollen zeigen, dass der Zwischenring
+\mathl{A/ {\mathfrak p}}{} ein
+\definitionsverweis {Körper}{}{}
+ist. Dies folgt aber aus
+
+Aufgabe 10.2
+.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Algebren von endlichem Typ über Körper/Radikal ist Durchschnitt von maximalen Idealen/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und sei $A$ eine $K$-Algebra von
+\definitionsverweis {endlichem Typ}{}{.}}
+\faktfolgerung {Dann ist jedes
+\definitionsverweis {Radikal}{}{} in $A$ der Durchschnitt von
+\definitionsverweis {maximalen Idealen}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Nach
+Aufgabe 10.17
+
+ist jedes Radikal der Durchschnitt von Primidealen. Es genügt also zu zeigen, dass jedes Primideal in einer endlich erzeugten Algebra der Durchschnitt von maximalen Idealen ist. Es sei ${\mathfrak p}$ ein Primideal und
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \notin }{ {\mathfrak p}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist ${\mathfrak p}$ ein Primideal in der Nenneraufnahme
+
+\mavergleichskette
+{\vergleichskette
+{ B
+}
+{ \defeq }{ A_f
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es gibt ein
+\zusatzklammer {in $A_f$} {} {}
+maximales Ideal
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak m}
+}
+{ \subset }{ A_f
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oberhalb von
+\mathl{{\mathfrak p} A_f}{.} Wir fassen $A_f$ als endlich erzeugte $K$-Algebra auf und betrachten
+\maabbdisp {\varphi} { A } { A_f
+} {.}
+Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak p}
+}
+{ \subseteq }{ \varphi^{-1} ({\mathfrak m})
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \notin }{ \varphi^{-1} ({\mathfrak m})
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+
+Satz 10.8
+
+ist
+\mathl{\varphi^{-1} ({\mathfrak m})}{} maximal.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Algebren von endlichem Typ über Körper/Algebraisch abgeschlossen/Maximale Ideale sind Punktideal/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei $A$ eine
+\definitionsverweis {endlich erzeugte}{}{}
+$K$-\definitionsverweis {Algebra}{}{.}}
+\faktfolgerung {Dann ist jeder
+\definitionsverweis {Restklassenkörper}{}{}
+von $A$
+\definitionsverweis {isomorph}{}{}
+zu $K$.}
+\faktzusatz {Anders formuliert: Jedes
+\definitionsverweis {maximale Ideal}{}{}
+in $A$ ist ein
+\definitionsverweis {Punktideal}{}{.}}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es sei ${\mathfrak m}$ ein maximales Ideal der endlich erzeugten $K$-Algebra $A$ und betrachte
+
+\mathdisp {K \longrightarrow A \longrightarrow A/{\mathfrak m} \defeqr  L} { . }
+
+Hier ist $L$ ein Körper und zugleich eine endlich erzeugte $K$-Algebra. Nach
+
+Satz 10.7
+
+muss also $L$ eine endliche $K$-Algebra sein. Da $K$ algebraisch abgeschlossen ist, muss
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ = }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sein.
+
+
+
+
+}

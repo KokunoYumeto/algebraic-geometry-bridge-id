@@ -1,0 +1,73 @@
+{
+  "schema": "ag-bridge-figshare-publication-receipt-v1",
+  "status": "PASS",
+  "action": "created_in_this_transaction_then_verified_after_collection_republish",
+  "article": {
+    "id": 33314856,
+    "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+    "doi": "10.6084/m9.figshare.33314856.v1",
+    "url": "https://figshare.com/articles/book/Kurva_Aljabar_Edisi_Bahasa_Indonesia/33314856",
+    "version": 1,
+    "defined_type": "book",
+    "authors": [
+      "Holger Brenner"
+    ],
+    "license": {
+      "value": 2,
+      "name": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "files": [],
+    "metadata_only": true
+  },
+  "reader_boundary": {
+    "through_unit": 6,
+    "planned_units": 30,
+    "full_edition_complete": false,
+    "zenodo_concept_doi": "10.5281/zenodo.22059686",
+    "zenodo_version_doi": "10.5281/zenodo.22060388"
+  },
+  "license_gate": {
+    "exact_cc_by_sa_or_mixed_license_available": false,
+    "available_license_names": [
+      "CC BY 4.0",
+      "CC0",
+      "MIT",
+      "GPL",
+      "GPL 2.0+",
+      "GPL 3.0+",
+      "Apache 2.0"
+    ],
+    "edition_bytes_uploaded": false,
+    "reason": "The platform license list cannot truthfully represent CC BY-SA 4.0 text plus per-component media rights; CC0 is explicitly limited to this metadata record."
+  },
+  "project": {
+    "id": 280296,
+    "url": "https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296",
+    "file_bytes_before": 207264406,
+    "file_bytes_after": 207264406,
+    "cap_bytes": 20000000000,
+    "duplicate_matches_after": 1
+  },
+  "collection": {
+    "id": 8668413,
+    "requested_doi": "10.6084/m9.figshare.c.8668413.v1",
+    "current_public_doi": "10.6084/m9.figshare.c.8668413.v31",
+    "current_public_version": 31,
+    "version_snapshot_url": "https://api.figshare.com/v2/collections/8668413/versions/31",
+    "article_membership_verified": true,
+    "new_version_published": true
+  },
+  "anonymous_public_readback": {
+    "verified_at": "2026-08-22T19:27:10Z",
+    "credential_used": false,
+    "article": true,
+    "project_membership": true,
+    "collection_membership": true,
+    "public_file_count": 0
+  },
+  "credential_handling": {
+    "credential_value_logged_or_persisted": false,
+    "anonymous_readback_used_no_credential": true
+  }
+}

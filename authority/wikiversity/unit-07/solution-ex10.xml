@@ -1,0 +1,104 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ebene algebraische Kurven/Linear äquivalent/Einheitskreis und 4x^2+3y^2 ist 9/Q und R/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>53310</id>
+    <revision>
+      <id>1113188</id>
+      <parentid>1113186</parentid>
+      <timestamp>2026-08-22T12:16:11Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1113188</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2170" sha1="n4wgmtyet55y7h9gi6m1q99qn2ruqte" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist {{mathl|term= 4X^2 + 3Y^2 = 9 |SZ=}}  äquivalent zu {{mathl|term=  \left(\frac{2}{3}X\right)^2 + \left(\frac{1}{\sqrt{3} } Y\right)^2 = 1 = \tilde X^2 + \tilde Y^2 |SZ=.}} Über {{math|term= \R |SZ=}} ist also {{mathl|term= \tilde X = \frac{2}{3} X |SZ=, }} {{mathl|term= \tilde Y = \frac{1}{\sqrt{3} } Y |SZ=}} eine affin-lineare Transformation.
+
+Für den Fall {{math|term= \Q|SZ=}}  setzen wir {{mathl|term=  \tilde X = aX + bY + c |SZ=}} und {{mathl|term=  \tilde Y = dX + eY + f |SZ=}}  mit Koeffizienten {{mathl|term= a,b,c,d,e,f \in \Q|SZ=}} an. Es ergibt sich 
+{{
+Relationskette/align
+|\tilde X^2 + \tilde Y^2
+|{{=}} |(aX + bY + c)^2 + (dX + eY + f)^2
+|{{=}} |  {{makl| a^2+d^2 |}} X^2 + {{makl| b^2+e^2 |}} Y^2 + 2(ab+de)XY + H(X,Y)
+||
+||
+|SZ=
+}}
+mit {{mathl|term= H \in \Q[X,Y] |SZ=}} mit {{mathl|term= \operatorname{grad} H \le 1 |SZ=.}} Es muss also die Gleichheit {{mathl|term= b^2 + e^2 = \frac{1}{3} \Longleftrightarrow 3(b^2+e^2) = 1 |SZ=}} gelten. Durch Multiplizieren mit dem Hauptnenner können wir die Gleichung auf die Form 
+{{
+Relationskette/display
+|  3 {{makl| r^2 + s^2 |}}  
+|| t^2
+|| 
+|| 
+|| 
+|SZ=
+}}
+
+bringen, wobei
+{{
+Relationskette
+| r,s,t
+| \in | \Z
+||
+||
+||
+|SZ=.
+}}
+Wir wollen zeigen, dass diese Gleichung keine ganzzahlige nichttriviale Lösung besitzt. Da die linke Seite der Gleichung ein Vielfaches von {{math|term= 3 |SZ=}}  ist, folgt {{mathl|term= 3  {{teilt}}  t |SZ=}}, also {{mathl|term= 9   {{teilt}}  t^2 |SZ=,}} woraus {{mathl|term= 3  {{teilt}}   (r^2 + s^2) |SZ=}}  folgt. In {{math|term= \Z/(3) |SZ=}} ist {{mathl|term= r^2+s^2 = 0 |SZ=}} genau dann, wenn {{mathl|term= r=0 |SZ=}} und {{mathl|term= s=0 |SZ=.}} Daraus folgt {{mathl|term= 9  {{teilt}}  {{makl| r^2 + s^2 |}}  |SZ=}} und wir können beide Seiten der Gleichung durch {{math|term= 9 |SZ=}} teilen. Wir setzen nun {{mathl|term= r' = \frac{r}{3} |SZ=,}} {{mathl|term= s' = \frac{s}{3} |SZ=}} und {{mathl|term= t' = \frac{t}{3} |SZ=.}} Absteigende Induktion führt zum Ziel.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>n4wgmtyet55y7h9gi6m1q99qn2ruqte</sha1>
+    </revision>
+  </page>
+</mediawiki>

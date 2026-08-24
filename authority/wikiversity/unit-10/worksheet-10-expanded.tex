@@ -1,0 +1,1356 @@
+\setcounter{section}{10}
+
+
+
+
+
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und sei $A$ eine kommutative
+$K$-\definitionsverweis {Algebra}{}{,}
+die als
+$K$-\definitionsverweis {Modul}{}{}
+\definitionsverweis {endlich}{}{}
+sei. Zeige, dass ein Element
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann eine
+\definitionsverweis {Einheit}{}{}
+ist, wenn es ein
+\definitionsverweis {Nichtnullteiler}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien $K$ und $L$ Körper, es sei
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {endliche Körpererweiterung}{}{}
+und sei $A$,
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ \subseteq }{ A
+}
+{ \subseteq }{ L
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+ein Zwischenring. Zeige, dass dann $A$ ebenfalls ein Körper ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ R
+}
+{ \subseteq }{ S
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {endliche Ringerweiterung}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige: Wenn $f$, aufgefasst in $S$, eine
+\definitionsverweis {Einheit}{}{}
+ist, dann ist $f$ eine Einheit in $R$.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{} und $M$ ein
+$R$-\definitionsverweis {Modul}{}{.} Dann ist $M$ genau dann
+\definitionsverweis {noethersch}{}{,}
+wenn jede aufsteigende Kette
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M_0
+}
+{ \subseteq} { M_1
+}
+{ \subseteq} { M_2
+}
+{ \subseteq} { \ldots
+}
+{ } {
+}
+}
+{}{}{}
+von
+$R$-\definitionsverweis {Untermoduln}{}{}
+\definitionsverweis {stationär}{}{}
+wird.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Nichtnullteiler}{}{}
+in einem
+\definitionsverweis {kommutativen Ring}{}{}
+$R$. Zeige, dass dies zu einer
+\definitionsverweis {kurzen exakten Sequenz}{}{}
+
+\mathdisp {0\stackrel{}{\longrightarrow}R
+\stackrel{\cdot f}{\longrightarrow}R
+
+ \mathdisplaybruch\stackrel{}{\longrightarrow}R/(f)
+\stackrel{}{\longrightarrow}0} {  }
+
+von
+$R$-\definitionsverweis {Moduln}{}{}
+führt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und seien
+
+\mavergleichskette
+{\vergleichskette
+{ I,J
+}
+{ \subseteq }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {Ideale}{}{.}
+Zeige, dass die Sequenz
+
+\mathdisp {0\stackrel{}{\longrightarrow}R/ I \cap J
+\stackrel{}{\longrightarrow}R/I \times R/J
+
+ \mathdisplaybruch\stackrel{}{\longrightarrow}R/I+J
+\stackrel{}{\longrightarrow}0} {  }
+
+mit
+\mathl{r \mapsto (r,r)}{} und
+\mathl{(s,t) \mapsto s-t}{}
+\definitionsverweis {exakt}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei $N$ ein
+$R$-\definitionsverweis {Modul}{}{}
+mit
+$R$-\definitionsverweis {Untermoduln}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ L
+}
+{ \subseteq }{ M
+}
+{ \subseteq }{ N
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass die
+\definitionsverweis {Restklassenmoduln}{}{}
+durch die
+\definitionsverweis {kurze exakte Sequenz}{}{}
+
+\mathdisp {0\stackrel{}{\longrightarrow}M/L
+\stackrel{}{\longrightarrow}N/L
+
+ \mathdisplaybruch\stackrel{}{\longrightarrow}N/M
+\stackrel{}{\longrightarrow}0} {  }
+
+miteinander in Beziehung stehen.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei
+\maabb {\varphi} { M } { N
+} {}
+ein
+$R$-\definitionsverweis {Modulhomomorphismus}{}{}
+zwischen den
+$R$-\definitionsverweis {Moduln}{}{}
+\mathkor {} {M} {und} {N} {.}
+Zeige, dass dies zu einer
+\definitionsverweis {kurzen exakten Sequenz}{}{}
+
+\mathdisp {0 \longrightarrow \operatorname{kern} \varphi  \longrightarrow M  \longrightarrow \operatorname{bild} \varphi \longrightarrow  0} {  }
+
+führt.
+
+
+
+
+
+}
+{} {}
+
+
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{} und $M$ ein
+$R$-\definitionsverweis {Modul}{}{.} Der $R$-Modul
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {  M   }^{ * }
+}
+{ =} { \operatorname{Hom}_{  R } \left(   M  ,  R   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+heißt der
+\definitionswort {duale Modul}{}
+zu $M$.
+
+
+
+
+
+
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{} und sei
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  L   \, \stackrel{  }{ \longrightarrow}   \,  M   \, \stackrel{  }{\longrightarrow} \,  N \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von
+$R$-\definitionsverweis {Moduln}{}{}
+
+\mathl{L,M,N}{.} Zeige, dass dies zu einer exakten Sequenz
+
+\mathdisp {0 \longrightarrow {  N   }^{ * } \longrightarrow {  M   }^{ * }  \longrightarrow {  L   }^{ * }} {  }
+
+der
+\definitionsverweis {dualen Moduln}{}{}
+führt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und sei
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  L   \, \stackrel{  }{ \longrightarrow}   \,  M   \, \stackrel{  }{\longrightarrow} \,  N \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von
+$K$-\definitionsverweis {Vektorräumen}{}{}
+
+\mathl{L,M,N}{.} Zeige, dass dies zu einer kurzen exakten Sequenz
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  {  N   }^{ * }   \, \stackrel{  }{ \longrightarrow}   \,  {  M   }^{ * }   \, \stackrel{  }{\longrightarrow} \,  {  L   }^{ * }  \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+der
+\definitionsverweis {Dualräume}{}{}
+führt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine ganze Zahl. Wir betrachten die
+\definitionsverweis {kurze exakte Sequenz}{}{}
+
+\mathdisp {0 \longrightarrow \Z \stackrel{\cdot a}{ \longrightarrow} \Z \longrightarrow \Z/( a )  \longrightarrow 0} {  }
+
+von
+$\Z$-\definitionsverweis {Moduln}{}{.}
+Zeige, dass man die nach
+
+Aufgabe 10.9
+
+exakte Sequenz
+
+\mathdisp {0 \longrightarrow {  ( \Z/( a ) )  }^{ * } \longrightarrow { \Z  }^{ * }  \longrightarrow { \Z  }^{ * }} {  }
+
+bei
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ \geq }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nicht nach rechts durch
+\mathl{\rightarrow 0}{} exakt fortsetzen kann.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei
+
+\mathdisp {0\stackrel{}{\longrightarrow} L \stackrel{}{\longrightarrow} M
+ \mathdisplaybruch\stackrel{}{\longrightarrow} N \stackrel{}{\longrightarrow}0} {  }
+
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von
+$R$-\definitionsverweis {Moduln}{}{.}
+Es gebe ein
+$R$-\definitionsverweis {Modul-Erzeugen\-densystem}{}{}
+von $L$ mit $k$ Elementen und ein $R$-Modul-Erzeugendensystem von $N$ mit $n$ Elementen. Zeige, dass es ein $R$-Modul-Erzeugendensystem von $M$ mit $k+n$ Elementen gibt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{,}
+$A$ eine kommutative
+\definitionsverweis {endliche}{}{}
+$R$-\definitionsverweis {Algebra}{}{}
+und $M$ ein
+\definitionsverweis {endlicher}{}{}
+$A$-\definitionsverweis {Modul}{}{.}
+Zeige, dass $M$ auch ein endlicher $R$-Modul ist.
+
+
+
+
+
+}
+{} {}
+
+Die folgenden Aufgaben verwenden den Begriff des artinschen Moduls, der \anfuehrung{dual}{} zum Begriff des noetherschen Moduls ist.
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{.}
+Ein
+$R$-\definitionsverweis {Modul}{}{}
+$M$ heißt \definitionswort {artinsch}{,} wenn jede
+absteigende Kette
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M_1
+}
+{ \supseteq} { M_2
+}
+{ \supseteq} { M_3
+}
+{ \supseteq} { \ldots
+}
+{ } {
+}
+}
+{}{}{}
+von
+$R$-\definitionsverweis {Untermoduln}{}{}
+\definitionsverweis {stationär}{}{}
+wird.
+
+
+
+
+
+
+Ein kommutativer Ring $R$ heißt
+\definitionswortenp{artinsch}{,} wenn er als $R$-Modul artinsch ist.
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $A$ ein
+\definitionsverweis {artinscher}{}{}
+Integritätsbereich. Man zeige, dass $A$ ein Körper ist. Man gebe ein Beispiel eines artinschen kommutativen Ringes, der kein Körper ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein kommutativer Ring und $M$ ein
+$R$-\definitionsverweis {Modul}{}{.}
+Zeige: Wenn $M$
+\definitionsverweis {artinsch}{}{}
+und
+\maabb {\phi} { M } { M
+} {}
+$R$-linear und injektiv ist, so ist $\phi$ ein Isomorphismus. Formuliere und beweise auch eine analoge Aussage für den Fall, dass $M$ noethersch ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei nicht
+\definitionsverweis {nilpotent}{}{.}
+Zeige, dass es ein
+\definitionsverweis {Primideal}{}{}
+${\mathfrak p}$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \notin }{ {\mathfrak p}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Es sei $\mathfrak a$ ein \definitionsverweis {Radikal}{}{}
+in einem kommutativen Ring.
+Zeige, dass $\mathfrak a$ der Durchschnitt von
+\definitionsverweis {Primidealen}{}{}
+ist.
+
+
+
+
+
+}
+{} {Eine Möglichkeit ergibt sich aus der vorstehenden Aufgabe, eine andere aus
+
+Aufgabe 13.5
+
+weiter unten.}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ K[X]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein nichtkonstantes
+\definitionsverweis {Polynom}{}{.}
+Zeige, dass $P$ nicht
+\definitionsverweis {algebraisch}{}{}
+über $K$ ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und
+
+\mavergleichskette
+{\vergleichskette
+{ L
+}
+{ = }{ K(X)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der
+\definitionsverweis {Quotientenkörper}{}{}
+des
+\definitionsverweis {Polynomrings}{}{}
+$K[X]$. Es sei
+
+\mathbed {M} {}
+ {K \subseteq M \subseteq L} {}
+ {M \neq K} {} {} {,}
+ein Zwischenkörper. Zeige, dass
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {endliche Körpererweiterung}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Es sei $A$ eine
+\definitionsverweis {endlich erzeugte}{}{}
+$\Z$-\definitionsverweis {Algebra}{}{}
+und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak m}
+}
+{ \subseteq }{ A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {maximales Ideal}{}{.}
+Zeige, dass der
+\definitionsverweis {Restklassenring}{}{}
+
+\mathl{A/ {\mathfrak m}}{} ein
+\definitionsverweis {endlicher Körper}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und sei $A$ eine kommutative
+$K$-\definitionsverweis {Algebra}{}{.}
+Man nennt Elemente
+\mathl{f_1 , \ldots , f_n \in A}{}
+\definitionswort {algebraisch abhängig}{,}
+wenn es ein von $0$ verschiedenes Polynom
+\mathl{P \in K[X_1 , \ldots , X_n]}{} mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{P(f_1 , \ldots , f_n)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt.
+
+
+
+
+
+
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\mathl{K[X_1 , \ldots , X_n]}{} der
+\definitionsverweis {Polynomring}{}{}
+über einem
+\definitionsverweis {Körper}{}{}
+$K$. Zeige, dass die Variablen
+\mathl{X_1 , \ldots , X_n}{}
+\definitionsverweis {algebraisch unabhängig}{}{}
+sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\mathl{K[X_1 , \ldots , X_n]}{} der
+\definitionsverweis {Polynomring}{}{}
+über einem
+\definitionsverweis {Körper}{}{}
+$K$ und seien
+\mathl{n+1}{} Polynome
+
+\mavergleichskette
+{\vergleichskette
+{ f_1 , \ldots , f_{n+1}
+}
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Zeige, dass diese
+\definitionsverweis {algebraisch abhängig}{}{}
+sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabbdisp {\varphi} { { {\mathbb A}_{  K }^{  m   } } } { { {\mathbb A}_{  K }^{  n   } }
+} {}
+eine
+\definitionsverweis {polynomiale Abbildung}{}{}
+zwischen
+\definitionsverweis {affinen Räumen}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{m
+}
+{ < }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass $\varphi$ nicht
+\definitionsverweis {surjektiv}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $A$ eine kommutative
+$K$-\definitionsverweis {Algebra}{}{}
+über einem
+\definitionsverweis {Körper}{}{}
+$K$ und seien $n$ Elemente
+
+\mavergleichskette
+{\vergleichskette
+{ f_1 , \ldots ,  f_{n}
+}
+{ \in }{ A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Zeige, dass diese Elemente genau dann
+\definitionsverweis {algebraisch unabhängig}{}{}
+sind, wenn die von diesen Elementen
+\definitionsverweis {erzeugte}{}{}
+$K$-Algebra
+\mathl{K[f_1 , \ldots , f_n ]}{}
+\definitionsverweis {isomorph}{}{}
+zum
+\definitionsverweis {Polynomring}{}{}
+
+\mathl{K[X_1 , \ldots , X_n]}{} ist.
+
+
+
+
+
+}
+{} {}
+
+
+
+
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{3}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ K[X,Y]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein nichtkonstantes Polynom. Zeige, dass der
+\definitionsverweis {Restklassenring}{}{}
+
+\mathdisp {K[X,Y]/(F)} {  }
+
+als eine
+\definitionsverweis {endliche}{}{}
+$K[T]$-Algebra aufgefasst werden kann.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+
+
+
+
+Es seien
+\mathl{R,S,T}{}
+\definitionsverweis {kommutative Ringe}{}{}
+und seien
+\mathl{\varphi:R \rightarrow S}{} und
+\mathl{\psi:S \rightarrow T}{} Ringhomomorphismen derart, dass $S$
+\definitionsverweis {endlich}{}{}
+über $R$ und $T$ endlich über $S$ ist. Zeige, dass dann auch $T$ endlich über $R$ ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{5}
+{
+
+
+
+
+
+Es sei $A$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei
+
+\mathdisp {0 \longrightarrow M \longrightarrow N \longrightarrow P \longrightarrow 0} {  }
+
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von $A$-Moduln. Man zeige, dass $N$ genau dann
+\definitionsverweis {artinsch}{}{}
+ist, wenn $M$ und $P$ artinsch sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{4 (1+3)}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und $M_i$,
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+seien $R$-Moduln mit fixierten
+$R$-\definitionsverweis {Modulhomomorphismen}{}{}
+\maabbdisp {\varphi_i} { M_i } { M_{i+1}
+} {.}
+Die Sequenz
+
+\mathdisp {\ldots \longrightarrow M_i \longrightarrow M_{i+1} \longrightarrow M_{i+2} \longrightarrow M_{i+3} \longrightarrow \ldots} {  }
+
+heißt
+\definitionswortenp{exakt}{,} wenn für alle $i$ gilt, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{Kern} \,(\varphi_{i})
+}
+{ = }{ \operatorname{Bild} \, (\varphi_{i-1})
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+\aufzaehlungzwei {Zeige, dass diese Definition im Falle einer kurzen exakten Sequenz mit der
+
+Definition 10.2
+ in der Vorlesung
+übereinstimmt.
+} {Es sei nun
+
+\mavergleichskette
+{\vergleichskette
+{ R
+}
+{ = }{ K
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Körper, die $M_i$ seien  endlich erzeugt,
+
+\mavergleichskette
+{\vergleichskette
+{ M_0
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und alle
+
+\mavergleichskette
+{\vergleichskette
+{ M_i
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \geq }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für ein gewisses $n$. Zeige, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{i = 0}^{n} (-1)^i \operatorname{dim}_K M_i
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{} und $A$ eine
+\definitionsverweis {endliche}{}{}
+$K$-Algebra. Zeige: Dann ist $A$
+\definitionsverweis {artinsch}{}{.}
+
+
+
+
+
+}
+{} {}

@@ -1,0 +1,234 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 12</title>
+    <ns>106</ns>
+    <id>165901</id>
+    <revision>
+      <id>1112280</id>
+      <parentid>1059462</parentid>
+      <timestamp>2026-08-21T08:02:32Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112280</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5104" sha1="ddamuf40qamippx6ny9wmwvhdqi4n36" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|12|
+
+{{Motto|
+|Text=Zum Sehen geboren, Zum Schauen bestellt,
+|Autor=Johann Wolfgang von Goethe 
+}}
+
+{{Zwischenüberschrift|Das {{math|term= K|SZ=-}}Spektrum}}
+
+{{
+inputbild
+|Alexander Grothendieck|jpg| 200px {{!}}thumb {{!}}  |
+|Zusname=Alexander_Grothendieck
+|Text=[[w:Alexander Grothendieck|Alexander Grothendieck (1928-2014)]] 
+|Autor=Konrad Jacobs
+|Benutzer=
+|Domäne=
+|Lizenz=CC-BY-SA 2.0
+|Bemerkung=Quelle=Oberwolfach Photo Collection (http://owpdb.mfo.de/detail?photoID=1452)
+}}
+
+Wie hängen affin-algebraische Mengen und deren Koordinatenringe zusammen? Hier kann man nur für nicht-endliche Grundkörper gehaltvolle Antworten erwarten, da es im endlichen Fall zu wenige Punkte gibt. Eine befriedigende Theorie erfordert sogar, dass man sich auf algebraisch abgeschlossene Körper beschränkt, oder aber
+{{
+Zusatz/Gs
+|text=das ist der Standpunkt der von Alexander Grothendieck entwickelten Schematheorie|
+|ISZ=|ESZ=
+}}
+nicht nur {{math|term= K |SZ=-}}Punkte betrachtet, sondern generell maximale Ideale und Primideale als Punkte mitberücksichtigt.
+
+Eine erste wichtige Frage ist folgende: Eine {{math|term= K |SZ=-}}Algebra {{math|term= R }} von endlichem Typ hat mehrere, in aller Regel gleichberechtigte Darstellungen als Restklassenring einer Polynomalgebra, sagen wir
+{{
+Relationskette/display
+| K[X_1  {{kommadots|}} X_n]/ {{ideala}} 
+| \cong  | R
+| \cong  | K[X_1 {{kommadots|}} X_m]/  {{idealb}} 
+||
+||
+|SZ=.
+}}
+Dazu gehören die beiden Nullstellengebilde
+{{
+Relationskette
+| V( {{ideala}} ) 
+|\subseteq|  {{op:Affiner Raum|n|K}} 
+||
+||
+||
+|SZ=
+}} 
+und
+{{
+Relationskette
+| V( {{idealb}} ) 
+|\subseteq|  {{op:Affiner Raum|m|K}} 
+||
+||
+||
+|SZ=.
+}} 
+Wie hängen diese beiden Nullstellengebilde zusammen?
+
+{{inputbeispiel
+|Affin-algebraische Mengen/Isomorphe Algebren und Nullstellengebilde/Polynomring in einer Variablen als Gerade, eingebettete Gerade und Graph/Beispiel| }}
+
+Der Punkt an diesem Beispiel ist, dass alle drei geometrischen Objekte die Nullstellenmengen zu verschiedenen Restklassendarstellungen von {{mathl|term= K[T] }} sind. Vom Standpunkt der algebraischen Geometrie sind das drei gleichberechtigte Darstellungen der affinen Geraden, auch wenn sie unterschiedlich {{Anführung|aussehen|SZ=.}} In der algebraischen Geometrie muss man so hinschauen, dass sie gleich aussehen. Was man sieht, sind nur verschiedene Einbettungen des {{Anführung|eigentlichen und wahren}} geometrischen Objektes, das zu einer {{math|term= K |SZ=-}}Algebra intrinsisch gehört, nämlich das {{math|term= K |SZ=-}}Spektrum.
+
+{{:K-Spektrum/Einführung/Textabschnitt}}
+
+Wenn {{math|term= R |SZ=}} der Nullring ist, so ist das {{math|term= K |SZ=-}}Spektrum davon leer. Wenn {{math|term= K |SZ=}} nicht algebraisch abgeschlossen ist, so kann das Spektrum auch zu anderen Ringen leer sein. Wenn aber {{math|term= K |SZ=}} ein algebraisch abgeschlossener Körper ist, so ist bei
+{{
+Relationskette
+| R
+|\neq| 0
+||
+||
+||
+|SZ=
+}}
+das Spektrum auch nicht leer. In der Tat gilt unter dieser Voraussetzung wieder ein Hilbertscher Nullstellensatz, siehe
+{{
+Aufgabelink
+|Präwort=||Aufgabeseitenname=
+K-Spektrum/Algebraisch abgeschlossen/Hilbertscher Nullstellensatz/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{Zwischenüberschrift|Das K-Spektrum als Funktor}}
+
+{{:K-Spektrum/Funktorielle Eigenschaften/Textabschnitt|}}
+
+{{Zwischenüberschrift|Weitere Eigenschaften des K-Spektrums}}
+
+{{inputfaktbeweis
+|Affine Varietäten/K-Spektren/Polynomring und affine Gerade/Fakt|Lemma| }}
+
+Achtung: Die vorstehende Aussage liefert nur eine natürliche Bijektion auf der Punktebene. Würde man die Produktmenge rechts mit der Produkttopologie versehen, so würde hier keine Homöomorphie mit der Zariski-Topologie links vorliegen. Insbesondere ist
+{{
+Relationskette
+| {{op:Affine Ebene|K|}}
+|| {{op:Affine Gerade|K|}} \times {{op:Affine Gerade|K|}}
+||
+||
+||
+|SZ=,
+}}
+aber die Zariski-Topologie der affinen Ebene ist nicht die Produkt-Topologie der affinen Geraden mit sich selbst.
+
+{{inputbemerkunghier|Text= 
+Sind
+{{
+Relationskette
+| X
+|| {{op:KSpek| R |}} 
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette
+| Y
+|| {{op:KSpek| S |}} 
+||
+||
+||
+|SZ=,
+}}
+so  lässt sich die Produktmenge {{mathl|term= X \times Y |SZ=}} ebenfalls als {{math|term= K |SZ=-}}Spektrum einer {{math|term= K |SZ=-}}Algebra darstellen, und zwar ist
+{{
+Relationskette/display
+| X \times Y
+|\cong| {{op:KSpek| R {{tensor|K}} S|}} 
+||
+||
+||
+|SZ=,
+}}
+wobei {{math|term={{tensor}} }} das Tensorprodukt bezeichnet. Wir werden darauf nicht im Einzelnen eingehen. Um aber doch ein Gefühl dafür zu geben, betrachten wir
+{{
+Relationskette
+| R
+|| K[X_1 {{kommadots|}} X_n]/ {{ideala}}
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette
+| S
+|| K[Y_1 {{kommadots|}}  Y_m]/  {{idealb}}
+|| 
+|| 
+|| 
+|SZ=.
+}} 
+Dann ist
+{{
+Relationskette/display
+| R {{tensor|K}} S
+| \cong | K[X_1  {{kommadots|}}  X_n,Y_1 {{kommadots|}} Y_m]/({{ideala}} +{{idealb}} )
+||
+||
+||
+|SZ=
+}}
+{{
+Zusatz/Klammer
+|text=bei dieser ad hoc Definition ist nicht klar, dass sie unabhängig von den Darstellungen als Restklassenring ist|
+|ISZ=|ESZ=.
+}}
+}}
+
+}}</text>
+      <sha1>ddamuf40qamippx6ny9wmwvhdqi4n36</sha1>
+    </revision>
+  </page>
+</mediawiki>

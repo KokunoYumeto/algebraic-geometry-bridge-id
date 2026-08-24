@@ -1,0 +1,139 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 9</title>
+    <ns>106</ns>
+    <id>165898</id>
+    <revision>
+      <id>1112241</id>
+      <parentid>1073527</parentid>
+      <timestamp>2026-08-20T16:29:07Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112241</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3162" sha1="4ygl96tyyhg8y50lfsfc1sko0r7hole" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|9|
+
+{{Zwischenüberschrift|Noethersche Ringe}}
+
+Wir werden nun in den nächsten Vorlesungen die algebraische Seite der algebraischen Geometrie weiterentwickeln. Unser erstes Ziel ist es zu zeigen, dass, wenn {{math|term= R}} ein noetherscher Ring ist, dann auch der Polynomring {{math|term= R[X] }} ein noetherscher Ring ist
+{{
+Zusatz/Klammer
+|text=Hilbertscher Basissatz|
+|ISZ=|ESZ=.
+}}
+Dies gilt dann auch für die Hinzunahme von mehreren 
+{{
+Zusatz/Klammer
+|text=endlich vielen|
+|ISZ=|ESZ=
+}}
+Variablen und insbesondere für Polynomringe in endlich vielen Variablen über einem Körper. Wir erinnern an den Begriff des noetherschen Ringes.
+
+{{:Kommutative Ringtheorie/Theorie der noetherschen kommutativen Ringe/Textabschnitt}}
+
+{{Zwischenüberschrift|Der Hilbertsche Basissatz}}
+
+Wie viele grundlegende Aussagen der kommutativen Algebra geht der Hilbertsche Basissatz, dem wir uns jetzt zuwenden, auf David Hilbert  zurück, genauer auf seine Arbeit von 1890, {{Anführung|Ueber die Theorie der algebraischen Formen|SZ=.}}
+
+{{
+inputbild
+|David Hilbert 1886|jpg | thumb {{!}} right {{!}} |
+|Zusname=David_Hilbert_1886
+|Text=[[w:David Hilbert|David Hilbert (1862-1943)]]
+|Autor=Unbekannt (1886)
+|Benutzer=
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+
+{{:Kommutative Ringtheorie/Hilbertscher Basissatz/Textabschnitt|}}
+
+Der Hilbertsche Basissatz bedeutet insbesondere, dass jede abgeschlossene Untervarietät
+{{
+Relationskette
+| V
+|\subseteq | {{op:Affiner Raum| n | K }} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+in einem affinen Raum durch endlich viele Polynome beschrieben werden kann. Jedes algebraische Nullstellengebilde ist also bereits das Nullstellengebilde von endlich vielen Polynomen.
+
+{{inputfaktbeweis
+|Hilbertscher Basisatz/Affin-algebraische Menge als Faser über 0 einer Abbildung/Fakt|Korollar| }}
+
+{{inputdefinition
+|Kommutative Ringtheorie/Algebra von endlichem Typ/Definition|}}
+
+Eine endlich erzeugte {{math|term= R |SZ=-}}Algebra besitzt also eine Darstellung als Restklassenring einer Polynomalgebra über {{math|term= R }} in endlich vielen Variablen. Eine solche Darstellung ist keineswegs eindeutig.
+
+{{inputfaktbeweis
+|Kommutative Ringtheorie/Algebra von endlichem Typ/Körper/Noethersch/Fakt|Korollar|||}}
+
+{{Zwischenüberschrift|Zerlegung in irreduzible Komponenten}}
+
+{{:Affine Varietäten/Zerlegung in irreduzible Komponenten/Textabschnitt}}
+
+Die im vorstehenden Satz auftretenden {{mathl|term= V_1 {{kommadots|}} V_k |SZ=}} heißen die
+{{
+Definitionslink
+|Prämath=
+|irreduziblen Komponenten|
+|Kontext=
+|SZ=
+}}
+von {{math|term= V |SZ=.}} 
+
+{{Zwischenüberschrift|Moduln}}
+
+{{:Modultheorie (kommutative Algebra)/Einführung/Textabschnitt}}
+
+Ein kommutativer Ring {{math|term= R |SZ= }} selbst ist in natürlicher Weise ein {{math|term= R |SZ=-}}Modul, wenn man die Ringmultiplikation als Skalarmultiplikation interpretiert. Die Ideale sind dann genau die {{math|term= R |SZ=-}}Untermoduln von {{math|term= R |SZ=.}} Die Begriffe Ideal-Erzeugenden{{drucktrenn}}system und Modul-Erzeugendensystem stimmen für Ideale überein. Ein Vektorraum ist einfach ein Modul über einem Körper.
+
+}}</text>
+      <sha1>4ygl96tyyhg8y50lfsfc1sko0r7hole</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -53,7 +53,7 @@ $$
 dalam $R/\mathfrak a$ untuk suatu $r$. Jika diterjemahkan kembali ke $R$,
 pernyataan ini berarti $f^r\in\mathfrak a$. Karena $\mathfrak a$ adalah ideal
 radikal, kita memperoleh $f\in\mathfrak a$, sehingga $f=0$ dalam gelanggang
-hasil bagi. Jadi, gelanggang hasil bagi tersebut tereduksi.
+faktor. Jadi, gelanggang faktor tersebut tereduksi.
 
 Sebaliknya, misalkan diberikan ideal
 
@@ -61,9 +61,9 @@ $$
 \mathfrak a\subseteq R
 $$
 
-dengan gelanggang hasil bagi $R/\mathfrak a$ yang tereduksi. Andaikan
+dengan gelanggang faktor $R/\mathfrak a$ yang tereduksi. Andaikan
 $f^r\in\mathfrak a$. Maka kelas sisa $f^r$ sama dengan $0$. Karena gelanggang
-hasil bagi tersebut tereduksi, kelas sisa $f$ sendiri sudah sama dengan $0$.
+faktor tersebut tereduksi, kelas sisa $f$ sendiri sudah sama dengan $0$.
 Artinya, $f\in\mathfrak a$, sehingga ideal itu adalah ideal radikal.
 
 [Kembali ke Soal 3.13](#br-ak-2025-2026-w03-ex-13).

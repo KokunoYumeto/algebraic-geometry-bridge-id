@@ -1,0 +1,178 @@
+{
+  "schema": "ag-bridge-release-candidate-v2",
+  "frozen_utc": "2026-08-22T21:20:05Z",
+  "status": "PASS",
+  "release_state": "frozen_local_boundary_package_and_publication_pending",
+  "through_unit": 7,
+  "planned_classical_units": 30,
+  "classical_volume_complete": false,
+  "full_two_volume_edition_complete": false,
+  "language": "id-ID",
+  "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "corpus_architecture": {
+    "classical_spine": "Holger Brenner, Algebraische Kurven (Osnabrück 2025–2026), all 30 lectures and 30 worksheets",
+    "required_second_volume": "Holger Brenner, Bündel, Garben und Kohomologie (Osnabrück 2019–2020), all 30 lectures and 30 worksheets",
+    "napkin_disposition": "optional explanatory/reference evidence only",
+    "stacks_disposition": "downstream permanent-tag references only"
+  },
+  "publication_targets": {
+    "github": {
+      "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+      "state": "blocked_by_user_confirmed_account_suspension",
+      "support_ticket_filed": true,
+      "retry_allowed": false
+    },
+    "zenodo": {
+      "state": "reserved_draft_not_public",
+      "record_id": 22062319,
+      "record_url": "https://zenodo.org/records/22062319",
+      "doi": "10.5281/zenodo.22062319",
+      "concept_doi": "10.5281/zenodo.22059686",
+      "record_title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+      "version": "unit-07",
+      "new_concept_required": false,
+      "package_complete": false,
+      "published": false,
+      "public_byte_readback_complete": false,
+      "reservation_receipt": {
+        "path": "qa/UNIT_07_ZENODO_RESERVATION.json",
+        "bytes": 383,
+        "sha256": "14489b98ee9d669ccbe6542c016bd053afda1b311553651a82d648a2f5118b26"
+      }
+    },
+    "figshare": {
+      "state": "existing_metadata_only_item_update_pending_after_zenodo_publication",
+      "article_id": 33314856,
+      "doi": "10.6084/m9.figshare.33314856.v1",
+      "project_id": 280296,
+      "collection_id": 8668413,
+      "edition_bytes_uploaded": false,
+      "license_gate": "account lacks an exact CC BY-SA 4.0 or mixed/component-rights licence",
+      "public_readback_complete_for_unit_07": false
+    }
+  },
+  "reader": {
+    "html": {
+      "path": "build/reader-id/index.html",
+      "bytes": 7733142,
+      "sha256": "e960f925d718d897f3308deae2404679f2ea9baf95e70b4dc8387b02b242dcc2"
+    },
+    "pdf": {
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-07.pdf",
+      "bytes": 5322352,
+      "sha256": "729d1b4f5593d2695091fd72379df9df69cc3dccb3e6ca404fce705d3d834f56",
+      "pages": 142
+    },
+    "build_receipt": {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 17228,
+      "sha256": "ec37c31c30c354e3ebb2c5093ae6b5a7d4a89989cf2850574cffaa89db0b1156"
+    }
+  },
+  "coverage": {
+    "lectures": 7,
+    "worksheets": 7,
+    "exercises": 197,
+    "public_source_solutions": 40,
+    "reader_media_positions": 53,
+    "stable_heading_ids": 388,
+    "native_backend_records": 5182
+  },
+  "terminology_qa": {
+    "status": "PASS",
+    "receipt": {
+      "path": "qa/TERMINOLOGY_QA_RECEIPT.json",
+      "bytes": 8742,
+      "sha256": "f04814705318b4d7d46623f4be28e55fa86a21cde91f754c24d3acc8680d4899"
+    },
+    "field_replacements": 117,
+    "quotient_ring_replacements": 22,
+    "fallback_pdfs_redistributed": false
+  },
+  "qa": {
+    "machine": {
+      "path": "qa/UNITS_01_07_MACHINE_QA.json",
+      "bytes": 8028,
+      "sha256": "f0b243aa83440fd295742947bbfec75085581bb183857815635f2a5be7c21ad6"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_07_VISUAL_QA.json",
+      "bytes": 42456,
+      "sha256": "7f9915130e4ec89a01f49ff337281d7545e082b668325c5b60cb9c9aa05a9757"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_07_RESPONSIVE_QA.json",
+      "bytes": 4470,
+      "sha256": "08e52316a9523f7bb0c3a4baedc61b6fc3d719e6f9153f6fa62da070a2146653"
+    },
+    "protected_surfaces": {
+      "path": "qa/UNIT_07_PROTECTED_SURFACES.json",
+      "bytes": 4577,
+      "sha256": "05ebb1dfe3751cd7a9307347cdc04f607fa0eee3073a5c43246fb42e0bbfa6e8"
+    },
+    "native_backend": {
+      "state": "PASS",
+      "path": "qa/UNITS_01_07_BACKEND_QA.json",
+      "bytes": 279800,
+      "sha256": "670fdb5be09ca2fcbcb9c7f0f8ae0d8d603eb67e579dcc1256370b577a6ec0c7"
+    }
+  },
+  "backend": {
+    "native": {
+      "state": "PASS",
+      "records": 5182,
+      "manifest_path": "backend/units-01-07/MANIFEST.json",
+      "manifest_bytes": 298913,
+      "manifest_sha256": "8b482971c444a4e5d90695f084234924a873b671885428d98e9db447e4924967",
+      "records_path": "backend/units-01-07/records.jsonl",
+      "records_bytes": 7301025,
+      "records_sha256": "663713a128a0e673a4daf9edd67f9c3dd10ebae02039f8e0c2044c0ca0fa14be",
+      "prior_stable_ids_preserved": 5179,
+      "new_bgk_architecture_records": 3,
+      "stale_napkin_dependency_corrected": true,
+      "authorized_prior_payload_refreshes": 616,
+      "deterministic_double_replay": true
+    },
+    "common_backend_v1_adapter": {
+      "state": "PASS",
+      "mode": "additive zero-copy virtual adapter",
+      "native_backend_unchanged": true,
+      "reader_unchanged": true,
+      "native_ids_preserved": 5182,
+      "virtual_records": 12496,
+      "virtual_records_jsonl_bytes": 18829519,
+      "virtual_records_jsonl_sha256": "e4b3def75472c9eee06cdcf4ef6482f8f12913bd7ee7fc478b111b18df335d7f",
+      "native_reverse_sha256": "663713a128a0e673a4daf9edd67f9c3dd10ebae02039f8e0c2044c0ca0fa14be",
+      "foreign_keys_checked": 29223,
+      "receipt": {
+        "path": "backend/common-backend-v1/MIGRATION_RECEIPT.json",
+        "bytes": 5356,
+        "sha256": "c7da3c77e226eec93cc2df286e96258097c3e7b45e2549ac77eafa5cdb354b16"
+      },
+      "validation": "pass"
+    }
+  },
+  "rights": {
+    "translated_text": "CC BY-SA 4.0",
+    "media": "per-component rights in authority/RIGHTS*.csv",
+    "blanket_file_set_license_claimed": false,
+    "license_notice": "LICENSE.md"
+  },
+  "checks": {
+    "authority_and_solution_closure": true,
+    "component_rights_and_local_assets": true,
+    "translation_and_math_fidelity": true,
+    "terminology_qa": true,
+    "machine_qa": true,
+    "all_page_visual_qa": true,
+    "desktop_and_mobile_reflow": true,
+    "native_backend_schema_closure_and_replay": true,
+    "common_backend_v1_adapter_validation": true,
+    "credential_findings": 0,
+    "ready_for_packaging": true,
+    "package_complete": false,
+    "publication_complete": false
+  },
+  "next_action": "Build and verify the Unit 7 release packages, publish the reserved Zenodo draft, anonymously verify every public byte, update and verify the existing lawful Figshare metadata route, update durable publication receipts, then begin Unit 8."
+}

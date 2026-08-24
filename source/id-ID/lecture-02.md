@@ -18,7 +18,7 @@ translation_status: complete
 
 ### Definisi: ruang afin {#br-ak-2025-2026-l02-def-01}
 
-Misalkan $K$ suatu medan. Ruang
+Misalkan $K$ suatu lapangan. Ruang
 
 $$
 \mathbb A_K^n=K^n
@@ -71,7 +71,7 @@ Karena itu, kita membuat definisi umum berikut.
 
 ### Definisi: lokus nol suatu keluarga polinom {#br-ak-2025-2026-l02-def-02}
 
-Misalkan $K$ suatu medan dan
+Misalkan $K$ suatu lapangan dan
 
 $$
 F_j\in K[X_1,\ldots,X_n],\qquad j\in J,
@@ -91,7 +91,7 @@ tersendiri.
 
 ### Definisi: himpunan aljabar afin {#br-ak-2025-2026-l02-def-03}
 
-Misalkan $K$ suatu medan dan $K[X_1,\ldots,X_n]$ gelanggang polinomial dalam
+Misalkan $K$ suatu lapangan dan $K[X_1,\ldots,X_n]$ gelanggang polinomial dalam
 $n$ variabel. Suatu subhimpunan $V\subseteq\mathbb A_K^n$ disebut *aljabar
 afin* apabila merupakan himpunan nol suatu keluarga polinom $F_j$, $j\in J$,
 dengan $F_j\in K[X_1,\ldots,X_n]$; yaitu, apabila
@@ -117,7 +117,7 @@ di dalamnya yang didefinisikan oleh variabel $X$ dan $Y$.
 - Himpunan $V(X+Y)$ terdiri atas semua titik $(x,y)$ dengan $y=-x$; ini adalah
   *antidiagonal*.
 - Himpunan $V(XY)$ terdiri atas titik-titik $(x,y)$ dengan $xy=0$. Karena $K$
-  suatu medan, sebuah hasil kali hanya dapat bernilai nol jika salah satu
+  suatu lapangan, sebuah hasil kali hanya dapat bernilai nol jika salah satu
   faktornya nol. Jadi,
 
   $$
@@ -314,7 +314,7 @@ membuktikannya secara bertahap.
    oleh keluarga tersebut.
 2. Setiap ideal mempunyai sistem pembangkit berhingga. Jadi, setiap lokus nol
    dapat dideskripsikan oleh berhingga banyak polinom (teorema basis Hilbert).
-3. Di atas medan tertutup secara aljabar, lokus-lokus nol berkorespondensi
+3. Di atas lapangan tertutup secara aljabar, lokus-lokus nol berkorespondensi
    secara bijektif dengan ideal-ideal radikal (teorema Nullstellensatz Hilbert).
 
 Pernyataan pertama dapat segera kita buktikan. Dua pernyataan lainnya memerlukan
@@ -322,7 +322,7 @@ persiapan aljabar yang akan kita kembangkan dalam kuliah-kuliah berikutnya.
 
 ### Lema: keluarga polinom dan ideal yang dibangkitkannya {#br-ak-2025-2026-l02-lem-01}
 
-Misalkan $K$ suatu medan dan $F_j\in K[X_1,\ldots,X_n]$, $j\in J$, suatu
+Misalkan $K$ suatu lapangan dan $F_j\in K[X_1,\ldots,X_n]$, $j\in J$, suatu
 keluarga polinom dalam $n$ variabel. Misalkan $\mathfrak a$ adalah ideal dalam
 $K[X_1,\ldots,X_n]$ yang dibangkitkan oleh semua $F_j$. Maka
 
@@ -380,7 +380,7 @@ berikut.
 
 ### Proposisi: gabungan dan irisan himpunan aljabar afin {#br-ak-2025-2026-l02-prop-01}
 
-Misalkan $K$ suatu medan, $K[X_1,\ldots,X_n]$ gelanggang polinomial dalam
+Misalkan $K$ suatu lapangan, $K[X_1,\ldots,X_n]$ gelanggang polinomial dalam
 $n$ variabel, dan $\mathbb A_K^n$ ruang afin yang bersesuaian. Sifat-sifat
 berikut berlaku.
 
@@ -425,7 +425,7 @@ $h(P)=0$. Jadi, $P$ berada pada lokus nol di ruas kanan.
 
 Sebaliknya, andaikan $P$ tidak berada dalam gabungan di ruas kiri. Maka
 $P\notin V(\mathfrak a_i)$ untuk setiap $i=1,\ldots,k$. Untuk setiap $i$,
-terdapat $f_i\in\mathfrak a_i$ dengan $f_i(P)\ne0$. Karena $K$ medan,
+terdapat $f_i\in\mathfrak a_i$ dengan $f_i(P)\ne0$. Karena $K$ lapangan,
 
 $$
 (f_1f_2\cdots f_k)(P)\ne0,

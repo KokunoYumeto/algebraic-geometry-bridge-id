@@ -1,70 +1,69 @@
-# Compact schemes bridge — bounded source decision
+# Schemes and cohomology continuation — controlling source decision
 
-Decision date: 2026-08-21  
-Decision: conditional GO — Napkin Part XX as donor/core, not as the whole bridge
+Decision date: 2026-08-22  
+Decision: GO — complete Brenner BGK as required second volume; Napkin optional only
 
-## Comparison boundary
+## Required authority and exact boundary
 
-The comparison was deliberately stopped after three viable primary-source
-leads.  More searching would not add enough value to justify delaying reader
-production.
+- Official BGK course:
+  <https://de.wikiversity.org/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)>.
+- Observed root revision: `1052895`; 30 lectures and 30 worksheets.
+- Official PDF: 265 pages, 2,104,862 bytes, SHA-256
+  `87655cf7e96dc0eaa185ca49a374dc9e25f4b739670495f423279aa332fce66c`.
+- Observed complete exercise surface: 495 exercise occurrences and 25 public
+  solution occurrences.
+- Required concentrated route: BGK Units 2–15 and 23–27, 157 source pages,
+  314 exercise occurrences, and 13 observed public solutions.
 
-| Candidate | Editable/buildable authority | Rights | Relevant closure | Disposition |
-|---|---|---|---|---|
-| Evan Chen, *An Infinitely Large Napkin*, Part XX | Official GitHub LaTeX; whole-tree Nix/`latexmk`/Asymptote routes | Text/PDF CC BY-SA 4.0; build source GPLv3; two media files unresolved | Sheaves, localization, `Spec`, Zariski topology, affine structure sheaf, stalks, residue fields, locally ringed spaces, scheme morphisms, affine anti-equivalence | Admit as the compact affine-schemes core, subject to exact archive/build freeze and media exclusion |
-| MIT OCW 18.726, Algebraic Geometry (Spring 2009) | Official downloadable HTML/PDF course, but no public editable mathematical source/build closure | CC BY-NC-SA | 39 lectures and 12 problem sets, broad graduate sequence, no solutions | Reject for this role: editable-source/build gates fail and scope is too broad |
-| Andreas Gathmann, *Algebraic Geometry* | Official current 138-page PDF; no editable source exposed | Site states all rights reserved | Excellent classical-to-schemes course with exercises | Reject: no lawful translation/adaptation basis and no editable build closure |
+Before translating BGK, freeze its course root, all 60 lecture/worksheet
+revisions, recursive transclusions, exercises, solution pages, generated
+TeX/HTML, media, rights, page IDs, revision IDs, MediaWiki SHA-1s, URLs, byte
+counts, and SHA-256 manifests. Prove reproducible export/build and anonymous
+reconstruction. MediaWiki is the source authority; the PDF is a visual/build
+witness.
 
-## Exact admitted Napkin authority
+## Learner route and original layer
 
-- Repository: <https://github.com/vEnhance/napkin>
-- Commit: `e50be9a0b2b12d080c273619424d0ee13372cc91`
-- Tree: `023467410bdf924c8fd38ac04009b4c887cbfb5e`
-- Commit timestamp: `2026-08-20T18:59:08Z`
-- Immutable archive:
-  <https://github.com/vEnhance/napkin/archive/e50be9a0b2b12d080c273619424d0ee13372cc91.zip>
-- Official Part XX PDF:
-  <https://venhance.github.io/napkin/Parts/part-20-napkin-algebraic-geometry-ii.pdf>
-- Part XX authored files: `sheaves.tex`, `localization.tex`,
-  `spec-zariski.tex`, `spec-sheaf.tex`, `spec-examples.tex`, and
-  `mor-scheme.tex`.
+The two complete editions retain their source orders and independently
+exportable identities. The concentrated route groups BGK 2–15 and 23–27 after
+the complete classical volume; it never renumbers source units. Add an
+independently written classical-to-`Spec` terminology/prerequisite seam, three
+fully worked mastery items for each of the 19 route units, 12 solved
+integrative problems, and one solved Stacks-navigation capstone with an oral
+proof rubric. Current counts imply 44 new unit-level solutions beyond 13
+verified public route solutions.
 
-These six files are not a standalone build.  They depend on the whole-book
-`Napkin.tex` preamble, shared macros, bibliography, media, and earlier
-cross-references.  The hosted 74-page part is a comparison witness, not a
-substitute for an exact-commit build replay.
+Permanent Stacks tags are downstream definition/proof/navigation checks only.
+Revalidate their current meanings before publication. Stacks pages are not
+translated course pages.
 
-## Why supplementation is mandatory
+## Napkin disposition
 
-Part XX does not actually construct schemes by gluing affine charts.  Its
-projective material following `\endinput` in `mor-scheme.tex` is inactive and
-does not count.  The exercise surface is also incomplete: approximately 21
-problems, 10 exercises, and 14 questions, but only 10 hints and 7 inline
-solutions.  The separately maintained community solutions are not admitted
-without their own source-and-license freeze.
+Keep the frozen Napkin Part XX evidence, commit
+`e50be9a0b2b12d080c273619424d0ee13372cc91`, as optional explanation and
+comparison only. Do not delete it, translate it as required D100 material, or
+count its 74 pages. It lacks the complete scheme/cohomology arc and has a less
+self-contained build and media-rights closure than BGK.
 
-The original supplement will therefore contain:
+## Why BGK supersedes the former bridge plan
 
-1. the transition from Brenner's classical affine varieties/curves to affine
-   schemes;
-2. affine gluing data and the cocycle condition;
-3. `P^1` from two affine lines;
-4. the doubled-origin line as a nonseparated warning;
-5. one Brenner projective curve expressed in scheme charts; and
-6. a compact original exercise set with complete original solutions.
-
-Permanent Stacks tags `01HR`, `01HW`, `01JA`, `01JB`, `01JC`, and `01JE` are
-downstream definition/proof checks only.  They do not become the first reader.
+Napkin's active Part XX surface reaches sheaves, localization, `Spec`, the
+structure sheaf, examples, and affine-scheme morphisms, but it contains no
+cohomology and no complete general scheme-gluing sequence. BGK includes this
+bridge material and continues coherently through dimension, `Proj`,
+quasi-coherent sheaves, derived functors, and cohomology in the same semantic
+ecosystem and licence regime as the classical Brenner volume. Its complete
+course therefore closes D100 rather than patching only the first transition.
 
 ## Rights boundary
 
-- Translated Napkin prose and mathematical exposition: CC BY-SA 4.0, with
-  attribution, license link, translation/change notice, and ShareAlike.
-- Distributed modified LaTeX/build source: GPLv3.
-- New bridge supplement: independently worded, licensed CC BY-SA 4.0.
-- `calvin-hobbes-fly.png` and `mumforddrawing.jpg`: omit or replace unless an
-  independent component-rights audit proves their use.
+- Both Brenner course text/semantic surfaces: CC BY-SA 4.0, with attribution,
+  licence link, translation/change notice, ShareAlike, and non-endorsement.
+- Every Commons asset: retain exact per-file creator/source/licence closure.
+- Original seam, mastery, integration, and capstone material: CC BY-SA 4.0.
+- Optional Napkin evidence retains its existing split rights; importing any of
+  it later would require explicit component and build-source compliance.
 
-Acquisition and exact-head build status are recorded separately in the
-authority freeze and QA receipts; admission is not final until those byte-level
-checks pass or a precise build blocker is documented.
+Admission of BGK production remains contingent on its finite byte-level source,
+rights, and reproducible-build gates; those gates do not reopen corpus search
+unless the live authority fails.

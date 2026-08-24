@@ -1,0 +1,333 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Mechanisches System/Kreis/Gerade/Disjunkt/Regularität über Jacobi-Matrix/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>93868</id>
+    <revision>
+      <id>1096408</id>
+      <parentid>1095206</parentid>
+      <timestamp>2026-06-15T08:47:14Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096408</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3431" sha1="97vm5d1jghevep4ec7ktopp70lb4us0" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung3/a
+|Es sei
+{{
+Relationskette
+|P_1
+||(x_1,y_1)
+||
+||
+||
+|SZ=
+}}
+der Kreispunkt und
+{{
+Relationskette
+| P_2 
+||(x_2,0)
+||
+||
+||
+|SZ=
+}}
+der Punkt auf der {{math|term= x |SZ=-}}Achse. Die Gleichungen sind somit
+{{
+Relationskette/display
+| x_1^2 + (y_1-2)^2
+|| 1
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| (x_1-x_2)^2 +y_1^2
+|| d^2
+||
+||
+||
+|SZ=.
+}}
+|Die
+{{
+Definitionslink
+|Jacobi-Matrix|
+|Kontext=|
+|SZ=
+}}
+zu
+{{
+Relationskette/display
+|f_1 
+|| x_1^2 + (y_1-2)^2 -1
+|| x_1^2 + y_1^2 -4y_1 +3
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|f_2
+|| (x_1-x_2)^2 +y_1^2 -d^2
+|| x_1^2 +x_2^2 -2x_1x_2 +y_1^2 -d^2
+||
+||
+|SZ=
+}}
+ist
+{{
+Math/display|term=
+ {{op:Matrix23| 2x_1 | 0| 2y_1-4| 2x_1-2x_2 | 2x_2-2x_1 | 2y_1}} 
+|SZ=.
+}}
+Wir müssen
+{{
+Zusatz/Klammer
+|text=in Abhängigkeit von {{math|term= d |SZ=}} |
+|ISZ=|ESZ=
+}}
+untersuchen, für welche Punkte die durch diese Matrix gegebene lineare Abbildung
+{{
+Abbildung/display
+|name=
+|\R^3| \R^2
+||
+|SZ=
+}}
+surjektiv ist, also den 
+{{
+Definitionslink
+|Rang|
+|Kontext=Matrix|
+|SZ=
+}}
+{{math|term= 2 |SZ=}} besitzt. Der Rang ist nur dann nicht {{math|term= 2 |SZ=,}} wenn alle Spalten linear abhängig sind, und dies ist genau dann der Fall, wenn alle
+{{
+Definitionslink
+|Prämath=2 \times 2
+|Minoren|
+|Kontext=|
+|SZ=
+}}
+gleich {{math|term= 0 |SZ=}} sind. Dies ist genau in der Nullstellenmenge der drei Polynome
+{{
+Zusatz/Klammer
+|text=der gemeinsame Faktor {{math|term= 4 |SZ=}} ist schon rausgezogen|
+|ISZ=|ESZ=
+}}
+{{
+Aufzählung3
+|{{
+Math/display|term=
+ x_1 (x_2-x_1)
+|SZ=
+}}
+|{{
+Math/display|term=
+ (y_1-2)(x_2-x_1)
+|SZ=
+}}
+|{{
+Math/display|term=
+ x_1y_1 - (x_1-x_2)(y_1-2)
+|SZ=
+}}
+}}
+der Fall. Wenn
+{{
+Relationskette/display
+| x_1
+|\neq | 0
+||
+||
+||
+|SZ=
+}}
+ist, so muss
+{{
+Relationskette
+| x_1
+|| x_2
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette
+| y_1
+|| 0
+||
+||
+||
+|SZ=
+}}
+sein. Dies ist aber kein Punkt des Systems. Also muss
+{{
+Relationskette/display
+| x_1
+|| 0
+||
+||
+||
+|SZ=
+}}
+sein. Wenn
+{{
+Relationskette
+| x_2
+|\neq | 0
+||
+||
+||
+|SZ=
+}}
+ist, so muss
+{{
+Relationskette
+| y_1
+|| 2
+||
+||
+||
+|SZ=
+}}
+sein, doch dies erfüllt nicht die erste Gleichung des Systems. Also ist
+{{
+Relationskette
+| x_2
+|| 0
+||
+||
+||
+|SZ=.
+}}
+Dann ergeben die Gleichungen des Systems
+{{
+mathkor|term1=
+ (y_1-2)^2 =1 
+|und|term2=
+ y_1^2 =d^2
+|SZ=.
+}}
+Die erste Gleichung erzwingt 
+{{
+Relationskette/display
+| y_1
+|| 1 \text{ oder } 3
+||
+||
+||
+|SZ=
+}}
+und somit muss
+{{
+Relationskette/display
+|d 
+|| 1 \text{ oder } 3
+||
+||
+||
+|SZ=
+}}
+sein. Das bedeutet, dass genau bei
+{{
+Relationskette
+|d
+|\neq| 1,3
+||
+||
+||
+|SZ=
+}}
+das System in jedem Punkt regulär ist.
+|Bei
+{{
+Relationskette/display
+|d
+|| 1
+||
+||
+||
+|SZ=
+}}
+ist aufgrund der Überlegungen im vorhergehenden Abschnitt {{mathl|term= (0,0,1) |SZ=}} der einzige kritische Punkt, und dies ist überhaupt der einzige Punkt des Systems, was die Singularität erklärt.
+
+Bei
+{{
+Relationskette/display
+|d
+|| 3
+||
+||
+||
+|SZ=
+}}
+ist aufgrund der Überlegungen im vorhergehenden Abschnitt {{mathl|term= (0,0,3) |SZ=}} der einzige kritische Punkt des Systems. Es liegt ein Kreuzungspunkt vor, da sich in diesem Punkt die Stange in vier Richtungen bewegen kann, nämlich beide Koordinaten {{mathl|term= (x_1,x_2) |SZ=}} ins Positive, beide ins Negative, oder gemischt.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>97vm5d1jghevep4ec7ktopp70lb4us0</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -448,7 +448,7 @@ $$
 <!-- upstream_solution_revid: 1089351 -->
 
 Pertama-tama kita buktikan $\mathfrak b\subseteq\mathfrak a$ dengan menunjukkan
-bahwa setiap pembangkit $\mathfrak b$ bernilai $0$ dalam gelanggang hasil bagi
+bahwa setiap pembangkit $\mathfrak b$ bernilai $0$ dalam gelanggang faktor
 oleh $\mathfrak a$. Dalam gelanggang itu,
 
 $$
@@ -588,12 +588,12 @@ $$
    Pada derajat $2$, koefisien $X^2$ dan $Y^2$ masing-masing adalah $1$.
    Pada derajat $0$, koefisien $1$ juga $1$. Jadi, kedua ruas identik.
 
-3. Dengan membagi identitas pada bagian (2) oleh $X^2+Y^2+1$ dalam medan hasil
+3. Dengan membagi identitas pada bagian (2) oleh $X^2+Y^2+1$ dalam lapangan hasil
    bagi $K[X,Y]$, kita memperoleh
 
    $$
    \begin{aligned}
-   F={1\over X^2+Y^2+1}\Big(& (X^2Y-Y)^2+(XY^2-X)^2
+   F=\frac{1}{X^2+Y^2+1}\Big(& (X^2Y-Y)^2+(XY^2-X)^2
    +(X^2Y^2-1)^2\\
    &+\frac14(XY^3-X^3Y)^2
    +\frac34(XY^3+X^3Y-2XY)^2\Big).

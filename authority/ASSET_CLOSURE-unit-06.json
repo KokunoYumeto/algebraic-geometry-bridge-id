@@ -1,0 +1,44 @@
+{
+  "schema": "brenner-unit-media-closure-v1",
+  "unit": 6,
+  "reader_media_positions": 3,
+  "unique_local_assets": 4,
+  "metadata_file": "authority/commons-imageinfo-unit-06.json",
+  "metadata_bytes": 13537,
+  "metadata_sha256": "8a0d25aa8f730d382f8d1ac6e71b04382724792bcee6184e32ebdf0eed368f8d",
+  "rights_file": "authority/RIGHTS-unit-06.csv",
+  "rights_bytes": 2930,
+  "rights_sha256": "775456c2a8d0a4d00f7ae5b29121c38acf868b520adb1c0c3186bdc606d7c4b4",
+  "reader_credits_file": "source/id-ID/media-credits-unit-06.md",
+  "reader_credits_bytes": 930,
+  "reader_credits_sha256": "82bf0832d5c5a5f31f06617fae9fa1b1fc8133f7d814cf188ab00ab819da5d42",
+  "assets": [
+    {
+      "asset_id": "br-ak-u06-media-001",
+      "local_path": "authority/assets/Krivka_parametricky.png",
+      "local_bytes": 1598,
+      "local_sha256": "0ba72359246bdfc6ab819da948a2adf4f8310b884e0585f24ad8bb65c38ff250",
+      "pdf_local_path": "",
+      "pdf_local_bytes": "",
+      "pdf_local_sha256": ""
+    },
+    {
+      "asset_id": "br-ak-u06-media-002",
+      "local_path": "authority/assets/Cubic_with_double_point.svg",
+      "local_bytes": 1484,
+      "local_sha256": "1f6afa90631abb935df525eecb14b0462be0a161ca5542f73fb8b2222792a1f2",
+      "pdf_local_path": "authority/assets/Cubic_with_double_point-500.png",
+      "pdf_local_bytes": 12146,
+      "pdf_local_sha256": "7c39aa0435abed871046f327987d511c27c4315b7c0832e2b90d346bd969a239"
+    },
+    {
+      "asset_id": "br-ak-u06-media-003",
+      "local_path": "authority/assets/Dioklova_kisoida.png",
+      "local_bytes": 3823,
+      "local_sha256": "7eeb7d346fd7334ca1f6156244c5a8f594cdd649ba8ba35784a2ee36e5eae6c8",
+      "pdf_local_path": "",
+      "pdf_local_bytes": "",
+      "pdf_local_sha256": ""
+    }
+  ]
+}

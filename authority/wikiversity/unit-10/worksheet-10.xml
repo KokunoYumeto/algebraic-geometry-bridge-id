@@ -1,0 +1,248 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 10</title>
+    <ns>106</ns>
+    <id>165929</id>
+    <revision>
+      <id>1058833</id>
+      <parentid>1058753</parentid>
+      <timestamp>2025-11-13T14:59:04Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1058833</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3652" sha1="8i60iiq6icvdsh009o7rw5gs0obxp4m" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblattgestaltung|10|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{inputaufgabe
+|Endliche Algebra über Körper/Kommutativ/Einheit und Nichtnullteiler/Aufgabe||
+}}
+
+{{inputaufgabe
+|Endliche Körpererweiterung/Zwischenring/Körper/Aufgabe||
+}}
+
+{{
+inputaufgabe
+|Kommutative Ringtheorie/Endliche Erweiterung/Nichteinheit bleibt Nichteinheit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kommutativer Ring/Modul/Noethersch und Aufstiegsbedingung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Nichtnullteiler/Kurze exakte Sequenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kommutativer Ring/Ideale/Chinesischer Restsatz/Kurze exakte Sequenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Moduln (kommutative Algebra)/L in M in N/Kurze exakte Sequenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Modul-Homomorphismus/Exakte Sequenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{:Modul/Dualer Modul/Definition}}
+
+{{
+inputaufgabe
+|Kurze exakte Sequenz/Modul/Duale Sequenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kurze exakte Sequenz/Vektorraum/Duale Sequenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kurze exakte Sequenz/Z/Duale Sequenz/Nicht exakt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kurze exakte Sequenz/Modul/Erzeugendenzahl/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Endlicher Modul/Endliche Algebra/Endlich/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Die folgenden Aufgaben verwenden den Begriff des artinschen Moduls, der {{Anführung|dual}} zum Begriff des noetherschen Moduls ist.
+{{:Kommutative Algebra/Artinscher Modul/Definition| }}
+
+Ein kommutativer Ring {{math|term=R|SZ= }} heißt {{Definitionswort/enp|artinsch|SZ=,}} wenn er als {{math|term=R|SZ=-}}Modul artinsch ist.
+
+{{inputaufgabe
+|Artinsche Ringe/Artinsche Integritätsbereiche sind Körper/Aufgabe||
+}}
+
+{{inputaufgabe
+|Kommutative Algebra/Noethersche bzw. artinsche Moduln/Endomorphismen/Aufgabe|}}
+
+{{
+inputaufgabe
+|Kommutative Ringtheorie/f nicht nilpotent/Existenz von Primidealen/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{inputaufgabe|Kommutative Ringtheorie/Ideale/Radikal ist Durchschnitt von Primidealen/Aufgabe|
+tipp=Eine Möglichkeit ergibt sich aus der vorstehenden Aufgabe, eine andere aus
+{{
+Aufgabelink
+|Präwort=||Aufgabeseitenname=
+Nenneraufnahme/f/Nilpotent/Aufgabe
+|Nr=
+|SZ=
+}}
+weiter unten.
+}}
+
+{{
+inputaufgabe
+|Polynom/1/Nicht konstant/Nicht algebraisch/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Rationaler Funktionenkörper/Echter Zwischenkörper/Darüber endlich/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Hilbertscher Nullstellensatz/Algebraisch/Z/Endlicher Körper/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{:Algebra/Algebraisch abhängig/Definition|}} 
+
+{{
+inputaufgabe
+|Polynome/n Variablen/Variablen/Algebraisch unabhängig/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Polynome/n Variablen/Algebraisch abhängig/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Affiner Raum/Polynomiale Abbildung/Höhere Dimension/Nicht surjektiv/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Algebra/K/Algebraisch unabhängig/Isomorphie/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{inputaufgabe
+|Ebene algebraische Kurve/Restklassenring/Algebraisch abgeschlossen/Endlich über Polynomring in einer Variablen/Aufgabe|p}}
+
+{{inputaufgabe
+|Kommutative Ringtheorie/Transitivität der Endlichkeit (Algebren)/Aufgabe|p}}
+
+{{inputaufgabe
+|Artinscher Modul/Kurze exakte Sequenz/Aufgabe|p}}
+
+{{inputaufgabe
+|Modultheorie/Exakte Komplexe/Kurze exakte Sequenzen/Aufgabe|p|extra=in der Vorlesung}}
+
+{{inputaufgabe
+|Körpertheorie/Endliche Erweiterung von Körper/Ist artinsch/Aufgabe|p}}
+
+}}</text>
+      <sha1>8i60iiq6icvdsh009o7rw5gs0obxp4m</sha1>
+    </revision>
+  </page>
+</mediawiki>

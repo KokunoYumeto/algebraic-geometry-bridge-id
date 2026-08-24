@@ -1,0 +1,146 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v2",
+  "audited_utc": "2026-08-22T20:51:35.369998+00:00",
+  "status": "PASS",
+  "unit": 7,
+  "authority": {
+    "manifest_path": "authority/wikiversity/unit-07/UNIT_AUTHORITY_MANIFEST.json",
+    "manifest_bytes": 103034,
+    "manifest_sha256": "6423629ff600ffcfc5067ea139eef01843ece1ce907dd4bda1bfdb12f49de96e",
+    "manifest_files_replayed": 35,
+    "official_pdf_pages": {
+      "authority/artifacts/lecture-07-official.pdf": 13,
+      "authority/artifacts/worksheet-07-official.pdf": 7
+    },
+    "lecture_revid": 1057689,
+    "worksheet_revid": 1112363,
+    "lecture_transclusions": 78,
+    "worksheet_transclusions": 136,
+    "ordered_exercise_map_sha256": "8dfcc09854b47d83eaf9179462449a0a1fa307a3a72e5d1f252cfce35858e0e1"
+  },
+  "targets": [
+    {
+      "path": "source/id-ID/lecture-07.md",
+      "bytes": 22411,
+      "sha256": "45023a789b52b562d2fbcd0aaf680453cf3dbef60c41542a89a42be01f63ff52",
+      "headings": 13,
+      "math_nodes": 221,
+      "images": 9
+    },
+    {
+      "path": "source/id-ID/worksheet-07.md",
+      "bytes": 16757,
+      "sha256": "8350ea75756c19a05e09f51074366e4ba85829819690b20a84122c6f9d0e94d3",
+      "headings": 36,
+      "math_nodes": 148,
+      "images": 0
+    },
+    {
+      "path": "source/id-ID/worksheet-07-solutions.md",
+      "bytes": 5326,
+      "sha256": "8c6c52e4aa7e6be203be41235c2bb7a97c2689e4226738f78d62175fe770ecbf",
+      "headings": 4,
+      "math_nodes": 61,
+      "images": 0
+    }
+  ],
+  "topology": {
+    "unit_heading_ids": 53,
+    "duplicate_heading_ids": 0,
+    "exercises": 33,
+    "submission_points": [
+      6,
+      9,
+      4,
+      6,
+      4,
+      6,
+      6
+    ],
+    "starred_exercises": [
+      10,
+      11,
+      22
+    ],
+    "public_solutions": 3,
+    "solution_exercises": [
+      10,
+      11,
+      22
+    ],
+    "solution_revisions": [
+      1113188,
+      1112940,
+      1095499
+    ],
+    "invented_solutions": 0,
+    "untranslated_german_prose": 0,
+    "media_positions": 9,
+    "binary_surfaces": 13
+  },
+  "math_count_reconciliation": {
+    "authority": {
+      "lecture": 239,
+      "worksheet": 129,
+      "solutions": 57
+    },
+    "target": {
+      "lecture-07.md": 221,
+      "worksheet-07.md": 148,
+      "worksheet-07-solutions.md": 61
+    },
+    "explanation": "Pandoc and MediaWiki split aligned formulae and renderer scaffolding differently. Exact conic and quadric identities, classification branches, parametrization formulae, exercise order, and all three public solution surfaces are protected by formula needles and revision bindings."
+  },
+  "fidelity_findings": {
+    "protected_formula_needles": {
+      "lecture": 12,
+      "worksheet": 10,
+      "solutions": 11
+    },
+    "explicit_source_precision_delta": "The c=0 classification branches, ellipse misnomer, false universal exercise claim, field dependency, coordinate-ring hint, solution proof gap, and shifted-curve referent are disclosed or repaired explicitly without inventing source solutions.",
+    "remaining_mathematical_defects": 0,
+    "remaining_omissions": 0,
+    "invented_solutions": 0
+  },
+  "rights": {
+    "path": "authority/RIGHTS-unit-07.csv",
+    "sha256": "e7245bdc9f499fb5b0b71e8598773257b6147147f8f2fe08f82597338946f24f",
+    "closure_path": "authority/ASSET_CLOSURE-unit-07.json",
+    "closure_sha256": "2a9141295e9e8eae525917e5f6568823077aa67edd50383c431ad7146bde4130"
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "sha256": "0c0e853ff6d418f607958a8f06bd0b190c86b41e5df0d7f3e52ef6aa7fb48e34",
+    "rows": 35,
+    "unit_07_records": [
+      "AGC-ADAPT-0012",
+      "AGC-ADAPT-0013",
+      "AGC-ADAPT-0014",
+      "AGC-ADAPT-0015",
+      "AGC-ADAPT-0016",
+      "AGC-CORR-0011",
+      "AGC-CORR-0012",
+      "AGC-CORR-0013",
+      "AGC-CORR-0014",
+      "AGC-CORR-0015",
+      "AGC-CORR-0016",
+      "AGC-CORR-0017",
+      "AGC-CORR-0018",
+      "AGC-CORR-0019"
+    ]
+  },
+  "bound_qa": {
+    "machine": {
+      "path": "qa/UNITS_01_07_MACHINE_QA.json",
+      "sha256": "f0b243aa83440fd295742947bbfec75085581bb183857815635f2a5be7c21ad6"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_07_VISUAL_QA.json",
+      "sha256": "7f9915130e4ec89a01f49ff337281d7545e082b668325c5b60cb9c9aa05a9757"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_07_RESPONSIVE_QA.json",
+      "sha256": "08e52316a9523f7bb0c3a4baedc61b6fc3d719e6f9153f6fa62da070a2146653"
+    }
+  }
+}

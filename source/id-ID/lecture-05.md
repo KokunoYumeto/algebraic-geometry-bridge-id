@@ -145,7 +145,7 @@ bidang.
 
 ### Teorema: normalisasi Noether untuk kurva bidang {#br-ak-2025-2026-l05-thm-01}
 
-Misalkan $K$ suatu medan tertutup secara aljabar dan
+Misalkan $K$ suatu lapangan tertutup secara aljabar dan
 $F\in K[X,Y]$ suatu polinom takkonstan berderajat $d$ yang mendefinisikan
 kurva aljabar
 
@@ -184,7 +184,7 @@ F_d=c(Y-e_1X)\cdots(Y-e_kX)X^{d-k}.
 $$
 
 Karena $c$ mempunyai akar ke-$d$, dengan menskalakan variabel kita dapat
-mengandaikan $c=1$. Medan $K$ khususnya takhingga, sehingga kita dapat memilih
+mengandaikan $c=1$. Lapangan $K$ khususnya takhingga, sehingga kita dapat memilih
 $e\in K$ yang berbeda dari semua $e_j$. Gunakan koordinat baru
 
 $$
@@ -212,7 +212,7 @@ mempunyai derajat-$\widetilde X$ paling tinggi $d-1$. $\square$
 
 ### Korolari: kurva bidang mempunyai takhingga banyak titik {#br-ak-2025-2026-l05-cor-01}
 
-Misalkan $K$ suatu medan tertutup secara aljabar dan
+Misalkan $K$ suatu lapangan tertutup secara aljabar dan
 $F\in K[X,Y]$ suatu polinom takkonstan yang mendefinisikan kurva aljabar
 $C=V(F)$. Maka $C$ mempunyai takhingga banyak elemen.
 
@@ -303,7 +303,7 @@ bijektif dipandang sebagai transformasi koordinat atau transformasi variabel.
 
 ### Definisi: transformasi variabel afin-linear {#br-ak-2025-2026-l05-def-03}
 
-Misalkan $K$ suatu medan. Suatu pemetaan
+Misalkan $K$ suatu lapangan. Suatu pemetaan
 $\varphi:\mathbb A_K^n\to\mathbb A_K^n$ berbentuk
 
 $$
@@ -369,9 +369,9 @@ itu tidak relevan bagi geometri aljabar. Karena itu, mulai sekarang kita akan
 mengubah suatu situasi ke bentuk yang diinginkan tanpa banyak penekanan jika
 transformasi semacam itu tersedia.
 
-### Teorema: gelanggang hasil bagi di bawah ekuivalensi afin-linear {#br-ak-2025-2026-l05-thm-02}
+### Teorema: gelanggang faktor di bawah ekuivalensi afin-linear {#br-ak-2025-2026-l05-thm-02}
 
-Misalkan $K$ suatu medan dan
+Misalkan $K$ suatu lapangan dan
 $V,\widetilde V\subseteq\mathbb A_K^n$ dua himpunan aljabar afin yang ekuivalen
 afin-linear. Misalkan $\operatorname{Id}(V)$ dan
 $\operatorname{Id}(\widetilde V)$ ideal-ideal pelenyapan yang bersesuaian.
@@ -401,14 +401,14 @@ $$
 =\operatorname{Id}(V).
 $$
 
-Teorema isomorfisme menghasilkan isomorfisme kedua gelanggang hasil bagi.
+Teorema isomorfisme menghasilkan isomorfisme kedua gelanggang faktor.
 $\square$
 
 ### Catatan: gelanggang koordinat sebagai invarian intrinsik {#br-ak-2025-2026-l05-rem-01}
 
 Teorema sebelumnya mengungkapkan suatu prinsip penting dalam geometri
 aljabar: objek aljabar yang melekat pada suatu lokus nol adalah gelanggang
-hasil bagi gelanggang polinomial oleh ideal pelenyapannya. Objek ini merupakan
+faktor gelanggang polinomial oleh ideal pelenyapannya. Objek ini merupakan
 *invarian intrinsik* dari lokus nol, yaitu tidak bergantung pada penanamannya.
 
 Dari sudut pandang ini, normalisasi Noether untuk kurva bidang memperoleh
@@ -429,7 +429,7 @@ K[X,Y]/\bigl(X^d+P_{d-1}(Y)X^{d-1}+\cdots+P_1(Y)X+P_0(Y)\bigr).
 $$
 
 Dengan demikian, teorema normalisasi Noether juga mengatakan bahwa, untuk
-setiap kurva aljabar di atas medan tertutup secara aljabar, gelanggang
+setiap kurva aljabar di atas lapangan tertutup secara aljabar, gelanggang
 koordinatnya dapat direalisasikan sebagai perluasan hingga dari domain ideal
 utama $K[Y]$. Ini merupakan analogi langsung dengan gelanggang bilangan bulat
 dalam teori bilangan, yang juga merupakan perluasan hingga di atas domain
@@ -442,7 +442,7 @@ penutupan Zariski dari citra pemetaan.
 
 ### Teorema: penutupan citra pemetaan polinomial tak tereduksi {#br-ak-2025-2026-l05-thm-03}
 
-Misalkan $K$ suatu medan takhingga dan
+Misalkan $K$ suatu lapangan takhingga dan
 
 $$
 \varphi:\mathbb A_K^r\longrightarrow\mathbb A_K^n

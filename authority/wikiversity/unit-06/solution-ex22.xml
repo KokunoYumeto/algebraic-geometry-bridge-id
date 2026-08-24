@@ -1,0 +1,171 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Polynomring/Homogenisierung/Multiplikativ/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>96654</id>
+    <revision>
+      <id>1096509</id>
+      <parentid>1090221</parentid>
+      <timestamp>2026-06-15T09:01:45Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096509</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1417" sha1="gkg3fvthirwckoldw9yz5zq5fp3sqne" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es seien
+{{
+Relationskette/display
+|F
+|| F_d + F_{d-1} {{plusdots|}} F_1 + F_0
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| G
+|| G_e + G_{e-1} {{plusdots|}} G_1 + G_0
+||
+||
+||
+|SZ=
+}}
+Polynome vom Grad
+{{
+mathkor|term1=
+d
+|bzw.|term2=
+e
+|SZ=
+}}
+in ihrer homogenen Zerlegung. Ihre Homogenisierungen sind
+{{
+Relationskette/display
+| \tilde{F}
+||  F_d + F_{d-1} Z {{plusdots|}} F_1 Z^{d-1} + F_0 Z^d
+||
+||
+||
+|SZ=
+}}
+bzw.
+{{
+Relationskette/display
+| \tilde{G}
+|| G_e+ G_{e-1} Z {{plusdots|}} G_1 Z^{e-1} + G_0 Z^e
+||
+||
+||
+|SZ=.
+}}
+Das Produkt ist
+{{
+Relationskette/display
+| \tilde{F} \tilde{G}
+|| \sum_{k {{=}} 0}^{d+e} P_k Z^{d+e-k}
+||
+||
+||
+|SZ=
+}}
+mit
+{{
+Relationskette/display
+|P_k
+|| \sum_{i {{=}} 0}^{d}   F_i G_{k-i}
+||
+||
+||
+|SZ=.
+}}
+Andererseits ist
+{{
+Relationskette/display
+| FG
+|| \sum_{k {{=}} 0}^{d+e}  H_k
+||
+||
+||
+|SZ=
+}}
+mit den homogenen Komponenten
+{{
+Relationskette/display
+|H_k
+|| \sum_{ i {{=}} 0}^d F_iG_{k-i}
+||
+||
+||
+|SZ=
+}}
+und die Homogenisierung davon ist
+{{
+Relationskette/display
+| \sum_{k {{=}} 0}^{d+e}  H_k Z^{d+e-k}
+|| \sum_{k {{=}} 0}^{d+e}  {{makl| \sum_{ i {{=}} 0}^d F_iG_{k-i}  |}}  Z^{d+e-k}
+|| \sum_{k {{=}} 0}^{d+e}  P_k  Z^{d+e-k}
+||
+||
+|SZ=,
+}}
+was mit der ersten Berechnung übereinstimmt.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>gkg3fvthirwckoldw9yz5zq5fp3sqne</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,335 @@
+{
+  "schema": "brenner-worksheet-solution-map-v2",
+  "unit": 6,
+  "worksheet": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 6",
+    "pageid": 165925,
+    "revid": 1059354,
+    "parentid": 1057870,
+    "timestamp": "2025-11-19T11:00:28Z",
+    "mediawiki_sha1": "66a5c51263dd1bbe94cdc78e5d38405d2a5f41d4",
+    "wikitext_bytes": 3469,
+    "api_file": "worksheet-06-api.json",
+    "api_bytes": 4018,
+    "api_sha256": "63c5dc8cdd406b457e6b7e474763bbc17c4be7d1cd66cd13a747a66f0e22b258",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1059354",
+    "xml_file": "worksheet-06.xml",
+    "xml_bytes": 6611,
+    "xml_sha256": "7ec13ce1bf99043e68bbd88debe06745dbae2f6297b74d04563c87e11a646571",
+    "html_file": "worksheet-06.html",
+    "html_bytes": 76393,
+    "html_sha256": "e76b509cc68b421de23de5110115a6c85d8a9be1cb952f8de5488988da96d4e3",
+    "html_source": "action_parse_text_fallback",
+    "parse_api_file": "worksheet-06-parse-api.json",
+    "parse_api_bytes": 18898,
+    "parse_api_sha256": "a82581131ab371d08fc3db7114c3ab9f6ec0384b86c6690cea4c3af1acfe42d6",
+    "template_count": 110,
+    "image_count": 2,
+    "link_count": 56,
+    "external_link_count": 0
+  },
+  "exercise_count": 30,
+  "solution_count": 9,
+  "candidate_api_file": "worksheet-solution-candidates-api.json",
+  "candidate_api_bytes": 17109,
+  "candidate_api_sha256": "d6261ea1f6c9b1a4e56da704d7aa9960e67f5bd386d0f982a7e228505164506f",
+  "entries": [
+    {
+      "exercise_number": 1,
+      "exercise_title": "Ebener polynomialer Graph/Parametrisiere/Aufgabe",
+      "solution_title": "Ebener polynomialer Graph/Parametrisiere/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 2,
+      "exercise_title": "Affine ebene Kurve/-3t^2+4t-2 und 2t^2+5t-3/Finde Gleichung/Aufgabe",
+      "solution_title": "Affine ebene Kurve/-3t^2+4t-2 und 2t^2+5t-3/Finde Gleichung/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 3,
+      "exercise_title": "Ebene Kurve/Rationale Parametrisierung/t^2+t,t^3/Gleichung/Aufgabe",
+      "solution_title": "Ebene Kurve/Rationale Parametrisierung/t^2+t,t^3/Gleichung/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 21579,
+      "revid": 1112350,
+      "parentid": 1056984,
+      "timestamp": "2026-08-21T11:27:34Z",
+      "mediawiki_sha1": "edd2ba5e4300ef37835a2b376145a62bb4dd8a33",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112350",
+      "xml_file": "solution-ex03.xml",
+      "xml_bytes": 4155,
+      "xml_sha256": "ee7b804e664d7d43cb78f61b4dca613b065cfa100ebfffecfa9c734cf732cd91",
+      "html_file": "solution-ex03.html",
+      "html_bytes": 8050,
+      "html_sha256": "51c4ff700569017836f58d16b9d7f0b772eabe8b47f77d1488d66add9291bc20",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 4,
+      "exercise_title": "Ebene Kurve/Rationale Parametrisierung/t^2+1,t^3-t/Gleichung/Aufgabe",
+      "solution_title": "Ebene Kurve/Rationale Parametrisierung/t^2+1,t^3-t/Gleichung/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 55069,
+      "revid": 958133,
+      "parentid": 825761,
+      "timestamp": "2024-11-07T16:26:20Z",
+      "mediawiki_sha1": "3a884a7935ff57df5012fb92450ea79c3b7f1a64",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=958133",
+      "xml_file": "solution-ex04.xml",
+      "xml_bytes": 3933,
+      "xml_sha256": "8e9eea31aa3949af9ba347ed9abfd5ce4f09b7b8a11a8cf277bc566e9f33421a",
+      "html_file": "solution-ex04.html",
+      "html_bytes": 6328,
+      "html_sha256": "88fb5d428775936ba1e49d378bb95c1dcbb46ec7aeb66105ff4d90f4acb9b527",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 5,
+      "exercise_title": "Ebene Kurve/R/Parametrisiert/Halbabdeckung/Aufgabe",
+      "solution_title": "Ebene Kurve/R/Parametrisiert/Halbabdeckung/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 6,
+      "exercise_title": "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/R/Surjektiv/Aufgabe",
+      "solution_title": "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/R/Surjektiv/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 7,
+      "exercise_title": "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe",
+      "solution_title": "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 8,
+      "exercise_title": "Homogene Polynome/S T ST/Homogene Gleichung/Aufgabe",
+      "solution_title": "Homogene Polynome/S T ST/Homogene Gleichung/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 167309,
+      "revid": 1057120,
+      "parentid": 1057119,
+      "timestamp": "2025-10-31T11:11:04Z",
+      "mediawiki_sha1": "8757774b89291d7132f85b35544997179cfa6513",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1057120",
+      "xml_file": "solution-ex08.xml",
+      "xml_bytes": 4788,
+      "xml_sha256": "8b420cc816b39232252eb182606fa1c98c351ef7a31d7fbe6187c1995ef155d1",
+      "html_file": "solution-ex08.html",
+      "html_bytes": 11693,
+      "html_sha256": "4ed6ac5f61bfc822c9a57bdc560f29ddbd6b4ebe32ade542c371c049b87c5be8",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 9,
+      "exercise_title": "Rationale Parametrisierung/Gleichung/4/Aufgabe",
+      "solution_title": "Rationale Parametrisierung/Gleichung/4/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 94097,
+      "revid": 1112838,
+      "parentid": 1095498,
+      "timestamp": "2026-08-21T17:35:17Z",
+      "mediawiki_sha1": "99bb8d90236d2491a588141a219f2786d1c86029",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112838",
+      "xml_file": "solution-ex09.xml",
+      "xml_bytes": 5937,
+      "xml_sha256": "c336cce036220ba0bf35685e919d4e41be046847df678e5ba03253788ae45402",
+      "html_file": "solution-ex09.html",
+      "html_bytes": 21759,
+      "html_sha256": "acc03ecb93300d476cbb0b3712572fa87d69ac22548aa06f2d5a9176ebb9f185",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 10,
+      "exercise_title": "Rationale Abbildung/Kurvengleichung/t durch t^2-1, 1 durch t/Aufgabe",
+      "solution_title": "Rationale Abbildung/Kurvengleichung/t durch t^2-1, 1 durch t/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 11,
+      "exercise_title": "Nichtalgebraische Parametrisierung/Algebraisch/Beispiel/Aufgabe",
+      "solution_title": "Nichtalgebraische Parametrisierung/Algebraisch/Beispiel/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 12,
+      "exercise_title": "Archimedische Spirale/Nicht algebraisch/Aufgabe",
+      "solution_title": "Archimedische Spirale/Nicht algebraisch/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 13,
+      "exercise_title": "Rationale ebene Kurve/Nichtalgebraische Parametrisierung/Aufgabe",
+      "solution_title": "Rationale ebene Kurve/Nichtalgebraische Parametrisierung/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 14,
+      "exercise_title": "Differenzierbare Kurve/Bild ist Achsenkreuz/Aufgabe",
+      "solution_title": "Differenzierbare Kurve/Bild ist Achsenkreuz/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 15,
+      "exercise_title": "Ebene rationale Kurven/Nicht konstantes Bild davon/Ist auch rational/Aufgabe",
+      "solution_title": "Ebene rationale Kurven/Nicht konstantes Bild davon/Ist auch rational/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 16,
+      "exercise_title": "Ebene algebraische Kurven/Parametrisierung der Form (t^2,F(t))/Wann injektiv/Aufgabe",
+      "solution_title": "Ebene algebraische Kurven/Parametrisierung der Form (t^2,F(t))/Wann injektiv/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 17,
+      "exercise_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Kurve/Aufgabe",
+      "solution_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Kurve/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 94478,
+      "revid": 1096769,
+      "parentid": 1030269,
+      "timestamp": "2026-06-15T09:43:55Z",
+      "mediawiki_sha1": "214bcfeb16c1e7083aac280be534454e1610e47e",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1096769",
+      "xml_file": "solution-ex17.xml",
+      "xml_bytes": 4311,
+      "xml_sha256": "52629fcf93380dad30329e4c825b7e3e46e97090f81f76c8016785e1e6181dfd",
+      "html_file": "solution-ex17.html",
+      "html_bytes": 7034,
+      "html_sha256": "d36539ca40b8614b30964e7d02b33f6d294c55b4605a015b12bd9efe0d8b5ba2",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 18,
+      "exercise_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Ebene/Aufgabe",
+      "solution_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Ebene/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 94482,
+      "revid": 1024155,
+      "parentid": 987435,
+      "timestamp": "2025-08-10T01:49:29Z",
+      "mediawiki_sha1": "a1c98e250c1585267f9e8e3e89468be1da6ffa06",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1024155",
+      "xml_file": "solution-ex18.xml",
+      "xml_bytes": 4211,
+      "xml_sha256": "7c9393bdb58597777947c787a1cbc3f1be0362497389959eb8ef214997d72470",
+      "html_file": "solution-ex18.html",
+      "html_bytes": 6634,
+      "html_sha256": "60272901bfe534e371fcb54c2f61896c07aaaf2b375decb4d8725337039c07a7",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 19,
+      "exercise_title": "Monomiale Abbildung/s,t^2/s,t/xy ist z^2/Aufgabe",
+      "solution_title": "Monomiale Abbildung/s,t^2/s,t/xy ist z^2/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 20,
+      "exercise_title": "Polynomring/Homogenisierung und Dehomogenisierung/Aufgabe",
+      "solution_title": "Polynomring/Homogenisierung und Dehomogenisierung/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 21,
+      "exercise_title": "Polynomring/Dehomogenisierung/Gleichheit und gleicher Grad/Aufgabe",
+      "solution_title": "Polynomring/Dehomogenisierung/Gleichheit und gleicher Grad/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 168400,
+      "revid": 1067921,
+      "parentid": 0,
+      "timestamp": "2026-01-30T13:19:32Z",
+      "mediawiki_sha1": "49c53520a95be244d338d0a512f1edf439b360ac",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1067921",
+      "xml_file": "solution-ex21.xml",
+      "xml_bytes": 4002,
+      "xml_sha256": "45753e5a180b85c1ec6f78c46079fed67710a98019781321f57a15019ee5e7c8",
+      "html_file": "solution-ex21.html",
+      "html_bytes": 6406,
+      "html_sha256": "de7e32020057dd88c45b4c285a299a5fcd0be46be83956f73a82a30dd44ddcb4",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 22,
+      "exercise_title": "Polynomring/Homogenisierung/Multiplikativ/Aufgabe",
+      "solution_title": "Polynomring/Homogenisierung/Multiplikativ/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 96654,
+      "revid": 1096509,
+      "parentid": 1090221,
+      "timestamp": "2026-06-15T09:01:45Z",
+      "mediawiki_sha1": "8dd5e6eeedb7566c1300aa7e3c59f73add9a8cea",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1096509",
+      "xml_file": "solution-ex22.xml",
+      "xml_bytes": 4594,
+      "xml_sha256": "52105a2c7b7d5e018aaaf7c90c3727baed520283abededadee20ec3f1f09051b",
+      "html_file": "solution-ex22.html",
+      "html_bytes": 11920,
+      "html_sha256": "e5ae54f6e5660456b541c7ead26da26005e84cec692e5c8fa96bf637b6528d74",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 23,
+      "exercise_title": "Polynomring/Dehomogenisierung/Einsetzungshomomorphismus/Aufgabe",
+      "solution_title": "Polynomring/Dehomogenisierung/Einsetzungshomomorphismus/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 24,
+      "exercise_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Aufgabe",
+      "solution_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 25,
+      "exercise_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Beispiel/1/Aufgabe",
+      "solution_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Beispiel/1/Aufgabe/Lösung",
+      "has_public_solution": true,
+      "pageid": 94517,
+      "revid": 1089645,
+      "parentid": 984583,
+      "timestamp": "2026-05-31T11:01:52Z",
+      "mediawiki_sha1": "02694dd9ed7e4a48e105faed799b03a34cbf4200",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1089645",
+      "xml_file": "solution-ex25.xml",
+      "xml_bytes": 3748,
+      "xml_sha256": "78371595f7261a42412ac87bb79b538c1e4fd10157d50d87617f53486dfd6789",
+      "html_file": "solution-ex25.html",
+      "html_bytes": 4683,
+      "html_sha256": "19b98db169f2cf6f708bde1eff8ae2f8d018648b268f19e7216a94c3a7f278c8",
+      "html_source": "action_parse_text_fallback"
+    },
+    {
+      "exercise_number": 26,
+      "exercise_title": "Ebene Kurve/y^2 ist x^3+x^2/Flächeninhalt/Aufgabe",
+      "solution_title": "Ebene Kurve/y^2 ist x^3+x^2/Flächeninhalt/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 27,
+      "exercise_title": "Affine ebene Kurven/t^2+t^3 und 2t^2-t^4/Finde Gleichung/Aufgabe",
+      "solution_title": "Affine ebene Kurven/t^2+t^3 und 2t^2-t^4/Finde Gleichung/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 28,
+      "exercise_title": "Rationale Parametrisierung/Gleichung/2/Aufgabe",
+      "solution_title": "Rationale Parametrisierung/Gleichung/2/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 29,
+      "exercise_title": "Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe",
+      "solution_title": "Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe/Lösung",
+      "has_public_solution": false
+    },
+    {
+      "exercise_number": 30,
+      "exercise_title": "Ebene algebraische Kurven/Irreduzibles Polynom/Unendliche Nullstellenmenge/Ist irreduzibel/Aufgabe",
+      "solution_title": "Ebene algebraische Kurven/Irreduzibles Polynom/Unendliche Nullstellenmenge/Ist irreduzibel/Aufgabe/Lösung",
+      "has_public_solution": false
+    }
+  ]
+}

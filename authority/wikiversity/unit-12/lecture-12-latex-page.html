@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/1033011"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/0"/><meta property="mw:revisionSHA1" content="5mpvl81u97hs35l9k2lrqpklqf8f5gh"/><meta property="dc:modified" content="2025-08-11T13:52:36Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="165965"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_12/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 12/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="5a6f29df-9f26-11f1-8f70-09089d849f77"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{12}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>\epigraph { Zum Sehen geboren, Zum Schauen bestellt, } { Johann Wolfgang von Goethe }<br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Das $K$-Spektrum}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Alexander_Grothendieck} {jpg} }<br/>\end{center} <br/>\bildtext {<a rel="mw:WikiLink/Interwiki" href="https://de.wikipedia.org/wiki/Alexander%20Grothendieck" title="w:Alexander Grothendieck" class="extiw">Alexander Grothendieck (1928-2014)</a>} }<br/><br/>\bildlizenz { Alexander Grothendieck.jpg } {Konrad Jacobs} {} {Commons} {CC-BY-SA 2.0} {Quelle=Oberwolfach Photo Collection (<a rel="mw:ExtLink nofollow" href="http://owpdb.mfo.de/detail?photoID=1452)}" class="external free">http://owpdb.mfo.de/detail?photoID=1452)}</a><br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Wie hängen affin-algebraische Mengen und deren Koordinatenringe zusammen? Hier kann man nur für nicht-endliche Grundkörper gehaltvolle Antworten erwarten, da es im endlichen Fall zu wenige Punkte gibt. Eine befriedigende Theorie erfordert sogar, dass man sich auf algebraisch abgeschlossene Körper beschränkt, oder aber
+\zusatzgs {das ist der Standpunkt der von Alexander Grothendieck entwickelten Schematheorie} {}
+nicht nur $K$-Punkte betrachtet, sondern generell maximale Ideale und Primideale als Punkte mitberücksichtigt.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Eine erste wichtige Frage ist folgende: Eine $K$-Algebra $R$ von endlichem Typ hat mehrere, in aller Regel gleichberechtigte Darstellungen als Restklassenring einer Polynomalgebra, sagen wir
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ K[X_1  , \ldots , X_n]/ {\mathfrak a} 
+}<br/>{ \cong} { R
+}<br/>{ \cong} { K[X_1 , \ldots , X_m]/  {\mathfrak b} 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Dazu gehören die beiden Nullstellengebilde
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V( {\mathfrak a} ) 
+}<br/>{ \subseteq }{  { {\mathbb A}_{ K }^{ n  } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V( {\mathfrak b} ) 
+}<br/>{ \subseteq }{  { {\mathbb A}_{ K }^{ m  } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Wie hängen diese beiden Nullstellengebilde zusammen?</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{ }<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten den Polynomring in einer Variablen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R
+}<br/>{ = }{ K[T]
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Ihm entspricht zunächst die affine Gerade <br/>\mathl{{\mathbb A}^{1}_{K}}{.} Man kann $R$ aber auch auf ganz verschiedene Arten als Restklassenring einer Polynomalgebra in mehreren Variablen erhalten. Es sei beispielsweise
+<br/>\mathbed {a \in K} {} <br/> {a \neq 0} {} <br/> {} {} {} {;}
+wir betrachten den Restklassenring <br/>\mathl{K[X,Y]/(aY+bX)}{.} Dieser Ring ist
+\zusatzklammer {als $K$-Algebra} {} {}
+isomorph zu $R$, wie die Abbildung
+<br/>\mathdisp {K[X,Y]/(aY+bX) \longrightarrow K[T],\,<br/> \mathdisplaybruch X \longmapsto T, \, Y \longmapsto -\frac{b}{a} T} { , }<br/>
+zeigt. Das zugehörige Nullstellengebilde
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V(aY+bX)
+}<br/>{ \subset }{ {\mathbb A}^{2}_{K} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist einfach die Gerade in der affinen Ebene, die durch die Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ - { \frac{  b }{ a } } X
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+beschrieben wird.</p>
+
+<p>Eine weitere Möglichkeit, den Polynomring in einer Variablen als Restklassenring darzustellen, ist durch <br/>\mathl{K[X,Y]/(Y-P(X))}{} gegeben, wobei <br/>\mathl{P(X)}{} ein beliebiges Polynom in der einen Variablen $X$ ist. Der Ringhomomorphismus
+<br/>\mathdisp {K[X,Y]/(Y-P(X)) \longrightarrow K[T],\, <br/> \mathdisplaybruch X \longmapsto T, \, Y \longmapsto P(T)} { , }<br/>
+zeigt, dass wieder ein Isomorphismus zum Polynomring in einer Variablen vorliegt. Das zugehörige Nullstellengebilde ist einfach der 
+\definitionsverweis {Graph}{}{}
+des Polynoms <br/>\mathl{P(X)}{.}</p>
+
+<p><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Lineline} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Lineline.jpg } {Astur1} {} {Commons} {PD} {}<br/> <br/></p>
+
+<p><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Lineair-cartesiaans} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Lineair-cartesiaans.png } {MADe} {} {nl.wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p>
+
+<p><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Polynomialdeg5} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Polynomialdeg5.png } {} {Derbeth} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Der Punkt an diesem Beispiel ist, dass alle drei geometrischen Objekte die Nullstellenmengen zu verschiedenen Restklassendarstellungen von <br/>\mathl{K[T]}{} sind. Vom Standpunkt der algebraischen Geometrie sind das drei gleichberechtigte Darstellungen der affinen Geraden, auch wenn sie unterschiedlich \anfuehrung{aussehen}{.} In der algebraischen Geometrie muss man so hinschauen, dass sie gleich aussehen. Was man sieht, sind nur verschiedene Einbettungen des \anfuehrung{eigentlichen und wahren}{} geometrischen Objektes, das zu einer $K$-Algebra intrinsisch gehört, nämlich das $K$-Spektrum.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Zu einer kommutativen
+$K$-\definitionsverweis {Algebra}{}{}
+$R$ von endlichem Typ bezeichnet man die Menge der
+$K$-\definitionsverweis {Algebrahomomorphismen}{}{}
+<br/>\mathdisp {\operatorname{Hom}_K(R,K)} {  }<br/>
+als das 
+\definitionswortpraemath {K}{ Spektrum }{} 
+von $R$. Es wird mit <br/>\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} bezeichnet.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die  Elemente in einem $K$-Spektrum <br/>\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{} betrachten wir als Punkte und bezeichnen sie üblicherweise mit $P$, obwohl es definitionsgemäß Abbildungen sind, nämlich $K$-Algebrahomomorphismen von $R$ nach $K$. Für ein Ringelement
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+schreiben wir dann auch einfach <br/>\mathl{f(P)}{}
+\zusatzklammer {statt \mathlk{P(f)}{}} {} {}
+für den Wert von $f$ unter dem mit $P$ bezeichneten Ringhomomorphismus
+\zusatzklammer {es ist nicht unüblich, einen Punkt als eine Auswertung von Funktionen anzusehen, die in einer gewissen Umgebung des Punktes definiert sind} {} {.}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Das $K$-Spektrum wird wieder mit einer \stichwort {Zariski-Topologie} {} versehen, wobei zu einem Ideal
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a} 
+}<br/>{ \subseteq }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+\zusatzklammer {oder zu einer beliebigen Teilmenge aus $R$} {} {}
+die Teilmenge
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ V( {\mathfrak a} )
+}<br/>{ =} { \left\{  P \in K\!-\!\operatorname{Spek}\, \left(  R  \right)   \mid  f(P) = 0  \text{ für alle } f \in {\mathfrak a}         \right\}  
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+als abgeschlossen erklärt wird. In der Tat wird dadurch eine Topologie definiert, siehe
+<a rel="mw:WikiLink" href="./Endlich_erzeugte_K-Algebren/K-Spektrum_mit_Zariski-Topologie/Ist_Topologie/Aufgabe" title="Endlich erzeugte K-Algebren/K-Spektrum mit Zariski-Topologie/Ist Topologie/Aufgabe">Aufgabe 12.8</a>.
+Die komplementären offenen Mengen werden mit $D( {\mathfrak a} )$ bezeichnet.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Polynomring über Körper/Punkte im affinen Raum und K-Algebra-Homomorphismen/Identifizierung/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und sei <br/>\mathl{K[X_1 , \ldots ,  X_n]}{} der 
+\definitionsverweis {Polynomring}{}{}
+in $n$ Variablen.}<br/>\faktfolgerung {Dann stehen die
+$K$-\definitionsverweis {Algebrahomomorphismen}{}{}
+von <br/>\mathl{K[X_1 , \ldots ,  X_n]}{} nach $K$ in natürlicher Weise in Bijektion mit den Punkten aus dem 
+\definitionsverweis {affinen Raum}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{ = }{ K^n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}}<br/>\faktzusatz {und zwar entspricht dem Punkt <br/>\mathl{\left(  a_1 , \ldots ,  a_n  \right)}{} der 
+\definitionsverweis {Einsetzungshomomorphismus}{}{}
+<br/>\mathl{X_i \mapsto a_i}{.} Mit anderen Worten,
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ K\!-\!\operatorname{Spek}\, \left(   K[X_1 , \ldots , X_n]   \right) 
+}<br/>{ =} { { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Ein $K$-Algebrahomomorphismus ist stets durch ein $K$-Algebra-Er\-zeugendensystem festgelegt. D.h. die Werte an den Variablen $X_i$ legen einen $K$-Algebrahomomorphismus von <br/>\mathl{K[X_1 , \ldots , X_n]}{} nach $K$ fest. Ein solcher Einsetzungshomomorphismus ist durch <br/>\mathl{X_i \mapsto a_i}{} definiert. Zugleich ist hier jede Vorgabe von Werten <br/>\mathl{\left(  a_1 , \ldots , a_n  \right)}{} erlaubt.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Das $K$-Spektrum zur $K$-Algebra $K$ besteht einfach aus einem Punkt, und zwar ist die Identität
+\maabb {} { K } { K
+} {} 
+der einzige $K$-Algebrahomo\-morphismus von $K$ nach $K$. Es gibt im Allgemeinen weitere Körperautomorphismen auf $K$, doch diese sind keine $K$-Algebrahomomorphismen.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Entscheidend ist nun der folgende Satz, der eine bijektive Beziehung zwischen dem $K$-Spektrum von $R$ und dem Nullstellengebilde stiftet, das von einer Restklassendarstellung von $R$ herrührt.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Endlich erzeugte K-Algebren/K-Spektrum/Isomorph zu Einbettung/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und sei $R$ eine 
+\definitionsverweis {endlich erzeugte}{}{}
+kommutative
+$K$-\definitionsverweis {Algebra}{}{}
+mit
+$K$-\definitionsverweis {Spektrum}{}{}
+<br/>\mathl{K\!-\!\operatorname{Spek}\, \left(   R   \right)}{.} Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R
+}<br/>{ = }{ K[X_1 , \ldots ,  X_n]/{\mathfrak a}
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+eine 
+\definitionsverweis {Restklassendarstellung}{}{}
+von $R$ mit dem zugehörigen Restklassenhomomorphismus 
+\maabbdisp {\varphi} { K[X_1 , \ldots ,  X_n] } { R
+} {}
+und dem 
+\definitionsverweis {Nullstellengebilde}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V( {\mathfrak a} )
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktfolgerung {Dann stiftet die 
+\definitionsverweis {Abbildung}{}{}
+\maabbeledisp {} { K\!-\!\operatorname{Spek}\, \left(   R   \right)  } { { {\mathbb A}_{  K }^{  n   } } 
+} { P } { P \circ \varphi
+} {}
+eine 
+\definitionsverweis {Bijektion}{}{}
+zwischen <br/>\mathl{K\!-\!\operatorname{Spek}\, \left(   R   \right)}{} und <br/>\mathl{V( {\mathfrak a} )}{,} die bezüglich der 
+\definitionsverweis {Zariski-Topologie}{}{}
+ein 
+\definitionsverweis {Homöomorphismus}{}{}
+ist.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Zunächst ist die angegebene Abbildung wohldefiniert, da die Hintereinanderschaltung
+<br/>\mathdisp {P \circ \varphi<span typeof="mw:DisplaySpace"> </span>: K[X_1 , \ldots , X_n] \stackrel{\varphi}{\longrightarrow} K[X_1 , \ldots , X_n]/ {\mathfrak a}  \cong R <br/> \mathdisplaybruch \stackrel{P}{\longrightarrow} K} {  }<br/>
+einen $K$-Algebrahomomorphismus vom Polynomring nach $K$ definiert, der nach
+<a rel="mw:WikiLink" href="./Polynomring_über_Körper/Punkte_im_affinen_Raum_und_K-Algebra-Homomorphismen/Identifizierung/Fakt" title="Polynomring über Körper/Punkte im affinen Raum und K-Algebra-Homomorphismen/Identifizierung/Fakt">Lemma 12.3</a>
+der Einsetzungshomomorphismus zu <br/>\mathl{(a_1 , \ldots , a_n)}{} ist und mit dem entsprechenden Punkt des affinen Raumes identifiziert werden kann
+\zusatzklammer {und zwar ist
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ a_i
+}<br/>{ = }{ P(\varphi(X_i))
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {.}</p>
+
+<p>Da der Homomorphismus <br/>\mathl{P \circ \varphi}{} durch $R$ faktorisiert, wird das Ideal ${\mathfrak a}$ auf $0$ abgebildet. D.h. der Bildpunkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P \circ \varphi
+}<br/>{ = }{ (a_1 , \ldots , a_n)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+liegt in <br/>\mathl{V( {\mathfrak a} )}{,} und es liegt eine Abbildung
+\maabbeledisp {} { K\!-\!\operatorname{Spek}\, \left(   R   \right) } { V({\mathfrak a} ) \subseteq { {\mathbb A}_{  K }^{  n   } } 
+} { P } { P \circ \varphi
+} {}
+vor, die wir als bijektiv nachweisen müssen.</p>
+
+<p>Es seien dazu
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P_1, P_2
+}<br/>{ \in }{ K\!-\!\operatorname{Spek}\, \left(  R  \right) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zwei verschiedene Punkte. Es liegen also zwei verschiedene $K$-Algebrahomomorphismen vor, und da ein $K$-Algebraho\-momorphismus auf einem $K$-Algebra-Erzeugendensystem festgelegt ist, müssen sich die beiden auf mindestens einer Variablen unterscheiden. Dann ist aber auch der Wert der zugehörigen Koordinate verschieden, d.h. <br/>\mathl{P_1 \circ \varphi  \neq P_2 \circ \varphi}{,} und die Abbildung ist injektiv.</p>
+
+<p>Zur Surjektivität sei ein Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (a_1 , \ldots ,  a_n) 
+}<br/>{ \in }{ V( {\mathfrak a} )
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+vorgegeben. Der zugehörige $K$-Algebrahomomorphismus
+\maabbeledisp {} { K[X_1 , \ldots ,  X_n] } { K
+} { X_i } { a_i
+} {,}
+annulliert daher jedes
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ {\mathfrak a} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,} 
+sodass dieser Ringhomomorphismus durch <br/>\mathl{K[X_1 , \ldots , X_n]/ {\mathfrak a}}{} faktorisiert. Dieser Ringhomomorphismus ist das gesuchte Urbild aus <br/>\mathl{K\!-\!\operatorname{Spek}\, \left(  R  \right)}{.}</p>
+
+<p>Zur Topologie muss man einfach nur beachten, dass für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ \in }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und ein Urbild
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \tilde{G} 
+}<br/>{ \in }{ K[X_1 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und einen Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ K\!-\!\operatorname{Spek}\, \left(  R  \right) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+mit Bildpunkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \tilde{P}
+}<br/>{ = }{ P \circ \varphi
+}<br/>{ \in }{ V( {\mathfrak a} )
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+gilt:
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ G(P) 
+}<br/>{ =} { P(G)
+}<br/>{ =} { P(\varphi(\tilde{G}))
+}<br/>{ =} { ( P \circ \varphi ) (\tilde{G})
+}<br/>{ =} { \tilde{G} (\tilde{P}) 
+}<br/>}
+{}{}{,}
+sodass auch die Nullstellen übereinstimmen.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Dieser Satz besagt also, dass man jedes $K$-Spektrum einer endlich erzeugten $K$-Algebra $R$ mit einer Zariski-abgeschlossenen Menge eines <br/>\mathl{{ {\mathbb A}_{ K }^{ n  } }}{} identifizieren kann. Man spricht von einer \stichwort {abgeschlossenen Einbettung} {.}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Endlich erzeugte K-Algebren/Nullenstellengebilde zu verschiedenen Restklassendarstellungen sind isomorph/über K-Spektrum/Fakt}<br/>{Korollar}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und $R$ eine 
+\definitionsverweis {endlich erzeugte}{}{}
+kommutative
+$K$-\definitionsverweis {Algebra}{}{}
+mit zwei 
+\definitionsverweis {Restklassendarstellungen}{}{}
+<br/>\mathdisp {R \cong K[X_1 , \ldots , X_n]/ {\mathfrak a} \text{   und } R \cong K[X_1 , \ldots , X_m]/{\mathfrak b}} {  }<br/>
+mit zugehörigen 
+\definitionsverweis {Nullstellengebilden}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V({\mathfrak a})
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V({\mathfrak b})
+}<br/>{ \subseteq }{ { {\mathbb A}_{  K }^{  m   } }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktfolgerung {Dann sind die beiden Nullstellengebilde
+\mathkor {} {V({\mathfrak a})} {und} {V({\mathfrak b})} {}
+mit ihrer induzierten 
+\definitionsverweis {Zariski-Topologie}{}{} 
+\definitionsverweis {homöomorph}{}{}
+zueinander.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Nach
+<a rel="mw:WikiLink" href="./Endlich_erzeugte_K-Algebren/K-Spektrum/Isomorph_zu_Einbettung/Fakt" title="Endlich erzeugte K-Algebren/K-Spektrum/Isomorph zu Einbettung/Fakt">Satz 12.5</a>
+sind beide Nullstellengebilde homöomorph zu <br/>\mathl{K\!-\!\operatorname{Spek}\, \left(   R   \right)}{,} sodass sie auch untereinander homöomorph sein müssen.</p>
+</div>
+
+}</div><span about="#mwt1"> 
+
+</span><p about="#mwt1">Wenn $R$ der Nullring ist, so ist das $K$-Spektrum davon leer. Wenn $K$ nicht algebraisch abgeschlossen ist, so kann das Spektrum auch zu anderen Ringen leer sein. Wenn aber $K$ ein algebraisch abgeschlossener Körper ist, so ist bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+das Spektrum auch nicht leer. In der Tat gilt unter dieser Voraussetzung wieder ein Hilbertscher Nullstellensatz, siehe
+<a rel="mw:WikiLink" href="./K-Spektrum/Algebraisch_abgeschlossen/Hilbertscher_Nullstellensatz/Aufgabe" title="K-Spektrum/Algebraisch abgeschlossen/Hilbertscher Nullstellensatz/Aufgabe">Aufgabe 12.10</a>.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Das K-Spektrum als Funktor}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affine Varietäten/K-Spektren als Funktor/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und seien $R$ und $S$ kommutative
+$K$-\definitionsverweis {Algebren von endlichem Typ}{}{.}
+Es sei
+\maabb {\varphi} { R } { S
+} {}
+ein
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{.}}<br/>\faktfolgerung {Dann induziert dies eine Abbildung
+\maabbeledisp {\varphi^*} { K\!-\!\operatorname{Spek}\, \left(   S   \right) } { K\!-\!\operatorname{Spek}\, \left(   R   \right) 
+} { P } { P \circ \varphi
+} {.}
+Diese Abbildung ist 
+\definitionsverweis {stetig}{}{}
+bezüglich der 
+\definitionsverweis {Zariski-Topologie}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die Existenz der Abbildung ist klar, dem $K$-Algebrahomomorphis\-mus
+\maabbdisp {P} { S } { K
+} {}
+wird einfach die Hintereinanderschaltung
+<br/>\mathdisp {R \stackrel{\varphi}{\longrightarrow} S \stackrel{P}{\longrightarrow} K} {  }<br/>
+zugeordnet. Das Urbild der offenen Menge
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ D(f) 
+}<br/>{ \subseteq }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+ist dabei
+<br/>\mavergleichskettealignhandlinks<br/>{\vergleichskettealignhandlinks<br/>{ (\varphi^*)^{-1} (D(f) )
+}<br/>{ =} { \left\{ P \in K\!-\!\operatorname{Spek}\, \left(  S  \right)   \mid  \varphi^*(P) \in D(f)         \right\} 
+}<br/>{ =} { \left\{ P \in K\!-\!\operatorname{Spek}\, \left(  S  \right)   \mid   P \circ \varphi  \in D(f)         \right\} 
+}<br/>{ =} { \left\{ P \in K\!-\!\operatorname{Spek}\, \left(  S  \right)   \mid   ( P \circ \varphi) (f) \neq 0         \right\} 
+}<br/>{ =} { \left\{ P \in K\!-\!\operatorname{Spek}\, \left(  S  \right)   \mid   P ( \varphi(f)) \neq 0         \right\} 
+}<br/>}
+{<br/>\vergleichskettefortsetzungalign<br/>{ =} { D( \varphi(f))
+}<br/>{ } {}<br/>{ } {}<br/>{ } {}<br/>}
+{}{.}
+Daher sind generell Urbilder von offenen Mengen wieder offen und die Abbildung ist stetig.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Die in
+<a rel="mw:WikiLink" href="./Affine_Varietäten/K-Spektren_als_Funktor/Fakt" title="Affine Varietäten/K-Spektren als Funktor/Fakt">Satz 12.7</a>
+eingeführte Abbildung $\varphi^*$ nennt man die \stichwort {Spektrumsabbildung} {} zu $\varphi$.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Endlich erzeugte K-Algebren/K-Spektren als Funktor/Verschiedene Homomorphismen/Fakt}<br/>{Proposition}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und zu einem
+$K$-\definitionsverweis {Algebrahomo\-morphismus}{}{}
+\maabb {\varphi} { R } { S
+} {}
+zwischen
+$K$-\definitionsverweis {Algebren von endlichem Typ}{}{}
+sei $\varphi^*$ die zugehörige 
+\definitionsverweis {Spektrumsabbildung}{}{.}
+Dann gelten folgende Aussagen.
+\aufzaehlungfuenf{Zu einem $K$-Algebrahomomorphismus
+\maabb {P} { R } { K
+} {} 
+ist die induzierte Spektrumsabbildung $P^*$ einfach die Abbildung, die dem einzigen Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \{ \operatorname{id}\}
+}<br/>{ = }{ K\!-\!\operatorname{Spek}\, \left(   K   \right)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+den Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ K\!-\!\operatorname{Spek}\, \left(   R   \right)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zuordnet.
+}{Der durch ein Element
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+definierte 
+\definitionsverweis {Einsetzungshomomorphismus}{}{}
+\maabbeledisp {\varphi} { K[T] } { R
+} { T } { F
+} {,}
+induziert die Spektrumsabbildung
+\maabbeledisp {\varphi^*} { K\!-\!\operatorname{Spek}\, \left(   R   \right)  } { K\!-\!\operatorname{Spek}\, \left(  K[T]   \right) = {\mathbb A}^{1}_{ K } 
+} { P } { F(P)
+} {.}
+}{Zu einer 
+\definitionsverweis {surjektiven}{}{}
+Abbildung
+\maabb {\varphi} { R } { S
+} {}
+von $K$-Algebren von endlichem Typ ist die zugehörige Spektrumsabbildung
+\maabbdisp {\varphi^*} { K\!-\!\operatorname{Spek}\, \left(   S   \right) } { K\!-\!\operatorname{Spek}\, \left(   R   \right)
+} {}
+eine 
+\definitionsverweis {abgeschlossene Einbettung}{}{,}
+und zwar ist das Bild gleich <br/>\mathl{V(\ker (\varphi))}{.}
+}{Die zu einer surjektiven Abbildung
+\maabb {} { K[X_1 , \ldots , X_n] } { S
+} {} 
+gehörende Spektrumsabbildung
+\maabbdisp {\varphi^*} { K\!-\!\operatorname{Spek}\, \left(   S   \right) } { K\!-\!\operatorname{Spek}\, \left(   K[X_1 , \ldots , X_n]   \right) \cong { {\mathbb A}_{  K }^{  n   } } 
+} {}
+stimmt mit der in
+<a rel="mw:WikiLink" href="./Endlich_erzeugte_K-Algebren/K-Spektrum/Isomorph_zu_Einbettung/Fakt" title="Endlich erzeugte K-Algebren/K-Spektrum/Isomorph zu Einbettung/Fakt">Satz 12.5</a>
+definierten Abbildung überein.
+}{Es seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_i
+}<br/>{ \in }{ K[X_1 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ i
+}<br/>{ = }{ 1 , \ldots , m
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+und es sei
+\maabbeledisp {\varphi} { K[Y_1 , \ldots , Y_m] } { K[X_1 , \ldots , X_n]
+} { Y_i } { F_i
+} {,}
+der zugehörige 
+\definitionsverweis {Einsetzungshomomorphismus}{}{.}
+Dann stimmt die
+\definitionsverweis {Spektrumsabbildung}{}{}
+\maabbdisp {\varphi^*} { { {\mathbb A}_{  K }^{  n   } } = K\!-\!\operatorname{Spek}\, \left(   K[X_1 , \ldots , X_n]   \right)  } { { {\mathbb A}_{  K }^{  m   } } = K\!-\!\operatorname{Spek}\, \left(   K[Y_1 , \ldots , Y_m]   \right) 
+} {}
+\zusatzklammer {über die Identifizierung aus
+<a rel="mw:WikiLink" href="./Polynomring_über_Körper/Punkte_im_affinen_Raum_und_K-Algebra-Homomorphismen/Identifizierung/Fakt" title="Polynomring über Körper/Punkte im affinen Raum und K-Algebra-Homomorphismen/Identifizierung/Fakt">Lemma 12.3</a>} {} {}
+mit der direkten 
+\definitionsverweis {polynomialen Abbildung}{}{}
+<br/>\mathdisp {\left(  x_1 , \ldots , x_n  \right) \longmapsto \left(  F_1 \left(  x_1 , \ldots , x_n  \right) , \ldots , F_m \left(  x_1 , \ldots , x_n  \right)  \right)} {  }<br/>
+überein.
+}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>(1) Dies folgt aus
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ 
+\operatorname{Id} \circ P
+}<br/>{ = }{ P
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>(2) Unter der hintereinandergeschalteten Abbildung
+<br/>\mathdisp {K[T] \stackrel{\varphi }{\longrightarrow} R \stackrel{P}{\longrightarrow} K} {  }<br/>
+wird $T$ auf
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P(F)
+}<br/>{ = }{ F(P)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+geschickt.</p>
+
+<p>(3) beruht auf ähnlichen Betrachtungen, wie sie im Beweis zu
+<a rel="mw:WikiLink" href="./Endlich_erzeugte_K-Algebren/K-Spektrum/Isomorph_zu_Einbettung/Fakt" title="Endlich erzeugte K-Algebren/K-Spektrum/Isomorph zu Einbettung/Fakt">Satz 12.5</a>
+durchgeführt wurden. Das zeigt auch (4). Zu (5) siehe
+<a rel="mw:WikiLink" href="./Polynomring/K-Spektrum/Polynomiale_Abbildung/Aufgabe" title="Polynomring/K-Spektrum/Polynomiale Abbildung/Aufgabe">Aufgabe 12.18</a>.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Die unter (2) formulierte Aussage besagt insbesondere, dass man die Elemente des Ringes $R$ als Funktionen auf dem $K$-Spektrum <br/>\mathl{K\!-\!\operatorname{Spek}\, \left(   R   \right)}{} nach ${\mathbb A}^{1}_{ K }$ auffassen kann. Wir haben also ein geometrisches Objekt eingeführt, mit dem man Ringelemente als Funktionen realisieren kann. </p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Weitere Eigenschaften des K-Spektrums}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affine Varietäten/K-Spektren/Polynomring und affine Gerade/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein Körper und $R$ eine endlich erzeugte kommutative $K$-Algebra.}<br/>\faktfolgerung {Dann ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ K\!-\!\operatorname{Spek}\, \left(  R[X]   \right) 
+}<br/>{ \cong} { K\!-\!\operatorname{Spek}\, \left(  R   \right)  \times {\mathbb A}^{1}_{ K } 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Ein $K$-Algebrahomomorphismus
+\maabb {} {R[T] } { K
+} {}
+induziert einen $K$-Al\-gebrahomomorphismus 
+\maabb {} { R } { K
+} {,}
+und zugleich wird $T$ auf ein bestimmtes Element
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a
+}<br/>{ \in }{ K
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+abgebildet. Diese Daten definieren aber auch einen eindeutig bestimmten $K$-Algebrahomomorphismus
+\maabb {} {R[T] } { K
+} {.}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Achtung: Die vorstehende Aussage liefert nur eine natürliche Bijektion auf der Punktebene. Würde man die Produktmenge rechts mit der Produkttopologie versehen, so würde hier keine Homöomorphie mit der Zariski-Topologie links vorliegen. Insbesondere ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathbb A}^{2}_{K}
+}<br/>{ = }{ {\mathbb A}^{1}_{K} \times {\mathbb A}^{1}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+aber die Zariski-Topologie der affinen Ebene ist nicht die Produkt-Topologie der affinen Geraden mit sich selbst.</p><span about="#mwt1">
+
+</span><p about="#mwt1">\inputbemerkung<br/>{}<br/>{
+Sind
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X
+}<br/>{ = }{ K\!-\!\operatorname{Spek}\, \left(   R   \right) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ K\!-\!\operatorname{Spek}\, \left(   S   \right) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+so  lässt sich die Produktmenge <br/>\mathl{X \times Y}{} ebenfalls als $K$-Spektrum einer $K$-Algebra darstellen, und zwar ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ X \times Y
+}<br/>{ \cong} { K\!-\!\operatorname{Spek}\, \left(   R \otimes_{ K } S  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+wobei $\otimes$ das Tensorprodukt bezeichnet. Wir werden darauf nicht im Einzelnen eingehen. Um aber doch ein Gefühl dafür zu geben, betrachten wir
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R
+}<br/>{ = }{ K[X_1 , \ldots , X_n]/ {\mathfrak a}
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ S
+}<br/>{ = }{ K[Y_1 , \ldots ,  Y_m]/  {\mathfrak b}
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Dann ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ R \otimes_{ K } S
+}<br/>{ \cong} { K[X_1  , \ldots ,  X_n,Y_1 , \ldots , Y_m]/({\mathfrak a} +{\mathfrak b} )
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+\zusatzklammer {bei dieser ad hoc Definition ist nicht klar, dass sie unabhängig von den Darstellungen als Restklassenring ist} {} {.}
+}
+
+ <link rel="mw:PageProp/Category" href="./Kategorie:Latexseite"/></p></section></body></html>

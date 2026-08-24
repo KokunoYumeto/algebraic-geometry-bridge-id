@@ -1,0 +1,1401 @@
+\setcounter{section}{6}
+
+
+
+
+
+
+  \zwischenueberschrift{Ebene polynomiale Parametrisierungen}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Krivka_parametricky} {png} }
+\end{center}
+\bildtext {Eine parametrisierte Kurve kann man sich als einen Bewegungsablauf vorstellen.} }
+\bildlizenz { Krivka parametricky.png } {} {Beny} {cs.wikipedia.org} {PD} {}
+
+
+
+
+Wir betrachten jetzt Abbildungen
+\maabb {\varphi} { {\mathbb A}^{1}_{K}  } {  {\mathbb A}^{2}_{K}
+} {,}
+die durch zwei Polynome
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{  K[T]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in einer Variablen gegeben sind. Das Bild einer solchen Abbildung liegt in einer affin-algebraischen Kurve, wie der folgende Satz zeigt. Man spricht auch von \stichwort {parametrisierten Kurven} {} oder genauer von \stichwort {polynomial parametrisierten Kurven} {.} Es konkurrieren hier zwei Standpunkte, wie man eine algebraische Kurve beschreiben kann. Die Punkte einer durch eine Kurvengleichung gegebenen Kurve sind nur implizit gegeben. Man kann zwar zu jedem Punkt der Ebene leicht überprüfen, ob er auf der Kurve liegt, es ist aber im Allgemeinen schwierig, Punkte auf der Kurve zu finden oder explizit anzugeben. Eine parametrisierte Kurve ist hingegen explizit gegeben, zu jedem Punkt der affinen Geraden kann man den Bildpunkt einfach ausrechnen und erhält so die Kurvenpunkte explizit. Es ist aber nicht jede algebraische Kurve durch Polynome parametrisierbar.
+
+
+
+
+
+\inputfaktbeweis
+{Ebene polynomiale Parametrisierungen/Kurvengleichung/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $K$ ein Körper und seien
+
+\mavergleichskette
+{\vergleichskette
+{P,Q
+}
+{ \in }{ K[T]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Polynome.}
+\faktfolgerung {Dann gibt es ein Polynom
+
+\mathbed {F \in K[X,Y]} {}
+ {F \neq 0} {}
+ {} {} {} {,}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ F(P,Q)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+D.h. das Bild einer polynomial parametrisierten Kurve liegt in einer ebenen algebraischen Kurve
+
+\mavergleichskette
+{\vergleichskette
+{ C
+}
+{ = }{ V(F)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktzusatz {Wenn $K$ unendlich ist und
+\mathl{(P,Q)}{} nicht beide konstant sind, so ist der Zariski-Abschluss des Bildes eine
+\definitionsverweis {irreduzible}{}{}
+Kurve $C$.}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es seien $d$ und $e$ die Grade von $P$ und $Q$. Wir berechnen die Monome
+
+\mathdisp {P^{i}Q^{j}} { . }
+
+Dies sind Polynome in $T$ vom Grad
+\mathl{di+ej}{.} Zu
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \leq }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \leq }{ m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es
+\mathl{(n+1)(m+1)}{} solche Monome. Die Monome
+
+\mathbed {P^{i}Q^{j}} {}
+ {i \leq n} {}
+ {j \leq m} {} {} {,}
+leben also allesamt in dem
+\mathl{dn+em+1}{-}dimensionalen $K$-Vektorraum, der von
+\mathl{1=T^0, T^1,T^2, \ldots, T^{dn+em}}{} erzeugt wird. Bei
+
+\mavergleichskette
+{\vergleichskette
+{ (n+1)(m+1)
+}
+{ > }{ dn+em+1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+muss es also eine nicht-triviale lineare Abhängigkeit zwischen diesen
+\mathl{P^{i}Q^{j}}{} geben. Diese ergibt ein Polynom
+
+\mavergleichskette
+{\vergleichskette
+{ F(X,Y)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ F(P,Q)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+Die angegebene numerische Bedingung
+
+\mavergleichskette
+{\vergleichskette
+{ (n+1)(m+1)
+}
+{ > }{ dn+em+1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+lässt sich mit
+\mathl{n,m}{} hinreichend groß erfüllen.
+
+Von nun an sei $K$ unendlich. Der Zariski-Abschluss des Bildes
+
+\mavergleichskette
+{\vergleichskette
+{ B
+}
+{ = }{ \varphi( {\mathbb A}^{1}_{ K })
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+\mathl{V(\operatorname{Id} \, (B))}{} nach
+
+Lemma 3.10
+
+und irreduzibel nach
+
+Satz 5.10
+.
+Da $K$ unendlich ist und die Abbildung nicht konstant ist, muss wegen der Irreduzibilität auch
+\mathl{V (\operatorname{Id} \, (B))}{} unendlich viele Punkte enthalten. Nach
+
+Lemma 4.3
+
+ist
+\mathl{\operatorname{Id} \, (B)}{} ein Primideal und enthält nach dem ersten Teil ein
+
+\mathbed {F \in \operatorname{Id} \, (B)} {}
+ {F \neq 0} {}
+ {} {} {} {.}
+Da
+\mathl{K[X,Y]}{}
+\definitionsverweis {faktoriell}{}{}
+ist, muss auch ein Primfaktor von $F$ dazu gehören, sodass wir annehmen können, dass $F$ ein Primpolynom ist. Wir haben die Inklusion
+
+\mavergleichskettedisp
+{\vergleichskette
+{B
+}
+{ \subseteq} { \overline{B}
+}
+{ =} { V( \operatorname{Id} \,(B)  )
+}
+{ \subseteq} { V(F)
+}
+{ } {
+}
+}
+{}{}{.}
+Für ein
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \in }{ \operatorname{Id} \,(B)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V(\operatorname{Id} \,(B))
+}
+{ \subseteq} { V(H) \cap V(F)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+unendlich, sodass es nach
+
+Satz 4.8
+
+einen gemeinsamen nichtkonstanten Faktor von
+\mathkor {} {H} {und} {F} {}
+geben muss. Da $F$ prim ist, muss $H$ ein Vielfaches von $F$ sein und
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{Id} (B)
+}
+{ = }{ (F)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+}
+
+
+
+
+\inputbeispiel{ }
+{
+
+
+
+
+
+Wir betrachten die Kurve, die durch die Parametrisierung
+
+\mathdisp {x=t^2+t+1 \text{   und } y= 2t^2+3t-1} {  }
+
+gegeben ist. Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ x-1
+}
+{ = }{ t^2+t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ y+1
+}
+{ = }{ 2t^2+3t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Eine einfache Addition ergibt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (y+1)- 2(x-1)
+}
+{ =} { 3t-2t
+}
+{ =} { t
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher können wir
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x-1
+}
+{ =} {t^2+t
+}
+{ =} {(y-2x+3)^2+(y-2x+3)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+schreiben. Ausmultiplizieren ergibt insgesamt die Gleichung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ y^2+4x^2-4xy-15x+7y+13
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+$\,$
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Cubic_with_double_point} {svg} }
+\end{center}
+\bildtext {} }
+\bildlizenz { Cubic with double point.svg } {} {Gunther} {de.wikipedia.org} {PD} {}
+
+
+
+Wir betrachten die durch
+
+\mathdisp {P=t^2-1 \text{   und } Q= t^3-t =t(t^2-1)} {  }
+
+gegebene Abbildung
+\maabbdisp {} { {\mathbb A}^{1}_{K} } { {\mathbb A}^{2}_{K}
+} {.}
+Für die beiden Punkte
+
+\mavergleichskette
+{\vergleichskette
+{t
+}
+{ = }{ \pm 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ergibt sich der Wert
+\mathl{(0,0)}{.} Für alle anderen Stellen
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \neq }{ \pm 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ t
+}
+{ =} { \frac{t^3-t}{t^2-1}
+}
+{ =} { \frac{Q(t)}{P(t)}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+schreiben. D.h. dass $t$ aus den Bildwerten rekonstruierbar ist, und das bedeutet, dass die Abbildung dort injektiv ist. Die Bildkurve ist also eine Kurve, die sich an genau einer Stelle überschneidet.
+
+Wir bestimmen die Kurvengleichung, und schreiben
+\mathkor {} {x = t^2-1} {und} {y = t^3-t} {.}
+Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ t^2
+}
+{ = }{ x+1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ y^2
+}
+{ =} { t^2 \left(  t^2 -1  \right)^2
+}
+{ =} { t^2x^2
+}
+{ =} { (x+1)x^2
+}
+{ =} { x^3+x^2
+}
+}
+{}{}{.}
+Das beschreibende Polynom ist also
+
+\mathdisp {Y^2-X^3-X^2} { . }
+
+
+
+
+
+
+}
+
+
+
+
+
+  \zwischenueberschrift{Rationale Parametrisierungen}
+
+Wir betrachten eine rationale Funktion
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { { \frac{   P  }{  Q } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit Polynomen
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ K[T]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in einer Variablen. Hier hat man in natürlicher Weise sofort eine neue Form der Parametrisierung, indem man die Abbildung
+\maabbeledisp {} { {\mathbb A}^{1}_{ K }  \supseteq D(Q) } { {\mathbb A}^{2}_{ K }
+} { t } { \left(  t   , \,   { \frac{   P(t)  }{  Q(t)  } }                   \right)
+} {,}
+betrachtet. Dabei ist
+\mathl{D(Q)}{} der Definitionsbereich der Abbildung, und zwar besteht
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D(Q)
+}
+{ =} { {\mathbb A}^{1}_{ K }  \setminus V(Q)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+aus allen Punkten, wo das Nennerpolynom $Q$ nicht $0$ ist. Offenbar kann man mit dieser Abbildung wieder alle Punkte des Graphen der rationalen Funktion erfassen, d.h. sie leistet ebenso wie eine polynomiale Parametrisierung eine explizite Beschreibung der Kurve. Es ist also zur Beschreibung von Kurven sinnvoll, auch Parametrisierungen zuzulassen, bei denen die Komponentenfunktionen rational sind.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zwei rationale Funktionen
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_1
+}
+{ = }{ \frac{P_1 }{Q_1 }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_2
+}
+{ = }{ \frac{P_2 }{Q_2 }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mathbed {P_1, P_2,Q_1,Q_2 \in K[T]} {}
+ {Q_1,Q_2 \neq 0} {}
+ {} {} {} {,}
+heißen eine \definitionswort {rationale Parametrisierung}{} einer algebraischen Kurve
+
+\mavergleichskette
+{\vergleichskette
+{ C
+}
+{ = }{ V(F)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {
+\mavergleichskettek
+{\vergleichskettek
+{ F
+}
+{ \in }{ K[X,Y]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nicht konstant} {} {,}
+wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(\varphi_1(T), \varphi_2(T))
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist und
+\mathl{(\varphi_1,\varphi_2)}{} nicht konstant ist.
+
+
+
+
+
+}
+
+Man beachte, dass die Gleichheit in der vorstehenden Definition im rationalen Funktionenkörper zu verstehen ist, also in
+\mathl{K(T)}{.} Bei unendlichem $K$ ist dies äquivalent damit, dass diese Gleichheit für alle Werte
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ K
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt, für die die Nennerpolynome definiert sind.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Eine ebene algebraische Kurve
+
+\mavergleichskette
+{\vergleichskette
+{C
+}
+{ = }{ V(F)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt \definitionswort {rational}{,} wenn sie
+\definitionsverweis {irreduzibel}{}{}
+ist und es eine
+\definitionsverweis {rationale Parametrisierung}{}{}
+für sie gibt.
+
+
+
+
+
+}
+
+Das folgende einfache Beispiel zeigt, dass man mit rationalen Funktionen mehr Kurven parametrisieren kann, als wenn man nur mit Polynomen arbeitet. Es sei aber schon hier erwähnt, dass dieser Unterschied im Kontext der projektiven Geometrie wieder verschwindet.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten die \stichwort {Hyperbel} {}
+
+\mavergleichskette
+{\vergleichskette
+{H
+}
+{ = }{ V(XY-1)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und behaupten, dass es keine polynomiale Parametrisierung davon gibt. Dies folgt einfach daraus, dass zu zwei Polynomen
+\mathl{P(t)}{} und
+\mathl{Q(t)}{} die Bedingung, für jedes $t$ auf $H$ zu liegen, gerade
+
+\mathdisp {P(t) \cdot Q(t)= 1  \text { für alle }  t \in {\mathbb A}^{1}_{ K }} {  }
+
+bedeutet, bzw., dass
+
+\mavergleichskette
+{\vergleichskette
+{ P(t) \cdot Q(t)
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+im Polynomring $K[t]$ ist
+\zusatzklammer {was im Fall eines unendlichen Körpers äquivalent ist; bei einem endlichen Körper ist die zweite Identität die \anfuehrung{richtige}{} Bedingung} {} {.}
+Das bedeutet aber, dass diese Polynome invers zueinander sind und daher
+\definitionsverweis {Einheiten}{}{}
+sind. Im Polynomring sind aber lediglich die Konstanten $\neq 0$ Einheiten. Also sind beide Polynome konstant und damit ist die dadurch definierte Abbildung konstant, und es liegt keine polynomiale Parametrisierung vor. Dagegen ist
+\maabbeledisp {} { {\mathbb A}^{1}_{ K } \setminus \{0\} } { {\mathbb A}^{2}_{ K }
+} { t } { \left( t   , \,   { \frac{   1  }{ t } }                   \right)
+} {,}
+eine
+\definitionsverweis {rationale Parametrisierung}{}{}
+der Hyperbel.
+
+
+
+
+
+}
+
+Wir wollen zeigen, dass das Bild einer nicht-konstanten rationalen Abbildung stets eine algebraische Gleichung erfüllt, also stets eine rationale Parametrisierung einer algebraischen Kurve liefert. Im polynomialen Fall ergab sich eine algebraische Gleichung aus einem Zählargument
+\zusatzklammer {es musste eine Gleichung geben, da die Anzahl der Monome in zwei Variablen \anfuehrung{schneller mit dem Grad wächst}{} als die in einer Variablen} {} {.}
+Wir werden ein ähnliches Argument verwenden, allerdings in Kombination mit einem weiteren Trick, der \anfuehrung{Homogenisierung}{}. Bei diesem Trick wird unter Hinzunahme einer weiteren Variablen
+\zusatzklammer {das ist der Preis, den man dabei zahlen muss} {} {}
+eine nicht-homogene Situation homogen gemacht. Diesen Prozess verwenden wir hier rein algebraisch, dahinter steht aber das Zusammenspiel zwischen affiner und projektiver Geometrie.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei
+
+\mathbed {F \in K[X_1 , \ldots , X_n]} {}
+ {F \neq 0} {}
+ {} {} {} {,}
+ein Polynom in $n$ Variablen mit der
+\definitionsverweis {homogenen Zerlegung}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F
+}
+{ =} { \sum_{i = 0}^d F_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und sei $Z$ eine weitere Variable. Dann nennt man das
+\definitionsverweis {homogene Polynom}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \hat{  F   }
+}
+{ =} { \sum_{i = 0}^d F_i Z^{d-i}
+}
+{ \in} { K[X_1 , \ldots , X_n,Z]
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+vom Grad $d$ die \definitionswort {Homogenisierung}{} von $F$.
+
+
+
+
+
+}
+
+Aus der Homogenisierung kann man das ursprüngliche Polynom zurückgewinnen, wenn man die zusätzliche Variable $Z$ gleich $1$ setzt. Man spricht von \stichwort {dehomogenisieren} {.}
+
+
+
+
+
+\inputfaktbeweis
+{Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ P_1,P_2,P_3
+}
+{ \in }{ K[S,T]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+drei
+\definitionsverweis {homogene Polynome}{}{}
+vom gleichen Grad.}
+\faktfolgerung {Dann gibt es ein homogenes Polynom
+
+\mathbed {F \in K[X,Y,Z]} {}
+ {F \neq 0} {}
+ {} {} {} {,}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(P_1,P_2,P_3)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{Dies folgt aus einem ähnlichen Abzählargument wie im Beweis zu
+
+
+
+Satz 6.1
+, siehe
+Aufgabe 6.7
+.
+
+
+ }
+
+
+
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten die Abbildung
+
+\mathdisp {(S,T) \longmapsto (S^2,T^2,ST) = (X,Y,Z)} { , }
+
+die durch homogene Polynome
+\zusatzklammer {sogar durch Monome} {} {}
+gegeben ist. Es ist einfach, eine algebraische Relation für das Bild zu finden, es ist nämlich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z^2
+}
+{ =} { (ST)^2
+}
+{ =} { S^2T^2
+}
+{ =} { XY
+}
+{ } {
+}
+}
+{}{}{,}
+d.h. das Bild der Abbildung liegt in
+\mathl{V(Z^2-XY)}{.} Siehe auch
+
+Aufgabe 6.29
+.
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es seien zwei rationale Funktionen
+\mathkor {} {\varphi_1=\frac{P_1 }{Q_1 }} {und} {\varphi_2=\frac{P_2 }{Q_2 }} {}
+mit
+
+\mathbed {P_1, P_2,Q_1,Q_2 \in K[T]} {}
+ {Q_1,Q_2 \neq 0} {}
+ {} {} {} {,}
+gegeben, die nicht beide konstant seien.}
+\faktfolgerung {Dann gibt es ein nichtkonstantes Polynom
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ K[X,Y]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(\varphi_1(T), \varphi_2(T))
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {Das bedeutet, dass
+\mathkor {} {\varphi_1} {und} {\varphi_2} {}
+eine
+\definitionsverweis {rationale Parametrisierung}{}{}
+definieren.}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Wir können durch Übergang zu einem Hauptnenner annehmen, dass die rationale Abbildung durch
+
+\mathdisp {\varphi_1= \frac{P_1 }{Q} \text{   und } \varphi_2= \frac{P_2 }{Q}} {  }
+
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ P_1,P_2,Q
+}
+{ \in }{ K[T]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben ist. Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ H'_1, H'_2, H'_3
+}
+{ \in }{ K[T,S]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Homogenisierungen
+}{}{}
+von diesen Polynomen mit der neuen Variablen $S$ und es sei $e$ der größte Grad dieser Polynome. Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{ H_i
+}
+{ = }{ S^{ e- \operatorname{grad} \, (H_i') }  H'_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die
+\mathl{H_1,H_2,H_3}{} haben dann alle den Grad $e$ und ihre Dehomogenisierungen
+\zusatzklammer {
+\mavergleichskettek
+{\vergleichskettek
+{ S
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+sind nach wie vor
+\mathl{P_1, P_2, Q}{.} Nach
+
+Lemma 6.8
+
+gibt es ein homogenes Polynom
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ K[U,V,W]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+vom Grad $d$
+\zusatzklammer {bezüglich \mathlk{U,V,W}{}} {} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(H_1,H_2,H_3)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir betrachten
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \frac{1}{W^d} F(U,V,W)
+}
+{ =} { F \left( \frac{U}{W}, \frac{V}{W}, \frac{W}{W} \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+welches ein Polynom in den beiden rationalen Funktionen
+\mathl{\frac{U}{W}, \frac{V}{W}}{} ist. Für diesen Übergang ist es wichtig, dass $F$ homogen ist. Einsetzen der homogenen Polynome in diese Gleichung ergibt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { F \left( \frac{H_1 }{H_3 }, \frac{H_2 }{H_3 }, 1 \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dies ist eine Gleichheit im Quotientenkörper von
+\mathl{K[S,T]}{.} Wenn man darin
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+setzt
+\zusatzklammer {also dehomogenisiert} {} {,}
+so erhält man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { F\left( \frac{P_1 }{Q}, \frac{P_2 }{Q} \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+also eine Gleichung für die ursprünglichen rationalen Funktionen.
+
+
+
+
+}
+
+
+
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Dioklova_kisoida} {png} }
+\end{center}
+\bildtext {Die Zissoide des Diokles
+\zusatzklammer {im Bild schwarz} {} {}
+ist rational parametrisierbar.} }
+\bildlizenz { Dioklova kisoida.png } {} {Pajs} {cs.wikipedia.org} {PD} {}
+
+
+
+\inputbemerkung
+{}
+{
+Man kann einen Schritt weiter gehen und sich fragen, ob es noch andere Möglichkeiten gibt, eine algebraische Kurve
+
+\mavergleichskette
+{\vergleichskette
+{ C
+}
+{ = }{ V(F)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+durch eine Abbildung
+\maabb {\varphi} {K} {K^2
+} {}
+zu beschreiben, wo $\varphi$ aus einer größeren Funktionenklasse sein darf. Ein wichtiger Satz ist hier
+der
+Satz über implizite Funktionen
+,
+der für
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ = }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oder
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ = }{ {\mathbb C}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+besagt, dass, falls die partiellen Ableitungen von $F$ an einem Punkt der Kurve nicht beide null sind, es dann eine
+\zusatzklammer {unendlich oft und sogar analytisch} {} {}
+differenzierbare Abbildung $\varphi$ gibt, die die Kurve in einer gewissen kleinen offenen Umgebung des Punktes beschreibt. Eine algebraische Version des Satzes über implizite Funktionen findet sich im Potenzreihenansatz wieder, den wir später behandeln werden.
+}

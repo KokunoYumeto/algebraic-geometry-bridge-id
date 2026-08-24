@@ -1,0 +1,1316 @@
+\setcounter{section}{11}
+
+
+
+
+
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{.}
+Beweise
+den
+Hilbertschen Nullstellensatz
+
+direkt für den
+\definitionsverweis {Polynomring}{}{}
+in einer Variablen.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ f,g
+}
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass
+
+\mavergleichskette
+{\vergleichskette
+{V(f)
+}
+{ \subseteq }{ V(g)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann gilt, wenn es eine natürliche Zahl $r$ und ein
+
+\mavergleichskette
+{\vergleichskette
+{ h
+}
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ fh
+}
+{ = }{ g^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt. Betrachte auch die Spezialfälle, wo
+\mathkor {} {f} {bzw.} {g} {}
+konstante Polynome sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass sich in der durch
+den
+Hilbertschen Nullstellensatz
+
+gegebenen Korrespondenz Punkte und
+\definitionsverweis {maximale Ideale}{}{}
+entsprechen.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass sich in der durch
+den
+Hilbertschen Nullstellensatz
+
+gegebenen Korrespondenz
+\definitionsverweis {irreduzible Varietäten}{}{}
+und
+\definitionsverweis {Primideale}{}{}
+entsprechen.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{.}
+Beweise den folgenden Spezialfall
+des
+Hilbertschen Nullstellensatzes
+
+direkt: Wenn
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+keine Nullstelle im $K^n$ besitzt, so ist $f$ ein
+\zusatzklammer {von $0$ verschiedenes} {} {}
+konstantes Polynom.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Wir betrachten die beiden Polynome
+\mathl{X^2+Y^2}{} und
+\mathl{X^2-Y^3}{} und die zugehörigen algebraischen Kurven über den Körpern $\R$ und ${\mathbb C}$.
+\aufzaehlungvierabc{Gilt
+
+\mavergleichskette
+{\vergleichskette
+{V(X^2+Y^2)
+}
+{ \subseteq }{ V(X^2-Y^3)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in ${\mathbb A}^{2}_{\R}$?
+}{Gilt
+
+\mavergleichskette
+{\vergleichskette
+{V \left(  X^2+Y^2  \right)
+}
+{ \subseteq }{ V \left(  X^2-Y^3  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in ${\mathbb A}^{2}_{ {\mathbb C} }$?
+}{Gehört
+\mathl{X^2-Y^3}{} zum
+\definitionsverweis {Radikal}{}{}
+von
+\mathl{\left(  X^2+Y^2  \right)}{}  in
+\mathl{\R[X,Y]}{?}
+}{Gehört
+\mathl{X^2-Y^3}{} zum Radikal von
+\mathl{\left(  X^2+Y^2  \right)}{}  in
+\mathl{{\mathbb C}[X,Y]}{?}
+}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Es seien
+\definitionsverweis {Polynome}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ f_1 , \ldots , f_k
+}
+{ \in }{ {\mathbb C}[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben, die wir als
+\definitionsverweis {Funktionen}{}{}
+\maabbdisp {f_i} { {\mathbb C}^n } { {\mathbb C}
+} {}
+auffassen. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ {\mathbb C}[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein weiteres Polynom und es seien
+\maabbdisp {g_1 , \ldots , g_k} { {\mathbb C}^n } { {\mathbb C}
+} {}
+Funktionen, die nicht unbedingt Polynome sind. Es gelte
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f
+}
+{ =} { g_1f_1 + \cdots + g_kf_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {eine Gleichung von Funktionen} {} {.}
+Zeige, dass $f$ zum
+\definitionsverweis {Radikal}{}{}
+von
+\mathl{\left(  f_1 , \ldots , f_k  \right)}{} gehört.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass die Funktionen
+\maabb {\varphi} { K^n } { K
+} {}
+der Form
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi
+}
+{ =} { { \frac{   P  }{  Q } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+\definitionsverweis {Polynomen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und $Q$ nullstellenfrei auf $K^n$ einen
+\definitionsverweis {kommutativen Ring}{}{}
+bilden. Zeige, dass bei $K$
+\definitionsverweis {algebraisch abgeschlossen}{}{}
+dieser mit dem Polynomring übereinstimmt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {endlicher Körper}{}{.}
+Zeige, dass es nur endlich viele
+\definitionsverweis {Nullstellengebilde}{}{}
+im
+\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} gibt, aber unendlich viele
+\definitionsverweis {Radikale}{}{}
+in
+\mathl{K[X_1 , \ldots , X_n]}{.}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei
+
+\mathbed {f_j} {}
+ {j \in J} {}
+ {} {} {} {,}
+eine Familie von Elementen in $R$. Es sei angenommen, dass die $f_j$ zusammen das
+\definitionsverweis {Einheitsideal}{}{}
+erzeugen. Zeige, dass es eine endliche Teilfamilie
+
+\mathbed {f_j} {}
+ {j \in J_0 \subseteq J} {}
+ {} {} {} {,}
+gibt, die ebenfalls das Einheitsideal erzeugt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a} , {\mathfrak b}
+}
+{ \subseteq }{ K[X_1 , \ldots ,  X_n] }
+{  }{}
+{    }{}
+{   }{}
+}
+{}{}{}
+\definitionsverweis {Radikalideale}{}{.}
+Zeige, dass die
+\definitionsverweis {Nullstellengebilde}{}{}
+$V( {\mathfrak a} )$ und $V( {\mathfrak b} )$ genau dann
+\definitionsverweis {affin-linear äquivalent}{}{}
+sind, wenn es eine affin-lineare Variablentransformation gibt, die die beiden Ideale ineinander überführt.
+
+
+
+
+
+}
+{} {}
+
+
+
+
+
+
+
+Es sei
+\maabbdisp {\varphi} { A } { B
+} {}
+ein
+\definitionsverweis {Ringhomomorphismus}{}{}
+zwischen den
+\definitionsverweis {kommutativen Ringen}{}{}
+\mathkor {} {A} {und} {B} {.}
+Zu einem
+\definitionsverweis {Ideal}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}
+}
+{ \subseteq }{ A
+}
+{  }{
+}
+{    }{
+}
+{   }{}
+}
+{}{}{}
+nennt man das von
+\mathl{\varphi \left(  {\mathfrak a}   \right)}{}
+\definitionsverweis {erzeugte Ideal}{}{}
+das
+\definitionswort {Erweiterungsideal}{}
+von ${\mathfrak a}$ unter $\varphi$. Es wird mit
+\mathl{{\mathfrak a} B}{} bezeichnet.
+
+
+
+
+
+
+Bei $\varphi$ surjektiv ist das einfach das Bildideal.
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}
+}
+{ \subseteq }{ \R[X_1 , \ldots , X_n ]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Ideal}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \R[X_1 , \ldots , X_n ]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass genau dann
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ {\mathfrak a}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ {\mathfrak a} {\mathbb C}[X_1 , \ldots , X_n ]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für das
+\definitionsverweis {Erweiterungsideal}{}{}
+gilt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Skizziere die Graphen der Funktionen $x$ und $y$ auf $V(xy)$.
+
+
+
+
+
+}
+{Man mache sich klar, dass das Produkt $xy$ die Nullfunktion ist.} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Bestimme den
+\definitionsverweis {Koordinatenring}{}{}
+zu einer
+\definitionsverweis {affin-algebraischen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die aus $d$ Punkten besteht.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Bestimme den
+\definitionsverweis {Koordinatenring}{}{}
+zur
+\definitionsverweis {affin-algebraischen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{ V(5X-8Y +3)
+}
+{ \subseteq }{ {\mathbb A}^{2}_{K}
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Betrachte die Hyperbel
+\mathl{V(xy-1)}{} über dem Körper
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ = }{ \Z/( 11)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Bestimme das Inverse von $4x^3$ im zugehörigen Koordinatenring.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und seien
+
+\mavergleichskette
+{\vergleichskette
+{ V,W
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {affin-algebra\-ische Mengen}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vorausgesetzt. Man definiere einen
+$K$-\definitionsverweis {Algebra\-homomorphismus}{}{}
+zwischen den beiden
+\definitionsverweis {Koordinatenringen}{}{}
+$R(V)$ und $R(W)$ und beschreibe dessen wichtigste Eigenschaften. Man gebe ein Beispiel von zwei affin-algebraischen Mengen, die nicht ineinander enthalten sind, von denen aber die Koordinatenringe isomorph sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und seien
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\mathfrak a} , {\mathfrak b}
+}
+{ \subseteq} { K[X_1 , \ldots , X_n]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\definitionsverweis {Ideale}{}{,}
+deren
+\definitionsverweis {Radikal}{}{}
+übereinstimmt. Zeige, dass es eine natürliche Bijektion zwischen den Radikalen der
+\definitionsverweis {Restklassenringe}{}{}
+
+\mathdisp {K[X_1 , \ldots , X_n]/ {\mathfrak a} \text{   und } K[X_1 , \ldots , X_n]/ {\mathfrak b}} {  }
+
+gibt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+mit $q$ Elementen und sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ V( {\mathfrak a} )
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {affin-algebraische Menge}{}{.}
+Zeige, dass der
+\definitionsverweis {Koordinatenring}{}{}
+von $V$ nicht gleich
+\mathl{K[x_1 , \ldots , x_n]/ \left(  x_1^q-x_1 , \ldots , x_n^q-x_n  \right) + {\mathfrak a}}{} sein muss.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+der
+\definitionsverweis {Charakteristik}{}{}
+$0$. Wir betrachten den Schnitt von einem Zylinder und einer Kugel, und zwar
+
+\mavergleichskettedisp
+{\vergleichskette
+{ C
+}
+{ =} { V \left(  X^2+Y^2-1  \right)  \cap V \left(  (X-3)^2 +Y^2+Z^2-7  \right)
+}
+{ \subseteq} { { {\mathbb A}_{  K  }^{  3   } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige, dass man den
+\definitionsverweis {Koordinatenring}{}{}
+von $C$ als
+\definitionsverweis {Restklassenring}{}{}
+eines
+\definitionsverweis {Polynomrings}{}{}
+in zwei Variablen schreiben kann.
+
+
+
+
+
+}
+{} {}
+
+
+
+
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{4}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ {\mathbb C} [X_1 , \ldots ,  X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ { {\mathbb A}_{  {\mathbb C}  }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Teilmenge,  die in der metrischen Topologie offen und nicht leer sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ F|_{ U}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Nullfunktion. Zeige, dass dann $F$ das Nullpolynom ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+
+
+
+
+Beweise
+
+Korollar 11.3
+
+direkt aus
+
+Satz 10.10
+.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{7}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und $R$ der
+\definitionsverweis {Polynomring}{}{}
+in $n$ Variablen über $K$. Wir wollen einen alternativen Beweis einsehen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{Id} \, (V(J))
+}
+{ = }{ \operatorname{rad} \, (J)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für jedes Ideal $J$ in $R$ ist, der auf
+
+Korollar 11.3
+
+aufbaut. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \operatorname{Id}\,(V(J))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Betrachte den Ring $R[T]$ und zeige, dass das
+\definitionsverweis {Ideal}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ J'
+}
+{ =} { (J, 1 -f \cdot T)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+trivial ist. Schließe daraus, dass $f$ im Radikal von $J$ liegt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ K[X_1 , \ldots ,  X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und betrachte die dadurch definierte
+\definitionsverweis {polynomiale Abbildung}{}{}
+\maabbeledisp {\varphi} { { {\mathbb A}_{  K  }^{  n   } } } { { {\mathbb A}_{  K  }^{  n+1   } }
+} { \left(  x_1 , \ldots ,  x_n  \right) } { \left(  x_1 , \ldots , x_n, F \left(  x_1 , \ldots , x_n  \right)  \right)
+} {,}
+die eine Bijektion des
+\definitionsverweis {affinen Raumes}{}{}
+mit dem
+\definitionsverweis {Graphen}{}{}
+von $F$ definiert. Zu einer
+\definitionsverweis {affin-algebraischen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ V( {\mathfrak a} )
+}
+{ \subseteq }{ { {\mathbb A}_{  K  }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+betrachten wir das Bild
+
+\mavergleichskette
+{\vergleichskette
+{ V'
+}
+{ = }{ \varphi(V)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Man zeige, dass $V'$ ebenfalls affin-algebraisch ist und man gebe ein beschreibendes Ideal an. Zeige, dass $V$ genau dann
+\definitionsverweis {irreduzibel}{}{}
+ist, wenn $V'$ irreduzibel ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{5}
+{
+
+
+
+
+
+Wir betrachten die beiden algebraischen Kurven
+
+\mathdisp {V \left(  x^2+y^2-2  \right) \text{   und } V \left(  x^2+2y^2-1  \right)} {  }
+
+über dem Körper $\Z/( 7 )$. Zeige, dass der Durchschnitt leer ist, und finde einen Erweiterungskörper
+
+\mavergleichskette
+{\vergleichskette
+{ K
+}
+{ \supseteq }{ \Z/( 7 )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+über dem der Durchschnitt nicht leer ist. Berechne alle Punkte im Durchschnitt über $K$ und über jedem anderen Erweiterungskörper. Man beschreibe auch den Koordinatenring des Durchschnitts.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und seien
+\mathl{P_1 , \ldots , P_n}{} endlich viele Punkte in der affinen Ebene ${\mathbb A}^{2}_{ K }$. Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ a_1 , \ldots , a_n
+}
+{ \in }{ K
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beliebig vorgegebene Werte. Zeige, dass es ein Polynom
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ \in }{ K[X,Y]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ F \left(  P_i  \right)
+}
+{ = }{ a_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ = }{ 1 , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt.
+
+
+
+
+
+}
+{} {}

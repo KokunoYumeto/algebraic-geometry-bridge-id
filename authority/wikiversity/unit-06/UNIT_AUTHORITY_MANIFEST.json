@@ -1,0 +1,2852 @@
+{
+  "schema": "brenner-unit-authority-freeze-v2",
+  "frozen_utc": "2026-08-22T17:21:05.727313+00:00",
+  "unit_number": 6,
+  "source_api": "https://de.wikiversity.org/w/api.php",
+  "lecture": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 6",
+    "pageid": 165895,
+    "revid": 1112253,
+    "parentid": 1057037,
+    "timestamp": "2026-08-20T16:51:19Z",
+    "mediawiki_sha1": "5b0f6515a3cd3c8079cef3862b8d182c6549dcf9",
+    "wikitext_bytes": 2872,
+    "api_file": "lecture-06-api.json",
+    "api_bytes": 3338,
+    "api_sha256": "dd94631b5d21fe130cb713ef6a6e4d2ac8161d71c69cb27ba2876ca2b87de034",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112253",
+    "xml_file": "lecture-06.xml",
+    "xml_bytes": 6011,
+    "xml_sha256": "40316e5d9aa0dc0c3200a2e426e03c9f1b271b26d4fb0970e1fdfda2a804afaa",
+    "html_file": "lecture-06.html",
+    "html_bytes": 90825,
+    "html_sha256": "860c05d3d95b2372864e1caa2118c2b775d91aa4dffdfb262daea9504368654b",
+    "html_source": "action_parse_text_fallback",
+    "parse_api_file": "lecture-06-parse-api.json",
+    "parse_api_bytes": 13202,
+    "parse_api_sha256": "5f6967fbc73a955316b4fbf16505be1f274abe022c4b96ecc5d74788660d3301",
+    "template_count": 95,
+    "image_count": 5,
+    "link_count": 28,
+    "external_link_count": 0
+  },
+  "worksheet": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 6",
+    "pageid": 165925,
+    "revid": 1059354,
+    "parentid": 1057870,
+    "timestamp": "2025-11-19T11:00:28Z",
+    "mediawiki_sha1": "66a5c51263dd1bbe94cdc78e5d38405d2a5f41d4",
+    "wikitext_bytes": 3469,
+    "api_file": "worksheet-06-api.json",
+    "api_bytes": 4018,
+    "api_sha256": "63c5dc8cdd406b457e6b7e474763bbc17c4be7d1cd66cd13a747a66f0e22b258",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1059354",
+    "xml_file": "worksheet-06.xml",
+    "xml_bytes": 6611,
+    "xml_sha256": "7ec13ce1bf99043e68bbd88debe06745dbae2f6297b74d04563c87e11a646571",
+    "html_file": "worksheet-06.html",
+    "html_bytes": 76393,
+    "html_sha256": "e76b509cc68b421de23de5110115a6c85d8a9be1cb952f8de5488988da96d4e3",
+    "html_source": "action_parse_text_fallback",
+    "parse_api_file": "worksheet-06-parse-api.json",
+    "parse_api_bytes": 18898,
+    "parse_api_sha256": "a82581131ab371d08fc3db7114c3ab9f6ec0384b86c6690cea4c3af1acfe42d6",
+    "template_count": 110,
+    "image_count": 2,
+    "link_count": 56,
+    "external_link_count": 0
+  },
+  "lecture_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 6/latex",
+    "pageid": 165959,
+    "revid": 1033005,
+    "parentid": 0,
+    "timestamp": "2025-08-11T13:51:36Z",
+    "mediawiki_sha1": "3034e92c1843eab298fb5f6f859d2c89cf824d61",
+    "wikitext_bytes": 9,
+    "api_file": "lecture-06-latex-page-api.json",
+    "api_bytes": 372,
+    "api_sha256": "2e4e29289880be812fa8e1193a64dd65c63a788cea5e42d49574b42c9fb0adcd",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1033005",
+    "xml_file": "lecture-06-latex-page.xml",
+    "xml_bytes": 3173,
+    "xml_sha256": "ac88373949a3b95cb42017cbb4965f484ff8e9407c2056533fefa895b4811ba1",
+    "html_file": "lecture-06-latex-page.html",
+    "html_bytes": 26733,
+    "html_sha256": "7217abbd04520329aca184780acede95ce7d7408ca12fdeeb016866b44417350",
+    "html_source": "action_parse_text_fallback"
+  },
+  "worksheet_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 6/latex",
+    "pageid": 166019,
+    "revid": 1033066,
+    "parentid": 0,
+    "timestamp": "2025-08-11T14:01:36Z",
+    "mediawiki_sha1": "3034e92c1843eab298fb5f6f859d2c89cf824d61",
+    "wikitext_bytes": 9,
+    "api_file": "worksheet-06-latex-page-api.json",
+    "api_bytes": 375,
+    "api_sha256": "112216fa9c64aa64e8645c5a3ba7a69f0f17abffd685c7d8dcaed60357432631",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1033066",
+    "xml_file": "worksheet-06-latex-page.xml",
+    "xml_bytes": 3176,
+    "xml_sha256": "e8b9d13300d3bcaffc32dc0575aeadf074b7f91f77014a971e65dbcc65317e31",
+    "html_file": "worksheet-06-latex-page.html",
+    "html_bytes": 20054,
+    "html_sha256": "64fb2c97158722b6795f9cd122fe5f01f49acc1cae41beba9ddb6de23e89c21e",
+    "html_source": "action_parse_text_fallback"
+  },
+  "derived_expanded_tex": [
+    {
+      "file": "lecture-06-expanded.tex",
+      "bytes": 19471,
+      "sha256": "94f0263c04479d4cc74de20a705a5f6454a7734b042077460246ed89f8c54a5d"
+    },
+    {
+      "file": "worksheet-06-expanded.tex",
+      "bytes": 14511,
+      "sha256": "919b2ed0eca8977348bf1ade1406d0dcded075f4214c89cb25a4d626fcaa2a57"
+    }
+  ],
+  "lecture_transclusion_closure": {
+    "requested_template_count": 95,
+    "captured_page_count": 95,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "lecture-06-transclusions-01.json",
+        "bytes": 29061,
+        "sha256": "88bb1c934af28d2b146a5de86fe59a2422118619a86bbf9a99e3c41c149ae409",
+        "requested_titles": [
+          "Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt",
+          "Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt/Beweis",
+          "Ebene algebraische Kurve/Parametrisierung/x ist t^2+t+1, y ist 2t^2+3t-1/Beispiel",
+          "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/Beispiel",
+          "Ebene algebraische Kurven/Rationale Kurve/Definition",
+          "Ebene algebraische Kurven/Rationale Parametrisierung/Definition",
+          "Ebene polynomiale Parametrisierungen/Einführung/Beispiele/Textabschnitt",
+          "Ebene polynomiale Parametrisierungen/Kurvengleichung/Fakt",
+          "Ebene polynomiale Parametrisierungen/Kurvengleichung/Fakt/Beweis",
+          "Ebene rationale Parametrisierungen/Beispiele/Einführung/Textabschnitt",
+          "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt",
+          "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweisverweis",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Räume/K unendlich/Bild unter polynomialer Abbildung/ist irreduzibel/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affiner Raum/Zariski-Topologie/Zariski-Abschluss ist V zu Verschwindungsideal/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene polynomiale Parametrisierungen/Kurvengleichung/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung",
+          "MDLUL/Einheit",
+          "MDLUL/Einheiten",
+          "MDLUL/faktoriell"
+        ]
+      },
+      {
+        "file": "lecture-06-transclusions-02.json",
+        "bytes": 24808,
+        "sha256": "32a6fff2f2e641c240d89c0bfa7be8bbc99b8e3748a59167ce705c6b2adcd708",
+        "requested_titles": [
+          "MDLUL/homogene Polynom",
+          "MDLUL/homogene Polynome",
+          "MDLUL/homogenes Polynom",
+          "MDLUL/irreduzibel (Varietät)",
+          "MDLUL/rationale Parametrisierung",
+          "Monomiale Abbildung/S^2,T^2,ST/Gleichung für Bild/Beispiel",
+          "Polynomring/Polynom/Homogenisierung mit neuer Variablen/Definition",
+          "Rationale Parametrisierung/Hyperbel/Keine polynomiale Parametrisierung/Beispiel",
+          "Vorlage:=",
+          "Vorlage:Abbildung",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Anführung",
+          "Vorlage:Aufgabelink",
+          "Vorlage:Beweisstruktur",
+          "Vorlage:Bildskip",
+          "Vorlage:CC",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionswort",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:Faktstruktur"
+        ]
+      },
+      {
+        "file": "lecture-06-transclusions-03.json",
+        "bytes": 79611,
+        "sha256": "24c7075c9ea9b61cf58dfd517b39e06da0fe2b179aeb7da763fbd658706a8742",
+        "requested_titles": [
+          "Vorlage:ImageNoteControl",
+          "Vorlage:Inputbeispiel",
+          "Vorlage:Inputbemerkunghier",
+          "Vorlage:Inputbild",
+          "Vorlage:Inputdefinition",
+          "Vorlage:Inputfaktbeweis",
+          "Vorlage:Inputfaktbeweisverweis",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:Makl",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathbed",
+          "Vorlage:Mathbed1",
+          "Vorlage:Mathbed2",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Beispiel",
+          "Vorlage:Mathematischer Text/Beweis",
+          "Vorlage:Mathematischer Text/Definition",
+          "Vorlage:Mathematischer Text/Fakt",
+          "Vorlage:Mathematischer Textabschnitt",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathkor/display",
+          "Vorlage:Mathl",
+          "Vorlage:Mathlk"
+        ]
+      },
+      {
+        "file": "lecture-06-transclusions-04.json",
+        "bytes": 24799,
+        "sha256": "ccf50be0cc63fc1e85478a64c2f184862a10ff37c23d549bfc54297131bf0283",
+        "requested_titles": [
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affine Gerade",
+          "Vorlage:Op:Bruch",
+          "Vorlage:Op:Grad Polynom",
+          "Vorlage:Op:Homogenisierung",
+          "Vorlage:Op:Zeilenvektor",
+          "Vorlage:Qed",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Relationskette/k",
+          "Vorlage:Stichwort",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+          "Vorlage:Verschlagworte:Stichwort",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt",
+        "pageid": 19333,
+        "revid": 1043155,
+        "parentid": 1013759,
+        "timestamp": "2025-08-12T18:33:59Z",
+        "mediawiki_sha1": "06aef3533181c248055034fbf98442bea2243ee2",
+        "wikitext_bytes": 996
+      },
+      {
+        "title": "Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt/Beweis",
+        "pageid": 19352,
+        "revid": 1085912,
+        "parentid": 1057076,
+        "timestamp": "2026-05-30T10:26:15Z",
+        "mediawiki_sha1": "2c527c0f8d82d7bcaaa9b799b0af5abf1292340f",
+        "wikitext_bytes": 2550
+      },
+      {
+        "title": "Ebene algebraische Kurve/Parametrisierung/x ist t^2+t+1, y ist 2t^2+3t-1/Beispiel",
+        "pageid": 19286,
+        "revid": 1011116,
+        "parentid": 981575,
+        "timestamp": "2025-07-25T16:03:14Z",
+        "mediawiki_sha1": "34f190f6144cc4256168da39a7dd703bea6f3e28",
+        "wikitext_bytes": 800
+      },
+      {
+        "title": "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/Beispiel",
+        "pageid": 18404,
+        "revid": 1084908,
+        "parentid": 1068596,
+        "timestamp": "2026-05-30T07:01:02Z",
+        "mediawiki_sha1": "987b847c2267b3eafb3aa64b3227c53adecca691",
+        "wikitext_bytes": 1521
+      },
+      {
+        "title": "Ebene algebraische Kurven/Rationale Kurve/Definition",
+        "pageid": 19365,
+        "revid": 1071728,
+        "parentid": 1043736,
+        "timestamp": "2026-02-14T09:25:17Z",
+        "mediawiki_sha1": "e51377d51a21cd5f712b401cfa94f201905d59b4",
+        "wikitext_bytes": 611
+      },
+      {
+        "title": "Ebene algebraische Kurven/Rationale Parametrisierung/Definition",
+        "pageid": 19328,
+        "revid": 1056412,
+        "parentid": 1036067,
+        "timestamp": "2025-10-24T11:36:39Z",
+        "mediawiki_sha1": "7dead2ae7ac0d442c8d2273e2b5ea065e83ef30a",
+        "wikitext_bytes": 946
+      },
+      {
+        "title": "Ebene polynomiale Parametrisierungen/Einführung/Beispiele/Textabschnitt",
+        "pageid": 50861,
+        "revid": 1069361,
+        "parentid": 525287,
+        "timestamp": "2026-02-05T18:42:37Z",
+        "mediawiki_sha1": "326303cd49729ae40ca7f6d4a95305ac2f966ebc",
+        "wikitext_bytes": 488
+      },
+      {
+        "title": "Ebene polynomiale Parametrisierungen/Kurvengleichung/Fakt",
+        "pageid": 18295,
+        "revid": 1057088,
+        "parentid": 1044619,
+        "timestamp": "2025-10-30T16:59:37Z",
+        "mediawiki_sha1": "b09fc296729ac2af33f6693dab56468aeb7b6b50",
+        "wikitext_bytes": 1043
+      },
+      {
+        "title": "Ebene polynomiale Parametrisierungen/Kurvengleichung/Fakt/Beweis",
+        "pageid": 18297,
+        "revid": 1101021,
+        "parentid": 1044262,
+        "timestamp": "2026-06-17T13:47:57Z",
+        "mediawiki_sha1": "bf735be0d3fb075366fa170cbfa0aa8dbfb5b293",
+        "wikitext_bytes": 3324
+      },
+      {
+        "title": "Ebene rationale Parametrisierungen/Beispiele/Einführung/Textabschnitt",
+        "pageid": 165191,
+        "revid": 1057074,
+        "parentid": 1054998,
+        "timestamp": "2025-10-30T16:10:41Z",
+        "mediawiki_sha1": "7e7d14158e3739585d49a134eb2a86afd42977bd",
+        "wikitext_bytes": 4012
+      },
+      {
+        "title": "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt",
+        "pageid": 19331,
+        "revid": 1057077,
+        "parentid": 1057067,
+        "timestamp": "2025-10-30T16:16:23Z",
+        "mediawiki_sha1": "095e179238e204975e34ef3c9ef2fa83dd96cc24",
+        "wikitext_bytes": 668
+      },
+      {
+        "title": "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweisverweis",
+        "pageid": 19332,
+        "revid": 1057081,
+        "parentid": 1057080,
+        "timestamp": "2025-10-30T16:23:16Z",
+        "mediawiki_sha1": "957ccd04ae9a936ef1fa5cb64c171c31416b8b14",
+        "wikitext_bytes": 367
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Räume/K unendlich/Bild unter polynomialer Abbildung/ist irreduzibel/Fakt/Faktreferenznummer",
+        "pageid": 166347,
+        "revid": 1051277,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:29:29Z",
+        "mediawiki_sha1": "7aa1e9d34f5e6692df7087d1bb69ead7bc5803d7",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt/Faktreferenznummer",
+        "pageid": 166357,
+        "revid": 1051288,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:31:09Z",
+        "mediawiki_sha1": "b8b89bc66e22925c9e343f29fbeadc2e25e4d24d",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Affiner Raum/Zariski-Topologie/Zariski-Abschluss ist V zu Verschwindungsideal/Fakt/Faktreferenznummer",
+        "pageid": 166360,
+        "revid": 1051292,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:32:19Z",
+        "mediawiki_sha1": "f73c8e2741013496a62975c64d73b09e37ced731",
+        "wikitext_bytes": 46
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt/Faktreferenznummer",
+        "pageid": 166344,
+        "revid": 1051273,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:28:59Z",
+        "mediawiki_sha1": "fd313c3266eca47477e6cbae622110eeb75b420c",
+        "wikitext_bytes": 44
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene polynomiale Parametrisierungen/Kurvengleichung/Fakt/Faktreferenznummer",
+        "pageid": 166363,
+        "revid": 1051297,
+        "parentid": 0,
+        "timestamp": "2025-08-18T07:33:39Z",
+        "mediawiki_sha1": "5874ca8fce33a6cc76728a0ff2f0a67da5df48b2",
+        "wikitext_bytes": 44
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe/Aufgabereferenznummer",
+        "pageid": 167282,
+        "revid": 1057083,
+        "parentid": 1057082,
+        "timestamp": "2025-10-30T16:26:46Z",
+        "mediawiki_sha1": "69835a17f2d2e5bb50214d4a594445d87571e302",
+        "wikitext_bytes": 47
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Faktreferenznummer",
+        "pageid": 166362,
+        "revid": 1057075,
+        "parentid": 1051295,
+        "timestamp": "2025-10-30T16:11:27Z",
+        "mediawiki_sha1": "70e0e6ca03a5c315188f588b1d4527cd6b67de61",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166364,
+        "revid": 1059356,
+        "parentid": 1057872,
+        "timestamp": "2025-11-19T11:08:42Z",
+        "mediawiki_sha1": "feb97d2bfea06f815ba12f55116386351e2c1e06",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung/Fuß",
+        "pageid": 165887,
+        "revid": 1032932,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:46Z",
+        "mediawiki_sha1": "8fbfbd4087c4235b5b2d95c55b7d805d5dae149d",
+        "wikitext_bytes": 1011
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung",
+        "pageid": 165885,
+        "revid": 1032930,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:26Z",
+        "mediawiki_sha1": "8842223dc4805ab2598ed30647381ee75d52522b",
+        "wikitext_bytes": 393
+      },
+      {
+        "title": "MDLUL/Einheit",
+        "pageid": 58368,
+        "revid": 341771,
+        "parentid": 0,
+        "timestamp": "2012-11-30T12:31:47Z",
+        "mediawiki_sha1": "f1bbf76b5e5b57b4c1b54285861489c00ed63dce",
+        "wikitext_bytes": 87
+      },
+      {
+        "title": "MDLUL/Einheiten",
+        "pageid": 58367,
+        "revid": 341770,
+        "parentid": 0,
+        "timestamp": "2012-11-30T12:31:21Z",
+        "mediawiki_sha1": "8b74ac4d12176eafbca487f409ead4e9d3a3b728",
+        "wikitext_bytes": 77
+      },
+      {
+        "title": "MDLUL/faktoriell",
+        "pageid": 58796,
+        "revid": 1007885,
+        "parentid": 342539,
+        "timestamp": "2025-07-07T15:19:32Z",
+        "mediawiki_sha1": "32334d52e294d0b68a3abdaa7f8d91900b9e0af7",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/homogene Polynom",
+        "pageid": 55396,
+        "revid": 343545,
+        "parentid": 327800,
+        "timestamp": "2012-12-12T14:52:26Z",
+        "mediawiki_sha1": "44284af3859d5716a0fc6b5cabcbfffbca364479",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/homogene Polynome",
+        "pageid": 94520,
+        "revid": 532037,
+        "parentid": 0,
+        "timestamp": "2017-12-01T19:34:28Z",
+        "mediawiki_sha1": "c7ba7d378f556dc131a5b026852d510d845ba404",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/homogenes Polynom",
+        "pageid": 45638,
+        "revid": 266300,
+        "parentid": 0,
+        "timestamp": "2011-05-27T16:01:09Z",
+        "mediawiki_sha1": "a0172ad7848358bf6490ee8cb8847432399541b2",
+        "wikitext_bytes": 128
+      },
+      {
+        "title": "MDLUL/irreduzibel (Varietät)",
+        "pageid": 54087,
+        "revid": 320710,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:48:34Z",
+        "mediawiki_sha1": "81baeb21386d7dba6914eacb76380c6875a0aaaa",
+        "wikitext_bytes": 140
+      },
+      {
+        "title": "MDLUL/rationale Parametrisierung",
+        "pageid": 54124,
+        "revid": 320756,
+        "parentid": 0,
+        "timestamp": "2012-07-06T15:33:27Z",
+        "mediawiki_sha1": "f82b15a68d6b30faf7194a7e8bb180964ce5d4b6",
+        "wikitext_bytes": 139
+      },
+      {
+        "title": "Monomiale Abbildung/S^2,T^2,ST/Gleichung für Bild/Beispiel",
+        "pageid": 19353,
+        "revid": 1011113,
+        "parentid": 983749,
+        "timestamp": "2025-07-25T16:00:26Z",
+        "mediawiki_sha1": "dddb2a3678feea6b9ebc89d94039f47fcd03c0e8",
+        "wikitext_bytes": 745
+      },
+      {
+        "title": "Polynomring/Polynom/Homogenisierung mit neuer Variablen/Definition",
+        "pageid": 19330,
+        "revid": 1104702,
+        "parentid": 1091389,
+        "timestamp": "2026-06-18T12:12:57Z",
+        "mediawiki_sha1": "a8e1dfa44a090a9c1dd6d996ff8d6d21a595a206",
+        "wikitext_bytes": 1008
+      },
+      {
+        "title": "Rationale Parametrisierung/Hyperbel/Keine polynomiale Parametrisierung/Beispiel",
+        "pageid": 19319,
+        "revid": 1085363,
+        "parentid": 1037790,
+        "timestamp": "2026-05-30T08:14:52Z",
+        "mediawiki_sha1": "41f98373a624db3561d5115654167c86604961cd",
+        "wikitext_bytes": 1611
+      },
+      {
+        "title": "Vorlage:=",
+        "pageid": 20300,
+        "revid": 136936,
+        "parentid": 136903,
+        "timestamp": "2008-12-21T21:01:15Z",
+        "mediawiki_sha1": "51ab5591f9cca571701287fefae23cb3273c59d7",
+        "wikitext_bytes": 235
+      },
+      {
+        "title": "Vorlage:Abbildung",
+        "pageid": 22825,
+        "revid": 834813,
+        "parentid": 831449,
+        "timestamp": "2022-09-24T09:18:56Z",
+        "mediawiki_sha1": "365fba0c32ba421147738a7191e667e4f45f5cf9",
+        "wikitext_bytes": 361
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element",
+        "pageid": 146804,
+        "revid": 834774,
+        "parentid": 0,
+        "timestamp": "2022-09-24T09:09:45Z",
+        "mediawiki_sha1": "a10994eb018217546f4702b0cd2eafaa8526ad04",
+        "wikitext_bytes": 336
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Anführung",
+        "pageid": 17115,
+        "revid": 967517,
+        "parentid": 794630,
+        "timestamp": "2024-12-13T15:22:13Z",
+        "mediawiki_sha1": "41b3a8ea109e30edfd9cc1e199b24c79fe738038",
+        "wikitext_bytes": 253
+      },
+      {
+        "title": "Vorlage:Aufgabelink",
+        "pageid": 30300,
+        "revid": 1070423,
+        "parentid": 1069816,
+        "timestamp": "2026-02-06T14:22:11Z",
+        "mediawiki_sha1": "6b0c4bbe7084da3f232f6649820be7b5f7bae36f",
+        "wikitext_bytes": 1864
+      },
+      {
+        "title": "Vorlage:Beweisstruktur",
+        "pageid": 24025,
+        "revid": 165764,
+        "parentid": 165744,
+        "timestamp": "2009-06-13T14:14:07Z",
+        "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Bildskip",
+        "pageid": 167735,
+        "revid": 1060033,
+        "parentid": 0,
+        "timestamp": "2025-11-26T10:30:06Z",
+        "mediawiki_sha1": "6a9f92ee3da83a3912f75cf7534dce938eadf7bb",
+        "wikitext_bytes": 195
+      },
+      {
+        "title": "Vorlage:CC",
+        "pageid": 103892,
+        "revid": 709639,
+        "parentid": 578068,
+        "timestamp": "2021-11-08T15:00:46Z",
+        "mediawiki_sha1": "0eceb25a2d3d11b5db027c02c8c2f33347cbac74",
+        "wikitext_bytes": 193
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionswort",
+        "pageid": 23952,
+        "revid": 1107662,
+        "parentid": 1061423,
+        "timestamp": "2026-07-17T08:06:31Z",
+        "mediawiki_sha1": "f1aff98d04a0bd4a7894808a36cedfb412c7d021",
+        "wikitext_bytes": 822
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Faktstruktur",
+        "pageid": 18814,
+        "revid": 1061914,
+        "parentid": 276624,
+        "timestamp": "2025-12-08T17:03:41Z",
+        "mediawiki_sha1": "627b618e705049f2b3fd2617c9568bed098096b9",
+        "wikitext_bytes": 1379
+      },
+      {
+        "title": "Vorlage:ImageNoteControl",
+        "pageid": 31352,
+        "revid": 200442,
+        "parentid": 200441,
+        "timestamp": "2009-12-20T10:26:01Z",
+        "mediawiki_sha1": "18862d5c418a35f12237fcf8a6ad5f33b9e4e5bb",
+        "wikitext_bytes": 421
+      },
+      {
+        "title": "Vorlage:Inputbeispiel",
+        "pageid": 11588,
+        "revid": 1074988,
+        "parentid": 1061937,
+        "timestamp": "2026-03-07T16:01:24Z",
+        "mediawiki_sha1": "c3ede97421bca4f5a97a08dedaaa9b4ddd5e6590",
+        "wikitext_bytes": 4706
+      },
+      {
+        "title": "Vorlage:Inputbemerkunghier",
+        "pageid": 19318,
+        "revid": 1003001,
+        "parentid": 210524,
+        "timestamp": "2025-06-03T14:14:58Z",
+        "mediawiki_sha1": "9d61d039f0e6174c2fcfdae6acf6c54a16f2eb6e",
+        "wikitext_bytes": 854
+      },
+      {
+        "title": "Vorlage:Inputbild",
+        "pageid": 17287,
+        "revid": 1074342,
+        "parentid": 1074341,
+        "timestamp": "2026-03-07T09:46:59Z",
+        "mediawiki_sha1": "7574f2aef8023c692b7abc57f24c52900da83526",
+        "wikitext_bytes": 1976
+      },
+      {
+        "title": "Vorlage:Inputdefinition",
+        "pageid": 11022,
+        "revid": 1106756,
+        "parentid": 1061928,
+        "timestamp": "2026-07-12T13:31:00Z",
+        "mediawiki_sha1": "855519104da8c6681b207bb5a475d262ae77f669",
+        "wikitext_bytes": 11717
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweis",
+        "pageid": 17490,
+        "revid": 1110004,
+        "parentid": 1110003,
+        "timestamp": "2026-08-04T10:35:43Z",
+        "mediawiki_sha1": "170d71d038f2328a676563b4b9ecbeeed82a35c9",
+        "wikitext_bytes": 16503
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweisverweis",
+        "pageid": 17493,
+        "revid": 1003036,
+        "parentid": 458791,
+        "timestamp": "2025-06-04T10:16:25Z",
+        "mediawiki_sha1": "001c8e224bd0af5632c7e06146243c6079aa0d28",
+        "wikitext_bytes": 14887
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathbed",
+        "pageid": 20302,
+        "revid": 210531,
+        "parentid": 168213,
+        "timestamp": "2010-02-21T19:52:49Z",
+        "mediawiki_sha1": "90ef94f9c38b656a0b6da21f640e23950c2d52b3",
+        "wikitext_bytes": 687
+      },
+      {
+        "title": "Vorlage:Mathbed1",
+        "pageid": 24996,
+        "revid": 168056,
+        "parentid": 168055,
+        "timestamp": "2009-06-28T11:29:14Z",
+        "mediawiki_sha1": "6190d5f97bdd37bd1124140c9be987360537fa53",
+        "wikitext_bytes": 189
+      },
+      {
+        "title": "Vorlage:Mathbed2",
+        "pageid": 24997,
+        "revid": 167979,
+        "parentid": 167969,
+        "timestamp": "2009-06-28T09:02:27Z",
+        "mediawiki_sha1": "be7dead58deede57d470b780d3055546e6184d46",
+        "wikitext_bytes": 257
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beispiel",
+        "pageid": 33519,
+        "revid": 864970,
+        "parentid": 864906,
+        "timestamp": "2022-10-19T16:21:27Z",
+        "mediawiki_sha1": "46aba056083d4e975d314608d3ffc651a584f5d8",
+        "wikitext_bytes": 1603
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beweis",
+        "pageid": 33517,
+        "revid": 861548,
+        "parentid": 748239,
+        "timestamp": "2022-10-05T08:00:16Z",
+        "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+        "wikitext_bytes": 2144
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Definition",
+        "pageid": 33515,
+        "revid": 763985,
+        "parentid": 762832,
+        "timestamp": "2022-08-15T04:47:42Z",
+        "mediawiki_sha1": "63e0d410c36911e0ac432f7074f4e6ba1f0baf56",
+        "wikitext_bytes": 1585
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Fakt",
+        "pageid": 33511,
+        "revid": 1063451,
+        "parentid": 1008461,
+        "timestamp": "2025-12-30T15:41:25Z",
+        "mediawiki_sha1": "a849aa72a036768f23044c44e16a302f42de8697",
+        "wikitext_bytes": 2588
+      },
+      {
+        "title": "Vorlage:Mathematischer Textabschnitt",
+        "pageid": 33589,
+        "revid": 865046,
+        "parentid": 864983,
+        "timestamp": "2022-10-19T18:54:33Z",
+        "mediawiki_sha1": "e988d41699849e3b0bee35d6ea687aac2d34b2aa",
+        "wikitext_bytes": 986
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathkor/display",
+        "pageid": 22873,
+        "revid": 1075108,
+        "parentid": 834408,
+        "timestamp": "2026-03-08T10:25:41Z",
+        "mediawiki_sha1": "9185784de8c218cba2979df8bac3d4a1b69465d5",
+        "wikitext_bytes": 363
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:Mathlk",
+        "pageid": 34696,
+        "revid": 1106273,
+        "parentid": 999681,
+        "timestamp": "2026-07-09T16:14:17Z",
+        "mediawiki_sha1": "c0bd3c8d0cafe2da4e68f15cb895a02b2b304588",
+        "wikitext_bytes": 710
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affine Gerade",
+        "pageid": 20276,
+        "revid": 564066,
+        "parentid": 313324,
+        "timestamp": "2018-10-29T18:00:10Z",
+        "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+        "wikitext_bytes": 232
+      },
+      {
+        "title": "Vorlage:Op:Bruch",
+        "pageid": 23180,
+        "revid": 599751,
+        "parentid": 332211,
+        "timestamp": "2019-09-28T11:03:08Z",
+        "mediawiki_sha1": "8af543c27bfd9fbe3cbe30a57b812c1c6c329cd5",
+        "wikitext_bytes": 223
+      },
+      {
+        "title": "Vorlage:Op:Grad Polynom",
+        "pageid": 23671,
+        "revid": 510310,
+        "parentid": 258904,
+        "timestamp": "2017-07-13T16:06:26Z",
+        "mediawiki_sha1": "a34306cc4f2be62383372b55a7e9e383ed15e589",
+        "wikitext_bytes": 323
+      },
+      {
+        "title": "Vorlage:Op:Homogenisierung",
+        "pageid": 54671,
+        "revid": 324764,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:32:50Z",
+        "mediawiki_sha1": "e78f4afcd81d447edb412d85d27c28e906ee7373",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Op:Zeilenvektor",
+        "pageid": 29723,
+        "revid": 1010936,
+        "parentid": 551775,
+        "timestamp": "2025-07-24T16:56:47Z",
+        "mediawiki_sha1": "ee73e1644fcd92d55dc3b1b4fd44c4a12b2606d4",
+        "wikitext_bytes": 536
+      },
+      {
+        "title": "Vorlage:Qed",
+        "pageid": 11116,
+        "revid": 92011,
+        "parentid": 92010,
+        "timestamp": "2008-04-20T08:14:57Z",
+        "mediawiki_sha1": "7cacc755daead99c6816a2540e477c0fe5def465",
+        "wikitext_bytes": 1564
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Relationskette/k",
+        "pageid": 85381,
+        "revid": 1106120,
+        "parentid": 972253,
+        "timestamp": "2026-07-07T08:54:28Z",
+        "mediawiki_sha1": "59744cdfaafba2bc8bce851e220c82b5c7feb58b",
+        "wikitext_bytes": 1948
+      },
+      {
+        "title": "Vorlage:Stichwort",
+        "pageid": 23961,
+        "revid": 1067874,
+        "parentid": 1061532,
+        "timestamp": "2026-01-30T10:47:00Z",
+        "mediawiki_sha1": "ceca7248a5c70c86413f4880b4f90f88611c4063",
+        "wikitext_bytes": 685
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+        "pageid": 24050,
+        "revid": 790374,
+        "parentid": 790369,
+        "timestamp": "2022-08-23T11:13:50Z",
+        "mediawiki_sha1": "5dd904e06ce5855ebdf98901569dd4673f98cb29",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Stichwort",
+        "pageid": 24184,
+        "revid": 1067875,
+        "parentid": 794079,
+        "timestamp": "2026-01-30T10:49:46Z",
+        "mediawiki_sha1": "bc938285eaf43311874531de8d3c26bb3b14e5de",
+        "wikitext_bytes": 842
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      }
+    ]
+  },
+  "worksheet_transclusion_closure": {
+    "requested_template_count": 110,
+    "captured_page_count": 110,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "worksheet-06-transclusions-01.json",
+        "bytes": 21134,
+        "sha256": "e9ec8065679c5199bd4e54c080b0d2d182dca5fd8551054564b60a97ad428a08",
+        "requested_titles": [
+          "Affine ebene Kurve/-3t^2+4t-2 und 2t^2+5t-3/Finde Gleichung/Aufgabe",
+          "Affine ebene Kurven/t^2+t^3 und 2t^2-t^4/Finde Gleichung/Aufgabe",
+          "Archimedische Spirale/Nicht algebraisch/Aufgabe",
+          "Differenzierbare Kurve/Bild ist Achsenkreuz/Aufgabe",
+          "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/R/Surjektiv/Aufgabe",
+          "Ebene algebraische Kurven/Irreduzibles Polynom/Unendliche Nullstellenmenge/Ist irreduzibel/Aufgabe",
+          "Ebene algebraische Kurven/Parametrisierung der Form (t^2,F(t))/Wann injektiv/Aufgabe",
+          "Ebene Kurve/R/Parametrisiert/Halbabdeckung/Aufgabe",
+          "Ebene Kurve/Rationale Parametrisierung/t^2+1,t^3-t/Gleichung/Aufgabe",
+          "Ebene Kurve/Rationale Parametrisierung/t^2+t,t^3/Gleichung/Aufgabe",
+          "Ebene Kurve/y^2 ist x^3+x^2/Flächeninhalt/Aufgabe",
+          "Ebene rationale Kurven/Nicht konstantes Bild davon/Ist auch rational/Aufgabe",
+          "Ebener polynomialer Graph/Parametrisiere/Aufgabe",
+          "Homogene Polynome in zwei Variablen/Division mit Rest/Aufgabe",
+          "Homogene Polynome in zwei Variablen/Division mit Rest/Beispiel/1/Aufgabe",
+          "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe",
+          "Homogene Polynome/S T ST/Homogene Gleichung/Aufgabe",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblattgestaltung",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/Beispiel/Beispielreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe/Aufgabereferenznummer",
+          "MDLUL/Achsenkreuz",
+          "MDLUL/algebraisch (ebene Kurve)",
+          "MDLUL/algebraisch abgeschlossener Körper",
+          "MDLUL/algebraische Kurve (Ebene)"
+        ]
+      },
+      {
+        "file": "worksheet-06-transclusions-02.json",
+        "bytes": 10982,
+        "sha256": "b7d35345adda0ababa2bbd9310f5315ceb84ef178cd01f3ca41a018eed0008c6",
+        "requested_titles": [
+          "MDLUL/algebraischen Kurve (Ebene)",
+          "MDLUL/Bild",
+          "MDLUL/Charakteristik (Körper)",
+          "MDLUL/Dehomogenisierung (Polynomring)",
+          "MDLUL/Dehomogenisierungen (Polynomring)",
+          "MDLUL/Differenzierbar (Kurve)",
+          "MDLUL/differenzierbare (Kurve)",
+          "MDLUL/differenzierbare Kurve",
+          "MDLUL/Einsetzungshomomorphismus (n)",
+          "MDLUL/Graphen (Abbildung)",
+          "MDLUL/homogene Polynome",
+          "MDLUL/homogene Polynome (Polynomring)",
+          "MDLUL/homogenes Polynom",
+          "MDLUL/Homogenes Polynom (Polynomring)",
+          "MDLUL/Homogenisierung (Polynomring)",
+          "MDLUL/injektiv",
+          "MDLUL/irreduzibel (Ring)",
+          "MDLUL/irreduzibles (Ring)",
+          "MDLUL/Körper",
+          "MDLUL/Nullstellenmenge",
+          "MDLUL/polynomiale Abbildung",
+          "MDLUL/Polynomring (n)",
+          "MDLUL/rational-parametrisierbare Kurve (Ebene)",
+          "MDLUL/unabhängig (endlicher Wahrscheinlichkeitsraum)",
+          "Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe"
+        ]
+      },
+      {
+        "file": "worksheet-06-transclusions-03.json",
+        "bytes": 26670,
+        "sha256": "63ec1932e610e0bda0dc9d423c16c5ff9a46cacbd5a9d671aaf1bd26a0ba2310",
+        "requested_titles": [
+          "Monomiale Abbildung/s,t^2/s,t/xy ist z^2/Aufgabe",
+          "Nichtalgebraische Parametrisierung/Algebraisch/Beispiel/Aufgabe",
+          "Polynomring/Dehomogenisierung/Einsetzungshomomorphismus/Aufgabe",
+          "Polynomring/Dehomogenisierung/Gleichheit und gleicher Grad/Aufgabe",
+          "Polynomring/Homogenisierung und Dehomogenisierung/Aufgabe",
+          "Polynomring/Homogenisierung/Multiplikativ/Aufgabe",
+          "Rationale Abbildung/Kurvengleichung/t durch t^2-1, 1 durch t/Aufgabe",
+          "Rationale ebene Kurve/Nichtalgebraische Parametrisierung/Aufgabe",
+          "Rationale Parametrisierung/Gleichung/2/Aufgabe",
+          "Rationale Parametrisierung/Gleichung/4/Aufgabe",
+          "Vorlage:=",
+          "Vorlage:Abbildung",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Abbildung/display/druckelementzeile",
+          "Vorlage:Anführung",
+          "Vorlage:Arbeitsblatt",
+          "Vorlage:Aufgabelink",
+          "Vorlage:Aufzählung2/a",
+          "Vorlage:Beispiellink",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Einrückung"
+        ]
+      },
+      {
+        "file": "worksheet-06-transclusions-04.json",
+        "bytes": 50691,
+        "sha256": "0e1970f1d10873f69066d1b884842c08d988ce37baa482d43c0ef3ea1ae24509",
+        "requested_titles": [
+          "Vorlage:Inputaufgabe",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:ManSie",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathbed",
+          "Vorlage:Mathbed1",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Aufgabe",
+          "Vorlage:Mathematischer Text/AufgabePunkteZerlegung",
+          "Vorlage:Mathkor/display",
+          "Vorlage:Mathl",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:N Sie",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affine Gerade",
+          "Vorlage:Op:Affiner Raum",
+          "Vorlage:Op:Bruch",
+          "Vorlage:Op:cos",
+          "Vorlage:Op:Dehomogenisierung",
+          "Vorlage:Op:Homogenisierung"
+        ]
+      },
+      {
+        "file": "worksheet-06-transclusions-05.json",
+        "bytes": 14566,
+        "sha256": "c484c87a7f002417dc58c74d6245d729765f8739a601fa0f70e05d3cf6f1d13a",
+        "requested_titles": [
+          "Vorlage:Op:sin",
+          "Vorlage:Op:Zeilenvektor",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Relationskette/k",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift",
+          "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Ebene/Aufgabe",
+          "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Kurve/Aufgabe"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Affine ebene Kurve/-3t^2+4t-2 und 2t^2+5t-3/Finde Gleichung/Aufgabe",
+        "pageid": 19287,
+        "revid": 829309,
+        "parentid": 513944,
+        "timestamp": "2022-09-21T08:08:11Z",
+        "mediawiki_sha1": "96462fb0b6ee5665a8a95ee015735893b1a1963b",
+        "wikitext_bytes": 383
+      },
+      {
+        "title": "Affine ebene Kurven/t^2+t^3 und 2t^2-t^4/Finde Gleichung/Aufgabe",
+        "pageid": 19120,
+        "revid": 1112353,
+        "parentid": 829299,
+        "timestamp": "2026-08-21T11:30:15Z",
+        "mediawiki_sha1": "a2a86c3b96c6c28b0dd28e11c753f446fbbcbf2c",
+        "wikitext_bytes": 442
+      },
+      {
+        "title": "Archimedische Spirale/Nicht algebraisch/Aufgabe",
+        "pageid": 93520,
+        "revid": 1040583,
+        "parentid": 887705,
+        "timestamp": "2025-08-12T11:13:04Z",
+        "mediawiki_sha1": "e068aa228c64ef70c79f3c718a06cf3a01e78e72",
+        "wikitext_bytes": 559
+      },
+      {
+        "title": "Differenzierbare Kurve/Bild ist Achsenkreuz/Aufgabe",
+        "pageid": 53124,
+        "revid": 887721,
+        "parentid": 841085,
+        "timestamp": "2023-02-24T10:25:52Z",
+        "mediawiki_sha1": "29d05e3480f0c7b12a2396eed407f49ce0722f92",
+        "wikitext_bytes": 516
+      },
+      {
+        "title": "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/R/Surjektiv/Aufgabe",
+        "pageid": 167300,
+        "revid": 1057065,
+        "parentid": 0,
+        "timestamp": "2025-10-30T16:02:31Z",
+        "mediawiki_sha1": "d33d682f5682fc2f1df3a64cc929d7fb307ed2f1",
+        "wikitext_bytes": 482
+      },
+      {
+        "title": "Ebene algebraische Kurven/Irreduzibles Polynom/Unendliche Nullstellenmenge/Ist irreduzibel/Aufgabe",
+        "pageid": 19205,
+        "revid": 1037243,
+        "parentid": 974445,
+        "timestamp": "2025-08-12T01:55:23Z",
+        "mediawiki_sha1": "bf4df4643388c50d59c7561dba4b19a188f94625",
+        "wikitext_bytes": 897
+      },
+      {
+        "title": "Ebene algebraische Kurven/Parametrisierung der Form (t^2,F(t))/Wann injektiv/Aufgabe",
+        "pageid": 19777,
+        "revid": 1112352,
+        "parentid": 1041208,
+        "timestamp": "2026-08-21T11:29:12Z",
+        "mediawiki_sha1": "74cb48433d357c468ff3b058f98dd1457ac05107",
+        "wikitext_bytes": 1110
+      },
+      {
+        "title": "Ebene Kurve/R/Parametrisiert/Halbabdeckung/Aufgabe",
+        "pageid": 93555,
+        "revid": 1082657,
+        "parentid": 1041228,
+        "timestamp": "2026-05-29T18:58:13Z",
+        "mediawiki_sha1": "5a86b143e44769be629bb9f39ac526c722f6c127",
+        "wikitext_bytes": 567
+      },
+      {
+        "title": "Ebene Kurve/Rationale Parametrisierung/t^2+1,t^3-t/Gleichung/Aufgabe",
+        "pageid": 55068,
+        "revid": 1112351,
+        "parentid": 1041229,
+        "timestamp": "2026-08-21T11:28:05Z",
+        "mediawiki_sha1": "c7b9c715690c3313078edfb606aa3452e602af20",
+        "wikitext_bytes": 613
+      },
+      {
+        "title": "Ebene Kurve/Rationale Parametrisierung/t^2+t,t^3/Gleichung/Aufgabe",
+        "pageid": 21578,
+        "revid": 1112349,
+        "parentid": 1082658,
+        "timestamp": "2026-08-21T11:27:12Z",
+        "mediawiki_sha1": "3c134634a3bad9da145717221733b676c4825d4b",
+        "wikitext_bytes": 744
+      },
+      {
+        "title": "Ebene Kurve/y^2 ist x^3+x^2/Flächeninhalt/Aufgabe",
+        "pageid": 93608,
+        "revid": 1041234,
+        "parentid": 980760,
+        "timestamp": "2025-08-12T13:11:35Z",
+        "mediawiki_sha1": "87c5ecda7ee7a8afb3de0ac1ebd6aab3533fc9e1",
+        "wikitext_bytes": 493
+      },
+      {
+        "title": "Ebene rationale Kurven/Nicht konstantes Bild davon/Ist auch rational/Aufgabe",
+        "pageid": 19376,
+        "revid": 1057038,
+        "parentid": 1037249,
+        "timestamp": "2025-10-30T10:02:33Z",
+        "mediawiki_sha1": "e3c05f0987b63c21c52f2759931e7912ab5f67ce",
+        "wikitext_bytes": 835
+      },
+      {
+        "title": "Ebener polynomialer Graph/Parametrisiere/Aufgabe",
+        "pageid": 93554,
+        "revid": 1067845,
+        "parentid": 1041252,
+        "timestamp": "2026-01-30T09:25:53Z",
+        "mediawiki_sha1": "272bbb39425aab9ab75deea69a296906e6a72cde",
+        "wikitext_bytes": 515
+      },
+      {
+        "title": "Homogene Polynome in zwei Variablen/Division mit Rest/Aufgabe",
+        "pageid": 94519,
+        "revid": 708608,
+        "parentid": 636665,
+        "timestamp": "2021-10-28T12:26:15Z",
+        "mediawiki_sha1": "6f08b6c6e6898846c0072f2f0fcba42d6dce7e13",
+        "wikitext_bytes": 444
+      },
+      {
+        "title": "Homogene Polynome in zwei Variablen/Division mit Rest/Beispiel/1/Aufgabe",
+        "pageid": 94474,
+        "revid": 1042119,
+        "parentid": 1027302,
+        "timestamp": "2025-08-12T15:47:35Z",
+        "mediawiki_sha1": "3d7d149acd2ec1b57533999ca13031cecd627b9e",
+        "wikitext_bytes": 665
+      },
+      {
+        "title": "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe",
+        "pageid": 167281,
+        "revid": 1057069,
+        "parentid": 1057058,
+        "timestamp": "2025-10-30T16:08:00Z",
+        "mediawiki_sha1": "4f1e4d98999cfd99098362c0a5be6be5f1dc800a",
+        "wikitext_bytes": 528
+      },
+      {
+        "title": "Homogene Polynome/S T ST/Homogene Gleichung/Aufgabe",
+        "pageid": 167305,
+        "revid": 1068022,
+        "parentid": 1057079,
+        "timestamp": "2026-01-30T18:27:31Z",
+        "mediawiki_sha1": "bb966236e77151719e89a940fdb0e097f5ab40c6",
+        "wikitext_bytes": 510
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt/Fuß",
+        "pageid": 165888,
+        "revid": 1032933,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:56Z",
+        "mediawiki_sha1": "206f8ae058ce6cedf600e08f41a0281b27f64145",
+        "wikitext_bytes": 1015
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblattgestaltung",
+        "pageid": 165886,
+        "revid": 1032931,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:36Z",
+        "mediawiki_sha1": "65585745ef99292181d41eae7d3b3bf1c077ec10",
+        "wikitext_bytes": 393
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/Beispiel/Beispielreferenznummer",
+        "pageid": 166421,
+        "revid": 1051393,
+        "parentid": 0,
+        "timestamp": "2025-08-18T08:20:37Z",
+        "mediawiki_sha1": "17bed8848d171d02411597622fb1de2fd52b652e",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166364,
+        "revid": 1059356,
+        "parentid": 1057872,
+        "timestamp": "2025-11-19T11:08:42Z",
+        "mediawiki_sha1": "feb97d2bfea06f815ba12f55116386351e2c1e06",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "MDLUL/Achsenkreuz",
+        "pageid": 55452,
+        "revid": 327864,
+        "parentid": 0,
+        "timestamp": "2012-09-06T09:28:58Z",
+        "mediawiki_sha1": "c8a473284cb0c462559925801de9554366028344",
+        "wikitext_bytes": 152
+      },
+      {
+        "title": "MDLUL/algebraisch (ebene Kurve)",
+        "pageid": 93521,
+        "revid": 525315,
+        "parentid": 0,
+        "timestamp": "2017-11-12T16:02:13Z",
+        "mediawiki_sha1": "4b67574343cb37a7ded98c6f10938df707aef00f",
+        "wikitext_bytes": 116
+      },
+      {
+        "title": "MDLUL/algebraisch abgeschlossener Körper",
+        "pageid": 44831,
+        "revid": 262662,
+        "parentid": 0,
+        "timestamp": "2011-04-15T18:04:08Z",
+        "mediawiki_sha1": "6d3b7f289f35f30bbbe877ed47eb8ee04c6f88e6",
+        "wikitext_bytes": 146
+      },
+      {
+        "title": "MDLUL/algebraische Kurve (Ebene)",
+        "pageid": 93517,
+        "revid": 525310,
+        "parentid": 0,
+        "timestamp": "2017-11-12T15:56:54Z",
+        "mediawiki_sha1": "9e44334bba844796fe32cd4f4fc57920f41d4d86",
+        "wikitext_bytes": 117
+      },
+      {
+        "title": "MDLUL/algebraischen Kurve (Ebene)",
+        "pageid": 93516,
+        "revid": 525309,
+        "parentid": 0,
+        "timestamp": "2017-11-12T15:56:46Z",
+        "mediawiki_sha1": "a790a05cd5ac1ac134060bbc7ee14754db9a44fe",
+        "wikitext_bytes": 114
+      },
+      {
+        "title": "MDLUL/Bild",
+        "pageid": 38873,
+        "revid": 235246,
+        "parentid": 0,
+        "timestamp": "2010-08-17T16:11:20Z",
+        "mediawiki_sha1": "692852cb1f0044c6170282436f7a8d49088d67b1",
+        "wikitext_bytes": 86
+      },
+      {
+        "title": "MDLUL/Charakteristik (Körper)",
+        "pageid": 45278,
+        "revid": 264850,
+        "parentid": 0,
+        "timestamp": "2011-05-13T11:55:33Z",
+        "mediawiki_sha1": "3621cbe1782c5f80038048e2a916982f82d3cfd0",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/Dehomogenisierung (Polynomring)",
+        "pageid": 54666,
+        "revid": 324756,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:18:57Z",
+        "mediawiki_sha1": "71e0d5ae320e22c692c462d830d8f35b1dafd1f0",
+        "wikitext_bytes": 156
+      },
+      {
+        "title": "MDLUL/Dehomogenisierungen (Polynomring)",
+        "pageid": 54667,
+        "revid": 324757,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:19:16Z",
+        "mediawiki_sha1": "86e7c294b947814cc6975faba853f710e5e25f15",
+        "wikitext_bytes": 125
+      },
+      {
+        "title": "MDLUL/Differenzierbar (Kurve)",
+        "pageid": 58733,
+        "revid": 342433,
+        "parentid": 0,
+        "timestamp": "2012-12-05T13:19:27Z",
+        "mediawiki_sha1": "663df9385a66ab336fc751867477995b4a080ca9",
+        "wikitext_bytes": 129
+      },
+      {
+        "title": "MDLUL/differenzierbare (Kurve)",
+        "pageid": 93519,
+        "revid": 525313,
+        "parentid": 525312,
+        "timestamp": "2017-11-12T15:59:00Z",
+        "mediawiki_sha1": "bbac9a985c210acdb1c0bb68565cf020957989ff",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/differenzierbare Kurve",
+        "pageid": 38807,
+        "revid": 271577,
+        "parentid": 235146,
+        "timestamp": "2011-07-07T18:50:08Z",
+        "mediawiki_sha1": "1d9ccb28f9cede6ab2015362a7f8425704c1b68c",
+        "wikitext_bytes": 119
+      },
+      {
+        "title": "MDLUL/Einsetzungshomomorphismus (n)",
+        "pageid": 94432,
+        "revid": 531119,
+        "parentid": 0,
+        "timestamp": "2017-11-29T16:00:02Z",
+        "mediawiki_sha1": "1b72e203b27fbe252974347f32a58b0350dec73f",
+        "wikitext_bytes": 129
+      },
+      {
+        "title": "MDLUL/Graphen (Abbildung)",
+        "pageid": 39071,
+        "revid": 235759,
+        "parentid": 0,
+        "timestamp": "2010-08-19T06:27:14Z",
+        "mediawiki_sha1": "868a1e320a00c658d2f44ed7aec6e78847df3e8b",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/homogene Polynome",
+        "pageid": 94520,
+        "revid": 532037,
+        "parentid": 0,
+        "timestamp": "2017-12-01T19:34:28Z",
+        "mediawiki_sha1": "c7ba7d378f556dc131a5b026852d510d845ba404",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/homogene Polynome (Polynomring)",
+        "pageid": 54668,
+        "revid": 324758,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:19:48Z",
+        "mediawiki_sha1": "dfb731f1fdc86ea3bad7833de3338cd459aef9f8",
+        "wikitext_bytes": 123
+      },
+      {
+        "title": "MDLUL/homogenes Polynom",
+        "pageid": 45638,
+        "revid": 266300,
+        "parentid": 0,
+        "timestamp": "2011-05-27T16:01:09Z",
+        "mediawiki_sha1": "a0172ad7848358bf6490ee8cb8847432399541b2",
+        "wikitext_bytes": 128
+      },
+      {
+        "title": "MDLUL/Homogenes Polynom (Polynomring)",
+        "pageid": 54669,
+        "revid": 324759,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:21:03Z",
+        "mediawiki_sha1": "4452231efb948e9a200253d412545d417bd0d715",
+        "wikitext_bytes": 142
+      },
+      {
+        "title": "MDLUL/Homogenisierung (Polynomring)",
+        "pageid": 54663,
+        "revid": 324752,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:09:17Z",
+        "mediawiki_sha1": "6b74440b4b09b514fbe9c29241bc51ce7798af35",
+        "wikitext_bytes": 145
+      },
+      {
+        "title": "MDLUL/injektiv",
+        "pageid": 51226,
+        "revid": 400732,
+        "parentid": 343715,
+        "timestamp": "2014-09-01T07:17:27Z",
+        "mediawiki_sha1": "ac4ebab4784a95d1e364840c89620f5e1c52cc8a",
+        "wikitext_bytes": 87
+      },
+      {
+        "title": "MDLUL/irreduzibel (Ring)",
+        "pageid": 47151,
+        "revid": 274190,
+        "parentid": 0,
+        "timestamp": "2011-07-31T11:12:57Z",
+        "mediawiki_sha1": "eea0c404066d712c5b59b645d2816b229e02bedb",
+        "wikitext_bytes": 141
+      },
+      {
+        "title": "MDLUL/irreduzibles (Ring)",
+        "pageid": 134148,
+        "revid": 708620,
+        "parentid": 0,
+        "timestamp": "2021-10-28T12:45:37Z",
+        "mediawiki_sha1": "d6cbd850d2489e181cae60a354e30ebdd980acc4",
+        "wikitext_bytes": 98
+      },
+      {
+        "title": "MDLUL/Körper",
+        "pageid": 45898,
+        "revid": 267506,
+        "parentid": 0,
+        "timestamp": "2011-06-07T13:51:29Z",
+        "mediawiki_sha1": "ce01f7f216f5f8bd6b1401f9f4ae5020af5040d1",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Nullstellenmenge",
+        "pageid": 52004,
+        "revid": 305420,
+        "parentid": 0,
+        "timestamp": "2012-03-21T18:31:09Z",
+        "mediawiki_sha1": "87c12d4abb2a807d7e5b1a436fb3b23f21ee8359",
+        "wikitext_bytes": 143
+      },
+      {
+        "title": "MDLUL/polynomiale Abbildung",
+        "pageid": 53453,
+        "revid": 314547,
+        "parentid": 0,
+        "timestamp": "2012-05-17T08:34:46Z",
+        "mediawiki_sha1": "5889c0165a22062da8e609c71c4622c2ae695c26",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Polynomring (n)",
+        "pageid": 45067,
+        "revid": 263975,
+        "parentid": 0,
+        "timestamp": "2011-05-05T06:38:30Z",
+        "mediawiki_sha1": "7af8a4768a374889f28eb7fd7275c8fe9298560c",
+        "wikitext_bytes": 107
+      },
+      {
+        "title": "MDLUL/rational-parametrisierbare Kurve (Ebene)",
+        "pageid": 93518,
+        "revid": 525311,
+        "parentid": 0,
+        "timestamp": "2017-11-12T15:58:21Z",
+        "mediawiki_sha1": "1d186d1370bcd31b65d4a1056c3dcfda2464fb2a",
+        "wikitext_bytes": 142
+      },
+      {
+        "title": "MDLUL/unabhängig (endlicher Wahrscheinlichkeitsraum)",
+        "pageid": 87303,
+        "revid": 490162,
+        "parentid": 0,
+        "timestamp": "2017-02-14T21:15:40Z",
+        "mediawiki_sha1": "12034fc5cce3917fbebbf949ae4e28a461a05904",
+        "wikitext_bytes": 165
+      },
+      {
+        "title": "Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe",
+        "pageid": 19354,
+        "revid": 1107796,
+        "parentid": 868349,
+        "timestamp": "2026-07-18T09:32:46Z",
+        "mediawiki_sha1": "3f0249cba8264d6d5fcb9f60aee8b16a47ff4c13",
+        "wikitext_bytes": 849
+      },
+      {
+        "title": "Monomiale Abbildung/s,t^2/s,t/xy ist z^2/Aufgabe",
+        "pageid": 19529,
+        "revid": 1083608,
+        "parentid": 1045305,
+        "timestamp": "2026-05-29T21:35:53Z",
+        "mediawiki_sha1": "df791acfe564594dc5da1ddfe8c24179374c7e72",
+        "wikitext_bytes": 858
+      },
+      {
+        "title": "Nichtalgebraische Parametrisierung/Algebraisch/Beispiel/Aufgabe",
+        "pageid": 93514,
+        "revid": 887727,
+        "parentid": 846234,
+        "timestamp": "2023-02-24T10:28:04Z",
+        "mediawiki_sha1": "30a9832428fb62779e22af29211acbcaaa705585",
+        "wikitext_bytes": 594
+      },
+      {
+        "title": "Polynomring/Dehomogenisierung/Einsetzungshomomorphismus/Aufgabe",
+        "pageid": 94470,
+        "revid": 1083790,
+        "parentid": 1046721,
+        "timestamp": "2026-05-29T22:05:13Z",
+        "mediawiki_sha1": "cebc703f34cc034591705b6a29dba1f3b2b880f9",
+        "wikitext_bytes": 816
+      },
+      {
+        "title": "Polynomring/Dehomogenisierung/Gleichheit und gleicher Grad/Aufgabe",
+        "pageid": 54662,
+        "revid": 1083791,
+        "parentid": 1067924,
+        "timestamp": "2026-05-29T22:05:23Z",
+        "mediawiki_sha1": "b76478a8c477537a2ae4b9a7014265bbbb7afb55",
+        "wikitext_bytes": 978
+      },
+      {
+        "title": "Polynomring/Homogenisierung und Dehomogenisierung/Aufgabe",
+        "pageid": 54661,
+        "revid": 1083801,
+        "parentid": 1067922,
+        "timestamp": "2026-05-29T22:07:03Z",
+        "mediawiki_sha1": "96bf88587088a7c27e168546c8ce5c58c814e0ca",
+        "wikitext_bytes": 1468
+      },
+      {
+        "title": "Polynomring/Homogenisierung/Multiplikativ/Aufgabe",
+        "pageid": 94469,
+        "revid": 1083802,
+        "parentid": 1046793,
+        "timestamp": "2026-05-29T22:07:13Z",
+        "mediawiki_sha1": "d7327f37af56686c5ebe959fdd284f55321adec2",
+        "wikitext_bytes": 776
+      },
+      {
+        "title": "Rationale Abbildung/Kurvengleichung/t durch t^2-1, 1 durch t/Aufgabe",
+        "pageid": 53276,
+        "revid": 1048226,
+        "parentid": 829301,
+        "timestamp": "2025-08-13T08:37:07Z",
+        "mediawiki_sha1": "9cbc8ec6ac5fb3a27862a8de116cdc936680f3d5",
+        "wikitext_bytes": 486
+      },
+      {
+        "title": "Rationale ebene Kurve/Nichtalgebraische Parametrisierung/Aufgabe",
+        "pageid": 93515,
+        "revid": 1048232,
+        "parentid": 987783,
+        "timestamp": "2025-08-13T08:38:07Z",
+        "mediawiki_sha1": "84ea95dfdec74d7cc7704289300e7129083cc972",
+        "wikitext_bytes": 583
+      },
+      {
+        "title": "Rationale Parametrisierung/Gleichung/2/Aufgabe",
+        "pageid": 94036,
+        "revid": 1057992,
+        "parentid": 1048305,
+        "timestamp": "2025-11-07T14:01:32Z",
+        "mediawiki_sha1": "fcda9cfeb034e369cc2daf4fa52ec7fa9225b7ec",
+        "wikitext_bytes": 516
+      },
+      {
+        "title": "Rationale Parametrisierung/Gleichung/4/Aufgabe",
+        "pageid": 94096,
+        "revid": 1048311,
+        "parentid": 829306,
+        "timestamp": "2025-08-13T08:51:07Z",
+        "mediawiki_sha1": "cd4f983cea47ffb6e5f396559c1f5d4b5ee0f2ce",
+        "wikitext_bytes": 516
+      },
+      {
+        "title": "Vorlage:=",
+        "pageid": 20300,
+        "revid": 136936,
+        "parentid": 136903,
+        "timestamp": "2008-12-21T21:01:15Z",
+        "mediawiki_sha1": "51ab5591f9cca571701287fefae23cb3273c59d7",
+        "wikitext_bytes": 235
+      },
+      {
+        "title": "Vorlage:Abbildung",
+        "pageid": 22825,
+        "revid": 834813,
+        "parentid": 831449,
+        "timestamp": "2022-09-24T09:18:56Z",
+        "mediawiki_sha1": "365fba0c32ba421147738a7191e667e4f45f5cf9",
+        "wikitext_bytes": 361
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element",
+        "pageid": 146804,
+        "revid": 834774,
+        "parentid": 0,
+        "timestamp": "2022-09-24T09:09:45Z",
+        "mediawiki_sha1": "a10994eb018217546f4702b0cd2eafaa8526ad04",
+        "wikitext_bytes": 336
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Abbildung/display/druckelementzeile",
+        "pageid": 168480,
+        "revid": 1068640,
+        "parentid": 0,
+        "timestamp": "2026-02-03T11:05:54Z",
+        "mediawiki_sha1": "29cc262decbae99005005a06c6dd521a41710754",
+        "wikitext_bytes": 421
+      },
+      {
+        "title": "Vorlage:Anführung",
+        "pageid": 17115,
+        "revid": 967517,
+        "parentid": 794630,
+        "timestamp": "2024-12-13T15:22:13Z",
+        "mediawiki_sha1": "41b3a8ea109e30edfd9cc1e199b24c79fe738038",
+        "wikitext_bytes": 253
+      },
+      {
+        "title": "Vorlage:Arbeitsblatt",
+        "pageid": 28743,
+        "revid": 938901,
+        "parentid": 938893,
+        "timestamp": "2024-07-23T16:20:47Z",
+        "mediawiki_sha1": "cdd0ba6a7f93d6d5df80b0e93030ff714636e5b9",
+        "wikitext_bytes": 248
+      },
+      {
+        "title": "Vorlage:Aufgabelink",
+        "pageid": 30300,
+        "revid": 1070423,
+        "parentid": 1069816,
+        "timestamp": "2026-02-06T14:22:11Z",
+        "mediawiki_sha1": "6b0c4bbe7084da3f232f6649820be7b5f7bae36f",
+        "wikitext_bytes": 1864
+      },
+      {
+        "title": "Vorlage:Aufzählung2/a",
+        "pageid": 84499,
+        "revid": 1007146,
+        "parentid": 475653,
+        "timestamp": "2025-07-04T10:11:13Z",
+        "mediawiki_sha1": "193accfc8c49ee9157ab201d3e7be975393aabd9",
+        "wikitext_bytes": 226
+      },
+      {
+        "title": "Vorlage:Beispiellink",
+        "pageid": 41670,
+        "revid": 1070422,
+        "parentid": 1069819,
+        "timestamp": "2026-02-06T14:20:40Z",
+        "mediawiki_sha1": "2699aa7c9cc51e7953958fcbe0fe30bd41dbf02f",
+        "wikitext_bytes": 1793
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Inputaufgabe",
+        "pageid": 18012,
+        "revid": 1074928,
+        "parentid": 1074886,
+        "timestamp": "2026-03-07T15:07:51Z",
+        "mediawiki_sha1": "7d986984e8f142ccf7bcab8075ecfc2406ab4883",
+        "wikitext_bytes": 15973
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:ManSie",
+        "pageid": 22977,
+        "revid": 154703,
+        "parentid": 154702,
+        "timestamp": "2009-05-02T07:51:29Z",
+        "mediawiki_sha1": "ac241a6dd0ce0be7df949462f1a96974f855b890",
+        "wikitext_bytes": 186
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathbed",
+        "pageid": 20302,
+        "revid": 210531,
+        "parentid": 168213,
+        "timestamp": "2010-02-21T19:52:49Z",
+        "mediawiki_sha1": "90ef94f9c38b656a0b6da21f640e23950c2d52b3",
+        "wikitext_bytes": 687
+      },
+      {
+        "title": "Vorlage:Mathbed1",
+        "pageid": 24996,
+        "revid": 168056,
+        "parentid": 168055,
+        "timestamp": "2009-06-28T11:29:14Z",
+        "mediawiki_sha1": "6190d5f97bdd37bd1124140c9be987360537fa53",
+        "wikitext_bytes": 189
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Aufgabe",
+        "pageid": 33520,
+        "revid": 945699,
+        "parentid": 945698,
+        "timestamp": "2024-10-06T15:36:10Z",
+        "mediawiki_sha1": "e66acdf4e9f704b519f910a3ac8b123ac3aab145",
+        "wikitext_bytes": 7332
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/AufgabePunkteZerlegung",
+        "pageid": 144492,
+        "revid": 1105116,
+        "parentid": 1094064,
+        "timestamp": "2026-06-21T13:11:03Z",
+        "mediawiki_sha1": "ad6c047b3f7193cd54ddb7907dff7714934631cc",
+        "wikitext_bytes": 3038
+      },
+      {
+        "title": "Vorlage:Mathkor/display",
+        "pageid": 22873,
+        "revid": 1075108,
+        "parentid": 834408,
+        "timestamp": "2026-03-08T10:25:41Z",
+        "mediawiki_sha1": "9185784de8c218cba2979df8bac3d4a1b69465d5",
+        "wikitext_bytes": 363
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:N Sie",
+        "pageid": 22975,
+        "revid": 1106829,
+        "parentid": 1106828,
+        "timestamp": "2026-07-13T16:36:50Z",
+        "mediawiki_sha1": "1e1bbe37a637c31bb179415b8336da2c795bc96e",
+        "wikitext_bytes": 173
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affine Gerade",
+        "pageid": 20276,
+        "revid": 564066,
+        "parentid": 313324,
+        "timestamp": "2018-10-29T18:00:10Z",
+        "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+        "wikitext_bytes": 232
+      },
+      {
+        "title": "Vorlage:Op:Affiner Raum",
+        "pageid": 45165,
+        "revid": 594907,
+        "parentid": 332226,
+        "timestamp": "2019-07-21T15:59:27Z",
+        "mediawiki_sha1": "4686037d6435c99c266f178f71b76faf17ef7239",
+        "wikitext_bytes": 236
+      },
+      {
+        "title": "Vorlage:Op:Bruch",
+        "pageid": 23180,
+        "revid": 599751,
+        "parentid": 332211,
+        "timestamp": "2019-09-28T11:03:08Z",
+        "mediawiki_sha1": "8af543c27bfd9fbe3cbe30a57b812c1c6c329cd5",
+        "wikitext_bytes": 223
+      },
+      {
+        "title": "Vorlage:Op:cos",
+        "pageid": 31343,
+        "revid": 892016,
+        "parentid": 891896,
+        "timestamp": "2023-03-23T18:24:32Z",
+        "mediawiki_sha1": "bc80d1573f357ffd016958bbbf53c9c832a4cd79",
+        "wikitext_bytes": 293
+      },
+      {
+        "title": "Vorlage:Op:Dehomogenisierung",
+        "pageid": 54673,
+        "revid": 324768,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:38:03Z",
+        "mediawiki_sha1": "e26a5511292530f4114d87f1954ea6a553832ca7",
+        "wikitext_bytes": 217
+      },
+      {
+        "title": "Vorlage:Op:Homogenisierung",
+        "pageid": 54671,
+        "revid": 324764,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:32:50Z",
+        "mediawiki_sha1": "e78f4afcd81d447edb412d85d27c28e906ee7373",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Op:sin",
+        "pageid": 31344,
+        "revid": 892015,
+        "parentid": 891894,
+        "timestamp": "2023-03-23T18:24:01Z",
+        "mediawiki_sha1": "54aed265c065504cda6f8c7f8575d5cc1d053532",
+        "wikitext_bytes": 294
+      },
+      {
+        "title": "Vorlage:Op:Zeilenvektor",
+        "pageid": 29723,
+        "revid": 1010936,
+        "parentid": 551775,
+        "timestamp": "2025-07-24T16:56:47Z",
+        "mediawiki_sha1": "ee73e1644fcd92d55dc3b1b4fd44c4a12b2606d4",
+        "wikitext_bytes": 536
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Relationskette/k",
+        "pageid": 85381,
+        "revid": 1106120,
+        "parentid": 972253,
+        "timestamp": "2026-07-07T08:54:28Z",
+        "mediawiki_sha1": "59744cdfaafba2bc8bce851e220c82b5c7feb58b",
+        "wikitext_bytes": 1948
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      },
+      {
+        "title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Ebene/Aufgabe",
+        "pageid": 94481,
+        "revid": 1084652,
+        "parentid": 1068639,
+        "timestamp": "2026-05-30T00:28:25Z",
+        "mediawiki_sha1": "0fcbae4ad48dc6d03fc876147861a3789a8ae45d",
+        "wikitext_bytes": 1589
+      },
+      {
+        "title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Kurve/Aufgabe",
+        "pageid": 94475,
+        "revid": 1084653,
+        "parentid": 1072845,
+        "timestamp": "2026-05-30T00:28:34Z",
+        "mediawiki_sha1": "719e09e6365a13bdf671df9ecb3d59d5444ef83a",
+        "wikitext_bytes": 1498
+      }
+    ]
+  },
+  "solutions": {
+    "worksheet": {
+      "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 6",
+      "pageid": 165925,
+      "revid": 1059354,
+      "parentid": 1057870,
+      "timestamp": "2025-11-19T11:00:28Z",
+      "mediawiki_sha1": "66a5c51263dd1bbe94cdc78e5d38405d2a5f41d4",
+      "wikitext_bytes": 3469,
+      "api_file": "worksheet-06-api.json",
+      "api_bytes": 4018,
+      "api_sha256": "63c5dc8cdd406b457e6b7e474763bbc17c4be7d1cd66cd13a747a66f0e22b258",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1059354",
+      "xml_file": "worksheet-06.xml",
+      "xml_bytes": 6611,
+      "xml_sha256": "7ec13ce1bf99043e68bbd88debe06745dbae2f6297b74d04563c87e11a646571",
+      "html_file": "worksheet-06.html",
+      "html_bytes": 76393,
+      "html_sha256": "e76b509cc68b421de23de5110115a6c85d8a9be1cb952f8de5488988da96d4e3",
+      "html_source": "action_parse_text_fallback",
+      "parse_api_file": "worksheet-06-parse-api.json",
+      "parse_api_bytes": 18898,
+      "parse_api_sha256": "a82581131ab371d08fc3db7114c3ab9f6ec0384b86c6690cea4c3af1acfe42d6",
+      "template_count": 110,
+      "image_count": 2,
+      "link_count": 56,
+      "external_link_count": 0
+    },
+    "exercise_count": 30,
+    "solution_count": 9,
+    "candidate_api_file": "worksheet-solution-candidates-api.json",
+    "candidate_api_bytes": 17109,
+    "candidate_api_sha256": "d6261ea1f6c9b1a4e56da704d7aa9960e67f5bd386d0f982a7e228505164506f",
+    "entries": [
+      {
+        "exercise_number": 1,
+        "exercise_title": "Ebener polynomialer Graph/Parametrisiere/Aufgabe",
+        "solution_title": "Ebener polynomialer Graph/Parametrisiere/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 2,
+        "exercise_title": "Affine ebene Kurve/-3t^2+4t-2 und 2t^2+5t-3/Finde Gleichung/Aufgabe",
+        "solution_title": "Affine ebene Kurve/-3t^2+4t-2 und 2t^2+5t-3/Finde Gleichung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 3,
+        "exercise_title": "Ebene Kurve/Rationale Parametrisierung/t^2+t,t^3/Gleichung/Aufgabe",
+        "solution_title": "Ebene Kurve/Rationale Parametrisierung/t^2+t,t^3/Gleichung/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 21579,
+        "revid": 1112350,
+        "parentid": 1056984,
+        "timestamp": "2026-08-21T11:27:34Z",
+        "mediawiki_sha1": "edd2ba5e4300ef37835a2b376145a62bb4dd8a33",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112350",
+        "xml_file": "solution-ex03.xml",
+        "xml_bytes": 4155,
+        "xml_sha256": "ee7b804e664d7d43cb78f61b4dca613b065cfa100ebfffecfa9c734cf732cd91",
+        "html_file": "solution-ex03.html",
+        "html_bytes": 8050,
+        "html_sha256": "51c4ff700569017836f58d16b9d7f0b772eabe8b47f77d1488d66add9291bc20",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 4,
+        "exercise_title": "Ebene Kurve/Rationale Parametrisierung/t^2+1,t^3-t/Gleichung/Aufgabe",
+        "solution_title": "Ebene Kurve/Rationale Parametrisierung/t^2+1,t^3-t/Gleichung/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 55069,
+        "revid": 958133,
+        "parentid": 825761,
+        "timestamp": "2024-11-07T16:26:20Z",
+        "mediawiki_sha1": "3a884a7935ff57df5012fb92450ea79c3b7f1a64",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=958133",
+        "xml_file": "solution-ex04.xml",
+        "xml_bytes": 3933,
+        "xml_sha256": "8e9eea31aa3949af9ba347ed9abfd5ce4f09b7b8a11a8cf277bc566e9f33421a",
+        "html_file": "solution-ex04.html",
+        "html_bytes": 6328,
+        "html_sha256": "88fb5d428775936ba1e49d378bb95c1dcbb46ec7aeb66105ff4d90f4acb9b527",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 5,
+        "exercise_title": "Ebene Kurve/R/Parametrisiert/Halbabdeckung/Aufgabe",
+        "solution_title": "Ebene Kurve/R/Parametrisiert/Halbabdeckung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 6,
+        "exercise_title": "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/R/Surjektiv/Aufgabe",
+        "solution_title": "Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/R/Surjektiv/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 7,
+        "exercise_title": "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe",
+        "solution_title": "Homogene Polynome/2 Variablen/Gleicher Grad/Homogene Gleichung/Fakt/Beweis/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 8,
+        "exercise_title": "Homogene Polynome/S T ST/Homogene Gleichung/Aufgabe",
+        "solution_title": "Homogene Polynome/S T ST/Homogene Gleichung/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 167309,
+        "revid": 1057120,
+        "parentid": 1057119,
+        "timestamp": "2025-10-31T11:11:04Z",
+        "mediawiki_sha1": "8757774b89291d7132f85b35544997179cfa6513",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1057120",
+        "xml_file": "solution-ex08.xml",
+        "xml_bytes": 4788,
+        "xml_sha256": "8b420cc816b39232252eb182606fa1c98c351ef7a31d7fbe6187c1995ef155d1",
+        "html_file": "solution-ex08.html",
+        "html_bytes": 11693,
+        "html_sha256": "4ed6ac5f61bfc822c9a57bdc560f29ddbd6b4ebe32ade542c371c049b87c5be8",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 9,
+        "exercise_title": "Rationale Parametrisierung/Gleichung/4/Aufgabe",
+        "solution_title": "Rationale Parametrisierung/Gleichung/4/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 94097,
+        "revid": 1112838,
+        "parentid": 1095498,
+        "timestamp": "2026-08-21T17:35:17Z",
+        "mediawiki_sha1": "99bb8d90236d2491a588141a219f2786d1c86029",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112838",
+        "xml_file": "solution-ex09.xml",
+        "xml_bytes": 5937,
+        "xml_sha256": "c336cce036220ba0bf35685e919d4e41be046847df678e5ba03253788ae45402",
+        "html_file": "solution-ex09.html",
+        "html_bytes": 21759,
+        "html_sha256": "acc03ecb93300d476cbb0b3712572fa87d69ac22548aa06f2d5a9176ebb9f185",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 10,
+        "exercise_title": "Rationale Abbildung/Kurvengleichung/t durch t^2-1, 1 durch t/Aufgabe",
+        "solution_title": "Rationale Abbildung/Kurvengleichung/t durch t^2-1, 1 durch t/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 11,
+        "exercise_title": "Nichtalgebraische Parametrisierung/Algebraisch/Beispiel/Aufgabe",
+        "solution_title": "Nichtalgebraische Parametrisierung/Algebraisch/Beispiel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 12,
+        "exercise_title": "Archimedische Spirale/Nicht algebraisch/Aufgabe",
+        "solution_title": "Archimedische Spirale/Nicht algebraisch/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 13,
+        "exercise_title": "Rationale ebene Kurve/Nichtalgebraische Parametrisierung/Aufgabe",
+        "solution_title": "Rationale ebene Kurve/Nichtalgebraische Parametrisierung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 14,
+        "exercise_title": "Differenzierbare Kurve/Bild ist Achsenkreuz/Aufgabe",
+        "solution_title": "Differenzierbare Kurve/Bild ist Achsenkreuz/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 15,
+        "exercise_title": "Ebene rationale Kurven/Nicht konstantes Bild davon/Ist auch rational/Aufgabe",
+        "solution_title": "Ebene rationale Kurven/Nicht konstantes Bild davon/Ist auch rational/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 16,
+        "exercise_title": "Ebene algebraische Kurven/Parametrisierung der Form (t^2,F(t))/Wann injektiv/Aufgabe",
+        "solution_title": "Ebene algebraische Kurven/Parametrisierung der Form (t^2,F(t))/Wann injektiv/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 17,
+        "exercise_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Kurve/Aufgabe",
+        "solution_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Kurve/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 94478,
+        "revid": 1096769,
+        "parentid": 1030269,
+        "timestamp": "2026-06-15T09:43:55Z",
+        "mediawiki_sha1": "214bcfeb16c1e7083aac280be534454e1610e47e",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1096769",
+        "xml_file": "solution-ex17.xml",
+        "xml_bytes": 4311,
+        "xml_sha256": "52629fcf93380dad30329e4c825b7e3e46e97090f81f76c8016785e1e6181dfd",
+        "html_file": "solution-ex17.html",
+        "html_bytes": 7034,
+        "html_sha256": "d36539ca40b8614b30964e7d02b33f6d294c55b4605a015b12bd9efe0d8b5ba2",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 18,
+        "exercise_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Ebene/Aufgabe",
+        "solution_title": "Wahrscheinlichkeit/Zielwahrscheinlichkeit/Ebene/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 94482,
+        "revid": 1024155,
+        "parentid": 987435,
+        "timestamp": "2025-08-10T01:49:29Z",
+        "mediawiki_sha1": "a1c98e250c1585267f9e8e3e89468be1da6ffa06",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1024155",
+        "xml_file": "solution-ex18.xml",
+        "xml_bytes": 4211,
+        "xml_sha256": "7c9393bdb58597777947c787a1cbc3f1be0362497389959eb8ef214997d72470",
+        "html_file": "solution-ex18.html",
+        "html_bytes": 6634,
+        "html_sha256": "60272901bfe534e371fcb54c2f61896c07aaaf2b375decb4d8725337039c07a7",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 19,
+        "exercise_title": "Monomiale Abbildung/s,t^2/s,t/xy ist z^2/Aufgabe",
+        "solution_title": "Monomiale Abbildung/s,t^2/s,t/xy ist z^2/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 20,
+        "exercise_title": "Polynomring/Homogenisierung und Dehomogenisierung/Aufgabe",
+        "solution_title": "Polynomring/Homogenisierung und Dehomogenisierung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 21,
+        "exercise_title": "Polynomring/Dehomogenisierung/Gleichheit und gleicher Grad/Aufgabe",
+        "solution_title": "Polynomring/Dehomogenisierung/Gleichheit und gleicher Grad/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 168400,
+        "revid": 1067921,
+        "parentid": 0,
+        "timestamp": "2026-01-30T13:19:32Z",
+        "mediawiki_sha1": "49c53520a95be244d338d0a512f1edf439b360ac",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1067921",
+        "xml_file": "solution-ex21.xml",
+        "xml_bytes": 4002,
+        "xml_sha256": "45753e5a180b85c1ec6f78c46079fed67710a98019781321f57a15019ee5e7c8",
+        "html_file": "solution-ex21.html",
+        "html_bytes": 6406,
+        "html_sha256": "de7e32020057dd88c45b4c285a299a5fcd0be46be83956f73a82a30dd44ddcb4",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 22,
+        "exercise_title": "Polynomring/Homogenisierung/Multiplikativ/Aufgabe",
+        "solution_title": "Polynomring/Homogenisierung/Multiplikativ/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 96654,
+        "revid": 1096509,
+        "parentid": 1090221,
+        "timestamp": "2026-06-15T09:01:45Z",
+        "mediawiki_sha1": "8dd5e6eeedb7566c1300aa7e3c59f73add9a8cea",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1096509",
+        "xml_file": "solution-ex22.xml",
+        "xml_bytes": 4594,
+        "xml_sha256": "52105a2c7b7d5e018aaaf7c90c3727baed520283abededadee20ec3f1f09051b",
+        "html_file": "solution-ex22.html",
+        "html_bytes": 11920,
+        "html_sha256": "e5ae54f6e5660456b541c7ead26da26005e84cec692e5c8fa96bf637b6528d74",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 23,
+        "exercise_title": "Polynomring/Dehomogenisierung/Einsetzungshomomorphismus/Aufgabe",
+        "solution_title": "Polynomring/Dehomogenisierung/Einsetzungshomomorphismus/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 24,
+        "exercise_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Aufgabe",
+        "solution_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 25,
+        "exercise_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Beispiel/1/Aufgabe",
+        "solution_title": "Homogene Polynome in zwei Variablen/Division mit Rest/Beispiel/1/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "pageid": 94517,
+        "revid": 1089645,
+        "parentid": 984583,
+        "timestamp": "2026-05-31T11:01:52Z",
+        "mediawiki_sha1": "02694dd9ed7e4a48e105faed799b03a34cbf4200",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1089645",
+        "xml_file": "solution-ex25.xml",
+        "xml_bytes": 3748,
+        "xml_sha256": "78371595f7261a42412ac87bb79b538c1e4fd10157d50d87617f53486dfd6789",
+        "html_file": "solution-ex25.html",
+        "html_bytes": 4683,
+        "html_sha256": "19b98db169f2cf6f708bde1eff8ae2f8d018648b268f19e7216a94c3a7f278c8",
+        "html_source": "action_parse_text_fallback"
+      },
+      {
+        "exercise_number": 26,
+        "exercise_title": "Ebene Kurve/y^2 ist x^3+x^2/Flächeninhalt/Aufgabe",
+        "solution_title": "Ebene Kurve/y^2 ist x^3+x^2/Flächeninhalt/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 27,
+        "exercise_title": "Affine ebene Kurven/t^2+t^3 und 2t^2-t^4/Finde Gleichung/Aufgabe",
+        "solution_title": "Affine ebene Kurven/t^2+t^3 und 2t^2-t^4/Finde Gleichung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 28,
+        "exercise_title": "Rationale Parametrisierung/Gleichung/2/Aufgabe",
+        "solution_title": "Rationale Parametrisierung/Gleichung/2/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 29,
+        "exercise_title": "Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe",
+        "solution_title": "Monomiale Abbildung/S,ST^2,ST/Gleichung für Bild/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 30,
+        "exercise_title": "Ebene algebraische Kurven/Irreduzibles Polynom/Unendliche Nullstellenmenge/Ist irreduzibel/Aufgabe",
+        "solution_title": "Ebene algebraische Kurven/Irreduzibles Polynom/Unendliche Nullstellenmenge/Ist irreduzibel/Aufgabe/Lösung",
+        "has_public_solution": false
+      }
+    ],
+    "map_file": "ORDERED_EXERCISE_MAP.json",
+    "map_bytes": 14929,
+    "map_sha256": "24ad08b1cbd215a1142d66d4297a5ce177b610aaaadd4329d464b1febb8c4c2c"
+  },
+  "images": {
+    "lecture": [
+      "Krivka_parametricky.png",
+      "Cubic_with_double_point.svg",
+      "Dioklova_kisoida.png",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Vorlesung6.pdf",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Arbeitsblatt6.pdf"
+    ],
+    "worksheet": [
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Arbeitsblatt6.pdf",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Vorlesung6.pdf"
+    ]
+  },
+  "official_pdf_witnesses": [
+    {
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2025-2026)Vorlesung6.pdf",
+      "pageid": null,
+      "image_timestamp": "2026-02-02T15:48:50Z",
+      "mediawiki_sha1": "9b61e4aa7be5b1b501a44f1e9fb88c81ce5e47f6",
+      "source_bytes": 226364,
+      "mime": "application/pdf",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Vorlesung6.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)Vorlesung6.pdf",
+      "local_path": "authority/artifacts/lecture-06-official.pdf",
+      "local_bytes": 226364,
+      "local_sha256": "08459d70328b235f9f4092277491e7746f7468f931621f3ada6d941feed39891"
+    },
+    {
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2025-2026)Arbeitsblatt6.pdf",
+      "pageid": null,
+      "image_timestamp": "2026-02-03T11:40:22Z",
+      "mediawiki_sha1": "a3c2f0f89ba379414c769b68f378002e4b94a41b",
+      "source_bytes": 137679,
+      "mime": "application/pdf",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Arbeitsblatt6.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)Arbeitsblatt6.pdf",
+      "local_path": "authority/artifacts/worksheet-06-official.pdf",
+      "local_bytes": 137679,
+      "local_sha256": "e96b288f502de89bed55432a9845b09ad2ff1fbe22fb0ad200007a37fa9c416e"
+    }
+  ],
+  "files": [
+    {
+      "file": "lecture-06-api.json",
+      "bytes": 3338,
+      "sha256": "dd94631b5d21fe130cb713ef6a6e4d2ac8161d71c69cb27ba2876ca2b87de034"
+    },
+    {
+      "file": "lecture-06-expanded.tex",
+      "bytes": 19471,
+      "sha256": "94f0263c04479d4cc74de20a705a5f6454a7734b042077460246ed89f8c54a5d"
+    },
+    {
+      "file": "lecture-06-latex-page-api.json",
+      "bytes": 372,
+      "sha256": "2e4e29289880be812fa8e1193a64dd65c63a788cea5e42d49574b42c9fb0adcd"
+    },
+    {
+      "file": "lecture-06-latex-page.html",
+      "bytes": 26733,
+      "sha256": "7217abbd04520329aca184780acede95ce7d7408ca12fdeeb016866b44417350"
+    },
+    {
+      "file": "lecture-06-latex-page.xml",
+      "bytes": 3173,
+      "sha256": "ac88373949a3b95cb42017cbb4965f484ff8e9407c2056533fefa895b4811ba1"
+    },
+    {
+      "file": "lecture-06-parse-api.json",
+      "bytes": 13202,
+      "sha256": "5f6967fbc73a955316b4fbf16505be1f274abe022c4b96ecc5d74788660d3301"
+    },
+    {
+      "file": "lecture-06-transclusions-01.json",
+      "bytes": 29061,
+      "sha256": "88bb1c934af28d2b146a5de86fe59a2422118619a86bbf9a99e3c41c149ae409"
+    },
+    {
+      "file": "lecture-06-transclusions-02.json",
+      "bytes": 24808,
+      "sha256": "32a6fff2f2e641c240d89c0bfa7be8bbc99b8e3748a59167ce705c6b2adcd708"
+    },
+    {
+      "file": "lecture-06-transclusions-03.json",
+      "bytes": 79611,
+      "sha256": "24c7075c9ea9b61cf58dfd517b39e06da0fe2b179aeb7da763fbd658706a8742"
+    },
+    {
+      "file": "lecture-06-transclusions-04.json",
+      "bytes": 24799,
+      "sha256": "ccf50be0cc63fc1e85478a64c2f184862a10ff37c23d549bfc54297131bf0283"
+    },
+    {
+      "file": "lecture-06.html",
+      "bytes": 90825,
+      "sha256": "860c05d3d95b2372864e1caa2118c2b775d91aa4dffdfb262daea9504368654b"
+    },
+    {
+      "file": "lecture-06.xml",
+      "bytes": 6011,
+      "sha256": "40316e5d9aa0dc0c3200a2e426e03c9f1b271b26d4fb0970e1fdfda2a804afaa"
+    },
+    {
+      "file": "official-pdfs-api.json",
+      "bytes": 1836,
+      "sha256": "f4cf2c09023e7f5469aed2871762f12364709328e9dda7911562ecc5fcb314e7"
+    },
+    {
+      "file": "ORDERED_EXERCISE_MAP.json",
+      "bytes": 14929,
+      "sha256": "24ad08b1cbd215a1142d66d4297a5ce177b610aaaadd4329d464b1febb8c4c2c"
+    },
+    {
+      "file": "solution-ex03.html",
+      "bytes": 8050,
+      "sha256": "51c4ff700569017836f58d16b9d7f0b772eabe8b47f77d1488d66add9291bc20"
+    },
+    {
+      "file": "solution-ex03.xml",
+      "bytes": 4155,
+      "sha256": "ee7b804e664d7d43cb78f61b4dca613b065cfa100ebfffecfa9c734cf732cd91"
+    },
+    {
+      "file": "solution-ex04.html",
+      "bytes": 6328,
+      "sha256": "88fb5d428775936ba1e49d378bb95c1dcbb46ec7aeb66105ff4d90f4acb9b527"
+    },
+    {
+      "file": "solution-ex04.xml",
+      "bytes": 3933,
+      "sha256": "8e9eea31aa3949af9ba347ed9abfd5ce4f09b7b8a11a8cf277bc566e9f33421a"
+    },
+    {
+      "file": "solution-ex08.html",
+      "bytes": 11693,
+      "sha256": "4ed6ac5f61bfc822c9a57bdc560f29ddbd6b4ebe32ade542c371c049b87c5be8"
+    },
+    {
+      "file": "solution-ex08.xml",
+      "bytes": 4788,
+      "sha256": "8b420cc816b39232252eb182606fa1c98c351ef7a31d7fbe6187c1995ef155d1"
+    },
+    {
+      "file": "solution-ex09.html",
+      "bytes": 21759,
+      "sha256": "acc03ecb93300d476cbb0b3712572fa87d69ac22548aa06f2d5a9176ebb9f185"
+    },
+    {
+      "file": "solution-ex09.xml",
+      "bytes": 5937,
+      "sha256": "c336cce036220ba0bf35685e919d4e41be046847df678e5ba03253788ae45402"
+    },
+    {
+      "file": "solution-ex17.html",
+      "bytes": 7034,
+      "sha256": "d36539ca40b8614b30964e7d02b33f6d294c55b4605a015b12bd9efe0d8b5ba2"
+    },
+    {
+      "file": "solution-ex17.xml",
+      "bytes": 4311,
+      "sha256": "52629fcf93380dad30329e4c825b7e3e46e97090f81f76c8016785e1e6181dfd"
+    },
+    {
+      "file": "solution-ex18.html",
+      "bytes": 6634,
+      "sha256": "60272901bfe534e371fcb54c2f61896c07aaaf2b375decb4d8725337039c07a7"
+    },
+    {
+      "file": "solution-ex18.xml",
+      "bytes": 4211,
+      "sha256": "7c9393bdb58597777947c787a1cbc3f1be0362497389959eb8ef214997d72470"
+    },
+    {
+      "file": "solution-ex21.html",
+      "bytes": 6406,
+      "sha256": "de7e32020057dd88c45b4c285a299a5fcd0be46be83956f73a82a30dd44ddcb4"
+    },
+    {
+      "file": "solution-ex21.xml",
+      "bytes": 4002,
+      "sha256": "45753e5a180b85c1ec6f78c46079fed67710a98019781321f57a15019ee5e7c8"
+    },
+    {
+      "file": "solution-ex22.html",
+      "bytes": 11920,
+      "sha256": "e5ae54f6e5660456b541c7ead26da26005e84cec692e5c8fa96bf637b6528d74"
+    },
+    {
+      "file": "solution-ex22.xml",
+      "bytes": 4594,
+      "sha256": "52105a2c7b7d5e018aaaf7c90c3727baed520283abededadee20ec3f1f09051b"
+    },
+    {
+      "file": "solution-ex25.html",
+      "bytes": 4683,
+      "sha256": "19b98db169f2cf6f708bde1eff8ae2f8d018648b268f19e7216a94c3a7f278c8"
+    },
+    {
+      "file": "solution-ex25.xml",
+      "bytes": 3748,
+      "sha256": "78371595f7261a42412ac87bb79b538c1e4fd10157d50d87617f53486dfd6789"
+    },
+    {
+      "file": "worksheet-06-api.json",
+      "bytes": 4018,
+      "sha256": "63c5dc8cdd406b457e6b7e474763bbc17c4be7d1cd66cd13a747a66f0e22b258"
+    },
+    {
+      "file": "worksheet-06-expanded.tex",
+      "bytes": 14511,
+      "sha256": "919b2ed0eca8977348bf1ade1406d0dcded075f4214c89cb25a4d626fcaa2a57"
+    },
+    {
+      "file": "worksheet-06-latex-page-api.json",
+      "bytes": 375,
+      "sha256": "112216fa9c64aa64e8645c5a3ba7a69f0f17abffd685c7d8dcaed60357432631"
+    },
+    {
+      "file": "worksheet-06-latex-page.html",
+      "bytes": 20054,
+      "sha256": "64fb2c97158722b6795f9cd122fe5f01f49acc1cae41beba9ddb6de23e89c21e"
+    },
+    {
+      "file": "worksheet-06-latex-page.xml",
+      "bytes": 3176,
+      "sha256": "e8b9d13300d3bcaffc32dc0575aeadf074b7f91f77014a971e65dbcc65317e31"
+    },
+    {
+      "file": "worksheet-06-parse-api.json",
+      "bytes": 18898,
+      "sha256": "a82581131ab371d08fc3db7114c3ab9f6ec0384b86c6690cea4c3af1acfe42d6"
+    },
+    {
+      "file": "worksheet-06-transclusions-01.json",
+      "bytes": 21134,
+      "sha256": "e9ec8065679c5199bd4e54c080b0d2d182dca5fd8551054564b60a97ad428a08"
+    },
+    {
+      "file": "worksheet-06-transclusions-02.json",
+      "bytes": 10982,
+      "sha256": "b7d35345adda0ababa2bbd9310f5315ceb84ef178cd01f3ca41a018eed0008c6"
+    },
+    {
+      "file": "worksheet-06-transclusions-03.json",
+      "bytes": 26670,
+      "sha256": "63ec1932e610e0bda0dc9d423c16c5ff9a46cacbd5a9d671aaf1bd26a0ba2310"
+    },
+    {
+      "file": "worksheet-06-transclusions-04.json",
+      "bytes": 50691,
+      "sha256": "0e1970f1d10873f69066d1b884842c08d988ce37baa482d43c0ef3ea1ae24509"
+    },
+    {
+      "file": "worksheet-06-transclusions-05.json",
+      "bytes": 14566,
+      "sha256": "c484c87a7f002417dc58c74d6245d729765f8739a601fa0f70e05d3cf6f1d13a"
+    },
+    {
+      "file": "worksheet-06.html",
+      "bytes": 76393,
+      "sha256": "e76b509cc68b421de23de5110115a6c85d8a9be1cb952f8de5488988da96d4e3"
+    },
+    {
+      "file": "worksheet-06.xml",
+      "bytes": 6611,
+      "sha256": "7ec13ce1bf99043e68bbd88debe06745dbae2f6297b74d04563c87e11a646571"
+    },
+    {
+      "file": "worksheet-solution-candidates-api.json",
+      "bytes": 17109,
+      "sha256": "d6261ea1f6c9b1a4e56da704d7aa9960e67f5bd386d0f982a7e228505164506f"
+    }
+  ]
+}

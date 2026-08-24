@@ -1,0 +1,61 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v2",
+  "audited_utc": "2026-08-23T16:58:00Z",
+  "status": "PASS",
+  "unit": 8,
+  "authority": {
+    "manifest_path": "authority/wikiversity/unit-08/UNIT_AUTHORITY_MANIFEST.json",
+    "manifest_bytes": 85967,
+    "manifest_sha256": "f9089c78e81511bdbc24dc62d7c506a77c266426ea73b3e390f20ec30dabb40f",
+    "manifest_files_replayed": 31,
+    "official_pdf_pages": {"authority/artifacts/lecture-08-official.pdf": 11, "authority/artifacts/worksheet-08-official.pdf": 7},
+    "lecture_revid": 1051293,
+    "worksheet_revid": 1057977,
+    "lecture_transclusions": 73,
+    "worksheet_transclusions": 103,
+    "ordered_exercise_map_sha256": "000ee8da757d92c581bb49a4d0e5a23b06393d5af3028f2f97c979fabcf4553d"
+  },
+  "targets": [
+    {"path": "source/id-ID/lecture-08.md", "bytes": 22707, "sha256": "a81665fbdc0ba82f6d5a490b64e9853a537c319b75b942a8dcbdc1e4a528dbe4", "headings": 11, "math_nodes": 199, "images": 6},
+    {"path": "source/id-ID/worksheet-08.md", "bytes": 11853, "sha256": "96a98b6767af0743b84078ddd75654a3bc9d054a7221c247a4de00091a555817", "headings": 28, "math_nodes": 100, "images": 0},
+    {"path": "source/id-ID/worksheet-08-solutions.md", "bytes": 3899, "sha256": "aacfbdc5dd88f92c84b35448d930fc1e7524eff74bf817d08e5e4539b6628563", "headings": 3, "math_nodes": 43, "images": 0}
+  ],
+  "topology": {
+    "unit_heading_ids": 42,
+    "duplicate_heading_ids": 0,
+    "exercises": 24,
+    "submission_points": [6, 2, 6, 6, 6, 3],
+    "starred_exercises": [9, 17],
+    "public_solutions": 2,
+    "solution_exercises": [9, 17],
+    "solution_revisions": [1096407, 1096408],
+    "invented_solutions": 0,
+    "untranslated_german_prose": 0,
+    "media_positions": 6,
+    "binary_surfaces": 8
+  },
+  "fidelity_findings": {
+    "protected_formula_needles": {"lecture": 10, "worksheet": 10, "solutions": 7},
+    "explicit_source_precision_delta": "The exact reachable-bound note, source-disclosed quadratic-elimination proof gap, portable definition-equality notation, animated-media PDF companions, and six alternative descriptions are recorded without inventing exercises or solutions.",
+    "remaining_mathematical_defects": 0,
+    "remaining_omissions": 0,
+    "invented_solutions": 0
+  },
+  "rights": {
+    "path": "authority/RIGHTS-unit-08.csv",
+    "sha256": "5df7a3e76e42f9f481a0b7379a367905d91cc3ece501b3e158f1673aff663d69",
+    "closure_path": "authority/ASSET_CLOSURE-unit-08.json",
+    "closure_sha256": "32e10f17fdd52797e718103b3f37ce98ce99c83bb25aa17f16fd4caa7d7c5daf"
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "sha256": "438ee41e27e55db9e83965d4e1875cedf9c481fef681ea4b7d35d5bc65e96c6f",
+    "rows": 41,
+    "unit_08_records": ["AGC-CORR-0020", "AGC-CORR-0021", "AGC-ADAPT-0017", "AGC-ADAPT-0018", "AGC-ADAPT-0019", "AGC-ADAPT-0020"]
+  },
+  "bound_qa": {
+    "machine": {"path": "qa/UNITS_01_08_MACHINE_QA.json", "sha256": "02f629596e8746c1346eedf9eb6302ef8dd739543971f31be5385248e09e9230"},
+    "visual": {"path": "qa/UNITS_01_08_VISUAL_QA.json", "sha256": "0fe7cf2de5980b40e8e3f57a49b93975581fbe9d4240c6b934f697b2601bee31"},
+    "responsive": {"path": "qa/UNITS_01_08_RESPONSIVE_QA.json", "sha256": "31cc70d55d8d0930a5946bbb7e1954b1c678c930abbbce8d16a3090aa8cba4c9"}
+  }
+}

@@ -1,0 +1,955 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{11}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Hilbertscher Nullstellensatz - geometrische Version}
+</p><p>Wir wollen nun die geometrische Version des Hilbertschen Nullstellensatzes beweisen, der für den Fall eines algebraisch abgeschlossenen Körpers eine eindeutige Beziehung zwischen den affin-algebraischen Mengen im affinen Raum <br />\mathl{{ {\mathbb A}_{ K }^{ n  } }}{} und den Radikalidealen im Polynomring stiftet.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affiner Raum/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ = }{ V( {\mathfrak a} )
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine
+\definitionsverweis {affin-algebraische Menge}{}{,}
+die durch das 
+\definitionsverweis {Ideal}{}{}
+${\mathfrak a}$ beschrieben werde. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \in }{ K[X_1 , \ldots , X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein Polynom, das auf $V$ verschwindet.}<br />\faktfolgerung {Dann gehört $F$ zum
+\definitionsverweis {Radikal}{}{}
+von ${\mathfrak a}$, d.h. es gibt ein
+<br />\mavergleichskette<br />{\vergleichskette<br />{r
+}<br />{ \in }{ \N
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{F^r
+}<br />{ \in }{ {\mathfrak a}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Angenommen, $F$ gehöre nicht zum Radikal von ${\mathfrak a}$. Dann gibt es nach
+<a href="/wiki/Algebren_von_endlichem_Typ_%C3%BCber_K%C3%B6rper/Radikal_ist_Durchschnitt_von_maximalen_Idealen/Fakt" title="Algebren von endlichem Typ über Körper/Radikal ist Durchschnitt von maximalen Idealen/Fakt">Satz 10.9</a>
+auch ein 
+\definitionsverweis {maximales Ideal}{}{}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ {\mathfrak m}
+}<br />{ \subset }{ K[X_1 , \ldots , X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ {\mathfrak a}
+}<br />{ \subseteq }{ {\mathfrak m}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \notin }{ {\mathfrak m} 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Nach
+<a href="/wiki/Algebren_von_endlichem_Typ_%C3%BCber_K%C3%B6rper/Algebraisch_abgeschlossen/Maximale_Ideale_sind_Punktideal/Fakt" title="Algebren von endlichem Typ über Körper/Algebraisch abgeschlossen/Maximale Ideale sind Punktideal/Fakt">Satz 10.10</a>
+ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K[ X_1 , \ldots ,  X_n ]/{\mathfrak m}
+}<br />{ = }{ K
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und somit
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ {\mathfrak m}
+}<br />{ =} { \left(  X_1-a_1 , \ldots ,  X_n-a_n  \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+für gewisse
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a_1 , \ldots ,  a_n 
+}<br />{ \in }{ K
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Die Eigenschaft
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \notin }{ {\mathfrak m} 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+bedeutet, dass $F$ im zugehörigen Restekörper nicht $0$ ist, und das bedeutet
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F(a_1 , \ldots ,  a_n) 
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Wegen
+<br />\mavergleichskette<br />{\vergleichskette<br />{ {\mathfrak a} 
+}<br />{ \subseteq }{ {\mathfrak m}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist aber <br />\mathl{(a_1 , \ldots ,  a_n)}{} ein Punkt von $V$, sodass dort nach Voraussetzung $F$ verschwindet. Das ist also ein Widerspruch.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affiner Raum/Algebraisch abgeschlossen/Korrespondenz zwischen affin algebraischen Mengen und Radikalen/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+mit dem Polynomring <br />\mathl{K[X_1 , \ldots ,  X_n]}{} und dem affinen Raum <br />\mathl{{ {\mathbb A}_{  K }^{  n   } }}{.}}<br />\faktfolgerung {Dann gibt es eine natürliche Korrespondenz zwischen
+\definitionsverweis {affin-algebraischen Mengen}{}{}
+in <br />\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} und
+\definitionsverweis {Radikalidealen}{}{}
+in <br />\mathl{K[X_1 , \ldots ,  X_n]}{.}}<br />\faktzusatz {Dabei gehen Radikale auf ihre Nullstellengebilde und affin-algebraische Mengen auf ihre Verschwindungsideale.}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+affin-algebraisch. Dann gilt
+<br />\mavergleichskette<br />{\vergleichskette<br />{V 
+}<br />{ = }{ V(\operatorname{Id} \, (V))
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+nach
+<a href="/wiki/Affine_Variet%C3%A4ten/Verschwindungsideal_zu_Teilmenge/Nullstellengebilde/Beziehung/Fakt" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt">Lemma 3.8&#160; (3)</a>.
+Für ein Radikal
+<br />\mavergleichskette<br />{\vergleichskette<br />{I
+}<br />{ \subseteq }{ K[X_1 , \ldots ,  X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gilt die Inklusion
+<br />\mavergleichskette<br />{\vergleichskette<br />{I
+}<br />{ \subseteq }{ \operatorname{Id} \, (V(I)) 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ebenfalls nach
+<a href="/wiki/Affine_Variet%C3%A4ten/Verschwindungsideal_zu_Teilmenge/Nullstellengebilde/Beziehung/Fakt" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/Nullstellengebilde/Beziehung/Fakt">Lemma 3.8&#160; (2)</a>.
+Die umgekehrte Inklusion, also
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \operatorname{Id} \, (V(I)) 
+}<br />{ \subseteq }{ I
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+ist der Inhalt
+des <a href="/wiki/Affiner_Raum/Hilbertscher_Nullstellensatz_(geometrisch)/Algebraisch_abgeschlossen/Fakt" title="Affiner Raum/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt">Hilbertschen Nullstellensatzes</a>.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affiner Raum/Algebraisch abgeschlossener Körper/D(f i) überdeckt/Erzeugt Einheitsideal/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+<br />\mathbed {F_i \in K[X_1 , \ldots ,  X_n]} {} <br /> {i \in I} {} <br /> {} {} {} {,}
+Polynome mit
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ { {\mathbb A}_{  K }^{  n   } } 
+}<br />{ =} { \bigcup_{i \in I} D(F_i) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}}<br />\faktfolgerung {Dann erzeugen die $F_i$ das 
+\definitionsverweis {Einheitsideal}{}{}
+in <br />\mathl{K[X_1 , \ldots , X_n]}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei ${\mathfrak b}$ das von den $F_i$ 
+\definitionsverweis {erzeugte Ideal}{}{.}
+Die Voraussetzung besagt, dass
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \bigcap_{i \in I} V \left(  F_i  \right) 
+}<br />{ =} { V( {\mathfrak b} )
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+leer ist. Dann ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V( {\mathfrak b})
+}<br />{ \subseteq }{ V(1)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Aus
+dem <a href="/wiki/Affine_Variet%C3%A4ten/Hilbertscher_Nullstellensatz_(geometrisch)/Algebraisch_abgeschlossen/Fakt" title="Affine Varietäten/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt">Hilbertschen Nullstellensatz</a>
+folgt, dass eine Potenz von $1$, also $1$ selbst, zu ${\mathfrak b}$ in <br />\mathl{K[X_1 , \ldots , X_n]}{} gehört. Das heißt, dass ${\mathfrak b}$ das 
+\definitionsverweis {Einheitsideal}{}{}
+ist.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affine Varietäten/Algebraisch abgeschlossener Körper/Verschwindungsideal vom Durchschnitt/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+\mathkor {} {V_1} {und} {V_2} {} zwei
+\definitionsverweis {affin-algebraische Mengen}{}{}
+in <br />\mathl{{ {\mathbb A}_{  K  }^{  n   } }}{.}}<br />\faktfolgerung {Dann gilt
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \operatorname{Id} \, (V_1 \cap V_2)
+}<br />{ =} { \operatorname{rad} \, ( \operatorname{Id} \, (V_1) + \operatorname{Id} \, (V_2) )
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ { {\mathfrak a}_1} 
+}<br />{ = }{ \operatorname{Id} \, (V_1)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ { {\mathfrak a}_2} 
+}<br />{ = }{ \operatorname{Id} \, (V_2)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Die Aussage ergibt sich aus
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \operatorname{rad} \, ({ {\mathfrak a}_1} + { {\mathfrak a}_2} ) 
+}<br />{ =} { \operatorname{Id} \, ( V(\operatorname{rad} \, ( { {\mathfrak a}_1}  + { {\mathfrak a}_2} ) ))
+}<br />{ =} { \operatorname{Id} \, ( V( { {\mathfrak a}_1}  + { {\mathfrak a}_2}  ))
+}<br />{ =} { \operatorname{Id} \, ( V( { {\mathfrak a}_1}) \cap V( { {\mathfrak a}_2} ) )
+}<br />{ } {
+}<br />}
+{}{}{,}
+wobei die erste Gleichung auf
+<a href="/wiki/Affiner_Raum/Hilbertscher_Nullstellensatz_(geometrisch)/Algebraisch_abgeschlossen/Fakt" title="Affiner Raum/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt">Satz 11.1</a>
+beruht.
+</p>
+</div>
+}</div>
+<p><br />
+Auch diese Eigenschaften gelten nicht ohne die Voraussetzung algebraisch abgeschlossen, wie das folgende Beispiel zeigt.
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Disjoint_ellipses} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Disjoint ellipses.png } {} {pmidden} {Commons} {PD} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />\inputbeispiel{ }<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten die beiden algebraischen Kurven
+<br />\mathdisp {V_1=V(X^2+Y^2-2) \text{   und } V_2=V(X^2+2Y^2-1) \subseteq {\mathbb A}^{2}_{ K }} { . }<br />
+Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ K
+}<br />{ = }{ \R
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+sind das beides irreduzible Quadriken. Der Durchschnitt wird beschrieben durch das Ideal
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (X^2+Y^2-2,X^2+2Y^2-1) 
+}<br />{ =} { (Y^2+1,X^2-3)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Da das Polynom <br />\mathl{Y^2+1}{} im Reellen keine Nullstelle hat, ist der Durchschnitt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V_1 \cap V_2 
+}<br />{ = }{ \emptyset
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+leer. Das Verschwindungsideal des 
+\zusatzklammer {leeren} {} {}
+Durchschnittes ist natürlich das Einheitsideal, die Summe der beiden Verschwindungsideale ist aber nicht das Einheitsideal.
+</p>
+</div><p><br />
+</p><p>} 
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Der Koordinatenring zu einer affin-algebraischen Menge}
+</p><p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V 
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+eine
+\definitionsverweis {affin-algebraische Menge}{}{}
+mit
+\definitionsverweis {Verschwindungsideal}{}{}
+<br />\mathl{\operatorname{Id} \, (V)}{.} Ein Polynom
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \in }{ K[X_1 , \ldots ,  X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+definiert eine Funktion auf dem affinen Raum und induziert damit eine Funktion auf der Teilmenge $V$.
+<br />\mathdisp {\begin{matrix} { {\mathbb A}_{  K }^{  n   } }  &amp; \stackrel{F}{\longrightarrow} &amp; K  \\ \uparrow &amp;  \nearrow &amp; \\ V &amp;  &amp; \end{matrix}} {  }<br />
+Dabei induziert ein Element aus dem Verschwindungsideal
+\zusatzklammer {nach
+<a href="/wiki/Affine_Variet%C3%A4ten/Verschwindungsideal_zu_Teilmenge/Definition" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/Definition">Definition 3.4</a>} {} {}
+die Nullfunktion auf $V$, und zwei Polynome
+<br />\mavergleichskette<br />{\vergleichskette<br />{ G,H
+}<br />{ \in }{ K[X_1 , \ldots ,  X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+deren Differenz zum Verschwindungsideal gehören, induzieren auf $V$ die gleiche Funktion. Es ist daher naheliegend, den Restklassenring <br />\mathl{K[X_1 , \ldots , X_n]/\operatorname{Id} \, (V)}{} als Ring der polynomialen
+\zusatzklammer {oder algebraischen} {} {}
+Funktionen auf $V$ zu betrachten.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zu einer
+\definitionsverweis {affin-algebraischen Menge}{}{} 
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+\definitionsverweis {Verschwindungsideal}{}{}
+<br />\mathl{\operatorname{Id} \, (V)}{} nennt man
+<br />\mavergleichskette<br />{\vergleichskette<br />{R(V) 
+}<br />{ = }{ K[X_1 , \ldots ,  X_n]/\operatorname{Id} \, (V)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+den \definitionswort {Koordinatenring}{} von $V$.  
+</p>
+</div>
+<p>}
+</p><p>Dieser Begriff ist nicht völlig unproblematisch, insbesondere, wenn $K$ nicht algebraisch abgeschlossen ist, siehe die Beispiele weiter unten. Wir erwähnen zunächst einige elementare Eigenschaften.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affine-algebraische Mengen/Koordinatenring/Grundeigenschaften/Fakt}<br />{Proposition}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine
+\definitionsverweis {affin-algebraische Menge}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ = }{ K[X_1 , \ldots ,  X_n]/ \operatorname{Id} \, \left(   V   \right) 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+der zugehörige
+\definitionsverweis {Koordinatenring}{}{.}}<br />\faktuebergang {Dann gelten folgende Aussagen.}<br />\faktfolgerung {\aufzaehlungfuenf{ $R$ ist
+\definitionsverweis {reduziert}{}{.}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ \emptyset
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+genau dann, wenn $R$ der Nullring ist.
+}{ $V$ ist genau dann
+\definitionsverweis {irreduzibel}{}{,}
+wenn $R$ ein
+\definitionsverweis {Integritätsbereich}{}{}
+ist.
+}{ $V$ besteht genau dann aus einem einzigen Punkt, wenn
+<br />\mavergleichskette<br />{\vergleichskette<br />{ R
+}<br />{ = }{ K
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ist.
+}{Ist $K$
+\definitionsverweis {algebraisch abgeschlossen}{}{,}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ V( {\mathfrak a} ) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,}
+so ist 
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ R
+}<br />{ =} { K[X_1 , \ldots ,  X_n]/\operatorname{rad } \,( {\mathfrak a} )
+}<br />{ } { 
+}<br />{ } { 
+}<br />{ } { 
+}<br />}
+{}{}{.}
+</p><p>}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ I
+}<br />{ = }{ \operatorname{Id} \, (V)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+das Verschwindungsideal zu $V$.
+</p><p>(1). Dies folgt aus
+<a href="/wiki/Affine_Variet%C3%A4ten/Verschwindungsideal_zu_Teilmenge/ist_Radikal/Fakt" title="Affine Varietäten/Verschwindungsideal zu Teilmenge/ist Radikal/Fakt">Lemma 3.14</a>
+und
+<a href="/wiki/Kommutative_Ringtheorie/Ideale/Radikal_und_reduzierter_Restklassenring/Aufgabe" title="Kommutative Ringtheorie/Ideale/Radikal und reduzierter Restklassenring/Aufgabe">Aufgabe 3.13</a>.
+</p><p>(2). <br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ \emptyset
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist äquivalent zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ 1
+}<br />{ \in }{ I
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+und das ist äquivalent zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ R
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+</p><p>(3). Dies folgt aus
+<a href="/wiki/Affine_Variet%C3%A4ten/Irreduzible_Teilmengen/Primideale/Fakt" title="Affine Varietäten/Irreduzible Teilmengen/Primideale/Fakt">Lemma 4.3</a>
+und
+<a href="/wiki/Kommutative_Ringtheorie/Primideal/Charakterisierung_mit_Restklassenring/Fakt/Beweis/Aufgabe" title="Kommutative Ringtheorie/Primideal/Charakterisierung mit Restklassenring/Fakt/Beweis/Aufgabe">Aufgabe 4.17</a>.
+</p><p>(4). Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ \{P\} 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ = }{ (a_1 , \ldots ,  a_n)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Dann ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ I
+}<br />{ = }{ \left(  X_1-a_1 , \ldots ,  X_n-a_n  \right) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+und der Koordinatenring ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ K[X_1 , \ldots ,  X_n]/ (X_1-a_1 , \ldots ,  X_n-a_n) 
+}<br />{ \cong} { K
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Umgekehrt, wenn der Koordinatenring $K$ ist, so muss der zugehörige Restklassenhomomorphismus ein Einsetzungshomomorphismus <br />\mathl{X_i \mapsto a_i}{} sein, und das Verschwindungsideal zu $V$ muss ein Punktideal sein, und es ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ = }{ (a_1 , \ldots ,  a_n) 
+}<br />{ \in }{ V
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Wenn es noch einen weiteren Punkt 
+<br />\mathbed {Q \in V} {} <br /> {Q\neq P} {} <br /> {} {} {} {,}
+gibt, so hat man einen Widerspruch, da nicht alle <br />\mathl{X_i -a_i}{} in $Q$ verschwinden.
+</p><p>(5). Bei $K$ algebraisch abgeschlossen ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \operatorname{Id} \, (V) 
+}<br />{ = }{ \operatorname{rad} \, ( {\mathfrak a} ) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+nach dem <a href="/wiki/Affine_Variet%C3%A4ten/Hilbertscher_Nullstellensatz_(geometrisch)/Algebraisch_abgeschlossen/Fakt" title="Affine Varietäten/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt">Hilbertschen Nullstellensatz</a>.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affin-algebraische Mengen/Affiner Raum/Unendlicher Körper/Koordinatenring ist Polynomring/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein unendlicher Körper.}<br />\faktfolgerung {Dann ist das Verschwindungsideal des affinen Raumes <br />\mathl{{ {\mathbb A}_{  K  }^{  n   } }}{} das Nullideal und der zugehörige Koordinatenring ist der Polynomring <br />\mathl{K[X_1, \ldots,X_n]}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir beweisen die Aussage durch Induktion über die Anzahl der Variablen. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ n
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+folgt die Aussage daraus, dass ein Polynom vom Grad $d$ maximal $d$ Nullstellen besitzt. Zum Induktionsschritt sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \in }{ K[X_1 , \ldots , X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ein Polynom, das an allen Punkten von 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ { {\mathbb A}_{  K  }^{  n   } }
+}<br />{ = }{ K^n
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+verschwindet. Wir schreiben $F$ als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ F
+}<br />{ =} { P_dX_n^d + P_{d-1} X_n^{d-1} + \cdots + P_1 X_0 +P_0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit Polynomen
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P_d , \ldots , P_0  
+}<br />{ \in }{ K[X_1 , \ldots , X_{n-1}] 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Wir müssen zeigen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist, was zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P_i
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+für alle
+<br />\mavergleichskette<br />{\vergleichskette<br />{ i
+}<br />{ = }{ 0 , \ldots , d 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+äquivalent ist. Es sei also
+\zusatzklammer {ohne Einschränkung} {} {}
+angenommen, dass $P_d$ nicht das Nullpolynom ist. Nach Induktionsvoraussetzung ist es dann auch nicht die Nullfunktion, d.h. es gibt einen Punkt <br />\mathl{\left(  a_1 , \ldots , a_{n-1}  \right)}{} mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P_d \left(  a_1 , \ldots , a_{n-1}  \right) 
+}<br />{ \neq }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Damit ist <br />\mathl{F \left(  a_1 , \ldots , a_{n-1}  \right)}{} ein Polynom in der einen Variablen $X_{n}$ vom Grad $d$ und ist nach dem Fall einer Variablen nicht die Nullfunktion.
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p><a href="/wiki/Affin-algebraische_Mengen/Affiner_Raum/Unendlicher_K%C3%B6rper/Koordinatenring_ist_Polynomring/Fakt" title="Affin-algebraische Mengen/Affiner Raum/Unendlicher Körper/Koordinatenring ist Polynomring/Fakt">Satz 11.8</a>
+ist nicht richtig für endliche Körper. Für einen endlichen Körper besteht ein affiner Raum nur aus endlich vielen Punkten und es gibt viele Polynome, die auf all diesen Punkten verschwinden. Typische Beispiele werden durch die Polynome <br />\mathl{X_i^q-X_i}{} gegeben, wobei $q$ die Anzahl der Körperelemente bezeichnet.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ R
+}<br />{ = }{ \R[X,Y]/ \left(  X^2+Y^2  \right) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Da Quadrate im Reellen nie negativ sind, besteht die Nullstellenmenge des Polynoms <br />\mathl{X^2+Y^2}{} allein aus dem Nullpunkt,
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V \left(  X^2+Y^2  \right)  
+}<br />{ = }{ \{(0,0)\}
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Das zugehörige Verschwindungsideal ist das maximale Ideal <br />\mathl{(X,Y)}{,} und der zugehörige Restklassenring 
+\zusatzklammer {der Koordinatenring} {} {}
+ist dann
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \R[X,Y]/(X,Y)
+}<br />{ \cong }{ \R 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Der Koordinatenring kann also vom Restklassenring, mit dem man startet und dessen Ideal das Nullstellengebilde definiert, sehr verschieden sein.
+</p>
+</div><p><br />
+</p><p>} 
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Der Hilbertsche Nullstellensatz für eine affin-algebraische Menge}
+</p><p>Der Hilbertsche Nullstellensatz, wie wir ihn für den affinen Raum und den Polynomring formuliert haben, gilt entsprechend für jedes <br />\mathl{V( {\mathfrak a} )}{} und den zugehörigen Restklassenring <br />\mathl{K[X_1 , \ldots , X_n ]/ {\mathfrak a}}{.}
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affine Varietäten/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ R
+}<br />{ = }{ K[X_1 , \ldots ,  X_n]/ {\mathfrak a} 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+eine endlich erzeugte $K$-Algebra mit Nullstellengebilde
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ V({\mathfrak a} ) 
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Es sei ${\mathfrak b}$ ein Ideal in $R$ und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \in }{ R
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein Element, das auf
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V({\mathfrak b} )
+}<br />{ \subseteq }{ V 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+verschwindet.}<br />\faktfolgerung {Dann gibt es ein
+<br />\mavergleichskette<br />{\vergleichskette<br />{ r
+}<br />{ \in }{ \N
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F^r
+}<br />{ \in }{ {\mathfrak b} 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+in $R$.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die Verschwindungsbedingung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V( {\mathfrak b} )
+}<br />{ \subseteq }{ V(F)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{}<br />}
+{}{}{}
+in
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ V( {\mathfrak a} ) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+besagt zurückübersetzt in den affinen Raum, dass dort
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V({\mathfrak a} + {\mathfrak b} )
+}<br />{ = }{ V( {\mathfrak a} ) \cap V( {\mathfrak b} )
+}<br />{ \subseteq }{ V(F)
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gilt, wobei jetzt $F$ ein repräsentierendes Polynom aus <br />\mathl{K[X_1 , \ldots , X_n]}{} und ${\mathfrak b}$ das Urbildideal in <br />\mathl{K[X_1 , \ldots , X_n]}{} sei. Nach
+dem <a href="/wiki/Affiner_Raum/Hilbertscher_Nullstellensatz_(geometrisch)/Algebraisch_abgeschlossen/Fakt" title="Affiner Raum/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt">Hilbertschen Nullstellensatz</a>
+\zusatzklammer {für den affinen Raum} {} {}
+gibt es ein
+<br />\mavergleichskette<br />{\vergleichskette<br />{ r
+}<br />{ \in }{ \N
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F^r 
+}<br />{ \in }{ {\mathfrak a} + {\mathfrak b}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Dies bedeutet modulo ${\mathfrak a}$, dass in $R$ die Beziehung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F^r 
+}<br />{ \in }{ {\mathfrak b} 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gilt.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affine Varietäten/Algebraisch abgeschlossener Körper/D(f i) überdeckt/Erzeugt Einheitsideal/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ V( {\mathfrak a} )
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+eine
+\definitionsverweis {affin-algebraische Menge}{}{,}
+die durch das Ideal ${\mathfrak a}$ beschrieben werde. Es seien
+<br />\mathbed {F_i \in K[X_1 , \ldots ,  X_n]} {} <br /> {i \in I} {} <br /> {} {} {} {,}
+Polynome mit
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ V 
+}<br />{ =} { \bigcup_{i \in I} D(F_i) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}}<br />\faktfolgerung {Dann erzeugen die $F_i$ das 
+\definitionsverweis {Einheitsideal}{}{}
+in <br />\mathl{K[X_1 , \ldots ,  X_n]/{\mathfrak a}}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei ${\mathfrak b}$ das von allen
+<br />\mathbed {F_i} {} <br /> {i \in I} {} <br /> {} {} {} {,}
+erzeugte Ideal in <br />\mathl{K[X_1 , \ldots ,  X_n]/{\mathfrak a}}{.} Die Voraussetzung besagt, dass
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ V( {\mathfrak b} ) 
+}<br />{ =} { \bigcap_{i \in I} V(F_i)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+\zusatzklammer {auf $V$} {} {}
+leer ist. Dann ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V(1) 
+}<br />{ \subseteq }{ V({\mathfrak b} ) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,}
+da ja <br />\mathl{V(1)}{} ebenfalls leer ist. Aus
+dem <a href="/wiki/Affine_Variet%C3%A4ten/Hilbertscher_Nullstellensatz_(geometrisch)/Algebraisch_abgeschlossen/Fakt" title="Affine Varietäten/Hilbertscher Nullstellensatz (geometrisch)/Algebraisch abgeschlossen/Fakt">Hilbertschen Nullstellensatz</a>
+folgt, dass eine Potenz von $1$, also $1$ selbst, zu ${\mathfrak b}$ in <br />\mathl{K[X_1 , \ldots ,  X_n]/{\mathfrak a}}{} gehört.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affine Varietäten/Algebraisch abgeschlossener Körper/Einheit auf Nullstellenmenge und im Restklassenring/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ = }{ V( {\mathfrak a} )
+}<br />{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } } 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+eine
+\definitionsverweis {affin-algebraische Menge}{}{,}
+die durch das 
+\definitionsverweis {Ideal}{}{}
+${\mathfrak a}$ beschrieben werde.}<br />\faktvoraussetzung {Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \in }{ K[X_1 , \ldots , X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein Polynom, das auf $V$ keine Nullstelle besitzt.}<br />\faktfolgerung {Dann ist $F$ im 
+\definitionsverweis {Restklassenring}{}{} <br />\mathl{K[X_1 , \ldots , X_n]/ {\mathfrak a}}{} eine 
+\definitionsverweis {Einheit}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Dies ist ein Spezialfall von
+<a href="/wiki/Affine_Variet%C3%A4ten/Algebraisch_abgeschlossener_K%C3%B6rper/D(f_i)_%C3%BCberdeckt/Erzeugt_Einheitsideal/Fakt" title="Affine Varietäten/Algebraisch abgeschlossener Körper/D(f i) überdeckt/Erzeugt Einheitsideal/Fakt">Korollar 11.12</a>.
+</p>
+</div>
+}</div> 
+<p>In
+<a href="/wiki/Ebene_algebraische_Kurven/Reell/X%5E2%2BY%5E2-2_und_X%5E2%2B2Y%5E2-1/Durchschnitt_und_Einheit/Beispiel" title="Ebene algebraische Kurven/Reell/X^2+Y^2-2 und X^2+2Y^2-1/Durchschnitt und Einheit/Beispiel">Beispiel 11.5</a>
+ergibt sich, dass die Funktion <br />\mathl{X^2+2Y^2-1}{} auf der reellen Nullstellenmenge <br />\mathl{V(X^2+Y^2-2)}{} keine Nullstelle besitzt, also dort überall eine Einheit ist, aber dass sie keine Einheit im 
+\definitionsverweis {Koordinatenring}{}{}
+<br />\mathl{\R[X,Y]/(X^2+Y^2-2)}{} ist.
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐ext.eqiad.main‐747884cc85‐rr79x
+Cached time: 20260823185800
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.161 seconds
+Real time usage: 0.241 seconds
+Preprocessor visited node count: 13999/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 512084/2097152 bytes
+Template argument size: 153108/2097152 bytes
+Highest expansion depth: 34/100
+Expensive parser function count: 12/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  224.819      1 Vorlage:Latex
+100.00%  224.819      1 -total
+ 99.40%  223.472      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesung_11
+ 98.59%  221.653      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+ 97.89%  220.085      1 Vorlage:Kapitelnummer
+ 91.01%  204.607      3 Vorlage:Mathematischer_Textabschnitt
+ 73.77%  165.848      9 Vorlage:Inputfaktbeweis
+ 43.87%   98.635      1 Hilbertscher_Nullstellensatz/Geometrische_Version/Textabschnitt
+ 32.62%   73.338      1 Affin-algebraische_Menge/Koordinatenring/Einführung/Textabschnitt
+ 31.09%   69.903      9 Vorlage:Mathematischer_Text/Beweis
+-->
+
+<!-- Render ID 8f7a7b0d-9f24-11f1-beb1-b30ea826ecd2 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165964:|#|:idhash:canonical and timestamp 20260823185800 and revision id 1033010. Rendering was triggered because: api-parse
+ -->
+</div>

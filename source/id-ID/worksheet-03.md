@@ -28,7 +28,7 @@ rasional.
 
 <!-- upstream_entity: Polynom/Unendlicher Körper/Unendlich viele Werte/Aufgabe -->
 
-Misalkan $K$ suatu medan takhingga dan $P\in K[X]$ suatu polinom takkonstan.
+Misalkan $K$ suatu lapangan takhingga dan $P\in K[X]$ suatu polinom takkonstan.
 Buktikan bahwa fungsi
 
 $$
@@ -168,7 +168,7 @@ satu-satunya unsur nilpoten dalam $R$.
 <!-- upstream_entity: Kommutative Ringtheorie/Ideale/Radikal und reduzierter Restklassenring/Aufgabe -->
 
 Buktikan bahwa suatu ideal $\mathfrak a$ dalam gelanggang komutatif $R$ adalah
-ideal radikal tepat ketika gelanggang hasil bagi $R/\mathfrak a$ tereduksi.
+ideal radikal tepat ketika gelanggang faktor $R/\mathfrak a$ tereduksi.
 
 ### Soal 3.14 {#br-ak-2025-2026-w03-ex-14}
 
@@ -211,7 +211,7 @@ berlaku.
 
 <!-- upstream_entity: Identitätssatz für Polynome/Unendlicher Körper/Zariski-offene nicht-leere Menge/Aufgabe -->
 
-Misalkan $K$ suatu medan takhingga, $F\in K[X_1,\ldots,X_n]$ suatu polinom,
+Misalkan $K$ suatu lapangan takhingga, $F\in K[X_1,\ldots,X_n]$ suatu polinom,
 dan $U\subseteq\mathbb A_K^n$ suatu subhimpunan terbuka Zariski yang takkosong.
 Andaikan $F|_U=0$ sebagai fungsi. Buktikan bahwa $F$ adalah polinom nol.
 
@@ -234,7 +234,7 @@ bahwa $\varphi$ kontinu terhadap topologi Zariski.
 
 <!-- upstream_entity: Zariski-Topologie/Affiner Raum/Offene Mengen sind dicht/Aufgabe -->
 
-Misalkan $K$ suatu medan takhingga. Buktikan bahwa setiap subhimpunan terbuka
+Misalkan $K$ suatu lapangan takhingga. Buktikan bahwa setiap subhimpunan terbuka
 Zariski yang takkosong
 
 $$
@@ -264,7 +264,7 @@ Soal berikut menggunakan beberapa istilah topologi yang lebih lanjut.
 
 <!-- upstream_entity: Zariski-Topologie/Vergleich zu anderen Topologien/Aufgabe -->
 
-Misalkan $K$ suatu medan.
+Misalkan $K$ suatu lapangan.
 
 1. Buktikan bahwa untuk $K=\mathbb R$ maupun $K=\mathbb C$, topologi standar
    (topologi metrik atau Euklides) lebih halus daripada topologi Zariski pada
@@ -273,7 +273,7 @@ Misalkan $K$ suatu medan.
    kofinit. Apakah hal ini juga berlaku pada $\mathbb A_K^n$ untuk $n\ge2$?
 3. Kapan topologi Zariski pada $\mathbb A_K^n$ memenuhi sifat $T_1$? Kapan
    topologi tersebut Hausdorff?
-4. Seperti apakah topologi Zariski pada $\mathbb A_K^n$ jika $K$ suatu medan
+4. Seperti apakah topologi Zariski pada $\mathbb A_K^n$ jika $K$ suatu lapangan
    berhingga?
 
 ---

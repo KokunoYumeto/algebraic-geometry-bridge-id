@@ -1,0 +1,93 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 11</title>
+    <ns>106</ns>
+    <id>165900</id>
+    <revision>
+      <id>1051329</id>
+      <parentid>1032945</parentid>
+      <timestamp>2025-08-18T07:58:01Z</timestamp>
+      <contributor>
+        <username>ThHem</username>
+        <id>40320</id>
+      </contributor>
+      <origin>1051329</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1642" sha1="62jh4s0jimemt17uyo85jkzza8xuyyq" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|11|
+
+{{Zwischenüberschrift|Hilbertscher Nullstellensatz - geometrische Version}}
+
+Wir wollen nun die geometrische Version des Hilbertschen Nullstellensatzes beweisen, der für den Fall eines algebraisch abgeschlossenen Körpers eine eindeutige Beziehung zwischen den affin-algebraischen Mengen im affinen Raum {{mathl|term= {{op:Affiner Raum|n|K}} }} und den Radikalidealen im Polynomring stiftet.
+
+{{:Hilbertscher Nullstellensatz/Geometrische Version/Textabschnitt}}
+
+{{Zwischenüberschrift|Der Koordinatenring zu einer affin-algebraischen Menge}}
+
+{{:Affin-algebraische Menge/Koordinatenring/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Der Hilbertsche Nullstellensatz für eine affin-algebraische Menge}}
+
+Der Hilbertsche Nullstellensatz, wie wir ihn für den affinen Raum und den Polynomring formuliert haben, gilt entsprechend für jedes {{mathl|term= V( {{ideala}} ) |SZ= }} und den zugehörigen Restklassenring {{mathl|term= K[X_1 {{kommadots|}} X_n ]/ {{ideala}} |SZ=.}}
+
+{{:Hilbertscher Nullstellensatz/Geometrische Version/Affin-algebraische Menge/Textabschnitt}}
+
+In
+{{
+Beispiellink
+|Präwort=||Beispielseitenname=
+Ebene algebraische Kurven/Reell/X^2+Y^2-2 und X^2+2Y^2-1/Durchschnitt und Einheit/Beispiel
+|Nr=
+|SZ=
+}}
+ergibt sich, dass die Funktion {{mathl|term= X^2+2Y^2-1 |SZ= }} auf der reellen Nullstellenmenge {{mathl|term= V(X^2+Y^2-2) |SZ= }} keine Nullstelle besitzt, also dort überall eine Einheit ist, aber dass sie keine Einheit im 
+{{
+Definitionslink
+|Prämath=
+|Koordinatenring|
+|SZ=
+}}
+{{mathl|term= \R[X,Y]/(X^2+Y^2-2) |SZ= }} ist.
+
+}}</text>
+      <sha1>62jh4s0jimemt17uyo85jkzza8xuyyq</sha1>
+    </revision>
+  </page>
+</mediawiki>

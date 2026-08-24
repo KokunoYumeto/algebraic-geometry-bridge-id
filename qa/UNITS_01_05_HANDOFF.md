@@ -2,11 +2,13 @@
 
 Checkpoint date: 2026-08-22
 
-State: all Unit 5 local release gates passed; Zenodo draft 22059687 reserved DOI
-`10.5281/zenodo.22059687`; GitHub publication remains externally blocked by
-the user-confirmed account suspension and an open support ticket.
+State: all Unit 5 release gates passed; Zenodo record 22059687 is published at
+DOI `10.5281/zenodo.22059687` (concept DOI `10.5281/zenodo.22059686`), and all
+six public files passed anonymous size/SHA-256 readback. GitHub publication
+remains externally blocked by the user-confirmed account suspension and an open
+support ticket.
 
-Next source boundary after Zenodo publication: Lecture 6 and Worksheet 6.
+Next source boundary: Lecture 6 and Worksheet 6.
 
 ## Completed reader boundary
 
@@ -117,12 +119,16 @@ binding, and byte-for-byte preservation of all 2,775 Unit 1-4 records pass.
 The release-candidate receipt is `qa/UNIT_05_RELEASE_CANDIDATE.json`, 3,281
 bytes, SHA-256
 `30a5311c4523e033bc68ea29e3f5c53fbef8bed2a203cb07c10e439079635769`.
-Zenodo draft 22059687 reserves DOI `10.5281/zenodo.22059687` for the clean
-record title *Kurva Aljabar — Edisi Bahasa Indonesia*, version `unit-05`.
-Finish the narrow local commit/tag, create its source snapshot, upload the PDF,
-self-contained HTML, source snapshot, build receipt, and release manifest,
-publish, then anonymously replay every public byte and persist a sanitized
-receipt. Do not claim that five units are the complete 30-unit book.
+Zenodo record 22059687 publishes the clean title *Kurva Aljabar — Edisi Bahasa
+Indonesia*, version `unit-05`, at DOI `10.5281/zenodo.22059687` under concept
+DOI `10.5281/zenodo.22059686`. Its description explicitly identifies the
+five-unit cumulative working boundary and does not claim completion of the
+30-unit edition. The public inventory contains the 96-page PDF, self-contained
+HTML, editable source/backend/QA snapshot, frozen authority-witness package,
+build receipt, and release manifest. Anonymous streaming readback reproduced
+the exact local byte count and SHA-256 of all six files. The sanitized PASS
+receipt is `qa/UNIT_05_ZENODO_PUBLICATION.json`, 3,405 bytes, SHA-256
+`0e80c37fc4d8fb7b1369ce35a34adabb6fae2e5e4bacb2491ec7ae889cf7848e`.
 
 GitHub branch `main` and tag `unit-05` remain authorized but must not be retried
 while the user-confirmed suspension/support-ticket condition persists. The

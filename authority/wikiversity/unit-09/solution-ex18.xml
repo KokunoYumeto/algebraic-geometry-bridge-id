@@ -1,0 +1,172 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Modul/Kommutativer Ring/Allgemeines Distributivgesetz/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>94177</id>
+    <revision>
+      <id>1112817</id>
+      <parentid>1090067</parentid>
+      <timestamp>2026-08-21T17:28:32Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112817</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2379" sha1="gl8gjsa2hov6gpxggmx0xdfl5plm4eo" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir beweisen die Aussage durch eine Doppelinduktion über
+{{
+Relationskette
+| k,n
+| \geq| 1
+|| 
+|| 
+|| 
+|SZ=.
+}} 
+Die Fälle
+{{
+Relationskette/display
+| (k,n) 
+|| (1,1),\, (1,2),\, (2,1)
+||
+||
+||
+|SZ=
+}}
+sind unmittelbar klar bzw. folgen direkt aus den Modulaxiomen.
+
+Die Aussage für
+{{
+Relationskette
+|k
+|| 1
+||
+||
+||
+|SZ=
+}}
+und beliebige {{math|term= n |SZ=}} beweisen wir durch Induktion nach {{math|term= n |SZ=,}} wobei der Induktionsanfang durch die Vorbemerkung gesichert ist. Es sei die Aussage für ein {{math|term= n |SZ=}} schon bewiesen, und seien {{mathl|term= n+1 |SZ=}} Vektoren
+{{
+Relationskette
+|   v_1 {{kommadots|}} v_n, v_{n+1}
+| \in |  V
+||
+||
+||
+|SZ=
+}}
+gegeben. Dann ist unter Verwendung des Falles {{mathl|term= (1,2) |SZ=}} und der Induktionsvoraussetzung
+{{
+Relationskette/align
+| s {{makl| \sum_{j {{=}} 1}^{n+1} v_j |}} 
+|| s {{makl| \sum_{j {{=}} 1}^{n} v_j    + v_{n+1}  |}} 
+|| s {{makl| \sum_{j {{=}} 1}^{n} v_j  |}}    + s v_{n+1} 
+||  \sum_{  1 \leq j \leq n }   s \cdot v_j   + s v_{n+1} 
+||  \sum_{  1 \leq j \leq n +1}   s \cdot v_j  
+|SZ=.
+}}
+Wir betrachten nun die Aussage für ein festes {{math|term= k |SZ=}} und beliebige {{math|term= n |SZ=.}} Für
+{{
+Relationskette
+|k
+|| 1
+||
+||
+||
+|SZ=
+}}
+ist diese Aussage bereits bewiesen. Es sei diese Aussage nun für ein festes {{math|term= k |SZ=}} schon bewiesen. Es seien Skalare
+{{
+Relationskette
+|  s_1 {{kommadots|}} s_k , s_{k+1}
+| \in |  R
+||
+||
+||
+|SZ=
+}} 
+und Vektoren
+{{
+Relationskette
+|  v_1 {{kommadots|}} v_n
+| \in |  V
+||
+||
+||
+|SZ=
+}} 
+gegeben. Dann ist unter Verwendung der Fälle
+{{
+Relationskette
+| (k,n)
+|| (2 ,1 ), (1,n)
+||
+||
+||
+|SZ=
+}}
+und der Induktionsvoraussetzung
+{{
+Relationskette/align
+| {{makl| \sum_{i {{=}} 1}^{ k+1} s_i |}} \cdot {{makl| \sum_{j {{=}} 1}^n v_j |}} 
+|| {{makl| \sum_{i {{=}} 1}^{ k} s_i  + s_{k+1}  |}} \cdot {{makl| \sum_{j {{=}} 1}^n v_j |}} 
+|| {{makl| \sum_{i {{=}} 1}^{ k} s_i |}} \cdot {{makl| \sum_{j {{=}} 1}^n v_j |}} + s_{k+1} \cdot {{makl| \sum_{j {{=}} 1}^n v_j |}} 
+|| \sum_{ 1 \leq i \leq k,\, 1 \leq j \leq n }    s_i \cdot v_j     + \sum_{j {{=}} 1}^n s_{k+1} \cdot  v_j 
+|| \sum_{ 1 \leq i \leq k+1,\, 1 \leq j \leq n }    s_i \cdot v_j  
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>gl8gjsa2hov6gpxggmx0xdfl5plm4eo</sha1>
+    </revision>
+  </page>
+</mediawiki>

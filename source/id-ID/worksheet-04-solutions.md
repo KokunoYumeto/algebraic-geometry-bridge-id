@@ -110,7 +110,7 @@ $\overline\varphi\circ\overline\psi$ masing-masing merupakan identitas.
    (F,G)=(F,H),
    $$
 
-   sehingga gelanggang hasil baginya isomorfik.
+   sehingga gelanggang faktornya isomorfik.
 
 2. Gunakan deskripsi pada bagian pertama:
 
@@ -230,7 +230,7 @@ $$
 
 Karena $a$ dan $b$ merupakan unit, teorema tentang banyaknya residu kuadrat
 menunjukkan bahwa himpunan nilai di ruas kiri maupun himpunan nilai di ruas
-kanan masing-masing mempunyai $(p+1)/2$ unsur. Medan $\mathbb Z/(p)$ hanya
+kanan masing-masing mempunyai $(p+1)/2$ unsur. Lapangan $\mathbb Z/(p)$ hanya
 mempunyai $p$ unsur, sehingga kedua himpunan itu tidak mungkin saling lepas.
 Jadi, terdapat $d\in\mathbb Z/(p)$ yang dapat ditulis sebagai
 
@@ -247,9 +247,9 @@ solusi persamaan semula.
 
 <!-- upstream_solution_revid: 1072981 -->
 
-Mula-mula misalkan $\mathfrak a$ suatu ideal prima. Maka gelanggang hasil bagi
-$R/\mathfrak a$ merupakan domain integral, sehingga mempunyai medan pecahan
-$Q(R/\mathfrak a)$. Komposisi proyeksi kanonik dengan inklusi ke medan
+Mula-mula misalkan $\mathfrak a$ suatu ideal prima. Maka gelanggang faktor
+$R/\mathfrak a$ merupakan domain integral, sehingga mempunyai lapangan pecahan
+$Q(R/\mathfrak a)$. Komposisi proyeksi kanonik dengan inklusi ke lapangan
 pecahan,
 
 $$
@@ -258,7 +258,7 @@ $$
 x\longmapsto[x],
 $$
 
-merupakan homomorfisme gelanggang ke suatu medan dengan
+merupakan homomorfisme gelanggang ke suatu lapangan dengan
 
 $$
 \ker\varphi=\mathfrak a.
@@ -276,7 +276,7 @@ $$
 0=\varphi(ab)=\varphi(a)\varphi(b).
 $$
 
-Karena medan $K$ tidak mempunyai pembagi nol, berlaku $\varphi(a)=0$ atau
+Karena lapangan $K$ tidak mempunyai pembagi nol, berlaku $\varphi(a)=0$ atau
 $\varphi(b)=0$. Ini setara dengan $a\in\ker\varphi$ atau
 $b\in\ker\varphi$. Jadi, $\ker\varphi$ merupakan ideal prima.
 

@@ -51,7 +51,7 @@ Tentukan komponen-komponen tak tereduksi dari hiperbola real tersebut.
 
 <!-- upstream_entity: Quadrik in zwei Variablen/X^2+Y^2+a/a nicht 0/Irreduzibel/Aufgabe -->
 
-Misalkan $K$ suatu medan dengan karakteristik $\ne2$ dan $a\in K$ tidak nol.
+Misalkan $K$ suatu lapangan dengan karakteristik $\ne2$ dan $a\in K$ tidak nol.
 Buktikan bahwa polinom
 
 $$
@@ -64,7 +64,7 @@ tak tereduksi.
 
 <!-- upstream_entity: Primideal/Verschwindungsmenge/Affine Gerade/Aufgabe -->
 
-Misalkan $K$ suatu medan dan
+Misalkan $K$ suatu lapangan dan
 
 $$
 \mathfrak p=(p)\subseteq K[X]
@@ -72,7 +72,7 @@ $$
 
 suatu ideal prima. Buktikan bahwa lokus nol
 $V(\mathfrak p)\subseteq\mathbb A_K^1$ adalah seluruh $\mathbb A_K^1$
-(yang ketaktereduksiannya bergantung pada medan) atau terdiri atas satu titik
+(yang ketaktereduksiannya bergantung pada lapangan) atau terdiri atas satu titik
 (dan karena itu tak tereduksi).
 
 **Catatan edisi:** sebagaimana tertulis, pernyataan sumber tidak mencakup kasus
@@ -83,7 +83,7 @@ $\mathfrak p=(X^2+1)$. Catatan ini tidak mengubah teks soal sumber.
 
 <!-- upstream_entity: Primideal/Verschwindungsmenge/Endlicher Körper/Aufgabe -->
 
-Misalkan $K$ suatu medan berhingga dan
+Misalkan $K$ suatu lapangan berhingga dan
 $\mathfrak p\subset K[X_1,\ldots,X_n]$ suatu ideal prima. Buktikan bahwa
 lokus nol
 
@@ -135,7 +135,7 @@ dan sumbu $x$. Lihat juga Soal 26.3.
 
 <!-- upstream_entity: Zwei Polynome in einer Variablen/Graph/Restklassenring/Aufgabe -->
 
-Misalkan $F,G\in K[X]$ polinom satu variabel di atas suatu medan $K$.
+Misalkan $F,G\in K[X]$ polinom satu variabel di atas suatu lapangan $K$.
 Buktikan bahwa terdapat isomorfisme aljabar-$K$
 
 $$
@@ -149,7 +149,7 @@ $$
 Misalkan dua lingkaran berbeda di bidang diberikan oleh persamaan lingkaran
 $F$ dan $G$.
 
-1. Buktikan bahwa gelanggang hasil bagi $K[X,Y]/(F,G)$ isomorfik dengan
+1. Buktikan bahwa gelanggang faktor $K[X,Y]/(F,G)$ isomorfik dengan
    $K[X,Y]/(F,H)$, dengan $H$ berderajat paling tinggi $1$.
 2. Buktikan bahwa $K[X,Y]/(F,G)$ isomorfik dengan suatu gelanggang berbentuk
    $K[U]/(Q)$, dengan $Q\in K[U]$ berderajat paling tinggi $2$.
@@ -167,7 +167,7 @@ $$
 
 dengan $F_0=X-r$ untuk suatu $r\in R$. Untuk $i\ge1$, misalkan $G_i\in R$
 diperoleh dari $F_i$ dengan mengganti $X$ oleh $r$. Buktikan isomorfisme
-gelanggang hasil bagi
+gelanggang faktor
 
 $$
 R[X]/\mathfrak a\cong R/(G_1,\ldots,G_n).
@@ -184,7 +184,7 @@ Apakah $\mathbb R$ tak tereduksi?
 
 <!-- upstream_entity: Restklassenkörper (Z)/Summe von zwei Quadraten/Lösung/Fakt/Beweis/Aufgabe -->
 
-Misalkan $p$ suatu bilangan prima dan $\mathbb Z/(p)$ medan hasil bagi yang
+Misalkan $p$ suatu bilangan prima dan $\mathbb Z/(p)$ lapangan hasil bagi yang
 bersesuaian. Buktikan bahwa setiap kuadrik berbentuk
 
 $$
@@ -206,7 +206,7 @@ $$
 \varphi:R\longrightarrow K
 $$
 
-ke suatu medan $K$.
+ke suatu lapangan $K$.
 
 ### Soal 4.16 {#br-ak-2025-2026-w04-ex-16}
 
@@ -221,7 +221,7 @@ $R$ merupakan ideal prima.
 
 Misalkan $R$ suatu gelanggang komutatif dan $\mathfrak p$ suatu ideal.
 Buktikan bahwa $\mathfrak p$ merupakan ideal prima tepat ketika gelanggang
-hasil bagi $R/\mathfrak p$ merupakan domain integral.
+faktor $R/\mathfrak p$ merupakan domain integral.
 
 ### Soal 4.18 {#br-ak-2025-2026-w04-ex-18}
 
@@ -253,8 +253,8 @@ tidak harus maksimal.
 
 <!-- upstream_entity: Rationaler Funktionenkörper/Unendlich viele Zwischenkörper/Aufgabe -->
 
-Misalkan $K$ suatu medan dan $L=K(X)$ medan pecahan dari gelanggang
-polinomial $K[X]$. Buktikan bahwa terdapat takhingga banyak medan antara $K$
+Misalkan $K$ suatu lapangan dan $L=K(X)$ lapangan pecahan dari gelanggang
+polinomial $K[X]$. Buktikan bahwa terdapat takhingga banyak lapangan antara $K$
 dan $L$.
 
 ### Soal 4.21 {#br-ak-2025-2026-w04-ex-21}
@@ -311,7 +311,7 @@ $\mathbb C$ tidak kompak dalam topologi metrik.
 
 <!-- upstream_entity: Restklassenringe (Z)/p prim/Quadratische Form/Hat Lösung oder beschreibt Nichtquadrat in einer Variablen/Aufgabe -->
 
-Misalkan $p\ge3$ suatu bilangan prima dan $K=\mathbb Z/(p)$ medan hasil bagi
+Misalkan $p\ge3$ suatu bilangan prima dan $K=\mathbb Z/(p)$ lapangan hasil bagi
 yang bersesuaian. Diberikan polinom
 
 $$
@@ -349,7 +349,7 @@ juga tak tereduksi dalam topologi terinduksi.
 
 <!-- upstream_entity: Polynomring über faktoriellem Grundring/Teilerfremd/Teilerfremd über Quotientenkörper/Aufgabe -->
 
-Misalkan $R$ suatu domain faktorisasi tunggal dengan medan pecahan $Q(R)$.
+Misalkan $R$ suatu domain faktorisasi tunggal dengan lapangan pecahan $Q(R)$.
 Buktikan bahwa jika $F,G\in R[X]$ tidak mempunyai faktor persekutuan
 takkonstan, maka, ketika dipandang sebagai unsur $Q(R)[X]$, keduanya juga
 tidak mempunyai faktor persekutuan.
@@ -361,7 +361,7 @@ domain ideal utama.
 
 <!-- upstream_entity: Quadrik in zwei Variablen/Kreis/Rationale Zahlen/Irreduzibel/Aufgabe -->
 
-Misalkan $K=\mathbb Q$ medan bilangan rasional. Tentukan, dengan alasan,
+Misalkan $K=\mathbb Q$ lapangan bilangan rasional. Tentukan, dengan alasan,
 apakah
 
 $$

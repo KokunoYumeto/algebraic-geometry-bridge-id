@@ -1,0 +1,117 @@
+{
+  "schema": "ag-bridge-release-candidate-v1",
+  "frozen_utc": "2026-08-22T18:19:43Z",
+  "status": "PASS",
+  "through_unit": 6,
+  "planned_units": 30,
+  "full_edition_complete": false,
+  "language": "id-ID",
+  "publication_targets": {
+    "github": {
+      "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+      "state": "blocked_by_user_confirmed_account_suspension",
+      "support_ticket_filed": true,
+      "retry_allowed": false
+    },
+    "zenodo": {
+      "state": "authorized_for_maintained_cumulative_preservation",
+      "concept_doi": "10.5281/zenodo.22059686",
+      "record_title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+      "version": "unit-06",
+      "new_concept_required": false,
+      "public_byte_readback_required": true
+    },
+    "figshare": {
+      "state": "authorized_for_one_public_work_item",
+      "project_id": 280296,
+      "collection_id": 8668413,
+      "collection_doi": "10.6084/m9.figshare.c.8668413.v1",
+      "reader_pdf_first": true,
+      "work_payload_cap_bytes": 500000000,
+      "project_cap_bytes": 20000000000,
+      "public_byte_readback_required": true
+    }
+  },
+  "reader": {
+    "html": {
+      "path": "build/reader-id/index.html",
+      "bytes": 6052379,
+      "sha256": "a6d76c946a7318e4c1b821ea213114a072fa1984cb5e8771e61ca95bf27e1666"
+    },
+    "pdf": {
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-06.pdf",
+      "bytes": 4133936,
+      "sha256": "27b459e5277c2baddcf849978d0ef720ed72bda60cd4c360b8d53ae765b9462e",
+      "pages": 117
+    },
+    "build_receipt": {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 14243,
+      "sha256": "8f4978fd2d2d4de6169b7504ca4d9218f512acad1ae66289f320bf9502233b36"
+    }
+  },
+  "coverage": {
+    "lectures": 6,
+    "worksheets": 6,
+    "exercises": 164,
+    "public_source_solutions": 37,
+    "reader_media_positions": 44,
+    "stable_heading_ids": 334,
+    "backend_records": 4344
+  },
+  "qa": {
+    "machine": {
+      "path": "qa/UNITS_01_06_MACHINE_QA.json",
+      "bytes": 7039,
+      "sha256": "5536bceb79f24dfd26979b12d2158d0d8f6c04f73527d8379cabdec9b948dd9e"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_06_VISUAL_QA.json",
+      "bytes": 35683,
+      "sha256": "63d25871816d1f4b353e0da60a737ffabb660733a3a2f1876fe0d4fffa37bb55"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_06_RESPONSIVE_QA.json",
+      "bytes": 3548,
+      "sha256": "fdf81e675b2d481be72e5d5ebb2b126011452ddcb279773309742b3d18b144e2"
+    },
+    "protected_surfaces": {
+      "path": "qa/UNIT_06_PROTECTED_SURFACES.json",
+      "bytes": 4406,
+      "sha256": "09d65d920f97a4a3986953e4f11cc87b93f78b0632c7b425f64d2b41633c0e25"
+    },
+    "backend": {
+      "path": "qa/UNITS_01_06_BACKEND_QA.json",
+      "bytes": 4258,
+      "sha256": "e93dec4cbcc299356c00c8fe1ee869530ac9ba51f83a275390b769583d14aee1"
+    }
+  },
+  "backend": {
+    "records": 4344,
+    "manifest_path": "backend/units-01-06/MANIFEST.json",
+    "manifest_bytes": 9688,
+    "manifest_sha256": "d018cc7ca7853cf3c5668605f472a47e9d331fb6a53730eac6861d3b06d918f2",
+    "records_path": "backend/units-01-06/records.jsonl",
+    "records_bytes": 6037749,
+    "records_sha256": "6ef1b74826ad905689e4903011ef0a79acf19a9759b06f43804ff53e3abc56b3",
+    "prior_records_preserved_byte_for_byte": 3471,
+    "deterministic_double_replay": true
+  },
+  "rights": {
+    "translated_text": "CC BY-SA 4.0",
+    "media": "per-component rights in authority/RIGHTS*.csv",
+    "blanket_file_set_license_claimed": false,
+    "license_notice": "LICENSE.md"
+  },
+  "checks": {
+    "authority_and_solution_closure": true,
+    "component_rights_and_local_assets": true,
+    "translation_and_math_fidelity": true,
+    "machine_qa": true,
+    "all_page_visual_qa": true,
+    "desktop_and_mobile_reflow": true,
+    "backend_schema_closure_and_replay": true,
+    "credential_findings": 0,
+    "ready_to_publish": true
+  }
+}

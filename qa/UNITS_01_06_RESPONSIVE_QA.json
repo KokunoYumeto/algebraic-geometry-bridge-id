@@ -1,0 +1,99 @@
+{
+  "schema": "ag-bridge-responsive-html-qa-v2",
+  "audited_utc": "2026-08-22T18:04:09.3654545Z",
+  "status": "PASS",
+  "through_unit": 6,
+  "browser_surface": "Codex In-app Browser",
+  "artifact": {
+    "path": "build/reader-id/index.html",
+    "bytes": 6052379,
+    "sha256": "a6d76c946a7318e4c1b821ea213114a072fa1984cb5e8771e61ca95bf27e1666",
+    "title": "Kurva Aljabar - Unit 1-6",
+    "language": "id-ID",
+    "headings_level_1": 27,
+    "mathml_nodes": 2150,
+    "images": 44
+  },
+  "responsive_source": {
+    "path": "source/id-ID/reader.css",
+    "bytes": 1671,
+    "sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa",
+    "display_math_overflow": "local horizontal auto-scroll",
+    "long_link_wrapping": "anywhere"
+  },
+  "desktop": {
+    "viewport_css_pixels": {
+      "width": 1440,
+      "height": 900
+    },
+    "document_client_width": 1425,
+    "document_scroll_width": 1425,
+    "body_left": 100.44444274902344,
+    "body_right": 1324.4444427490234,
+    "body_width": 1224,
+    "body_margin_left": 100.444,
+    "body_margin_right": 100.444,
+    "body_width_fraction_of_viewport": 0.85,
+    "page_horizontal_overflow": false,
+    "centered_reader": true,
+    "rendered_images_over_content": 0,
+    "visual_result": "PASS"
+  },
+  "mobile": {
+    "viewport_css_pixels": {
+      "width": 390,
+      "height": 844
+    },
+    "document_client_width": 375,
+    "document_scroll_width": 375,
+    "body_left": 0,
+    "body_right": 375.1111145019531,
+    "body_width": 375.1111145019531,
+    "body_padding_left": 16,
+    "body_padding_right": 16,
+    "page_horizontal_overflow": false,
+    "images_over_content": 0,
+    "largest_rendered_image_width": 263.1111145019531,
+    "display_math_blocks": 583,
+    "display_math_blocks_wider_than_content": 49,
+    "display_math_blocks_with_local_scroll": 49,
+    "largest_display_math_client_width": 343,
+    "largest_display_math_scroll_width": 645,
+    "unit_06_anchor_closure": {
+      "lecture": "br-ak-2025-2026-l06",
+      "worksheet": "br-ak-2025-2026-w06",
+      "last_exercise": "br-ak-2025-2026-w06-ex-30",
+      "last_public_solution": "br-ak-2025-2026-w06-sol-25",
+      "all_present": true
+    },
+    "unit_06_visual_spot_check": {
+      "anchor": "br-ak-2025-2026-l06",
+      "heading_wrapped_without_clipping": true,
+      "first_figure_width": 263.1041564941406,
+      "document_scroll_width": 375,
+      "visual_result": "PASS"
+    },
+    "long_formula_spot_check": {
+      "anchor": "br-ak-2025-2026-w06-sol-25",
+      "formula_client_width": 343,
+      "formula_scroll_width": 362,
+      "overflow_x": "auto",
+      "formula_remains_accessible": true,
+      "visual_result": "PASS"
+    }
+  },
+  "cumulative_reflow": {
+    "original_finding": "Long MathML widened the mobile document and created a page-wide horizontal scrollbar before Unit 4.",
+    "retained_action": "Constrain block MathML to content width and provide local horizontal scrolling; permit long links to wrap.",
+    "unit_06_post_build_document_scroll_width": 375,
+    "remaining_page_overflow": 0
+  },
+  "bound_receipts": {
+    "build_receipt_path": "build/reader-id/BUILD_RECEIPT.json",
+    "build_receipt_sha256": "8f4978fd2d2d4de6169b7504ca4d9218f512acad1ae66289f320bf9502233b36",
+    "machine_qa_path": "qa/UNITS_01_06_MACHINE_QA.json",
+    "machine_qa_sha256": "5536bceb79f24dfd26979b12d2158d0d8f6c04f73527d8379cabdec9b948dd9e",
+    "visual_qa_path": "qa/UNITS_01_06_VISUAL_QA.json",
+    "visual_qa_sha256": "63d25871816d1f4b353e0da60a737ffabb660733a3a2f1876fe0d4fffa37bb55"
+  }
+}

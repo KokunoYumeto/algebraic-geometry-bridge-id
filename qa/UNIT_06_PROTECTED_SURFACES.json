@@ -1,0 +1,153 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v2",
+  "audited_utc": "2026-08-22T18:04:53.505261+00:00",
+  "status": "PASS",
+  "unit": 6,
+  "authority": {
+    "manifest_path": "authority/wikiversity/unit-06/UNIT_AUTHORITY_MANIFEST.json",
+    "manifest_bytes": 104397,
+    "manifest_sha256": "b1dcf2007e4740e7123421d2510ecd86dbf4a91b35ea83db99fbf5c77a9e01dd",
+    "manifest_files_replayed": 46,
+    "official_pdf_pages": {
+      "authority/artifacts/lecture-06-official.pdf": 9,
+      "authority/artifacts/worksheet-06-official.pdf": 7
+    },
+    "lecture_revid": 1112253,
+    "worksheet_revid": 1059354,
+    "lecture_transclusions": 95,
+    "worksheet_transclusions": 110,
+    "ordered_exercise_map_sha256": "24ad08b1cbd215a1142d66d4297a5ce177b610aaaadd4329d464b1febb8c4c2c"
+  },
+  "targets": [
+    {
+      "path": "source/id-ID/lecture-06.md",
+      "bytes": 12923,
+      "sha256": "602d283f59020f738736f4f5506611f4e7c8e83f054cf17c887c36be13eae3d9",
+      "headings": 17,
+      "math_nodes": 142,
+      "images": 3
+    },
+    {
+      "path": "source/id-ID/worksheet-06.md",
+      "bytes": 13245,
+      "sha256": "8b9d69fc49f4b94b9b3523f915912876be37415e8f41e1a1167b71fa8f684d12",
+      "headings": 33,
+      "math_nodes": 109,
+      "images": 0
+    },
+    {
+      "path": "source/id-ID/worksheet-06-solutions.md",
+      "bytes": 7954,
+      "sha256": "8f2118a46ef4b3cd25d3bdf1e579e81c2197cdadb000ba04a894816599b5b530",
+      "headings": 10,
+      "math_nodes": 105,
+      "images": 0
+    }
+  ],
+  "topology": {
+    "unit_heading_ids": 60,
+    "duplicate_heading_ids": 0,
+    "exercises": 30,
+    "submission_points": [
+      3,
+      6,
+      5,
+      5,
+      4
+    ],
+    "starred_exercises": [
+      3,
+      4,
+      8,
+      9,
+      17,
+      18,
+      21,
+      22,
+      25
+    ],
+    "public_solutions": 9,
+    "solution_exercises": [
+      3,
+      4,
+      8,
+      9,
+      17,
+      18,
+      21,
+      22,
+      25
+    ],
+    "solution_revisions": [
+      1112350,
+      958133,
+      1057120,
+      1112838,
+      1096769,
+      1024155,
+      1067921,
+      1096509,
+      1089645
+    ],
+    "invented_solutions": 0,
+    "untranslated_german_prose": 0,
+    "media_positions": 3,
+    "binary_surfaces": 4
+  },
+  "math_count_reconciliation": {
+    "authority": {
+      "lecture": 158,
+      "worksheet": 111,
+      "solutions": 116
+    },
+    "target": {
+      "lecture-06.md": 142,
+      "worksheet-06.md": 109,
+      "worksheet-06-solutions.md": 105
+    },
+    "explanation": "Pandoc and MediaWiki split aligned formulae and renderer scaffolding differently. Exact hypotheses, elimination identities, homogeneous substitutions, exercise order, and all nine solution surfaces are protected by formula needles and revision bindings."
+  },
+  "fidelity_findings": {
+    "protected_formula_needles": {
+      "lecture": 12,
+      "worksheet": 7,
+      "solutions": 5
+    },
+    "explicit_source_precision_delta": "The ternary homogeneous F is dehomogenized explicitly as G(X,Y)=F(X,Y,1) before the two-variable rational identity.",
+    "remaining_mathematical_defects": 0,
+    "remaining_omissions": 0,
+    "invented_solutions": 0
+  },
+  "rights": {
+    "path": "authority/RIGHTS-unit-06.csv",
+    "sha256": "775456c2a8d0a4d00f7ae5b29121c38acf868b520adb1c0c3186bdc606d7c4b4",
+    "closure_path": "authority/ASSET_CLOSURE-unit-06.json",
+    "closure_sha256": "83e90594d3252927869b9dda4e294e7da4ed7f02e0acc355695777210405eaf0"
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "sha256": "018482fa589db5844cd7cc7bbfcdc954404dbef2a6c741f689479ff1dc462ff1",
+    "rows": 21,
+    "unit_06_records": [
+      "AGC-ADAPT-0008",
+      "AGC-ADAPT-0009",
+      "AGC-ADAPT-0010",
+      "AGC-ADAPT-0011",
+      "AGC-CORR-0010"
+    ]
+  },
+  "bound_qa": {
+    "machine": {
+      "path": "qa/UNITS_01_06_MACHINE_QA.json",
+      "sha256": "5536bceb79f24dfd26979b12d2158d0d8f6c04f73527d8379cabdec9b948dd9e"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_06_VISUAL_QA.json",
+      "sha256": "63d25871816d1f4b353e0da60a737ffabb660733a3a2f1876fe0d4fffa37bb55"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_06_RESPONSIVE_QA.json",
+      "sha256": "fdf81e675b2d481be72e5d5ebb2b126011452ddcb279773309742b3d18b144e2"
+    }
+  }
+}

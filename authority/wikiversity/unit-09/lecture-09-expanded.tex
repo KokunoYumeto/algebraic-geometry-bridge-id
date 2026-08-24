@@ -1,0 +1,1934 @@
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 9/latex
+\setcounter{section}{9}
+
+
+
+
+
+
+  \zwischenueberschrift{Noethersche Ringe}
+
+
+Wir werden nun in den nächsten Vorlesungen die algebraische Seite der algebraischen Geometrie weiterentwickeln. Unser erstes Ziel ist es zu zeigen, dass, wenn $R$ ein noetherscher Ring ist, dann auch der Polynomring $R[X]$ ein noetherscher Ring ist
+\zusatzklammer {Hilbertscher Basissatz} {} {.}
+Dies gilt dann auch für die Hinzunahme von mehreren
+\zusatzklammer {endlich vielen} {} {}
+Variablen und insbesondere für Polynomringe in endlich vielen Variablen über einem Körper. Wir erinnern an den Begriff des noetherschen Ringes.
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+Ein
+\definitionsverweis {kommutativer Ring}{}{}
+$R$ heißt \definitionswort {noethersch}{,} wenn jedes
+\definitionsverweis {Ideal}{}{}
+darin
+\definitionsverweis {endlich erzeugt}{}{}
+ist.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/Noethersche Ringe/Äquivalente Formulierungen/Fakt}
+{Proposition}
+{}
+{
+
+
+
+\faktsituation {Für einen
+\definitionsverweis {kommutativen Ring}{}{}
+$R$}
+\faktuebergang {sind folgende Aussagen äquivalent.}
+\faktfolgerung {\aufzaehlungzwei { $R$ ist
+\definitionsverweis {noethersch}{}{.}
+} {Jede aufsteigende Idealkette
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\mathfrak a}_1
+}
+{ \subseteq} { {\mathfrak a}_2
+}
+{ \subseteq} { {\mathfrak a}_3
+}
+{ \subseteq} { \ldots
+}
+{ } {
+}
+}
+{}{}{}
+wird \stichwort {stationär} {,} d.h. es gibt ein $n$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}_n
+}
+{ = }{ {\mathfrak a}_{n+1}
+}
+{ = }{ \ldots
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+(1) $\Rightarrow$ (2). Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\mathfrak a}_1
+}
+{ \subseteq} { {\mathfrak a}_2
+}
+{ \subseteq} { {\mathfrak a}_3
+}
+{ \subseteq} { \ldots
+}
+{ } {
+}
+}
+{}{}{}
+eine aufsteigende Idealkette in $R$. Wir betrachten die Vereinigung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\mathfrak a}
+}
+{ =} { \bigcup_{n \in \N } {\mathfrak a}_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die wieder ein Ideal in $R$ ist. Da $R$ noethersch ist, ist ${\mathfrak a}$ endlich erzeugt, d.h.
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}
+}
+{ = }{ (f_1 , \ldots , f_k)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Da diese $f_i$ in der Vereinigung der Ideale ${\mathfrak a}_n$ liegen, und da die Ideale aufsteigend sind, muss es ein $n$ derart geben, dass
+
+\mavergleichskette
+{\vergleichskette
+{ f_1 , \ldots , f_k
+}
+{ \in }{ {\mathfrak a}_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt. Wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (f_1 , \ldots ,  f_k)
+}
+{ \subseteq} { {\mathfrak a}_n
+}
+{ \subseteq} { {\mathfrak a}_{n+m}
+}
+{ \subseteq} { \bigcup_{n \in \N } {\mathfrak a}_n
+}
+{ \subseteq} { (f_1, \ldots , f_k)
+}
+}
+{}{}{}
+für
+
+\mavergleichskette
+{\vergleichskette
+{ m
+}
+{ \geq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+muss hier Gleichheit gelten, sodass die Idealkette ab $n$ stationär ist.
+
+
+(2) $\Rightarrow$ (1). Es sei ${\mathfrak a}$ ein Ideal in $R$. Wir nehmen an, ${\mathfrak a}$ sei nicht endlich erzeugt, und konstruieren sukzessive eine unendliche, echt aufsteigende Idealkette
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}_n
+}
+{ \subset }{ {\mathfrak a}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei die ${\mathfrak a}_n$ alle endlich erzeugt sind. Es sei dazu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\mathfrak a}_1
+}
+{ \subset} { {\mathfrak a}_2
+}
+{ \subset} { \ldots
+}
+{ \subset} { {\mathfrak a}_n
+}
+{ \subseteq} { {\mathfrak a}
+}
+}
+{}{}{}
+bereits konstruiert. Da ${\mathfrak a}_n$ endlich erzeugt ist, aber ${\mathfrak a}$ nicht, ist die Inklusion
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}_n
+}
+{ \subseteq }{ {\mathfrak a}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+echt und es gibt ein Element
+
+\mathbed {f_{n+1} \in {\mathfrak a}} {}
+ {f_{n+1} \not\in {\mathfrak a}_{n}} {}
+ {} {} {} {.}
+Dann setzt das Ideal
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}_{n+1}
+}
+{ \defeq }{ {\mathfrak a}_n + ( f_{n+1})
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Idealkette echt aufsteigend fort.
+
+
+
+
+}
+
+
+
+
+
+
+
+
+\inputfaktbeweis
+{Noetherscher Ring/Kommutativ/Restklassenring/Noethersch/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher Ring}{}{.}}
+\faktfolgerung {Dann ist auch jeder
+\definitionsverweis {Restklassenring}{}{}
+
+\mathl{R/ {\mathfrak b}}{} noethersch.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}
+}
+{ \subseteq }{ R/ {\mathfrak b}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Ideal und sei
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{ {\mathfrak a}  }
+}
+{ \subseteq }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Urbildideal davon. Dieses ist endlich erzeugt nach Voraussetzung, also
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{ {\mathfrak a}  }
+}
+{ = }{ (f_1 , \ldots ,  f_n)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Restklassen dieser Erzeuger, also
+\mathl{\bar{f}_1 , \ldots , \bar{f}_n}{,} bilden ein Idealerzeugendensystem von ${\mathfrak a}$
+
+
+Für ein Element
+
+
+\mavergleichskette
+{\vergleichskette
+{ \bar{g}
+}
+{ \in }{ {\mathfrak a}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt ja
+
+\mavergleichskette
+{\vergleichskette
+{ g
+}
+{ = }{ \sum_{i = 1}^n r_i f_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in $R$ und damit
+
+\mavergleichskette
+{\vergleichskette
+{ \bar{g}
+}
+{ = }{ \sum_{i = 1}^n \bar{r}_i \bar{f}_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in
+\mathl{R/{\mathfrak b}}{.}
+
+
+
+
+}
+
+
+
+
+
+
+  \zwischenueberschrift{Der Hilbertsche Basissatz}
+
+
+Wie viele grundlegende Aussagen der kommutativen Algebra geht der Hilbertsche Basissatz, dem wir uns jetzt zuwenden, auf David Hilbert  zurück, genauer auf seine Arbeit von 1890, \anfuehrung{Ueber die Theorie der algebraischen Formen}{.}
+
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg  {David_Hilbert_1886} {jpg } }
+\end{center}
+\bildtext {
+David Hilbert (1862-1943)
+} }
+\bildlizenz { David Hilbert 1886.jpg  } {Unbekannt (1886)} {} {Commons} {PD} {}
+
+
+
+
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/Hilbertscher Basissatz/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher Ring}{}{.}}
+\faktfolgerung {Dann ist auch der Polynomring
+\mathl{R[X]}{} noethersch.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+Es sei ${\mathfrak b}$ ein Ideal im Polynomring $R[X]$. Zu
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definieren wir ein Ideal ${\mathfrak a}_n$ in $R$ durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\mathfrak a}_ n
+}
+{ =} { \left\{  c \in R   \mid   \text{es gibt } F \in {\mathfrak b}  \text{ mit } F = cX^n + c_{n-1}X^{n-1} + \cdots + c_1X +c_0         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Menge ${\mathfrak a}_n$ besteht also aus allen Leitkoeffizienten von Polynomen vom Grad $n$ aus ${\mathfrak b}$. Es handelt sich dabei offensichtlich um Ideale in $R$
+\zusatzklammer {wobei wir hier $0$ als Leitkoeffizient zulassen} {} {.}
+Ferner ist
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}_n
+}
+{ \subseteq }{ {\mathfrak a}_{n+1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+da man ja ein Polynom $F$ vom Grad $n$ mit Leitkoeffizient $c$ mit der Variablen $X$ multiplizieren kann, um ein Polynom vom Grad
+\mathl{n+1}{} zu erhalten, das wieder $c$ als Leitkoeffizienten besitzt. Da $R$ noethersch ist, muss diese aufsteigende Idealkette stationär werden; sei $n$ derart, dass
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}_n
+}
+{ = }{ {\mathfrak a}_{n+1}
+}
+{ = }{ \ldots
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+
+
+Zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \leq }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei nun
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}_i
+}
+{ = }{ (c_{i 1} , \ldots ,  c_{i k_i })
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein endliches Erzeugendensystem, und es seien
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_{ij}
+}
+{ =} { c_{ij} X^{i} + \text{ Terme von kleinerem Grad }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zugehörige Polynome aus ${\mathfrak b}$
+\zusatzklammer {die es nach Definition der ${\mathfrak a}_i$ geben muss} {} {.}
+
+
+Wir behaupten, dass ${\mathfrak b}$ von allen
+\mathl{\left\{ F_{ij}   \mid   0 \leq i \leq n,\, 1 \leq j \leq k_i         \right\}}{} erzeugt wird. Dazu beweisen wir für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \in }{ {\mathfrak b}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+durch Induktion über den Grad von $G$, dass es als $R$-Linearkombination mit diesen
+\mathl{F_{ij}}{} darstellbar ist. Für $G$ konstant, also
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+ist dies klar. Es sei nun der Grad von $G$ gleich $d$ und die Aussage sei für kleineren Grad bewiesen. Wir schreiben
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G
+}
+{ =} { cX^d + c_{d-1}X^{d-1} + \cdots + c_1X+c_0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ {\mathfrak a}_d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und damit kann man $c$ als $R$-Linearkombination der
+
+\mathbed {c_{ij}} {}
+ {0 \leq i \leq n} {}
+ {1 \leq j \leq k_i} {} {} {,}
+schreiben. Bei
+
+\mavergleichskette
+{\vergleichskette
+{ d
+}
+{ \leq }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man $c$ sogar als $R$-Linearkombination der
+
+\mathbed {c_{dj}} {}
+ {j=1 , \ldots , k_d} {}
+ {} {} {} {,}
+schreiben, sagen wir
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ = }{ \sum_{j = 1}^{k_d} r_j c_{dj}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ G-\sum_{j = 1}^{k_d} r_j F_{dj}
+}
+{ \in }{ {\mathfrak b}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und hat einen kleineren Grad, sodass man darauf die Induktionsvoraussetzung anwenden kann. Bei
+
+\mavergleichskette
+{\vergleichskette
+{ d
+}
+{ > }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ c
+}
+{ =} { \sum_{i = 0 , \ldots ,  n,\, j = 1 , \ldots ,  k_i } r_{ij} c_{ij}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Damit gehört
+
+\mathdisp {G-\sum_{i=0 , \ldots ,  n,\, j=1 , \ldots , k_i } r_{ij} X^{d-i} F_{ij}} {  }
+
+ebenfalls zu ${\mathfrak b}$ und hat einen kleineren Grad, sodass man wieder die Induktionsvoraussetzung anwenden kann.
+
+
+
+
+}
+
+
+
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/Hilbertscher Basissatz/Endliche viele Variablen/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher Ring}{}{.}}
+\faktfolgerung {Dann ist auch
+\mathl{R[X_1 , \ldots , X_n]}{} noethersch.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+Dies folgt durch induktive Anwendung
+des
+Hilbertschen Basissatzes
+
+auf die Kette
+
+\mavergleichskettealign
+{\vergleichskettealign
+{R
+}
+{ \subset} { R[X_1]
+}
+{ \subset} { (R[X_1])[X_2] =  R[X_1,X_2]
+}
+{ \subset} { (R[X_1,X_2])[X_3] =  R[X_1,X_2,X_3]
+}
+{ \subset} { \ldots
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ \subset} { R[X_1 , \ldots ,  X_{n}]
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/Polynomring über Körper/Endliche viele Variablen/Noethersch/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {Es sei $K$ ein
+\definitionsverweis {Körper}{}{.}}
+\faktfolgerung {Dann ist
+\mathl{K[X_1 , \ldots , X_n]}{}
+\definitionsverweis {noethersch}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+Dies ist ein Spezialfall von
+
+Korollar 9.5
+.
+
+
+
+
+}
+
+
+Der Hilbertsche Basissatz bedeutet insbesondere, dass jede abgeschlossene Untervarietät
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ { {\mathbb A}_{  K  }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in einem affinen Raum durch endlich viele Polynome beschrieben werden kann. Jedes algebraische Nullstellengebilde ist also bereits das Nullstellengebilde von endlich vielen Polynomen.
+
+
+
+
+
+
+\inputfaktbeweis
+{Hilbertscher Basisatz/Affin-algebraische Menge als Faser über 0 einer Abbildung/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine affin-algebraische Menge.}
+\faktfolgerung {Dann gibt es eine Abbildung
+\maabbdisp {\varphi} { { {\mathbb A}_{  K }^{  n   } }  } { { {\mathbb A}_{  K }^{  m   } }
+} {,}
+die komponentenweise durch Polynome
+
+\mavergleichskette
+{\vergleichskette
+{ F_i
+}
+{ \in }{ K[X_1 , \ldots ,  X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben ist, also
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi
+}
+{ = }{ (F_1 , \ldots ,  F_m)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+derart, dass $V$ das Urbild des Nullpunktes
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ { {\mathbb A}_{  K }^{  m   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+Es sei ${\mathfrak a}$ ein beschreibendes Ideal für $V$, also
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{ V( {\mathfrak a} )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+dem
+Hilbertschen Basissatz
+
+gibt es
+
+\mavergleichskette
+{\vergleichskette
+{ F_1 , \ldots ,  F_m
+}
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ {\mathfrak a}
+}
+{ = }{ (F_1 , \ldots , F_m)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Damit ist insbesondere
+
+\mavergleichskettedisp
+{\vergleichskette
+{V
+}
+{ =} { V( {\mathfrak a} )
+}
+{ =} { V(F_1) \cap \ldots \cap V(F_m)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Diese $F_i$ kann man zu einer Abbildung
+\maabbdisp {\varphi = (F_1 , \ldots , F_m)} { { {\mathbb A}_{  K }^{  n   } }  } { { {\mathbb A}_{  K }^{  m   } }
+} {}
+zusammenfassen. Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(P)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann, wenn alle Komponentenfunktionen null sind, und das ist genau dann der Fall, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V(F_i)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist für alle $i$.
+
+
+
+
+}
+
+
+
+
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{.} Eine
+$R$-\definitionsverweis {Algebra}{}{}
+$A$ heißt \definitionswort {von endlichem Typ}{}
+\zusatzklammer {oder \definitionswort {endlich erzeugt}{}} {} {,}
+wenn sie die Form
+
+\mavergleichskettedisp
+{\vergleichskette
+{A
+}
+{ =} { R[X_1 , \ldots , X_n]/ {\mathfrak a}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+besitzt.
+
+
+
+
+}
+
+
+Eine endlich erzeugte $R$-Algebra besitzt also eine Darstellung als Restklassenring einer Polynomalgebra über $R$ in endlich vielen Variablen. Eine solche Darstellung ist keineswegs eindeutig.
+
+
+
+
+
+
+\inputfaktbeweis
+{Kommutative Ringtheorie/Algebra von endlichem Typ/Körper/Noethersch/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher Ring}{}{.}}
+\faktfolgerung {Dann ist jede
+$R$-\definitionsverweis {Algebra von endlichem Typ}{}{}
+ebenfalls noethersch. Insbesondere ist für einen
+\definitionsverweis {Körper}{}{}
+$K$ jede $K$-Algebra von endlichem Typ noethersch.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+Dies folgt aus
+
+Korollar 9.5
+
+und aus
+
+Lemma 9.3
+.
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+  \zwischenueberschrift{Zerlegung in irreduzible Komponenten}
+
+
+Aus dem Hilbertschen Basissatz folgt, dass eine aufsteigende Idealkette
+
+\mathdisp {{\mathfrak a}_1 \subseteq {\mathfrak a}_2 \subseteq {\mathfrak a}_3 \subseteq \ldots} {  }
+
+in
+\mathl{K[X_1, \ldots, X_n]}{} stationär werden muss. Dies hat für absteigende Ketten von affin-algebraischen Teilmengen in einem affinem Raum folgende Konsequenz.
+
+
+
+
+\inputfaktbeweis
+{Affine Varietäten/Zariski-Topologie ist noethersch/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {In einem affinen Raum
+\mathl{{ {\mathbb A}_{  K }^{  n   } }}{} wird jede absteigende Folge von abgeschlossenen Mengen
+
+\mathdisp {V_1 \supseteq V_2 \supseteq \ldots} {  }
+}
+\faktfolgerung {stationär.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+Es sei
+
+\mathdisp {V_1 \supseteq V_2 \supseteq \ldots} {  }
+
+eine absteigende Kette von affin-algebraischen Teilmengen im
+\mathl{{ {\mathbb A}_{  K }^{  n   } }}{.} Daraus folgt nach
+
+Lemma 3.7
+
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{Id} \, (V_i)
+}
+{ \subseteq }{ \operatorname{Id} \, (V_{i+1})
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für die zugehörigen
+\definitionsverweis {Verschwindungsideale}{}{.}
+Nach
+
+Korollar 9.6
+
+wird diese Idealkette stationär, sagen wir für
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \geq }{i_0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+
+Lemma 3.8
+
+ (3)
+
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ = }{ V(\operatorname{Id} \, (V_i))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Daraus folgt dann aber für
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \geq }{i_0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V_i
+}
+{ =} { V( \operatorname{Id} \,(V_i)  )
+}
+{ =} { V( \operatorname{Id} \,(V_{i+1})  )
+}
+{ =} { V_{i+1}
+}
+{ } {
+}
+}
+{}{}{,}
+sodass die absteigende Kette stationär werden muss.
+
+
+
+
+}
+
+
+
+
+
+Es ergibt sich daraus durch Übergang zu den Komplementen, dass jede aufsteigende Kette von Zariski-offenen Mengen in einem affinen Raum stationär wird. Eine solche Topologie nennt man auch \stichwort {noethersch} {}
+\zusatzklammer {generell nennt man eine
+\zusatzklammer {partielle} {} {}
+Ordnung, für die jede aufsteigende Kette stationär wird, noethersch} {} {.}
+Für einen noetherschen Raum gilt: jede nichtleere Teilmenge von offenen Mengen
+\zusatzklammer {abgeschlossenen Mengen} {} {}
+besitzt ein maximales
+\zusatzklammer {minimales} {} {}
+Element. Dies kann man vorteilhaft als Beweisprinzip einsetzen
+\zusatzklammer {\stichwort {Beweis durch noethersche Induktion} {}} {} {:}
+Man möchte zeigen, dass eine gewisse Eigenschaft $E$ für alle abgeschlossenen Teilmengen gilt, und man betrachtet die Menge derjenigen abgeschlossenen Teilmengen, die $E$ nicht erfüllen. Man möchte zeigen, dass die Menge leer ist, und nimmt an, dass sie nicht leer ist. Dann besitzt sie auch ein minimales Element, und dies muss man dann zum Widerspruch führen. Die Gültigkeit dieses Beweisprinzips beruht darauf, dass man in einer nicht-leeren Menge ohne einem minimalen Element eine unendlich absteigende Kette konstruieren kann. Ein typisches Beispiel für dieses Beweisprinzip liefert der Beweis der folgenden Aussage.
+
+
+
+
+
+
+\inputfaktbeweis
+{Affin-algebraische Teilmengen/Zerlegung in irreduzible Komponenten/Fakt}
+{Satz}
+{}
+{
+
+
+
+\faktsituation {}
+\faktvoraussetzung {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {affin-algebraische Menge}{}{.}}
+\faktfolgerung {Dann gibt es eine eindeutige Zerlegung
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ V_1 \cup \ldots \cup V_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+\definitionsverweis {irreduziblen Mengen}{}{}
+$V_i$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \not\subseteq }{ V_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für
+
+\mavergleichskette
+{\vergleichskette
+{i
+}
+{ \neq }{j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+}
+{
+
+
+
+
+\teilbeweis {}{}{}
+{Die Existenz beweisen wir durch noethersche Induktion. Angenommen, nicht jede affin-algebraische Menge habe eine solche Zerlegung. Dann gibt es auch eine minimale Teilmenge, sagen wir $V$, ohne eine solche Zerlegung. $V$ kann nicht irreduzibel sein, sondern es gibt eine nicht-triviale Darstellung
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{ V_1 \cup V_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Da $V_1$ und $V_2$ echte Teilmengen von $V$ sind, gibt es für diese beiden jeweils endliche Darstellungen als Vereinigung von irreduziblen Teilmengen. Diese beiden vereinigen sich zu einer endlichen Darstellung von $V$, was ein Widerspruch ist.}
+{}
+\teilbeweis {Zur Eindeutigkeit.\leerzeichen{}}{}{}
+{Es seien
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { V_1 \cup \ldots \cup V_k
+}
+{ =} { W_1 \cup \ldots \cup W_m
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zwei Zerlegungen in irreduzible Teilmengen
+\zusatzklammer {jeweils ohne Inklusionsbeziehung} {} {.}
+Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V_1
+}
+{ =} { V_1 \cap V
+}
+{ =} { V_1 \cap (W_1 \cup \ldots \cup W_m)
+}
+{ =} { (V_1 \cap W_1 ) \cup \ldots \cup (V_1 \cap W_m)
+}
+{ } {
+}
+}
+{}{}{.}
+Da $V_1$ irreduzibel ist, muss
+
+\mavergleichskette
+{\vergleichskette
+{ V_1
+}
+{ \subseteq }{ W_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für ein $j$ sein. Umgekehrt ist mit dem gleichen Argument
+
+\mavergleichskette
+{\vergleichskette
+{ W_j
+}
+{ \subseteq }{ V_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für ein $i$, woraus
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V_1
+}
+{ = }{ W_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+folgt. Ebenso findet sich $V_2$ etc. in der Zerlegung rechts wieder, sodass die Zerlegung eindeutig ist.}
+{}
+
+
+
+
+}
+
+
+Die im vorstehenden Satz auftretenden
+\mathl{V_1 , \ldots , V_k}{} heißen die
+\definitionsverweis {irreduziblen Komponenten}{}{}
+von $V$.
+
+
+
+
+
+
+  \zwischenueberschrift{Moduln}
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ (M,+,0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine \stichwort {additiv} {} geschriebene
+\definitionsverweis {kommutative Gruppe}{}{.}
+Man nennt $M$ einen
+\definitionswortpraemath {R}{ Modul }{,}
+wenn eine Operation
+\maabbeledisp {} {R \times M } { M
+} {(r,v)} { rv = r\cdot v
+} {,}
+\zusatzklammer {\stichwort {Skalarmultiplikation} {} genannt} {} {}
+festgelegt ist, die folgende Axiome erfüllt
+\zusatzklammer {dabei seien
+
+\mavergleichskettek
+{\vergleichskettek
+{ r,s
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettek
+{\vergleichskettek
+{ u,v
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beliebig} {} {:}
+\aufzaehlungvier{
+\mavergleichskette
+{\vergleichskette
+{ r(su)
+}
+{ = }{ (rs) u
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskette
+{\vergleichskette
+{ r(u+v)
+}
+{ = }{ (ru) + (rv)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskette
+{\vergleichskette
+{ (r+s)u
+}
+{ = }{ (ru)+ (su)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskette
+{\vergleichskette
+{ 1 u
+}
+{ = }{  u
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+
+
+
+}
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und $M$ ein
+$R$-\definitionsverweis {Modul}{}{.}
+Eine Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt
+\definitionswortpraemath {R}{ Untermodul }{,}
+wenn sie eine
+\definitionsverweis {Untergruppe}{}{}
+von
+\mathl{(M,0,+)}{} ist und wenn für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auch
+
+\mavergleichskette
+{\vergleichskette
+{ ru
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+
+
+
+
+}
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und $M$ ein
+$R$-\definitionsverweis {Modul}{}{.}
+Eine Familie
+
+\mathbed {v_i \in M} {}
+ {i \in I} {}
+ {} {} {} {,}
+heißt \definitionswort {Erzeugendensystem}{} für $M$, wenn es für jedes Element
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{v
+}
+{ =} {  \sum_{i \in J} r_i v_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt, wobei
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ \subseteq }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+endlich ist und
+
+\mavergleichskette
+{\vergleichskette
+{ r_i
+}
+{ \in }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+}
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und $M$ ein
+$R$-\definitionsverweis {Modul}{}{.}
+Der Modul $M$ heißt \definitionswort {endlich erzeugt}{} oder \definitionswort {endlich}{,} wenn es ein
+\definitionsverweis {endliches}{}{}
+\definitionsverweis {Erzeugendensystem}{}{}
+
+\mathbed {v_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+für ihn gibt
+\zusatzklammer {also mit einer endlichen Indexmenge} {} {.}
+
+
+
+
+}
+
+
+Ein kommutativer Ring $R$ selbst ist in natürlicher Weise ein $R$-Modul, wenn man die Ringmultiplikation als Skalarmultiplikation interpretiert. Die Ideale sind dann genau die $R$-Untermoduln von $R$. Die Begriffe Ideal-Erzeugenden\-system und Modul-Erzeugendensystem stimmen für Ideale überein. Ein Vektorraum ist einfach ein Modul über einem Körper.

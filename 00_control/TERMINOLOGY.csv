@@ -2,7 +2,7 @@ term_id,source_language,source_term,target_language,preferred_target,rejected_or
 AGT-0001,de,algebraische Kurve,id-ID,kurva aljabar,kurva algebraik,whole_lane,admitted,Established Indonesian mathematical usage and direct transparent rendering
 AGT-0002,de,ebene algebraische Kurve,id-ID,kurva aljabar bidang,kurva aljabar datar,Brenner,admitted,Uses bidang consistently for the affine plane
 AGT-0003,de,affin,id-ID,afin,affine,whole_lane,admitted,Standard Indonesian spelling
-AGT-0004,de,Grundkörper,id-ID,medan dasar,lapangan dasar,whole_lane,admitted,Uses the established field=medan convention
+AGT-0004,de,Grundkörper,id-ID,lapangan dasar,medan dasar,whole_lane,admitted,Representative Indonesian algebraic-geometry and commutative-algebra papers use lapangan consistently and do not use medan
 AGT-0005,de,Polynomring,id-ID,gelanggang polinomial,cincin polinomial,whole_lane,admitted,Uses the established ring=gelanggang convention
 AGT-0006,de,Nullstellengebilde,id-ID,lokus nol,himpunan akar,Brenner,admitted,Geometric zero locus rather than merely a list of scalar roots
 AGT-0007,de,Lösungsmenge,id-ID,himpunan solusi,,whole_lane,admitted,Direct mathematical usage
@@ -25,10 +25,10 @@ AGT-0023,de,reduzierter Ring,id-ID,gelanggang tereduksi,cincin tereduksi,Brenner
 AGT-0024,de,Zariski-Abschluss,id-ID,penutupan Zariski,,Brenner,admitted,Standard topological term with the eponym retained
 AGT-0025,de,irreduzible Komponente,id-ID,komponen tak tereduksi,komponen ireduksibel,Brenner,admitted,Composes with the admitted rendering of irreduzibel
 AGT-0026,de,Primideal,id-ID,ideal prima,,Brenner,admitted,Established commutative-algebra usage
-AGT-0027,de,Quotientenkörper,id-ID,medan pecahan,medan hasil bagi,Brenner,admitted,Distinguishes a field of fractions from a quotient ring
-AGT-0028,de,rationaler Funktionenkörper,id-ID,medan fungsi rasional,,Brenner,admitted,Established algebraic-geometry usage
+AGT-0027,de,Quotientenkörper,id-ID,lapangan pecahan,medan pecahan; lapangan hasil bagi,Brenner,admitted,Distinguishes a field of fractions from a quotient ring while following evidence-backed field equals lapangan convention
+AGT-0028,de,rationaler Funktionenkörper,id-ID,lapangan fungsi rasional,medan fungsi rasional,Brenner,admitted,Established algebraic-geometry usage with evidence-backed field equals lapangan convention
 AGT-0029,de,Integritätsbereich,id-ID,domain integral,,Brenner,admitted,Established abstract-algebra usage
-AGT-0030,de,Restklassenring,id-ID,gelanggang hasil bagi,gelanggang residu,Brenner,admitted,Uses the established ring=gelanggang convention
+AGT-0030,de,Restklassenring,id-ID,gelanggang faktor,gelanggang hasil bagi; gelanggang residu,Brenner,admitted,Directly attested in the representative Indonesian commutative-algebra paper for quotient rings
 AGT-0031,de,faktorieller Integritätsbereich,id-ID,domain faktorisasi tunggal,domain faktorial,Brenner,admitted,Expands the UFD property transparently
 AGT-0032,de,Hauptidealbereich,id-ID,domain ideal utama,,Brenner,admitted,Established rendering of principal ideal domain
 AGT-0033,de,abgeschlossene Abbildung,id-ID,pemetaan tertutup,,Brenner,admitted,Standard topological terminology
@@ -41,3 +41,36 @@ AGT-0039,de,Noethersche Normalisierung,id-ID,normalisasi Noether,,Brenner,admitt
 AGT-0040,de,polynomiale Abbildung,id-ID,pemetaan polinomial,,Brenner,admitted,Consistent with the established map equals pemetaan convention
 AGT-0041,de,affin-lineare Äquivalenz,id-ID,ekuivalensi afin-linear,,Brenner,admitted,Preserves the affine-linear qualifier used in the source definition
 AGT-0042,de,ganze Ringerweiterung,id-ID,perluasan gelanggang integral,,Brenner,admitted,Names the integral ring extension in the Noether-normalization interpretation
+AGT-0043,de,polynomiale Parametrisierung,id-ID,parametrisasi polinomial,parameterisasi polinomial,Brenner,admitted,Matches the established parametrisasi usage and distinguishes the component class
+AGT-0044,de,rationale Parametrisierung,id-ID,parametrisasi rasional,parameterisasi rasional,Brenner,admitted,Standard algebraic-geometry term paired with rational functions
+AGT-0045,de,rationale Kurve,id-ID,kurva rasional,,Brenner,admitted,Standard name for an irreducible curve admitting a rational parametrization
+AGT-0046,de,Homogenisierung,id-ID,homogenisasi,,Brenner,admitted,Established polynomial operation and counterpart of dehomogenisasi
+AGT-0047,de,Dehomogenisierung,id-ID,dehomogenisasi,,Brenner,admitted,Established inverse-on-homogenizations operation given by setting the added variable to one
+AGT-0048,de,differenzierbare Kurve,id-ID,kurva terdiferensial,kurva dapat didiferensialkan,Brenner,admitted,Concise standard rendering for the analysis-side comparison
+AGT-0049,de,Definitionsbereich,id-ID,domain definisi,daerah definisi,Brenner,admitted,Uses domain consistently for the locus where rational components are defined
+AGT-0050,de,Satz über implizite Funktionen,id-ID,teorema fungsi implisit,,Brenner,admitted,Standard analysis terminology retained in the local-parametrization note
+AGT-0051,de,Kegelschnitt,id-ID,irisan kerucut,konik,Brenner,admitted,Preserves the geometric conic-section meaning and remains consistent across Unit 7
+AGT-0052,de,Quadrik,id-ID,kuadrik,bentuk kuadratik,Brenner,admitted,Names the algebraic locus and keeps it distinct from a quadratic form
+AGT-0053,de,quadratische Form,id-ID,bentuk kuadratik,kuadrik,Brenner,admitted,Names the polynomial form and keeps it distinct from its quadric zero locus
+AGT-0054,de,algebraischer Abschluss,id-ID,ketertutupan aljabar,penutupan aljabar,whole_lane,provisional,Directly attested in the representative Indonesian algebraic-curve paper; admit when the noun first appears
+AGT-0055,de,kurze exakte Sequenz,id-ID,barisan eksak pendek,urutan eksak pendek,Brenner,admitted,Uses barisan consistently for exact sequences and preserves the short qualifier
+AGT-0056,de,Nichtnullteiler,id-ID,bukan pembagi nol,pembagi bukan nol,Brenner,admitted,Distinguishes a non-zero-divisor from a merely nonzero element
+AGT-0057,de,Nenneraufnahme,id-ID,pelokalan,lokalisasi,Brenner,provisional,Transparent Indonesian rendering used consistently at the first localization passage
+AGT-0058,de,Punktideal,id-ID,ideal titik,,Brenner,admitted,Direct geometric rendering for the maximal ideal associated with a point
+AGT-0059,de,artinsch,id-ID,Artin,Artinian,Brenner,admitted,Uses the mathematician-derived Indonesian adjective without an English suffix
+AGT-0060,de,algebraisch abhängig,id-ID,bergantung secara aljabar,,Brenner,admitted,Preserves the dependence relation and its algebraic qualifier
+AGT-0061,de,algebraisch unabhängig,id-ID,bebas secara aljabar,,Brenner,admitted,Paired antonym of bergantung secara aljabar
+AGT-0062,de,Hilbertscher Nullstellensatz,id-ID,Nullstellensatz Hilbert,teorema nol Hilbert,Brenner,admitted,Matches the established wording already used in Units 2 3 and 10
+AGT-0063,de,Koordinatenring,id-ID,gelanggang koordinat,,Brenner,admitted,Established lane terminology for the affine coordinate ring
+AGT-0064,de,Einheitsideal,id-ID,ideal satuan,,Brenner,admitted,Names the ideal generated by the multiplicative identity
+AGT-0065,de,Restekörper,id-ID,lapangan residu,lapangan sisa,Brenner,admitted,Distinguishes the residue field from a general quotient ring
+AGT-0066,de,Erweiterungsideal,id-ID,ideal perluasan,,Brenner,admitted,Names the ideal generated after scalar or ring extension
+AGT-0067,de,hauptoffene Menge,id-ID,himpunan terbuka utama,terbuka prinsipal,Brenner,admitted,Pairs the principal-open construction D(f) with established himpunan terminology
+AGT-0068,de,K-Spektrum,id-ID,spektrum-K,spektrum K,Brenner,admitted,Preserves the base-field qualifier in the source construction
+AGT-0069,de,Spektrumsabbildung,id-ID,pemetaan spektrum,,Brenner,admitted,Uses the established map equals pemetaan convention
+AGT-0070,de,abgeschlossene Einbettung,id-ID,pembenaman tertutup,penyisipan tertutup,Brenner,admitted,Standard geometric rendering of a closed embedding
+AGT-0071,de,Einsetzungshomomorphismus,id-ID,homomorfisme substitusi,homomorfisme evaluasi,Brenner,admitted,Names the substitution map while retaining its homomorphism structure
+AGT-0072,de,Tensorprodukt,id-ID,hasil kali tensor,produk tensor,Brenner,admitted,Uses the established Indonesian hasil kali construction
+AGT-0073,de,Produkttopologie,id-ID,topologi produk,,Brenner,admitted,Standard direct rendering of the product topology
+AGT-0074,de,Identitätssatz,id-ID,teorema identitas,,Brenner,admitted,Standard name for the identity theorem in the comparison argument
+AGT-0075,de,Funktor,id-ID,funktor,,whole_lane,admitted,Standard categorical term in Indonesian mathematical usage

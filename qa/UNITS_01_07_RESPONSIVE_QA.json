@@ -1,0 +1,124 @@
+{
+  "schema": "ag-bridge-responsive-html-qa-v3",
+  "audited_utc": "2026-08-22T20:49:56.3795365Z",
+  "status": "PASS",
+  "through_unit": 7,
+  "browser_surface": "Codex In-app Browser",
+  "artifact": {
+    "path": "build/reader-id/index.html",
+    "bytes": 7733142,
+    "sha256": "e960f925d718d897f3308deae2404679f2ea9baf95e70b4dc8387b02b242dcc2",
+    "title": "Kurva Aljabar - Unit 1-7",
+    "language": "id-ID",
+    "headings_level_1": 31,
+    "mathml_nodes": 2580,
+    "images": 53,
+    "broken_images": 0,
+    "browser_console_warnings_or_errors": 0
+  },
+  "responsive_source": {
+    "path": "source/id-ID/reader.css",
+    "bytes": 1671,
+    "sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa",
+    "display_math_overflow": "local horizontal auto-scroll",
+    "long_link_wrapping": "anywhere"
+  },
+  "desktop": {
+    "viewport_css_pixels": {
+      "width": 1440,
+      "height": 1000
+    },
+    "document_client_width": 1425,
+    "document_scroll_width": 1425,
+    "body_left": 100.44444274902344,
+    "body_right": 1324.4444427490234,
+    "body_width": 1224,
+    "body_margin_left": 100.444,
+    "body_margin_right": 100.556,
+    "body_width_fraction_of_document_client_width": 0.8589,
+    "page_horizontal_overflow": false,
+    "centered_reader": true,
+    "rendered_elements_outside_viewport": 0,
+    "visual_result": "PASS"
+  },
+  "mobile": {
+    "viewport_css_pixels": {
+      "width": 390,
+      "height": 844
+    },
+    "document_client_width": 375,
+    "document_scroll_width": 375,
+    "body_left": 0,
+    "body_right": 375.1111145019531,
+    "body_width": 375.1111145019531,
+    "body_padding_left": 16,
+    "body_padding_right": 16,
+    "page_horizontal_overflow": false,
+    "images_over_content": 0,
+    "largest_rendered_image_width": 263.1111145019531,
+    "display_math_blocks": 696,
+    "display_math_blocks_wider_than_content": 57,
+    "display_math_blocks_with_local_scroll": 57,
+    "largest_display_math_client_width": 343,
+    "largest_display_math_scroll_width": 645,
+    "descendant_nodes_outside_viewport": 643,
+    "descendant_nodes_contained_by_local_math_scroller": 643,
+    "uncontained_nodes_outside_viewport": 0,
+    "unit_07_anchor_closure": {
+      "lecture": "br-ak-2025-2026-l07",
+      "worksheet": "br-ak-2025-2026-w07",
+      "last_exercise": "br-ak-2025-2026-w07-ex-33",
+      "last_public_solution": "br-ak-2025-2026-w07-sol-22",
+      "all_present": true
+    },
+    "unit_07_visual_spot_check": {
+      "anchor": "br-ak-2025-2026-l07",
+      "heading_width": 343.1111145019531,
+      "heading_height": 76.79166412353516,
+      "heading_scroll_width": 343,
+      "heading_client_width": 343,
+      "heading_wrapped_without_clipping": true,
+      "first_figure_width": 263.1041564941406,
+      "document_scroll_width": 375,
+      "visual_result": "PASS"
+    },
+    "long_formula_spot_check": {
+      "formula_client_width": 303,
+      "formula_scroll_width": 645,
+      "overflow_x": "auto",
+      "formula_remains_accessible": true,
+      "visual_result": "PASS"
+    }
+  },
+  "screenshots": [
+    {
+      "path": "qa/browser-units-01-07/desktop-1440x1000.png",
+      "bytes": 87517,
+      "sha256": "b2084c59d01096a3535e4fa66453bd49663ddc246c8b9c0d634ebb4028bf341a"
+    },
+    {
+      "path": "qa/browser-units-01-07/mobile-390x844-top.png",
+      "bytes": 43542,
+      "sha256": "55d3eb7b9a4c185b574dd89be331764924de631ef41b6c693e881b006df34a00"
+    },
+    {
+      "path": "qa/browser-units-01-07/mobile-390x844-unit-07.png",
+      "bytes": 46214,
+      "sha256": "8b0b3eda84ba55fc1ca5838996d343762a591c2949d938559bd9300a991650dd"
+    }
+  ],
+  "cumulative_reflow": {
+    "original_finding": "Long MathML widened the mobile document and created a page-wide horizontal scrollbar before Unit 4.",
+    "retained_action": "Constrain block MathML to content width and provide local horizontal scrolling; permit long links to wrap.",
+    "unit_07_post_build_document_scroll_width": 375,
+    "remaining_page_overflow": 0
+  },
+  "bound_receipts": {
+    "build_receipt_path": "build/reader-id/BUILD_RECEIPT.json",
+    "build_receipt_sha256": "ec37c31c30c354e3ebb2c5093ae6b5a7d4a89989cf2850574cffaa89db0b1156",
+    "machine_qa_path": "qa/UNITS_01_07_MACHINE_QA.json",
+    "machine_qa_sha256": "f0b243aa83440fd295742947bbfec75085581bb183857815635f2a5be7c21ad6",
+    "visual_qa_path": "qa/UNITS_01_07_VISUAL_QA.json",
+    "visual_qa_sha256": "7f9915130e4ec89a01f49ff337281d7545e082b668325c5b60cb9c9aa05a9757"
+  }
+}

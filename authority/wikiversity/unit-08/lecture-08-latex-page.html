@@ -1,0 +1,886 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{8}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Mechanisch definierte algebraische Kurven}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesunggif {Lemniscate_Building} {gif} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Lemniscate Building.gif } {} {Zorgit} {Commons} {CC-BY-SA 3.0} {}<br /> <br />
+</p><p><br />
+Es sei $S$ eine feste Stange
+\zusatzklammer {man denke an ein mechanisches Maschinenteil} {} {}
+mit zwei fixierten Punkten
+<br />\mavergleichskette<br />{\vergleichskette<br />{  P_1,P_2 
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+\zusatzklammer {man denke an Gelenke} {} {.}
+Diese Stange kann sich in der Ebene (dem $\R^2$) bewegen, wobei die beiden Punkte sich jeweils in zwei bestimmten Bahnen
+\mathkor {} {B_1} {und} {B_2} {}
+\zusatzklammer {man denke an Schienen} {} {}
+befinden müssen. Die Bahnen können dabei recht einfach gegeben sein, etwa durch Geraden oder durch Kreise. Bei einer Dampfmaschine hat man ein drehbares Rad und eine gerade Schiene, die durch eine Stange gekoppelt sind. Wie beschreibt man den zugehörigen Bewegungsprozess? Was sind die erlaubten \stichwort {Konfigurationen des Systems} {?} Da eine solche Konfiguration durch die Lage der beiden Punkte bestimmt ist, und diese jeweils durch zwei Koordinaten der Ebene gegeben sind, handelt es sich insgesamt um eine vierdimensionale Situation.
+</p><p>Wenn man einen Punkt $P$ der Stange fixiert
+\zusatzklammer {farblich markiert} {} {,}
+wie sieht die \stichwort {Bewegungsbahn} {}
+\zusatzklammer {oder \stichwort {Trajektorie} {}} {} {}
+dieses Punktes in der Ebene aus?
+</p><p>Für die Extremfälle
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ = }{ P_1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ = }{ P_2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+sind die Bewegungsbahnen
+\zusatzklammer {in der Regel echte} {} {}
+Teilmengen von $B_1$ und $B_2$. Für Punkte dazwischen erwartet man eine \stichwort {stetige Deformation} {} der einen Bahn in die andere.
+</p><p>\inputsituation<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {B_1} {und} {B_2} {}
+zwei ebene algebraische Kurven, die durch die Gleichungen
+\mathkor {} {F_1=0} {und} {F_2=0} {}
+beschrieben werden,
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F_1,F_2 
+}<br />{ \in }{ K[X,Y] 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.} 
+Es sei $S$ eine \anfuehrung{bewegliche Gerade}{}
+\zusatzklammer {eine Stange} {} {}
+mit zwei Punkten
+<br />\mathbed {P_1,P_2 \in S} {} <br /> {P_1 \neq P_2} {} <br /> {} {} {} {,}
+die voneinander den Abstand $d$ haben. Das \stichwort {mechanische System} {,} das durch alle Lagen von $S$ in der Ebene gegeben ist, bei denen gleichzeitig
+\mathkor {} {P_1 \in B_1} {und} {P_2 \in B_2} {}
+ist, wird folgendermaßen beschrieben.
+</p><p>Eine Lage der Stange in der Ebene ist eindeutig bestimmt, wenn für die beiden Punkte die Lage festgelegt ist
+\zusatzklammer {dies berücksichtigt noch nicht die Abstandsbedingung} {} {,}
+also durch vier Variablen
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (P_1,P_2)
+}<br />{ = }{ (x_1,y_1,x_2,y_2) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Eine \stichwort {erlaubte Konfiguration} {} muss dann die folgenden drei algebraischen Bedingungen erfüllen.
+\aufzaehlungdrei{ <br />\mavergleichskette<br />{\vergleichskette<br />{ F_1(x_1,y_1)
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ F_2(x_2,y_2)
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{(x_2-x_1)^2 + (y_2-y_1)^2 
+}<br />{ = }{ d^2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}\zusatzklammer {Abstandsbedingung} {} {}
+}
+Es handelt sich somit um drei algebraische Gleichungen in vier Variablen, als Lösungsmenge erwartet man also eine Kurve im <br />\mathl{{ {\mathbb A}_{ K }^{  4   } }}{.} Ein Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+wird durch den Abstand zu $P_1$ bzw. $P_2$ beschrieben. Da sich diese Punkte im mechanischen System bewegen, setzen wir die Koordinaten für den \stichwort {mitbewegten Punkt} {} $P$ als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{P 
+}<br />{ =} { P_1+u(P_2-P_1)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+an
+\zusatzklammer {der Abstand von $P$ zu $P_1$ ist also
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ \Vert { u (P_2-P_1 )} \Vert 
+}<br />{ = }{ \betrag { ud } 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}} {} {}
+und schreiben seine Koordinaten als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (x,y) 
+}<br />{ =} { (x_1,y_1)+ u(x_2-x_1,y_2-y_1)
+}<br />{ =} { (ux_2+(1-u)x_1, uy_2+(1-u)y_1)
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+Man kann dann das gesamte mechanische System 
+\zusatzklammer {durch eine lineare Transformation} {} {}
+in den vier Variablen <br />\mathl{x_1,y_1,x,y}{} ausdrücken, indem man  bei 
+\zusatzklammer {<br />\mavergleichskettek<br />{\vergleichskettek<br />{ u
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {}
+<br />\mathdisp {x_2 = \frac{x-(1-u)x_1 }{u} \text{ und } y_2 = \frac{y-(1-u)y_1 }{u}} {  }<br />
+in den Gleichungen ersetzt. In den neuen Variablen erhält man die drei Gleichungen
+\aufzaehlungdrei{ <br />\mavergleichskette<br />{\vergleichskette<br />{ F_1(x_1,y_1)
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ F_2 \left(  \frac{x-(1-u)x_1 }{u}  , \frac{y-(1-u)y_1 }{u}  \right) 
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+}{ <br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (x-x_1)^2 +(y-y_1)^2
+}<br />{ =} { u^2d^2
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+}
+Die zu $P$ gehörende Trajektorie kann man grundsätzlich dadurch erhalten, dass man aus diesem Gleichungssystem die Variablen $x_1$ und $y_1$ \anfuehrung{eliminiert}{}, was eine algebraische Gleichung für $x$ und $y$ ergibt. Dies ist allerdings leichter gesagt als getan, häufig ist es sinnvoller, durch geschickte Manipulationen das Gleichungssystem zu vereinfachen.
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br /><br /><br />\inputbemerkung<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Manchmal interessiert man sich auch für die Situation, wo sich mit der Stange eine ganze Ebene mitbewegt, und für die Trajektorien von solchen Punkten. Dies ist etwa der Fall, wenn auf der Stange weitere Maschinenteile montiert sind. In diesem Fall kann man jeden Punkt der Ebene bezüglich
+\mathkor {} {P_1} {und} {P_2} {}
+als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (x,y) 
+}<br />{ =} { (x_1,y_1) + u(x_2-x_1,y_2-y_1) + v(y_2-y_1, -x_2+x_1)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Es wird also der Punkt $P_1$ als Ursprung der bewegten Ebene, die Verbindungsgerade zu $P_2$ als erste Koordinatenachse und die dazu senkrechte Achse als zweite Koordinatenachse genommen.
+</p>
+</div>
+<p>}
+</p><p>Das gesamte mechanische (Stangen-)System wird also durch vier Variablen mit drei Gleichungen beschrieben. Die sichtbare Wirkungsweise, nämlich der Bewegungsablauf eines fixierten Punktes $P$ auf $S$, liefert aber eine Trajektorie in der affinen Ebene. 
+</p><p>Wir betrachten einige Beispiele.
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Zwei Geraden als Bahnen}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {L_1} {und} {L_2} {}
+zwei Geraden in der reellen Ebene $\R^2$ und sei $S$ eine bewegliche Gerade (eine Stange) mit zwei Punkten $P_1,P_2$, die voneinander den Abstand $d$ haben. Erlaubte Konfigurationen des Systems sind diejenigen Lagen von $S$, für die gleichzeitig
+\mathkor {} {P_1 \in L_1} {und} {P_2 \in L_2} {} 
+gelten. Die Geraden seien durch
+<br />\mavergleichskette<br />{\vergleichskette<br />{ L_1
+}<br />{ = }{ \left\{  (x,y)   \mid   a_1x+b_1y = c_1         \right\}  
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ L_2
+}<br />{ = }{ \left\{  (x,y)   \mid   a_2x+b_2y = c_2         \right\}  
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+festgelegt.
+</p><p>Die erlaubten Konfigurationen werden dann gemäß
+der <a href="/wiki/Mechanische_ebene_Kurven/Stangenkoppelung/Bemerkung" title="Mechanische ebene Kurven/Stangenkoppelung/Bemerkung">Situation 8.1</a>
+durch die drei Bedingungen festgelegt:
+\aufzaehlungdrei{ <br />\mavergleichskette<br />{\vergleichskette<br />{ a_1x_1+b_1y_1
+}<br />{ = }{ c_1
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+}{ <br />\mavergleichskette<br />{\vergleichskette<br />{ a_2x_2 +b_2y_2
+}<br />{ = }{ c_2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+}{<br />\mavergleichskette<br />{\vergleichskette<br />{ \left(  x_2-x_1  \right)^2 + \left(  y_2-y_1  \right)^2
+}<br />{ = }{ d^2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+}
+Die Lösungsmengen der beiden linearen Gleichungen sind
+\zusatzklammer {einzeln betrachtet} {} {}
+dreidimensionale Unterräume. Die Lösungsmenge der dritten Gleichung kann man als das Produkt eines Kreises
+\zusatzklammer {in den Variablen \mathlk{x_2-x_1}{} und \mathlk{y_2-y_1}{}} {} {}
+mit einer affinen Ebene auffassen. Das ist eine Art von Zylinder, wobei allerdings die Fasern zweidimensional sind. Wie kann man die gemeinsame Nullstellenmenge beschreiben, und wie sieht die Trajektorie des mechanischen Systems aus, die ein Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+erzeugt?
+</p><p>Durch eine Variablentransformation kann man annehmen, dass die erste Gerade die $x$-Achse ist, also durch die Gleichung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ y
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+definiert ist, und die andere durch
+<br />\mavergleichskette<br />{\vergleichskette<br />{ ax+by
+}<br />{ = }{ c
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Das liefert für das System die Bedingung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ y_1
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+und das bedeutet, dass man die Variable $y_1$ eliminieren kann. Man gelangt dann zu einem System mit den drei Variablen <br />\mathl{x_1,x_2,y_2}{} und den zwei Bedingungen
+\aufzaehlungzwei { <br />\mavergleichskette<br />{\vergleichskette<br />{ (x_2-x_1)^2 +y_2^2
+}<br />{ = }{ d^2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+} { <br />\mavergleichskette<br />{\vergleichskette<br />{ ax_2+by_2
+}<br />{ = }{ c
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+}
+</p><p><br />
+</p><p>Parallele Geraden
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Parallelle_lijnen} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Parallelle lijnen.png } {} {Ellywa} {nl.wikipedia.org} {GFDL} {}<br /> <br />
+</p><p><br />
+Wenn die zweite Gerade parallel zur ersten ist, so ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und man kann die zweite Gleichung nach $y_2$ auflösen und erhält
+<br />\mavergleichskette<br />{\vergleichskette<br />{ y_2
+}<br />{ = }{ \frac{c}{b}
+}<br />{ = }{ e
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+\zusatzklammer {<br />\mavergleichskettek<br />{\vergleichskettek<br />{ b
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,}
+sonst liegt keine Gerade vor} {} {.}
+Die Zahl $e$ ist der Abstand der parallelen Geraden. Man kann nun auch $y_2$ eliminieren, und übrig bleibt die einzige Gleichung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (x_2-x_1)^2 +e^2
+}<br />{ = }{ d^2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (x_2-x_1)^2
+}<br />{ =} { d^2-e^2
+}<br />{ =} { (d-e)(d+e)
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+</p><p>Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ e
+}<br />{ &gt; }{ d
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+gibt es hierfür keine Lösung
+\zusatzklammer {der konstante Abstand der parallelen Geraden ist größer als der Koppelungsabstand auf der Stange} {} {.}
+</p><p>Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ e
+}<br />{ = }{ d
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ergibt sich die Bedingung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_1
+}<br />{ = }{ x_2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Dies entspricht der Situation, wo der Parallelabstand der Geraden gleich dem Koppelungsabstand ist. Dann sind die einzigen erlaubten Konfigurationen diejenigen, wo die Stange senkrecht zu den beiden Geraden ist. Die Lösungsmenge ist also eine Gerade. Für jeden Punkt auf der Stange ist die Trajektorie einfach eine weitere parallele Gerade.
+</p><p>Es sei nun
+<br />\mavergleichskette<br />{\vergleichskette<br />{ e
+}<br />{ &lt; }{ d 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Dann ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ x_2-x_1
+}<br />{ =} { \pm \sqrt{(d-e)(d+e)} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Die Lösungsmenge besteht aus zwei disjunkten Geraden. Dies entspricht den beiden unterschiedlichen Einhängungen, die nicht ineinander überführt werden können. Das mechanische System besteht also aus zwei Zusammenhangskomponenten. Für einen Punkt auf der Stange ergibt sich aber bei beiden Einhängungen die gleiche Trajektorie, nämlich eine parallele Gerade, die in gewissem Sinne doppelt durchlaufen wird. Hier besteht also die Lösungsmenge des vollen mechanischen Systems aus zwei
+\zusatzklammer {parallelen} {} {}
+affinen Geraden im vierdimensionalen affinen Raum, deren Trajektorien zu einem fixierten Punkt aber nur eine Gerade ist.
+</p><p><br />
+</p><p>Nicht parallele Geraden
+</p><p>Wir betrachten nun den Fall, wo die beiden Geraden nicht parallel sind. Dann treffen sie sich und die Lösungsmenge kann nicht leer sein. Wir können durch eine weitere lineare Transformation annehmen, dass der Schnittpunkt gleich dem Nullpunkt <br />\mathl{(0,0)}{} ist. Die zweite Gleichung wird dann durch 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_2
+}<br />{ = }{ ey_2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+beschrieben. Damit kann man $x_2$ eliminieren und erhält in den beiden Variablen <br />\mathl{x_1,y_2}{} die einzige Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (ey_2 - x_1)^2 + y_2^2
+}<br />{ =} { d^2
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Der Konfigurationsraum des mechanischen Systems spielt sich also in einer
+\zusatzklammer {durch
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ y_1
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ x_2
+}<br />{ = }{ ey_2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+definierten} {} {}
+Ebene ab und wird durch eine Quadrik beschrieben. Betrachtet man <br />\mathl{ey_2-x_1}{} als eine neue Variable, so sieht man, dass es sich um eine Ellipse 
+\zusatzklammer {in den Koordinaten \mathlk{x_1, y_2}{;} in den Koordinaten \mathlk{ey_2-x_1, y_2}{} ist es ein Kreis} {} {}
+handelt.
+<br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Ellipse_tri} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Ellipse tri.png } {} {Matanya (usurped)} {he.wikipedia.org} {GFDL} {}<br /> <br />
+</p><p><br />
+Wie sehen die Trajektorien aus? Es sei $P$ derjenige Punkt auf der Stange, der durch <br />\mathl{P_1+ t(P_2-P_1)}{} gegeben ist. Nach
+der <a href="/wiki/Mechanische_ebene_Kurven/Stangenkoppelung/Bemerkung" title="Mechanische ebene Kurven/Stangenkoppelung/Bemerkung">Situationsbeschreibung</a>
+hat der Punkt $P$ die Koordinaten
+<br />\mathdisp {( (1-t) x_1+ t ey_2,t y_2 )} { , }<br />
+wobei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (ey_2 - x_1)^2 + y_2^2
+}<br />{ = }{ d^2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+sein muss. In den Extremfällen
+\mathkor {} {t = 0} {und} {t = 1} {}
+ergeben sich <br />\mathl{(x_1,0)}{}
+\zusatzklammer {$x_1$ beliebig} {} {}
+bzw. <br />\mathl{( ey_2, y_2)}{}
+\zusatzklammer {$y_2$ beliebig} {} {}
+als Lösungsmenge. Hierbei muss nach wie vor
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (ey_2 - x_1)^2 + y_2^2
+}<br />{ = }{ d^2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+erfüllt sein, d.h. es muss zu gegebenem $x_1$
+\zusatzklammer {bzw. $y_2$} {} {}
+eine Lösung der Gleichung in der anderen Variablen geben. Die gibt es, wenn $x_1$ 
+\zusatzklammer {bzw. $y_2$} {} {}
+hinreichend klein ist. Insgesamt ergeben sich also gewisse Strecken auf den Ausgangsgeraden. Die Punkte $P_1$ und $P_2$ müssen ja auf ihren Bahnen bleiben, und können sich von der anderen Geraden nicht beliebig weit entfernen.
+</p><p>Es sei also
+<br />\mavergleichskette<br />{\vergleichskette<br />{ t
+}<br />{ \neq }{ 0, 1 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Aus dem Ansatz
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (x,y)
+}<br />{ =} { ( (1-t)x_1+ tey_2,ty_2 )
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+folgt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ y_2
+}<br />{ = }{ \frac{y}{ t } 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_1
+}<br />{ = }{ \frac{ x- t ey_2 }{1-t}
+}<br />{ = }{ \frac{x- ey}{1-t} 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+\zusatzklammer {das Urbild ist also eindeutig festgelegt} {} {.}
+Die Gleichung wird dann zu
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \left(  \frac{ey}{t}- \frac{x - ey}{1-t}  \right)^2+ \frac{y^2}{t^2}
+}<br />{ =} { d^2
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+was wieder die Gleichung einer Ellipse ist.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Gerade und Kreis als Bahnen}
+</p><p>Wir betrachten nun den Fall einer mechanischen Kurve, wo die eine Bahn eine Gerade und die zweite Bahn ein Kreis ist. Dies ist die Situation bei einer Dampfmaschine
+\zusatzklammer {insbesondere, wenn die Gerade durch den Kreismittelpunkt verläuft} {} {.}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesunggif {Steam_engine_in_action} {gif} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Steam engine in action.gif } {} {Panther} {Commons} {CC-BY-SA 2.5} {}<br /> <br />
+</p><p><br />
+Wir können ohne Einschränkung annehmen, dass die Gerade durch
+<br />\mavergleichskette<br />{\vergleichskette<br />{ y
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+gegeben ist. Die Koordinaten des Punktes auf der Geraden sind dann
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ P_1 
+}<br />{ =} { (x_1,y_1)
+}<br />{ =} { (x_1,0)
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Für den Kreis kann man annehmen, dass er den Mittelpunkt <br />\mathl{(0,b)}{} und den Radius $r$ besitzt. Der Kreisbahnpunkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P_2
+}<br />{ = }{ (x_2,y_2)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+erfüllt dann die Bedingung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_2^2+(y_2-b)^2
+}<br />{ = }{ r^2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Das gesamte mechanische System wird also durch die beiden Bedingungen
+\aufzaehlungzwei { <br />\mavergleichskette<br />{\vergleichskette<br />{ x_2^2+(y_2-b)^2
+}<br />{ = }{ r^2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+} { <br />\mavergleichskette<br />{\vergleichskette<br />{ (x_2-x_1)^2 +y_2^2
+}<br />{ = }{ d^2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+}
+beschrieben, wobei $d$ wieder der Koppelungsabstand sei. Betrachtet man diese zwei Gleichungen in den Koordinaten <br />\mathl{x_2,y_2}{} und <br />\mathl{x_2-x_1}{,} so sieht man, dass es sich um den Schnitt von zwei Zylindern handelt, ähnlich wie in
+<a href="/wiki/Affine_Variet%C3%A4ten/Irreduzible_Teilmengen/Schnitt_von_zwei_gleichgro%C3%9Fen_Zylindern/Zwei_Kreise/Beispiel" title="Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel">Beispiel 4.6</a>.
+Die erlaubten Stangenkonfigurationen des mechanischen Systems lassen sich also in drei geeigneten Koordinaten als der Durchschnitt von zwei Zylindern deuten. Dabei müssen allerdings weder die Radien übereinstimmen noch müssen die Innenachsen der Zylinder sich treffen. Ein solcher Durchschnitt und die zugehörigen Trajektorien können schon relativ kompliziert sein.
+</p><p>In den folgenden Beispielen brauchen wir ein Lemma, das eine einfache \stichwort {Eliminationssituation} {} beschreibt.
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Elimination/Zwei quadratische Gleichungen/Direkt/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>Es sei $R$ ein 
+\definitionsverweis {Integritätsbereich}{}{}
+und seien
+\mathkor {} {F_1=a_1X^2+b_1X+c_1} {und} {F_2=a_2X^2+b_2X+c_2} {}
+zwei quadratische Polynome in einer Variablen über $R$ mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ a_1
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+und
+\mathkor {} {(a_1,b_1)} {und} {(a_2,b_2)} {}
+linear unabhängig. Dann gehört zum Ideal <br />\mathl{(F_1,F_2) \cap R}{} das Element
+<br />\mathdisp {(a_2c_1-a_1c_2)^2 <br /> \mathdisplaybruch - b_1(-a_2c_1b_2-c_2a_2b_1 + a_1b_2c_2)<br /> \mathdisplaybruch +c_1(a_1b_2^2-2a_2b_1b_2)} { . }<br />
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir haben zunächst
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ a_2F_1-a_1F_2
+}<br />{ =} { (a_ 2b_1- a_1b_2)X +a_2c_1-a_1c_2
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Daraus ergibt sich der Ausdruck
+\zusatzklammer {dieses Argument ist nicht ganz richtig, es lässt sich aber auch rigoroser durchführen} {} {}
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{X 
+}<br />{ =} { -\frac{a_2c_1-a_1c_2 }{a_ 2b_1- a_1b_2 }
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Wir setzen das in $F_1$ ein und multiplizieren mit dem Quadrat des Nenners und erhalten
+<br />\mathdisp {a_1(a_2c_1-a_1c_2)^2 <br /> \mathdisplaybruch -b_1(a_2c_1-a_1c_2)( a_ 2b_1- a_1b_2) <br /> \mathdisplaybruch +c_1 (a_ 2b_1- a_1b_2)^2} { . }<br />
+Hier kommt im zweiten Summand <br />\mathl{-b_1a_2c_1a_2b_1}{} und im dritten Summand <br />\mathl{c_1a_2^2b_1^2}{} vor; diese beiden Summanden heben sich weg, in allen übrigen Monomen kommt $a_1$ vor.
+Wir können also $a_1$ wegkürzen und übrig bleibt
+<br />\mathdisp {(a_2c_1-a_1c_2)^2 <br /> \mathdisplaybruch - b_1(-a_2c_1b_2-c_2a_2b_1 + a_1b_2c_2) <br /> \mathdisplaybruch + c_1(a_1b_2^2-2a_2b_1b_2)} { . }<br />
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten das mechanische Koppelungssystem, das durch den Einheitskreis und die dazu tangentiale Gerade durch <br />\mathl{(0,1)}{} mit dem Koppelungsabstand
+<br />\mavergleichskette<br />{\vergleichskette<br />{ d
+}<br />{ = }{ 2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+definiert ist, also durch den Geradenbahnpunkt und Kreisbahnpunkt
+<br />\mathdisp {P_1 = (x_1,1) \text{ und } P_2=(x_2,y_2)} {  }<br />
+mit den beiden Bedingungen
+\aufzaehlungzwei { <br />\mavergleichskette<br />{\vergleichskette<br />{ x_2^2+y_2^2
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,}
+} { <br />\mavergleichskette<br />{\vergleichskette<br />{ (x_2-x_1)^2 +(y_2-1)^2
+}<br />{ = }{ 4
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+}
+Es handelt sich also um den Schnitt von zwei Zylindern, allerdings mit unterschiedlichen Radien und mit Innenachsen, die sich nicht treffen. Die Differenz der beiden Gleichungen ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{  x_1^2-2x_1x_2-2y_2-2
+}<br />{ =} { 0
+}<br />{ } { 
+}<br />{ } { 
+}<br />{ } { 
+}<br />}
+{}{}{,}
+mit der man eine Gleichung ersetzen kann. Daraus sieht man auch, dass man die Variable $y_2$ eliminieren kann und so zu einem System mit einer Gleichung in zwei Variablen kommt, siehe
+<a href="/wiki/Mechanisch_definierte_Kurven/Stangenkonfiguration/Kreis_und_tangentiale_Gerade/Zweidimensionale_Interpretation/Aufgabe" title="Mechanisch definierte Kurven/Stangenkonfiguration/Kreis und tangentiale Gerade/Zweidimensionale Interpretation/Aufgabe">Aufgabe 8.9</a>,
+und dass das System irreduzibel ist, siehe
+<a href="/wiki/Mechanisch_definierte_Kurven/Stangenkonfiguration/Kreis_und_tangentiale_Gerade/Irreduzibel/Aufgabe" title="Mechanisch definierte Kurven/Stangenkonfiguration/Kreis und tangentiale Gerade/Irreduzibel/Aufgabe">Aufgabe 8.10</a>.
+</p><p>Interessant sind die beiden Geraden
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ G_1 
+}<br />{ =} { V(x_2,y_2+1)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{G_2
+}<br />{ =} { V(x_2-x_1,y_2+1)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+die sich im Punkt
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{P
+}<br />{ =} { (0,0,-1)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+schneiden. Die Gerade $G_1$ liegt auf dem einen Zylinder und schneidet den anderen Zylinder tangential, und umgekehrt. Das geometrische Bild ist, dass der kleinere Zylinder aus dem größeren eine \anfuehrung{gebogene Acht}{} herausstanzt, wobei $P$ der Kreuzungspunkt der Acht ist.
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Intersection_of_cylinders} {jpg} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Intersection of cylinders.jpg } {Jan Schoenke} {} {Commons} {CC-by-sa 2.5} {}<br /> <br />
+</p><p><br />
+Die erlaubten Stangenkonfigurationen lassen sich folgendermaßen gewinnen. Zu jedem Kreispunkt gibt es zwei Möglichkeiten, wie die Stange liegen kann, mit der Ausnahme des Kreisbahnpunktes <br />\mathl{(0,-1)}{,} wo der Geradenbahnpunkt <br />\mathl{(0,1)}{} sein muss.
+</p><p>Wir starten mit der Situation, wo der Punkt <br />\mathl{(0,1)}{} der Kreisbahnpunkt ist, und wo <br />\mathl{(-2,1)}{} der Geradenbahnpunkt ist
+\zusatzklammer {die Stange liegt also links auf der Geraden} {} {,}
+und lassen den Kreisbahnpunkt im Uhrzeigersinn um den Kreis wandern. Der Kreisbahnpunkt zieht dann den Geradenbahnpunkt hinter sich her, bis er unten bei <br />\mathl{(0,-1)}{} angekommen ist. Die Stange ist dann der vertikale Durchmesser des Kreises (der Geradenbahnpunkt ist dann in <br />\mathl{(0,1)}{} und der Kreisbahnpunkt ganz unten). Ab dann wandert der Kreisbahnpunkt auf dem linken Kreisbogen nach oben und schiebt dabei die Stange weiter nach rechts, bis der Geradenbahnpunkt bei <br />\mathl{(2,1)}{} ankommt.
+</p><p>Die andere Möglichkeit, wo der Punkt <br />\mathl{(0,1)}{} der Kreisbahnpunkt ist, ist die, wo die Stange rechts auf der Geraden liegt
+\zusatzklammer {mit \mathlk{(2,1)}{} als Geradenbahnpunkt} {} {.}
+Der Kreisbahnpunkt bewegt sich erneut im Uhrzeigersinn. Dabei schiebt er den Geradenbahnpunkt zuerst nach rechts bis zu einem gewissen Extremum, bei dem die Stange senkrecht zum Kreis im Kreisbahnpunkt steht. Von da an zieht der Kreisbahnpunkt den Geradenbahnpunkt zurück nach links, wobei sich die Stange aufrichtet, bis sie den vertikalen Durchmesser des Kreises einnimmt. Weiter wandert der Kreisbahnpunkt auf dem linken Kreisbogen wieder nach oben, wobei er den Geradenbahnpunkt bis zum Extremum nach links schiebt, und im letzten Stück wieder nach <br />\mathl{(-2,1)}{} zieht.
+</p><p>Insbesondere wird der vertikale Durchmesser des Kreises zweimal von der Stange eingenommen, diese Stangenkonfiguration entspricht also dem Kreuzungspunkt der Acht.
+</p><p>Wir wollen nun die Trajektorie zum Mittelpunkt der Stange berechnen, also zu
+<br />\mavergleichskettealign<br />{\vergleichskettealign<br />{ P
+}<br />{ =} { P_1+ \frac{1}{2} (P_2-P_1)
+}<br />{ =} { (x_1,1) + \frac{1}{2}(x_2-x_1, y_2-1)
+}<br />{ =} { \left(  \frac{1}{2}x_1+ \frac{1}{2}x_2 , \frac{1}{2}y_2 +\frac{1}{2}  \right)
+}<br />{ \defeqr} {(x,y)
+}<br />}
+{}
+{}{.}
+Wir interessieren uns für eine Gleichung für $x$ und $y$, und führen die Variable
+<br />\mavergleichskette<br />{\vergleichskette<br />{ z
+}<br />{ = }{ \frac{1}{2}x_1-\frac{1}{2}x_2
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ein. Dann ist
+<br />\mathdisp {x_1=x+z,\, x_2=x-z \text{ und } y_2=2y-1} {  }<br />
+und das Gleichungssystem schreibt sich in den neuen Variablen als
+<br />\mathdisp {(x-z)^2+(2y-1)^2 = 1 \text{   und } (-2z)^2 + (2y-2)^2 =4} { , }<br />
+wobei man letzteres als
+<br />\mavergleichskette<br />{\vergleichskette<br />{ z^2+(y-1)^2 
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+schreiben kann bzw. als
+<br />\mavergleichskette<br />{\vergleichskette<br />{ z^2+y^2-2y
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.}
+Die erste Gleichung ergibt ausgerechnet
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ z^2-2zx+x^2+4y^2-4y
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Damit ergibt sich nach
+<a href="/wiki/Elimination/Zwei_quadratische_Gleichungen/Direkt/Fakt" title="Elimination/Zwei quadratische Gleichungen/Direkt/Fakt">Lemma 8.4</a>
+\zusatzklammer {mit
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ R
+}<br />{ = }{ \R[x,y]
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+und der zusätzlichen Variablen $z$
+</p>
+<dl><dt>es ist also</dt></dl>
+<p><br />\mavergleichskettek<br />{\vergleichskettek<br />{ a_1
+}<br />{ = }{ a_2
+}<br />{ = }{ 1 
+}<br />{    }{}<br />{   }{}<br />}
+{}{}{} 
+und 
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ b_1 
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {}
+die Gleichung
+<br />\mavergleichskettealignhandlinks<br />{\vergleichskettealignhandlinks<br />{ (c_1-c_2)^2+c_1b_2^2
+}<br />{ =} { (y^2-2y-x^2-4y^2+4y)^2 + (y^2-2y) (2x)^2
+}<br />{ =} { (-3y^2+2y-x^2)^2 + (y^2-2y) (2x)^2
+}<br />{ =} { 9y^4 +x^4 +4y^2- 12y^3 +6x^2y^2 -4x^2y +4x^2y^2-8x^2y
+}<br />{ =} { 9y^4 + 10x^2y^2+ x^4 -12y^3 - 12x^2y +4y^2
+}<br />}
+{}
+{}{.}
+Das ist eine Quartik
+\zusatzklammer {Kurve vom Grad vier} {} {}
+mit zwei Singularitäten.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Alg_Kurven_OS2008_Lsg8.10_v2} {png} }<br />\end{center} <br />\bildtext {Bild zur Übung} }<br /><br />\bildlizenz { Alg Kurven OS2008 Lsg8.10 v2.png } {Christian Boberg} {} {de.wikiverstiy.org} {CC-BY-SA 2.5} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten das mechanische System aus Einheitskreis und $x$-Achse, wo der Koppelungsabstand 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ d
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist. Das mechanische System wird dann durch die beiden Gleichungen
+\aufzaehlungzwei { <br />\mavergleichskette<br />{\vergleichskette<br />{ x_2^2+y_2^2
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{,} 
+} { <br />\mavergleichskette<br />{\vergleichskette<br />{ (x_2-x_1)^2 +y_2^2 
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+}
+beschrieben. Es handelt sich um den Durchschnitt von zwei Zylindern mit gleichem Radius und sich treffenden Innenachsen, d.h. wir können auf die Ergebnisse von
+<a href="/wiki/Affine_Variet%C3%A4ten/Irreduzible_Teilmengen/Schnitt_von_zwei_gleichgro%C3%9Fen_Zylindern/Zwei_Kreise/Beispiel" title="Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel">Beispiel 4.6</a>
+zurückgreifen. Dort wurde gezeigt, dass der Durchschnitt durch zwei Ellipsen gegeben ist, die sich in zwei Punkten schneiden. Diese Beschreibung muss sich auch im Kontext des mechanischen Systems wiederfinden. Welche Stangenkonfigurationen entsprechen der einen Ellipse, welche der anderen, welche Konfigurationen liegen auf beiden?
+</p><p>Machen wir uns also einen Überblick über die erlaubten Konfigurationen. Wenn der Geradenpunkt 
+\zusatzklammer {also der Punkt auf der Geradenbahn} {} {} der Kreismittelpunkt ist, so ist jeder Punkt des Kreises als Kreisbahnpunkt erlaubt. Die radialen Strahlen des Kreises bilden also eine Schar von erlaubten Stangenkonfigurationen, und diese bilden zusammen die eine Ellipse. Die andere Ellipse entspricht der Menge der Stangenkonfigurationen, bei denen der Geradenbahnpunkt von $-2$ nach $+2$ läuft und dabei den Kreisbahnpunkt im oberen oder unteren Kreisbogen vor sich herschiebt bzw. hinterherzieht. Es gibt zwei Stangenkonfigurationen, die zu beiden Familien gehören, nämlich die mit dem Kreismittelpunkt als Geradenbahnpunkt und <br />\mathl{(0,1)}{} bzw. <br />\mathl{(0,-1)}{} als Kreisbahnpunkt. In einer solchen Stangenkonfiguration kann das mechanische System nicht nur vorwärts und rückwärts laufen, sondern wesentlich die Richtung wechseln.
+</p><p>Wie sehen die Trajektorien eines Punktes auf der bewegten Stange aus? Die Gesamttrajektorie ist die Vereinigung der beiden Trajektorien, die zu den beiden irreduziblen Komponenten des Systems gehören. Wie viele Selbstdurchdringungspunkte gibt es?
+</p><p>Für einen Punkt 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ = }{ P_1+u(P_2-P_1)
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+der Koppelungsstange sind die Koordinaten gleich
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (z_1,z_2)
+}<br />{ =} { (x_1+u(x_2-x_1), uy_2)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ u
+}<br />{ = }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ist die Trajektorie das reelle Intervall <br />\mathl{[-2,2]}{,} und bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ u
+}<br />{ = }{ 1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+ist es der Einheitskreis. Es sei also nun
+<br />\mavergleichskette<br />{\vergleichskette<br />{ u
+}<br />{ \neq }{ 0,1
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{.} 
+Die Projektion der radialen Komponenten des Sytems ist einfach der Kreis mit Radius $u$. Die Projektion der anderen Ellipse ist wieder eine Ellipse, die den Kreis in unterschiedlicher Weise schneiden kann. Siehe auch
+<a href="/wiki/Schnitt_von_zwei_Zylindern/Projektion_auf_Fl%C3%A4chen/Charakterisierung_der_Bilder/Aufgabe" title="Schnitt von zwei Zylindern/Projektion auf Flächen/Charakterisierung der Bilder/Aufgabe">Aufgabe 8.23</a>.
+</p>
+</div><p><br />
+</p><p>}
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐ext.eqiad.main‐747884cc85‐wmnz6
+Cached time: 20260822220401
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.193 seconds
+Real time usage: 0.283 seconds
+Preprocessor visited node count: 8597/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 448501/2097152 bytes
+Template argument size: 135376/2097152 bytes
+Highest expansion depth: 30/100
+Expensive parser function count: 6/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  263.677      1 Vorlage:Latex
+100.00%  263.677      1 -total
+ 99.08%  261.262      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesung_8
+ 97.51%  257.112      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+ 96.28%  253.881      1 Vorlage:Kapitelnummer
+ 68.99%  181.924      2 Vorlage:Mathematischer_Textabschnitt
+ 43.18%  113.865      3 Vorlage:Inputbeispiel
+ 42.93%  113.203      1 Mechanische_ebene_Kurven/Gerade_und_Kreis/Beispiele/Textabschnitt
+ 35.99%   94.889      3 Vorlage:Mathematischer_Text/Beispiel
+ 29.44%   77.627      1 Algebraische_Kurven/Mechanische_Kurven/Textabschnitt
+-->
+
+<!-- Render ID 618a29ed-9e75-11f1-901d-2ba89479d130 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165961:|#|:idhash:canonical and timestamp 20260822220401 and revision id 1033007. Rendering was triggered because: api-parse
+ -->
+</div>

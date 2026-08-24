@@ -248,7 +248,7 @@ F=G(X-x_0)
 $$
 
 untuk suatu $G\in K[X]$ berderajat $n-1$. Fakta tentang derajat ini mengikuti
-langsung dari kenyataan bahwa setiap medan juga merupakan daerah integral dan
+langsung dari kenyataan bahwa setiap lapangan juga merupakan daerah integral dan
 dari sedikit penyesuaian terhadap bukti pada Soal 8. Menurut hipotesis induksi,
 $G$ terurai menjadi faktor-faktor linear; karena itu $G(X-x_0)$ juga demikian.
 Jadi, setiap polinom takkonstan $F\in K[X]$ terurai menjadi faktor-faktor linear.

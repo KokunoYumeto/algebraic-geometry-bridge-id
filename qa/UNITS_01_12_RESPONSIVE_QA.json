@@ -1,0 +1,81 @@
+{
+  "schema": "ag-bridge-responsive-qa-v1",
+  "checked_utc": "2026-08-24T03:19:27.8748335Z",
+  "status": "PASS",
+  "through_unit": 12,
+  "browser": "Codex In-app Browser",
+  "served_url": "http://127.0.0.1:8765/",
+  "artifact": {
+    "path": "build/reader-id/index.html",
+    "bytes": 9396856,
+    "sha256": "29b8bc205bff3776ed231ac64064d8cfa53bbf42b1a674690a60c1b0fee8016d",
+    "title": "Kurva Aljabar - Unit 1-12",
+    "language": "id-ID",
+    "mathml_nodes": 4499,
+    "images": 65,
+    "broken_images": 0,
+    "browser_console_warnings_or_errors": 0
+  },
+  "responsive_source": {
+    "path": "source/id-ID/reader.css",
+    "bytes": 1671,
+    "sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa"
+  },
+  "desktop": {
+    "viewport_width": 1440,
+    "viewport_height": 900,
+    "document_client_width": 1425,
+    "document_scroll_width": 1425,
+    "body_width": 1224,
+    "body_left_margin": 100.44444274902344,
+    "body_right_margin": 100.55555725097656,
+    "centering_delta_px": 0.111114501953125,
+    "centered_reader": true,
+    "page_horizontal_overflow": false,
+    "rendered_elements_outside_viewport": 0,
+    "visual_result": "PASS"
+  },
+  "mobile": {
+    "viewport_width": 390,
+    "viewport_height": 844,
+    "document_client_width": 375,
+    "document_scroll_width": 375,
+    "body_width": 375.1111145019531,
+    "body_padding_left": "16px",
+    "body_padding_right": "16px",
+    "body_box_shadow": "none",
+    "page_horizontal_overflow": false,
+    "display_math_blocks": 1133,
+    "locally_scrollable_math_blocks": 85,
+    "display_math_overflow_style": "auto",
+    "overflow_blocks_without_auto": 0,
+    "images_over_content": 0,
+    "visual_result": "PASS"
+  },
+  "topology": {
+    "h1": 50,
+    "h2": 113,
+    "h3": 452,
+    "h4": 56,
+    "ids": 1287,
+    "unique_ids": 1287,
+    "missing_internal_anchor_targets": 0,
+    "loaded_images": 65,
+    "images_with_nonempty_alt": 65,
+    "embedded_data_images": 65
+  },
+  "verification": {
+    "all_images_local_and_loaded": true,
+    "all_image_alt_text_nonempty": true,
+    "desktop_and_mobile_title_and_language_match": true,
+    "desktop_body_centered": true,
+    "desktop_has_no_pagewide_overflow": true,
+    "mobile_has_no_pagewide_overflow": true,
+    "mobile_math_overflow_is_contained": true,
+    "internal_anchor_targets_complete": true,
+    "browser_console_clean": true,
+    "desktop_screenshot_reviewed": true,
+    "mobile_screenshot_reviewed": true
+  },
+  "conclusion": "The self-contained reader is centered and page-filling at desktop width, reflows to the full phone viewport without document-level horizontal overflow, contains oversized mathematics in local auto-scrolling blocks, loads all embedded images with nonempty alternative text, and produces no browser warning or error."
+}

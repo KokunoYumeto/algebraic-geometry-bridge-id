@@ -130,7 +130,7 @@ x^3+y^2=2
 2xy=3
 $$
 
-untuk medan $K=\mathbb Z/(3)$, $\mathbb Z/(5)$, dan $\mathbb Z/(7)$.
+untuk lapangan $K=\mathbb Z/(3)$, $\mathbb Z/(5)$, dan $\mathbb Z/(7)$.
 
 ### Soal 2.11 ★ {#br-ak-2025-2026-w02-ex-11}
 
@@ -185,7 +185,7 @@ adalah ideal maksimal.
 
 <!-- upstream_entity: Algebraisch abgeschlossener Körper/Ein Punkt/Dimension mindestens 2/Nicht Nullstellenmenge einer Gleichung/Aufgabe -->
 
-Misalkan $K$ suatu medan tertutup secara aljabar dan $n\ge2$. Buktikan bahwa
+Misalkan $K$ suatu lapangan tertutup secara aljabar dan $n\ge2$. Buktikan bahwa
 sebuah titik $P\in\mathbb A_K^n$ tidak dapat menjadi himpunan nol dari satu
 polinom saja.
 
@@ -193,7 +193,7 @@ polinom saja.
 
 <!-- upstream_entity: Endlicher Körper/Endlich viele Punkte/Nullstellenmenge einer Gleichung/Aufgabe -->
 
-Misalkan $K$ suatu medan berhingga dan
+Misalkan $K$ suatu lapangan berhingga dan
 
 $$
 M=\{P_1,P_2,\ldots,P_m\}\subseteq\mathbb A_K^n
@@ -206,7 +206,7 @@ polinom tunggal.
 
 <!-- upstream_entity: Einheitskreis/K/Geradenbündel zu (X,1-Y)/Beispiel/Kreisgleichung/Aufgabe -->
 
-Misalkan $K$ suatu medan. Buktikan bahwa ketiga ideal berikut dalam
+Misalkan $K$ suatu lapangan. Buktikan bahwa ketiga ideal berikut dalam
 $K[X,Y,Z,W]$ adalah sama:
 
 $$
@@ -322,7 +322,7 @@ $$
 
 <!-- upstream_entity: Polynomring/Zwei Variablen/Kein Idealprodukt/Aufgabe -->
 
-Misalkan $K$ suatu medan. Dalam $K[X,Y]$, tinjau kedua ideal prima
+Misalkan $K$ suatu lapangan. Dalam $K[X,Y]$, tinjau kedua ideal prima
 
 $$
 \mathfrak p=(X)\subset(X,Y)=\mathfrak m.
@@ -346,8 +346,8 @@ $$
 x^2+y^2+xy=1
 $$
 
-untuk medan $K=\mathbb F_2$, $\mathbb F_4$, dan $\mathbb F_8$. Anda dapat
-menggunakan [representasi medan-medan
+untuk lapangan $K=\mathbb F_2$, $\mathbb F_4$, dan $\mathbb F_8$. Anda dapat
+menggunakan [representasi lapangan-lapangan
 tersebut](https://de.wikiversity.org/wiki/Endliche_K%C3%B6rper/Nicht_Primk%C3%B6rper/Einige_Operationstafeln).
 
 ### Soal 2.24 — 3 poin {#br-ak-2025-2026-w02-ex-24}

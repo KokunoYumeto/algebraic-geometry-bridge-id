@@ -40,7 +40,7 @@ untuk $n\in\mathbb N_+$.
 
 <!-- upstream_entity: Homogene Polynome in zwei Variablen/Algebraisch abgeschlossener Körper/Zerfällt/Aufgabe -->
 
-Misalkan $K$ suatu medan tertutup secara aljabar dan
+Misalkan $K$ suatu lapangan tertutup secara aljabar dan
 $F\in K[X,Y]$ suatu polinom homogen. Buktikan bahwa $F$ terurai menjadi
 faktor-faktor linear.
 
@@ -48,7 +48,7 @@ faktor-faktor linear.
 
 <!-- upstream_entity: Homogenes Polynom/Körper/Faktoren/Homogen/Aufgabe -->
 
-Misalkan $K$ suatu medan, $F\in K[X_1,\ldots,X_n]$ suatu polinom homogen,
+Misalkan $K$ suatu lapangan, $F\in K[X_1,\ldots,X_n]$ suatu polinom homogen,
 dan $F=GH$ suatu faktorisasi. Buktikan bahwa $G$ dan $H$ juga homogen.
 
 ### Soal 5.5 {#br-ak-2025-2026-w05-ex-05}
@@ -162,7 +162,7 @@ $$
 M=\{P_1,\ldots,P_n\}\subseteq K^2
 $$
 
-suatu himpunan titik berhingga di bidang di atas medan takhingga $K$.
+suatu himpunan titik berhingga di bidang di atas lapangan takhingga $K$.
 
 1. Buktikan bahwa $M$ dapat diperoleh sebagai irisan dua kurva aljabar.
 2. Buktikan bahwa $M$ dapat diperoleh sebagai irisan dua kurva aljabar yang
@@ -196,7 +196,7 @@ $$
 
 <!-- upstream_entity: K unendlich/Polynom/Bild unendlich oder konstant/Zwei Beweise/Aufgabe -->
 
-Misalkan $K$ suatu medan takhingga dan
+Misalkan $K$ suatu lapangan takhingga dan
 $F\in K[X_1,\ldots,X_n]$ suatu polinom dengan pemetaan yang bersesuaian
 
 $$
@@ -210,7 +210,7 @@ atas satu titik atau takhingga banyak titik.
 
 <!-- upstream_entity: Endlicher Körper/Endlich viele Punkte in Ebene/Parametrisierung und Anzahl/Aufgabe -->
 
-Misalkan $K$ suatu medan berhingga dengan $q$ elemen, dan
+Misalkan $K$ suatu lapangan berhingga dengan $q$ elemen, dan
 
 $$
 P_1,\ldots,P_n\in\mathbb A_K^2
@@ -248,7 +248,7 @@ titik lainnya tak tereduksi.
 
 <!-- upstream_entity: Körper/Nullstellen auf Polynomkoeffizienten/Eigenschaften/Aufgabe -->
 
-Misalkan $K$ suatu medan. Untuk setiap $n\in\mathbb N_+$, pertimbangkan
+Misalkan $K$ suatu lapangan. Untuk setiap $n\in\mathbb N_+$, pertimbangkan
 pemetaan
 
 $$

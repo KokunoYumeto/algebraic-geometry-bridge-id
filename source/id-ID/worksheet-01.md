@@ -89,7 +89,7 @@ $$
 
 <!-- upstream_entity: Neilsche Parabel/Bildbeschreibung durch Gleichung/Aufgabe -->
 
-Misalkan $K$ suatu medan. Citra kurva yang didefinisikan oleh
+Misalkan $K$ suatu lapangan. Citra kurva yang didefinisikan oleh
 
 $$
 K\longrightarrow K^2,
@@ -212,7 +212,7 @@ Pernyataan pada soal berikut juga dapat diperoleh dari Teorema 6.1 melalui Lema 
 
 <!-- upstream_entity: Polynomiale Kurve/Bild/Schnitt mit Gerade/Aufgabe -->
 
-Misalkan $K$ suatu medan dan
+Misalkan $K$ suatu lapangan dan
 
 $$
 K\longrightarrow K^2,
@@ -261,7 +261,7 @@ Misalkan $R$ suatu daerah integral dan $R[X]$ gelanggang polinomial di atas $R$.
 
 <!-- upstream_entity: Algebraisch abgeschlossener Körper/Charakterisierung mit Linearfaktoren/Fakt/Beweis/Aufgabe -->
 
-Misalkan $K$ suatu medan. Tunjukkan bahwa kedua sifat berikut ekuivalen.
+Misalkan $K$ suatu lapangan. Tunjukkan bahwa kedua sifat berikut ekuivalen.
 
 1. $K$ tertutup secara aljabar.
 2. Setiap polinom takkonstan $F\in K[X]$ terurai menjadi faktor-faktor linear.
@@ -270,13 +270,13 @@ Misalkan $K$ suatu medan. Tunjukkan bahwa kedua sifat berikut ekuivalen.
 
 <!-- upstream_entity: Algebraisch abgeschlossen/Irreduzible Polynome/Aufgabe -->
 
-Misalkan $K$ suatu medan tertutup secara aljabar. Tentukan semua polinom tak tereduksi dalam $K[X]$.
+Misalkan $K$ suatu lapangan tertutup secara aljabar. Tentukan semua polinom tak tereduksi dalam $K[X]$.
 
 ### Soal 1.23 {#br-ak-2025-2026-w01-ex-23}
 
 <!-- upstream_entity: Algebraisch abgeschlossener Körper/Unendlich/Aufgabe -->
 
-Misalkan $K$ suatu medan tertutup secara aljabar. Tunjukkan bahwa $K$ tidak mungkin berhingga.
+Misalkan $K$ suatu lapangan tertutup secara aljabar. Tunjukkan bahwa $K$ tidak mungkin berhingga.
 
 ## Soal untuk dikumpulkan {#br-ak-2025-2026-w01-submit}
 
@@ -308,7 +308,7 @@ $$
 x^2+y^2=1
 $$
 
-untuk medan $K=\mathbb Z/(2)$, $\mathbb Z/(5)$, dan $\mathbb Z/(11)$.
+untuk lapangan $K=\mathbb Z/(2)$, $\mathbb Z/(5)$, dan $\mathbb Z/(11)$.
 
 ### Soal 1.27 — 5 poin {#br-ak-2025-2026-w01-ex-27}
 

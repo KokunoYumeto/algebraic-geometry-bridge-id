@@ -1,0 +1,89 @@
+{
+  "schema": "ag-bridge-zenodo-publication-receipt-v1",
+  "status": "PASS",
+  "record": {
+    "id": 22060388,
+    "url": "https://zenodo.org/records/22060388",
+    "api_url": "https://zenodo.org/api/records/22060388",
+    "doi": "10.5281/zenodo.22060388",
+    "concept_doi": "10.5281/zenodo.22059686",
+    "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+    "version": "unit-06",
+    "publication_date": "2026-08-22",
+    "published_timestamp": "2026-08-22T18:27:34.126132+00:00",
+    "zenodo_state": "done",
+    "zenodo_status": "published"
+  },
+  "reader_boundary": {
+    "through_unit": 6,
+    "planned_units": 30,
+    "full_edition_complete": false,
+    "incomplete_boundary_disclosed_in_description": true
+  },
+  "metadata_cleanliness": {
+    "creator": "Brenner, Holger",
+    "organization_contributor_count": 1,
+    "ai_contributor_count": 1,
+    "work_title_preserved_without_organization_prefix": true,
+    "description_lead_preserved_without_organization_prefix": true,
+    "non_endorsement_disclosed": true,
+    "license_field": "other-open",
+    "license_field_rationale": "Avoids applying a false blanket licence to the mixed-rights file set.",
+    "translated_course_text_license": "CC BY-SA 4.0",
+    "third_party_media_license_policy": "Per-component rights and attribution are preserved in the source package."
+  },
+  "anonymous_public_byte_readback": {
+    "verified_at": "2026-08-22T18:27:42Z",
+    "credential_used": false,
+    "files_expected": 6,
+    "files_verified": 6,
+    "all_size_and_sha256_matches": true,
+    "files": [
+      {
+        "name": "kurva-aljabar-id-unit-06.pdf",
+        "bytes": 4133936,
+        "sha256": "27b459e5277c2baddcf849978d0ef720ed72bda60cd4c360b8d53ae765b9462e",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-06.html",
+        "bytes": 6052379,
+        "sha256": "a6d76c946a7318e4c1b821ea213114a072fa1984cb5e8771e61ca95bf27e1666",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-06-source.zip",
+        "bytes": 5243297,
+        "sha256": "5ec1eb71f512b57c3e89fc6de94fb89355e2d2fad9a18d3a5601855be64bf084",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-06-authority-witnesses.zip",
+        "bytes": 8776937,
+        "sha256": "9dbee56979c8e7d331aa0304585f926d525a16ba08b70998af05bb9c85493942",
+        "public_readback": true
+      },
+      {
+        "name": "BUILD_RECEIPT-unit-06.json",
+        "bytes": 14243,
+        "sha256": "8f4978fd2d2d4de6169b7504ca4d9218f512acad1ae66289f320bf9502233b36",
+        "public_readback": true
+      },
+      {
+        "name": "ZENODO_FILE_MANIFEST-unit-06.json",
+        "bytes": 3392,
+        "sha256": "bbd7b841390f9e9ea2df454c0340c6a3b0862ba07df92312f82d9a551e093009",
+        "public_readback": true
+      }
+    ]
+  },
+  "credential_handling": {
+    "public_readback_used_anonymous_requests": true,
+    "credential_value_logged_or_persisted": false
+  },
+  "github": {
+    "state": "publication_deferred_due_to_user_confirmed_account_suspension",
+    "retry_attempted_after_suspension_notice": false,
+    "support_ticket_filed_by_user": true
+  }
+}

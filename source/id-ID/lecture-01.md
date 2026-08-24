@@ -68,7 +68,7 @@ $$
 P(X)=a_4X^4+a_3X^3+a_2X^2+a_1X+a_0,
 $$
 
-dengan koefisien-koefisien $a_i$ dalam suatu medan $K$. Dalam geometri aljabar kita menetapkan sebuah *medan dasar* $K$. Medan penting bagi kita adalah bilangan real (gambar-gambar tadi terutama harus dipahami dalam arti ini) dan bilangan kompleks $\mathbb C$. Grafik semacam itu merupakan objek yang sederhana dalam arti bahwa setiap nilai $X$ memiliki tepat satu nilai $Y$, yaitu nilai fungsi, dan nilai itu mudah dihitung apabila kita dapat berhitung di medan yang diberikan. Dalam arti tertentu, grafik tersebut adalah salinan “melengkung” dari garis dasar, yakni sumbu $X$.
+dengan koefisien-koefisien $a_i$ dalam suatu lapangan $K$. Dalam geometri aljabar kita menetapkan sebuah *lapangan dasar* $K$. Lapangan penting bagi kita adalah bilangan real (gambar-gambar tadi terutama harus dipahami dalam arti ini) dan bilangan kompleks $\mathbb C$. Grafik semacam itu merupakan objek yang sederhana dalam arti bahwa setiap nilai $X$ memiliki tepat satu nilai $Y$, yaitu nilai fungsi, dan nilai itu mudah dihitung apabila kita dapat berhitung di lapangan yang diberikan. Dalam arti tertentu, grafik tersebut adalah salinan “melengkung” dari garis dasar, yakni sumbu $X$.
 
 Sekarang perhatikan gambar ketiga. Gambar itu adalah grafik suatu *fungsi rasional*: kita mengambil dua polinom $P,Q$ dalam variabel $X$, lalu meninjau hasil bagi $P(X)/Q(X)$. Ungkapan ini hanya bermakna ketika penyebutnya tidak nol. Pada akar-akar polinom penyebut, fungsi rasional tidak terdefinisi. Jika pembilang dan penyebut sama-sama nol di suatu titik, kadang-kadang penyederhanaan pecahan membuat hasil bagi itu dapat diberi makna di titik tersebut. Jika penyebut nol tetapi pembilang tidak, titik ketakterdefinisian itu merupakan sebuah *kutub*: grafik real mendekati $+\infty$ atau $-\infty$. Memang menggoda untuk mengatakan bahwa nilai fungsi rasional pada titik-titik itu adalah “tak hingga”; dalam geometri projektif gagasan ini benar-benar bermakna, sebagaimana akan kita lihat nanti.
 
@@ -105,7 +105,7 @@ Kedua deskripsi tersebut memiliki kelebihan masing-masing. Deskripsi sebagai $K^
 
 ![Hiperbola siku-siku](authority/assets/Rectangular_hyperbola-250.png)
 
-Dalam kasus real, yakni $K=\mathbb R$, himpunan $\mathbb R^\times$ (dan demikian pula $H_{\mathbb R}$) terdiri atas dua “cabang” yang saling lepas, sehingga tidak *terhubung*. Dalam kasus kompleks, yakni $K=\mathbb C$, himpunan $\mathbb C^\times$ (dan demikian pula $H_{\mathbb C}$) adalah bidang real dengan satu titik dihilangkan, sehingga terhubung. Ini adalah fenomena khas geometri aljabar: sifat-sifat penting dapat bergantung pada medan dasar. Meskipun demikian, sifat-sifat yang hanya bergantung pada persamaan yang mendeskripsikan objek—dan berlaku bagi himpunan solusi di atas semua medan—mempunyai arti yang sangat khusus.
+Dalam kasus real, yakni $K=\mathbb R$, himpunan $\mathbb R^\times$ (dan demikian pula $H_{\mathbb R}$) terdiri atas dua “cabang” yang saling lepas, sehingga tidak *terhubung*. Dalam kasus kompleks, yakni $K=\mathbb C$, himpunan $\mathbb C^\times$ (dan demikian pula $H_{\mathbb C}$) adalah bidang real dengan satu titik dihilangkan, sehingga terhubung. Ini adalah fenomena khas geometri aljabar: sifat-sifat penting dapat bergantung pada lapangan dasar. Meskipun demikian, sifat-sifat yang hanya bergantung pada persamaan yang mendeskripsikan objek—dan berlaku bagi himpunan solusi di atas semua lapangan—mempunyai arti yang sangat khusus.
 
 Gambar keempat adalah sebuah *lingkaran*, dengan persamaan
 
@@ -190,7 +190,7 @@ Sekarang kita sampai pada definisi umum pertama.
 
 ### Definisi: kurva aljabar bidang afin {#br-ak-2025-2026-l01-def-01}
 
-Misalkan $K$ suatu medan. Sebuah *kurva aljabar bidang afin* di atas $K$ adalah himpunan nol (*lokus nol*) $V(F)\subseteq K^2$ dari suatu polinom takkonstan $F$ dalam dua variabel, yaitu
+Misalkan $K$ suatu lapangan. Sebuah *kurva aljabar bidang afin* di atas $K$ adalah himpunan nol (*lokus nol*) $V(F)\subseteq K^2$ dari suatu polinom takkonstan $F$ dalam dua variabel, yaitu
 
 $$
 F=\sum_{0\le i,j\le m}a_{ij}X^iY^j
@@ -223,7 +223,7 @@ $$
 X^2-Y^2=(X+Y)(X-Y),
 $$
 
-dan karena hasil kali dua unsur dalam suatu medan sama dengan nol tepat ketika salah satu faktornya nol, lokus nol ini hanyalah gabungan diagonal utama dan diagonal lainnya: gabungan dua garis afin. Lokus nol $2X+4Y+3$ adalah himpunan solusi persamaan linear itu, yakni sebuah garis afin. Lokus nol real $X^2+Y^2-3$ adalah lingkaran berpusat di titik asal dengan jari-jari $\sqrt3$. Sebaliknya, lokus nol real $X^2+Y^2$ hanya terdiri atas titik asal $(0,0)$; di atas $\mathbb C$ keadaannya berbeda. Lokus nol $5X^2+12Y^2-26$ adalah elips yang sumbunya sejajar sumbu koordinat, sedangkan lokus nol $3X^2-15Y^2-3$ adalah hiperbola yang dimampatkan.
+dan karena hasil kali dua unsur dalam suatu lapangan sama dengan nol tepat ketika salah satu faktornya nol, lokus nol ini hanyalah gabungan diagonal utama dan diagonal lainnya: gabungan dua garis afin. Lokus nol $2X+4Y+3$ adalah himpunan solusi persamaan linear itu, yakni sebuah garis afin. Lokus nol real $X^2+Y^2-3$ adalah lingkaran berpusat di titik asal dengan jari-jari $\sqrt3$. Sebaliknya, lokus nol real $X^2+Y^2$ hanya terdiri atas titik asal $(0,0)$; di atas $\mathbb C$ keadaannya berbeda. Lokus nol $5X^2+12Y^2-26$ adalah elips yang sumbunya sejajar sumbu koordinat, sedangkan lokus nol $3X^2-15Y^2-3$ adalah hiperbola yang dimampatkan.
 
 Kita akan membahas dan mengklasifikasikan secara rinci himpunan nol polinom kuadratik pada Kuliah 7. Dua polinom $X^3+Y^3+XY$ dan $X^3-4Y^2-XY$ berderajat $3$ dan jauh lebih sulit dipahami. Pertanyaan pertama adalah apakah kurvanya mulus atau memiliki singularitas. Himpunan nol $V(X^4)$ sama dengan $V(X)$, sehingga merupakan sumbu $y$. Polinom terakhir dapat difaktorkan sebagai
 
@@ -296,11 +296,11 @@ $$
 :=X_1^{\nu_1+\mu_1}\cdots X_n^{\nu_n+\mu_n}.
 $$
 
-Dalam konteks geometri aljabar, kasus yang terutama menarik bagi kita adalah ketika gelanggang dasar $R$ merupakan medan. Geometri aljabar mempelajari bentuk lokus nol polinom dalam beberapa variabel. Kelak kita akan melihat bahwa hubungan antara sifat aljabar dan sifat geometri menjadi sangat kuat apabila medan dasarnya tertutup secara aljabar.
+Dalam konteks geometri aljabar, kasus yang terutama menarik bagi kita adalah ketika gelanggang dasar $R$ merupakan lapangan. Geometri aljabar mempelajari bentuk lokus nol polinom dalam beberapa variabel. Kelak kita akan melihat bahwa hubungan antara sifat aljabar dan sifat geometri menjadi sangat kuat apabila lapangan dasarnya tertutup secara aljabar.
 
-### Definisi: medan tertutup secara aljabar {#br-ak-2025-2026-l01-def-03}
+### Definisi: lapangan tertutup secara aljabar {#br-ak-2025-2026-l01-def-03}
 
-Sebuah medan $K$ disebut *tertutup secara aljabar* jika setiap polinom takkonstan $F\in K[X]$ mempunyai sebuah akar di $K$.
+Sebuah lapangan $K$ disebut *tertutup secara aljabar* jika setiap polinom takkonstan $F\in K[X]$ mempunyai sebuah akar di $K$.
 
 ![Carl Friedrich Gauss (1777–1855)](authority/assets/Carl_Friedrich_Gauss.jpg)
 
@@ -308,7 +308,7 @@ Apa yang disebut *teorema dasar aljabar* pertama kali dibuktikan oleh Gauss.
 
 ### Teorema: teorema dasar aljabar {#br-ak-2025-2026-l01-thm-01}
 
-Medan bilangan kompleks $\mathbb C$ **tertutup secara aljabar**.
+Lapangan bilangan kompleks $\mathbb C$ **tertutup secara aljabar**.
 
 #### Bukti {#br-ak-2025-2026-l01-thm-01-proof}
 

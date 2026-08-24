@@ -1,0 +1,104 @@
+{
+  "schema": "ag-bridge-protected-surface-audit-v2",
+  "audited_utc": "2026-08-23T18:42:37.967496+00:00",
+  "status": "PASS",
+  "unit": 9,
+  "authority": {
+    "manifest_path": "authority/wikiversity/unit-09/UNIT_AUTHORITY_MANIFEST.json",
+    "manifest_bytes": 102154,
+    "manifest_sha256": "7cf7a956dffe854da9d021e3c74615573b91b5701d7e3b78a8f5f1aa45bfbc29",
+    "manifest_files_replayed": 35,
+    "official_pdf_pages": {
+      "authority/artifacts/lecture-09-official.pdf": 9,
+      "authority/artifacts/worksheet-09-official.pdf": 5
+    },
+    "lecture_revid": 1112241,
+    "worksheet_revid": 1059491,
+    "lecture_transclusions": 113,
+    "worksheet_transclusions": 109,
+    "ordered_exercise_map_sha256": "c906ba0b1073a162f7f55289c0f60114063d011756f1eb907bcf342336729495"
+  },
+  "targets": [
+    {
+      "path": "source/id-ID/lecture-09.md",
+      "bytes": 17091,
+      "sha256": "ab050d8e321638632546755f9f0f2f5c6328753e25728f0c7627814b5e3b81e4",
+      "Header": 30,
+      "Math": 202,
+      "Image": 1
+    },
+    {
+      "path": "source/id-ID/worksheet-09.md",
+      "bytes": 10408,
+      "sha256": "93c40c95817bf1331ef2ee0052d1fe02a065c5f7032d5853029badde5bf915ab",
+      "Header": 27,
+      "Math": 101,
+      "Image": 0
+    },
+    {
+      "path": "source/id-ID/worksheet-09-solutions.md",
+      "bytes": 4230,
+      "sha256": "322d7f1d46ce2ac5828ee747ab2b26a9cfcf665eccc7bec6e1af05b85d5d390b",
+      "Header": 4,
+      "Math": 37,
+      "Image": 0
+    }
+  ],
+  "topology": {
+    "unit_heading_ids": 30,
+    "duplicate_heading_ids": 0,
+    "exercises": 24,
+    "public_solutions": 3,
+    "solution_exercises": [
+      6,
+      13,
+      18
+    ],
+    "solution_revisions": [
+      1107958,
+      1059490,
+      1112817
+    ],
+    "invented_solutions": 0,
+    "untranslated_german_prose": 0,
+    "media_positions": 1,
+    "binary_surfaces": 1
+  },
+  "fidelity_findings": {
+    "protected_formula_needles": {
+      "lecture": 5,
+      "worksheet": 8,
+      "solutions": 6
+    },
+    "explicit_source_precision_delta": "The Unit 9 Indonesian reader preserves the Noether/Hilbert-basis/module sequence, all 24 exercises, and exactly the three public source solution surfaces; no new solution is invented.",
+    "remaining_mathematical_defects": 0,
+    "remaining_omissions": 0,
+    "invented_solutions": 0
+  },
+  "rights": {
+    "path": "authority/RIGHTS-unit-09.csv",
+    "sha256": "1ac4707f08ec52438dbc8ac2e200be3343ca17bcfbe91501dc2f66ff9935f3a4",
+    "closure_path": "authority/ASSET_CLOSURE-unit-09.json",
+    "closure_sha256": "c267b8470ba1e5920f280338dbcf33aa2d3919f282730be6850ebf4ce4722819"
+  },
+  "corrections_ledger": {
+    "path": "00_control/CORRECTIONS.csv",
+    "sha256": "438ee41e27e55db9e83965d4e1875cedf9c481fef681ea4b7d35d5bc65e96c6f",
+    "rows": 41,
+    "unit_09_records": []
+  },
+  "bound_qa": {
+    "machine": {
+      "path": "qa/UNITS_01_09_MACHINE_QA.json",
+      "sha256": "da948c9c375a1f0e7e9e5ab8d0528b8ae6e0b38de7fb403b247d44a5ae76e3f7"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_09_VISUAL_QA.json",
+      "sha256": "adda6de86647d48deeebc3ac44ae638bf9d2fb4fa2c7e8cf82db6c7e113bd4e3"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_09_RESPONSIVE_QA.json",
+      "sha256": "25a3deddf8cf8b7f2830a843c6a6c4a7d0bf398641b6d4b49f8acc8911c9530a"
+    }
+  }
+}

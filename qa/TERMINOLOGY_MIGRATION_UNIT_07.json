@@ -1,0 +1,265 @@
+{
+  "schema": "ag-bridge-terminology-migration-v1",
+  "applied": "2026-08-22",
+  "evidence_report": "authority/terminology-id-arxiv/TERMINOLOGY_QA_REPORT.md",
+  "evidence_manifest": "authority/terminology-id-arxiv/SOURCE_MANIFEST.json",
+  "replacements": [
+    {
+      "concept": "field",
+      "from": "medan",
+      "to": "lapangan",
+      "occurrences": 117,
+      "basis": "Both representative Indonesian primary PDFs use lapangan and neither uses medan."
+    },
+    {
+      "concept": "quotient ring",
+      "from": "gelanggang hasil bagi",
+      "to": "gelanggang faktor",
+      "occurrences": 22,
+      "basis": "The supporting Indonesian commutative-algebra paper explicitly uses gelanggang faktor for quotient rings."
+    }
+  ],
+  "files_examined": 21,
+  "files_changed": 19,
+  "changed_paths": [
+    "source/id-ID/lecture-01.md",
+    "source/id-ID/lecture-02.md",
+    "source/id-ID/lecture-03.md",
+    "source/id-ID/lecture-04.md",
+    "source/id-ID/lecture-05.md",
+    "source/id-ID/lecture-06.md",
+    "source/id-ID/lecture-07.md",
+    "source/id-ID/worksheet-01-solutions.md",
+    "source/id-ID/worksheet-01.md",
+    "source/id-ID/worksheet-02-solutions.md",
+    "source/id-ID/worksheet-02.md",
+    "source/id-ID/worksheet-03-solutions.md",
+    "source/id-ID/worksheet-03.md",
+    "source/id-ID/worksheet-04-solutions.md",
+    "source/id-ID/worksheet-04.md",
+    "source/id-ID/worksheet-05-solutions.md",
+    "source/id-ID/worksheet-05.md",
+    "source/id-ID/worksheet-06.md",
+    "source/id-ID/worksheet-07.md"
+  ],
+  "post_counts": {
+    "medan": 0,
+    "lapangan": 117,
+    "quotient_ring_old": 0,
+    "gelanggang_faktor": 22
+  },
+  "before": [
+    {
+      "path": "source/id-ID/lecture-01.md",
+      "bytes": 18910,
+      "sha256": "6cf20fdbb2f0930010729c77f689d9bbcfc5cddecd66f60d854c38f091762080"
+    },
+    {
+      "path": "source/id-ID/lecture-02.md",
+      "bytes": 14617,
+      "sha256": "850bebf6bd56aea2e980e26988f69d6ce584f8138a55f765971d374236ee6250"
+    },
+    {
+      "path": "source/id-ID/lecture-03.md",
+      "bytes": 11959,
+      "sha256": "d9077b0c66ad2615ede67bbe7f53bf0dec7805af92fcf988140b74dd4b5af83c"
+    },
+    {
+      "path": "source/id-ID/lecture-04.md",
+      "bytes": 12229,
+      "sha256": "30101a8c44828775ed51087c12b20b1fada751591e71027d5899c1c793fbe681"
+    },
+    {
+      "path": "source/id-ID/lecture-05.md",
+      "bytes": 13912,
+      "sha256": "f531379fc279a09d3ebb917c8b4d0deba388806153e2d45fc9457894bf75630d"
+    },
+    {
+      "path": "source/id-ID/lecture-06.md",
+      "bytes": 12923,
+      "sha256": "602d283f59020f738736f4f5506611f4e7c8e83f054cf17c887c36be13eae3d9"
+    },
+    {
+      "path": "source/id-ID/lecture-07.md",
+      "bytes": 22392,
+      "sha256": "5adc70ccf16e9c3de9c7ffc7667b87f1de078eae723c0f78fbf65901be8213d3"
+    },
+    {
+      "path": "source/id-ID/worksheet-01-solutions.md",
+      "bytes": 6585,
+      "sha256": "517f6810390261353b0b172b07919bdd6acab8655500b4a5224f540484c82bb7"
+    },
+    {
+      "path": "source/id-ID/worksheet-01.md",
+      "bytes": 10602,
+      "sha256": "dad226e3f8e09d96a5c7b5e8e3dd089dc9e064ee2f7214d76e0ab7d38d5fe45c"
+    },
+    {
+      "path": "source/id-ID/worksheet-02-solutions.md",
+      "bytes": 11874,
+      "sha256": "dbdb4ce7fa868eea28a809a1c82c70aa6ae442531f39121e7902d4998aff1961"
+    },
+    {
+      "path": "source/id-ID/worksheet-02.md",
+      "bytes": 10886,
+      "sha256": "ffd19cc6644a6bbad9c62a45bb9595f31b28e63b894f1598caa5056e7b27ee68"
+    },
+    {
+      "path": "source/id-ID/worksheet-03-solutions.md",
+      "bytes": 1905,
+      "sha256": "f65c9af8dd38f42952084fe9621e209bb5ca102c2c1a1befb100199695cf8fec"
+    },
+    {
+      "path": "source/id-ID/worksheet-03.md",
+      "bytes": 9196,
+      "sha256": "c8cdfc72e56f48d3b01fe36a169d1323d153a0255dea34df09801616408abcb6"
+    },
+    {
+      "path": "source/id-ID/worksheet-04-solutions.md",
+      "bytes": 6774,
+      "sha256": "5890d6727319a32ed5c734a7786a4fd88b00c6423abf649bf9dec6922c301617"
+    },
+    {
+      "path": "source/id-ID/worksheet-04.md",
+      "bytes": 12665,
+      "sha256": "5d5af872b912283aae1d138b4dafa1b85d9b08adc6a6cea47212385348005040"
+    },
+    {
+      "path": "source/id-ID/worksheet-05-solutions.md",
+      "bytes": 5748,
+      "sha256": "8cb0321a07f36150f1ea53aab4076e45eb135647eee3c590b39f4a16a54d6ce3"
+    },
+    {
+      "path": "source/id-ID/worksheet-05.md",
+      "bytes": 11564,
+      "sha256": "107c4c660a68539f1778d0aa75abc5e32441e524112f8c0577ab47fcf6002838"
+    },
+    {
+      "path": "source/id-ID/worksheet-06-solutions.md",
+      "bytes": 7954,
+      "sha256": "8f2118a46ef4b3cd25d3bdf1e579e81c2197cdadb000ba04a894816599b5b530"
+    },
+    {
+      "path": "source/id-ID/worksheet-06.md",
+      "bytes": 13245,
+      "sha256": "8b9d69fc49f4b94b9b3523f915912876be37415e8f41e1a1167b71fa8f684d12"
+    },
+    {
+      "path": "source/id-ID/worksheet-07-solutions.md",
+      "bytes": 5326,
+      "sha256": "8c6c52e4aa7e6be203be41235c2bb7a97c2689e4226738f78d62175fe770ecbf"
+    },
+    {
+      "path": "source/id-ID/worksheet-07.md",
+      "bytes": 16744,
+      "sha256": "c9f5342b8adeada2efd463eb239dafc638d8396ce848c4d411ea88a8ad1ba791"
+    }
+  ],
+  "after": [
+    {
+      "path": "source/id-ID/lecture-01.md",
+      "bytes": 18949,
+      "sha256": "46eeeb1a2e939ba7ff8641d5985a68ea8d8ed737dd7350d3f67412651eee0cbe"
+    },
+    {
+      "path": "source/id-ID/lecture-02.md",
+      "bytes": 14641,
+      "sha256": "9a429e98a56cdc7b3c678ee289f10d5f1af20712ae32b368cafcb7ea1754e348"
+    },
+    {
+      "path": "source/id-ID/lecture-03.md",
+      "bytes": 11968,
+      "sha256": "56de1ed24a7a55af1d3573811954b3669c8b7a44993392a34d911eb7f1cff151"
+    },
+    {
+      "path": "source/id-ID/lecture-04.md",
+      "bytes": 12238,
+      "sha256": "6a89da35f6ba952a2ca7a0cb4b622023e025328f6ef7ff0c60e32c9634c3cd29"
+    },
+    {
+      "path": "source/id-ID/lecture-05.md",
+      "bytes": 13921,
+      "sha256": "bba00a1a3c1e0961141e0b87ded4989cc9ea5866982c9c3ceef2fd8750cda6d7"
+    },
+    {
+      "path": "source/id-ID/lecture-06.md",
+      "bytes": 12938,
+      "sha256": "ea599dabf44a83a8acda7019e51a5335dad7ed54be7d53939a66e56a474cc6dd"
+    },
+    {
+      "path": "source/id-ID/lecture-07.md",
+      "bytes": 22411,
+      "sha256": "45023a789b52b562d2fbcd0aaf680453cf3dbef60c41542a89a42be01f63ff52"
+    },
+    {
+      "path": "source/id-ID/worksheet-01-solutions.md",
+      "bytes": 6588,
+      "sha256": "6f7b2cb79f1b26dca11ce3710eeaeb3516b1662b45bfca2d8fd7c3307fc74417"
+    },
+    {
+      "path": "source/id-ID/worksheet-01.md",
+      "bytes": 10620,
+      "sha256": "bdc24c1933498cbe52b82b58f639d3ab0c8611840b610fe5e3b843d1ec80c3a0"
+    },
+    {
+      "path": "source/id-ID/worksheet-02-solutions.md",
+      "bytes": 11873,
+      "sha256": "acf76ba53521911ac1f3b652756d7497eb9998d907e4a0f3f096a951aa5554ab"
+    },
+    {
+      "path": "source/id-ID/worksheet-02.md",
+      "bytes": 10910,
+      "sha256": "1553c44cd7cfd394ea3ea03ea84c50acfb914ba01d42b0b2ed40b803ab70b592"
+    },
+    {
+      "path": "source/id-ID/worksheet-03-solutions.md",
+      "bytes": 1889,
+      "sha256": "77015f5792f038b231dacdc9f7a08e81b73f6726a30aa45f04341120b36efdb4"
+    },
+    {
+      "path": "source/id-ID/worksheet-03.md",
+      "bytes": 9207,
+      "sha256": "9225b190dc148b7c8e735f3f72b916df0cfc875c42fb47f7cf2a2e139c230e2d"
+    },
+    {
+      "path": "source/id-ID/worksheet-04-solutions.md",
+      "bytes": 6781,
+      "sha256": "7e31413480e46712722babaac188e513b330845ca86d4e17d5180d4a46ff9053"
+    },
+    {
+      "path": "source/id-ID/worksheet-04.md",
+      "bytes": 12692,
+      "sha256": "2375caa8d98288504f0043d4c1233d8be767ae0a572f39c8cb8db412046e70bd"
+    },
+    {
+      "path": "source/id-ID/worksheet-05-solutions.md",
+      "bytes": 5750,
+      "sha256": "4a7de3d81f23c30f0a04aef3a37c1dc46076a3277c609602979a86d68bbad79b"
+    },
+    {
+      "path": "source/id-ID/worksheet-05.md",
+      "bytes": 11582,
+      "sha256": "1a0af2f3cba336a7d3b1ef30a6725d97e59142b40fbea04c4e2b1acc47b34c2f"
+    },
+    {
+      "path": "source/id-ID/worksheet-06-solutions.md",
+      "bytes": 7954,
+      "sha256": "8f2118a46ef4b3cd25d3bdf1e579e81c2197cdadb000ba04a894816599b5b530"
+    },
+    {
+      "path": "source/id-ID/worksheet-06.md",
+      "bytes": 13278,
+      "sha256": "a064ff157d4829b6926dc7e2e1ad7133c98b0db851ee5064c5358b57836aa855"
+    },
+    {
+      "path": "source/id-ID/worksheet-07-solutions.md",
+      "bytes": 5326,
+      "sha256": "8c6c52e4aa7e6be203be41235c2bb7a97c2689e4226738f78d62175fe770ecbf"
+    },
+    {
+      "path": "source/id-ID/worksheet-07.md",
+      "bytes": 16757,
+      "sha256": "8350ea75756c19a05e09f51074366e4ba85829819690b20a84122c6f9d0e94d3"
+    }
+  ]
+}

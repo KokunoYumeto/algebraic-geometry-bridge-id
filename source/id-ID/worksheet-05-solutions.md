@@ -31,7 +31,7 @@ $$
 \widetilde F=\sum_{i=0}^n a_iX^i.
 $$
 
-Karena medan tersebut tertutup secara aljabar, polinom ini mempunyai
+Karena lapangan tersebut tertutup secara aljabar, polinom ini mempunyai
 faktorisasi
 
 $$
@@ -102,7 +102,7 @@ luar hasil kali, sesuai faktorisasi polinom berkoefisien utama $a_n$.
 
 <!-- upstream_solution_revid: 1096503 -->
 
-Misalkan $K$ suatu medan tertutup secara aljabar. Pertimbangkan pemetaan
+Misalkan $K$ suatu lapangan tertutup secara aljabar. Pertimbangkan pemetaan
 
 $$
 \mathbb A_K^2\longrightarrow\mathbb A_K^1,
@@ -128,7 +128,7 @@ x\longmapsto u,
 y\longmapsto\lambda u^{-1},
 $$
 
-dengan pemetaan balik $u\mapsto x$. Sifat universal gelanggang hasil bagi dan
+dengan pemetaan balik $u\mapsto x$. Sifat universal gelanggang faktor dan
 lokalisasi memastikan bahwa pemetaan-pemetaan tersebut memang saling
 berbalikan.
 

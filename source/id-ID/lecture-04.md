@@ -261,7 +261,7 @@ $$
 \mathfrak b_2=\mathfrak a+(X+Z).
 $$
 
-Keduanya ideal prima, dan gelanggang hasil bagi yang pertama adalah
+Keduanya ideal prima, dan gelanggang faktor yang pertama adalah
 
 $$
 \begin{aligned}
@@ -315,10 +315,10 @@ $$
 \frac14U^2+Y^2=1.
 $$
 
-Ini merupakan persamaan elips. Sebelumnya, perhitungan gelanggang hasil bagi
+Ini merupakan persamaan elips. Sebelumnya, perhitungan gelanggang faktor
 $K[X,Y,Z]/\mathfrak b_1$ menghasilkan persamaan lingkaran. Tidak ada
 pertentangan: lingkaran dan elips dapat diubah satu sama lain dengan
-transformasi linear, sehingga gelanggang hasil baginya isomorfik. Sebagai
+transformasi linear, sehingga gelanggang faktornya isomorfik. Sebagai
 objek metrik, keduanya berbeda, dan irisan dua silinder ini terdiri atas dua
 elips. Transformasi variabel ortonormal mempertahankan struktur metrik, tetapi
 variabel $Y$, $X+Z$, dan $X-Z$ tidak mendefinisikan transformasi ortonormal.
@@ -359,10 +359,10 @@ atas berhingga banyak titik, kecuali garis itu sendiri merupakan komponen
 kurva; lihat Lema 1.3. Sekarang kita akan memperluas hasil ini ke irisan dua
 kurva bidang sebarang. Kita memerlukan definisi berikut.
 
-### Definisi: medan fungsi rasional {#br-ak-2025-2026-l04-def-03}
+### Definisi: lapangan fungsi rasional {#br-ak-2025-2026-l04-def-03}
 
-Misalkan $K$ suatu medan dan $K[X]$ gelanggang polinomial satu variabel di atas
-$K$. Medan pecahan $Q(K[X])$ disebut *medan fungsi rasional* di atas $K$ dan
+Misalkan $K$ suatu lapangan dan $K[X]$ gelanggang polinomial satu variabel di atas
+$K$. Lapangan pecahan $Q(K[X])$ disebut *lapangan fungsi rasional* di atas $K$ dan
 ditulis
 
 $$
@@ -371,7 +371,7 @@ $$
 
 ### Teorema: irisan kurva tanpa komponen bersama {#br-ak-2025-2026-l04-thm-01}
 
-Misalkan $K$ suatu medan dan
+Misalkan $K$ suatu lapangan dan
 
 $$
 F,G\in K[X,Y]
@@ -382,7 +382,7 @@ banyak titik $P_1,\ldots,P_n$ dalam $V(F,G)$.
 
 #### Bukti {#br-ak-2025-2026-l04-thm-01-proof}
 
-Pandang $F,G\in K[X,Y]$ sebagai unsur $K(X)[Y]$, dengan $K(X)$ medan fungsi
+Pandang $F,G\in K[X,Y]$ sebagai unsur $K(X)[Y]$, dengan $K(X)$ lapangan fungsi
 rasional dalam $X$. Menurut Soal 4.27, $F$ dan $G$ juga tidak mempunyai faktor
 persekutuan dalam $K(X)[Y]$. Karena gelanggang ini merupakan domain ideal
 utama, keduanya bersama-sama membangkitkan ideal satuan. Jadi, terdapat
@@ -415,7 +415,7 @@ seluruhnya berhingga. $\square$
 
 ### Korolari: kurva prima dengan takhingga banyak titik {#br-ak-2025-2026-l04-cor-01}
 
-Misalkan $K$ suatu medan dan $F\in K[X,Y]$ suatu polinom prima. Andaikan kurva
+Misalkan $K$ suatu lapangan dan $F\in K[X,Y]$ suatu polinom prima. Andaikan kurva
 $V(F)$ mempunyai takhingga banyak titik. Maka ideal pelenyapan $V(F)$ sama
 dengan ideal utama $(F)$, dan $V(F)$ tak tereduksi.
 

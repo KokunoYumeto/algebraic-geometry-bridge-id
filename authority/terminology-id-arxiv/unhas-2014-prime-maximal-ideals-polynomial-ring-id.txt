@@ -1,0 +1,287 @@
+ Vol. 11, No. 1, 71-76, Juli 2014
+
+        IDEAL PRIMA DAN IDEAL MAKSIMAL PADA
+              GELANGGANG POLINOMIAL
+                   Qharnida Khariani, Amir Kamal Amir dan Nur Erawaty
+
+                                               Abstrak
+Teori gelanggang merupakan salah satu bagian di matematika aljabar yang berkembang pesat saat ini. Dari
+suatu gelanggang      dapat dibentuk gelanggang baru , - yang disebut dengan gelanggang polinomial.
+Ideal adalah bagian dari gelanggang yang mempunyai struktur istimewa. Jika            gelanggang dan
+himpunan bagian tidak kosong dari , himpunan dikatakan ideal dari jika memuat semua hasil kali
+   dan    dengan sebarang anggota dan sebarang anggota . Dalam tulisan ini lebih terkhusus lagi
+akan dibahas mengenai ideal prima dan ideal maksimal. Lebih jelasnya, akan dibahas karakterisasi ideal
+prima, karakterisasi ideal maksimal, keterkaitan antara kedua ideal tersebut dan keterkaitan antara ideal
+prima dan ideal maksimal dengan gelanggang faktornya.
+
+Kata Kunci : gelanggang faktor, gelanggang polinomial, ideal, ideal maksimal, ideal prima.
+
+
+
+1. Pendahuluan
+        Teori gelanggang merupakan salah satu bagian di matematika aljabar yang berkembang
+pesat saat ini. Gelanggang adalah himpunan tak kosong dengan dua operasi biner, penjumlahan
+dan perkalian yang memenuhi aksioma tertentu. Sedangkan ideal adalah bagian dari gelanggang
+dengan struktur yang istimewa. Misalkan adalah subset dari ,maka dikatakan Ideal dari
+jika memuat semua hasil kali       dan   dengan sebarang anggota dan sebarang anggota
+  .
+        Paper ini akan membahas mengenai ideal prima dan ideal maksimal. Lebih jelasnya akan
+dibahas mengenai karakterisasi ideal prima, karakterisasi ideal maksimal, keterkaitan antara
+kedua ideal tersebut, dan keterkaitan antara kedua ideal dengan gelanggang faktornya.
+        Untuk pembahasan yang lebih lanjut, dibutuhkan beberapa defenisi. Oleh itu, sebelum
+memasuki pembahasan mengenai hal tersebut di atas, pada bagian ini disajikan lebih dahulu
+defenisi-defenisi pendukung yang akan dipakai dalam pembahasan selanjutnya.1
+
+Definisi 1.1 [1]
+Misal adalah suatu gelanggang dan             adalah sub gelanggang, maka          disebut ideal     jika
+untuk           dan    berlaku                 dan        .
+
+Definisi 1.2 [1]
+Sebuah ideal              pada sebuah gelanggang komutatif          disebut ideal prima jika
+berimplikasi           atau      , untuk       .
+
+Definisi 1.3 [2]
+
+1,2,3
+        Jurusan Matematika FMIPA Universitas Hasanuddin Makassar, Jl. Perintis Kemerdekaan Km.10
+        Makassar
+                                                                                                                   72
+                    Qharnida Khariani, Amir Kamal Amir dan Nur Erawaty
+
+
+
+Sebuah ideal     pada gelanggang disebut ideal maksimal jika                               berbeda dari     sedemikian
+sehingga tidak ada ideal sejati pada yang memuat .
+
+
+Teorema 1.1 [3]
+Jika    adalah gelanggang komutatif sedemikian sehingga                                    (dalam hal ini     memiliki
+identitas), maka setiap ideal maksimal adalah prima.
+
+Teorema 1.2 [4]
+Jika adalah lapangan, maka , - adalah ideal utama.
+
+2. Pembahasan
+       Masalah yang akan dibahas dalam bagian ini adalah mengenai hal-hal yang berhubungan
+dengan ideal prima dan ideal maksimal pada gelanggang polinomial.
+   Lebih jelasnya, dalam paper ini akan dipaparkan dengan terperinci permasalahan-
+permasalahan berikut:
+
+    1. Bagaimana karakterisasi ideal prima?
+    2. Bagaimana karakterisasi ideal maksimal?
+    3. Bagaimana keterkaitan antara ideal prima dan ideal maksimal dengan polinomial yang
+       tak tereduksi?
+
+Berikut ini adalah contoh dari “Gaussian Integer” yang bukan ideal prima.
+
+Contoh 2.1
+Misalkan                  dan            (         )       . Maka akan ditunjukkan apakah ideal prima atau tidak
+ideal prima pada .
+
+Bukti :
+            .
+                              (          )             (              )      ( )       (         )
+
+                                     .
+Ambil                             dan                             .
+Misalkan             , maka
+     (              )(            )
+
+                (                  )
+      (               )    (                       ).
+
+Karena         , artinya (                         )          dan (                )       .
+Bukti penyangkal
+Misalkan dipilih                             dan                          , maka
+      (      )(        )
+
+              .
+Karena         dan      , tetapi     maka berdasarkan definisi maka bukan ideal prima.
+Berikut ini adalah teorema mengenai ideal prima dengan polinomial yang tak tereduksi.
+                                                                                              73
+                 Qharnida Khariani, Amir Kamal Amir dan Nur Erawaty
+
+
+
+Teorema 2.1
+Misalkan adalah lapangan dan adalah ideal terhadap gelanggang polinomial , -, maka
+prima jika dan hanya jika  〈 〉 atau   〈 ( )〉 untuk suatu ( ) yang tak tereduksi.
+
+Bukti :
+   Jika ideal prima, maka       〈 〉 dan    〈 ( )〉 dengan ( ) yang tak tereduksi. Berdasarkan
+Teorema 1.2 jika ideal di , - maka adalah ideal utama. Misalkan          〈 ( )〉, jika ( )
+ , maka bukti selesai. Dan jika ( )      akan ditunjukkan bahwa ( ) tak tereduksi. Andaikan
+ ( ) tereduksi berarti terdapat ( ) dan ( ) dengan derajat ( )      ( ) dan derajat ( )
+  ( ). Sedemikian sehingga ( )        ( ) ( ). Karena derajat ( )    ( ) dan derajat ( )
+ ( ), maka ( ) 〈 ( )〉 dan ( ) 〈 ( )〉. Hal ini berarti bukan ideal prima. Jadi, terjadi
+kontradiksi. Dengan demikian ( ) tak tereduksi.
+
+    Jika     〈 〉 dan     〈 ( )〉 dengan ( ) yang tak tereduksi maka ideal prima.
+Untuk        〈 〉, misalkan ( ) ( ) 〈 〉 maka ( ) ( )                . Akibatnya ( )         atau
+  ( )     . Sehingga ( ) 〈 〉 atau ( ) 〈 〉. Dengan kata lain           〈 〉 prima.
+Untuk       〈 ( )〉 dengan ( ) yang tak tereduksi. Andaikan 〈 ( )〉 tidak prima, berarti terdapat
+  ( ) ( )      ( ) dengan ( ) 〈 ( )〉 dan ( ) 〈 ( )〉. Karena derajat ( )                ( ) dan
+derajat ( )       ( ), maka ( ) tak tereduksi. Jadi, terjadi kontradiksi. Dengan demikian ( )
+ideal prima.
+Berikut ini diberikan contoh mengenai ideal maksimal.
+
+Contoh 2.2
+      dan gelanggang komutatif, maka    ideal maksimal jika dan hanya jika untuk setiap
+         , terdapat  sedemikian sehingga            .
+
+Bukti :
+    Misalkan      ideal maksimal. Akan ditunjukkan bahwa untuk setiap                  , terdapat
+        sedemikian sehingga                  . Andaikan terdapat             untuk setiap
+sedemikian sehingga                 . Jelas bahwa          adalah ideal di . Karena             ,
+maka              . Jadi               .
+Lebih lanjut, karena                  dan       , maka               . Dengan demikian     bukan
+ideal maksimal.
+Terjadi kontradiksi dengan pernyataan awal, sehingga terbukti bahwa          ideal maksimal jika
+untuk setiap             , terdapat        sedemikian sehingga            .
+
+    Misalkan untuk setiap           , terdapat       sedemikian sehingga            . Akan
+ditunjukkan bahwa      ideal maksimal. Misalkan     adalah sebuah ideal lain dengan       .
+Misalkan            , berarti terdapat       , sehingga                  . Jadi,          .
+Karena,         , maka        . Dan karena         , maka         . Dengan demikian dapat
+disimpulkan bahwa ideal maksimal.
+
+Berikut adalah lemma mengenai gelanggang formal power series yang ideal maksimal.
+
+Lemma 2.1
+Misal ⟦ ⟧ adalah gelanggang dari formal power series dengan koefisiennya dalam lapangan .
+Maka 〈 〉 adalah ideal maksimal.
+                                                                                            74
+                Qharnida Khariani, Amir Kamal Amir dan Nur Erawaty
+
+
+
+Bukti :
+〈 〉 *                                              +.
+Misalkan adalah ideal dari ⟦ ⟧ dengan 〈 〉       . Akan ditunjukkan bahwa          ⟦ ⟧. Karena
+〈 〉      , maka ada ( )    tetapi ( )   〈 〉. Karena ( )     〈 〉 maka ( ) berbentuk :
+ ( )                          dengan       .
+Karena                    〈 〉 , maka                     . Oleh karena itu, karena ideal
+berarti :
+ ( ) ,                  -
+  ,                     -
+    ,                -
+           .
+Karena          dan     , maka terdapat         . Karena ideal, maka :
+
+menghasilkan
+
+Karena       maka      ⟦ ⟧.
+Karena       ⟦ ⟧ maka dapat disimpulkan bahwa 〈 〉 ideal maksimal.
+
+Berikut ini adalah teorema mengenai ideal maksimal dengan polinomial yang tak tereduksi.
+
+Teorema 2.2
+Misalkan    adalah lapangan dan     adalah ideal terhadap gelanggang polinomial , -,
+maka 〈 ( )〉 〈 〉 ideal maksimal terhadap , - jika dan hanya jika ( ) tak tereduksi atas .
+
+Bukti :
+    Misalkan〈 ( )〉 〈 〉 adalah ideal maksimal terhadap , -. Maka 〈 ( )〉      , - sehingga
+ ( )     . Karena 〈 ( )〉 ideal maksimal maka 〈 ( )〉 juga ideal prima. Sehingga ( )
+  ( ) ( ) berimplikasi ( )     ( ) atau ( )     ( ). Karena ( ) 〈 〉 berarti ( ) konstan
+atau ( ) konstan. Sehingga dapat disimpulkan bahwa ( ) tak tereduksi.
+
+    Jika ( ) tak tereduksi akan ditunjukkan bahwa 〈 ( )〉 〈 〉 ideal maksimal. Misal
+〈 ( )〉. Untuk menunjukkan ideal maksimal dari , - sedemikian sehingga            maka
+atau       , -. Karena lapangan maka menurut teorema Teorema 1.2 , - adalah ideal utama,
+maka        〈 ( )〉 untuk suatu ( )        , -. Karena ( )             maka ( )        ( ) ( ),
+ ( )     , -. Karena ( ) tak tereduksi maka ( ) konstan atau ( ) konstan. Jika ( )
+konstan maka ( )          , untuk suatu       . Berarti ( )   ( )      atau ( )      ( )      .
+Berarti ( )        , berakibat         . Karena          dan         maka         . Jika ( )
+konstan maka ( )         , untuk suatu       . Sehingga               . Oleh karena itu, untuk
+setiap ( )       , - berlaku      ( )     ( )      (karena ideal dari , -). Maka         , -.
+Sehingga dapat disimpulkan bahwa
+      〈 ( )〉 ideal maksimal dari , -.
+
+Seperti yang diketahui bahwa terdapat teorema yang menyatakan bahwa pada gelanggang
+komutatif, setiap ideal maksimal maksimal adalah prima, dan lemma berikut ini membuktikan
+bahwa terdapat ideal prima tapi bukan ideal maksimal.
+                                                                                                     75
+                     Qharnida Khariani, Amir Kamal Amir dan Nur Erawaty
+
+
+
+Lemma 2.2
+Diberikan                          gelanggang                                 , -                   dan
+    *                               +.
+Akan ditunjukkan bahwa          ideal prima tapi      bukan ideal maksimal.
+
+Bukti :
+      , -       *                                           +
+   *                                       +
+
+Ambil ( ) ( )               , -
+ ( )
+
+           ∑
+
+ ( )
+
+           ∑
+
+
+Misalkan ( ) ( )
+
+
+ ( ) ( )        ∑ ∑(        )
+
+
+                ∑(     )        (              )
+
+                (                     )
+                (           )
+
+
+Karena ( ) ( )      , maka
+Artinya        atau      . Jika             , maka ( )          . Jika        maka ( )     . Jadi, dapat
+disimpulkan bahwa ideal prima.
+
+Selanjutnya akan ditunjukkan bahwa bukan ideal maksimal.
+Diketahui bahwa            ideal. Akan ditunjukkan bahwa                               ideal dari      .
+Ambil        dan              . Karena        , maka berbentuk                             dengan
+dan       . Maka         (        )     dan        (     )                          . Karena
+       , maka         ideal terhadap .
+
+       *                                            +
+            *                                      + , dimana        .
+
+Sebelumnya telah diketahui bahwa    ideal dan          juga ideal. Untuk setiap                    dan
+             terdapat          di mana        . Dalam hal ini terdapat                           tetapi
+       . Sehingga            yang berarti            . Karena               maka                 bukan
+ideal maksimal.
+                                                                                             76
+                Qharnida Khariani, Amir Kamal Amir dan Nur Erawaty
+
+
+
+
+KESIMPULAN
+Dari pembahasan di atas disimpulkan beberapa hal berikut:
+   1. Jika               dan       (    ) . Maka tidak ideal prima pada .
+   2. Jika lapangan dan ideal terhadap , -, maka prima jika dan hanya jika            〈 〉 atau
+           〈 ( )〉 untuk suatu ( ) yang tak tereduksi.
+   3. Jika           dan gelanggang komutatif, maka         ideal maksimal jika dan hanya jika
+       untuk setiap             , terdapat     sedemikian sehingga              .
+   4. Jika ⟦ ⟧ adalah gelanggang dari formal power series dengan koefisiennya dalam
+       lapangan , maka 〈 〉 adalah ideal maksimal.
+   5. Jika lapangan dan ideal terhadap , -, maka 〈 ( )〉 〈 〉 ideal maksimal terhadap
+         , - jika dan hanya jika ( ) tak tereduksi atas .
+   6. Jika      gelanggang komutatif dengan            , - dan     *                         +,
+       maka ideal prima tapi bukan ideal maksimal.
+
+
+Daftar Pustaka
+
+[1]   Fraleigh, John. 1997. A First Course In Abstract Algebra, 5th Edition. University of Rhode
+      Island
+[2]   Fraleigh, John. 2002. A First Course in Abstract Algebra, 7th Edition. New York:
+      Addison-Wesley Publishing Company.
+[3]   Judson.W, Thomas. 2011. Abstract Algebra Theory and Applications. Stephen F. Austin
+      State University.
+[4]   Prihandoko.C, Antonius. 2009. Pengantar Teori Ring dan Implementasinya. Jember :
+      Program Studi Pendidikan Matematika, Universitas jember.
+

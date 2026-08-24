@@ -1,0 +1,201 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Quadriken/Proportionalität und Exzentrizität/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21598</id>
+    <revision>
+      <id>1112940</id>
+      <parentid>1090360</parentid>
+      <timestamp>2026-08-22T09:30:57Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112940</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2206" sha1="psezi8ss553u7rm3xry26fw3ok4j1uf" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Der Abstand von {{math|term= P=(x,y) |SZ=}} zum Nullpunkt ist {{math|term= \sqrt{x^2+y^2} |SZ=}} und der senkrechte Abstand zur Achse
+{{
+Relationskette
+| x
+|| 1
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist {{math|term= {{op:Betrag| x-1 |}} |SZ=.}} Die
+Proportionalität drückt man durch
+{{
+Relationskette/display
+| \frac{d(P,F)}{d(P,G)}
+|| \sqrt{e}
+||
+||
+||
+|SZ=
+}}
+aus. Also ist
+{{
+Math/display|term=
+\sqrt{x^2+y^2} = \sqrt{e} {{op:Betrag| x-1 |}}   \text{  bzw.  } x^2+y^2 =e(x-1)^2
+|SZ=.}}
+Somit ist
+{{
+Relationskette/display
+| (1-e)x^2 +y^2 +2ex-e
+|| 0
+||
+||
+||
+|SZ=
+}}
+eine algebraische Gleichung für eine Kurve, auf der alle Punkte liegen, die die Bedingung erfüllen. Bei
+{{
+Relationskette
+| e
+|| 1
+|| 
+|| 
+|| 
+|SZ=
+}} 
+wird die Gleichung zu
+{{
+Math/display|term= y^2+2ex-e=0 \text{ bzw. } x= -\frac{1}{2e} y^2 + \frac{1}{2}
+|SZ=,}}
+sodass in diesem Fall eine Parabel vorliegt. Es sei also
+{{
+Relationskette
+| e
+| \neq | 1
+|| 
+|| 
+|| 
+|SZ=
+}}
+im Folgenden. Die allgemeine Gleichung kann man zu
+{{
+Relationskette/display
+| x^2+ \frac{ 1}{1-e}y^2 +   \frac{ 2e }{1-e}x  -   \frac{ e}{1-e} 
+|| 0
+||
+||
+||
+|SZ=
+}}
+umformen und durch quadratisches Ergänzen auf die Form
+{{
+Relationskette/display
+| {{makl| x + \frac{e}{1-e} |}}^2 + \frac{ 1}{1-e}y^2 - \frac{e^2}{(1-e)^2} -   \frac{ e}{1-e}
+|| 0
+||
+||
+||
+|SZ=
+}}
+bringen. Dies schreiben wir als
+{{
+Relationskette/align
+| {{makl| x + \frac{e}{1-e} |}}^2 + \frac{ 1}{1-e}y^2 
+|| \frac{e^2}{(1-e)^2} +  \frac{ e}{1-e}
+|| \frac{ e^2-e^2+e   }{(1-e)^2}
+| {{defeqr|}} |c
+| &gt; | 0
+|SZ=.
+}}
+Der Faktor {{math|term= \frac{1}{1-e} |SZ=}} ist für
+{{
+Relationskette
+| e
+|&lt;| 1
+|| 
+|| 
+|| 
+|SZ=
+}}
+positiv und für
+{{
+Relationskette
+| e
+|&gt; | 1 
+|| 
+|| 
+|| 
+|SZ=
+}} 
+negativ. Im ersten Fall liegt also nach Koordinatenwechsel eine Gleichung der Form
+{{
+Relationskette/display
+| \tilde{x}^2+ \tilde{y}^2 
+|| c
+||
+||
+||
+|SZ=,
+}}
+also eine Ellipse, und im zweiten Fall liegt
+{{
+Relationskette/display
+| \tilde{x}^2 - \tilde{y}^2 
+|| c
+||
+||
+||
+|SZ=
+}}
+vor, also eine Hyperbel.
+|Textart=Lösung 
+|Kategorie=Theorie der Quadriken in zwei Variablen
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>psezi8ss553u7rm3xry26fw3ok4j1uf</sha1>
+    </revision>
+  </page>
+</mediawiki>

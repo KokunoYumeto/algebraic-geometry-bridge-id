@@ -1,0 +1,690 @@
+      PENYUSUNAN ALGORITME OPERASI GRUP YANG
+       DIBANGKITKAN OLEH KURVA HIPERELIPTIK
+         𝒚𝟐 + 𝒙𝒚 = 𝒙𝟓 + 𝒙𝟐 + 𝒙 ATAS LAPANGAN 𝔽𝟐𝟗𝟕
+
+           S. NURMALASARI 1, S. GURITMAN2, B. P. SILALAHI 2
+
+                                             Abstrak
+
+      Kurva hipereliptik adalah kelas spesial dari kurva aljabar dan dapat
+      dipandang sebagai generalisasi kurva eliptik. Pengembangan kurva
+      hipereliptik dapat diterapkan dalam bidang kriptografi kunci publik, seperti
+      dalam pertukaran kunci Diffie-Hellman. Pemilihan kurva hipereliptik genus
+      dua dengan lapangan berkarakteristik dua sangat menarik untuk
+      dikembangkan. Parameter kurva yang tepat akan membuat kriptografi kunci
+      publik memiliki tingkat keamanan yang tinggi dan bertahan dari serangan-
+      serangan kriptografi seperti serangan Frey Ruck. Dalam penelitian ini akan
+      dipilih kurva hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 .
+      Kemudian diperlukan efisiensi operasi grup yang dibangkitkan oleh kurva
+      hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 . Penelitian ini
+      mempunyai tiga tujuan utama. Pertama menganalisa tingkat keamanan kurva
+      hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 . Kedua
+      membentuk formulasi operasi grup yang dibangkitkan oleh kurva
+      hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 yang efisien.
+      Ketiga membentuk algoritme operasi grup yang dibangkitkan oleh kurva
+      hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 .
+
+      Kata kunci: algoritme Cantor, algoritme operasi grup, divisor, formulasi
+      operasi grup, grup kurva hipereliptik.
+
+
+                                  1 PENDAHULUAN
+
+        Perkembangan dan kemajuan teknologi informasi telah menjadi bagian
+dalam kehidupan manusia, tak terkecuali dalam hal komunikasi. Misalnya saja
+dengan jaringan internet, komunikasi jarak jauh dapat dilakukan dengan cepat dan
+mudah. Salah satu contoh sederhana adalah cara masyarakat melakukan
+pertukaran informasi atau pesan, yang biasanya menggunakan pos sekarang
+beralih menggunakan email melalui jaringan internet [3]. Salah satu masalah yang
+dihadapi dalam pemanfaatan jaringan internet adalah keamanan data, karena
+jaringan internet merupakan media komunikasi umum yang dapat diakses oleh
+
+1
+  Mahasiswa S2, Program Studi Matematika Terapan, Sekolah Pascasarjana IPB, Jalan Meranti Kampus IPB
+  Dramaga Bogor, 16680. Email: siskanurmala99@gmail.com
+2 Departemen Matematika, Fakultas Ilmu Matematika dan Pengetahuan Alam, Jalan Meranti Kampus IPB
+
+  Dramaga Bogor,16680.
+14          S. NURMALASARI, S. GURITMAN, B. P. SILALAHI
+
+
+
+siapapun. Sehingga sangat rawan terhadap penyadapan informasi yang bersifat
+rahasia oleh pihak-pihak yang tidak berhak mengetahui informasi tersebut.
+Berlandaskan alasan inilah diperlukan suatu teknik pengamanan yaitu teknik
+kriptografi. Kriptografi adalah studi teknik matematika yang berhubungan dengan
+aspek keamanan informasi seperti kerahasiaan, integritas data, otentikasi entitas,
+dan otentikasi data asli [9].
+          Untuk mengamankan suatu data, secara umum dalam kriptografi
+menggunakan sebuah kunci. Awalnya pada kriptografi menggunakan kunci yang
+sama untuk melakukan proses enkripsi (mengubah pesan dari data awal menjadi
+sandi) dan dekripsi (mengubah dari sandi menjadi data awal) di mana sistem ini
+disebut juga sebagai kriptografi kunci simetri. Pada kunci simetri, pengiriman data
+rahasia antara dua pihak yang akan berkomunikasi melalui saluran tidak aman
+mustahil dilakukan apabila dua pihak tersebut tidak bertemu secara langsung
+untuk menetapkan sebuah kunci bersama. Kemudian ditemukan sebuah metode
+yaitu kriptografi kunci asimetri (kunci publik) . Pada kriptografi kunci publik
+menggunakan kunci berbeda untuk proses enkripsi dan dekripsi data atau pesan,
+sehingga dua pihak yang akan berkomunikasi melalui saluran tidak aman tidak
+harus bertemu untuk saling bertukar kunci. Hal ini merupakan solusi dalam
+masalah pendistribusian kunci bersama antara dua pihak yang akan berkomunisi
+melalui saluran tidak aman. Skema pertukaran kunci ini pertama kali
+diperkenalkan oleh Whitfield Deffi dan Martin Hellman pada tahun 1976 [2].
+          Metode pertukaran kunci Diffie-Hellman merupakan salah satu
+komunikasi dengan sistem kriptografi kunci publik, di mana keamanannya
+didasarkan pada pemecahan masalah logaritma diskret. Masalah logaritma diskret
+dapat didefinisikan pada sebuah grup perkalian terbatas. Grup perkalian terbatas
+tersebut berupa lapangan berhingga yang dibentuk oleh bilangan prima 𝔾 =
+(ℤ∗𝑝 , 𝑥). Himpunan ℤ𝑝∗ dikatakan suatu grup perkalian, jika perkalian ℤ𝑝∗ dihitung
+dalam modulo 𝑝, operasi perkalian pada ℤ𝑝∗ bersifat asosiatif, terdapat elemen
+identitas yaitu 1 ∈ ℤ∗𝑝 , dan setiap elemen dalam grup ℤ∗𝑝 memiliki invers. Jika
+diketahui suatu nilai misalkan 𝑥 di dalam grup ℤ𝑝−1 maka akan mudah
+menghitung 𝑎 𝑥 𝑚𝑜𝑑 𝑝 = 𝑦 ∈ ℤ∗𝑝 dengan 𝑎 adalah generator dari ℤ∗𝑝 , akan tetapi
+mencari logaritma 𝑙𝑜𝑔𝑎 𝑦 = 𝑥 sulit untuk diselesaikan. Bilangan integer 𝑥 seperti
+ini disebut dengan logaritma diskret dari 𝑦 dengan basis 𝑎. Masalah logaritma
+diskret akan menjadi lebih sulit apabila menggunakan grup dengan order prima 𝑝
+yang sangat besar, di mana nilai 𝑝 tersebut minimal 1024 bit [10]. Akan tetapi,
+dengan nilai prima 𝑝 yang begitu besar masih ada serangan yang secara signifikan
+mampu menyelesaikan masalah logaritma diskret grup perkalian ℤ𝑝∗ tersebut,
+yaitu serangan kriptografi indeks kalkulus. Oleh karena itu, sistem kriptografi
+berbasis kurva eliptik memberikan alternatif untuk mewujudkan sistem kriptografi
+asimetri dengan ukuran kunci yang lebih kecil dan mampu bertahan dari serangan
+indeks kalkulus. Standar nilai prima 𝑝 pada kriptografi grup kurva eliptik adalah
+sebesar 160 bit [10].
+               JMA, VOL. 16, NO. 2, DECEMBER 2017, 13-26                    15
+
+
+
+         Pada tahun 1987 Neal Koblitz dalam paper nya berjudul “Elliptic Curve
+Cryptosystem” , pertama kali memperkenalkan bahwa solusi untuk meningkatkan
+keamanan masalah logaritma diskret grup multiplikatif ℤ∗𝑝 , yaitu dengan
+mendefinisikan sistem kriptografi berbasis kurva eliptik [6]. Selanjutnya, Neal
+Koblitz juga menulis paper dengan judul “Hyperelliptik Cryptosystem”, dalam
+paper tersebut dipaparkan bahwa solusi alternatif untuk meningkatkan derajat
+keamanan dari skema Diffie-Hellman adalah mendefinisikan sistem kriptografi
+berbasis kurva hipereliptik [7]. Pada sistem kriptografi berbasis grup kurva
+hipereliptik tersebut, diharapkan mampu menawarkan tingkat keamanan lebih
+tinggi dengan ukuran kunci yang lebih kecil dibandingkan grup multiplikatif ℤ∗𝑝
+dan grup kurva eliptik. Oleh karena itu, sistem kriptografi kurva hipereliptik
+sangat menarik untuk dikembangkan, akan tetapi masih terkendala oleh
+perhitungan operasi grup yang menyebabkan waktu komputasi menjadi semakin
+lama. Sehingga untuk mempercepat waktu komputasi pada grup kurva hipereliptik
+secara umum menggunakan algoritme Cantor [1]. Dalam kasus khusus, kurva
+hipereliptik genus dua atas lapangan biner memberikan efisiensi waktu komputasi
+yang lebih cepat dibandingkan menggunakan algoritme Cantor [5]. Kasus khusus
+lain pada penelitian Vijayakumar et al. [11] yaitu, memilih kurva hipereliptik
+terbaik dan menganalisis efisiensi waktu komputasi kurva hipereliptik dengan
+genus 2,3,4,5, dan 6 atas lapangan tertentu.
+         Pada penulisan ini akan mengkonstruksi operasi grup dengan
+mengoptimumkan formulasi operasi ganda dan operasi adisi kurva hipereliptik
+𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 yang diperoleh dari hasil ekplorasi
+kurva. Dari hasil formulasi tersebut dapat disusun algoritme operasi ganda dan
+operasi adisi, sehingga implementasinya dapat dilakukan dengan menggunakan
+sumber komputasi yang tersedia saat ini.
+         Adapun tujuan dari penelitian ini adalah
+1. Memilih dan menganalisa keamanan kurva hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 +
+    𝑥 atas lapangan 𝔽297 .
+2. Membentuk formulasi operasi grup yang dibangkitkan oleh kurva hipereliptik
+    𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 .
+3. Menyusun algoritme operasi grup yang dibangkitkan oleh kurva 𝑦 2 + 𝑥𝑦 =
+    𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 .
+
+
+                        2 TINJAUAN PUSTAKA
+
+                                Kurva Hipereliptik
+
+      Misalkan 𝐾 adalah suatu lapangan dan 𝐾    ̅ adalah ketertutupan aljabar
+(algebraic closure) dari 𝐾. Suatu kurva hipereliptik (hyperelliptic curve) 𝐶
+dengan genus 𝑔 atas 𝐾 (𝑔 > 1) adalah suatu persamaan yang berbentuk
+                       𝐶: 𝑦 2 + ℎ(𝑥)𝑦 = 𝑓(𝑥) di dalam 𝐾[𝑥, 𝑦]
+16          S. NURMALASARI, S. GURITMAN, B. P. SILALAHI
+
+
+
+dengan ℎ(𝑥), 𝑓(𝑥) ∈ 𝐾[𝑥], 𝑑𝑒𝑔𝑥 (ℎ(𝑥)) < 𝑔 sedangkan 𝑓(𝑥) adalah monik dan
+𝑑𝑒𝑔𝑥 𝑓(𝑥) = 2𝑔 + 1, serta 𝐶 memilik sifat tidak memuat titik singular. Ini berarti
+                   ̅×𝐾
+tidak ada (𝑢, 𝑣) ∈ 𝐾  ̅ yang secara simultan memenuhi ketiga persaman berikut
+ini:
+                             𝑦 2 + ℎ(𝑥)𝑦 = 𝑓(𝑥)
+                                2𝑦 + ℎ(𝑥) = 0
+                                  ℎ′ (𝑥) = 𝑓 ′ (𝑥)                   [7].
+
+                        Representasi Divisor Semi Tereduksi
+
+Lema 1
+       Jika 𝑇 = (𝑢, 𝑣) adalah titik biasa pada 𝐶, maka untuk setiap integer 𝑘 ≥ 1,
+ada tepat satu polynomial 𝑏𝑘 (𝑥) ∈ 𝐾 ̅ [𝑥] sedemikian sehingga:
+1. deg (𝑏𝑘 ) < 𝑘
+2. 𝑏𝑘 (𝑢) = 𝑣
+3. 𝑏𝑘2 (𝑥) + ℎ(𝑥)𝑏𝑘 (𝑥) ≡ 𝑓(𝑥) mod (𝑥 − 𝑢)𝑘         [7].
+
+                           Representasi Divisor Tereduksi
+
+     Misalkan 𝐷 = ∑ 𝑚𝑖 𝑇𝑖 − (∑ 𝑚𝑖 )∞ adalah divisor semi tereduksi. Jika
+∑ 𝑚𝑖 < 𝑔 dengan 𝑔 adalah genus dari 𝐶, maka 𝐷 disebut divisor tereduksi [7].
+
+                        Representasi Komputasi Anggota H
+
+      Berikut ini akan difokuskan pada kurva genus dua dan atas lapangan biner
+𝔽2𝑚 , maka notasi kelas divisor 𝐷 = 𝑑𝑖𝑣 (𝑎, 𝑏) ∈ 𝐇 berarti 𝑎(𝑥) dan 𝑏(𝑥) adalah
+polinomial atas 𝔽2𝑚 , dengan 𝑎(𝑥) monik, dan memenuhi syarat berikut:
+1. deg (𝑎(𝑥)) < 2
+2. deg (𝑏(𝑥)) < deg (𝑎(𝑥))
+3. 𝑎(𝑥) membagi 𝑏 2 (𝑥) + ℎ(𝑥)𝑏(𝑥) + 𝑓(𝑥)           [7].
+        Demi kepentingan komputasi yang pada gilirannya untuk diterapkan
+dalam bidang kriptografi, pada penulisan ini akan merepresentasikan anggota H
+dan mengklasifikasikannya sebagai berikut dengan 𝛼, 𝛽, 𝛾, dan 𝛿 diasumsikan
+anggota 𝔽2𝑚 .
+1. 𝐷2 = [[1, 𝛼, 𝛽], [𝛾, 𝛿]] merupakan representasi dari 𝑑𝑖𝑣 (𝑎, 𝑏), dimana
+                𝑎(𝑥) = 𝑥 2 + 𝛼𝑥 + 𝛽 dan 𝑏(𝑥) = 𝛾𝑥 + 𝛿 dengan 𝛼 ≠ 0.
+   Dalam makna geometri, jika 𝛼 ≠ 0, 𝐷2 terdiri dari dua titik rasional
+   berhingga yang berbeda, dan jika 𝛼 = 0, 𝐷2 terdiri dari dua titik rasional
+   berhingga yang sama.
+2. 𝐷1 = [[0,1, 𝛽], [0, 𝛿]] merupakan representasi dari 𝑑𝑖𝑣 (𝑎, 𝑏), dengan
+                                𝑎(𝑥) = 𝑥 + 𝛽 dan (𝑥) = 𝛿 .
+   Dalam makna geometri, 𝐷1 terdiri dari tepat satu titik rasional berhingga dan
+   jika 𝛿 = 0, 𝐷1 terdiri dari tepat satu titik khusus.
+                 JMA, VOL. 16, NO. 2, DECEMBER 2017, 13-26                         17
+
+
+
+3. 𝐷0 = [[0,0,1], [0,0]] merupakan representasi dari 𝑑𝑖𝑣 (𝑎, 𝑏), dengan
+                                𝑎(𝑥) = 1 dan 𝑏(𝑥) = 0
+   yang merupakan unsur identitas dari H. Dalam makna geometri, 𝑁 titik di tak-
+   hingga [4].
+
+Lema 2
+     Diberikan kurva hipereliptik 𝐶 atas lapangan 𝔽2𝑚 sebagai
+      𝑦 2 + (ℎ2 𝑥 2 + ℎ1 𝑥 + ℎ0 )𝑦 = 𝑥 5 + 𝑓4 𝑥 4 + 𝑓3 𝑥 3 + 𝑓2 𝑥 2 + 𝑓1 𝑥 + 𝑓0.
+Untuk 1 ≤ 𝑘 ≤ 4, jika dimisalkan 𝑦 ≡ 𝑏(𝑥)mod (𝑥 + 𝑢)𝑘 dengan
+                                      𝑘−1
+
+                                𝑏𝑘 = ∑ 𝑐1 (𝑥 + 𝑢)𝑖 .
+                                       𝑖=0
+Menurut Lema 1, maka 𝑐0 dihitung sebagai salah satu solusi dari persamaan
+kuadrat
+                              𝑦 2 + ℎ(𝑢)𝑦 + 𝑓(𝑢) = 0.
+Berikutnya, 𝑐𝑖 , untuk 1 ≤ 𝑖 ≤ 3, dihitung secara rekursif berdasarkan formulasi
+                                𝑢4 + 𝑓3 𝑥 2 + 𝑓1 + 𝑐0 ℎ1
+                          𝑐1 =
+                                          ℎ(𝑢)
+                                 𝑢𝑓3 + 𝑓2 + 𝑐0 ℎ2 + 𝑐1 ℎ1 + 𝑐1
+                           𝑐2 =
+                                              ℎ(𝑢)
+                                           𝑓3 + 𝑐1 ℎ2 + 𝑐2
+                                    𝑐3 =                               [4].
+                                                ℎ(𝑢)
+
+
+                                    Algoritme Cantor
+
+       Algoritme cantor adalah dasar algoritme yang digunakan untuk operasi
+grup, seperti operasi adisi dan operasi ganda dari dua divisor pada grup jacobian
+dari kurva hipereliptik. Algorime ini diberikan dalam dua tahap sebagaimana
+diberikan berikut ini.
+a. Tahap Semi Tereduksi
+   Input: Divisor tereduksi 𝐷1 = 𝑑𝑖𝑣(𝑎1 , 𝑏1 ) dan 𝐷2 = 𝑑𝑖𝑣(𝑎2 , 𝑏2 ) didefinisikan
+          pada kurva 𝑦 2 + ℎ(𝑥)𝑦 = 𝑓(𝑥) atas lapangan umum 𝐾.
+   Output: Divisor semi tereduksi 𝐷 = 𝑑𝑖𝑣(𝑎, 𝑏) dengan 𝐷~𝐷1 + 𝐷2 .
+   1. Gunakan algoritme euclidean diperluas untuk menghitung polinomial 𝑑1 , 𝑒1 ,
+      dan 𝑒2 dengan 𝑑1 = gcd(𝑎1 , 𝑎2) dan 𝑑1 = 𝑒1 𝑎1 + 𝑒2 𝑎2 .
+   2. Gunakan algoritme euclidean diperluas untuk menghitung polinomial 𝑑, 𝑐1 ,
+      dan 𝑐2 dengan 𝑑 = gcd(𝑑1 , 𝑏1 + 𝑏2 + ℎ) dan 𝑑 = 𝑐1 𝑑1 + 𝑐2 (𝑏1 + 𝑏2 + ℎ).
+   3. Definisikan nilai 𝑠1 = 𝑐1 𝑒1 , 𝑠2 = 𝑐1 𝑒2 dan 𝑠3 = 𝑐2 sehingga
+                          𝑑 = 𝑠1 𝑎1 + 𝑠2 𝑎2 + 𝑠3 (𝑏1 + 𝑏2 + ℎ).
+   4. Hitung nilai
+                                                   𝑎1 𝑎2
+                                               𝑎= 2
+                                                    𝑑
+18           S. NURMALASARI, S. GURITMAN, B. P. SILALAHI
+
+
+
+                dan
+                                   𝑠1 𝑎1 + 𝑠2 𝑎2 + 𝑠3 (𝑏1 𝑏2 + 𝑓)
+                              𝑏=                                  mod 𝑎.
+                                                  𝑑
+            5. Output (𝑎, 𝑏).
+
+b. Tahap Tereduksi
+         Input: Divisor semi tereduksi 𝐷 = 𝑑𝑖𝑣(𝑎, 𝑏) sebagai output algoritme
+   semi tereduksi.
+         Output: Secara tunggal divisor tereduksi 𝐷′ = 𝑑𝑖𝑣(𝑎′ , 𝑏 ′ ) dengan 𝐷′ ~𝐷.
+   1. Hitung
+                                    ′
+                                        (𝑏 2 + 𝑏 − 𝑓)
+                                  𝑎 =
+                                              𝑎
+                                   𝑏 ′ = (−ℎ − 𝑏)𝑚𝑜𝑑 𝑎′ .
+   2. Jika deg(𝑎′) > 2 dan didefinisikan 𝑎 ← 𝑎′ , 𝑏 ← 𝑏 ′ , kembali ke langkah 1.
+   3. Misalkan 𝑐 adalah koefisien pemuka dari 𝑎′ , definisikan
+                                   𝑎′ ← 𝑐 −1 𝑎′ .
+                ′  ′
+   4. Output (𝑎 , 𝑏 ) [1].
+
+
+                                    3 METODE
+
+        Langkah-langkah umum yang akan dilakukan pada penelitian ini adalah
+sebagai berikut:
+1. Memilih dan menganalisa keamanan kurva hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 +
+   𝑥 atas lapangan 𝔽297 .
+2. Membentuk formulasi operasi ganda efisien dengan menggunakan algoritme
+   Cantor dari grup yang dibangkitkan oleh kurva hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 +
+   𝑥 2 + 𝑥atas lapangan 𝔽297 .
+3. Menyusun algoritme operasi ganda yang dibangkitkan oleh kurva hipereliptik
+   𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥atas lapangan 𝔽297 .
+
+                                       Pemilihan Kurva
+
+         Pada pemilihan kurva, terlebih dahulu tetapkan nilai 𝑚 sebelum
+polinomial tak teruraikan dibangkitkan. Tetapkan genus 𝑔 sebesar dua,
+selanjutnya eksplorasi kurva untuk membangkitkan kurva hipereliptik dengan
+genus dua di mana proses pembangkitan kurva tersebut dengan membangkitkan
+polinomial ℎ(𝑥) dan 𝑓(𝑥) secara acak. Pada polinomial ℎ(𝑥) terdiri dari tiga
+parameter ℎ0 , ℎ1 , dan ℎ2 yang akan dibangkitkan secara acak, dengan ℎ0 , ℎ1 , ℎ2 ∈
+{0,1}. Sedangkan polinomial 𝑓(𝑥) parameter yang harus dibangkitkan secara acak
+terdiri dari lima parameter yaitu, 𝑓0 , 𝑓1 , 𝑓2 , 𝑓3 , dan 𝑓4 serta penetapan parameter 𝑓5
+yang bernilai 1, dengan 𝑓0 , 𝑓1 , 𝑓2 , 𝑓3 , 𝑓4 ∈ {0,1}. Selanjutnya, uji kurva tersebut
+berdasarkan definisi kurva hipereliptik dengan menggunakan software simbolik.
+                JMA, VOL. 16, NO. 2, DECEMBER 2017, 13-26                       19
+
+
+
+
+                                  Analisis Keamanan
+
+        Untuk menerapkan sistem kriptografi logaritma diskret menggunakan
+kurva hipereliptik, haruslah memilih kurva 𝐶 dengan lapangan yang sesuai.
+Berikut diberikan sifat-sifat untuk memilih lapangan yang sesuai pada kurva
+tersebut.
+1. Aritmatik dalam lapangan 𝐾 harus efisien untuk diimplementasikan, lapangan
+   hingga berkarakteristik dua sangat menarik untuk dipilih.
+2. Orde grup Jacobian 𝐽(𝐾) dari 𝐶, dinotasikan sebagai #𝐽(𝐾) harus terbagi oleh
+   bilangan prima yang besar. Berdasarkan tekhnologi komputer saat ini untuk
+   memastikan keamanan kurva, #𝐽(𝐾) harus terbagi oleh bilangan prima 𝑟 yang
+   mempunyai minimal 45 digit. Selanjutnya untuk menghindari serangan Frey
+   dan Rü ck, 𝑟 haruslah tidak dapat dibagi oleh 𝑞 𝑘−1 untuk semua 𝑘, dimana
+   masalah logaritma diskret didalam 𝔽𝑞𝑘 ada jika (1 ≤ 𝑘 ≤ 2000/(𝑙𝑜𝑔2 𝑞)).
+
+
+                     4 HASIL DAN PEMBAHASAN
+
+      Grup Jacobian Kurva 𝒚𝟐 + 𝒙𝒚 = 𝒙𝟓 + 𝒙𝟐 + 𝒙 atas Lapangan 𝔽𝟐𝟗𝟕
+
+       Berikut merupakan orde dari grup Jacobian H dengan kasus kurva
+hipereliptik 𝒚𝟐 + 𝒙𝒚 = 𝒙𝟓 + 𝒙𝟐 + 𝒙 atas lapangan 𝔽𝟐𝟗𝟕 . Orde dari grup H yang
+dinotasikan       sebagai    #H      adalah     59      digit,    yaitu     sebesar
+25108406941546737996390354885625124943376439570684227477754
+dan memiliki subgrup non-trivial berorder prima besar, dalam hal ini faktorisasi
+prima dari #H adalah sebagai berikut:
+18473392463868826910318794676754071940716909907019619 ∗ (2 ∗ 3
+                ∗ 1747).
+        Faktorisasi prima besar ini menunjukkan bahwa sistem kriptografi kurva
+hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 dapat bertahan dari
+serangan Poligh Helman dan karena faktorisasi prima besar dari #H adalah
+sebesar 53 digit, maka sistem kriptografi kurva hipereliptik 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 +
+𝑥 atas lapangan 𝔽297 dapat bertahan dari serangan Polard Rho. Selanjutnya, prima
+                                                 𝑘−1
+besar dari faktorisasi #H tidak terbagi oleh 297     untuk semua 𝑘, maka system
+                                 2           5    2
+kriptogragi kurva hipereliptik 𝑦 + 𝑥𝑦 = 𝑥 + 𝑥 + 𝑥 atas lapangan 𝔽297 dapat
+bertahan dari serangan Frey Ruck, di mana masalah logaritma diskret didalam
+𝔽297 𝑘 ada jika (1 ≤ 𝑘 ≤ 2000/(𝑙𝑜𝑔2 297 )) .
+20          S. NURMALASARI, S. GURITMAN, B. P. SILALAHI
+
+
+
+                          Formulasi Operasi Ganda
+
+       Berikut ini akan menerapkan hasil formulasi operasi divisor untuk
+menurunkan algoritme operasi grup Jacobian H dari kasus kurva hipereliptik 𝒚𝟐 +
+𝒙𝒚 = 𝒙𝟓 + 𝒙𝟐 + 𝒙 atas lapangan 𝔽𝟐𝟗𝟕 . Untuk memudahkan formulasi operasi dari
+grup H, dapat dibedakan dalam dua kasus kasus berikut ini.
+
+1. Kasus 𝐷 = [[1, α, 𝛽], [γ, 𝛿]].
+   Representasi 𝐷 dapat ditulis sebagai div(a,b), dengan
+                                 𝑎 = 𝑥 2 + 𝛼𝑥 + 𝛽 dan 𝑏 = 𝛾𝑥 + 𝛿.
+   Misalkan
+                  𝑞 = Quo(a,h)= 𝑥 + 𝛼 dan 𝑟 = 𝑎 mod ℎ = 𝛽,
+   maka perhatikan dua kasus berikut ini.
+   (a) Jika 𝑟 = 0 berarti 𝛽 = 0, maka diperoleh 𝑑 = gcd(𝑎, ℎ) = ℎ. Sehingga
+                              𝑑 = 0 ∙ 𝑎 + 1 ∙ ℎ dan 𝑎 = 𝑞𝑑.
+      Oleh karena itu,
+                               𝑎2
+                          ′
+                        𝑎 = 2 = 𝑞 2 = (𝑥 + 𝛼)2 = 𝑥 2 + 𝛼 2
+                               𝑑
+                         𝑏 ′ = 𝑐0 + 𝑐1 (𝑥 + 𝛼) = 𝑐1 𝑥 + 𝑐1 𝛼 + 𝑐0 .
+      Dari Lema 2, diperoleh
+                                   𝑐0 = 𝑏(𝛼) = 𝛾𝛼 + 𝛿
+                                          𝛼 4 + 𝛾𝛼 + 𝛿 + 1
+                                   𝑐1 =                     .
+                                                  𝛼
+        Jika 𝛼 ≠ 0, sehingga diperoleh
+                              𝐷 ⊞ 𝐷 = [[1,0, 𝛽′], [γ′, 𝛿′]]
+        dengan formulasi
+                               𝛽′ = 𝛼 2
+                                      𝛼 4 + 𝛾𝛼 + 𝛿 + 1
+                                γ′ =
+                                                𝛼
+                               𝛿 ′ = 𝛼 4 + 1.
+        Jika 𝛼 = 0 berarti 𝑎 = 𝑥 2 , sehingga 𝐷~𝑁. Oleh karena itu 𝐷 ⊞ 𝐷 = 𝑁.
+   (b) Jika 𝑟 ≠ 0, sehingga diperoleh
+                       𝑑 = gcd(𝑎, ℎ) = 𝑟 dan 𝑑 = 1 ∙ 𝑎 + 𝑞 ∙ ℎ .
+        Dari algoritme tahap semi tereduksi, diperoleh
+                                     𝑎2
+                              𝑎′ = 2
+                                    𝑑
+                                     𝑎𝑏 + 𝑞(𝑏 2 + 𝑓)
+                              𝑏′ =                      mod 𝑎′ .
+                                              𝑑
+        Misalkan
+                                ′
+                                     𝑦3 𝑥 3 + 𝑦2 𝑥 2 + 𝑦1 𝑥 + 𝑦0
+                              𝑏 =                                ,
+                                                   𝑑
+        sehingga diperoleh
+                               𝑦3 = (𝛾 + 1)𝛾 + 𝛼 3 + 1
+                 JMA, VOL. 16, NO. 2, DECEMBER 2017, 13-26                                21
+
+
+
+                                𝑦2 = (𝛼 3 + 1)𝛼 + 𝛽 2 + 𝛿 + 1
+                                𝑦1 = 𝛿 2 + 𝛽𝛾 + 𝛼(𝛽 2 + 𝛿 + 1)
+                                𝑦0 = 𝛽𝛿 + 𝛼(𝛽 2 𝛼 + 𝛿 2 ).
+      Dari algoritme tahap tereduksi, misalkan
+                                                   𝑏 2 + 𝑏ℎ + 𝑓)
+                        𝑐2 𝑥 2 + 𝑐1 𝑥 + 𝑐0 =                      .
+                                                            𝑎
+      Sehingga diperoleh,
+                                       𝑐2 = 𝑦32
+                                       𝑐1 = 𝛽 2
+                                       𝑐0 = (𝛼 2 𝑦3 + 𝛽)𝑦3 + 𝑦22 .
+      Kasus 𝑐2 = 0 maka 𝑦3 = 0 , oleh karena itu
+                                 𝐷 ⊞ 𝐷 = [[1,0, 𝛽′], [0, 𝛿′]].
+      dengan formulasi
+                                            𝑐0      𝑦2 2
+                                   𝛽′ = = ( )
+                                            𝑐1       𝛽
+                                             𝑦2 (𝛽′)2 + (𝑦1 + 𝑑)𝛽′ + 𝑦0
+              𝛿 ′ = 𝑏(𝛽 ′ ) + ℎ(𝛽 ′ ) =                                      .
+                                                              𝑑
+      Kasus 𝑐2 ≠ 0, maka 𝛾 ′ dan δ' dihitung sebagai berikut
+        ′
+                  𝑦3 𝑥 3 + 𝑦2 𝑥 2 + (𝑦1 + 𝑑)𝑥 + 𝑦0
+       𝛾 𝑥+𝛿 =                                                mod (𝑥 2 + 𝛼 ′ 𝑥 + 𝛽 ′ ).
+                                      𝑑
+     Oleh karena itu,
+                           𝐷 ⊞ 𝐷 = [[1, α′, 𝛽′], [γ′, 𝛿′]]
+     dengan formulasi
+                              ′
+                                   𝑐1         𝛽 2
+                           𝛼 = =( )
+                                  𝑐2         𝑦3
+                                   𝑐0              𝛽        𝑦2 2
+                            𝛽′ = = 𝛼 2 + + ( )
+                                   𝑐2              𝑦3       𝑦3
+                                     ′ (𝛼 ′
+                                   𝛼                    2
+                                            𝑦3 + 𝑦2 ) + 𝛽 ′ 𝑦3 + 𝑦1 + 𝑑
+                           𝛾′ =
+                                                          𝑑
+                                     ′ (𝛼 ′           ) 2
+                                   𝛽        𝑦3 +  𝑦 2     + 𝑦0
+                           𝛿′ =                                 .
+                                                 𝑑
+
+2. Kasus 𝐷 = [[0,1, 𝛽], [0, 𝛿]].
+   Representasi 𝐷 dapat ditulis sebagai div(a,b), dengan
+                              𝑎 = 𝑥 + 𝛽 dan 𝑏 = 𝛿.
+   Dari Lema 1, diperoleh
+                    𝑎′ = 𝑎2 = (𝑥 + 𝛽)2 = 𝑥 2 + 𝛽 2
+                    𝑏 ′ = 𝑐0 + 𝑐1 (𝑥 + 𝛽) = 𝑐1 𝑥 + 𝑐1 𝛽 + 𝑐0 .
+   Dari Lema 2, diperoleh
+                                            𝛽4 + 𝛿 + 1
+                          𝑐0 = 𝛿 dan 𝑐1 =              .
+                                                 𝛽
+   Oleh karena itu,
+22           S. NURMALASARI, S. GURITMAN, B. P. SILALAHI
+
+
+
+                            𝐷 ⊞ 𝐷 = [[1,0, 𝛽′], [γ′, 𝛿′]]
+     dengan formulasi
+                                𝛽′ = 𝛽2
+                                     𝛽4 + 𝛿 + 1
+                                γ′ =
+                                         𝛽
+                                  ′    4
+                                𝛿 = 𝛽 + 1.
+     Jika 𝛽 = 0, maka
+                                    𝐷 ⊞ 𝐷 = 𝑁.
+
+                           Algoritme Operasi Ganda
+
+        Hasil formulasi operasi ganda pada pembahasan diatas dapat
+disederhanakan dalam bentuk algoritme, yang mana langkah-langkah penyusunan
+algoritmenya disesuaikan dengan urutan perhitungan formulasi operasi ganda
+yang telah dioptimumkan.
+INPUT: 𝐷 = [[ 𝑥, 𝐴, 𝐵] , [ 𝑃, 𝑆]] sebagai representasi sembarang anggota H yang
+          berarti 𝑥 ∈ {0,1}, serta 𝐴, 𝐵, 𝑃, dan 𝑆 anggota lapangan 𝔽297
+OUTPUT: 𝐷 ⊞ 𝐷 = [ [ 𝑥’, 𝐴’, 𝐵’] , [ 𝑃′, 𝑆’] ] anggota H hasil doubling dari 𝐷.
+1. Jika 𝑥 = 1
+   a. Untuk 𝐵 ≠ 0, hitung
+        𝑌3 = ( 𝑃 + 1)𝑃 + 𝐴3 + 1;                     𝑌2 = (𝐴3 + 1)𝐴 + 𝐵 2 + 𝑆 + 1;
+                  2                             2
+        𝑌1 = ( 𝐵 + 𝑆 + 1)𝐴 + 𝐵𝑃 + 𝑆 ; 𝑌0 = 𝑆𝐵 + 𝐴𝑆 2 + (𝐴𝐵)2 .
+         Jika 𝑌3 ≠ 0, maka
+                    𝐾 = (𝐵 2 )−1 ; 𝑍 = 𝐴′ 𝑌3 + 𝑌2 ; 𝐶 = 𝐵; 𝐽 = 𝐶 −1 .
+                                                𝑥′ = 1 ;
+                                             ′
+                                           𝐴 = ( 𝑌2 𝐾 )2;
+                              𝐵 ′ = ( 𝑌2 𝐾)2 + 𝐵𝐾 + 𝐴2 ;
+                                𝑃′ = ( 𝐴′ 𝑍 + 𝐵 ′𝑌3 + 𝑌1 )𝐽 + 1;
+                                     𝑆 ′ = ( 𝐵 ′ 𝑍 + 𝑌0 )𝐽.
+        Return ( [ [ 𝑥′, 𝐴′, 𝐵′}] , [ 𝑃′, 𝑆′] ] ) .
+        Jika 𝑌3 = 0, maka
+        𝑥 ′ = 0;    𝐴′ = 1; 𝑃′ = 0;              𝐵′ = (𝑌2 𝐽)2 ;
+          ′          ′
+        𝑆 = [( 𝑌2 𝐵 + 𝑌1 + 𝐵)𝐵 + 𝑌0 ]𝐽.
+        Return ( [ [ 𝑥′, 𝐴′, 𝐵′}] , [ 𝑃′, 𝑆′] ] ) .
+   b. Untuk 𝐵 = 0, hitung.
+        Jika 𝐴 ≠ 0, maka
+                          𝑥′ = 1; 𝐴′ = 0; 𝐵′ = 𝐴2 ;              𝑇 = 𝐴−1 ;
+                         𝑃′ = ( 𝑆 + 1)𝑇 + 𝑃 + 𝐴3 ;            𝑆′ = 𝐴4 + 1.
+        Return ( [ [ 𝑥′, 𝐴′, 𝐵′}] , [ 𝑃′, 𝑆′] ] ) .
+        Jika A=0, maka return N.
+2. Jika 𝑥 = 0
+   Jika 𝐵 ≠ 0, maka
+                                  𝑥′ = 1; 𝐴′ = 0; 𝐵′ = 𝐵 2 ;
+                  JMA, VOL. 16, NO. 2, DECEMBER 2017, 13-26                               23
+
+
+
+                                      𝐶 = 𝐵; 𝐽 = 𝐶 −1 ;
+                                    ′ )2
+                         𝑃′ = [( 𝐵        + S + 1]J; 𝑆′ = 𝐵 4 + 1.
+        Return ( [ [ 𝑥′, 𝐴′, 𝐵′}] , [ 𝑃′, 𝑆′] ] ) .
+   Jika 𝐵 = 0, maka return N.
+
+                                Algoritme Operasi Adisi
+
+       Dengan cara seperti pada formulasi operasi ganda, diperoleh formulasi
+operasi adisi untuk pembentukan algoritme operasi adisi, yang mana langkah-
+langkah penyusunan algoritmenya disesuaikan dengan urutan perhitungan
+formulasi operasi adisi yang telah dioptimumkan.
+INPUT: 𝐷1 = [[ 𝑥1 , 𝐴1 , 𝐵1 ] , [ 𝑃1 , 𝑆1 ]] dan 𝐷2 = [[ 𝑥2 , 𝐴2 , 𝐵2 ] , [ 𝑃2 , 𝑆2 ]] sebagai
+         representasi sembarang anggota H.
+OUTPUT: 𝐷1 ⊞ 𝐷2 = [ [ 𝑥, 𝐴, 𝐵] , [ 𝑃, 𝑆] ] anggota H.
+    1. Jika 𝑥1 = 𝑥2 = 1, hitung
+       𝐴′ = 𝐴1 + 𝐴2 ;            𝐵 ′ = 𝐵1 + 𝐵2 ;
+       a. Jika 𝐴′ ≠ 0, hitung
+           𝑃′ = 𝑃1 + 𝑃2 ;         𝑆 ′ = 𝑆1 + 𝑆2;
+                    ′  −1
+           𝑄1 = (𝐴 ) ;          𝑈 = 𝐵 ′ 𝑄1; 𝑈 ′ = 𝑈 2 ; 𝑅 = 𝑈 ′ + 𝐴2 𝑈 + 𝐵2 ;
+               Jika 𝑅 ≠ 0, hitung
+               𝐶 = 𝑅𝐴′ ;           𝐽 = 𝐶 −1 ;     𝑇 = (𝑌2 + 𝐴2 𝑌3 );
+               𝑌3 = 𝑆 ′ + 𝑈𝑃′;                    𝑌2 = (𝑈 + 𝐴′ )𝑌3 + 𝑅𝑃′;
+                𝑌1 = 𝐶𝑃2 + 𝐴2 𝑇 + 𝐵2 𝑌3 ;         𝑌0 = 𝐶𝑆2 + 𝐵2 𝑇.
+                    Jika 𝑌3 ≠ 0, maka:
+                      𝑥 = 1; 𝐾 = 𝑌3 −1 ; 𝑊 = 𝐶𝐾;
+                      𝐴 = 𝐴′ + 𝑊 2 ; 𝐵 = 𝐵 ′ + (𝐴 + 𝐴1 )𝐴′ + (𝐴1 + 𝑌2 𝐾) + 𝑊;
+                      𝑇 = 𝐴𝑌3 + 𝑌2; 𝑃 = (𝐴𝑇 + 𝐵𝑌3 + 𝑌1 )𝐽 + 1; 𝑆 = (𝐵𝑇 + 𝑌0 )𝐽.
+               Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+                     Jika 𝑌3 = 0, maka
+                        𝑥 = 0;       𝐴 = 1;       𝑃 = 0; 𝐵 = 𝐴′ + (𝑌2 𝐽)2 ;
+                        𝑆 = [( 𝑌2 𝐵 + 𝑌1 + 𝐶)𝐵 + 𝑌0 ]𝐽.
+               Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+
+                 Jika 𝑅 = 0.
+                    Untuk kasus 𝑈 = 0, hitung
+                      𝑥 = 1;      𝐴 = 𝐴′;       𝐵 = 𝐴1 𝐴2 ;
+                      𝑃 = 𝑃1 + 𝑃′ 𝐴2 𝑄1 ;       𝑆 = 𝑆2 + (𝑃 + 𝑃2 )𝐴2.
+                    Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+                    Untuk kasus 𝑈 ≠ 0, hitung
+                      𝐵1′ = (𝑈 + 𝐴1 )(𝑈 + 𝐴2 );         𝑃1′ = 𝑃1 + (𝑃′ 𝐴2 𝑄1 );
+                                                                   2
+                     𝑇0 = 𝑃1 𝑈 + 𝑆1       𝑍 = 𝑈 −1; 𝑃2′ = (𝑈 ′ + 𝑇0 + 1)𝑍;
+                     𝑃𝐺 = 𝑃1′ + 𝑃2′ ;    𝐿 = 𝑈+𝑄1 𝐴1 𝐴2 ;          𝑈𝐿 = 𝐿 + 𝑈;
+                                       2                 ′
+                      𝐶1 = (𝑄1 𝐴1 𝐴2 ) ;        𝐶 = 𝐴 𝐶1 ;         𝐽 = 𝐶 −1 .
+24            S. NURMALASARI, S. GURITMAN, B. P. SILALAHI
+
+
+
+                     𝑌3 = 𝑈𝐿 𝑃𝐺 + 𝐴2 (𝑃1′ + 𝑃2 ); 𝑌2 = 𝑃𝐺 𝐶2 + (𝐴′ + 𝐿)𝑌3;
+                      𝑌1 = 𝐶𝑃2 + 𝐴2 𝑇 + 𝐵2 𝑌3;           𝑌0 = 𝐶(𝑈𝑃2′ + 𝑇0 ) + 𝑈 ′ 𝑌2 .
+                         Jika 𝑌3 ≠ 0, maka:
+                            𝑥 = 1;        𝐾 = 𝑌3−1;         𝑊 = 𝐶𝐾;         𝐴 = 𝐴′ + 𝑊 2 ;
+                       𝐵 = 𝐴𝐴′ + 𝐵1′ + 𝑊 + (𝑌2 𝐾 + 𝑈)2;               𝑇 = 𝐴𝑌3 + 𝑌2 ;
+                       𝑃 = (𝐴𝑇 + 𝐵𝑌3 + 𝑌1 )𝐽 + 1;               𝑆 = (𝐵𝑇 + 𝑌0 )𝐽.
+                Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+                   Jika 𝑌3 = 0, maka
+                       𝑥 = 0;     𝐴 = 1;           𝑃 = 0; 𝐵 = 𝐴′ + (𝑌2 )2 ;
+                       𝑆 = [( 𝑌2 𝐵 + 𝑌1 + 𝐶)𝐵𝑌0 ]𝐽.
+                Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+        b. Jika 𝐴′ = 0 dan 𝐵′ ≠ 0, hitung
+                𝐶 = 𝐵′;          𝐽 = 𝐶 −1 ;        𝑆 ′ = 𝑆1 + 𝑆2;
+                𝑌3 = 𝑃1 + 𝑃2 ;                        𝑌2 = 𝐴1 𝑌3 + 𝑆 ′ ;
+                𝑌1 = 𝑆 ′ 𝐴1 + 𝐶𝑃2 + 𝐵2 𝑌3 ;           𝑌0 = 𝐵1 𝑆2 + 𝐵2 𝑆1.
+                Jika 𝑌3 ≠ 0, maka:
+                          𝑥 = 1;          𝐾 = 𝑌3−1;         𝑊 = 𝐶𝐾;         𝐴 = 𝑊 2;
+                         𝐵 = 𝐶 + 𝑊 + (𝑌2 𝐾 + 𝐴1 )2;                    𝑇 = 𝐴𝑌3 + 𝑌2 ;
+                         𝑃 = (𝐴𝑇 + 𝐵𝑌3 + 𝑌1 )𝐽 + 1;                    𝑆 = (𝐵𝑇 + 𝑌0 )𝐽.
+                Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+                Jika 𝑌3 = 0, maka
+                          𝑥 = 0;     𝐴 = 1;        𝑃 = 0; 𝐵 = (𝑌2 𝐽)2 + Y3 J;
+                          𝑆 = [( 𝑌2 𝐵 + 𝑌1 + 𝐶)𝐵 + 𝑌0 ]𝐽.
+                Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+        c. Jika 𝐴′ = 0 dan 𝐵 ′ = 0, hitung
+                                            𝐵𝐻 = 𝑃1 + 𝑃2 + 1.
+                Jika 𝐵𝐻 ≠ 0 maka 𝐷 = 𝐷1 ⊞ 𝐷1 , sehingga Return (𝐷).
+                Jika 𝐵𝐻 = 0 maka Return (𝑁).
+     2. Jika 𝑥1 = 1 dan 𝑥2 = 0.
+        a. Jika 𝐴2 = 1, hitung
+                         𝑄0 = 𝐴1 + 𝐵2 ;            𝑅 = 𝐵2 𝑄0 + 𝐵1.
+              Jika 𝑅 ≠ 0, hitung
+                 𝑌2 = 𝐵2 𝑃1 + 𝑆1 + 𝑆2; 𝑌1 = 𝐴1 𝑌2 + 𝑅𝑃1 ;                𝑌0 = 𝐵1 𝑌2 + 𝑅𝑆1 .
+                 𝑥 = 1; 𝐽 = 𝑅 ; 𝐴 = 𝑄0 + (𝑌2 𝐽) ; 𝐵 = 𝑄0 𝐴 + 𝐵22 + 𝑅 + 𝑌2 𝐽.
+                                  −1                        2
+
+                         Jika 𝑌2 = 0, maka
+                                 𝑃 = 𝑌1 𝐽 + 1;              𝑆 = 𝑌0 𝐽.
+                         Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+                         Jika 𝑌2 ≠ 0, maka
+                                 𝑃 = (𝐴𝑌2 + 𝑌1 )𝐽 + 1;              𝑆 = (𝐵𝑌2 + 𝑌0 )𝐽.
+                         Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+               Jika 𝑅 = 0, hitung
+                                                  𝑇 = 𝐵2 .
+                Jika 𝐵2 ≠ 0 dan 𝐴1 = 0, maka
+                JMA, VOL. 16, NO. 2, DECEMBER 2017, 13-26                      25
+
+
+
+                𝑌1 = (𝐵12 + 𝑆2 + 1)𝐽;
+                𝑌2 = (𝑌12 + 𝑌1 + 1)𝐽;
+                𝑌0 = (𝑌2 𝐵22 + 𝑌1 𝐵2 + 𝑆2 );
+                𝑥 = 1;       𝐴 = 𝑌22 + 𝐵2 ; 𝐵 = (𝐵2 𝑌2 + 1)𝑌2;
+               𝑃 = 𝐴𝑌2 + 𝑌1 + 1;             𝑆 = 𝐵𝑌2 + 𝑌0 .
+               Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+               Jika 𝐵2 ≠ 0 dan 𝐴1 ≠ 0, maka
+               𝐾1 = 𝐵12 + 𝑆2 + 1; 𝐾 = 𝐾1 𝐽;              𝐿 = (𝐾1 𝐵2 + 𝑇𝑆2 )𝐽;
+                       −1                 2              −1
+               𝑊 = 𝐴1 ;         𝑀 = 𝑇𝐴1 ;         𝑍=𝑀 ;
+                         2
+               𝑌1 = 𝐾1 𝐴1 ; 𝑌2 = 𝐾1 𝐴1 + 𝑃1 𝐴1 𝑇; 𝑌0 = (𝑌2 𝐵2 + 𝑌1 )𝐵2 + 𝑇𝐴12 𝑆2 .
+                  Jika 𝑌2 = 0, maka
+                       𝑥 = 1;              𝐴 = 𝑄0 ;      𝐵 = 𝐴𝑄0 + 𝐵22 ;
+                       𝑃 = 𝑌1 𝑍 + 1; 𝑆 = 𝑌0 𝑍.
+                  Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+                  Jika 𝑌2 ≠ 0, maka
+                       𝑥 = 1;        𝐴 = 𝑄0 + (𝑌2 𝐽)2 𝑊; 𝐵 = 𝑄0 𝐴 + 𝐵22 + 𝑌2 𝑍.
+                                𝑃 = (𝐴𝑌2 + 𝑌1 )𝑍 + 1;           𝑆 = (𝐵𝑌2 + 𝑌0 )𝑍.
+                  Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+        b. Jika 𝐴2 = 0 maka 𝐷2 = 𝑁, sehingga return (𝐷1 ).
+   3.   Jika 𝐴1 = 1 dan 𝐴2 = 1, hitung
+                                         𝐴 = (𝐵1 + 𝐵2 ).
+            a. Jika (𝐵1 + 𝐵2 ) ≠ 0, maka
+               𝑥 = 1;         𝑊 = 𝐴1−1 ;         𝐵 = 𝐵1 𝐵2;
+               𝑃 = (𝑆1 + 𝑆2 )𝑊;            𝑆 = (𝑆1 𝐵2 + 𝑆2 𝐵1 )𝑊.
+               Return ( [ [ 𝑥, 𝐴, 𝐵}] , [ 𝑃, 𝑆] ] ) .
+            b. Jika (𝐵1 + 𝐵2 ) = 0, maka
+                                           𝐵𝐻 = 𝑃1 + 𝑃2 + 1.
+                       Jika 𝐵𝐻 ≠ 0, maka 𝐷 = 𝐷1 ⊞ 𝐷1 , sehingga return (𝐷).
+                       Jika 𝐵𝐻 = 0 maka return (𝑁).
+   4.   Jika 𝐴1 = 1 dan 𝐴2 = 0, maka return (𝐷1 ).
+   5.   Jika 𝐴2 = 1 dan 𝐴1 = 0 maka return (𝐷2 ).
+   6.   Jika 𝐴1 = 0 dan 𝐴2 = 0 maka return (𝑁).
+
+
+                                5 SIMPULAN
+
+        Dari hasil eksplorasi diperoleh kurva 𝑦 2 + 𝑥𝑦 = 𝑥 5 + 𝑥 2 + 𝑥 merupakan
+kurva hipereliptik dengan genus dua yang terdefinisikan atas lapangan 𝔽297 .
+Berdasarkan hasil analisis keamanan kurva, faktorisasi prima dari order #H dapat
+terbagi atas prima besar sehingga sistem kriptografi kurva hipereliptik 𝑦 2 + 𝑥𝑦 =
+𝑥 5 + 𝑥 2 + 𝑥 atas lapangan 𝔽297 dapat bertahan dari serangan Poligh Helman dan
+karena faktorisasi prima besar dari #H adalah sebesar 53 digit maka dikategorikan
+26            S. NURMALASARI, S. GURITMAN, B. P. SILALAHI
+
+
+
+sebagai sistem kriptografi kurva hipereliptik yang aman dari serangan Polard
+                                                                         𝑘−1
+Rho. Selanjutnya, prima besar dari faktorisasi #H tidak terbagi oleh 297     untuk
+semua 𝑘, di mana masalah logaritma diskret didalam 𝔽297 𝑘 ada jika (1 ≤ 𝑘 ≤
+2000/97) maka sistem kriptografi kurva hipereliptik dapat bertahan dari
+serangan Frey Ruck. Dari kurva diperoleh formulasi operasi grup yang efisien
+untuk menyusun suatu algoritme operasi grup.
+
+
+                               DAFTAR PUSTAKA
+
+[1] Cantor DG. 1987. Computing in the Jacobian of a hyperelliptic curve. Mathematics of
+     Computation. 48: 95-101.
+[2] Diffie H, Hellman M. 1976. New direction in cryptography. IEEE Transaction on
+     Information Theory. 22(6): 644-654.
+[3] Estuningsih RD, Guritman S, Silalahi BP. 2014. Konstruksi Algoritme Fungsi Hash HLI
+     [Tesis]. Bogor (ID): Institut Pertanian Bogor.
+[4] Guritman S. 2016. Kurva Eliptik dan Hipereliptik. Bogor (ID):Institut Pertanian Bogor.
+[5] Lange T. 2003. Efficient arithmetic on genus 2 hyperelliptic curve over finite fields via
+     explicit formulae. IACR Cryptology ePrint Archive [Internet]. [diunduh 2016 Agustus 12].
+     Tersedia pada: https://ePrint.iacr.org/2002/121.pdf
+[6] Koblitz N. 1987. Elliptic curve criptosystems. Mathematics of Computation. 48(177): 203-
+     209.
+[7] Koblitz N. 1989. Hyperelliptic curve criptosystems. Mathematics of Computation. 1(3): 139-
+     150.
+[8] Menezes AJ, Yi-Hong W, Zuccherato RJ. 1996. An Elementary Introduction to Hyperelliptic
+     Curve. Ontario (CA): Univ Waterloo.
+[9] Menezes, Oorcshot, dan Vanstone. 1996. Handbook of Applied Cryptoography. Florida: CRC
+     Press.
+[10] [NIST] National Institute for Standar and Technology. 2007. Recommendation for pair-wise
+     key establishment schemes using discrete logarithm cryptography. NIST SP 800-56A.
+     Marryland(US):NIST.
+[11] Vijayakumar P, Vijayalakshmi V, Zayaraz G. 2014. Comparative study of hyperelliptic curve
+     cryptosystem over prime field and its survey. International Journal of Hybrid Information
+     Technology. 7: 137-146.
+

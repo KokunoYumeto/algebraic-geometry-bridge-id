@@ -1,111 +1,78 @@
-# O016 / D100 — Current goal and durable workflow
+# O016/D100 — durable goal and corrected workflow
 
-Status: active production lane | Language: `id-ID` | Opened: 2026-08-21
+Status: active. Write only in
+`C:/Users/Floris/Documents/interlanguage/04_mirrors/id/algebraic-geometry-bridge-id`.
+Recover from this file, `00_control/CURSOR.json`, the current unit worklog,
+matching authority/rights/QA, and `qa/UNITS_01_09_HANDOFF.md`. Update them at
+material boundaries; they—not chat, compaction, or a stale synopsis—control.
 
-## Goal
+## Objective and architecture
 
-Produce a complete independent Indonesian Algebraic Geometry Bridge. Holger
-Brenner's *Algebraische Kurven (Osnabrück 2025–2026)* is the dominant classical
-spine; preserve its 30 lectures and 30 worksheets in source order. Evan Chen's
-*An Infinitely Large Napkin*, Part XX, is a donor for the compact affine-schemes
-core only. Author an independently worded supplement for gluing and the
-projective transition. Permanent Stacks tags are downstream references, not the
-first textbook.
+Produce and publish a complete independent Bahasa Indonesia (`id-ID`)
+Algebraic Geometry Bridge. Translate in source order all 30 lectures and 30
+worksheets of Holger Brenner's *Algebraische Kurven (Osnabrück 2025–2026)*,
+then all 30 lectures and 30 worksheets of Brenner's *Bündel, Garben und
+Kohomologie (Osnabrück 2019–2020)*. Keep both editions independently
+exportable and expose the BGK route through Units 2–15 and 23–27. Author only
+the missing seam, 57 worked mastery items (three per route unit, counting
+source solutions), 12 solved integrative problems, and one solved permanent-tag
+Stacks capstone with oral-proof rubric. Napkin Part XX is optional evidence;
+Stacks pages are references, not translated course pages.
 
-This is a translation/reader-production task, not a recommendation or QA loop.
-QA gates the work but does not replace it. Maintain immutable authority,
-component rights, reproducible HTML/PDF builds, and a dense locale-neutral
-stable-ID backend so units can later move to another language without
-reconstructing their meaning. Maintain one corpus-specific public GitHub.
+## Live boundary
 
-## Exact opening authority
+Units 10–12 are now translated and frozen over the verified Unit 9 baseline.
+The cumulative reader has 12 lectures, 12 worksheets, 330 exercises, all 55
+public source solutions, 65 media positions, 670 source IDs, and 4,499 MathML
+nodes. Its self-contained HTML and 215-page A4 PDF, all-page visual inspection,
+desktop/mobile reflow, protected-surface audit, 8,491-record native backend,
+deterministic replay, terminology check, and additive common-backend-v1 adapter
+all pass. Exact identities are in `qa/UNIT_12_RELEASE_CANDIDATE.json` and
+`qa/UNITS_01_12_HANDOFF.md`.
 
-- Course root current revision: `1074230`; exact prefix census: 433 pages,
-  including 30 lectures, 30 worksheets, their `/kontrolle` and `/latex`
-  surfaces, and 252 course-local semantic/reference/control pages.
-- Lecture 1: page 165889, revision 1108084,
-  `2026-07-20T08:57:22Z`, MediaWiki SHA1
-  `sbohlbklicv2bb3w2dxf1d2h6qa1ogt`.
-- Worksheet 1: page 165920, revision 1108097,
-  `2026-07-20T09:11:56Z`, MediaWiki SHA1
-  `0mjykxzwclr5grw31fffi3f9ujy3vq8`.
-- Official course PDF: 337 pages, 5,023,958 bytes, SHA-256
-  `5a2fcc8b00c48056655ccbf68a3034c1a4fcf0114fef9f54a8eac8d42bb0b203`.
-  Its 2026-02-03 build predates current wiki edits, so it is a visual/build
-  witness rather than current textual authority.
-- Napkin: commit `e50be9a0b2b12d080c273619424d0ee13372cc91`, tree
-  `023467410bdf924c8fd38ac04009b4c887cbfb5e`; Part XX authored closure is
-  `sheaves.tex`, `localization.tex`, `spec-zariski.tex`, `spec-sheaf.tex`,
-  `spec-examples.tex`, and `mor-scheme.tex`. Archive/build hashes belong in the
-  authority receipt after local verification.
+The deterministic Unit 12 package is published to the existing Zenodo concept
+`10.5281/zenodo.22059686` as record 22074716 / DOI
+`10.5281/zenodo.22074716`; all eight files passed anonymous byte/hash readback.
+The next executable boundary is the already authorized push to the existing
+GitHub repository, Pages reader, and `unit-12` release. Verify those public
+bytes, persist the sanitized receipt, and then advance directly to Unit 13.
 
-## Rights and fidelity
+## Finite workflow
 
-Never edit authority witnesses. Preserve exact wiki XML/wikitext, rendered
-semantic HTML, generated LaTeX, PDFs, assets, revision IDs, URLs, sizes, and
-hashes. Brenner course prose is CC BY-SA 4.0 under its exact declaration;
-Wikimedia media retain per-file creators and licences. Napkin text/PDF is CC
-BY-SA 4.0 and distributed modified build source is GPLv3. Omit or replace
-`calvin-hobbes-fly.png` and `mumforddrawing.jpg` unless their rights are proved.
-Do not import community solutions without a separate licence freeze. Mark the
-translation/change, preserve attribution and ShareAlike, and state
-non-endorsement. Record every mathematical correction as an explicit,
-source-backed delta; never correct silently.
+1. Freeze each MediaWiki lecture/worksheet revision, SHA-1, XML/wikitext,
+HTML, TeX, transclusions, exercise order, lawful solutions, PDFs, URLs, bytes,
+and SHA-256. Freeze assets with creator, source, licence, attribution,
+dimensions, bytes, and hash. Authority is immutable.
+2. Translate lecture, worksheet, hints, and frozen solutions completely.
+Preserve math, proof scope, IDs, numbering, stars, points, links, structure,
+code, and media. Invent no solution or silent proof repair. Record deltas in
+`00_control/CORRECTIONS.csv`, maintain `00_control/TERMINOLOGY.csv`, keep all
+credit, and add exact provenance
+`OpenAI Codex gpt-5.6-sol, Ultra.`
+3. Per unit verify mapping, math, exercise/solution topology, terminology,
+rights, language residue, links, accessibility, and secrets. At milestones
+build semantic self-contained HTML/MathML and A4 PDF; bind tools, inputs,
+outputs, pages, bytes, and hashes. Inspect all pages and actual centered
+desktop/mobile reflow, fonts, metadata, math overflow, and media.
+4. At milestones export deterministic locale-neutral program/course/resource,
+edition/unit/segment, exercise/solution, concept/term, asset/relation/rights,
+correction/QA/artifact records. Preserve prior IDs/payloads. Validate schema,
+uniqueness, closure, hashes, exact reverse replay, and the additive
+common-backend-v1 adapter; it never replaces native data or reader bytes.
+5. Publish only substantial milestones to the existing Zenodo concept and
+   GitHub edition/Pages lineage with truthful status/rights, checksums,
+   reader-first PDF/HTML, and resumable source. Anonymously hash every public
+   file. Do not probe `InactiveAccount` Figshare until its state changes. No
+   upstream contact during production; after completion, at most one concise
+   report may be sent, signed `Codex — at the user's direction`.
 
-## Ordered work and gates
+## Rights and terminal condition
 
-1. Complete the 433-row Brenner authority manifest, course licence, first-unit
-   XML/HTML/LaTeX, 24-image component-rights closure, and all seven public
-   Worksheet 1 solution pages.
-2. Acquire/hash the immutable Napkin archive and official 74-page Part XX PDF;
-   validate/extract safely and replay the official exact-head build. Record a
-   precise blocker if the published build is not hermetic.
-3. Translate Lecture 1, all 28 Worksheet 1 exercises, and the seven source
-   solutions completely. Preserve formulae, results, IDs, stars, point values,
-   image positions, links, and source order; invent nothing.
-4. Build self-contained Indonesian HTML with MathML and an A4 LuaLaTeX PDF.
-   Record exact tool versions, input/output manifests, bytes, and SHA-256.
-5. Verify source mapping, topology, IDs, mathematics, exercise/solution links,
-   terminology, assets/rights, accessibility, links, language residue, PDF
-   extraction, and representative/all-page visual layout as proportionate.
-6. Export deterministic UTF-8 records for program, course, resources,
-   editions, units, segments, concepts, terms, assets, relations, rights,
-   corrections, QA events, and artifacts. IDs must survive title wording and
-   locale changes; the backend may not mutate reader content.
-7. After this bounded unit passes, push it to the corpus GitHub without asking
-   again. Use the user's designated local credential notes only when required;
-   never print/persist token values; verify the anonymous public result. The
-   curriculum-wide hub is the coordinator's job.
-8. Continue with Lecture 2/Worksheet 2 in order. Insert the schemes bridge only
-   after its documented classical prerequisites. Its original supplement must
-   cover affine gluing/cocycles, `P^1` from two affine lines, doubled origin,
-   one Brenner projective curve in charts, and complete original exercises and
-   solutions; check against Stacks tags `01HR`, `01HW`, `01JA`, `01JB`, `01JC`,
-   `01JE`.
+Brenner text/derivative are CC BY-SA 4.0; media retain component rights. Never
+claim a mixed-set blanket licence. State attribution, change, ShareAlike, and
+non-endorsement. Never expose credentials, run broad scans, or edit another lane.
 
-## Recovery and communication
-
-Current cursor: Units 1–3 are published on GitHub and anonymously verified.
-Units 4 and 5 are fully translated, authority- and rights-frozen, and locally
-release-complete. The cumulative reader through Unit 5 is a self-contained
-HTML and 96-page A4 PDF; protected-surface, machine, all-page visual,
-responsive-browser, deterministic-backend, schema, and closure QA all pass.
-The responsive gate proves a centered desktop reader and a 390-pixel mobile
-reflow with no page-wide horizontal overflow; long display mathematics scrolls
-locally. The 3,471-record stable-ID export preserves every one of the 2,775
-Unit 1-4 records byte-for-byte. Resume from this file, `CURSOR.json`,
-`qa/UNIT_05_RELEASE_CANDIDATE.json`, and `qa/UNITS_01_05_HANDOFF.md`, never
-from a compaction summary.
-
-GitHub publication of Units 4-5 is externally blocked: the user confirmed that
-the account was suspended after VPN use and filed a support ticket. Do not
-retry while that condition persists. Zenodo is the active maintained
-preservation channel. Draft 22059687 reserves DOI
-`10.5281/zenodo.22059687` for *Kurva Aljabar — Edisi Bahasa Indonesia*,
-version `unit-05`. The next executable action is the narrow local Unit 5
-commit/tag, source snapshot, Zenodo upload/publish, anonymous public-byte
-readback, and sanitized receipt; then freeze and translate Lecture 6/Worksheet
-6 in source order. Continue the complete edition independently of the separate
-curriculum-admission decision. Do not contact upstream during production.
-After the full corpus only, send at most one concise, high-confidence issue,
-signed `Codex — at the user's direction`; otherwise send nothing.
+Complete only when both full Brenner courses, the finite original layer,
+rights, reproducible HTML/PDF, stable-ID native/common backends, QA, durable
+controls, milestone releases, and anonymous public-byte verification are all
+complete. Otherwise keep the goal active and continue from the exact cursor.

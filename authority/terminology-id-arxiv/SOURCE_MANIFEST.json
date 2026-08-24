@@ -1,0 +1,264 @@
+{
+  "manifest_version": 1,
+  "captured_at": "2026-08-22T22:03:35.2343278+02:00",
+  "purpose": "Bounded Indonesian algebraic-geometry terminology QA for Units 1-7",
+  "arxiv_search": {
+    "authority": "Official arXiv search pages and official arXiv API only",
+    "api_status": "HTTP 429 during the bounded check; no API result was treated as evidence",
+    "queries": [
+      {
+        "query": "aljabar",
+        "url": "https://arxiv.org/search/?query=aljabar&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "7 results; inspected as irrelevant non-Indonesian matches, chiefly the surname Aljabar"
+      },
+      {
+        "query": "gelanggang",
+        "url": "https://arxiv.org/search/?query=gelanggang&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "0 results"
+      },
+      {
+        "query": "\"kurva aljabar\"",
+        "url": "https://arxiv.org/search/?query=%22kurva+aljabar%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "0 results"
+      },
+      {
+        "query": "\"kurva hipereliptik\"",
+        "url": "https://arxiv.org/search/?query=%22kurva+hipereliptik%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "0 results"
+      },
+      {
+        "query": "\"ideal prima\"",
+        "url": "https://arxiv.org/search/?query=%22ideal+prima%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "0 results"
+      },
+      {
+        "query": "\"varietas afin\"",
+        "url": "https://arxiv.org/search/?query=%22varietas+afin%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "0 results"
+      },
+      {
+        "query": "polinomial",
+        "url": "https://arxiv.org/search/?query=polinomial&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "48 broad non-Indonesian matches; result page contained no Indonesia, Bahasa, or Kurva marker"
+      },
+      {
+        "query": "lapangan",
+        "url": "https://arxiv.org/search/?query=lapangan&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "HTTP 429; not scored as zero"
+      },
+      {
+        "query": "\"geometri aljabar\"",
+        "url": "https://arxiv.org/search/?query=%22geometri+aljabar%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+        "outcome": "HTTP 429; not scored as zero"
+      }
+    ],
+    "decision": "No suitable Indonesian-language arXiv record with a downloadable TeX/e-print source package was found in this bounded search; use documented primary-PDF fallback"
+  },
+  "fallback_sources": [
+    {
+      "role": "primary_same_field",
+      "title": "Penyusunan Algoritme Operasi Grup yang Dibangkitkan oleh Kurva Hipereliptik y^2+xy=x^5+x^2+x atas Lapangan F_2^97",
+      "authors": [
+        "S. Nurmalasari",
+        "S. Guritman",
+        "B. P. Silalahi"
+      ],
+      "journal": "Journal of Mathematics and Its Applications",
+      "volume_issue_pages": "16(2), 13-26",
+      "published": "2017-12-01",
+      "doi": "10.29244/jmap.16.2.13-26",
+      "official_record_url": "https://journal.ipb.ac.id/index.php/jmap/article/view/20016",
+      "official_pdf_url": "https://journal.ipb.ac.id/jmap/article/download/20016/14846",
+      "language": "id-ID",
+      "local_pdf": "ipb-2017-hyperelliptic-curves-id.pdf",
+      "pdf_bytes": 408458,
+      "pdf_sha256": "c251f619bf97d0ab5f9a905ee2cc5b5038d2d7425d12d54aca606893e76c1150",
+      "pdf_pages": 14,
+      "pdf_page_size": "A4",
+      "local_text_extraction": "ipb-2017-hyperelliptic-curves-id.txt",
+      "text_bytes": 42274,
+      "text_sha256": "f0b246291ef332bd2257f26d2573fc707532de41ebc648de2567d0c4745e5f47",
+      "visual_check": "All 14 pages rendered; contact-sheet and representative full-page inspection passed",
+      "license_evidence": "No named license appears in the PDF or article record. The journal's current official open-access policy enumerates reader rights, but no retroactive Creative Commons license is inferred."
+    },
+    {
+      "role": "supporting_commutative_algebra",
+      "title": "Ideal Prima dan Ideal Maksimal pada Gelanggang Polinomial",
+      "authors": [
+        "Qharnida Khariani",
+        "Amir Kamal Amir",
+        "Nur Erawaty"
+      ],
+      "journal": "Jurnal Matematika, Statistika dan Komputasi",
+      "volume_issue_pages": "11(1), 71-76",
+      "publication_date_evidence": "PDF/issue: July 2014; OJS Published field: 2018-02-01",
+      "doi": "10.20956/jmsk.v11i1.3431",
+      "official_record_url": "https://journal.unhas.ac.id/index.php/jmsk/article/view/3431",
+      "official_pdf_url": "https://journal.unhas.ac.id/index.php/jmsk/article/download/3431/1967",
+      "language": "id-ID",
+      "local_pdf": "unhas-2014-prime-maximal-ideals-polynomial-ring-id.pdf",
+      "pdf_bytes": 307931,
+      "pdf_sha256": "18cfdbe1d8cad27eda19a6dab1e9d258ef4f7874407d3746a8cbd6bfbbdef16a",
+      "pdf_pages": 6,
+      "pdf_page_size": "Letter",
+      "local_text_extraction": "unhas-2014-prime-maximal-ideals-polynomial-ring-id.txt",
+      "text_bytes": 14044,
+      "text_sha256": "2c19bbe02df6410698fc5bcac9ab08440b19aad6dc213746257fe0cef039a06b",
+      "visual_check": "All 6 pages rendered; contact-sheet and representative full-page inspection passed",
+      "license_evidence": "The article-level OJS record states CC BY 4.0; the same page's footer states CC BY-NC 4.0. Conflict preserved without choosing one."
+    }
+  ],
+  "translation_snapshot": [
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 6722,
+      "sha256": "551ea2473d920fb4f37b55494d807f273bb828e782ac3fb21cfd3b1d81cd6776"
+    },
+    {
+      "path": "source/id-ID/lecture-01.md",
+      "bytes": 18910,
+      "sha256": "6cf20fdbb2f0930010729c77f689d9bbcfc5cddecd66f60d854c38f091762080"
+    },
+    {
+      "path": "source/id-ID/lecture-02.md",
+      "bytes": 14617,
+      "sha256": "850bebf6bd56aea2e980e26988f69d6ce584f8138a55f765971d374236ee6250"
+    },
+    {
+      "path": "source/id-ID/lecture-03.md",
+      "bytes": 11959,
+      "sha256": "d9077b0c66ad2615ede67bbe7f53bf0dec7805af92fcf988140b74dd4b5af83c"
+    },
+    {
+      "path": "source/id-ID/lecture-04.md",
+      "bytes": 12229,
+      "sha256": "30101a8c44828775ed51087c12b20b1fada751591e71027d5899c1c793fbe681"
+    },
+    {
+      "path": "source/id-ID/lecture-05.md",
+      "bytes": 13912,
+      "sha256": "f531379fc279a09d3ebb917c8b4d0deba388806153e2d45fc9457894bf75630d"
+    },
+    {
+      "path": "source/id-ID/lecture-06.md",
+      "bytes": 12923,
+      "sha256": "602d283f59020f738736f4f5506611f4e7c8e83f054cf17c887c36be13eae3d9"
+    },
+    {
+      "path": "source/id-ID/lecture-07.md",
+      "bytes": 22392,
+      "sha256": "5adc70ccf16e9c3de9c7ffc7667b87f1de078eae723c0f78fbf65901be8213d3"
+    },
+    {
+      "path": "source/id-ID/worksheet-01-solutions.md",
+      "bytes": 6585,
+      "sha256": "517f6810390261353b0b172b07919bdd6acab8655500b4a5224f540484c82bb7"
+    },
+    {
+      "path": "source/id-ID/worksheet-01.md",
+      "bytes": 10602,
+      "sha256": "dad226e3f8e09d96a5c7b5e8e3dd089dc9e064ee2f7214d76e0ab7d38d5fe45c"
+    },
+    {
+      "path": "source/id-ID/worksheet-02-solutions.md",
+      "bytes": 11874,
+      "sha256": "dbdb4ce7fa868eea28a809a1c82c70aa6ae442531f39121e7902d4998aff1961"
+    },
+    {
+      "path": "source/id-ID/worksheet-02.md",
+      "bytes": 10886,
+      "sha256": "ffd19cc6644a6bbad9c62a45bb9595f31b28e63b894f1598caa5056e7b27ee68"
+    },
+    {
+      "path": "source/id-ID/worksheet-03-solutions.md",
+      "bytes": 1905,
+      "sha256": "f65c9af8dd38f42952084fe9621e209bb5ca102c2c1a1befb100199695cf8fec"
+    },
+    {
+      "path": "source/id-ID/worksheet-03.md",
+      "bytes": 9196,
+      "sha256": "c8cdfc72e56f48d3b01fe36a169d1323d153a0255dea34df09801616408abcb6"
+    },
+    {
+      "path": "source/id-ID/worksheet-04-solutions.md",
+      "bytes": 6774,
+      "sha256": "5890d6727319a32ed5c734a7786a4fd88b00c6423abf649bf9dec6922c301617"
+    },
+    {
+      "path": "source/id-ID/worksheet-04.md",
+      "bytes": 12665,
+      "sha256": "5d5af872b912283aae1d138b4dafa1b85d9b08adc6a6cea47212385348005040"
+    },
+    {
+      "path": "source/id-ID/worksheet-05-solutions.md",
+      "bytes": 5748,
+      "sha256": "8cb0321a07f36150f1ea53aab4076e45eb135647eee3c590b39f4a16a54d6ce3"
+    },
+    {
+      "path": "source/id-ID/worksheet-05.md",
+      "bytes": 11564,
+      "sha256": "107c4c660a68539f1778d0aa75abc5e32441e524112f8c0577ab47fcf6002838"
+    },
+    {
+      "path": "source/id-ID/worksheet-06-solutions.md",
+      "bytes": 7954,
+      "sha256": "8f2118a46ef4b3cd25d3bdf1e579e81c2197cdadb000ba04a894816599b5b530"
+    },
+    {
+      "path": "source/id-ID/worksheet-06.md",
+      "bytes": 13245,
+      "sha256": "8b9d69fc49f4b94b9b3523f915912876be37415e8f41e1a1167b71fa8f684d12"
+    },
+    {
+      "path": "source/id-ID/worksheet-07-solutions.md",
+      "bytes": 5326,
+      "sha256": "8c6c52e4aa7e6be203be41235c2bb7a97c2689e4226738f78d62175fe770ecbf"
+    },
+    {
+      "path": "source/id-ID/worksheet-07.md",
+      "bytes": 16744,
+      "sha256": "c9f5342b8adeada2efd463eb239dafc638d8396ce848c4d411ea88a8ad1ba791"
+    }
+  ],
+  "term_counts": {
+    "translation": {
+      "medan": 117,
+      "lapangan": 0,
+      "gelanggang": 116,
+      "cincin": 0,
+      "ideal_prima": 21,
+      "ideal_maksimal": 4,
+      "afin": 167,
+      "kurva_aljabar": 39,
+      "lokus_nol": 55,
+      "himpunan_nol": 18,
+      "tak_tereduksi": 51,
+      "parametrisasi_rasional": 12,
+      "irisan_kerucut": 21,
+      "kuadrik": 58,
+      "polinom": 225,
+      "polinomial": 80
+    },
+    "ipb_pdf": {
+      "medan": 0,
+      "lapangan": 34,
+      "kurva_aljabar": 1,
+      "tak_teruraikan": 1,
+      "polinomial": 7,
+      "ketertutupan_aljabar": 1
+    },
+    "unhas_pdf": {
+      "medan": 0,
+      "lapangan": 8,
+      "gelanggang": 30,
+      "cincin": 0,
+      "ideal_prima": 24,
+      "ideal_maksimal": 38,
+      "tak_tereduksi": 16,
+      "polinomial": 9
+    }
+  },
+  "write_boundary": "Only authority/terminology-id-arxiv was modified by this QA subtask",
+  "translation_files_modified": false,
+  "glossary_modified": false
+}
