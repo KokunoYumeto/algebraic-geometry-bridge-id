@@ -47,8 +47,18 @@ their per-component rights; no blanket licence is claimed for the mixed file
 set. Attribution, change disclosure, ShareAlike, exact provenance, and
 non-endorsement are preserved.
 
-Zenodo record 22077441 / DOI `10.5281/zenodo.22077441` is reserved in the
-existing concept `10.5281/zenodo.22059686`. Publication to that record and the
-existing GitHub repository/tag/Pages lineage is the immediate deterministic
-next action. After anonymous public byte readback succeeds, update this handoff
-with the exact public identities and advance the live source cursor to Unit 16.
+The Unit 15 version is published in the existing Zenodo concept
+`10.5281/zenodo.22059686` as record 22077441 / DOI
+`10.5281/zenodo.22077441`. The identical checkpoint is published in the
+existing GitHub lineage at content commit
+`aada4c2320a79e5dcdce0d7fa767c67dd0b24a9e`, annotated tag `unit-15`, release,
+and Pages reader. All eight release files at both destinations, both raw commit
+reader files, and both Pages reader files were anonymously downloaded and
+matched by byte count and SHA-256. Sanitized receipts are
+`qa/UNIT_15_ZENODO_PUBLICATION.json` and
+`qa/UNIT_15_GITHUB_PUBLICATION.json`. No upstream contact or issue occurred.
+
+The live cursor is Unit 16: freeze its exact official revisions, exercise and
+solution topology, PDFs, media, and rights; translate lecture, worksheet, and
+every frozen public solution in source order. Do not reopen corpus selection,
+renumber, restart, or substitute Napkin for the frozen BGK phase.

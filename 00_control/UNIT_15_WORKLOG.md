@@ -2,10 +2,9 @@
 
 ## Boundary
 
-Unit 15 is a verified translation checkpoint and the end of the substantial
-Units 13-15 production batch. Unit 12 remains the latest public cumulative
-boundary until the deterministic cumulative reader, backend, packaging,
-publication, and anonymous readback gates below finish.
+Unit 15 is the verified and published end of the substantial Units 13–15
+production batch. It is now the latest public cumulative boundary in both
+existing preservation lineages.
 
 ## Authority and rights
 
@@ -54,9 +53,20 @@ source/control identity, Pandoc AST, stable IDs, terminology, protected
 mathematics, both correction bindings, language residue, placeholders, and
 secret-like strings.
 
-Next executable action: build the cumulative Units 1-15 semantic HTML and A4
-PDF, render and inspect every PDF page plus representative desktop/mobile HTML
-surfaces, run machine/protected/responsive/rights gates, export and validate
-the native and additive common backends, package the reader-first milestone,
-publish to the existing GitHub and Zenodo lineages, anonymously hash every
-public file, and advance the durable cursor to Unit 16.
+The cumulative reader is a 10,196,592-byte self-contained HTML and a 267-page,
+6,502,255-byte A4 PDF. All 267 pages, centered desktop layout, mobile reflow,
+69 images, 5,989 MathML nodes, 861 source/control IDs, protected surfaces,
+rights, and internal links pass. The native backend has 10,938 records; its
+additive adapter validates 26,158 virtual records and 62,109 foreign keys with
+exact native reverse replay.
+
+Zenodo record 22077441 / DOI `10.5281/zenodo.22077441` and GitHub release/tag
+`unit-15` at commit `aada4c2320a79e5dcdce0d7fa767c67dd0b24a9e` are public.
+Anonymous readback matched all eight release files at both destinations, the
+raw commit HTML/PDF, and the Pages HTML/PDF. Exact receipts are
+`qa/UNIT_15_ZENODO_PUBLICATION.json` and
+`qa/UNIT_15_GITHUB_PUBLICATION.json`.
+
+Next executable action: freeze Unit 16's exact lecture/worksheet revisions,
+transclusions, exercise/solution topology, official PDFs, media and rights;
+then translate it contiguously without restart or renumbering.

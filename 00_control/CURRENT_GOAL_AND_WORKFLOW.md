@@ -3,7 +3,7 @@
 Status: active. Write only in
 `C:/Users/Floris/Documents/interlanguage/04_mirrors/id/algebraic-geometry-bridge-id`.
 Recover from this file, `00_control/CURSOR.json`, the current unit worklog,
-matching authority/rights/QA, and `qa/UNITS_01_09_HANDOFF.md`. Update them at
+matching authority/rights/QA, and `qa/UNITS_01_15_HANDOFF.md`. Update them at
 material boundaries; they—not chat, compaction, or a stale synopsis—control.
 
 ## Objective and architecture
@@ -21,22 +21,24 @@ Stacks pages are references, not translated course pages.
 
 ## Live boundary
 
-Units 10–12 are now translated and frozen over the verified Unit 9 baseline.
-The cumulative reader has 12 lectures, 12 worksheets, 330 exercises, all 55
-public source solutions, 65 media positions, 670 source IDs, and 4,499 MathML
-nodes. Its self-contained HTML and 215-page A4 PDF, all-page visual inspection,
-desktop/mobile reflow, protected-surface audit, 8,491-record native backend,
-deterministic replay, terminology check, and additive common-backend-v1 adapter
-all pass. Exact identities are in `qa/UNIT_12_RELEASE_CANDIDATE.json` and
-`qa/UNITS_01_12_HANDOFF.md`.
+Units 1–15 are the latest verified public cumulative reader: 15 lectures,
+15 worksheets, 423 exercises, all 75 public source solutions, 69 media
+positions, 861 source/control IDs, 5,989 MathML nodes, a 267-page A4 PDF, and a
+10,938-record native backend. All reader, visual, responsive, protected,
+backend, deterministic-replay, terminology, and common-adapter gates pass.
+Exact identities are in `qa/UNIT_15_RELEASE_CANDIDATE.json` and
+`qa/UNITS_01_15_HANDOFF.md`.
 
-The deterministic Unit 12 package is published to the existing Zenodo concept
-`10.5281/zenodo.22059686` as record 22074716 / DOI
-`10.5281/zenodo.22074716`, and to the existing GitHub repository, Pages reader,
-and `unit-12` release at commit `44adb9a8f463b0f8845a7e962214b8be94b79806`.
-All release, raw-reader, and Pages files passed anonymous byte/hash readback.
-The live cursor is now Unit 13: freeze and translate it in source order with
-the same authority, mathematics, solution, media, rights, and QA invariants.
+The deterministic Unit 15 package is published to the existing Zenodo concept
+`10.5281/zenodo.22059686` as record 22077441 / DOI
+`10.5281/zenodo.22077441`, and to the existing GitHub repository, Pages reader,
+and `unit-15` release at content commit
+`aada4c2320a79e5dcdce0d7fa767c67dd0b24a9e`. Anonymous readback matched all
+eight files at both releases, both raw commit reader files, and both Pages
+reader files by byte count and SHA-256. Receipts are
+`qa/UNIT_15_ZENODO_PUBLICATION.json` and
+`qa/UNIT_15_GITHUB_PUBLICATION.json`. The live source cursor is Unit 16; freeze
+and translate it next without restarting or renumbering.
 
 ## Finite workflow
 
