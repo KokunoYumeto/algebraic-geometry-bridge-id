@@ -32,10 +32,11 @@ all pass. Exact identities are in `qa/UNIT_12_RELEASE_CANDIDATE.json` and
 
 The deterministic Unit 12 package is published to the existing Zenodo concept
 `10.5281/zenodo.22059686` as record 22074716 / DOI
-`10.5281/zenodo.22074716`; all eight files passed anonymous byte/hash readback.
-The next executable boundary is the already authorized push to the existing
-GitHub repository, Pages reader, and `unit-12` release. Verify those public
-bytes, persist the sanitized receipt, and then advance directly to Unit 13.
+`10.5281/zenodo.22074716`, and to the existing GitHub repository, Pages reader,
+and `unit-12` release at commit `44adb9a8f463b0f8845a7e962214b8be94b79806`.
+All release, raw-reader, and Pages files passed anonymous byte/hash readback.
+The live cursor is now Unit 13: freeze and translate it in source order with
+the same authority, mathematics, solution, media, rights, and QA invariants.
 
 ## Finite workflow
 

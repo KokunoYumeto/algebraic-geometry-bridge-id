@@ -83,14 +83,17 @@ set. Attribution, change disclosure, ShareAlike, and non-endorsement are in
 
 The Unit 12 version is published in the existing Zenodo concept
 `10.5281/zenodo.22059686` as record 22074716 / DOI
-`10.5281/zenodo.22074716`. All eight public files were anonymously downloaded
-and matched by byte count and SHA-256; the sanitized receipt is
-`qa/UNIT_12_ZENODO_PUBLICATION.json`. The remaining transaction at this freeze
-is the existing GitHub repository, Pages reader, and `unit-12` release; no
-author contact or issue is part of this boundary.
+`10.5281/zenodo.22074716`. The same checkpoint is published in the existing
+GitHub lineage at commit
+`44adb9a8f463b0f8845a7e962214b8be94b79806`, annotated tag `unit-12`, and the
+Pages reader. All eight release files at both destinations, both raw commit
+reader files, and both Pages reader files were anonymously downloaded and
+matched by byte count and SHA-256. Sanitized receipts are
+`qa/UNIT_12_ZENODO_PUBLICATION.json` and
+`qa/UNIT_12_GITHUB_PUBLICATION.json`. No author contact or issue occurred.
 
-After both public lineages and anonymous byte readback are recorded, advance
-directly to Unit 13. Freeze its exact official revisions, exercise/solution
+Both public lineages and anonymous byte readbacks are now recorded. The live
+cursor is Unit 13: freeze its exact official revisions, exercise/solution
 topology, PDFs, media, and rights; translate lecture, worksheet, and every
 frozen public solution in source order. Do not reopen corpus selection,
 renumber, restart, or substitute Napkin for the frozen BGK phase.

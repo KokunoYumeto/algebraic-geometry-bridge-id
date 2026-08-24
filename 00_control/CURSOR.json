@@ -3,13 +3,13 @@
   "updated": "2026-08-24",
   "lane": "O016/D100 algebraic-geometry-bridge-id",
   "language": "id-ID",
-  "status": "unit_12_zenodo_published_github_publication_active",
+  "status": "unit_12_published_and_public_bytes_verified_next_cursor_unit_13",
   "durable_goal": {
     "path": "00_control/CURRENT_GOAL_AND_WORKFLOW.md",
-    "characters": 4620,
-    "bytes": 4641,
-    "sha256": "218357bcca4f98ce2b996221b7037c266129f11e08204c0d33474dff3abdaee3",
-    "workflow_cadence": "publish_verified_unit_12_boundary_then_continue_from_unit_13",
+    "characters": 4700,
+    "bytes": 4721,
+    "sha256": "a902fc3f2f74959ebff4fc77c4d95cf36e94f980aca3cedce88abfd4b4495ef3",
+    "workflow_cadence": "unit_12_publication_complete_continue_source_order_from_unit_13",
     "compaction_is_not_state": true
   },
   "completed_source_boundary": {
@@ -212,21 +212,23 @@
     "release_candidate_path": "qa/UNIT_12_RELEASE_CANDIDATE.json",
     "release_candidate_sha256": "aee9494829a30006a25e3773b38098cd8b53104702fa55b6db9a8aeed25680f1",
     "handoff": "qa/UNITS_01_12_HANDOFF.md",
-    "handoff_sha256": "d012686f6cd21629ec89ea439b5d6224efc2708b045fd713b9fcb0a25268eb9f",
+    "handoff_sha256": "eaf80c1f6d90134544df1655fb2b9af77887968389c03877f66bccc4a8ea2ad5",
     "zenodo_reservation_path": "qa/UNIT_12_ZENODO_RESERVATION.json",
     "zenodo_reservation_sha256": "d019a7288266805c9aa50c0fc03b5c84faab873bcaf7d1617b3cfc2068bbc700",
     "zenodo_record_id": 22074716,
     "zenodo_doi": "10.5281/zenodo.22074716",
     "zenodo_publication_receipt": "qa/UNIT_12_ZENODO_PUBLICATION.json",
     "zenodo_publication_receipt_sha256": "0af130135d5997dc958db5f25d27bdf7a6a5959594f39b2f96bbf0a05e414806",
-    "publication_state": "zenodo_complete_github_transaction_active"
+    "github_publication_receipt": "qa/UNIT_12_GITHUB_PUBLICATION.json",
+    "github_publication_receipt_sha256": "7789f2424372c374ba121aac29de90f0adbb4c6a3c6d28749772a6d5b4cfbb4e",
+    "publication_state": "zenodo_and_github_complete_all_public_bytes_verified"
   },
   "next_source_boundary": {
     "lectures": [13],
     "worksheets": [13],
-    "state": "advance_after_unit_12_public_byte_verification",
+    "state": "authority_freeze_and_contiguous_translation_ready",
     "next_full_release_through_unit": null,
-    "action": "after the Unit 12 GitHub and Zenodo receipts are frozen, begin Unit 13 authority freeze and contiguous translation without restart or renumbering"
+    "action": "begin Unit 13 authority freeze and contiguous translation without restart or renumbering; preserve all frozen mathematics, exercise, solution, media, rights, and identifier invariants"
   },
   "unit_09_working_boundary": {
     "state": "internal_checkpoint_complete_no_external_transaction",
@@ -299,7 +301,7 @@
     "worklog_sha256": "57bcd3185ff6cd5c815c017725efcb894328a3a7f66d7ed14989df55099bcd92"
   },
   "unit_12_working_boundary": {
-    "state": "translated_built_all_reader_qa_native_backend_and_common_adapter_pass_release_candidate_frozen",
+    "state": "translated_built_all_reader_qa_native_backend_and_common_adapter_pass_published_both_lineages_public_bytes_verified",
     "authority_manifests": {
       "unit_10": "f8b4f8bf12a0613f774352df31941d79a35d9eed10f2d8fb5570f9ffe07bfb43",
       "unit_11": "ea2d4936bb27e88b2863f8fecbddd5570992c432aee66c72066597709da65a47",
@@ -321,7 +323,10 @@
     "responsive_qa_sha256": "f53f433e1d4db1e2ba7a3e488e1d81f5e55f47750bf134842b931453f2a3bfe3",
     "protected_surface_qa_sha256": "75c9725cb79bb3a4b3e7e889ca661310cc6fdef5e1fdaa91fa58ee4d58648b33",
     "backend_qa_sha256": "c5fdcf478eba245cd75a49548c605df2085701ddae7ab8a34a8821a5363bef23",
-    "handoff": "qa/UNITS_01_12_HANDOFF.md"
+    "handoff": "qa/UNITS_01_12_HANDOFF.md",
+    "zenodo_publication_receipt": "qa/UNIT_12_ZENODO_PUBLICATION.json",
+    "github_publication_receipt": "qa/UNIT_12_GITHUB_PUBLICATION.json",
+    "next_unit": 13
   },
   "release_cadence": {
     "policy": "substantial_cumulative_milestones_not_per_unit",
@@ -355,16 +360,16 @@
   "publication": {
     "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
     "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
-    "github_latest_published_release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-03",
-    "github_latest_published_content_commit": "3c5d5b5aa0a72ad1d3409b7eeab9657c2c8e854c",
-    "github_latest_published_tag": "unit-03",
-    "github_published_utc": "2026-08-22T05:21:02Z",
-    "github_public_readback_verified_utc": "2026-08-22T05:27:24Z",
-    "github_public_readback_surfaces": 7,
-    "github_public_readback_receipt": "qa/UNIT_03_PUBLICATION.json",
-    "github_public_readback_receipt_sha256": "5d188d976900dafc5f4be44fc31f900639d36eeb4d47fc8106b73184a6bad84d",
-    "handoff": "qa/UNITS_01_03_HANDOFF.md",
-    "handoff_sha256": "f0b9015801397c463a74c61d5cc57f0f256321afdaa2ecc0e08a000b589696a5",
+    "github_latest_published_release": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-12",
+    "github_latest_published_content_commit": "44adb9a8f463b0f8845a7e962214b8be94b79806",
+    "github_latest_published_tag": "unit-12",
+    "github_published_utc": "2026-08-24T04:20:19Z",
+    "github_public_readback_verified_utc": "2026-08-24T04:21:39Z",
+    "github_public_readback_surfaces": 12,
+    "github_public_readback_receipt": "qa/UNIT_12_GITHUB_PUBLICATION.json",
+    "github_public_readback_receipt_sha256": "7789f2424372c374ba121aac29de90f0adbb4c6a3c6d28749772a6d5b4cfbb4e",
+    "handoff": "qa/UNITS_01_12_HANDOFF.md",
+    "handoff_sha256": "eaf80c1f6d90134544df1655fb2b9af77887968389c03877f66bccc4a8ea2ad5",
     "unit_01_state": "published_and_public_bytes_verified",
     "unit_02_state": "published_and_public_bytes_verified",
     "unit_03_state": "published_and_public_bytes_verified",
@@ -373,6 +378,10 @@
     "unit_06_state": "published_on_zenodo_and_figshare_publicly_verified_github_push_blocked_by_account_suspension",
     "unit_07_state": "published_on_zenodo_all_seven_public_files_verified_figshare_metadata_and_collection_verified",
     "unit_08_state": "published_on_zenodo_all_eight_public_files_verified_figshare_blocked_external_state",
+    "unit_09_state": "verified_internal_checkpoint_folded_into_unit_12_release",
+    "unit_10_state": "published_in_unit_12_checkpoint_and_public_bytes_verified",
+    "unit_11_state": "published_in_unit_12_checkpoint_and_public_bytes_verified",
+    "unit_12_state": "published_on_zenodo_and_github_all_public_bytes_verified",
     "github_prior_suspension": {
       "user_confirmed_cause": "VPN use triggered an account-compromise suspension",
       "support_ticket_filed": true,
