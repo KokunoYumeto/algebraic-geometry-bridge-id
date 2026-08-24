@@ -49,11 +49,13 @@ their per-component rights; no blanket licence is claimed for the mixed file
 set. Attribution, change disclosure, ShareAlike, exact provenance, and
 non-endorsement are preserved.
 
-Zenodo record 22087566 / DOI `10.5281/zenodo.22087566` is reserved in the
-existing concept `10.5281/zenodo.22059686`. Publication and anonymous byte
-readback are the next transaction, together with the existing GitHub release
-and Pages lineage. Unit 19 is reserved as helper packet `HP-D100-001` to task
-`01a01fa7-51cd-71e0-934d-187b3b7da5ba`; do not translate it in this owner lane.
-After publication, independently compare any schema-clean helper return with
-the frozen source and current terminology before integration. No upstream
+Zenodo record 22087566 / DOI `10.5281/zenodo.22087566` is published in the
+existing concept `10.5281/zenodo.22059686`; all eight files matched anonymous
+readback. The identical checkpoint is published in the existing GitHub lineage
+at content commit `fb99904c2dce760fdb67ffff5f561b6ffa30541b`, annotated tag
+`unit-18`, the eight-asset release, and Pages; every release, raw-commit, and
+Pages reader byte matched anonymously. Unit 19 is reserved as helper packet
+`HP-D100-001` to task `01a01fa7-51cd-71e0-934d-187b3b7da5ba`; do not translate
+it in this owner lane. Independently compare any schema-clean helper return
+with the frozen source and current terminology before integration. No upstream
 contact or issue is authorized during production.

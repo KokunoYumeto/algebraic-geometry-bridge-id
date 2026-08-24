@@ -3,13 +3,13 @@
   "updated": "2026-08-25",
   "lane": "O016/D100 algebraic-geometry-bridge-id",
   "language": "id-ID",
-  "status": "cumulative_units_01_18_all_internal_gates_pass_zenodo_published_and_anonymously_verified_github_publication_in_progress_unit_19_reserved",
+  "status": "cumulative_units_01_18_published_to_existing_zenodo_and_github_lineages_all_release_raw_commit_and_pages_bytes_anonymously_verified_unit_19_reserved",
   "durable_goal": {
     "path": "00_control/CURRENT_GOAL_AND_WORKFLOW.md",
-    "characters": 5142,
-    "bytes": 5165,
-    "sha256": "769a6cabe565fa12be1ff2cdd0dc50906509b03b5d0ab228244c3cec16bfb5e9",
-    "workflow_cadence": "cumulative_units_01_18_zenodo_complete_publish_and_read_back_same_bytes_on_existing_github_lineage_then_three_way_review_reserved_unit_19_helper_return_if_schema_clean",
+    "characters": 5308,
+    "bytes": 5331,
+    "sha256": "fa8019865b4d04a36b702db0ca2f0ab5f452d43437a0f2b910df2c0223847a9e",
+    "workflow_cadence": "cumulative_units_01_18_zenodo_and_github_complete_three_way_review_reserved_unit_19_helper_return_if_schema_clean_then_integrate_validate_and_continue_source_order",
     "compaction_is_not_state": true
   },
   "completed_source_boundary": {
@@ -230,9 +230,9 @@
   "next_source_boundary": {
     "lectures": [19],
     "worksheets": [19],
-    "state": "unit_18_cumulative_zenodo_release_complete_github_release_in_progress_unit_19_reserved_to_helper_packet_HP_D100_001",
+    "state": "unit_18_cumulative_zenodo_and_github_release_complete_all_public_bytes_verified_unit_19_reserved_to_helper_packet_HP_D100_001",
     "next_full_release_through_unit": 18,
-    "action": "publish the frozen Units 1-18 checkpoint to existing GitHub main/tag/release/Pages and anonymously verify it; do not translate Unit 19 while HP-D100-001 is active; independently three-way review a schema-clean helper return before owner integration"
+    "action": "do not translate Unit 19 while HP-D100-001 is active; when its schema-clean return arrives, independently three-way review it against frozen authority, candidate files, and current terminology before owner integration"
   },
   "unit_09_working_boundary": {
     "state": "internal_checkpoint_complete_no_external_transaction",
@@ -544,7 +544,7 @@
     "next_unit": 18
   },
   "unit_18_working_boundary": {
-    "state": "authority_translation_media_rights_per_unit_and_cumulative_reader_native_common_backend_and_package_gates_pass_zenodo_published_github_pending",
+    "state": "authority_translation_media_rights_per_unit_and_cumulative_reader_native_common_backend_and_package_gates_pass_zenodo_and_github_published_all_public_bytes_verified",
     "authority_manifest": "authority/wikiversity/unit-18/UNIT_AUTHORITY_MANIFEST.json",
     "authority_manifest_bytes": 106298,
     "authority_manifest_sha256": "26a56a0ccad60414bf09320dc008d438ccf84b3dd11c12c31e80fa6088437033",
@@ -581,14 +581,14 @@
     "authority_freeze": "authority/UNIT_18_AUTHORITY_FREEZE.md",
     "authority_freeze_sha256": "8154a612a53cba1f738a18d04d9893e8db455f4add1c2ae443311a5af52a20a4",
     "worklog": "00_control/UNIT_18_WORKLOG.md",
-    "worklog_sha256": "961b4019f14bc2a41aceb1755c07451d5c85a89ab751a33e6573cef69b505951",
+    "worklog_sha256": "763469863c7091abd46e3bb5a7409617e47c2434631c4065ff7330a36e97f9e0",
     "correction_bindings": ["AGC-CORR-0046", "AGC-CORR-0047", "AGC-CORR-0048", "AGC-CORR-0049", "AGC-CORR-0050"],
     "external_transaction": true,
-    "publication_state": "zenodo_complete_all_eight_files_anonymously_verified_github_pending",
-    "next_action": "publish_exact_frozen_units_01_18_checkpoint_to_existing_github_main_tag_release_pages_then_anonymously_verify_release_raw_commit_and_pages_bytes"
+    "publication_state": "zenodo_and_github_complete_all_release_raw_commit_and_pages_bytes_anonymously_verified",
+    "next_action": "three_way_review_schema_clean_HP_D100_001_return_if_available_without_translating_reserved_unit_19_in_owner_lane"
   },
   "cumulative_units_01_18_release_working_boundary": {
-    "state": "all_internal_gates_and_package_pass_zenodo_published_and_verified_github_publication_pending",
+    "state": "all_internal_gates_and_package_pass_zenodo_and_github_published_all_release_raw_commit_and_pages_bytes_verified",
     "reader_html": {"path": "build/reader-id/index.html", "bytes": 11555390, "sha256": "fab05aac5a84b45ee36260d895dcf89e2ad2d13fd6b7545eba2ae4c2e3db2f0a"},
     "reader_pdf": {"path": "build/reader-id/algebraic-geometry-bridge-id-units-01-18.pdf", "bytes": 6905745, "sha256": "ba62b61759a50925dcefa1a3a0153c8b597ee1386dd2033b610dae622e33ed99", "pages": 320},
     "build_receipt": {"path": "build/reader-id/BUILD_RECEIPT.json", "bytes": 29068, "sha256": "4b11ab1cdad6f8685133e3c5c0facc2bcce7de8ede7e060b558c8f6d9ecfbeb9"},
@@ -602,10 +602,11 @@
     "backend_qa": {"path": "qa/UNITS_01_18_BACKEND_QA.json", "bytes": 4601, "sha256": "3eb07d0f9e3d7a1d1365d1ca4d69ee536375542ba6df0ccd867da59524b1ab37", "status": "PASS"},
     "common_backend": {"receipt_path": "backend/common-backend-v1/MIGRATION_RECEIPT.json", "receipt_bytes": 8373, "receipt_sha256": "05702b164b5c0f3e7bbc7a606e4fb0a0cbf27fdd9fa86aed810df7dc3e8fd325", "virtual_records": 32473, "virtual_bytes": 51820223, "virtual_sha256": "8f64e2ae8d40c25c303806347ec0b6c55c07ff09508952970a9417c8e70b7e53", "foreign_keys_checked": 77291, "reverse_sha256": "c952ca6c0a6b36f2138c0971161b11582bbb1479795bf36c9d1de23e4343e517", "status": "PASS"},
     "release_candidate": {"path": "qa/UNIT_18_RELEASE_CANDIDATE.json", "bytes": 6598, "sha256": "3b1d64cb0c90a1e103dfe0d6143f765873302c60a30ef2d757591104b03f2c64", "status": "PASS_RELEASE_READY"},
-    "handoff": {"path": "qa/UNITS_01_18_HANDOFF.md", "bytes": 3484, "sha256": "69b5ed97098c869626f9c29ed06845b94b6a22cdcfb6ed74dde5b1dd5993ad1e"},
+    "handoff": {"path": "qa/UNITS_01_18_HANDOFF.md", "bytes": 3645, "sha256": "c3e95b0be2fc2bf1f726470c42a2ead9eb2d699c0c2c216cf2ce3fbe35cd17d2"},
     "package_manifest": {"path": "release/unit-18/ZENODO_FILE_MANIFEST-unit-18.json", "bytes": 4618, "sha256": "449d771c2d1beeaedf35341bfe05b6af8ce3e9b18f42c6cadde6ca4842ba27d1", "files": 8},
     "zenodo": {"record_id": 22087566, "doi": "10.5281/zenodo.22087566", "concept_doi": "10.5281/zenodo.22059686", "receipt_path": "qa/UNIT_18_ZENODO_PUBLICATION.json", "receipt_bytes": 3927, "receipt_sha256": "da3f18c473b8d64c986b871426b5f605b7f8fdb74bef6b67c634ef7b4df4af91", "status": "PASS", "files_verified": 8},
-    "next_executable_action": "stage_only_units_16_18_and_cumulative_release_files_commit_push_tag_create_unit_18_github_release_then_anonymously_verify_release_raw_commit_and_pages_bytes"
+    "github": {"content_commit": "fb99904c2dce760fdb67ffff5f561b6ffa30541b", "tag": "unit-18", "annotated_tag_object": "dabdd188259607c917f25f03be9bd28e81a2c4cc", "release_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-18", "pages_url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/", "receipt_path": "qa/UNIT_18_GITHUB_PUBLICATION.json", "receipt_bytes": 5270, "receipt_sha256": "f14a86bdc245d7bc417f52c2ee3d497b8e2f082df8979a35e1ac5e88bb563c44", "status": "PASS", "release_assets_verified": 8, "raw_commit_files_verified": 2, "pages_files_verified": 2},
+    "next_executable_action": "inspect_only_the_exact_HP_D100_001_manager_packet_path_for_a_schema_clean_helper_return_then_three_way_review_before_any_owner_integration"
   },
   "unit_19_reservation": {
     "packet_id": "HP-D100-001",

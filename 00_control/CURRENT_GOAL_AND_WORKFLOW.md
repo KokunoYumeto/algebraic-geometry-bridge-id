@@ -33,10 +33,12 @@ the Unit 16–18 worklogs.
 The deterministic Unit 18 package is published to the existing Zenodo concept
 `10.5281/zenodo.22059686` as record 22087566 / DOI
 `10.5281/zenodo.22087566`; anonymous readback matched all eight files by byte
-count and SHA-256. The live operation is the already-authorized publication of
-the identical checkpoint to the existing GitHub main/tag/release/Pages lineage
-and anonymous verification of every release, raw-commit, and Pages byte. Unit
-19 is atomically reserved as
+count and SHA-256. The identical checkpoint is published to the existing
+GitHub repository, annotated `unit-18` tag, eight-file release, and Pages
+reader at content commit `fb99904c2dce760fdb67ffff5f561b6ffa30541b`;
+anonymous readback matched every release asset plus raw-commit and Pages
+HTML/PDF bytes. Receipts are `qa/UNIT_18_ZENODO_PUBLICATION.json` and
+`qa/UNIT_18_GITHUB_PUBLICATION.json`. Unit 19 is atomically reserved as
 helper packet `HP-D100-001` to existing helper task
 `01a01fa7-51cd-71e0-934d-187b3b7da5ba`; do not translate it while that
 reservation is active. The helper may return only the three translated

@@ -93,8 +93,14 @@ files passed anonymous byte readback. The sanitized receipt is
 `qa/UNIT_18_ZENODO_PUBLICATION.json`, 3,927 bytes, SHA-256
 `da3f18c473b8d64c986b871426b5f605b7f8fdb74bef6b67c634ef7b4df4af91`.
 
-Next executable action: publish the same frozen checkpoint to the existing
-GitHub main/tag/release/Pages lineage, anonymously verify the eight release
-assets plus raw commit and Pages reader bytes, then bind both receipts. Unit 19
-remains reserved as `HP-D100-001`; do not translate it while the reservation is
-active, and three-way review any schema-clean helper return before integration.
+The identical checkpoint is published in the existing GitHub lineage at
+content commit `fb99904c2dce760fdb67ffff5f561b6ffa30541b`, annotated tag
+`unit-18`, the eight-asset release, and Pages. Anonymous readback matched all
+eight release assets, both raw-commit reader files, and both Pages reader files.
+The 5,270-byte receipt is `qa/UNIT_18_GITHUB_PUBLICATION.json`, SHA-256
+`f14a86bdc245d7bc417f52c2ee3d497b8e2f082df8979a35e1ac5e88bb563c44`.
+
+Next executable action: Unit 19 remains reserved as `HP-D100-001`; do not
+translate it while the reservation is active. When a schema-clean helper return
+arrives, independently three-way review it against the frozen authority,
+candidate translation, and current terminology before owner integration.
