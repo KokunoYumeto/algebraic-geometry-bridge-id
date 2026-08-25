@@ -1,0 +1,121 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ebene Kurve/v^3+u^2v-2uv+2u^2-4u-2v/Bestimme Singularität/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21307</id>
+    <revision>
+      <id>1089323</id>
+      <parentid>1022995</parentid>
+      <timestamp>2026-05-31T10:11:22Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1089323</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1922" sha1="8xye5yrq43801870bddk00gwv7dohbu" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Sei
+{{
+Relationskette/display
+|F
+|| V^3+U^2V-2UV+2U^2-4U-2V
+||
+||
+||
+|SZ=.
+}}
+Dann ist
+{{
+Math/display|term=
+ {{op:Partielle Ableitung| F |U}} =2UV -2V+4U-4 \text{ und } {{op:Partielle Ableitung| F |V}} =3V^2 +U^2 -2U -2
+|SZ=.
+}}
+Aus der ersten Gleichung erhält man für einen singulären Punkt die Bedingung
+{{
+Math/display|term=
+V(U-1) =- 2U+2 \text{ bzw. } V= \frac{-2U+2}{U-1}
+|SZ=,
+}}
+wobei die letztere Bedingung voraussetzt, dass {{math|term= U \neq 1 |SZ=}} ist. Betrachten wir also zuerst den Fall {{math|term= U=1 |SZ=.}} Die erste partielle Ableitung ist dann unabhängig von {{math|term= V |SZ=}} gleich null und die zweite Ableitung liefert die Bedingung
+{{
+Math/display|term=
+3V^2 +1-2-2 =0 \text{ bzw. } V^2= 1, \text{ also } V= \pm 1
+|SZ=.
+}}
+Die Kurvengleichung ergibt
+{{
+Relationskette/display
+| V^3 +V-2V-2V -2 
+|| V^3-3V -2
+|| 0
+||
+||
+|SZ=,
+}}
+die von {{math|term= V=-1 |SZ=}} erfüllt wird. Daher ist {{mathl|term= P=(1,-1) |SZ=}} ein singulärer Punkt der Kurve.
+
+Unter den neuen Variablen {{mathl|term= X=U-1 |SZ=}} und {{mathl|term= Y=V+1 |SZ=}} ist {{math|term= P |SZ=}} der Nullpunkt. Die Kurvengleichung transformiert sich unter {{mathl|term= U=X+1 |SZ=}} und {{math|term= V=Y-1 |SZ=}} zu
+{{Relationskette/align|
+|| (Y-1)^3+(X+1)^2(Y-1)-2(X+1)(Y-1)+2(X+1)^2-4(X+1)-2(Y-1)
+|| Y^3-3Y^2+3Y-1+(X^2+2X+1)(Y-1) -2XY+2X-2Y +2 +2X^2+4X+2 -4X-4-2Y+2
+|| Y^3-3Y^2+3Y-1+X^2Y+2XY+Y -X^2-2X-1 -2XY+2X-2Y +2 +2X^2+4X+2 -4X-4-2Y+2
+|| Y^3+X^2Y-3Y^2 +X^2
+|SZ=. 
+}}
+Der homogene Bestandteil von kleinstem Grad ist also {{mathl|term= X^2-3Y^2=(X- \sqrt{3}Y)(X+ \sqrt{3}Y) |SZ=.}} Daher ist die Multiplizität zwei und die beiden Tangenten durch den singulären Punkt werden durch {{mathl|term= X= \pm \sqrt{3}Y|SZ=}} beschrieben.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=Kubik
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>8xye5yrq43801870bddk00gwv7dohbu</sha1>
+    </revision>
+  </page>
+</mediawiki>

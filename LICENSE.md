@@ -2,10 +2,14 @@
 
 ## Course text and Indonesian derivative
 
-Holger Brenner states that he authored *Algebraische Kurven (Osnabrück
-2025-2026)*, including its course subpages and included pages, and licensed
-that material under the **Creative Commons Attribution-ShareAlike 4.0
-International licence (CC BY-SA 4.0)**.
+Holger Brenner states that he authored *Algebraische Kurven*, including its
+course subpages and included pages, and licensed that material under the
+**Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA
+4.0)**. Units 1-23 of this edition follow the frozen official *Algebraische
+Kurven (Osnabrück 2025-2026)* course. Because that course currently ends at
+Unit 23, Unit 24 follows the separately frozen official *Algebraische Kurven
+(Osnabrück 2012)* semantic course source. The two source editions are not
+merged or mislabelled.
 
 - Source declaration, frozen revision 1073083:
   <https://de.wikiversity.org/wiki/Holger_Brenner/Lizenzerkl%C3%A4rung?oldid=1073083>
@@ -18,6 +22,13 @@ same CC BY-SA 4.0 licence. Required attribution is to Holger Brenner for the
 source work. The change notice is: **Indonesian translation and re-typesetting,
 2026**. Reuse must preserve attribution, indicate changes, link the licence,
 and satisfy ShareAlike.
+
+The official 2012 lecture and worksheet PDF witnesses for Unit 24 preserve a
+**CC BY-SA 4.0 course route** and also a recorded **CC BY-SA 2.0 Germany file
+notice**. Those PDFs are authority witnesses, not reader-media positions. The
+component notice is preserved as evidence; this edition does not make a
+blanket relicensing claim for those witnesses or for the mixed-rights release
+payload.
 
 This is an independent edition. It is not an official publication of, and does
 not imply endorsement by, Holger Brenner, the University of Osnabrück,
@@ -47,8 +58,11 @@ are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1,
 [`authority/RIGHTS-unit-17.csv`](authority/RIGHTS-unit-17.csv) for Unit 17, and
 [`authority/RIGHTS-unit-18.csv`](authority/RIGHTS-unit-18.csv) for Unit 18,
 [`authority/RIGHTS-unit-19.csv`](authority/RIGHTS-unit-19.csv) for Unit 19,
-[`authority/RIGHTS-unit-20.csv`](authority/RIGHTS-unit-20.csv) for Unit 20, and
-[`authority/RIGHTS-unit-21.csv`](authority/RIGHTS-unit-21.csv) for Unit 21. The
+[`authority/RIGHTS-unit-20.csv`](authority/RIGHTS-unit-20.csv) for Unit 20,
+[`authority/RIGHTS-unit-21.csv`](authority/RIGHTS-unit-21.csv) for Unit 21,
+[`authority/RIGHTS-unit-22.csv`](authority/RIGHTS-unit-22.csv) for Unit 22,
+[`authority/RIGHTS-unit-23.csv`](authority/RIGHTS-unit-23.csv) for Unit 23, and
+[`authority/RIGHTS-unit-24.csv`](authority/RIGHTS-unit-24.csv) for Unit 24. The
 reader also contains a complete **Kredit media** section.
 
 ## Build and QA code

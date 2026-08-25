@@ -1,0 +1,220 @@
+{
+  "schema": "ag-bridge-unit-translation-qa-v1",
+  "status": "PASS",
+  "unit": 24,
+  "verified_date": "2026-08-25",
+  "authority": {
+    "manifest": {
+      "path": "authority/wikiversity/unit-24/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 119762,
+      "sha256": "3731896a5980c565d9d69a2e01eee497f13b6f449f2f9c701fce726271c026a5"
+    },
+    "exercise_map": {
+      "path": "authority/wikiversity/unit-24/ORDERED_EXERCISE_MAP.json",
+      "bytes": 10121,
+      "sha256": "250744d177bc2d5cf2a1cc506a99e05f1250c771de88b214a0e8d5cabfe7b9b8"
+    },
+    "authority_qa": {
+      "path": "qa/UNIT_24_AUTHORITY_QA.json",
+      "bytes": 2673,
+      "sha256": "60b99b9e90a96d1a7a049050b1e0a3c41220f365e61ca758472a01b7668f6ca7"
+    },
+    "authority_freeze": {
+      "path": "authority/UNIT_24_AUTHORITY_FREEZE.md",
+      "bytes": 3945,
+      "sha256": "0313f42a7716e4c918f2531cf927e3bff4b136712284fab13740c4610237e20e"
+    },
+    "source_course": "Kurs:Algebraische Kurven (Osnabrück 2012)",
+    "lecture_revid": 933672,
+    "worksheet_revid": 793492,
+    "lecture_transclusions_exact": 121,
+    "worksheet_transclusions_exact": 64,
+    "lecture_with_root": 122,
+    "worksheet_with_root": 65,
+    "exercises": 10,
+    "public_solution_numbers": [
+      4
+    ],
+    "solution_revisions": [
+      1068135
+    ],
+    "solution_recursive_closure": 17,
+    "solution_with_root": 18,
+    "authority_files_verified": 52,
+    "bounded_external_files_verified": 4,
+    "live_semantic_wikiversity_identities": 159,
+    "live_local_wikiversity_pdf_identities": 2,
+    "source_defect_bindings": 1,
+    "historical_pdf_defect_bindings": 2
+  },
+  "media_and_rights": {
+    "reader_media_positions": 0,
+    "binary_assets": 0,
+    "rights_rows": 0,
+    "official_pdf_witnesses": 2,
+    "official_pdf_pages": [
+      6,
+      2
+    ],
+    "official_pdf_tagged": [
+      false,
+      false
+    ],
+    "dual_component_licence_routes_preserved": true,
+    "facts": [
+      {
+        "path": "authority/RIGHTS-unit-24.csv",
+        "bytes": 443,
+        "sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544"
+      },
+      {
+        "path": "authority/ASSET_CLOSURE-unit-24.json",
+        "bytes": 5802,
+        "sha256": "6fe01774a095a6ed24549b8972fc1447d938a5d8868bd3bcc55691e88afea579"
+      },
+      {
+        "path": "authority/artifacts/lecture-24-official.pdf",
+        "bytes": 90541,
+        "sha256": "916b8d41a946cdf8ac978112a46e4f6d1dfb6c70fc0efc65a689cb8ff7205df1"
+      },
+      {
+        "path": "authority/artifacts/worksheet-24-official.pdf",
+        "bytes": 33474,
+        "sha256": "733135d556513d01148333551693db2713915ee82ac8faa8ce745e966c073102"
+      }
+    ]
+  },
+  "translation": {
+    "source_and_control_facts": [
+      {
+        "path": "source/id-ID/lecture-24.md",
+        "bytes": 21016,
+        "sha256": "c57dbf838e6e83f2111654b2b35a11da8a63bd4d549676f1b4cc6b25a7692a62"
+      },
+      {
+        "path": "source/id-ID/worksheet-24.md",
+        "bytes": 5482,
+        "sha256": "8d4e1e91890d24f5724dc8c5ae8c62c50e09815f8ded388c42091e9604e41b1a"
+      },
+      {
+        "path": "source/id-ID/worksheet-24-solutions.md",
+        "bytes": 2342,
+        "sha256": "a824bb03e09d251cb006daa017d7034f6a1794f0496b07ad64c2b6110af868b7"
+      },
+      {
+        "path": "source/id-ID/media-credits-unit-24.md",
+        "bytes": 1593,
+        "sha256": "e63177d420cbb485f255dd5e54059ab4150c388391001c35ea61cb3a3085ec5e"
+      },
+      {
+        "path": "00_control/TERMINOLOGY.csv",
+        "bytes": 31718,
+        "sha256": "6193cbff180864b2cff942f9f99a79c24aab473c71f70c160ade356d34ef079d"
+      },
+      {
+        "path": "00_control/CORRECTIONS.csv",
+        "bytes": 59424,
+        "sha256": "4e06c3954eb1fb9845479a207626005ac4c1d21e909149b60b7a7ba4d3071579"
+      },
+      {
+        "path": "authority/UNIT_24_AUTHORITY_FREEZE.md",
+        "bytes": 3945,
+        "sha256": "0313f42a7716e4c918f2531cf927e3bff4b136712284fab13740c4610237e20e"
+      }
+    ],
+    "source_edition": "Osnabrück 2012",
+    "stable_ids": 36,
+    "lecture_semantic_entities": 22,
+    "worksheet_exercise_entities": 10,
+    "exercises": 10,
+    "practice_exercises": 5,
+    "submitted_exercises": 5,
+    "submitted_points": {
+      "6": 5,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 6
+    },
+    "public_solutions": 1,
+    "reader_images": 0,
+    "ast": {
+      "lecture-24.md": {
+        "headers": 20,
+        "math_nodes": 227,
+        "images": 0,
+        "stable_header_ids": 20,
+        "pandoc_warnings": 0
+      },
+      "worksheet-24.md": {
+        "headers": 13,
+        "math_nodes": 32,
+        "images": 0,
+        "stable_header_ids": 13,
+        "pandoc_warnings": 0
+      },
+      "worksheet-24-solutions.md": {
+        "headers": 2,
+        "math_nodes": 13,
+        "images": 0,
+        "stable_header_ids": 2,
+        "pandoc_warnings": 0
+      },
+      "media-credits-unit-24.md": {
+        "headers": 1,
+        "math_nodes": 4,
+        "images": 0,
+        "stable_header_ids": 1,
+        "pandoc_warnings": 0
+      }
+    },
+    "visible_german_residue": 0,
+    "placeholder_count": 0,
+    "secret_like_count": 0,
+    "invisible_unicode_controls": 0,
+    "non_ascii_dashes_u2010_to_u2014": 0,
+    "protected_math_checks": 36,
+    "terminology_bindings": [
+      "AGT-0193",
+      "AGT-0194",
+      "AGT-0195",
+      "AGT-0196",
+      "AGT-0197",
+      "AGT-0198",
+      "AGT-0199",
+      "AGT-0200",
+      "AGT-0201",
+      "AGT-0202",
+      "AGT-0203",
+      "AGT-0204",
+      "AGT-0205",
+      "AGT-0206",
+      "AGT-0207",
+      "AGT-0208"
+    ],
+    "correction_bindings": [
+      "AGC-CORR-0083",
+      "AGC-CORR-0084",
+      "AGC-CORR-0085",
+      "AGC-CORR-0086",
+      "AGC-CORR-0087",
+      "AGC-CORR-0088",
+      "AGC-CORR-0089",
+      "AGC-CORR-0090"
+    ],
+    "visible_correction_and_protected_disclosures": [
+      "formal_chain_rule",
+      "finite_field_K_rational_scope",
+      "characteristic_zero_numerical_example",
+      "live_cylinder_and_exact_scope",
+      "formal_evaluation_at_zero",
+      "coefficient_family_repair",
+      "full_substitution_recurrence",
+      "substitution_automorphism",
+      "worksheet_curve_repair",
+      "worksheet_ring_parentheses_and_inclusion",
+      "solution_operand_and_localization"
+    ]
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

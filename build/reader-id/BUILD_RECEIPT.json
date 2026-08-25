@@ -1,11 +1,93 @@
 {
   "schema": "ag-bridge-build-receipt-v2",
-  "built_utc": "2026-08-25T01:04:01.405042+00:00",
+  "built_utc": "2026-08-25T20:16:57.419315+00:00",
   "language": "id-ID",
-  "through_unit": 21,
-  "title": "Kurva Aljabar - Unit 1-21",
+  "through_unit": 24,
+  "title": "Kurva Aljabar - Unit 1-24",
   "pandoc": "pandoc 3.9.0.2",
   "latex": "This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5)",
+  "pdf_asset_conversions": [
+    {
+      "source": "authority/assets/Tangent_to_a_curve.svg",
+      "source_bytes": 669,
+      "source_sha256": "8b832ac2ee48e693929cd3dfbf5bb1f59f7635af21dc8a7ce99fcb66012e7099",
+      "staged_path": "build/reader-id/Tangent_to_a_curve-pdf.png",
+      "bytes": 134418,
+      "sha256": "0375455b45b8b6cfa5aed7f48a604e3e1f68a2279f8e5bf7d070e6a33e89462f",
+      "tool": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+      "arguments": [
+        "-background",
+        "none",
+        "-density",
+        "216",
+        "SOURCE",
+        "-resize",
+        "1200x1200",
+        "-strip",
+        "OUTPUT"
+      ]
+    },
+    {
+      "source": "authority/assets/Kartesisches-Blatt.svg",
+      "source_bytes": 4895,
+      "source_sha256": "0c4b7b48fc1037b5fb5bb8e44506046df9a3dc193322d25d5de8aa81f6d6363c",
+      "staged_path": "build/reader-id/Kartesisches-Blatt-pdf.png",
+      "bytes": 503552,
+      "sha256": "22551e6634ca1018cdc2522fe490cdd59cbbefcc1828cf62023ad327d89e88f5",
+      "tool": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+      "arguments": [
+        "-background",
+        "none",
+        "-density",
+        "216",
+        "SOURCE",
+        "-resize",
+        "1200x1200",
+        "-strip",
+        "OUTPUT"
+      ]
+    },
+    {
+      "source": "authority/assets/Cardioid.svg",
+      "source_bytes": 214237,
+      "source_sha256": "9c2b5539d992051331f98d54fa022e4e7ef926eeff8ab0985f4067370f24941c",
+      "staged_path": "build/reader-id/Cardioid-pdf.png",
+      "bytes": 263182,
+      "sha256": "2b63d568b827b438bd4908af727cc4cada9c0042272ccdfe96d98e2be6c423cf",
+      "tool": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+      "arguments": [
+        "-background",
+        "none",
+        "-density",
+        "216",
+        "SOURCE",
+        "-resize",
+        "1200x1200",
+        "-strip",
+        "OUTPUT"
+      ]
+    },
+    {
+      "source": "authority/assets/Cercle_tangente_rayon.svg",
+      "source_bytes": 778,
+      "source_sha256": "4eccafd635e2cd067ba11818da21b3a71e17b5f5080880dd1a3a5df62de8ea6d",
+      "staged_path": "build/reader-id/Cercle_tangente_rayon-pdf.png",
+      "bytes": 321644,
+      "sha256": "cc70da9ad1de466f5bf7d1b016aa221bed73c73aebac06eea0cc8089495d8bde",
+      "tool": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+      "arguments": [
+        "-background",
+        "none",
+        "-density",
+        "216",
+        "SOURCE",
+        "-resize",
+        "1200x1200",
+        "-strip",
+        "OUTPUT"
+      ]
+    }
+  ],
   "inputs": [
     {
       "path": "authority/assets/120px-Polynomialdeg5.png",
@@ -13,9 +95,39 @@
       "sha256": "a00ab550f16915cafe88c55e238335cb8f0743857a1e6a1b0bcba473c48f060c"
     },
     {
+      "path": "authority/assets/250px-3_equations_-5.JPG",
+      "bytes": 14455,
+      "sha256": "4e24e335d8186aff22b23e3c8a398eb7d69e97e1b03b346613c8c82039b395e5"
+    },
+    {
+      "path": "authority/assets/250px-Cercle_tangente_rayon.svg.png",
+      "bytes": 6971,
+      "sha256": "d5fa09bd3ce43d2b4a3e1dc24137904c335ca56be86eccc4e68ccb50f8da8bae"
+    },
+    {
+      "path": "authority/assets/250px-Frans_Hals_-_Portret_van_René_Descartes.jpg",
+      "bytes": 18897,
+      "sha256": "1b1e2a31b05db57881c056d8e3aa031e4f5d34473123ba0c943fa40d7f1abe62"
+    },
+    {
+      "path": "authority/assets/250px-Intersect3.png",
+      "bytes": 5922,
+      "sha256": "b29c15edf6619632fe033e0b6064c1826226abce0be6219262ca028a2a157818"
+    },
+    {
+      "path": "authority/assets/250px-Kartesisches-Blatt.svg.png",
+      "bytes": 16928,
+      "sha256": "8d704246d0ddc5c300de06e396c7b842faa0aba41b30d8e4e16f7225f06d3340"
+    },
+    {
       "path": "authority/assets/250px-Lineair-cartesiaans.png",
       "bytes": 11096,
       "sha256": "2827bd16eb6d65eb9e2e158af309c7740ba2a17342cce57aba03a08b7e37735c"
+    },
+    {
+      "path": "authority/assets/250px-Tangent_to_a_curve.svg.png",
+      "bytes": 5222,
+      "sha256": "986394f51cefc02eb9099737ee3580ac797e5cbafd11432ecf0a0be4f71c3b92"
     },
     {
       "path": "authority/assets/250px-Whitney_unbrella.png",
@@ -38,9 +150,19 @@
       "sha256": "e468ce7742960b54b150a711c88963769980b8e4053a09ead57683fd2718ea43"
     },
     {
+      "path": "authority/assets/Cardioid.svg",
+      "bytes": 214237,
+      "sha256": "9c2b5539d992051331f98d54fa022e4e7ef926eeff8ab0985f4067370f24941c"
+    },
+    {
       "path": "authority/assets/Carl_Friedrich_Gauss.jpg",
       "bytes": 741139,
       "sha256": "c8b9643bce6444b9bd2b8eff812263007811ffa9e4917563280eb44ede66f88e"
+    },
+    {
+      "path": "authority/assets/Cercle_tangente_rayon.svg",
+      "bytes": 778,
+      "sha256": "4eccafd635e2cd067ba11818da21b3a71e17b5f5080880dd1a3a5df62de8ea6d"
     },
     {
       "path": "authority/assets/Cicloide-250.png",
@@ -283,6 +405,11 @@
       "sha256": "ca7b9747bdde0e21709a6b4c92cbd53c4fca31c8affed35dc4ba272487a3d0b0"
     },
     {
+      "path": "authority/assets/Kartesisches-Blatt.svg",
+      "bytes": 4895,
+      "sha256": "0c4b7b48fc1037b5fb5bb8e44506046df9a3dc193322d25d5de8aa81f6d6363c"
+    },
+    {
       "path": "authority/assets/Krivka_parametricky.png",
       "bytes": 1598,
       "sha256": "0ba72359246bdfc6ab819da948a2adf4f8310b884e0585f24ad8bb65c38ff250"
@@ -453,6 +580,11 @@
       "sha256": "4c7593e6337985eb9ee49ccf5d68e981ac2cc98bafbe492100bbc5a8cc7f4e59"
     },
     {
+      "path": "authority/assets/Tangent_to_a_curve.svg",
+      "bytes": 669,
+      "sha256": "8b832ac2ee48e693929cd3dfbf5bb1f59f7635af21dc8a7ce99fcb66012e7099"
+    },
+    {
       "path": "authority/assets/Tschirnhausen_cubic-250.png",
       "bytes": 16235,
       "sha256": "b896dac1452de98a8638827420e217fdb45ed247b658ef816e9f9ebd169a575d"
@@ -473,9 +605,9 @@
       "sha256": "5a469c4675d326a753dca7801524138e64689e476d38d867070f97983f8b07d2"
     },
     {
-      "path": "source/id-ID/frontmatter-units-01-21.md",
-      "bytes": 3370,
-      "sha256": "560b34060b3a2dc083d5a97238483c3f542c2928db9a435df63cea4db5d1c7aa"
+      "path": "source/id-ID/frontmatter-units-01-24.md",
+      "bytes": 4526,
+      "sha256": "aef9a6cd385233f1bdaae1075527d587b705e1e5b57e01c3a8bde376f0517a2c"
     },
     {
       "path": "source/id-ID/lecture-01.md",
@@ -583,6 +715,21 @@
       "sha256": "4bfbb794483fdc0466acda10c7e63fa09891ad8da435888b2b59a0e051c7b8a6"
     },
     {
+      "path": "source/id-ID/lecture-22.md",
+      "bytes": 21213,
+      "sha256": "cfa8d5f920375021bb65bff969155f0289fac00a56fefea237edac473a22990a"
+    },
+    {
+      "path": "source/id-ID/lecture-23.md",
+      "bytes": 16697,
+      "sha256": "8f143de32c72078c7d9e09d5a9837584589068740d7702f857ec4183047c82ed"
+    },
+    {
+      "path": "source/id-ID/lecture-24.md",
+      "bytes": 21016,
+      "sha256": "c57dbf838e6e83f2111654b2b35a11da8a63bd4d549676f1b4cc6b25a7692a62"
+    },
+    {
       "path": "source/id-ID/media-credits-unit-02.md",
       "bytes": 692,
       "sha256": "2d1794aadd5462eccf5574af6a875699ced4d371f5a4d44e4c19d0b489088b37"
@@ -678,6 +825,21 @@
       "sha256": "e4076d9aa394dd6901e49dd9c73216eb80d8f0938ea7571f4d6cc30d87e44f67"
     },
     {
+      "path": "source/id-ID/media-credits-unit-22.md",
+      "bytes": 3127,
+      "sha256": "00d45167d500ad0013dcda970e71448fb9aaef5c6ba0c6bc85f6ac779d515db3"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-23.md",
+      "bytes": 1131,
+      "sha256": "bef7b4083c04fb72e7b17ad27657a730f8d48b72317714478489d6ebd3c74553"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-24.md",
+      "bytes": 1593,
+      "sha256": "e63177d420cbb485f255dd5e54059ab4150c388391001c35ea61cb3a3085ec5e"
+    },
+    {
       "path": "source/id-ID/media-credits.md",
       "bytes": 5005,
       "sha256": "d2e491b7b33d02b3f8cfca2a6d021d593b6d5c98c4d005d7600fe999d27295fd"
@@ -689,8 +851,8 @@
     },
     {
       "path": "source/id-ID/reader.css",
-      "bytes": 1671,
-      "sha256": "3242ba1d6d1ebb6abf4a321377fcdef3e67a02c7dbc986b502f2363719f76efa"
+      "bytes": 1782,
+      "sha256": "51136e5adae36e8f2f51f834cd0fa43bf5902c3152406a05af4d4e7bbcd874cc"
     },
     {
       "path": "source/id-ID/worksheet-01-solutions.md",
@@ -901,18 +1063,48 @@
       "path": "source/id-ID/worksheet-21.md",
       "bytes": 14505,
       "sha256": "9fe5a9e27c5de0b17ec1e0512c1d4368d21ad886c7bc5f4d4a27b6a27bf089f9"
+    },
+    {
+      "path": "source/id-ID/worksheet-22-solutions.md",
+      "bytes": 12568,
+      "sha256": "dc164ac9ee01271686afe637ebede3be1a2b92fb76d718f992787d1ebf6d9594"
+    },
+    {
+      "path": "source/id-ID/worksheet-22.md",
+      "bytes": 12475,
+      "sha256": "72accdf7704f2f91e9cc42fb14fef399960006e8da729a21524ec7ae86072203"
+    },
+    {
+      "path": "source/id-ID/worksheet-23-solutions.md",
+      "bytes": 4580,
+      "sha256": "d817803e00f5df55473330608847a4664845c67c1319bbd73c12f1d5dd1bb939"
+    },
+    {
+      "path": "source/id-ID/worksheet-23.md",
+      "bytes": 8157,
+      "sha256": "011f5bb26e81002d262ffe0425ad290bdb2a287cb88864f080ea46554d2c8b19"
+    },
+    {
+      "path": "source/id-ID/worksheet-24-solutions.md",
+      "bytes": 2342,
+      "sha256": "a824bb03e09d251cb006daa017d7034f6a1794f0496b07ad64c2b6110af868b7"
+    },
+    {
+      "path": "source/id-ID/worksheet-24.md",
+      "bytes": 5482,
+      "sha256": "8d4e1e91890d24f5724dc8c5ae8c62c50e09815f8ded388c42091e9604e41b1a"
     }
   ],
   "outputs": [
     {
-      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-21.pdf",
-      "bytes": 7409373,
-      "sha256": "b95fd1ed0ea75294cd4562b7f2f36e920e247e2da5e1b039e99e975f9797a3e6"
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-24.pdf",
+      "bytes": 8130610,
+      "sha256": "407343d0a203e25cb6d5357907da4b6a66c6a4836c5e5fcf17b4599621d1a473"
     },
     {
       "path": "build/reader-id/index.html",
-      "bytes": 12388419,
-      "sha256": "ae658bee5191e4d0be529d38ec7eb9fd2e287295237be4bbb98a58b4709c6700"
+      "bytes": 13156471,
+      "sha256": "3753f3a8dc15d8aa1916ecd461b555c3b854139e216cef18d92e6c699258d61f"
     }
   ]
 }

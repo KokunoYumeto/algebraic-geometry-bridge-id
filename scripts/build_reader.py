@@ -64,6 +64,36 @@ PDF_ASSET_REPLACEMENTS = {
     "authority/assets/Concentric_Circles.svg":
         "authority/assets/Concentric_Circles-500.png",
 }
+PDF_GENERATED_ASSETS = {
+    "authority/assets/Tangent_to_a_curve.svg": {
+        "markdown_before": "](authority/assets/Tangent_to_a_curve.svg)",
+        "markdown_after": "](Tangent_to_a_curve-pdf.png)",
+        "staged_name": "Tangent_to_a_curve-pdf.png",
+        "magick_before_source": ["-background", "none", "-density", "216"],
+        "magick_after_source": ["-resize", "1200x1200", "-strip"],
+    },
+    "authority/assets/Kartesisches-Blatt.svg": {
+        "markdown_before": "](authority/assets/Kartesisches-Blatt.svg)",
+        "markdown_after": "](Kartesisches-Blatt-pdf.png)",
+        "staged_name": "Kartesisches-Blatt-pdf.png",
+        "magick_before_source": ["-background", "none", "-density", "216"],
+        "magick_after_source": ["-resize", "1200x1200", "-strip"],
+    },
+    "authority/assets/Cardioid.svg": {
+        "markdown_before": "](authority/assets/Cardioid.svg)",
+        "markdown_after": "](Cardioid-pdf.png)",
+        "staged_name": "Cardioid-pdf.png",
+        "magick_before_source": ["-background", "none", "-density", "216"],
+        "magick_after_source": ["-resize", "1200x1200", "-strip"],
+    },
+    "authority/assets/Cercle_tangente_rayon.svg": {
+        "markdown_before": "](authority/assets/Cercle_tangente_rayon.svg)",
+        "markdown_after": "](Cercle_tangente_rayon-pdf.png)",
+        "staged_name": "Cercle_tangente_rayon-pdf.png",
+        "magick_before_source": ["-background", "none", "-density", "216"],
+        "magick_after_source": ["-resize", "1200x1200", "-strip"],
+    },
+}
 
 
 def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
@@ -328,7 +358,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Sembilan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-09.pdf",
         )
-    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21):
+    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24):
         number_words = {
             10: "Sepuluh",
             11: "Sebelas",
@@ -342,6 +372,9 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             19: "Sembilan belas",
             20: "Dua puluh",
             21: "Dua puluh satu",
+            22: "Dua puluh dua",
+            23: "Dua puluh tiga",
+            24: "Dua puluh empat",
         }
         unit_sources: list[Path] = [
             SOURCE_DIR / f"frontmatter-units-01-{through:02d}.md"
@@ -357,7 +390,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
         unit_sources.append(SOURCE_DIR / "media-credits.md")
         unit_sources.extend(
             SOURCE_DIR / f"media-credits-unit-{unit:02d}.md"
-            for unit in (*range(2, 10), *range(11, 22))
+            for unit in (*range(2, 10), *range(11, 25))
             if unit <= through
         )
         return (
@@ -366,7 +399,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             f"{number_words[through]} kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             f"algebraic-geometry-bridge-id-units-01-{through:02d}.pdf",
         )
-    raise ValueError("only contiguous scopes --through 1 through --through 21 are supported")
+    raise ValueError("only contiguous scopes --through 1 through --through 24 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -460,7 +493,9 @@ def main() -> int:
     try:
         html = stage / "index.html"
         pdf = stage / pdf_name
-        resource_path = os.pathsep.join((str(SOURCE_DIR), str(ASSET_DIR), str(LANE)))
+        resource_path = os.pathsep.join(
+            (str(stage), str(SOURCE_DIR), str(ASSET_DIR), str(LANE))
+        )
         common = [
             "--from=markdown+yaml_metadata_block+tex_math_dollars+fenced_divs+bracketed_spans",
             "--standalone",
@@ -482,12 +517,61 @@ def main() -> int:
             f"--css={CSS}",
             f"--output={html}",
         )
+        generated_pdf_assets: list[dict[str, object]] = []
+        source_blob = "\n".join(path.read_text(encoding="utf-8") for path in sources)
+        required_generated_assets = {
+            source_path: spec
+            for source_path, spec in PDF_GENERATED_ASSETS.items()
+            if spec["markdown_before"] in source_blob
+        }
+        if required_generated_assets:
+            magick = shutil.which("magick")
+            if not magick:
+                raise RuntimeError(
+                    "ImageMagick is required for the frozen SVG-to-PNG PDF assets"
+                )
+            magick_version = tool_output(magick, "-version").splitlines()[0]
+            for source_relative, spec in required_generated_assets.items():
+                source_asset = LANE / source_relative
+                regular_file(source_asset)
+                staged_asset = stage / str(spec["staged_name"])
+                recorded_arguments = [
+                    *[str(value) for value in spec["magick_before_source"]],
+                    "SOURCE",
+                    *[str(value) for value in spec["magick_after_source"]],
+                    "OUTPUT",
+                ]
+                arguments = [
+                    *[str(value) for value in spec["magick_before_source"]],
+                    str(source_asset),
+                    *[str(value) for value in spec["magick_after_source"]],
+                    str(staged_asset),
+                ]
+                run_logged(stage / f"magick-{staged_asset.stem}.log", magick, *arguments)
+                regular_file(staged_asset)
+                generated_pdf_assets.append(
+                    {
+                        "source": source_relative,
+                        "source_bytes": source_asset.stat().st_size,
+                        "source_sha256": sha256(source_asset),
+                        "staged_path": f"build/reader-id/{staged_asset.name}",
+                        "bytes": staged_asset.stat().st_size,
+                        "sha256": sha256(staged_asset),
+                        "tool": magick_version,
+                        "arguments": recorded_arguments,
+                    }
+                )
+
         pdf_sources: list[Path] = []
         for source in sources:
             pdf_source = stage / f"pdf-{source.name}"
             text = source.read_text(encoding="utf-8")
             for before, after in PDF_ASSET_REPLACEMENTS.items():
                 text = text.replace(before, after)
+            for spec in required_generated_assets.values():
+                text = text.replace(
+                    str(spec["markdown_before"]), str(spec["markdown_after"])
+                )
             text = text.replace("★", r"\sourceblackstar{}")
             text = text.replace("κ", r"$\kappa$")
             # The Commons uploader name is Hebrew and the selected PDF font
@@ -551,6 +635,7 @@ def main() -> int:
             "title": title,
             "pandoc": pandoc_version,
             "latex": latex_version,
+            "pdf_asset_conversions": generated_pdf_assets,
             "inputs": canonical_rows(input_paths),
             "outputs": projected_output_rows((html, pdf)),
         }

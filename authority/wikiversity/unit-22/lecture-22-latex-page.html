@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/1033021"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/0"/><meta property="mw:revisionSHA1" content="5mpvl81u97hs35l9k2lrqpklqf8f5gh"/><meta property="dc:modified" content="2025-08-11T13:54:16Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="165975"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_22/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 22/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="63430aaf-9eec-11f1-b710-c5165a19897d"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{22}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Die Einbettungsdimension}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $R$ ein lokaler kommutativer noetherscher Ring mit 
+\definitionsverweis {maximalem Ideal}{}{}
+${\mathfrak m}$. Dann heißt die minimale Idealerzeugendenzahl für ${\mathfrak m}$ die \definitionswort {Einbettungsdimension}{} von $R$, geschrieben
+<br/>\mathdisp {\operatorname{embdim}\,(R)} { . }<br/></p>  
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Ein noetherscher lokaler Integritätsbereich der Dimension eins 
+\zusatzklammer {d.h. die einzigen Primideale sind das Nullideal und das maximale Ideal} {} {}
+ist
+nach <a rel="mw:WikiLink" href="./Diskrete_Bewertungsringe/Charakterisierung/1/Fakt" title="Diskrete Bewertungsringe/Charakterisierung/1/Fakt">Satz 21.8</a>
+genau dann ein diskreter Bewertungsring, wenn seine Einbettungsdimension $1$ ist. Wir erwähnen, dass die Einbettungsdimension immer zumindest so groß ist wie die Dimension eines lokalen Ringes. Die Ringe, bei denen Gleichheit gilt, spielen eine besondere Rolle und heißen \stichwort {reguläre Ringe} {.} Wir sind der Einbettungsdimension schon im Fall von monomialen Kurven begegnet und müssen zeigen, dass die dortige Definition 
+\zusatzklammer {<a rel="mw:WikiLink" href="./Numerische_Halbgruppe/Teilerfremde_Erzeuger/Numerische_Einbettungsdimension/Definition" title="Numerische Halbgruppe/Teilerfremde Erzeuger/Numerische Einbettungsdimension/Definition">Definition 18.6</a>} {} {}
+mit der neuen verträglich ist.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir beweisen zunächst eine andere Charakterisierung, die sich aus dem Lemma von Nakayama ergibt.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Lokaler Ring/Modulerzeuger und Erzeuger mod m/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei <br/>\mathl{(R, {\mathfrak m},K)}{} ein 
+\definitionsverweis {lokaler Ring}{}{}
+und sei $V$ ein
+\definitionsverweis {endlich erzeugter}{}{}
+$R$-\definitionsverweis {Modul}{}{.}}<br/>\faktfolgerung {Dann stimmt die 
+\definitionsverweis {minimale Erzeugendenzahl}{}{}
+<br/>\mathl{\mu (V)}{} mit der 
+\definitionsverweis {Dimension}{}{}
+des
+$K$-\definitionsverweis {Vektorraums}{}{}
+<br/>\mathl{V/{\mathfrak m}V}{} überein.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir zeigen etwas allgemeiner, dass Elemente
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ v_1 , \ldots , v_n 
+}<br/>{ \in }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+genau dann ein $R$-Erzeugendensystem für $V$ bilden, wenn deren Restklassen in <br/>\mathl{V/{\mathfrak m} V}{} ein $R/{\mathfrak m}$-Erzeugendensystem von <br/>\mathl{V/ {\mathfrak m} V}{} bilden. Dabei ist die eine Richtung trivial, seien also Elemente
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ v_1 , \ldots , v_n
+}<br/>{ \in }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+gegeben, die modulo ${\mathfrak m}$ ein Erzeugendensystem sind. Es sei 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{U
+}<br/>{ \subseteq }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der von den $v_i$ erzeugte $R$-Untermodul von $V$. Die Voraussetzung übersetzt sich zu
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ = }{ U+ {\mathfrak m}V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Wir betrachten den Restklassenmodul <br/>\mathl{V/U}{.} Dort gilt dann
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (V/U){\mathfrak m}
+}<br/>{ = }{ V/U
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+woraus
+nach dem <a rel="mw:WikiLink" href="./Lokaler_Ring/Lemma_von_Nakayama/Fakt" title="Lokaler Ring/Lemma von Nakayama/Fakt">Lemma von Nakayama</a>
+die Gleichheit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V/U
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ = }{ U
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+folgt.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Lokaler Ring/Einbettungsdimension ist Dimension des Kotangentialraumes/Fakt}<br/>{Korollar}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei <br/>\mathl{(R,{\mathfrak m},K)}{} ein 
+\definitionsverweis {noetherscher}{}{} \definitionsverweis {lokaler Ring}{}{.}}<br/>\faktfolgerung {Dann ist die
+\definitionsverweis {Einbettungsdimension}{}{}
+gleich
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \mu ( {\mathfrak m})
+}<br/>{ =} { \dim_{ K } \left(   {\mathfrak m}/{\mathfrak m}^2  \right)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Dies folgt sofort aus
+dem <a rel="mw:WikiLink" href="./Lokaler_Ring/Modulerzeuger_und_Erzeuger_mod_m/Fakt" title="Lokaler Ring/Modulerzeuger und Erzeuger mod m/Fakt">Lemma von Nakayama</a>
+angewandt auf das Ideal ${\mathfrak m}$ und den endlich erzeugten $R$-Modul ${\mathfrak m}$.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Den in der vorstehenden Aussage auftretenden $R$-Modul <br/>\mathl{{\mathfrak m}/{\mathfrak m}^2}{,} der ein Vektorraum über <br/>\mathl{R/{\mathfrak m}}{} ist, nennt man auch den \stichwort {Kotangentialraum} {} des lokalen Ringes.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Noetherscher Ring/Maximales Ideal/Kotangentialraum direkt und über lokalen Ring/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $R$ ein 
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {kommutativer Ring}{}{}
+und ${\mathfrak n}$ ein 
+\definitionsverweis {maximales Ideal}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{S 
+}<br/>{ = }{ R_{\mathfrak n}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die
+\definitionsverweis {Lokalisierung}{}{}
+an ${\mathfrak n}$ mit dem maximalen Ideal
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m}
+}<br/>{ = }{ {\mathfrak n}R_{\mathfrak n}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktfolgerung {Dann ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ {\mathfrak m}/{\mathfrak m}^2 
+}<br/>{ \cong} { {\mathfrak n}/{\mathfrak n}^2
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {Insbesondere ist die
+\definitionsverweis {Einbettungsdimension}{}{}
+der Lokalisierung gleich <br/>\mathl{\operatorname{dim }_{R/{\mathfrak n}}\, ({\mathfrak n}/{\mathfrak n}^2)}{.}}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Nach
+<a rel="mw:WikiLink" href="./Ring/Maximales_Ideale/Restekörper/Aufgabe" title="Ring/Maximales Ideale/Restekörper/Aufgabe">Aufgabe 15.5</a>
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R/{\mathfrak n}
+}<br/>{ \cong }{ R_{\mathfrak n}/{\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+sodass der gleiche 
+\definitionsverweis {Restklassenkörper}{}{}
+vorliegt. Der natürliche
+$R$-\definitionsverweis {Modulhomomorphismus}{}{}
+\maabb {} { {\mathfrak n} } { {\mathfrak m}
+} {}
+induziert einen
+$K$-\definitionsverweis {Vektorraumhomomorphismus}{}{}
+\maabbdisp {} { {\mathfrak n}/{\mathfrak n}^2 } { {\mathfrak m}/{\mathfrak m}^2
+} {,}
+der surjektiv ist, da
+$R$-\definitionsverweis {Modulerzeuger}{}{}
+von ${\mathfrak n}$ auf $R_{\mathfrak n}$-Erzeuger von ${\mathfrak m}$ abbilden, und diese modulo ${\mathfrak m}^2$ ein $K$-Vektorraum-Erzeugendensystem ergeben.</p>
+
+<p>Zum Beweis der Injektivität sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ {\mathfrak n}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Element, das rechts auf $0$ abgebildet wird. D.h. es gilt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ {\mathfrak m}^2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+in der Lokalisierung $R_{\mathfrak n}$. Dies bedeutet, dass es Elemente
+\mathkor {} {g_1 , \ldots ,  g_n \in {\mathfrak n}} {und} {h_1 , \ldots , h_n \in {\mathfrak n}} {} 
+und Elemente
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ q_i 
+}<br/>{ = }{ { \frac{  a_i  }{ s_i  } }
+}<br/>{ \in }{ R_{\mathfrak n} 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+\zusatzklammer {also mit
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ s_i
+}<br/>{ \notin }{ {\mathfrak n} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ a_i
+}<br/>{ \in }{ R 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}} {} {}
+mit
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{f
+}<br/>{ =} { { \frac{  a_1  }{ s_1  } } g_1h_1 + \cdots + { \frac{  a_n  }{ s_n  } } g_nh_n
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+gibt. Dies bedeutet zurückübersetzt nach $R$, dass es ein Element
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ s
+}<br/>{ \notin }{ {\mathfrak n}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ sf
+}<br/>{ =} { b_1 g_1h_1 + \cdots + b_ng_nh_n
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+für gewisse
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ b_i
+}<br/>{ \in }{ R 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+gibt. Da $s$ nicht zum maximalen Ideal ${\mathfrak n}$  gehört, gibt es
+\mathkor {} {r \in R} {und} {g \in {\mathfrak n}} {} 
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{g+rs
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Wir multiplizieren die obige Gleichung mit $r$ und erhalten
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (1-g)f 
+}<br/>{ =} { r \left(  b_1 g_1h_1 + \cdots +  b_n g_nh_n  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+bzw.
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ f 
+}<br/>{ =} { r \left(  b_1 g_1h_1 + \cdots +  b_n g_nh_n  \right)  +gf
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Dabei gehört die rechte Seite offensichtlich zu ${\mathfrak n}^2$, und damit definiert $f$ das Nullelement in <br/>\mathl{{\mathfrak n}/{\mathfrak n}^2}{.}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Numerisches Monoid/Lokale kommutative noethersche Ringe/Numerische und algebraische Einbettungsdimension/Äquivalenz/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und $M$ ein 
+\definitionsverweis {numerisches Monoid}{}{,}
+das von teilerfremden natürlichen Zahlen erzeugt sei. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ K[M]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der zugehörige 
+\definitionsverweis {Monoidring}{}{}
+mit dem 
+\definitionsverweis {maximalen Ideal}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak n}
+}<br/>{ = }{(M_+)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und der 
+\definitionsverweis {Lokalisierung}{}{}
+$R_{\mathfrak n}$.}<br/>\faktfolgerung {Dann ist die
+\definitionsverweis {numerische Einbettungsdimension}{}{}
+von $M$
+\zusatzklammer {bzw. \mathlk{K[M]}{}} {} {}
+gleich der
+\definitionsverweis {Einbettungsdimension}{}{}
+des lokalen Rings $R_{\mathfrak n}$.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak n}
+}<br/>{ = }{ (M_+)
+}<br/>{ = }{ \bigoplus_{m\in M_+} K\, T^m
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak n}^2
+}<br/>{ = }{ (2M_+)
+}<br/>{ = }{ \bigoplus_{m\in 2M_+}K\, T^m
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Der Restklassenraum ist daher
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ {\mathfrak n}/{\mathfrak n}^2
+}<br/>{ =} { \bigoplus_{m \in M_+ \setminus 2M_+}K\, T^m
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Dessen $K$-Dimension ist also gleich der Anzahl der Elemente aus <br/>\mathl{M_+ \setminus 2M_+}{.} Nach
+<a rel="mw:WikiLink" href="./Numerische_Halbgruppe/Teilerfremde_Erzeuger/Numerische_Einbettungsdimension/Charakterisierung_mit_M+_ohne_M+^2/Fakt" title="Numerische Halbgruppe/Teilerfremde Erzeuger/Numerische Einbettungsdimension/Charakterisierung mit M+ ohne M+^2/Fakt">Korollar 18.13</a>
+ist <br/>\mathl{M_+ \setminus 2M_+}{} das minimale Monoiderzeugendensystem von $M$, sodass die $K$-Dimension gleich der numerischen Einbettungsdimension ist.</p>
+
+<p>Andererseits ist nach
+<a rel="mw:WikiLink" href="./Noetherscher_Ring/Maximales_Ideal/Kotangentialraum_direkt_und_über_lokalen_Ring/Fakt" title="Noetherscher Ring/Maximales Ideal/Kotangentialraum direkt und über lokalen Ring/Fakt">Lemma 22.4</a>
+die $K$-Dimension von <br/>\mathl{{\mathfrak n}/{\mathfrak n}^2}{} gleich der Einbettungsdimension des zugehörigen lokalen Rings $R_{\mathfrak n}$.</p>
+</div>
+
+}</div><span about="#mwt1"> 
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Glatte und singuläre Punkte}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tangent_to_a_curve} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Tangent to a curve.svg } {AxelBoldt} {} {en.wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1">Es sei $K$ ein Körper und <br/>\mathbed {F \in K[X,Y]} {} <br/> {F \neq 0} {} <br/> {} {} {} {,} ein Polynom ohne mehrfache Faktoren
+\zusatzklammer {da wir uns nur für die zugehörige Kurve interessieren, ist dies bei einem algebraisch abgeschlossenen Körper aufgrund des Hilbertschen Nullstellensatzes keine Einschränkung} {} {.}
+Für jeden Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (a,b)
+}<br/>{ \in }{ {\mathbb A}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+kann man zu den Variablen \mathkon  { X-a  }  {  und  }  { Y-b  }{ } übergehen. Das bedeutet, dass man den Punkt in den Ursprung verschiebt. Für das Verhalten eines Polynoms an einem Punkt kann man sich also stets auf den Ursprungspunkt beschränken.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Es sei also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ = }{ (0,0)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Wir schreiben $F$ mit homogenen Komponenten als
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F
+}<br/>{ =} { F_d+F_{d-1} + \cdots + F_1+F_0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Hier sind die $F_i$ homogen vom Grad $i$. Was kann man an den einzelnen homogenen Komponenten ablesen? Zunächst gilt trivialerweise die Beziehung
+<br/>\mathdisp {P \in V(F) \text{ genau dann, wenn } F_0 = 0} { . }<br/>
+Wenn man die Koordinaten von $P$, also <br/>\mathl{(0,0)}{,} in $F$ einsetzt, so  werden ja alle höheren Komponenten zu $0$ gemacht, und lediglich die konstante Komponente $F_0$ bleibt übrig. Da wir uns hauptsächlich für das Verhalten der Kurve in einem Kurvenpunkt interessieren, werden wir uns häufig auf die Situation
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_0
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+beschränken. Was ist dann die erste homogene Komponente $F_i$, die nicht $0$ ist? Welche Rolle spielt dieses $i$ und welche Rolle spielen dessen Linearfaktoren?</p><span about="#mwt1">
+
+</span><p about="#mwt1">Nehmen wir zunächst an, dass \mathkon  { F_0=0  }  {  und  }  { F_1=aX+bY  }{ } ist. Diese Linearform 
+\zusatzklammer {die $0$ sein kann} {} {}
+lässt sich auch mit partiellen Ableitungen charakterisieren, es ist nämlich
+<br/>\mathdisp {{ \frac{   \partial  F  }{  \partial   x  } } (P) = a \text{ und } { \frac{   \partial  F  }{  \partial   y  } } (P) = b} { . }<br/>
+Hier und im Folgenden werden Polynome einfach \stichwort {formal abgeleitet} {.} Damit ist auch \mathkon  { F_1=0  }  {  genau dann, wenn  }  { { \frac{   \partial  F  }{  \partial   x  } } (P) = { \frac{   \partial  F  }{  \partial   y  } } (P) = 0   }{ }
+ist. Wenn dies nicht der Fall ist, so ist es naheliegend, die durch die Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_1(X,Y)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+definierte Gerade als Tangente an die Kurve im Punkt $P$ anzusehen. Ein erstes Indiz dafür ist, dass im linearen Fall
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{F_1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die Gerade mit ihrer Tangente zusammenfallen soll.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein von $0$ verschiedenes Polynom. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ C
+}<br/>{ = }{ V(F)
+}<br/>{ \subset   }{ {\mathbb A}^{2}_{ K }
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Punkt der zugehörigen affinen ebenen Kurve. Dann heißt $P$ ein \definitionswort {glatter Punkt}{} von $C$, wenn
+<br/>\mathdisp {{ \frac{   \partial   F   }{  \partial   X  } } (P)  \neq 0 \text{ oder }  { \frac{   \partial   F   }{  \partial   Y  } }  (P) \neq 0} {  }<br/>
+gilt. Andernfalls heißt der Punkt \definitionswort {singulär}{.}  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die Kurve heißt \stichwort {glatt} {,} wenn sie in jedem ihrer Punkte glatt ist.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein von $0$ verschiedenes Polynom. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ C
+}<br/>{ = }{ V(F)
+}<br/>{ \subset   }{ {\mathbb A}^{2}_{ K }
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Punkt der zugehörigen affinen ebenen Kurve, der
+\zusatzklammer {nach einer linearen Variablentransformation} {} {}
+der Nullpunkt sei. Es sei
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F
+}<br/>{ =} { F_d+F_{d-1} + \cdots +  F_m
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+die homogene Zerlegung von $F$ mit \mathkor {} {F_d \neq 0} {und} {F_m \neq 0} {,}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ d
+}<br/>{ \geq }{ m
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}
+Dann heißt $m$ die \definitionswort {Multiplizität}{} der Kurve im Punkt $P$. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_m
+}<br/>{ = }{ G_1 \cdots G_m
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die Zerlegung in lineare Faktoren. Dann nennt man jede Gerade \mathind { V(G_i)  } { i=1 , \ldots , m   }{,} eine \definitionswort {Tangente}{} an $C$ im Punkt $P$. Die Vielfachheit von $G_i$ in $F_m$ nennt man auch die \definitionswort {Multiplizität}{} der Tangente.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Der Punkt ist genau dann glatt, wenn die Multiplizität $1$ ist. In diesem Fall gibt es genau eine Tangente durch den Punkt, deren Steigung man über die partiellen Ableitungen berechnen kann.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungJPG {3_equations_-5} {JPG} }<br/>\end{center} <br/>\bildtext {Geraden, die sich im Punkt $(0,1)$ schneiden} }<br/><br/>\bildlizenz {  3 equations -5.JPG } {Cronholm144} {} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es seien $d$ verschiedene Geraden <br/>\mathl{L_1 , \ldots ,  L_d}{} in der affinen Ebene gegeben, die alle durch den Nullpunkt laufen mögen. Es seien \mathind {  a_iX+b_iY = 0   } {  i = 1 , \ldots , d   }{,} die zugehörigen Gleichungen
+\zusatzklammer {die nur bis auf einen Skalar definiert sind} {} {.}
+Die Vereinigung dieser Geraden wird dann durch das Produkt
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F
+}<br/>{ =} { \left(  a_1X+b_1Y  \right)  \cdots \left(  a_dX+b_dY  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+beschrieben. Insbesondere ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ F_d
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+homogen vom Grad $d$. Hier definiert jeder Linearfaktor eine 
+\definitionsverweis {Tangente}{}{}
+durch den Nullpunkt. Die
+\definitionsverweis {Multiplizität}{}{}
+ist $d$.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>$\,$
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Frans_Hals_-_Portret_van_René_Descartes} {jpg} }<br/>\end{center} <br/>\bildtext {<a rel="mw:WikiLink/Interwiki" href="https://de.wikipedia.org/wiki/Descartes" title="w:Descartes" class="extiw">Rene Descartes (1596-1650)</a>} }<br/><br/>\bildlizenz { Frans Hals - Portret van René Descartes.jpg } {Frans Hals} {Dedden} {Commons} {PD} {}<br/> <br/></p>
+<p>
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Kartesisches-Blatt} {svg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Kartesisches-Blatt.svg } {} {Georg-Johann} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p>
+<p>
+<br/>
+Das \stichwort {Kartesische Blatt} {}  wird durch die Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ = }{ X^3+Y^3-3XY
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+beschrieben
+\zusatzklammer {die $3$ ist dabei nicht wichtig, und könnte durch eine andere Zahl $\neq 0$ ersetzt werden} {} {.}
+Die homogenen Bestandteile der Kurvengleichung sind
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_3
+}<br/>{ = }{ X^3+Y^3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F_2
+}<br/>{ = }{ -3XY
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Damit hat der Nullpunkt des Kartesischen Blattes die 
+\definitionsverweis {Multiplizität}{}{}
+zwei und ist singulär, und sowohl die $X$- als auch die $Y$-Achse sind Tangenten
+\zusatzklammer {mit einfacher Multiplizität} {} {.}
+An den übrigen Punkten ist die Kurve glatt
+\zusatzklammer {der Grundkörper habe nicht die Charakteristik $3$} {} {:}
+aus
+<br/>\mathdisp {\frac{\partial F}{\partial X}= 3X^2-3Y=0 \text{ und } \frac{\partial F}{\partial Y}= 3Y^2-3X=0} {  }<br/>
+folgt
+\mathkor {} {Y=X^2} {und} {X=Y^2} {,}
+also auch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ Y^4
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+\zusatzklammer {ebenso für $X$} {} {.}
+Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ X
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+oder $X$ und $Y$ sind beide eine dritte Einheitswurzel
+\zusatzklammer {und zwar sind beide $1$ oder es sind die beiden anderen dritten Einheitswurzeln} {} {.}
+An diesen anderen Verschwindungsstellen der beiden partiellen Ableitungen hat aber $F$ den Wert $-1$, diese sind also keine Punkte der Kurve.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\inputbemerkung<br/>{ }<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Für einen 
+\definitionsverweis {glatten Punkt}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ C
+}<br/>{ = }{ V(F)
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+einer ebenen algebraischen Kurve ist die 
+\definitionsverweis {Multiplizität}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{m
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ = }{ (0,0)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist also der lineare Term der Kurvengleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_1
+}<br/>{ = }{ uX+vY
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und es ist
+<br/>\mathdisp {{ \frac{   \partial   F   }{  \partial   X  } } (P)=u \text{   und } { \frac{   \partial   F   }{  \partial   Y  } } (P)=v} {  }<br/>
+\zusatzklammer {da die höheren homogenen Komponenten von $F$ keinen Beitrag zu den partiellen Ableitungen im Nullpunkt leisten} {} {.}
+Diese lineare Gleichung ist also die Tangentengleichung. Auch für einen beliebigen glatten Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ = }{(a,b)
+}<br/>{ \in }{ C
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+kann man aus den partiellen Ableitungen von $F$ in $P$ direkt die Tangentengleichung ablesen, und zwar ist die Tangente durch
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ { \frac{   \partial   F   }{  \partial   X  } } (P) (X-a) + { \frac{   \partial   F   }{  \partial   Y  } } (P) (Y-b) 
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+gegeben.</p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\inputbemerkung<br/>{ }<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit zugehöriger ebener algebraischer Kurve $C$ und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ C
+}<br/>{ = }{ V(F)
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein glatter Punkt der Kurve. Zu
+\maabbdisp {F} { {\mathbb A}^{2}_{ K } } { {\mathbb A}^{1}_{ K }
+} {}
+und dem Punkt $P$ gehört die durch die partiellen Ableitungen definierte lineare \stichwort {Tangentialabbildung} {}
+\zusatzklammer {das \stichwort {totale Differential} {}} {} {}
+zwischen den zugehörigen Tangentialräumen, also
+\maabbelementzeiledisplay {T_PF = \left(  \frac{\partial F}{\partial X} (P), \frac{\partial F}{\partial Y} (P)  \right)} {  T_P {\mathbb A}^{2}_{ K } \cong {\mathbb A}^{2}_{ K }  } { T_{F(P)} {\mathbb A}^{1}_{ K } = T_{0} {\mathbb A}^{1}_{ K } \cong {\mathbb A}^{1}_{ K }
+} {(s,t)   } { \frac{\partial F}{\partial X} (P) s + \frac{\partial F}{\partial Y} (P) t
+} {.}
+Da $P$ ein glatter Punkt ist, ist diese lineare Abbildung nicht die Nullabbildung. Die 
+\zusatzklammer {Richtung der} {} {}
+Tangente von $C$ an $P$ ist der Kern dieser Tangentialabbildung
+\zusatzklammer {wobei man bei der Identifizierung der Tangentialebene in $P$ mit der umgebenden affinen Ebene den Punkt $P$ mit dem Nullpunkt identifizieren muss. Die Tangente muss ja durch den Punkt gehen, der Kern gibt nur eine lineare Richtung vor} {} {.}</p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Intersect3} {png} }<br/>\end{center} <br/>\bildtext {Bei einer algebraischen Kurve sind die Schnittpunkte von irreduziblen Komponenten niemals glatt.} }<br/><br/>\bildlizenz { Intersect3.png } {Michael Larsen} {} {en.wikipedia.org} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1">Die folgende Aussage zeigt, dass ein Kreuzungspunkt zweier irreduzibler Komponenten niemals glatt sein kann.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1">\inputfaktbeweis<br/>{Ebene algebraische Kurve/Glatter Punkt/Liegt nur auf einer Komponente/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C
+}<br/>{ = }{ V(F)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+eine 
+\definitionsverweis {ebene algebraische Kurve}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ F_1 \cdots F_n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die Zerlegung in verschiedene Primfaktoren. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ C
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein
+\definitionsverweis {glatter Punkt}{}{}
+der Kurve.}<br/>\faktfolgerung {Dann liegt $P$ auf nur einer Komponente
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ C_i
+}<br/>{ = }{ V(F_i)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der Kurve.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+ }<br/>{ Siehe <a rel="mw:WikiLink" href="./Ebene_algebraische_Kurve/Glatter_Punkt/Liegt_nur_auf_einer_Komponente/Fakt/Beweis/Aufgabe" title="Ebene algebraische Kurve/Glatter Punkt/Liegt nur auf einer Komponente/Fakt/Beweis/Aufgabe">Aufgabe 22.9</a>. }</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurve/Glatte zusammenhängende Kurve/Ist irreduzibel/Fakt}<br/>{Korollar}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C
+}<br/>{ \subseteq }{ {\mathbb A}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine
+\definitionsverweis {(Zariski)-zusammenhängende}{}{}
+ebene glatte algebraische Kurve über einem 
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+$K$.}<br/>\faktfolgerung {Dann ist $C$ 
+\definitionsverweis {irreduzibel}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Aufgrund von
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurve/Glatter_Punkt/Liegt_nur_auf_einer_Komponente/Fakt" title="Ebene algebraische Kurve/Glatter Punkt/Liegt nur auf einer Komponente/Fakt">Lemma 22.12</a> sind die irreduziblen Komponenten der Kurve disjunkt. Dies sind dann aber auch die Zusammenhangskomponenten der Kurve. Also gibt es nur eine irreduzible Komponente und daher ist die Kurve irreduzibel.</p>
+</div>
+
+}</div><span about="#mwt1">
+
+ </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

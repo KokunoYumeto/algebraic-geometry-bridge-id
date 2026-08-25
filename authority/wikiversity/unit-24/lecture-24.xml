@@ -1,0 +1,100 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 24</title>
+    <ns>106</ns>
+    <id>50730</id>
+    <revision>
+      <id>933672</id>
+      <parentid>833962</parentid>
+      <timestamp>2024-05-06T16:57:23Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>933672</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2141" sha1="ki4l9e34b6rgrju2kv6jfrwd0lz2rvi" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesungsgestaltung|24|
+
+{{Zwischenüberschrift|Tangenten bei Parametrisierungen}}
+
+{{inputfaktbeweis|Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt|Satz| }}
+
+{{
+inputbeispiel
+|Endlicher Körper/(t^q-t,t^q-t)/Gerade/Ableitung ist keine Tangente/Beispiel||
+}}
+
+{{
+inputbeispiel
+|Ebene algebraische Kurve/x^2-y^2+y^3/Tangente unter Parametrisierung/t ist 2/Beispiel||
+|ref1=
+}}
+
+{{Zwischenüberschrift|Tangenten bei Raumkurven}}
+
+Wir beschränken uns zwar hauptsächlich auf den Fall von ebenen Kurven, dennoch kann man auch für Kurven in einer höherdimensionalen Umgebung und überhaupt für beliebige Varietäten mit der Hilfe von Ableitungen die Begriffe glatt und singulär definieren. Wir demonstrieren dies kurz für Raumkurven, die durch zwei Polynome {{mathl|term=F,G \in K[X,Y,Z]|SZ=}} in drei Variablen ohne gemeinsame Komponenten gegeben seien 
+{{
+Zusatz/Klammer
+|text=nicht jede Raumkurve lässt sich so beschreiben|
+|ISZ=!|ESZ=.
+}} In diesem Fall betrachtet man zu einem Punkt {{mathl|term=P \in C=V(F,G)|SZ=}} wieder die {{Stichwort|Jacobi-Matrix|SZ=}}
+{{
+Abbildung/display
+|name={{Jacmat32|x|y|z|F|G|punkt=P}}
+|{{op:Affiner Raum|3|K}}|{{op:Affine Ebene|K}}
+||
+|SZ=.
+}}
+Dann ist {{math|term=P|SZ=}} ein glatter Punkt der Kurve genau dann, wenn diese Matrix den Rang zwei hat. Der eindimensionale Kern definiert dann die {{Stichwort|Tangente|SZ=.}}
+
+{{inputbeispiel|Algebraische Raumkurven/Schnitt von zwei gleichgroßen Zylindern/Singuläre Punkte/Beispiel||ref1=}}
+
+{{Zwischenüberschrift|Potenzreihenringe}}
+
+{{:Potenzreihenring/Allgemein und eine Variable/Einführung/Textabschnitt
+|zusatz1=Wir interessieren uns hauptsächlich für den Potenzreihenring {{mathl|term={{op:Potenzreihenring|K|T}}|SZ=}} in einer Variablen über einem Körper {{math|term=K|SZ=.}} Mit Hilfe von Potenzreihenringen kann man {{Anführung|formale Parametrisierungen}} für beliebige algebraische Kurven in jedem Punkt finden, was wir in der nächsten Vorlesung behandeln werden. Zunächst müssen wir einige grundlegende Eigenschaften der Potenzreihenringe verstehen.
+}}
+
+}}</text>
+      <sha1>ki4l9e34b6rgrju2kv6jfrwd0lz2rvi</sha1>
+    </revision>
+  </page>
+</mediawiki>

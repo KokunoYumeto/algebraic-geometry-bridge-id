@@ -1,0 +1,129 @@
+{
+  "schema": "ag-bridge-protected-surfaces-v4",
+  "status": "PASS",
+  "verified_date": "2026-08-25",
+  "through_unit": 24,
+  "unit_21_baseline": {
+    "path": "qa/UNIT_21_PROTECTED_SURFACES.json",
+    "bytes": 1977,
+    "sha256": "35eee319508f364c73f32627ffb69b376bd15bb978e4d1694765dc06538eb6ba"
+  },
+  "machine_qa": {
+    "path": "qa/UNITS_01_24_MACHINE_QA.json",
+    "bytes": 4457,
+    "sha256": "8c9e0fdf4817c6fef955007abdca4b49eb4e3dbddcc12804b04646ac1ac3dbd3"
+  },
+  "units_22_24": {
+    "22": {
+      "tokens": 25,
+      "source_files": 3,
+      "missing": 0,
+      "translation_qa": {
+        "path": "qa/UNIT_22_TRANSLATION_QA.json",
+        "bytes": 5620,
+        "sha256": "b3baa6c90925f3c297ec1531c2d04659e35e23656c0d4e6b548a815d02d17ed6"
+      },
+      "translation_qa_implementation": {
+        "path": "scripts/qa_unit22_translation.py",
+        "bytes": 27609,
+        "sha256": "5538ae70fd1aa7bf8a1641f0ba73ee860c777dbea2ae86a2fd7d8e4ace08e3b5"
+      }
+    },
+    "23": {
+      "tokens": 30,
+      "source_files": 3,
+      "missing": 0,
+      "translation_qa": {
+        "path": "qa/UNIT_23_TRANSLATION_QA.json",
+        "bytes": 5842,
+        "sha256": "f0acd4d9693492c995f74db28e5d5f35833f25213181a514252409c64c097d9a"
+      },
+      "translation_qa_implementation": {
+        "path": "scripts/qa_unit23_translation.py",
+        "bytes": 31947,
+        "sha256": "a04e30fc40d5b9f47707d490740436475a97d6ca659d81574a5aca218d86b419"
+      }
+    },
+    "24": {
+      "tokens": 36,
+      "source_files": 3,
+      "missing": 0,
+      "translation_qa": {
+        "path": "qa/UNIT_24_TRANSLATION_QA.json",
+        "bytes": 6340,
+        "sha256": "bb7e2716cd1a6438e7e3ccfbec412c5e838c118f88a22d0090c41f0ca24a9011"
+      },
+      "translation_qa_implementation": {
+        "path": "scripts/qa_unit24_translation.py",
+        "bytes": 35522,
+        "sha256": "3daf48aab28beb24eb3d2cf8e31336b5b84706f70822210f45d8b666848622af"
+      }
+    }
+  },
+  "protected_token_count": 91,
+  "source_missing": 0,
+  "html_mathml_annotations": 9514,
+  "html_missing": 0,
+  "pdf_terminal_start_page": 365,
+  "pdf_terminal_pages_checked": 53,
+  "pdf_terminal_markers": [
+    "Kuliah 22: Dimensi Penyematan serta Titik Mulus dan Singular",
+    "Soal 22.23",
+    "Solusi Soal 22.18",
+    "Kuliah 23: Ruang Kotangen dan Multiplisitas Hilbert-Samuel",
+    "Soal 23.12",
+    "Solusi Soal 23.5",
+    "Kuliah 24: Garis Singgung dan Gelanggang Deret Pangkat Formal",
+    "Soal 24.10",
+    "Solusi Soal 24.4"
+  ],
+  "correction_and_bridge_disclosures": [
+    "AGC-CORR-0071",
+    "AGC-CORR-0072",
+    "AGC-CORR-0073",
+    "AGC-CORR-0074",
+    "AGC-CORR-0075",
+    "AGC-CORR-0076",
+    "AGC-CORR-0077",
+    "AGC-CORR-0078",
+    "AGC-CORR-0079",
+    "AGC-CORR-0080",
+    "AGC-CORR-0081",
+    "AGC-CORR-0082",
+    "AGC-CORR-0083",
+    "AGC-CORR-0084",
+    "AGC-CORR-0085",
+    "AGC-CORR-0086",
+    "AGC-CORR-0087",
+    "AGC-CORR-0088",
+    "AGC-CORR-0089",
+    "AGC-CORR-0090"
+  ],
+  "checks": [
+    "exact Unit 21 protected-surface baseline is PASS and byte-pinned",
+    "cumulative Unit 24 machine QA and output identities are PASS",
+    "Units 22-24 translation math gates and source identities are PASS",
+    "protected token lists are extracted without executing their per-unit QA implementations",
+    "all protected source formulas survive as HTML TeX annotations",
+    "measured terminal PDF range contains every Unit 22-24 lecture, worksheet, and public-solution boundary",
+    "all Unit 22-24 correction bindings form one deduplicated contiguous ledger interval"
+  ],
+  "evidence": [
+    {
+      "path": "qa/UNIT_22_TRANSLATION_QA.json",
+      "bytes": 5620,
+      "sha256": "b3baa6c90925f3c297ec1531c2d04659e35e23656c0d4e6b548a815d02d17ed6"
+    },
+    {
+      "path": "qa/UNIT_23_TRANSLATION_QA.json",
+      "bytes": 5842,
+      "sha256": "f0acd4d9693492c995f74db28e5d5f35833f25213181a514252409c64c097d9a"
+    },
+    {
+      "path": "qa/UNIT_24_TRANSLATION_QA.json",
+      "bytes": 6340,
+      "sha256": "bb7e2716cd1a6438e7e3ccfbec412c5e838c118f88a22d0090c41f0ca24a9011"
+    }
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

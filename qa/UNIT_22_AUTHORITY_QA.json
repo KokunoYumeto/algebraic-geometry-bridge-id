@@ -1,0 +1,85 @@
+{
+  "schema": "ag-bridge-unit-authority-qa-v1",
+  "result": "PASS",
+  "unit": 22,
+  "frozen_utc": "2026-08-25T02:36:06.725794+00:00",
+  "authority_manifest": {
+    "path": "authority/wikiversity/unit-22/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 184308,
+    "sha256": "fefb7f6221a3e71b94649f03c75693f9eb34ec228cedf0af7d9e332aeda7d38a"
+  },
+  "qa_script": {
+    "path": "scripts/qa_unit22_authority.py",
+    "bytes": 10920,
+    "sha256": "060232ce70eb83a0dfda6e271e611e1fe1e198cb8b1c0164c73b1607f754a1f3"
+  },
+  "local_inventory": {
+    "files": 84,
+    "bytes": 1029606
+  },
+  "bounded_external_inventory": {
+    "files": 12,
+    "bytes": 780858
+  },
+  "entry_revisions": {
+    "lecture": 1051397,
+    "worksheet": 1062660
+  },
+  "recursive_pages": {
+    "lecture": 131,
+    "worksheet": 118,
+    "solutions": [
+      7,
+      10,
+      13,
+      10,
+      10,
+      7,
+      9,
+      11,
+      13
+    ],
+    "missing": 0
+  },
+  "exercise_count": 23,
+  "public_solution_numbers": [
+    5,
+    6,
+    9,
+    10,
+    12,
+    14,
+    15,
+    16,
+    18
+  ],
+  "reader_media_positions": 7,
+  "asset_ids": [
+    "br-ak-u22-media-001",
+    "br-ak-u22-media-002",
+    "br-ak-u22-media-003",
+    "br-ak-u22-media-004",
+    "br-ak-u22-media-005",
+    "br-ak-u22-media-006",
+    "br-ak-u22-media-007"
+  ],
+  "official_pdf_pages": [
+    9,
+    7
+  ],
+  "final_live_identity_replay": {
+    "wikiversity": 242,
+    "commons_pdfs": 2
+  },
+  "checks": [
+    "manifest_local_inventory_bytes_and_hashes",
+    "bounded_external_inventory_bytes_and_hashes",
+    "entry_and_recursive_closure_identities",
+    "ordered_exercise_and_public_solution_topology",
+    "complete_solution_wrapper_and_dependency_closure",
+    "unit_scoped_media_ids_rights_assets_and_original_identities",
+    "official_pdf_component_identities",
+    "captured_final_live_identity_replay",
+    "no_stale_unit12_asset_identifiers"
+  ]
+}

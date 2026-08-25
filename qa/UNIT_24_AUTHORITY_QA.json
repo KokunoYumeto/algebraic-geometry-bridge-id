@@ -1,0 +1,89 @@
+{
+  "schema": "ag-bridge-unit-authority-qa-v1",
+  "result": "PASS",
+  "unit": 24,
+  "frozen_utc": "2026-08-25T14:36:25.784824+00:00",
+  "authority_manifest": {
+    "path": "authority/wikiversity/unit-24/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 119762,
+    "sha256": "3731896a5980c565d9d69a2e01eee497f13b6f449f2f9c701fce726271c026a5"
+  },
+  "authority_freeze_note": {
+    "path": "authority/UNIT_24_AUTHORITY_FREEZE.md",
+    "bytes": 3945,
+    "sha256": "0313f42a7716e4c918f2531cf927e3bff4b136712284fab13740c4610237e20e"
+  },
+  "qa_script": {
+    "path": "scripts/qa_unit24_authority.py",
+    "bytes": 16237,
+    "sha256": "939a7ecbe048d0a8d5829615f74916c08d2ff2b0b5d94ddfc3f0bc2fe4ea14f2"
+  },
+  "local_inventory": {
+    "files": 52,
+    "bytes": 651940
+  },
+  "bounded_external_inventory": {
+    "files": 4,
+    "bytes": 130260
+  },
+  "entry_revisions": {
+    "lecture": 933672,
+    "worksheet": 793492
+  },
+  "recursive_pages_with_roots": {
+    "lecture": 122,
+    "worksheet": 65,
+    "solution": 18
+  },
+  "canonical_identity_rows_sha256": {
+    "lecture": "861c2d4566a137c9c3d791480bfa2f1f36a7885798f54f34c8e60557d34e75b2",
+    "worksheet": "b02b815554f0c5dbb4e8f5aceb6b7cc7faa747d9c7c1aa136facd1f62d1831f1",
+    "solution": "df98d341ed63b4cbd1b0051d725bfc8606937f489203941525b21bdfd54df7af"
+  },
+  "noncontrolling_preflight_serialization_sha256": {
+    "lecture": "867955dfa799954da0c33d9b09625f7e194eda8ebfbdc23348c1c4ffbab83fa6",
+    "worksheet": "baf26dd0e702bc9ebb4f0466b5c0e4e3c4daea3ab028a8964da4f7b7bc128b91",
+    "solution": "978d772d44d664efcea08fb0de14e540f63bafeb2c1202552c4f209a8a3280a8"
+  },
+  "exercise_count": 10,
+  "practice_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "submitted_points": [
+    5,
+    3,
+    3,
+    3,
+    6
+  ],
+  "public_solution_numbers": [
+    4
+  ],
+  "reader_media_positions": 0,
+  "official_pdf_pages": [
+    6,
+    2
+  ],
+  "final_live_identity_replay": {
+    "semantic_wikiversity": 159,
+    "local_wikiversity_pdfs": 2
+  },
+  "checks": [
+    "manifest_local_inventory_bytes_and_hashes",
+    "bounded_external_inventory_bytes_and_hashes",
+    "entry_latex_and_recursive_closure_identities",
+    "documented_canonical_identity_hash_recomputation",
+    "noncontrolling_preflight_hash_serialization_mismatch_disclosed",
+    "ordered_exercise_points_star_and_public_solution_topology",
+    "complete_public_solution_dependency_closure",
+    "zero_substantive_media_header_only_rights",
+    "official_local_wikiversity_pdf_bytes_pages_and_accessibility",
+    "dual_current_and_legacy_component_license_notices",
+    "exercise_7_and_historical_pdf_math_defect_bindings",
+    "captured_final_live_identity_replay"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "ag-bridge-unit-authority-qa-v1",
+  "result": "PASS",
+  "unit": 23,
+  "frozen_utc": "2026-08-25T14:10:09.469709+00:00",
+  "authority_manifest": {
+    "path": "authority/wikiversity/unit-23/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 161310,
+    "sha256": "f7ee49a4bfa589b831c1fdb69e6f091ac1762d9da019a133670e4e0d723d34ae"
+  },
+  "authority_freeze_note": {
+    "path": "authority/UNIT_23_AUTHORITY_FREEZE.md",
+    "bytes": 4776,
+    "sha256": "353d0b922f69caf330571a271c2ca6bf5c031c27062f82366ab01b87dd475c36"
+  },
+  "qa_script": {
+    "path": "scripts/qa_unit23_authority.py",
+    "bytes": 19949,
+    "sha256": "83c14f2342478715cd388c7ac32494c13be4bb283242568b0f5596851c3638fd"
+  },
+  "local_inventory": {
+    "files": 57,
+    "bytes": 808727
+  },
+  "bounded_external_inventory": {
+    "files": 4,
+    "bytes": 384390
+  },
+  "entry_revisions": {
+    "lecture": 1112318,
+    "worksheet": 1062659
+  },
+  "recursive_pages": {
+    "lecture": 142,
+    "worksheet": 102,
+    "solutions": [
+      19,
+      13
+    ],
+    "missing": 0
+  },
+  "casefold_comparison_keys": {
+    "lecture": 141,
+    "worksheet": 101
+  },
+  "exercise_count": 12,
+  "public_solution_numbers": [
+    4,
+    5
+  ],
+  "reader_media_positions": 0,
+  "source_defect_ids": [
+    "AGC-U23-SRC-001",
+    "AGC-U23-SRC-002",
+    "AGC-U23-SRC-003",
+    "AGC-U23-SRC-004",
+    "AGC-U23-SRC-005",
+    "AGC-U23-SRC-006"
+  ],
+  "official_pdf_pages": [
+    7,
+    5
+  ],
+  "worksheet_blank_page_numbers": [
+    4
+  ],
+  "final_live_identity_replay": {
+    "wikiversity_exact_titles": 208,
+    "commons_pdfs": 2
+  },
+  "checks": [
+    "manifest_local_inventory_bytes_and_hashes",
+    "bounded_external_inventory_bytes_and_hashes",
+    "entry_latex_and_dynamic_tex_identities",
+    "exact_case_sensitive_recursive_closure_identities",
+    "course_cc_by_sa_4_license_closure",
+    "ordered_exercise_roles_authored_and_displayed_points",
+    "public_solution_identity_wrapper_and_dependency_closure",
+    "high_risk_source_identity_and_defect_bindings",
+    "header_only_rights_and_zero_media_closure",
+    "official_pdf_bytes_pages_accessibility_slots_and_license_claims",
+    "worksheet_blank_page_4_and_temporal_discrepancies",
+    "captured_final_live_identity_replay",
+    "durable_authority_freeze_note"
+  ]
+}

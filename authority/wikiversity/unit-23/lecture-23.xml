@@ -1,0 +1,206 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 23</title>
+    <ns>106</ns>
+    <id>165912</id>
+    <revision>
+      <id>1112318</id>
+      <parentid>1051403</parentid>
+      <timestamp>2026-08-21T09:42:07Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112318</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3363" sha1="j3kmpugo9pf5mhlr065gw9hauwdojqv" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|23|
+
+{{Zwischenüberschrift|Interpretation als Kotangentialraum}}
+
+Wir geben noch einen Hinweis, dass die Bezeichnung von {{mathl|term=  {{idealm|}}/ {{idealm|}}^2  |SZ=}} als Kotangentialraum gut begründet ist. Aus der Analysis weiß man, dass zu einem Punkt
+{{
+Relationskette
+| P
+|\in| M
+||
+||
+||
+|SZ=
+}}
+einer
+{{
+Definitionslink
+|Prämath=
+|Mannigfaltigkeit|
+|Kontext=|
+|SZ=
+}}
+{{math|term= M |SZ=}} und einer differenzierbaren Funktion
+{{
+Abbildung
+|name=f
+|M|\R
+||
+|SZ=
+}}
+das Differential
+{{
+Abbildung/display
+|name= df
+|T_PM| \R
+||
+|SZ=
+}}
+linear ist
+{{
+Zusatz/Klammer
+|text=siehe
+{{
+Faktlink
+|Präwort=||Faktseitenname=
+Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt
+|Nr=3
+|SZ=
+}}
+|ISZ=|ESZ=,
+}}
+also ein Element des 
+{{
+Definitionslink
+|Prämath=
+|Kotangentialraumes|
+|Kontext=|
+|SZ=
+}}
+{{mathl|term= T^*_PM |SZ=.}} Die Gesamtzuordnung
+{{
+Abbildung/display
+|name=
+| C^ 1(M,\R) | T^*_PM
+|f|df
+|SZ=,
+}}
+ist dabei eine Derivation, d.h. es gilt die Leibniz-Regel
+{{
+Relationskette/display
+| d(fg)
+|| fdg+gdf
+||
+||
+||
+|SZ=.
+}}
+
+Wir erwähnen das allgemeine algebraische Konzept einer Derivation.
+{{
+inputdefinition
+|Algebraische Derivation/Definition||
+}}
+
+{{
+inputfaktbeweis
+|K-Algebra/Algebraischer Kotangentialraum an K-Punkt/Direkte Derivation/Fakt|Satz||
+}}
+
+{{Zwischenüberschrift|Glatte und normale Punkte}}
+
+Wir wollen zeigen, dass ein Punkt auf einer ebenen algebraischen Kurve genau dann glatt ist, wenn der zugehörige lokale Ring ein diskreter Bewertungsring ist. Dabei ist die Glattheit in einem Punkt extrinsisch unter Bezug auf die umgebende Ebene definiert worden, während die Eigenschaft, ein diskreter Bewertungsring zu sein, nur vom Koordinatenring der Kurve abhängt. Das folgende Lemma erledigt die eine Richtung, für die andere Richtung müssen wir zuerst eine intrinsische Multiplizität für einen lokalen Ring entwickeln.
+
+{{inputfaktbeweis
+|Ebene algebraische Kurve/Glatter Punkt/Lokaler Ring ist diskreter Bewertungsring/Fakt|Lemma||||}}
+
+{{Zwischenüberschrift|Die Hilbert-Samuel Multiplizität}}
+
+{{
+inputfaktbeweis
+|Noetherscher lokaler Ring/Potenzen vom maximalen Ideal/Restklassenring und Jets sind endlich-dimensional/Fakt|Lemma||||
+}}
+
+Im Fall einer ebenen algebraischen Kurve
+{{
+Relationskette
+| V
+|| V(F)
+|\subset| {{op:Affiner Raum|2|K}}
+||
+||
+|SZ=
+}} 
+und einem Punkt
+{{
+Relationskette
+| P
+|| (a,b)
+|\in| V
+||
+||
+|SZ=
+}}
+ist der lokale Ring durch {{mathl|term= K[X,Y]_{(X-a,Y-b)}/(F) |SZ=}} gegeben. Der Restklassenkörper dieses lokalen Ringes ist {{math|term= K |SZ=}} selbst. Daher sind alle Voraussetzungen, die in
+{{
+Faktlink
+|Präwort=||Faktseitenname=
+Noetherscher lokaler Ring/Potenzen vom maximalen Ideal/Restklassenring und Jets sind endlich-dimensional/Fakt
+|Nr=
+|SZ=
+}}
+auftauchen, erfüllt, und alle Dimensionen sind Dimensionen über dem Grundkörper.
+
+{{inputfaktbeweis
+|Ebene algebraische Kurve/Multiplizität über Hilbert-Samuel Polynom/Fakt|Satz||}}
+
+{{inputbemerkung
+|Ebene algebraische Kurve/Multiplizität über Hilbert-Samuel Polynom/Bemerkung||}}
+
+{{
+inputfaktbeweis
+|Ebene algebraische Kurve/Punkt/Glatt,diskreter Bewertungsring, Multiplizität/Fakt|Satz|||||
+}}
+
+{{Zwischenüberschrift|Monomiale Kurven und Multiplizität}}
+
+{{:Monomiale Kurve/Multiplizität/Numerisch und Hilbert-Samuel/Textabschnitt}}
+
+}}</text>
+      <sha1>j3kmpugo9pf5mhlr065gw9hauwdojqv</sha1>
+    </revision>
+  </page>
+</mediawiki>

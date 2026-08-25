@@ -1,0 +1,141 @@
+{
+  "schema": "ag-bridge-backend-qa-v6",
+  "result": "PASS",
+  "through_unit": 24,
+  "backend": {
+    "manifest_path": "backend/units-01-24/MANIFEST.json",
+    "manifest_sha256": "46ed6d1dc2629cd5303a38c972dff9fc885255fe3443374feafee8ecc07dd70a",
+    "records_path": "backend/units-01-24/records.jsonl",
+    "records_sha256": "b2550dc11285eec35e1e08eef58284fcf5d88ea9206eabac9fd4b921df43f0c7",
+    "schema_path": "backend/units-01-24/record.schema.json",
+    "schema_sha256": "3158825c0bd1c0da54c1c670630e7a8a2299b2b0d82e0f905042e76d7630906a",
+    "record_count": 18488,
+    "new_record_count": 2374,
+    "counts": {
+      "artifact": 202,
+      "asset": 83,
+      "concept": 203,
+      "correction": 111,
+      "course": 1,
+      "edition": 16,
+      "exercise": 622,
+      "program": 1,
+      "qa_event": 53,
+      "relation": 8713,
+      "resource": 4,
+      "rights": 88,
+      "segment": 6713,
+      "solution": 114,
+      "term": 208,
+      "unit": 1356
+    },
+    "units_01_21_baseline_record_count": 16114,
+    "units_01_21_baseline_records_exactly_preserved": true
+  },
+  "units_22_24": {
+    "22": {
+      "exercise_count": 23,
+      "public_solution_count": 9,
+      "solution_exercise_numbers": [
+        5,
+        6,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18
+      ],
+      "media_positions": 7,
+      "binary_surfaces": 7,
+      "manifest_sha256": "fefb7f6221a3e71b94649f03c75693f9eb34ec228cedf0af7d9e332aeda7d38a",
+      "exercise_map_sha256": "d4b1d1f0a08de69d6fb7da513b8bce9ebaf697d5dad51632d0db063925d05f1e",
+      "rights_sha256": "1c7d8493693002363e2482db54c0c421e7124faefc824eddb7a20daf81f071d4",
+      "asset_closure_sha256": "f0647334a7bd2b2bd1172dce5296812efd80dafadc4376268409a2a063607c45"
+    },
+    "23": {
+      "exercise_count": 12,
+      "public_solution_count": 2,
+      "solution_exercise_numbers": [
+        4,
+        5
+      ],
+      "media_positions": 0,
+      "binary_surfaces": 0,
+      "manifest_sha256": "f7ee49a4bfa589b831c1fdb69e6f091ac1762d9da019a133670e4e0d723d34ae",
+      "exercise_map_sha256": "fdfec83fe1ef4f0d87eca194f2991805cd69ff2af070b73ef83c0ba1c9d1e4c4",
+      "rights_sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544",
+      "asset_closure_sha256": "d6bd0435e6c24d3085e8b4282d89bc263c4957b699d92d5c8409f7c16a43da64"
+    },
+    "24": {
+      "exercise_count": 10,
+      "public_solution_count": 1,
+      "solution_exercise_numbers": [
+        4
+      ],
+      "media_positions": 0,
+      "binary_surfaces": 0,
+      "manifest_sha256": "3731896a5980c565d9d69a2e01eee497f13b6f449f2f9c701fce726271c026a5",
+      "exercise_map_sha256": "250744d177bc2d5cf2a1cc506a99e05f1250c771de88b214a0e8d5cabfe7b9b8",
+      "rights_sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544",
+      "asset_closure_sha256": "6fe01774a095a6ed24549b8972fc1447d938a5d8868bd3bcc55691e88afea579"
+    }
+  },
+  "reader_evidence": {
+    "build_receipt_sha256": "4f9af8162525a4d6dd06920e7cb279bd17dae2df71dd3a4befe65afdb5a56615",
+    "machine_qa_sha256": "8c9e0fdf4817c6fef955007abdca4b49eb4e3dbddcc12804b04646ac1ac3dbd3",
+    "visual_qa_sha256": "cad1b35e9b0df72f97babc2be026086fbdfbf0a8cc85e57e6fc34b488650f9fe",
+    "responsive_qa_sha256": "0e9599a32cf3523ffc1a4503fb20ee3c1cae4b528b3cc46353873f57ab8b9594",
+    "protected_surfaces_sha256": "afcb17362e90f8492b78eeaf5022f0bca1ee193c2ee1cff6ed0e33f235622580",
+    "unit_22_translation_qa_sha256": "b3baa6c90925f3c297ec1531c2d04659e35e23656c0d4e6b548a815d02d17ed6",
+    "unit_23_translation_qa_sha256": "f0acd4d9693492c995f74db28e5d5f35833f25213181a514252409c64c097d9a",
+    "unit_24_translation_qa_sha256": "bb7e2716cd1a6438e7e3ccfbec412c5e838c118f88a22d0090c41f0ca24a9011",
+    "deterministic_replay_outputs": {
+      "backend/units-01-24/MANIFEST.json": "46ed6d1dc2629cd5303a38c972dff9fc885255fe3443374feafee8ecc07dd70a",
+      "backend/units-01-24/record.schema.json": "3158825c0bd1c0da54c1c670630e7a8a2299b2b0d82e0f905042e76d7630906a",
+      "backend/units-01-24/records.jsonl": "b2550dc11285eec35e1e08eef58284fcf5d88ea9206eabac9fd4b921df43f0c7",
+      "backend/units-01-24/artifact.jsonl": "8ead1b61b77cd8d7ec0381d7409b861557890682c61d2b28ccb407f5e6cfadcf",
+      "backend/units-01-24/asset.jsonl": "19add655bbf6afa9494fd8ac86b65b476b240a198306c339375926de857a457d",
+      "backend/units-01-24/concept.jsonl": "ce0af122f8467c51b9506de6dcd1d4f04a3e990c58c7b3f52e06529a7442b6b7",
+      "backend/units-01-24/correction.jsonl": "230581228c74f63aba28c1b76f45086ca15afc06668e7a4e4248392b58483068",
+      "backend/units-01-24/course.jsonl": "83b02844f8c2a2fe8671e627a911b666ba7126ce1d981aed03fefc19c95d4012",
+      "backend/units-01-24/edition.jsonl": "eee4fac06a0ea58cd819f800739811fd9135a11856555bbd21550f71ade64764",
+      "backend/units-01-24/exercise.jsonl": "fdff2a433c4aba4d5effb204eb64f2dde9f05c1a898825e6e7b59f2e0c38dd9b",
+      "backend/units-01-24/program.jsonl": "7d216a158dadd5de231f9b45c0991464f0fe128ab08340e172b06e88fa83d4f6",
+      "backend/units-01-24/qa_event.jsonl": "d9e820d6d4ef8d9d5bdbdf3a9c909039e6e97ff173f99b98925a37418c985c54",
+      "backend/units-01-24/relation.jsonl": "78d5e3ce1484b58c307144066530e5ab5ddbdaf9eaef0fa8f19459d0ae95ca4b",
+      "backend/units-01-24/resource.jsonl": "26c6f7b428604ea85c4527fcd40e400a365a6661d3ee039a18dc04f0d7ee11e7",
+      "backend/units-01-24/rights.jsonl": "23b828862c541577ef0a3b235da9bec3a163a0cb5f0945101672888cc92777ea",
+      "backend/units-01-24/segment.jsonl": "798be3f67c34a0be65f3c386c604e380d7c480d82f29f0dad8fbe7f4632f5e6e",
+      "backend/units-01-24/solution.jsonl": "5470f87b0a0f28c7576369ebb0c7e46d3777c6ecc7cafccde59cade18dbc6d8f",
+      "backend/units-01-24/term.jsonl": "a73afe3407b02849638a94c50bd62d5c6fbdbbbb9c2f7165fa7cf7f2c27e8b27",
+      "backend/units-01-24/unit.jsonl": "82561aef60dd10d979dbaabd8f06983ab422bf42baf96e128060767c9f6d90d6"
+    }
+  },
+  "ledger_evidence": {
+    "terminology_path": "00_control/TERMINOLOGY.csv",
+    "terminology_sha256": "6193cbff180864b2cff942f9f99a79c24aab473c71f70c160ade356d34ef079d",
+    "new_term_count": 41,
+    "new_concept_count": 41,
+    "corrections_path": "00_control/CORRECTIONS.csv",
+    "corrections_sha256": "4e06c3954eb1fb9845479a207626005ac4c1d21e909149b60b7a7ba4d3071579",
+    "new_correction_count": 20
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "validation": {
+    "canonical_jsonl_and_schema_surface": true,
+    "unique_stable_ids": true,
+    "parent_resource_edition_rights_concept_and_relation_closure": true,
+    "units_01_21_record_and_payload_byte_identity": true,
+    "source_hashes_match_frozen_values_and_reader_inputs": true,
+    "authority_manifest_map_rights_asset_solution_closure": true,
+    "units_22_24_terminology_and_correction_ledger_closure": true,
+    "reader_build_machine_visual_responsive_and_protected_qa": true,
+    "per_unit_22_24_translation_integration_evidence": true,
+    "unit_18_schema_bytes_preserved": true,
+    "global_tuple_order_and_crlf_raw_byte_identity": true,
+    "deterministic_exporter_replay": true,
+    "exact_model_provenance_on_every_new_record": true
+  }
+}

@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/806122"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/796341"/><meta property="mw:revisionSHA1" content="3e3nqvm6nsvokcc33v86ivll7ce6lru"/><meta property="dc:modified" content="2022-09-18T07:14:32Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="51880"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012)/Vorlesung_24/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 24/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="86d16111-9e82-11f1-b0aa-bdbf07b3c6b1"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"Latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{24}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Tangenten bei Parametrisierungen}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein unendlicher 
+\definitionsverweis {Körper}{}{}
+und
+\maabbdisp {\varphi} { {\mathbb A}^{1}_{ K } } { { {\mathbb A}_{  K }^{  n   } } 
+} {}
+eine durch $n$ Polynome
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \varphi
+}<br/>{ = }{ \left( \varphi_1(t)   , \,   \ldots  , \,   \varphi_n(t)                 \right)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+in einer Variablen gegebene Abbildung, deren Bild in der 
+\definitionsverweis {Kurve}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C
+}<br/>{ = }{ V(F_1 , \ldots ,  F_m)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+liege. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ = }{\varphi(Q)
+}<br/>{ \in }{ C
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktfolgerung {Dann liegt der 
+\zusatzklammer {Ableitungs} {} {-}Vektor <br/>\mathl{\left( \frac{\partial \varphi_1 }{\partial t}(Q) , \ldots ,  \frac{\partial \varphi_n }{\partial t}(Q) \right)}{} im 
+\definitionsverweis {Kern}{}{}
+der durch die 
+\definitionsverweis {Jacobi-Matrix}{}{}
+<br/>\mathdisp {\left(  \frac{\partial F_i }{\partial X_j } (P)  \right)_{ij}} {  }<br/>
+definierten linearen Tangentialabbildung
+\maabbdisp {(TF)_P} { { {\mathbb A}_{  K }^{  n   } } } { { {\mathbb A}_{  K }^{  m   } } 
+} {.}}<br/>\faktzusatz {Ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{n
+}<br/>{ = }{ 2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und verschwinden nicht beide 
+\definitionsverweis {partiellen Ableitungen}{}{}
+von $\varphi$ und ist $P$ ein 
+\definitionsverweis {glatter Punkt}{}{}
+von $C$, so definiert der Vektor <br/>\mathl{\left( \frac{\partial \varphi_1 }{\partial t}(Q)  , \,  \frac{\partial \varphi_2 }{\partial t}(Q)                   \right)}{} die Richtung der Tangente von $C$ in $P$.}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \varphi \left(  {\mathbb A}^{1}_{ K }  \right)  
+}<br/>{ \subseteq }{ V(F_1 , \ldots ,  F_m)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist die Hintereinanderschaltung <br/>\mathl{F \circ \varphi}{} die konstante Abbildung auf den Nullpunkt. Über einem unendlichen Körper sind dann auch die beschreibenden Komponentenpolynome gleich $0$. Daher ist nach der
+\zusatzklammer {algebraischen} {} {}
+<a rel="mw:WikiLink" href="./Totale_Differenzierbarkeit/K/Kettenregel/Fakt" title="Totale Differenzierbarkeit/K/Kettenregel/Fakt">Kettenregel</a>
+auch
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ 0 
+}<br/>{ =} {(T(F \circ \varphi))_Q
+}<br/>{ =} {(TF)_P \circ (T\varphi)_Q
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+und das ist die Behauptung. Daraus folgt auch der Zusatz, da unter den angegebenen Bedingungen der Kern der Jacobi-Matrix und das Bild der Tangentialabbildung eindimensional sind, also wegen der Inklusion übereinstimmen müssen.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ der
+\definitionsverweis {endliche Körper}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{q
+}<br/>{ = }{ p^e
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+Elementen, wobei $p$ eine
+\definitionsverweis {Primzahl}{}{}
+und <br/>\mathl{e \geq 1}{} ist. Die Abbildung
+\maabbeledisp {} { {\mathbb A}^{1}_{ K } } { {\mathbb A}^{2}_{ K } 
+} { t } { \left( t^q-t  , \,  t^q-t                   \right) 
+} {}
+besitzt den einzigen Bildpunkt <br/>\mathl{\left(  0   , \,   0                   \right)}{.} Der formale Ableitungsvektor dieser Parametrisierung ist aber
+<br/>\mathdisp {\left(  -1,-1                     \right)} { . }<br/>
+Eine geometrisch konstante Kurve kann also in positiver Charakteristik eine nicht-verschwindende Ableitung besitzen. Der Nullpunkt ist ein 
+\definitionsverweis {glatter Punkt}{}{}
+auf sämtlichen Geraden
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C
+}<br/>{ = }{ V(aX+bY)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Die 
+\definitionsverweis {Tangente}{}{}
+stimmt mit der Geradengleichung überein, diese annulliert aber nur bei <br/>\mathl{a=-b}{} den Vektor <br/>\mathl{\left(  -1,-1                     \right)}{.} In
+<a rel="mw:WikiLink" href="./Algebraische_Kurven/Rationale_Parametrisierung/Verhältnis_Tangenten/Fakt" title="Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt">Satz 24.1</a>
+kann man also nicht auf die Unendlichkeitsvoraussetzung verzichten.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir knüpfen an
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurve/x^2-y^2+y^3/Beschreibung/Beispiel" title="Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/Beispiel">Beispiel 6.3</a>
+an, d.h. wir betrachten die Kurve <br/>\mathl{V(y^2-x^2-x^3)}{} mit der 
+\definitionsverweis {Parametrisierung}{}{}
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (\varphi(t), \psi(t))
+}<br/>{ =} { \left( t^2-1  , \,   t \left(  t^2-1  \right)                   \right)
+}<br/>{ =} { (x,y)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Die partiellen Ableitungen von $F$ sind
+<br/>\mathdisp {{ \frac{   \partial   F   }{  \partial   x  } } = -2x-3x^2 \text{ und } { \frac{   \partial   F   }{  \partial   y  } } = 2y} { . }<br/>
+Die 
+\definitionsverweis {Jacobi-Matrix}{}{}
+der Parametrisierung ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left(  { \frac{   \partial  \varphi  }{  \partial  t  } }, { \frac{   \partial   \psi  }{  \partial  t  } }  \right)
+}<br/>{ =} { \left(  2t  , \,   3t^2-1                   \right)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Damit ist in der Tat 
+\zusatzklammer {mit
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ P
+}<br/>{ = }{ (\varphi(t),\psi(t))
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {}
+<br/>\mavergleichskettealigndrucklinks<br/>{\vergleichskettealigndrucklinks<br/>{ \left(  { \frac{   \partial   F   }{  \partial   x   } } ( P), { \frac{   \partial   F   }{  \partial   y   } } ( P)  \right) \begin{pmatrix}  2t \\ 3t^2-1   \end{pmatrix}
+}<br/>{ =} { \left(  -2 \left(  t^2-1  \right)-3 \left(  t^2-1  \right)^2 , 2 \left(  t^3-t  \right)   \right) \begin{pmatrix}  2t \\ 3t^2-1   \end{pmatrix} 
+}<br/>{ =} { -4t(t^2-1) - 6t \left(  t^2-1  \right)^2 +2 \left(  t^3-t  \right) \left(  3t^2-1  \right) 
+}<br/>{ =} { -4t^3 +4t -6t^5+12t^3 -6t +6t^5 -2t^3 -6t^3 +2t  
+}<br/>{ =} { 0
+}<br/>}
+{}{}{.}
+Für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ t
+}<br/>{ = }{ 2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ergibt sich beispielsweise der Bildpunkt 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ = }{ (3,6)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Für diesen Wert ist der Ableitungsvektor gleich <br/>\mathl{(4,11)}{.} Die partiellen Ableitungen an $P$ ergeben den Gradienten <br/>\mathl{(-33, 12)}{,} der senkrecht zum Tangentialvektor steht. Die Tangente selbst wird durch
+<br/>\mathdisp {\left\{  (3,6)+s(4,11)  \mid   s \in K        \right\}  \text{ oder als } V(-11x+4y+9)} {  }<br/>
+beschrieben.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Tangenten bei Raumkurven}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir beschränken uns zwar hauptsächlich auf den Fall von ebenen Kurven, dennoch kann man auch für Kurven in einer höherdimensionalen Umgebung und überhaupt für beliebige Varietäten mit der Hilfe von Ableitungen die Begriffe glatt und singulär definieren. Wir demonstrieren dies kurz für Raumkurven, die durch zwei Polynome <br/>\mathl{F,G \in K[X,Y,Z]}{} in drei Variablen ohne gemeinsame Komponenten gegeben seien 
+\zusatzklammer {nicht jede Raumkurve lässt sich so beschreiben} {!} {.} In diesem Fall betrachtet man zu einem Punkt <br/>\mathl{P \in C=V(F,G)}{} wieder die \stichwort {Jacobi-Matrix} {}
+\maabbdisp {\begin{pmatrix} \frac{\partial F}{\partial x }  &amp;  \frac{\partial F}{\partial y  }  &amp; \frac{\partial F}{\partial z  } \\ \frac{\partial G}{\partial x }  &amp;  \frac{\partial G}{\partial y  }  &amp; \frac{\partial G}{\partial z  } \end{pmatrix}_{ P }} {{ {\mathbb A}_{ K }^{ 3  } }} {{\mathbb A}^{2}_{K}
+} {.}
+Dann ist $P$ ein glatter Punkt der Kurve genau dann, wenn diese Matrix den Rang zwei hat. Der eindimensionale Kern definiert dann die \stichwort {Tangente} {.}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir knüpfen an
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Irreduzible_Teilmengen/Schnitt_von_zwei_gleichgroßen_Zylindern/Zwei_Kreise/Beispiel" title="Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel">Beispiel 4.6</a>
+an, also den Schnitt $C$ der beiden Zylinder, die durch
+<br/>\mathdisp {F=x^2+y^2-1 \text{ und } G=y^2+z^2-1} {  }<br/>
+gegeben sind. Die partiellen Ableitungen sind
+<br/>\mathdisp {\partial F = (2x, 2y, 0) \text{ und } \partial G =(0, 2y, 2z)} { . }<br/>
+Ein singulärer Punkt liegt vor, wenn diese durch die Jacobi-Matrix definierte Abbildung einen Rang $\leq 1$ hat, und dies ist genau dann der Fall, wenn die beiden partiellen Ableitungstupel linear abhängig sind
+\zusatzklammer {und es ein Punkt der zugehörigen Varietät ist} {} {.}
+Wegen der beiden Nullen kann lineare Abhängigkeit nur bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ x
+}<br/>{ = }{ z
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+vorliegen, und dort liegt sie für beliebiges $y$ auch vor. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ x
+}<br/>{ = }{ z
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ergibt allerdings nur
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y
+}<br/>{ = }{ \pm 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+einen Punkt der Kurve, und das sind die beiden singulären Punkte von $C$. Dies sind natürlich genau die beiden Schnittpunkte der beiden Kreise, die nach
+<a rel="mw:WikiLink" href="./Affine_Varietäten/Irreduzible_Teilmengen/Schnitt_von_zwei_gleichgroßen_Zylindern/Zwei_Kreise/Beispiel" title="Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel">Beispiel 4.6</a>
+die 
+\definitionsverweis {irreduziblen Komponenten}{}{}
+von $C$ sind.</p>
+
+<p>Wenn die Radien der beiden Zylinder nicht gleich groß sind, sagen wir
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{r_1
+}<br/>{ \neq }{ r_2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+so funktioniert die Bestimmung der singulären Punkte zunächst genau gleich, und man gelangt zur Bedingung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y^2
+}<br/>{ = }{ r_1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ y^2
+}<br/>{ = }{ r_2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+die nicht beide zugleich erfüllt sein können. Bei unterschiedlichen Radien ist die Schnittkurve also glatt.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Potenzreihenringe}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $R$ ein 
+\definitionsverweis {kommutativer Ring}{}{}
+und <br/>\mathl{T_1 , \ldots , T_n}{} eine Menge von Variablen. Eine \definitionswort {formale Potenzreihe}{} ist ein Ausdruck der Form
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F
+}<br/>{ =} { \sum_{\nu} a_\nu T^\nu
+}<br/>{ =} { \sum_{\nu} a_\nu T_1^{\nu_1 } \cdots T_n^{\nu_n }
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+wobei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{  a_\nu
+}<br/>{ \in }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+für alle
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \nu
+}<br/>{ = }{ (\nu_1 , \ldots , \nu_n)
+}<br/>{ \in }{ \N^n
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Man addiert zwei Potenzreihen komponentenweise und multipliziert sie in der gleichen Weise wie Polynome. In einer Variablen hat man
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F \cdot G 
+}<br/>{ =} { \left(  {\sum }_{ i=0 }^{ \infty } a_{ i } T ^{ i }  \right) \left(  {\sum }_{ j=0 }^{ \infty } b_{ j } T ^{ j }  \right)
+}<br/>{ =} { {\sum }_{ k=0 }^{ \infty } c_{ k } T ^{ k }
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ c_k
+}<br/>{ = }{ \sum_{i = 0}^k a_i b_{k-i}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{.}
+Dann bezeichnet man mit
+<br/>\mathdisp {R [\![ X_1, \ldots ,  X_{ n }]\!]} {  }<br/>
+den \definitionswort {Potenzreihenring in $n$ Variablen}{} 
+\zusatzklammer {oder den \definitionswort {Ring der formalen Potenzreihen in $n$ Variablen}{}} {} {.}  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}
+Wir interessieren uns hauptsächlich für den Potenzreihenring <br/>\mathl{K[ \![T]\! ]}{} in einer Variablen über einem Körper $K$. Mit Hilfe von Potenzreihenringen kann man \anfuehrung{formale Parametrisierungen}{} für beliebige algebraische Kurven in jedem Punkt finden, was wir in der nächsten Vorlesung behandeln werden. Zunächst müssen wir einige grundlegende Eigenschaften der Potenzreihenringe verstehen.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und sei <br/>\mathl{K [ \![ T]\! ]}{} der 
+\definitionsverweis {Ring der formalen Potenzreihen}{}{}
+in einer Variablen.}<br/>\faktfolgerung {Dann ist eine formale Potenzreihe
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ {\sum }_{  n =0 }^{ \infty }  a _{  n  }  T ^{  n  }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+genau dann eine 
+\definitionsverweis {Einheit}{}{,}
+wenn der konstante Term
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_0
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die angegebene Bedingung ist notwendig, da die Abbildung
+\maabbeledisp {} { K [ \![ T]\! ] } { K
+} { F } {a_0
+} {,}
+die eine Potenzreihe $F$ auf ihren konstanten Term schickt, ein 
+\definitionsverweis {Ringhomomorphismus}{}{}
+ist, siehe
+<a rel="mw:WikiLink" href="./Potenzreihenring/Eine_Variable/Konstanter_Koeffizient/Ringhomomorphismus/Aufgabe" title="Potenzreihenring/Eine Variable/Konstanter Koeffizient/Ringhomomorphismus/Aufgabe">Aufgabe</a> <a rel="mw:WikiLink" href="./Kurs:Algebraische_Kurven_(Osnabrück_2012)/Potenzreihenring/Eine_Variable/Konstanter_Koeffizient/Ringhomomorphismus/Aufgabe/Aufgabereferenznummer?action=edit&amp;redlink=1" title="Kurs:Algebraische Kurven (Osnabrück 2012)/Potenzreihenring/Eine Variable/Konstanter Koeffizient/Ringhomomorphismus/Aufgabe/Aufgabereferenznummer" class="new" typeof="mw:LocalizedAttrs" data-mw-i18n='{"title":{"lang":"x-page","key":"red-link-title","params":["Kurs:Algebraische Kurven (Osnabrück 2012)/Potenzreihenring/Eine Variable/Konstanter Koeffizient/Ringhomomorphismus/Aufgabe/Aufgabereferenznummer"]}}'>*****</a>.
+Für die Umkehrung müssen wir eine Potenzreihe
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{G
+}<br/>{ = }{ {\sum }_{  j =0 }^{ \infty }  b _{  j  }  T  ^{  j  }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ FG
+}<br/>{ =} { \left(  {\sum }_{  i =0 }^{ \infty }  a _{  i  }  T  ^{  i  }  \right) \left(  {\sum }_{  j =0 }^{ \infty }  b _{  j  }  T  ^{  j  }  \right) 
+}<br/>{ =} { 1
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+angeben. Für $b_0$ ergibt sich daraus die Bedingung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_0b_0
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+die wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_0
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine eindeutige Lösung besitzt, nämlich
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ b_0
+}<br/>{ = }{ a_0^{-1}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Nehmen wir induktiv an, dass die Koeffizienten $b_j$ für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{j
+}<br/>{ &lt; }{ n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+schon konstruiert seien, und zwar derart, dass sämtliche Koeffizienten <br/>\mathbed {c_k} {} <br/> {1 \leq k&lt;n} {} <br/> {} {} {} {,} der Produktreihe $FG$ gleich $0$ sind. Für den $n$-ten Koeffizienten ergibt sich die Bedingung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ 0
+}<br/>{ =} { c_n
+}<br/>{ =} { a_0b_n+ a_1b_{n-1} + \cdots + a_{n-1}b_1 + a_nb_0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Dabei sind bis auf $b_n$ alle Werte schon festgelegt, und wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_0
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ergibt sich eine eindeutige Lösung für $b_n$.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt}<br/>{Korollar}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ K [ \![ T ]\! ]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+der 
+\definitionsverweis {Potenzreihenring}{}{}
+in einer Variablen.}<br/>\faktfolgerung {Dann ist $R$ ein 
+\definitionsverweis {diskreter Bewertungsring}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Zunächst ist $R$ ein 
+\definitionsverweis {lokaler Ring}{}{}
+mit 
+\definitionsverweis {maximalem Ideal}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m}
+}<br/>{ = }{ (T)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Wenn nämlich eine Potenzreihe $F$ keine Einheit ist, so muss nach
+<a rel="mw:WikiLink" href="./Formaler_Potenzreihenring/Eine_Variable/Konstante_nicht_null,_dann_Einheit/Fakt" title="Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt">Satz 24.7</a>
+der konstante Term von $F$ gleich $0$ sein. Dann kann man aber
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ T \tilde{F} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+mit der umindizierten Potenzreihe $\tilde{F}$ schreiben. Die 
+\definitionsverweis {Nullteilerfreiheit}{}{}
+folgt durch Betrachten der Anfangsterme: Sind
+\mathkor {} {F} {und} {G} {}
+von $0$ verschiedene Potenzreihen, so ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F
+}<br/>{ =} { a_kT^k+a_{k+1}T^{k+1} + \ldots
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+und 
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{G
+}<br/>{ =} {b_\ell T^\ell+a_{\ell+1}T^{\ell+1} + \ldots
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_k , b_\ell
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Für die Produktreihe ist dann der Koeffizient
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ c_{k + \ell}
+}<br/>{ =} { a_k b_\ell 
+}<br/>{ \neq} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+da die kleineren Koeffizienten alle $0$ sind. Es bleibt also noch 
+\definitionsverweis {noethersch}{}{}
+zu zeigen. Es ergibt sich aber direkt, dass ein 
+\definitionsverweis {Hauptidealbereich}{}{}
+vorliegt, und zwar wird jedes Ideal $\neq 0$ von $T^{j}$ erzeugt, wobei $j$ das Minimum über alle Indizes von Koeffizienten $\neq 0$ von Potenzreihen in dem Ideal ist.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Man kann Potenzreihen nicht nur addieren und multiplizieren, sondern auch, unter gewissen Zusatzbedingungen, Potenzreihen in andere Potenzreihen einsetzen. Diese Operation entspricht der Hintereinanderschaltung von Abbildungen.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ {\sum }_{  i =0 }^{ \infty }  a _{  i  }  T ^{  i  }
+}<br/>{ \in }{ K [ \![ T]\! ]
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine 
+\definitionsverweis {Potenzreihe}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{G
+}<br/>{ = }{ {\sum }_{  j =0 }^{ \infty }  b _{  j  }  T ^{  j  }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine weitere Potenzreihe mit konstantem Term $0$. Dann nennt man die Potenzreihe
+<br/>\mavergleichskettealignhandlinks<br/>{\vergleichskettealignhandlinks<br/>{ F(G)
+}<br/>{ =} { a_0 + a_1 \left(  {\sum }_{  j =0 }^{ \infty }  b _{  j  }  T ^{  j  }  \right) +a_2 \left(  {\sum }_{  j =0 }^{ \infty }  b _{  j  }  T ^{  j  }  \right)^2 +a_3 \left(  {\sum }_{  j =0 }^{ \infty }  b _{  j  }  T ^{  j  }  \right)^3 + \ldots
+}<br/>{ =} { {\sum }_{  k =0 }^{ \infty }  c _{  k  }  T ^{  k  }
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}
+{}{}
+die \definitionswort {eingesetzte Potenzreihe}{.} Ihre Koeffizienten sind durch
+\zusatzklammer {<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ c_0
+}<br/>{ = }{ a_0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und} {} {}
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{c_k 
+}<br/>{ =} { \sum_{s = 0}^k a_s \left(  \sum_{j_1 + \cdots + j_s = k } b_{j_1 } \cdots b_{j_s}  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+festgelegt. Hierbei wird über alle geordneten $s$-Tupel
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (j_1 , \ldots , j_s)
+}<br/>{ \in }{  \N_+^s
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+summiert.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Man beachte in der vorstehenden Definition, dass wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_0
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+nur über
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{j
+}<br/>{ \geq }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+summiert wird, sodass alle beteiligten Summen endlich sind. Die Formeln für das Einsetzen sind derart, dass sie bei Polynomen das übliche Einsetzen von Polynomen in Polynome ergeben. Einsetzen von Potenzreihen in Potenzreihen liefert wieder einen Einsetzungshomomorphismus der Potenzreihenringe.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Formaler Potenzreihenring/Eine Variable/Einsetzen ergibt Ringhomomorphismus/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+mit dem 
+\definitionsverweis {Potenzreihenring}{}{}
+<br/>\mathl{K [ \![ T ]\! ]}{.} Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ \in }{ K [ \![ S ]\! ]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine Potenzreihe mit konstantem Term $0$.}<br/>\faktfolgerung {Dann definiert $G$ durch Einsetzen einen
+$K$-\definitionsverweis {Algebrahomomorphismus}{}{}
+\maabbeledisp {} { K [ \![ T ]\! ] } { K [ \![ S ]\! ]
+} { F } { F(G) } {.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die Abbildung ist wohldefiniert. Um zu zeigen, dass ein Ringhomomorphismus vorliegt, muss man lediglich gewisse Koeffizienten vergleichen. Diese hängen immer nur von endlich vielen Koeffizienten der beteiligten Potenzreihen an, sodass sich diese Aussage aus dem polynomialen Fall ergibt.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Formaler Potenzreihenring/Eine Variable/T+../Transformierbar auf T/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{,}
+<br/>\mathl{K [ \![ T ]\! ]}{} der 
+\definitionsverweis {Potenzreihenring}{}{}
+über $K$ und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G
+}<br/>{ = }{ {\sum }_{  j =0 }^{ \infty }  b _{  j  }  T  ^{  j  }
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+mit \mathkon  { b_0 =0  }  {  und  }  { b_1 \neq 0   }{ .}}<br/>\faktfolgerung {Dann definiert der durch <br/>\mathl{T \mapsto G}{} definierte Einsetzungshomomorphismus einen
+$K$-\definitionsverweis {Algebraautomorphismus}{}{}
+auf <br/>\mathl{K [ \![ T ]\! ]}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir zeigen zunächst, dass es eine Potenzreihe
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ {\sum }_{  i =0 }^{ \infty }  a _{  i  }  T  ^{  i  }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(G)
+}<br/>{ = }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt. Dabei muss
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_0
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_1
+}<br/>{ = }{ b_1^{-1}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+sein. Es sei nun die Potenzreihe $F$ mit der gewünschten Eigenschaft bis zum <br/>\mathl{(k-1)}{-}Koeffizienten bereits konstruiert. Für den Koeffizienten $c_k$ hat man nach der
+<a rel="mw:WikiLink" href="./Formaler_Potenzreihenring/Eine_Variable/Einsetzen_von_Potenzreihen_mit_Konstante_null/Definition" title="Formaler Potenzreihenring/Eine Variable/Einsetzen von Potenzreihen mit Konstante null/Definition">Definition 24.9</a>
+die Bedingung
+<br/>\mavergleichskettealign<br/>{\vergleichskettealign<br/>{ 0
+}<br/>{ =} { c_k
+}<br/>{ =} { \sum_{s = 0}^k a_s \left(  \sum_{j_1 + \cdots + j_s = k }  b_{j_1 } \cdots b_{j_s}  \right) 
+}<br/>{ =} { \sum_{s = 0}^{k-1} a_s \left(  \sum_{j_1 + \cdots + j_s = k }  b_{j_1 } \cdots b_{j_s}  \right)  + a_k b_1^k
+}<br/>{ } {
+}<br/>}
+{}
+{}{.}
+Daraus ergibt sich eine eindeutig lösbare Bedingung an $a_k$.</p>
+
+<p>Wir betrachten nun die Hintereinanderschaltung
+<br/>\mathdisp {K [ \![ T ]\! ] \stackrel{T \mapsto F}{\longrightarrow} K [ \![ T]\! ]  \stackrel{T \mapsto G}{\longrightarrow  }K [ \![ T ]\! ]} { . }<br/>
+Dabei ist die Gesamtabbildung der Einsetzungshomomorphismus <br/>\mathl{T \mapsto T}{,} und das ist die Identität. Insbesondere ist die hintere Abbildung surjektiv. Da $K [ \![ T ]\! ]$ nach
+<a rel="mw:WikiLink" href="./Formaler_Potenzreihenring/Eine_Variable/Diskreter_Bewertungsring/Fakt" title="Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt">Korollar 24.8</a>
+ein 
+\definitionsverweis {diskreter Bewertungsring}{}{}
+ist, sind die Ideale darin bekannt, und nur das Nullideal kommt als Kern der Abbildung in Frage. Die Abbildung ist also auch injektiv und damit bijektiv.</p>
+</div>
+
+}</div><span about="#mwt1"> </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

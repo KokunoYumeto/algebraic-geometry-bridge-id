@@ -1,0 +1,3285 @@
+{
+  "schema": "brenner-unit-authority-freeze-v2",
+  "frozen_utc": "2026-08-25T14:36:25.784824+00:00",
+  "unit_number": 24,
+  "source_api": "https://de.wikiversity.org/w/api.php",
+  "source_course": "Kurs:Algebraische Kurven (Osnabrück 2012)",
+  "source_course_license": "CC BY-SA 4.0",
+  "source_component_license_route": {
+    "semantic_site_rights": {
+      "source": "de.wikiversity.org action=query meta=siteinfo rightsinfo",
+      "notice": "CC BY-SA 4.0",
+      "text": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+      "file": "site-rightsinfo-api.json",
+      "bytes": 164,
+      "sha256": "3ee9fcf0e431d5b0cbbf82482d4e30c2f76eae99a4a7e45e88e0832b4eb6eb99"
+    },
+    "official_pdf_legacy_notice": "CC BY-SA 2.0 Germany",
+    "official_pdf_current_print_version_notice": "CC BY-SA 4.0",
+    "no_blanket_relicensing_claim": true
+  },
+  "lecture": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 24",
+    "pageid": 50730,
+    "revid": 933672,
+    "parentid": 833962,
+    "timestamp": "2024-05-06T16:57:23Z",
+    "mediawiki_sha1": "af86fa9893c96376f910495b9a5d0c8be417b09e",
+    "wikitext_bytes": 2141,
+    "api_file": "lecture-24-api.json",
+    "api_bytes": 2541,
+    "api_sha256": "27a0776aacbda547a582e032e76bf0584c0f81ac85e504401e169b5adca26f96",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=933672",
+    "xml_file": "lecture-24.xml",
+    "xml_bytes": 5272,
+    "xml_sha256": "0dd11d94f88e81036d00c2662c6377e13e25d749bed7721902ec75c737251bd3",
+    "html_file": "lecture-24.html",
+    "html_bytes": 135427,
+    "html_sha256": "2baa3d632760c0b22617e69e98d8cf6dc8488d0de9fd0b964fe7c276ca121bf1",
+    "html_source": "immutable Parsoid revision endpoint",
+    "parse_api_file": "lecture-24-parse-api.json",
+    "parse_api_bytes": 15398,
+    "parse_api_sha256": "805db01e443a67ec038b85ce589792b68e5af20e55489a028137d610f8cebfeb",
+    "template_count": 121,
+    "image_count": 2,
+    "link_count": 49,
+    "external_link_count": 0
+  },
+  "worksheet": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt 24",
+    "pageid": 50759,
+    "revid": 793492,
+    "parentid": 324701,
+    "timestamp": "2022-08-25T06:03:47Z",
+    "mediawiki_sha1": "507a5966770c007e813734ca85da4e85f8a93b60",
+    "wikitext_bytes": 1332,
+    "api_file": "worksheet-24-api.json",
+    "api_bytes": 1765,
+    "api_sha256": "cc92b4dfffa0941029def30aa4b84582eb57df1a5c9edebd590569e7d4aea42d",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=793492",
+    "xml_file": "worksheet-24.xml",
+    "xml_bytes": 4513,
+    "xml_sha256": "c6b2e329dc1326aef1b0372702a03fba7fc7106c9e866498df92e1fc9508d4b2",
+    "html_file": "worksheet-24.html",
+    "html_bytes": 26855,
+    "html_sha256": "1fb2aa4b3439f3bb60aad6ca37c27b3d469d55f83b5cd68af5c3ef8995882a49",
+    "html_source": "immutable Parsoid revision endpoint",
+    "parse_api_file": "worksheet-24-parse-api.json",
+    "parse_api_bytes": 8238,
+    "parse_api_sha256": "6547f9473766423dce41d60412cecaf331407399fc3660e2eb1730f7569c3575",
+    "template_count": 64,
+    "image_count": 2,
+    "link_count": 27,
+    "external_link_count": 0
+  },
+  "lecture_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 24/latex",
+    "pageid": 51880,
+    "revid": 806122,
+    "parentid": 796341,
+    "timestamp": "2022-09-18T07:14:32Z",
+    "mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "wikitext_bytes": 9,
+    "api_file": "lecture-24-latex-page-api.json",
+    "api_bytes": 371,
+    "api_sha256": "8e4f7032071bd9a4bd99338d10ee2d71d93de57db7f017fe804481e208b617f1",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=806122",
+    "xml_file": "lecture-24-latex-page.xml",
+    "xml_bytes": 3186,
+    "xml_sha256": "30ed1020a8943a26ce0dac5f0f473ff8f92c387d9119998562f44c31842e97da",
+    "html_file": "lecture-24-latex-page.html",
+    "html_bytes": 30836,
+    "html_sha256": "bc5519cf296b4328c2ea130f89558616ec70535ec653858d095fb5f8d599d651",
+    "html_source": "immutable Parsoid revision endpoint"
+  },
+  "worksheet_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt 24/latex",
+    "pageid": 53017,
+    "revid": 806090,
+    "parentid": 796309,
+    "timestamp": "2022-09-18T07:09:22Z",
+    "mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "wikitext_bytes": 9,
+    "api_file": "worksheet-24-latex-page-api.json",
+    "api_bytes": 374,
+    "api_sha256": "4140fddfeb1a12351cab8564f26dbe17257457411367319f3e2c0737da570115",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=806090",
+    "xml_file": "worksheet-24-latex-page.xml",
+    "xml_bytes": 3189,
+    "xml_sha256": "4bac1bc364864c6c6c0fb8f110550c9c0eb90f8d40089c69c0c764088d65fcc2",
+    "html_file": "worksheet-24-latex-page.html",
+    "html_bytes": 10433,
+    "html_sha256": "5c6284484edb15e66649f3985e1ff235f79a7a106528e9869ef5175948a4c754",
+    "html_source": "immutable Parsoid revision endpoint"
+  },
+  "latex_capture_semantics": "Each /latex revision contains only {{Latex}}. Expanded TeX is a byte-bound capture of dynamic Parsoid rendering at freeze time, not immutable source closure.",
+  "derived_expanded_tex": [
+    {
+      "file": "lecture-24-expanded.tex",
+      "bytes": 21889,
+      "sha256": "b391d18cc0cea33afedfff5e6db46842d2ef6504843336b71f44eda448f12f5e"
+    },
+    {
+      "file": "worksheet-24-expanded.tex",
+      "bytes": 3771,
+      "sha256": "37b53c3b6049ba45ff4aa1f4b7b4c4f0666e8a97248ba3c6c34a38061b758a4f"
+    }
+  ],
+  "lecture_transclusion_closure": {
+    "source": "action=parse template list after recursive parser expansion",
+    "requested_template_count": 121,
+    "captured_page_count": 121,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "lecture-24-transclusions-01.json",
+        "bytes": 32579,
+        "sha256": "a8543532f852e700aa10904309b4c453449b1b92d83ea28d09c449c83c4c059e",
+        "requested_titles": [
+          "Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt",
+          "Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt/Beweis",
+          "Algebraische Raumkurven/Schnitt von zwei gleichgroßen Zylindern/Singuläre Punkte/Beispiel",
+          "Ebene algebraische Kurve/x^2-y^2+y^3/Tangente unter Parametrisierung/t ist 2/Beispiel",
+          "Endlicher Körper/(t^q-t,t^q-t)/Gerade/Ableitung ist keine Tangente/Beispiel",
+          "Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt",
+          "Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt/Beweis",
+          "Formaler Potenzreihenring/Eine Variable/Einsetzen ergibt Ringhomomorphismus/Fakt",
+          "Formaler Potenzreihenring/Eine Variable/Einsetzen ergibt Ringhomomorphismus/Fakt/Beweis",
+          "Formaler Potenzreihenring/Eine Variable/Einsetzen von Potenzreihen mit Konstante null/Definition",
+          "Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt",
+          "Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt/Beweis",
+          "Formaler Potenzreihenring/Eine Variable/T+../Transformierbar auf T/Fakt",
+          "Formaler Potenzreihenring/Eine Variable/T+../Transformierbar auf T/Fakt/Beweis",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel/Beispielreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/Beispiel/Beispielreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Einsetzen von Potenzreihen mit Konstante null/Definition/Definitionreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesungsgestaltung",
+          "MDLUL/Algebraautomorphismus",
+          "MDLUL/Algebrahomomorphismus",
+          "MDLUL/Einheit"
+        ]
+      },
+      {
+        "file": "lecture-24-transclusions-02.json",
+        "bytes": 9799,
+        "sha256": "97aed4104ee39b67a0fa3ea5b6efde002e0e2546f9ce787436d05df1165e8d0b",
+        "requested_titles": [
+          "MDLUL/Hauptidealbereich",
+          "MDLUL/Jacobi-Matrix",
+          "MDLUL/Kern",
+          "MDLUL/Kurve (algebraisch)",
+          "MDLUL/Körper",
+          "MDLUL/Maximales Ideal",
+          "MDLUL/Nullteilerfreiheit",
+          "MDLUL/Parametrisierung (Kurve)",
+          "MDLUL/Potenzreihe (1 formal)",
+          "MDLUL/Potenzreihenring (1 K)",
+          "MDLUL/Potenzreihenring (1)",
+          "MDLUL/Primzahl",
+          "MDLUL/Ring der formalen Potenzreihen (1 K)",
+          "MDLUL/Ringhomomorphismus",
+          "MDLUL/diskreter Bewertungsring",
+          "MDLUL/endliche Körper",
+          "MDLUL/endlicher Körper",
+          "MDLUL/glatter Punkt (1)",
+          "MDLUL/irreduzible Komponente",
+          "MDLUL/irreduziblen Komponenten",
+          "MDLUL/kommutativer Ring",
+          "MDLUL/lokaler Ring",
+          "MDLUL/maximalem Ideal",
+          "MDLUL/noethersch",
+          "MDLUL/nullteilerfrei"
+        ]
+      },
+      {
+        "file": "lecture-24-transclusions-03.json",
+        "bytes": 60891,
+        "sha256": "1594c34860fc4f935b6284bfb5ac91eea3fb268c30d1fefb3b4a7cd1f6ac7630",
+        "requested_titles": [
+          "MDLUL/partielle Ableitung",
+          "MDLUL/partiellen Ableitungen",
+          "Potenzreihenring/Allgemein und eine Variable/Einführung/Textabschnitt",
+          "Potenzreihenring/Endlich viele Variablen/Definition",
+          "Potenzreihenring/Endlich viele Variablen/Formale Potenzreihe/Definition",
+          "Vorlage:=",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Align",
+          "Vorlage:Anführung",
+          "Vorlage:Aufgabelink",
+          "Vorlage:Beispiellink",
+          "Vorlage:Beweisstruktur",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionslink in Kurs/Definition",
+          "Vorlage:Definitionswort",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:Faktstruktur",
+          "Vorlage:Idealm",
+          "Vorlage:Inputbeispiel",
+          "Vorlage:Inputdefinition",
+          "Vorlage:Inputfaktbeweis"
+        ]
+      },
+      {
+        "file": "lecture-24-transclusions-04.json",
+        "bytes": 33370,
+        "sha256": "b856fade83c1eeb4d497a74d7b73c293fead5972bc15d241c7faaac4024b06c7",
+        "requested_titles": [
+          "Vorlage:Jacmat32",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathbed",
+          "Vorlage:Mathbed1",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Beispiel",
+          "Vorlage:Mathematischer Text/Beweis",
+          "Vorlage:Mathematischer Text/Definition",
+          "Vorlage:Mathematischer Text/Fakt",
+          "Vorlage:Mathematischer Textabschnitt",
+          "Vorlage:Mathkon",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathl",
+          "Vorlage:Mengebed",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im Kurs23",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affine Gerade"
+        ]
+      },
+      {
+        "file": "lecture-24-transclusions-05.json",
+        "bytes": 29946,
+        "sha256": "5d8ce9e1fa4f54daedaefab63ce13863eada663d3b782d29a56d89a63e5f3b2a",
+        "requested_titles": [
+          "Vorlage:Op:Affiner Raum",
+          "Vorlage:Op:Bruch",
+          "Vorlage:Op:Partielle Ableitung",
+          "Vorlage:Op:Potenzreihenring",
+          "Vorlage:Op:Spaltenvektor",
+          "Vorlage:Op:Zeilenvektor",
+          "Vorlage:Plusdots",
+          "Vorlage:Potreiein",
+          "Vorlage:Potreiring",
+          "Vorlage:Qed",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/align",
+          "Vorlage:Relationskette/align/drucklinks",
+          "Vorlage:Relationskette/align/handlinks",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Relationskette/k",
+          "Vorlage:Stichwort",
+          "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+          "Vorlage:Verschlagworte:Stichwort",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt",
+        "pageid": 18165,
+        "revid": 1087578,
+        "parentid": 1043403,
+        "timestamp": "2026-05-30T15:03:13Z",
+        "mediawiki_sha1": "ee4e15c782d2d6c5ffe81f2eaa8150a16774f267",
+        "wikitext_bytes": 2009
+      },
+      {
+        "title": "Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt/Beweis",
+        "pageid": 18233,
+        "revid": 1100845,
+        "parentid": 1085953,
+        "timestamp": "2026-06-17T13:24:17Z",
+        "mediawiki_sha1": "b03894e29d023c0061a351e4d4cd245e48d96f50",
+        "wikitext_bytes": 1106
+      },
+      {
+        "title": "Algebraische Raumkurven/Schnitt von zwei gleichgroßen Zylindern/Singuläre Punkte/Beispiel",
+        "pageid": 18305,
+        "revid": 1103507,
+        "parentid": 1064194,
+        "timestamp": "2026-06-18T05:55:47Z",
+        "mediawiki_sha1": "c57fad7d33fd7f316e704be807aa33293d5c838a",
+        "wikitext_bytes": 2118
+      },
+      {
+        "title": "Ebene algebraische Kurve/x^2-y^2+y^3/Tangente unter Parametrisierung/t ist 2/Beispiel",
+        "pageid": 21057,
+        "revid": 1099807,
+        "parentid": 1084909,
+        "timestamp": "2026-06-17T06:33:08Z",
+        "mediawiki_sha1": "15f4c893512eb0b85446cd813b76aae2761f47d5",
+        "wikitext_bytes": 2134
+      },
+      {
+        "title": "Endlicher Körper/(t^q-t,t^q-t)/Gerade/Ableitung ist keine Tangente/Beispiel",
+        "pageid": 54019,
+        "revid": 1099859,
+        "parentid": 1035700,
+        "timestamp": "2026-06-17T06:40:58Z",
+        "mediawiki_sha1": "84a529ed6082e46d9a50c4bfd6798ee628ce411f",
+        "wikitext_bytes": 1706
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt",
+        "pageid": 20952,
+        "revid": 1022178,
+        "parentid": 992416,
+        "timestamp": "2025-08-09T20:16:34Z",
+        "mediawiki_sha1": "da86947cbaa46a692dbe37e7730d8c3119febf7c",
+        "wikitext_bytes": 819
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt/Beweis",
+        "pageid": 20953,
+        "revid": 1043192,
+        "parentid": 992417,
+        "timestamp": "2025-08-12T18:40:07Z",
+        "mediawiki_sha1": "92b42189ea83f0e480f1d7f71fcd31d877b8ebec",
+        "wikitext_bytes": 1941
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/Einsetzen ergibt Ringhomomorphismus/Fakt",
+        "pageid": 20958,
+        "revid": 1087411,
+        "parentid": 1043196,
+        "timestamp": "2026-05-30T14:36:13Z",
+        "mediawiki_sha1": "8aa15a55157e25797638fa6b4d491ac7e7f188af",
+        "wikitext_bytes": 977
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/Einsetzen ergibt Ringhomomorphismus/Fakt/Beweis",
+        "pageid": 20962,
+        "revid": 944234,
+        "parentid": 915918,
+        "timestamp": "2024-08-30T15:49:15Z",
+        "mediawiki_sha1": "3ad99cf8b8c7cbcd6d940ebbec00960be3c67a40",
+        "wikitext_bytes": 522
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/Einsetzen von Potenzreihen mit Konstante null/Definition",
+        "pageid": 20956,
+        "revid": 1091018,
+        "parentid": 1064197,
+        "timestamp": "2026-06-01T07:44:35Z",
+        "mediawiki_sha1": "5b1a085187c8f88b56a1210641ce306341137897",
+        "wikitext_bytes": 1466
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt",
+        "pageid": 20943,
+        "revid": 1102129,
+        "parentid": 1045466,
+        "timestamp": "2026-06-17T18:24:18Z",
+        "mediawiki_sha1": "920dc63cf4f6d5ce7330b01c977c743d52d00ef1",
+        "wikitext_bytes": 892
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt/Beweis",
+        "pageid": 20945,
+        "revid": 1101170,
+        "parentid": 1086300,
+        "timestamp": "2026-06-17T14:09:27Z",
+        "mediawiki_sha1": "824becd66d4a6a585ec032c9d2f37ae72e14c8ed",
+        "wikitext_bytes": 1879
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/T+../Transformierbar auf T/Fakt",
+        "pageid": 20963,
+        "revid": 1112322,
+        "parentid": 1087933,
+        "timestamp": "2026-08-21T09:45:23Z",
+        "mediawiki_sha1": "fe8b37bacb0f70653ee386f0e718a3a8008a45d8",
+        "wikitext_bytes": 973
+      },
+      {
+        "title": "Formaler Potenzreihenring/Eine Variable/T+../Transformierbar auf T/Fakt/Beweis",
+        "pageid": 20964,
+        "revid": 1112319,
+        "parentid": 1101171,
+        "timestamp": "2026-08-21T09:43:28Z",
+        "mediawiki_sha1": "280366cc8c0da0b03095f8e16d93fa41ca44aaa6",
+        "wikitext_bytes": 2063
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Affine Varietäten/Irreduzible Teilmengen/Schnitt von zwei gleichgroßen Zylindern/Zwei Kreise/Beispiel/Beispielreferenznummer",
+        "pageid": 53314,
+        "revid": 313954,
+        "parentid": 0,
+        "timestamp": "2012-05-10T09:12:28Z",
+        "mediawiki_sha1": "e8375814a00b1ccc8a0723622ca93872960ea2ad",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Algebraische Kurven/Rationale Parametrisierung/Verhältnis Tangenten/Fakt/Faktreferenznummer",
+        "pageid": 54023,
+        "revid": 320328,
+        "parentid": 0,
+        "timestamp": "2012-07-03T11:12:04Z",
+        "mediawiki_sha1": "6a023b6fd5092c3a8f43268699b994d59849d717",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene algebraische Kurve/x^2-y^2+y^3/Beschreibung/Beispiel/Beispielreferenznummer",
+        "pageid": 53243,
+        "revid": 313319,
+        "parentid": 0,
+        "timestamp": "2012-05-04T09:04:02Z",
+        "mediawiki_sha1": "17bed8848d171d02411597622fb1de2fd52b652e",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt/Faktreferenznummer",
+        "pageid": 54025,
+        "revid": 916228,
+        "parentid": 320330,
+        "timestamp": "2023-10-31T14:56:57Z",
+        "mediawiki_sha1": "3b08e6e53b8cfb35231648577082e0fce653b678",
+        "wikitext_bytes": 49
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Einsetzen von Potenzreihen mit Konstante null/Definition/Definitionreferenznummer",
+        "pageid": 56754,
+        "revid": 333831,
+        "parentid": 0,
+        "timestamp": "2012-10-22T09:56:47Z",
+        "mediawiki_sha1": "f62548269c56f06d2fbe4860c9af13c0641c3f18",
+        "wikitext_bytes": 51
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Konstante nicht null, dann Einheit/Fakt/Faktreferenznummer",
+        "pageid": 54024,
+        "revid": 320329,
+        "parentid": 0,
+        "timestamp": "2012-07-03T11:12:49Z",
+        "mediawiki_sha1": "1f4fac445a54256b66e75d5854e1dd1a55570107",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung/Fuß",
+        "pageid": 50705,
+        "revid": 658302,
+        "parentid": 304598,
+        "timestamp": "2020-09-24T12:44:08Z",
+        "mediawiki_sha1": "d3461380c9a4793724f0e9ca2fa292c17c152f91",
+        "wikitext_bytes": 983
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesungsgestaltung",
+        "pageid": 50696,
+        "revid": 658321,
+        "parentid": 612457,
+        "timestamp": "2020-09-24T12:52:38Z",
+        "mediawiki_sha1": "4cf876a058f7b13c635fd92c6f88fce10fbdea10",
+        "wikitext_bytes": 407
+      },
+      {
+        "title": "MDLUL/Algebraautomorphismus",
+        "pageid": 61840,
+        "revid": 373255,
+        "parentid": 0,
+        "timestamp": "2013-08-08T21:46:28Z",
+        "mediawiki_sha1": "260f8f4dbf75cc014f88a9c291ae056a8865a098",
+        "wikitext_bytes": 116
+      },
+      {
+        "title": "MDLUL/Algebrahomomorphismus",
+        "pageid": 61734,
+        "revid": 373102,
+        "parentid": 0,
+        "timestamp": "2013-08-08T16:11:30Z",
+        "mediawiki_sha1": "2ea03c08f96e92921bcf48febf2466c4b16d410d",
+        "wikitext_bytes": 139
+      },
+      {
+        "title": "MDLUL/Einheit",
+        "pageid": 58368,
+        "revid": 341771,
+        "parentid": 0,
+        "timestamp": "2012-11-30T12:31:47Z",
+        "mediawiki_sha1": "f1bbf76b5e5b57b4c1b54285861489c00ed63dce",
+        "wikitext_bytes": 87
+      },
+      {
+        "title": "MDLUL/Hauptidealbereich",
+        "pageid": 51972,
+        "revid": 305298,
+        "parentid": 0,
+        "timestamp": "2012-03-21T11:30:39Z",
+        "mediawiki_sha1": "6d62612cd66a8e1e0dd57509bb6e0a4cff5f73e4",
+        "wikitext_bytes": 119
+      },
+      {
+        "title": "MDLUL/Jacobi-Matrix",
+        "pageid": 38382,
+        "revid": 308816,
+        "parentid": 233329,
+        "timestamp": "2012-04-10T09:54:13Z",
+        "mediawiki_sha1": "cac1a9b5e929147ba2a3b1b6f8fdd8bc9643c6ec",
+        "wikitext_bytes": 102
+      },
+      {
+        "title": "MDLUL/Kern",
+        "pageid": 58422,
+        "revid": 341971,
+        "parentid": 0,
+        "timestamp": "2012-12-03T13:21:38Z",
+        "mediawiki_sha1": "39cd2152f706397c5d8bc22544315460b7fe428a",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/Kurve (algebraisch)",
+        "pageid": 54091,
+        "revid": 704651,
+        "parentid": 320714,
+        "timestamp": "2021-08-27T19:31:18Z",
+        "mediawiki_sha1": "bcca4272fb4d51a23004116872c99fbd2839c28d",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Körper",
+        "pageid": 45898,
+        "revid": 267506,
+        "parentid": 0,
+        "timestamp": "2011-06-07T13:51:29Z",
+        "mediawiki_sha1": "ce01f7f216f5f8bd6b1401f9f4ae5020af5040d1",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Maximales Ideal",
+        "pageid": 51039,
+        "revid": 299640,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:40:10Z",
+        "mediawiki_sha1": "669b80ec86f88f0b18227bf009f40c7a27f322bb",
+        "wikitext_bytes": 115
+      },
+      {
+        "title": "MDLUL/Nullteilerfreiheit",
+        "pageid": 54096,
+        "revid": 343319,
+        "parentid": 320720,
+        "timestamp": "2012-12-11T14:41:44Z",
+        "mediawiki_sha1": "ea120ab900726cee00ca91082f157a440cccc8a5",
+        "wikitext_bytes": 93
+      },
+      {
+        "title": "MDLUL/Parametrisierung (Kurve)",
+        "pageid": 42315,
+        "revid": 252824,
+        "parentid": 0,
+        "timestamp": "2011-01-16T18:24:46Z",
+        "mediawiki_sha1": "862de46c909b241836a61eeb91fb46d1e6744b6b",
+        "wikitext_bytes": 99
+      },
+      {
+        "title": "MDLUL/Potenzreihe (1 formal)",
+        "pageid": 153186,
+        "revid": 908970,
+        "parentid": 0,
+        "timestamp": "2023-08-08T08:43:36Z",
+        "mediawiki_sha1": "a403ef2f4a7c75ae1a6dbac27fe30226bc7c0e93",
+        "wikitext_bytes": 124
+      },
+      {
+        "title": "MDLUL/Potenzreihenring (1 K)",
+        "pageid": 153179,
+        "revid": 908956,
+        "parentid": 0,
+        "timestamp": "2023-08-08T08:29:15Z",
+        "mediawiki_sha1": "3dd407382969e05b7ce0a145fe5f5ef88bec7455",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "MDLUL/Potenzreihenring (1)",
+        "pageid": 154163,
+        "revid": 915882,
+        "parentid": 0,
+        "timestamp": "2023-10-29T16:23:14Z",
+        "mediawiki_sha1": "0a07ca866bf3a8e714afd680c89b337712c5ad33",
+        "wikitext_bytes": 119
+      },
+      {
+        "title": "MDLUL/Primzahl",
+        "pageid": 38654,
+        "revid": 234734,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:04:19Z",
+        "mediawiki_sha1": "a150a33fd902d6ffc993baf499ffc69dbdc1a5f3",
+        "wikitext_bytes": 82
+      },
+      {
+        "title": "MDLUL/Ring der formalen Potenzreihen (1 K)",
+        "pageid": 153180,
+        "revid": 908957,
+        "parentid": 0,
+        "timestamp": "2023-08-08T08:29:34Z",
+        "mediawiki_sha1": "6d51979e8f95099bad0faa324531acb4c1624e9b",
+        "wikitext_bytes": 135
+      },
+      {
+        "title": "MDLUL/Ringhomomorphismus",
+        "pageid": 38690,
+        "revid": 234820,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:27:36Z",
+        "mediawiki_sha1": "d4d966a36aea0f89864111275a94f80b345f1567",
+        "wikitext_bytes": 100
+      },
+      {
+        "title": "MDLUL/diskreter Bewertungsring",
+        "pageid": 51036,
+        "revid": 299637,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:37:47Z",
+        "mediawiki_sha1": "810b03da7e35f79056c23a25acf73ac6aa77538e",
+        "wikitext_bytes": 133
+      },
+      {
+        "title": "MDLUL/endliche Körper",
+        "pageid": 45609,
+        "revid": 266262,
+        "parentid": 0,
+        "timestamp": "2011-05-27T14:30:05Z",
+        "mediawiki_sha1": "93ff01f19a239ecab0c9ced44929a1b5af46ba73",
+        "wikitext_bytes": 76
+      },
+      {
+        "title": "MDLUL/endlicher Körper",
+        "pageid": 45610,
+        "revid": 266263,
+        "parentid": 0,
+        "timestamp": "2011-05-27T14:30:18Z",
+        "mediawiki_sha1": "e48123a8e87e5a29e75139e7f2a63a34a09671fe",
+        "wikitext_bytes": 110
+      },
+      {
+        "title": "MDLUL/glatter Punkt (1)",
+        "pageid": 96730,
+        "revid": 702733,
+        "parentid": 541942,
+        "timestamp": "2021-08-12T12:31:28Z",
+        "mediawiki_sha1": "753efe03cf44785f8c9673ff741c893188b4fe75",
+        "wikitext_bytes": 142
+      },
+      {
+        "title": "MDLUL/irreduzible Komponente",
+        "pageid": 54094,
+        "revid": 320717,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:59:13Z",
+        "mediawiki_sha1": "f6cd1044d9b9d3c9399d852b848cfcc8df6843d4",
+        "wikitext_bytes": 132
+      },
+      {
+        "title": "MDLUL/irreduziblen Komponenten",
+        "pageid": 54093,
+        "revid": 343509,
+        "parentid": 320716,
+        "timestamp": "2012-12-12T11:11:23Z",
+        "mediawiki_sha1": "da19f00bc7044711c8d443966a7d45b74813834e",
+        "wikitext_bytes": 107
+      },
+      {
+        "title": "MDLUL/kommutativer Ring",
+        "pageid": 51197,
+        "revid": 300841,
+        "parentid": 0,
+        "timestamp": "2012-02-15T18:51:50Z",
+        "mediawiki_sha1": "503e0e3d5791aa295bc273ff9c26c6899eeb7625",
+        "wikitext_bytes": 119
+      },
+      {
+        "title": "MDLUL/lokaler Ring",
+        "pageid": 54084,
+        "revid": 916400,
+        "parentid": 320707,
+        "timestamp": "2023-11-01T17:11:01Z",
+        "mediawiki_sha1": "a326f2f14a5523297957490e1ac2bd5843b9a9dc",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/maximalem Ideal",
+        "pageid": 51038,
+        "revid": 299639,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:39:24Z",
+        "mediawiki_sha1": "f1c95522a0d130bea29d9a1f0bba2edf8cd0c1be",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/noethersch",
+        "pageid": 53432,
+        "revid": 476974,
+        "parentid": 314524,
+        "timestamp": "2016-11-16T10:03:10Z",
+        "mediawiki_sha1": "1e70b7aeebb5bae45d1fb25f7266269a9bd148c2",
+        "wikitext_bytes": 118
+      },
+      {
+        "title": "MDLUL/nullteilerfrei",
+        "pageid": 24655,
+        "revid": 301029,
+        "parentid": 301028,
+        "timestamp": "2012-02-16T17:28:41Z",
+        "mediawiki_sha1": "8ffbe4f23ec23a8d63e3e36afdc4050d4da629e1",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/partielle Ableitung",
+        "pageid": 95429,
+        "revid": 537181,
+        "parentid": 0,
+        "timestamp": "2018-01-11T19:47:07Z",
+        "mediawiki_sha1": "4eb530e5f06f6cc93c3efcc03fdb777dc85a6b9c",
+        "wikitext_bytes": 137
+      },
+      {
+        "title": "MDLUL/partiellen Ableitungen",
+        "pageid": 38860,
+        "revid": 538723,
+        "parentid": 235224,
+        "timestamp": "2018-01-22T15:56:09Z",
+        "mediawiki_sha1": "d7451f280b651b2e87b2402dff1cd553185eb5ee",
+        "wikitext_bytes": 102
+      },
+      {
+        "title": "Potenzreihenring/Allgemein und eine Variable/Einführung/Textabschnitt",
+        "pageid": 50933,
+        "revid": 1102666,
+        "parentid": 1091994,
+        "timestamp": "2026-06-17T19:55:35Z",
+        "mediawiki_sha1": "be86084ae0ba728297cddce447fcdf7a66bbf2bc",
+        "wikitext_bytes": 2000
+      },
+      {
+        "title": "Potenzreihenring/Endlich viele Variablen/Definition",
+        "pageid": 20810,
+        "revid": 1039083,
+        "parentid": 962769,
+        "timestamp": "2025-08-12T07:02:26Z",
+        "mediawiki_sha1": "1d240e90f21897e52cfd0cb14059e010d2542ae1",
+        "wikitext_bytes": 722
+      },
+      {
+        "title": "Potenzreihenring/Endlich viele Variablen/Formale Potenzreihe/Definition",
+        "pageid": 20812,
+        "revid": 1039085,
+        "parentid": 978247,
+        "timestamp": "2025-08-12T07:02:46Z",
+        "mediawiki_sha1": "7f00536d06ec0aebe2eb4fa1ca223dd05cd061d8",
+        "wikitext_bytes": 780
+      },
+      {
+        "title": "Vorlage:=",
+        "pageid": 20300,
+        "revid": 136936,
+        "parentid": 136903,
+        "timestamp": "2008-12-21T21:01:15Z",
+        "mediawiki_sha1": "51ab5591f9cca571701287fefae23cb3273c59d7",
+        "wikitext_bytes": 235
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Align",
+        "pageid": 17269,
+        "revid": 163415,
+        "parentid": 157202,
+        "timestamp": "2009-06-03T20:57:15Z",
+        "mediawiki_sha1": "7f93a81119bcd5cc70e57c39a3b502a83213159e",
+        "wikitext_bytes": 290
+      },
+      {
+        "title": "Vorlage:Anführung",
+        "pageid": 17115,
+        "revid": 967517,
+        "parentid": 794630,
+        "timestamp": "2024-12-13T15:22:13Z",
+        "mediawiki_sha1": "41b3a8ea109e30edfd9cc1e199b24c79fe738038",
+        "wikitext_bytes": 253
+      },
+      {
+        "title": "Vorlage:Aufgabelink",
+        "pageid": 30300,
+        "revid": 1070423,
+        "parentid": 1069816,
+        "timestamp": "2026-02-06T14:22:11Z",
+        "mediawiki_sha1": "6b0c4bbe7084da3f232f6649820be7b5f7bae36f",
+        "wikitext_bytes": 1864
+      },
+      {
+        "title": "Vorlage:Beispiellink",
+        "pageid": 41670,
+        "revid": 1070422,
+        "parentid": 1069819,
+        "timestamp": "2026-02-06T14:20:40Z",
+        "mediawiki_sha1": "2699aa7c9cc51e7953958fcbe0fe30bd41dbf02f",
+        "wikitext_bytes": 1793
+      },
+      {
+        "title": "Vorlage:Beweisstruktur",
+        "pageid": 24025,
+        "revid": 165764,
+        "parentid": 165744,
+        "timestamp": "2009-06-13T14:14:07Z",
+        "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs/Definition",
+        "pageid": 56584,
+        "revid": 333917,
+        "parentid": 333916,
+        "timestamp": "2012-10-22T15:33:10Z",
+        "mediawiki_sha1": "5fb55bfbbd99cf577af9b015a69c118313d0880a",
+        "wikitext_bytes": 662
+      },
+      {
+        "title": "Vorlage:Definitionswort",
+        "pageid": 23952,
+        "revid": 1107662,
+        "parentid": 1061423,
+        "timestamp": "2026-07-17T08:06:31Z",
+        "mediawiki_sha1": "f1aff98d04a0bd4a7894808a36cedfb412c7d021",
+        "wikitext_bytes": 822
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Faktstruktur",
+        "pageid": 18814,
+        "revid": 1061914,
+        "parentid": 276624,
+        "timestamp": "2025-12-08T17:03:41Z",
+        "mediawiki_sha1": "627b618e705049f2b3fd2617c9568bed098096b9",
+        "wikitext_bytes": 1379
+      },
+      {
+        "title": "Vorlage:Idealm",
+        "pageid": 20065,
+        "revid": 232982,
+        "parentid": 135808,
+        "timestamp": "2010-08-10T21:48:41Z",
+        "mediawiki_sha1": "6f2507cd4f92838f934a63110ff79c9097426dfa",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Inputbeispiel",
+        "pageid": 11588,
+        "revid": 1074988,
+        "parentid": 1061937,
+        "timestamp": "2026-03-07T16:01:24Z",
+        "mediawiki_sha1": "c3ede97421bca4f5a97a08dedaaa9b4ddd5e6590",
+        "wikitext_bytes": 4706
+      },
+      {
+        "title": "Vorlage:Inputdefinition",
+        "pageid": 11022,
+        "revid": 1106756,
+        "parentid": 1061928,
+        "timestamp": "2026-07-12T13:31:00Z",
+        "mediawiki_sha1": "855519104da8c6681b207bb5a475d262ae77f669",
+        "wikitext_bytes": 11717
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweis",
+        "pageid": 17490,
+        "revid": 1110004,
+        "parentid": 1110003,
+        "timestamp": "2026-08-04T10:35:43Z",
+        "mediawiki_sha1": "170d71d038f2328a676563b4b9ecbeeed82a35c9",
+        "wikitext_bytes": 16503
+      },
+      {
+        "title": "Vorlage:Jacmat32",
+        "pageid": 20584,
+        "revid": 1010867,
+        "parentid": 545787,
+        "timestamp": "2025-07-24T15:23:36Z",
+        "mediawiki_sha1": "86ddb08123bb72fff9f4850c06eee1904df8283f",
+        "wikitext_bytes": 535
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathbed",
+        "pageid": 20302,
+        "revid": 210531,
+        "parentid": 168213,
+        "timestamp": "2010-02-21T19:52:49Z",
+        "mediawiki_sha1": "90ef94f9c38b656a0b6da21f640e23950c2d52b3",
+        "wikitext_bytes": 687
+      },
+      {
+        "title": "Vorlage:Mathbed1",
+        "pageid": 24996,
+        "revid": 168056,
+        "parentid": 168055,
+        "timestamp": "2009-06-28T11:29:14Z",
+        "mediawiki_sha1": "6190d5f97bdd37bd1124140c9be987360537fa53",
+        "wikitext_bytes": 189
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beispiel",
+        "pageid": 33519,
+        "revid": 864970,
+        "parentid": 864906,
+        "timestamp": "2022-10-19T16:21:27Z",
+        "mediawiki_sha1": "46aba056083d4e975d314608d3ffc651a584f5d8",
+        "wikitext_bytes": 1603
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beweis",
+        "pageid": 33517,
+        "revid": 861548,
+        "parentid": 748239,
+        "timestamp": "2022-10-05T08:00:16Z",
+        "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+        "wikitext_bytes": 2144
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Definition",
+        "pageid": 33515,
+        "revid": 763985,
+        "parentid": 762832,
+        "timestamp": "2022-08-15T04:47:42Z",
+        "mediawiki_sha1": "63e0d410c36911e0ac432f7074f4e6ba1f0baf56",
+        "wikitext_bytes": 1585
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Fakt",
+        "pageid": 33511,
+        "revid": 1063451,
+        "parentid": 1008461,
+        "timestamp": "2025-12-30T15:41:25Z",
+        "mediawiki_sha1": "a849aa72a036768f23044c44e16a302f42de8697",
+        "wikitext_bytes": 2588
+      },
+      {
+        "title": "Vorlage:Mathematischer Textabschnitt",
+        "pageid": 33589,
+        "revid": 865046,
+        "parentid": 864983,
+        "timestamp": "2022-10-19T18:54:33Z",
+        "mediawiki_sha1": "e988d41699849e3b0bee35d6ea687aac2d34b2aa",
+        "wikitext_bytes": 986
+      },
+      {
+        "title": "Vorlage:Mathkon",
+        "pageid": 20583,
+        "revid": 1106769,
+        "parentid": 1106768,
+        "timestamp": "2026-07-12T14:38:20Z",
+        "mediawiki_sha1": "5e69b54877490fb8d057a686302e5fd6f06cae5c",
+        "wikitext_bytes": 553
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:Mengebed",
+        "pageid": 19920,
+        "revid": 1106268,
+        "parentid": 604716,
+        "timestamp": "2026-07-09T15:57:00Z",
+        "mediawiki_sha1": "bb1821bdbec724ce06ccc446f906e7bea290f2b3",
+        "wikitext_bytes": 667
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs23",
+        "pageid": 30184,
+        "revid": 195392,
+        "parentid": 0,
+        "timestamp": "2009-12-01T18:35:15Z",
+        "mediawiki_sha1": "5b2bd8d0eed0ca8bdafb8f9eb59b2b3c4587a73a",
+        "wikitext_bytes": 68
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affine Gerade",
+        "pageid": 20276,
+        "revid": 564066,
+        "parentid": 313324,
+        "timestamp": "2018-10-29T18:00:10Z",
+        "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+        "wikitext_bytes": 232
+      },
+      {
+        "title": "Vorlage:Op:Affiner Raum",
+        "pageid": 45165,
+        "revid": 594907,
+        "parentid": 332226,
+        "timestamp": "2019-07-21T15:59:27Z",
+        "mediawiki_sha1": "4686037d6435c99c266f178f71b76faf17ef7239",
+        "wikitext_bytes": 236
+      },
+      {
+        "title": "Vorlage:Op:Bruch",
+        "pageid": 23180,
+        "revid": 599751,
+        "parentid": 332211,
+        "timestamp": "2019-09-28T11:03:08Z",
+        "mediawiki_sha1": "8af543c27bfd9fbe3cbe30a57b812c1c6c329cd5",
+        "wikitext_bytes": 223
+      },
+      {
+        "title": "Vorlage:Op:Partielle Ableitung",
+        "pageid": 35604,
+        "revid": 640021,
+        "parentid": 543677,
+        "timestamp": "2020-06-16T21:28:14Z",
+        "mediawiki_sha1": "4dab9ee568657389822c7b5a501b12076830e1f7",
+        "wikitext_bytes": 269
+      },
+      {
+        "title": "Vorlage:Op:Potenzreihenring",
+        "pageid": 20897,
+        "revid": 921076,
+        "parentid": 538618,
+        "timestamp": "2023-11-30T12:09:48Z",
+        "mediawiki_sha1": "0b8fcfe5367513b7c4f5e7b2ec908bae385f29ad",
+        "wikitext_bytes": 255
+      },
+      {
+        "title": "Vorlage:Op:Spaltenvektor",
+        "pageid": 21062,
+        "revid": 1074290,
+        "parentid": 1010894,
+        "timestamp": "2026-03-06T16:46:10Z",
+        "mediawiki_sha1": "09b7c7e3823a2aee2ec1628241bf8883fed72e60",
+        "wikitext_bytes": 781
+      },
+      {
+        "title": "Vorlage:Op:Zeilenvektor",
+        "pageid": 29723,
+        "revid": 1010936,
+        "parentid": 551775,
+        "timestamp": "2025-07-24T16:56:47Z",
+        "mediawiki_sha1": "ee73e1644fcd92d55dc3b1b4fd44c4a12b2606d4",
+        "wikitext_bytes": 536
+      },
+      {
+        "title": "Vorlage:Plusdots",
+        "pageid": 20950,
+        "revid": 370980,
+        "parentid": 141526,
+        "timestamp": "2013-07-17T15:23:35Z",
+        "mediawiki_sha1": "37e62e3902d9ff529d6aa51ec736025fad8d29e6",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Potreiein",
+        "pageid": 20946,
+        "revid": 235404,
+        "parentid": 142296,
+        "timestamp": "2010-08-17T20:50:49Z",
+        "mediawiki_sha1": "f292a5c07ba70c0921752430f3131288339b252e",
+        "wikitext_bytes": 338
+      },
+      {
+        "title": "Vorlage:Potreiring",
+        "pageid": 20896,
+        "revid": 1112532,
+        "parentid": 235402,
+        "timestamp": "2026-08-21T15:40:47Z",
+        "mediawiki_sha1": "dddcc872fc5ec9defa4ac9c7e7b8ddb72e0cd71e",
+        "wikitext_bytes": 314
+      },
+      {
+        "title": "Vorlage:Qed",
+        "pageid": 11116,
+        "revid": 92011,
+        "parentid": 92010,
+        "timestamp": "2008-04-20T08:14:57Z",
+        "mediawiki_sha1": "7cacc755daead99c6816a2540e477c0fe5def465",
+        "wikitext_bytes": 1564
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/align",
+        "pageid": 20295,
+        "revid": 1074795,
+        "parentid": 1074794,
+        "timestamp": "2026-03-07T12:36:06Z",
+        "mediawiki_sha1": "b3c203173c5926110dcffe0aed1b048e96fc1bdf",
+        "wikitext_bytes": 4802
+      },
+      {
+        "title": "Vorlage:Relationskette/align/drucklinks",
+        "pageid": 36849,
+        "revid": 1074790,
+        "parentid": 1009701,
+        "timestamp": "2026-03-07T12:31:55Z",
+        "mediawiki_sha1": "07216cbad96004077fa8f4af58587b12e05bd2b1",
+        "wikitext_bytes": 2105
+      },
+      {
+        "title": "Vorlage:Relationskette/align/handlinks",
+        "pageid": 34857,
+        "revid": 1074779,
+        "parentid": 1074297,
+        "timestamp": "2026-03-07T12:30:19Z",
+        "mediawiki_sha1": "4937ef7950fd25c44a82041cd1a8e1d5954d44ab",
+        "wikitext_bytes": 2423
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Relationskette/k",
+        "pageid": 85381,
+        "revid": 1106120,
+        "parentid": 972253,
+        "timestamp": "2026-07-07T08:54:28Z",
+        "mediawiki_sha1": "59744cdfaafba2bc8bce851e220c82b5c7feb58b",
+        "wikitext_bytes": 1948
+      },
+      {
+        "title": "Vorlage:Stichwort",
+        "pageid": 23961,
+        "revid": 1067874,
+        "parentid": 1061532,
+        "timestamp": "2026-01-30T10:47:00Z",
+        "mediawiki_sha1": "ceca7248a5c70c86413f4880b4f90f88611c4063",
+        "wikitext_bytes": 685
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+        "pageid": 24050,
+        "revid": 790374,
+        "parentid": 790369,
+        "timestamp": "2022-08-23T11:13:50Z",
+        "mediawiki_sha1": "5dd904e06ce5855ebdf98901569dd4673f98cb29",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Stichwort",
+        "pageid": 24184,
+        "revid": 1067875,
+        "parentid": 794079,
+        "timestamp": "2026-01-30T10:49:46Z",
+        "mediawiki_sha1": "bc938285eaf43311874531de8d3c26bb3b14e5de",
+        "wikitext_bytes": 842
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      }
+    ]
+  },
+  "worksheet_transclusion_closure": {
+    "source": "action=parse template list after recursive parser expansion",
+    "requested_template_count": 64,
+    "captured_page_count": 64,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "worksheet-24-transclusions-01.json",
+        "bytes": 14093,
+        "sha256": "8381a8cb4de842aea8ac257652be3bcf30f23ce49ffe4853e69e56c120a5f239",
+        "requested_titles": [
+          "Achsenkreuz/R mod m^n/Basis und Hilbert Funktion/Berechne/Aufgabe",
+          "Ebene algebraische Kurve/Glatt/Parametrisierung ist singulär/Aufgabe",
+          "Ebene algebraische Kurve/x^2 ist y^2+y^3/Singulärer Punkt, Tangenten/Parametrisierung t ist 1,0,-1 /Aufgabe",
+          "Formale Potenzreihe/Inverses von 1-T/Aufgabe",
+          "Hilberts Basissatz/Erweiterung auf Potenzreihenringe/Aufgabe",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblattgestaltung",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene algebraische Kurve/x^2-y^2+y^3/Tangente unter Parametrisierung/t ist 2/Beispiel/Beispielreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Einsetzen von Potenzreihen mit Konstante null/Definition/Definitionreferenznummer",
+          "MDLUL/Algebrahomomorphismus",
+          "MDLUL/Basis (vr)",
+          "MDLUL/Dimension (vr)",
+          "MDLUL/Dimensionen (vr)",
+          "MDLUL/Körper",
+          "MDLUL/Lokalisierung",
+          "MDLUL/Maximales Ideal",
+          "MDLUL/Potenzreihenring (1K)",
+          "MDLUL/Restklassenring",
+          "MDLUL/Restklassenringe",
+          "MDLUL/Ring der formalen Potenzreihen (1)",
+          "MDLUL/lokalen Ring",
+          "MDLUL/lokaler Ring",
+          "MDLUL/maximale Ideal",
+          "MDLUL/maximalem Ideal",
+          "MDLUL/noethersch"
+        ]
+      },
+      {
+        "file": "worksheet-24-transclusions-02.json",
+        "bytes": 40736,
+        "sha256": "cb148ef3637bfb423ed9458c387a355e494d1e83d364886d1a4ec945edfd059c",
+        "requested_titles": [
+          "MDLUL/noetherscher",
+          "Polynom in zwei Variablen/Identische partielle Ableitungen/über R und C/Aufgabe",
+          "Potenzreihe über C, die nirgendwo konvergiert/Aufgabe",
+          "Potenzreihe/Eine Variable/Einsetzen/Erste vier Glieder/Aufgabe",
+          "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe",
+          "Potenzreihenring und Polynomring/Reihenfolge/Vergleiche/Aufgabe",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Arbeitsblatt",
+          "Vorlage:Beispiellink",
+          "Vorlage:CC",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionslink in Kurs/Definition",
+          "Vorlage:Drucktrenn",
+          "Vorlage:Einrückung",
+          "Vorlage:Idealm",
+          "Vorlage:Inputaufgabe",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:ManSie",
+          "Vorlage:Math",
+          "Vorlage:Math/display"
+        ]
+      },
+      {
+        "file": "worksheet-24-transclusions-03.json",
+        "bytes": 23612,
+        "sha256": "0fb42ea6925d8898fa5fa5bfff844890bfbe64f3bb8c8f6ad851ff62b37bcfb8",
+        "requested_titles": [
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Aufgabe",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathl",
+          "Vorlage:N Sie",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im Kurs23",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Potenzreihenring",
+          "Vorlage:Potreiring",
+          "Vorlage:Relationskette",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Zwischenüberschrift"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Achsenkreuz/R mod m^n/Basis und Hilbert Funktion/Berechne/Aufgabe",
+        "pageid": 21045,
+        "revid": 1082164,
+        "parentid": 1040321,
+        "timestamp": "2026-05-29T17:36:02Z",
+        "mediawiki_sha1": "a82cf948adbb202df59623b987dcec60f7021b1d",
+        "wikitext_bytes": 977
+      },
+      {
+        "title": "Ebene algebraische Kurve/Glatt/Parametrisierung ist singulär/Aufgabe",
+        "pageid": 21066,
+        "revid": 980688,
+        "parentid": 971291,
+        "timestamp": "2025-01-21T15:13:14Z",
+        "mediawiki_sha1": "6ab4f20766eb2f6de766a4493cc9c292732eb509",
+        "wikitext_bytes": 498
+      },
+      {
+        "title": "Ebene algebraische Kurve/x^2 ist y^2+y^3/Singulärer Punkt, Tangenten/Parametrisierung t ist 1,0,-1 /Aufgabe",
+        "pageid": 21065,
+        "revid": 1112456,
+        "parentid": 980708,
+        "timestamp": "2026-08-21T15:15:28Z",
+        "mediawiki_sha1": "db2910d688017b66ab3cdc1bc301929e3328a238",
+        "wikitext_bytes": 783
+      },
+      {
+        "title": "Formale Potenzreihe/Inverses von 1-T/Aufgabe",
+        "pageid": 20815,
+        "revid": 1041706,
+        "parentid": 917241,
+        "timestamp": "2025-08-12T14:39:05Z",
+        "mediawiki_sha1": "24b39ba4ff256af7e5de05d7d3afa872816660a2",
+        "wikitext_bytes": 550
+      },
+      {
+        "title": "Hilberts Basissatz/Erweiterung auf Potenzreihenringe/Aufgabe",
+        "pageid": 18980,
+        "revid": 1042088,
+        "parentid": 843354,
+        "timestamp": "2025-08-12T15:42:25Z",
+        "mediawiki_sha1": "63e82c451a6fd7a92047b210d2e82247d2dd46ca",
+        "wikitext_bytes": 439
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt/Fuß",
+        "pageid": 50735,
+        "revid": 658297,
+        "parentid": 655290,
+        "timestamp": "2020-09-24T12:43:53Z",
+        "mediawiki_sha1": "ff0e30fc3da1347da305494878a586ec399bfd51",
+        "wikitext_bytes": 978
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblattgestaltung",
+        "pageid": 50697,
+        "revid": 658298,
+        "parentid": 297928,
+        "timestamp": "2020-09-24T12:43:56Z",
+        "mediawiki_sha1": "df1efbf8673fb5c85dca3fb74a687e4002ff7613",
+        "wikitext_bytes": 253
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene algebraische Kurve/x^2-y^2+y^3/Tangente unter Parametrisierung/t ist 2/Beispiel/Beispielreferenznummer",
+        "pageid": 54021,
+        "revid": 320314,
+        "parentid": 0,
+        "timestamp": "2012-07-03T10:24:03Z",
+        "mediawiki_sha1": "8d48be564184c96d6fae3af800602e5ee2bb86b9",
+        "wikitext_bytes": 49
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Formaler Potenzreihenring/Eine Variable/Einsetzen von Potenzreihen mit Konstante null/Definition/Definitionreferenznummer",
+        "pageid": 56754,
+        "revid": 333831,
+        "parentid": 0,
+        "timestamp": "2012-10-22T09:56:47Z",
+        "mediawiki_sha1": "f62548269c56f06d2fbe4860c9af13c0641c3f18",
+        "wikitext_bytes": 51
+      },
+      {
+        "title": "MDLUL/Algebrahomomorphismus",
+        "pageid": 61734,
+        "revid": 373102,
+        "parentid": 0,
+        "timestamp": "2013-08-08T16:11:30Z",
+        "mediawiki_sha1": "2ea03c08f96e92921bcf48febf2466c4b16d410d",
+        "wikitext_bytes": 139
+      },
+      {
+        "title": "MDLUL/Basis (vr)",
+        "pageid": 38882,
+        "revid": 415544,
+        "parentid": 235260,
+        "timestamp": "2015-04-02T14:32:24Z",
+        "mediawiki_sha1": "18341e7e2117dd457b50ea9fcfe06fadcd60136f",
+        "wikitext_bytes": 78
+      },
+      {
+        "title": "MDLUL/Dimension (vr)",
+        "pageid": 38928,
+        "revid": 235492,
+        "parentid": 0,
+        "timestamp": "2010-08-18T07:49:04Z",
+        "mediawiki_sha1": "bcadd1f496d145a8354cbbdccebf5f6d35ac929c",
+        "wikitext_bytes": 102
+      },
+      {
+        "title": "MDLUL/Dimensionen (vr)",
+        "pageid": 75825,
+        "revid": 432949,
+        "parentid": 0,
+        "timestamp": "2015-08-27T21:42:40Z",
+        "mediawiki_sha1": "b5a66656de500c780faee46d743cabbb1e71c85a",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/Körper",
+        "pageid": 45898,
+        "revid": 267506,
+        "parentid": 0,
+        "timestamp": "2011-06-07T13:51:29Z",
+        "mediawiki_sha1": "ce01f7f216f5f8bd6b1401f9f4ae5020af5040d1",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Lokalisierung",
+        "pageid": 54083,
+        "revid": 320706,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:45:23Z",
+        "mediawiki_sha1": "40543abf5b249afb9e9b3f9829abab1afce483a5",
+        "wikitext_bytes": 152
+      },
+      {
+        "title": "MDLUL/Maximales Ideal",
+        "pageid": 51039,
+        "revid": 299640,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:40:10Z",
+        "mediawiki_sha1": "669b80ec86f88f0b18227bf009f40c7a27f322bb",
+        "wikitext_bytes": 115
+      },
+      {
+        "title": "MDLUL/Potenzreihenring (1K)",
+        "pageid": 153176,
+        "revid": 908939,
+        "parentid": 0,
+        "timestamp": "2023-08-08T08:16:16Z",
+        "mediawiki_sha1": "b823a626b5df611e8cb6e760a8661c2c8d3ff99c",
+        "wikitext_bytes": 120
+      },
+      {
+        "title": "MDLUL/Restklassenring",
+        "pageid": 38680,
+        "revid": 234800,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:20:57Z",
+        "mediawiki_sha1": "5d42a88249e2194279dc6d57835e0f159b64336f",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/Restklassenringe",
+        "pageid": 93599,
+        "revid": 525675,
+        "parentid": 0,
+        "timestamp": "2017-11-13T20:53:24Z",
+        "mediawiki_sha1": "6574132c44ad4ad83063293efa809fc0e87b3004",
+        "wikitext_bytes": 92
+      },
+      {
+        "title": "MDLUL/Ring der formalen Potenzreihen (1)",
+        "pageid": 54120,
+        "revid": 320750,
+        "parentid": 0,
+        "timestamp": "2012-07-06T15:28:13Z",
+        "mediawiki_sha1": "aa1d274ba300677fbffade029d31167c4b9cd877",
+        "wikitext_bytes": 135
+      },
+      {
+        "title": "MDLUL/lokalen Ring",
+        "pageid": 61815,
+        "revid": 373223,
+        "parentid": 0,
+        "timestamp": "2013-08-08T20:04:46Z",
+        "mediawiki_sha1": "6079c6952edc75ba479737124ef10f57fff56651",
+        "wikitext_bytes": 85
+      },
+      {
+        "title": "MDLUL/lokaler Ring",
+        "pageid": 54084,
+        "revid": 916400,
+        "parentid": 320707,
+        "timestamp": "2023-11-01T17:11:01Z",
+        "mediawiki_sha1": "a326f2f14a5523297957490e1ac2bd5843b9a9dc",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/maximale Ideal",
+        "pageid": 51914,
+        "revid": 305095,
+        "parentid": 0,
+        "timestamp": "2012-03-19T15:47:42Z",
+        "mediawiki_sha1": "ead0a9a0339d5f7cbe05eb38bd547232c73f6489",
+        "wikitext_bytes": 90
+      },
+      {
+        "title": "MDLUL/maximalem Ideal",
+        "pageid": 51038,
+        "revid": 299639,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:39:24Z",
+        "mediawiki_sha1": "f1c95522a0d130bea29d9a1f0bba2edf8cd0c1be",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/noethersch",
+        "pageid": 53432,
+        "revid": 476974,
+        "parentid": 314524,
+        "timestamp": "2016-11-16T10:03:10Z",
+        "mediawiki_sha1": "1e70b7aeebb5bae45d1fb25f7266269a9bd148c2",
+        "wikitext_bytes": 118
+      },
+      {
+        "title": "MDLUL/noetherscher",
+        "pageid": 53435,
+        "revid": 343317,
+        "parentid": 314527,
+        "timestamp": "2012-12-11T14:40:55Z",
+        "mediawiki_sha1": "292cb9261961a2574141f63dcee582558d9bf39c",
+        "wikitext_bytes": 83
+      },
+      {
+        "title": "Polynom in zwei Variablen/Identische partielle Ableitungen/über R und C/Aufgabe",
+        "pageid": 21042,
+        "revid": 1046304,
+        "parentid": 986837,
+        "timestamp": "2025-08-13T03:19:36Z",
+        "mediawiki_sha1": "f1a05a276fed00d1a11da3d055c31cf49076a91c",
+        "wikitext_bytes": 572
+      },
+      {
+        "title": "Potenzreihe über C, die nirgendwo konvergiert/Aufgabe",
+        "pageid": 20954,
+        "revid": 1047039,
+        "parentid": 908950,
+        "timestamp": "2025-08-13T05:22:06Z",
+        "mediawiki_sha1": "2f751c6cd12d502c29e71c4299d20884898197dd",
+        "wikitext_bytes": 384
+      },
+      {
+        "title": "Potenzreihe/Eine Variable/Einsetzen/Erste vier Glieder/Aufgabe",
+        "pageid": 20957,
+        "revid": 908952,
+        "parentid": 847128,
+        "timestamp": "2023-08-08T08:25:28Z",
+        "mediawiki_sha1": "5fc1f3645835f3e0b9afa825204582ccc15a40ed",
+        "wikitext_bytes": 570
+      },
+      {
+        "title": "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe",
+        "pageid": 20781,
+        "revid": 1073415,
+        "parentid": 1068504,
+        "timestamp": "2026-02-24T16:28:20Z",
+        "mediawiki_sha1": "759ce5a871f4975672377faf9b3fe05391e59331",
+        "wikitext_bytes": 1050
+      },
+      {
+        "title": "Potenzreihenring und Polynomring/Reihenfolge/Vergleiche/Aufgabe",
+        "pageid": 21047,
+        "revid": 1047087,
+        "parentid": 804062,
+        "timestamp": "2025-08-13T05:30:06Z",
+        "mediawiki_sha1": "360d425c53b5eb1d884f54561d0b7d8314fbe6d0",
+        "wikitext_bytes": 413
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Arbeitsblatt",
+        "pageid": 28743,
+        "revid": 938901,
+        "parentid": 938893,
+        "timestamp": "2024-07-23T16:20:47Z",
+        "mediawiki_sha1": "cdd0ba6a7f93d6d5df80b0e93030ff714636e5b9",
+        "wikitext_bytes": 248
+      },
+      {
+        "title": "Vorlage:Beispiellink",
+        "pageid": 41670,
+        "revid": 1070422,
+        "parentid": 1069819,
+        "timestamp": "2026-02-06T14:20:40Z",
+        "mediawiki_sha1": "2699aa7c9cc51e7953958fcbe0fe30bd41dbf02f",
+        "wikitext_bytes": 1793
+      },
+      {
+        "title": "Vorlage:CC",
+        "pageid": 103892,
+        "revid": 709639,
+        "parentid": 578068,
+        "timestamp": "2021-11-08T15:00:46Z",
+        "mediawiki_sha1": "0eceb25a2d3d11b5db027c02c8c2f33347cbac74",
+        "wikitext_bytes": 193
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs/Definition",
+        "pageid": 56584,
+        "revid": 333917,
+        "parentid": 333916,
+        "timestamp": "2012-10-22T15:33:10Z",
+        "mediawiki_sha1": "5fb55bfbbd99cf577af9b015a69c118313d0880a",
+        "wikitext_bytes": 662
+      },
+      {
+        "title": "Vorlage:Drucktrenn",
+        "pageid": 169679,
+        "revid": 1073199,
+        "parentid": 0,
+        "timestamp": "2026-02-24T14:17:08Z",
+        "mediawiki_sha1": "7b15634ab69c147b7ff06ddd5d901e7363d65017",
+        "wikitext_bytes": 164
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Idealm",
+        "pageid": 20065,
+        "revid": 232982,
+        "parentid": 135808,
+        "timestamp": "2010-08-10T21:48:41Z",
+        "mediawiki_sha1": "6f2507cd4f92838f934a63110ff79c9097426dfa",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Inputaufgabe",
+        "pageid": 18012,
+        "revid": 1074928,
+        "parentid": 1074886,
+        "timestamp": "2026-03-07T15:07:51Z",
+        "mediawiki_sha1": "7d986984e8f142ccf7bcab8075ecfc2406ab4883",
+        "wikitext_bytes": 15973
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:ManSie",
+        "pageid": 22977,
+        "revid": 154703,
+        "parentid": 154702,
+        "timestamp": "2009-05-02T07:51:29Z",
+        "mediawiki_sha1": "ac241a6dd0ce0be7df949462f1a96974f855b890",
+        "wikitext_bytes": 186
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Aufgabe",
+        "pageid": 33520,
+        "revid": 945699,
+        "parentid": 945698,
+        "timestamp": "2024-10-06T15:36:10Z",
+        "mediawiki_sha1": "e66acdf4e9f704b519f910a3ac8b123ac3aab145",
+        "wikitext_bytes": 7332
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:N Sie",
+        "pageid": 22975,
+        "revid": 1106829,
+        "parentid": 1106828,
+        "timestamp": "2026-07-13T16:36:50Z",
+        "mediawiki_sha1": "1e1bbe37a637c31bb179415b8336da2c795bc96e",
+        "wikitext_bytes": 173
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs23",
+        "pageid": 30184,
+        "revid": 195392,
+        "parentid": 0,
+        "timestamp": "2009-12-01T18:35:15Z",
+        "mediawiki_sha1": "5b2bd8d0eed0ca8bdafb8f9eb59b2b3c4587a73a",
+        "wikitext_bytes": 68
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Potenzreihenring",
+        "pageid": 20897,
+        "revid": 921076,
+        "parentid": 538618,
+        "timestamp": "2023-11-30T12:09:48Z",
+        "mediawiki_sha1": "0b8fcfe5367513b7c4f5e7b2ec908bae385f29ad",
+        "wikitext_bytes": 255
+      },
+      {
+        "title": "Vorlage:Potreiring",
+        "pageid": 20896,
+        "revid": 1112532,
+        "parentid": 235402,
+        "timestamp": "2026-08-21T15:40:47Z",
+        "mediawiki_sha1": "dddcc872fc5ec9defa4ac9c7e7b8ddb72e0cd71e",
+        "wikitext_bytes": 314
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      }
+    ]
+  },
+  "transclusion_topology": {
+    "lecture": {
+      "parser_template_occurrences": 121,
+      "unique_exact_titles": 121,
+      "unique_casefold_keys": 121,
+      "dependencies": 121,
+      "with_root": 122,
+      "canonical_identity_rows_sha256": "861c2d4566a137c9c3d791480bfa2f1f36a7885798f54f34c8e60557d34e75b2",
+      "canonical_identity_hash_algorithm": "SHA-256 of UTF-8 JSON rows reduced to title,pageid,revid,parentid,timestamp,mediawiki_sha1,wikitext_bytes; rows sorted by (title,pageid); ensure_ascii=false; sort_keys=true; separators=(',',':')",
+      "preflight_reported_identity_sha256": "867955dfa799954da0c33d9b09625f7e194eda8ebfbdc23348c1c4ffbab83fa6",
+      "preflight_hash_serialization_status": "ALGORITHM_NOT_YET_IDENTIFIED"
+    },
+    "worksheet": {
+      "parser_template_occurrences": 64,
+      "unique_exact_titles": 64,
+      "unique_casefold_keys": 64,
+      "dependencies": 64,
+      "with_root": 65,
+      "canonical_identity_rows_sha256": "b02b815554f0c5dbb4e8f5aceb6b7cc7faa747d9c7c1aa136facd1f62d1831f1",
+      "canonical_identity_hash_algorithm": "SHA-256 of UTF-8 JSON rows reduced to title,pageid,revid,parentid,timestamp,mediawiki_sha1,wikitext_bytes; rows sorted by (title,pageid); ensure_ascii=false; sort_keys=true; separators=(',',':')",
+      "preflight_reported_identity_sha256": "baf26dd0e702bc9ebb4f0466b5c0e4e3c4daea3ab028a8964da4f7b7bc128b91",
+      "preflight_hash_serialization_status": "ALGORITHM_NOT_YET_IDENTIFIED"
+    }
+  },
+  "solutions": {
+    "schema": "brenner-worksheet-solution-map-v2",
+    "unit": 24,
+    "worksheet": {
+      "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt 24",
+      "pageid": 50759,
+      "revid": 793492,
+      "parentid": 324701,
+      "timestamp": "2022-08-25T06:03:47Z",
+      "mediawiki_sha1": "507a5966770c007e813734ca85da4e85f8a93b60",
+      "wikitext_bytes": 1332,
+      "api_file": "worksheet-24-api.json",
+      "api_bytes": 1765,
+      "api_sha256": "cc92b4dfffa0941029def30aa4b84582eb57df1a5c9edebd590569e7d4aea42d",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=793492",
+      "xml_file": "worksheet-24.xml",
+      "xml_bytes": 4513,
+      "xml_sha256": "c6b2e329dc1326aef1b0372702a03fba7fc7106c9e866498df92e1fc9508d4b2",
+      "html_file": "worksheet-24.html",
+      "html_bytes": 26855,
+      "html_sha256": "1fb2aa4b3439f3bb60aad6ca37c27b3d469d55f83b5cd68af5c3ef8995882a49",
+      "html_source": "immutable Parsoid revision endpoint",
+      "parse_api_file": "worksheet-24-parse-api.json",
+      "parse_api_bytes": 8238,
+      "parse_api_sha256": "6547f9473766423dce41d60412cecaf331407399fc3660e2eb1730f7569c3575",
+      "template_count": 64,
+      "image_count": 2,
+      "link_count": 27,
+      "external_link_count": 0
+    },
+    "exercise_count": 10,
+    "solution_count": 1,
+    "candidate_api_file": "worksheet-solution-candidates-api.json",
+    "candidate_api_bytes": 2322,
+    "candidate_api_sha256": "ed0e6184533fd46652594df5af402128551de5a2d29109a2ad094ef56c6f2e94",
+    "entries": [
+      {
+        "exercise_number": 1,
+        "exercise_title": "Ebene algebraische Kurve/Glatt/Parametrisierung ist singulär/Aufgabe",
+        "solution_title": "Ebene algebraische Kurve/Glatt/Parametrisierung ist singulär/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "practice",
+        "authored_points": 2,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21066,
+        "exercise_revid": 980688,
+        "exercise_parentid": 971291,
+        "exercise_timestamp": "2025-01-21T15:13:14Z",
+        "exercise_mediawiki_sha1": "6ab4f20766eb2f6de766a4493cc9c292732eb509",
+        "exercise_wikitext_bytes": 498
+      },
+      {
+        "exercise_number": 2,
+        "exercise_title": "Achsenkreuz/R mod m^n/Basis und Hilbert Funktion/Berechne/Aufgabe",
+        "solution_title": "Achsenkreuz/R mod m^n/Basis und Hilbert Funktion/Berechne/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "practice",
+        "authored_points": 2,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21045,
+        "exercise_revid": 1082164,
+        "exercise_parentid": 1040321,
+        "exercise_timestamp": "2026-05-29T17:36:02Z",
+        "exercise_mediawiki_sha1": "a82cf948adbb202df59623b987dcec60f7021b1d",
+        "exercise_wikitext_bytes": 977
+      },
+      {
+        "exercise_number": 3,
+        "exercise_title": "Formale Potenzreihe/Inverses von 1-T/Aufgabe",
+        "solution_title": "Formale Potenzreihe/Inverses von 1-T/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "practice",
+        "authored_points": 2,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 20815,
+        "exercise_revid": 1041706,
+        "exercise_parentid": 917241,
+        "exercise_timestamp": "2025-08-12T14:39:05Z",
+        "exercise_mediawiki_sha1": "24b39ba4ff256af7e5de05d7d3afa872816660a2",
+        "exercise_wikitext_bytes": 550
+      },
+      {
+        "exercise_number": 4,
+        "exercise_title": "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe",
+        "solution_title": "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe/Lösung",
+        "pageid": 168447,
+        "revid": 1068135,
+        "parentid": 0,
+        "timestamp": "2026-01-31T11:13:20Z",
+        "mediawiki_sha1": "c7d3afd4c8e56433e1d4b12c4ebb8e10b460bec0",
+        "wikitext_bytes": 882,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1068135",
+        "xml_file": "solution-ex04.xml",
+        "xml_bytes": 4102,
+        "xml_sha256": "7904b98444817d81659d24fafd37e9009c39547c891bce705b0ae4b37f0ec527",
+        "html_file": "solution-ex04.html",
+        "html_bytes": 7418,
+        "html_sha256": "ad891a3f4256ff6a01ddb9299346fc27e5ec6433dd48c63c45e1c9161f000bad",
+        "html_source": "immutable Parsoid revision endpoint",
+        "role": "practice",
+        "authored_points": 2,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": true,
+        "exercise_pageid": 20781,
+        "exercise_revid": 1073415,
+        "exercise_parentid": 1068504,
+        "exercise_timestamp": "2026-02-24T16:28:20Z",
+        "exercise_mediawiki_sha1": "759ce5a871f4975672377faf9b3fe05391e59331",
+        "exercise_wikitext_bytes": 1050
+      },
+      {
+        "exercise_number": 5,
+        "exercise_title": "Potenzreihe/Eine Variable/Einsetzen/Erste vier Glieder/Aufgabe",
+        "solution_title": "Potenzreihe/Eine Variable/Einsetzen/Erste vier Glieder/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "practice",
+        "authored_points": 3,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 20957,
+        "exercise_revid": 908952,
+        "exercise_parentid": 847128,
+        "exercise_timestamp": "2023-08-08T08:25:28Z",
+        "exercise_mediawiki_sha1": "5fc1f3645835f3e0b9afa825204582ccc15a40ed",
+        "exercise_wikitext_bytes": 570
+      },
+      {
+        "exercise_number": 6,
+        "exercise_title": "Polynom in zwei Variablen/Identische partielle Ableitungen/über R und C/Aufgabe",
+        "solution_title": "Polynom in zwei Variablen/Identische partielle Ableitungen/über R und C/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 5,
+        "displayed_points": 5,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21042,
+        "exercise_revid": 1046304,
+        "exercise_parentid": 986837,
+        "exercise_timestamp": "2025-08-13T03:19:36Z",
+        "exercise_mediawiki_sha1": "f1a05a276fed00d1a11da3d055c31cf49076a91c",
+        "exercise_wikitext_bytes": 572
+      },
+      {
+        "exercise_number": 7,
+        "exercise_title": "Ebene algebraische Kurve/x^2 ist y^2+y^3/Singulärer Punkt, Tangenten/Parametrisierung t ist 1,0,-1 /Aufgabe",
+        "solution_title": "Ebene algebraische Kurve/x^2 ist y^2+y^3/Singulärer Punkt, Tangenten/Parametrisierung t ist 1,0,-1 /Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 3,
+        "displayed_points": 3,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21065,
+        "exercise_revid": 1112456,
+        "exercise_parentid": 980708,
+        "exercise_timestamp": "2026-08-21T15:15:28Z",
+        "exercise_mediawiki_sha1": "db2910d688017b66ab3cdc1bc301929e3328a238",
+        "exercise_wikitext_bytes": 783
+      },
+      {
+        "exercise_number": 8,
+        "exercise_title": "Potenzreihe über C, die nirgendwo konvergiert/Aufgabe",
+        "solution_title": "Potenzreihe über C, die nirgendwo konvergiert/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 3,
+        "displayed_points": 3,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 20954,
+        "exercise_revid": 1047039,
+        "exercise_parentid": 908950,
+        "exercise_timestamp": "2025-08-13T05:22:06Z",
+        "exercise_mediawiki_sha1": "2f751c6cd12d502c29e71c4299d20884898197dd",
+        "exercise_wikitext_bytes": 384
+      },
+      {
+        "exercise_number": 9,
+        "exercise_title": "Potenzreihenring und Polynomring/Reihenfolge/Vergleiche/Aufgabe",
+        "solution_title": "Potenzreihenring und Polynomring/Reihenfolge/Vergleiche/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 3,
+        "displayed_points": 3,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21047,
+        "exercise_revid": 1047087,
+        "exercise_parentid": 804062,
+        "exercise_timestamp": "2025-08-13T05:30:06Z",
+        "exercise_mediawiki_sha1": "360d425c53b5eb1d884f54561d0b7d8314fbe6d0",
+        "exercise_wikitext_bytes": 413
+      },
+      {
+        "exercise_number": 10,
+        "exercise_title": "Hilberts Basissatz/Erweiterung auf Potenzreihenringe/Aufgabe",
+        "solution_title": "Hilberts Basissatz/Erweiterung auf Potenzreihenringe/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 6,
+        "displayed_points": 6,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 18980,
+        "exercise_revid": 1042088,
+        "exercise_parentid": 843354,
+        "exercise_timestamp": "2025-08-12T15:42:25Z",
+        "exercise_mediawiki_sha1": "63e82c451a6fd7a92047b210d2e82247d2dd46ca",
+        "exercise_wikitext_bytes": 439
+      }
+    ],
+    "ordered_role_point_and_star_topology": {
+      "practice_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "submitted_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "authored_points": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 5,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 6
+      },
+      "submitted_displayed_points": {
+        "6": 5,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 6
+      },
+      "submitted_displayed_point_total": 20,
+      "starred_numbers": [
+        4
+      ],
+      "source_api_file": "ordered-exercise-source-api.json",
+      "source_api_bytes": 9903,
+      "source_api_sha256": "b7c30cd1c3c98923664c3405385152f4f0a81ae1d0002f2eabdc6fea543512a1"
+    },
+    "map_file": "ORDERED_EXERCISE_MAP.json",
+    "map_bytes": 10121,
+    "map_sha256": "250744d177bc2d5cf2a1cc506a99e05f1250c771de88b214a0e8d5cabfe7b9b8"
+  },
+  "solution_transclusion_closure": {
+    "exercise_number": 4,
+    "solution_title": "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe/Lösung",
+    "solution_pageid": 168447,
+    "solution_revid": 1068135,
+    "solution_mediawiki_sha1": "c7d3afd4c8e56433e1d4b12c4ebb8e10b460bec0",
+    "direct_wrapper_dependency_titles": [],
+    "parse_api_file": "solution-ex04-parse-api.json",
+    "parse_api_bytes": 1768,
+    "parse_api_sha256": "7e6ecc35965cfb45c359f42bcf4a6a0f09b3ea41c803f56f50e165e4d68270f1",
+    "recursive_transclusion_closure": {
+      "source": "action=parse template list after recursive parser expansion",
+      "requested_template_count": 17,
+      "captured_page_count": 17,
+      "missing_page_count": 0,
+      "batches": [
+        {
+          "file": "solution-ex04-transclusions-01.json",
+          "bytes": 20651,
+          "sha256": "8c67bc354ffef744a51902716abd95437d3bd93ca0e2c78fa9a9ecc8337ef14a",
+          "requested_titles": [
+            "MDLUL/Algebrahomomorphismus",
+            "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe",
+            "Vorlage:Abbildung mit Element/display",
+            "Vorlage:Abbildung ohne Element/display",
+            "Vorlage:Abbildung/display",
+            "Vorlage:Definitionslink",
+            "Vorlage:Faktlink",
+            "Vorlage:MDLULSiehe",
+            "Vorlage:MDLULZiel",
+            "Vorlage:Math",
+            "Vorlage:Math/display",
+            "Vorlage:Mathematische Standardverlinkung",
+            "Vorlage:Mathematischer Text/AufgabeKategorie",
+            "Vorlage:Mathematischer Text/AufgabeKategorie2",
+            "Vorlage:Mathematischer Text/Lösung",
+            "Vorlage:Op:Potenzreihenring",
+            "Vorlage:Relationskette"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "title": "MDLUL/Algebrahomomorphismus",
+          "pageid": 61734,
+          "revid": 373102,
+          "parentid": 0,
+          "timestamp": "2013-08-08T16:11:30Z",
+          "mediawiki_sha1": "2ea03c08f96e92921bcf48febf2466c4b16d410d",
+          "wikitext_bytes": 139
+        },
+        {
+          "title": "Potenzreihenring eine Variable/Abbildung der Lokalisierung an maximalen Ideal/Aufgabe",
+          "pageid": 20781,
+          "revid": 1073415,
+          "parentid": 1068504,
+          "timestamp": "2026-02-24T16:28:20Z",
+          "mediawiki_sha1": "759ce5a871f4975672377faf9b3fe05391e59331",
+          "wikitext_bytes": 1050
+        },
+        {
+          "title": "Vorlage:Abbildung mit Element/display",
+          "pageid": 146803,
+          "revid": 1061939,
+          "parentid": 1061938,
+          "timestamp": "2025-12-08T18:46:33Z",
+          "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+          "wikitext_bytes": 767
+        },
+        {
+          "title": "Vorlage:Abbildung ohne Element/display",
+          "pageid": 20308,
+          "revid": 1073593,
+          "parentid": 834636,
+          "timestamp": "2026-02-25T11:28:50Z",
+          "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+          "wikitext_bytes": 353
+        },
+        {
+          "title": "Vorlage:Abbildung/display",
+          "pageid": 20640,
+          "revid": 834794,
+          "parentid": 834789,
+          "timestamp": "2022-09-24T09:15:53Z",
+          "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+          "wikitext_bytes": 377
+        },
+        {
+          "title": "Vorlage:Definitionslink",
+          "pageid": 18918,
+          "revid": 1106945,
+          "parentid": 1106944,
+          "timestamp": "2026-07-14T06:47:02Z",
+          "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+          "wikitext_bytes": 2427
+        },
+        {
+          "title": "Vorlage:Faktlink",
+          "pageid": 18917,
+          "revid": 1070424,
+          "parentid": 1070386,
+          "timestamp": "2026-02-06T14:24:46Z",
+          "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+          "wikitext_bytes": 2111
+        },
+        {
+          "title": "Vorlage:MDLULSiehe",
+          "pageid": 43218,
+          "revid": 255837,
+          "parentid": 0,
+          "timestamp": "2011-02-15T21:52:46Z",
+          "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+          "wikitext_bytes": 80
+        },
+        {
+          "title": "Vorlage:MDLULZiel",
+          "pageid": 38329,
+          "revid": 233198,
+          "parentid": 0,
+          "timestamp": "2010-08-11T09:57:45Z",
+          "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+          "wikitext_bytes": 79
+        },
+        {
+          "title": "Vorlage:Math",
+          "pageid": 17295,
+          "revid": 1111483,
+          "parentid": 1061915,
+          "timestamp": "2026-08-14T11:15:22Z",
+          "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+          "wikitext_bytes": 450
+        },
+        {
+          "title": "Vorlage:Math/display",
+          "pageid": 24390,
+          "revid": 1106842,
+          "parentid": 1061903,
+          "timestamp": "2026-07-13T17:21:38Z",
+          "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+          "wikitext_bytes": 404
+        },
+        {
+          "title": "Vorlage:Mathematische Standardverlinkung",
+          "pageid": 24157,
+          "revid": 908016,
+          "parentid": 908008,
+          "timestamp": "2023-07-30T18:02:04Z",
+          "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+          "wikitext_bytes": 1255
+        },
+        {
+          "title": "Vorlage:Mathematischer Text/AufgabeKategorie",
+          "pageid": 42731,
+          "revid": 868014,
+          "parentid": 254644,
+          "timestamp": "2022-10-28T10:31:46Z",
+          "mediawiki_sha1": "b6737552eaf9a17c95b7d592b770af51e7cf500b",
+          "wikitext_bytes": 176
+        },
+        {
+          "title": "Vorlage:Mathematischer Text/AufgabeKategorie2",
+          "pageid": 42737,
+          "revid": 868013,
+          "parentid": 868011,
+          "timestamp": "2022-10-28T10:31:16Z",
+          "mediawiki_sha1": "d9c1a14c3a5f94b2f4274904cdfa29e0d2cece64",
+          "wikitext_bytes": 177
+        },
+        {
+          "title": "Vorlage:Mathematischer Text/Lösung",
+          "pageid": 34288,
+          "revid": 1011284,
+          "parentid": 1011283,
+          "timestamp": "2025-07-26T14:18:37Z",
+          "mediawiki_sha1": "9f0c638e9b88a4d054b36e7ee1918bd9efc5d016",
+          "wikitext_bytes": 3067
+        },
+        {
+          "title": "Vorlage:Op:Potenzreihenring",
+          "pageid": 20897,
+          "revid": 921076,
+          "parentid": 538618,
+          "timestamp": "2023-11-30T12:09:48Z",
+          "mediawiki_sha1": "0b8fcfe5367513b7c4f5e7b2ec908bae385f29ad",
+          "wikitext_bytes": 255
+        },
+        {
+          "title": "Vorlage:Relationskette",
+          "pageid": 22415,
+          "revid": 1075230,
+          "parentid": 1075122,
+          "timestamp": "2026-03-09T07:28:01Z",
+          "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+          "wikitext_bytes": 2148
+        }
+      ]
+    },
+    "topology": {
+      "parser_template_occurrences": 17,
+      "unique_exact_titles": 17,
+      "unique_casefold_keys": 17,
+      "dependencies": 17,
+      "with_root": 18,
+      "canonical_identity_rows_sha256": "df98d341ed63b4cbd1b0051d725bfc8606937f489203941525b21bdfd54df7af",
+      "canonical_identity_hash_algorithm": "SHA-256 of UTF-8 JSON rows reduced to title,pageid,revid,parentid,timestamp,mediawiki_sha1,wikitext_bytes; rows sorted by (title,pageid); ensure_ascii=false; sort_keys=true; separators=(',',':')",
+      "preflight_reported_identity_sha256": "978d772d44d664efcea08fb0de14e540f63bafeb2c1202552c4f209a8a3280a8",
+      "preflight_hash_serialization_status": "ALGORITHM_NOT_YET_IDENTIFIED"
+    }
+  },
+  "source_defect_bindings": [
+    {
+      "id": "AGC-U24-SRC-001",
+      "exercise_number": 7,
+      "kind": "displayed defining-polynomial mismatch",
+      "exercise_identity": {
+        "title": "Ebene algebraische Kurve/x^2 ist y^2+y^3/Singulärer Punkt, Tangenten/Parametrisierung t ist 1,0,-1 /Aufgabe",
+        "pageid": 21065,
+        "revid": 1112456,
+        "mediawiki_sha1": "db2910d688017b66ab3cdc1bc301929e3328a238"
+      },
+      "displayed_source": "X^2-Y^2-Y^3",
+      "conflicting_object_category": "Das Polynom Y^2-X^3-X^2",
+      "cited_example_identity": {
+        "title": "Ebene algebraische Kurve/x^2-y^2+y^3/Tangente unter Parametrisierung/t ist 2/Beispiel",
+        "pageid": 21057,
+        "revid": 1099807,
+        "parentid": 1084909,
+        "timestamp": "2026-06-17T06:33:08Z",
+        "mediawiki_sha1": "15f4c893512eb0b85446cd813b76aae2761f47d5",
+        "wikitext_bytes": 2134
+      },
+      "cited_example_curve": "V(y^2-x^2-x^3)",
+      "cited_parametrization": "(t^2-1, t(t^2-1))",
+      "required_reader_repair": "Use Y^2-X^2-X^3 (equivalently y^2-x^2-x^3) so the exercise agrees with its cited parametrization and object category; disclose the repair."
+    }
+  ],
+  "historical_pdf_defect_bindings": [
+    {
+      "id": "AGC-U24-PDF-001",
+      "kind": "historical official-PDF variable typo",
+      "historical_pdf_form": "G x^2",
+      "live_semantic_form": "G y^2",
+      "live_identity": {
+        "title": "Algebraische Raumkurven/Schnitt von zwei gleichgroßen Zylindern/Singuläre Punkte/Beispiel",
+        "pageid": 18305,
+        "revid": 1103507,
+        "parentid": 1064194,
+        "timestamp": "2026-06-18T05:55:47Z",
+        "mediawiki_sha1": "c57fad7d33fd7f316e704be807aa33293d5c838a",
+        "wikitext_bytes": 2118
+      },
+      "required_reader_handling": "Use the frozen live semantic y^2 form; retain the PDF only as historical evidence."
+    },
+    {
+      "id": "AGC-U24-PDF-002",
+      "kind": "historical-PDF and current-live coefficient-symbol typo",
+      "historical_pdf_form": "G=b_ell T^ell+a_{ell+1}T^{ell+1}+...",
+      "live_semantic_form": "G=b_ell T^ell+a_{ell+1}T^{ell+1}+...",
+      "mathematically_required_form": "G=b_ell T^ell+b_{ell+1}T^{ell+1}+...",
+      "live_identity": {
+        "title": "Formaler Potenzreihenring/Eine Variable/Diskreter Bewertungsring/Fakt/Beweis",
+        "pageid": 20953,
+        "revid": 1043192,
+        "parentid": 992417,
+        "timestamp": "2025-08-12T18:40:07Z",
+        "mediawiki_sha1": "92b42189ea83f0e480f1d7f71fcd31d877b8ebec",
+        "wikitext_bytes": 1941
+      },
+      "preflight_claim_disposition": "The supplied preflight wording claimed that the live page already had b_{ell+1}; exact pageid 20953/revid 1043192 disproves that claim.",
+      "required_reader_handling": "Correct a_{ell+1} to b_{ell+1} and disclose this live-source repair."
+    }
+  ],
+  "images": {
+    "lecture": [
+      "Algebraische_Kurven_(Osnabrück_2012)Vorlesung24.pdf",
+      "Algebraische_Kurven_(Osnabrück_2012)Arbeitsblatt24.pdf"
+    ],
+    "worksheet": [
+      "Algebraische_Kurven_(Osnabrück_2012)Arbeitsblatt24.pdf",
+      "Algebraische_Kurven_(Osnabrück_2012)Vorlesung24.pdf"
+    ],
+    "substantive_assets": [],
+    "reader_media_positions": 0
+  },
+  "official_pdf_witnesses": [
+    {
+      "kind": "lecture",
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2012)Vorlesung24.pdf",
+      "file_pageid": 54026,
+      "file_revid": 320347,
+      "file_mediawiki_sha1": "fd0f1e2b1704cc237af58defc8c10d5aacbb2c35",
+      "file_wikitext_bytes": 72,
+      "source_timestamp": "2012-07-03T13:50:14Z",
+      "uploader": "Mgausmann",
+      "source_bytes": 90541,
+      "source_sha1": "b19f86421aee262b9294058e2bc8d230e6de7fce",
+      "source_url": "https://upload.wikimedia.org/wikiversity/de/6/6c/Algebraische_Kurven_%28Osnabr%C3%BCck_2012%29Vorlesung24.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://de.wikiversity.org/wiki/Datei:Algebraische_Kurven_(Osnabr%C3%BCck_2012)Vorlesung24.pdf",
+      "mime": "application/pdf",
+      "media_type": "OFFICE",
+      "local_path": "authority/artifacts/lecture-24-official.pdf",
+      "local_bytes": 90541,
+      "local_sha256": "916b8d41a946cdf8ac978112a46e4f6d1dfb6c70fc0efc65a689cb8ff7205df1",
+      "page_count": 6,
+      "page_text_characters": [
+        1720,
+        1733,
+        1988,
+        2242,
+        2000,
+        923
+      ],
+      "extractable_text_characters": 10606,
+      "blank_page_numbers": [],
+      "accessibility": {
+        "encrypted": false,
+        "tagged_pdf": false,
+        "structure_tree_present": false,
+        "document_language": null,
+        "outline_or_bookmark_count": 0
+      },
+      "component_license_route": {
+        "current_print_version_notice": "CC BY-SA 4.0",
+        "current_notice_evidence": "lecture-24-file-description.html",
+        "legacy_file_notice": "CC BY-SA 2.0 Germany",
+        "legacy_notice_evidence": "lecture-24-file-description.html",
+        "embedded_pdf_label": null,
+        "interpretation": "Preserve both notices. The current print-version/course reuse route is CC BY-SA 4.0; the unchanged 2012 file-description surface retains its CC BY-SA 2.0 Germany notice. The PDF text itself contains no extracted license boilerplate."
+      }
+    },
+    {
+      "kind": "worksheet",
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2012)Arbeitsblatt24.pdf",
+      "file_pageid": 54022,
+      "file_revid": 325009,
+      "file_mediawiki_sha1": "fd2370fa785f842740c240da38acdead15b233c8",
+      "file_wikitext_bytes": 75,
+      "source_timestamp": "2012-07-31T13:55:16Z",
+      "uploader": "Mgausmann",
+      "source_bytes": 33474,
+      "source_sha1": "fbd55561e353056ea6661f87be2c3263fd1cd373",
+      "source_url": "https://upload.wikimedia.org/wikiversity/de/6/6e/Algebraische_Kurven_%28Osnabr%C3%BCck_2012%29Arbeitsblatt24.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://de.wikiversity.org/wiki/Datei:Algebraische_Kurven_(Osnabr%C3%BCck_2012)Arbeitsblatt24.pdf",
+      "mime": "application/pdf",
+      "media_type": "OFFICE",
+      "local_path": "authority/artifacts/worksheet-24-official.pdf",
+      "local_bytes": 33474,
+      "local_sha256": "733135d556513d01148333551693db2713915ee82ac8faa8ce745e966c073102",
+      "page_count": 2,
+      "page_text_characters": [
+        1233,
+        735
+      ],
+      "extractable_text_characters": 1968,
+      "blank_page_numbers": [],
+      "accessibility": {
+        "encrypted": false,
+        "tagged_pdf": false,
+        "structure_tree_present": false,
+        "document_language": null,
+        "outline_or_bookmark_count": 0
+      },
+      "component_license_route": {
+        "current_print_version_notice": "CC BY-SA 4.0",
+        "current_notice_evidence": "worksheet-24-file-description.html",
+        "legacy_file_notice": "CC BY-SA 2.0 Germany",
+        "legacy_notice_evidence": "worksheet-24-file-description.html",
+        "embedded_pdf_label": null,
+        "interpretation": "Preserve both notices. The current print-version/course reuse route is CC BY-SA 4.0; the unchanged 2012 file-description surface retains its CC BY-SA 2.0 Germany notice. The PDF text itself contains no extracted license boilerplate."
+      }
+    }
+  ],
+  "official_pdf_file_description_surfaces": [
+    {
+      "kind": "lecture",
+      "entry": {
+        "title": "Datei:Algebraische Kurven (Osnabrück 2012)Vorlesung24.pdf",
+        "pageid": 54026,
+        "revid": 320347,
+        "parentid": 320346,
+        "timestamp": "2012-07-03T13:50:34Z",
+        "mediawiki_sha1": "fd0f1e2b1704cc237af58defc8c10d5aacbb2c35",
+        "wikitext_bytes": 72,
+        "api_file": "lecture-24-file-description-api.json",
+        "api_bytes": 429,
+        "api_sha256": "af85266f45cd552a96b0ac0a03b273f6285dd01c54e7288ca70a1fa1aac89c86",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=320347",
+        "xml_file": "lecture-24-file-description.xml",
+        "xml_bytes": 3197,
+        "xml_sha256": "788d641b09c116f39c455f3cb070d8b89c56d23bd956ff149c28fa2345ac42bb",
+        "html_file": "lecture-24-file-description.html",
+        "html_bytes": 7049,
+        "html_sha256": "f4b6fed77ef827de89bec34d30fdf449cdc734013595984a4a49f6ea791374ff",
+        "html_source": "immutable Parsoid revision endpoint",
+        "parse_api_file": "lecture-24-file-description-parse-api.json",
+        "parse_api_bytes": 807,
+        "parse_api_sha256": "2d04e1e8954c08d52b572f886ed661870c79c373b8e137e334a1ec2e10782196",
+        "template_count": 6,
+        "image_count": 3,
+        "link_count": 1,
+        "external_link_count": 2
+      },
+      "recursive_transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 6,
+        "captured_page_count": 6,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "lecture-24-file-description-transclusions-01.json",
+            "bytes": 7487,
+            "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926",
+            "requested_titles": [
+              "Vorlage:Bild-CC-by-sa-2.0-de",
+              "Vorlage:Bild-CC-by-sa/2.0/de",
+              "Vorlage:Druckversion",
+              "Vorlage:Vorlagenbox",
+              "Vorlage:Vorlagenbox/style.css",
+              "Vorlage:Wikiversitydedruckversion"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Vorlage:Bild-CC-by-sa-2.0-de",
+            "pageid": 4510,
+            "revid": 330214,
+            "parentid": 330213,
+            "timestamp": "2012-10-01T06:43:54Z",
+            "mediawiki_sha1": "65acdc08ec828073710f4eaa0094a4bd04a04814",
+            "wikitext_bytes": 1527
+          },
+          {
+            "title": "Vorlage:Bild-CC-by-sa/2.0/de",
+            "pageid": 6202,
+            "revid": 36498,
+            "parentid": 36478,
+            "timestamp": "2007-03-25T07:00:14Z",
+            "mediawiki_sha1": "de61fe1fa6e9ee0973402e0116efe27cd0faea26",
+            "wikitext_bytes": 42
+          },
+          {
+            "title": "Vorlage:Druckversion",
+            "pageid": 73594,
+            "revid": 426128,
+            "parentid": 0,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "a4a6a36a8a17880e077777ed1be61958c09dbc69",
+            "wikitext_bytes": 52
+          },
+          {
+            "title": "Vorlage:Vorlagenbox",
+            "pageid": 21080,
+            "revid": 901040,
+            "parentid": 144387,
+            "timestamp": "2023-07-02T19:30:32Z",
+            "mediawiki_sha1": "92a6d46883d47e30b559a5e4c3e91bcf16f6ba69",
+            "wikitext_bytes": 2100
+          },
+          {
+            "title": "Vorlage:Vorlagenbox/style.css",
+            "pageid": 152284,
+            "revid": 901041,
+            "parentid": 0,
+            "timestamp": "2023-07-02T19:32:09Z",
+            "mediawiki_sha1": "13d6eebc635eb45674efee4cfea4794fe40d4068",
+            "wikitext_bytes": 1066
+          },
+          {
+            "title": "Vorlage:Wikiversitydedruckversion",
+            "pageid": 25998,
+            "revid": 426127,
+            "parentid": 426118,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "4809118ef36b854dbf8c025883dae3bad32b1171",
+            "wikitext_bytes": 761
+          }
+        ]
+      }
+    },
+    {
+      "kind": "worksheet",
+      "entry": {
+        "title": "Datei:Algebraische Kurven (Osnabrück 2012)Arbeitsblatt24.pdf",
+        "pageid": 54022,
+        "revid": 325009,
+        "parentid": 320320,
+        "timestamp": "2012-07-31T13:55:16Z",
+        "mediawiki_sha1": "fd2370fa785f842740c240da38acdead15b233c8",
+        "wikitext_bytes": 75,
+        "api_file": "worksheet-24-file-description-api.json",
+        "api_bytes": 435,
+        "api_sha256": "9825fb0dfbb065c38fc278febb8cdb1076fb48abc34451692239a4df939d2760",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=325009",
+        "xml_file": "worksheet-24-file-description.xml",
+        "xml_bytes": 3341,
+        "xml_sha256": "b0c733110ef4b91b1f9a2e872da49c2aa478d2bfa8d04b8dbe2db74247909498",
+        "html_file": "worksheet-24-file-description.html",
+        "html_bytes": 6975,
+        "html_sha256": "d6c17ab155eca4a8022b8835b710fc3dfcfeb5ac01e04bd5080acad814e9b7bf",
+        "html_source": "immutable Parsoid revision endpoint",
+        "parse_api_file": "worksheet-24-file-description-parse-api.json",
+        "parse_api_bytes": 813,
+        "parse_api_sha256": "6e4e6da77c7684b40dc8d501f9e73e982cb2f281ee90732dce730ff2cee717d8",
+        "template_count": 6,
+        "image_count": 3,
+        "link_count": 1,
+        "external_link_count": 2
+      },
+      "recursive_transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 6,
+        "captured_page_count": 6,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "worksheet-24-file-description-transclusions-01.json",
+            "bytes": 7487,
+            "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926",
+            "requested_titles": [
+              "Vorlage:Bild-CC-by-sa-2.0-de",
+              "Vorlage:Bild-CC-by-sa/2.0/de",
+              "Vorlage:Druckversion",
+              "Vorlage:Vorlagenbox",
+              "Vorlage:Vorlagenbox/style.css",
+              "Vorlage:Wikiversitydedruckversion"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Vorlage:Bild-CC-by-sa-2.0-de",
+            "pageid": 4510,
+            "revid": 330214,
+            "parentid": 330213,
+            "timestamp": "2012-10-01T06:43:54Z",
+            "mediawiki_sha1": "65acdc08ec828073710f4eaa0094a4bd04a04814",
+            "wikitext_bytes": 1527
+          },
+          {
+            "title": "Vorlage:Bild-CC-by-sa/2.0/de",
+            "pageid": 6202,
+            "revid": 36498,
+            "parentid": 36478,
+            "timestamp": "2007-03-25T07:00:14Z",
+            "mediawiki_sha1": "de61fe1fa6e9ee0973402e0116efe27cd0faea26",
+            "wikitext_bytes": 42
+          },
+          {
+            "title": "Vorlage:Druckversion",
+            "pageid": 73594,
+            "revid": 426128,
+            "parentid": 0,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "a4a6a36a8a17880e077777ed1be61958c09dbc69",
+            "wikitext_bytes": 52
+          },
+          {
+            "title": "Vorlage:Vorlagenbox",
+            "pageid": 21080,
+            "revid": 901040,
+            "parentid": 144387,
+            "timestamp": "2023-07-02T19:30:32Z",
+            "mediawiki_sha1": "92a6d46883d47e30b559a5e4c3e91bcf16f6ba69",
+            "wikitext_bytes": 2100
+          },
+          {
+            "title": "Vorlage:Vorlagenbox/style.css",
+            "pageid": 152284,
+            "revid": 901041,
+            "parentid": 0,
+            "timestamp": "2023-07-02T19:32:09Z",
+            "mediawiki_sha1": "13d6eebc635eb45674efee4cfea4794fe40d4068",
+            "wikitext_bytes": 1066
+          },
+          {
+            "title": "Vorlage:Wikiversitydedruckversion",
+            "pageid": 25998,
+            "revid": 426127,
+            "parentid": 426118,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "4809118ef36b854dbf8c025883dae3bad32b1171",
+            "wikitext_bytes": 761
+          }
+        ]
+      }
+    }
+  ],
+  "media_rights_accessibility_and_discrepancies": {
+    "closure_file": "authority/ASSET_CLOSURE-unit-24.json",
+    "closure_bytes": 5802,
+    "closure_sha256": "6fe01774a095a6ed24549b8972fc1447d938a5d8868bd3bcc55691e88afea579",
+    "rights_file": "authority/RIGHTS-unit-24.csv",
+    "rights_bytes": 443,
+    "rights_sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544"
+  },
+  "entry_revision_recheck": {
+    "file": "final-entry-recheck-api.json",
+    "bytes": 497,
+    "sha256": "5350dd5de04d63a983f634d33528b6b5453b832a841d099c5028348c16800d3b",
+    "result": "PASS"
+  },
+  "final_live_identity_replay": {
+    "result": "PASS",
+    "semantic_unique_identity_count": 159,
+    "semantic_batches": [
+      {
+        "file": "final-semantic-identity-replay-01.json",
+        "bytes": 6377,
+        "sha256": "4ebfcf91e674321259a92a55f5774c7fdc36c97346d10e2763de2c25156d2beb",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-02.json",
+        "bytes": 5352,
+        "sha256": "4b5e8a6102a5a341484f44195021c347886cfd0f7ce63c097970f21ea2f2a0f0",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-03.json",
+        "bytes": 4878,
+        "sha256": "62aad9f897d2df025586aca3469422592ff1ea60d396d7b6d09c43031d3aeead",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-04.json",
+        "bytes": 5203,
+        "sha256": "ab74b692cc81ce1c4e2ac5606b0e87978d3cb1c551f360e60920eff1f03e9520",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-05.json",
+        "bytes": 4902,
+        "sha256": "a37d4945f1f6b72878f4904aecae16d3e4abb7d6852f3ba9aca1c9688eede40d",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-06.json",
+        "bytes": 4859,
+        "sha256": "e44ad9afd09997a63ea09d10d0d29adf534ae9147e3c20fe6ec595cbb4fa631b",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-07.json",
+        "bytes": 1857,
+        "sha256": "cf3c2927da578fa07a88bc5a6c60cdfdb628ca24cbe912f956d20e6f784f9dcd",
+        "title_count": 9
+      }
+    ],
+    "local_wikiversity_pdf_identity_count": 2,
+    "local_pdf_replay_file": "final-local-pdf-identity-replay.json",
+    "local_pdf_replay_bytes": 861,
+    "local_pdf_replay_sha256": "bcea569208d0b4cb8089bf9e8f4a0057635f5964bd87fb734771314bbadacdad"
+  },
+  "files": [
+    {
+      "file": "ORDERED_EXERCISE_MAP.json",
+      "bytes": 10121,
+      "sha256": "250744d177bc2d5cf2a1cc506a99e05f1250c771de88b214a0e8d5cabfe7b9b8"
+    },
+    {
+      "file": "final-entry-recheck-api.json",
+      "bytes": 497,
+      "sha256": "5350dd5de04d63a983f634d33528b6b5453b832a841d099c5028348c16800d3b"
+    },
+    {
+      "file": "final-local-pdf-identity-replay.json",
+      "bytes": 861,
+      "sha256": "bcea569208d0b4cb8089bf9e8f4a0057635f5964bd87fb734771314bbadacdad"
+    },
+    {
+      "file": "final-semantic-identity-replay-01.json",
+      "bytes": 6377,
+      "sha256": "4ebfcf91e674321259a92a55f5774c7fdc36c97346d10e2763de2c25156d2beb"
+    },
+    {
+      "file": "final-semantic-identity-replay-02.json",
+      "bytes": 5352,
+      "sha256": "4b5e8a6102a5a341484f44195021c347886cfd0f7ce63c097970f21ea2f2a0f0"
+    },
+    {
+      "file": "final-semantic-identity-replay-03.json",
+      "bytes": 4878,
+      "sha256": "62aad9f897d2df025586aca3469422592ff1ea60d396d7b6d09c43031d3aeead"
+    },
+    {
+      "file": "final-semantic-identity-replay-04.json",
+      "bytes": 5203,
+      "sha256": "ab74b692cc81ce1c4e2ac5606b0e87978d3cb1c551f360e60920eff1f03e9520"
+    },
+    {
+      "file": "final-semantic-identity-replay-05.json",
+      "bytes": 4902,
+      "sha256": "a37d4945f1f6b72878f4904aecae16d3e4abb7d6852f3ba9aca1c9688eede40d"
+    },
+    {
+      "file": "final-semantic-identity-replay-06.json",
+      "bytes": 4859,
+      "sha256": "e44ad9afd09997a63ea09d10d0d29adf534ae9147e3c20fe6ec595cbb4fa631b"
+    },
+    {
+      "file": "final-semantic-identity-replay-07.json",
+      "bytes": 1857,
+      "sha256": "cf3c2927da578fa07a88bc5a6c60cdfdb628ca24cbe912f956d20e6f784f9dcd"
+    },
+    {
+      "file": "lecture-24-api.json",
+      "bytes": 2541,
+      "sha256": "27a0776aacbda547a582e032e76bf0584c0f81ac85e504401e169b5adca26f96"
+    },
+    {
+      "file": "lecture-24-expanded.tex",
+      "bytes": 21889,
+      "sha256": "b391d18cc0cea33afedfff5e6db46842d2ef6504843336b71f44eda448f12f5e"
+    },
+    {
+      "file": "lecture-24-file-description-api.json",
+      "bytes": 429,
+      "sha256": "af85266f45cd552a96b0ac0a03b273f6285dd01c54e7288ca70a1fa1aac89c86"
+    },
+    {
+      "file": "lecture-24-file-description-parse-api.json",
+      "bytes": 807,
+      "sha256": "2d04e1e8954c08d52b572f886ed661870c79c373b8e137e334a1ec2e10782196"
+    },
+    {
+      "file": "lecture-24-file-description-transclusions-01.json",
+      "bytes": 7487,
+      "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926"
+    },
+    {
+      "file": "lecture-24-file-description.html",
+      "bytes": 7049,
+      "sha256": "f4b6fed77ef827de89bec34d30fdf449cdc734013595984a4a49f6ea791374ff"
+    },
+    {
+      "file": "lecture-24-file-description.xml",
+      "bytes": 3197,
+      "sha256": "788d641b09c116f39c455f3cb070d8b89c56d23bd956ff149c28fa2345ac42bb"
+    },
+    {
+      "file": "lecture-24-latex-page-api.json",
+      "bytes": 371,
+      "sha256": "8e4f7032071bd9a4bd99338d10ee2d71d93de57db7f017fe804481e208b617f1"
+    },
+    {
+      "file": "lecture-24-latex-page.html",
+      "bytes": 30836,
+      "sha256": "bc5519cf296b4328c2ea130f89558616ec70535ec653858d095fb5f8d599d651"
+    },
+    {
+      "file": "lecture-24-latex-page.xml",
+      "bytes": 3186,
+      "sha256": "30ed1020a8943a26ce0dac5f0f473ff8f92c387d9119998562f44c31842e97da"
+    },
+    {
+      "file": "lecture-24-parse-api.json",
+      "bytes": 15398,
+      "sha256": "805db01e443a67ec038b85ce589792b68e5af20e55489a028137d610f8cebfeb"
+    },
+    {
+      "file": "lecture-24-transclusions-01.json",
+      "bytes": 32579,
+      "sha256": "a8543532f852e700aa10904309b4c453449b1b92d83ea28d09c449c83c4c059e"
+    },
+    {
+      "file": "lecture-24-transclusions-02.json",
+      "bytes": 9799,
+      "sha256": "97aed4104ee39b67a0fa3ea5b6efde002e0e2546f9ce787436d05df1165e8d0b"
+    },
+    {
+      "file": "lecture-24-transclusions-03.json",
+      "bytes": 60891,
+      "sha256": "1594c34860fc4f935b6284bfb5ac91eea3fb268c30d1fefb3b4a7cd1f6ac7630"
+    },
+    {
+      "file": "lecture-24-transclusions-04.json",
+      "bytes": 33370,
+      "sha256": "b856fade83c1eeb4d497a74d7b73c293fead5972bc15d241c7faaac4024b06c7"
+    },
+    {
+      "file": "lecture-24-transclusions-05.json",
+      "bytes": 29946,
+      "sha256": "5d8ce9e1fa4f54daedaefab63ce13863eada663d3b782d29a56d89a63e5f3b2a"
+    },
+    {
+      "file": "lecture-24.html",
+      "bytes": 135427,
+      "sha256": "2baa3d632760c0b22617e69e98d8cf6dc8488d0de9fd0b964fe7c276ca121bf1"
+    },
+    {
+      "file": "lecture-24.xml",
+      "bytes": 5272,
+      "sha256": "0dd11d94f88e81036d00c2662c6377e13e25d749bed7721902ec75c737251bd3"
+    },
+    {
+      "file": "local-pdf-file-metadata-api.json",
+      "bytes": 3601,
+      "sha256": "cba4681264e07f444043c057a939d9bb6f12e1a6f5546cfafa531a7004056294"
+    },
+    {
+      "file": "ordered-exercise-source-api.json",
+      "bytes": 9903,
+      "sha256": "b7c30cd1c3c98923664c3405385152f4f0a81ae1d0002f2eabdc6fea543512a1"
+    },
+    {
+      "file": "site-rightsinfo-api.json",
+      "bytes": 164,
+      "sha256": "3ee9fcf0e431d5b0cbbf82482d4e30c2f76eae99a4a7e45e88e0832b4eb6eb99"
+    },
+    {
+      "file": "solution-ex04-parse-api.json",
+      "bytes": 1768,
+      "sha256": "7e6ecc35965cfb45c359f42bcf4a6a0f09b3ea41c803f56f50e165e4d68270f1"
+    },
+    {
+      "file": "solution-ex04-transclusions-01.json",
+      "bytes": 20651,
+      "sha256": "8c67bc354ffef744a51902716abd95437d3bd93ca0e2c78fa9a9ecc8337ef14a"
+    },
+    {
+      "file": "solution-ex04.html",
+      "bytes": 7418,
+      "sha256": "ad891a3f4256ff6a01ddb9299346fc27e5ec6433dd48c63c45e1c9161f000bad"
+    },
+    {
+      "file": "solution-ex04.xml",
+      "bytes": 4102,
+      "sha256": "7904b98444817d81659d24fafd37e9009c39547c891bce705b0ae4b37f0ec527"
+    },
+    {
+      "file": "worksheet-24-api.json",
+      "bytes": 1765,
+      "sha256": "cc92b4dfffa0941029def30aa4b84582eb57df1a5c9edebd590569e7d4aea42d"
+    },
+    {
+      "file": "worksheet-24-expanded.tex",
+      "bytes": 3771,
+      "sha256": "37b53c3b6049ba45ff4aa1f4b7b4c4f0666e8a97248ba3c6c34a38061b758a4f"
+    },
+    {
+      "file": "worksheet-24-file-description-api.json",
+      "bytes": 435,
+      "sha256": "9825fb0dfbb065c38fc278febb8cdb1076fb48abc34451692239a4df939d2760"
+    },
+    {
+      "file": "worksheet-24-file-description-parse-api.json",
+      "bytes": 813,
+      "sha256": "6e4e6da77c7684b40dc8d501f9e73e982cb2f281ee90732dce730ff2cee717d8"
+    },
+    {
+      "file": "worksheet-24-file-description-transclusions-01.json",
+      "bytes": 7487,
+      "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926"
+    },
+    {
+      "file": "worksheet-24-file-description.html",
+      "bytes": 6975,
+      "sha256": "d6c17ab155eca4a8022b8835b710fc3dfcfeb5ac01e04bd5080acad814e9b7bf"
+    },
+    {
+      "file": "worksheet-24-file-description.xml",
+      "bytes": 3341,
+      "sha256": "b0c733110ef4b91b1f9a2e872da49c2aa478d2bfa8d04b8dbe2db74247909498"
+    },
+    {
+      "file": "worksheet-24-latex-page-api.json",
+      "bytes": 374,
+      "sha256": "4140fddfeb1a12351cab8564f26dbe17257457411367319f3e2c0737da570115"
+    },
+    {
+      "file": "worksheet-24-latex-page.html",
+      "bytes": 10433,
+      "sha256": "5c6284484edb15e66649f3985e1ff235f79a7a106528e9869ef5175948a4c754"
+    },
+    {
+      "file": "worksheet-24-latex-page.xml",
+      "bytes": 3189,
+      "sha256": "4bac1bc364864c6c6c0fb8f110550c9c0eb90f8d40089c69c0c764088d65fcc2"
+    },
+    {
+      "file": "worksheet-24-parse-api.json",
+      "bytes": 8238,
+      "sha256": "6547f9473766423dce41d60412cecaf331407399fc3660e2eb1730f7569c3575"
+    },
+    {
+      "file": "worksheet-24-transclusions-01.json",
+      "bytes": 14093,
+      "sha256": "8381a8cb4de842aea8ac257652be3bcf30f23ce49ffe4853e69e56c120a5f239"
+    },
+    {
+      "file": "worksheet-24-transclusions-02.json",
+      "bytes": 40736,
+      "sha256": "cb148ef3637bfb423ed9458c387a355e494d1e83d364886d1a4ec945edfd059c"
+    },
+    {
+      "file": "worksheet-24-transclusions-03.json",
+      "bytes": 23612,
+      "sha256": "0fb42ea6925d8898fa5fa5bfff844890bfbe64f3bb8c8f6ad851ff62b37bcfb8"
+    },
+    {
+      "file": "worksheet-24.html",
+      "bytes": 26855,
+      "sha256": "1fb2aa4b3439f3bb60aad6ca37c27b3d469d55f83b5cd68af5c3ef8995882a49"
+    },
+    {
+      "file": "worksheet-24.xml",
+      "bytes": 4513,
+      "sha256": "c6b2e329dc1326aef1b0372702a03fba7fc7106c9e866498df92e1fc9508d4b2"
+    },
+    {
+      "file": "worksheet-solution-candidates-api.json",
+      "bytes": 2322,
+      "sha256": "ed0e6184533fd46652594df5af402128551de5a2d29109a2ad094ef56c6f2e94"
+    }
+  ],
+  "bounded_external_files": [
+    {
+      "file": "authority/ASSET_CLOSURE-unit-24.json",
+      "bytes": 5802,
+      "sha256": "6fe01774a095a6ed24549b8972fc1447d938a5d8868bd3bcc55691e88afea579"
+    },
+    {
+      "file": "authority/RIGHTS-unit-24.csv",
+      "bytes": 443,
+      "sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544"
+    },
+    {
+      "file": "authority/artifacts/lecture-24-official.pdf",
+      "bytes": 90541,
+      "sha256": "916b8d41a946cdf8ac978112a46e4f6d1dfb6c70fc0efc65a689cb8ff7205df1"
+    },
+    {
+      "file": "authority/artifacts/worksheet-24-official.pdf",
+      "bytes": 33474,
+      "sha256": "733135d556513d01148333551693db2713915ee82ac8faa8ce745e966c073102"
+    }
+  ]
+}

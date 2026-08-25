@@ -1,0 +1,1918 @@
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 23/latex
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 23/latex
+
+\setcounter{section}{23}
+
+
+  \zwischenueberschrift{Interpretation als Kotangentialraum}
+
+
+Wir geben noch einen Hinweis, dass die Bezeichnung von
+
+\mathl{{\mathfrak m}/ {\mathfrak m}^2}{} als Kotangentialraum gut begründet ist. Aus der Analysis weiß man, dass zu einem Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ \in }{ M
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+einer
+\definitionsverweis {Mannigfaltigkeit}{}{}
+$M$ und einer differenzierbaren Funktion
+\maabb {f} {M} {\R
+} {}
+das Differential
+\maabbdisp {df} {T_PM} { \R
+} {}
+linear ist
+\zusatzklammer {siehe
+Lemma 9.10 (Differentialgeometrie (Osnabrück 2023))  (3)} {} {,}
+also ein Element des
+\definitionsverweis {Kotangentialraumes}{}{}
+
+
+\mathl{T^*_PM}{.} Die Gesamtzuordnung
+\maabbeledisp {} { C^ 1(M,\R) } { T^*_PM
+} {f} {df
+} {,}
+ist dabei eine Derivation, d.h. es gilt die Leibniz-Regel
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ d(fg)
+}
+
+{ =} { fdg+gdf
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+
+
+Wir erwähnen das allgemeine algebraische Konzept einer Derivation.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{,}
+$A$ eine kommutative
+$R$-\definitionsverweis {Algebra}{}{}
+und $M$ ein
+$A$-\definitionsverweis {Modul}{}{.}
+Dann heißt eine
+$R$-\definitionsverweis {lineare Abbildung}{}{}
+\maabbdisp {\delta} { A } { M
+} {}
+mit
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \delta (ab)
+}
+
+{ =} { a \delta (b) + b \delta (a)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+für alle
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ a,b
+}
+
+{ \in }{ A
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine
+\definitionswortpraemath {R}{ Derivation }{}
+\zusatzklammer {mit Werten in $M$} {} {.}
+
+
+}
+
+
+\inputfaktbeweis
+
+{K-Algebra/Algebraischer Kotangentialraum an K-Punkt/Direkte Derivation/Fakt}
+
+{Satz}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein Körper und $R$ eine $K$-Algebra von endlichem Typ, und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ K\!-\!\operatorname{Spek}\, \left(   R   \right)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Punkt mit zugehörigem maximalen Ideal ${\mathfrak m}$.}
+
+\faktfolgerung {Dann ist die Abbildung
+\maabbeledisp {d} { R } { {\mathfrak m} /{\mathfrak m}^2
+} { f } {df \defeq\overline {f-f(P)}
+} {,}
+eine
+$K$-\definitionsverweis {Derivation}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Es liegt eine kanonische Isomorphie
+\maabb {} { K } { R/ {\mathfrak m}
+} {}
+zwischen dem Grund\-körper und dem Restekörper vor. Die Abbildung ist wohldefiniert, da wegen
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ (f-f(P))(P)
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Funktion
+
+\mathl{f-f(P)}{} zum maximalen Ideal gehört. Die $K$-Linearität ist trivial. Die Produktregel folgt aus
+\zusatzklammer {im dritten Schritt wird ein Element aus ${\mathfrak m}^2$ addiert} {} {}
+
+
+\mavergleichskettealign
+
+{\vergleichskettealign
+
+{ d(fg)
+}
+
+{ =} { fg-(fg)(P)
+}
+
+{ =} { fg-f(P)g(P)
+}
+
+{ =} { fg-f(P)g(P) + (f-f(P))(g-g(P))
+}
+
+{ =} { 2fg -f \cdot g(P)-g \cdot f(P)
+}
+
+}
+{
+
+\vergleichskettefortsetzungalign
+
+{ =} { f(g-g(P)) + g(f-f(P))
+}
+
+{ =} { fdg+gdf
+}
+
+{ } {}
+
+{ } {}
+
+}
+{}{.}
+
+
+}
+
+
+  \zwischenueberschrift{Glatte und normale Punkte}
+
+
+Wir wollen zeigen, dass ein Punkt auf einer ebenen algebraischen Kurve genau dann glatt ist, wenn der zugehörige lokale Ring ein diskreter Bewertungsring ist. Dabei ist die Glattheit in einem Punkt extrinsisch unter Bezug auf die umgebende Ebene definiert worden, während die Eigenschaft, ein diskreter Bewertungsring zu sein, nur vom Koordinatenring der Kurve abhängt. Das folgende Lemma erledigt die eine Richtung, für die andere Richtung müssen wir zuerst eine intrinsische Multiplizität für einen lokalen Ring entwickeln.
+
+
+\inputfaktbeweis
+
+{Ebene algebraische Kurve/Glatter Punkt/Lokaler Ring ist diskreter Bewertungsring/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{,}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Polynom $\neq 0$ ohne mehrfache Faktoren und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ C
+}
+
+{ = }{ V(F)
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein
+\definitionsverweis {glatter Punkt}{}{}
+der Kurve. Es sei $R$ der
+\definitionsverweis {lokale Ring}{}{}
+der Kurve im Punkt $P$.}
+
+\faktfolgerung {Dann ist $R$ ein
+\definitionsverweis {diskreter Bewertungsring}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Zunächst ist $R$ ein noetherscher
+\definitionsverweis {lokaler Ring}{}{,}
+der aufgrund von
+Lemma 22.12
+ein Integritätsbereich ist. Daher sind die einzigen Primideale das Nullideal und das maximale Ideal ${\mathfrak m}_P$. Wir werden zeigen, dass das maximale Ideal ein Hauptideal ist.
+
+
+Wir können annehmen, dass $P$ der Nullpunkt ist, und schreiben $F$ als
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ F
+}
+
+{ =} { F_d + \cdots +  F_1
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F_1
+}
+
+{ \neq }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Da $P$ glatt ist, liegt eine solche Gestalt vor. Durch eine Variablentransformation können wir erreichen, dass
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F_1
+}
+
+{ = }{ Y
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist. Wir können in $F$ die isoliert stehenden Potenzen von $X$
+\zusatzklammer {die Monome, wo kein $Y$ vorkommt} {} {}
+zusammenfassen und bei den anderen $Y$ ausklammern. Dann lässt sich die Gleichung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+als
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ Y(1+G )
+}
+
+{ =} { X H(X)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+schreiben, wobei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{G
+}
+
+{ \in }{ (X,Y)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist. Es ist
+
+\mathl{1+G}{} eine
+\definitionsverweis {Einheit}{}{}
+in
+
+\mathl{K[X,Y]_{(X,Y)}}{} und erst recht im lokalen Ring
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{R
+}
+
+{ = }{ K[X,Y]_{(X,Y)} /(F)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der Kurve im Nullpunkt. Daher gilt in $R$ die Beziehung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ Y
+}
+
+{ =} { { \frac{   H  }{  1+G } } X
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Also wird das maximale Ideal im lokalen Ring $R$ von $X$ allein erzeugt, sodass nach
+Satz 21.8
+ein diskreter Bewertungsring vorliegt.
+
+
+}
+
+
+  \zwischenueberschrift{Die Hilbert-Samuel Multiplizität}
+
+
+\inputfaktbeweis
+
+{Noetherscher lokaler Ring/Potenzen vom maximalen Ideal/Restklassenring und Jets sind endlich-dimensional/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {lokaler Ring}{}{}
+mit
+\definitionsverweis {maximalem Ideal}{}{}
+${\mathfrak m}$ und
+\definitionsverweis {Restklassenkörper}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{K
+}
+
+{ = }{ R/{\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}}
+
+\faktfolgerung {Dann besitzen die
+\definitionsverweis {Restklassenmoduln}{}{}
+
+
+\mathl{{\mathfrak m}^n/{\mathfrak m}^{n+1}}{} endliche
+\definitionsverweis {Dimension}{}{}
+über $K$.}
+
+\faktzusatz {Wenn $R$ einen Körper $K$ enthält, der isomorph auf den Restklassenkörper abgebildet wird, so sind auch die Restklassenringe
+
+\mathl{R/{\mathfrak m}^n}{}  von endlicher Dimension über $K$.}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Wir schreiben den Restklassenmodul
+
+\mathl{{\mathfrak m}^n/{\mathfrak m}^{n+1}}{} als
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ {\mathfrak m}^n/{\mathfrak m}^{n+1}
+}
+
+{ \cong} { {\mathfrak m}^n/({\mathfrak m}^{n}) {\mathfrak m}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Damit sind wir in der Situation von
+Lemma 22.2.
+Da ${\mathfrak m}^n$ ein endlich erzeugtes Ideal ist, folgt, dass dieser Restklassenmodul endliche Dimension über dem Restklassenkörper besitzt.
+
+
+Für die Restklassenringe betrachten wir die
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von $R$-Moduln,
+
+
+\mathdisp {0\stackrel{}{\longrightarrow} {\mathfrak m}^n/{\mathfrak m}^{n+1}
+\stackrel{}{\longrightarrow} R/{\mathfrak m}^{n+1}
+
+
+ \mathdisplaybruch\stackrel{}{\longrightarrow} R/{\mathfrak m}^n\stackrel{}{\longrightarrow}0} { . }
+
+
+Dies ist nach unserer Voraussetzung auch eine kurze exakte Sequenz von $K$-Vektorräumen, sodass sich die $K$-Dimensionen addieren. Nach dem bereits bewiesenen steht links ein endlichdimensionaler Raum. Die Aussage folgt nun durch Induktion über $n$ aus dieser Sequenz, wobei der Induktionsanfang durch
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R/{\mathfrak m}
+}
+
+{ = }{ K
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gesichert ist.
+
+
+}
+
+
+Im Fall einer ebenen algebraischen Kurve
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V
+}
+
+{ = }{ V(F)
+}
+
+{ \subset }{ { {\mathbb A}_{ K }^{ 2  } }
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und einem Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ = }{ (a,b)
+}
+
+{ \in }{ V
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist der lokale Ring durch
+
+\mathl{K[X,Y]_{(X-a,Y-b)}/(F)}{} gegeben. Der Restklassenkörper dieses lokalen Ringes ist $K$ selbst. Daher sind alle Voraussetzungen, die in
+Lemma 23.4
+auftauchen, erfüllt, und alle Dimensionen sind Dimensionen über dem Grundkörper.
+
+
+\inputfaktbeweis
+
+{Ebene algebraische Kurve/Multiplizität über Hilbert-Samuel Polynom/Fakt}
+
+{Satz}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ \in }{ V
+}
+
+{ = }{ V(F)
+}
+
+{ \subset   }{ {\mathbb A}^{2}_{K}
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Punkt auf einer ebenen affinen Kurve. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R
+}
+
+{ = }{ {\mathcal O}_{V,P}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der zugehörige
+\definitionsverweis {lokale Ring}{}{}
+mit
+\definitionsverweis {maximalem Ideal}{}{}
+${\mathfrak m}$.}
+
+\faktfolgerung {Dann gilt für die
+\definitionsverweis {Multiplizität}{}{}
+$m_{P }$ von $P$ die Gleichung
+
+
+\mathdisp {m_{P } = \dim_{ K } \left(   {\mathfrak m}^n/{\mathfrak m}^{n+1}   \right)
+
+ \mathdisplaybruch \text{ für } n \text{ hinreichend groß}} { . }
+
+}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Wir betrachten die
+\definitionsverweis {kurze exakte Sequenz}{}{}
+
+
+\mathdisp {0\stackrel{}{\longrightarrow} {\mathfrak m}^n/{\mathfrak m}^{n+1}
+\stackrel{}{\longrightarrow} R/{\mathfrak m}^{n+1}
+
+
+ \mathdisplaybruch\stackrel{}{\longrightarrow} R/{\mathfrak m}^n\stackrel{}{\longrightarrow}0} {  }
+
+
+von
+$K$-\definitionsverweis {Vektorräumen}{}{.}
+Nach
+Lemma 23.4
+sind die Dimensionen endlich. Dass die Dimensionen von
+
+\mathl{{\mathfrak m}^n/{\mathfrak m}^{n+1}}{} konstant gleich der Multiplizität sind
+\zusatzklammer {für $n$ hinreichend groß} {} {}
+ist äquivalent dazu, dass die Differenz zwischen den Dimensionen von
+
+\mathl{R/{\mathfrak m}^{n+1}}{} und
+
+\mathl{R/{\mathfrak m}^{n}}{} konstant gleich der Multiplizität ist für $n$ hinreichend groß. Dies ist durch Induktion äquivalent dazu, dass
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \dim (R/{\mathfrak m}^n)
+}
+
+{ =} { m_{P }  n  +c
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+gilt für eine Konstante $c$ und $n$ hinreichend groß. Wir können durch Verschieben der Situation annehmen, dass $P$ der Nullpunkt in der Ebene ist. Sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak a}
+}
+
+{ = }{ (X,Y)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+das zugehörige maximale Ideal in
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{S
+}
+
+{ = }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ K[X,Y]/({\mathfrak a}^n+(F))
+}
+
+{ = }{ R/{\mathfrak m}^n
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+sodass die Aussage dafür zu zeigen ist.
+
+
+Nach Voraussetzung hat $F$ die Gestalt \mathkon  { F=F_m+F_{m+1} \ldots   }  {  mit  }  { m=m_{P }   }{ .} Damit ist insbesondere
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ {\mathfrak a}^m
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Für ein weiteres Polynom
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{G
+}
+
+{ \in }{ {\mathfrak a}^{n-m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\zusatzklammer {mit \mathlk{n \geq m}{}} {} {}
+ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{GF
+}
+
+{ \in }{ {\mathfrak a}^{n}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Daher liegt eine kurze exakte Sequenz
+
+
+\mathdisp {0\stackrel{}{\longrightarrow}S/{\mathfrak a}^{n-m}\stackrel{\cdot F}{\longrightarrow}S/{\mathfrak a}^{n}
+
+ \mathdisplaybruch\stackrel{}{\longrightarrow}S/({\mathfrak a}^{n},F)=R/{\mathfrak m}^{n}\stackrel{}{\longrightarrow}0} {  }
+
+
+vor. Dabei folgt die Injektivität links aus einer direkten Gradbetrachtung
+\zusatzklammer {siehe
+Aufgabe 23.4} {} {.}
+Bekanntlich ist die Dimension von
+
+\mathl{S/{\mathfrak a}^n}{} gleich
+
+\mathl{n(n+1)/2}{.} Daher ergibt sich für
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{n
+}
+
+{ \geq }{m
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Gleichheit
+
+
+\mavergleichskettealign
+
+{\vergleichskettealign
+
+{ \dim(R/{\mathfrak m}^n)
+}
+
+{ =} {\frac{n(n+1)}{2} - \frac{(n-m)(n-m+1)}{2}
+}
+
+{ =} {\frac{n^2+n-(n-m)^2-n+m }{2}
+}
+
+{ =} {\frac{ 2nm  -m^2 +m }{2}
+}
+
+{ =} { m n - \frac{m(m-1)}{2}
+}
+
+}
+{}
+{}{.}
+Dies ist die Behauptung.
+
+
+}
+
+
+\inputbemerkung
+
+{}
+
+{
+
+
+Satz 23.5
+besagt insbesondere, dass die Multiplizität eines Punktes auf einer ebenen Kurve eine Invariante des lokalen Ringes der Kurve in dem Punkt ist, und damit insbesondere nur von intrinsischen Eigenschaften der Kurve abhängt, nicht von der Realisierung in einer umgebenden Ebene. Es gibt für jeden noetherschen lokalen Ring die sogenannte \stichwort {Hilbert-Samuel-Multiplizität} {,} die über die $R/{\mathfrak m}$-Dimensionen der Restklassenmoduln
+
+\mathl{{\mathfrak m}^n /{\mathfrak m}^{n+1}}{} definiert wird. Im eindimensionalen Fall ist sie definiert als
+
+
+\mathdisp {\operatorname{lim}_{n \to \infty} \, \left(  \operatorname{dim}_{R/{\mathfrak m}} ({\mathfrak m}^n /{\mathfrak m}^{n+1} )  \right)} { , }
+
+
+wobei diese Funktion konstant wird
+\zusatzklammer {was nicht trivial ist} {} {.}
+Wenn $R$ einen Körper $K$ enthält, der isomorph zum Restekörper ist
+\zusatzklammer {was bei lokalen Ringen zu einer Kurve der Fall ist} {} {,}
+so ist diese Zahl auch gleich
+
+
+\mathdisp {\operatorname{lim}_{n \to \infty} \, { \frac{   \operatorname{dim}_{K} (R/{\mathfrak m}^{n} )  }{  n  } }} { . }
+
+
+}
+
+
+\inputfaktbeweis
+
+{Ebene algebraische Kurve/Punkt/Glatt,diskreter Bewertungsring, Multiplizität/Fakt}
+
+{Satz}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+nichtkonstant ohne mehrfachen Faktor mit zugehöriger algebraischer Kurve
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V(F)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ = }{(a,b)
+}
+
+{ \in }{ C
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Punkt der Kurve mit
+\definitionsverweis {maximalem Ideal}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ (X-a,Y-b)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und mit
+\definitionsverweis {lokalem Ring}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{R
+}
+
+{ = }{ (K[X,Y]_{\mathfrak m})/(F)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}}
+
+\faktfolgerung {Dann sind folgende Aussagen äquivalent.
+\aufzaehlungvier{ $P$ ist ein
+\definitionsverweis {glatter Punkt}{}{}
+der Kurve.
+}{Die
+\definitionsverweis {Multiplizität}{}{}
+von $P$ ist eins.
+}{ $R$ ist ein
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+}{ $R$ ist ein
+\definitionsverweis {normaler Integritätsbereich}{}{.}
+}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Die Äquivalenz
+
+\mathl{(1) \Leftrightarrow (2)}{} folgt aus der
+Definition 22.7
+der Multiplizität. Die Äquivalenz
+
+\mathl{(3) \Leftrightarrow (4)}{} wurde in
+Satz 21.8
+bewiesen. Die Implikation
+
+\mathl{(1) \Rightarrow (3)}{} wurde in
+Lemma 23.3
+bewiesen. Es bleibt also
+
+\mathl{(3) \Rightarrow (2)}{} zu zeigen, wobei wir unter Verwendung von
+Satz 23.5
+mit der Hilbert-Samuel Multiplizität arbeiten können. Es genügt also zu zeigen, dass für einen lokalen Ring einer ebenen algebraischen Kurve, der ein diskreter Bewertungsring ist, die Restklassenmoduln
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}^n/{\mathfrak m}^{n+1}
+}
+
+{ \cong }{ {\mathfrak m}^n/{\mathfrak m}^{n} {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+alle eindimensional über dem Restklassenkörper
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R/{\mathfrak m}
+}
+
+{ \cong }{ K
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+sind. Dies folgt aber wegen
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}^n
+}
+
+{ = }{(\pi^n)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+direkt
+aus dem Lemma von Nakayama.
+
+
+}
+
+
+  \zwischenueberschrift{Monomiale Kurven und Multiplizität}
+
+
+Zu einem
+\definitionsverweis {numerischen Monoid}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{M
+}
+
+{ \subseteq }{ \N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+das von teilerfremden natürlichen Zahlen
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ e_1
+}
+
+{ < }{ e_2
+}
+
+{ < }{ \ldots
+}
+
+{ <   }{ e_r
+}
+
+{   }{
+}
+
+}
+{}{}{}
+erzeugt werde, wird der minimale Erzeuger, also $e_1$, auch als \stichwort {Multiplizität} {} bezeichnet. Es ist zu zeigen, dass dies die \anfuehrung{richtige}{} ringtheoretische Multiplizität ergibt. Dazu sei
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ M_+
+}
+
+{ =} { \left\{ m \in M  \mid  m \geq 1        \right\}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ n M_+
+}
+
+{ =} { \left\{ m \in M  \mid   \text{ es gibt eine Darstellung } m = m_1 + \cdots + m_n \text{ mit } m_i \in M_+        \right\}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Dies sind offensichtlich \anfuehrung{Monoid-Ideale}{} von $M$. Es folgt, dass die zugehörigen Mengen
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ K[n M_+]
+}
+
+{ = }{ \bigoplus_{m \in nM_+} K \, T^m
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\definitionsverweis {Ideale}{}{}
+im
+\definitionsverweis {Monoidring}{}{}
+sind. Und zwar ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{{\mathfrak m}
+}
+
+{ = }{K[M_+]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein maximales Ideal, und die Potenzen davon sind
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{{\mathfrak m}^n
+}
+
+{ = }{K[n M_+]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+\inputfaktbeweis
+
+{Monomiale Kurven/Multiplizität/Abschätzungen für Anzahl in Differenzmengen/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ M
+}
+
+{ \subseteq }{ \N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein numerisches Monoid mit
+\zusatzklammer {numerischer} {} {}
+\definitionsverweis {Multiplizität}{}{}
+$e_1$ und sei $\ell$ eine Zahl mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \N_{\geq \ell}
+}
+
+{ \subseteq }{ M
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}}
+
+\faktfolgerung {Dann gelten für die Mächtigkeit der Differenzmenge
+
+\mathl{M - nM_+}{} die Abschätzungen
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ne_1 - \ell
+}
+
+{ \leq} { { \# \left(   M - nM_+  \right) }
+}
+
+{ \leq} {(n-1)e_1 + \ell
+}
+
+{ } {}
+
+{ } {}
+
+}
+{}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Die Abschätzung nach unten folgt daraus, dass die kleinste Zahl in
+
+\mathl{nM_+}{} genau
+
+\mathl{ne_1}{} ist, die natürlichen Zahlen
+
+\mathl{0,1, \ldots, ne_1-1}{} liegen also außerhalb davon. Dabei liegen die Zahlen $\geq \ell$ in $M$, sodass von diesen
+
+\mathl{ne_1}{} Zahlen mindestens
+
+\mathl{ne_1- \ell}{} zu $M$, aber nicht zu
+
+\mathl{n M_+}{} gehören.
+
+
+Zur Abschätzung nach oben behaupten wir, dass alle Zahlen
+
+\mathl{\geq (n-1)e_1 + \ell}{} zu
+
+\mathl{nM_+}{} gehören. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ x
+}
+
+{ \geq }{ (n-1) e_1 + \ell
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann ist \mathkon  {  x= (n-1)e_1 + \ell'  }  {  mit  }  {  \ell' \geq \ell  }{ } und daher ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \ell'
+}
+
+{ \in }{ M
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Also liegt direkt eine Zerlegung von $x$ in $n$ Summanden aus $M$ vor.
+
+
+}
+
+
+\inputfaktbeweis
+
+{Monomiale Kurve/Hilbert-Samuel Multiplizität ist numerische Multiplizität/Fakt}
+
+{Korollar}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{M
+}
+
+{ \subseteq }{\N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein von
+\definitionsverweis {teilerfremden}{}{}
+Zahlen erzeugtes numerisches Monoid mit
+\definitionsverweis {numerischer Multiplizität}{}{}
+$e_1$. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{(M_+)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+das
+\definitionsverweis {maximale Ideal}{}{}
+des
+\definitionsverweis {Monoidringes}{}{}
+$K[M]$, das dem Nullpunkt entspricht.}
+
+\faktfolgerung {Dann gilt
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{  \lim_{n \rightarrow \infty}  { \frac{   \dim_{ K } \left(  K[M]/{\mathfrak m}^n  \right)  }{ n  } }
+}
+
+{ =} { e_1
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}}
+
+\faktzusatz {Das heißt, dass die numerische Multiplizität mit der
+\definitionsverweis {Hilbert-Samuel Multiplizität}{}{}
+übereinstimmt.}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Der
+\definitionsverweis {Restklassenring}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ K[M]/{\mathfrak m}^n
+}
+
+{ =} { K[M]/(n M_+)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+hat die Elemente aus
+
+\mathl{M \setminus n M_+}{} als
+$K$-\definitionsverweis {Basis}{}{.}
+Deren Anzahl ist also die Dimension davon. Aufgrund der in
+Lemma 23.8
+bewiesenen Abschätzungen konvergiert der Ausdruck
+
+\mathl{\frac{ { \# \left(  M \setminus n M_+ \right) } }{n}}{} für
+
+\mathl{n \mapsto \infty}{} gegen $e_1$. Daher gilt diese Konvergenz auch für die Dimensionen.
+
+
+}

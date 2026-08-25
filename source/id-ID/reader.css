@@ -82,6 +82,16 @@ code, pre {
   font-family: ui-monospace, "Cascadia Mono", monospace;
 }
 
+code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 @media (max-width: 48rem) {
   html { font-size: 16px; }
   body {

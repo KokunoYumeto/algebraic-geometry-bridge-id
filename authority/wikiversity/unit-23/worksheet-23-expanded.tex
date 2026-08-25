@@ -1,0 +1,850 @@
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 23/latex
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 23/latex
+
+\setcounter{section}{23}
+
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{,}
+
+
+\mathl{K[X_1 , \ldots , X_n]}{} der
+\definitionsverweis {Polynomring}{}{}
+über $K$ und
+
+\mathl{{ \frac{   \partial    }{  \partial   X_1   } }}{} die
+\zusatzklammer {formale} {} {}
+\definitionsverweis {partielle Ableitung}{}{}
+bezüglich $X_1$, also die Abbildung
+\maabbeledisp {} { K[X_1 , \ldots , X_n] } { K[X_1 , \ldots , X_n]
+} { f } { { \frac{   \partial   f   }{  \partial   X_1   } }
+} {.}
+Zeige, dass dies eine
+$K$-\definitionsverweis {Derivation}{}{}
+ist.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Wir betrachten das
+\definitionsverweis {maximale Ideal}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ =} { (X_1 , \ldots , X_n)
+}
+
+{ \subseteq} { K[X_1 , \ldots , X_n]
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+im
+\definitionsverweis {Polynomring}{}{}
+über einem
+\definitionsverweis {Körper}{}{}
+$K$ und seine
+\definitionsverweis {Potenzen}{}{}
+${\mathfrak m}^d$. Zeige, dass die Monome
+
+
+\mathbeddisp {X_1^{\nu_1 } \cdots X_n^{\nu_n }} {}
+
+ {\sum_{i = 1}^n \nu_i < d} {}
+
+ {} {} {} {,}
+eine
+$K$-\definitionsverweis {Basis}{}{}
+des
+\definitionsverweis {Restklassenringes}{}{}
+
+
+\mathl{K[X_1 , \ldots , X_n] / {\mathfrak m}^d}{} bilden.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Betrachte das Achsenkreuz
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V(xy)
+}
+
+{ \subseteq }{ {\mathbb A}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und den zum Nullpunkt gehörigen
+\definitionsverweis {lokalen Ring}{}{}
+$R$ mit
+\definitionsverweis {maximalem Ideal}{}{}
+${\mathfrak m}$. Beschreibe explizit eine
+$K$-\definitionsverweis {Basis}{}{}
+für die
+\definitionsverweis {Restklassenringe}{}{}
+$R/{\mathfrak m}^n$ und bestimme die
+\definitionsverweis {Dimensionen}{}{}
+davon.
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ = }{ F_m + \cdots + F_d
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die
+\definitionsverweis {homogene Zerlegung}{}{}
+eines Polynoms
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{m
+}
+
+{ \leq }{d
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ (X,Y)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Zeige, dass für jedes
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{n
+}
+
+{ \geq }{m
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Multiplikationsabbildung
+\maabbeledisp {} {K[X,Y] } { K[X,Y]
+} { G } { FG
+} {,}
+einen injektiven, wohldefinierten
+$K[X,Y]$-\definitionsverweis {Modulhomomorphismus}{}{}
+\maabbdisp {} {K[X,Y]/ {\mathfrak m}^{n-m} } { K[X,Y]/ {\mathfrak m}^{n}
+} {}
+festlegt.
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ e
+}
+
+{ \in }{ \N_+
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ M
+}
+
+{ \defeq }{ \{0\} \cup \N_{ \geq e}
+}
+
+{ \subseteq }{ \N
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+\aufzaehlungdrei{Bestimme
+
+\mathl{nM_+}{} für
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ n
+}
+
+{ \in }{ \N_+
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+}{Bestimme
+
+\mathl{{ \# \left(   M \setminus nM_+  \right) }}{.}
+}{Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und setze
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R
+}
+
+{ = }{ K[M]_{ {\mathfrak m} }
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ (M_+)
+}
+
+{ \subseteq }{ K[M]
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Bestimme
+
+\mathl{\dim_{ K } \left(   R/ {\mathfrak m}^n    \right)}{.}
+}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Berechne für das durch die Erzeuger $4$ und $9$ gegebene
+\definitionsverweis {numerische Monoid}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ M
+}
+
+{ \subseteq }{ \N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die in den Abschätzungen von
+Lemma 23.8
+auftretenden Ausdrücke bis
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ n
+}
+
+{ \leq }{ 6
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+}
+
+{} {}
+
+
+In einigen Aufgaben wird die Krull-Dimension eines kommutativen Ringes verwendet. Da wir uns hauptsächlich für Kurven interessieren, denen eindimensionale Ringe entsprechen, werden wir keine systematische Dimensionstheorie entwickeln.
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{.}
+Eine Kette aus
+\definitionsverweis {Primidealen}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ {\mathfrak p}_0
+}
+
+{ \subset} { {\mathfrak p}_1
+}
+
+{ \subset} { \ldots
+}
+
+{ \subset} { {\mathfrak p}_n
+}
+
+{ } {
+}
+
+}
+{}{}{}
+nennt man \definitionswort {Primidealkette der Länge}{} $n$
+\zusatzklammer {es wird also die Anzahl der Inklusionen gezählt, nicht die Anzahl der beteiligten Primideale} {} {.}
+Die \definitionswort {Dimension}{}
+\zusatzklammer {oder \definitionswort {Krulldimension}{}} {} {}
+von $R$ ist das
+\definitionsverweis {Supremum}{}{}
+über alle Längen von Primidealketten. Sie wird mit
+
+\mathl{\operatorname{dim}  \left(    R   \right)}{} bezeichnet.
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Es sei $R$ ein
+\definitionsverweis {Hauptidealbereich}{}{,}
+der kein
+\definitionsverweis {Körper}{}{} sei. Zeige, dass die
+\definitionsverweis {Krulldimension}{}{} von $R$ gleich eins ist.
+
+
+}
+
+{} {}
+
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+
+\inputaufgabe
+
+{4}
+
+{
+
+
+Berechne für das durch die Erzeuger
+
+\mathl{5,8,11}{} gegebene Monoid
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ M
+}
+
+{ \subseteq }{ \N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die in den Abschätzungen von
+Lemma 23.8
+auftretenden Ausdrücke bis
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ n
+}
+
+{ \leq }{ 5
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{3}
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak a}
+}
+
+{ \subseteq }{ R
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein
+\definitionsverweis {Ideal}{}{}
+in einem
+\definitionsverweis {kommutativen Ring}{}{,}
+das in genau einem
+\definitionsverweis {maximalen Ideal}{}{}
+${\mathfrak m}$ als einzigem Primoberideal enthalten sei. Zeige, dass dann
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R/{\mathfrak a}
+}
+
+{ \cong }{ R_{\mathfrak m}/{\mathfrak a} R_{\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist. Folgere daraus, dass für ein maximales Ideal ${\mathfrak m}$ in einem noetherschen kommutativen Ring die Isomorphie
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R/{\mathfrak m}^n
+}
+
+{ \cong }{ R_{\mathfrak m}/{\mathfrak m}^n  R_{\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+für jedes $n$ gilt.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{5}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R
+}
+
+{ = }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der
+\definitionsverweis {Polynomring}{}{}
+in zwei Variablen. Zeige, dass $R$ die
+\definitionsverweis {Krulldimension}{}{}
+zwei besitzt.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{5}
+
+{
+
+
+Es sei $R$ ein
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {kommutativer Ring}{}{.}
+Zeige, dass folgende Aussagen äquivalent sind:
+\aufzaehlungfuenf{$R$ hat
+\definitionsverweis {Krulldimension}{}{}
+$0$.
+}{$R$ ist ein
+\definitionsverweis {artinscher Ring}{}{.}
+}{$R$ besitzt endlich viele
+\definitionsverweis {Primideale}{}{,}
+die alle
+\definitionsverweis {maximal}{}{}
+sind.
+}{Es gibt eine natürliche Zahl $n$ mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}^n
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+für jedes maximale Ideal ${\mathfrak m}$.
+}{Die
+\definitionsverweis {Reduktion}{}{}
+von $R$ ist ein Produkt von Körpern.
+}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{3}
+
+{
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+von endlicher
+\definitionsverweis {Krulldimension}{}{}
+$d$. Zeige, dass die Krulldimension des
+\definitionsverweis {Polynomrings}{}{}
+$R[X]$ mindestens
+
+\mathl{d+1}{} ist.
+
+
+}
+
+{(Bemerkung: über einem noetherschen Grundring erhöht sich die Dimension beim Übergang zum Polynomring genau um eins, dies ist aber schwieriger zu beweisen.)} {}

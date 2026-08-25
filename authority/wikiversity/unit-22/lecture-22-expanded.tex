@@ -1,0 +1,2067 @@
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 22/latex
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 22/latex
+
+\setcounter{section}{22}
+
+
+  \zwischenueberschrift{Die Einbettungsdimension}
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Es sei $R$ ein lokaler kommutativer noetherscher Ring mit
+\definitionsverweis {maximalem Ideal}{}{}
+${\mathfrak m}$. Dann heißt die minimale Idealerzeugendenzahl für ${\mathfrak m}$ die \definitionswort {Einbettungsdimension}{} von $R$, geschrieben
+
+
+\mathdisp {\operatorname{embdim}\,(R)} { . }
+
+
+}
+
+
+Ein noetherscher lokaler Integritätsbereich der Dimension eins
+\zusatzklammer {d.h. die einzigen Primideale sind das Nullideal und das maximale Ideal} {} {}
+ist
+nach Satz 21.8
+genau dann ein diskreter Bewertungsring, wenn seine Einbettungsdimension $1$ ist. Wir erwähnen, dass die Einbettungsdimension immer zumindest so groß ist wie die Dimension eines lokalen Ringes. Die Ringe, bei denen Gleichheit gilt, spielen eine besondere Rolle und heißen \stichwort {reguläre Ringe} {.} Wir sind der Einbettungsdimension schon im Fall von monomialen Kurven begegnet und müssen zeigen, dass die dortige Definition
+\zusatzklammer {Definition 18.6} {} {}
+mit der neuen verträglich ist.
+
+
+Wir beweisen zunächst eine andere Charakterisierung, die sich aus dem Lemma von Nakayama ergibt.
+
+
+\inputfaktbeweis
+
+{Lokaler Ring/Modulerzeuger und Erzeuger mod m/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+\mathl{(R, {\mathfrak m},K)}{} ein
+\definitionsverweis {lokaler Ring}{}{}
+und sei $V$ ein
+\definitionsverweis {endlich erzeugter}{}{}
+$R$-\definitionsverweis {Modul}{}{.}}
+
+\faktfolgerung {Dann stimmt die
+\definitionsverweis {minimale Erzeugendenzahl}{}{}
+
+
+\mathl{\mu (V)}{} mit der
+\definitionsverweis {Dimension}{}{}
+des
+$K$-\definitionsverweis {Vektorraums}{}{}
+
+
+\mathl{V/{\mathfrak m}V}{} überein.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Wir zeigen etwas allgemeiner, dass Elemente
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ v_1 , \ldots , v_n
+}
+
+{ \in }{ V
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+genau dann ein $R$-Erzeugendensystem für $V$ bilden, wenn deren Restklassen in
+
+\mathl{V/{\mathfrak m} V}{} ein $R/{\mathfrak m}$-Erzeugendensystem von
+
+\mathl{V/ {\mathfrak m} V}{} bilden. Dabei ist die eine Richtung trivial, seien also Elemente
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ v_1 , \ldots , v_n
+}
+
+{ \in }{ V
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gegeben, die modulo ${\mathfrak m}$ ein Erzeugendensystem sind. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{U
+}
+
+{ \subseteq }{ V
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der von den $v_i$ erzeugte $R$-Untermodul von $V$. Die Voraussetzung übersetzt sich zu
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{V
+}
+
+{ = }{ U+ {\mathfrak m}V
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Wir betrachten den Restklassenmodul
+
+\mathl{V/U}{.} Dort gilt dann
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ (V/U){\mathfrak m}
+}
+
+{ = }{ V/U
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+woraus
+nach dem Lemma von Nakayama
+die Gleichheit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{V/U
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{V
+}
+
+{ = }{ U
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+folgt.
+
+
+}
+
+
+\inputfaktbeweis
+
+{Lokaler Ring/Einbettungsdimension ist Dimension des Kotangentialraumes/Fakt}
+
+{Korollar}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+\mathl{(R,{\mathfrak m},K)}{} ein
+\definitionsverweis {noetherscher}{}{} \definitionsverweis {lokaler Ring}{}{.}}
+
+\faktfolgerung {Dann ist die
+\definitionsverweis {Einbettungsdimension}{}{}
+gleich
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \mu ( {\mathfrak m})
+}
+
+{ =} { \dim_{ K } \left(   {\mathfrak m}/{\mathfrak m}^2  \right)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Dies folgt sofort aus
+dem Lemma von Nakayama
+angewandt auf das Ideal ${\mathfrak m}$ und den endlich erzeugten $R$-Modul ${\mathfrak m}$.
+
+
+}
+
+
+Den in der vorstehenden Aussage auftretenden $R$-Modul
+
+\mathl{{\mathfrak m}/{\mathfrak m}^2}{,} der ein Vektorraum über
+
+\mathl{R/{\mathfrak m}}{} ist, nennt man auch den \stichwort {Kotangentialraum} {} des lokalen Ringes.
+
+
+\inputfaktbeweis
+
+{Noetherscher Ring/Maximales Ideal/Kotangentialraum direkt und über lokalen Ring/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {kommutativer Ring}{}{}
+und ${\mathfrak n}$ ein
+\definitionsverweis {maximales Ideal}{}{.}
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{S
+}
+
+{ = }{ R_{\mathfrak n}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die
+\definitionsverweis {Lokalisierung}{}{}
+an ${\mathfrak n}$ mit dem maximalen Ideal
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ {\mathfrak n}R_{\mathfrak n}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}}
+
+\faktfolgerung {Dann ist
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ {\mathfrak m}/{\mathfrak m}^2
+}
+
+{ \cong} { {\mathfrak n}/{\mathfrak n}^2
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}}
+
+\faktzusatz {Insbesondere ist die
+\definitionsverweis {Einbettungsdimension}{}{}
+der Lokalisierung gleich
+
+\mathl{\operatorname{dim }_{R/{\mathfrak n}}\, ({\mathfrak n}/{\mathfrak n}^2)}{.}}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Nach
+Aufgabe 15.5
+ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R/{\mathfrak n}
+}
+
+{ \cong }{ R_{\mathfrak n}/{\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+sodass der gleiche
+\definitionsverweis {Restklassenkörper}{}{}
+vorliegt. Der natürliche
+$R$-\definitionsverweis {Modulhomomorphismus}{}{}
+\maabb {} { {\mathfrak n} } { {\mathfrak m}
+} {}
+induziert einen
+$K$-\definitionsverweis {Vektorraumhomomorphismus}{}{}
+\maabbdisp {} { {\mathfrak n}/{\mathfrak n}^2 } { {\mathfrak m}/{\mathfrak m}^2
+} {,}
+der surjektiv ist, da
+$R$-\definitionsverweis {Modulerzeuger}{}{}
+von ${\mathfrak n}$ auf $R_{\mathfrak n}$-Erzeuger von ${\mathfrak m}$ abbilden, und diese modulo ${\mathfrak m}^2$ ein $K$-Vektorraum-Erzeugendensystem ergeben.
+
+
+Zum Beweis der Injektivität sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ f
+}
+
+{ \in }{ {\mathfrak n}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Element, das rechts auf $0$ abgebildet wird. D.h. es gilt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ f
+}
+
+{ \in }{ {\mathfrak m}^2
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+in der Lokalisierung $R_{\mathfrak n}$. Dies bedeutet, dass es Elemente
+\mathkor {} {g_1 , \ldots ,  g_n \in {\mathfrak n}} {und} {h_1 , \ldots , h_n \in {\mathfrak n}} {}
+und Elemente
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ q_i
+}
+
+{ = }{ { \frac{  a_i  }{ s_i  } }
+}
+
+{ \in }{ R_{\mathfrak n}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\zusatzklammer {also mit
+
+
+\mavergleichskettek
+
+{\vergleichskettek
+
+{ s_i
+}
+
+{ \notin }{ {\mathfrak n}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskettek
+
+{\vergleichskettek
+
+{ a_i
+}
+
+{ \in }{ R
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}} {} {}
+mit
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{f
+}
+
+{ =} { { \frac{  a_1  }{ s_1  } } g_1h_1 + \cdots + { \frac{  a_n  }{ s_n  } } g_nh_n
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+gibt. Dies bedeutet zurückübersetzt nach $R$, dass es ein Element
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ s
+}
+
+{ \notin }{ {\mathfrak n}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ sf
+}
+
+{ =} { b_1 g_1h_1 + \cdots + b_ng_nh_n
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+für gewisse
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ b_i
+}
+
+{ \in }{ R
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gibt. Da $s$ nicht zum maximalen Ideal ${\mathfrak n}$  gehört, gibt es
+\mathkor {} {r \in R} {und} {g \in {\mathfrak n}} {}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{g+rs
+}
+
+{ = }{ 1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Wir multiplizieren die obige Gleichung mit $r$ und erhalten
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ (1-g)f
+}
+
+{ =} { r \left(  b_1 g_1h_1 + \cdots +  b_n g_nh_n  \right)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+bzw.
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ f
+}
+
+{ =} { r \left(  b_1 g_1h_1 + \cdots +  b_n g_nh_n  \right)  +gf
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Dabei gehört die rechte Seite offensichtlich zu ${\mathfrak n}^2$, und damit definiert $f$ das Nullelement in
+
+\mathl{{\mathfrak n}/{\mathfrak n}^2}{.}
+
+
+}
+
+
+\inputfaktbeweis
+
+{Numerisches Monoid/Lokale kommutative noethersche Ringe/Numerische und algebraische Einbettungsdimension/Äquivalenz/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und $M$ ein
+\definitionsverweis {numerisches Monoid}{}{,}
+das von teilerfremden natürlichen Zahlen erzeugt sei. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{R
+}
+
+{ = }{ K[M]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der zugehörige
+\definitionsverweis {Monoidring}{}{}
+mit dem
+\definitionsverweis {maximalen Ideal}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak n}
+}
+
+{ = }{(M_+)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und der
+\definitionsverweis {Lokalisierung}{}{}
+$R_{\mathfrak n}$.}
+
+\faktfolgerung {Dann ist die
+\definitionsverweis {numerische Einbettungsdimension}{}{}
+von $M$
+\zusatzklammer {bzw. \mathlk{K[M]}{}} {} {}
+gleich der
+\definitionsverweis {Einbettungsdimension}{}{}
+des lokalen Rings $R_{\mathfrak n}$.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Es ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak n}
+}
+
+{ = }{ (M_+)
+}
+
+{ = }{ \bigoplus_{m\in M_+} K\, T^m
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak n}^2
+}
+
+{ = }{ (2M_+)
+}
+
+{ = }{ \bigoplus_{m\in 2M_+}K\, T^m
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Der Restklassenraum ist daher
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ {\mathfrak n}/{\mathfrak n}^2
+}
+
+{ =} { \bigoplus_{m \in M_+ \setminus 2M_+}K\, T^m
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Dessen $K$-Dimension ist also gleich der Anzahl der Elemente aus
+
+\mathl{M_+ \setminus 2M_+}{.} Nach
+Korollar 18.13
+ist
+
+\mathl{M_+ \setminus 2M_+}{} das minimale Monoiderzeugendensystem von $M$, sodass die $K$-Dimension gleich der numerischen Einbettungsdimension ist.
+
+
+Andererseits ist nach
+Lemma 22.4
+die $K$-Dimension von
+
+\mathl{{\mathfrak n}/{\mathfrak n}^2}{} gleich der Einbettungsdimension des zugehörigen lokalen Rings $R_{\mathfrak n}$.
+
+
+}
+
+
+  \zwischenueberschrift{Glatte und singuläre Punkte}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tangent_to_a_curve} {svg} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Tangent to a curve.svg } {AxelBoldt} {} {en.wikipedia.org} {CC-BY-SA-3.0} {}
+
+
+Es sei $K$ ein Körper und
+
+\mathbed {F \in K[X,Y]} {}
+
+ {F \neq 0} {}
+
+ {} {} {} {,} ein Polynom ohne mehrfache Faktoren
+\zusatzklammer {da wir uns nur für die zugehörige Kurve interessieren, ist dies bei einem algebraisch abgeschlossenen Körper aufgrund des Hilbertschen Nullstellensatzes keine Einschränkung} {} {.}
+Für jeden Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ (a,b)
+}
+
+{ \in }{ {\mathbb A}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+kann man zu den Variablen \mathkon  { X-a  }  {  und  }  { Y-b  }{ } übergehen. Das bedeutet, dass man den Punkt in den Ursprung verschiebt. Für das Verhalten eines Polynoms an einem Punkt kann man sich also stets auf den Ursprungspunkt beschränken.
+
+
+Es sei also
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ = }{ (0,0)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Wir schreiben $F$ mit homogenen Komponenten als
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ F
+}
+
+{ =} { F_d+F_{d-1} + \cdots + F_1+F_0
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Hier sind die $F_i$ homogen vom Grad $i$. Was kann man an den einzelnen homogenen Komponenten ablesen? Zunächst gilt trivialerweise die Beziehung
+
+
+\mathdisp {P \in V(F) \text{ genau dann, wenn } F_0 = 0} { . }
+
+
+Wenn man die Koordinaten von $P$, also
+
+\mathl{(0,0)}{,} in $F$ einsetzt, so  werden ja alle höheren Komponenten zu $0$ gemacht, und lediglich die konstante Komponente $F_0$ bleibt übrig. Da wir uns hauptsächlich für das Verhalten der Kurve in einem Kurvenpunkt interessieren, werden wir uns häufig auf die Situation
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F_0
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+beschränken. Was ist dann die erste homogene Komponente $F_i$, die nicht $0$ ist? Welche Rolle spielt dieses $i$ und welche Rolle spielen dessen Linearfaktoren?
+
+
+Nehmen wir zunächst an, dass \mathkon  { F_0=0  }  {  und  }  { F_1=aX+bY  }{ } ist. Diese Linearform
+\zusatzklammer {die $0$ sein kann} {} {}
+lässt sich auch mit partiellen Ableitungen charakterisieren, es ist nämlich
+
+
+\mathdisp {{ \frac{   \partial  F  }{  \partial   x  } } (P) = a \text{ und } { \frac{   \partial  F  }{  \partial   y  } } (P) = b} { . }
+
+
+Hier und im Folgenden werden Polynome einfach \stichwort {formal abgeleitet} {.} Damit ist auch \mathkon  { F_1=0  }  {  genau dann, wenn  }  { { \frac{   \partial  F  }{  \partial   x  } } (P) = { \frac{   \partial  F  }{  \partial   y  } } (P) = 0   }{ }
+ist. Wenn dies nicht der Fall ist, so ist es naheliegend, die durch die Gleichung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F_1(X,Y)
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+definierte Gerade als Tangente an die Kurve im Punkt $P$ anzusehen. Ein erstes Indiz dafür ist, dass im linearen Fall
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ = }{F_1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Gerade mit ihrer Tangente zusammenfallen soll.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein von $0$ verschiedenes Polynom. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ C
+}
+
+{ = }{ V(F)
+}
+
+{ \subset   }{ {\mathbb A}^{2}_{ K }
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Punkt der zugehörigen affinen ebenen Kurve. Dann heißt $P$ ein \definitionswort {glatter Punkt}{} von $C$, wenn
+
+
+\mathdisp {{ \frac{   \partial   F   }{  \partial   X  } } (P)  \neq 0 \text{ oder }  { \frac{   \partial   F   }{  \partial   Y  } }  (P) \neq 0} {  }
+
+
+gilt. Andernfalls heißt der Punkt \definitionswort {singulär}{.}
+
+
+}
+
+
+Die Kurve heißt \stichwort {glatt} {,} wenn sie in jedem ihrer Punkte glatt ist.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein von $0$ verschiedenes Polynom. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ \in }{ C
+}
+
+{ = }{ V(F)
+}
+
+{ \subset   }{ {\mathbb A}^{2}_{ K }
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Punkt der zugehörigen affinen ebenen Kurve, der
+\zusatzklammer {nach einer linearen Variablentransformation} {} {}
+der Nullpunkt sei. Es sei
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ F
+}
+
+{ =} { F_d+F_{d-1} + \cdots +  F_m
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+die homogene Zerlegung von $F$ mit \mathkor {} {F_d \neq 0} {und} {F_m \neq 0} {,}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ d
+}
+
+{ \geq }{ m
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann heißt $m$ die \definitionswort {Multiplizität}{} der Kurve im Punkt $P$. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F_m
+}
+
+{ = }{ G_1 \cdots G_m
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Zerlegung in lineare Faktoren. Dann nennt man jede Gerade \mathind { V(G_i)  } { i=1 , \ldots , m   }{,} eine \definitionswort {Tangente}{} an $C$ im Punkt $P$. Die Vielfachheit von $G_i$ in $F_m$ nennt man auch die \definitionswort {Multiplizität}{} der Tangente.
+
+
+}
+
+
+Der Punkt ist genau dann glatt, wenn die Multiplizität $1$ ist. In diesem Fall gibt es genau eine Tangente durch den Punkt, deren Steigung man über die partiellen Ableitungen berechnen kann.
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungJPG {3_equations_-5} {JPG} }
+
+\end{center}
+
+\bildtext {Geraden, die sich im Punkt $(0,1)$ schneiden} }
+
+
+\bildlizenz {  3 equations -5.JPG } {Cronholm144} {} {Commons} {PD} {}
+
+
+\inputbeispiel{}
+
+{
+
+
+Es seien $d$ verschiedene Geraden
+
+\mathl{L_1 , \ldots ,  L_d}{} in der affinen Ebene gegeben, die alle durch den Nullpunkt laufen mögen. Es seien \mathind {  a_iX+b_iY = 0   } {  i = 1 , \ldots , d   }{,} die zugehörigen Gleichungen
+\zusatzklammer {die nur bis auf einen Skalar definiert sind} {} {.}
+Die Vereinigung dieser Geraden wird dann durch das Produkt
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ F
+}
+
+{ =} { \left(  a_1X+b_1Y  \right)  \cdots \left(  a_dX+b_dY  \right)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+beschrieben. Insbesondere ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ = }{ F_d
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+homogen vom Grad $d$. Hier definiert jeder Linearfaktor eine
+\definitionsverweis {Tangente}{}{}
+durch den Nullpunkt. Die
+\definitionsverweis {Multiplizität}{}{}
+ist $d$.
+
+
+}
+
+
+\inputbeispiel{}
+
+{
+
+
+$\,$
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Frans_Hals_-_Portret_van_René_Descartes} {jpg} }
+
+\end{center}
+
+\bildtext {Rene Descartes (1596-1650)} }
+
+
+\bildlizenz { Frans Hals - Portret van René Descartes.jpg } {Frans Hals} {Dedden} {Commons} {PD} {}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Kartesisches-Blatt} {svg} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Kartesisches-Blatt.svg } {} {Georg-Johann} {Commons} {CC-BY-SA-3.0} {}
+
+
+Das \stichwort {Kartesische Blatt} {}  wird durch die Gleichung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ = }{ X^3+Y^3-3XY
+}
+
+{ = }{ 0
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+beschrieben
+\zusatzklammer {die $3$ ist dabei nicht wichtig, und könnte durch eine andere Zahl $\neq 0$ ersetzt werden} {} {.}
+Die homogenen Bestandteile der Kurvengleichung sind
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F_3
+}
+
+{ = }{ X^3+Y^3
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F_2
+}
+
+{ = }{ -3XY
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Damit hat der Nullpunkt des Kartesischen Blattes die
+\definitionsverweis {Multiplizität}{}{}
+zwei und ist singulär, und sowohl die $X$- als auch die $Y$-Achse sind Tangenten
+\zusatzklammer {mit einfacher Multiplizität} {} {.}
+An den übrigen Punkten ist die Kurve glatt
+\zusatzklammer {der Grundkörper habe nicht die Charakteristik $3$} {} {:}
+aus
+
+
+\mathdisp {\frac{\partial F}{\partial X}= 3X^2-3Y=0 \text{ und } \frac{\partial F}{\partial Y}= 3Y^2-3X=0} {  }
+
+
+folgt
+\mathkor {} {Y=X^2} {und} {X=Y^2} {,}
+also auch
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Y
+}
+
+{ = }{ Y^4
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\zusatzklammer {ebenso für $X$} {} {.}
+Dann ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Y
+}
+
+{ = }{ X
+}
+
+{ = }{ 0
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+oder $X$ und $Y$ sind beide eine dritte Einheitswurzel
+\zusatzklammer {und zwar sind beide $1$ oder es sind die beiden anderen dritten Einheitswurzeln} {} {.}
+An diesen anderen Verschwindungsstellen der beiden partiellen Ableitungen hat aber $F$ den Wert $-1$, diese sind also keine Punkte der Kurve.
+
+
+}
+
+
+\inputbemerkung
+
+{ }
+
+{
+
+
+Für einen
+\definitionsverweis {glatten Punkt}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ C
+}
+
+{ = }{ V(F)
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+einer ebenen algebraischen Kurve ist die
+\definitionsverweis {Multiplizität}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{m
+}
+
+{ = }{ 1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Bei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ = }{ (0,0)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist also der lineare Term der Kurvengleichung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F_1
+}
+
+{ = }{ uX+vY
+}
+
+{ = }{ 0
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und es ist
+
+
+\mathdisp {{ \frac{   \partial   F   }{  \partial   X  } } (P)=u \text{   und } { \frac{   \partial   F   }{  \partial   Y  } } (P)=v} {  }
+
+
+\zusatzklammer {da die höheren homogenen Komponenten von $F$ keinen Beitrag zu den partiellen Ableitungen im Nullpunkt leisten} {} {.}
+Diese lineare Gleichung ist also die Tangentengleichung. Auch für einen beliebigen glatten Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ = }{(a,b)
+}
+
+{ \in }{ C
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+kann man aus den partiellen Ableitungen von $F$ in $P$ direkt die Tangentengleichung ablesen, und zwar ist die Tangente durch
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ { \frac{   \partial   F   }{  \partial   X  } } (P) (X-a) + { \frac{   \partial   F   }{  \partial   Y  } } (P) (Y-b)
+}
+
+{ =} { 0
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+gegeben.
+
+
+}
+
+
+\inputbemerkung
+
+{ }
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit zugehöriger ebener algebraischer Kurve $C$ und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ \in }{ C
+}
+
+{ = }{ V(F)
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein glatter Punkt der Kurve. Zu
+\maabbdisp {F} { {\mathbb A}^{2}_{ K } } { {\mathbb A}^{1}_{ K }
+} {}
+und dem Punkt $P$ gehört die durch die partiellen Ableitungen definierte lineare \stichwort {Tangentialabbildung} {}
+\zusatzklammer {das \stichwort {totale Differential} {}} {} {}
+zwischen den zugehörigen Tangentialräumen, also
+\maabbelementzeiledisplay {T_PF = \left(  \frac{\partial F}{\partial X} (P), \frac{\partial F}{\partial Y} (P)  \right)} {  T_P {\mathbb A}^{2}_{ K } \cong {\mathbb A}^{2}_{ K }  } { T_{F(P)} {\mathbb A}^{1}_{ K } = T_{0} {\mathbb A}^{1}_{ K } \cong {\mathbb A}^{1}_{ K }
+} {(s,t)   } { \frac{\partial F}{\partial X} (P) s + \frac{\partial F}{\partial Y} (P) t
+} {.}
+Da $P$ ein glatter Punkt ist, ist diese lineare Abbildung nicht die Nullabbildung. Die
+\zusatzklammer {Richtung der} {} {}
+Tangente von $C$ an $P$ ist der Kern dieser Tangentialabbildung
+\zusatzklammer {wobei man bei der Identifizierung der Tangentialebene in $P$ mit der umgebenden affinen Ebene den Punkt $P$ mit dem Nullpunkt identifizieren muss. Die Tangente muss ja durch den Punkt gehen, der Kern gibt nur eine lineare Richtung vor} {} {.}
+
+
+}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Intersect3} {png} }
+
+\end{center}
+
+\bildtext {Bei einer algebraischen Kurve sind die Schnittpunkte von irreduziblen Komponenten niemals glatt.} }
+
+
+\bildlizenz { Intersect3.png } {Michael Larsen} {} {en.wikipedia.org} {CC-BY-SA-3.0} {}
+
+
+Die folgende Aussage zeigt, dass ein Kreuzungspunkt zweier irreduzibler Komponenten niemals glatt sein kann.
+
+
+\inputfaktbeweis
+
+{Ebene algebraische Kurve/Glatter Punkt/Liegt nur auf einer Komponente/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V(F)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine
+\definitionsverweis {ebene algebraische Kurve}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ = }{ F_1 \cdots F_n
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Zerlegung in verschiedene Primfaktoren. Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ C
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein
+\definitionsverweis {glatter Punkt}{}{}
+der Kurve.}
+
+\faktfolgerung {Dann liegt $P$ auf nur einer Komponente
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ C_i
+}
+
+{ = }{ V(F_i)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der Kurve.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+ }
+
+{ Siehe Aufgabe 22.9. }
+
+
+\inputfaktbeweis
+
+{Ebene algebraische Kurve/Glatte zusammenhängende Kurve/Ist irreduzibel/Fakt}
+
+{Korollar}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ \subseteq }{ {\mathbb A}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine
+\definitionsverweis {(Zariski)-zusammenhängende}{}{}
+ebene glatte algebraische Kurve über einem
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+$K$.}
+
+\faktfolgerung {Dann ist $C$
+\definitionsverweis {irreduzibel}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Aufgrund von
+Lemma 22.12 sind die irreduziblen Komponenten der Kurve disjunkt. Dies sind dann aber auch die Zusammenhangskomponenten der Kurve. Also gibt es nur eine irreduzible Komponente und daher ist die Kurve irreduzibel.
+
+
+}

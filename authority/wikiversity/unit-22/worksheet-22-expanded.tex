@@ -1,0 +1,1220 @@
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 22/latex
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 22/latex
+
+\setcounter{section}{22}
+
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Es sei $R$ der
+\definitionsverweis {lokale Ring}{}{}
+zum Überkreuzungspunkt des dreidimensionalen Achsenkreuzes. Bestimme dessen
+\definitionsverweis {Einbettungsdimension}{}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Man gebe ein Beispiel für eine Kurve
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+derart, dass es auf ihr Punkte
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P_1,P_2,P_3
+}
+
+{ \in }{ C
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gibt, deren
+\definitionsverweis {Einbettungsdimensionen}{}{}
+gleich $1,2,3$ sind.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{H(X)
+}
+
+{ \in }{ K[X]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ = }{ Y-H
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V(F)
+}
+
+{ \subseteq }{ {\mathbb A}^{2}_{ K }
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der
+\definitionsverweis {Graph}{}{}
+von $H$, aufgefasst als
+\definitionsverweis {ebene algebraische Kurve}{}{.}
+Es sei
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{P
+}
+
+{ =} { (a,b)
+}
+
+{ =} { (a, H(a))
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+ein Punkt des Graphen.
+\aufzaehlungzweiabc{Zeige, dass die
+\definitionsverweis {Multiplizität}{}{}
+von $C$ in $P$ gleich $1$ ist.
+}{Zeige, dass die
+\definitionsverweis {Tangente}{}{}
+in $P$ an $C$ mit der üblichen Tangente an einen Graphen im Punkt $a$ übereinstimmt.
+}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F_1 , \ldots , F_m
+}
+
+{ \in }{ K[X_1 , \ldots , X_\ell ]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{G_1 , \ldots , G_n
+}
+
+{ \in }{ K[X_1 , \ldots , X_m ]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+Polynome, die zu den
+\definitionsverweis {polynomialen Abbildungen}{}{}
+
+
+\mathdisp {{ {\mathbb A}_{ K }^{  \ell  } }  \stackrel{F}{\longrightarrow} { {\mathbb A}_{  K }^{  m   } } \stackrel{G}{\longrightarrow} { {\mathbb A}_{  K }^{  n   } }} {  }
+
+
+Anlass geben. Es seien
+\mathkor {} {J (F)_P} {und} {J (G)_Q} {}
+die durch
+\definitionsverweis {formales partielles Ableiten}{}{}
+definierten
+\definitionsverweis {Jacobi-Matrizen}{}{.}
+Beweise die formale Kettenregel
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ J ( G \circ F)_P
+}
+
+{ =} { J(G)_{F(P)} \circ J(F)_P
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+\aufzaehlungzweiabc{Zeige, dass formales
+\definitionsverweis {partielles Ableiten}{}{}
+auf dem Polynomring
+
+\mathl{K[X_1 , \ldots , X_n]}{} bezüglich einer Variablen und
+\definitionsverweis {Dehomogenisieren}{}{}
+bezüglich einer anderen Variablen vertauschbar sind.
+}{Zeige, dass dies nicht für die gleiche Variable stimmt.
+}
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ H
+}
+
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein
+\zusatzklammer {in der
+\definitionsverweis {Standardgraduierung}{}{}} {} {}
+\definitionsverweis {homogenes Polynom}{}{}
+vom Grad $e$. Zeige die Beziehung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ e H
+}
+
+{ =} { X_1 { \frac{   \partial   H   }{  \partial   X_1   } } + \cdots + X_n { \frac{   \partial   H   }{  \partial   X_n   } }
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Betrachte die durch
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ y
+}
+
+{ = }{ 2x^4+3x^2-x+1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gegebene Kurve mit dem Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ = }{ (1,5)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Finde eine Koordinatentransformation derart, dass $P$ zum Punkt $(0,0)$ wird und die Tangente an $P$ zur $x$-Achse.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein nichtkonstantes
+\definitionsverweis {Polynom}{}{}
+mit einfachen
+\definitionsverweis {Primfaktoren}{}{}
+und mit zugehöriger
+\definitionsverweis {ebener Kurve}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V(F)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Zeige, dass $C$ nur endlich viele
+\definitionsverweis {singuläre Punkte}{}{}
+besitzt.
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Beweise
+Lemma 22.12.
+
+
+}
+
+{} {}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Cercle tangente rayon} {svg} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Cercle tangente rayon.svg } {} {} {Commons} {} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Zeige, dass der
+\definitionsverweis {Einheitskreis}{}{}
+über einem
+\definitionsverweis {Körper}{}{}
+der
+\definitionsverweis {Charakteristik}{}{}
+$\neq 2$
+\definitionsverweis {glatt}{}{}
+ist und bestimme für jeden Punkt die Gleichung der
+\definitionsverweis {Tangente}{}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{.}
+\aufzaehlungzweiabc{Zeige, dass der
+\definitionsverweis {Graph}{}{}
+eines Polynoms
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine
+\definitionsverweis {glatte}{}{}
+\definitionsverweis {algebraische Kurve}{}{}
+ist.
+}{Es seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F,G
+}
+
+{ \in }{ K[X]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+Polynome ohne gemeinsame Nullstelle. Zeige, dass der Graph der
+\definitionsverweis {rationalen Funktion}{}{}
+$F/G$ ebenfalls eine glatte algebraische Kurve ist.
+}
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Bestimme die
+\definitionsverweis {singulären Punkte}{}{}
+der
+\definitionsverweis {ebenen algebraischen Kurve}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ V \left(  -2X^3+3X^2Y-Y+ \frac{2}{3} \sqrt{\frac{1}{3} }  \right)
+}
+
+{ \subseteq} { {\mathbb A}^{2}_{ {\mathbb C}}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Bestimme für die in
+Beispiel 8.5
+berechnete Trajektorie die Koordinaten der Punkte, wo die Kurve singulär ist.
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Bestimme die Primfaktorzerlegung des Polynoms
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ X^3+XY^2
+}
+
+{ \in} { {\mathbb C}[X,Y]
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+und bestimme die Singularitäten der zugehörigen affinen Kurve samt ihren Multiplizitäten und Tangenten.
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Bestimme die Multiplizität und die Tangenten im Nullpunkt
+
+\mathl{(0,0)}{} der ebenen algebraischen Kurve
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{C
+}
+
+{ =} { V \left(  Y^4+X^3+3XY^2+2X^2Y  \right)
+}
+
+{ \subseteq} { {\mathbb A}^{2}_{ {\mathbb C}}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Bestimme über die partiellen Ableitungen für das durch das Polynom
+
+
+\mathdisp {V^3+U^2V-2UV+2U^2-4U-2V} {  }
+
+
+gegebene Nullstellengebilde einen singulären Punkt. Führe eine Koordinatentransformation durch, die diesen Punkt in den Nullpunkt überführt. Bestimme die Multiplizität und die Tangenten in diesem Punkt.
+
+
+}
+
+{} {}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Cardioid} {svg} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Cardioid.svg } {} {D.328} {Commons} {CC-by-sa 3.0} {}
+
+
+\inputaufgabe
+
+{}
+
+{
+
+
+Bestimme die Singularitäten
+\zusatzklammer {mit Multiplizitäten und Tangenten} {} {}
+der durch
+
+
+\mathdisp {V \left(  \left(  X^2+Y^2  \right)^2- 2X \left(  X^2+Y^2  \right) -Y^2  \right)} {  }
+
+
+gegebenen
+
+\definitionswortenp{Kardioide}{.}
+
+
+}
+
+{} {}
+
+
+\inputaufgabegibtloesung
+
+{}
+
+{
+
+
+Betrachte die beiden reellen Kurven
+
+
+\mathdisp {V \left(  X^5-X^3+2XY+7Y^2-9  \right)} {  }
+
+
+im Punkt
+
+\mathl{(1,1)}{} und
+
+
+\mathdisp {V \left(  X^4+Y^4-3X^2Y^2 +5X+7Y  \right)} {  }
+
+
+im Nullpunkt. Sind diese beiden Kurven lokal in den angegebenen Punkten zueinander
+\definitionsverweis {diffeomorph}{}{?}
+
+
+}
+
+{} {}
+
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+
+\inputaufgabe
+
+{3}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+der
+\definitionsverweis {Charakteristik}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{p
+}
+
+{ \geq }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Man charakterisiere die Polynome
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit der Eigenschaft, dass
+\aufzaehlungdrei{die erste
+\definitionsverweis {partielle Ableitung}{}{,}
+}{die zweite partielle Ableitung,
+}{beide partiellen Ableitungen
+}
+$0$ sind.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{4}
+
+{
+
+
+Bestimme für die
+\definitionsverweis {Kurve}{}{}
+
+
+\mathl{V \left(  X^3+Y^3-3XY+1  \right)}{} die
+\definitionsverweis {singulären Punkte}{}{}
+über $\R$ und über ${\mathbb C}$. Man gebe jeweils die
+\definitionsverweis {Multiplizität}{}{}
+und die
+\definitionsverweis {Tangenten}{}{}
+an.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{3}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ G,H
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+Polynome mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ G(P)
+}
+
+{ = }{ H(P)
+}
+
+{ = }{ 0
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+für einen bestimmten Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ \in }{ {\mathbb A}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ = }{ GH
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Zeige, dass jede
+\definitionsverweis {Tangente}{}{}
+von $G$ in $P$ und jede Tangente von $H$ in $P$ auch eine Tangente von $F$ in $P$ ist.
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{6}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{.}
+Betrachte die
+\definitionsverweis {Kurve}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ C
+}
+
+{ =} { V \left(  x^3+5x^2y-6xy^2-x^2-xy+4y^2  \right)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+\aufzaehlungdreiabc{Bestimme die
+\definitionsverweis {Tangenten}{}{}
+im Nullpunkt.
+}{Zeige, dass
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ P
+}
+
+{ =} { (1,2)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+ein Punkt der Kurve ist, und berechne die Tangente(n) von $C$ in $P$ über die Ableitung.
+}{Führe eine Variablentransformation derart durch, dass $P$ in den neuen Variablen der Nullpunkt ist, und bestimme die Tangente(n) in $P$ aus der transformierten Kurvengleichung.
+}
+
+
+}
+
+{} {}
+
+
+\inputaufgabe
+
+{4}
+
+{
+
+
+Bestimme für die
+\definitionsverweis {algebraische Kurve}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{C
+}
+
+{ =} { V \left(  9y^4+10x^2y^2+x^4-12y^3-12x^2y+4y^2  \right)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+die
+\definitionsverweis {Singularitäten}{}{}
+sowie deren
+\definitionsverweis {Multiplizitäten}{}{}
+und
+\definitionsverweis {Tangenten}{}{.}
+
+
+}
+
+{\zusatzklammer {Vergleiche dazu
+Beispiel 8.5.} {} {}} {}

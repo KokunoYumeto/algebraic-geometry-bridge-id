@@ -1,0 +1,138 @@
+{
+  "schema": "ag-bridge-cumulative-reader-qa-v4",
+  "status": "PASS",
+  "verified_date": "2026-08-25",
+  "through_unit": 24,
+  "language": "id-ID",
+  "coverage": {
+    "lectures": 24,
+    "worksheets": 24,
+    "exercises": 622,
+    "public_source_solutions": 114,
+    "reader_media_positions": 83,
+    "stable_source_ids": 1330,
+    "mathml_nodes": 9514
+  },
+  "html": {
+    "path": "build/reader-id/index.html",
+    "bytes": 13156471,
+    "sha256": "3753f3a8dc15d8aa1916ecd461b555c3b854139e216cef18d92e6c699258d61f",
+    "ids": 2555,
+    "images": 83,
+    "mathml_nodes": 9514,
+    "tex_annotations": 9514,
+    "internal_links": 1380,
+    "broken_internal_links": 0,
+    "remote_images": 0,
+    "empty_alt": 0
+  },
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-24.pdf",
+    "bytes": 8130610,
+    "sha256": "407343d0a203e25cb6d5357907da4b6a66c6a4836c5e5fcf17b4599621d1a473",
+    "pages": 417,
+    "paper": "A4",
+    "encrypted": false,
+    "terminal_start_page": 365,
+    "terminal_pages_checked": 53,
+    "terminal_marker_pages": {
+      "Solusi Soal 22.18": 388,
+      "Kuliah 22: Dimensi Penyematan serta Titik Mulus dan Singular": 365,
+      "Soal 22.23": 383,
+      "Kredit media Unit 22": 416,
+      "Solusi Soal 23.5": 399,
+      "Kuliah 23: Ruang Kotangen dan Multiplisitas Hilbert-Samuel": 389,
+      "Soal 23.12": 398,
+      "Kredit media Unit 23": 417,
+      "Solusi Soal 24.4": 411,
+      "Kuliah 24: Garis Singgung dan Gelanggang Deret Pangkat Formal": 400,
+      "Soal 24.10": 410,
+      "Kredit media Unit 24": 417
+    }
+  },
+  "build_receipt": {
+    "path": "build/reader-id/BUILD_RECEIPT.json",
+    "bytes": 37886,
+    "sha256": "4f9af8162525a4d6dd06920e7cb279bd17dae2df71dd3a4befe65afdb5a56615",
+    "input_count": 201,
+    "source_markdown_input_count": 96,
+    "output_count": 2,
+    "html_log_bytes": 0,
+    "pdf_log_bytes": 0
+  },
+  "authority_units_22_24": {
+    "22": {
+      "exercises": 23,
+      "solutions": [
+        5,
+        6,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18
+      ],
+      "media_positions": 7,
+      "manifest_sha256": "fefb7f6221a3e71b94649f03c75693f9eb34ec228cedf0af7d9e332aeda7d38a",
+      "translation_qa_sha256": "b3baa6c90925f3c297ec1531c2d04659e35e23656c0d4e6b548a815d02d17ed6"
+    },
+    "23": {
+      "exercises": 12,
+      "solutions": [
+        4,
+        5
+      ],
+      "media_positions": 0,
+      "manifest_sha256": "f7ee49a4bfa589b831c1fdb69e6f091ac1762d9da019a133670e4e0d723d34ae",
+      "translation_qa_sha256": "f0acd4d9693492c995f74db28e5d5f35833f25213181a514252409c64c097d9a"
+    },
+    "24": {
+      "exercises": 10,
+      "solutions": [
+        4
+      ],
+      "media_positions": 0,
+      "manifest_sha256": "3731896a5980c565d9d69a2e01eee497f13b6f449f2f9c701fce726271c026a5",
+      "translation_qa_sha256": "bb7e2716cd1a6438e7e3ccfbec412c5e838c118f88a22d0090c41f0ca24a9011"
+    }
+  },
+  "baseline_and_checkpoint_facts": [
+    {
+      "path": "qa/UNITS_01_21_MACHINE_QA.json",
+      "bytes": 7308,
+      "sha256": "adace78a568ecb84c97077965d82a4ca13a849b7455db0b8872546486dcabdd0"
+    },
+    {
+      "path": "qa/UNIT_21_PROTECTED_SURFACES.json",
+      "bytes": 1977,
+      "sha256": "35eee319508f364c73f32627ffb69b376bd15bb978e4d1694765dc06538eb6ba"
+    },
+    {
+      "path": "qa/UNIT_22_TRANSLATION_QA.json",
+      "bytes": 5620,
+      "sha256": "b3baa6c90925f3c297ec1531c2d04659e35e23656c0d4e6b548a815d02d17ed6"
+    },
+    {
+      "path": "qa/UNIT_23_TRANSLATION_QA.json",
+      "bytes": 5842,
+      "sha256": "f0acd4d9693492c995f74db28e5d5f35833f25213181a514252409c64c097d9a"
+    },
+    {
+      "path": "qa/UNIT_24_TRANSLATION_QA.json",
+      "bytes": 6340,
+      "sha256": "bb7e2716cd1a6438e7e3ccfbec412c5e838c118f88a22d0090c41f0ca24a9011"
+    }
+  ],
+  "checks": [
+    "exact Units 1-21 machine/protected baselines bound",
+    "Units 22-24 authority and translation QA identities replayed dynamically from PASS receipts",
+    "all 201 build-receipt inputs replayed from recorded bytes and hashes",
+    "cumulative IDs, exercises, solutions, and media measured from bound source/authority inputs",
+    "HTML IDs, MathML/TeX annotations, media alts, anchors, and local resources closed",
+    "PDF metadata, A4 geometry, measured terminal boundary, and ordered markers closed",
+    "Pandoc warning logs empty; no placeholder or secret-like source content"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

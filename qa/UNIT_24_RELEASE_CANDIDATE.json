@@ -1,0 +1,90 @@
+{
+  "schema": "ag-bridge-release-candidate-v3",
+  "frozen_date": "2026-08-25",
+  "status": "PASS_RELEASE_READY",
+  "release_state": "verified_cumulative_checkpoint_ready_for_existing_github_and_zenodo_lineages",
+  "through_unit": 24,
+  "planned_classical_units": 30,
+  "classical_volume_complete": false,
+  "full_two_volume_edition_complete": false,
+  "language": "id-ID",
+  "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "source_course_boundary": {
+    "units_01_23": "Algebraische Kurven (Osnabrück 2025–2026)",
+    "unit_24": "Algebraische Kurven (Osnabrück 2012)"
+  },
+  "authority": {
+    "unit_22": {
+      "manifest": {"path": "authority/wikiversity/unit-22/UNIT_AUTHORITY_MANIFEST.json", "sha256": "fefb7f6221a3e71b94649f03c75693f9eb34ec228cedf0af7d9e332aeda7d38a", "lecture_revid": 1051397, "worksheet_revid": 1062660},
+      "exercise_map_sha256": "d4b1d1f0a08de69d6fb7da513b8bce9ebaf697d5dad51632d0db063925d05f1e",
+      "rights_sha256": "1c7d8493693002363e2482db54c0c421e7124faefc824eddb7a20daf81f071d4",
+      "asset_closure_sha256": "f0647334a7bd2b2bd1172dce5296812efd80dafadc4376268409a2a063607c45"
+    },
+    "unit_23": {
+      "manifest": {"path": "authority/wikiversity/unit-23/UNIT_AUTHORITY_MANIFEST.json", "sha256": "f7ee49a4bfa589b831c1fdb69e6f091ac1762d9da019a133670e4e0d723d34ae", "lecture_revid": 1112318, "worksheet_revid": 1062659},
+      "exercise_map_sha256": "fdfec83fe1ef4f0d87eca194f2991805cd69ff2af070b73ef83c0ba1c9d1e4c4",
+      "rights_sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544",
+      "asset_closure_sha256": "d6bd0435e6c24d3085e8b4282d89bc263c4957b699d92d5c8409f7c16a43da64"
+    },
+    "unit_24": {
+      "manifest": {"path": "authority/wikiversity/unit-24/UNIT_AUTHORITY_MANIFEST.json", "sha256": "3731896a5980c565d9d69a2e01eee497f13b6f449f2f9c701fce726271c026a5", "lecture_revid": 933672, "worksheet_revid": 793492},
+      "exercise_map_sha256": "250744d177bc2d5cf2a1cc506a99e05f1250c771de88b214a0e8d5cabfe7b9b8",
+      "rights_sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544",
+      "asset_closure_sha256": "6fe01774a095a6ed24549b8972fc1447d938a5d8868bd3bcc55691e88afea579"
+    }
+  },
+  "reader": {
+    "html": {"path": "build/reader-id/index.html", "bytes": 13156471, "sha256": "3753f3a8dc15d8aa1916ecd461b555c3b854139e216cef18d92e6c699258d61f"},
+    "pdf": {"path": "build/reader-id/algebraic-geometry-bridge-id-units-01-24.pdf", "bytes": 8130610, "sha256": "407343d0a203e25cb6d5357907da4b6a66c6a4836c5e5fcf17b4599621d1a473", "pages": 417},
+    "build_receipt": {"path": "build/reader-id/BUILD_RECEIPT.json", "bytes": 37886, "sha256": "4f9af8162525a4d6dd06920e7cb279bd17dae2df71dd3a4befe65afdb5a56615"}
+  },
+  "coverage": {
+    "lectures": 24,
+    "worksheets": 24,
+    "exercises": 622,
+    "public_source_solutions": 114,
+    "reader_media_positions": 83,
+    "native_backend_records": 18488,
+    "stable_source_ids": 1330,
+    "mathml_nodes": 9514
+  },
+  "qa": {
+    "machine": {"path": "qa/UNITS_01_24_MACHINE_QA.json", "sha256": "8c9e0fdf4817c6fef955007abdca4b49eb4e3dbddcc12804b04646ac1ac3dbd3", "status": "PASS"},
+    "visual": {"path": "qa/UNITS_01_24_VISUAL_QA.json", "sha256": "cad1b35e9b0df72f97babc2be026086fbdfbf0a8cc85e57e6fc34b488650f9fe", "status": "PASS", "all_pages_reviewed": true},
+    "responsive": {"path": "qa/UNITS_01_24_RESPONSIVE_QA.json", "sha256": "0e9599a32cf3523ffc1a4503fb20ee3c1cae4b528b3cc46353873f57ab8b9594", "status": "PASS"},
+    "protected_surfaces": {"path": "qa/UNIT_24_PROTECTED_SURFACES.json", "sha256": "afcb17362e90f8492b78eeaf5022f0bca1ee193c2ee1cff6ed0e33f235622580", "status": "PASS"},
+    "backend": {"path": "qa/UNITS_01_24_BACKEND_QA.json", "sha256": "90d0422fae73b1e1281b00296dad4122317be8bd855ca74153ea6919ee198e7c", "status": "PASS"},
+    "translation": {"path": "qa/UNIT_24_TRANSLATION_QA.json", "sha256": "bb7e2716cd1a6438e7e3ccfbec412c5e838c118f88a22d0090c41f0ca24a9011", "status": "PASS"}
+  },
+  "backend": {
+    "native_manifest": {"path": "backend/units-01-24/MANIFEST.json", "bytes": 15347, "sha256": "46ed6d1dc2629cd5303a38c972dff9fc885255fe3443374feafee8ecc07dd70a"},
+    "native_records": {"path": "backend/units-01-24/records.jsonl", "bytes": 29576844, "sha256": "b2550dc11285eec35e1e08eef58284fcf5d88ea9206eabac9fd4b921df43f0c7", "records": 18488},
+    "unit_21_records_preserved": 16114,
+    "deterministic_double_replay": true,
+    "common_adapter_preflight": {"status": "PASS", "virtual_records": 43917, "virtual_bytes": 70391201, "virtual_sha256": "dd2af40107d10fecf1b92e46667f3c4b7b4a9837fb18bcc927ffaa5660d801b7", "foreign_keys_checked": 104581, "native_reverse_sha256": "b2550dc11285eec35e1e08eef58284fcf5d88ea9206eabac9fd4b921df43f0c7"}
+  },
+  "rights": {
+    "translated_text": "CC BY-SA 4.0",
+    "unit_24_pdf_component_notices": ["CC BY-SA 4.0 course route", "CC BY-SA 2.0 Germany file notice"],
+    "media": "per-component rights in authority/RIGHTS*.csv and reader credits",
+    "blanket_file_set_license_claimed": false,
+    "license_notice": "LICENSE.md",
+    "non_endorsed_independent_derivative": true
+  },
+  "publication": {
+    "zenodo": {"state": "publication_due_to_existing_concept", "concept_doi": "10.5281/zenodo.22059686"},
+    "github": {"state": "publication_due_after_package", "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id", "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/", "target_tag": "unit-24"}
+  },
+  "checks": {
+    "authority_solution_media_rights_closure": true,
+    "translation_and_math_fidelity": true,
+    "machine_visual_responsive_and_accessibility_qa": true,
+    "native_backend_schema_closure_and_replay": true,
+    "common_backend_v1_adapter_preflight": true,
+    "credential_findings": 0,
+    "ready_for_packaging": true,
+    "ready_for_publication": true
+  },
+  "next_action": "Create the deterministic reader-first Unit 24 package, finalize the common-adapter receipt against the seven non-circular release files, publish to the existing Zenodo concept and GitHub lineage, anonymously verify each public byte, then advance the source cursor to Unit 25."
+}
