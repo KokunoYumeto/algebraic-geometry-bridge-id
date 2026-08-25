@@ -1,0 +1,85 @@
+{
+  "schema": "ag-bridge-release-candidate-v3",
+  "frozen_utc": "2026-08-25T01:34:50.3765391Z",
+  "status": "PASS_RELEASE_READY",
+  "release_state": "verified_cumulative_checkpoint_ready_for_existing_github_and_zenodo_lineages",
+  "through_unit": 21,
+  "planned_classical_units": 30,
+  "classical_volume_complete": false,
+  "full_two_volume_edition_complete": false,
+  "language": "id-ID",
+  "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "authority": {
+    "unit_19": {
+      "manifest": {"path": "authority/wikiversity/unit-19/UNIT_AUTHORITY_MANIFEST.json", "sha256": "52245060a54f973b4fba19878eec234904430b9e5058defdbd9feaa7a868080e", "lecture_revid": 1051386, "worksheet_revid": 1068448},
+      "exercise_map": {"path": "authority/wikiversity/unit-19/ORDERED_EXERCISE_MAP.json", "sha256": "f75bcc8e564cef327687b486bb074fa8c799b065994f4a1d79e7abf2b78b30dd", "exercises": 15, "public_solutions": [4, 12]},
+      "rights_sha256": "1feb699d361be0379de5c785cc6c073adf3d47d31c8b07df3db1d3fc6ed7bdb1",
+      "asset_closure_sha256": "4ee0c05610b30f25038484a4dc147bdcddda9ebb29cfbded53d4e72a5b32be4e"
+    },
+    "unit_20": {
+      "manifest": {"path": "authority/wikiversity/unit-20/UNIT_AUTHORITY_MANIFEST.json", "sha256": "b063e5edc556cd18598389083ea27ea7f255edfe2ae00e13ebf24de76e5b37d7", "lecture_revid": 1112311, "worksheet_revid": 1062603},
+      "exercise_map": {"path": "authority/wikiversity/unit-20/ORDERED_EXERCISE_MAP.json", "sha256": "c74da7b0627cf8c8c694c0a9f20e94b0c7dc00ecd6c95b72ad21ae4a6c5c07ea", "exercises": 23, "public_solutions": [1, 3, 4, 5, 12, 13, 14, 17]},
+      "rights_sha256": "09b85688b10784cf2c7e7aec9d017eb4d0403faf0b96ef8561b789168d19f565",
+      "asset_closure_sha256": "5ab57774999d4f293533a8fb14ad4e50d6caa1fba3d2664428c32d15f935c185"
+    },
+    "unit_21": {
+      "manifest": {"path": "authority/wikiversity/unit-21/UNIT_AUTHORITY_MANIFEST.json", "sha256": "d85444ddfc66c8e77d52db3f3abc0a186e5dd598789edaaf890b3c09cf00f923", "lecture_revid": 1112312, "worksheet_revid": 1062605},
+      "exercise_map": {"path": "authority/wikiversity/unit-21/ORDERED_EXERCISE_MAP.json", "sha256": "9329621bbdd62df63f01d7298dc2a4a65a296211db131f8d8730b7d308fd5f47", "exercises": 26, "public_solutions": [3, 8]},
+      "rights_sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544",
+      "asset_closure_sha256": "8708a399d7c950101609281c14fe4e48eb02aa70335a7ad6cf7ef4194e9bc483"
+    }
+  },
+  "reader": {
+    "html": {"path": "build/reader-id/index.html", "bytes": 12388419, "sha256": "ae658bee5191e4d0be529d38ec7eb9fd2e287295237be4bbb98a58b4709c6700"},
+    "pdf": {"path": "build/reader-id/algebraic-geometry-bridge-id-units-01-21.pdf", "bytes": 7409373, "sha256": "b95fd1ed0ea75294cd4562b7f2f36e920e247e2da5e1b039e99e975f9797a3e6", "pages": 367},
+    "build_receipt": {"path": "build/reader-id/BUILD_RECEIPT.json", "bytes": 31430, "sha256": "71b4e362d354c3c9ff827c60b791a00ccc8544b8039aebc3a6eb753261dc32e1"}
+  },
+  "coverage": {
+    "lectures": 21,
+    "worksheets": 21,
+    "exercises": 577,
+    "public_source_solutions": 102,
+    "reader_media_positions": 76,
+    "native_backend_records": 16114,
+    "stable_source_ids": 1194,
+    "mathml_nodes": 8521
+  },
+  "qa": {
+    "machine": {"path": "qa/UNITS_01_21_MACHINE_QA.json", "sha256": "adace78a568ecb84c97077965d82a4ca13a849b7455db0b8872546486dcabdd0", "status": "PASS"},
+    "visual": {"path": "qa/UNITS_01_21_VISUAL_QA.json", "sha256": "4a367bed778a5fc9de4fac2f28d50f5de5ed14b438b73d78dea495bee4d9bc98", "status": "PASS", "all_pages_reviewed": true},
+    "responsive": {"path": "qa/UNITS_01_21_RESPONSIVE_QA.json", "sha256": "3ff374ef507a5682216cf36e93c9240bd13257777a99095a586d28ad71607bdc", "status": "PASS"},
+    "protected_surfaces": {"path": "qa/UNIT_21_PROTECTED_SURFACES.json", "sha256": "35eee319508f364c73f32627ffb69b376bd15bb978e4d1694765dc06538eb6ba", "status": "PASS"},
+    "backend": {"path": "qa/UNITS_01_21_BACKEND_QA.json", "sha256": "54cd996d7f01fad934926327dd88398b5ce18791f5fa85fd6a4135fcd079f25e", "status": "PASS"},
+    "terminology": {"path": "qa/TERMINOLOGY_QA_RECEIPT.json", "sha256": "20c59a7cca152b4129492656f0d16089b7cd5c3b9573e677978037f15eebc2e2", "status": "PASS"}
+  },
+  "backend": {
+    "native_manifest": {"path": "backend/units-01-21/MANIFEST.json", "bytes": 15341, "sha256": "d2afc26b3c81c8b57e585c2a7bc4ac683a740403a527e9bfd203a88e45a3363d"},
+    "native_records": {"path": "backend/units-01-21/records.jsonl", "bytes": 25689040, "sha256": "ac9e40ad50e6dfdef977036999cebc5bc443d1064283c86eb30999b461a8872f", "records": 16114},
+    "unit_18_records_preserved": 13626,
+    "deterministic_double_replay": true,
+    "common_adapter": {"path": "backend/common-backend-v1/MIGRATION_RECEIPT.json", "status": "PASS", "virtual_records": 38336, "virtual_bytes": 61371625, "virtual_sha256": "035dc35ae424a614829294b4777724d666ac6ce6efd888e4fe07e48292bad17b", "foreign_keys_checked": 91289, "native_reverse_sha256": "ac9e40ad50e6dfdef977036999cebc5bc443d1064283c86eb30999b461a8872f", "final_receipt_hash_bound_after_package_byte_closure": true}
+  },
+  "rights": {
+    "translated_text": "CC BY-SA 4.0",
+    "media": "per-component rights in authority/RIGHTS*.csv and reader credits",
+    "blanket_file_set_license_claimed": false,
+    "license_notice": "LICENSE.md",
+    "non_endorsed_independent_derivative": true
+  },
+  "publication": {
+    "zenodo": {"state": "reserved_existing_concept", "record_id": 22088753, "doi": "10.5281/zenodo.22088753", "concept_doi": "10.5281/zenodo.22059686", "record_url": "https://zenodo.org/records/22088753"},
+    "github": {"state": "publication_due_after_package", "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id", "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/", "target_tag": "unit-21"}
+  },
+  "checks": {
+    "authority_solution_media_rights_closure": true,
+    "translation_and_math_fidelity": true,
+    "machine_visual_responsive_and_accessibility_qa": true,
+    "native_backend_schema_closure_and_replay": true,
+    "common_backend_v1_adapter_validation": true,
+    "credential_findings": 0,
+    "ready_for_packaging": true,
+    "ready_for_publication": true
+  },
+  "next_action": "Create the deterministic reader-first Unit 21 package, finalize the common-adapter receipt against its exact seven non-circular release files, publish to the reserved existing Zenodo version and existing GitHub lineage, anonymously verify each public file, then advance the source cursor to Unit 22."
+}

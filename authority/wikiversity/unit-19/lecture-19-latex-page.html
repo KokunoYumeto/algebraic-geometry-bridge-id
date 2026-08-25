@@ -1,0 +1,862 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{19}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Restklassendarstellung für monomiale Kurven}
+</p><p>Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ M
+}<br />{ \subseteq }{ \N
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein 
+\definitionsverweis {numerisches Monoid}{}{,}
+das von den teilerfremden natürlichen Zahlen <br />\mathl{e_1  , \ldots , e_n}{} erzeugt werde. Die zugehörige Surjektion
+\maabb {} { \N^n } { M \subseteq \N
+} {}
+führt zu einer Surjektion
+\maabbeledisp {} { K[X_1  , \ldots , X_n] } { K[M]
+} { X_i } { T^{e_i}} {,}
+und einer abgeschlossenen Einbettung <br />\mathl{C=K\!-\!\operatorname{Spek}\, \left(  K[M]  \right) \hookrightarrow { {\mathbb A}_{ K }^{ n  } }}{.} Durch welche Gleichungen lässt sich $C$ beschreiben?
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Affine Kurven/Monomiale Kurven/Beschreibende binomiale Gleichungen/Fakt}<br />{Satz}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ M
+}<br />{ \subseteq }{ \N
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+ein durch teilerfremde Elemente <br />\mathl{e_1 , \ldots , e_n}{} erzeugtes Untermonoid und sei
+\maabb {} { \N^n } { M
+} {} 
+die zugehörige surjektive Abbildung mit dem zugehörigen Restklassenhomomorphismus 
+\maabb {\varphi} { K[X_1 , \ldots , X_n] } { K[M]
+} {.}}<br />\faktfolgerung {Dann wird das Kernideal durch
+<br />\mavergleichskettedisphandlinks<br />{\vergleichskettedisphandlinks<br />{ \ker \varphi  \! 
+}<br />{ =} {  \! \left(  \prod_{i \in I_1 } X_i^{r_i } - \prod_{i \in I_2 } X_i^{s_i }&#160;:\, I_1, I_2 \subseteq \{1, \ldots ,n\} \text{ disjunkt }, \sum_{i \in I_1 } r_ie_i = \sum_{i \in I_2 } s_ie_i  \!  \right)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+\zusatzklammer {mit
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ r_i, s_i
+}<br />{ \geq }{ 1
+}<br />{  }{
+}<br />{    }{ 
+}<br />{   }{}<br />}
+{}{}{}} {} {}
+beschrieben.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Dass die angegebenen Elemente zum Kernideal gehören, folgt direkt aus
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \varphi \left(  \prod_{i \in I_1 } X_i^{r_i }  \right)  
+}<br />{ =} { \prod_{i \in I_1 } \left(  t^{e_i }  \right)^{r_i }
+}<br />{ =} { t^{\sum_{i \in I_1 } r_ie_i } 
+}<br />{ } {}<br />{ } {}<br />}
+{}{}{.}
+Für die Umkehrung sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ F
+}<br />{ \in }{ K[X_1 , \ldots , X_n]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+ein Polynom mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \varphi (F)
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Wir schreiben
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ F 
+}<br />{ =} { \sum_\nu a_\nu X^{\nu}
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+\zusatzklammer {mit
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ \nu
+}<br />{ = }{  \left(  \nu_1 , \ldots ,  \nu_n  \right) 
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{}<br />}
+{}{}{}} {} {.}
+Daher ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \varphi(F)
+}<br />{ =} { \sum_\nu a_\nu t^{\sum_{i=1}^n \nu_ie_i }
+}<br />{ =} { \sum_{k=0} \left(  \sum_{ \nu&#160;: \,  \sum_{i = 1}^n \nu_i e_i = k  } a_\nu  \right)t^k
+}<br />{ } {}<br />{ } {}<br />}
+{}{}{.} 
+Da dieses Polynom gleich $0$ ist, müssen alle Koeffizienten $0$ sein, d.h. zu jedem $k$ gehört auch
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ F_k 
+}<br />{ =} { \sum_{ \nu&#160;: \,  \sum_{i = 1}^n \nu_i e_i = k } a_\nu X^\nu
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+zum Kern. Wir können also annehmen, dass in $F$ nur Monome $X^\nu$ mit dem gleichen Wert
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \sum_{i = 1}^n \nu_ie_i
+}<br />{ = }{ k
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+vorkommen. Betrachten wir ein solches Monom aus $F$, sagen wir $X^\nu$
+\zusatzklammer {mit
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{ a_\nu
+}<br />{ \neq }{ 0
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {.}
+Es muss in $F$ mindestens noch ein weiteres Monom, sagen wir $X^\mu$, vorkommen, da ein einzelnes Monom nicht auf $0$ abgebildet wird. Wir schreiben
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ F 
+}<br />{ =} { a_\nu  \left(  X^\nu -X^\mu  \right)  + \left(  F- a_\nu X^\nu + a_\nu X^\mu  \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Im Summanden rechts kommt $X^\nu$ nicht mehr vor, und es kommt auch kein neues Monom hinzu. In <br />\mathl{X^\nu-X^\mu}{} können wir diejenigen Variablen, die beidseitig auftreten, so weit ausklammern, dass sich ein Ausdruck der Form
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ X^\nu-X^\mu
+}<br />{ =} { X_1^{b_1 } \cdots X_n^{b_n } \left(  \prod_{i \in I_1 } X_i^{r_i }- \prod_{i \in I_2 } X_i^{s_i }  \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit disjunkten $I_1$ und $I_2$ und mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \sum_{i \in I_1 }e_ir_i
+}<br />{ = }{ \sum_{i \in I_2 }e_is_i
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ergibt. Der linke Summand in obiger Beschreibung von $F$ gehört also zu dem von den angegebenen Binomen erzeugten Ideal und wir können mit dem rechten Summanden, in dem ein Monom weniger vorkommt, fortfahren.
+</p>
+</div>
+}</div>
+<p><br />
+Die im vorstehenden Satz auftretenden Gleichungen nennt man \stichwort {binomiale Gleichungen} {.} Die einfachsten binomialen Gleichungen sind von der Bauart
+\zusatzklammer {<br />\mavergleichskettek<br />{\vergleichskettek<br />{ i
+}<br />{ \neq }{ j
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}} {} {}
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ X_i^{e_j/\operatorname{ggT}(e_i,e_j)}
+}<br />{ =} { X_j^{e_i/\operatorname{ggT}(e_i,e_j)}
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Im Fall von ebenen monomialen Kurven ist das auch die einzige Gleichung.
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Ebene affine Kurven/Monomiale Kurve/Beschreibende Gleichung/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es sei $C$ die durch <br />\mathl{t \mapsto (t^{e_1 }, t^{e_2 })=(x,y)}{}
+\zusatzklammer {mit $e_1,e_2$ teilerfremd} {} {}
+gegebene monomiale ebene Kurve.}<br />\faktfolgerung {Dann ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{C
+}<br />{ =} { V(X^{e_2 }-Y^{e_1 })
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Dies folgt sofort aus
+<a href="/wiki/Affine_Kurven/Monomiale_Kurven/Beschreibende_binomiale_Gleichungen/Fakt" title="Affine Kurven/Monomiale Kurven/Beschreibende binomiale Gleichungen/Fakt">Satz 19.1</a>.
+</p>
+</div>
+}</div>
+<p><br />
+Bei monomialen Raumkurven lassen sich die beschreibenden Gleichungen auch noch einigermaßen einfach bestimmen, da man immer eine Variable isolieren kann.
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>$\,$
+<br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungpng {Twisted_cubic_curve} {png} }<br />\end{center} <br />\bildtext {} }<br /><br />\bildlizenz { Twisted cubic curve.png } {Claudio Rocchini} {} {Commons} {CC-BY-SA-3.0} {}<br /> <br />
+</p><p>Es sei 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ C
+}<br />{ \subset }{ { {\mathbb A}_{  K  }^{  3   } }
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+die \anfuehrung{gedrehte Kubik}{,} also das Bild der monomialen Abbildung, die durch <br />\mathl{t \mapsto \left(  t,t^2,t^3  \right)}{} gegeben ist. Diese Kurve ist isomorph zu einer affinen Geraden und insbesondere glatt. Das beschreibende Ideal ist nach
+<a href="/wiki/Affine_Kurven/Monomiale_Kurven/Beschreibende_binomiale_Gleichungen/Fakt" title="Affine Kurven/Monomiale Kurven/Beschreibende binomiale Gleichungen/Fakt">Satz 19.1</a>
+gleich
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ {\mathfrak a}
+}<br />{ =} { \left(  Y-X^2,Z-X^3,Y^3-Z^2,Z-XY  \right) 
+}<br />{ =} { \left(  Y-X^2,Z-X^3  \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Die beiden letzten Idealerzeuger sind dabei überflüssig, da sie sich durch die beiden anderen ausdrücken lassen. Insgesamt ist also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ C 
+}<br />{ =} { V \left(  Y-X^2,Z-X^3  \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Die Bilder von $C$ unter den drei verschiedenen Projektionen sind
+<br />\mathdisp {C_1 = V \left(  Z^2-Y^3  \right) ,\, C_2 = V \left(  Z-X^3  \right) , \, C_3 = V \left(  Y-X^2  \right)} { . }<br />
+Dabei sind $C_2$ und $C_3$ isomorph zur affinen Geraden
+\zusatzklammer {als Graph einer Abbildung} {} {,}
+während $C_1$ die singuläre Neilsche Parabel ist.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $C$ die durch
+<br />\mathdisp {t \longmapsto (t^3,t^4,t^5) = (x,y,z)} {  }<br />
+gegebene monomiale Kurve. Für jede der drei Variablen müssen wir gemäß
+<a href="/wiki/Affine_Kurven/Monomiale_Kurven/Beschreibende_binomiale_Gleichungen/Fakt" title="Affine Kurven/Monomiale Kurven/Beschreibende binomiale Gleichungen/Fakt">Satz 19.1</a>
+schauen, welche Potenzen davon, wenn man die $t$-Potenzen substituiert, sich auch als Monom in den beiden anderen Variablen ausdrücken lassen.
+</p><p>Zunächst haben wir die Gleichungen, in denen jeweils nur zwei Variablen vorkommen. Das sind
+<br />\mathdisp {Y^3 = X^4,\, Z^3 = X^5, \, Z^4 = Y^5} { . }<br />
+Hier kann es, wie im ebenen Fall, immer nur eine Beziehung geben.
+</p><p>In den Relationen, wo alle drei Variablen beteiligt sind, kommt eine der Variablen allein vor. Starten wir mit $X$. Zunächst lassen sich $X$ und $X^2$ nicht durch die anderen Variablen ausdrücken, dafür haben wir
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X^3
+}<br />{ = }{ T^9
+}<br />{ = }{ YZ
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Eine andere 
+\zusatzklammer {davon unabhängige} {} {}
+Kombination ist nicht möglich. Grundsätzlich impliziert eine mehrfache Darstellung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X^k
+}<br />{ = }{ Y^{i}Z^{j} 
+}<br />{ = }{ Y^{a}Z^{b}
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+dass man zwischen Potenzen von $Y$ und von $Z$ eine Beziehung hat, da man ja die kleineren Potenzen rauskürzen kann. Da wir alle Relationen mit nur zwei Variablen schon aufgelistet haben, liefert eine Potenz von $X$ immer nur maximal eine neue Relation. Wir behaupten, dass wir für $X$ alleinstehend schon fertig sind. Ist nämlich
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X^k
+}<br />{ = }{ Y^{i}Z^{j}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+so ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ k
+}<br />{ \geq }{ 3
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ i
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+oder
+<br />\mavergleichskette<br />{\vergleichskette<br />{ j
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+haben wir die Gleichungen schon aufgelistet. Es sei also
+<br />\mavergleichskette<br />{\vergleichskette<br />{ i,j
+}<br />{ \geq }{ 1
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dann kann man aber mittels der Gleichung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ X^3
+}<br />{ = }{ YZ
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+die Exponenten in der Gleichung kleiner machen
+\zusatzklammer {indem man den Exponenten von $X$ um $3$ reduziert und die Exponenten von $Y$ und von $Z$ um $1$} {} {.}
+</p><p>Für $Y$ hat man sofort die Gleichung
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Y^2
+}<br />{ = }{ ZX
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+mit der man wieder alle anderen Gleichungen reduzieren kann.
+</p><p>Für $Z$ hat man
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Z^2
+}<br />{ = }{ X^2Y
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Z^3
+}<br />{ = }{ XY^3
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Es gibt keine kleineren Monome in $X$ und $Y$, die man als Potenz von $Z$ ausdrücken kann. Daher kann man jede andere Relation mittels einer von diesen auf eine frühere zurückführen.
+</p><p>Insgesamt haben wir also für die Kurve $C$ die Gleichungen
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ C
+}<br />{ =} { V( Y^3-X^4, Z^3-X^5, Z^4-Y^5, <br /> \mathdisplaybruch X^3-YZ, Y^2-XZ, Z^2-X^2Y ,Z^3-XY^3 ) 
+}<br />{ } { 
+}<br />{ } { 
+}<br />{ } { 
+}<br />}
+{}{}{.}
+</p>
+</div><p><br />
+</p><p>} 
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Ganzheit}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {R} {und} {S} {}
+\definitionsverweis {kommutative Ringe}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+eine Ring\-erweiterung. Für ein Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+heißt eine Gleichung der Form
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ x^n+ r_{n-1}x^{n-1} + r_{n-2}x^{n-2} + \cdots + r_1x +r_0
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+wobei die Koeffizienten \mathind { r_{i}  } {  i=0 , \ldots , n-1   }{,} zu $R$ gehören, eine \definitionswort {Ganzheitsgleichung}{} für $x$.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {R} {und} {S} {}
+\definitionsverweis {kommutative Ringe}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine Ring\-erweiterung. Ein Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+heißt \definitionswort {ganz}{}
+\zusatzklammer {über $R$} {} {,}
+wenn $x$ eine 
+\definitionsverweis {Ganzheitsgleichung}{}{}
+mit Koeffizienten aus $R$ erfüllt.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {R} {und} {S} {}
+\definitionsverweis {kommutative Ringe}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine Ring\-erweiterung. Dann nennt man die Menge der Elemente
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+die 
+\definitionsverweis {ganz}{}{}
+über $R$ sind, den \definitionswort {ganzen Abschluss}{} von $R$ in $S$.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {R} {und} {S} {}
+\definitionsverweis {kommutative Ringe}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine Ring\-erweiterung. Dann heißt $S$ \definitionswort {ganz}{} über $R$, wenn jedes Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+\definitionsverweis {ganz}{}{}
+über $R$ ist.  
+</p>
+</div>
+<p>}
+</p><p>$S$ ist genau dann ganz über $R$, wenn der ganze Abschluss von $R$ in $S$ gleich $S$ ist.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Ringtheorie/Ganzheit/Ganzes Element/Charakterisierung/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es seien $R$ und $S$ 
+\definitionsverweis {kommutative Ringe}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine Ringerweiterung.}<br />\faktuebergang {Für ein Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+sind folgende Aussagen äquivalent.}<br />\faktfolgerung {\aufzaehlungdrei{ $x$ ist 
+\definitionsverweis {ganz}{}{}
+über $R$.
+}{Es gibt eine $R$-Unteralgebra $T$ von $S$ mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ T
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und die ein endlicher $R$-Modul ist.
+}{Es gibt einen endlichen $R$-Untermodul $M$ von $S$, der einen 
+\definitionsverweis {Nichtnullteiler}{}{}
+aus $S$ enthält, mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ xM
+}<br />{ \subseteq }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>(1) $\Rightarrow$ (2). Wir betrachten die von den Potenzen von $x$ erzeugte $R$-Unteralgebra <br />\mathl{R[x]}{} von $S$, die aus allen polynomialen Ausdrücken in $x$ mit Koeffizienten aus $R$ besteht. Aus einer Ganzheitsgleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ x^n+ r_{n-1}x^{n-1} + r_{n-2}x^{n-2} + \cdots +  r_1x +r_0
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+ergibt sich
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ x^n
+}<br />{ =} { - r_{n-1}x^{n-1} - r_{n-2}x^{n-2} - \cdots -  r_1x -r_0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Man kann also $x^n$ durch einen polynomialen Ausdruck von einem kleineren Grad ausdrücken. Durch Multiplikation dieser letzten Gleichung mit $x^{i}$ kann man jede Potenz von $x$ mit einem Exponenten $\geq n$ durch einen polynomialen Ausdruck von einem kleineren Grad ersetzen. Insgesamt kann man dann aber all diese Potenzen durch polynomiale Ausdrücke vom Grad <br />\mathl{\leq n-1}{} ersetzen. Damit ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ R[x]
+}<br />{ =} { R + Rx + Rx^2 + \cdots +  Rx^{n-2} + Rx^{n-1}
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+und die Potenzen <br />\mathl{x^0=1,x^1,x^2 , \ldots , x^{n-1}}{} bilden ein endliches $R$-Modul-Erzeugendensystem von
+<br />\mavergleichskette<br />{\vergleichskette<br />{T
+}<br />{ = }{ R[x]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+</p><p>(2) $\Rightarrow$ (3). Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ T
+}<br />{ \subseteq }{ S
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+$T$ eine $R$-Unteralgebra, die als $R$-Modul endlich erzeugt sei. Dann ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ xT
+}<br />{ \subseteq }{ T
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+und $T$ enthält den Nichtnullteiler $1$.
+</p><p>(3) $\Rightarrow$ (1). Sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{M
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein endlich erzeugter $R$-Untermodul mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ xM
+}<br />{ \subseteq }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Es seien <br />\mathl{y_1 , \ldots , y_n}{} erzeugende Elemente von $M$. Dann ist insbesondere <br />\mathl{xy_i}{} für jedes $i$ eine $R$-Linearkombination der \mathind {  y_j   } { j=1 , \ldots , n   }{.} Dies bedeutet
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ x y_i
+}<br />{ =} { \sum_{j = 1}^n r_{ij} y_j 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ r_{ij}
+}<br />{ \in }{ R
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+oder, als Matrix geschrieben,
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ x \begin{pmatrix}  y_1  \\ y_2 \\ \vdots\\ y_n   \end{pmatrix} 
+}<br />{ =} { \begin{pmatrix} r_{1,1}  &amp;  r_{1,2}  &amp;  \ldots  &amp;  r_{1,n}  \\  r_{2,1}  &amp;  r_{2,2}  &amp;  \ldots  &amp;  r_{2,n}  \\  \vdots  &amp; \vdots  &amp;  \ddots  &amp;  \vdots   \\  r_{n,1}   &amp;  r_{n,2}  &amp;  \ldots  &amp;  r_{n,n} \end{pmatrix} \begin{pmatrix}  y_1  \\ y_2 \\ \vdots\\ y_n   \end{pmatrix} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Dies schreiben wir als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ 0 
+}<br />{ =} { \begin{pmatrix}  x-r_{1,1}  &amp;  - r_{1,2}  &amp;  \ldots  &amp;  - r_{1,n}  \\  - r_{2,1}  &amp;  x -r_{2,2}  &amp;  \ldots  &amp;  - r_{2,n}  \\  \vdots  &amp; \vdots  &amp;  \ddots  &amp;  \vdots   \\  -r_{n,1}   &amp;  - r_{n,2}  &amp;  \ldots  &amp;  x- r_{n,n} \end{pmatrix} \begin{pmatrix}  y_1  \\ y_2 \\ \vdots\\ y_n   \end{pmatrix} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Nennen wir diese Matrix $A$
+\zusatzklammer {die Einträge sind aus $S$} {} {,}
+und sei <br />\mathl{A ^{ \operatorname{adj} }}{} die 
+\definitionsverweis {adjungierte Matrix}{}{.}
+Dann gilt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ A ^{ \operatorname{adj} } A y
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+\zusatzklammer {$y$ bezeichne den Vektor \mathlk{(y_1 , \ldots , y_n)}{}} {} {}
+und
+nach der <a href="/wiki/Matrix/Adjungierte/Formel_mit_Determinante/Fakt" title="Matrix/Adjungierte/Formel mit Determinante/Fakt">Cramerschen Regel</a>
+ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ A ^{ \operatorname{adj} } A
+}<br />{ = }{ (\det  A )E_n
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+also gilt
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ ((\det  A ) E_n) y
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Es ist also
+<br />\mavergleichskette<br />{\vergleichskette<br />{ (\det  A ) y_j
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+für alle $j$ und damit
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ (\det  A ) z
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+für alle
+<br />\mavergleichskette<br />{\vergleichskette<br />{z
+}<br />{ \in }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Da $M$ nach Voraussetzung einen Nichtnullteiler enthält, muss
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \det  A 
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+sein. Die Determinante ist aber ein normierter polynomialer Ausdruck in $x$ vom Grad $n$, sodass eine Ganzheitsgleichung vorliegt.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Kommutative Ringtheorie/Ganzheit/Ganzer Abschluss/Ring/Fakt}<br />{Korollar}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br />\faktvoraussetzung {Es seien
+\mathkor {} {R} {und} {S} {}
+\definitionsverweis {kommutative Ringe}{}{}
+und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine 
+\definitionsverweis {Ring\-erweiterung}{}{.}}<br />\faktfolgerung {Dann ist der 
+\definitionsverweis {ganze Abschluss}{}{}
+von $R$ in $S$ eine $R$-Unteralgebra von $S$.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die Ganzheitsgleichungen \mathind { X-r  } { r \in R   }{,} zeigen, dass jedes Element aus $R$ ganz über $R$ ist. Es seien
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_1
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_2
+}<br />{ \in }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ganz über $R$. Nach 
+der <a href="/wiki/Kommutative_Ringtheorie/Ganzheit/Ganzes_Element/Charakterisierung/Fakt" title="Kommutative Ringtheorie/Ganzheit/Ganzes Element/Charakterisierung/Fakt">Charakterisierung der Ganzheit</a>
+gibt es endliche $R$-Unteralgebren
+<br />\mavergleichskette<br />{\vergleichskette<br />{ T_1,T_2
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_1
+}<br />{ \in }{ T_1
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x_2
+}<br />{ \in }{ T_2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Es sei <br />\mathl{y_1 , \ldots , y_n}{} ein $R$-Erzeugendensystem von $T_1$ und <br />\mathl{z_1 , \ldots , z_m}{} ein $R$-Erzeugendensystem von $T_2$. Wir können annehmen, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ y_1
+}<br />{ = }{ z_1
+}<br />{ = }{ 1
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist. Betrachte den endlich erzeugten $R$-Modul
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ T
+}<br />{ =} { T_1 \cdot T_2
+}<br />{ =} { \langle y_iz_j, \, i= 1 , \ldots ,  n, \, j = 1 , \ldots , m \rangle 
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+der offensichtlich <br />\mathl{x_1+x_2}{} und <br />\mathl{x_1x_2}{}
+\zusatzklammer {und $1$} {} {}
+enthält. Dieser $R$-Modul $T$ ist auch wieder eine $R$-Algebra, da für zwei beliebige Elemente gilt
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \left(  \sum r_{ij} y_iz_j  \right) \left(  \sum s_{kl} y_kz_l  \right)
+}<br />{ =} { \sum  r_{ij}s_{kl} y_iy_k z_jz_l
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+und für die Produkte gilt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ y_iy_k 
+}<br />{ \in }{ T_1
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ z_jz_l
+}<br />{ \in }{ T_2
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+sodass diese Linearkombination zu $T$ gehört. Dies zeigt, dass die Summe und das Produkt von zwei ganzen Elementen wieder ganz ist. Deshalb ist der ganze Abschluss ein Unterring von $S$, der $R$ enthält. Also liegt eine $R$-Unteralgebra vor.
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien $R$ und $S$ 
+\definitionsverweis {kommutative Ringe}{}{}
+und 
+<br />\mavergleichskette<br />{\vergleichskette<br />{R
+}<br />{ \subseteq }{ S
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine 
+\definitionsverweis {Ringerweiterung}{}{.}
+Man nennt $R$ \definitionswort {ganz-abgeschlossen}{} in $S$, wenn der 
+\definitionsverweis {ganze Abschluss}{}{}
+von $R$ in $S$ gleich $R$ ist.  
+</p>
+</div>
+<p>}
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.codfw.main‐5f7564d76d‐w499r
+Cached time: 20260822182736
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.180 seconds
+Real time usage: 0.246 seconds
+Preprocessor visited node count: 11729/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 430821/2097152 bytes
+Template argument size: 126581/2097152 bytes
+Highest expansion depth: 34/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  228.391      1 Vorlage:Latex
+100.00%  228.391      1 -total
+ 99.39%  227.002      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesung_19
+ 98.34%  224.598      1 Kurs:Algebraische_Kurven_(Osnabrück_2025-2026)/Vorlesungsgestaltung
+ 97.45%  222.577      1 Vorlage:Kapitelnummer
+ 85.66%  195.648      2 Vorlage:Mathematischer_Textabschnitt
+ 49.72%  113.559      4 Vorlage:Inputfaktbeweis
+ 46.40%  105.983      1 Monomiale_Kurve/Affin/Restklassenbeschreibung/Textabschnitt
+ 42.05%   96.029      1 Kommutative_Ringtheorie/Ganzheit/Einführung/Textabschnitt
+ 25.03%   57.156      4 Vorlage:Mathematischer_Text/Beweis
+-->
+
+<!-- Render ID 25e0614b-9e57-11f1-a133-c939343bfe08 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:165972:|#|:idhash:canonical and timestamp 20260822182736 and revision id 1033018. Rendering was triggered because: page_view
+ -->
+</div>

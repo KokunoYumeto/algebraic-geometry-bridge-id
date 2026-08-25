@@ -1,0 +1,408 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Bewertungstheorie/Körper mit diskreter Bewertung/Diskreter Bewertungsring/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>16847</id>
+    <revision>
+      <id>1113184</id>
+      <parentid>1110775</parentid>
+      <timestamp>2026-08-22T12:14:20Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1113184</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4083" sha1="b94o8o4ehwq2ts0i6c8jrvibeucyk0w" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Zuerst zeigen wir, dass {{math|term= R |SZ=}} ein Unterring des Körpers {{math|term= K |SZ=}} ist. Es ist
+{{
+Relationskette
+| 0
+| \in |  R
+||
+||
+||
+|SZ=.
+}} 
+Da {{math|term= \nu |SZ=}} ein Gruppenhomomorphismus ist, muss
+{{
+Relationskette
+|  \nu(1) 
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}} 
+sein. Für Elemente
+{{
+Relationskette
+| f,g
+| \in | R 
+||
+||
+||
+|SZ=
+}} 
+ist
+{{
+Relationskette 
+|  \nu(f), \nu(g)
+| \geq |  0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und damit
+{{
+Relationskette
+| \nu(f \cdot g)
+|| \nu(f) + \nu(g)
+| \geq | 0
+||
+||
+|SZ=,
+}} 
+da ein Gruppenhomomorphismus vorliegt, und ebenso
+{{
+Relationskette/display
+| \nu(f+g)
+| \geq | {{op:Minimumpaar|\nu(f)|\nu(g)}} 
+| \geq | 0
+||
+||
+|SZ=
+}}
+nach Voraussetzung, sodass {{math|term= R |SZ=}} multiplikativ und additiv abgeschlossen ist. Ferner  ist
+{{
+Relationskette
+| \nu(-1) + \nu(-1)
+|| \nu ( (-1)^2)
+|| \nu (1)
+|| 0
+||
+|SZ=,
+}}
+woraus aber
+{{
+Relationskette 
+|  \nu(-1)
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und somit
+{{
+Relationskette
+| -1
+| \in |  R
+||
+||
+||
+|SZ=
+}}
+folgt. Also gehören auch die Negativen zu {{math|term= R |SZ=,}} und somit liegt ein kommutativer Ring vor.
+
+Weiterhin muss {{math|term= R |SZ=}} ein lokaler Ring sein. Wir behaupten, dass
+{{
+Relationskette/display
+| {{idealm}}
+| {{defeq|}} | {{Mengebed| f \in K^\times | \nu(f) \geq 1 }} \cup \{0\}
+| \subseteq | R
+||
+||
+|SZ=
+}}
+das einzige maximale Ideal ist. Die {{math|term= 0 |SZ=}} gehört dazu und wegen
+{{
+Relationskette
+| \nu(f+g) 
+| \geq | {{op:Minimumpaar| \nu(f)| \nu(g)}} 
+| \geq |  1
+||
+||
+|SZ=
+}}
+ist die Menge additiv abgeschlossen. Für
+{{
+Relationskette
+| f
+| \in |  {{idealm|}} 
+||
+||
+||
+|SZ=
+}} 
+und
+{{
+Relationskette
+| g
+| \in |  R
+||
+||
+||
+|SZ=
+}} 
+ist
+{{
+Relationskette
+|  \nu(f)
+| \geq |  1
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette
+| \nu(g) 
+| \geq |  0
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}} 
+und daher
+{{
+Relationskette
+| \nu(gf)
+|| \nu(g) + \nu(f)
+| \geq | 1
+||
+||
+|SZ=,
+}}
+sodass die Menge abgeschlossen unter Skalarmultiplikation ist. Also liegt ein Ideal vor.
+
+Das Komplement {{mathl|term= R \setminus {{idealm}} |SZ=}} besteht aus allen Elementen
+{{
+Relationskette
+| h
+| \in |  K
+||
+||
+||
+|SZ=
+}}
+mit
+{{
+Relationskette
+|  \nu(h) 
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dann ist aber auch
+{{
+Relationskette
+| \nu(h^{-1})
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und damit
+{{
+Relationskette
+|  h^{-1}
+| \in |  R
+||
+||
+||
+|SZ=,
+}} 
+d.h. diese Elemente sind alle Einheiten. Daher ist {{math|term= {{idealm|}} |SZ=}} maximal.
+{{parskip}}
+Wir müssen noch zeigen, dass ein diskreter Bewertungsring vorliegt. Es sei hierzu
+{{
+Relationskette
+| p
+| \in |  K
+||
+||
+||
+|SZ=
+}} 
+ein Element mit
+{{
+Relationskette 
+| \nu(p) 
+|| 1
+|| 
+|| 
+|| 
+|SZ=,
+}}  
+was es wegen der vorausgesetzten Surjektivität gibt. Wir wollen zeigen, dass {{math|term= p |SZ=}} prim ist. Es gilt generell, dass {{math|term= y |SZ=}} ein Vielfaches von {{math|term= x |SZ=}}
+{{
+Zusatz/Klammer
+|text= {{
+Relationskette/k
+| x, y
+| \in | R 
+||
+||
+||
+|SZ=
+}}|
+|ISZ=|ESZ=
+}}
+ist genau dann, wenn
+{{
+Relationskette
+| \nu(y)
+| \geq | \nu(x)
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}} 
+ist, da ja die Teilbarkeitsbeziehung zu
+{{
+Relationskette
+| y/x
+| \in | R 
+||
+||
+||
+|SZ=
+}} 
+äquivalent ist. Aus {{mathl|term= p  \mid  xy |SZ=}} mit
+{{
+Relationskette
+| x,y
+| \in | R 
+||
+||
+||
+|SZ=,
+}} 
+folgt nun
+{{
+Relationskette
+| 1
+||\nu(p)
+| \leq | \nu(xy)
+|| \nu(x) + \nu(y)
+||
+|SZ=
+}}
+und dann muss
+{{
+Relationskette
+| \nu(x)
+| \geq | 1
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}}
+oder
+{{
+Relationskette
+| \nu(y)
+| \geq | 1
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}}
+sein, sodass eines ein Vielfaches von {{math|term= p |SZ=}} ist. Also ist {{math|term= p |SZ=}} prim.
+{{parskip}}
+Mit dem gleichen Argument folgt, dass jedes Element
+{{
+Relationskette
+| x
+| \in |  R
+||
+||
+||
+|SZ=
+}} 
+mit
+{{
+Relationskette 
+| n
+|| \nu(x)
+|| 
+|| 
+|| 
+|SZ=
+}} 
+assoziiert zu {{math|term= p^n |SZ=}} ist. Es liegt also ein Hauptidealbereich mit genau den Idealen {{math|term= 0 |SZ=}} und
+{{
+mathbed|term=
+ (p^n)
+||bedterm1=
+n \in \N
+||bedterm2=
+|SZ=,
+}}
+vor.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>b94o8o4ehwq2ts0i6c8jrvibeucyk0w</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,2110 @@
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 21/latex
+Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 21/latex
+
+\setcounter{section}{21}
+
+
+  \zwischenueberschrift{Diskrete Bewertungsringe}
+
+
+Wir setzen nun die lokale Untersuchung von algebraischen Kurven fort und werden im weiteren Verlauf verschiedene Charakterisierungen dafür finden, dass ein Punkt einer Kurve nichtsingulär
+\zusatzklammer {oder glatt} {} {}
+ist. Zu dem Punkt $P$ auf der Kurve gehört der lokale Ring in $P$, der die Lokalisierung des affinen Koordinatenringes der Kurve am maximalen Ideal ist, das zu $P$ gehört. Wenn
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ = }{ (a,b)
+}
+
+{ \in }{ C
+}
+
+{ =   }{V(F)
+}
+
+{ \subset  }{ {\mathbb A}^{2}_{K}
+}
+
+}
+{}{}{}
+ist, so lässt sich der lokale Ring in doppelter Weise beschreiben, nämlich als
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ K[X,Y]_{(X-a,Y-b)}/(F)
+}
+
+{ \cong} { (K[X,Y]/(F))_{\mathfrak m}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+\zusatzklammer {dabei ist ${\mathfrak m}$ das maximale Ideal aufgefasst im Restklassenring} {} {.}
+Dieser Ring beschreibt die wesentlichen algebraischen Eigenschaften des Punktes auf der Kurve. Wichtig ist zunächst der Begriff des diskreten Bewertungsringes.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Ein \definitionswort {diskreter Bewertungsring}{} $R$ ist ein
+\definitionsverweis {Hauptidealbereich}{}{}
+mit der Eigenschaft, dass es bis auf
+\definitionsverweis {Assoziiertheit}{}{}
+genau ein
+\definitionsverweis {Primelement}{}{}
+in $R$ gibt.
+
+
+}
+
+
+Einen Erzeuger des maximalen Ideals in einem diskreten Bewertungsring nennt man auch eine \stichwort {Ortsuniformisierende} {.}
+
+
+\inputfaktbeweis
+
+{Diskreter Bewertungsring/Erste Eigenschaften/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Ein
+\definitionsverweis {diskreter Bewertungsring}{}{}
+ist}
+
+\faktfolgerung {ein
+\definitionsverweis {lokaler}{}{,}
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {Hauptidealbereich}{}{}
+mit genau zwei
+\definitionsverweis {Primidealen}{}{,}
+nämlich $0$ und dem
+\definitionsverweis {maximalen Ideal}{}{}
+${\mathfrak m}$.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{ Ein diskreter Bewertungsring ist kein Körper. In einem Hauptidealbereich, der kein Körper ist, wird jedes maximale Ideal von einen Primelement erzeugt, und die Primerzeuger zu verschiedenen maximalen Idealen können nicht assoziiert sein. Also gibt es genau  ein maximales Ideal. Ebenso wird jedes von null verschiedene Primideal durch ein Primelement erzeugt, sodass es neben dem maximalen Ideal nur noch das Nullideal gibt. }
+
+
+\inputbeispiel{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{,}
+
+
+\mathl{K[X]}{} der
+\definitionsverweis {Polynomring}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{R
+}
+
+{ = }{ K[X]_{ (X)}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die
+\definitionsverweis {Lokalisierung}{}{}
+am
+\definitionsverweis {maximalen Ideal}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ (X)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann ist $R$ ein
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+Die beiden einzigen
+\definitionsverweis {Primideale}{}{}
+von $R$ sind
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{(0)
+}
+
+{ \subset }{ (X)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+und ein
+\definitionsverweis {Hauptidealbereich}{}{}
+liegt vor, da ja
+
+\mathl{K[X]}{} ein Hauptidealbereich ist. Da es nur ein maximales Ideal gibt, kann es bis auf
+\definitionsverweis {Assoziiertheit}{}{}
+auch nur ein Primelement geben, nämlich $X$.
+
+
+}
+
+
+\inputbeispiel{}
+
+{
+
+
+Es sei $p$ eine
+\definitionsverweis {Primzahl}{}{}
+und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{R
+}
+
+{ = }{ \Z_{ (p )}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die
+\definitionsverweis {Lokalisierung}{}{}
+am
+\definitionsverweis {maximalen Ideal}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ (p)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann ist $R$ ein
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+Die beiden einzigen
+\definitionsverweis {Primideale}{}{}
+von $R$ sind
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{(0)
+}
+
+{ \subset }{ (p)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+und ein
+\definitionsverweis {Hauptidealbereich}{}{}
+liegt vor, da ja $\Z$ ein Hauptidealbereich ist. Da es nur ein maximales Ideal gibt, kann es bis auf
+\definitionsverweis {Assoziiertheit}{}{}
+auch nur ein Primelement geben, nämlich $p$.
+
+
+}
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Zu einem Element \mathind { f \in R  } { f \neq 0   }{,} in einem
+\definitionsverweis {diskreten Bewertungsring}{}{}
+$R$ mit
+\definitionsverweis {Primelement}{}{}
+$p$ heißt die Zahl
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ n
+}
+
+{ \in }{ \N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit der Eigenschaft
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ = }{ up^n
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+wobei $u$ eine
+\definitionsverweis {Einheit}{}{}
+bezeichnet, die \definitionswort {Ordnung}{} von $f$. Sie wird mit
+
+\mathl{\operatorname{ord} \,  \left(   f   \right)}{} bezeichnet.
+
+
+}
+
+
+Die Ordnung ist also nichts anderes als der Exponent zum
+\zusatzklammer {bis auf Assoziiertheit} {} {}
+einzigen Primelement in der Primfaktorzerlegung. Sie hat folgende Eigenschaften.
+
+
+\inputfaktbeweis
+
+{Diskreter Bewertungsring/Ordnungsfunktion/Erste Eigenschaften/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $R$ ein
+\definitionsverweis {diskreter Bewertungsring}{}{}
+mit
+\definitionsverweis {maximalem Ideal}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ (p)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}}
+
+\faktfolgerung {Dann hat die
+\definitionsverweis {Ordnung}{}{}
+\maabbeledisp {} {R \setminus \{0\} } { \N
+} { f } { \operatorname{ord} \,  \left(   f   \right)
+} {,}
+folgende Eigenschaften.
+\aufzaehlungvier{
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \operatorname{ord} \,  \left(  fg  \right)
+}
+
+{ = }{ \operatorname{ord} \,  \left(   f   \right)  + \operatorname{ord} \,  \left(   g   \right)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+}{
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \operatorname{ord} \,  \left(  f+g  \right)
+}
+
+{ \geq }{ \operatorname{min} \left(  \operatorname{ord} \,  \left(   f   \right)  ,\,   \operatorname{ord} \,  \left(   g   \right)  \right)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+}{Es ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+genau dann, wenn
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \operatorname{ord} \,  \left(   f   \right)
+}
+
+{ \geq }{ 1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist.
+}{Es ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ \in }{ R ^{\times}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+genau dann, wenn
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \operatorname{ord} \,  \left(   f   \right)
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist.
+}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+ }
+
+{ Siehe Aufgabe 21.2. }
+
+
+Wir wollen eine wichtige Charakterisierung für diskrete Bewertungsringe beweisen, die insbesondere beinhaltet, dass ein normaler lokaler Integritätsbereich mit genau zwei Primidealen bereits ein diskreter Bewertungsring ist. Dazu benötigen wir einige Vorbereitungen.
+
+
+\inputfaktbeweis
+
+{Kommutative Ringtheorie/Noethersch lokal nulldimensional/Potenz ist null/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $S$ ein
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {lokaler}{}{}
+\definitionsverweis {kommutativer Ring}{}{.}
+Es sei vorausgesetzt, dass das
+\definitionsverweis {maximale Ideal}{}{}
+${\mathfrak m}$ das einzige
+\definitionsverweis {Primideal}{}{}
+von $S$ ist.}
+
+\faktfolgerung {Dann gibt es einen Exponenten
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{n
+}
+
+{ \in }{\N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ {\mathfrak m}^n
+}
+
+{ =} { 0
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Wir behaupten zunächst, dass jedes Element in $S$ eine
+\definitionsverweis {Einheit}{}{}
+oder
+\definitionsverweis {nilpotent}{}{}
+ist. Es sei hierzu
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ f
+}
+
+{ \in }{ S
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+keine Einheit. Dann ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ f
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Angenommen, $f$ ist nicht nilpotent. Dann gibt es nach
+Lemma 22.15 (Zahlentheorie (Osnabrück 2025))
+ein Primideal ${\mathfrak p}$ in $S$ mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ f
+}
+
+{ \notin }{ {\mathfrak p}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Damit ergibt sich der Widerspruch
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak p} }
+
+{ \neq }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Es ist also jedes Element im maximalen Ideal nilpotent. Insbesondere gibt es für ein endliches Erzeugendensystem
+
+\mathl{f_1 , \ldots , f_k}{} von ${\mathfrak m}$ eine natürliche Zahl $m$ mit \mathkon  { f_i^m=0  }  {  für alle  }  { i=1 , \ldots ,  k   }{ .} Sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ n
+}
+
+{ = }{ km
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann ist ein beliebiges Element aus ${\mathfrak m}^n$ von der Gestalt
+
+
+\mathdisp {\left(  \sum_{i = 1}^k a_{i1} f_i  \right) \left(  \sum_{i = 1}^k a_{i2} f_i  \right)  \cdots \left(  \sum_{i = 1}^k a_{in} f_i  \right)} { . }
+
+
+Ausmultiplizieren ergibt eine Linearkombination mit Monomen \mathkon  {  f_1^{r_1 } \cdots f_k^{r_k }   }  {  und  }  {  \sum_{i=1}^k r_i = n   }{ ,} sodass ein $f_i$ mit einem Exponenten
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{
+}
+
+{ \geq }{ n/k
+}
+
+{ = }{ m
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+vorkommt. Daher ist das Produkt $0$.
+
+
+}
+
+
+\inputfaktbeweis
+
+{Diskrete Bewertungsringe/Charakterisierung/1/Fakt}
+
+{Satz}
+
+{}
+
+{
+
+
+\faktsituation {Es sei $R$ ein
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {lokaler}{}{}
+\definitionsverweis {Integritätsbereich}{}{}}
+
+\faktvoraussetzung {mit der Eigenschaft, dass es genau zwei
+\definitionsverweis {Primideale}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ 0
+}
+
+{ \subset }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gibt.}
+
+\faktuebergang {Dann sind folgende Aussagen äquivalent.}
+
+\faktfolgerung {\aufzaehlungfuenf{ $R$ ist ein
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+}{ $R$ ist ein
+\definitionsverweis {Hauptidealbereich}{}{.}
+}{ $R$ ist
+\definitionsverweis {faktoriell}{}{.}
+}{ $R$ ist
+\definitionsverweis {normal}{}{.}
+}{ ${\mathfrak m}$ ist ein
+\definitionsverweis {Hauptideal}{}{.}
+}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+$(1) \Rightarrow (2)$ folgt direkt aus der
+Definition 21.1.
+
+
+$(2) \Rightarrow (3)$ folgt aus
+Satz 9.3 (Kommutative Algebra).
+
+
+$(3) \Rightarrow (4)$ folgt aus
+Satz 20.2.
+
+
+$(4) \Rightarrow (5)$. Es sei
+
+\mathbed {f \in {\mathfrak m}} {}
+
+ {f \neq 0} {}
+
+ {} {} {} {.} Dann ist
+
+\mathl{R/(f)}{} ein noetherscher lokaler Ring mit nur einem Primideal
+\zusatzklammer {nämlich
+
+
+\mavergleichskettek
+
+{\vergleichskettek
+
+{ \tilde{ {\mathfrak m} }
+}
+
+{ = }{ {\mathfrak m} R/(f)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}} {} {.}
+Daher gibt es nach
+Lemma 21.7
+ein
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{n
+}
+
+{ \in }{\N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \tilde{ {\mathfrak m}  }^n
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Zurückübersetzt nach $R$ heißt das, dass
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}^n
+}
+
+{ \subseteq }{ (f)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gilt. Wir wählen $n$ minimal mit den Eigenschaften
+
+
+\mathdisp {{\mathfrak m}^n \subseteq (f) \text{   und } {\mathfrak m}^{n-1} \not\subseteq (f)} { . }
+
+
+Wähle \mathkon  { g \in {\mathfrak m}^{n-1}  }  {  mit  }  { g \not\in (f)   }{ } und betrachte
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{h
+}
+
+{ \defeq} {\frac{f}{g}
+}
+
+{ \in} { Q(R)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+\zusatzklammer {es ist
+
+
+\mavergleichskettek
+
+{\vergleichskettek
+
+{g
+}
+
+{ \neq }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}} {} {.}
+Das Inverse, also
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ h^{-1}
+}
+
+{ = }{\frac{g}{f}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+gehört nicht zu $R$, sonst wäre
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{g
+}
+
+{ \in }{(f)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Da $R$ nach Voraussetzung normal ist, ist $h^{-1}$ auch nicht
+\definitionsverweis {ganz}{}{}
+über $R$. Nach dem Modulkriterium
+Lemma 19.9
+für die Ganzheit gilt insbesondere für das maximale Ideal
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ \subset }{ R
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Beziehung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ h^{-1} {\mathfrak m}
+}
+
+{ \not\subseteq} { {\mathfrak m}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Nach Wahl von $g$ ist aber auch
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ h^{-1} {\mathfrak m}
+}
+
+{ =} { \frac{g}{f} {\mathfrak m}
+}
+
+{ \subseteq} { \frac{ {\mathfrak m}^n }{f}
+}
+
+{ \subseteq} { R
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+
+
+Daher ist
+
+\mathl{h^{-1} {\mathfrak m}}{} ein Ideal in $R$, das nicht im maximalen Ideal enthalten ist. Also ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ h^{-1} {\mathfrak m}
+}
+
+{ = }{ R
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Das heißt einerseits
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{h
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und andererseits gilt für ein beliebiges
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ x
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die Beziehung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ h^{-1}x
+}
+
+{ \in }{ R
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+also
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ x
+}
+
+{ = }{ h (h^{-1}x)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+also
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ x
+}
+
+{ \in }{(h)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und somit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ (h)
+}
+
+{ = }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+$(5) \Rightarrow (1)$. Sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}
+}
+
+{ = }{ (\pi)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann ist $\pi$ ein Primelement und zwar bis auf Assoziiertheit das einzige. Es sei
+
+\mathbed {f\in R} {}
+
+ {f \neq 0} {}
+
+ {} {} {} {} keine Einheit. Dann ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und daher
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ = }{ \pi g_1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann ist $g_1$ eine Einheit oder
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{g_1
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Im zweiten Fall ist wieder
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{g_1
+}
+
+{ = }{ \pi g_2
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ f
+}
+
+{ = }{ \pi^2 g_2
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+Wir behaupten, dass man
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ = }{ \pi^k u
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit einem
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{k
+}
+
+{ \in }{\N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und einer Einheit $u$ schreiben kann. Andernfalls könnte man
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ = }{ \pi^n g_n
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit beliebig großem $n$ schreiben. Nach
+Lemma 21.7
+gibt es ein
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{m
+}
+
+{ \in }{\N
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ (\pi^m)
+}
+
+{ = }{ {\mathfrak m}^m
+}
+
+{ \subseteq }{(f)
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Bei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{n
+}
+
+{ \geq }{m+1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ergibt sich
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \pi^m
+}
+
+{ = }{ af
+}
+
+{ = }{ a \pi^{m+1}b
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und der Widerspruch
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ 1
+}
+
+{ = }{ ab \pi
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+Es lässt sich also jede Nichteinheit $\neq 0$ als Produkt einer Potenz des Primelements mit einer Einheit schreiben. Insbesondere ist $R$ faktoriell. Für ein beliebiges Ideal
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak a}
+}
+
+{ = }{ (f_1 , \ldots , f_s)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ f_i
+}
+
+{ = }{ \pi^{n_i } u_i
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit Einheiten $u_i$. Dann sieht man leicht, dass
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak a}
+}
+
+{ = }{ (\pi^n)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{n
+}
+
+{ = }{ \min_{i}\{n_i\}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+}
+
+
+  \zwischenueberschrift{Das Lemma von Nakayama}
+
+
+Nach den vorangehenden Überlegungen liegt ein diskreter Bewertungsring genau dann vor, wenn der lokale Integritätsbereich die Eigenschaft hat, dass das maximale Ideal durch ein Element erzeugt wird. Es ist von daher naheliegend, generell die lokalen Ringe zu Punkten auf einer algebraischen Kurve dahingehend zu studieren, wie viele Erzeuger das maximale Ideal benötigt. Dies führt zum Begriff der Einbettungsdimension, den wir schon im Zusammenhang mit monomialen Kurven erwähnt haben. Diese Einbettungsdimension ist auch die Dimension des
+
+\mathl{R/{\mathfrak m}}{-}Vektorraumes
+
+\mathl{{\mathfrak m}/{\mathfrak m}^2}{,} für diesen Zusammenhang brauchen wir aber einige Vorbereitungen und insbesondere das  \stichwort {Lemma von Nakayama} {.}
+
+
+Im Lemma von Nakayama wird folgende Konstruktion betrachtet: Zu einem $R$-Modul $V$, einem Untermodul
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ U
+}
+
+{ \subseteq }{ V
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und einem Ideal
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ I
+}
+
+{ \subseteq }{ R
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+bezeichnet man mit $IU$ den $R$-Untermodul von $V$, der von allen Elementen der Form \mathind { fv   } {  f \in I,\, v \in U   }{,} erzeugt wird
+\zusatzklammer {dies ist auch ein $R$-Untermodul von $U$} {} {.}
+Ist $U$ ebenfalls ein Ideal
+\zusatzklammer {also ein $R$-Untermodul von $R$} {} {,}
+so fällt dieses Konzept mit dem Produkt von Idealen zusammen. Der Restklassenmodul
+
+\mathl{V/IV}{} ist dabei in natürlicher Weise nicht nur ein $R$-Modul, sondern auch ein $R/I$-Modul. Wenn $I$ ein maximales Ideal ist, so bedeutet dies, dass der Restklassenmodul sogar ein Vektorraum über dem Restklassenkörper ist.
+
+
+\inputfaktbeweis
+
+{Lokaler Ring/Lemma von Nakayama/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $(R,{\mathfrak m})$ ein
+\definitionsverweis {lokaler Ring}{}{}
+und sei $V$ ein
+\definitionsverweis {endlich erzeugter}{}{}
+$R$-\definitionsverweis {Modul}{}{.}
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak m}V
+}
+
+{ = }{ V
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+vorausgesetzt.}
+
+\faktfolgerung {Dann ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{V
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Es sei
+
+\mathl{v_1 , \ldots , v_n}{} ein
+\definitionsverweis {Erzeugendensystem}{}{}
+von $V$. Nach Voraussetzung gibt es wegen
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ v_i
+}
+
+{ \in }{ {\mathfrak m} V
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+zu jedem $v_i$ eine Darstellung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ v_i
+}
+
+{ =} { a_{i1} v_1 + \cdots +  a_{in} v_n
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ a_{ij}
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Daraus ergibt sich für jedes $i$ eine Darstellung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ (1-a_{ii})v_i
+}
+
+{ =} { a_{i1}v_1 + \cdots + a_{i,i-1}v_{i-1} + a_{i,i+1}v_{i+1} + \cdots + a_{in}v_n
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Da
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ a_{ii}
+}
+
+{ \in }{ {\mathfrak m}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist, ist der Koeffizient
+
+\mathl{1-a_{ii}}{} eine
+\definitionsverweis {Einheit}{}{.}
+Dies bedeutet aber, dass man nach $v_i$ auflösen kann, sodass also $v_i$ überflüssig ist. So kann man sukzessive auf alle Erzeuger verzichten, was bedeutet, dass der Nullmodul vorliegen muss.
+
+
+}

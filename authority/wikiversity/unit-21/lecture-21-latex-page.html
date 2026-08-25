@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/1033020"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/0"/><meta property="mw:revisionSHA1" content="5mpvl81u97hs35l9k2lrqpklqf8f5gh"/><meta property="dc:modified" content="2025-08-11T13:54:06Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="165974"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_21/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 21/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="2c22ff8f-9dbf-11f1-b183-9dd3c3c9b2bf"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{21}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Diskrete Bewertungsringe}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir setzen nun die lokale Untersuchung von algebraischen Kurven fort und werden im weiteren Verlauf verschiedene Charakterisierungen dafür finden, dass ein Punkt einer Kurve nichtsingulär
+\zusatzklammer {oder glatt} {} {}
+ist. Zu dem Punkt $P$ auf der Kurve gehört der lokale Ring in $P$, der die Lokalisierung des affinen Koordinatenringes der Kurve am maximalen Ideal ist, das zu $P$ gehört. Wenn
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ = }{ (a,b)
+}<br/>{ \in }{ C
+}<br/>{ =   }{V(F)
+}<br/>{ \subset  }{ {\mathbb A}^{2}_{K}
+}<br/>}
+{}{}{}
+ist, so lässt sich der lokale Ring in doppelter Weise beschreiben, nämlich als
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ K[X,Y]_{(X-a,Y-b)}/(F) 
+}<br/>{ \cong} { (K[X,Y]/(F))_{\mathfrak m}
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+\zusatzklammer {dabei ist ${\mathfrak m}$ das maximale Ideal aufgefasst im Restklassenring} {} {.}
+Dieser Ring beschreibt die wesentlichen algebraischen Eigenschaften des Punktes auf der Kurve. Wichtig ist zunächst der Begriff des diskreten Bewertungsringes.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Ein \definitionswort {diskreter Bewertungsring}{} $R$ ist ein
+\definitionsverweis {Hauptidealbereich}{}{}
+mit der Eigenschaft, dass es bis auf 
+\definitionsverweis {Assoziiertheit}{}{}
+genau ein
+\definitionsverweis {Primelement}{}{}
+in $R$ gibt.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Einen Erzeuger des maximalen Ideals in einem diskreten Bewertungsring nennt man auch eine \stichwort {Ortsuniformisierende} {.} </p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Diskreter Bewertungsring/Erste Eigenschaften/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Ein
+\definitionsverweis {diskreter Bewertungsring}{}{}
+ist}<br/>\faktfolgerung {ein 
+\definitionsverweis {lokaler}{}{,} 
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {Hauptidealbereich}{}{}
+mit genau zwei 
+\definitionsverweis {Primidealen}{}{,}
+nämlich $0$ und dem 
+\definitionsverweis {maximalen Ideal}{}{}
+${\mathfrak m}$.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+}<br/>{ Ein diskreter Bewertungsring ist kein Körper. In einem Hauptidealbereich, der kein Körper ist, wird jedes maximale Ideal von einen Primelement erzeugt, und die Primerzeuger zu verschiedenen maximalen Idealen können nicht assoziiert sein. Also gibt es genau  ein maximales Ideal. Ebenso wird jedes von null verschiedene Primideal durch ein Primelement erzeugt, sodass es neben dem maximalen Ideal nur noch das Nullideal gibt. }</div><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein
+\definitionsverweis {Körper}{}{,}
+<br/>\mathl{K[X]}{} der 
+\definitionsverweis {Polynomring}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ K[X]_{ (X)}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die 
+\definitionsverweis {Lokalisierung}{}{}
+am
+\definitionsverweis {maximalen Ideal}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m} 
+}<br/>{ = }{ (X)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann ist $R$ ein 
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+Die beiden einzigen 
+\definitionsverweis {Primideale}{}{}
+von $R$ sind
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{(0)
+}<br/>{ \subset }{ (X)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+und ein
+\definitionsverweis {Hauptidealbereich}{}{}
+liegt vor, da ja <br/>\mathl{K[X]}{} ein Hauptidealbereich ist. Da es nur ein maximales Ideal gibt, kann es bis auf 
+\definitionsverweis {Assoziiertheit}{}{}
+auch nur ein Primelement geben, nämlich $X$.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $p$ eine
+\definitionsverweis {Primzahl}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ \Z_{ (p )}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die 
+\definitionsverweis {Lokalisierung}{}{}
+am
+\definitionsverweis {maximalen Ideal}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m} 
+}<br/>{ = }{ (p)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann ist $R$ ein 
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+Die beiden einzigen 
+\definitionsverweis {Primideale}{}{}
+von $R$ sind
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{(0)
+}<br/>{ \subset }{ (p)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+und ein
+\definitionsverweis {Hauptidealbereich}{}{}
+liegt vor, da ja $\Z$ ein Hauptidealbereich ist. Da es nur ein maximales Ideal gibt, kann es bis auf 
+\definitionsverweis {Assoziiertheit}{}{}
+auch nur ein Primelement geben, nämlich $p$.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Zu einem Element \mathind { f \in R  } { f \neq 0   }{,} in einem
+\definitionsverweis {diskreten Bewertungsring}{}{}
+$R$ mit
+\definitionsverweis {Primelement}{}{}
+$p$ heißt die Zahl
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ n
+}<br/>{ \in }{ \N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+mit der Eigenschaft
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{f
+}<br/>{ = }{ up^n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+wobei $u$ eine
+\definitionsverweis {Einheit}{}{}
+bezeichnet, die \definitionswort {Ordnung}{} von $f$. Sie wird mit <br/>\mathl{\operatorname{ord} \,  \left(   f   \right)}{} bezeichnet.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die Ordnung ist also nichts anderes als der Exponent zum
+\zusatzklammer {bis auf Assoziiertheit} {} {}
+einzigen Primelement in der Primfaktorzerlegung. Sie hat folgende Eigenschaften.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1">\inputfaktbeweis<br/>{Diskreter Bewertungsring/Ordnungsfunktion/Erste Eigenschaften/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $R$ ein 
+\definitionsverweis {diskreter Bewertungsring}{}{}
+mit 
+\definitionsverweis {maximalem Ideal}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m} 
+}<br/>{ = }{ (p)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktfolgerung {Dann hat die 
+\definitionsverweis {Ordnung}{}{}
+\maabbeledisp {} {R \setminus \{0\} } { \N
+} { f } { \operatorname{ord} \,  \left(   f   \right) 
+} {,}
+folgende Eigenschaften.
+\aufzaehlungvier{ <br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{ord} \,  \left(  fg  \right) 
+}<br/>{ = }{ \operatorname{ord} \,  \left(   f   \right)  + \operatorname{ord} \,  \left(   g   \right) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}{ <br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{ord} \,  \left(  f+g  \right) 
+}<br/>{ \geq }{ \operatorname{min} \left(  \operatorname{ord} \,  \left(   f   \right)  ,\,   \operatorname{ord} \,  \left(   g   \right)  \right) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{f
+}<br/>{ \in }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+genau dann, wenn
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{ord} \,  \left(   f   \right) 
+}<br/>{ \geq }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist.
+}{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{f
+}<br/>{ \in }{ R ^{\times} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+genau dann, wenn 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{ord} \,  \left(   f   \right) 
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist.
+}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+ }<br/>{ Siehe <a rel="mw:WikiLink" href="./Diskreter_Bewertungsring/Ordnungsfunktion/Erste_Eigenschaften/Fakt/Beweis/Aufgabe" title="Diskreter Bewertungsring/Ordnungsfunktion/Erste Eigenschaften/Fakt/Beweis/Aufgabe">Aufgabe 21.2</a>. }</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Wir wollen eine wichtige Charakterisierung für diskrete Bewertungsringe beweisen, die insbesondere beinhaltet, dass ein normaler lokaler Integritätsbereich mit genau zwei Primidealen bereits ein diskreter Bewertungsring ist. Dazu benötigen wir einige Vorbereitungen.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Kommutative Ringtheorie/Noethersch lokal nulldimensional/Potenz ist null/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $S$ ein 
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {lokaler}{}{} 
+\definitionsverweis {kommutativer Ring}{}{.}
+Es sei vorausgesetzt, dass das 
+\definitionsverweis {maximale Ideal}{}{}
+${\mathfrak m}$ das einzige 
+\definitionsverweis {Primideal}{}{}
+von $S$ ist.}<br/>\faktfolgerung {Dann gibt es einen Exponenten
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{n
+}<br/>{ \in }{\N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ {\mathfrak m}^n
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir behaupten zunächst, dass jedes Element in $S$ eine 
+\definitionsverweis {Einheit}{}{}
+oder 
+\definitionsverweis {nilpotent}{}{}
+ist. Es sei hierzu
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ S 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+keine Einheit. Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Angenommen, $f$ ist nicht nilpotent. Dann gibt es nach
+<a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/f_nicht_nilpotent/Existenz_von_Primidealen/Fakt" title="Kommutative Ringtheorie/f nicht nilpotent/Existenz von Primidealen/Fakt">Lemma 22.15 (Zahlentheorie (Osnabrück 2025))</a>
+ein Primideal ${\mathfrak p}$ in $S$ mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \notin }{ {\mathfrak p}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Damit ergibt sich der Widerspruch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak p} }<br/>{ \neq }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Es ist also jedes Element im maximalen Ideal nilpotent. Insbesondere gibt es für ein endliches Erzeugendensystem <br/>\mathl{f_1 , \ldots , f_k}{} von ${\mathfrak m}$ eine natürliche Zahl $m$ mit \mathkon  { f_i^m=0  }  {  für alle  }  { i=1 , \ldots ,  k   }{ .} Sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ n
+}<br/>{ = }{ km
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann ist ein beliebiges Element aus ${\mathfrak m}^n$ von der Gestalt
+<br/>\mathdisp {\left(  \sum_{i = 1}^k a_{i1} f_i  \right) \left(  \sum_{i = 1}^k a_{i2} f_i  \right)  \cdots \left(  \sum_{i = 1}^k a_{in} f_i  \right)} { . }<br/>
+Ausmultiplizieren ergibt eine Linearkombination mit Monomen \mathkon  {  f_1^{r_1 } \cdots f_k^{r_k }   }  {  und  }  {  \sum_{i=1}^k r_i = n   }{ ,} sodass ein $f_i$ mit einem Exponenten
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ 
+}<br/>{ \geq }{ n/k 
+}<br/>{ = }{ m
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+vorkommt. Daher ist das Produkt $0$.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Diskrete Bewertungsringe/Charakterisierung/1/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $R$ ein 
+\definitionsverweis {noetherscher}{}{} 
+\definitionsverweis {lokaler}{}{} 
+\definitionsverweis {Integritätsbereich}{}{}}<br/>\faktvoraussetzung {mit der Eigenschaft, dass es genau zwei 
+\definitionsverweis {Primideale}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ 0 
+}<br/>{ \subset }{ {\mathfrak m}
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+gibt.}<br/>\faktuebergang {Dann sind folgende Aussagen äquivalent.}<br/>\faktfolgerung {\aufzaehlungfuenf{ $R$ ist ein 
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+}{ $R$ ist ein 
+\definitionsverweis {Hauptidealbereich}{}{.}
+}{ $R$ ist 
+\definitionsverweis {faktoriell}{}{.}
+}{ $R$ ist
+\definitionsverweis {normal}{}{.}
+}{ ${\mathfrak m}$ ist ein 
+\definitionsverweis {Hauptideal}{}{.}
+}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>$(1) \Rightarrow (2)$ folgt direkt aus der
+<a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Diskreter_Bewertungsring/Definition" title="Kommutative Ringtheorie/Diskreter Bewertungsring/Definition">Definition 21.1</a>.</p>
+
+<p>$(2) \Rightarrow (3)$ folgt aus
+<a rel="mw:WikiLink" href="./Hauptidealbereich/Faktoriell/Fakt" title="Hauptidealbereich/Faktoriell/Fakt">Satz 9.3 (Kommutative Algebra)</a>.</p>
+
+<p>$(3) \Rightarrow (4)$ folgt aus
+<a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Faktoriell/Normal/Fakt" title="Kommutative Ringtheorie/Faktoriell/Normal/Fakt">Satz 20.2</a>.</p>
+
+<p>$(4) \Rightarrow (5)$. Es sei <br/>\mathbed {f \in {\mathfrak m}} {} <br/> {f \neq 0} {} <br/> {} {} {} {.} Dann ist <br/>\mathl{R/(f)}{} ein noetherscher lokaler Ring mit nur einem Primideal
+\zusatzklammer {nämlich
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ \tilde{ {\mathfrak m} }
+}<br/>{ = }{ {\mathfrak m} R/(f)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}} {} {.}
+Daher gibt es nach
+<a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Noethersch_lokal_nulldimensional/Potenz_ist_null/Fakt" title="Kommutative Ringtheorie/Noethersch lokal nulldimensional/Potenz ist null/Fakt">Lemma 21.7</a>
+ein
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{n
+}<br/>{ \in }{\N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \tilde{ {\mathfrak m}  }^n 
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Zurückübersetzt nach $R$ heißt das, dass
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m}^n
+}<br/>{ \subseteq }{ (f)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gilt. Wir wählen $n$ minimal mit den Eigenschaften
+<br/>\mathdisp {{\mathfrak m}^n \subseteq (f) \text{   und } {\mathfrak m}^{n-1} \not\subseteq (f)} { . }<br/>
+Wähle \mathkon  { g \in {\mathfrak m}^{n-1}  }  {  mit  }  { g \not\in (f)   }{ } und betrachte
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{h
+}<br/>{ \defeq} {\frac{f}{g} 
+}<br/>{ \in} { Q(R) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+\zusatzklammer {es ist
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{g
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}} {} {.}
+Das Inverse, also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ h^{-1}
+}<br/>{ = }{\frac{g}{f}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+gehört nicht zu $R$, sonst wäre
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{g
+}<br/>{ \in }{(f)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Da $R$ nach Voraussetzung normal ist, ist $h^{-1}$ auch nicht
+\definitionsverweis {ganz}{}{}
+über $R$. Nach dem Modulkriterium
+<a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Ganzheit/Ganzes_Element/Charakterisierung/Fakt" title="Kommutative Ringtheorie/Ganzheit/Ganzes Element/Charakterisierung/Fakt">Lemma 19.9</a>
+für die Ganzheit gilt insbesondere für das maximale Ideal
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m} 
+}<br/>{ \subset }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die Beziehung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ h^{-1} {\mathfrak m}
+}<br/>{ \not\subseteq} { {\mathfrak m}
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Nach Wahl von $g$ ist aber auch
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ h^{-1} {\mathfrak m}
+}<br/>{ =} { \frac{g}{f} {\mathfrak m}
+}<br/>{ \subseteq} { \frac{ {\mathfrak m}^n }{f}
+}<br/>{ \subseteq} { R
+}<br/>{ } {
+}<br/>}
+{}{}{.}</p>
+
+<p>Daher ist <br/>\mathl{h^{-1} {\mathfrak m}}{} ein Ideal in $R$, das nicht im maximalen Ideal enthalten ist. Also ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ h^{-1} {\mathfrak m} 
+}<br/>{ = }{ R
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.} 
+Das heißt einerseits 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{h
+}<br/>{ \in }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und andererseits gilt für ein beliebiges
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ x
+}<br/>{ \in }{ {\mathfrak m} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die Beziehung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ h^{-1}x
+}<br/>{ \in }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ x 
+}<br/>{ = }{ h (h^{-1}x)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ x
+}<br/>{ \in }{(h)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und somit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (h)
+}<br/>{ = }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>$(5) \Rightarrow (1)$. Sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m} 
+}<br/>{ = }{ (\pi)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann ist $\pi$ ein Primelement und zwar bis auf Assoziiertheit das einzige. Es sei <br/>\mathbed {f\in R} {} <br/> {f \neq 0} {} <br/> {} {} {} {} keine Einheit. Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{f
+}<br/>{ \in }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und daher
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{f
+}<br/>{ = }{ \pi g_1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann ist $g_1$ eine Einheit oder
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{g_1
+}<br/>{ \in }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Im zweiten Fall ist wieder
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{g_1
+}<br/>{ = }{ \pi g_2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ = }{ \pi^2 g_2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>Wir behaupten, dass man
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{f
+}<br/>{ = }{ \pi^k u
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit einem
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{k
+}<br/>{ \in }{\N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und einer Einheit $u$ schreiben kann. Andernfalls könnte man
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{f 
+}<br/>{ = }{ \pi^n g_n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit beliebig großem $n$ schreiben. Nach
+<a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Noethersch_lokal_nulldimensional/Potenz_ist_null/Fakt" title="Kommutative Ringtheorie/Noethersch lokal nulldimensional/Potenz ist null/Fakt">Lemma 21.7</a>
+gibt es ein
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{m
+}<br/>{ \in }{\N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (\pi^m)
+}<br/>{ = }{ {\mathfrak m}^m 
+}<br/>{ \subseteq }{(f)
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{n
+}<br/>{ \geq }{m+1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ergibt sich
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \pi^m 
+}<br/>{ = }{ af
+}<br/>{ = }{ a \pi^{m+1}b
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und der Widerspruch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ 1 
+}<br/>{ = }{ ab \pi
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>Es lässt sich also jede Nichteinheit $\neq 0$ als Produkt einer Potenz des Primelements mit einer Einheit schreiben. Insbesondere ist $R$ faktoriell. Für ein beliebiges Ideal
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ = }{ (f_1 , \ldots , f_s)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f_i
+}<br/>{ = }{ \pi^{n_i } u_i
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit Einheiten $u_i$. Dann sieht man leicht, dass
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ = }{ (\pi^n)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{n
+}<br/>{ = }{ \min_{i}\{n_i\}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+</div>
+
+}</div><span about="#mwt1"> 
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Das Lemma von Nakayama}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Nach den vorangehenden Überlegungen liegt ein diskreter Bewertungsring genau dann vor, wenn der lokale Integritätsbereich die Eigenschaft hat, dass das maximale Ideal durch ein Element erzeugt wird. Es ist von daher naheliegend, generell die lokalen Ringe zu Punkten auf einer algebraischen Kurve dahingehend zu studieren, wie viele Erzeuger das maximale Ideal benötigt. Dies führt zum Begriff der Einbettungsdimension, den wir schon im Zusammenhang mit monomialen Kurven erwähnt haben. Diese Einbettungsdimension ist auch die Dimension des <br/>\mathl{R/{\mathfrak m}}{-}Vektorraumes <br/>\mathl{{\mathfrak m}/{\mathfrak m}^2}{,} für diesen Zusammenhang brauchen wir aber einige Vorbereitungen und insbesondere das  \stichwort {Lemma von Nakayama} {.}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Im Lemma von Nakayama wird folgende Konstruktion betrachtet: Zu einem $R$-Modul $V$, einem Untermodul
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U
+}<br/>{ \subseteq }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und einem Ideal
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ I
+}<br/>{ \subseteq }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+bezeichnet man mit $IU$ den $R$-Untermodul von $V$, der von allen Elementen der Form \mathind { fv   } {  f \in I,\, v \in U   }{,} erzeugt wird 
+\zusatzklammer {dies ist auch ein $R$-Untermodul von $U$} {} {.}
+Ist $U$ ebenfalls ein Ideal
+\zusatzklammer {also ein $R$-Untermodul von $R$} {} {,}
+so fällt dieses Konzept mit dem Produkt von Idealen zusammen. Der Restklassenmodul <br/>\mathl{V/IV}{} ist dabei in natürlicher Weise nicht nur ein $R$-Modul, sondern auch ein $R/I$-Modul. Wenn $I$ ein maximales Ideal ist, so bedeutet dies, dass der Restklassenmodul sogar ein Vektorraum über dem Restklassenkörper ist.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Lokaler Ring/Lemma von Nakayama/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $(R,{\mathfrak m})$ ein 
+\definitionsverweis {lokaler Ring}{}{}
+und sei $V$ ein 
+\definitionsverweis {endlich erzeugter}{}{}
+$R$-\definitionsverweis {Modul}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m}V 
+}<br/>{ = }{ V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+vorausgesetzt.}<br/>\faktfolgerung {Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{V
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es sei <br/>\mathl{v_1 , \ldots , v_n}{} ein 
+\definitionsverweis {Erzeugendensystem}{}{}
+von $V$. Nach Voraussetzung gibt es wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ v_i
+}<br/>{ \in }{ {\mathfrak m} V
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+zu jedem $v_i$ eine Darstellung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ v_i
+}<br/>{ =} { a_{i1} v_1 + \cdots +  a_{in} v_n
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_{ij}  
+}<br/>{ \in }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Daraus ergibt sich für jedes $i$ eine Darstellung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (1-a_{ii})v_i
+}<br/>{ =} { a_{i1}v_1 + \cdots + a_{i,i-1}v_{i-1} + a_{i,i+1}v_{i+1} + \cdots + a_{in}v_n
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Da
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_{ii} 
+}<br/>{ \in }{ {\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist, ist der Koeffizient <br/>\mathl{1-a_{ii}}{} eine 
+\definitionsverweis {Einheit}{}{.}
+Dies bedeutet aber, dass man nach $v_i$ auflösen kann, sodass also $v_i$ überflüssig ist. So kann man sukzessive auf alle Erzeuger verzichten, was bedeutet, dass der Nullmodul vorliegen muss.</p>
+</div>
+
+}</div><span about="#mwt1">
+
+ </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

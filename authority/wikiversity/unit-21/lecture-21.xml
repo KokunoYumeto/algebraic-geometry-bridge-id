@@ -1,0 +1,137 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 21</title>
+    <ns>106</ns>
+    <id>165910</id>
+    <revision>
+      <id>1112312</id>
+      <parentid>1051390</parentid>
+      <timestamp>2026-08-21T09:27:05Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112312</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3241" sha1="0o9i7x6qv9y5mlnaiuqx00ac55vt1n8" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|21|
+
+{{Zwischenüberschrift|Diskrete Bewertungsringe}}
+
+Wir setzen nun die lokale Untersuchung von algebraischen Kurven fort und werden im weiteren Verlauf verschiedene Charakterisierungen dafür finden, dass ein Punkt einer Kurve nichtsingulär
+{{
+Zusatz/Klammer
+|text=oder glatt|
+|ISZ=|ESZ=
+}}
+ist. Zu dem Punkt {{math|term= P |SZ=}} auf der Kurve gehört der lokale Ring in {{math|term= P |SZ=,}} der die Lokalisierung des affinen Koordinatenringes der Kurve am maximalen Ideal ist, das zu {{math|term= P |SZ=}} gehört. Wenn
+{{
+Relationskette 
+|P
+|| (a,b)
+|\in| C
+||V(F)
+|\subset| {{op:Affine Ebene|K}}
+|SZ=
+}}
+ist, so lässt sich der lokale Ring in doppelter Weise beschreiben, nämlich als
+{{
+Relationskette/display
+| K[X,Y]_{(X-a,Y-b)}/(F) 
+|\cong| (K[X,Y]/(F))_{{idealm}}
+||
+||
+||
+|SZ=
+}}
+{{
+Zusatz/Klammer
+|text=dabei ist {{math|term= {{idealm|}} |SZ=}} das maximale Ideal aufgefasst im Restklassenring|
+|ISZ=|ESZ=.
+}}
+Dieser Ring beschreibt die wesentlichen algebraischen Eigenschaften des Punktes auf der Kurve. Wichtig ist zunächst der Begriff des diskreten Bewertungsringes.
+
+{{:Diskreter Bewertungsring/Beispiele/Charakterisierung/2/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Das Lemma von Nakayama}}
+
+Nach den vorangehenden Überlegungen liegt ein diskreter Bewertungsring genau dann vor, wenn der lokale Integritätsbereich die Eigenschaft hat, dass das maximale Ideal durch ein Element erzeugt wird. Es ist von daher naheliegend, generell die lokalen Ringe zu Punkten auf einer algebraischen Kurve dahingehend zu studieren, wie viele Erzeuger das maximale Ideal benötigt. Dies führt zum Begriff der Einbettungsdimension, den wir schon im Zusammenhang mit monomialen Kurven erwähnt haben. Diese Einbettungsdimension ist auch die Dimension des {{mathl|term= R/{{idealm}} |SZ=-}}Vektorraumes {{mathl|term= {{idealm}}/{{idealm}}^2 |SZ=,}} für diesen Zusammenhang brauchen wir aber einige Vorbereitungen und insbesondere das  {{Stichwort|Lemma von Nakayama|SZ=.}}
+
+Im Lemma von Nakayama wird folgende Konstruktion betrachtet: Zu einem {{math|term= R |SZ=-}}Modul {{math|term= V |SZ=,}} einem Untermodul
+{{
+Relationskette
+| U
+|\subseteq| V
+||
+||
+||
+|SZ=
+}}
+und einem Ideal
+{{
+Relationskette
+| I
+|\subseteq| R
+||
+||
+||
+|SZ=
+}}
+bezeichnet man mit {{math|term= IU |SZ=}} den {{math|term= R |SZ=-}}Untermodul von {{math|term= V |SZ=,}} der von allen Elementen der Form {{mathind|fv | f \in I,\, v \in U |SZ=,}} erzeugt wird 
+{{
+Zusatz/Klammer
+|text=dies ist auch ein {{math|term= R |SZ=-}}Untermodul von {{math|term= U |SZ=}}|
+|ISZ=|ESZ=.
+}}
+Ist {{math|term= U |SZ=}} ebenfalls ein Ideal
+{{
+Zusatz/Klammer
+|text=also ein {{math|term= R |SZ=-}}Untermodul von {{math|term= R |SZ=}}|
+|ISZ=|ESZ=,
+}}
+so fällt dieses Konzept mit dem Produkt von Idealen zusammen. Der Restklassenmodul {{mathl|term= V/IV |SZ=}} ist dabei in natürlicher Weise nicht nur ein {{math|term= R |SZ=-}}Modul, sondern auch ein {{math|term= R/I |SZ=-}}Modul. Wenn {{math|term= I |SZ=}} ein maximales Ideal ist, so bedeutet dies, dass der Restklassenmodul sogar ein Vektorraum über dem Restklassenkörper ist.
+{{inputfaktbeweis
+|Lokaler Ring/Lemma von Nakayama/Fakt|Lemma||}}
+
+}}</text>
+      <sha1>0o9i7x6qv9y5mlnaiuqx00ac55vt1n8</sha1>
+    </revision>
+  </page>
+</mediawiki>

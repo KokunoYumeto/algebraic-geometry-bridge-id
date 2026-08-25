@@ -1,0 +1,78 @@
+{
+  "schema": "ag-bridge-visual-qa-v1",
+  "checked_utc": "2026-08-25T01:17:22.1642502Z",
+  "status": "PASS",
+  "result": "PASS",
+  "through_unit": 21,
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-21.pdf",
+    "bytes": 7409373,
+    "sha256": "b95fd1ed0ea75294cd4562b7f2f36e920e247e2da5e1b039e99e975f9797a3e6",
+    "pages": 367,
+    "page_size": "A4",
+    "encrypted": false
+  },
+  "deterministic_raster": {
+    "renderer": "pdftoppm",
+    "resolution_dpi": 90,
+    "page_manifest": "qa/UNITS_01_21_VISUAL_PAGE_MANIFEST.json",
+    "page_manifest_bytes": 119494,
+    "page_manifest_sha256": "bc8d6ba08961db685d9b9d33cd8899f050b483722c7a523940f6f150e7a7e211",
+    "page_png_count": 367,
+    "dimensions_px": [745, 1053],
+    "total_png_bytes": 39972027,
+    "visible_ink_threshold_gray_lt": 248,
+    "minimum_visible_ink_fraction": 0.0062805534841329025,
+    "minimum_visible_ink_page": 251,
+    "maximum_visible_ink_fraction": 0.5789415986283996,
+    "maximum_visible_ink_page": 34,
+    "blank_pages_detected": 0,
+    "dimension_mismatches": 0
+  },
+  "visual_inspection": {
+    "all_page_contact_sheets": [
+      "pages 1-20", "pages 21-40", "pages 41-60", "pages 61-80",
+      "pages 81-100", "pages 101-120", "pages 121-140", "pages 141-160",
+      "pages 161-180", "pages 181-200", "pages 201-220", "pages 221-240",
+      "pages 241-260", "pages 261-280", "pages 281-300", "pages 301-320",
+      "pages 321-340", "pages 341-360", "pages 361-367"
+    ],
+    "contact_sheet_count": 19,
+    "contact_sheet_bytes": 4914316,
+    "full_size_pages_checked": [1, 21, 328, 333, 349, 352, 354, 360, 367],
+    "full_size_raster_bytes": 2391895,
+    "checks": {
+      "populated_and_legible": "PASS",
+      "consistent_margins_and_absolute_page_numbers": "PASS",
+      "no_clipping_or_overlap": "PASS",
+      "no_black_boxes_or_broken_glyphs": "PASS",
+      "unit_19_exercises_and_two_public_solutions_intact": "PASS",
+      "unit_20_whitney_image_centered_legible_and_credited": "PASS",
+      "unit_20_exercises_and_eight_public_solutions_intact": "PASS",
+      "unit_21_lecture_bridges_exercises_and_two_public_solutions_intact": "PASS",
+      "unit_21_math_and_source_correction_disclosures_legible": "PASS",
+      "unit_boundaries_provenance_and_component_rights_pages_intact": "PASS"
+    }
+  },
+  "new_boundary_observations": [
+    {
+      "pages": [317, 325, 328],
+      "finding": "Unit 19 lecture, worksheet, and exactly two frozen public solutions begin cleanly and remain legible through their boundary."
+    },
+    {
+      "pages": [329, 333, 337, 342],
+      "finding": "Unit 20 lecture, centered Whitney-umbrella media with component credit, worksheet, and eight frozen public solutions render without clipping, collision, or malformed mathematics."
+    },
+    {
+      "pages": [347, 349, 352, 353, 354, 360, 367],
+      "finding": "Unit 21 lecture, visible edition bridge and correction labels, worksheet, exactly two frozen public solutions, provenance, and cumulative component-rights ending all render cleanly."
+    }
+  ],
+  "programmatic_page_number_check": {
+    "method": "pdftotext -layout on selected final PDF pages",
+    "pages_checked": [352, 354, 360, 367],
+    "result": "Each selected page's extracted footer equals its absolute PDF page number."
+  },
+  "findings_resolved_before_freeze": [],
+  "conclusion": "All 367 final PDF pages were rasterized and inspected through 19 contact sheets. The frontmatter and Units 19-21 mathematics, exercises, public solutions, media, provenance, and final rights surfaces were additionally inspected at full size. No unresolved visual or formatting defect remains."
+}

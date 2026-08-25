@@ -328,7 +328,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Sembilan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-09.pdf",
         )
-    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18):
+    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21):
         number_words = {
             10: "Sepuluh",
             11: "Sebelas",
@@ -339,6 +339,9 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             16: "Enam belas",
             17: "Tujuh belas",
             18: "Delapan belas",
+            19: "Sembilan belas",
+            20: "Dua puluh",
+            21: "Dua puluh satu",
         }
         unit_sources: list[Path] = [
             SOURCE_DIR / f"frontmatter-units-01-{through:02d}.md"
@@ -354,7 +357,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
         unit_sources.append(SOURCE_DIR / "media-credits.md")
         unit_sources.extend(
             SOURCE_DIR / f"media-credits-unit-{unit:02d}.md"
-            for unit in (*range(2, 10), 11, 12, 13, 14, 15, 16, 17, 18)
+            for unit in (*range(2, 10), *range(11, 22))
             if unit <= through
         )
         return (
@@ -363,7 +366,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             f"{number_words[through]} kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             f"algebraic-geometry-bridge-id-units-01-{through:02d}.pdf",
         )
-    raise ValueError("only contiguous scopes --through 1 through --through 18 are supported")
+    raise ValueError("only contiguous scopes --through 1 through --through 21 are supported")
 
 
 def sha256(path: Path) -> str:

@@ -1,9 +1,9 @@
 {
   "schema": "ag-bridge-build-receipt-v2",
-  "built_utc": "2026-08-24T16:01:45.652191+00:00",
+  "built_utc": "2026-08-25T01:04:01.405042+00:00",
   "language": "id-ID",
-  "through_unit": 18,
-  "title": "Kurva Aljabar - Unit 1-18",
+  "through_unit": 21,
+  "title": "Kurva Aljabar - Unit 1-21",
   "pandoc": "pandoc 3.9.0.2",
   "latex": "This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5)",
   "inputs": [
@@ -16,6 +16,11 @@
       "path": "authority/assets/250px-Lineair-cartesiaans.png",
       "bytes": 11096,
       "sha256": "2827bd16eb6d65eb9e2e158af309c7740ba2a17342cce57aba03a08b7e37735c"
+    },
+    {
+      "path": "authority/assets/250px-Whitney_unbrella.png",
+      "bytes": 27157,
+      "sha256": "5486f1532e23665cdbbfc24cef93ac5a9b3586f0eb71d2f991d13ba1c599a209"
     },
     {
       "path": "authority/assets/Alexander_Grothendieck.jpg",
@@ -463,9 +468,14 @@
       "sha256": "489afccf2128371df697f6121da75c376f4910a2404dfe572c7ae7adbdac663a"
     },
     {
-      "path": "source/id-ID/frontmatter-units-01-18.md",
-      "bytes": 2896,
-      "sha256": "2b24a7d9c28a311768f206a270191598b6a233a0338f237628c2bac80437c4be"
+      "path": "authority/assets/Whitney_unbrella.png",
+      "bytes": 35829,
+      "sha256": "5a469c4675d326a753dca7801524138e64689e476d38d867070f97983f8b07d2"
+    },
+    {
+      "path": "source/id-ID/frontmatter-units-01-21.md",
+      "bytes": 3370,
+      "sha256": "560b34060b3a2dc083d5a97238483c3f542c2928db9a435df63cea4db5d1c7aa"
     },
     {
       "path": "source/id-ID/lecture-01.md",
@@ -558,6 +568,21 @@
       "sha256": "319cca4f08a3a4ee0bf0fa2a9d525e0adcd2f6f639705dd1c2eb06580b7bfcd3"
     },
     {
+      "path": "source/id-ID/lecture-19.md",
+      "bytes": 16163,
+      "sha256": "7c364a2364aaa5b5980e4a113bb903831b4ade4af813658357a50e1a757021af"
+    },
+    {
+      "path": "source/id-ID/lecture-20.md",
+      "bytes": 16602,
+      "sha256": "ccedeb464364a71f98f7450359ec6baa2c5135651e9e6e098de2772bf337ce66"
+    },
+    {
+      "path": "source/id-ID/lecture-21.md",
+      "bytes": 17276,
+      "sha256": "4bfbb794483fdc0466acda10c7e63fa09891ad8da435888b2b59a0e051c7b8a6"
+    },
+    {
       "path": "source/id-ID/media-credits-unit-02.md",
       "bytes": 692,
       "sha256": "2d1794aadd5462eccf5574af6a875699ced4d371f5a4d44e4c19d0b489088b37"
@@ -636,6 +661,21 @@
       "path": "source/id-ID/media-credits-unit-18.md",
       "bytes": 789,
       "sha256": "9e1f8c342873acbe70a43ab88718bba67cbe4ed10672afb77f2ed5c41a78f0c5"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-19.md",
+      "bytes": 780,
+      "sha256": "498212f6e34bba635ac89a320b207ac65cb3093d4bbeb04998f193e56429e21e"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-20.md",
+      "bytes": 794,
+      "sha256": "02c00101d4e11df536c49ec6ffcaedc2f4a03215e867daa86c6bb81686704f1a"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-21.md",
+      "bytes": 935,
+      "sha256": "e4076d9aa394dd6901e49dd9c73216eb80d8f0938ea7571f4d6cc30d87e44f67"
     },
     {
       "path": "source/id-ID/media-credits.md",
@@ -831,18 +871,48 @@
       "path": "source/id-ID/worksheet-18.md",
       "bytes": 14530,
       "sha256": "ec760a90d6f7462dbe71f755149886006e144bedc8ce11d09f72452472ee641e"
+    },
+    {
+      "path": "source/id-ID/worksheet-19-solutions.md",
+      "bytes": 3791,
+      "sha256": "eaae6e95ecc909693bd2622136d9812497343dde81ac8617eb2f6a079beb3216"
+    },
+    {
+      "path": "source/id-ID/worksheet-19.md",
+      "bytes": 7071,
+      "sha256": "23d8218f94d8a29b2c6bd0ed471c56f760fe00e824e9d70a19edfaa22adfb86f"
+    },
+    {
+      "path": "source/id-ID/worksheet-20-solutions.md",
+      "bytes": 12722,
+      "sha256": "2b1d9e9bee2c9285b50c52128d20a4e769379ccb51193192bdf9567ca16d064a"
+    },
+    {
+      "path": "source/id-ID/worksheet-20.md",
+      "bytes": 10529,
+      "sha256": "50418f12f8f620736db8a6c9689902addc21308ebd4a0ebccfc18266a4156a99"
+    },
+    {
+      "path": "source/id-ID/worksheet-21-solutions.md",
+      "bytes": 5662,
+      "sha256": "e872b5002fa8bf278e907b8247a74a23f9efb09eeba1f4610df655dd5d25c4bc"
+    },
+    {
+      "path": "source/id-ID/worksheet-21.md",
+      "bytes": 14505,
+      "sha256": "9fe5a9e27c5de0b17ec1e0512c1d4368d21ad886c7bc5f4d4a27b6a27bf089f9"
     }
   ],
   "outputs": [
     {
-      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-18.pdf",
-      "bytes": 6905745,
-      "sha256": "ba62b61759a50925dcefa1a3a0153c8b597ee1386dd2033b610dae622e33ed99"
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-21.pdf",
+      "bytes": 7409373,
+      "sha256": "b95fd1ed0ea75294cd4562b7f2f36e920e247e2da5e1b039e99e975f9797a3e6"
     },
     {
       "path": "build/reader-id/index.html",
-      "bytes": 11555390,
-      "sha256": "fab05aac5a84b45ee36260d895dcf89e2ad2d13fd6b7545eba2ae4c2e3db2f0a"
+      "bytes": 12388419,
+      "sha256": "ae658bee5191e4d0be529d38ec7eb9fd2e287295237be4bbb98a58b4709c6700"
     }
   ]
 }

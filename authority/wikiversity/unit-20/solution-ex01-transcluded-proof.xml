@@ -1,0 +1,205 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Quadratwurzel/2/Irrational/Fakt/Beweis</title>
+    <ns>0</ns>
+    <id>111327</id>
+    <revision>
+      <id>1108353</id>
+      <parentid>1106576</parentid>
+      <timestamp>2026-07-21T15:07:27Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1108353</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2633" sha1="imfdecqvqqt807finwhw1sbfmo0uq70" xml:space="preserve">{{
+Mathematischer Text/Beweis{{{opt|}}}
+|Text=
+{{
+Beweisstruktur
+|Strategie=
+|Notation=
+|Beweis=
+Wir machen die Annahme, dass es eine rationale Zahl gibt, deren Quadrat gleich {{math|term= 2 |SZ=}} ist, und führen das zu einem Widerspruch. Es sei also angenommen, dass
+{{
+Relationskette/display
+| x
+| \in | \Q
+||
+||
+||
+|SZ=
+}}
+die Eigenschaft besitzt, dass
+{{
+Relationskette/display
+| x^2
+|| 2
+||
+||
+||
+|SZ=
+}}
+ist. Eine rationale Zahl hat die Beschreibung als ein Bruch, wobei Zähler und Nenner ganze Zahlen sind. Die rationale Zahl {{math|term= x |SZ=}} können wir somit als
+{{
+Relationskette/display
+| x
+|| {{op:Bruch| a |b}} 
+||
+||
+||
+|SZ=
+}}
+ansetzen. Ferner können wir annehmen
+{{
+Zusatz/Klammer
+|text=dieses Annehmen ist eine Vereinfachung der Situation und hat nichts mit der zum Widerspruch zu führenden Annahme zu tun|
+|ISZ=|ESZ=,
+}}
+dass dieser Bruch gekürzt ist, dass also 
+{{
+mathkor|term1=
+a
+|und|term2=
+b
+|SZ=
+}}
+keinen echten gemeinsamen Teiler haben. In der Tat brauchen wir lediglich, dass wir annehmen dürfen, dass zumindest eine Zahl,
+{{
+mathkor|term1=
+a
+|oder|term2=
+b
+|SZ=,
+}}
+ungerade ist 
+{{
+Zusatz/Klammer
+|text=wenn beide gerade sind, so können wir mit {{math|term= 2 |SZ=}} kürzen, usw.|
+|ISZ=|ESZ=
+}}
+Die Eigenschaft
+{{
+Relationskette/display
+| x^2
+|| 2
+||
+||
+||
+|SZ=
+}}
+bedeutet ausgeschrieben
+{{
+Relationskette/display
+| x^2
+|| {{makl| {{op:Bruch| a |b}}  |}}^2 
+|| {{op:Bruch|a^2|b^2}} 
+|| 2
+||
+|SZ=.
+}}
+Multiplikation mit {{math|term= b^2 |SZ=}} ergibt die Gleichung
+{{
+Relationskette/display
+| 2 b^2
+|| a^2
+||
+||
+||
+|SZ=
+}}
+{{
+Zusatz/Klammer
+|text=dies ist eine Gleichung in {{math|term= \Z|SZ=}} bzw. sogar in {{math|term= \N|SZ=}} |
+|ISZ=|ESZ=.
+}}
+Diese Gleichung besagt, dass {{math|term= a^2 |SZ=}} gerade ist, da ja {{math|term= a^2 |SZ=}} ein Vielfaches der {{math|term= 2 |SZ=}} ist. Daraus ergibt sich aber auch, dass {{math|term= a |SZ=}} selbst gerade ist, da ja das Quadrat einer ungeraden Zahl wieder ungerade ist. Deshalb können wir den Ansatz
+{{
+Relationskette/display
+|a
+|| 2c
+||
+||
+||
+|SZ=
+}}
+mit einer ganzen Zahl {{math|term= c |SZ=}} machen. Dies setzen wir in die obige Gleichung ein und erhalten
+{{
+Relationskette/display
+| 2 b^2
+|| (2c)^2
+|| 2^2 c^2
+||
+||
+|SZ=.
+}}
+Wir können mit {{math|term= 2 |SZ=}} kürzen und erhalten
+{{
+Relationskette/display
+|b^2
+|| 2 c^2
+||
+||
+||
+|SZ=.
+}}
+Also ist auch {{math|term= b^2 |SZ=}} und damit {{math|term= b |SZ=}} selbst gerade. Dies ist ein Widerspruch dazu, dass nicht sowohl
+{{
+mathkor|term1=
+a
+|als auch|term2=
+b
+|SZ=
+}}
+gerade sind.
+|Abschluss=
+}}
+|Textart=Beweis 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>imfdecqvqqt807finwhw1sbfmo0uq70</sha1>
+    </revision>
+  </page>
+</mediawiki>

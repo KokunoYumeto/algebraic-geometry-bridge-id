@@ -1,0 +1,73 @@
+{
+  "schema": "ag-bridge-protected-surfaces-v3",
+  "status": "PASS",
+  "verified_date": "2026-08-25",
+  "through_unit": 21,
+  "unit_18_baseline": {
+    "path": "qa/UNIT_18_PROTECTED_SURFACES.json",
+    "bytes": 1566,
+    "sha256": "29a6a329361515dadc7c6399538a010a3717c43e38fb9564ac681b8670786bc9",
+    "status": "PASS"
+  },
+  "machine_qa": {
+    "path": "qa/UNITS_01_21_MACHINE_QA.json",
+    "bytes": 7308,
+    "sha256": "adace78a568ecb84c97077965d82a4ca13a849b7455db0b8872546486dcabdd0",
+    "status": "PASS"
+  },
+  "units_19_21": {
+    "19": {
+      "tokens": 10,
+      "source_files": 3,
+      "missing": 0
+    },
+    "20": {
+      "tokens": 20,
+      "source_files": 3,
+      "missing": 0
+    },
+    "21": {
+      "tokens": 28,
+      "source_files": 3,
+      "missing": 0
+    }
+  },
+  "protected_token_count": 58,
+  "source_missing": 0,
+  "html_mathml_annotations": 8521,
+  "html_missing": 0,
+  "pdf_terminal_start_page": 317,
+  "pdf_terminal_pages_checked": 51,
+  "pdf_terminal_markers_checked": 9,
+  "correction_and_bridge_disclosures": [
+    "AGC-CORR-0051",
+    "AGC-CORR-0052",
+    "AGC-CORR-0053",
+    "AGC-CORR-0054",
+    "AGC-CORR-0055",
+    "AGC-CORR-0056",
+    "AGC-CORR-0057",
+    "AGC-CORR-0058",
+    "AGC-CORR-0059",
+    "AGC-CORR-0060",
+    "AGC-CORR-0061",
+    "AGC-CORR-0062",
+    "AGC-CORR-0063",
+    "AGC-CORR-0064",
+    "AGC-CORR-0065",
+    "AGC-CORR-0066",
+    "AGC-CORR-0067",
+    "AGC-CORR-0068",
+    "AGC-CORR-0069",
+    "AGC-CORR-0070"
+  ],
+  "checks": [
+    "exact Unit 18 protected-surface baseline is PASS",
+    "exact cumulative Unit 21 machine QA is PASS",
+    "exact Units 19-21 translation/integration math gates are PASS",
+    "all protected source formulas survive as HTML TeX annotations",
+    "measured terminal PDF range contains every Unit 19-21 lecture, worksheet, and public-solution boundary",
+    "all Unit 19-21 source corrections and edition bridges remain ledger-bound"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

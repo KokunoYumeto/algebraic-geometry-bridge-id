@@ -1,0 +1,3597 @@
+{
+  "schema": "brenner-unit-authority-freeze-v2",
+  "frozen_utc": "2026-08-25T00:10:00.466421+00:00",
+  "unit_number": 20,
+  "source_api": "https://de.wikiversity.org/w/api.php",
+  "source_course_license": "CC BY-SA 4.0",
+  "lecture": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 20",
+    "pageid": 165909,
+    "revid": 1112311,
+    "parentid": 1062470,
+    "timestamp": "2026-08-21T09:10:26Z",
+    "mediawiki_sha1": "74eb303dc659cb8131aaaee6948962210f063f4e",
+    "wikitext_bytes": 2184,
+    "api_file": "lecture-20-api.json",
+    "api_bytes": 2601,
+    "api_sha256": "8ca71a653444e6103051095981d68534fc23906499045dbf1533536d96d030e4",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112311",
+    "xml_file": "lecture-20.xml",
+    "xml_bytes": 5324,
+    "xml_sha256": "052aee339f49d9d2dfe7f71f50a17c5cc4f9f507eae70a2b8692a1dd5aa38e77",
+    "html_file": "lecture-20.html",
+    "html_bytes": 125817,
+    "html_sha256": "2434416f6982d9aac1553cd38e3c7c8ca31aaed7761948e9a8cfcc37259937c3",
+    "html_source": "immutable Parsoid revision endpoint",
+    "parse_api_file": "lecture-20-parse-api.json",
+    "parse_api_bytes": 15190,
+    "parse_api_sha256": "9f745d67f69e9b1742aac694f575b69539ec42a93797e31621e560140c4eea6b",
+    "template_count": 118,
+    "image_count": 3,
+    "link_count": 48,
+    "external_link_count": 0
+  },
+  "worksheet": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 20",
+    "pageid": 165939,
+    "revid": 1062603,
+    "parentid": 1062601,
+    "timestamp": "2025-12-18T10:53:10Z",
+    "mediawiki_sha1": "97db112f709b6ab16f89b88f6d4e3da127c7802a",
+    "wikitext_bytes": 2663,
+    "api_file": "worksheet-20-api.json",
+    "api_bytes": 3147,
+    "api_sha256": "3a57156923e72869cc3999d1622cc0be86eb838d5a79a2233622c365535640c4",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1062603",
+    "xml_file": "worksheet-20.xml",
+    "xml_bytes": 5806,
+    "xml_sha256": "7167696a62162f8d214690b86a253dec1c6c6a825929127a1d43b3c8aa3c3585",
+    "html_file": "worksheet-20.html",
+    "html_bytes": 70412,
+    "html_sha256": "092f168b5602e2c6ec0a7e57b1687f3ffbd0fa573908c9c1f626b8219ad398c1",
+    "html_source": "immutable Parsoid revision endpoint",
+    "parse_api_file": "worksheet-20-parse-api.json",
+    "parse_api_bytes": 16096,
+    "parse_api_sha256": "15eeb9159cd53fcf3e49a6511f5ca4db623a3cd790ba5cb508c7594af2c02d61",
+    "template_count": 120,
+    "image_count": 2,
+    "link_count": 65,
+    "external_link_count": 0
+  },
+  "lecture_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 20/latex",
+    "pageid": 165973,
+    "revid": 1033019,
+    "parentid": 0,
+    "timestamp": "2025-08-11T13:53:56Z",
+    "mediawiki_sha1": "3034e92c1843eab298fb5f6f859d2c89cf824d61",
+    "wikitext_bytes": 9,
+    "api_file": "lecture-20-latex-page-api.json",
+    "api_bytes": 373,
+    "api_sha256": "3a376d32d554dcaae83c86fb7bdb05121bd0ddb749cf7f79913cd2252d3b5740",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1033019",
+    "xml_file": "lecture-20-latex-page.xml",
+    "xml_bytes": 3174,
+    "xml_sha256": "93bc59ce6872338315ecb2863aebe25e9b7ccfa97e1b762f49e49586553ed88c",
+    "html_file": "lecture-20-latex-page.html",
+    "html_bytes": 29036,
+    "html_sha256": "2260ec25de67dd87441d39a382d1f28d4e628d7d24ddc3217c1ce647349efb1d",
+    "html_source": "immutable Parsoid revision endpoint"
+  },
+  "worksheet_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 20/latex",
+    "pageid": 166033,
+    "revid": 1033081,
+    "parentid": 0,
+    "timestamp": "2025-08-11T14:03:56Z",
+    "mediawiki_sha1": "3034e92c1843eab298fb5f6f859d2c89cf824d61",
+    "wikitext_bytes": 9,
+    "api_file": "worksheet-20-latex-page-api.json",
+    "api_bytes": 376,
+    "api_sha256": "4e599a636fec5056d839fe0d0c2a9c5aec8e2d2a13e8eb2d7f2291cd894de60a",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1033081",
+    "xml_file": "worksheet-20-latex-page.xml",
+    "xml_bytes": 3177,
+    "xml_sha256": "1c1b8e593328f39f75d681c5c12f70105154e3d9de094b280247fac03d2513a2",
+    "html_file": "worksheet-20-latex-page.html",
+    "html_bytes": 18270,
+    "html_sha256": "58aee4d3dd2244fccc8b99af8cb05881738d2f2eb2cfe6ff71b8e79be1592036",
+    "html_source": "immutable Parsoid revision endpoint"
+  },
+  "derived_expanded_tex": [
+    {
+      "file": "lecture-20-expanded.tex",
+      "bytes": 20917,
+      "sha256": "8d95abad821218ccc9a32b3b7d57f8696b57bb98991c707f4ef8e5a20a1bdecc"
+    },
+    {
+      "file": "worksheet-20-expanded.tex",
+      "bytes": 10753,
+      "sha256": "c8998ecb3b461041a25272e2e4849011103b66326a51bac1936d2a40f1423912"
+    }
+  ],
+  "lecture_transclusion_closure": {
+    "source": "action=parse template list after recursive parser expansion",
+    "requested_template_count": 118,
+    "captured_page_count": 118,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "lecture-20-transclusions-01.json",
+        "bytes": 27765,
+        "sha256": "7713175d190283841d87350a2a085353d81f701c50b5d6f0d7b5810e1e09166f",
+        "requested_titles": [
+          "Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt",
+          "Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt/Beweis",
+          "Kommutative Monoidringe/Grundring integer/Monoidring nicht integer/Beispiel",
+          "Kommutative Monoidringe/Monoid mit Kürzungsregel und torsionsfrei/Grundring integer/Integer/Fakt",
+          "Kommutative Monoidringe/Monoid mit Kürzungsregel und torsionsfrei/Grundring integer/Integer/Fakt/Beweis",
+          "Kommutative Monoidtheorie/Normalisierung in Differenzengruppe und normal/Definition",
+          "Kommutative Monoidtheorie/Normalisierung/Monoid und Monoidring/Fakt",
+          "Kommutative Monoidtheorie/Normalisierung/Monoid und Monoidring/Fakt/Beweis",
+          "Kommutative Ringtheorie/Faktoriell/Normal/Fakt",
+          "Kommutative Ringtheorie/Faktoriell/Normal/Fakt/Beweis",
+          "Kommutative Ringtheorie/Ganzheit/Normal (ganz-abgeschlossen)/Definition",
+          "Kommutative Ringtheorie/Ganzheit/Normalisierung für Integritätsbereich/Definition",
+          "Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt",
+          "Kommutatives Monoid/Torsionsfrei/Definition",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutative Ringtheorie/Ganzheit/Ganzer Abschluss/Ring/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutative Ringtheorie/Normal/Durchschnitt von normalen Ringen/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt/Beweis/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutatives Monoid/Torsionsfrei/Differenzgruppe ist torsionsfrei/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung",
+          "MDLUL/Basis (vr)",
+          "MDLUL/Differenzengruppe",
+          "MDLUL/Einheit",
+          "MDLUL/Faktoriell",
+          "MDLUL/Ganzer Abschluss"
+        ]
+      },
+      {
+        "file": "lecture-20-transclusions-02.json",
+        "bytes": 10059,
+        "sha256": "e0fb7eaa3e640959f52ea272e0c654ba9bfe05e25be957b6aa876d194e31310d",
+        "requested_titles": [
+          "MDLUL/Ganzheitsgleichung",
+          "MDLUL/Halbraum",
+          "MDLUL/Integritätsbereich",
+          "MDLUL/Kürzungsregel",
+          "MDLUL/Lineare Abbildung",
+          "MDLUL/Monoid",
+          "MDLUL/Monoid mit Kürzungsregel",
+          "MDLUL/Monoidring",
+          "MDLUL/Monoidringen",
+          "MDLUL/Nenneraufnahme",
+          "MDLUL/Nenneraufnahme (Integritätsbereich)",
+          "MDLUL/Normalisierung",
+          "MDLUL/Normalisierung (Monoid)",
+          "MDLUL/Quotientenkörper",
+          "MDLUL/Restklassenraum",
+          "MDLUL/Singularitätsgrad (monomiale Kurve)",
+          "MDLUL/faktorieller",
+          "MDLUL/ganz-abgeschlossen",
+          "MDLUL/ganzen Abschluss",
+          "MDLUL/kommutatives Monoid",
+          "MDLUL/lineare Abbildung",
+          "MDLUL/multiplikatives System",
+          "MDLUL/normal (Ring)",
+          "MDLUL/normaler Integritätsbereich",
+          "MDLUL/numerisches Monoid"
+        ]
+      },
+      {
+        "file": "lecture-20-transclusions-03.json",
+        "bytes": 34301,
+        "sha256": "cbbb225c6b669488a74b91edf452bec145697f98b89156c967b0c33223ac251d",
+        "requested_titles": [
+          "MDLUL/torsionsfrei (Monoid)",
+          "MDLUL/torsionsfreies (Monoid)",
+          "Monoidring/Normalisierung/Eigenschaften dafür/Textabschnitt",
+          "Monoidringe/Dimension zwei/Standardkegel/Z^2-XY/Monoid und Bewertungen/Beispiel",
+          "Monoidringe/Dimension zwei/Whitney Regenschirm/X^2Y-Z^2/Beispiel",
+          "Normaler Integritätsbereich/Faktoriell/Nenneraufnahme/Normalisierung/Textabschnitt",
+          "Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Beziehung zur Normalisierung/Fakt",
+          "Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Beziehung zur Normalisierung/Fakt/Beweis",
+          "Vorlage:Abbildung",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Aufgabelink",
+          "Vorlage:Beweisstruktur",
+          "Vorlage:Bildskip",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionswort",
+          "Vorlage:Drucktrenn",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:Faktstruktur",
+          "Vorlage:ImageNoteControl",
+          "Vorlage:Inputbeispiel"
+        ]
+      },
+      {
+        "file": "lecture-20-transclusions-04.json",
+        "bytes": 67845,
+        "sha256": "8a5e929bc27e7f290690a626e685abeac84c92a8c7fd1e8e5f3d3a4c0974e370",
+        "requested_titles": [
+          "Vorlage:Inputbild",
+          "Vorlage:Inputdefinition",
+          "Vorlage:Inputfaktbeweis",
+          "Vorlage:Inputfaktbeweisaufgabe",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathbed",
+          "Vorlage:Mathbed1",
+          "Vorlage:Mathbed2",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Beispiel",
+          "Vorlage:Mathematischer Text/Beweis",
+          "Vorlage:Mathematischer Text/Definition",
+          "Vorlage:Mathematischer Text/Fakt",
+          "Vorlage:Mathematischer Textabschnitt",
+          "Vorlage:Mathind",
+          "Vorlage:Mathkon",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathl",
+          "Vorlage:Mengebed"
+        ]
+      },
+      {
+        "file": "lecture-20-transclusions-05.json",
+        "bytes": 22632,
+        "sha256": "220fcce87247692975e4ad7475ab855e26d1096bd9252f8f692d3125fa0d6ba9",
+        "requested_titles": [
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affine Gerade",
+          "Vorlage:Op:Affiner Raum",
+          "Vorlage:Op:Bruch",
+          "Vorlage:Op:KSpek",
+          "Vorlage:Op:Normalisierung",
+          "Vorlage:Plusdots",
+          "Vorlage:Qed",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Relationskette/k",
+          "Vorlage:Summe/index",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt",
+        "pageid": 18146,
+        "revid": 1043167,
+        "parentid": 972326,
+        "timestamp": "2025-08-12T18:35:59Z",
+        "mediawiki_sha1": "a51ea40e635cae53c9debf3e02c26370508d465e",
+        "wikitext_bytes": 903
+      },
+      {
+        "title": "Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt/Beweis",
+        "pageid": 18147,
+        "revid": 1085914,
+        "parentid": 1043009,
+        "timestamp": "2026-05-30T10:26:35Z",
+        "mediawiki_sha1": "4ce1cf94a369fa12ba3e27dabca3c0f03d03dd06",
+        "wikitext_bytes": 1151
+      },
+      {
+        "title": "Kommutative Monoidringe/Grundring integer/Monoidring nicht integer/Beispiel",
+        "pageid": 17477,
+        "revid": 1062471,
+        "parentid": 1036445,
+        "timestamp": "2025-12-16T10:02:51Z",
+        "mediawiki_sha1": "de0e2bb3ea8f6b9691c8ec8bda9e7d32fda97c35",
+        "wikitext_bytes": 834
+      },
+      {
+        "title": "Kommutative Monoidringe/Monoid mit Kürzungsregel und torsionsfrei/Grundring integer/Integer/Fakt",
+        "pageid": 20537,
+        "revid": 952528,
+        "parentid": 804471,
+        "timestamp": "2024-11-01T22:51:53Z",
+        "mediawiki_sha1": "9ca851b14b2ea4ae99cb7b0ee267e08851cac0e4",
+        "wikitext_bytes": 971
+      },
+      {
+        "title": "Kommutative Monoidringe/Monoid mit Kürzungsregel und torsionsfrei/Grundring integer/Integer/Fakt/Beweis",
+        "pageid": 20538,
+        "revid": 1112310,
+        "parentid": 1101312,
+        "timestamp": "2026-08-21T09:09:40Z",
+        "mediawiki_sha1": "61de44d0b7e5f9a42014e2858e95115e69c57a61",
+        "wikitext_bytes": 1804
+      },
+      {
+        "title": "Kommutative Monoidtheorie/Normalisierung in Differenzengruppe und normal/Definition",
+        "pageid": 20543,
+        "revid": 1091145,
+        "parentid": 1017185,
+        "timestamp": "2026-06-01T08:05:45Z",
+        "mediawiki_sha1": "fb27f67f810fd2880e3b13971bf7ff20a7abf274",
+        "wikitext_bytes": 836
+      },
+      {
+        "title": "Kommutative Monoidtheorie/Normalisierung/Monoid und Monoidring/Fakt",
+        "pageid": 18416,
+        "revid": 1014004,
+        "parentid": 952530,
+        "timestamp": "2025-08-08T13:24:37Z",
+        "mediawiki_sha1": "2f7119daac9124bada15ab63602d6e564a6a0933",
+        "wikitext_bytes": 1228
+      },
+      {
+        "title": "Kommutative Monoidtheorie/Normalisierung/Monoid und Monoidring/Fakt/Beweis",
+        "pageid": 18417,
+        "revid": 1101313,
+        "parentid": 1086491,
+        "timestamp": "2026-06-17T14:31:57Z",
+        "mediawiki_sha1": "29e7e5bc1910c339a95fc541f60b8b8141706e06",
+        "wikitext_bytes": 3468
+      },
+      {
+        "title": "Kommutative Ringtheorie/Faktoriell/Normal/Fakt",
+        "pageid": 11316,
+        "revid": 952534,
+        "parentid": 840958,
+        "timestamp": "2024-11-01T22:52:53Z",
+        "mediawiki_sha1": "5fdaf26d5d9a83fbcf43a6b19f5f6552ef347854",
+        "wikitext_bytes": 610
+      },
+      {
+        "title": "Kommutative Ringtheorie/Faktoriell/Normal/Fakt/Beweis",
+        "pageid": 11320,
+        "revid": 1110238,
+        "parentid": 1106745,
+        "timestamp": "2026-08-08T09:49:51Z",
+        "mediawiki_sha1": "2deacad9e6845fe70366a1006fcab2d61b0f4294",
+        "wikitext_bytes": 1919
+      },
+      {
+        "title": "Kommutative Ringtheorie/Ganzheit/Normal (ganz-abgeschlossen)/Definition",
+        "pageid": 11325,
+        "revid": 1073248,
+        "parentid": 1058327,
+        "timestamp": "2026-02-24T15:14:59Z",
+        "mediawiki_sha1": "70f23e297e3ac6f4386d722ad7fa4102339e0be0",
+        "wikitext_bytes": 483
+      },
+      {
+        "title": "Kommutative Ringtheorie/Ganzheit/Normalisierung für Integritätsbereich/Definition",
+        "pageid": 15223,
+        "revid": 1017200,
+        "parentid": 962294,
+        "timestamp": "2025-08-08T22:50:01Z",
+        "mediawiki_sha1": "82e57b7eae64c56e553f8c3df82bf9af125fdfc2",
+        "wikitext_bytes": 652
+      },
+      {
+        "title": "Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt",
+        "pageid": 15902,
+        "revid": 1046588,
+        "parentid": 974546,
+        "timestamp": "2025-08-13T04:07:00Z",
+        "mediawiki_sha1": "7af396b5029b35dbf0c2a8a345d07bf27fecf2fd",
+        "wikitext_bytes": 692
+      },
+      {
+        "title": "Kommutatives Monoid/Torsionsfrei/Definition",
+        "pageid": 20536,
+        "revid": 1037825,
+        "parentid": 1028256,
+        "timestamp": "2025-08-12T03:32:26Z",
+        "mediawiki_sha1": "4228f879afecab07b1d96f37df2c599035123756",
+        "wikitext_bytes": 639
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutative Ringtheorie/Ganzheit/Ganzer Abschluss/Ring/Fakt/Faktreferenznummer",
+        "pageid": 166462,
+        "revid": 1051447,
+        "parentid": 0,
+        "timestamp": "2025-08-18T08:30:28Z",
+        "mediawiki_sha1": "04593c920c1239892117cc365a89e395ff36eee4",
+        "wikitext_bytes": 50
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutative Ringtheorie/Normal/Durchschnitt von normalen Ringen/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166484,
+        "revid": 1062608,
+        "parentid": 1051475,
+        "timestamp": "2025-12-18T11:07:24Z",
+        "mediawiki_sha1": "9941d2a547b28e4cb317ee7903639ac575ebb1e9",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt/Beweis/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166485,
+        "revid": 1062607,
+        "parentid": 1051476,
+        "timestamp": "2025-12-18T11:07:14Z",
+        "mediawiki_sha1": "94bb0ebddaf0a53a724dfe36ac0588bdf49b85ba",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Kommutatives Monoid/Torsionsfrei/Differenzgruppe ist torsionsfrei/Aufgabe/Aufgabereferenznummer",
+        "pageid": 166486,
+        "revid": 1062609,
+        "parentid": 1051477,
+        "timestamp": "2025-12-18T11:07:34Z",
+        "mediawiki_sha1": "79a9e879b28c6c2f8993d0d8a4fb1c9746ef109c",
+        "wikitext_bytes": 49
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung/Fuß",
+        "pageid": 165887,
+        "revid": 1032932,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:46Z",
+        "mediawiki_sha1": "8fbfbd4087c4235b5b2d95c55b7d805d5dae149d",
+        "wikitext_bytes": 1011
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung",
+        "pageid": 165885,
+        "revid": 1032930,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:26Z",
+        "mediawiki_sha1": "8842223dc4805ab2598ed30647381ee75d52522b",
+        "wikitext_bytes": 393
+      },
+      {
+        "title": "MDLUL/Basis (vr)",
+        "pageid": 38882,
+        "revid": 415544,
+        "parentid": 235260,
+        "timestamp": "2015-04-02T14:32:24Z",
+        "mediawiki_sha1": "18341e7e2117dd457b50ea9fcfe06fadcd60136f",
+        "wikitext_bytes": 78
+      },
+      {
+        "title": "MDLUL/Differenzengruppe",
+        "pageid": 54080,
+        "revid": 586955,
+        "parentid": 320703,
+        "timestamp": "2019-04-17T14:24:18Z",
+        "mediawiki_sha1": "3eb1155cc6e97b4ed22c4272ba8b40a63fa83f31",
+        "wikitext_bytes": 131
+      },
+      {
+        "title": "MDLUL/Einheit",
+        "pageid": 58368,
+        "revid": 341771,
+        "parentid": 0,
+        "timestamp": "2012-11-30T12:31:47Z",
+        "mediawiki_sha1": "f1bbf76b5e5b57b4c1b54285861489c00ed63dce",
+        "wikitext_bytes": 87
+      },
+      {
+        "title": "MDLUL/Faktoriell",
+        "pageid": 58797,
+        "revid": 342540,
+        "parentid": 0,
+        "timestamp": "2012-12-06T08:52:06Z",
+        "mediawiki_sha1": "b26e01ef23c08ba6b774181b29670ce79b2088d9",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/Ganzer Abschluss",
+        "pageid": 58241,
+        "revid": 470250,
+        "parentid": 341392,
+        "timestamp": "2016-09-28T08:57:02Z",
+        "mediawiki_sha1": "336fcbb7268593134242f2be72f471e491bb6568",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/Ganzheitsgleichung",
+        "pageid": 61943,
+        "revid": 373427,
+        "parentid": 0,
+        "timestamp": "2013-08-10T15:26:08Z",
+        "mediawiki_sha1": "13ee4a40da5fc6922e304efe5fe9c9c67f4ddc5b",
+        "wikitext_bytes": 130
+      },
+      {
+        "title": "MDLUL/Halbraum",
+        "pageid": 41159,
+        "revid": 242736,
+        "parentid": 0,
+        "timestamp": "2010-10-27T11:17:17Z",
+        "mediawiki_sha1": "730817876bdcfe628a3801dba1d3a12e32ee0f2b",
+        "wikitext_bytes": 81
+      },
+      {
+        "title": "MDLUL/Integritätsbereich",
+        "pageid": 24173,
+        "revid": 301290,
+        "parentid": 301289,
+        "timestamp": "2012-02-18T20:25:56Z",
+        "mediawiki_sha1": "94d1bc5db80e84abfc3fd6ee64a77f768ca88040",
+        "wikitext_bytes": 123
+      },
+      {
+        "title": "MDLUL/Kürzungsregel",
+        "pageid": 54078,
+        "revid": 320701,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:41:49Z",
+        "mediawiki_sha1": "40fdb557a115df03dcd8ac723be03fbed9f8a600",
+        "wikitext_bytes": 127
+      },
+      {
+        "title": "MDLUL/Lineare Abbildung",
+        "pageid": 38551,
+        "revid": 234479,
+        "parentid": 0,
+        "timestamp": "2010-08-16T13:00:58Z",
+        "mediawiki_sha1": "2d3ee3304866bfbfa67a0289dd0fa6c793d295d2",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/Monoid",
+        "pageid": 45101,
+        "revid": 264016,
+        "parentid": 0,
+        "timestamp": "2011-05-05T08:41:21Z",
+        "mediawiki_sha1": "5a446273c28a71c63ccca32d3127003b0920e917",
+        "wikitext_bytes": 88
+      },
+      {
+        "title": "MDLUL/Monoid mit Kürzungsregel",
+        "pageid": 94923,
+        "revid": 534668,
+        "parentid": 0,
+        "timestamp": "2017-12-19T13:35:30Z",
+        "mediawiki_sha1": "21ae6bb54b58456df9c02954a95976e38e2a36c6",
+        "wikitext_bytes": 137
+      },
+      {
+        "title": "MDLUL/Monoidring",
+        "pageid": 54081,
+        "revid": 320704,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:43:32Z",
+        "mediawiki_sha1": "408807b569d30db374d887d7fc51064ae89fca08",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/Monoidringen",
+        "pageid": 95279,
+        "revid": 536426,
+        "parentid": 0,
+        "timestamp": "2018-01-06T12:52:58Z",
+        "mediawiki_sha1": "db1f5d5f4f81a80b73f2d3a7c1d9d0563c74e001",
+        "wikitext_bytes": 83
+      },
+      {
+        "title": "MDLUL/Nenneraufnahme",
+        "pageid": 53457,
+        "revid": 678159,
+        "parentid": 678158,
+        "timestamp": "2021-02-01T12:58:55Z",
+        "mediawiki_sha1": "c7bdd8676519924c8a99f958db4a5ba1fc462057",
+        "wikitext_bytes": 113
+      },
+      {
+        "title": "MDLUL/Nenneraufnahme (Integritätsbereich)",
+        "pageid": 51196,
+        "revid": 300838,
+        "parentid": 0,
+        "timestamp": "2012-02-15T18:48:22Z",
+        "mediawiki_sha1": "681407b162737a9f377e84aa8cfcabec3fe15f1f",
+        "wikitext_bytes": 208
+      },
+      {
+        "title": "MDLUL/Normalisierung",
+        "pageid": 61912,
+        "revid": 373378,
+        "parentid": 0,
+        "timestamp": "2013-08-09T19:41:22Z",
+        "mediawiki_sha1": "7d1fe1117e71ceb634d0e4aab05d72a688f86e31",
+        "wikitext_bytes": 147
+      },
+      {
+        "title": "MDLUL/Normalisierung (Monoid)",
+        "pageid": 95277,
+        "revid": 586966,
+        "parentid": 536419,
+        "timestamp": "2019-04-17T14:32:07Z",
+        "mediawiki_sha1": "d27bb89e1fd0cc8f86a2d5135b32ab9aaac6f48d",
+        "wikitext_bytes": 156
+      },
+      {
+        "title": "MDLUL/Quotientenkörper",
+        "pageid": 38667,
+        "revid": 234771,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:12:57Z",
+        "mediawiki_sha1": "6e1f853b4db22f7635f6b8996981c4bec7ecb9c5",
+        "wikitext_bytes": 110
+      },
+      {
+        "title": "MDLUL/Restklassenraum",
+        "pageid": 39741,
+        "revid": 237572,
+        "parentid": 0,
+        "timestamp": "2010-09-01T09:51:56Z",
+        "mediawiki_sha1": "8d053b47ec317f639ef67a567e768031dbd37806",
+        "wikitext_bytes": 107
+      },
+      {
+        "title": "MDLUL/Singularitätsgrad (monomiale Kurve)",
+        "pageid": 95282,
+        "revid": 536436,
+        "parentid": 0,
+        "timestamp": "2018-01-06T13:05:18Z",
+        "mediawiki_sha1": "3926d2c1ba580e7197e63c6f8d154584719b0ef6",
+        "wikitext_bytes": 159
+      },
+      {
+        "title": "MDLUL/faktorieller",
+        "pageid": 86667,
+        "revid": 487374,
+        "parentid": 0,
+        "timestamp": "2017-01-31T23:23:45Z",
+        "mediawiki_sha1": "17aac02b4a674fd223ad262ff4f51deb25bf759e",
+        "wikitext_bytes": 83
+      },
+      {
+        "title": "MDLUL/ganz-abgeschlossen",
+        "pageid": 85582,
+        "revid": 481692,
+        "parentid": 0,
+        "timestamp": "2017-01-02T15:31:43Z",
+        "mediawiki_sha1": "08e19035051b176a059ec5be5b91014272f8d3dd",
+        "wikitext_bytes": 130
+      },
+      {
+        "title": "MDLUL/ganzen Abschluss",
+        "pageid": 58240,
+        "revid": 341391,
+        "parentid": 0,
+        "timestamp": "2012-11-26T14:19:26Z",
+        "mediawiki_sha1": "12f9fedf17c31acb11bd0c6af0d68846989182a1",
+        "wikitext_bytes": 93
+      },
+      {
+        "title": "MDLUL/kommutatives Monoid",
+        "pageid": 54070,
+        "revid": 586930,
+        "parentid": 320693,
+        "timestamp": "2019-04-17T11:37:04Z",
+        "mediawiki_sha1": "ad3d098b6a180feec120605d1c759512e884299f",
+        "wikitext_bytes": 103
+      },
+      {
+        "title": "MDLUL/lineare Abbildung",
+        "pageid": 50193,
+        "revid": 343744,
+        "parentid": 342775,
+        "timestamp": "2012-12-13T13:26:58Z",
+        "mediawiki_sha1": "467291b28af2362d7737caa8df366b47a7aee07c",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/multiplikatives System",
+        "pageid": 59090,
+        "revid": 678168,
+        "parentid": 343770,
+        "timestamp": "2021-02-01T13:17:35Z",
+        "mediawiki_sha1": "11790b11690b1401888afa1f94438c01f3da7ef8",
+        "wikitext_bytes": 129
+      },
+      {
+        "title": "MDLUL/normal (Ring)",
+        "pageid": 94056,
+        "revid": 527389,
+        "parentid": 0,
+        "timestamp": "2017-11-20T21:04:41Z",
+        "mediawiki_sha1": "384382e95aab2a2b375279fa3f67814e8a5914e3",
+        "wikitext_bytes": 134
+      },
+      {
+        "title": "MDLUL/normaler Integritätsbereich",
+        "pageid": 51195,
+        "revid": 528008,
+        "parentid": 300837,
+        "timestamp": "2017-11-23T16:54:50Z",
+        "mediawiki_sha1": "49b85ba0850430ae22b5741328bb33e861915b9b",
+        "wikitext_bytes": 149
+      },
+      {
+        "title": "MDLUL/numerisches Monoid",
+        "pageid": 94224,
+        "revid": 534538,
+        "parentid": 528321,
+        "timestamp": "2017-12-18T19:59:34Z",
+        "mediawiki_sha1": "d3543ed557acabc9c3abb34a5ae8270b0ecd4ad2",
+        "wikitext_bytes": 124
+      },
+      {
+        "title": "MDLUL/torsionsfrei (Monoid)",
+        "pageid": 62102,
+        "revid": 373695,
+        "parentid": 0,
+        "timestamp": "2013-08-13T15:07:53Z",
+        "mediawiki_sha1": "e102e485a630c325c8bd43b3242a852cffd21948",
+        "wikitext_bytes": 114
+      },
+      {
+        "title": "MDLUL/torsionsfreies (Monoid)",
+        "pageid": 94922,
+        "revid": 534664,
+        "parentid": 0,
+        "timestamp": "2017-12-19T13:32:18Z",
+        "mediawiki_sha1": "6e59792d10f346ac17c859786f099bfe86e3ad7e",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "Monoidring/Normalisierung/Eigenschaften dafür/Textabschnitt",
+        "pageid": 50907,
+        "revid": 586971,
+        "parentid": 458776,
+        "timestamp": "2019-04-17T14:43:51Z",
+        "mediawiki_sha1": "e006b9bf042ad16c378ae5ba55275f036effade3",
+        "wikitext_bytes": 1010
+      },
+      {
+        "title": "Monoidringe/Dimension zwei/Standardkegel/Z^2-XY/Monoid und Bewertungen/Beispiel",
+        "pageid": 20549,
+        "revid": 1100090,
+        "parentid": 1062480,
+        "timestamp": "2026-06-17T07:18:48Z",
+        "mediawiki_sha1": "4c6bd669741269cf4beb89a177dae5adf67360fe",
+        "wikitext_bytes": 2146
+      },
+      {
+        "title": "Monoidringe/Dimension zwei/Whitney Regenschirm/X^2Y-Z^2/Beispiel",
+        "pageid": 18407,
+        "revid": 1100091,
+        "parentid": 1074390,
+        "timestamp": "2026-06-17T07:18:58Z",
+        "mediawiki_sha1": "16e444ef05ce9d7ffd2c8ac1e8381f23b9989f68",
+        "wikitext_bytes": 2077
+      },
+      {
+        "title": "Normaler Integritätsbereich/Faktoriell/Nenneraufnahme/Normalisierung/Textabschnitt",
+        "pageid": 95256,
+        "revid": 1112309,
+        "parentid": 1073299,
+        "timestamp": "2026-08-21T09:08:04Z",
+        "mediawiki_sha1": "94491b28ed9b4356f1b9c78c4f44d76169f2b727",
+        "wikitext_bytes": 1030
+      },
+      {
+        "title": "Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Beziehung zur Normalisierung/Fakt",
+        "pageid": 18369,
+        "revid": 1048143,
+        "parentid": 1028682,
+        "timestamp": "2025-08-13T08:23:30Z",
+        "mediawiki_sha1": "c3ab6e5b508328902455e1c08504ee91cabf374e",
+        "wikitext_bytes": 758
+      },
+      {
+        "title": "Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Beziehung zur Normalisierung/Fakt/Beweis",
+        "pageid": 18370,
+        "revid": 1017669,
+        "parentid": 955933,
+        "timestamp": "2025-08-09T00:09:00Z",
+        "mediawiki_sha1": "483759087de5e42a1c1323b0c48149cc9f2086c6",
+        "wikitext_bytes": 876
+      },
+      {
+        "title": "Vorlage:Abbildung",
+        "pageid": 22825,
+        "revid": 834813,
+        "parentid": 831449,
+        "timestamp": "2022-09-24T09:18:56Z",
+        "mediawiki_sha1": "365fba0c32ba421147738a7191e667e4f45f5cf9",
+        "wikitext_bytes": 361
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element",
+        "pageid": 146804,
+        "revid": 834774,
+        "parentid": 0,
+        "timestamp": "2022-09-24T09:09:45Z",
+        "mediawiki_sha1": "a10994eb018217546f4702b0cd2eafaa8526ad04",
+        "wikitext_bytes": 336
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Aufgabelink",
+        "pageid": 30300,
+        "revid": 1070423,
+        "parentid": 1069816,
+        "timestamp": "2026-02-06T14:22:11Z",
+        "mediawiki_sha1": "6b0c4bbe7084da3f232f6649820be7b5f7bae36f",
+        "wikitext_bytes": 1864
+      },
+      {
+        "title": "Vorlage:Beweisstruktur",
+        "pageid": 24025,
+        "revid": 165764,
+        "parentid": 165744,
+        "timestamp": "2009-06-13T14:14:07Z",
+        "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Bildskip",
+        "pageid": 167735,
+        "revid": 1060033,
+        "parentid": 0,
+        "timestamp": "2025-11-26T10:30:06Z",
+        "mediawiki_sha1": "6a9f92ee3da83a3912f75cf7534dce938eadf7bb",
+        "wikitext_bytes": 195
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionswort",
+        "pageid": 23952,
+        "revid": 1107662,
+        "parentid": 1061423,
+        "timestamp": "2026-07-17T08:06:31Z",
+        "mediawiki_sha1": "f1aff98d04a0bd4a7894808a36cedfb412c7d021",
+        "wikitext_bytes": 822
+      },
+      {
+        "title": "Vorlage:Drucktrenn",
+        "pageid": 169679,
+        "revid": 1073199,
+        "parentid": 0,
+        "timestamp": "2026-02-24T14:17:08Z",
+        "mediawiki_sha1": "7b15634ab69c147b7ff06ddd5d901e7363d65017",
+        "wikitext_bytes": 164
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Faktstruktur",
+        "pageid": 18814,
+        "revid": 1061914,
+        "parentid": 276624,
+        "timestamp": "2025-12-08T17:03:41Z",
+        "mediawiki_sha1": "627b618e705049f2b3fd2617c9568bed098096b9",
+        "wikitext_bytes": 1379
+      },
+      {
+        "title": "Vorlage:ImageNoteControl",
+        "pageid": 31352,
+        "revid": 200442,
+        "parentid": 200441,
+        "timestamp": "2009-12-20T10:26:01Z",
+        "mediawiki_sha1": "18862d5c418a35f12237fcf8a6ad5f33b9e4e5bb",
+        "wikitext_bytes": 421
+      },
+      {
+        "title": "Vorlage:Inputbeispiel",
+        "pageid": 11588,
+        "revid": 1074988,
+        "parentid": 1061937,
+        "timestamp": "2026-03-07T16:01:24Z",
+        "mediawiki_sha1": "c3ede97421bca4f5a97a08dedaaa9b4ddd5e6590",
+        "wikitext_bytes": 4706
+      },
+      {
+        "title": "Vorlage:Inputbild",
+        "pageid": 17287,
+        "revid": 1074342,
+        "parentid": 1074341,
+        "timestamp": "2026-03-07T09:46:59Z",
+        "mediawiki_sha1": "7574f2aef8023c692b7abc57f24c52900da83526",
+        "wikitext_bytes": 1976
+      },
+      {
+        "title": "Vorlage:Inputdefinition",
+        "pageid": 11022,
+        "revid": 1106756,
+        "parentid": 1061928,
+        "timestamp": "2026-07-12T13:31:00Z",
+        "mediawiki_sha1": "855519104da8c6681b207bb5a475d262ae77f669",
+        "wikitext_bytes": 11717
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweis",
+        "pageid": 17490,
+        "revid": 1110004,
+        "parentid": 1110003,
+        "timestamp": "2026-08-04T10:35:43Z",
+        "mediawiki_sha1": "170d71d038f2328a676563b4b9ecbeeed82a35c9",
+        "wikitext_bytes": 16503
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweisaufgabe",
+        "pageid": 28472,
+        "revid": 1106747,
+        "parentid": 1074996,
+        "timestamp": "2026-07-12T12:23:39Z",
+        "mediawiki_sha1": "e72813c9d53c5c9426a6ab74224e7c546f204577",
+        "wikitext_bytes": 8883
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathbed",
+        "pageid": 20302,
+        "revid": 210531,
+        "parentid": 168213,
+        "timestamp": "2010-02-21T19:52:49Z",
+        "mediawiki_sha1": "90ef94f9c38b656a0b6da21f640e23950c2d52b3",
+        "wikitext_bytes": 687
+      },
+      {
+        "title": "Vorlage:Mathbed1",
+        "pageid": 24996,
+        "revid": 168056,
+        "parentid": 168055,
+        "timestamp": "2009-06-28T11:29:14Z",
+        "mediawiki_sha1": "6190d5f97bdd37bd1124140c9be987360537fa53",
+        "wikitext_bytes": 189
+      },
+      {
+        "title": "Vorlage:Mathbed2",
+        "pageid": 24997,
+        "revid": 167979,
+        "parentid": 167969,
+        "timestamp": "2009-06-28T09:02:27Z",
+        "mediawiki_sha1": "be7dead58deede57d470b780d3055546e6184d46",
+        "wikitext_bytes": 257
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beispiel",
+        "pageid": 33519,
+        "revid": 864970,
+        "parentid": 864906,
+        "timestamp": "2022-10-19T16:21:27Z",
+        "mediawiki_sha1": "46aba056083d4e975d314608d3ffc651a584f5d8",
+        "wikitext_bytes": 1603
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beweis",
+        "pageid": 33517,
+        "revid": 861548,
+        "parentid": 748239,
+        "timestamp": "2022-10-05T08:00:16Z",
+        "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+        "wikitext_bytes": 2144
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Definition",
+        "pageid": 33515,
+        "revid": 763985,
+        "parentid": 762832,
+        "timestamp": "2022-08-15T04:47:42Z",
+        "mediawiki_sha1": "63e0d410c36911e0ac432f7074f4e6ba1f0baf56",
+        "wikitext_bytes": 1585
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Fakt",
+        "pageid": 33511,
+        "revid": 1063451,
+        "parentid": 1008461,
+        "timestamp": "2025-12-30T15:41:25Z",
+        "mediawiki_sha1": "a849aa72a036768f23044c44e16a302f42de8697",
+        "wikitext_bytes": 2588
+      },
+      {
+        "title": "Vorlage:Mathematischer Textabschnitt",
+        "pageid": 33589,
+        "revid": 865046,
+        "parentid": 864983,
+        "timestamp": "2022-10-19T18:54:33Z",
+        "mediawiki_sha1": "e988d41699849e3b0bee35d6ea687aac2d34b2aa",
+        "wikitext_bytes": 986
+      },
+      {
+        "title": "Vorlage:Mathind",
+        "pageid": 20259,
+        "revid": 1106744,
+        "parentid": 1106097,
+        "timestamp": "2026-07-12T12:04:52Z",
+        "mediawiki_sha1": "f9de88f020a640f51aa0ff55f5d464b25147f660",
+        "wikitext_bytes": 444
+      },
+      {
+        "title": "Vorlage:Mathkon",
+        "pageid": 20583,
+        "revid": 1106769,
+        "parentid": 1106768,
+        "timestamp": "2026-07-12T14:38:20Z",
+        "mediawiki_sha1": "5e69b54877490fb8d057a686302e5fd6f06cae5c",
+        "wikitext_bytes": 553
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:Mengebed",
+        "pageid": 19920,
+        "revid": 1106268,
+        "parentid": 604716,
+        "timestamp": "2026-07-09T15:57:00Z",
+        "mediawiki_sha1": "bb1821bdbec724ce06ccc446f906e7bea290f2b3",
+        "wikitext_bytes": 667
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affine Gerade",
+        "pageid": 20276,
+        "revid": 564066,
+        "parentid": 313324,
+        "timestamp": "2018-10-29T18:00:10Z",
+        "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+        "wikitext_bytes": 232
+      },
+      {
+        "title": "Vorlage:Op:Affiner Raum",
+        "pageid": 45165,
+        "revid": 594907,
+        "parentid": 332226,
+        "timestamp": "2019-07-21T15:59:27Z",
+        "mediawiki_sha1": "4686037d6435c99c266f178f71b76faf17ef7239",
+        "wikitext_bytes": 236
+      },
+      {
+        "title": "Vorlage:Op:Bruch",
+        "pageid": 23180,
+        "revid": 599751,
+        "parentid": 332211,
+        "timestamp": "2019-09-28T11:03:08Z",
+        "mediawiki_sha1": "8af543c27bfd9fbe3cbe30a57b812c1c6c329cd5",
+        "wikitext_bytes": 223
+      },
+      {
+        "title": "Vorlage:Op:KSpek",
+        "pageid": 19910,
+        "revid": 333622,
+        "parentid": 333620,
+        "timestamp": "2012-10-20T09:22:31Z",
+        "mediawiki_sha1": "09e61c8d20a0368c806988b5cf75ffee3dee7221",
+        "wikitext_bytes": 291
+      },
+      {
+        "title": "Vorlage:Op:Normalisierung",
+        "pageid": 20301,
+        "revid": 1113361,
+        "parentid": 458782,
+        "timestamp": "2026-08-23T10:12:14Z",
+        "mediawiki_sha1": "b3b76ffb448d68f127baf4b5058a461d9fc230c4",
+        "wikitext_bytes": 237
+      },
+      {
+        "title": "Vorlage:Plusdots",
+        "pageid": 20950,
+        "revid": 370980,
+        "parentid": 141526,
+        "timestamp": "2013-07-17T15:23:35Z",
+        "mediawiki_sha1": "37e62e3902d9ff529d6aa51ec736025fad8d29e6",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Qed",
+        "pageid": 11116,
+        "revid": 92011,
+        "parentid": 92010,
+        "timestamp": "2008-04-20T08:14:57Z",
+        "mediawiki_sha1": "7cacc755daead99c6816a2540e477c0fe5def465",
+        "wikitext_bytes": 1564
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Relationskette/k",
+        "pageid": 85381,
+        "revid": 1106120,
+        "parentid": 972253,
+        "timestamp": "2026-07-07T08:54:28Z",
+        "mediawiki_sha1": "59744cdfaafba2bc8bce851e220c82b5c7feb58b",
+        "wikitext_bytes": 1948
+      },
+      {
+        "title": "Vorlage:Summe/index",
+        "pageid": 20252,
+        "revid": 196633,
+        "parentid": 155603,
+        "timestamp": "2009-12-05T16:59:18Z",
+        "mediawiki_sha1": "94812ec92e2ca788530f219009f4278d1b063c9a",
+        "wikitext_bytes": 216
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+        "pageid": 24050,
+        "revid": 790374,
+        "parentid": 790369,
+        "timestamp": "2022-08-23T11:13:50Z",
+        "mediawiki_sha1": "5dd904e06ce5855ebdf98901569dd4673f98cb29",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      }
+    ]
+  },
+  "worksheet_transclusion_closure": {
+    "source": "action=parse template list after recursive parser expansion",
+    "requested_template_count": 120,
+    "captured_page_count": 120,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "worksheet-20-transclusions-01.json",
+        "bytes": 19212,
+        "sha256": "74b3b33e3257c4ebfc96949c22a2bf9bfccb7b9aaa7e68551cff00fc43bcaab7",
+        "requested_titles": [
+          "Affines Monoid/Duales Monoid/Ist normales Monoid/Aufgabe",
+          "Ganze Ringerweiterung für Integritätsbereiche/Hauptideale/Aufgabe",
+          "Integritätsbereich/Normal und Normalisierung/Aufgabe",
+          "Integritätsbereich/Normal/Lokale Eigenschaft/Aufgabe",
+          "Integritätsbereich/Normalisierung ist Körper/Körper/Aufgabe",
+          "Kommutative Ringtheorie/Normal/Durchschnitt von normalen Ringen/Aufgabe",
+          "Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt/Beweis/Aufgabe",
+          "Kommutative Ringtheorie/Normalisierung/Führungsideal/Aufgabe",
+          "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt/Beweis/Aufgabe",
+          "Kommutatives Monoid/Standardkegel/Wert der Erzeuger unter Bewertungen/Aufgabe",
+          "Kommutatives Monoid/Torsionsfrei/Differenzgruppe ist torsionsfrei/Aufgabe",
+          "Kommutatives Monoid/Torsionsfrei/Unterschiedliche Charakterisierung bei Monoid und Gruppe/Aufgabe",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblattgestaltung",
+          "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Monoidringe/Dimension zwei/Standardkegel/Z^2-XY/Monoid und Bewertungen/Beispiel/Beispielreferenznummer",
+          "MDLUL/Algebra",
+          "MDLUL/Algebren",
+          "MDLUL/Differenzengruppe",
+          "MDLUL/Einheit (Monoid)",
+          "MDLUL/Fahne",
+          "MDLUL/Führungsideal (N)",
+          "MDLUL/Führungszahl (N)",
+          "MDLUL/Hauptideal",
+          "MDLUL/Ideal",
+          "MDLUL/Integritätsbereich"
+        ]
+      },
+      {
+        "file": "worksheet-20-transclusions-02.json",
+        "bytes": 9864,
+        "sha256": "4f58a713faecb7a1ab47e82c418375c783b5ea37d8e559c2f968ea103994776c",
+        "requested_titles": [
+          "MDLUL/Irrationale Zahl",
+          "MDLUL/Kommutative Gruppe",
+          "MDLUL/Körper",
+          "MDLUL/Lokalisierung",
+          "MDLUL/Maximales Ideal",
+          "MDLUL/Monoid",
+          "MDLUL/Monoidring",
+          "MDLUL/Monoidrings",
+          "MDLUL/Nenneraufnahme (Integritätsbereich)",
+          "MDLUL/Normalisierung",
+          "MDLUL/Polynomring (1)",
+          "MDLUL/Primideal",
+          "MDLUL/Primzahl",
+          "MDLUL/Quotientenkörper",
+          "MDLUL/Singularitätsgrad (numerisch)",
+          "MDLUL/Spektrum (Monoid)",
+          "MDLUL/Untermonoid",
+          "MDLUL/Untervektorräumen",
+          "MDLUL/ganze Ringerweiterung",
+          "MDLUL/irrational (Zahl)",
+          "MDLUL/irrationale Zahl",
+          "MDLUL/irreduzibel",
+          "MDLUL/irreduzible Komponente",
+          "MDLUL/irreduziblen Komponenten",
+          "MDLUL/kommutative Gruppe"
+        ]
+      },
+      {
+        "file": "worksheet-20-transclusions-03.json",
+        "bytes": 17110,
+        "sha256": "ae6759b94b6ec02d414c37ff4e7810ef9e45cd95d358de7be7f8c3f31fe53232",
+        "requested_titles": [
+          "MDLUL/kommutativen Monoids",
+          "MDLUL/kommutatives Monoid",
+          "MDLUL/maximale Ideal",
+          "MDLUL/multiplikatives System",
+          "MDLUL/normal (Ring)",
+          "MDLUL/normalen (Ring)",
+          "MDLUL/normaler Integritätsbereich",
+          "MDLUL/numerisches Monoid",
+          "MDLUL/prim (Ring)",
+          "MDLUL/reelle Zahl",
+          "MDLUL/teilerfremd (Z)",
+          "MDLUL/teilerfremden (Z)",
+          "MDLUL/torsionsfrei (Monoid)",
+          "MDLUL/torsionsfreies (Monoid)",
+          "Monoid/Einheit/Teilmenge von NxZ mod n/Aufgabe",
+          "Normaler Integritätsbereich/Polynomring/Normal/Aufgabe",
+          "Normaler Integritätsbereich/X^2-a in R/in Q(R)/Aufgabe",
+          "Normaler integrer Ring/Nenneraufnahme an einem Element ist normal/Aufgabe",
+          "Numerischer Monoidring/Führungsideal und Führungszahl/Aufgabe",
+          "Numerisches Monoid/Singularitätsgrad/Ringkette/Aufgabe",
+          "NxZ mod n/C/Komponenten/Aufgabe",
+          "Primfaktorzerlegung/3 Wurzel 9/Irrational/Aufgabe",
+          "Quadratwurzel aus Primzahl/Irrationalität/Primfaktorzerlegung/Aufgabe",
+          "Quadratwurzel/2/Irrational/Fakt/Beweis/Aufgabe",
+          "Vorlage:Abbildung mit Element/display"
+        ]
+      },
+      {
+        "file": "worksheet-20-transclusions-04.json",
+        "bytes": 51509,
+        "sha256": "c65eb58ccb216820d7cd9e9d5782c91094456de5ea5ab8b0a949f63b3b92b218",
+        "requested_titles": [
+          "Vorlage:Abbildung/display",
+          "Vorlage:Arbeitsblatt",
+          "Vorlage:Aufzählung3",
+          "Vorlage:Beispiellink",
+          "Vorlage:CC",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Drucktrenn",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:Idealf",
+          "Vorlage:Idealm",
+          "Vorlage:Idealp",
+          "Vorlage:Inputaufgabe",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathbed",
+          "Vorlage:Mathbed1",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Aufgabe",
+          "Vorlage:Mathematischer Text/AufgabePunkteZerlegung"
+        ]
+      },
+      {
+        "file": "worksheet-20-transclusions-05.json",
+        "bytes": 23029,
+        "sha256": "83aea45b25d45236b87d7192e0c1b5c7e220afc1603c462a537053e1b47c91c9",
+        "requested_titles": [
+          "Vorlage:Mathind",
+          "Vorlage:Mathl",
+          "Vorlage:Mengebed",
+          "Vorlage:N Sie",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affine Gerade",
+          "Vorlage:Op:Homomorphismen",
+          "Vorlage:Op:Normalisierung",
+          "Vorlage:Op:Zmod",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Stichwort",
+          "Vorlage:Subsetdots",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Verschlagworte:Stichwort",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift",
+          "Y^2-X^4/Monoidring/Aufgabe"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Affines Monoid/Duales Monoid/Ist normales Monoid/Aufgabe",
+        "pageid": 20551,
+        "revid": 1112447,
+        "parentid": 1040419,
+        "timestamp": "2026-08-21T15:07:13Z",
+        "mediawiki_sha1": "273491d36adbaae406ce346b74467a5da3aad90e",
+        "wikitext_bytes": 647
+      },
+      {
+        "title": "Ganze Ringerweiterung für Integritätsbereiche/Hauptideale/Aufgabe",
+        "pageid": 15848,
+        "revid": 1062604,
+        "parentid": 1041811,
+        "timestamp": "2025-12-18T10:57:38Z",
+        "mediawiki_sha1": "16f3805657a42cc55cd1da7acb352494a2d29867",
+        "wikitext_bytes": 754
+      },
+      {
+        "title": "Integritätsbereich/Normal und Normalisierung/Aufgabe",
+        "pageid": 15227,
+        "revid": 843613,
+        "parentid": 803838,
+        "timestamp": "2022-09-25T10:58:56Z",
+        "mediawiki_sha1": "ab7614875c0cf0c25b0f4863907499a550f6c12f",
+        "wikitext_bytes": 520
+      },
+      {
+        "title": "Integritätsbereich/Normal/Lokale Eigenschaft/Aufgabe",
+        "pageid": 20553,
+        "revid": 1042207,
+        "parentid": 843615,
+        "timestamp": "2025-08-12T16:02:15Z",
+        "mediawiki_sha1": "22db25dca3938790867023ba6ff2b6e7e9c85a58",
+        "wikitext_bytes": 898
+      },
+      {
+        "title": "Integritätsbereich/Normalisierung ist Körper/Körper/Aufgabe",
+        "pageid": 15254,
+        "revid": 1083086,
+        "parentid": 843617,
+        "timestamp": "2026-05-29T20:09:43Z",
+        "mediawiki_sha1": "51b48b38d9b724fc55552738cbe58c16c1989fdc",
+        "wikitext_bytes": 753
+      },
+      {
+        "title": "Kommutative Ringtheorie/Normal/Durchschnitt von normalen Ringen/Aufgabe",
+        "pageid": 20535,
+        "revid": 1085206,
+        "parentid": 1014170,
+        "timestamp": "2026-05-30T07:50:31Z",
+        "mediawiki_sha1": "d4f4315a0c7ce9f33ee7345485659dad9ff28556",
+        "wikitext_bytes": 548
+      },
+      {
+        "title": "Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt/Beweis/Aufgabe",
+        "pageid": 15036,
+        "revid": 1042407,
+        "parentid": 984848,
+        "timestamp": "2025-08-12T16:35:25Z",
+        "mediawiki_sha1": "5051f14ce4cb73b982d0f56f7a58d5b76432fb06",
+        "wikitext_bytes": 632
+      },
+      {
+        "title": "Kommutative Ringtheorie/Normalisierung/Führungsideal/Aufgabe",
+        "pageid": 20761,
+        "revid": 1042408,
+        "parentid": 1027332,
+        "timestamp": "2025-08-12T16:35:35Z",
+        "mediawiki_sha1": "b43723ac6836da368074555a8eb1dd3626854b1b",
+        "wikitext_bytes": 776
+      },
+      {
+        "title": "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt/Beweis/Aufgabe",
+        "pageid": 164984,
+        "revid": 1034029,
+        "parentid": 1031551,
+        "timestamp": "2025-08-11T16:48:52Z",
+        "mediawiki_sha1": "5a34b891794e829b6581e1d1007159a0e42ccf9b",
+        "wikitext_bytes": 647
+      },
+      {
+        "title": "Kommutatives Monoid/Standardkegel/Wert der Erzeuger unter Bewertungen/Aufgabe",
+        "pageid": 20550,
+        "revid": 1042460,
+        "parentid": 1020429,
+        "timestamp": "2025-08-12T16:44:15Z",
+        "mediawiki_sha1": "5cab5f636738f6ca9f5a3a84e28ed5904f14fc3f",
+        "wikitext_bytes": 738
+      },
+      {
+        "title": "Kommutatives Monoid/Torsionsfrei/Differenzgruppe ist torsionsfrei/Aufgabe",
+        "pageid": 20540,
+        "revid": 956686,
+        "parentid": 854842,
+        "timestamp": "2024-11-05T14:53:20Z",
+        "mediawiki_sha1": "bfd2bc9449f5e2c31f5e902270d2eedeccfa8d72",
+        "wikitext_bytes": 480
+      },
+      {
+        "title": "Kommutatives Monoid/Torsionsfrei/Unterschiedliche Charakterisierung bei Monoid und Gruppe/Aufgabe",
+        "pageid": 20541,
+        "revid": 1112439,
+        "parentid": 1042461,
+        "timestamp": "2026-08-21T15:05:38Z",
+        "mediawiki_sha1": "0944bdfab0dbf71e24c51cb9103e5b13bd1acfab",
+        "wikitext_bytes": 898
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt/Fuß",
+        "pageid": 165888,
+        "revid": 1032933,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:56Z",
+        "mediawiki_sha1": "206f8ae058ce6cedf600e08f41a0281b27f64145",
+        "wikitext_bytes": 1015
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblattgestaltung",
+        "pageid": 165886,
+        "revid": 1032931,
+        "parentid": 0,
+        "timestamp": "2025-08-11T13:39:36Z",
+        "mediawiki_sha1": "65585745ef99292181d41eae7d3b3bf1c077ec10",
+        "wikitext_bytes": 393
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Monoidringe/Dimension zwei/Standardkegel/Z^2-XY/Monoid und Bewertungen/Beispiel/Beispielreferenznummer",
+        "pageid": 166467,
+        "revid": 1062474,
+        "parentid": 1051458,
+        "timestamp": "2025-12-16T10:05:39Z",
+        "mediawiki_sha1": "a29157dfc55d18f33ada5651369380cb3d4e01b3",
+        "wikitext_bytes": 50
+      },
+      {
+        "title": "MDLUL/Algebra",
+        "pageid": 38415,
+        "revid": 426279,
+        "parentid": 233664,
+        "timestamp": "2015-06-22T10:46:29Z",
+        "mediawiki_sha1": "a10e15d954957f510922dd42e334e50580a2e2a7",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/Algebren",
+        "pageid": 38417,
+        "revid": 426310,
+        "parentid": 233668,
+        "timestamp": "2015-06-22T13:36:46Z",
+        "mediawiki_sha1": "cd99d0605f64d6364bd0031b9dbeaf3222003be9",
+        "wikitext_bytes": 76
+      },
+      {
+        "title": "MDLUL/Differenzengruppe",
+        "pageid": 54080,
+        "revid": 586955,
+        "parentid": 320703,
+        "timestamp": "2019-04-17T14:24:18Z",
+        "mediawiki_sha1": "3eb1155cc6e97b4ed22c4272ba8b40a63fa83f31",
+        "wikitext_bytes": 131
+      },
+      {
+        "title": "MDLUL/Einheit (Monoid)",
+        "pageid": 95170,
+        "revid": 536033,
+        "parentid": 0,
+        "timestamp": "2018-01-04T19:23:31Z",
+        "mediawiki_sha1": "d0d1734cbd2dc00fd1c758fcc879fc340d9521ef",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/Fahne",
+        "pageid": 42123,
+        "revid": 251205,
+        "parentid": 0,
+        "timestamp": "2011-01-06T20:52:49Z",
+        "mediawiki_sha1": "04e972858f27ae7342de5a1493f2e0a60fc0730f",
+        "wikitext_bytes": 73
+      },
+      {
+        "title": "MDLUL/Führungsideal (N)",
+        "pageid": 167863,
+        "revid": 1062150,
+        "parentid": 0,
+        "timestamp": "2025-12-10T15:37:38Z",
+        "mediawiki_sha1": "5cdc4814358724b2ef414b98a7daa7fa088777dc",
+        "wikitext_bytes": 130
+      },
+      {
+        "title": "MDLUL/Führungszahl (N)",
+        "pageid": 167865,
+        "revid": 1062152,
+        "parentid": 0,
+        "timestamp": "2025-12-10T15:39:17Z",
+        "mediawiki_sha1": "94fe060432f058c1b77b126d365b06afdd5a8f8d",
+        "wikitext_bytes": 136
+      },
+      {
+        "title": "MDLUL/Hauptideal",
+        "pageid": 51926,
+        "revid": 305123,
+        "parentid": 0,
+        "timestamp": "2012-03-19T16:41:48Z",
+        "mediawiki_sha1": "0e46450715d1c691732a2856e9463688da5cb5c9",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "MDLUL/Ideal",
+        "pageid": 51031,
+        "revid": 299631,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:11:10Z",
+        "mediawiki_sha1": "73d551c21d8a5054c1d7f8406c40443ea99c0171",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/Integritätsbereich",
+        "pageid": 24173,
+        "revid": 301290,
+        "parentid": 301289,
+        "timestamp": "2012-02-18T20:25:56Z",
+        "mediawiki_sha1": "94d1bc5db80e84abfc3fd6ee64a77f768ca88040",
+        "wikitext_bytes": 123
+      },
+      {
+        "title": "MDLUL/Irrationale Zahl",
+        "pageid": 58581,
+        "revid": 342618,
+        "parentid": 342189,
+        "timestamp": "2012-12-06T10:25:44Z",
+        "mediawiki_sha1": "74eeeed95c29a340dd24422de2c59809186ca6a9",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/Kommutative Gruppe",
+        "pageid": 58868,
+        "revid": 342635,
+        "parentid": 0,
+        "timestamp": "2012-12-06T10:42:59Z",
+        "mediawiki_sha1": "60f763138ccff5da2bc58ae86886e0f1e366cefc",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/Körper",
+        "pageid": 45898,
+        "revid": 267506,
+        "parentid": 0,
+        "timestamp": "2011-06-07T13:51:29Z",
+        "mediawiki_sha1": "ce01f7f216f5f8bd6b1401f9f4ae5020af5040d1",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Lokalisierung",
+        "pageid": 54083,
+        "revid": 320706,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:45:23Z",
+        "mediawiki_sha1": "40543abf5b249afb9e9b3f9829abab1afce483a5",
+        "wikitext_bytes": 152
+      },
+      {
+        "title": "MDLUL/Maximales Ideal",
+        "pageid": 51039,
+        "revid": 299640,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:40:10Z",
+        "mediawiki_sha1": "669b80ec86f88f0b18227bf009f40c7a27f322bb",
+        "wikitext_bytes": 115
+      },
+      {
+        "title": "MDLUL/Monoid",
+        "pageid": 45101,
+        "revid": 264016,
+        "parentid": 0,
+        "timestamp": "2011-05-05T08:41:21Z",
+        "mediawiki_sha1": "5a446273c28a71c63ccca32d3127003b0920e917",
+        "wikitext_bytes": 88
+      },
+      {
+        "title": "MDLUL/Monoidring",
+        "pageid": 54081,
+        "revid": 320704,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:43:32Z",
+        "mediawiki_sha1": "408807b569d30db374d887d7fc51064ae89fca08",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/Monoidrings",
+        "pageid": 167864,
+        "revid": 1062151,
+        "parentid": 0,
+        "timestamp": "2025-12-10T15:37:57Z",
+        "mediawiki_sha1": "4d2675a48c077521ba0ef908d59a38b337328315",
+        "wikitext_bytes": 82
+      },
+      {
+        "title": "MDLUL/Nenneraufnahme (Integritätsbereich)",
+        "pageid": 51196,
+        "revid": 300838,
+        "parentid": 0,
+        "timestamp": "2012-02-15T18:48:22Z",
+        "mediawiki_sha1": "681407b162737a9f377e84aa8cfcabec3fe15f1f",
+        "wikitext_bytes": 208
+      },
+      {
+        "title": "MDLUL/Normalisierung",
+        "pageid": 61912,
+        "revid": 373378,
+        "parentid": 0,
+        "timestamp": "2013-08-09T19:41:22Z",
+        "mediawiki_sha1": "7d1fe1117e71ceb634d0e4aab05d72a688f86e31",
+        "wikitext_bytes": 147
+      },
+      {
+        "title": "MDLUL/Polynomring (1)",
+        "pageid": 38643,
+        "revid": 373298,
+        "parentid": 234707,
+        "timestamp": "2013-08-09T16:28:07Z",
+        "mediawiki_sha1": "1d3074e5880ca4ee50abc40609c2c0874e1ccd65",
+        "wikitext_bytes": 116
+      },
+      {
+        "title": "MDLUL/Primideal",
+        "pageid": 38653,
+        "revid": 234731,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:03:40Z",
+        "mediawiki_sha1": "181985521d2d58403aa175517f1317e960b273e1",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/Primzahl",
+        "pageid": 38654,
+        "revid": 234734,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:04:19Z",
+        "mediawiki_sha1": "a150a33fd902d6ffc993baf499ffc69dbdc1a5f3",
+        "wikitext_bytes": 82
+      },
+      {
+        "title": "MDLUL/Quotientenkörper",
+        "pageid": 38667,
+        "revid": 234771,
+        "parentid": 0,
+        "timestamp": "2010-08-16T14:12:57Z",
+        "mediawiki_sha1": "6e1f853b4db22f7635f6b8996981c4bec7ecb9c5",
+        "wikitext_bytes": 110
+      },
+      {
+        "title": "MDLUL/Singularitätsgrad (numerisch)",
+        "pageid": 95575,
+        "revid": 538198,
+        "parentid": 0,
+        "timestamp": "2018-01-20T08:22:30Z",
+        "mediawiki_sha1": "52960b4ab18a67b50f1ca59f552f533e4dde3aa0",
+        "wikitext_bytes": 153
+      },
+      {
+        "title": "MDLUL/Spektrum (Monoid)",
+        "pageid": 94864,
+        "revid": 534299,
+        "parentid": 0,
+        "timestamp": "2017-12-15T21:31:34Z",
+        "mediawiki_sha1": "1d3812aefacbc44e037ad20ef3f019425e413861",
+        "wikitext_bytes": 117
+      },
+      {
+        "title": "MDLUL/Untermonoid",
+        "pageid": 45378,
+        "revid": 265175,
+        "parentid": 0,
+        "timestamp": "2011-05-18T08:12:50Z",
+        "mediawiki_sha1": "d30943c5386e2a4c18395dc4b23c9147ce6a6fcf",
+        "wikitext_bytes": 83
+      },
+      {
+        "title": "MDLUL/Untervektorräumen",
+        "pageid": 38747,
+        "revid": 234939,
+        "parentid": 0,
+        "timestamp": "2010-08-16T15:05:12Z",
+        "mediawiki_sha1": "72f0a6c8c7cd4fd729ddadfc767a92b7326ca245",
+        "wikitext_bytes": 96
+      },
+      {
+        "title": "MDLUL/ganze Ringerweiterung",
+        "pageid": 61952,
+        "revid": 373439,
+        "parentid": 0,
+        "timestamp": "2013-08-10T15:36:09Z",
+        "mediawiki_sha1": "4298585659c50e408e78e36678727de4a27e9717",
+        "wikitext_bytes": 128
+      },
+      {
+        "title": "MDLUL/irrational (Zahl)",
+        "pageid": 44820,
+        "revid": 368230,
+        "parentid": 262649,
+        "timestamp": "2013-06-15T12:07:33Z",
+        "mediawiki_sha1": "3691415bc3b6981c0d6a2305c2f9b79e3b4f2827",
+        "wikitext_bytes": 83
+      },
+      {
+        "title": "MDLUL/irrationale Zahl",
+        "pageid": 44821,
+        "revid": 342617,
+        "parentid": 262650,
+        "timestamp": "2012-12-06T10:22:58Z",
+        "mediawiki_sha1": "6e01134c67cf6a8ba4858fbe9d5a963919986497",
+        "wikitext_bytes": 97
+      },
+      {
+        "title": "MDLUL/irreduzibel",
+        "pageid": 46132,
+        "revid": 268633,
+        "parentid": 0,
+        "timestamp": "2011-06-14T13:38:16Z",
+        "mediawiki_sha1": "94738ca7b20c5323a032a43c85e6ff9c22b46592",
+        "wikitext_bytes": 134
+      },
+      {
+        "title": "MDLUL/irreduzible Komponente",
+        "pageid": 54094,
+        "revid": 320717,
+        "parentid": 0,
+        "timestamp": "2012-07-06T14:59:13Z",
+        "mediawiki_sha1": "f6cd1044d9b9d3c9399d852b848cfcc8df6843d4",
+        "wikitext_bytes": 132
+      },
+      {
+        "title": "MDLUL/irreduziblen Komponenten",
+        "pageid": 54093,
+        "revid": 343509,
+        "parentid": 320716,
+        "timestamp": "2012-12-12T11:11:23Z",
+        "mediawiki_sha1": "da19f00bc7044711c8d443966a7d45b74813834e",
+        "wikitext_bytes": 107
+      },
+      {
+        "title": "MDLUL/kommutative Gruppe",
+        "pageid": 45911,
+        "revid": 342991,
+        "parentid": 342634,
+        "timestamp": "2012-12-09T17:55:53Z",
+        "mediawiki_sha1": "3a096928474a347bcc7165d9eeb4ae89e45701a9",
+        "wikitext_bytes": 97
+      },
+      {
+        "title": "MDLUL/kommutativen Monoids",
+        "pageid": 95171,
+        "revid": 536034,
+        "parentid": 0,
+        "timestamp": "2018-01-04T19:24:25Z",
+        "mediawiki_sha1": "28b754cd462097e108a560b0f500a4e2cd1a9116",
+        "wikitext_bytes": 100
+      },
+      {
+        "title": "MDLUL/kommutatives Monoid",
+        "pageid": 54070,
+        "revid": 586930,
+        "parentid": 320693,
+        "timestamp": "2019-04-17T11:37:04Z",
+        "mediawiki_sha1": "ad3d098b6a180feec120605d1c759512e884299f",
+        "wikitext_bytes": 103
+      },
+      {
+        "title": "MDLUL/maximale Ideal",
+        "pageid": 51914,
+        "revid": 305095,
+        "parentid": 0,
+        "timestamp": "2012-03-19T15:47:42Z",
+        "mediawiki_sha1": "ead0a9a0339d5f7cbe05eb38bd547232c73f6489",
+        "wikitext_bytes": 90
+      },
+      {
+        "title": "MDLUL/multiplikatives System",
+        "pageid": 59090,
+        "revid": 678168,
+        "parentid": 343770,
+        "timestamp": "2021-02-01T13:17:35Z",
+        "mediawiki_sha1": "11790b11690b1401888afa1f94438c01f3da7ef8",
+        "wikitext_bytes": 129
+      },
+      {
+        "title": "MDLUL/normal (Ring)",
+        "pageid": 94056,
+        "revid": 527389,
+        "parentid": 0,
+        "timestamp": "2017-11-20T21:04:41Z",
+        "mediawiki_sha1": "384382e95aab2a2b375279fa3f67814e8a5914e3",
+        "wikitext_bytes": 134
+      },
+      {
+        "title": "MDLUL/normalen (Ring)",
+        "pageid": 94180,
+        "revid": 528011,
+        "parentid": 0,
+        "timestamp": "2017-11-23T16:56:24Z",
+        "mediawiki_sha1": "b1610d85709f63de0d53949645a5318bd5d34789",
+        "wikitext_bytes": 89
+      },
+      {
+        "title": "MDLUL/normaler Integritätsbereich",
+        "pageid": 51195,
+        "revid": 528008,
+        "parentid": 300837,
+        "timestamp": "2017-11-23T16:54:50Z",
+        "mediawiki_sha1": "49b85ba0850430ae22b5741328bb33e861915b9b",
+        "wikitext_bytes": 149
+      },
+      {
+        "title": "MDLUL/numerisches Monoid",
+        "pageid": 94224,
+        "revid": 534538,
+        "parentid": 528321,
+        "timestamp": "2017-12-18T19:59:34Z",
+        "mediawiki_sha1": "d3543ed557acabc9c3abb34a5ae8270b0ecd4ad2",
+        "wikitext_bytes": 124
+      },
+      {
+        "title": "MDLUL/prim (Ring)",
+        "pageid": 47152,
+        "revid": 274191,
+        "parentid": 0,
+        "timestamp": "2011-07-31T11:13:33Z",
+        "mediawiki_sha1": "52e9b8af6754b999e924572533b8b2c64b6308df",
+        "wikitext_bytes": 125
+      },
+      {
+        "title": "MDLUL/reelle Zahl",
+        "pageid": 30689,
+        "revid": 301187,
+        "parentid": 301186,
+        "timestamp": "2012-02-17T17:53:37Z",
+        "mediawiki_sha1": "a7c1d4ed3f78dc5fbe2529f13b8f7ac3af00ac58",
+        "wikitext_bytes": 135
+      },
+      {
+        "title": "MDLUL/teilerfremd (Z)",
+        "pageid": 46042,
+        "revid": 268335,
+        "parentid": 0,
+        "timestamp": "2011-06-12T14:53:14Z",
+        "mediawiki_sha1": "ca2bd6e1491f7e767e27e0bd0c1ccc2713f3135f",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "MDLUL/teilerfremden (Z)",
+        "pageid": 160734,
+        "revid": 971255,
+        "parentid": 0,
+        "timestamp": "2025-01-13T17:47:43Z",
+        "mediawiki_sha1": "21c6bec1af04ef8d5b509410cadcd77bd1b87054",
+        "wikitext_bytes": 93
+      },
+      {
+        "title": "MDLUL/torsionsfrei (Monoid)",
+        "pageid": 62102,
+        "revid": 373695,
+        "parentid": 0,
+        "timestamp": "2013-08-13T15:07:53Z",
+        "mediawiki_sha1": "e102e485a630c325c8bd43b3242a852cffd21948",
+        "wikitext_bytes": 114
+      },
+      {
+        "title": "MDLUL/torsionsfreies (Monoid)",
+        "pageid": 94922,
+        "revid": 534664,
+        "parentid": 0,
+        "timestamp": "2017-12-19T13:32:18Z",
+        "mediawiki_sha1": "6e59792d10f346ac17c859786f099bfe86e3ad7e",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "Monoid/Einheit/Teilmenge von NxZ mod n/Aufgabe",
+        "pageid": 95146,
+        "revid": 1083596,
+        "parentid": 1045215,
+        "timestamp": "2026-05-29T21:33:53Z",
+        "mediawiki_sha1": "361b75927a2539d5e4a3c55166bbc727dcd19078",
+        "wikitext_bytes": 676
+      },
+      {
+        "title": "Normaler Integritätsbereich/Polynomring/Normal/Aufgabe",
+        "pageid": 20681,
+        "revid": 1045719,
+        "parentid": 846330,
+        "timestamp": "2025-08-13T01:42:06Z",
+        "mediawiki_sha1": "25c3b28faff3459b51200846961315838637ab7a",
+        "wikitext_bytes": 508
+      },
+      {
+        "title": "Normaler Integritätsbereich/X^2-a in R/in Q(R)/Aufgabe",
+        "pageid": 15226,
+        "revid": 1045722,
+        "parentid": 986572,
+        "timestamp": "2025-08-13T01:42:36Z",
+        "mediawiki_sha1": "f45b2c97dd1ca00a50c8426a6b3e28d7fe5b3f09",
+        "wikitext_bytes": 884
+      },
+      {
+        "title": "Normaler integrer Ring/Nenneraufnahme an einem Element ist normal/Aufgabe",
+        "pageid": 21341,
+        "revid": 846328,
+        "parentid": 804019,
+        "timestamp": "2022-09-25T18:28:57Z",
+        "mediawiki_sha1": "a3e97ae73ebafca189701426f0c0db0571ae9a34",
+        "wikitext_bytes": 487
+      },
+      {
+        "title": "Numerischer Monoidring/Führungsideal und Führungszahl/Aufgabe",
+        "pageid": 20765,
+        "revid": 1062149,
+        "parentid": 1045800,
+        "timestamp": "2025-12-10T15:36:56Z",
+        "mediawiki_sha1": "5f9e6ce6dfe0f9c1483246fc54a60d99662ca067",
+        "wikitext_bytes": 926
+      },
+      {
+        "title": "Numerisches Monoid/Singularitätsgrad/Ringkette/Aufgabe",
+        "pageid": 95574,
+        "revid": 1073376,
+        "parentid": 1068497,
+        "timestamp": "2026-02-24T16:06:55Z",
+        "mediawiki_sha1": "4b6adffd227f555a8abb689bc92e2621c08f6edb",
+        "wikitext_bytes": 1247
+      },
+      {
+        "title": "NxZ mod n/C/Komponenten/Aufgabe",
+        "pageid": 95160,
+        "revid": 1083674,
+        "parentid": 1045839,
+        "timestamp": "2026-05-29T21:46:43Z",
+        "mediawiki_sha1": "ee9aad3855759c7ccd9c4239fb4ffa84e4dd4a2b",
+        "wikitext_bytes": 723
+      },
+      {
+        "title": "Primfaktorzerlegung/3 Wurzel 9/Irrational/Aufgabe",
+        "pageid": 25105,
+        "revid": 1107392,
+        "parentid": 785314,
+        "timestamp": "2026-07-15T14:49:37Z",
+        "mediawiki_sha1": "865d9be34f9be6562524a63a12d6af0f0c85bb48",
+        "wikitext_bytes": 365
+      },
+      {
+        "title": "Quadratwurzel aus Primzahl/Irrationalität/Primfaktorzerlegung/Aufgabe",
+        "pageid": 43528,
+        "revid": 1106797,
+        "parentid": 858585,
+        "timestamp": "2026-07-13T07:23:30Z",
+        "mediawiki_sha1": "fbc619ca0df8fe6500ecaf4a66091e856b08dbaa",
+        "wikitext_bytes": 703
+      },
+      {
+        "title": "Quadratwurzel/2/Irrational/Fakt/Beweis/Aufgabe",
+        "pageid": 97715,
+        "revid": 847485,
+        "parentid": 785776,
+        "timestamp": "2022-09-25T21:42:46Z",
+        "mediawiki_sha1": "ca5db740b279a0c9b71aa4791baa2d19ee00d2b7",
+        "wikitext_bytes": 310
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Arbeitsblatt",
+        "pageid": 28743,
+        "revid": 938901,
+        "parentid": 938893,
+        "timestamp": "2024-07-23T16:20:47Z",
+        "mediawiki_sha1": "cdd0ba6a7f93d6d5df80b0e93030ff714636e5b9",
+        "wikitext_bytes": 248
+      },
+      {
+        "title": "Vorlage:Aufzählung3",
+        "pageid": 17070,
+        "revid": 1075092,
+        "parentid": 1061902,
+        "timestamp": "2026-03-08T09:22:41Z",
+        "mediawiki_sha1": "e86a69f3c3338174e3e3abcd52fcedeb8b111cff",
+        "wikitext_bytes": 319
+      },
+      {
+        "title": "Vorlage:Beispiellink",
+        "pageid": 41670,
+        "revid": 1070422,
+        "parentid": 1069819,
+        "timestamp": "2026-02-06T14:20:40Z",
+        "mediawiki_sha1": "2699aa7c9cc51e7953958fcbe0fe30bd41dbf02f",
+        "wikitext_bytes": 1793
+      },
+      {
+        "title": "Vorlage:CC",
+        "pageid": 103892,
+        "revid": 709639,
+        "parentid": 578068,
+        "timestamp": "2021-11-08T15:00:46Z",
+        "mediawiki_sha1": "0eceb25a2d3d11b5db027c02c8c2f33347cbac74",
+        "wikitext_bytes": 193
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Drucktrenn",
+        "pageid": 169679,
+        "revid": 1073199,
+        "parentid": 0,
+        "timestamp": "2026-02-24T14:17:08Z",
+        "mediawiki_sha1": "7b15634ab69c147b7ff06ddd5d901e7363d65017",
+        "wikitext_bytes": 164
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Idealf",
+        "pageid": 20762,
+        "revid": 232983,
+        "parentid": 140195,
+        "timestamp": "2010-08-10T21:48:56Z",
+        "mediawiki_sha1": "0e916c0c529162c453f5d7da500605d4c63237ed",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Idealm",
+        "pageid": 20065,
+        "revid": 232982,
+        "parentid": 135808,
+        "timestamp": "2010-08-10T21:48:41Z",
+        "mediawiki_sha1": "6f2507cd4f92838f934a63110ff79c9097426dfa",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Idealp",
+        "pageid": 20033,
+        "revid": 162315,
+        "parentid": 135805,
+        "timestamp": "2009-05-30T20:20:13Z",
+        "mediawiki_sha1": "09b94076e16a834aa8ac1475adfc4ffed6e80814",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Inputaufgabe",
+        "pageid": 18012,
+        "revid": 1074928,
+        "parentid": 1074886,
+        "timestamp": "2026-03-07T15:07:51Z",
+        "mediawiki_sha1": "7d986984e8f142ccf7bcab8075ecfc2406ab4883",
+        "wikitext_bytes": 15973
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathbed",
+        "pageid": 20302,
+        "revid": 210531,
+        "parentid": 168213,
+        "timestamp": "2010-02-21T19:52:49Z",
+        "mediawiki_sha1": "90ef94f9c38b656a0b6da21f640e23950c2d52b3",
+        "wikitext_bytes": 687
+      },
+      {
+        "title": "Vorlage:Mathbed1",
+        "pageid": 24996,
+        "revid": 168056,
+        "parentid": 168055,
+        "timestamp": "2009-06-28T11:29:14Z",
+        "mediawiki_sha1": "6190d5f97bdd37bd1124140c9be987360537fa53",
+        "wikitext_bytes": 189
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Aufgabe",
+        "pageid": 33520,
+        "revid": 945699,
+        "parentid": 945698,
+        "timestamp": "2024-10-06T15:36:10Z",
+        "mediawiki_sha1": "e66acdf4e9f704b519f910a3ac8b123ac3aab145",
+        "wikitext_bytes": 7332
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/AufgabePunkteZerlegung",
+        "pageid": 144492,
+        "revid": 1105116,
+        "parentid": 1094064,
+        "timestamp": "2026-06-21T13:11:03Z",
+        "mediawiki_sha1": "ad6c047b3f7193cd54ddb7907dff7714934631cc",
+        "wikitext_bytes": 3038
+      },
+      {
+        "title": "Vorlage:Mathind",
+        "pageid": 20259,
+        "revid": 1106744,
+        "parentid": 1106097,
+        "timestamp": "2026-07-12T12:04:52Z",
+        "mediawiki_sha1": "f9de88f020a640f51aa0ff55f5d464b25147f660",
+        "wikitext_bytes": 444
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:Mengebed",
+        "pageid": 19920,
+        "revid": 1106268,
+        "parentid": 604716,
+        "timestamp": "2026-07-09T15:57:00Z",
+        "mediawiki_sha1": "bb1821bdbec724ce06ccc446f906e7bea290f2b3",
+        "wikitext_bytes": 667
+      },
+      {
+        "title": "Vorlage:N Sie",
+        "pageid": 22975,
+        "revid": 1106829,
+        "parentid": 1106828,
+        "timestamp": "2026-07-13T16:36:50Z",
+        "mediawiki_sha1": "1e1bbe37a637c31bb179415b8336da2c795bc96e",
+        "wikitext_bytes": 173
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affine Gerade",
+        "pageid": 20276,
+        "revid": 564066,
+        "parentid": 313324,
+        "timestamp": "2018-10-29T18:00:10Z",
+        "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+        "wikitext_bytes": 232
+      },
+      {
+        "title": "Vorlage:Op:Homomorphismen",
+        "pageid": 109522,
+        "revid": 596844,
+        "parentid": 596843,
+        "timestamp": "2019-08-19T10:14:40Z",
+        "mediawiki_sha1": "b4c069be61721d4cd56aff98ab83375f213c9edf",
+        "wikitext_bytes": 359
+      },
+      {
+        "title": "Vorlage:Op:Normalisierung",
+        "pageid": 20301,
+        "revid": 1113361,
+        "parentid": 458782,
+        "timestamp": "2026-08-23T10:12:14Z",
+        "mediawiki_sha1": "b3b76ffb448d68f127baf4b5058a461d9fc230c4",
+        "wikitext_bytes": 237
+      },
+      {
+        "title": "Vorlage:Op:Zmod",
+        "pageid": 24011,
+        "revid": 255414,
+        "parentid": 161634,
+        "timestamp": "2011-02-12T08:37:03Z",
+        "mediawiki_sha1": "9ba9be51eb87aaac340c279a46ec2bf30b5f780d",
+        "wikitext_bytes": 211
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Stichwort",
+        "pageid": 23961,
+        "revid": 1067874,
+        "parentid": 1061532,
+        "timestamp": "2026-01-30T10:47:00Z",
+        "mediawiki_sha1": "ceca7248a5c70c86413f4880b4f90f88611c4063",
+        "wikitext_bytes": 685
+      },
+      {
+        "title": "Vorlage:Subsetdots",
+        "pageid": 22217,
+        "revid": 999556,
+        "parentid": 150566,
+        "timestamp": "2025-04-19T07:12:45Z",
+        "mediawiki_sha1": "0105aded5b206ae7ac91a8f8a149aec0a547be2b",
+        "wikitext_bytes": 223
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Stichwort",
+        "pageid": 24184,
+        "revid": 1067875,
+        "parentid": 794079,
+        "timestamp": "2026-01-30T10:49:46Z",
+        "mediawiki_sha1": "bc938285eaf43311874531de8d3c26bb3b14e5de",
+        "wikitext_bytes": 842
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      },
+      {
+        "title": "Y^2-X^4/Monoidring/Aufgabe",
+        "pageid": 95140,
+        "revid": 1112401,
+        "parentid": 1050697,
+        "timestamp": "2026-08-21T14:18:42Z",
+        "mediawiki_sha1": "979cfa1a4bb91d766728fcff4f707c69ce58f8d8",
+        "wikitext_bytes": 812
+      }
+    ]
+  },
+  "solutions": {
+    "schema": "brenner-worksheet-solution-map-v2",
+    "unit": 20,
+    "worksheet": {
+      "title": "Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Arbeitsblatt 20",
+      "pageid": 165939,
+      "revid": 1062603,
+      "parentid": 1062601,
+      "timestamp": "2025-12-18T10:53:10Z",
+      "mediawiki_sha1": "97db112f709b6ab16f89b88f6d4e3da127c7802a",
+      "wikitext_bytes": 2663,
+      "api_file": "worksheet-20-api.json",
+      "api_bytes": 3147,
+      "api_sha256": "3a57156923e72869cc3999d1622cc0be86eb838d5a79a2233622c365535640c4",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1062603",
+      "xml_file": "worksheet-20.xml",
+      "xml_bytes": 5806,
+      "xml_sha256": "7167696a62162f8d214690b86a253dec1c6c6a825929127a1d43b3c8aa3c3585",
+      "html_file": "worksheet-20.html",
+      "html_bytes": 70412,
+      "html_sha256": "092f168b5602e2c6ec0a7e57b1687f3ffbd0fa573908c9c1f626b8219ad398c1",
+      "html_source": "immutable Parsoid revision endpoint",
+      "parse_api_file": "worksheet-20-parse-api.json",
+      "parse_api_bytes": 16096,
+      "parse_api_sha256": "15eeb9159cd53fcf3e49a6511f5ca4db623a3cd790ba5cb508c7594af2c02d61",
+      "template_count": 120,
+      "image_count": 2,
+      "link_count": 65,
+      "external_link_count": 0
+    },
+    "exercise_count": 23,
+    "solution_count": 8,
+    "candidate_api_file": "worksheet-solution-candidates-api.json",
+    "candidate_api_bytes": 13796,
+    "candidate_api_sha256": "3f0854d2e60fc88012c6e86cf4a279b07d1ba87ca51d48b9d0ebaebd51c35363",
+    "entries": [
+      {
+        "exercise_number": 1,
+        "exercise_title": "Quadratwurzel/2/Irrational/Fakt/Beweis/Aufgabe",
+        "solution_title": "Quadratwurzel/2/Irrational/Fakt/Beweis/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Quadratwurzel/2/Irrational/Fakt/Beweis/Aufgabe/Lösung",
+        "pageid": 114792,
+        "revid": 612937,
+        "parentid": 0,
+        "timestamp": "2020-01-27T12:31:55Z",
+        "mediawiki_sha1": "464e4cf21caff7e1b75e5475efbe83ddd4be449d",
+        "wikitext_bytes": 232,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=612937",
+        "xml_file": "solution-ex01.xml",
+        "xml_bytes": 3411,
+        "xml_sha256": "adde79e2be2fd065988d87a4679d4b1da19c7adc757b2a3359a8d724c6b013b0",
+        "html_file": "solution-ex01.html",
+        "html_bytes": 15525,
+        "html_sha256": "d9812b1524fd194d043d935cc4d58fdb3b0ede6b20117b8ee2bbbad9167d472f",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 2,
+        "exercise_title": "Quadratwurzel aus Primzahl/Irrationalität/Primfaktorzerlegung/Aufgabe",
+        "solution_title": "Quadratwurzel aus Primzahl/Irrationalität/Primfaktorzerlegung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 3,
+        "exercise_title": "Primfaktorzerlegung/3 Wurzel 9/Irrational/Aufgabe",
+        "solution_title": "Primfaktorzerlegung/3 Wurzel 9/Irrational/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Primfaktorzerlegung/3 Wurzel 9/Irrational/Aufgabe/Lösung",
+        "pageid": 25178,
+        "revid": 1113196,
+        "parentid": 1113192,
+        "timestamp": "2026-08-22T12:23:46Z",
+        "mediawiki_sha1": "1aec6ee618f0d399314d3aad886cc27ff489a7e6",
+        "wikitext_bytes": 1309,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1113196",
+        "xml_file": "solution-ex03.xml",
+        "xml_bytes": 4443,
+        "xml_sha256": "94c1fde92ccb9f23400663f673eafa555e7194c89a9427f11c3c9cfed923df66",
+        "html_file": "solution-ex03.html",
+        "html_bytes": 10683,
+        "html_sha256": "a59c21a0a5cbdadb2c4a8da7a61d3a618e18ae69a7f546486d2d4c7b56b92554",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 4,
+        "exercise_title": "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt/Beweis/Aufgabe",
+        "solution_title": "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt/Beweis/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt/Beweis/Aufgabe/Lösung",
+        "pageid": 166918,
+        "revid": 1054377,
+        "parentid": 0,
+        "timestamp": "2025-09-26T13:50:18Z",
+        "mediawiki_sha1": "8afbc244ce562f726e095e76ab06b47e0417c748",
+        "wikitext_bytes": 234,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1054377",
+        "xml_file": "solution-ex04.xml",
+        "xml_bytes": 3467,
+        "xml_sha256": "804783e2895604f6748c0e47fa40799d384a5c5c3eea9488557c93954acf6a54",
+        "html_file": "solution-ex04.html",
+        "html_bytes": 7618,
+        "html_sha256": "b7bf503e4faa1696ff36271c4951aabbb7a0eb28164cae4a5e5ea1c11449fe2a",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 5,
+        "exercise_title": "Normaler integrer Ring/Nenneraufnahme an einem Element ist normal/Aufgabe",
+        "solution_title": "Normaler integrer Ring/Nenneraufnahme an einem Element ist normal/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Normaler integrer Ring/Nenneraufnahme an einem Element ist normal/Aufgabe/Lösung",
+        "pageid": 21367,
+        "revid": 1090115,
+        "parentid": 1016978,
+        "timestamp": "2026-05-31T12:18:53Z",
+        "mediawiki_sha1": "e8c35326c80d121658dd3ea95765cf68d193cf77",
+        "wikitext_bytes": 1394,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1090115",
+        "xml_file": "solution-ex05.xml",
+        "xml_bytes": 4595,
+        "xml_sha256": "32953ecdbf24d53fdd469f25c78110aee88485b4b3f7877429e30097a6139b9a",
+        "html_file": "solution-ex05.html",
+        "html_bytes": 12846,
+        "html_sha256": "d30a2cd6c8b5577c0a474f2f6f9cf542a8da6e252c26b971ed3a33221d0cca3c",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 6,
+        "exercise_title": "Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt/Beweis/Aufgabe",
+        "solution_title": "Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt/Beweis/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 7,
+        "exercise_title": "Kommutative Ringtheorie/Normal/Durchschnitt von normalen Ringen/Aufgabe",
+        "solution_title": "Kommutative Ringtheorie/Normal/Durchschnitt von normalen Ringen/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 8,
+        "exercise_title": "Integritätsbereich/Normal und Normalisierung/Aufgabe",
+        "solution_title": "Integritätsbereich/Normal und Normalisierung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 9,
+        "exercise_title": "Integritätsbereich/Normalisierung ist Körper/Körper/Aufgabe",
+        "solution_title": "Integritätsbereich/Normalisierung ist Körper/Körper/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 10,
+        "exercise_title": "Kommutatives Monoid/Torsionsfrei/Differenzgruppe ist torsionsfrei/Aufgabe",
+        "solution_title": "Kommutatives Monoid/Torsionsfrei/Differenzgruppe ist torsionsfrei/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 11,
+        "exercise_title": "Kommutatives Monoid/Torsionsfrei/Unterschiedliche Charakterisierung bei Monoid und Gruppe/Aufgabe",
+        "solution_title": "Kommutatives Monoid/Torsionsfrei/Unterschiedliche Charakterisierung bei Monoid und Gruppe/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 12,
+        "exercise_title": "Y^2-X^4/Monoidring/Aufgabe",
+        "solution_title": "Y^2-X^4/Monoidring/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Y^2-X^4/Monoidring/Aufgabe/Lösung",
+        "pageid": 95141,
+        "revid": 1112402,
+        "parentid": 1095804,
+        "timestamp": "2026-08-21T14:19:31Z",
+        "mediawiki_sha1": "09535c60f2a50e9c36aa84f3740aa54fa1a4802f",
+        "wikitext_bytes": 1237,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1112402",
+        "xml_file": "solution-ex12.xml",
+        "xml_bytes": 4348,
+        "xml_sha256": "96f81c667ecc03e7e8685821049a66aa24146255456d281e92d8ffe6a0b85b76",
+        "html_file": "solution-ex12.html",
+        "html_bytes": 10988,
+        "html_sha256": "785c2506948d2cf2d6dc64415ec4a93e5c0972d0769805a2addb5eb76a98257f",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 13,
+        "exercise_title": "Monoid/Einheit/Teilmenge von NxZ mod n/Aufgabe",
+        "solution_title": "Monoid/Einheit/Teilmenge von NxZ mod n/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Monoid/Einheit/Teilmenge von NxZ mod n/Aufgabe/Lösung",
+        "pageid": 95147,
+        "revid": 1095226,
+        "parentid": 1090072,
+        "timestamp": "2026-06-14T18:06:39Z",
+        "mediawiki_sha1": "3481392d09afac5bad7a684b0c6c9b22ec9530cf",
+        "wikitext_bytes": 1065,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1095226",
+        "xml_file": "solution-ex13.xml",
+        "xml_bytes": 4242,
+        "xml_sha256": "801eb06d552df3563f8e70d53fa673fad0e0e88ee2c35b959c366c25fbf14af4",
+        "html_file": "solution-ex13.html",
+        "html_bytes": 10637,
+        "html_sha256": "2785d343a573cb614aaca291add14eae746ac6483a01e8316df1355ae77c7440",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 14,
+        "exercise_title": "NxZ mod n/C/Komponenten/Aufgabe",
+        "solution_title": "NxZ mod n/C/Komponenten/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "NxZ mod n/C/Komponenten/Aufgabe/Lösung",
+        "pageid": 95161,
+        "revid": 1096447,
+        "parentid": 1090124,
+        "timestamp": "2026-06-15T08:52:55Z",
+        "mediawiki_sha1": "7123c4fc51e01c53aafd1dd174347cc8a95a499f",
+        "wikitext_bytes": 1358,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1096447",
+        "xml_file": "solution-ex14.xml",
+        "xml_bytes": 4517,
+        "xml_sha256": "fd17e6d973a3b495694a25b252368ebffd43cf66cdb4d236707638f658c53b9b",
+        "html_file": "solution-ex14.html",
+        "html_bytes": 13546,
+        "html_sha256": "4b30a373c3435a1821d9ad93b0cc78b7a14227350aa2f6312740e1e15a8057ae",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 15,
+        "exercise_title": "Kommutative Ringtheorie/Normalisierung/Führungsideal/Aufgabe",
+        "solution_title": "Kommutative Ringtheorie/Normalisierung/Führungsideal/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 16,
+        "exercise_title": "Numerischer Monoidring/Führungsideal und Führungszahl/Aufgabe",
+        "solution_title": "Numerischer Monoidring/Führungsideal und Führungszahl/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 17,
+        "exercise_title": "Numerisches Monoid/Singularitätsgrad/Ringkette/Aufgabe",
+        "solution_title": "Numerisches Monoid/Singularitätsgrad/Ringkette/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Numerisches Monoid/Singularitätsgrad/Ringkette/Aufgabe/Lösung",
+        "pageid": 95576,
+        "revid": 1096446,
+        "parentid": 1090123,
+        "timestamp": "2026-06-15T08:52:45Z",
+        "mediawiki_sha1": "f725cb9edb043a3f516fcd037e9ca168cce3936b",
+        "wikitext_bytes": 2223,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1096446",
+        "xml_file": "solution-ex17.xml",
+        "xml_bytes": 5406,
+        "xml_sha256": "116baccffca81eab52df1ee1a543d4d982c63359f24de407a13cbbd4a7fb318c",
+        "html_file": "solution-ex17.html",
+        "html_bytes": 16954,
+        "html_sha256": "756ec944622e052951b951dbc5f8e71a2162bc434eae79ca05df860c7b7e0e10",
+        "html_source": "immutable Parsoid revision endpoint"
+      },
+      {
+        "exercise_number": 18,
+        "exercise_title": "Kommutatives Monoid/Standardkegel/Wert der Erzeuger unter Bewertungen/Aufgabe",
+        "solution_title": "Kommutatives Monoid/Standardkegel/Wert der Erzeuger unter Bewertungen/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 19,
+        "exercise_title": "Ganze Ringerweiterung für Integritätsbereiche/Hauptideale/Aufgabe",
+        "solution_title": "Ganze Ringerweiterung für Integritätsbereiche/Hauptideale/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 20,
+        "exercise_title": "Normaler Integritätsbereich/Polynomring/Normal/Aufgabe",
+        "solution_title": "Normaler Integritätsbereich/Polynomring/Normal/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 21,
+        "exercise_title": "Normaler Integritätsbereich/X^2-a in R/in Q(R)/Aufgabe",
+        "solution_title": "Normaler Integritätsbereich/X^2-a in R/in Q(R)/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 22,
+        "exercise_title": "Integritätsbereich/Normal/Lokale Eigenschaft/Aufgabe",
+        "solution_title": "Integritätsbereich/Normal/Lokale Eigenschaft/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 23,
+        "exercise_title": "Affines Monoid/Duales Monoid/Ist normales Monoid/Aufgabe",
+        "solution_title": "Affines Monoid/Duales Monoid/Ist normales Monoid/Aufgabe/Lösung",
+        "has_public_solution": false
+      }
+    ],
+    "map_file": "ORDERED_EXERCISE_MAP.json",
+    "map_bytes": 13502,
+    "map_sha256": "c74da7b0627cf8c8c694c0a9f20e94b0c7dc00ecd6c95b72ad21ae4a6c5c07ea"
+  },
+  "solution_transclusion_dependencies": [
+    {
+      "solution_exercise": 1,
+      "dependency_kind": "transcluded proof body",
+      "entry": {
+        "title": "Quadratwurzel/2/Irrational/Fakt/Beweis",
+        "pageid": 111327,
+        "revid": 1108353,
+        "parentid": 1106576,
+        "timestamp": "2026-07-21T15:07:27Z",
+        "mediawiki_sha1": "9f6d9367645cdcd128634774c3252285ddd1601c",
+        "wikitext_bytes": 2633,
+        "api_file": "solution-ex01-transcluded-proof-api.json",
+        "api_bytes": 3124,
+        "api_sha256": "7baf87fce79e3ddc21b382b5e7366d84551aeb3da6f0e0ed58183708032bf554",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1108353",
+        "xml_file": "solution-ex01-transcluded-proof.xml",
+        "xml_bytes": 5749,
+        "xml_sha256": "2af64ad5502d186551fbe405a788f7ac04384bc68a8e0652f6675f92311918e9",
+        "html_file": "solution-ex01-transcluded-proof.html",
+        "html_bytes": 18135,
+        "html_sha256": "0c43be62f8e60c0158a1470efe21e6180a3ee8b22c76f6a91663a2d9a6c4181d",
+        "html_source": "immutable Parsoid revision endpoint",
+        "parse_api_file": "solution-ex01-transcluded-proof-parse-api.json",
+        "parse_api_bytes": 981,
+        "parse_api_sha256": "c05abd865eadf51be1ae2943bd6e5e697aa133d1f7190871997c298add5aa9c1",
+        "template_count": 12,
+        "image_count": 0,
+        "link_count": 1,
+        "external_link_count": 0
+      },
+      "transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 12,
+        "captured_page_count": 12,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "solution-ex01-transcluded-proof-transclusions-01.json",
+            "bytes": 11261,
+            "sha256": "ce6a561f73763ca2a412a4afab28854e4514344efce26750c76ed6065234160c",
+            "requested_titles": [
+              "Quadratwurzel/2/Irrational/Fakt",
+              "Vorlage:Beweisstruktur",
+              "Vorlage:Makl",
+              "Vorlage:Math",
+              "Vorlage:Mathematischer Text/Beweis",
+              "Vorlage:Mathematischer Text/FaktKategorie",
+              "Vorlage:Mathematischer Text/FaktKategorie2",
+              "Vorlage:Mathematischer Text/FaktKategorie3",
+              "Vorlage:Mathkor",
+              "Vorlage:Op:Bruch",
+              "Vorlage:Relationskette/display",
+              "Vorlage:Zusatz/Klammer"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Quadratwurzel/2/Irrational/Fakt",
+            "pageid": 111324,
+            "revid": 953237,
+            "parentid": 775803,
+            "timestamp": "2024-11-02T00:50:03Z",
+            "mediawiki_sha1": "796aec028caf04abb01530a20b0a4337bb8d9b53",
+            "wikitext_bytes": 524
+          },
+          {
+            "title": "Vorlage:Beweisstruktur",
+            "pageid": 24025,
+            "revid": 165764,
+            "parentid": 165744,
+            "timestamp": "2009-06-13T14:14:07Z",
+            "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+            "wikitext_bytes": 215
+          },
+          {
+            "title": "Vorlage:Makl",
+            "pageid": 47944,
+            "revid": 1107363,
+            "parentid": 897349,
+            "timestamp": "2026-07-15T14:42:59Z",
+            "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+            "wikitext_bytes": 198
+          },
+          {
+            "title": "Vorlage:Math",
+            "pageid": 17295,
+            "revid": 1111483,
+            "parentid": 1061915,
+            "timestamp": "2026-08-14T11:15:22Z",
+            "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+            "wikitext_bytes": 450
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/Beweis",
+            "pageid": 33517,
+            "revid": 861548,
+            "parentid": 748239,
+            "timestamp": "2022-10-05T08:00:16Z",
+            "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+            "wikitext_bytes": 2144
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/FaktKategorie",
+            "pageid": 43071,
+            "revid": 868015,
+            "parentid": 255385,
+            "timestamp": "2022-10-28T10:32:25Z",
+            "mediawiki_sha1": "b6737552eaf9a17c95b7d592b770af51e7cf500b",
+            "wikitext_bytes": 176
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/FaktKategorie2",
+            "pageid": 43073,
+            "revid": 868012,
+            "parentid": 255828,
+            "timestamp": "2022-10-28T10:30:59Z",
+            "mediawiki_sha1": "d9c1a14c3a5f94b2f4274904cdfa29e0d2cece64",
+            "wikitext_bytes": 177
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/FaktKategorie3",
+            "pageid": 43074,
+            "revid": 255829,
+            "parentid": 255388,
+            "timestamp": "2011-02-15T20:23:21Z",
+            "mediawiki_sha1": "e700956721e7f2d94ff4eb57afd0452f9e28bf06",
+            "wikitext_bytes": 228
+          },
+          {
+            "title": "Vorlage:Mathkor",
+            "pageid": 22402,
+            "revid": 1107107,
+            "parentid": 1074428,
+            "timestamp": "2026-07-15T08:13:32Z",
+            "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+            "wikitext_bytes": 586
+          },
+          {
+            "title": "Vorlage:Op:Bruch",
+            "pageid": 23180,
+            "revid": 599751,
+            "parentid": 332211,
+            "timestamp": "2019-09-28T11:03:08Z",
+            "mediawiki_sha1": "8af543c27bfd9fbe3cbe30a57b812c1c6c329cd5",
+            "wikitext_bytes": 223
+          },
+          {
+            "title": "Vorlage:Relationskette/display",
+            "pageid": 20280,
+            "revid": 1106843,
+            "parentid": 1075212,
+            "timestamp": "2026-07-13T17:25:55Z",
+            "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+            "wikitext_bytes": 2459
+          },
+          {
+            "title": "Vorlage:Zusatz/Klammer",
+            "pageid": 23027,
+            "revid": 1061520,
+            "parentid": 794601,
+            "timestamp": "2025-12-06T14:05:03Z",
+            "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+            "wikitext_bytes": 286
+          }
+        ]
+      }
+    },
+    {
+      "solution_exercise": 4,
+      "dependency_kind": "transcluded proof body",
+      "entry": {
+        "title": "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt/Beweis",
+        "pageid": 14442,
+        "revid": 1101325,
+        "parentid": 1069946,
+        "timestamp": "2026-06-17T14:33:57Z",
+        "mediawiki_sha1": "e40f2a19e4dd4db9b1b176d1032a1cb4e6cfbded",
+        "wikitext_bytes": 991,
+        "api_file": "solution-ex04-transcluded-proof-api.json",
+        "api_bytes": 1454,
+        "api_sha256": "a14f925ea5a4b8447b4e86a9df1e43d8f3f46fdd249b94be8b11845528cad3fd",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1101325",
+        "xml_file": "solution-ex04-transcluded-proof.xml",
+        "xml_bytes": 4200,
+        "xml_sha256": "045c7318d21d5469bf7ab7f4b368fbcb469292746db573f737bf00b65b2f2a4d",
+        "html_file": "solution-ex04-transcluded-proof.html",
+        "html_bytes": 8447,
+        "html_sha256": "7f772c0b4db00a3b7b95392d07dbafc79089744309cf18b8e900fa611a299ad7",
+        "html_source": "immutable Parsoid revision endpoint",
+        "parse_api_file": "solution-ex04-transcluded-proof-parse-api.json",
+        "parse_api_bytes": 1470,
+        "parse_api_sha256": "310c1a89a47c7477a4062fd3a10f66d94d355f1b9ab98ff2d0578968e652a418",
+        "template_count": 14,
+        "image_count": 0,
+        "link_count": 3,
+        "external_link_count": 0
+      },
+      "transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 14,
+        "captured_page_count": 14,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "solution-ex04-transcluded-proof-transclusions-01.json",
+            "bytes": 16753,
+            "sha256": "a421700c3bd9256ceb3e31571ce31257ae2c8b8150c5144412e9b8a685957f23",
+            "requested_titles": [
+              "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt",
+              "MDLUL/Normalität (Integritätsbereich)",
+              "Vorlage:Beweisstruktur",
+              "Vorlage:Definitionslink",
+              "Vorlage:Faktlink",
+              "Vorlage:MDLULSiehe",
+              "Vorlage:MDLULZiel",
+              "Vorlage:Math",
+              "Vorlage:Mathematische Standardverlinkung",
+              "Vorlage:Mathematischer Text/Beweis",
+              "Vorlage:Mathematischer Text/FaktKategorie",
+              "Vorlage:Mathematischer Text/FaktKategorie2",
+              "Vorlage:Mathematischer Text/FaktKategorie3",
+              "Vorlage:Relationskette"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Kommutative Ringtheorie/Z ist normal/Wurzeln aus ganzen Zahlen sind irrational/Fakt",
+            "pageid": 14437,
+            "revid": 1046615,
+            "parentid": 1010276,
+            "timestamp": "2025-08-13T04:11:30Z",
+            "mediawiki_sha1": "2140101d2132dd98a34a3bf4624451cfc58233a8",
+            "wikitext_bytes": 794
+          },
+          {
+            "title": "MDLUL/Normalität (Integritätsbereich)",
+            "pageid": 85683,
+            "revid": 528013,
+            "parentid": 482443,
+            "timestamp": "2017-11-23T16:57:09Z",
+            "mediawiki_sha1": "9ff88b39ff8416fa930963077574cba1dbe10c25",
+            "wikitext_bytes": 154
+          },
+          {
+            "title": "Vorlage:Beweisstruktur",
+            "pageid": 24025,
+            "revid": 165764,
+            "parentid": 165744,
+            "timestamp": "2009-06-13T14:14:07Z",
+            "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+            "wikitext_bytes": 215
+          },
+          {
+            "title": "Vorlage:Definitionslink",
+            "pageid": 18918,
+            "revid": 1106945,
+            "parentid": 1106944,
+            "timestamp": "2026-07-14T06:47:02Z",
+            "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+            "wikitext_bytes": 2427
+          },
+          {
+            "title": "Vorlage:Faktlink",
+            "pageid": 18917,
+            "revid": 1070424,
+            "parentid": 1070386,
+            "timestamp": "2026-02-06T14:24:46Z",
+            "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+            "wikitext_bytes": 2111
+          },
+          {
+            "title": "Vorlage:MDLULSiehe",
+            "pageid": 43218,
+            "revid": 255837,
+            "parentid": 0,
+            "timestamp": "2011-02-15T21:52:46Z",
+            "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+            "wikitext_bytes": 80
+          },
+          {
+            "title": "Vorlage:MDLULZiel",
+            "pageid": 38329,
+            "revid": 233198,
+            "parentid": 0,
+            "timestamp": "2010-08-11T09:57:45Z",
+            "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+            "wikitext_bytes": 79
+          },
+          {
+            "title": "Vorlage:Math",
+            "pageid": 17295,
+            "revid": 1111483,
+            "parentid": 1061915,
+            "timestamp": "2026-08-14T11:15:22Z",
+            "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+            "wikitext_bytes": 450
+          },
+          {
+            "title": "Vorlage:Mathematische Standardverlinkung",
+            "pageid": 24157,
+            "revid": 908016,
+            "parentid": 908008,
+            "timestamp": "2023-07-30T18:02:04Z",
+            "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+            "wikitext_bytes": 1255
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/Beweis",
+            "pageid": 33517,
+            "revid": 861548,
+            "parentid": 748239,
+            "timestamp": "2022-10-05T08:00:16Z",
+            "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+            "wikitext_bytes": 2144
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/FaktKategorie",
+            "pageid": 43071,
+            "revid": 868015,
+            "parentid": 255385,
+            "timestamp": "2022-10-28T10:32:25Z",
+            "mediawiki_sha1": "b6737552eaf9a17c95b7d592b770af51e7cf500b",
+            "wikitext_bytes": 176
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/FaktKategorie2",
+            "pageid": 43073,
+            "revid": 868012,
+            "parentid": 255828,
+            "timestamp": "2022-10-28T10:30:59Z",
+            "mediawiki_sha1": "d9c1a14c3a5f94b2f4274904cdfa29e0d2cece64",
+            "wikitext_bytes": 177
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/FaktKategorie3",
+            "pageid": 43074,
+            "revid": 255829,
+            "parentid": 255388,
+            "timestamp": "2011-02-15T20:23:21Z",
+            "mediawiki_sha1": "e700956721e7f2d94ff4eb57afd0452f9e28bf06",
+            "wikitext_bytes": 228
+          },
+          {
+            "title": "Vorlage:Relationskette",
+            "pageid": 22415,
+            "revid": 1075230,
+            "parentid": 1075122,
+            "timestamp": "2026-03-09T07:28:01Z",
+            "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+            "wikitext_bytes": 2148
+          }
+        ]
+      }
+    }
+  ],
+  "images": {
+    "lecture": [
+      "Whitney_unbrella.png",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Vorlesung20.pdf",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Arbeitsblatt20.pdf"
+    ],
+    "worksheet": [
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Arbeitsblatt20.pdf",
+      "Algebraische_Kurven_(Osnabrück_2025-2026)Vorlesung20.pdf"
+    ],
+    "substantive_assets": [
+      {
+        "asset_id": "br-ak-u20-media-001",
+        "repository": "commons",
+        "metadata_title": "File:Whitney unbrella.png",
+        "local_path": "authority/assets/Whitney_unbrella.png",
+        "local_bytes": 35829,
+        "local_sha256": "5a469c4675d326a753dca7801524138e64689e476d38d867070f97983f8b07d2",
+        "width": 267,
+        "height": 209,
+        "frame_count": 1,
+        "license_short": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5",
+        "html_animation_preserved": false,
+        "selected_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Whitney_unbrella.png",
+        "selected_form": "exact Commons original",
+        "local_width": 267,
+        "local_height": 209
+      }
+    ]
+  },
+  "official_pdf_witnesses": [
+    {
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2025-2026)Vorlesung20.pdf",
+      "commons_pageid": 178972714,
+      "image_timestamp": "2026-02-02T16:06:16Z",
+      "mediawiki_sha1": "f9d0ad5403d6bfa8eae5d8e3188ef850fe225ff2",
+      "source_bytes": 217144,
+      "mime": "application/pdf",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Vorlesung20.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)Vorlesung20.pdf",
+      "local_path": "authority/artifacts/lecture-20-official.pdf",
+      "local_bytes": 217144,
+      "local_sha256": "f9ee520ac2724e041eb8861e4648e59e6357b71d68bf73e7a634a91178d45f9a",
+      "page_count": 7,
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "User:Bocardodarapti",
+      "credit": "Own work"
+    },
+    {
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2025-2026)Arbeitsblatt20.pdf",
+      "commons_pageid": 182948535,
+      "image_timestamp": "2026-02-02T13:40:02Z",
+      "mediawiki_sha1": "c528f16799967433d1673b1f8e458e8c9b11fae4",
+      "source_bytes": 164793,
+      "mime": "application/pdf",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29Arbeitsblatt20.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)Arbeitsblatt20.pdf",
+      "local_path": "authority/artifacts/worksheet-20-official.pdf",
+      "local_bytes": 164793,
+      "local_sha256": "d141d76231053dabe89e4af0113e080abd57ee7f7dfc74877bcaa7ad4d48ec9d",
+      "page_count": 5,
+      "license_short": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "User:Bocardodarapti",
+      "credit": "Own work"
+    }
+  ],
+  "entry_revision_recheck": {
+    "file": "final-entry-recheck-api.json",
+    "bytes": 513,
+    "sha256": "35853a5d1ea310ac9344339c9b4fb4e5b16265b17155715c77890f132d094b27",
+    "result": "PASS"
+  },
+  "files": [
+    {
+      "file": "ORDERED_EXERCISE_MAP.json",
+      "bytes": 13502,
+      "sha256": "c74da7b0627cf8c8c694c0a9f20e94b0c7dc00ecd6c95b72ad21ae4a6c5c07ea"
+    },
+    {
+      "file": "final-entry-recheck-api.json",
+      "bytes": 513,
+      "sha256": "35853a5d1ea310ac9344339c9b4fb4e5b16265b17155715c77890f132d094b27"
+    },
+    {
+      "file": "lecture-20-api.json",
+      "bytes": 2601,
+      "sha256": "8ca71a653444e6103051095981d68534fc23906499045dbf1533536d96d030e4"
+    },
+    {
+      "file": "lecture-20-expanded.tex",
+      "bytes": 20917,
+      "sha256": "8d95abad821218ccc9a32b3b7d57f8696b57bb98991c707f4ef8e5a20a1bdecc"
+    },
+    {
+      "file": "lecture-20-latex-page-api.json",
+      "bytes": 373,
+      "sha256": "3a376d32d554dcaae83c86fb7bdb05121bd0ddb749cf7f79913cd2252d3b5740"
+    },
+    {
+      "file": "lecture-20-latex-page.html",
+      "bytes": 29036,
+      "sha256": "2260ec25de67dd87441d39a382d1f28d4e628d7d24ddc3217c1ce647349efb1d"
+    },
+    {
+      "file": "lecture-20-latex-page.xml",
+      "bytes": 3174,
+      "sha256": "93bc59ce6872338315ecb2863aebe25e9b7ccfa97e1b762f49e49586553ed88c"
+    },
+    {
+      "file": "lecture-20-parse-api.json",
+      "bytes": 15190,
+      "sha256": "9f745d67f69e9b1742aac694f575b69539ec42a93797e31621e560140c4eea6b"
+    },
+    {
+      "file": "lecture-20-transclusions-01.json",
+      "bytes": 27765,
+      "sha256": "7713175d190283841d87350a2a085353d81f701c50b5d6f0d7b5810e1e09166f"
+    },
+    {
+      "file": "lecture-20-transclusions-02.json",
+      "bytes": 10059,
+      "sha256": "e0fb7eaa3e640959f52ea272e0c654ba9bfe05e25be957b6aa876d194e31310d"
+    },
+    {
+      "file": "lecture-20-transclusions-03.json",
+      "bytes": 34301,
+      "sha256": "cbbb225c6b669488a74b91edf452bec145697f98b89156c967b0c33223ac251d"
+    },
+    {
+      "file": "lecture-20-transclusions-04.json",
+      "bytes": 67845,
+      "sha256": "8a5e929bc27e7f290690a626e685abeac84c92a8c7fd1e8e5f3d3a4c0974e370"
+    },
+    {
+      "file": "lecture-20-transclusions-05.json",
+      "bytes": 22632,
+      "sha256": "220fcce87247692975e4ad7475ab855e26d1096bd9252f8f692d3125fa0d6ba9"
+    },
+    {
+      "file": "lecture-20.html",
+      "bytes": 125817,
+      "sha256": "2434416f6982d9aac1553cd38e3c7c8ca31aaed7761948e9a8cfcc37259937c3"
+    },
+    {
+      "file": "lecture-20.xml",
+      "bytes": 5324,
+      "sha256": "052aee339f49d9d2dfe7f71f50a17c5cc4f9f507eae70a2b8692a1dd5aa38e77"
+    },
+    {
+      "file": "official-pdfs-api.json",
+      "bytes": 1888,
+      "sha256": "9e766d4eeae8f74431244b31eeee1c3dd3d194d7a2bf3bda5f24e2c7023f82d4"
+    },
+    {
+      "file": "solution-ex01-transcluded-proof-api.json",
+      "bytes": 3124,
+      "sha256": "7baf87fce79e3ddc21b382b5e7366d84551aeb3da6f0e0ed58183708032bf554"
+    },
+    {
+      "file": "solution-ex01-transcluded-proof-parse-api.json",
+      "bytes": 981,
+      "sha256": "c05abd865eadf51be1ae2943bd6e5e697aa133d1f7190871997c298add5aa9c1"
+    },
+    {
+      "file": "solution-ex01-transcluded-proof-transclusions-01.json",
+      "bytes": 11261,
+      "sha256": "ce6a561f73763ca2a412a4afab28854e4514344efce26750c76ed6065234160c"
+    },
+    {
+      "file": "solution-ex01-transcluded-proof.html",
+      "bytes": 18135,
+      "sha256": "0c43be62f8e60c0158a1470efe21e6180a3ee8b22c76f6a91663a2d9a6c4181d"
+    },
+    {
+      "file": "solution-ex01-transcluded-proof.xml",
+      "bytes": 5749,
+      "sha256": "2af64ad5502d186551fbe405a788f7ac04384bc68a8e0652f6675f92311918e9"
+    },
+    {
+      "file": "solution-ex01.html",
+      "bytes": 15525,
+      "sha256": "d9812b1524fd194d043d935cc4d58fdb3b0ede6b20117b8ee2bbbad9167d472f"
+    },
+    {
+      "file": "solution-ex01.xml",
+      "bytes": 3411,
+      "sha256": "adde79e2be2fd065988d87a4679d4b1da19c7adc757b2a3359a8d724c6b013b0"
+    },
+    {
+      "file": "solution-ex03.html",
+      "bytes": 10683,
+      "sha256": "a59c21a0a5cbdadb2c4a8da7a61d3a618e18ae69a7f546486d2d4c7b56b92554"
+    },
+    {
+      "file": "solution-ex03.xml",
+      "bytes": 4443,
+      "sha256": "94c1fde92ccb9f23400663f673eafa555e7194c89a9427f11c3c9cfed923df66"
+    },
+    {
+      "file": "solution-ex04-transcluded-proof-api.json",
+      "bytes": 1454,
+      "sha256": "a14f925ea5a4b8447b4e86a9df1e43d8f3f46fdd249b94be8b11845528cad3fd"
+    },
+    {
+      "file": "solution-ex04-transcluded-proof-parse-api.json",
+      "bytes": 1470,
+      "sha256": "310c1a89a47c7477a4062fd3a10f66d94d355f1b9ab98ff2d0578968e652a418"
+    },
+    {
+      "file": "solution-ex04-transcluded-proof-transclusions-01.json",
+      "bytes": 16753,
+      "sha256": "a421700c3bd9256ceb3e31571ce31257ae2c8b8150c5144412e9b8a685957f23"
+    },
+    {
+      "file": "solution-ex04-transcluded-proof.html",
+      "bytes": 8447,
+      "sha256": "7f772c0b4db00a3b7b95392d07dbafc79089744309cf18b8e900fa611a299ad7"
+    },
+    {
+      "file": "solution-ex04-transcluded-proof.xml",
+      "bytes": 4200,
+      "sha256": "045c7318d21d5469bf7ab7f4b368fbcb469292746db573f737bf00b65b2f2a4d"
+    },
+    {
+      "file": "solution-ex04.html",
+      "bytes": 7618,
+      "sha256": "b7bf503e4faa1696ff36271c4951aabbb7a0eb28164cae4a5e5ea1c11449fe2a"
+    },
+    {
+      "file": "solution-ex04.xml",
+      "bytes": 3467,
+      "sha256": "804783e2895604f6748c0e47fa40799d384a5c5c3eea9488557c93954acf6a54"
+    },
+    {
+      "file": "solution-ex05.html",
+      "bytes": 12846,
+      "sha256": "d30a2cd6c8b5577c0a474f2f6f9cf542a8da6e252c26b971ed3a33221d0cca3c"
+    },
+    {
+      "file": "solution-ex05.xml",
+      "bytes": 4595,
+      "sha256": "32953ecdbf24d53fdd469f25c78110aee88485b4b3f7877429e30097a6139b9a"
+    },
+    {
+      "file": "solution-ex12.html",
+      "bytes": 10988,
+      "sha256": "785c2506948d2cf2d6dc64415ec4a93e5c0972d0769805a2addb5eb76a98257f"
+    },
+    {
+      "file": "solution-ex12.xml",
+      "bytes": 4348,
+      "sha256": "96f81c667ecc03e7e8685821049a66aa24146255456d281e92d8ffe6a0b85b76"
+    },
+    {
+      "file": "solution-ex13.html",
+      "bytes": 10637,
+      "sha256": "2785d343a573cb614aaca291add14eae746ac6483a01e8316df1355ae77c7440"
+    },
+    {
+      "file": "solution-ex13.xml",
+      "bytes": 4242,
+      "sha256": "801eb06d552df3563f8e70d53fa673fad0e0e88ee2c35b959c366c25fbf14af4"
+    },
+    {
+      "file": "solution-ex14.html",
+      "bytes": 13546,
+      "sha256": "4b30a373c3435a1821d9ad93b0cc78b7a14227350aa2f6312740e1e15a8057ae"
+    },
+    {
+      "file": "solution-ex14.xml",
+      "bytes": 4517,
+      "sha256": "fd17e6d973a3b495694a25b252368ebffd43cf66cdb4d236707638f658c53b9b"
+    },
+    {
+      "file": "solution-ex17.html",
+      "bytes": 16954,
+      "sha256": "756ec944622e052951b951dbc5f8e71a2162bc434eae79ca05df860c7b7e0e10"
+    },
+    {
+      "file": "solution-ex17.xml",
+      "bytes": 5406,
+      "sha256": "116baccffca81eab52df1ee1a543d4d982c63359f24de407a13cbbd4a7fb318c"
+    },
+    {
+      "file": "worksheet-20-api.json",
+      "bytes": 3147,
+      "sha256": "3a57156923e72869cc3999d1622cc0be86eb838d5a79a2233622c365535640c4"
+    },
+    {
+      "file": "worksheet-20-expanded.tex",
+      "bytes": 10753,
+      "sha256": "c8998ecb3b461041a25272e2e4849011103b66326a51bac1936d2a40f1423912"
+    },
+    {
+      "file": "worksheet-20-latex-page-api.json",
+      "bytes": 376,
+      "sha256": "4e599a636fec5056d839fe0d0c2a9c5aec8e2d2a13e8eb2d7f2291cd894de60a"
+    },
+    {
+      "file": "worksheet-20-latex-page.html",
+      "bytes": 18270,
+      "sha256": "58aee4d3dd2244fccc8b99af8cb05881738d2f2eb2cfe6ff71b8e79be1592036"
+    },
+    {
+      "file": "worksheet-20-latex-page.xml",
+      "bytes": 3177,
+      "sha256": "1c1b8e593328f39f75d681c5c12f70105154e3d9de094b280247fac03d2513a2"
+    },
+    {
+      "file": "worksheet-20-parse-api.json",
+      "bytes": 16096,
+      "sha256": "15eeb9159cd53fcf3e49a6511f5ca4db623a3cd790ba5cb508c7594af2c02d61"
+    },
+    {
+      "file": "worksheet-20-transclusions-01.json",
+      "bytes": 19212,
+      "sha256": "74b3b33e3257c4ebfc96949c22a2bf9bfccb7b9aaa7e68551cff00fc43bcaab7"
+    },
+    {
+      "file": "worksheet-20-transclusions-02.json",
+      "bytes": 9864,
+      "sha256": "4f58a713faecb7a1ab47e82c418375c783b5ea37d8e559c2f968ea103994776c"
+    },
+    {
+      "file": "worksheet-20-transclusions-03.json",
+      "bytes": 17110,
+      "sha256": "ae6759b94b6ec02d414c37ff4e7810ef9e45cd95d358de7be7f8c3f31fe53232"
+    },
+    {
+      "file": "worksheet-20-transclusions-04.json",
+      "bytes": 51509,
+      "sha256": "c65eb58ccb216820d7cd9e9d5782c91094456de5ea5ab8b0a949f63b3b92b218"
+    },
+    {
+      "file": "worksheet-20-transclusions-05.json",
+      "bytes": 23029,
+      "sha256": "83aea45b25d45236b87d7192e0c1b5c7e220afc1603c462a537053e1b47c91c9"
+    },
+    {
+      "file": "worksheet-20.html",
+      "bytes": 70412,
+      "sha256": "092f168b5602e2c6ec0a7e57b1687f3ffbd0fa573908c9c1f626b8219ad398c1"
+    },
+    {
+      "file": "worksheet-20.xml",
+      "bytes": 5806,
+      "sha256": "7167696a62162f8d214690b86a253dec1c6c6a825929127a1d43b3c8aa3c3585"
+    },
+    {
+      "file": "worksheet-solution-candidates-api.json",
+      "bytes": 13796,
+      "sha256": "3f0854d2e60fc88012c6e86cf4a279b07d1ba87ca51d48b9d0ebaebd51c35363"
+    }
+  ]
+}

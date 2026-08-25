@@ -1,0 +1,119 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Endliche Erweiterung/KX/Explizit/Relation über X invers/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>134951</id>
+    <revision>
+      <id>1089395</id>
+      <parentid>1068117</parentid>
+      <timestamp>2026-05-31T10:22:22Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1089395</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1421" sha1="mpms9899hqctzweeutjdphvpn6138hq" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir multiplizieren die gegebene Ganzheitsgleichung mit {{mathl|term=   X^{-kn} |SZ=}} und erhalten
+{{
+Zusatz/Klammer
+|text= im Quotientenkörper {{math|term= Q |SZ=}} von {{mathl|term= K[X,Y] |SZ=}} modulo der Gleichung|
+|ISZ=|ESZ=
+}}
+die Gleichung
+{{
+Relationskette/display
+| Y^n X^{-kn}   + \sum_{i {{=}} 0}^{n-1} P_i  Y^i  X^{-kn}
+|| 0
+||
+||
+||
+|SZ=.
+}}
+Dabei ist
+{{
+Relationskette/display
+| Y^n X^{-kn} 
+|| ( YX^{-k} )^n
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|  P_i  Y^i  X^{-kn}
+|| P_i  Y^i  X^{-ki} X^{-k (n-i)}
+|| (YX^{-k} )^i  P_i X^{-k (n-i)}
+||
+||
+|SZ=.
+}}
+Die Bedingung an {{math|term=  k |SZ=}} stellt sicher, dass {{mathl|term=  P_i X^{-k (n-i)} |SZ=}} ein Polynom in {{math|term=  X^{-1} |SZ=}} ist. Somit ist die entstehende Gleichung eine Ganzheitsgleichung für {{math|term=  YX^{-k} |SZ=}} über {{math|term=  K[X^{-1}] |SZ=.}} Diese ist in {{mathl|term=  K[X^{-1},YX^{-k}] |SZ=}} irreduzibel, da man andernfalls durch Multiplikation mit {{math|term= X^{kn} |SZ=}} sofort eine Zerlegung des Ausgangspolynoms finden würde.  Dabei ist
+{{
+Relationskette/display
+| K[X^{-1}] [YX^{-k}]
+| \subseteq | Q
+||
+||
+||
+|SZ=,
+}} 
+und Multiplikation mit {{math|term= X^k |SZ=}} zeigt, dass die Quotientenkörper übereinstimmen.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>mpms9899hqctzweeutjdphvpn6138hq</sha1>
+    </revision>
+  </page>
+</mediawiki>

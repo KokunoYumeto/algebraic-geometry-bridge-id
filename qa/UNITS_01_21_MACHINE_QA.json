@@ -1,0 +1,224 @@
+{
+  "schema": "ag-bridge-cumulative-reader-qa-v4",
+  "status": "PASS",
+  "verified_date": "2026-08-25",
+  "through_unit": 21,
+  "language": "id-ID",
+  "coverage": {
+    "lectures": 21,
+    "worksheets": 21,
+    "exercises": 577,
+    "public_source_solutions": 102,
+    "reader_media_positions": 76,
+    "stable_source_ids": 1194,
+    "mathml_nodes": 8521
+  },
+  "html": {
+    "path": "build/reader-id/index.html",
+    "bytes": 12388419,
+    "sha256": "ae658bee5191e4d0be529d38ec7eb9fd2e287295237be4bbb98a58b4709c6700",
+    "ids": 2293,
+    "images": 76,
+    "mathml_nodes": 8521,
+    "tex_annotations": 8521,
+    "internal_links": 1242,
+    "broken_internal_links": 0,
+    "remote_images": 0,
+    "empty_alt": 0
+  },
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-21.pdf",
+    "bytes": 7409373,
+    "sha256": "b95fd1ed0ea75294cd4562b7f2f36e920e247e2da5e1b039e99e975f9797a3e6",
+    "pages": 367,
+    "paper": "A4",
+    "encrypted": false,
+    "terminal_start_page": 317,
+    "terminal_pages_checked": 51,
+    "terminal_marker_pages": {
+      "Kuliah 19": 317,
+      "Soal 19.15": 327,
+      "Solusi Soal 19.12": 328,
+      "Kredit media Unit 19": 366,
+      "Kuliah 20": 329,
+      "Soal 20.23": 340,
+      "Solusi Soal 20.17": 346,
+      "Kredit media Unit 20": 367,
+      "Kuliah 21": 347,
+      "Soal 21.26": 359,
+      "Solusi Soal 21.8": 360,
+      "Kredit media Unit 21": 367
+    }
+  },
+  "build_receipt": {
+    "path": "build/reader-id/BUILD_RECEIPT.json",
+    "bytes": 31430,
+    "sha256": "71b4e362d354c3c9ff827c60b791a00ccc8544b8039aebc3a6eb753261dc32e1",
+    "input_count": 179,
+    "source_markdown_input_count": 84,
+    "output_count": 2,
+    "html_log_bytes": 0,
+    "pdf_log_bytes": 0
+  },
+  "authority_units_19_21": {
+    "19": {
+      "exercises": 15,
+      "solutions": [
+        4,
+        12
+      ],
+      "media_positions": 1,
+      "manifest_sha256": "52245060a54f973b4fba19878eec234904430b9e5058defdbd9feaa7a868080e",
+      "translation_qa_sha256": "fe546d8499bc63dedb08c3548eb42322924338ea5e183af7ff9fc66f48a6601a"
+    },
+    "20": {
+      "exercises": 23,
+      "solutions": [
+        1,
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        17
+      ],
+      "media_positions": 1,
+      "manifest_sha256": "b063e5edc556cd18598389083ea27ea7f255edfe2ae00e13ebf24de76e5b37d7",
+      "translation_qa_sha256": "6c4bc4eb66feccf91d0d53f81c08726857a6edb3dbee93b66b0487b83a4b2725"
+    },
+    "21": {
+      "exercises": 26,
+      "solutions": [
+        3,
+        8
+      ],
+      "media_positions": 0,
+      "manifest_sha256": "d85444ddfc66c8e77d52db3f3abc0a186e5dd598789edaaf890b3c09cf00f923",
+      "translation_qa_sha256": "a999af2ab40124cbe8bb593239ce17b9e99515d70253ac1869f2934426a7ff75"
+    }
+  },
+  "baseline_and_checkpoint_facts": [
+    {
+      "path": "qa/UNITS_01_18_MACHINE_QA.json",
+      "bytes": 9029,
+      "sha256": "fdd7a3b70d74bb8454440c28eb6a8840e8da448bcd57a7a86cefbb8f29b43f00"
+    },
+    {
+      "path": "qa/UNIT_18_PROTECTED_SURFACES.json",
+      "bytes": 1566,
+      "sha256": "29a6a329361515dadc7c6399538a010a3717c43e38fb9564ac681b8670786bc9"
+    },
+    {
+      "path": "qa/UNIT_19_INTEGRATION_QA.json",
+      "bytes": 5865,
+      "sha256": "fe546d8499bc63dedb08c3548eb42322924338ea5e183af7ff9fc66f48a6601a"
+    },
+    {
+      "path": "qa/UNIT_20_TRANSLATION_QA.json",
+      "bytes": 3748,
+      "sha256": "6c4bc4eb66feccf91d0d53f81c08726857a6edb3dbee93b66b0487b83a4b2725"
+    },
+    {
+      "path": "qa/UNIT_21_TRANSLATION_QA.json",
+      "bytes": 5436,
+      "sha256": "a999af2ab40124cbe8bb593239ce17b9e99515d70253ac1869f2934426a7ff75"
+    },
+    {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 31430,
+      "sha256": "71b4e362d354c3c9ff827c60b791a00ccc8544b8039aebc3a6eb753261dc32e1"
+    },
+    {
+      "path": "build/reader-id/index.html",
+      "bytes": 12388419,
+      "sha256": "ae658bee5191e4d0be529d38ec7eb9fd2e287295237be4bbb98a58b4709c6700"
+    },
+    {
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-21.pdf",
+      "bytes": 7409373,
+      "sha256": "b95fd1ed0ea75294cd4562b7f2f36e920e247e2da5e1b039e99e975f9797a3e6"
+    },
+    {
+      "path": "build/reader-id/pandoc-html.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build/reader-id/pandoc-pdf.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "authority/wikiversity/unit-19/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 83621,
+      "sha256": "52245060a54f973b4fba19878eec234904430b9e5058defdbd9feaa7a868080e"
+    },
+    {
+      "path": "authority/wikiversity/unit-19/ORDERED_EXERCISE_MAP.json",
+      "bytes": 6379,
+      "sha256": "f75bcc8e564cef327687b486bb074fa8c799b065994f4a1d79e7abf2b78b30dd"
+    },
+    {
+      "path": "authority/RIGHTS-unit-19.csv",
+      "bytes": 2066,
+      "sha256": "1feb699d361be0379de5c785cc6c073adf3d47d31c8b07df3db1d3fc6ed7bdb1"
+    },
+    {
+      "path": "authority/ASSET_CLOSURE-unit-19.json",
+      "bytes": 4042,
+      "sha256": "4ee0c05610b30f25038484a4dc147bdcddda9ebb29cfbded53d4e72a5b32be4e"
+    },
+    {
+      "path": "authority/wikiversity/unit-20/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 129387,
+      "sha256": "b063e5edc556cd18598389083ea27ea7f255edfe2ae00e13ebf24de76e5b37d7"
+    },
+    {
+      "path": "authority/wikiversity/unit-20/ORDERED_EXERCISE_MAP.json",
+      "bytes": 13502,
+      "sha256": "c74da7b0627cf8c8c694c0a9f20e94b0c7dc00ecd6c95b72ad21ae4a6c5c07ea"
+    },
+    {
+      "path": "authority/RIGHTS-unit-20.csv",
+      "bytes": 2024,
+      "sha256": "09b85688b10784cf2c7e7aec9d017eb4d0403faf0b96ef8561b789168d19f565"
+    },
+    {
+      "path": "authority/ASSET_CLOSURE-unit-20.json",
+      "bytes": 4809,
+      "sha256": "5ab57774999d4f293533a8fb14ad4e50d6caa1fba3d2664428c32d15f935c185"
+    },
+    {
+      "path": "authority/wikiversity/unit-21/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 142834,
+      "sha256": "d85444ddfc66c8e77d52db3f3abc0a186e5dd598789edaaf890b3c09cf00f923"
+    },
+    {
+      "path": "authority/wikiversity/unit-21/ORDERED_EXERCISE_MAP.json",
+      "bytes": 9992,
+      "sha256": "9329621bbdd62df63f01d7298dc2a4a65a296211db131f8d8730b7d308fd5f47"
+    },
+    {
+      "path": "authority/RIGHTS-unit-21.csv",
+      "bytes": 443,
+      "sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544"
+    },
+    {
+      "path": "authority/ASSET_CLOSURE-unit-21.json",
+      "bytes": 5705,
+      "sha256": "8708a399d7c950101609281c14fe4e48eb02aa70335a7ad6cf7ef4194e9bc483"
+    }
+  ],
+  "checks": [
+    "exact Units 1-18 machine/protected baseline bound",
+    "exact Units 19-21 authority and translation/integration QA bound",
+    "all 179 build-receipt inputs replayed from their recorded bytes and hashes",
+    "cumulative IDs, exercises, solutions, and media measured from bound source/authority inputs",
+    "HTML IDs, MathML/TeX annotations, media alts, anchors, and local resources closed",
+    "PDF metadata, A4 geometry, measured page boundary, and ordered terminal markers closed",
+    "Pandoc warning logs empty",
+    "no placeholder or secret-like source content"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

@@ -1,0 +1,110 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 20</title>
+    <ns>106</ns>
+    <id>165909</id>
+    <revision>
+      <id>1112311</id>
+      <parentid>1062470</parentid>
+      <timestamp>2026-08-21T09:10:26Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112311</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2184" sha1="dno02l4bgfbeo22v2ja1yt59ckohc26" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesungsgestaltung|20|
+
+{{Zwischenüberschrift|Normale Ringe und Normalisierung}}
+
+{{:Normaler Integritätsbereich/Faktoriell/Nenneraufnahme/Normalisierung/Textabschnitt}}
+
+{{Zwischenüberschrift|Normalisierung von Monoidringen}}
+
+Wir wollen besprechen, wann Monoidringe normal sind und wie gegebenenfalls die Normalisierung eines Monoidrings aussieht. Hierzu brauchen wir zunächst Bedingungen, die sicherstellen, dass ein Monoidring über einem Integritätsbereich wieder integer ist.
+
+{{:Monoidring/Normalisierung/Eigenschaften dafür/Textabschnitt}}
+
+{{Zwischenüberschrift|Monomiale Kurven und Normalisierung}}
+
+Wir werden später sehen, dass eine algebraische Kurve genau dann normal ist, wenn sie nichtsingulär ist. Im Fall einer monomialen Kurve lässt sich die Normalisierung einfach beschreiben.
+
+{{inputfaktbeweis
+|Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt|Satz|}}
+
+Monomiale Kurven liefern also eine Vielzahl an Beispielen, wo die Normalisierung auf der Ebene der {{math|term= K |SZ=-}}Spektren eine Bijektion ist. Es handelt sich auch um eine Homöomorphie bezüglich der Zariski-Topologie, die ja im Kurvenfall sehr einfach ist. Dennoch wäre es falsch, die beiden Kurven als identisch anzusehen. Die Normalisierung ist
+{{
+Zusatz/Klammer
+|text=bei
+{{
+Relationskette/k
+| e_i
+| \neq | 1
+|SZ=
+}} 
+für alle {{math|term= i }}|
+|ISZ=|ESZ=
+}}
+auf der Ringebene keine Bijektion, und in der algebraischen Geometrie darf man nicht nur die mengentheoretische oder topologische Gestalt des Nullstellengebildes anschauen, man darf die Ringe 
+{{
+Zusatz/Klammer
+|text=und die Gleichungen selbst|
+|ISZ=|ESZ=
+}}
+im Hintergrund nicht vergessen. Den Unterschied sieht man auch in der eingebetteten Situation, wo die Neilsche Parabel eine Spitze besitzt.
+
+Mit der Normalisierung bekommt der
+{{
+Definitionslink
+|Singularitätsgrad
+|Definitionsseitenname=
+Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Definition
+|SZ=
+}}
+einer monomialen Kurve eine neue Interpretation.
+{{inputfaktbeweis
+|Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Beziehung zur Normalisierung/Fakt|Lemma| }}
+
+}}</text>
+      <sha1>dno02l4bgfbeo22v2ja1yt59ckohc26</sha1>
+    </revision>
+  </page>
+</mediawiki>

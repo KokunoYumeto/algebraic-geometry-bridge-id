@@ -1,0 +1,139 @@
+{
+  "schema": "ag-bridge-unit-translation-qa-v1",
+  "status": "PASS",
+  "unit": 20,
+  "verified_date": "2026-08-25",
+  "authority": {
+    "manifest_bytes": 129387,
+    "manifest_sha256": "b063e5edc556cd18598389083ea27ea7f255edfe2ae00e13ebf24de76e5b37d7",
+    "lecture_revid": 1112311,
+    "worksheet_revid": 1062603,
+    "lecture_transclusions": 118,
+    "worksheet_transclusions": 120,
+    "exercises": 23,
+    "public_solutions": 8,
+    "solution_numbers": [
+      1,
+      3,
+      4,
+      5,
+      12,
+      13,
+      14,
+      17
+    ],
+    "wrapper_dependencies": [
+      1,
+      4
+    ],
+    "authority_files_verified": 56
+  },
+  "media_and_rights": {
+    "media_positions": 1,
+    "binary_surfaces": 1,
+    "rights_rows": 1,
+    "facts": [
+      {
+        "path": "authority/RIGHTS-unit-20.csv",
+        "bytes": 2024,
+        "sha256": "09b85688b10784cf2c7e7aec9d017eb4d0403faf0b96ef8561b789168d19f565"
+      },
+      {
+        "path": "authority/ASSET_CLOSURE-unit-20.json",
+        "bytes": 4809,
+        "sha256": "5ab57774999d4f293533a8fb14ad4e50d6caa1fba3d2664428c32d15f935c185"
+      },
+      {
+        "path": "authority/commons-imageinfo-unit-20.json",
+        "bytes": 14191,
+        "sha256": "3812f32a5bb823d61f41d6b523fd2e5acfee133cc694ba1eef3c208d1457709b"
+      },
+      {
+        "path": "authority/assets/Whitney_unbrella.png",
+        "bytes": 35829,
+        "sha256": "5a469c4675d326a753dca7801524138e64689e476d38d867070f97983f8b07d2"
+      }
+    ]
+  },
+  "translation": {
+    "source_and_control_facts": [
+      {
+        "path": "source/id-ID/lecture-20.md",
+        "bytes": 16602,
+        "sha256": "ccedeb464364a71f98f7450359ec6baa2c5135651e9e6e098de2772bf337ce66"
+      },
+      {
+        "path": "source/id-ID/worksheet-20.md",
+        "bytes": 10529,
+        "sha256": "50418f12f8f620736db8a6c9689902addc21308ebd4a0ebccfc18266a4156a99"
+      },
+      {
+        "path": "source/id-ID/worksheet-20-solutions.md",
+        "bytes": 12722,
+        "sha256": "2b1d9e9bee2c9285b50c52128d20a4e769379ccb51193192bdf9567ca16d064a"
+      },
+      {
+        "path": "source/id-ID/media-credits-unit-20.md",
+        "bytes": 794,
+        "sha256": "02c00101d4e11df536c49ec6ffcaedc2f4a03215e867daa86c6bb81686704f1a"
+      },
+      {
+        "path": "00_control/TERMINOLOGY.csv",
+        "bytes": 22469,
+        "sha256": "61c5ef9da1bafb922a6dda68334550f09f59dffc239963010158b531e287d7b7"
+      },
+      {
+        "path": "00_control/CORRECTIONS.csv",
+        "bytes": 40697,
+        "sha256": "1fd95ef7745746e26575870575f6148ddb01fecdfbbfeb5c288ae55dfb8a86d9"
+      }
+    ],
+    "stable_ids": 58,
+    "exercises": 23,
+    "public_solutions": 8,
+    "ast": {
+      "lecture-20.md": {
+        "headers": 23,
+        "math_nodes": 190,
+        "images": 1,
+        "stable_header_ids": 23,
+        "pandoc_warnings": 0
+      },
+      "worksheet-20.md": {
+        "headers": 26,
+        "math_nodes": 100,
+        "images": 0,
+        "stable_header_ids": 26,
+        "pandoc_warnings": 0
+      },
+      "worksheet-20-solutions.md": {
+        "headers": 9,
+        "math_nodes": 144,
+        "images": 0,
+        "stable_header_ids": 9,
+        "pandoc_warnings": 0
+      },
+      "media-credits-unit-20.md": {
+        "headers": 1,
+        "math_nodes": 0,
+        "images": 0,
+        "stable_header_ids": 1,
+        "pandoc_warnings": 0
+      }
+    },
+    "visible_german_residue": 0,
+    "placeholder_count": 0,
+    "secret_like_count": 0,
+    "protected_math_checks": 20,
+    "correction_bindings": [
+      "AGC-CORR-0055",
+      "AGC-CORR-0056",
+      "AGC-CORR-0057",
+      "AGC-CORR-0058",
+      "AGC-CORR-0059",
+      "AGC-CORR-0060",
+      "AGC-CORR-0061"
+    ]
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

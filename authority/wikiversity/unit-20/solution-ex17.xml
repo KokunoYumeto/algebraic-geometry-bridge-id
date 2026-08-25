@@ -1,0 +1,154 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Numerisches Monoid/Singularitätsgrad/Ringkette/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>95576</id>
+    <revision>
+      <id>1096446</id>
+      <parentid>1090123</parentid>
+      <timestamp>2026-06-15T08:52:45Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096446</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2223" sha1="svb03uypmy4zfg8vqygt4es8d7ebwiz" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Der Singularitätsgrad {{math|term= \delta|SZ=}} ist die Anzahl der Lücken von {{math|term= M |SZ=}} in {{math|term= \N|SZ=,}} der nach
+{{
+Faktlink
+|Faktseitenname=
+Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Beziehung zur Normalisierung/Fakt
+|Nr=
+|SZ=
+}}
+mit
+{{
+Relationskette
+| \dim_K ({{op:Normalisierung|R}}/R)
+|| \dim_K (K[T]/K[M] )
+||
+||
+||
+|SZ=
+}} 
+übereinstimmt.
+{{
+Aufzählung3
+|Bei einer Kette von Monoiden
+{{
+Relationskette/display
+|M
+|| M_0
+| \subset | M_1
+| \subset | M_2
+|{{subsetdots}} |M_n
+||\N
+|SZ=
+}}
+muss in jedem Schritt mindestens ein Element hinzukommen, sodass
+{{
+Relationskette
+|n
+| \leq |  \delta
+||
+||
+||
+|SZ=
+}}
+ist. Wenn man {{math|term= M_{i+1} |SZ=}} sukzessive dadurch definiert, dass man zu {{math|term= M_{i} |SZ=}} das größte Element hinzunimmt, das nicht zu {{math|term= M_{i} |SZ=}} gehört, so ist dies ein Monoid, das genau ein Element mehr als {{math|term= M_{i} |SZ=}} besitzt. Dieses Verfahren ergibt eine Kette der Länge {{math|term= \delta|SZ=}} wie gewünscht.
+|Zur Kette der Länge {{math|term= \delta|SZ=}} gehört die Kette von
+{{
+Definitionslink
+|Prämath=K
+|Algebren|
+|Kontext=|
+|SZ=
+}}
+{{
+Relationskette/display
+|K[M]
+|| K[M_0]
+| \subset | K[M_1]
+| \subset | K[M_2]
+|{{subsetdots}} |K[M_\delta]
+|| K[\N]
+|SZ=,
+}}
+wobei die Inklusionen echt sind, da zu {{mathl|term= T^m \in M_{i+1}\setminus M_i |SZ=}} auch {{mathl|term= T^m \in K[M_{i+1} ] \setminus K[M_i] |SZ=}} gilt. Dass es keine längeren Ketten gibt, wird allgemeiner in Teil (3) begründet.
+|Die Algebrakette aus Teil (2) ist insbesondere eine Kette von
+{{
+Definitionslink
+|Prämath=K
+|Untervektorräumen|
+|Kontext=|
+|SZ=.
+}}
+Wegen
+{{
+Relationskette/display
+| {{op:Vektorraumdimension|K[\N]/K[M]|}} 
+|| \delta
+||
+||
+||
+|SZ=
+}}
+kann es keine längeren Ketten von Untervektorräumen geben, da diese den Ketten im Restklassenraum {{mathl|term=  K[\N]/K[M] |SZ=}} entsprechen und es in einem Vektorraum der Dimension {{math|term= \delta|SZ=}} nur Ketten der maximalen Länge {{math|term= \delta|SZ=}} geben kann.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>svb03uypmy4zfg8vqygt4es8d7ebwiz</sha1>
+    </revision>
+  </page>
+</mediawiki>

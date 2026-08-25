@@ -1,9 +1,8 @@
 # O016/D100 — durable goal and corrected workflow
 
-Status: active. Write only in
-`C:/Users/Floris/Documents/interlanguage/04_mirrors/id/algebraic-geometry-bridge-id`.
+Status: active. Write only inside this repository's D100/O016 lane.
 Recover from this file, `00_control/CURSOR.json`, the current unit worklog,
-matching authority/rights/QA, and `qa/UNITS_01_15_HANDOFF.md`. Update them at
+matching authority/rights/QA, and `qa/UNITS_01_21_HANDOFF.md`. Update them at
 material boundaries; they—not chat, compaction, or a stale synopsis—control.
 
 ## Objective and architecture
@@ -21,7 +20,7 @@ Stacks pages are references, not translated course pages.
 
 ## Live boundary
 
-Units 1–18 are the current verified cumulative reader: 18 lectures, 18
+Units 1–18 are the current verified and published cumulative reader: 18 lectures, 18
 worksheets, 513 exercises, all 90 frozen public source solutions, 74 media
 positions, 1,046 source/control IDs, 7,186 MathML nodes, a 320-page A4 PDF, and
 a 13,626-record native backend. Every reader, visual, responsive, protected,
@@ -38,14 +37,27 @@ GitHub repository, annotated `unit-18` tag, eight-file release, and Pages
 reader at content commit `fb99904c2dce760fdb67ffff5f561b6ffa30541b`;
 anonymous readback matched every release asset plus raw-commit and Pages
 HTML/PDF bytes. Receipts are `qa/UNIT_18_ZENODO_PUBLICATION.json` and
-`qa/UNIT_18_GITHUB_PUBLICATION.json`. Unit 19 is atomically reserved as
-helper packet `HP-D100-001` to existing helper task
-`01a01fa7-51cd-71e0-934d-187b3b7da5ba`; do not translate it while that
-reservation is active. The helper may return only the three translated
-Markdown files and packet evidence outside this tree. After the Units 1--18
-transaction, independently review any schema-clean return three ways against
-the frozen source, the candidate, and then-current terminology before owner
-integration. This lane remains the sole integrator, validator, and publisher.
+`qa/UNIT_18_GITHUB_PUBLICATION.json`.
+
+Units 19--21 are now independently frozen, translated, corrected, and verified.
+The contiguous source contains 21 lectures, 21 worksheets, 577 exercises, all
+102 frozen public solutions, 76 media positions, and 1,194 stable source IDs.
+The cumulative self-contained HTML is 12,388,419 bytes (SHA-256
+`ae658bee5191e4d0be529d38ec7eb9fd2e287295237be4bbb98a58b4709c6700`);
+the 367-page A4 PDF is 7,409,373 bytes (SHA-256
+`b95fd1ed0ea75294cd4562b7f2f36e920e247e2da5e1b039e99e975f9797a3e6`).
+Machine, protected-surface, responsive, and all-page visual QA pass, including
+8,521 matched MathML/TeX surfaces, all 76 embedded images with nonempty alt
+text, no broken anchor, centered desktop layout, full mobile reflow, and local
+scroll containment for 138 wide phone-width formulas. Exact evidence is in
+`qa/UNITS_01_21_MACHINE_QA.json`, `qa/UNIT_21_PROTECTED_SURFACES.json`,
+`qa/UNITS_01_21_RESPONSIVE_QA.json`, `qa/UNITS_01_21_VISUAL_QA.json`, and
+`qa/UNITS_01_21_VISUAL_PAGE_MANIFEST.json`. The append-only native/common
+backend and deterministic eight-file package pass. Zenodo record 22088753 / DOI
+`10.5281/zenodo.22088753` is public in the existing concept and all eight files
+match anonymous readback; the existing GitHub release/Pages transaction is the
+remaining publication step. This lane remains the sole integrator, validator,
+and publisher.
 
 ## Finite workflow
 

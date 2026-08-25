@@ -45,7 +45,10 @@ are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1,
 [`authority/RIGHTS-unit-15.csv`](authority/RIGHTS-unit-15.csv) for Unit 15,
 [`authority/RIGHTS-unit-16.csv`](authority/RIGHTS-unit-16.csv) for Unit 16,
 [`authority/RIGHTS-unit-17.csv`](authority/RIGHTS-unit-17.csv) for Unit 17, and
-[`authority/RIGHTS-unit-18.csv`](authority/RIGHTS-unit-18.csv) for Unit 18. The
+[`authority/RIGHTS-unit-18.csv`](authority/RIGHTS-unit-18.csv) for Unit 18,
+[`authority/RIGHTS-unit-19.csv`](authority/RIGHTS-unit-19.csv) for Unit 19,
+[`authority/RIGHTS-unit-20.csv`](authority/RIGHTS-unit-20.csv) for Unit 20, and
+[`authority/RIGHTS-unit-21.csv`](authority/RIGHTS-unit-21.csv) for Unit 21. The
 reader also contains a complete **Kredit media** section.
 
 ## Build and QA code

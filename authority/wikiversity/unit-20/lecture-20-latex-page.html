@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/1033019"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/0"/><meta property="mw:revisionSHA1" content="5mpvl81u97hs35l9k2lrqpklqf8f5gh"/><meta property="dc:modified" content="2025-08-11T13:53:56Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="165973"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)/Vorlesung_20/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2025-2026)/Vorlesung 20/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="06782f8a-9f4e-11f1-8def-9b9f629cf8d8"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{20}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Normale Ringe und Normalisierung}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Ein 
+\definitionsverweis {Integritätsbereich}{}{}
+heißt \definitionswort {normal}{,} wenn er 
+\definitionsverweis {ganz-abge\-schlossen}{}{}
+in seinem 
+\definitionsverweis {Quotientenkörper}{}{}
+ist.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wichtige Beispiele für normale Ringe werden durch faktorielle Ringe geliefert.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Kommutative Ringtheorie/Faktoriell/Normal/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $R$ ein 
+\definitionsverweis {faktorieller}{}{} 
+\definitionsverweis {Integritätsbereich}{}{.}}<br/>\faktfolgerung {Dann ist $R$
+\definitionsverweis {normal}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{K
+}<br/>{ = }{ Q(R) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der
+\definitionsverweis {Quotientenkörper}{}{}
+von $R$ und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{q
+}<br/>{ \in }{ K
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Element, das die
+\definitionsverweis {Ganzheitsgleichung}{}{}
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ q^n+ r_{n-1}q^{n-1} + r_{n-2}q^{n-2} + \cdots + r_1q +r_0 
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{r_i
+}<br/>{ \in }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+erfüllt. Wir schreiben
+<br/>\mathbed {q= a/b} {mit} <br/> {a,b \in R} {} <br/> {b \neq 0} {} {} {,}
+wobei wir annehmen können, dass die Darstellung gekürzt ist, dass also
+\mathkor {} {a} {und} {b} {}
+keinen gemeinsamen Primteiler besitzen. Wir müssen zeigen, dass $b$ eine
+\definitionsverweis {Einheit}{}{}
+in $R$ ist, da dann
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ q 
+}<br/>{ = }{ a b^{-1}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zu $R$ gehört.</p>
+
+<p>Wir multiplizieren die obige Ganzheitsgleichung mit $b^n$ und erhalten in $R$
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ a^n+ \left(  r_{n-1}b  \right)  a^{n-1} + \left(  r_{n-2}b^2  \right) a^{n-2} + \cdots + \left(  r_1b^{n-1}  \right)  a + \left(  r_0 b^n  \right) 
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Wenn $b$ keine Einheit ist, dann gibt es einen Primteiler $p$ von $b$. Dieser teilt alle Summanden
+<br/>\mathbed {\left(  r_{n-i}b^{i}  \right) a^{n-i}} {für} <br/> {i \geq 1} {} <br/> {} {} {} {}
+und daher auch den ersten, also $a^n$. Das bedeutet aber, dass $a$ selbst ein Vielfaches von $p$ ist, im Widerspruch zur vorausgesetzten Teilerfremdheit.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1">\inputfaktbeweis<br/>{Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $R$ ein 
+\definitionsverweis {normaler Integritätsbereich}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{S
+}<br/>{ \subseteq }{ R
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein 
+\definitionsverweis {multiplikatives System}{}{.}}<br/>\faktfolgerung {Dann ist auch die 
+\definitionsverweis {Nenneraufnahme}{}{}
+$R_S$ normal.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+ }<br/>{ Siehe <a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Normal/Nenneraufnahme_ist_normal/Fakt/Beweis/Aufgabe" title="Kommutative Ringtheorie/Normal/Nenneraufnahme ist normal/Fakt/Beweis/Aufgabe">Aufgabe 20.6</a>. }</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $R$ ein
+\definitionsverweis {Integritätsbereich}{}{}
+und <br/>\mathl{Q(R)}{} sein
+\definitionsverweis {Quotientenkörper}{}{.}
+Dann nennt man den
+\definitionsverweis {ganzen Abschluss}{}{}
+von $R$ in <br/>\mathl{Q(R)}{} die \definitionswort {Normalisierung}{} von $R$.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die Normalisierung ist nach
+<a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Ganzheit/Ganzer_Abschluss/Ring/Fakt" title="Kommutative Ringtheorie/Ganzheit/Ganzer Abschluss/Ring/Fakt">Korollar 19.10</a>
+ein Unterring des Quotientenkör\-pers. Es ist eine nichttriviale Tatsache, dass, falls $R$ von endlichem Typ über einem Körper ist, dann auch die Normalisierung davon von endlichem Typ ist. </p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Normalisierung von Monoidringen}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir wollen besprechen, wann Monoidringe normal sind und wie gegebenenfalls die Normalisierung eines Monoidrings aussieht. Hierzu brauchen wir zunächst Bedingungen, die sicherstellen, dass ein Monoidring über einem Integritätsbereich wieder integer ist.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Ein 
+\definitionsverweis {kommutatives Monoid}{}{}
+$M$ heißt \definitionswort {torsionsfrei}{,} wenn für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ m,n
+}<br/>{ \in }{ M
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+aus
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{rm
+}<br/>{ = }{ rn
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+für eine positive Zahl
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ r
+}<br/>{ \in }{ \N_+
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+stets
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{m
+}<br/>{ = }{ n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+folgt.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Kommutative Monoidringe/Monoid mit Kürzungsregel und torsionsfrei/Grundring integer/Integer/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $R$ ein \definitionsverweis {Integritätsbereich}{}{}
+und sei $M$ ein \definitionsverweis {torsionsfreies}{}{}
+kommutatives Monoid, das die 
+\definitionsverweis {Kürzungsregel}{}{}
+erfüllt.}<br/>\faktfolgerung {Dann ist der Monoidring <br/>\mathl{R[M]}{} ein Integritätsbereich.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Zunächst ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ M
+}<br/>{ \subseteq }{ \Gamma(M)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+wobei <br/>\mathl{\Gamma(M)}{} die 
+\definitionsverweis {Differenzengruppe}{}{}
+zu $M$ bezeichnet. Damit ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R[M]
+}<br/>{ \subseteq }{ R[\Gamma(M)]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Unterring, und es genügt, die Aussage für <br/>\mathl{R[\Gamma(M)]}{} zu beweisen. Da $M$ torsionsfrei ist, ist nach
+<a rel="mw:WikiLink" href="./Kommutatives_Monoid/Torsionsfrei/Differenzgruppe_ist_torsionsfrei/Aufgabe" title="Kommutatives Monoid/Torsionsfrei/Differenzgruppe ist torsionsfrei/Aufgabe">Aufgabe 20.10</a>
+auch <br/>\mathl{\Gamma(M)}{} torsionsfrei. Wir können also annehmen, dass $M$ eine torsionsfreie kommutative Gruppe ist. Es sei nun
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \sum_{ n \in M }  a_nX^n \cdot \sum_{ n \in M }  b_nX^n
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Da hier fast alle Koeffizienten $0$ sind, spielt sich dies in einer endlich erzeugten Untergruppe $U$ der torsionsfreien Gruppe $M$ ab. Nach
+dem <a rel="mw:WikiLink" href="./Elementare_Gruppentheorie/Hauptsatz_über_endlich_erzeugte_torsionsfreie_kommutative_Gruppen/Fakt" title="Elementare Gruppentheorie/Hauptsatz über endlich erzeugte torsionsfreie kommutative Gruppen/Fakt">Hauptsatz über endlich erzeugte torsionsfreie kommutative Gruppen</a>
+ist dann
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U
+}<br/>{ \cong }{ \Z^n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Wir können also sogar
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ M
+}<br/>{ = }{ \Z^n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+annehmen. Dann ist aber <br/>\mathl{R[M]}{} eine 
+\definitionsverweis {Nenneraufnahme}{}{}
+eines Polynomringes über einem Integritätsbereich und damit integer.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Für ein Monoid ohne Kürzungsregel kann der zugehörige Monoidring über einem Integritätsbereich Nullteiler besitzen.
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $M$ ein 
+\definitionsverweis {Monoid}{}{,}
+in dem es zwei verschiedene Elemente $m$ und $n$ gebe mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ m+n
+}<br/>{ = }{ n+n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Daraus folgt ohne die 
+\definitionsverweis {Kürzungsregel}{}{}
+nicht
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ m
+}<br/>{ = }{ n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Im 
+\definitionsverweis {Monoidring}{}{}
+über einem beliebigen Integritätsbereich $R$ ist \mathkon  { X^m-X^n \neq 0  }  {  und  }  { X^n \neq 0   }{ ,} aber
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left(  X^m-X^n  \right) X^n 
+}<br/>{ =} { X^{m+n} - X^{n+n}
+}<br/>{ =} { X^{2n} - X^{2n} 
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>}
+{}{}{.}</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $M$ ein
+\definitionsverweis {torsionsfreies}{}{}
+kommutatives
+\definitionsverweis {Monoid mit Kürzungsregel}{}{}
+und mit zugehöriger
+\definitionsverweis {Differenzengruppe}{}{}
+<br/>\mathl{\Gamma(M)}{.} Dann heißt das Untermonoid
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \tilde{M}
+}<br/>{ =} { \left\{ m \in \Gamma(M)  \mid  \text{ es gibt } r \in \N_+ \text{ mit } rm \in M        \right\} 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+die \definitionswort {Normalisierung}{} von $M$.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Kommutative Monoidtheorie/Normalisierung/Monoid und Monoidring/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $M$ ein
+\definitionsverweis {torsionsfreies}{}{}
+kommutatives
+\definitionsverweis {Monoid mit Kürzungsregel}{}{}
+und mit zugehöriger 
+\definitionsverweis {Differenzengruppe}{}{}
+<br/>\mathl{\Gamma(M)}{} und mit 
+\definitionsverweis {Normalisierung}{}{}
+<br/>\mathbed {\tilde{M}} {} <br/> {M \subseteq \tilde{M} \subseteq \Gamma(M)} {} <br/> {} {} {} {.}
+Es sei $R$ ein 
+\definitionsverweis {normaler Integritätsbereich}{}{.}}<br/>\faktfolgerung {Dann ist die 
+\definitionsverweis {Normalisierung}{}{}
+des Monoidringes <br/>\mathl{R[M]}{} der Monoidring <br/>\mathl{R[\tilde{M}]}{.}}<br/>\faktzusatz {Insbesondere ist der Monoidring zu einem normalen Monoid über einem normalen Ring selbst wieder normal.}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Zunächst ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ R[M] 
+}<br/>{ \subseteq} {R[\tilde{M}]
+}<br/>{ \subseteq} {R[\Gamma(M)]
+}<br/>{ \subseteq} {Q(R)[\Gamma(M)]
+}<br/>{ \subseteq} {Q(R[M])
+}<br/>}
+{}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ m
+}<br/>{ \in }{ \tilde{M}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+mit \mathind { m = n-k  } { n,k \in M   }{,} und mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ rm
+}<br/>{ = }{ m+m + \cdots + m
+}<br/>{ = }{ M
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+\zusatzklammer {$r$ mal} {} {.}
+Damit ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T^m
+}<br/>{ = }{ T^n/T^k
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Element im Quotientenkörper und nach der zweiten Eigenschaft ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (T^m)^r
+}<br/>{ \in }{ R[M] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Dies bedeutet, dass eine
+\zusatzklammer {reine} {} {}
+Ganzheitsgleichung für $T^m$ vorliegt und damit $T^m$ zur Normalisierung von <br/>\mathl{R[M]}{} gehört. Somit gilt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K[\tilde{M}]
+}<br/>{ \subseteq }{ K[M] ^{\operatorname{norm} } 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Für die Umkehrung kann man $M$ durch $\tilde{M}$ ersetzen und sich somit auf den Fall beschränken, wo $M$ normal ist. Man beweist zuerst, dass für eine torsionsfreie kommutative Gruppe $G$ der Gruppenring <br/>\mathl{R[G]}{} normal ist, was daraus folgt, dass der Polynomring über einem normalen Bereich wieder normal ist. Dann muss man zeigen, dass <br/>\mathl{R[M]}{} in <br/>\mathl{R[\Gamma(M)]}{} ganz-abgeschlossen ist. Ein Element
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ q
+}<br/>{ \in }{ R(\Gamma(M))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und eine Ganzheitsgleichung dafür lebt im Monoidring zu einer endlich erzeugten Untergruppe
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{U
+}<br/>{ \subseteq }{ \Gamma(M)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+sodass man
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \Gamma(M)
+}<br/>{ = }{ \Z^n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+annehmen darf.</p>
+
+<p>Hier kommt nun etwas konvexe Geometrie ins Spiel, was wir nicht ausführen. Jedenfalls lässt sich ein normales Untermonoid
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{M 
+}<br/>{ \subseteq }{ \Z^n
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+als der Durchschnitt
+\zusatzklammer {innerhalb von $\Q^n$ oder $\R^n$} {} {}
+von $\Z^n$ und einem polyedrischen Kegel darstellen. Ein solcher Kegel ist selbst wiederum der Durchschnitt von endlich vielen Halbräumen $H_i$
+\zusatzklammer {Lemma von Gordan} {} {.}
+Dabei ist ein 
+\definitionsverweis {Halbraum}{}{}
+$H$ durch eine 
+\definitionsverweis {lineare Abbildung}{}{}
+\maabb {p} { V = \R^n  } {\R
+} {}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{H 
+}<br/>{ = }{ p^{-1}(\R_+)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+gegeben. Daraus folgt, dass $M$ ein endlicher Durchschnitt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{M 
+}<br/>{ = }{ \bigcap_{i \in I}M_i
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ M_i
+}<br/>{ = }{ p_i^{-1} (\N)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist. Daraus ergibt sich, dass die $M_i$ eine Form
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ M_i 
+}<br/>{ \cong }{ \N \times \Z^{n-1}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+haben. Damit ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R[M]
+}<br/>{ = }{ \bigcap_{i \in I} R[M_i]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+nach <a rel="mw:WikiLink" href="./Kommutative_Ringtheorie/Normal/Durchschnitt_von_normalen_Ringen/Aufgabe" title="Kommutative Ringtheorie/Normal/Durchschnitt von normalen Ringen/Aufgabe">Aufgabe 20.7</a>
+normal, da die einzelnen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R[M_i] 
+}<br/>{ \cong }{ R[\N \times \Z^{n-1}]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+normal sind.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>$\,$
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Whitney unbrella} {png} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Whitney_unbrella.png } {Claudio Rocchini} {} {Commons} {CC-BY-SA-2.5} {}<br/> <br/></p>
+
+<p>Wir betrachten die algebraische Fläche, die durch die Gleichung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ X^2 Z
+}<br/>{ =} { Y^2 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+gegeben ist. Wir wollen sie als die Fläche zu einem Monoidring verstehen. Dazu sei
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{M
+}<br/>{ =} { \langle (1,0),(1,1),(0,2) \rangle
+}<br/>{ \subset} { \N^2
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Wegen 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (1,1)-(1,0)
+}<br/>{ = }{ (0,1)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist $\Z^2$ das Differenzengitter
+\zusatzklammer {Differenzengruppe} {} {.}
+Da 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ 2(0,1)
+}<br/>{ = }{ (0,2)
+}<br/>{ \in }{ M
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, muss $\N^2$ die 
+\definitionsverweis {Normalisierung}{}{}
+von $M$ sein. Die drei Erzeuger ergeben einen surjektiven Monoidhomomorphismus
+\maabbeledisp {} { \N^3 } { M
+} { e_i } { m_i
+} {.}
+Diese monomiale Abbildung
+\maabb {} { \N^3 } { M \subset \N^2
+} {}
+bedeutet geometrisch die Abbildung
+\maabbeledisp {} { {\mathbb A}^{2}_{ K } } { K\!-\!\operatorname{Spek}\, \left(  K[M]  \right) \hookrightarrow { {\mathbb A}_{ K }^{  3   } }
+} { (s,t) } { \left(  s ,st ,t^2  \right)
+} {.}
+Dabei gehen
+\zusatzklammer {monomial gesehen} {} {}
+\mathkor {} {2e_1+e_3} {und} {2e_2} {} 
+beide auf das Element <br/>\mathl{(1,1)}{,} und das liefert die Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X^2Z
+}<br/>{ = }{ Y^2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+die man natürlich auch direkt ablesen kann.</p>
+
+<p>Man kann die definierende Gleichung auch als
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Z
+}<br/>{ = }{ \left(  { \frac{   Y  }{  X } }  \right)^2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ansehen. Von <br/>\mathl{K[X,Y]}{} ausgehend wird also ein Quadrat zu ${ \frac{   Y  }{  X  } }$ adjungiert.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten das durch \mathkon  { (1,0), (-1,2)  }  {  und  }  { (0,1)   }{ } erzeugte Untermonoid
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{M 
+}<br/>{ \subseteq }{ \Z^2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Für den zugehörigen 
+\definitionsverweis {Monoidring}{}{}
+gilt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K[M] 
+}<br/>{ \cong }{ K[X,Y,Z]/ \left(  Z^2-XY  \right) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Wir behaupten, dass das Monoid normal ist, also mit seiner Normalisierung übereinstimmt. Die beiden Erzeuger <br/>\mathl{(1,0)}{} und <br/>\mathl{(-1,2)}{} definieren je eine Gerade in $\R^2$, und das Monoid besteht aus allen Gitterpunkten
+\zusatzklammer {Punkte im $\Z^2$} {} {}
+innerhalb des durch diese Geraden definierten Kegels. Dies sieht man so: Die Gitterpunkte in diesem Kegel sind durch die beiden Bedingungen
+<br/>\mathdisp {\left\{  (s,t) \in \Z^2  \mid   t \geq 0 \text{ und } t \geq -2s         \right\}} {  }<br/>
+gegeben. Ein Punkt daraus mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{s
+}<br/>{ \geq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+gehört offensichtlich zu $M$. Es sei also <br/>\mathl{(s,t)}{} ein Punkt daraus mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{s
+}<br/>{ &lt; }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Wegen der zweiten linearen Bedingung kann man
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (s,t)
+}<br/>{ =} { -s (-1,2) + (t+2s) (0, 1)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+schreiben, was wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ t+2s
+}<br/>{ \geq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+zu $M$ gehört.</p>
+
+<p>Mit den zwei Geraden lässt sich $M$ auch sofort  als
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ M
+}<br/>{ = }{ M_1 \cap M_2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+beschreiben, mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ M_1 
+}<br/>{ = }{ \left\{ (s,t)  \mid  t \geq 0        \right\} 
+}<br/>{ \cong }{ \Z \times \N
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ M_2
+}<br/>{ = }{ \left\{ (s,t)  \mid  t \geq -2s         \right\} 
+}<br/>{ \cong }{ \Z \times \N
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+wobei die zweite Identifizierung von der $\Z$-Basis <br/>\mathl{(-1,2),(0,1)}{} herrührt. Aus dieser expliziten Beschreibung folgt, dass der zugehörige Monoidring normal ist.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">} </p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Monomiale Kurven und Normalisierung}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir werden später sehen, dass eine algebraische Kurve genau dann normal ist, wenn sie nichtsingulär ist. Im Fall einer monomialen Kurve lässt sich die Normalisierung einfach beschreiben.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{M
+}<br/>{ \subseteq }{ \N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein durch teilerfremde <br/>\mathl{e_1 , \ldots ,  e_n}{} erzeugtes Untermonoid, und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K[M]
+}<br/>{ \subseteq }{ K[T]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die zugehörige Ringerweiterung von 
+\definitionsverweis {Monoidringen}{}{.}}<br/>\faktfolgerung {Dann ist <br/>\mathl{K[T]}{} die 
+\definitionsverweis {Normalisierung}{}{}
+von <br/>\mathl{K[M]}{.}}<br/>\faktzusatz {Mit anderen Worten: Die monomiale Abbildung
+\maabbdisp {} { {\mathbb A}^{1}_{K} } { K\!-\!\operatorname{Spek}\, \left(  K[M]  \right)
+} {}
+ist eine Normalisierung.}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir haben
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K[M]
+}<br/>{ = }{ K[T^{e_1 } , \ldots ,  T^{e_n }]
+}<br/>{ \subseteq }{ K[T]
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Da die Exponenten teilerfremd sind, erzeugen sie die Eins und das bedeutet
+\zusatzklammer {multiplikativ betrachtet} {} {,}
+dass es ein Monom in diesen Potenzen
+\zusatzklammer {auch mit negativen Exponenten} {} {}
+gibt, das gleich $T$ ist. D.h. $T$ ist ein Quotient von Elementen aus <br/>\mathl{K[M]}{} und daher sind die Quotientenkörper gleich. Andererseits erfüllt $T$ eine Ganzheitsgleichung über <br/>\mathl{K[M]}{,} beispielsweise 
+\zusatzklammer {richtig gelesen} {} {}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ T^{e_1 }-T^{e_1 }
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Da <br/>\mathl{K[T]}{} normal ist
+\zusatzklammer {sogar faktoriell, da es ja ein Hauptidealbereich ist} {} {,}
+muss es sich um die Normalisierung handeln.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Monomiale Kurven liefern also eine Vielzahl an Beispielen, wo die Normalisierung auf der Ebene der $K$-Spektren eine Bijektion ist. Es handelt sich auch um eine Homöomorphie bezüglich der Zariski-Topologie, die ja im Kurvenfall sehr einfach ist. Dennoch wäre es falsch, die beiden Kurven als identisch anzusehen. Die Normalisierung ist
+\zusatzklammer {bei
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ e_i
+}<br/>{ \neq }{ 1
+}<br/>{  }{}<br/>{    }{}<br/>{   }{}<br/>}
+{}{}{} 
+für alle $i$} {} {}
+auf der Ringebene keine Bijektion, und in der algebraischen Geometrie darf man nicht nur die mengentheoretische oder topologische Gestalt des Nullstellengebildes anschauen, man darf die Ringe 
+\zusatzklammer {und die Gleichungen selbst} {} {}
+im Hintergrund nicht vergessen. Den Unterschied sieht man auch in der eingebetteten Situation, wo die Neilsche Parabel eine Spitze besitzt.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Mit der Normalisierung bekommt der
+\definitionsverweis {Singularitätsgrad
+}{}{}
+einer monomialen Kurve eine neue Interpretation.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Numerische Halbgruppe/Teilerfremde Erzeuger/Singularitätsgrad/Beziehung zur Normalisierung/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{M
+}<br/>{ \subseteq }{ \N
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein durch teilerfremde Erzeuger definiertes 
+\definitionsverweis {numerisches Monoid}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ K[M]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der zugehörige Monoidring und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R ^{\operatorname{norm} } 
+}<br/>{ = }{ K[T]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die Normalisierung davon. Dann gilt für den Singularitätsgrad von $M$ die Gleichung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \delta (M) 
+}<br/>{ =} { \dim_K (R^{\operatorname{norm} }/R)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die Normalisierung besitzt die
+$K$-\definitionsverweis {Basis}{}{}
+\mathind { T^m   } { m \in \N  }{,} und der Monoidring <br/>\mathl{K[M]}{} besitzt die $K$-Basis \mathind { T^m   } { m \in M   }{.} Daher besitzt der 
+\definitionsverweis {Restklassenraum}{}{}
+<br/>\mathl{K[T]/K[M]}{} die $K$-Basis \mathind { T^m   } { m \in \N \setminus M   }{.} Die Dimension des Restraumes ist die Anzahl der Elemente einer Basis, und diese Anzahl ist die Anzahl der Lücken, also der 
+\definitionsverweis {Singularitätsgrad}{}{}
+von $M$.</p>
+</div>
+
+}</div><span about="#mwt1">
+
+ </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

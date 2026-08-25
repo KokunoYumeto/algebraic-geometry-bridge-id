@@ -1,0 +1,63 @@
+{
+  "schema": "ag-bridge-unit-release-qa-v1",
+  "status": "PASS",
+  "unit": 19,
+  "verified_date": "2026-08-25",
+  "local_integration_evidence_sha256": "fe546d8499bc63dedb08c3548eb42322924338ea5e183af7ff9fc66f48a6601a",
+  "authority": {
+    "manifest_sha256": "52245060a54f973b4fba19878eec234904430b9e5058defdbd9feaa7a868080e",
+    "lecture_revid": 1051386,
+    "worksheet_revid": 1068448,
+    "authority_files_verified": 31,
+    "exercises": 15,
+    "public_solutions": 2
+  },
+  "media_and_rights": {
+    "media_positions": 1,
+    "binary_surfaces": 1,
+    "rights_rows": 1,
+    "rights_sha256": "1feb699d361be0379de5c785cc6c073adf3d47d31c8b07df3db1d3fc6ed7bdb1",
+    "asset_closure_sha256": "4ee0c05610b30f25038484a4dc147bdcddda9ebb29cfbded53d4e72a5b32be4e"
+  },
+  "owner_review": {
+    "method": [
+      "frozen_authority",
+      "bounded_candidate",
+      "current_owner_terminology_and_style"
+    ],
+    "result": "accepted_with_owner_corrections",
+    "source_corrections_accepted": 4,
+    "rights_decisions_accepted": 1
+  },
+  "translation": {
+    "lecture": {
+      "path": "source/id-ID/lecture-19.md",
+      "bytes": 16163,
+      "sha256": "7c364a2364aaa5b5980e4a113bb903831b4ade4af813658357a50e1a757021af"
+    },
+    "worksheet": {
+      "path": "source/id-ID/worksheet-19.md",
+      "bytes": 7071,
+      "sha256": "23d8218f94d8a29b2c6bd0ed471c56f760fe00e824e9d70a19edfaa22adfb86f"
+    },
+    "solutions": {
+      "path": "source/id-ID/worksheet-19-solutions.md",
+      "bytes": 3791,
+      "sha256": "eaae6e95ecc909693bd2622136d9812497343dde81ac8617eb2f6a079beb3216"
+    },
+    "media_credits": {
+      "path": "source/id-ID/media-credits-unit-19.md",
+      "bytes": 780,
+      "sha256": "498212f6e34bba635ac89a320b207ac65cb3093d4bbeb04998f193e56429e21e"
+    },
+    "stable_ids": 39,
+    "lecture_semantic_entities": 11,
+    "exercises": 15,
+    "public_solutions": 2,
+    "visible_german_residue": 0,
+    "placeholder_count": 0,
+    "secret_like_count": 0,
+    "protected_math_checks": 10
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}
