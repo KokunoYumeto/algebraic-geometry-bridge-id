@@ -50,8 +50,22 @@ historical source witnesses retain their per-component rights; no blanket
 licence is claimed for the mixed file set. Attribution, change disclosure,
 ShareAlike, exact provenance, and non-endorsement are preserved.
 
-Next executable action: build the deterministic eight-file reader-first
-package, bind the final common-backend receipt, publish it to the existing
-Zenodo concept `10.5281/zenodo.22059686` and existing GitHub lineage, verify
-every public byte anonymously, persist sanitized receipts, and advance the
-durable cursor to Unit 25 without altering accepted Unit 1-24 bytes.
+The deterministic eight-file reader-first package is public in the existing
+Zenodo concept `10.5281/zenodo.22059686` as record 22102097 / DOI
+`10.5281/zenodo.22102097`. The 4,223-byte publication receipt has SHA-256
+`164265bb9750e1498738ef4fee0edf2486f2841e3fe7920b99c3792f7679382e`;
+anonymous streaming readback matched every public file by byte count and
+SHA-256.
+
+The identical package is public in the existing GitHub lineage at content
+commit `fd8984aeb642de240af6a36aee4464d25791658a`, annotated tag object
+`34f257cf2880d578bf0aa36748810ecbc8abd3ca`, and release `unit-24`.
+Anonymous readback matched all eight release assets, both raw-commit reader
+files, and both live Pages files. `qa/UNIT_24_GITHUB_PUBLICATION.json` is 5,710
+bytes, SHA-256
+`4aa72ee39855560256f1fa9cafa17e0dfc89f5b143b1293bc331f9da1dc34368`.
+
+Next executable action: freeze the official 2012 Unit 25 authority and rights
+closure, run deterministic authority QA, then translate and verify Unit 25 in
+source order without altering accepted Unit 1-24 bytes. The next substantial
+cumulative publication boundary is Unit 27.

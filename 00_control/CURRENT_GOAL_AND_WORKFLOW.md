@@ -2,21 +2,25 @@
 
 Status: active. Write only inside this repository's D100/O016 lane.
 Recover from this file, `00_control/CURSOR.json`, the current unit worklog,
-matching authority/rights/QA, and `qa/UNITS_01_21_HANDOFF.md`. Update them at
+matching authority/rights/QA, and `qa/UNITS_01_24_HANDOFF.md`. Update them at
 material boundaries; they—not chat, compaction, or a stale synopsis—control.
 
 ## Objective and architecture
 
 Produce and publish a complete independent Bahasa Indonesia (`id-ID`)
-Algebraic Geometry Bridge. Translate in source order all 30 lectures and 30
-worksheets of Holger Brenner's *Algebraische Kurven (Osnabrück 2025–2026)*,
-then all 30 lectures and 30 worksheets of Brenner's *Bündel, Garben und
-Kohomologie (Osnabrück 2019–2020)*. Keep both editions independently
-exportable and expose the BGK route through Units 2–15 and 23–27. Author only
-the missing seam, 57 worked mastery items (three per route unit, counting
-source solutions), 12 solved integrative problems, and one solved permanent-tag
-Stacks capstone with oral-proof rubric. Napkin Part XX is optional evidence;
-Stacks pages are references, not translated course pages.
+Algebraic Geometry Bridge. Translate the 30-unit classical *Algebraische
+Kurven* sequence in source order, binding Units 1–23 to the frozen official
+Osnabrück 2025–2026 Wikiversity revisions and Units 24–30 to the official
+complete Osnabrück 2012 course because the current course stops at Unit 23;
+identify the edition transition explicitly and never merge or mislabel the
+authorities. Then translate all 30 lectures and 30 worksheets of Brenner's
+*Bündel, Garben und Kohomologie (Osnabrück 2019–2020)*. Keep both course
+editions independently exportable and expose the BGK route through Units
+2–15 and 23–27. Author only the missing seam, 57 worked mastery items (three
+per route unit, counting source solutions), 12 solved integrative problems,
+and one solved permanent-tag Stacks capstone with oral-proof rubric. Napkin
+Part XX is optional evidence; Stacks pages are references, not translated
+course pages.
 
 ## Live boundary
 
@@ -58,8 +62,25 @@ backend and deterministic eight-file package pass. Zenodo record 22088753 / DOI
 existing lineages. Anonymous readback matched all 16 release-file surfaces,
 the raw GitHub HTML/PDF, and live Pages HTML/PDF. Receipts are
 `qa/UNIT_21_ZENODO_PUBLICATION.json` and
-`qa/UNIT_21_GITHUB_PUBLICATION.json`. Next: freeze and translate Unit 22 in
-source order. This lane remains the sole integrator, validator, and publisher.
+`qa/UNIT_21_GITHUB_PUBLICATION.json`.
+
+Units 22--24 are frozen, translated, corrected, built, published, and
+anonymously verified as the current cumulative checkpoint: 24 lectures, 24
+worksheets, 622 exercises, all 114 frozen public solutions, 83 media positions,
+1,330 stable source/control IDs, self-contained HTML, a 417-page A4 PDF, and an
+18,488-record native backend. Unit 24 is explicitly bound to the official 2012
+course and uses the `br-ak-2012-*` namespace. Every machine, protected,
+responsive, all-page visual, native-backend, common-adapter, packaging, and
+public-byte gate passes. The eight-file reader-first package is public in the
+existing Zenodo concept as record 22102097 / DOI
+`10.5281/zenodo.22102097`, and in the existing GitHub/Pages lineage at content
+commit `fd8984aeb642de240af6a36aee4464d25791658a`, annotated tag `unit-24`.
+Receipts are `qa/UNIT_24_ZENODO_PUBLICATION.json` and
+`qa/UNIT_24_GITHUB_PUBLICATION.json`; every release asset, both raw-commit
+reader files, and both Pages files match the frozen bytes. Next: freeze the
+official 2012 Unit 25 authority, then translate and verify Unit 25 in source
+order without altering accepted Unit 1--24 bytes. This lane remains the sole
+integrator, validator, and publisher.
 
 ## Finite workflow
 

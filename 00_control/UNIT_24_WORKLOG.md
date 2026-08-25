@@ -114,8 +114,29 @@ and secret-like content. Three consecutive executions produced the same PASS
 receipt: `qa/UNIT_24_TRANSLATION_QA.json`, 6,340 bytes, SHA-256
 `bb7e2716cd1a6438e7e3ccfbec412c5e838c118f88a22d0090c41f0ca24a9011`.
 
-Next: build and verify the cumulative Units 1--24 HTML/PDF, render and inspect
-every PDF page, measure desktop/mobile HTML reflow, export and replay the
-native/common backends, package the reader-first checkpoint, publish to the
-existing GitHub and Zenodo lineages, and anonymously read back every public
-artifact.
+## Frozen cumulative release and public readback
+
+The cumulative self-contained HTML is 13,156,471 bytes, SHA-256
+`3753f3a8dc15d8aa1916ecd461b555c3b854139e216cef18d92e6c699258d61f`.
+The 417-page A4 PDF is 8,130,610 bytes, SHA-256
+`407343d0a203e25cb6d5357907da4b6a66c6a4836c5e5fcf17b4599621d1a473`.
+All-page visual review, desktop/mobile reflow, machine, protected-surface, and
+accessibility gates pass. The native backend contains 18,488 records, SHA-256
+`b2550dc11285eec35e1e08eef58284fcf5d88ea9206eabac9fd4b921df43f0c7`;
+the additive common adapter validates 43,917 virtual records and reverses to
+those exact native bytes.
+
+The deterministic eight-file package is public in the existing Zenodo concept
+as record 22102097 / DOI `10.5281/zenodo.22102097`; anonymous readback matched
+all eight files. It is also public in the existing GitHub lineage at content
+commit `fd8984aeb642de240af6a36aee4464d25791658a`, annotated tag object
+`34f257cf2880d578bf0aa36748810ecbc8abd3ca`, and release `unit-24`;
+anonymous readback matched all eight assets, raw-commit HTML/PDF, and live
+Pages HTML/PDF. The sanitized receipts are
+`qa/UNIT_24_ZENODO_PUBLICATION.json` and
+`qa/UNIT_24_GITHUB_PUBLICATION.json`.
+
+Next: freeze the official 2012 Unit 25 lecture, worksheet, two lawful public
+solutions, PDF witnesses, recursive closure, and component-rights evidence;
+run deterministic authority QA, then translate and verify Unit 25 in source
+order without altering accepted Unit 1--24 bytes.

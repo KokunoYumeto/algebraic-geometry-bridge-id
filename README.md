@@ -18,6 +18,7 @@ atas 30 unit; Unit 25 adalah batas produksi berikutnya.
 
 - [Pembaca web di GitHub Pages](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/)
 - [Repositori edisi dan bahasa ini](https://github.com/KokunoYumeto/algebraic-geometry-bridge-id)
+- [Checkpoint Unit 24 di Zenodo](https://doi.org/10.5281/zenodo.22102097)
 - [Konsep Zenodo yang memuat semua versi](https://doi.org/10.5281/zenodo.22059686)
 - `build/reader-id/index.html`: pembaca HTML kumulatif mandiri
 - `build/reader-id/algebraic-geometry-bridge-id-units-01-24.pdf`: PDF A4 kumulatif
