@@ -54,10 +54,12 @@ scroll containment for 138 wide phone-width formulas. Exact evidence is in
 `qa/UNITS_01_21_RESPONSIVE_QA.json`, `qa/UNITS_01_21_VISUAL_QA.json`, and
 `qa/UNITS_01_21_VISUAL_PAGE_MANIFEST.json`. The append-only native/common
 backend and deterministic eight-file package pass. Zenodo record 22088753 / DOI
-`10.5281/zenodo.22088753` is public in the existing concept and all eight files
-match anonymous readback; the existing GitHub release/Pages transaction is the
-remaining publication step. This lane remains the sole integrator, validator,
-and publisher.
+`10.5281/zenodo.22088753` and GitHub tag/release `unit-21` are public in their
+existing lineages. Anonymous readback matched all 16 release-file surfaces,
+the raw GitHub HTML/PDF, and live Pages HTML/PDF. Receipts are
+`qa/UNIT_21_ZENODO_PUBLICATION.json` and
+`qa/UNIT_21_GITHUB_PUBLICATION.json`. Next: freeze and translate Unit 22 in
+source order. This lane remains the sole integrator, validator, and publisher.
 
 ## Finite workflow
 

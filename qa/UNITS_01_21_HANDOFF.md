@@ -48,11 +48,20 @@ their per-component rights; no blanket licence is claimed for the mixed file
 set. Attribution, change disclosure, ShareAlike, exact provenance, and
 non-endorsement are preserved.
 
-The next Zenodo version is reserved in the existing concept
-`10.5281/zenodo.22059686` as record 22088753 / DOI
-`10.5281/zenodo.22088753`. The cumulative package is not yet public at this
-handoff freeze. Next: build and verify the deterministic eight-file release,
-publish it to this reserved record and the existing GitHub repository/Pages
-lineage, anonymously read back every public byte, update the publication
-receipts and durable cursor, then begin Unit 22 in source order. No upstream
-contact is authorized during production.
+The deterministic eight-file reader-first package is public in the existing
+Zenodo concept `10.5281/zenodo.22059686` as record 22088753 / DOI
+`10.5281/zenodo.22088753`. Its publication receipt is 3,928 bytes, SHA-256
+`04372fad8ea1f8853e7d798df3d513c278b31c519dddd098c1619dcfbc306aa7`;
+an independent credential-free streaming readback matched all eight public
+files by byte count and SHA-256.
+
+The identical package is public in the existing GitHub lineage at content
+commit `5304877a495b39bba9f9d681b086139ba3bd2f4e`, annotated tag object
+`22945d1a10673581147057a9dfdfa8f691186a85`, and release `unit-21`. Anonymous
+readback matched all eight release assets, both raw-commit reader files, and
+both live Pages files. `qa/UNIT_21_GITHUB_PUBLICATION.json` is 5,270 bytes,
+SHA-256
+`804523058fb15f221ffaf41b63cd4a8c0413cc6410ab167188984e7096a3d65a`.
+Next: freeze, translate, and verify Unit 22 in source order without altering
+the accepted Unit 1--21 bytes. No upstream contact is authorized during
+production.

@@ -95,7 +95,23 @@ rights, PDFs, source, ledgers, freeze, identities, exercise topology, 48 IDs,
 Pandoc ASTs with zero warnings, visible German residue, placeholders,
 invisible controls, or secret-like strings.
 
-Next executable action: build, visually inspect, backend-export, package,
-publish, and anonymously read back the cumulative Units 1--21 checkpoint in
-the existing GitHub and Zenodo lineages. After verification, advance the
-source cursor to Unit 22.
+## Cumulative release and public readback
+
+The cumulative Units 1--21 HTML/PDF, native backend, additive common-backend
+receipt, all-page visual evidence, responsive evidence, and deterministic
+eight-file package pass. Zenodo record 22088753 / DOI
+`10.5281/zenodo.22088753` is public in the existing concept; all eight files
+matched an independent credential-free streaming readback. The identical
+GitHub release is public at tag `unit-21`, content commit
+`5304877a495b39bba9f9d681b086139ba3bd2f4e`, annotated tag object
+`22945d1a10673581147057a9dfdfa8f691186a85`; all eight assets plus raw-commit
+and live Pages HTML/PDF matched anonymously. Sanitized receipt hashes are
+`04372fad8ea1f8853e7d798df3d513c278b31c519dddd098c1619dcfbc306aa7`
+(Zenodo) and
+`804523058fb15f221ffaf41b63cd4a8c0413cc6410ab167188984e7096a3d65a`
+(GitHub).
+
+Next executable action: freeze the exact Unit 22 Wikiversity authority,
+exercise/solution topology, media and component rights; then translate and
+verify Lecture 22 and Worksheet 22 in source order without altering accepted
+Unit 1--21 bytes.
