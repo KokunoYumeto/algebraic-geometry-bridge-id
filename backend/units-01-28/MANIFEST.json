@@ -1,0 +1,298 @@
+{
+  "schema": "ag-bridge-backend-export-manifest-v2",
+  "schema_version": "1.2.0",
+  "record_schema_version": "1.0.0",
+  "generated_from_build_utc": "2026-08-26T04:52:07.131867+00:00",
+  "through_unit": 28,
+  "scope": "cumulative Units 1--28",
+  "encoding": "UTF-8",
+  "serialization": "canonical JSON Lines: records and keys sorted, compact separators, CRLF; frozen Units 1--27 records carried forward byte-for-byte",
+  "record_count": 21358,
+  "counts": {
+    "artifact": 232,
+    "asset": 98,
+    "concept": 255,
+    "correction": 146,
+    "course": 1,
+    "edition": 18,
+    "exercise": 671,
+    "program": 1,
+    "qa_event": 61,
+    "relation": 10200,
+    "resource": 4,
+    "rights": 103,
+    "segment": 7677,
+    "solution": 118,
+    "term": 260,
+    "unit": 1513
+  },
+  "files": [
+    {
+      "path": "backend/units-01-28/record.schema.json",
+      "bytes": 3278,
+      "sha256": "3158825c0bd1c0da54c1c670630e7a8a2299b2b0d82e0f905042e76d7630906a"
+    },
+    {
+      "path": "backend/units-01-28/records.jsonl",
+      "bytes": 34195566,
+      "sha256": "94e9c9d0859fc30cfa46a9cc08ed2babb7db07b586a3b5985a91130b096261ef"
+    },
+    {
+      "path": "backend/units-01-28/artifact.jsonl",
+      "bytes": 242931,
+      "sha256": "47980b895b10077dead6ae052d327ee4a245fa1d462b71efd13029d658d81575"
+    },
+    {
+      "path": "backend/units-01-28/asset.jsonl",
+      "bytes": 134213,
+      "sha256": "8b715cec45005685be2373312af19e11554eb0471602ac0a12473dd43c845ed0"
+    },
+    {
+      "path": "backend/units-01-28/concept.jsonl",
+      "bytes": 231316,
+      "sha256": "2fd047693e56b5a023a249a710b1e7ddbdc155bf2fc4ed3301a540041235df21"
+    },
+    {
+      "path": "backend/units-01-28/correction.jsonl",
+      "bytes": 229544,
+      "sha256": "7ff196c6a6f0d68bc16d8b2ad5088b1787d940169dd21779f414b2f646df5bc7"
+    },
+    {
+      "path": "backend/units-01-28/course.jsonl",
+      "bytes": 2495,
+      "sha256": "83b02844f8c2a2fe8671e627a911b666ba7126ce1d981aed03fefc19c95d4012"
+    },
+    {
+      "path": "backend/units-01-28/edition.jsonl",
+      "bytes": 36985,
+      "sha256": "073aa8d4897179d4ee2680f5a043da0237e879dde124e3b390ab56c452f6f21f"
+    },
+    {
+      "path": "backend/units-01-28/exercise.jsonl",
+      "bytes": 1648787,
+      "sha256": "a4d66a7fb2df1a1a568a2e252a3cad5e8c1a736f65160b9d8a5f6c40402be9f4"
+    },
+    {
+      "path": "backend/units-01-28/program.jsonl",
+      "bytes": 1009,
+      "sha256": "7d216a158dadd5de231f9b45c0991464f0fe128ab08340e172b06e88fa83d4f6"
+    },
+    {
+      "path": "backend/units-01-28/qa_event.jsonl",
+      "bytes": 443631,
+      "sha256": "e5a5abd88b9108681f705b17b0cc3fbb50b6908f5a285f97f3cf38f9c3832411"
+    },
+    {
+      "path": "backend/units-01-28/relation.jsonl",
+      "bytes": 9651130,
+      "sha256": "7bf1189cd027354d320a98c7b2e7ef154dcf6c5caa94e81d73cac05d9636f1c2"
+    },
+    {
+      "path": "backend/units-01-28/resource.jsonl",
+      "bytes": 5767,
+      "sha256": "26c6f7b428604ea85c4527fcd40e400a365a6661d3ee039a18dc04f0d7ee11e7"
+    },
+    {
+      "path": "backend/units-01-28/rights.jsonl",
+      "bytes": 117421,
+      "sha256": "6b93f0051da374dc5bd8bc1e44d48dc758c6e63c9f6148ca1de2f47200aaac80"
+    },
+    {
+      "path": "backend/units-01-28/segment.jsonl",
+      "bytes": 17194829,
+      "sha256": "a9b0a3c288817297877b4b710f05c41c18bfb4dae52878289b235c977c858990"
+    },
+    {
+      "path": "backend/units-01-28/solution.jsonl",
+      "bytes": 379116,
+      "sha256": "51554c5801ef59fe13ad82182d97904efb359bb6646a7a15198cc6f5c890e269"
+    },
+    {
+      "path": "backend/units-01-28/term.jsonl",
+      "bytes": 295779,
+      "sha256": "50b11a058d4d8d3314647495a00b083e7af15e5f6a821d4fd6ea22026daa5cc2"
+    },
+    {
+      "path": "backend/units-01-28/unit.jsonl",
+      "bytes": 3580613,
+      "sha256": "bfaf49580386e058211a8a83dc2e8fab43dd3b493c55f248790496a6bcda4e58"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "backend/units-01-27/MANIFEST.json",
+      "bytes": 15347,
+      "sha256": "b176a5ab161cc440ffae65fcd341828732970404bc22035b84eeb88edb0a781a"
+    },
+    {
+      "path": "backend/units-01-27/records.jsonl",
+      "bytes": 33010903,
+      "sha256": "e12321f1c4724dac486ef7512462888647f2c3b30ae6a5d40022329dfa2a28f1"
+    },
+    {
+      "path": "backend/units-01-27/record.schema.json",
+      "bytes": 3278,
+      "sha256": "3158825c0bd1c0da54c1c670630e7a8a2299b2b0d82e0f905042e76d7630906a"
+    },
+    {
+      "path": "source/id-ID/frontmatter-units-01-28.md",
+      "bytes": 4985,
+      "sha256": "f2408d86b7eef190ca586c8041e3ac733784b91cf1bbf7445baed1b604b87d9c"
+    },
+    {
+      "path": "source/id-ID/lecture-28.md",
+      "bytes": 21279,
+      "sha256": "2a33c0e3049b0d2b140ee46b37f9fba452dca8f19c553317ddbee5c23f3768b7"
+    },
+    {
+      "path": "source/id-ID/worksheet-28.md",
+      "bytes": 7393,
+      "sha256": "fa6b7003de697739d3a03e00cb35b42119f1fff78836de536ba32584e33a361e"
+    },
+    {
+      "path": "source/id-ID/worksheet-28-solutions.md",
+      "bytes": 3107,
+      "sha256": "4428b2e180096f7ab719aa649f64e2caa3be03c71d1198a7c7747616b90dfbf5"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-28.md",
+      "bytes": 3774,
+      "sha256": "6155b47c596d97ea0af6f50f0c451453eca43231f8f04b4ad7617f36abfa1b52"
+    },
+    {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 43674,
+      "sha256": "5a843fdc6cb79ab3329e1f316027968e14ab2a0b765ff3505ad2af85003df5c3"
+    },
+    {
+      "path": "qa/UNITS_01_28_MACHINE_QA.json",
+      "bytes": 3083,
+      "sha256": "c666cb1186f516cead5ebd1a16de616856c99013cd94983826c974aebbdf776f"
+    },
+    {
+      "path": "qa/UNITS_01_28_VISUAL_QA.json",
+      "bytes": 9055,
+      "sha256": "859c16ec814bbe6243b40dde9d1760b88ada4fe763f739c824da7c3ca3b0fe1f"
+    },
+    {
+      "path": "qa/UNITS_01_28_RESPONSIVE_QA.json",
+      "bytes": 4304,
+      "sha256": "87358e05adf0530caab368ac60d98bbc4513d86412970996092d47b21ed7c204"
+    },
+    {
+      "path": "qa/UNIT_28_PROTECTED_SURFACES.json",
+      "bytes": 2533,
+      "sha256": "d9e737e3319f62d7560cbad20737c27b80b40c27536e3dca36d4632c98f18b2e"
+    },
+    {
+      "path": "qa/UNIT_28_TRANSLATION_QA.json",
+      "bytes": 6913,
+      "sha256": "30095ba6d0621030c1a6d63d340ddb7d7d77fff424b2c28841d77e3e46da03ab"
+    },
+    {
+      "path": "authority/wikiversity/unit-28/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 134460,
+      "sha256": "f2e34fc420c4beec300ea9e0accc52598e12c27f46c9022611996b1b43e29a99"
+    },
+    {
+      "path": "authority/wikiversity/unit-28/ORDERED_EXERCISE_MAP.json",
+      "bytes": 16100,
+      "sha256": "c5aed5500f44a39bbe0a7a079792e0da11781a24a69c274d7170b0e2cdc1df40"
+    },
+    {
+      "path": "authority/RIGHTS-unit-28.csv",
+      "bytes": 4967,
+      "sha256": "84e7132495c1f78bd71afb0c436e23322f90d05f81a74e2f088cb1b586321651"
+    },
+    {
+      "path": "authority/ASSET_CLOSURE-unit-28.json",
+      "bytes": 12939,
+      "sha256": "d7059564e2214dcafef6a8e0cd9cc43d7f2a86e70ca9e647719995cb0ef231b3"
+    },
+    {
+      "path": "00_control/CORRECTIONS.csv",
+      "bytes": 79899,
+      "sha256": "d39f2599526d9be24b4f6b7246b6ad92b87fd9d1a6042733903288f636bc056b"
+    },
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 41134,
+      "sha256": "2a0ac96829d12afa2e07ae503ed067aa6416ca17e0acc66d2d2f7cac6ba52213"
+    },
+    {
+      "path": "scripts/export_backend_units_01_28.py",
+      "bytes": 7064,
+      "sha256": "3fd09178c8ba92bdd6087ee321e41320760d8df4c12560000c94b1b954b2cee4"
+    },
+    {
+      "path": "scripts/export_backend_units_01_27.py",
+      "bytes": 6061,
+      "sha256": "b09ae6121d7905c234026e9cb93af1101f56155c6732fdf40712bad16c3168e8"
+    },
+    {
+      "path": "scripts/qa_backend_units_01_28.py",
+      "bytes": 6587,
+      "sha256": "d28561a0c7e9faf8892574ecbe1238417da5c4f2dc51699284f77966a1e29704"
+    }
+  ],
+  "units_01_27_baseline": {
+    "manifest_path": "backend/units-01-27/MANIFEST.json",
+    "manifest_sha256": "b176a5ab161cc440ffae65fcd341828732970404bc22035b84eeb88edb0a781a",
+    "records_path": "backend/units-01-27/records.jsonl",
+    "records_sha256": "e12321f1c4724dac486ef7512462888647f2c3b30ae6a5d40022329dfa2a28f1",
+    "schema_path": "backend/units-01-27/record.schema.json",
+    "schema_sha256": "3158825c0bd1c0da54c1c670630e7a8a2299b2b0d82e0f905042e76d7630906a",
+    "record_count": 20570,
+    "record_bytes_preserved": true,
+    "stable_ids_and_payloads_preserved": true
+  },
+  "reader_binding": {
+    "build_receipt_path": "build/reader-id/BUILD_RECEIPT.json",
+    "build_receipt_sha256": "5a843fdc6cb79ab3329e1f316027968e14ab2a0b765ff3505ad2af85003df5c3",
+    "through_unit": 28,
+    "outputs": [
+      {
+        "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-28.pdf",
+        "bytes": 15820212,
+        "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6"
+      },
+      {
+        "path": "build/reader-id/index.html",
+        "bytes": 23412216,
+        "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10"
+      }
+    ]
+  },
+  "authority_bindings": {
+    "unit_28": {
+      "manifest": {
+        "path": "authority/wikiversity/unit-28/UNIT_AUTHORITY_MANIFEST.json",
+        "sha256": "f2e34fc420c4beec300ea9e0accc52598e12c27f46c9022611996b1b43e29a99"
+      },
+      "map": {
+        "path": "authority/wikiversity/unit-28/ORDERED_EXERCISE_MAP.json",
+        "sha256": "c5aed5500f44a39bbe0a7a079792e0da11781a24a69c274d7170b0e2cdc1df40"
+      },
+      "rights": {
+        "path": "authority/RIGHTS-unit-28.csv",
+        "sha256": "84e7132495c1f78bd71afb0c436e23322f90d05f81a74e2f088cb1b586321651"
+      },
+      "closure": {
+        "path": "authority/ASSET_CLOSURE-unit-28.json",
+        "sha256": "d7059564e2214dcafef6a8e0cd9cc43d7f2a86e70ca9e647719995cb0ef231b3"
+      }
+    }
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "validation": {
+    "unique_stable_ids": true,
+    "parent_resource_edition_rights_and_relation_endpoint_closure": true,
+    "required_entity_class_closure": true,
+    "units_01_27_record_bytes_and_payloads_preserved": true,
+    "unit_28_source_hashes_match_reader_receipt": true,
+    "authority_maps_rights_assets_and_solution_closure": true,
+    "unit_28_terminology_and_correction_ledger_closure": true,
+    "reader_machine_visual_responsive_and_protected_qa_pass": true,
+    "deterministic_double_replay_required": true
+  }
+}

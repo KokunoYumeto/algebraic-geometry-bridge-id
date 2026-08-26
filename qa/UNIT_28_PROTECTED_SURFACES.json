@@ -1,0 +1,79 @@
+{
+  "schema": "ag-bridge-protected-surfaces-v5",
+  "status": "PASS",
+  "verified_date": "2026-08-26",
+  "through_unit": 28,
+  "unit_27_baseline": {
+    "path": "qa/UNIT_27_PROTECTED_SURFACES.json",
+    "bytes": 4122,
+    "sha256": "ca04c18753768b6741073342d47e6ba9fb6535b20382a29b53af20cb4be840ec"
+  },
+  "machine_qa": {
+    "path": "qa/UNITS_01_28_MACHINE_QA.json",
+    "bytes": 3083,
+    "sha256": "c666cb1186f516cead5ebd1a16de616856c99013cd94983826c974aebbdf776f"
+  },
+  "translation_qa": {
+    "path": "qa/UNIT_28_TRANSLATION_QA.json",
+    "bytes": 6913,
+    "sha256": "30095ba6d0621030c1a6d63d340ddb7d7d77fff424b2c28841d77e3e46da03ab"
+  },
+  "translation_qa_implementation": {
+    "path": "scripts/qa_unit28_translation.py",
+    "bytes": 18770,
+    "sha256": "a5f415df95328f66b0c61091b3197e620db309df98f110053e695aebbafbbb87"
+  },
+  "unit_28": {
+    "protected_lecture": {
+      "source": "source/id-ID/lecture-28.md",
+      "tokens": 9,
+      "source_missing": 0
+    },
+    "protected_worksheet": {
+      "source": "source/id-ID/worksheet-28.md",
+      "tokens": 7,
+      "source_missing": 0
+    },
+    "protected_solution": {
+      "source": "source/id-ID/worksheet-28-solutions.md",
+      "tokens": 3,
+      "source_missing": 0
+    }
+  },
+  "protected_token_count": 19,
+  "unique_protected_token_count": 18,
+  "source_missing": 0,
+  "html_mathml_annotations": 10717,
+  "html_missing": 0,
+  "pdf_terminal_start_page": 456,
+  "pdf_terminal_pages_checked": 21,
+  "pdf_terminal_markers": [
+    "Kuliah 28: Varietas Proyektif dan Kurva Bidang Proyektif",
+    "Soal 28.14",
+    "Solusi Soal 28.10",
+    "Kredit media Unit 28"
+  ],
+  "correction_disclosures": [
+    "AGC-CORR-0115",
+    "AGC-CORR-0116",
+    "AGC-CORR-0117",
+    "AGC-CORR-0118",
+    "AGC-CORR-0119",
+    "AGC-CORR-0120",
+    "AGC-CORR-0121",
+    "AGC-CORR-0122",
+    "AGC-CORR-0123",
+    "AGC-CORR-0124",
+    "AGC-CORR-0125"
+  ],
+  "editorial_bridge_disclosures": 2,
+  "checks": [
+    "exact Unit 27 protected-surface baseline is PASS and byte-pinned",
+    "cumulative Unit 28 machine QA and output identities are PASS",
+    "Unit 28 translation QA, implementation, and four-file source closure are byte-pinned",
+    "nineteen protected mathematical tokens remain in source and HTML TeX annotations",
+    "terminal PDF range contains the Unit 28 lecture, final exercise, sole public solution, and credits boundaries",
+    "all eleven Unit 28 corrections and both editorial bridges are explicitly disclosed"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

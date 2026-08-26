@@ -1,0 +1,252 @@
+{
+  "schema": "ag-bridge-visual-qa-v1",
+  "checked_date": "2026-08-26",
+  "status": "PASS",
+  "result": "PASS",
+  "through_unit": 28,
+  "input_binding": {
+    "machine_qa": {
+      "path": "qa/UNITS_01_28_MACHINE_QA.json",
+      "bytes": 3083,
+      "sha256": "c666cb1186f516cead5ebd1a16de616856c99013cd94983826c974aebbdf776f"
+    }
+  },
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-28.pdf",
+    "bytes": 15820212,
+    "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6",
+    "pages": 476,
+    "page_size": "A4",
+    "encrypted": false,
+    "all_fonts_embedded": true,
+    "font_rows": 17
+  },
+  "deterministic_raster": {
+    "renderer": "pdftoppm",
+    "resolution_dpi": 90,
+    "page_manifest": "qa/UNITS_01_28_VISUAL_PAGE_MANIFEST.json",
+    "page_manifest_bytes": 155125,
+    "page_manifest_sha256": "7cf4733ea8e74d5eb164cc0016ab11706542c76f4fcd1e13b91ae67c5bacb2b1",
+    "page_png_count": 476,
+    "dimensions_px": [
+      745,
+      1053
+    ],
+    "total_png_bytes": 54299834,
+    "visible_ink_threshold_gray_lt": 248,
+    "minimum_visible_ink_fraction": 0.006304773195153508,
+    "minimum_visible_ink_page": 256,
+    "maximum_visible_ink_fraction": 0.5789517964014609,
+    "maximum_visible_ink_page": 39,
+    "blank_pages_detected": 0,
+    "dimension_mismatches": 0
+  },
+  "visual_inspection": {
+    "all_page_contact_sheets": [
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-001-020.png",
+        "bytes": 696147,
+        "sha256": "e97c544698bae799c7a959a6e06f29f6b1a573079e0e09260b49372e65920772"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-021-040.png",
+        "bytes": 713006,
+        "sha256": "4fb785abc39e5dc6ce06bf6e2de95296bace08e7a9c966251fbbcffb008e3442"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-041-060.png",
+        "bytes": 676621,
+        "sha256": "076c93283795d97c7fea5307510787c8a80671c2d3bb3611a7ed645312069f11"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-061-080.png",
+        "bytes": 530687,
+        "sha256": "48db1c5cd5d3ec5974d4fa0c31690d6a7cbb4eb344524c41bb9823f177eebb3e"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-081-100.png",
+        "bytes": 549955,
+        "sha256": "4b8098bf2d3844939c240d733e728358d8d938c27a46092652c7e14878a6b2c1"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-101-120.png",
+        "bytes": 544987,
+        "sha256": "c74d77a1dc24c4ef82e3bca8d73f0cedb00a8a9eb5708cc3a4d0dd01bfff87ff"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-121-140.png",
+        "bytes": 519885,
+        "sha256": "a6814aeaac0e25a726575fdd4b8df3239331300a94e17c58c8615a7b4b34d06e"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-141-160.png",
+        "bytes": 538672,
+        "sha256": "6c70ea4dd68e4bad1df5cae6252de8fc79abcc53d849ca0b3a4eb2e28f2cafe6"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-161-180.png",
+        "bytes": 596034,
+        "sha256": "5d8e7865fb58a373ddf4d70075d7c53ff5558ec6accfaa7c18cdcd75ec632944"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-181-200.png",
+        "bytes": 602398,
+        "sha256": "d66f69f412e7f5a3b7ef0f1622ce046c70a6a8d8e592509d37aaa4a8ed402be1"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-201-220.png",
+        "bytes": 606579,
+        "sha256": "d0b810c780eeb602817b07530c915287101b31ed8f6dbed54192242dde78c9cd"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-221-240.png",
+        "bytes": 561225,
+        "sha256": "70f01907f2402eba969bd0a51ee5d6820d6a9177a28a86117ddcbcd05e1f0f49"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-241-260.png",
+        "bytes": 557466,
+        "sha256": "f7a6824f50d789c042df24e68abbd147d5585a187e8975d6a245b94f3bcfc193"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-261-280.png",
+        "bytes": 627676,
+        "sha256": "44b1436a6a7a52f402f87f2cd0a7d3ca487a42c668e975863d8378037f9fd663"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-281-300.png",
+        "bytes": 497943,
+        "sha256": "052431d3888461beeeb0406010ce5224477e11fcbb8095a4206e83578cbd4f68"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-301-320.png",
+        "bytes": 552450,
+        "sha256": "d0702bec973c1d36739e2996ff4847be652d2c94156f919e2b6dc30e5ab75e4a"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-321-340.png",
+        "bytes": 593338,
+        "sha256": "f610cc94f1a5128311fa68a40d12f3c89d477f276d26092b68592b01fa67d16f"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-341-360.png",
+        "bytes": 554353,
+        "sha256": "8600c3b0d6078be0a3bc49438be9a3843e3f98dfc60726c1d03fe6a9ed186784"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-361-380.png",
+        "bytes": 536804,
+        "sha256": "cc56979a49989a953c90bf200a727d411d1305bd9aadf505be6551eae2b01aa0"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-381-400.png",
+        "bytes": 542091,
+        "sha256": "0e8a065f00ca448b10600eb2f7cb7eb5fa205a7f7cc9ee1ae3e588a5008473e2"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-401-420.png",
+        "bytes": 561685,
+        "sha256": "6699a36326bac513f6a3c2a7b9db85bd7955a56ae6d7c328ed8bd71b4ca510ba"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-421-440.png",
+        "bytes": 563371,
+        "sha256": "4423aec10c8c90392dad4d335c1c2e7824098fcb67f9c9b6e120cf9d288bc444"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-441-460.png",
+        "bytes": 794708,
+        "sha256": "315fb684564e0bc85d3b2a768339c5c3c6fe160655f8e8fc8ada6514dd2ac9d3"
+      },
+      {
+        "path": "tmp/pdfs/units-01-28-contact/pages-461-476.png",
+        "bytes": 745281,
+        "sha256": "9c0b821da009e7315b0bb24ccfeaad67214d492eb83312e20097f9ac7107de04"
+      }
+    ],
+    "contact_sheet_count": 24,
+    "contact_sheet_bytes": 14263362,
+    "contact_sheet_page_ranges": [
+      "pages 1-20",
+      "pages 21-40",
+      "pages 41-60",
+      "pages 61-80",
+      "pages 81-100",
+      "pages 101-120",
+      "pages 121-140",
+      "pages 141-160",
+      "pages 161-180",
+      "pages 181-200",
+      "pages 201-220",
+      "pages 221-240",
+      "pages 241-260",
+      "pages 261-280",
+      "pages 281-300",
+      "pages 301-320",
+      "pages 321-340",
+      "pages 341-360",
+      "pages 361-380",
+      "pages 381-400",
+      "pages 401-420",
+      "pages 421-440",
+      "pages 441-460",
+      "pages 461-476"
+    ],
+    "final_contact_sheets_checked": [
+      "pages 441-460",
+      "pages 461-476"
+    ],
+    "full_size_pages_checked": [
+      457,
+      462,
+      463
+    ],
+    "checks": {
+      "all_24_contact_sheets_cover_pages_1_476_cleanly": "PASS",
+      "all_pages_populated_centered_and_legible": "PASS",
+      "consistent_margins_and_absolute_page_numbers": "PASS",
+      "no_clipping_overlap_black_boxes_or_broken_glyphs": "PASS",
+      "page_457_proof_square_inline_at_bridge_end": "PASS",
+      "page_462_soccerball_and_torus_each_immediately_followed_by_component_credit": "PASS",
+      "page_463_double_torus_and_sphere_with_handles_each_immediately_followed_by_component_credit": "PASS",
+      "unit_28_figures_centered_sharp_and_readable": "PASS",
+      "media_credits_through_page_476_intact": "PASS",
+      "final_page_termination_intact": "PASS"
+    },
+    "contact_sheet_annotation_note": "Several top overlay labels are partly masked at montage scale; exact raster filenames, page-manifest order, full-size pages, and printed PDF folios close the sequence. The document pages themselves are unaffected."
+  },
+  "review_segments": [
+    {
+      "pages": [
+        1,
+        160
+      ],
+      "contact_sheets": 8,
+      "result": "PASS"
+    },
+    {
+      "pages": [
+        161,
+        320
+      ],
+      "contact_sheets": 8,
+      "result": "PASS"
+    },
+    {
+      "pages": [
+        321,
+        476
+      ],
+      "contact_sheets": 8,
+      "result": "PASS"
+    }
+  ],
+  "findings_resolved_before_freeze": [
+    "The Unit 28 Soccerball.svg source asset required deterministic SVG-to-PNG conversion for the PDF reader.",
+    "Four Unit 28 figure and component-credit pairs initially separated under float placement; PDF-only staging now keeps each figure immediately adjacent to its credit.",
+    "The proof-ending square on page 457 was initially isolated; it is now correctly inline at the end of the bridge paragraph.",
+    "A complete final 476-page raster and 24-sheet review verified the repaired bytes."
+  ],
+  "conclusion": "All 476 final PDF pages were rasterized and reviewed through 24 contact sheets. The two final sheets and full-resolution pages 457, 462, and 463 were checked again after the repairs. No unresolved visual, mathematical, media, pagination, or formatting defect remains.",
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

@@ -1,0 +1,104 @@
+{
+  "schema": "ag-bridge-backend-qa-v6",
+  "result": "PASS",
+  "through_unit": 28,
+  "backend": {
+    "manifest_path": "backend/units-01-28/MANIFEST.json",
+    "manifest_sha256": "52ce204f9f0843bb8c7598a66073699ba2a139d29cfa741d8dc6a0d509a9c4a2",
+    "records_path": "backend/units-01-28/records.jsonl",
+    "records_sha256": "94e9c9d0859fc30cfa46a9cc08ed2babb7db07b586a3b5985a91130b096261ef",
+    "schema_path": "backend/units-01-28/record.schema.json",
+    "schema_sha256": "3158825c0bd1c0da54c1c670630e7a8a2299b2b0d82e0f905042e76d7630906a",
+    "record_count": 21358,
+    "new_record_count": 788,
+    "counts": {
+      "artifact": 232,
+      "asset": 98,
+      "concept": 255,
+      "correction": 146,
+      "course": 1,
+      "edition": 18,
+      "exercise": 671,
+      "program": 1,
+      "qa_event": 61,
+      "relation": 10200,
+      "resource": 4,
+      "rights": 103,
+      "segment": 7677,
+      "solution": 118,
+      "term": 260,
+      "unit": 1513
+    },
+    "units_01_27_baseline_record_count": 20570,
+    "units_01_27_baseline_records_exactly_preserved": true
+  },
+  "unit_28": {
+    "28": {
+      "exercise_count": 14,
+      "public_solution_count": 1,
+      "solution_exercise_numbers": [
+        10
+      ],
+      "media_positions": 4,
+      "binary_surfaces": 4,
+      "manifest_sha256": "f2e34fc420c4beec300ea9e0accc52598e12c27f46c9022611996b1b43e29a99",
+      "exercise_map_sha256": "c5aed5500f44a39bbe0a7a079792e0da11781a24a69c274d7170b0e2cdc1df40",
+      "rights_sha256": "84e7132495c1f78bd71afb0c436e23322f90d05f81a74e2f088cb1b586321651",
+      "asset_closure_sha256": "d7059564e2214dcafef6a8e0cd9cc43d7f2a86e70ca9e647719995cb0ef231b3"
+    }
+  },
+  "reader_evidence": {
+    "build_receipt_sha256": "5a843fdc6cb79ab3329e1f316027968e14ab2a0b765ff3505ad2af85003df5c3",
+    "machine_qa_sha256": "c666cb1186f516cead5ebd1a16de616856c99013cd94983826c974aebbdf776f",
+    "visual_qa_sha256": "859c16ec814bbe6243b40dde9d1760b88ada4fe763f739c824da7c3ca3b0fe1f",
+    "responsive_qa_sha256": "87358e05adf0530caab368ac60d98bbc4513d86412970996092d47b21ed7c204",
+    "protected_surfaces_sha256": "d9e737e3319f62d7560cbad20737c27b80b40c27536e3dca36d4632c98f18b2e",
+    "unit_28_translation_qa_sha256": "30095ba6d0621030c1a6d63d340ddb7d7d77fff424b2c28841d77e3e46da03ab",
+    "deterministic_replay_outputs": {
+      "backend/units-01-28/MANIFEST.json": "52ce204f9f0843bb8c7598a66073699ba2a139d29cfa741d8dc6a0d509a9c4a2",
+      "backend/units-01-28/record.schema.json": "3158825c0bd1c0da54c1c670630e7a8a2299b2b0d82e0f905042e76d7630906a",
+      "backend/units-01-28/records.jsonl": "94e9c9d0859fc30cfa46a9cc08ed2babb7db07b586a3b5985a91130b096261ef",
+      "backend/units-01-28/artifact.jsonl": "47980b895b10077dead6ae052d327ee4a245fa1d462b71efd13029d658d81575",
+      "backend/units-01-28/asset.jsonl": "8b715cec45005685be2373312af19e11554eb0471602ac0a12473dd43c845ed0",
+      "backend/units-01-28/concept.jsonl": "2fd047693e56b5a023a249a710b1e7ddbdc155bf2fc4ed3301a540041235df21",
+      "backend/units-01-28/correction.jsonl": "7ff196c6a6f0d68bc16d8b2ad5088b1787d940169dd21779f414b2f646df5bc7",
+      "backend/units-01-28/course.jsonl": "83b02844f8c2a2fe8671e627a911b666ba7126ce1d981aed03fefc19c95d4012",
+      "backend/units-01-28/edition.jsonl": "073aa8d4897179d4ee2680f5a043da0237e879dde124e3b390ab56c452f6f21f",
+      "backend/units-01-28/exercise.jsonl": "a4d66a7fb2df1a1a568a2e252a3cad5e8c1a736f65160b9d8a5f6c40402be9f4",
+      "backend/units-01-28/program.jsonl": "7d216a158dadd5de231f9b45c0991464f0fe128ab08340e172b06e88fa83d4f6",
+      "backend/units-01-28/qa_event.jsonl": "e5a5abd88b9108681f705b17b0cc3fbb50b6908f5a285f97f3cf38f9c3832411",
+      "backend/units-01-28/relation.jsonl": "7bf1189cd027354d320a98c7b2e7ef154dcf6c5caa94e81d73cac05d9636f1c2",
+      "backend/units-01-28/resource.jsonl": "26c6f7b428604ea85c4527fcd40e400a365a6661d3ee039a18dc04f0d7ee11e7",
+      "backend/units-01-28/rights.jsonl": "6b93f0051da374dc5bd8bc1e44d48dc758c6e63c9f6148ca1de2f47200aaac80",
+      "backend/units-01-28/segment.jsonl": "a9b0a3c288817297877b4b710f05c41c18bfb4dae52878289b235c977c858990",
+      "backend/units-01-28/solution.jsonl": "51554c5801ef59fe13ad82182d97904efb359bb6646a7a15198cc6f5c890e269",
+      "backend/units-01-28/term.jsonl": "50b11a058d4d8d3314647495a00b083e7af15e5f6a821d4fd6ea22026daa5cc2",
+      "backend/units-01-28/unit.jsonl": "bfaf49580386e058211a8a83dc2e8fab43dd3b493c55f248790496a6bcda4e58"
+    }
+  },
+  "ledger_evidence": {
+    "terminology_path": "00_control/TERMINOLOGY.csv",
+    "terminology_sha256": "2a0ac96829d12afa2e07ae503ed067aa6416ca17e0acc66d2d2f7cac6ba52213",
+    "new_term_count": 11,
+    "new_concept_count": 11,
+    "corrections_path": "00_control/CORRECTIONS.csv",
+    "corrections_sha256": "d39f2599526d9be24b4f6b7246b6ad92b87fd9d1a6042733903288f636bc056b",
+    "new_correction_count": 11
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "validation": {
+    "canonical_jsonl_and_schema_surface": true,
+    "unique_stable_ids": true,
+    "parent_resource_edition_rights_concept_and_relation_closure": true,
+    "units_01_27_record_and_payload_byte_identity": true,
+    "source_hashes_match_frozen_values_and_reader_inputs": true,
+    "authority_manifest_map_rights_asset_solution_closure": true,
+    "unit_28_terminology_and_correction_ledger_closure": true,
+    "reader_build_machine_visual_responsive_and_protected_qa": true,
+    "per_unit_28_translation_integration_evidence": true,
+    "unit_27_schema_bytes_preserved": true,
+    "global_tuple_order_and_crlf_raw_byte_identity": true,
+    "deterministic_exporter_replay": true,
+    "exact_model_provenance_on_every_new_record": true
+  }
+}

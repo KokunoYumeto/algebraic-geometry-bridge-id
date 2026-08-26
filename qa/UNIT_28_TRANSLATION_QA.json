@@ -1,0 +1,211 @@
+{
+  "schema": "ag-bridge-unit-translation-qa-v1",
+  "status": "PASS",
+  "unit": 28,
+  "verified_date": "2026-08-26",
+  "bound_facts": {
+    "authority/wikiversity/unit-28/UNIT_AUTHORITY_MANIFEST.json": {
+      "path": "authority/wikiversity/unit-28/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 134460,
+      "sha256": "f2e34fc420c4beec300ea9e0accc52598e12c27f46c9022611996b1b43e29a99"
+    },
+    "authority/wikiversity/unit-28/ORDERED_EXERCISE_MAP.json": {
+      "path": "authority/wikiversity/unit-28/ORDERED_EXERCISE_MAP.json",
+      "bytes": 16100,
+      "sha256": "c5aed5500f44a39bbe0a7a079792e0da11781a24a69c274d7170b0e2cdc1df40"
+    },
+    "authority/wikiversity/unit-28/lecture-28.xml": {
+      "path": "authority/wikiversity/unit-28/lecture-28.xml",
+      "bytes": 7443,
+      "sha256": "3dc1abff96585199774b74910d1fc93102d0baf31e09ffa432a6e3966ddb5423"
+    },
+    "authority/wikiversity/unit-28/lecture-28-expanded.tex": {
+      "path": "authority/wikiversity/unit-28/lecture-28-expanded.tex",
+      "bytes": 25871,
+      "sha256": "ed9054224eb4f1d8d5849d9e44c88f82107866c8f0944ee7cb047e27ad337709"
+    },
+    "authority/wikiversity/unit-28/worksheet-28.xml": {
+      "path": "authority/wikiversity/unit-28/worksheet-28.xml",
+      "bytes": 4988,
+      "sha256": "dc1af11088dac5f3ae3597a94af6bdba91afe35de35d8c2aecf4d26edd00f4fa"
+    },
+    "authority/wikiversity/unit-28/worksheet-28-expanded.tex": {
+      "path": "authority/wikiversity/unit-28/worksheet-28-expanded.tex",
+      "bytes": 6809,
+      "sha256": "9505f42a5a87139ca3e3dae694dc90b1692b38e0a9e312efa3b9159bbf2bab94"
+    },
+    "authority/wikiversity/unit-28/solution-ex10.xml": {
+      "path": "authority/wikiversity/unit-28/solution-ex10.xml",
+      "bytes": 4429,
+      "sha256": "b0ed23c137883f7304b18304e06b5fa5e02cce5ae81b966a5e23c428d84497be"
+    },
+    "authority/UNIT_28_AUTHORITY_FREEZE.md": {
+      "path": "authority/UNIT_28_AUTHORITY_FREEZE.md",
+      "bytes": 5425,
+      "sha256": "acb9e2053e6f883953f05ff4f274f96aa70f7c6f8239667f47cc838627f313d2"
+    },
+    "authority/RIGHTS-unit-28.csv": {
+      "path": "authority/RIGHTS-unit-28.csv",
+      "bytes": 4967,
+      "sha256": "84e7132495c1f78bd71afb0c436e23322f90d05f81a74e2f088cb1b586321651"
+    },
+    "authority/ASSET_CLOSURE-unit-28.json": {
+      "path": "authority/ASSET_CLOSURE-unit-28.json",
+      "bytes": 12939,
+      "sha256": "d7059564e2214dcafef6a8e0cd9cc43d7f2a86e70ca9e647719995cb0ef231b3"
+    },
+    "qa/UNIT_28_AUTHORITY_QA.json": {
+      "path": "qa/UNIT_28_AUTHORITY_QA.json",
+      "bytes": 1670,
+      "sha256": "e6c5826d63697b57da35f2b3117652160ed2fd5652c7ec395554c1d9887c45b1"
+    },
+    "qa/UNIT_28_TERMINOLOGY_QA.md": {
+      "path": "qa/UNIT_28_TERMINOLOGY_QA.md",
+      "bytes": 2156,
+      "sha256": "e1bccf3c34d32b74d70c81d06b2ecd9ede0e37cd75d0c78a1b753cba076d62f1"
+    },
+    "qa/UNITS_01_27_MACHINE_QA.json": {
+      "path": "qa/UNITS_01_27_MACHINE_QA.json",
+      "bytes": 4254,
+      "sha256": "33fdf951354c620bbfeedc483338aa611ef577f0adcb8e509bca7361dc9bb074"
+    },
+    "source/id-ID/lecture-28.md": {
+      "path": "source/id-ID/lecture-28.md",
+      "bytes": 21279,
+      "sha256": "2a33c0e3049b0d2b140ee46b37f9fba452dca8f19c553317ddbee5c23f3768b7"
+    },
+    "source/id-ID/worksheet-28.md": {
+      "path": "source/id-ID/worksheet-28.md",
+      "bytes": 7393,
+      "sha256": "fa6b7003de697739d3a03e00cb35b42119f1fff78836de536ba32584e33a361e"
+    },
+    "source/id-ID/worksheet-28-solutions.md": {
+      "path": "source/id-ID/worksheet-28-solutions.md",
+      "bytes": 3107,
+      "sha256": "4428b2e180096f7ab719aa649f64e2caa3be03c71d1198a7c7747616b90dfbf5"
+    },
+    "source/id-ID/media-credits-unit-28.md": {
+      "path": "source/id-ID/media-credits-unit-28.md",
+      "bytes": 3774,
+      "sha256": "6155b47c596d97ea0af6f50f0c451453eca43231f8f04b4ad7617f36abfa1b52"
+    },
+    "source/id-ID/frontmatter-units-01-28.md": {
+      "path": "source/id-ID/frontmatter-units-01-28.md",
+      "bytes": 4985,
+      "sha256": "f2408d86b7eef190ca586c8041e3ac733784b91cf1bbf7445baed1b604b87d9c"
+    },
+    "00_control/TERMINOLOGY.csv": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 41134,
+      "sha256": "2a0ac96829d12afa2e07ae503ed067aa6416ca17e0acc66d2d2f7cac6ba52213"
+    },
+    "00_control/CORRECTIONS.csv": {
+      "path": "00_control/CORRECTIONS.csv",
+      "bytes": 79899,
+      "sha256": "d39f2599526d9be24b4f6b7246b6ad92b87fd9d1a6042733903288f636bc056b"
+    }
+  },
+  "authority": {
+    "lecture_root_plus_dependencies": 120,
+    "worksheet_root_plus_dependencies": 75,
+    "solution_root_plus_dependencies": 8,
+    "semantic_live_union": 164
+  },
+  "translation": {
+    "lecture_semantic_entities": 19,
+    "worksheet_exercises": 14,
+    "public_solutions": 1,
+    "negative_solution_candidates": 13,
+    "stable_ids": 44,
+    "math_nodes": 291,
+    "reader_media_positions": 4,
+    "visible_correction_disclosures": 9,
+    "visible_editorial_bridges": 2,
+    "terminology_bindings": [
+      "AGT-0250",
+      "AGT-0251",
+      "AGT-0252",
+      "AGT-0253",
+      "AGT-0254",
+      "AGT-0255",
+      "AGT-0256",
+      "AGT-0257",
+      "AGT-0258",
+      "AGT-0259",
+      "AGT-0260"
+    ],
+    "correction_bindings": [
+      "AGC-CORR-0115",
+      "AGC-CORR-0116",
+      "AGC-CORR-0117",
+      "AGC-CORR-0118",
+      "AGC-CORR-0119",
+      "AGC-CORR-0120",
+      "AGC-CORR-0121",
+      "AGC-CORR-0122",
+      "AGC-CORR-0123",
+      "AGC-CORR-0124",
+      "AGC-CORR-0125"
+    ],
+    "visible_german_residue": 0,
+    "placeholder_count_excluding_two_disclosed_source_stars": 0,
+    "secret_like_count": 0,
+    "unicode_dash_count": 0,
+    "invisible_unicode_controls": 0
+  },
+  "ast": {
+    "lecture-28.md": {
+      "headers": 24,
+      "math_nodes": 221,
+      "images": 4,
+      "stable_header_ids": 24,
+      "pandoc_warnings": 0
+    },
+    "worksheet-28.md": {
+      "headers": 17,
+      "math_nodes": 58,
+      "images": 0,
+      "stable_header_ids": 17,
+      "pandoc_warnings": 0
+    },
+    "worksheet-28-solutions.md": {
+      "headers": 2,
+      "math_nodes": 12,
+      "images": 0,
+      "stable_header_ids": 2,
+      "pandoc_warnings": 0
+    },
+    "media-credits-unit-28.md": {
+      "headers": 1,
+      "math_nodes": 0,
+      "images": 0,
+      "stable_header_ids": 1,
+      "pandoc_warnings": 0
+    },
+    "frontmatter-units-01-28.md": {
+      "headers": 2,
+      "math_nodes": 0,
+      "images": 0,
+      "stable_header_ids": 2,
+      "pandoc_warnings": 0
+    }
+  },
+  "cumulative_source": {
+    "lectures": 28,
+    "worksheets": 28,
+    "exercises": 671,
+    "public_solutions": 118,
+    "media_positions": 98
+  },
+  "rights": {
+    "cc0_media": 1,
+    "public_domain_media": 3,
+    "blanket_relicense_claim": false
+  },
+  "revision_contributors": {
+    "lecture_root": "Arbota",
+    "worksheet_root": "Arbota",
+    "solution_10": "Bocardodarapti"
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

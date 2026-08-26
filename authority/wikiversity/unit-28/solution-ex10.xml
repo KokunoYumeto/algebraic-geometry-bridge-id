@@ -1,0 +1,83 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ebene Kurve/y-x^3+x+2/Rationale Parametrisierung/Fortsetzung auf P^1/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21591</id>
+    <revision>
+      <id>1112869</id>
+      <parentid>958136</parentid>
+      <timestamp>2026-08-21T18:15:43Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112869</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1269" sha1="fkvlni5ujbkhkyj1k3wbrxgd08bsovk" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Ein Isomorphismus wird gegeben durch
+{{
+Math/display|term= x \longmapsto  {{makl| x,x^3-x-2 |}}  =(x,y)
+|SZ=.
+}}
+Auf der Ringebene entspricht dem der Einsetzungshomomorphismus
+{{
+Math/display|term=
+K[X,Y]/ {{makl| Y-X^3+X+2 |}}  \longrightarrow K[X],\, X \longmapsto X,\, Y \longmapsto X^3-X-2
+|SZ=.}}
+Dieser ist offenbar surjektiv und wohldefiniert. Da man links direkt {{math|term= Y |SZ=}} eliminieren kann, steht links der Polynomring {{math|term= K[X] |SZ=,}} sodass eine Isomorphie vorliegt.
+
+Man kann einen solchen Isomorphismus nicht zu einem Isomorphismus fortsetzen, da der projektive Abschluss der Kurve nicht isomorph zur projektiven Geraden ist. Dies liegt daran, dass der projektive Abschluss durch {{math|term= V_+ {{makl| YZ^2-X^3+XZ^2+2Z^3 |}}  |SZ=}} beschrieben wird und genau der unendlich ferne Punkte {{math|term= (0,1,0) |SZ=}} dazu kommt. Dieser Punkt ist aber in der affinen Umgebung {{math|term= D_+(Y) |SZ=}} der Nullpunkt auf der affinen Kurve {{math|term= V {{makl| Z^2-X^3+XZ^2+2Z^3 |}}  |SZ=,}} der die  Multiplizität zwei besitzt und daher nicht glatt ist.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>fkvlni5ujbkhkyj1k3wbrxgd08bsovk</sha1>
+    </revision>
+  </page>
+</mediawiki>

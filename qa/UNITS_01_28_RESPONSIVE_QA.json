@@ -1,0 +1,129 @@
+{
+  "schema": "ag-bridge-responsive-qa-v2",
+  "checked_date": "2026-08-26",
+  "status": "PASS",
+  "through_unit": 28,
+  "browser": "Codex In-app Browser",
+  "served_url": "http://127.0.0.1:49128/index.html",
+  "artifact": {
+    "path": "build/reader-id/index.html",
+    "bytes": 23412216,
+    "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10",
+    "title": "Kurva Aljabar - Unit 1-28",
+    "language": "id-ID",
+    "mathml_nodes": 10717,
+    "images": 98,
+    "broken_images": 0,
+    "images_with_empty_alt": 0,
+    "browser_console_warnings_or_errors_in_fresh_tab": 0
+  },
+  "responsive_source": {
+    "path": "source/id-ID/reader.css",
+    "bytes": 1782,
+    "sha256": "51136e5adae36e8f2f51f834cd0fa43bf5902c3152406a05af4d4e7bbcd874cc",
+    "display_math_overflow": "local horizontal auto-scroll",
+    "long_code_and_asset_path_wrapping": "overflow-wrap:anywhere; word-break:break-word"
+  },
+  "machine_qa": {
+    "path": "qa/UNITS_01_28_MACHINE_QA.json",
+    "bytes": 3083,
+    "sha256": "c666cb1186f516cead5ebd1a16de616856c99013cd94983826c974aebbdf776f"
+  },
+  "desktop": {
+    "viewport_width": 1440,
+    "viewport_height": 1000,
+    "document_client_width": 1425,
+    "document_scroll_width": 1425,
+    "body_width": 1224,
+    "body_fill_fraction": 0.8589473684210527,
+    "centering_delta_px": -0.0555572509765625,
+    "page_horizontal_overflow": false,
+    "display_math_blocks": 2697,
+    "locally_scrollable_math_blocks": 0,
+    "overflow_blocks_without_auto": 0,
+    "images_beyond_viewport": 0,
+    "visual_result": "PASS"
+  },
+  "mobile": {
+    "viewport_width": 390,
+    "viewport_height": 844,
+    "document_client_width": 375,
+    "document_scroll_width": 375,
+    "body_width": 375.1111145019531,
+    "page_horizontal_overflow": false,
+    "display_math_blocks": 2697,
+    "locally_scrollable_math_blocks": 170,
+    "display_math_overflow_style": "auto",
+    "overflow_blocks_without_auto": 0,
+    "images_beyond_viewport": 0,
+    "long_unit_28_asset_path_right_edge_px": 288.2291564941406,
+    "unit_28_heading_in_view_and_legible": true,
+    "visual_result": "PASS"
+  },
+  "topology": {
+    "browser_dom_ids": 2843,
+    "browser_dom_unique_ids": 2843,
+    "internal_anchor_links": 1520,
+    "missing_internal_anchor_targets": 0,
+    "loaded_images": 98,
+    "images_with_nonempty_alt": 98,
+    "mathml_nodes": 10717,
+    "unit_28_source_namespace_ids": 43,
+    "unit_28_media_credit_ids": 1
+  },
+  "unit_28_media": {
+    "image_count": 4,
+    "all_loaded": true,
+    "all_alt_text_nonempty": true,
+    "all_contained_at_mobile_width": true,
+    "rendered_width_px": [
+      263.1111145019531,
+      263.1041564941406,
+      263.1041564941406,
+      263.1041564941406
+    ],
+    "natural_dimensions_px": [
+      [
+        500,
+        500
+      ],
+      [
+        900,
+        594
+      ],
+      [
+        985,
+        1077
+      ],
+      [
+        1308,
+        1004
+      ]
+    ]
+  },
+  "boundary_inspection": {
+    "desktop_frontmatter_reviewed": true,
+    "mobile_frontmatter_reviewed": true,
+    "desktop_unit_28_reviewed": true,
+    "mobile_unit_28_reviewed": true,
+    "unit_28_heading": "Kuliah 28: Varietas Proyektif dan Kurva Bidang Proyektif",
+    "unit_28_worksheet_target_present": true,
+    "unit_28_solution_target_present": true,
+    "unit_28_media_credits_target_present": true
+  },
+  "verification": {
+    "all_images_embedded_and_loaded": true,
+    "all_image_alt_text_nonempty": true,
+    "desktop_and_mobile_title_and_language_match": true,
+    "desktop_body_centered": true,
+    "desktop_is_page_filling": true,
+    "desktop_has_no_pagewide_overflow": true,
+    "mobile_has_no_pagewide_overflow": true,
+    "mobile_math_overflow_is_contained": true,
+    "long_code_and_asset_paths_are_contained": true,
+    "internal_anchor_targets_complete": true,
+    "fresh_browser_console_clean": true
+  },
+  "conclusion": "The cumulative self-contained reader is centered and page-filling at desktop width, reflows at phone width without document-level horizontal overflow, confines all 170 oversized mobile mathematics blocks to local scrolling, wraps long paths, loads all 98 images with nonempty alternative text, closes all 1,520 internal anchors, and produces no browser warning or error.",
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

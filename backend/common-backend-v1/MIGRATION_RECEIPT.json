@@ -1,12 +1,12 @@
 {
   "coverage": {
-    "native_ids_preserved": 20570,
-    "native_records": 20570,
-    "strict_source_profile_witness_files": 54,
-    "strict_source_profiles_bound": 7561,
-    "strict_source_profiles_eligible": 7561,
+    "native_ids_preserved": 21358,
+    "native_records": 21358,
+    "strict_source_profile_witness_files": 56,
+    "strict_source_profiles_bound": 7790,
+    "strict_source_profiles_eligible": 7790,
     "strict_source_profiles_missing": 0,
-    "through_unit": 27
+    "through_unit": 28
   },
   "credentials_recorded": false,
   "materialization": {
@@ -16,50 +16,50 @@
     "target_records_materialized": false,
     "virtual_stream_assembled_twice": true
   },
-  "migration_id": "ag-bridge-id-units-01-27-common-backend-v1",
+  "migration_id": "ag-bridge-id-units-01-28-common-backend-v1",
   "migration_mode": "additive zero-copy adapter",
   "public_artifacts": [
     {
       "concept_doi": "10.5281/zenodo.22059686",
-      "doi": "10.5281/zenodo.22104692",
+      "doi": "10.5281/zenodo.22105836",
       "files": [
         {
-          "bytes": 14826919,
-          "path": "release/unit-27/kurva-aljabar-id-unit-27.pdf",
-          "sha256": "766f6b8ccede9ecb1b6524d9652595f188d6f17ef22fab4bf6b886b03a9e0d65"
+          "bytes": 15820212,
+          "path": "release/unit-28/kurva-aljabar-id-unit-28.pdf",
+          "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6"
         },
         {
-          "bytes": 22205344,
-          "path": "release/unit-27/kurva-aljabar-id-unit-27.html",
-          "sha256": "8edd2fc31c30e7e5454f31cf18b6f3f117e1a7108766c839a33cf896cdd24b66"
+          "bytes": 23412216,
+          "path": "release/unit-28/kurva-aljabar-id-unit-28.html",
+          "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10"
         },
         {
-          "bytes": 18894931,
-          "path": "release/unit-27/kurva-aljabar-id-unit-27-source.zip",
-          "sha256": "40cdc5808ae075655db6b5cd655bfd81c198ba5ffe34b0060dd099198e325afc"
+          "bytes": 19948358,
+          "path": "release/unit-28/kurva-aljabar-id-unit-28-source.zip",
+          "sha256": "62c0c6c40415ad9642c5f454cdd0209b265edb9fd5bec96192950b36cc4ad957"
         },
         {
-          "bytes": 27477901,
-          "path": "release/unit-27/kurva-aljabar-id-unit-27-authority-witnesses.zip",
-          "sha256": "f81646043e69654d4b121413e4031cc5409bb6e32ce80396f2f4b2189fd78b65"
+          "bytes": 28614767,
+          "path": "release/unit-28/kurva-aljabar-id-unit-28-authority-witnesses.zip",
+          "sha256": "e290e0426d7237634626ea21e93f30fb378eb79257cd811eb86ec172a717dc95"
         },
         {
-          "bytes": 41655,
-          "path": "release/unit-27/BUILD_RECEIPT-unit-27.json",
-          "sha256": "47c6953b90483a3ab263b940f38586f445a1ef723319d45914771e2dc9abc9a0"
+          "bytes": 43674,
+          "path": "release/unit-28/BUILD_RECEIPT-unit-28.json",
+          "sha256": "5a843fdc6cb79ab3329e1f316027968e14ab2a0b765ff3505ad2af85003df5c3"
         },
         {
-          "bytes": 3992,
-          "path": "release/unit-27/LICENSE-unit-27.md",
-          "sha256": "036da7cfde72a232324d5138b462a58bc40120f30dd2c0dfc6814e00c9c5ce7f"
+          "bytes": 4072,
+          "path": "release/unit-28/LICENSE-unit-28.md",
+          "sha256": "f1fd4476ffeb0816f6336ccc96b5357c1b8dcb624cd34e9facac428f74c1b093"
         },
         {
           "bytes": 4924,
-          "path": "release/unit-27/ZENODO_FILE_MANIFEST-unit-27.json",
-          "sha256": "6a8470f9aadaa3a51f591b69c2614b325f1f85272a5d15391fd71fb18f93d73d"
+          "path": "release/unit-28/ZENODO_FILE_MANIFEST-unit-28.json",
+          "sha256": "96406477167a8fdfffa20e2c434f25d9ea15f8374029e693c1ce45a2e2dae02e"
         }
       ],
-      "publication_uri": "https://zenodo.org/records/22104692",
+      "publication_uri": "https://zenodo.org/records/22105836",
       "receipt_public_readback_required_by_release_workflow": true,
       "repository": "Zenodo"
     }
@@ -70,90 +70,90 @@
     "dataset_id": "algebraic-geometry-bridge-id-native-backend",
     "dataset_version": "1.2.0",
     "manifest": {
-      "bytes": 15347,
-      "path": "backend/units-01-27/MANIFEST.json",
-      "sha256": "b176a5ab161cc440ffae65fcd341828732970404bc22035b84eeb88edb0a781a"
+      "bytes": 10649,
+      "path": "backend/units-01-28/MANIFEST.json",
+      "sha256": "52ce204f9f0843bb8c7598a66073699ba2a139d29cfa741d8dc6a0d509a9c4a2"
     },
-    "record_count": 20570,
+    "record_count": 21358,
     "record_schema_version": "1.0.0",
     "records_jsonl": {
-      "bytes": 33010903,
-      "path": "backend/units-01-27/records.jsonl",
-      "sha256": "e12321f1c4724dac486ef7512462888647f2c3b30ae6a5d40022329dfa2a28f1"
+      "bytes": 34195566,
+      "path": "backend/units-01-28/records.jsonl",
+      "sha256": "94e9c9d0859fc30cfa46a9cc08ed2babb7db07b586a3b5985a91130b096261ef"
     },
     "schema_name": "ag-bridge-backend-export-manifest-v2",
-    "scope": "cumulative Units 1--27",
-    "serialization": "canonical JSON Lines: records and keys sorted, compact separators, CRLF; frozen Units 1--24 records carried forward byte-for-byte",
+    "scope": "cumulative Units 1--28",
+    "serialization": "canonical JSON Lines: records and keys sorted, compact separators, CRLF; frozen Units 1--27 records carried forward byte-for-byte",
     "tables": {
-      "artifact": 221,
-      "asset": 94,
-      "concept": 244,
-      "correction": 135,
+      "artifact": 232,
+      "asset": 98,
+      "concept": 255,
+      "correction": 146,
       "course": 1,
-      "edition": 17,
-      "exercise": 657,
+      "edition": 18,
+      "exercise": 671,
       "program": 1,
-      "qa_event": 57,
-      "relation": 9729,
+      "qa_event": 61,
+      "relation": 10200,
       "resource": 4,
-      "rights": 99,
-      "segment": 7478,
-      "solution": 117,
-      "term": 249,
-      "unit": 1467
+      "rights": 103,
+      "segment": 7677,
+      "solution": 118,
+      "term": 260,
+      "unit": 1513
     },
-    "through_unit": 27
+    "through_unit": 28
   },
   "tables": {
     "accessibility": 0,
     "aliases": 0,
     "alignments": 0,
     "artifact_members": 0,
-    "artifacts": 221,
-    "asset_revisions": 94,
-    "assets": 94,
+    "artifacts": 232,
+    "asset_revisions": 98,
+    "assets": 98,
     "build_recipes": 0,
-    "concepts": 244,
+    "concepts": 255,
     "correction_bindings": 0,
     "correction_claims": 0,
-    "corrections": 135,
+    "corrections": 146,
     "courses": 1,
-    "editions": 17,
+    "editions": 18,
     "experiments": 0,
-    "file_revisions": 54,
-    "files": 54,
+    "file_revisions": 56,
+    "files": 56,
     "interactives": 0,
     "module_members": 0,
     "modules": 0,
     "occurrences": 0,
     "placeholders": 0,
     "programs": 1,
-    "qa_events": 57,
-    "relations": 9888,
+    "qa_events": 61,
+    "relations": 10370,
     "release_snapshots": 0,
     "resources": 4,
-    "rights": 99,
-    "rights_assignments": 20471,
+    "rights": 103,
+    "rights_assignments": 21255,
     "rights_rule_members": 0,
     "rights_rules": 0,
     "route_members": 0,
     "routes": 0,
-    "segment_variants": 7478,
-    "segments": 7478,
+    "segment_variants": 7677,
+    "segments": 7677,
     "term_variants": 0,
-    "terms": 249,
-    "units": 2243
+    "terms": 260,
+    "units": 2304
   },
   "target": {
     "dataset_id": "urn:uuid:32f215a0-8924-5fb6-93e4-7372995100e9",
-    "dataset_version": "units-01-27.native-1.2.0",
-    "record_count": 48882,
+    "dataset_version": "units-01-28.native-1.2.0",
+    "record_count": 50672,
     "schema_name": "interlanguage-math-modular-backend",
     "schema_sha256": "3de8d107b1c75db0f8d60c42ef7e3488bc3fcc93f72e955def71a771475cf2b2",
     "schema_version": "1.0.0",
-    "virtual_dataset_json_sha256": "66c6220d9b42865584fad7766735af1699222837d2b17c15bc768b3237b09571",
-    "virtual_records_jsonl_bytes": 78444686,
-    "virtual_records_jsonl_sha256": "46ac7847dc395daafa3737c09b29722e2c90febad5f496f570c7e16e76ff8f20"
+    "virtual_dataset_json_sha256": "03b4fda918d2846dd64f4030324f8c657a6a3105b35d2911ad42e478f1f2d671",
+    "virtual_records_jsonl_bytes": 81258596,
+    "virtual_records_jsonl_sha256": "3bcebd137c6dca1a4705f6c1660043f9198faeef42faa1485a93e2686bf33b9c"
   },
   "transformation": {
     "adapter": "scripts/generate_common_backend_v1_receipts.py",
@@ -197,11 +197,11 @@
     "canonical_jsonl": true,
     "deterministic_double_replay": true,
     "foreign_key_closure": true,
-    "foreign_keys_checked": 116400,
+    "foreign_keys_checked": 120703,
     "global_id_uniqueness": true,
     "lossless_native_reverse": true,
-    "native_reverse_bytes": 33010903,
-    "native_reverse_sha256": "e12321f1c4724dac486ef7512462888647f2c3b30ae6a5d40022329dfa2a28f1",
+    "native_reverse_bytes": 34195566,
+    "native_reverse_sha256": "94e9c9d0859fc30cfa46a9cc08ed2babb7db07b586a3b5985a91130b096261ef",
     "result": "pass",
     "schema_draft": "2020-12",
     "strict_target_schema": true,
@@ -209,7 +209,7 @@
       "bytes": 8740,
       "path": "qa/TERMINOLOGY_QA_RECEIPT.json",
       "result": "pass",
-      "sha256": "f9b7e8839da7789385d42cb014b723a33da8da355083dc18f552939a61d729cf"
+      "sha256": "dbc741e599ac2a3beef206b62c37daecbcd3c07887c224a6e9c8a768594e832e"
     }
   }
 }

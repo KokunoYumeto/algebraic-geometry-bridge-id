@@ -1,0 +1,179 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 28</title>
+    <ns>106</ns>
+    <id>50734</id>
+    <revision>
+      <id>1052516</id>
+      <parentid>1019437</parentid>
+      <timestamp>2025-08-27T13:52:03Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1052516</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4266" sha1="obljywdaezn3eav79axossk70ni5joq" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesungsgestaltung|28|
+
+{{Zwischenüberschrift|Projektive Varietäten}}
+
+{{:Projektive Varietäten/Affine Überdeckung/Einführung/Textabschnitt}}
+
+Diese Aussage hat die unmittelbare Konsequenz, dass sich {{Anführung|lokale Konzepte|SZ=,}} die wir für affine Varietäten entwickelt haben, sofort auf projektive Varietäten übertragen. Für Eigenschaften, die für oder in einem Punkt gelten sollen, kann man sich sofort auf eine offene affine Umgebung des Punktes zurückziehen. Dies gilt beispielsweise für Konzepte wie Glattheit, Normalität oder den Begriff der regulären Funktion.
+
+{{Zwischenüberschrift|Algebraische Funktionen und Morphismen}}
+
+Mit dem zuletzt bewiesenen Resultat können wir auf einer projektiven Varietät wieder definieren, was eine reguläre oder algebraische Funktion sein soll.
+
+
+{{inputdefinition|Projektive Varietät/Als abgeschlossene Teilmenge/Algebraische Funktion/Definition|}}
+
+Zu einer offenen Menge {{math|term= U|SZ=}} bildet die Menge der auf {{math|term= U|SZ=}} definierten regulären Funktionen wieder eine kommutative {{math|term= K|SZ=-}}Algebra, die wieder mit {{mathl|term= {{op:Schnittring|U|}}|SZ=}} bezeichnet wird. Von nun an verstehen wir unter einer projektiven Varietät ein projektives Nullstellengebilde zusammen mit der induzierten Zariski-Topologie und versehen mit der {{Stichwort|Strukturgarbe|SZ=}} {{math|term= {{op:Strukturgarbe|}}|SZ=}} der regulären Funktionen. Diese Konzepte übertragen sich sofort auf offene Teilmengen, was zum Begriff der quasiprojektiven Varietät führt.
+
+{{
+inputdefinition
+|Varietäten/K/Quasiprojektive Varietät/Definition||
+}}
+
+Insbesondere ist eine projektive Varietät, aber auch eine affine Varietät quasiprojektiv. Letzteres folgt daraus, dass man eine affine Varietät 
+{{
+Relationskette
+|Y
+|\subseteq| {{op:Affiner Raum|n|K}}
+||
+||
+||
+|SZ=
+}}
+fortsetzen kann zu einer projektiven Varietät
+{{
+Relationskette
+| \tilde{Y} 
+|\subseteq| {{op:Projektiver Raum|n|K}}
+||
+||
+||
+|SZ=,
+}}
+in der {{math|term= Y|SZ=}} eine offene Teilmenge ist. Auch die Definition von Morphismus lässt sich wortgleich auf die allgemeinere Situation übertragen.
+{{
+inputdefinition
+|Quasiprojektive Varietäten/K/Morphismus/Definition||
+}}
+
+{{Zwischenüberschrift|Homogenisierung und projektiver Abschluss}}
+
+Betrachten wir die Hyperbel
+{{
+Relationskette
+| V(XY-1) 
+|\subset| {{op:Affine Ebene|K}} 
+|\subset| {{op:Projektive Ebene|K}}
+||
+||
+|SZ=.
+}}
+Die Hyperbel ist abgeschlossen in der affinen Ebene, aber nicht in der projektiven Ebene. Dies sieht man, wenn man die affine Ebene als {{mathl|term= V(Z-1)|SZ=}} in den dreidimensionalen Raum einbettet und die durch die Punkte auf der Hyperbel definierten Geraden durch den Nullpunkt betrachtet. Diese Geraden neigen sich zunehmend stärker, und scheinen gegen die {{math|term= x|SZ=-}}Achse und gegen die {{math|term= y|SZ=-}}Achse zu konvergieren. Dies ist in der Tat der Fall, was auch die algebraische Berechnung ergibt.
+
+{{inputdefinition|Polynomring/Homogenisierung zu einem Ideal/Definition|}}
+
+Man beachte, dass es hier im Allgemeinen nicht ausreicht, nur die Homogenisierungen aus einem Ideal-Erzeugendensystem aus {{math|term={{ideala}}|SZ=}} zu betrachten.
+
+{{inputdefinition|Affine Varietät/Projektiver Abschluss/Definition|}}
+
+{{inputfaktbeweis|Affine Varietät/Projektiver Abschluss/Beschreibung mit Homogenisierung/Fakt|Satz||}}
+
+{{Zwischenüberschrift|Projektive ebene Kurven}}
+
+{{:Ebene projektive Kurve/Einführung/Textabschnitt}}
+
+{{
+inputbild
+|Soccerball|svg| 200px {{!}} right {{!}}  
+|Autor=
+|Benutzer=Ranveig
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{
+inputbild
+|Torus illustration|png| 200px {{!}} right {{!}} 
+|Zusname=Torus_illustration 
+|Autor=Oleg Alexandrov
+|Benutzer=
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{
+inputbild
+|Double torus illustration|png| 200px {{!}} right {{!}} 
+|Zusname=Double_torus_illustration
+|Autor=Oleg Alexandrov
+|Benutzer=
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{
+inputbild
+|Sphere with three handles|png| 200px {{!}} right {{!}}  
+|Zusname=Sphere_with_three_handles
+|Autor=Oleg Alexandrov
+|Benutzer=
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+
+{{
+inputbemerkung
+|Glatte projektive Kurven/C/Kurzübersicht zur topologischen Gestalt/Bemerkung||
+}}
+
+}}</text>
+      <sha1>obljywdaezn3eav79axossk70ni5joq</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -66,6 +66,13 @@ PDF_ASSET_REPLACEMENTS = {
         "authority/assets/Concentric_Circles-500.png",
 }
 PDF_GENERATED_ASSETS = {
+    "authority/assets/Soccerball.svg": {
+        "markdown_before": "](authority/assets/Soccerball.svg)",
+        "markdown_after": "](Soccerball-pdf.png)",
+        "staged_name": "Soccerball-pdf.png",
+        "magick_before_source": ["-background", "none", "-density", "216"],
+        "magick_after_source": ["-resize", "1200x1200", "-strip"],
+    },
     "authority/assets/Tangent_to_a_curve.svg": {
         "markdown_before": "](authority/assets/Tangent_to_a_curve.svg)",
         "markdown_after": "](Tangent_to_a_curve-pdf.png)",
@@ -359,7 +366,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Sembilan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-09.pdf",
         )
-    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27):
+    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30):
         number_words = {
             10: "Sepuluh",
             11: "Sebelas",
@@ -379,6 +386,9 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             25: "Dua puluh lima",
             26: "Dua puluh enam",
             27: "Dua puluh tujuh",
+            28: "Dua puluh delapan",
+            29: "Dua puluh sembilan",
+            30: "Tiga puluh",
         }
         unit_sources: list[Path] = [
             SOURCE_DIR / f"frontmatter-units-01-{through:02d}.md"
@@ -394,7 +404,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
         unit_sources.append(SOURCE_DIR / "media-credits.md")
         unit_sources.extend(
             SOURCE_DIR / f"media-credits-unit-{unit:02d}.md"
-            for unit in (*range(2, 10), *range(11, 28))
+            for unit in (*range(2, 10), *range(11, 31))
             if unit <= through
         )
         return (
@@ -403,7 +413,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             f"{number_words[through]} kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             f"algebraic-geometry-bridge-id-units-01-{through:02d}.pdf",
         )
-    raise ValueError("only contiguous scopes --through 1 through --through 27 are supported")
+    raise ValueError("only contiguous scopes --through 1 through --through 30 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -575,6 +585,34 @@ def main() -> int:
             for spec in required_generated_assets.values():
                 text = text.replace(
                     str(spec["markdown_before"]), str(spec["markdown_after"])
+                )
+            if source.name == "lecture-28.md":
+                # Keep each Unit 28 topology figure with its immediately
+                # following component-credit paragraph. Pandoc's implicit
+                # figures otherwise float all four images past all four
+                # credits, which breaks the reader's attribution surface.
+                unit_28_media_block = re.compile(
+                    r"(?ms)(!\[[^\]\n]+\]\((?:Soccerball-pdf\.png|"
+                    r"authority/assets/(?:Torus_illustration\.png|"
+                    r"Double_torus_illustration\.png|"
+                    r"Sphere_with_three_handles\.png))\)\n\n\*.*?\*)"
+                )
+                media_blocks = unit_28_media_block.findall(text)
+                if len(media_blocks) != 4:
+                    raise RuntimeError(
+                        "Unit 28 PDF media/credit topology is not the exact four-block closure"
+                    )
+                text = unit_28_media_block.sub(
+                    lambda match: (
+                        r"\floatplacement{figure}{H}" + "\n\n"
+                        r"\begingroup\samepage" + "\n\n"
+                        + match.group(1)
+                        + "\n\n"
+                        + r"\endgroup"
+                        + "\n\n"
+                        + r"\floatplacement{figure}{htbp}"
+                    ),
+                    text,
                 )
             text = text.replace("★", r"\sourceblackstar{}")
             text = text.replace("κ", r"$\kappa$")

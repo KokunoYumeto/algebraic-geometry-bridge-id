@@ -1,0 +1,2186 @@
+Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 28/latex
+Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 28/latex
+
+\setcounter{section}{28}
+
+
+  \zwischenueberschrift{Projektive Varietäten}
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Eine \definitionswort {projektive Varietät}{} ist eine
+\definitionsverweis {Zariski-abgeschlossene}{}{}
+Teilmenge
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ V_+({\mathfrak a})
+}
+
+{ \subseteq} { {\mathbb P}^{ n }_{ K}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{,}
+wobei ${\mathfrak a}$ ein
+\definitionsverweis {homogenes Ideal}{}{}
+in
+
+\mathl{K[X_0,X_1 , \ldots ,  X_n]}{} ist.
+
+
+}
+
+
+Eine projektive Varietät $Y$ ist also die Nullstellenmenge im projektiven Raum einer
+\zusatzklammer {endlichen} {} {}
+Menge von homogenen Polynomen.
+
+
+Über die induzierte Topologie ist eine projektive Varietät wieder mit einer Zariski-Topologie versehen. Die offenen Mengen haben wieder die Form
+
+\mathl{D_+({\mathfrak b})}{} zu einem homogenen Ideal ${\mathfrak b}$ aus
+
+\mathl{K[X_0,X_1 , \ldots , X_n]}{} bzw. aus dem Restklassenring
+
+\mathl{K[X_0,X_1 , \ldots , X_n]/{\mathfrak a}}{,} den man auch den \stichwort {homogenen Koordinatenring} {} zu
+
+\mathl{V_+({\mathfrak a})}{} nennt. Insbesondere definiert jedes homogene Element
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ \in }{ K[X_0,X_1 , \ldots , X_n]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine offene Menge
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ D_+(F)
+}
+
+{ \subseteq }{ Y
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+\inputfaktbeweis
+
+{Projektive Varietät/Wird überdeckt von affinen Varietäten/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Y
+}
+
+{ \subseteq }{ {\mathbb P}^{ n }_{ K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine
+\definitionsverweis {projektive Varietät}{}{.}}
+
+\faktfolgerung {Dann liefern die affinen Räume
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ D_+(X_i)
+}
+
+{ \cong }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+{ \subset }{ {\mathbb P}^{ n }_{ K}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+affine Varietäten
+
+
+\mathdisp {D_+(X_i) \cap Y} { , }
+
+
+die $Y$ überdecken.}
+
+\faktzusatz {Insbesondere gibt es zu jedem Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ Y
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und jeder offenen Umgebung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ U
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+affine offene Umgebungen von $P$ innerhalb von $U$.}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Es ist
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ D_+(X_i)
+}
+
+{ =} { D_+(X_i) \cap Y
+}
+
+{ \cong} { { {\mathbb A}_{  K }^{  n   } } \cap Y
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{,}
+wobei links die zugehörige offene Menge in $Y$ steht und rechts die entsprechende offene Teilmenge des projektiven Raumes. Daher ist
+
+\mathl{D_+(X_i) \cap Y}{} eine abgeschlossene
+\zusatzklammer {siehe
+Aufgabe 28.2} {} {}
+Teilmenge des affinen Raumes
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ D_+(X_i)
+}
+
+{ \cong }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und als solche selbst eine affine Varietät. Da die \mathind { D_+(X_i)  } { i=0 , \ldots ,  n   }{,} den projektiven Raum überdecken, gilt dies auch für die Durchschnitte mit $Y$.
+
+
+}
+
+
+Diese Aussage hat die unmittelbare Konsequenz, dass sich \anfuehrung{lokale Konzepte}{,} die wir für affine Varietäten entwickelt haben, sofort auf projektive Varietäten übertragen. Für Eigenschaften, die für oder in einem Punkt gelten sollen, kann man sich sofort auf eine offene affine Umgebung des Punktes zurückziehen. Dies gilt beispielsweise für Konzepte wie Glattheit, Normalität oder den Begriff der regulären Funktion.
+
+
+  \zwischenueberschrift{Algebraische Funktionen und Morphismen}
+
+
+Mit dem zuletzt bewiesenen Resultat können wir auf einer projektiven Varietät wieder definieren, was eine reguläre oder algebraische Funktion sein soll.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Y
+}
+
+{ \subseteq }{ {\mathbb P}^{ n }_{ K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine
+\definitionsverweis {projektive Varietät}{}{,}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{U
+}
+
+{ \subseteq }{ Y
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine offene Teilmenge und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ U
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ein Punkt. Dann heißt eine Funktion
+\maabbdisp {f} { U } { {\mathbb A}^{1}_{ K } = K
+} {}
+\definitionswort {algebraisch}{}
+\zusatzklammer {oder \definitionswort {regulär}{} oder \definitionswort {polynomial}{}} {} {}
+im Punkt $P$, wenn es eine offene affine Umgebung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{P
+}
+
+{ \in} { V
+}
+
+{ \subseteq} { U
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+derart gibt, dass die auf $V$ eingeschränkte Funktion
+
+\mathl{f{{|}}_V}{}
+\definitionsverweis {algebraisch}{}{}
+im Punkt $P$ ist. $f$ heißt \definitionswort {algebraisch}{} auf $U$, wenn $f$ in jedem Punkt aus $U$ algebraisch ist.
+
+
+}
+
+
+Zu einer offenen Menge $U$ bildet die Menge der auf $U$ definierten regulären Funktionen wieder eine kommutative $K$-Algebra, die wieder mit
+
+\mathl{\Gamma (U, {\mathcal O} )}{} bezeichnet wird. Von nun an verstehen wir unter einer projektiven Varietät ein projektives Nullstellengebilde zusammen mit der induzierten Zariski-Topologie und versehen mit der \stichwort {Strukturgarbe} {} ${\mathcal O}$ der regulären Funktionen. Diese Konzepte übertragen sich sofort auf offene Teilmengen, was zum Begriff der quasiprojektiven Varietät führt.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Eine offene Teilmenge einer
+\definitionsverweis {projektiven Varietät}{}{}
+zusammen mit der induzierten Zariski-Topologie und versehen mit der Strukturgarbe der algebraischen Funktionen nennt man eine \definitionswort {quasiprojektive Varietät}{.}
+
+
+}
+
+
+Insbesondere ist eine projektive Varietät, aber auch eine affine Varietät quasiprojektiv. Letzteres folgt daraus, dass man eine affine Varietät
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Y
+}
+
+{ \subseteq }{ { {\mathbb A}_{ K }^{ n  } }
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+fortsetzen kann zu einer projektiven Varietät
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \tilde{Y}
+}
+
+{ \subseteq }{ {\mathbb P}^{n}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+in der $Y$ eine offene Teilmenge ist. Auch die Definition von Morphismus lässt sich wortgleich auf die allgemeinere Situation übertragen.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {quasiprojektive Varietäten}{}{}
+über einem
+\definitionsverweis {algebraisch abgeschlossenen Körper}{}{}
+und sei
+\maabbdisp {{\psi}} {Y } { X
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{.}
+Dann nennt man ${\psi}$ einen \definitionswort {Morphismus}{}
+\zusatzklammer {von quasiprojektiven Varietäten} {} {,}
+wenn für jede offene Teilmenge
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ U
+}
+
+{ \subseteq }{ X
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und jede
+\definitionsverweis {algebraische Funktion}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{f
+}
+
+{ \in }{ \Gamma ( U , {\mathcal O}_X )
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gilt, dass die zusammengesetzte Funktion
+
+
+\mathdisp {f \circ {\psi} : {\psi}^{-1}(U) \longrightarrow U \stackrel{f}{\longrightarrow} {\mathbb A}^{1}_{K}} {  }
+
+
+zu
+
+\mathl{\Gamma ( {\psi}^{-1}(U), {\mathcal O}_Y )}{} gehört.
+
+
+}
+
+
+  \zwischenueberschrift{Homogenisierung und projektiver Abschluss}
+
+
+Betrachten wir die Hyperbel
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V(XY-1)
+}
+
+{ \subset }{ {\mathbb A}^{2}_{K}
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Die Hyperbel ist abgeschlossen in der affinen Ebene, aber nicht in der projektiven Ebene. Dies sieht man, wenn man die affine Ebene als
+
+\mathl{V(Z-1)}{} in den dreidimensionalen Raum einbettet und die durch die Punkte auf der Hyperbel definierten Geraden durch den Nullpunkt betrachtet. Diese Geraden neigen sich zunehmend stärker, und scheinen gegen die $x$-Achse und gegen die $y$-Achse zu konvergieren. Dies ist in der Tat der Fall, was auch die algebraische Berechnung ergibt.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Zu einem
+\definitionsverweis {Ideal}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak a}
+}
+
+{ \subseteq }{ K[X_1 , \ldots , X_n]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+heißt das
+\definitionsverweis {Ideal}{}{}
+in
+
+\mathl{K[X_1 , \ldots ,  X_n,Z]}{,} das von allen
+\definitionsverweis {Homogenisierungen}{}{}
+von Elementen aus ${\mathfrak a}$ erzeugt wird, die \definitionswort {Homogenisierung}{} ${\mathfrak a}^h$ des Ideals ${\mathfrak a}$.
+
+
+}
+
+
+Man beachte, dass es hier im Allgemeinen nicht ausreicht, nur die Homogenisierungen aus einem Ideal-Erzeugendensystem aus ${\mathfrak a}$ zu betrachten.
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Zu einer affinen Varietät
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V({\mathfrak a})
+}
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+{ \subseteq }{ {\mathbb P}^{ n }_{ K}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+heißt der Zariski-Abschluss von \mathkon  {  V({\mathfrak a})  }  {  in  }  {  {\mathbb P}^{ n }_{ K}   }{ } der \definitionswort {projektive Abschluss}{} von
+
+\mathl{V({\mathfrak a})}{.}
+
+
+}
+
+
+\inputfaktbeweis
+
+{Affine Varietät/Projektiver Abschluss/Beschreibung mit Homogenisierung/Fakt}
+
+{Satz}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{V
+}
+
+{ = }{ V({\mathfrak a})
+}
+
+{ \subseteq }{ { {\mathbb A}_{  K }^{  n   } }
+}
+
+{ \cong   }{ D_+(X_0)
+}
+
+{   }{
+}
+
+}
+{}{}{}
+eine
+\definitionsverweis {affine Varietät}{}{.}}
+
+\faktfolgerung {Dann wird der
+\definitionsverweis {projektive Abschluss}{}{}
+von
+
+\mathl{V( {\mathfrak a} )}{} in ${\mathbb P}^{ n }_{ K}$ durch
+
+\mathl{V_+({\mathfrak b})}{} beschrieben,}
+
+\faktzusatz {wobei ${\mathfrak b}$ die
+\definitionsverweis {Homogenisierung}{}{}
+von ${\mathfrak a}$ in \mathlk{K[X_0, X_1 , \ldots , X_n]}{} bezeichnet.}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Ein Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ = }{ \left(  x_1   , \,   \ldots  , \,   x_n                 \right)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+in ${ {\mathbb A}_{  K }^{  n   } }$ definiert den Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \hat{P}
+}
+
+{ = }{ \left(  1   , \,   x_1  , \,   \ldots , \,   x_n                \right)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+in ${\mathbb P}^{ n }_{ K}$. Für ein Polynom
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ \in }{ K[X_1 , \ldots , X_n]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und $P$ gilt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F(P)
+}
+
+{ = }{ \hat{  F   } (\hat{P})
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+für die Homogenisierung $\hat{  F   }$. Daher gilt insbesondere
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \hat{  F   } (\hat{P})
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+für alle Punkte
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ P
+}
+
+{ \in }{ V({\mathfrak a})
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und alle homogenen Polynome aus dem homogenisierten Ideal ${\mathfrak b}$. Es ist also
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V({\mathfrak a})
+}
+
+{ \subseteq }{ V_+({\mathfrak b})
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Damit liegt insgesamt das kommutative Diagramm
+
+
+\mathdisp {\begin{matrix}
+V({\mathfrak a}) & \stackrel{  }{\longrightarrow} & V_+ ({\mathfrak b})
+
+&  \\ \downarrow & & \downarrow  & \\  { {\mathbb A}_{  K }^{  n   } }  & \stackrel{  }{\longrightarrow} &  {\mathbb P}^{ n }_{ K}
+& \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+
+vor
+\zusatzklammer {wobei alle Abbildungen injektiv sind} {} {.}
+Der
+\definitionsverweis {projektive Abschluss}{}{} von
+
+\mathl{V({\mathfrak a})}{} wird von einer Menge
+
+\mathl{V_+({\mathfrak c})}{} mit einem homogenen Ideal ${\mathfrak c}$ und mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V({\mathfrak a})
+}
+
+{ \subseteq }{ V_+({\mathfrak c})
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V_+({\mathfrak c})
+}
+
+{ \subseteq }{ V_+({\mathfrak b})
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+beschrieben.
+
+
+Wir haben die Inklusion
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V_+({\mathfrak b})
+}
+
+{ \subseteq }{ V_+({\mathfrak c})
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+zu zeigen, was aus
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathfrak c}
+}
+
+{ \subseteq }{ \operatorname{rad} \, ({\mathfrak b})
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+folgt. Da beides homogene Ideale sind, kann man sich auf
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ \in }{ {\mathfrak c}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+homogen beschränken. Wir schreiben
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F
+}
+
+{ = }{ X_0^rG
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+sodass $G$ kein Vielfaches von $X_0$ ist. Da $F$ auf
+
+\mathl{V({\mathfrak a})}{} verschwindet und da $X_0$ eingeschränkt auf
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V({\mathfrak a})
+}
+
+{ \subseteq }{ D_+(X_0)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+keine Nullstelle besitzt, folgt, dass $G$ auf
+
+\mathl{V({\mathfrak a})}{} verschwindet. Wir können also annehmen, dass $F$ kein Vielfaches von $X_0$ ist. Dann ist die
+\definitionsverweis {Dehomogenisierung}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \tilde{  F  }
+}
+
+{ =} { F(1,X_1, \ldots, X_n)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+die Nullfunktion auf
+
+\mathl{V({\mathfrak a})}{} und besitzt den gleichen Grad wie $F$. Nach dem
+Hilbertschen Nullstellensatz
+gehört $\tilde{  F  }$ zu ${\mathfrak a}$
+\zusatzklammer {wir können annehmen, dass ${\mathfrak a}$ ein Radikal ist} {} {.}
+Dann gehört aber auch $F$, das sich aus $\tilde{  F  }$ durch Homogenisieren ergibt, zur Homogenisierung von ${\mathfrak a}$, also zu ${\mathfrak b}$.
+
+
+}
+
+
+  \zwischenueberschrift{Projektive ebene Kurven}
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Eine \definitionswort {projektive ebene Kurve}{} ist die Nullstellenmenge
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V_+(F)
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+zu einem homogenen nicht-konstanten Polynom
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+
+
+}
+
+
+Zu einer ebenen affinen Kurve
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V(F)
+}
+
+{ \subset }{ {\mathbb A}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+liegt insgesamt die Situation
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{V
+}
+
+{ =} { V(F)
+}
+
+{ \subset} { {\mathbb A}^{2}_{K}
+}
+
+{ \subset} { {\mathbb P}^{2}_{K}
+}
+
+{ } {
+}
+
+}
+{}{}{}
+vor. Den
+\zusatzklammer {Zariski-topologischen} {} {}
+Abschluss von $V$ in ${\mathbb P}^{2}_{K}$ nennt man den \stichwort {projektiven Abschluss} {} der Kurve.
+
+
+\inputfaktbeweis
+
+{Ebene projektive Kurve/Gleichung für projektiven Abschluss mit Homogenisierung/Fakt}
+
+{Korollar}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{.}
+Zu einer
+\definitionsverweis {ebenen affinen Kurve}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{V
+}
+
+{ =} { V(G)
+}
+
+{ \subseteq} { {\mathbb A}^{2}_{K}
+}
+
+{ \subseteq} { {\mathbb P}^{2}_{K}
+}
+
+{ } {
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{G
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+wird}
+
+\faktfolgerung {der
+\definitionsverweis {Zariski-Abschluss}{}{}
+von $V$ in ${\mathbb P}^{2}_{K}$ durch
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ C
+}
+
+{ = }{ V_+(H)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+beschrieben, wobei $H$ die
+\definitionsverweis {Homogenisierung}{}{}
+von $G$ in
+
+\mathl{K[X,Y,Z]}{} bezeichnet.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Dies folgt direkt aus
+Satz 28.8,
+da
+nach Aufgabe *****
+die Homogenisierung eines Hauptideals das durch die Homogenisierung des Erzeugers erzeugte Hauptideal ist.
+
+
+}
+
+
+Die vorstehende Aussage gilt nicht ohne die Voraussetzung, dass der Körper algebraisch abgeschlossen ist, siehe
+Aufgabe *****.
+
+
+\inputbemerkung
+
+{}
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{G
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit der Homogenisierung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Man gewinnt $G$ aus $F$ zurück, indem man $Z$ durch $1$ ersetzt. $G$ beschreibt dann den Durchschnitt
+
+\mathl{D_+(Z) \cap V_+(F)}{.} Die beiden anderen affinen Ausschnitte, also
+
+
+\mathdisp {D_+(X) \cap V_+(F) \text{   und } D_+(Y) \cap V_+(F)} { , }
+
+
+sind gleichberechtigt und liefern insbesondere affine Umgebungen für die Punkte von
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V_+(F)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+die nicht in
+
+\mathl{D_+(Z)}{} liegen.
+
+
+Um beispielsweise die Glattheit in einem Punkt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{P
+}
+
+{ \in }{ C
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+nachzuweisen wählt man sich eine offene affine Umgebung
+\zusatzklammer {am besten eine der
+
+\mathbed {D_+(L) \cap C} {}
+
+ {L = X,Y,Z} {}
+
+ {} {} {} {}} {} {}
+und überprüft dort mit dem Ableitungskriterium und der affinen Gleichung die Glattheit in diesem Punkt. Dabei hängt das Ergebnis für den Punkt nicht davon ab, mit welcher affinen Umgebung man arbeitet
+\zusatzklammer {es kann aber manchmal die eine Umgebung rechnerisch geschickter sein als eine andere} {} {.}
+
+
+Von der affinen Kurve
+
+\mathl{V(G)}{} aus gesehen sind die Punkte im Unendlichen die Punkte aus
+
+\mathl{V_+(F) \cap V_+(Z)}{.} Das ist der Schnitt der projektiven Kurve mit einer projektiven Geraden. Dies ist eine endliche Menge, es sei denn die projektive Gerade ist eine Komponente der Kurve, was aber nicht sein kann, wenn man mit einer affinen Kurve startet
+\zusatzklammer {da $Z$ kein Teiler der Homogenisierung ist} {} {.}
+Zur Berechnung der unendlich fernen Punkte betrachtet man die homogene Zerlegung
+
+
+\mathdisp {G=G_d + \cdots + G_m \text{ mit } m \leq d} {  }
+
+
+und die Homogenisierung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ F
+}
+
+{ =} { G_d +G_{d-1}Z + \cdots + G_mZ^{d-m}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Zur Berechnung des Durchschnittes mit
+
+\mathl{V_+(Z)}{} muss man
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Z
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+setzen, sodass man die Nullstellen des homogenen Polynoms
+
+\mathl{G_d(X,Y)}{}
+\zusatzklammer {in zwei Variablen} {} {}
+berechnen muss. Der Grad $d$ gibt also sofort eine Schranke, wie viele unendlich ferne Punkte es maximal auf der Kurve geben kann.
+
+
+}
+
+
+\inputbeispiel{}
+
+{
+
+
+Wir betrachten den Standardkegel
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ V(X^2+Y^2-Z^2)
+}
+
+{ \subset} { { {\mathbb A}_{ K }^{  3   } }
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Da dies durch eine homogene Gleichung gegeben ist, kann man diesen Kegel auch sofort als eine ebene projektive Kurve
+\zusatzklammer {vom Grad zwei} {} {}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ V_+(X^2+Y^2-Z^2)
+}
+
+{ \subset} { {\mathbb P}^{2}_{K}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+auffassen. Die Schnitte des Kegels mit einer beliebigen Ebene
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{E
+}
+
+{ \subset }{ { {\mathbb A}_{ K }^{  3   } }
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+nennt man
+\definitionsverweis {Kegelschnitte}{}{.}
+Diese bekommen nun eine neue Interpretation. Eine Ebene $E$, auf der nicht der Nullpunkt liegt, kann man in natürlicher Weise identifizieren mit einer offenen affinen Ebene
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ D_+(L)
+}
+
+{ \subseteq }{ {\mathbb P}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\zusatzklammer {wobei $L$ eine homogene Linearform ist, die den Untervektorraum zu $E$ beschreibt} {} {.}
+Die Schnitte mit dem Kegel sind dann verschiedene affine Ausschnitte aus der ebenen projektiven Kurve
+
+\mathl{V_+(X^2+Y^2-Z^2)}{.} Insbesondere sind also Kreis, Hyperbel und Parabel solche affinen Ausschnitte.
+
+
+Die Schnitte mit einer Ebene durch den Nullpunkt sind hingegen projektiv verstanden die endlichen Teilmengen
+
+\mathl{V_+(X^2+Y^2-Z^2) \cap V_+(L)}{.}
+
+
+}
+
+
+\inputdefinition
+
+{}
+
+{
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{d
+}
+
+{ \geq }{ 1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dann heißt die
+\definitionsverweis {ebene projektive Kurve}{}{}
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ V(X^d+Y^d+Z^d)
+}
+
+{ \subseteq} { {\mathbb P}^{2}_{K}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+die \definitionswort {Fermat-Kurve}{} vom Grad $d$.
+
+
+}
+
+
+Für
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{d
+}
+
+{ = }{ 1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+handelt es sich einfach um eine projektive Gerade.
+
+
+\inputfaktbeweis
+
+{Projektive Kurve/Fermat-Kurve vom Grad d/Glattheit/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+der
+\definitionsverweis {Charakteristik}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{p
+}
+
+{ \geq }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ C
+}
+
+{ = }{ V_+(X^d+Y^d+Z^d)
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+die
+\definitionsverweis {Fermat-Kurve}{}{}
+vom Grad $d$. Die Charakteristik sei kein Teiler von $d$.}
+
+\faktfolgerung {Dann ist $C$ eine
+\definitionsverweis {glatte Kurve}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Da Glattheit eine lokale Eigenschaft ist, können wir mit einem beliebigen affinen Ausschnitt argumentieren. Da die Situation symmetrisch ist, können wir uns auf das affine Teilstück
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ V(X^d+Y^d+1)
+}
+
+{ \subset} { {\mathbb A}^{2}_{K}
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+beschränken. Die partiellen Ableitungen sind \mathkon  { d X^{d-1}  }  {  und  }  { d Y^{d-1}   }{ .} Aufgrund der Voraussetzung über die Charakteristik ist
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{d
+}
+
+{ \neq }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+sodass beide Ableitungen nur bei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ x
+}
+
+{ = }{ y
+}
+
+{ = }{ 0
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+verschwinden. Dieser Punkt gehört aber nicht zur Kurve.
+
+
+}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Soccerball} {svg} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Soccerball.svg } {} {Ranveig} {Commons} {PD} {}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Torus_illustration} {png} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Torus illustration.png } {Oleg Alexandrov} {} {Commons} {PD} {}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Double_torus_illustration} {png} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Double torus illustration.png } {Oleg Alexandrov} {} {Commons} {PD} {}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Sphere_with_three_handles} {png} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Sphere with three handles.png } {Oleg Alexandrov} {} {Commons} {PD} {}
+
+
+\inputbemerkung
+
+{}
+
+{
+
+
+Wählt man die komplexen Zahlen ${\mathbb C}$ als Grundkörper, so kann man eine glatte projektive Kurve auch als eine reell zweidimensionale kompakte orientierte Mannigfaltigkeit auffassen. Diese lassen sich topologisch einfach klassifizieren, und zwar ist eine solche Mannigfaltigkeit homöomorph zu einer Kugeloberfläche, an die $g$ Henkel angeklebt werden. Diese Zahl nennt man das \stichwort {Geschlecht} {} der reellen Fläche und damit auch der Kurve. Die komplex-projektive Gerade ist eine zweidimensionale Sphäre und hat keinen Henkel, ihr Geschlecht ist also $0$. Eine Fläche vom Geschlecht $1$ ist ein Torus
+\zusatzklammer {ein Autoreifen} {} {}
+der homöomorph zu
+
+\mathl{S^1 \times S^1}{} ist. Projektive Kurven, die als topologische Mannigfaltigkeit das Geschlecht eins besitzen, nennt man \stichwort {elliptische Kurven} {.}
+
+
+Es gibt auch algebraische Definitionen für das Geschlecht, sodass diese Invariante für glatte projektive Kurven über jedem algebraisch abgeschlossenen Körper definiert ist. Und zwar ist das Geschlecht gleich der $K$-Dimension der \stichwort {ersten Kohomologiegruppe der Strukturgarbe} {} und auch gleich der $K$-Dimension der \stichwort {globalen Differentialformen} {} auf der Kurve. Zu jedem $g$ gibt es projektive Kurven mit Geschlecht $g$. Insbesondere kann man jede orientierbare reell zweidimensionale kompakte Fläche als komplex-projektive Kurve realisieren. Man spricht dann auch von \stichwort {Riemannschen Flächen} {.}
+
+
+Für eine glatte ebene Kurve
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V_+(F)
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+vom Grad
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{d
+}
+
+{ = }{ \operatorname{grad} \, ( F )
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+gibt es eine einfache Formel für das Geschlecht: es ist nämlich
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{g
+}
+
+{ =} { { \frac{  (d-1)(d-2) }{  2  } }
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Damit haben glatte projektive Kurven vom Grad eins und zwei
+\zusatzklammer {Geraden und Quadriken} {} {}
+das Geschlecht $0$, es handelt sich
+\zusatzklammer {vom Isomorphietyp her} {} {}
+in der Tat um projektive Geraden. Für
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{d
+}
+
+{ = }{ 3
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+erhält man das Geschlecht $1$, also elliptische Kurven. Für
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{d
+}
+
+{ = }{ 4
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+erhält man schon
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{g
+}
+
+{ = }{ 3
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Dies zeigt auch, dass sich nicht jedes Geschlecht als Geschlecht einer ebenen glatten Kurve realisieren lässt. Es ist beispielsweise gar nicht so einfach, explizit Gleichungen für eine Kurve vom Geschlecht $2$ anzugeben.
+
+
+}

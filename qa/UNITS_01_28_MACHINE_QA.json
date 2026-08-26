@@ -1,0 +1,93 @@
+{
+  "schema": "ag-bridge-cumulative-reader-qa-v4",
+  "status": "PASS",
+  "verified_date": "2026-08-26",
+  "through_unit": 28,
+  "language": "id-ID",
+  "coverage": {
+    "lectures": 28,
+    "worksheets": 28,
+    "exercises": 671,
+    "public_source_solutions": 118,
+    "reader_media_positions": 98,
+    "stable_source_ids": 1483,
+    "mathml_nodes": 10717
+  },
+  "html": {
+    "path": "build/reader-id/index.html",
+    "bytes": 23412216,
+    "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10",
+    "ids": 2842,
+    "images": 98,
+    "mathml_nodes": 10717,
+    "tex_annotations": 10717,
+    "internal_links": 1520,
+    "broken_internal_links": 0,
+    "remote_images": 0,
+    "empty_alt": 0
+  },
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-28.pdf",
+    "bytes": 15820212,
+    "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6",
+    "pages": 476,
+    "paper": "A4",
+    "encrypted": false,
+    "terminal_start_page": 456,
+    "terminal_pages_checked": 21,
+    "terminal_marker_pages": {
+      "Solusi Soal 28.10": 467,
+      "Kuliah 28: Varietas Proyektif dan Kurva Bidang Proyektif": 456,
+      "Soal 28.14": 466,
+      "Kredit media Unit 28": 476
+    }
+  },
+  "build_receipt": {
+    "path": "build/reader-id/BUILD_RECEIPT.json",
+    "bytes": 43674,
+    "sha256": "5a843fdc6cb79ab3329e1f316027968e14ab2a0b765ff3505ad2af85003df5c3",
+    "input_count": 231,
+    "source_markdown_input_count": 112,
+    "output_count": 2,
+    "html_log_bytes": 0,
+    "pdf_log_bytes": 0
+  },
+  "authority_unit_28": {
+    "28": {
+      "exercises": 14,
+      "solutions": [
+        10
+      ],
+      "media_positions": 4,
+      "manifest_sha256": "f2e34fc420c4beec300ea9e0accc52598e12c27f46c9022611996b1b43e29a99",
+      "translation_qa_sha256": "30095ba6d0621030c1a6d63d340ddb7d7d77fff424b2c28841d77e3e46da03ab"
+    }
+  },
+  "baseline_and_checkpoint_facts": [
+    {
+      "path": "qa/UNITS_01_27_MACHINE_QA.json",
+      "bytes": 4254,
+      "sha256": "33fdf951354c620bbfeedc483338aa611ef577f0adcb8e509bca7361dc9bb074"
+    },
+    {
+      "path": "qa/UNIT_27_PROTECTED_SURFACES.json",
+      "bytes": 4122,
+      "sha256": "ca04c18753768b6741073342d47e6ba9fb6535b20382a29b53af20cb4be840ec"
+    },
+    {
+      "path": "qa/UNIT_28_TRANSLATION_QA.json",
+      "bytes": 6913,
+      "sha256": "30095ba6d0621030c1a6d63d340ddb7d7d77fff424b2c28841d77e3e46da03ab"
+    }
+  ],
+  "checks": [
+    "exact Units 1-27 machine/protected baselines bound",
+    "Unit 28 authority and translation QA identities replayed dynamically from PASS receipts",
+    "all 231 build-receipt inputs replayed from recorded bytes and hashes",
+    "cumulative IDs, exercises, solutions, and media measured from bound source/authority inputs",
+    "HTML IDs, MathML/TeX annotations, media alts, anchors, and local resources closed",
+    "PDF metadata, A4 geometry, measured terminal boundary, and ordered markers closed",
+    "Pandoc warning logs empty; no placeholder or secret-like source content"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

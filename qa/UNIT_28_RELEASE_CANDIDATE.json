@@ -1,0 +1,197 @@
+{
+  "schema": "ag-bridge-release-candidate-v3",
+  "frozen_date": "2026-08-26",
+  "status": "PASS_RELEASE_READY",
+  "release_state": "verified_cumulative_checkpoint_ready_for_existing_github_and_zenodo_lineages",
+  "through_unit": 28,
+  "planned_classical_units": 30,
+  "classical_volume_complete": false,
+  "full_two_volume_edition_complete": false,
+  "language": "id-ID",
+  "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "source_course_boundary": {
+    "units_01_23": "Algebraische Kurven (Osnabrück 2025–2026)",
+    "units_24_28": "Algebraische Kurven (Osnabrück 2012)"
+  },
+  "authority": {
+    "unit_25": {
+      "manifest": {
+        "path": "authority/wikiversity/unit-25/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 108049,
+        "sha256": "7cafbca7b5fd080529c2019967647ef8ffa823539b2113caaf0ad65e56d6afc1",
+        "lecture_revid": 793525,
+        "worksheet_revid": 793493
+      },
+      "exercise_map_sha256": "1a887b81de9ccf9707e1e4835e477f9c9fb4a4358ab697242b17fd29873e8370",
+      "rights_sha256": "6b8de6f5a63f32d9f22e7fb69c98ba2d787121a2437a392602571504c2a1c544",
+      "asset_closure_sha256": "d177f9ca04beb707935ffa8695bbd9913b0fd081cbdbf2d8e77866c0c609b96f"
+    },
+    "unit_26": {
+      "manifest": {
+        "path": "authority/wikiversity/unit-26/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 118791,
+        "sha256": "981fa3c86534514215c722b6d4f6d711c040a7829465f20ae18940373f94763c",
+        "lecture_revid": 793526,
+        "worksheet_revid": 793494
+      },
+      "exercise_map_sha256": "efa1d77d8b594a24078097f3595c0ae8078d9735dfe7d2b3abb05392d7340423",
+      "rights_sha256": "a03f4a998630ab426068253033abe3830cbb1d7a9caf03901b2254eb83d2e42b",
+      "asset_closure_sha256": "18b1600f93fbd49a6d68f5d54ab45060f1911f3266da4b933dcbcd96b22f798f"
+    },
+    "unit_27": {
+      "manifest": {
+        "path": "authority/wikiversity/unit-27/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 135052,
+        "sha256": "98f9ebcc0d3b41bb0b955c5190d416b9ebfc07433015732faaf7f38366a1d9b2",
+        "lecture_revid": 1052572,
+        "worksheet_revid": 793496
+      },
+      "exercise_map_sha256": "4fb226bb355ef16c06ffbe81a8134585fa5c4f21ee4cf9101630c6f78930e55c",
+      "rights_sha256": "df2fb8403ddef014500e81e2165e2d4e400a0573dd262ba3dba5ece6bcd46821",
+      "asset_closure_sha256": "b08e53863d977899d9910d1b6f48e82237f590402e8450f2683b07a078c1ebc6"
+    },
+    "unit_28": {
+      "manifest": {
+        "path": "authority/wikiversity/unit-28/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 134460,
+        "sha256": "f2e34fc420c4beec300ea9e0accc52598e12c27f46c9022611996b1b43e29a99",
+        "lecture_revid": 1052516,
+        "worksheet_revid": 793497
+      },
+      "exercise_map_sha256": "c5aed5500f44a39bbe0a7a079792e0da11781a24a69c274d7170b0e2cdc1df40",
+      "rights_sha256": "84e7132495c1f78bd71afb0c436e23322f90d05f81a74e2f088cb1b586321651",
+      "asset_closure_sha256": "d7059564e2214dcafef6a8e0cd9cc43d7f2a86e70ca9e647719995cb0ef231b3"
+    }
+  },
+  "reader": {
+    "html": {
+      "path": "build/reader-id/index.html",
+      "bytes": 23412216,
+      "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10"
+    },
+    "pdf": {
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-28.pdf",
+      "bytes": 15820212,
+      "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6",
+      "pages": 476
+    },
+    "build_receipt": {
+      "path": "build/reader-id/BUILD_RECEIPT.json",
+      "bytes": 43674,
+      "sha256": "5a843fdc6cb79ab3329e1f316027968e14ab2a0b765ff3505ad2af85003df5c3"
+    }
+  },
+  "coverage": {
+    "lectures": 28,
+    "worksheets": 28,
+    "exercises": 671,
+    "public_source_solutions": 118,
+    "reader_media_positions": 98,
+    "native_backend_records": 21358,
+    "stable_source_ids": 1483,
+    "mathml_nodes": 10717
+  },
+  "qa": {
+    "machine": {
+      "path": "qa/UNITS_01_28_MACHINE_QA.json",
+      "bytes": 3083,
+      "sha256": "c666cb1186f516cead5ebd1a16de616856c99013cd94983826c974aebbdf776f",
+      "status": "PASS"
+    },
+    "visual": {
+      "path": "qa/UNITS_01_28_VISUAL_QA.json",
+      "bytes": 9055,
+      "sha256": "859c16ec814bbe6243b40dde9d1760b88ada4fe763f739c824da7c3ca3b0fe1f",
+      "status": "PASS"
+    },
+    "responsive": {
+      "path": "qa/UNITS_01_28_RESPONSIVE_QA.json",
+      "bytes": 4304,
+      "sha256": "87358e05adf0530caab368ac60d98bbc4513d86412970996092d47b21ed7c204",
+      "status": "PASS"
+    },
+    "protected_surfaces": {
+      "path": "qa/UNIT_28_PROTECTED_SURFACES.json",
+      "bytes": 2533,
+      "sha256": "d9e737e3319f62d7560cbad20737c27b80b40c27536e3dca36d4632c98f18b2e",
+      "status": "PASS"
+    },
+    "backend": {
+      "path": "qa/UNITS_01_28_BACKEND_QA.json",
+      "bytes": 5766,
+      "sha256": "af422532c47b1126dc776af923c9da4903deee2ba22a485ff048c96796150509",
+      "status": "PASS"
+    },
+    "translation": {
+      "path": "qa/UNIT_28_TRANSLATION_QA.json",
+      "bytes": 6913,
+      "sha256": "30095ba6d0621030c1a6d63d340ddb7d7d77fff424b2c28841d77e3e46da03ab",
+      "status": "PASS"
+    }
+  },
+  "backend": {
+    "native_manifest": {
+      "path": "backend/units-01-28/MANIFEST.json",
+      "bytes": 10649,
+      "sha256": "52ce204f9f0843bb8c7598a66073699ba2a139d29cfa741d8dc6a0d509a9c4a2"
+    },
+    "native_records": {
+      "path": "backend/units-01-28/records.jsonl",
+      "bytes": 34195566,
+      "sha256": "94e9c9d0859fc30cfa46a9cc08ed2babb7db07b586a3b5985a91130b096261ef",
+      "records": 21358
+    },
+    "unit_27_records_preserved": 20570,
+    "deterministic_double_replay": true,
+    "common_adapter_preflight": {
+      "status": "PASS",
+      "virtual_records": 50672,
+      "virtual_bytes": 81258596,
+      "virtual_sha256": "3bcebd137c6dca1a4705f6c1660043f9198faeef42faa1485a93e2686bf33b9c",
+      "foreign_keys_checked": 120703,
+      "native_reverse_sha256": "94e9c9d0859fc30cfa46a9cc08ed2babb7db07b586a3b5985a91130b096261ef",
+      "strict_profiles": 7790,
+      "generator": {
+        "path": "scripts/generate_common_backend_v1_receipts.py",
+        "bytes": 69140,
+        "sha256": "cd868864d84479238ef27b8475ada68bcf20cac0cd2c154dabadcd68f6089574"
+      }
+    }
+  },
+  "rights": {
+    "translated_text": "CC BY-SA 4.0",
+    "units_24_28_pdf_component_notices": [
+      "CC BY-SA 4.0 course route",
+      "CC BY-SA 2.0 Germany file notice"
+    ],
+    "media": "per-component rights in authority/RIGHTS*.csv and reader credits",
+    "blanket_file_set_license_claimed": false,
+    "license_notice": "LICENSE.md",
+    "non_endorsed_independent_derivative": true
+  },
+  "publication": {
+    "zenodo": {
+      "state": "publication_due_to_existing_concept",
+      "concept_doi": "10.5281/zenodo.22059686",
+      "previous_record_id": 22104692
+    },
+    "github": {
+      "state": "publication_due_after_package",
+      "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+      "reader": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
+      "target_tag": "unit-28"
+    }
+  },
+  "checks": {
+    "authority_solution_media_rights_closure": true,
+    "translation_and_math_fidelity": true,
+    "machine_visual_responsive_and_accessibility_qa": true,
+    "native_backend_schema_closure_and_replay": true,
+    "common_backend_v1_adapter_preflight": true,
+    "credential_findings": 0,
+    "ready_for_packaging": true,
+    "ready_for_publication": true
+  },
+  "next_action": "Reserve the Unit 28 identity in the existing Zenodo concept, update public metadata to the reserved DOI, finalize the common-adapter receipt, create the deterministic eight-file reader-first package, publish in the existing Zenodo and GitHub lineages, and anonymously verify every public byte."
+}
