@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/806124"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/796343"/><meta property="mw:revisionSHA1" content="3e3nqvm6nsvokcc33v86ivll7ce6lru"/><meta property="dc:modified" content="2022-09-18T07:14:52Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="51878"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012)/Vorlesung_26/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 26/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="88028b8a-9e82-11f1-b9df-fb13aa67bc76"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"Latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{26}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Die Schnittmultiplizität}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Es seien zwei ebene algebraische Kurven
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C,D
+}<br/>{ \subset }{ {\mathbb A}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gegeben, die keine Komponente gemeinsam haben. Dann besteht der Durchschnitt <br/>\mathl{C \cap D}{} nach
+<a rel="mw:WikiLink" href="./Ebene_Kurven/Schnitt_ohne_Komponenten/Endlich_viele_Punkte/Fakt" title="Ebene Kurven/Schnitt ohne Komponenten/Endlich viele Punkte/Fakt">Satz 4.8</a>
+nur aus endlich vielen Punkten. Wir wollen das Schnittverhalten der beiden Kurven in einem Punkt <br/>\mathl{P\in C \cap D}{} quantitativ erfassen. Dabei empfiehlt es sich, eine etwas allgemeinere Situation zu betrachten, und zwar schreiben wir \mathkon  { C=V(F)  }  {  und  }  { D=V(G)   }{ } und berücksichtigen, dass in $F$ und in $G$ Primfaktoren 
+\zusatzklammer {jeweils} {} {}
+mehrfach vorkommen können. D.h. wir unterscheiden von nun an zwischen den Kurven \mathkon  { V(F)  }  {  und  }  { V(F^n)   }{ ,} obwohl es sich geometrisch um das gleiche Objekt handelt.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurven/Schnittmultiplizität/Restdimension ist endlich/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+Polynome ohne gemeinsamen Primteiler. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ V(F,G)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ K[X,Y]_{{\mathfrak m}_P }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die zugehörige 
+\definitionsverweis {Lokalisierung}{}{.}}<br/>\faktfolgerung {Dann besitzt der 
+\definitionsverweis {Restklassenring}{}{}
+<br/>\mathl{R/(F,G)}{} eine endliche $K$-Dimension.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es sei ${\mathfrak m}$ das maximale Ideal in $R$. Da \mathkon  {  F   }  {  und   }  {  G   }{ } keinen gemeinsamen Teiler haben, gibt es in $R$ zwischen \mathkon  { (F,G)  }  {  und  }  {  {\mathfrak m}   }{ } kein weiteres Primideal. Daher ist in <br/>\mathl{R/(F,G)}{} jede Nichteinheit
+\definitionsverweis {nilpotent}{}{.}
+Daher gilt in $R$ die Beziehung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak m}^s
+}<br/>{ \subseteq }{ (F,G) 
+}<br/>{ \subseteq }{ {\mathfrak m}
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+für ein $s$. Es liegt daher eine Surjektion
+\maabbdisp {} {R/{\mathfrak m}^s} {R/(F,G)
+} {}
+vor. Nach
+<a rel="mw:WikiLink" href="./Noetherscher_lokaler_Ring/Potenzen_vom_maximalen_Ideal/Restklassenring_und_Jets_sind_endlich-dimensional/Fakt" title="Noetherscher lokaler Ring/Potenzen vom maximalen Ideal/Restklassenring und Jets sind endlich-dimensional/Fakt">Lemma 23.3</a>
+besitzt der Restklassenring links eine endliche $K$-Dimension, sodass dies auch für den Restklassenring rechts gilt.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Aufgrund von diesem Lemma ist die folgende Definition sinnvoll.
+<br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F,G
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zwei nichtkonstante Polynome ohne gemeinsame Komponente und sei
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in} { V(F) \cap V(G)
+}<br/>{ =} { V(F,G)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Dann nennt man die Dimension
+<br/>\mathdisp {\dim_{ K } \left(  K[X,Y]_P/(F,G)  \right)} {  }<br/>
+die \definitionswort {Schnittmultiplizität}{} der beiden Kurven
+\mathkor {} {V(F)} {und} {V(G)} {}
+im Punkt $P$. Sie wird mit
+<br/>\mathdisp {\operatorname{mult} _{ { P} }  (   F ,  G  ) \text{ oder mit } \operatorname{mult} _{ {P} }  (  V(F), V(G) )} {  }<br/>
+bezeichnet.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C 
+}<br/>{ = }{ V(F)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und eine Gerade
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{G
+}<br/>{ = }{ V(cX+dY)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+in der affinen Ebene <br/>\mathl{{\mathbb A}^{2}_{K}}{} gegeben, die keine Komponente von $C$ sei. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ = }{ (a,b)
+}<br/>{ \in }{ C \cap G
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Punkt des Durchschnitts. Den 
+\definitionsverweis {Restklassenring}{}{}
+<br/>\mathdisp {K[X,Y]_{P}/(F,cX+dY)} {  }<br/>
+berechnet man, indem man mittels des linearen Terms nach einer der Variablen
+\mathkor {} {X} {oder} {Y} {}
+auflöst. Damit kann man eine Variable eliminieren und der Restklassenring ist isomorph zu <br/>\mathl{K[X]_{P}/(\tilde{F})}{,} wobei man $\tilde{F}$ erhält, indem man in $F$ die Variable $Y$ durch <br/>\mathl{-\frac{c}{d}X}{} ersetzt. Dies kann man auch so sehen, dass man zuerst <br/>\mathl{K[X]/(\tilde{F})}{} berechnet und dann an dem Punkt lokalisiert. Das Polynom $\tilde{F}$ hat in <br/>\mathl{K[X]}{} eine Faktorisierung in Linearfaktoren
+\zusatzklammer {der Körper sei
+\definitionsverweis {algebraisch abgeschlossen}{}{}} {} {}
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \tilde{F}
+}<br/>{ =} { (X- \lambda_1)^{\nu_1 } \cdots (X- \lambda_k)^{\nu_k }
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Da der Punkt $P$ eine Nullstelle ist, muss
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a
+}<br/>{ = }{ \lambda_i
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+für ein $i$ sein. Bei der Lokalisierung werden die anderen Linearfaktoren zu 
+\definitionsverweis {Einheiten}{}{}
+gemacht und \anfuehrung{übrig}{} bleibt
+<br/>\mathdisp {K[X]/(X-\lambda_i)^{\nu_i }} { . }<br/>
+Dieser Ring hat die Dimension $\nu_i$.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurven/Schnittmultiplizität/Schnitt mit Gerade/Abschätzung zur Multiplizität/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{,}
+sei
+<br/>\mathbed {F = F_m + \cdots + F_d \in K[X,Y]} {} <br/> {m \leq d} {} <br/> {} {} {} {,}
+ein Polynom in 
+\definitionsverweis {homogener Zerlegung}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{L
+}<br/>{ = }{ V(aX+bY)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine Gerade durch den Nullpunkt $P$, die keine Komponente von <br/>\mathl{V(F)}{} sei.}<br/>\faktfolgerung {Dann ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ {P} }  (   L ,  V(F) )
+}<br/>{ \geq} { m_{ P  } \, ( F )
+}<br/>{ =} { m
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}}<br/>\faktzusatz {d.h. die Schnittmultiplizität einer Kurve mit einer Geraden ist mindestens so groß wie die Multiplizität der Kurve im Schnittpunkt.}<br/>\faktzusatz {Wenn $L$ keine Tangente der Kurve ist, so gilt hierbei Gleichheit.}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir setzen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ K[X,Y]_{(X,Y)}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{H
+}<br/>{ = }{ aX+bY
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+und wir nehmen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+an, sodass wir
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ cX
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+schreiben können. Es sei zunächst die Gerade $L$ keine 
+\definitionsverweis {Tangente}{}{}
+von <br/>\mathl{V(F)}{} in $P$, also keine Komponente von <br/>\mathl{V(F_m)}{.} Es ist dann
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ R/(F,H)
+}<br/>{ \cong} {K[X]_{(X)}/(F_m(X,cX) + \cdots + F_d(X,cX))
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Hierbei ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_m(X,cX) 
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und es wird <br/>\mathl{X^m u}{} mit einer 
+\definitionsverweis {Einheit}{}{}
+$u$ rausdividiert, sodass der Restklassenring die 
+$K$-\definitionsverweis {Dimension}{}{}
+$m$ besitzt. Im allgemeinen Fall gibt es ein minimales
+<br/>\mathbed {i} {} <br/> {m \leq i \leq d} {} <br/> {} {} {} {,} mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_i(X,cX)
+}<br/>{ \neq }{ 0 
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+\zusatzklammer {sonst wäre $L$ eine Komponente von $V(F)$} {} {.}
+Dann ist mit dem gleichen Argument die Dimension des Restklassenringes gleich
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ i
+}<br/>{ \geq }{ m
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{.}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1">\inputfaktbeweistrivial<br/>{Ebene algebraische Kurven/Schnittmultiplizität/Erste Eigenschaften/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G
+}<br/>{ \in }{ K[X,Y] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+Polynome ohne gemeinsame Komponente und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ {\mathbb A}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Punkt.}<br/>\faktuebergang {Dann gelten folgende Aussagen.}<br/>\faktfolgerung {\aufzaehlungfuenf{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ { P} }  (   F ,  G  )
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+genau dann, wenn
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \notin }{ V(F,G)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist.
+}{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ { P} }  (   F ,  G  )
+}<br/>{ = }{ \operatorname{mult} _{ { P} }  (   G ,  F  )
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}{Die Schnittmultiplizität ändert sich nicht bei einer affinen Variablentransformation.
+}{Wenn
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ F_1F_2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_2(P)
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, so ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ { P} }  (   F ,  G  )
+}<br/>{ = }{ \operatorname{mult} _{ { P} }  (  F_1 ,  G  )
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}{Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ { P} }  (   F ,  G  )
+}<br/>{ = }{ \operatorname{mult} _{ {P} }  (   F ,  G+HF )
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+für jedes
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ H
+}<br/>{ \in }{ K[X,Y] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+<p><br/>}<br/></p>
+</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Teil (4) der letzten Aussage kann man auch so formulieren, dass die Schnittmultiplizität nur von den Komponenten von
+\mathkon  { F  }  {  und  }  { G  }{ }
+abhängen, die durch $P$ gehen.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Intersect3} {png} }<br/>\end{center} <br/>\bildtext {Ein transversaler und ein nichttransversaler Schnitt.} }<br/><br/>\bildlizenz { Intersect3.png } {Michael Larsen} {Maksim} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G
+}<br/>{ \in }{ K[X,Y] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ V(F,G) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann sagt man, dass sich
+\mathkor {} {V(F)} {und} {V(G)} {}
+im Punkt $P$ \definitionswort {transversal schneiden}{,} wenn $P$ sowohl auf <br/>\mathl{V(F)}{} als auch auf <br/>\mathl{V(G)}{} ein 
+\definitionsverweis {glatter Punkt}{}{}
+ist und wenn die 
+\definitionsverweis {Tangenten}{}{}
+der beiden Kurven im Punkt $P$ verschieden sind.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurven/Schnittmultiplizität/Charakterisierung Transversaler Schnitt/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G
+}<br/>{ \in }{ K[X,Y] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+Polynome ohne gemeinsame Komponente. Es sei
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in} { V(F,G)
+}<br/>{ \subseteq} { {\mathbb A}^{2}_{K}
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+ein Schnittpunkt.}<br/>\faktfolgerung {Dann schneiden sich \mathkon  { V(F)  }  {  und  }  { V(G)   }{ } in $P$ genau dann
+\definitionsverweis {transversal}{}{,}
+wenn die 
+\definitionsverweis {Schnittmultiplizität}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ {P} }  (  V(F), V(G) )
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{R
+}<br/>{ = }{ K[X,Y]_{\mathfrak m}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der 
+\definitionsverweis {lokale Ring}{}{}
+zum
+\zusatzklammer {Null} {-} {}Punkt $P$ in der Ebene. Es sei zunächst der Schnitt als transversal vorausgesetzt. Dann sind insbesondere beide Kurven in $P$ glatt, und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{B
+}<br/>{ = }{ R/(F)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist nach
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurve/Glatter_Punkt/Lokaler_Ring_ist_diskreter_Bewertungsring/Fakt" title="Ebene algebraische Kurve/Glatter Punkt/Lokaler Ring ist diskreter Bewertungsring/Fakt">Lemma 23.2</a>
+ein
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+Da die Tangenten verschieden sind, können wir annehmen, dass die Tangente an \mathkon  { V(F)  }  {  durch  }  { V(Y)   }{ } und die Tangente an \mathkon  { V(G)  }  {  durch  }  { V(X)   }{ } gegeben ist. Nach dem Beweis zu
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurve/Glatter_Punkt/Lokaler_Ring_ist_diskreter_Bewertungsring/Fakt" title="Ebene algebraische Kurve/Glatter Punkt/Lokaler Ring ist diskreter Bewertungsring/Fakt">Lemma 23.2</a>
+ist dann $X$ eine Ortsuniformisierende von $B$. Da $G$ die Form \mathkon  { G=X+H  }  {  mit  }  { H \in {\mathfrak m}^2   }{ } hat, ist $G$ ebenfalls eine Ortsuniformisierende in $B$ und daher ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ B/(G)
+}<br/>{ = }{ K
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Daher ist die Schnittmultiplizität eins.</p>
+
+<p>Für die Rückrichtung folgt aus 
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurven/Schnittmultiplizität/Schnitt_mit_Gerade/Abschätzung_zur_Multiplizität/Fakt" title="Ebene algebraische Kurven/Schnittmultiplizität/Schnitt mit Gerade/Abschätzung zur Multiplizität/Fakt">Lemma 26.4</a>,
+dass die Multiplizität der beiden Kurven in $P$ eins sein muss und daher beide Kurven in $P$ glatt sind. Nehmen wir an, dass die Tangenten übereinstimmen. Dann können wir annehmen, dass sowohl \mathkon  {  F   }  {  als auch  }  {  G   }{ } die Form $Y +$ Terme von größerem Grad besitzen. Man kann die Idealerzeuger <br/>\mathl{(F,G)}{} durch <br/>\mathl{(F,F-G)}{} ersetzen, und dabei ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F-G 
+}<br/>{ \in }{ {\mathfrak m}^2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Dann erzeugt aber <br/>\mathl{F-G}{} in
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{B 
+}<br/>{ = }{ R/(F)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+nicht das maximale Ideal, und die Schnittmultiplizität kann nicht eins sein.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurven/Schnittmultiplizität/Summenformel für Schnittmultiplizität/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+Polynome ohne gemeinsamen Primteiler mit Faktorzerlegungen
+<br/>\mathdisp {F = \prod_{ i = 1 }^{m} F_i^{\nu_i } \text{ und } G= \prod_{ j = 1 }^{n} G_j^{\mu_j }} {  }<br/>}<br/>\faktfolgerung {Dann ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ { P} }  (   F ,  G  ) 
+}<br/>{ =} { \sum_{i,j} \nu_i\mu_j \operatorname{mult} _{ { P} }  (  F_i ,  G_j  )
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Diese Aussage folgt durch Induktion aus dem Spezialfall
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ F_1F_2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+\zusatzklammer {und
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ G
+}<br/>{ = }{ G
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ R
+}<br/>{ = }{ K[X,Y]_{ {\mathfrak m}_P }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (F_1F_2,G)
+}<br/>{ \subseteq }{ (F_2,G)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+hat man eine surjektive Abbildung
+\maabb {} { R/(F_1F_2,G)  } { R/(F_2,G)
+} {.}
+Andererseits induziert die Multiplikation mit $F_2$ einen
+$R$-\definitionsverweis {Modulhomomorphismus}{}{}
+\maabb {} { R/(F_1,G) } { R/(F_1F_2,G)
+} {.}
+Wir behaupten, dass eine 
+\definitionsverweis {kurze exakte Sequenz}{}{}
+<br/>\mathdisp {0\stackrel{}{\longrightarrow}R/(F_1,G)\stackrel{\cdot F_2}{\longrightarrow}R/(F_1F_2,G)<br/> \mathdisplaybruch\stackrel{}{\longrightarrow} R/(F_2,G)\stackrel{}{\longrightarrow}0} {  }<br/>
+vorliegt. Dabei ist die Surjektivität klar und ebenso, dass die hintereinander geschalteten Abbildungen die Nullabbildung sind. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ z  
+}<br/>{ \in }{ R/(F_1F_2,G)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Element, das rechts auf $0$ abgebildet wird. Dann kann man in $R$ schreiben:
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ z
+}<br/>{ = }{ AF_2+BG
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dann repräsentiert <br/>\mathl{AF_2}{} ebenfalls diese Klasse in <br/>\mathl{R/(F_1F_2,G)}{,} und dieses kommt von links. Es sei nun
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ w  
+}<br/>{ \in }{ R/(F_1,G)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Element, das durch Multiplikation mit $F_2$ auf $0$ abgebildet wird, also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ wF_2
+}<br/>{ = }{ CF_1F_2+DG
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+in $R$. Wir schreiben dies als
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (w-CF_1)F_2
+}<br/>{ =} { DG
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Da
+\mathkor {} {F} {und} {G} {}
+keinen gemeinsamen Primteiler besitzen, gilt dies erst recht für $F_2$ und $G$. Also muss $F_2$ ein Teiler von $D$ sein und es ergibt sich eine Beziehung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (w-CF_1)
+}<br/>{ = }{ \tilde{D}G
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+woraus folgt, dass bereits
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ w
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist.</p>
+
+<p>Aus der Additivitätseigenschaft von kurzen exakten Sequenzen folgt die ge\-wünschte Identität
+<br/>\mavergleichskettealignhandlinks<br/>{\vergleichskettealignhandlinks<br/>{ \operatorname{mult} _{ { P} }  (   F_1F_2 ,  G  )
+}<br/>{ =} { \dim_{ K } \left(   R/(F_1F_2,G)  \right)
+}<br/>{ =} { \dim_{ K } \left(   R/(F_1,G)  \right) + \dim_{ K } \left(   R/(F_2,G)  \right)
+}<br/>{ =} { \operatorname{mult} _{ { P} }  (   F_1 ,  G  ) + \operatorname{mult} _{ { P} }  (   F_2 ,  G  )
+}<br/>{ } {}<br/>}
+{}
+{}{.}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Noetherscher Nulldimensionaler Ring/Produktdarstellung/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $R$ ein 
+\definitionsverweis {noetherscher}{}{}
+\definitionsverweis {kommutativer Ring}{}{}
+mit nur endlich vielen 
+\definitionsverweis {Primidealen}{}{}
+<br/>\mathl{{\mathfrak m}_1 , \ldots , {\mathfrak m}_n}{,} die alle 
+\definitionsverweis {maximal}{}{}
+seien.}<br/>\faktfolgerung {Dann gibt es eine kanonische 
+\definitionsverweis {Isomorphie}{}{}
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ R
+}<br/>{ \cong} { R_{ {\mathfrak m}_1 } \times \cdots \times R_{ {\mathfrak m}_n }
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die maximalen Ideale sind zugleich die minimalen Primideale. Daher besteht der Durchschnitt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ = }{ \bigcap_i {\mathfrak m}_i
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+aller maximalen Ideale nur aus nilpotenten Elementen. Da der Ring noethersch ist, gibt es dann auch ein $s$ mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}^s
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Zu jedem maximalen Ideal ${\mathfrak m}_i$ betrachten wir die Lokalisierung
+\maabb {} { R } { R_{{\mathfrak m}_i }
+} {.} 
+Wir behaupten, dass diese Lokalisierung isomorph zum Restklassenring
+<br/>\mathdisp {R/{\mathfrak a}_i \text{ mit } {\mathfrak a}_i<span typeof="mw:DisplaySpace"> </span>:= {\mathfrak m}_i^s} {  }<br/>
+ist. Wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \prod_i {\mathfrak m}_i 
+}<br/>{ \subseteq }{ \bigcap_i {\mathfrak m}_i
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \left(  \prod_i {\mathfrak m}_i  \right)^s
+}<br/>{ \subseteq }{ \left(  \bigcap_i {\mathfrak m}_i  \right)^s
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und daher ist auch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}_1 \cdots {\mathfrak a}_n
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ i
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Zu jedem
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{j
+}<br/>{ \neq }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt es ein \mathkon  { g_j \in {\mathfrak m}_j   }  {  mit  }  { g_j \notin {\mathfrak m}_1   }{ .} Daher gilt für jedes Element
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ f
+}<br/>{ \in }{ {\mathfrak a}_1  
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+die Beziehung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ f g_2^s \cdots g_n^s 
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ g_2^s \cdots g_n^s
+}<br/>{ \notin }{ {\mathfrak m}_1 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+bedeutet dies, dass $f$ unter der Lokalisierungsabbildung auf $0$ geht. Wir erhalten also einen 
+\definitionsverweis {Ringhomomorphismus}{}{}
+\maabbdisp {} { R/{\mathfrak a}_1 } { R_{ {\mathfrak m}_1 }
+} {.}
+Damit ist die Lokalisierung rechts auch eine Lokalisierung des Restklassenringes links. Die maximalen Ideale erzeugen paarweise das Einheitsideal. Dies gilt dann auch für beliebige Potenzen davon. Daraus folgt zunächst, dass das Ideal ${\mathfrak a}_1$ nur in ${\mathfrak m}_1$ enthalten ist. Daher ist der Restklassenring links selbst ein lokaler nulldimensionaler Ring. Also muss die Abbildung ein Isomorphismus sein.</p>
+
+<p>Die gegebene Abbildung kann man also auch schreiben als
+\maabbdisp {} { R } { \prod_{i=1}^n R/{\mathfrak a}_i
+} {.}
+Hierbei erzeugen die ${\mathfrak a}_i$ paarweise das Einheitsideal, sodass nach 
+dem <a rel="mw:WikiLink" href="./Kommutativer_Ring/Ideal/Teilerfremd/Chinesischer_Restsatz/Fakt" title="Kommutativer Ring/Ideal/Teilerfremd/Chinesischer Restsatz/Fakt">Chinesischen Restsatz</a>
+eine Isomorphie vorliegt.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurve/Schnitt von Kurven ohne gemeinsame Komponente/Beschreibung als Produktring/Fakt}<br/>{Korollar}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F,G
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+Polynome ohne gemeinsamen Primteiler. Es seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P_1 , \ldots , P_n 
+}<br/>{ \in }{ {\mathbb A}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+die endlich vielen Punkte aus <br/>\mathl{V(F,G)}{} mit den zugehörigen maximalen Idealen <br/>\mathl{{\mathfrak m}_1 , \ldots , {\mathfrak m}_n}{} in <br/>\mathl{K[X,Y]}{.}}<br/>\faktfolgerung {Dann gibt es eine kanonische Isomorphie
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ K[X,Y]/(F,G)
+}<br/>{ \cong} { (K[X,Y]_{{\mathfrak m}_1 })/(F,G) \times \cdots \times (K[X,Y]_{{\mathfrak m}_n })/(F,G)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Da $F$ und $G$ keinen gemeinsamen Primteiler haben, umfasst das Ideal <br/>\mathl{(F,G)}{} nur endlich viele Primideale, die alle maximal sind. Daher erfüllt der Restklassenring <br/>\mathl{R/(F,G)}{} die Bedingungen aus
+<a rel="mw:WikiLink" href="./Noetherscher_Nulldimensionaler_Ring/Produktdarstellung/Fakt" title="Noetherscher Nulldimensionaler Ring/Produktdarstellung/Fakt">Satz 26.9</a>.
+Da der Körper algebraisch abgeschlossen ist, entsprechen die maximalen Ideale eindeutig den Punkten im Schnitt der beiden zugehörigen Kurven \mathkon  { V(F)  }  {  und  }  { V(G)   }{ ,} 
+sodass sich die Aussage ergibt.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurve/Schnittmultiplizität/Summe der Multiplizitäten ist Restklassendimension/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F,G
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+Polynome ohne gemeinsamen Primteiler.}<br/>\faktfolgerung {Dann ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \dim_{ K } \left(  K[X,Y]/(F,G)  \right) 
+}<br/>{ =} { \sum_{ P}  \operatorname{mult} _{ { P} }  (   F ,  G  )
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Dies folgt direkt aus der in
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurve/Schnitt_von_Kurven_ohne_gemeinsame_Komponente/Beschreibung_als_Produktring/Fakt" title="Ebene algebraische Kurve/Schnitt von Kurven ohne gemeinsame Komponente/Beschreibung als Produktring/Fakt">Korollar 26.10</a>
+bewiesenen Isomorphie.</p>
+</div>
+
+}</div><span about="#mwt1"> 
+
+</span><p about="#mwt1">Wir erwähnen noch abschließend ohne Beweis folgenden Satz, der eine Abschätzung zwischen der Schnittmultiplizität und den Multiplizitäten der beiden Kurven angibt.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1">\inputfaktbeweis<br/>{Ebene algebraische Kurven/Schnittmultiplizität/Abschätzung von Schnittmultiplizität und Multiplizität/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F,G
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ V(F,G) 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktfolgerung {Dann gilt die Abschätzung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \operatorname{mult} _{ { P} }  (   F ,  G  )
+}<br/>{ \geq} { m_{ P  } \, ( F) \cdot m_{ P  } \, ( G) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+<pre>}<br/>{Siehe Fulton, Algebraic Curves, Chapter III.3.</pre>
+
+ }</div><span about="#mwt1"> </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

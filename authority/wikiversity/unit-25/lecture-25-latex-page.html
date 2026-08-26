@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/806123"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/796342"/><meta property="mw:revisionSHA1" content="3e3nqvm6nsvokcc33v86ivll7ce6lru"/><meta property="dc:modified" content="2022-09-18T07:14:42Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="51879"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012)/Vorlesung_25/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 25/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="f34460da-9dd9-11f1-8c7c-bd3ff49ad116"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"Latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{25}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Lösung in Potenzreihen für algebraische Kurven}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Polynom, das die ebene algebraische Kurve $C$ beschreibe, und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ = }{ (0,0)
+}<br/>{ \in }{ C
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+vorausgesetzt
+\zusatzklammer {was keine Einschränkung ist, und durch Verschiebung immer erreicht werden kann} {} {.}
+Wie kann man die Kurve im Nullpunkt mittels Potenzreihen beschreiben? Wann gibt es also einen durch nichtkonstante Potenzreihen
+\mathkor {} {G} {und} {H} {}
+mit konstantem Term $0$ definierten Ringhomomorphismus
+<br/>\mathdisp {K[X,Y] \longrightarrow K[ \![T]\! ] \text{ mit } X \longmapsto G \text{ und } Y \longmapsto H} {  }<br/>
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(G,H)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+\zusatzklammer {also einen Ringhomomorphismus 
+\maabb {} { K[X,Y]/(F) } { K [ \![ T ]\! ]
+} {}} {} {?}
+Es geht also um Lösungen der Gleichung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F(X,Y)
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+in Potenzreihen, die das Verhalten der Kurve um die Punktlösung $(0,0)$ herum genauer beschreiben.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Der grundsätzliche Ansatz ist hier ein \stichwort {Potenzreihenansatz} {,} wie er beispielsweise auch in der Theorie der Differentialgleichungen verwendet wird. Man setzt
+<br/>\mathdisp {G = {\sum }_{  k =0 }^{ \infty }  a _{  k  }  T  ^{  k  } \text{ und } H = {\sum }_{  \ell =0 }^{ \infty }  b _{  \ell  }  T  ^{  \ell  }} {  }<br/>
+mit zunächst unbestimmten Koeffizienten $a_k$ und $b_\ell$ an. Das direkte Einsetzen in die beschreibende Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ = }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+und Ausmultiplizieren ergibt dann einen prinzipiell unendlichen Ausdruck. Allerdings ist für jedes $T^k$ der zugehörige Ausdruck für den Koeffizienten nur durch endlich viele Daten bestimmt, und zwar sind dafür nur die Koeffizenten von <br/>\mathl{F,G}{} und $H$ unterhalb des Grades $k$ relevant. Da
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(G,H)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+sein soll, müssen die Koeffizienten von <br/>\mathl{F,G,H}{} so sein, dass sich als Koeffizient zu $T^k$ stets $0$ ergibt.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Man sucht dann nach Bedingungen, wann es dafür Lösungen gibt, wie sie aussehen und ob sie eindeutig sind. Die Bedingung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_0
+}<br/>{ = }{ b_0
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist dabei eine \stichwort {Anfangsbedingung} {,} die wiedergibt, dass die Potenzreihenlösung durch den Nullpunkt gehen soll.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Es ergibt sich schnell eine Bedingung an die linearen Terme der Potenzreihen 
+\zusatzklammer {also an $a_1$ und $b_1$} {} {,}
+die man als eine weitere Rechtfertigung dafür ansehen kann, dass wir die Linearfaktoren des niedrigsten homogenen Bestandteiles $F_m$ in der homogenen Zerlegung von $F$ als Tangentengleichungen interpretiert haben.</p><span about="#mwt1">
+</span><meta property="mw:PageProp/noeditsection" about="#mwt1"/><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurven/Potenzreihenlösung für Punkt/Linearer Term liegt auf Tangente/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Polynom mit 
+\definitionsverweis {homogener Zerlegung}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ F_m + \cdots +  F_d
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ d
+}<br/>{ \geq }{m
+}<br/>{ \geq }{ 1
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F_m
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Es sei
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F_m
+}<br/>{ =} { \prod_{\lambda = 1}^{m} ( u_\lambda X + v_\lambda Y )
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+die Faktorzerlegung in Linearfaktoren
+\zusatzklammer {diese Linearfaktoren definieren also die Tangenten von
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ C
+}<br/>{ = }{ V(F)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+an
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ P
+}<br/>{ = }{ (0,0)
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {.}
+Es seien
+<br/>\mathdisp {G=\sum_{n=0}^\infty a_n T^n \text{ und } H=\sum_{\ell=0}^\infty b_\ell T^\ell \in K [ \![ T]\! ]} {  }<br/>
+Potenzreihen, die eine Lösung der Kurvengleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+durch den Nullpunkt beschreiben
+\zusatzklammer {d.h.
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ a_0
+}<br/>{ = }{ b_0
+}<br/>{ = }{ 0 
+}<br/>{    }{ 
+}<br/>{   }{}<br/>}
+{}{}{}} {} {.}}<br/>\faktfolgerung {Dann ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ u_\lambda a_1+ v_\lambda b_1
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+für ein $\lambda$, d.h. der lineare Term der Potenzreihen ist durch eine der Tangenten vorgegeben.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir setzen
+<br/>\mathdisp {G=a_1T+a_2T^2+ \ldots \text{   und } H=b_1T+b_2T^2+ \ldots} {  }<br/>
+in $F$ ein. In einem homogenen Bestandteil $F_k$, der ja eine Summe von Ausdrücken der Form \mathkon  { c_{ij}X^{i}Y^{j}  }  {  mit  }  { i+j=k  }{ } ist, kann man sofort $T^k$ ausklammern, und zwar ergibt sich ein Ausdruck der Form
+<br/>\mavergleichskettedisphandlinks<br/>{\vergleichskettedisphandlinks<br/>{ F_k(G,H)
+}<br/>{ =} { \left(  \sum_{i+j = k} c_{ij} a_1^{i} b_1^{j}  \right)  T^k + \left(  \sum_{i+j = k} c_{ij} \left(  i a_1^{i-1}a_2b_1^{j} + j a_1^{i}b_1^{j-1}b_2  \right)  \right)   T^{k+1} + \ldots
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+In den Koeffizient von $T^k$ gehen also <br/>\mathl{a_1,b_1}{} in einer übersichtlichen Form über $F_k$ ein, aber auch kompliziertere Terme, die von \mathind { F_\ell  } {  \ell &lt;k  }{,} herrühren. Auf $F_m$ angewandt, wo ja keine kleineren homogenen Komponenten mitberücksichtigt werden müssen, heißt dies, dass
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \sum _{i+j = m} c_{ij} a_1^{i} b_1^{j}
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+die entscheidende Gleichung für $a_1$ und $b_1$ ist. Dies ist aber nichts anderes als die Bedingung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F_m(a_1,b_1)
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Da $F_m$ ein Produkt von Linearfaktoren ist, muss <br/>\mathl{\left( a_1   , \,  b_1                   \right)}{} einen der Linearfaktoren annullieren, was die behauptete Aussage ist.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Man beachte, dass im vorstehenden Lemma die Möglichkeit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_1
+}<br/>{ = }{ b_1
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+nicht ausgeschlossen ist. In der Tat gibt es nur unter zusätzlichen Bedingungen eine Realisierung einer Kurve mittels Potenzreihen entlang einer vorgegebenen Tangente, siehe
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurven/Tangenten_mit_Kontaktordnung_eins/Formal-analytische_Realisierung_als_Graph/Fakt" title="Ebene algebraische Kurven/Tangenten mit Kontaktordnung eins/Formal-analytische Realisierung als Graph/Fakt">Satz 25.2</a>
+und die Beispiele weiter unten.</p><span about="#mwt1">
+
+</span><p about="#mwt1">Der Rechenaufwand zur Bestimmung einer Potenzreihenlösung lässt sich wesentlich verringern, wenn man sich auf \anfuehrung{Graphenlösungen}{} beschränkt, wo die eine Potenzreihe einfach ein lineares Polynom ist
+\zusatzklammer {und zwar eines, das durch eine Tangente gegeben ist} {} {,}
+und die zweite eine zu bestimmende Potenzreihe. Das ist häufig keine wesentliche Einschränkung, wie aus 
+<a rel="mw:WikiLink" href="./Formaler_Potenzreihenring/Eine_Variable/T+../Transformierbar_auf_T/Fakt" title="Formaler Potenzreihenring/Eine Variable/T+../Transformierbar auf T/Fakt">Lemma 24.11</a>
+folgt. Mit diesem Lemma können wir nämlich die Potenzreihen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G,H
+}<br/>{ \in }{ K[ \![T]\! ]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+einfach transformieren, wenn nicht beide linearen Terme verschwinden. Sei hierzu
+<br/>\mathbed {G = a_1T+ \ldots} {} <br/> {a_1 \neq 0} {} <br/> {} {} {} {}
+angenommen. Mit einer geeigneten Potenzreihe <br/>\mathl{U(T)}{} ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U(G(T))
+}<br/>{ = }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U(H(T))
+}<br/>{ = }{  \tilde{H}(T)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Man schaltet also einen Potenzreihenautomorphismus dahinter, damit die Hintereinanderschaltung
+<br/>\mathdisp {K[X,Y] \stackrel{X \mapsto G, Y  \mapsto H}{\longrightarrow} K[ \![T]\! ] \stackrel{T \mapsto U(T) }{ \longrightarrow} K[ \![T]\! ]} {  }<br/>
+die besonders einfache Gestalt \mathkon  { X \mapsto T  }  {  ,  }  { Y \mapsto \tilde{H}   }{ } bekommt. Dies bedeutet, dass man die Kurve als Graph zu einer formalen Funktion in einer Variablen realisieren möchte.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene algebraische Kurven/Tangenten mit Kontaktordnung eins/Formal-analytische Realisierung als Graph/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein Körper und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X, Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Polynom $\neq 0$ mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (0,0)
+}<br/>{ \in }{ C
+}<br/>{ = }{ V(F)
+}<br/>{    }{
+}<br/>{   }{}<br/>}
+{}{}{} 
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F 
+}<br/>{ = }{ F_d + \cdots + F_m
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die 
+\definitionsverweis {homogene Zerlegung}{}{}
+von $F$ mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ \geq }{m
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F_m
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Es sei <br/>\mathl{uX+vY}{} ein einfacher Linearfaktor von $F_m$ 
+\zusatzklammer {also ein lineares Polynom, das eine Tangente mit Multiplizität $1$ definiert} {} {.}}<br/>\faktfolgerung {Dann gibt es Potenzreihen
+<br/>\mathdisp {G= \sum_{n=0}^\infty a_n T^n,\,  H = \sum_{\ell=0}^\infty b_\ell T^\ell \in K [ \![ T]\! ]} {  }<br/>
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F(G,H)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und mit konstantem Term
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_0,b_0
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_1u+b_1v
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {Dabei kann eine der Potenzreihen als ein lineares Polynom gewählt werden.}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Durch eine lineare Variablentransformation können wir annehmen, dass
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ uX+vY
+}<br/>{ = }{ Y
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist. Wir zeigen, dass es dann eine Potenzreihenlösung mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{G
+}<br/>{ = }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und mit
+\zusatzklammer {zu konstruierendem} {} {}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ H
+}<br/>{ = }{b_2T^2+b_3T^3+ \ldots
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt. Wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_1
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_1
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+erfüllt das die angegebene lineare
+\zusatzklammer {Tangenten} {-} {}Bedingung.</p>
+
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ = }{ \sum_{i,j} c_{ij} X^{i} Y^{j}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ c_{m,0}
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+da andernfalls $Y$ kein Linearfaktor von $F_m$ sein könnte, und es ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ c_{m-1,1}
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+da sonst $Y$ ein Linearfaktor mit einer Multiplizität $\geq 2$ wäre.</p>
+
+<p>Wir zeigen, dass es bei diesen Anfangsdaten eine eindeutig bestimmte Potenzreihe
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{H
+}<br/>{ = }{b_2T^2+b_3T^3+ \ldots
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt. Einsetzen von $G$ und $H$ in $F$ ergibt für jedes $k$ eine Bedingung, da der resultierende Koeffizient zu $T^k$ gleich $0$ sein muss. Der $k$-te Koeffizient ist eine Summe von Ausdrücken der Form
+<br/>\mathdisp {c_{ij} b_{\ell_1 } \cdots b_{\ell_j } \text{ mit } i+ \sum_{\rho=1}^{j}  \ell_\rho = k} {  }<br/>
+\zusatzklammer {diese Ausdrücke kommen mehrfach mit einem gewissen Multinomialkoeffizienten vor} {} {.}
+Da
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \ell_\rho 
+}<br/>{ \geq }{ 2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, kommt für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{k
+}<br/>{ &lt; }{ m + \ell -1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der Term $b_\ell$ nicht vor. Der Term $b_\ell$ kommt erstmals im
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ k
+}<br/>{ = }{ (m+ \ell -1)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{-}ten Koeffizienten vor, und zwar in der einzigen Weise
+<br/>\mathdisp {c_{m-1,1} b_\ell} { . }<br/>
+Ansonsten kommen in diesem Koeffizienten nur die $c_{ij}$ und $b_r$ mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{r
+}<br/>{ &lt; }{ \ell
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+vor. Da nach Voraussetzung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ c_{m-1,1}
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, ist dadurch der Wert von $b_\ell$ eindeutig festgelegt. Die Koeffizienten $b_\ell$ werden also induktiv konstruiert, wobei die Werte jeweils eindeutig durch die Bedingung an die Koeffizienten festgelegt sind.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{ }<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten die ebene affine Kurve vom Grad drei, die durch die Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ = }{ X^3+XY+Y
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gegeben ist. Die partiellen Ableitungen sind
+<br/>\mathdisp {\frac{\partial F}{\partial X} =3 X^2 + Y \text{ und }  \frac{\partial F}{\partial Y} = X+1} { . }<br/>
+Die zweite Ableitung ist nur bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X
+}<br/>{ = }{ -1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gleich $0$, dort hat aber $F$ den Wert $-1$, d.h. die Kurve ist glatt. Im Nullpunkt haben die partiellen Ableitungen den Wert <br/>\mathl{(0,1)}{.} Die zugehörige Tangente ist also die $X$-Achse, was dazu passt, dass der lineare Term der Kurvengleichung $Y$ ist.</p>
+
+<p>Wir berechnen die Potenzreihe
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ H(T)
+}<br/>{ = }{ {\sum }_{  \ell=0 }^{ \infty }  b _{  \ell }  T ^{  \ell }
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+die die Kurve im Nullpunkt als Graphen beschreibt
+\zusatzklammer {es ist
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ X
+}<br/>{ = }{ T
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {.}
+Die Anfangsbedingungen sind
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_0
+}<br/>{ = }{b_1
+}<br/>{ = }{ 0
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Für die folgenden Koeffizienten von $H$ müssen wir aus der Gleichung 
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F(T,H)
+}<br/>{ =} { T^3+TH+H
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+also
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ T^3 + T( b_2T^2+b_3T^3 + \ldots ) + ( b_2T^2+b_3T^3 + \ldots )
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+über die Koeffizienten der $T^k$ die Bedingungen an $b_\ell$ herauslesen.</p>
+
+<p>$b_2$. Der zweite Koeffizient
+\zusatzklammer {der Gleichung} {} {}
+liefert sofort
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ b_2
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>$b_3$. Der dritte Koeffizient liefert die Bedingung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ 1+b_3
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+woraus
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_3
+}<br/>{ = }{ -1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+folgt.</p>
+
+<p>Die folgenden Koeffizienten liefern die Bedingung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ b_{\ell-1} + b_{\ell} 
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+sodass also die folgenden $b_\ell$ abwechselnd $1$ und $-1$ sind. Man hat also eine einfache Rekursionsformel und es ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ H
+}<br/>{ =} { -T^3+T^4-T^5+T^6-T^7 + \ldots 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Die Umformung der Kurvengleichung in
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ Y 
+}<br/>{ =} { \frac{-X^3}{1+X}
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+zeigt, dass hier der Graph einer rationalen Funktion
+\zusatzklammer {mit einem Pol bei
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ X
+}<br/>{ = }{ -1
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {}
+vorliegt. Die angegebene Potenzreihe beschreibt also den Graphen einer rationalen Funktion als Graphen einer formal-analytischen Funktion.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten
+das <a rel="mw:WikiLink" href="./Ebene_algebraische_Kurven/Kartesisches_Blatt/Beispiel" title="Ebene algebraische Kurven/Kartesisches Blatt/Beispiel">Kartesische Blatt</a>,
+das durch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ X^3+Y^3-3XY
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gegeben ist, im Nullpunkt und bezüglich der durch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gegebenen Tangente und wollen die Potenzreihe bestimmen, mit der sich der \anfuehrung{Zweig}{} der Kurve, der diese Tangente definiert, als Graph beschreiben lässt. Wir setzen also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{X
+}<br/>{ = }{ T
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ H 
+}<br/>{ = }{ b_2T^2+b_3T^3+b_4T^4+ \ldots
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+an und haben diese Koeffizienten zu bestimmen
+\zusatzklammer {die Charakteristik von $K$ sei nicht $3$} {} {.}
+Die Koeffizienten $b_\ell$ sind durch die Bedingung
+<br/>\mavergleichskettealign<br/>{\vergleichskettealign<br/>{ 0
+}<br/>{ =} { T^3+ H^3-3TH
+}<br/>{ =} { T^3+(b_2T^2+b_3T^3 + \ldots )^3 -3T(b_2T^2+b_3T^3 + \ldots )
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}
+{}{}
+festgelegt. Das Einsetzen bzw. Ausmultiplizieren dieser Potenzreihe liefert zum ersten Mal für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{k
+}<br/>{ = }{ 3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine Bedingung. Der Summand $X^3$
+\zusatzklammer {bzw. $T^3$} {} {}
+muss überhaupt nur einmal berücksichtigt werden, nämlich für
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{k
+}<br/>{ = }{ 3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Der Summand $Y^3$ muss erst ab
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{k
+}<br/>{ \geq }{ 6
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+berücksichtigt werden, da ja
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ H
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein Vielfaches von $T^2$ ist. Der Summand $XY$ muss ab
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{k
+}<br/>{ = }{ 3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+berücksichtigt werden.</p>
+
+<p>$b_2$. Hier hat man die Bedingung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ 1 -3 b_2
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+woraus sich
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ b_2
+}<br/>{ = }{ \frac{1}{3} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ergibt.</p>
+
+<p>$b_3$. Dies taucht erstmals in der Bedingung für den vierten Koeffizienten auf. Dort steht es aber isoliert, sodass
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_3
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+sein muss.</p>
+
+<p>$b_4$. Aus dem gleichen Grund ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_4
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>$b_5$. Hierfür ist der sechste Koeffizient entscheidend, und dabei ist jetzt auch $Y^3$ zu berücksichtigen. Es ergibt sich die Bedingung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ b_2^3-3 b_5
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_5
+}<br/>{ = }{ \frac{1}{81} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p><br/>\mathl{b_6, b_7,b_8}{.} Der Summand
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ Y^3
+}<br/>{ =} { \left(  b_2T^2 +b_5T^5+ \ldots  \right) \left(  b_2T^2 +b_5T^5+ \ldots  \right) \left(  b_2T^2 +b_5T^5+ \ldots  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+leistet erstmals wieder für den neunten Koeffizienten einen Beitrag, und zwar ist dieser <br/>\mathl{3b_2^2b_5}{.} Dies bedeutet, dass $b_6$ und $b_7$ isoliert stehen und daher null sein müssen. Für $b_8$ ergibt sich die Bedingung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ 3b_2^2b_5 -3 b_8
+}<br/>{ =} { 0
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+und daher ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_8
+}<br/>{ = }{\frac{1}{729}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>Der Anfang der Potenzreihe $H$, der den einen Kurvenzweig im Nullpunkt als einen Graphen beschreibt, ist also
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ H 
+}<br/>{ =} { \frac{1}{3} T^2 + \frac{1}{81} T^5 + \frac{1}{729}T^8 + \ldots
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Wir betrachten die durch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{X^3-Y^2
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+definierte 
+\definitionsverweis {Neilsche Parabel}{}{.}
+Hier ist der Nullpunkt singulär, und es gibt nur eine Tangente, nämlich
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+diese hat aber die Multiplizität zwei, d.h.
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurven/Tangenten_mit_Kontaktordnung_eins/Formal-analytische_Realisierung_als_Graph/Fakt" title="Ebene algebraische Kurven/Tangenten mit Kontaktordnung eins/Formal-analytische Realisierung als Graph/Fakt">Satz 25.2</a>
+ist hier nicht anwendbar. Wir werden zeigen, dass es überhaupt keine Potenzreihenlösung im Nullpunkt mit nicht verschwindendem linearen Term gibt.</p>
+
+<p>Es seien dazu
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{X
+}<br/>{ = }{ G
+}<br/>{ = }{ a_1T+a_2T^2 + \cdots 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y
+}<br/>{ = }{ H
+}<br/>{ = }{ b_1T+b_2T^2 + \cdots
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+Potenzreihen, die die Kurvengleichung erfüllen. Wir setzen in die Kurvengleichung ein und erhalten für den zweiten Koeffizient die Bedingung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ -b_1^2
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+woraus
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{b_1
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+folgt. Für den dritten Koeffizienten ergibt sich hingegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_1^3
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+also wieder
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_1
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p>
+
+<p>Dennoch gibt es Potenzreihenlösungen für die Neilsche Parabel durch den Nullpunkt. Hierzu kann man einfach die monomiale Lösung \mathkon  { G=T^2  }  {  und  }  { H=T^3  }{ } nehmen
+\zusatzklammer {die ja sogar eine Bijektion zwischen der affinen Geraden und der Neilschen Parabel stiftet} {} {.}
+Der lineare Term davon ist freilich gleich $0$.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\inputbemerkung<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ K
+}<br/>{ = }{ \R
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+oder $= {\mathbb C}$ und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X,Y]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Bei
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left( \frac{\partial F}{\partial x}(P),\frac{\partial F}{\partial y} (P) \right)
+}<br/>{ \neq} { (0,0)
+}<br/>{ } { 
+}<br/>{ } { 
+}<br/>{ } { 
+}<br/>}
+{}{}{,}</p>
+ 
+<p>wenn also $P$ ein 
+\definitionsverweis {regulärer Punkt}{}{}
+der Funktion $F$ ist 
+\zusatzklammer {oder, äquivalent, ein 
+\definitionsverweis {glatter Punkt}{}{}
+von
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ C 
+}<br/>{ = }{ V(F-F(P))
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}} {} {,}
+so sichert der  
+<a rel="mw:WikiLink" href="./Satz_über_implizite_Abbildungen/K/Fakt" title="Satz über implizite Abbildungen/K/Fakt">Satz über implizite Funktionen</a>,
+dass sich die Kurve in einer 
+\zusatzklammer {metrischen} {} {}
+Umgebung des Punktes als Graph einer differenzierbaren Funktion darstellen lässt.</p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">} <span class="mw-empty-elt"><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite"/></span></p></section></body></html>

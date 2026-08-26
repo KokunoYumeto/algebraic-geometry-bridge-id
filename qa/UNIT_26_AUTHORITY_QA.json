@@ -1,0 +1,112 @@
+{
+  "schema": "ag-bridge-unit-authority-qa-v1",
+  "result": "PASS",
+  "unit": 26,
+  "frozen_utc": "2026-08-25T22:24:51.437197+00:00",
+  "authority_manifest": {
+    "path": "authority/wikiversity/unit-26/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 118791,
+    "sha256": "981fa3c86534514215c722b6d4f6d711c040a7829465f20ae18940373f94763c"
+  },
+  "authority_freeze_note": {
+    "path": "authority/UNIT_26_AUTHORITY_FREEZE.md",
+    "bytes": 2805,
+    "sha256": "9ebab81986fe8b1b2bc91174417ad27086816eabe8e635d183a53e6d689b80cb"
+  },
+  "qa_script": {
+    "path": "scripts/qa_unit26_authority.py",
+    "bytes": 20694,
+    "sha256": "d3aee44394dd8caa622cc4ef4eebb9dac98b4b8a00d5425efde51e2e759cf7e6"
+  },
+  "local_inventory": {
+    "files": 58,
+    "bytes": 741361
+  },
+  "bounded_external_inventory": {
+    "files": 5,
+    "bytes": 137722
+  },
+  "entry_revisions": {
+    "course": 658236,
+    "lecture": 793526,
+    "worksheet": 793494
+  },
+  "recursive_pages_with_roots": {
+    "lecture": 119,
+    "worksheet": 58,
+    "solution_04": 10
+  },
+  "canonical_identity_rows_sha256": {
+    "lecture": "f1a064c0531f9079633a57009c565f20a0520a0ef10cb2336ad3b52aa2d331b8",
+    "worksheet": "158fd9f6495ee9763d9e01cc1c0969a6be7c8b194dd88c4f8b12edbad900211f",
+    "solution-04": "8fd91e101676ccbe314c5905bb2ac8ccbf457c5d629962206124b6878c212d30"
+  },
+  "exercise_count": 11,
+  "roles": {
+    "warm_up": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "submitted": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "upload": []
+  },
+  "submitted_displayed_points": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    8
+  ],
+  "starred_numbers": [
+    4
+  ],
+  "public_solution_numbers": [
+    4
+  ],
+  "negative_solution_numbers": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "reader_media_positions": 1,
+  "official_pdf_pages": [
+    7,
+    2
+  ],
+  "final_live_identity_replay": {
+    "semantic_wikiversity": 157,
+    "local_wikiversity_pdfs": 2,
+    "commons_media": 1
+  },
+  "checks": [
+    "course_entry_latex_and_recursive_closure_identities",
+    "manifest_local_and_bounded_external_inventory",
+    "canonical_identity_hash_recomputation",
+    "ordered_roles_authored_and_displayed_points_and_stars",
+    "sole_complete_public_solution_closure",
+    "exact_11_candidate_positive_and_negative_solution_evidence",
+    "single_static_commons_media_bytes_rights_and_accessibility_ids",
+    "official_local_pdf_bytes_pages_text_and_accessibility",
+    "dual_current_and_legacy_component_license_notices",
+    "captured_final_live_identity_replay_including_latest_solution"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "ag-bridge-unit-authority-qa-v1",
+  "unit": 27,
+  "status": "PASS",
+  "authority_manifest": {
+    "path": "authority/wikiversity/unit-27/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 135052,
+    "sha256": "98f9ebcc0d3b41bb0b955c5190d416b9ebfc07433015732faaf7f38366a1d9b2"
+  },
+  "authority": {
+    "lecture_closure_with_root": 121,
+    "worksheet_closure_with_root": 61,
+    "semantic_union": 157
+  },
+  "exercises": {
+    "count": 11,
+    "public_solutions": 0,
+    "negative_candidates": 11
+  },
+  "media": {
+    "positions": 10,
+    "assets": 10
+  },
+  "pdfs": [
+    {
+      "kind": "lecture",
+      "bytes": 171996,
+      "sha256": "0d4402bfae46abd09cb4719110a006287b03de31b0e620e0157a4ef9a07817f2",
+      "pages": 9
+    },
+    {
+      "kind": "worksheet",
+      "bytes": 41952,
+      "sha256": "e1fa608c2b54c988f16d0c0b2119f1d21440b37debbf87d89b7bbf228c6bdf9d",
+      "pages": 2
+    }
+  ],
+  "rights": {
+    "path": "authority/RIGHTS-unit-27.csv",
+    "bytes": 11564,
+    "sha256": "df2fb8403ddef014500e81e2165e2d4e400a0573dd262ba3dba5ece6bcd46821"
+  },
+  "asset_closure": {
+    "path": "authority/ASSET_CLOSURE-unit-27.json",
+    "bytes": 26057,
+    "sha256": "b08e53863d977899d9910d1b6f48e82237f590402e8450f2683b07a078c1ebc6"
+  },
+  "offline_replay": true,
+  "network_replay_witness": "authority/wikiversity/unit-27/final-commons-media-identity-replay.json",
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra"
+}

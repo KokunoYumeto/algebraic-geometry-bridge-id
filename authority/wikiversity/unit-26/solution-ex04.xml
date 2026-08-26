@@ -1,0 +1,109 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kartesisches Blatt/Schnittmultiplizität im Nullpunkt/Mit jeder Geraden/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21344</id>
+    <revision>
+      <id>1112503</id>
+      <parentid>1011285</parentid>
+      <timestamp>2026-08-21T15:27:54Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1365" sha1="fa3ygow0twt82zjvw51xqa4z7rjz8wi" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wenn die Gerade nicht durch den Nullpunkt läuft, so ist die Schnittmultiplizität null. Betrachten wir also die Geraden durch den Nullpunkt, die man als {{math|term= V(Y-aX) |SZ=}} oder als {{math|term= V(Y) |SZ=}} beschreiben kann. Bei {{math|term= V(Y) |SZ=}} ergibt sich der Restklassenring
+{{
+Relationskette/display
+| K[X,Y]_{(X,Y)}/ {{makl| Y,X^3+Y^3-3XY |}}  
+|| K[X]_{(X)}/ {{makl| X^3 |}} 
+||
+||
+||
+|SZ=.
+}}
+Dieser Ring hat die {{math|term= K |SZ=-}}Dimension, die Schnittmultiplizität ist also {{math|term= 3 |SZ=.}}  Wegen der Symmetrie der Situation gilt dies auch für die Gerade {{math|term= V(X) |SZ=.}} Betrachten wir nun eine Gerade {{math|term= V(Y-aX) |SZ=}} mit
+{{
+Relationskette
+| a
+| \neq | 0
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dann ist der Restklassenring gleich
+{{
+Relationskette/align
+| K[X,Y]_{(X,Y)}/ {{makl| Y-aX,X^3+Y^3-3XY |}}  
+|| K[X]_{(X)}/ {{makl| X^3 +a^3X^3-3aX^2 |}} 
+|| K[X]_{(X)}/ {{makl| X^2(-3a+ {{makl| 1+a^3 |}} X) |}} 
+|SZ=.
+}}
+Da
+{{
+Relationskette
+| 3
+| \neq | 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist, ist der hintere Faktor eine Einheit, sodass es sich um den Ring {{math|term= K[X]/ {{makl| X^2 |}}  |SZ=}} handelt mit Dimension zwei.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=Das Kartesische Blatt
+|Stichwort=Kartesisch
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>fa3ygow0twt82zjvw51xqa4z7rjz8wi</sha1>
+    </revision>
+  </page>
+</mediawiki>

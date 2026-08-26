@@ -2,7 +2,7 @@
 
 Status: active. Write only inside this repository's D100/O016 lane.
 Recover from this file, `00_control/CURSOR.json`, the current unit worklog,
-matching authority/rights/QA, and `qa/UNITS_01_24_HANDOFF.md`. Update them at
+matching authority/rights/QA, and `qa/UNITS_01_27_HANDOFF.md`. Update them at
 material boundaries; they—not chat, compaction, or a stale synopsis—control.
 
 ## Objective and architecture
@@ -77,10 +77,43 @@ existing Zenodo concept as record 22102097 / DOI
 commit `fd8984aeb642de240af6a36aee4464d25791658a`, annotated tag `unit-24`.
 Receipts are `qa/UNIT_24_ZENODO_PUBLICATION.json` and
 `qa/UNIT_24_GITHUB_PUBLICATION.json`; every release asset, both raw-commit
-reader files, and both Pages files match the frozen bytes. Next: freeze the
-official 2012 Unit 25 authority, then translate and verify Unit 25 in source
-order without altering accepted Unit 1--24 bytes. This lane remains the sole
-integrator, validator, and publisher.
+reader files, and both Pages files match the frozen bytes. This published
+baseline remains immutable. This lane remains the sole integrator, validator,
+and publisher.
+
+Units 25-27 are now independently frozen, translated, corrected, and
+deterministically verified as internal source boundaries. Unit 25 preserves
+nine ordered lecture entities, 13 exercises, exactly two frozen public
+solutions, zero new media positions, 31 stable unit IDs, and 295 Pandoc math
+nodes. Unit 26 preserves 21 ordered lecture entities, 11 exercises, exactly
+one frozen public solution, one new media position, 39 stable unit IDs, and
+346 Pandoc math nodes. Unit 27 preserves 21 ordered lecture entities, 11
+exercises, zero public solutions, ten full-resolution media positions, 39
+stable unit IDs, and 269 Pandoc math nodes. Cumulative internal source coverage
+is 27 lectures, 27 worksheets, 657 exercises, all 117 frozen public solutions,
+and 94 media positions. Exact identities are in
+`00_control/UNIT_25_WORKLOG.md`, `00_control/UNIT_26_WORKLOG.md`,
+`00_control/UNIT_27_WORKLOG.md`, their matching authority freezes, and the
+three matching translation-QA receipts. The cumulative self-contained HTML is
+22,205,344 bytes (SHA-256
+`8edd2fc31c30e7e5454f31cf18b6f3f117e1a7108766c839a33cf896cdd24b66`);
+the 464-page A4 PDF is 14,826,919 bytes (SHA-256
+`766f6b8ccede9ecb1b6524d9652595f188d6f17ef22fab4bf6b886b03a9e0d65`).
+All-page visual, machine, protected-surface, responsive, native-backend, and
+common-adapter gates pass. The native backend has 20,570 records, preserving
+all 18,488 Unit 1–24 records byte-for-byte; the additive common adapter
+validates 48,882 virtual records and 116,400 foreign keys and reverses exactly
+to the native bytes.
+
+The deterministic eight-file reader-first Unit 27 package is public in the
+existing Zenodo concept as record 22104692 / DOI
+`10.5281/zenodo.22104692`; anonymous streaming readback matched all eight
+files by byte count and SHA-256. The sanitized receipt is
+`qa/UNIT_27_ZENODO_PUBLICATION.json`. The exact next executable action is to
+commit these frozen Unit 25–27 sources, reader, backend, controls, and Zenodo
+receipt to the existing GitHub lineage; create the annotated `unit-27` tag and
+eight-asset release; anonymously verify the release, raw commit, and Pages
+bytes; then advance to the official 2012 Unit 28 authority freeze.
 
 ## Finite workflow
 

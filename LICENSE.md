@@ -7,7 +7,7 @@ course subpages and included pages, and licensed that material under the
 **Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA
 4.0)**. Units 1-23 of this edition follow the frozen official *Algebraische
 Kurven (Osnabrück 2025-2026)* course. Because that course currently ends at
-Unit 23, Unit 24 follows the separately frozen official *Algebraische Kurven
+Unit 23, Units 24–27 follow the separately frozen official *Algebraische Kurven
 (Osnabrück 2012)* semantic course source. The two source editions are not
 merged or mislabelled.
 
@@ -23,7 +23,7 @@ source work. The change notice is: **Indonesian translation and re-typesetting,
 2026**. Reuse must preserve attribution, indicate changes, link the licence,
 and satisfy ShareAlike.
 
-The official 2012 lecture and worksheet PDF witnesses for Unit 24 preserve a
+The official 2012 lecture and worksheet PDF witnesses for Units 24–27 preserve a
 **CC BY-SA 4.0 course route** and also a recorded **CC BY-SA 2.0 Germany file
 notice**. Those PDFs are authority witnesses, not reader-media positions. The
 component notice is preserved as evidence; this edition does not make a
@@ -39,31 +39,13 @@ Wikiversity, Wikimedia Foundation, or any other upstream party.
 No blanket repository licence overrides media-component rights. Every included
 Wikimedia Commons asset retains its own creator, source, licence, attribution
 requirements, and any PDF-only companion relationship. The binding inventories
-are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1,
-[`authority/RIGHTS-unit-02.csv`](authority/RIGHTS-unit-02.csv) for Unit 2, and
-[`authority/RIGHTS-unit-03.csv`](authority/RIGHTS-unit-03.csv) for Unit 3, and
-[`authority/RIGHTS-unit-04.csv`](authority/RIGHTS-unit-04.csv) for Unit 4,
-[`authority/RIGHTS-unit-05.csv`](authority/RIGHTS-unit-05.csv) for Unit 5,
-[`authority/RIGHTS-unit-06.csv`](authority/RIGHTS-unit-06.csv) for Unit 6,
-[`authority/RIGHTS-unit-07.csv`](authority/RIGHTS-unit-07.csv) for Unit 7,
-[`authority/RIGHTS-unit-08.csv`](authority/RIGHTS-unit-08.csv) for Unit 8,
-[`authority/RIGHTS-unit-09.csv`](authority/RIGHTS-unit-09.csv) for Unit 9,
-[`authority/RIGHTS-unit-10.csv`](authority/RIGHTS-unit-10.csv) for Unit 10,
-[`authority/RIGHTS-unit-11.csv`](authority/RIGHTS-unit-11.csv) for Unit 11,
-[`authority/RIGHTS-unit-12.csv`](authority/RIGHTS-unit-12.csv) for Unit 12,
-[`authority/RIGHTS-unit-13.csv`](authority/RIGHTS-unit-13.csv) for Unit 13,
-[`authority/RIGHTS-unit-14.csv`](authority/RIGHTS-unit-14.csv) for Unit 14,
-[`authority/RIGHTS-unit-15.csv`](authority/RIGHTS-unit-15.csv) for Unit 15,
-[`authority/RIGHTS-unit-16.csv`](authority/RIGHTS-unit-16.csv) for Unit 16,
-[`authority/RIGHTS-unit-17.csv`](authority/RIGHTS-unit-17.csv) for Unit 17, and
-[`authority/RIGHTS-unit-18.csv`](authority/RIGHTS-unit-18.csv) for Unit 18,
-[`authority/RIGHTS-unit-19.csv`](authority/RIGHTS-unit-19.csv) for Unit 19,
-[`authority/RIGHTS-unit-20.csv`](authority/RIGHTS-unit-20.csv) for Unit 20,
-[`authority/RIGHTS-unit-21.csv`](authority/RIGHTS-unit-21.csv) for Unit 21,
-[`authority/RIGHTS-unit-22.csv`](authority/RIGHTS-unit-22.csv) for Unit 22,
-[`authority/RIGHTS-unit-23.csv`](authority/RIGHTS-unit-23.csv) for Unit 23, and
-[`authority/RIGHTS-unit-24.csv`](authority/RIGHTS-unit-24.csv) for Unit 24. The
-reader also contains a complete **Kredit media** section.
+are [`authority/RIGHTS.csv`](authority/RIGHTS.csv) for Unit 1 and
+`authority/RIGHTS-unit-02.csv` through `authority/RIGHTS-unit-27.csv` for Units
+2–27. The current boundary specifically binds
+[`authority/RIGHTS-unit-25.csv`](authority/RIGHTS-unit-25.csv),
+[`authority/RIGHTS-unit-26.csv`](authority/RIGHTS-unit-26.csv), and
+[`authority/RIGHTS-unit-27.csv`](authority/RIGHTS-unit-27.csv). The reader also
+contains a complete **Kredit media** section.
 
 ## Build and QA code
 

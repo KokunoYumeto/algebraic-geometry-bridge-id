@@ -1,0 +1,115 @@
+{
+  "schema": "ag-bridge-zenodo-publication-receipt-v3",
+  "status": "PASS",
+  "record": {
+    "id": 22104692,
+    "url": "https://zenodo.org/records/22104692",
+    "api_url": "https://zenodo.org/api/records/22104692",
+    "doi": "10.5281/zenodo.22104692",
+    "concept_doi": "10.5281/zenodo.22059686",
+    "previous_record_id": 22102097,
+    "title": "Kurva Aljabar — Edisi Bahasa Indonesia",
+    "version": "unit-27",
+    "publication_date": "2026-08-26",
+    "published_timestamp": "2026-08-26T02:31:35.430816+00:00",
+    "zenodo_state": "done",
+    "zenodo_status": "published"
+  },
+  "reader_boundary": {
+    "through_unit": 27,
+    "planned_units": 30,
+    "full_edition_complete": false,
+    "pdf_pages": 464,
+    "exercises": 657,
+    "public_source_solutions": 117,
+    "reader_media_positions": 94,
+    "backend_records": 20570
+  },
+  "metadata_cleanliness": {
+    "creator": "Brenner, Holger",
+    "creator_count": 1,
+    "organization_name": "TTP",
+    "organization_contributor_count": 1,
+    "organization_hub": "https://github.com/KokunoYumeto/program-matematika-indonesia",
+    "model_contributor": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "model_contributor_count": 1,
+    "exact_model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+    "work_title_preserved_without_organization_prefix": true,
+    "description_lead_preserved_without_organization_prefix": true,
+    "non_endorsement_disclosed": true,
+    "license_field": "other-open",
+    "license_field_rationale": "Avoids applying a false blanket licence to the mixed-rights file set.",
+    "translated_course_text_license": "CC BY-SA 4.0",
+    "source_course_boundary": {
+      "units_01_23": "Algebraische Kurven (Osnabrück 2025–2026)",
+      "units_24_27": "Algebraische Kurven (Osnabrück 2012)"
+    },
+    "units_24_27_pdf_component_notices": [
+      "CC BY-SA 4.0 course route",
+      "CC BY-SA 2.0 Germany file notice"
+    ],
+    "third_party_media_license_policy": "Per-component rights and attribution are preserved in the source package."
+  },
+  "anonymous_public_byte_readback": {
+    "verified_at": "2026-08-26T02:31:56Z",
+    "credential_used": false,
+    "files_expected": 8,
+    "files_verified": 8,
+    "all_size_and_sha256_matches": true,
+    "files": [
+      {
+        "name": "kurva-aljabar-id-unit-27.pdf",
+        "bytes": 14826919,
+        "sha256": "766f6b8ccede9ecb1b6524d9652595f188d6f17ef22fab4bf6b886b03a9e0d65",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-27.html",
+        "bytes": 22205344,
+        "sha256": "8edd2fc31c30e7e5454f31cf18b6f3f117e1a7108766c839a33cf896cdd24b66",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-27-source.zip",
+        "bytes": 18894931,
+        "sha256": "40cdc5808ae075655db6b5cd655bfd81c198ba5ffe34b0060dd099198e325afc",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-27-authority-witnesses.zip",
+        "bytes": 27477901,
+        "sha256": "f81646043e69654d4b121413e4031cc5409bb6e32ce80396f2f4b2189fd78b65",
+        "public_readback": true
+      },
+      {
+        "name": "BUILD_RECEIPT-unit-27.json",
+        "bytes": 41655,
+        "sha256": "47c6953b90483a3ab263b940f38586f445a1ef723319d45914771e2dc9abc9a0",
+        "public_readback": true
+      },
+      {
+        "name": "LICENSE-unit-27.md",
+        "bytes": 3992,
+        "sha256": "036da7cfde72a232324d5138b462a58bc40120f30dd2c0dfc6814e00c9c5ce7f",
+        "public_readback": true
+      },
+      {
+        "name": "ZENODO_FILE_MANIFEST-unit-27.json",
+        "bytes": 4924,
+        "sha256": "6a8470f9aadaa3a51f591b69c2614b325f1f85272a5d15391fd71fb18f93d73d",
+        "public_readback": true
+      },
+      {
+        "name": "MIGRATION_RECEIPT.json",
+        "bytes": 6801,
+        "sha256": "8ddcc304b766564531858bf586523ce7785f8db8248a5d70765bd69761d19ec8",
+        "public_readback": true
+      }
+    ]
+  },
+  "credential_handling": {
+    "public_readback_used_anonymous_requests": true,
+    "credential_value_logged_or_persisted": false,
+    "credential_file_path_recorded": false
+  }
+}

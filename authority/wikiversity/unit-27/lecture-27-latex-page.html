@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/806125"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/796345"/><meta property="mw:revisionSHA1" content="3e3nqvm6nsvokcc33v86ivll7ce6lru"/><meta property="dc:modified" content="2022-09-18T07:15:02Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="51877"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012)/Vorlesung_27/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 27/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="8f29998a-9e82-11f1-b9df-fb13aa67bc76"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"Latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{27}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Der projektive Raum}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Loewenzahn_20} {jpg} }<br/>\end{center} <br/>\bildtext {Die Geraden durch einen Punkt} }<br/><br/>\bildlizenz { Loewenzahn 20.jpg } {Waugsberg} {} {Commons} {CC-BY-SA-2.5} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein 
+\definitionsverweis {Körper}{}{.}
+Der \definitionswort {projektive}{} $n$-\definitionswort {dimensionale Raum}{} <br/>\mathl{{\mathbb P}^{ n }_{ K}}{} besteht aus allen Geraden des <br/>\mathl{{ {\mathbb A}_{ K }^{ n+1  } }}{} durch den Nullpunkt, wobei diese Geraden als Punkte aufgefasst werden. Ein solcher Punkt wird repräsentiert durch \definitionswort {homogene Koordinaten}{} <br/>\mathl{(a_0,a_1 , \ldots , a_n)}{,} wobei nicht alle
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{a_i
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+sein dürfen, und wobei zwei solche Koordinatentupel genau dann den gleichen Punkt repräsentieren, wenn sie durch Multiplikation mit einem Skalar
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \in }{ K ^{\times} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ineinander übergehen.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir werden den projektiven Raum nach und nach mit zusätzlichen Strukturen versehen.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Der projektive Raum/Offene Standardüberdeckung mit affinen Räumen/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und sei <br/>\mathl{{\mathbb P}^{ n }_{ K}}{} ein
+\definitionsverweis {projektiver Raum}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{i
+}<br/>{ \in }{ \{ 0,1 , \ldots , n \} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+fixiert.}<br/>\faktfolgerung {Dann gibt es eine natürliche Abbildung
+\maabbeledisp {\varphi_i} { { {\mathbb A}_{  K  }^{  n   } }  } { {\mathbb P}^{ n }_{ K }
+} { \left(  u_1 , \ldots ,  u_n  \right) } { \left(  u_1 , \ldots , u_{i}, 1, u_{i+1} , \ldots , u_n  \right)   
+} {.}
+Diese Abbildung ist injektiv und induziert eine Bijektion zu denjenigen Punkten des projektiven Raumes, bei denen die $i$-te homogene Koordinate nicht $0$ ist. Die Umkehrabbildung wird durch
+\maabbelementzeiledisplay {} { {\mathbb P}^{ n }_{ K } \supset D_+ \left(  X_i  \right)  \defeq \left\{  \left(  x_0,x_1 , \ldots , x_n  \right)   \mid   x_i \neq 0         \right\}  } { { {\mathbb A}_{  K  }^{  n   } }
+} { \left(  x_0,x_1 , \ldots , x_n  \right) } { \left(  \frac{x_0 }{x_i }, \frac{x_1 }{x_i } , \ldots , \frac{x_{i-1} }{x_i }, \frac{x_{i+1} }{x_i } , \ldots , \frac{x_{n} }{x_i }  \right) 
+} {,}
+gegeben.}<br/>\faktzusatz {Der projektive Raum wird überdeckt von diesen <br/>\mathl{n+1}{} affinen Räumen. Das Komplement eines solchen affinen Raumes 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ { {\mathbb A}_{  K  }^{  n   } } 
+}<br/>{ \cong }{D_+ \left(  X_i  \right) 
+}<br/>{ \subset }{ {\mathbb P}^{ n }_{ K } 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist ein <br/>\mathl{(n-1)}{-}dimensionaler projektiver Raum.}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die Abbildung ist offensichtlich wohldefiniert, da die $1$ sicherstellt, dass mindestens eine homogene Koordinate nicht $0$ ist. Die Abbildung ist injektiv, da aus einer Gleichung der Form
+\zusatzklammer {für homogene Koordinaten} {} {}
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{  \left(  u_1 , \ldots , u_{i}, 1, u_{i+1} , \ldots , u_n  \right) 
+}<br/>{ =} { \lambda \left(  v_1 , \ldots , v_{i}, 1, v_{i+1} , \ldots ,  v_n  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+sofort
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+wegen der $1$ folgt. Die Umkehrabbildung ist auf der angegebenen Teilmenge wohldefiniert, und ist invers zu der Abbildung. Die Überdeckungseigenschaft ist klar, da für jeden Punkt des projektiven Raumes mindestens eine homogene Koordinate nicht $0$ ist. Das Komplement zu <br/>\mathl{D_+ \left(  X_i  \right)}{} ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ V_+ \left(  X_i  \right) 
+}<br/>{ =} { \left\{  \left(  x_0,x_1 , \ldots , x_{i-1},0,x_{i+1} , \ldots , x_n  \right)   \mid   x_j \in K  , \,  x_j \neq 0 \text{ für ein } j       \right\} 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+ohne weitere Einschränkung an die übrigen $n$ Variablen und mit der Identifizierung von zwei solchen Tupeln, wenn sie durch Multiplikation mit einem Skalar ineinander übergehen.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Projektiveline1bb} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Projektiveline1bb.jpg } {Darapti} {} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Projektiveline2bb} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Projektiveline2bb.jpg } {Darapti} {} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Projektiveline3bb} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Projektiveline3bb.jpg } {Darapti} {} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Die projektive Gerade <br/>\mathl{{\mathbb P}^{1}_{K}}{} ist als die Menge der Geraden durch den Nullpunkt in der affinen Ebene <br/>\mathl{{\mathbb A}^{2}_{K}}{} gegeben. Eine solche Gerade ist entweder die $x$-Achse oder aber eine Gerade, die die Gerade <br/>\mathl{V(y-1)}{}
+\zusatzklammer {also die zur $x$-Achse parallele Gerade durch \mathlk{(0,1)}{}} {} {}
+in genau einem Punkt schneidet. Umgekehrt liefert jeder Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ V(y-1) 
+}<br/>{ \cong }{ {\mathbb A}^{1}_{K}
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+eine eindeutig bestimmte Gerade durch den Nullpunkt. D.h. die projektive Gerade besteht aus einer affinen Gerade und einem weiteren Punkt, den man den \anfuehrung{unendlich fernen}{} Punkt nennt. Wichtig ist dabei aber, dass dieser unendlich ferne Punkt nicht wesensverschieden von den anderen Punkten ist. Wenn man eine beliebige Gerade $G$ durch den Nullpunkt nimmt sowie eine dazu parallele Gerade
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{L
+}<br/>{ \neq }{G
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+so übernimmt $L$ die Rolle der affinen Geraden, und $G$ repräsentriert dann einen
+\zusatzklammer {von dieser affinen Geraden aus gesehen} {} {}
+unendlich fernen Punkt.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Projektiveplane1bb} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Projektiveplane1bb.jpg } {Darapti} {} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Projektiveplane2bb} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Projektiveplane2bb.jpg } {Darapti} {} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Projektiveplane3bb} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Projektiveplane3bb.jpg } {Darapti} {} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Projektiveplane4bb} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Projektiveplane4bb.jpg } {Darapti} {} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Die Punkte in der projektiven Ebene <br/>\mathl{{\mathbb P}^{2}_{ K }}{} entsprechen den Geraden durch den Nullpunkt im affinen Raum <br/>\mathl{{ {\mathbb A}_{ K }^{  3   } }}{.} Jeder Punkt der projektiven Ebene wird repräsentiert durch ein Tupel <br/>\mathl{(x,y,z)}{,} wobei nicht alle <br/>\mathl{x,y,z}{} gleichzeitig $0$ sein dürfen und wobei zwei Koordinatentupel identifiziert werden, wenn sie durch Multiplikation mit einem Skalar
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ineinander überführt werden können. Die projektive Ebene wird überdeckt durch drei affine Ebenen, nämlich
+<br/>\mathdisp {D_+(X),\, D_+(Y) \text{ und } D_+(Z)} { . }<br/>
+Dabei besteht <br/>\mathl{D_+(Z)}{} aus allen Punkten, deren dritte Koordinate nicht $0$ ist. Durch Multiplikation mit $z^{-1}$ kann man diese Punkte mit
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left(  { \frac{   x  }{ z } }   , \,   { \frac{   y  }{ z } }  , \,   { \frac{   z  }{ z } }                 \right) 
+}<br/>{ =} { \left(  u   , \,   v  , \,   1                 \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+identifizieren, sodass wirklich eine affine Ebene vorliegt. Das Komplement der affinen Ebene <br/>\mathl{D_+(Z)}{} ist die Menge <br/>\mathl{V_+(Z)}{} der Punkte, wo die dritte Komponente $0$ ist. Da man nach wie vor Punkte identifiziert, die durch Multiplikation mit einem Skalar ineinander überführbar sind,  ist <br/>\mathl{V_+(Z)}{} eine projektive Gerade. Ein Punkt <br/>\mathl{(x,y,0)}{} auf dieser Geraden und der Nullpunkt <br/>\mathl{(0,0,1)}{} von <br/>\mathl{D_+(Z)}{} definieren die Gerade durch den Nullpunkt mit dem Richtungsvektor <br/>\mathl{(x,y)}{}
+\zusatzklammer {und der homogenen Geradengleichung
+\mathkork {} {yX-xY=0} {bzw.} {V_+(yX-xY)} {}} {} {.}
+Man kann sich also die projektive Ebene gut vorstellen als eine affine Ebene, in der jede Gerade durch den Nullpunkt noch einen zusätzlichen
+\zusatzklammer {\anfuehrung{unendlich fernen}{}} {} {}
+Punkt definiert.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">} </p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Perspective_Projection_Principle} {jpg} }<br/>\end{center} <br/>\bildtext {} }<br/><br/>\bildlizenz { Perspective Projection Principle.jpg } {} {Fantagu} {Commons} {CC-BY-SA-3.0} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Nullstellen von homogenen Polynomen}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Für ein beliebiges Polynom
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ \in }{ K[X_0 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ergibt es keinen Sinn zu sagen, ob ein Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ {\mathbb P}^{n}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine Nullstelle davon ist, da diese Eigenschaft nicht invariant unter der Multiplikation mit einem Skalar ist und daher vom Repräsentanten von $P$ abhängt. Für 
+\definitionsverweis {homogene Polynome}{}{}
+sieht das anders aus.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Der projektive Raum/Homogenes Polynom/Nullsein ist wohldefiniert/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ \in }{ K[X_0 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein 
+\definitionsverweis {homogenes Polynom}{}{}
+vom 
+\definitionsverweis {Grad}{}{}
+$d$.}<br/>\faktfolgerung {Dann gilt für einen Punkt <br/>\mathl{\left(  x_0   , \,   \ldots  , \,   x_n                 \right)}{} und einen Skalar $\lambda$ die Beziehung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ F \left(  \lambda x_0   , \,   \ldots  , \,   \lambda x_n                 \right)
+}<br/>{ =} { \lambda^d F \left(  x_0   , \,   \ldots  , \,   x_n                 \right)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}}<br/>\faktzusatz {Insbesondere verschwindet $F$ in <br/>\mathl{\left(  x_0   , \,   \ldots  , \,   x_n                 \right)}{} genau dann, wenn $F$ für ein beliebiges
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+in <br/>\mathl{\lambda \left(  x_0   , \,   \ldots  , \,   x_n                 \right)}{} verschwindet.}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Dies kann man auf den Fall eines 
+\definitionsverweis {Monoms}{}{}
+vom Grad $d$ zurückführen. Für \mathkon  { X_0^{d_0 } \cdots X_n^{d_n }  }  {  mit  }  {  \sum_{i=0}^n d_i=d   }{ } und 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \in }{ K
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gilt
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (\lambda X_0)^{d_0 } \cdots (\lambda X_n)^{d_n }
+}<br/>{ =} { (\lambda^{d_0 } X_0^{d_0 }) \cdots ( \lambda^{d_n } X_n^{d_n } )
+}<br/>{ =} { \lambda^d  ( X_0^{d_0 } \cdots X_n^{d_n })
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Man beachte, dass es durch diese Aussage zwar wohldefiniert ist, ob ein homogenes Polynom an einem projektiven Punkt verschwindet oder nicht, dass es aber keinen Sinn ergibt, einem homogenen Polynom einen Wert an jedem Punkt des projektiven Raumes zuzuordnen. Ein homogenes Polynom definiert keine Funktion auf dem projektiven Raum.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein 
+\definitionsverweis {Körper}{}{.}
+Zu einem
+\definitionsverweis {homogenen Polynom}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F
+}<br/>{ \in }{ K[X_0,X_1 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+bezeichnet man die Menge
+<br/>\mavergleichskettedisphandlinks<br/>{\vergleichskettedisphandlinks<br/>{ V_+(F)
+}<br/>{ =} { \left\{ P=(x_0 , \ldots , x_n) \in {\mathbb P}^{ n }_{ K }   \mid   F(x_0 , \ldots , x_n) = 0        \right\} 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+als die \definitionswort {projektive Nullstellenmenge}{} zu $F$.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wenn man
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V_+(F)
+}<br/>{ \subseteq }{ {\mathbb P}^{n}_{K} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+bestimmen möchte, so kann man die disjunkte Zerlegung
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ {\mathbb P}^{n}_{K} 
+}<br/>{ =} { D_+(X_0) \uplus V_+(X_0)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+\zusatzklammer {ebenso für jede andere Variable} {} {}
+ausnutzen. Zur Bestimmung von <br/>\mathl{V_+(F) \cap D_+(X_0)}{} setzt man in $F$ die Variable $X_0$ gleich $1$ und muss die Lösungen im affinen Raum
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ { {\mathbb A}_{ K }^{ n  } }
+}<br/>{ \cong }{ D_+(X_0)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+von
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F { \frac{   1 }{ X_0 } } 
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+finden. Dabei wird das Polynom inhomogen, gleichzeitig eliminiert man eine Variable. Die Dimension bleibt gleich, die Situation wird aber affin. Zur Bestimmung von <br/>\mathl{V_+(F) \cap V_+(X_0)}{} setzt man in $F$ die Variable $X_0$ gleich $0$ und muss die Lösungen im projektiven Raum
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathbb P}^{n-1}_{K}
+}<br/>{ \cong }{ V_+(X_0)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+von
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F { \frac{   0 }{ X_0 } } 
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+finden. Hier eliminert man eine Variable, das Polynom bleibt homogen, man bleibt projektiv, die Dimension reduziert sich um $1$. </p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Die einfachsten 
+\definitionsverweis {homogenen Polynome}{}{}
+in <br/>\mathl{K[X_0,X_1 , \ldots , X_n]}{} sind die vom Grad $1$, also Ausdrücke der Form
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{F
+}<br/>{ =} { a_0X_0 + a_1X_0 + \cdots + a_nX_n
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+wobei nicht alle Koeffizienten gleichzeitig $0$ sein dürfen. Die
+\definitionsverweis {affine Nullstellenmenge}{}{}
+<br/>\mathl{V(F)}{} im <br/>\mathl{{ {\mathbb A}_{ K }^{ n+1  } }}{} ist ein $n$-dimensionaler affiner Raum durch den Nullpunkt, die 
+\definitionsverweis {projektive Nullstellenmenge}{}{}
+<br/>\mathl{V_+(F)}{} im <br/>\mathl{{\mathbb P}^{ n }_{ K}}{} ist isomorph zu einem $(n-1)$-dimensionalen projektiven Raum.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Es sei $K$ ein Körper und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ \subseteq }{ K[X_1 , \ldots ,  X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein 
+\definitionsverweis {Ideal}{}{.}
+Das Ideal heißt \definitionswort {homogen}{,} wenn für jedes
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{H
+}<br/>{ \in }{ {\mathfrak a} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit der homogener Zerlegung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{H
+}<br/>{ = }{ \sum_{i } H_i
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+auch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{H_i
+}<br/>{ \in }{ {\mathfrak a}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+für alle homogenen Bestandteile $H_i$ ist.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{ }<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Zu einem 
+\definitionsverweis {homogenen Ideal}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ \subseteq }{ K[X_0 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+nennt man
+<br/>\mavergleichskettedisphandlinks<br/>{\vergleichskettedisphandlinks<br/>{ V_+( {\mathfrak a}) 
+}<br/>{ =} { \left\{ P = (x_0 , \ldots ,x_n) \in {\mathbb P}^{ n }_{ K }   \mid   F(P)=0 \text{ für }  \text{alle homogenen } F \in {\mathfrak a}         \right\} 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+das \definitionswort {projektive Nullstellengebilde}{} oder die \definitionswort {projektive Varietät}{} zu ${\mathfrak a}$.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Der
+\definitionsverweis {projektive Raum}{}{}
+${\mathbb P}^{ n }_{ K}$ wird mit der \definitionswort {Zariski-Topologie}{} versehen, bei der die Mengen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V_+( {\mathfrak a} )
+}<br/>{ \subseteq }{ {\mathbb P}^{ n }_{ K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zu einem 
+\definitionsverweis {homogenen Ideal}{}{}
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ \subseteq }{  K[X_0, X_1 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+als 
+\definitionsverweis {abgeschlossen}{}{}
+erklärt werden.  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Die offenen Mengen des projektiven Raumes sind demnach die Mengen der Form
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ D_+({\mathfrak a})
+}<br/>{ \defeq }{ {\mathbb P}^{n}_{K}  \setminus V_+({\mathfrak a})
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zu einem homogenen Ideal 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ \subseteq }{  K[X_0, X_1 , \ldots , X_n]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Dabei sind die offenen Mengen <br/>\mathl{D_+(X_i)}{} isomorph zu einem affinen Raum der Dimension $n$.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/><br/><br/>\inputbemerkung<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Ein Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ = }{ (a_0 , \ldots , a_n)
+}<br/>{ \in }{ {\mathbb P}^{ n }_{ K }
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist abgeschlossen, und zwar ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ = }{ V_+({\mathfrak a})
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ {\mathfrak a}
+}<br/>{ =} { \left(  a_iX_j-a_jX_i:\, 0 \leq i,j \leq n  \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Wenn
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_0
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, so kann man dieses Ideal auch als <br/>\mathl{\left(  X_j- \frac{a_j }{a_0 }X_0:\, j \neq 0  \right)}{} schreiben. Die Erzeuger <br/>\mathbed {a_iX_j-a_jX_i} {} <br/> {i \neq 0} {} <br/> {} {} {} {,} sind dann überflüssig. Dieses Ideal ist offenbar homogen, und $P$ liegt in <br/>\mathl{V_+({\mathfrak a})}{.} Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ a_0
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+angenommen. Für einen weiteren Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Q
+}<br/>{ = }{ ( b _0 , \ldots ,  b _n) 
+}<br/>{ \in }{ V_+({\mathfrak a})
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+folgt sofort
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ b_j - \frac{a_j }{a_0 }b_0
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+für alle $j$ bzw.
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (b_0 , \ldots , b_n) 
+}<br/>{ =} { \frac{b_0 }{a_0 } (a_0 , \ldots , a_n)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{,}
+sodass es sich projektiv um den gleichen Punkt handelt.</p>
+
+<p>Das Ideal ${\mathfrak a}$ ist kein 
+\definitionsverweis {maximales Ideal}{}{}
+im Polynomring, es ist aber maximal unter allen homogenen Idealen, die von <br/>\mathl{\left(  X_0 , \ldots , X_n  \right)}{} verschieden sind. In <br/>\mathl{{ {\mathbb A}_{  K  }^{  n+1   } }}{} definiert es eine Gerade durch den Nullpunkt, und zwar die Gerade, die dem projektiven Punkt $P$ entspricht.</p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">} </p><span about="#mwt1">
+
+</span><p about="#mwt1">Zwischen dem affinen Raum <br/>\mathl{{ {\mathbb A}_{ K }^{ n+1  } }}{} und dem projektiven Raum
+<br/>\mathl{{\mathbb P}^{n}_{K}}{} gibt es keine natürliche Abbildung. Allerdings gibt es die natürliche Abbildung
+\maabbeledisp {} {{ {\mathbb A}_{ K }^{ n+1  } } \setminus\{0\} } {{\mathbb P}^{n}_{K}
+} { \left( x_0   , \,  x_1  , \,  \ldots , \,  x_n                \right) } { \left( x_0   , \,  x_1  , \,  \ldots , \,  x_n                \right)
+} {.}
+Diese Abbildung ordnet einem Punkt $\neq 0$ die durch diesen Punkt
+\zusatzklammer {und den Nullpunkt} {} {}
+bestimmte Gerade zu. Man spricht von der \stichwort {kanonischen Abbildung} {} oder von der \stichwort {Kegelabbildung} {.} Das Urbild von <br/>\mathl{D_+(X_i)}{} unter dieser Abbildung ist <br/>\mathl{D(X_i)}{.} </p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Der projektive Raum über $\R$ und über ${\mathbb C}$}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Wir wollen uns ein Bild über die projektiven Räume für \mathkon  { {\mathbb K} =\R  }  {  und  }  { {\mathbb K} ={\mathbb C}  }{ } machen. Die 
+\zusatzklammer {reell} {} {}
+$n$-dimensionale Sphäre ist
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ S^n
+}<br/>{ =} { \left\{ x \in \R^{n+1}  \mid   \Vert {x} \Vert = 1        \right\} 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Dabei ist <br/>\mathl{\Vert {x} \Vert=\sqrt{x_0^2 + \cdots + x_n^2}}{} die \stichwort {euklidische Norm} {.}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Projektiver Raum/R oder C/Repräsentiert durch Sphäre/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktfolgerung {Man kann den reell-projektiven Raum <br/>\mathl{{\mathbb P}^{ n }_{\R}}{} durch die $n$-dimensio\-nale Sphäre
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{S^n
+}<br/>{ \subset }{ \R^{n+1}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+modulo der 
+\definitionsverweis {Äquivalenzrelation}{}{}
+repräsentieren, die antipodale Punkte miteinander identifiziert.</p>
+
+<p>Den komplex-projektiven Raum <br/>\mathl{{\mathbb P}^{ n }_{ {\mathbb C}}}{} kann man durch die <br/>\mathl{(2n+1)}{-}dimensionale Sphäre
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ S^{2n+1}
+}<br/>{ \subset }{ \R^{2n+2}
+}<br/>{ \cong }{ {\mathbb C}^{n+1}
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+modulo der Äquivalenzrelation repräsentieren, die zwei Punkte
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ z,w
+}<br/>{ \in }{ S^{2n+1}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+miteinander identifiziert, wenn man
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{z
+}<br/>{ = }{ \lambda w
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mit einem
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \in }{ S^1
+}<br/>{ \subseteq }{ {\mathbb C} 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+schreiben kann.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir behandeln die beiden Fälle parallel. Jeder Punkt der Sphäre $S$ definiert eine
+\zusatzklammer {reelle oder komplexe} {} {}
+Gerade durch den Nullpunkt im umliegenden Raum \mathkon  { \R^{n+1}  }  {  oder  }  {  {\mathbb C}^{n+1}   }{ } und damit einen Punkt im projektiven Raum. Zwei Punkte
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{z,w
+}<br/>{ \in }{ S
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+definieren genau dann die gleiche Gerade, wenn es einen Skalar
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \in }{ {\mathbb K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ z
+}<br/>{ = }{ \lambda w
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gibt. Wegen der Multiplikativität der Norm ist dann auch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \Vert {z} \Vert
+}<br/>{ = }{ \betrag {  \lambda } \cdot \Vert {w} \Vert 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+woraus sich wegen
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{z,w
+}<br/>{ \in }{ S
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+sofort
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \betrag {  \lambda }
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ergibt. Dies bedeutet im reellen Fall
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ = }{ \pm 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und im komplexen Fall, dass
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \in }{ S^1
+}<br/>{ \subset }{ {\mathbb C}
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, also zum Einheitskreis gehört.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Wir haben insgesamt Abbildungen
+<br/>\mathdisp {S^{n} \subset \R^{n+1} \setminus \{0\} \longrightarrow {\mathbb P}^{n}_{\R}} {  }<br/> 
+\zusatzklammer {im reellen Fall} {} {}
+bzw.
+<br/>\mathdisp {S^{2n+1} \subset \R^{2n+2}  \setminus \{0\} \cong {\mathbb C}^{n+1} \setminus \{0\} \longrightarrow {\mathbb P}^{n}_{{\mathbb C}}} {  }<br/> 
+\zusatzklammer {im komplexen Fall} {} {.}
+Nach dem vorstehenden Lemma sind die Gesamtabbildungen jeweils surjektiv. Man versieht die reell und die komplex-projektiven Räume mit der
+\definitionsverweis {Quotiententopologie}{}{}
+zur metrischen Topologie des reellen Vektorraumes unter dieser Abbildung, d.h. man erklärt eine Teilmenge <br/>\mathl{U \subseteq {\mathbb P}^{n}_{{\mathbb K}}}{} für offen, wenn das Urbild in <br/>\mathl{{ {\mathbb A}_{ {\mathbb K} }^{ n+1  } } \setminus \{0\}}{} offen ist
+\zusatzklammer {dies ist äquivalent dazu, dass das Urbild auf der jeweiligen Sphäre offen ist} {} {.}
+Mit dieser 
+\zusatzklammer {\stichwort {metrischen} {} oder \stichwort {natürlichen} {}} {} {}
+Topologie auf dem projektiven Raum sind diese Abbildungen stetig. Dies hat folgende Konsequenz.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Projektiver Raum/R oder C/Offen überdeckt und Mannigfaltigkeit/Fakt}<br/>{Lemma}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Für den reell-projektiven und den komplex-projektiven Raum sind}<br/>\faktfolgerung {die Teilmengen <br/>\mathl{D_+(X_i)}{} offen in der natürlichen Topologie und homöo\-morph zu $\R^n$ bzw. ${\mathbb C}^n$.}<br/>\faktzusatz {Insbesondere sind die reell- und komplex-projektiven Räume 
+\definitionsverweis {topologische Mannigfaltigkeiten}{}{.}}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Das Urbild von <br/>\mathl{D_+(X_i)}{} unter der 
+\definitionsverweis {kanonischen Abbildung}{}{}
+\maabb {} { { {\mathbb A}_{  {\mathbb K}  }^{ n+1  } } \setminus \{0\} } { {\mathbb P}^{ n }_{ {\mathbb K} } 
+} {}
+ist <br/>\mathl{D(X_i)}{,} also das Komplement eines $n$-dimensionalen Untervektorraumes und damit offen in der natürlichen Topologie. Wir betrachten die stetigen Abbildungen
+<br/>\mathdisp {{\mathbb K}^n \cong V(X_i-1) \subset D(X_i) \longrightarrow D_+(X_i)} { . }<br/>
+Die Gesamtabbildung ist eine Bijektion und <br/>\mathl{D_+(X_i)}{} trägt die 
+\definitionsverweis {Quotiententopologie}{}{}
+unter der zweiten Abbildung. Wir müssen zeigen, dass die Bijektion eine 
+\definitionsverweis {Homöomorphie}{}{}
+ist. Dazu genügt es, die 
+\definitionsverweis {Offenheit}{}{}
+der Abbildung zu zeigen. Es sei also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U
+}<br/>{ \subseteq }{ V(X_i-1)
+}<br/>{ \cong }{ {\mathbb K}^n 
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+offen und $U'$ das zugehörige Bild in <br/>\mathl{D_+(X_i)}{.} Die Offenheit von $U'$ ist nach Definition der Quotiententopologie äquivalent dazu, dass das Urbild
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U^{\prime \prime} 
+}<br/>{ \subseteq }{ D(X_i)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+von $U'$ offen ist. Diese Menge $U^{\prime \prime}$ besteht aus allen Punkten in <br/>\mathl{D(X_i)}{,} die auf einer Geraden durch den Nullpunkt und durch einen Punkt aus $U$ liegen. Es sei $Q$ ein solcher Punkt, und \mathkon  { Q=\lambda P  }  {  mit  }  { P \in U   }{ } und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ \lambda
+}<br/>{ \in }{ {\mathbb K}^\times
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Es sei $B$ eine offene Ballumgebung um $P$ in <br/>\mathl{V(X_i-1)}{.} Dann ist auch der dadurch definierte Kegel in <br/>\mathl{D(X_i)}{} offen und liegt ganz in $U^{\prime \prime}$.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/><br/><br/>\bild{ \begin{center}<br/>\includegraphics[width=5.5cm]{ \bildeinlesungpng {Blue-sphere} {png} }<br/>\end{center} <br/>\bildtext {Die projektive Gerade über ${\mathbb C}$ ist eine Sphäre.} }<br/><br/>\bildlizenz { Blue-sphere.png } {} {Kieff} {Commons} {PD} {}<br/> <br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Projektiver Raum/R oder C/Kompakt/Fakt}<br/>{Korollar}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktfolgerung {Die reell-projektiven und die komplex-projektiven Räume sind 
+\definitionsverweis {kompakt}{}{}
+und
+\definitionsverweis {hausdorffsch}{}{}
+in der natürlichen Topologie.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es gibt eine surjektive stetige Abbildung von einer Sphäre auf einen jeden projektiven Raum. Die Sphäre ist eine abgeschlossene und beschränkte Teilmenge eines reellen endlichdimensionalen Vektorraumes und daher
+nach dem <a rel="mw:WikiLink" href="./Kompaktheit/Satz_von_Heine-Borel/Fakt" title="Kompaktheit/Satz von Heine-Borel/Fakt">Satz von Heine-Borel</a>
+kompakt. Da das Bild einer kompakten Menge unter einer stetigen Abbildung 
+nach <a rel="mw:WikiLink" href="./Stetige_Abbildung/Bild_eines_kompakten_Raumes/Kompakt/Fakt" title="Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt">Fakt</a> <a rel="mw:WikiLink" href="./Kurs:Algebraische_Kurven_(Osnabrück_2012)/Stetige_Abbildung/Bild_eines_kompakten_Raumes/Kompakt/Fakt/Faktreferenznummer?action=edit&amp;redlink=1" title="Kurs:Algebraische Kurven (Osnabrück 2012)/Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt/Faktreferenznummer" class="new" typeof="mw:LocalizedAttrs" data-mw-i18n='{"title":{"lang":"x-page","key":"red-link-title","params":["Kurs:Algebraische Kurven (Osnabrück 2012)/Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt/Faktreferenznummer"]}}'>*****</a>
+wieder kompakt ist, folgt, dass die projektiven Räume kompakt sind.</p>
+
+<p>Für die Hausdorff-Eigenschaft seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P,Q
+}<br/>{ \in }{ {\mathbb P}^{ n }_{ {\mathbb K} }
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+zwei verschiedene Punkte. Man kann annehmen, dass sie beide auf einem der affinen überdeckenden Räume <br/>\mathl{D_+(X_i)}{} liegen. Damit gibt es nach
+<a rel="mw:WikiLink" href="./Projektiver_Raum/R_oder_C/Offen_überdeckt_und_Mannigfaltigkeit/Fakt" title="Projektiver Raum/R oder C/Offen überdeckt und Mannigfaltigkeit/Fakt">Lemma 27.13</a>
+trennende Umgebungen.</p>
+</div>
+
+}</div><span about="#mwt1"> </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

@@ -13,6 +13,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -358,7 +359,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             "Sembilan kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             "algebraic-geometry-bridge-id-units-01-09.pdf",
         )
-    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24):
+    if through in (10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27):
         number_words = {
             10: "Sepuluh",
             11: "Sebelas",
@@ -375,6 +376,9 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             22: "Dua puluh dua",
             23: "Dua puluh tiga",
             24: "Dua puluh empat",
+            25: "Dua puluh lima",
+            26: "Dua puluh enam",
+            27: "Dua puluh tujuh",
         }
         unit_sources: list[Path] = [
             SOURCE_DIR / f"frontmatter-units-01-{through:02d}.md"
@@ -390,7 +394,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
         unit_sources.append(SOURCE_DIR / "media-credits.md")
         unit_sources.extend(
             SOURCE_DIR / f"media-credits-unit-{unit:02d}.md"
-            for unit in (*range(2, 10), *range(11, 25))
+            for unit in (*range(2, 10), *range(11, 28))
             if unit <= through
         )
         return (
@@ -399,7 +403,7 @@ def build_scope(through: int) -> tuple[tuple[Path, ...], str, str, str]:
             f"{number_words[through]} kuliah dan lembar kerja pertama, edisi Bahasa Indonesia",
             f"algebraic-geometry-bridge-id-units-01-{through:02d}.pdf",
         )
-    raise ValueError("only contiguous scopes --through 1 through --through 24 are supported")
+    raise ValueError("only contiguous scopes --through 1 through --through 27 are supported")
 
 
 def sha256(path: Path) -> str:
@@ -587,6 +591,15 @@ def main() -> int:
             # Keep the mathematical relation unchanged in the reader source,
             # and use the portable TeX spelling only in the PDF-stage copy.
             text = text.replace(r"\vcentcolon=", r":=")
+            # Long inline-code paths and cryptographic digests cannot wrap in
+            # Pandoc's default LaTeX \texttt output. Keep the authored
+            # Markdown and semantic HTML byte-identical; only the staged PDF
+            # copy uses xurl's breakable monospace form.
+            text = re.sub(
+                r"`([^`\n]{40,})`",
+                lambda match: r"\nolinkurl{" + match.group(1) + "}",
+                text,
+            )
             text = text.replace(
                 "](authority/assets/Hydrant_Insel_Krk_Kroatien-500.jpg)",
                 "](authority/assets/Hydrant_Insel_Krk_Kroatien-500.jpg){height=72%}",

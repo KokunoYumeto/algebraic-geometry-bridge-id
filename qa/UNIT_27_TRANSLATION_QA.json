@@ -1,0 +1,203 @@
+{
+  "schema": "ag-bridge-unit-translation-qa-v1",
+  "status": "PASS",
+  "unit": 27,
+  "verified_date": "2026-08-26",
+  "bound_facts": {
+    "authority/wikiversity/unit-27/UNIT_AUTHORITY_MANIFEST.json": {
+      "path": "authority/wikiversity/unit-27/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 135052,
+      "sha256": "98f9ebcc0d3b41bb0b955c5190d416b9ebfc07433015732faaf7f38366a1d9b2"
+    },
+    "authority/wikiversity/unit-27/ORDERED_EXERCISE_MAP.json": {
+      "path": "authority/wikiversity/unit-27/ORDERED_EXERCISE_MAP.json",
+      "bytes": 12839,
+      "sha256": "4fb226bb355ef16c06ffbe81a8134585fa5c4f21ee4cf9101630c6f78930e55c"
+    },
+    "authority/wikiversity/unit-27/lecture-27.xml": {
+      "path": "authority/wikiversity/unit-27/lecture-27.xml",
+      "bytes": 7112,
+      "sha256": "9e1a4f687ca1faf008e9864460dc036f7849e2a3203f7d30dd509c7876b69ea6"
+    },
+    "authority/wikiversity/unit-27/lecture-27-expanded.tex": {
+      "path": "authority/wikiversity/unit-27/lecture-27-expanded.tex",
+      "bytes": 28235,
+      "sha256": "2b75b62d96c149f8344de2060fcbc96a4d2061140dd6c509b2b11ad2e95dc8b4"
+    },
+    "authority/wikiversity/unit-27/worksheet-27.xml": {
+      "path": "authority/wikiversity/unit-27/worksheet-27.xml",
+      "bytes": 4919,
+      "sha256": "fd72eb822d0be7c0779d79e43204cad46c7ff382fe8e04b8334a3b439916e540"
+    },
+    "authority/wikiversity/unit-27/worksheet-27-expanded.tex": {
+      "path": "authority/wikiversity/unit-27/worksheet-27-expanded.tex",
+      "bytes": 5050,
+      "sha256": "b329f0ac6cdf39744e79401a82e239ad1232c420a209e07dfcd01577f09ebfa1"
+    },
+    "authority/UNIT_27_AUTHORITY_FREEZE.md": {
+      "path": "authority/UNIT_27_AUTHORITY_FREEZE.md",
+      "bytes": 4838,
+      "sha256": "76da6c76238a6b542848b42d32a897613c24e43f9a2dee52b90a7300fa8ebb3d"
+    },
+    "authority/RIGHTS-unit-27.csv": {
+      "path": "authority/RIGHTS-unit-27.csv",
+      "bytes": 11564,
+      "sha256": "df2fb8403ddef014500e81e2165e2d4e400a0573dd262ba3dba5ece6bcd46821"
+    },
+    "authority/ASSET_CLOSURE-unit-27.json": {
+      "path": "authority/ASSET_CLOSURE-unit-27.json",
+      "bytes": 26057,
+      "sha256": "b08e53863d977899d9910d1b6f48e82237f590402e8450f2683b07a078c1ebc6"
+    },
+    "qa/UNIT_27_AUTHORITY_QA.json": {
+      "path": "qa/UNIT_27_AUTHORITY_QA.json",
+      "bytes": 1430,
+      "sha256": "60b4b2cce7cbd18bcfdbe7698d136bcee9e721dba631e525726ea8e185a4c139"
+    },
+    "qa/UNIT_27_TERMINOLOGY_QA.md": {
+      "path": "qa/UNIT_27_TERMINOLOGY_QA.md",
+      "bytes": 2156,
+      "sha256": "2af64f71732f7d2ee7bf8e163c2d097701471377e56472d4ab850ccbaba79035"
+    },
+    "source/id-ID/lecture-27.md": {
+      "path": "source/id-ID/lecture-27.md",
+      "bytes": 24844,
+      "sha256": "81ed14c582b9b181cb9dfe1795c9f0bf95cf894f3af66935dd4912b397f446b9"
+    },
+    "source/id-ID/worksheet-27.md": {
+      "path": "source/id-ID/worksheet-27.md",
+      "bytes": 5728,
+      "sha256": "2ccf9879d8bad546a21e100fec700c49b49f5fdf98aa8a598c274827700487ee"
+    },
+    "source/id-ID/worksheet-27-solutions.md": {
+      "path": "source/id-ID/worksheet-27-solutions.md",
+      "bytes": 1723,
+      "sha256": "fe9b9dd6ced41c2ccbea06bd99e3dfba2708d68290c8763d1c9152cd25ab2733"
+    },
+    "source/id-ID/media-credits-unit-27.md": {
+      "path": "source/id-ID/media-credits-unit-27.md",
+      "bytes": 5048,
+      "sha256": "4e46a14420118be7ad665a59ae39787d6dc29d6c8ca3df1c3bffb6f01dca1e55"
+    },
+    "source/id-ID/frontmatter-units-01-27.md": {
+      "path": "source/id-ID/frontmatter-units-01-27.md",
+      "bytes": 4806,
+      "sha256": "66e9e4bfb31c24cb131e05c02c8b19509d9cfd44c9d222c3d75d312b5a95e280"
+    },
+    "00_control/TERMINOLOGY.csv": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 39202,
+      "sha256": "8f0bfb467b935a34350e56a038d166a48ad89a2e656044563ac4a5c2aee0f11e"
+    },
+    "00_control/CORRECTIONS.csv": {
+      "path": "00_control/CORRECTIONS.csv",
+      "bytes": 73728,
+      "sha256": "e9f5aef207253e30badcfd095a3bc3cf5d465b18a6f700a82b1e32422183acc8"
+    }
+  },
+  "authority": {
+    "lecture_root_plus_dependencies": 121,
+    "worksheet_root_plus_dependencies": 61,
+    "semantic_live_union": 157
+  },
+  "translation": {
+    "lecture_semantic_entities": 21,
+    "worksheet_exercises": 11,
+    "public_solutions": 0,
+    "negative_solution_candidates": 11,
+    "stable_ids": 39,
+    "math_nodes": 269,
+    "reader_media_positions": 10,
+    "visible_correction_disclosures": 7,
+    "terminology_bindings": [
+      "AGT-0230",
+      "AGT-0231",
+      "AGT-0232",
+      "AGT-0233",
+      "AGT-0234",
+      "AGT-0235",
+      "AGT-0236",
+      "AGT-0237",
+      "AGT-0238",
+      "AGT-0239",
+      "AGT-0240",
+      "AGT-0241",
+      "AGT-0242",
+      "AGT-0243",
+      "AGT-0244",
+      "AGT-0245",
+      "AGT-0246",
+      "AGT-0247",
+      "AGT-0248",
+      "AGT-0249"
+    ],
+    "correction_bindings": [
+      "AGC-CORR-0108",
+      "AGC-CORR-0109",
+      "AGC-CORR-0110",
+      "AGC-CORR-0111",
+      "AGC-CORR-0112",
+      "AGC-CORR-0113",
+      "AGC-CORR-0114"
+    ],
+    "visible_german_residue": 0,
+    "placeholder_count": 0,
+    "secret_like_count": 0,
+    "unicode_dash_count": 0,
+    "invisible_unicode_controls": 0
+  },
+  "ast": {
+    "lecture-27.md": {
+      "headers": 23,
+      "math_nodes": 230,
+      "images": 10,
+      "stable_header_ids": 23,
+      "pandoc_warnings": 0
+    },
+    "worksheet-27.md": {
+      "headers": 14,
+      "math_nodes": 39,
+      "images": 0,
+      "stable_header_ids": 14,
+      "pandoc_warnings": 0
+    },
+    "worksheet-27-solutions.md": {
+      "headers": 1,
+      "math_nodes": 0,
+      "images": 0,
+      "stable_header_ids": 1,
+      "pandoc_warnings": 0
+    },
+    "media-credits-unit-27.md": {
+      "headers": 1,
+      "math_nodes": 0,
+      "images": 0,
+      "stable_header_ids": 1,
+      "pandoc_warnings": 0
+    },
+    "frontmatter-units-01-27.md": {
+      "headers": 2,
+      "math_nodes": 0,
+      "images": 0,
+      "stable_header_ids": 2,
+      "pandoc_warnings": 0
+    }
+  },
+  "cumulative_source": {
+    "lectures": 27,
+    "worksheets": 27,
+    "exercises": 657,
+    "public_solutions": 117,
+    "media_positions": 94
+  },
+  "rights": {
+    "component_licensed_media": 9,
+    "public_domain_media": 1,
+    "blanket_relicense_claim": false
+  },
+  "revision_contributors": {
+    "lecture_root": "Arbota",
+    "worksheet_root": "Arbota"
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

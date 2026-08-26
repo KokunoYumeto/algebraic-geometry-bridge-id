@@ -1,0 +1,127 @@
+{
+  "schema": "ag-bridge-cumulative-reader-qa-v4",
+  "status": "PASS",
+  "verified_date": "2026-08-26",
+  "through_unit": 27,
+  "language": "id-ID",
+  "coverage": {
+    "lectures": 27,
+    "worksheets": 27,
+    "exercises": 657,
+    "public_source_solutions": 117,
+    "reader_media_positions": 94,
+    "stable_source_ids": 1439,
+    "mathml_nodes": 10426
+  },
+  "html": {
+    "path": "build/reader-id/index.html",
+    "bytes": 22205344,
+    "sha256": "8edd2fc31c30e7e5454f31cf18b6f3f117e1a7108766c839a33cf896cdd24b66",
+    "ids": 2758,
+    "images": 94,
+    "mathml_nodes": 10426,
+    "tex_annotations": 10426,
+    "internal_links": 1480,
+    "broken_internal_links": 0,
+    "remote_images": 0,
+    "empty_alt": 0
+  },
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-27.pdf",
+    "bytes": 14826919,
+    "sha256": "766f6b8ccede9ecb1b6524d9652595f188d6f17ef22fab4bf6b886b03a9e0d65",
+    "pages": 464,
+    "paper": "A4",
+    "encrypted": false,
+    "terminal_start_page": 413,
+    "terminal_pages_checked": 52,
+    "terminal_marker_pages": {
+      "Solusi Soal 25.2": 426,
+      "Kuliah 25: Solusi Deret Pangkat untuk Kurva Aljabar": 413,
+      "Soal 25.13": 424,
+      "Kredit media Unit 25": 462,
+      "Solusi Soal 26.4": 439,
+      "Kuliah 26: Multiplisitas Perpotongan": 426,
+      "Soal 26.11": 438,
+      "Kredit media Unit 26": 463,
+      "Kuliah 27: Ruang Proyektif": 439,
+      "Soal 27.11": 455,
+      "Kredit media Unit 27": 463
+    }
+  },
+  "build_receipt": {
+    "path": "build/reader-id/BUILD_RECEIPT.json",
+    "bytes": 41655,
+    "sha256": "47c6953b90483a3ab263b940f38586f445a1ef723319d45914771e2dc9abc9a0",
+    "input_count": 223,
+    "source_markdown_input_count": 108,
+    "output_count": 2,
+    "html_log_bytes": 0,
+    "pdf_log_bytes": 0
+  },
+  "authority_units_25_27": {
+    "25": {
+      "exercises": 13,
+      "solutions": [
+        1,
+        2
+      ],
+      "media_positions": 0,
+      "manifest_sha256": "7cafbca7b5fd080529c2019967647ef8ffa823539b2113caaf0ad65e56d6afc1",
+      "translation_qa_sha256": "07302ecb8be5a826f0423e773147c46a8a1b6485ced2e134f762be4e9d3bc81a"
+    },
+    "26": {
+      "exercises": 11,
+      "solutions": [
+        4
+      ],
+      "media_positions": 1,
+      "manifest_sha256": "981fa3c86534514215c722b6d4f6d711c040a7829465f20ae18940373f94763c",
+      "translation_qa_sha256": "c3de91128150957f17a0bd7d6b23ee588b0fcb8137f419588fdd2b2697bab762"
+    },
+    "27": {
+      "exercises": 11,
+      "solutions": [],
+      "media_positions": 10,
+      "manifest_sha256": "98f9ebcc0d3b41bb0b955c5190d416b9ebfc07433015732faaf7f38366a1d9b2",
+      "translation_qa_sha256": "8070ae0e936af520c6b6cfca42847fbe6d2b3473caa411f3be1a47594416edcb"
+    }
+  },
+  "baseline_and_checkpoint_facts": [
+    {
+      "path": "qa/UNITS_01_24_MACHINE_QA.json",
+      "bytes": 4457,
+      "sha256": "8c9e0fdf4817c6fef955007abdca4b49eb4e3dbddcc12804b04646ac1ac3dbd3"
+    },
+    {
+      "path": "qa/UNIT_24_PROTECTED_SURFACES.json",
+      "bytes": 4127,
+      "sha256": "afcb17362e90f8492b78eeaf5022f0bca1ee193c2ee1cff6ed0e33f235622580"
+    },
+    {
+      "path": "qa/UNIT_25_TRANSLATION_QA.json",
+      "bytes": 6667,
+      "sha256": "07302ecb8be5a826f0423e773147c46a8a1b6485ced2e134f762be4e9d3bc81a"
+    },
+    {
+      "path": "qa/UNIT_26_TRANSLATION_QA.json",
+      "bytes": 7150,
+      "sha256": "c3de91128150957f17a0bd7d6b23ee588b0fcb8137f419588fdd2b2697bab762"
+    },
+    {
+      "path": "qa/UNIT_27_TRANSLATION_QA.json",
+      "bytes": 6416,
+      "sha256": "8070ae0e936af520c6b6cfca42847fbe6d2b3473caa411f3be1a47594416edcb"
+    }
+  ],
+  "checks": [
+    "exact Units 1-24 machine/protected baselines bound",
+    "Units 25-27 authority and translation QA identities replayed dynamically from PASS receipts",
+    "all 223 build-receipt inputs replayed from recorded bytes and hashes",
+    "cumulative IDs, exercises, solutions, and media measured from bound source/authority inputs",
+    "HTML IDs, MathML/TeX annotations, media alts, anchors, and local resources closed",
+    "PDF metadata, A4 geometry, measured terminal boundary, and ordered markers closed",
+    "Pandoc warning logs empty; no placeholder or secret-like source content"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

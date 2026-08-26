@@ -1,0 +1,203 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.16</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 27</title>
+    <ns>106</ns>
+    <id>50733</id>
+    <revision>
+      <id>1052572</id>
+      <parentid>1020208</parentid>
+      <timestamp>2025-08-27T14:01:03Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1052572</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3935" sha1="i0jlnxlv3dgsy9zkmsojq4ne9kntwxi" xml:space="preserve">{{Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesungsgestaltung|27|
+
+{{Zwischenüberschrift|Der projektive Raum}}
+
+{{
+inputbild
+|Loewenzahn 20|jpg| 200px {{!}} thumb {{!}}
+|Zusname=Loewenzahn_20 
+|Text=Die Geraden durch einen Punkt 
+|Autor=Waugsberg
+|Benutzer=
+|Domäne=
+|Lizenz=CC-BY-SA-2.5
+|Bemerkung=
+}}
+{{:Projektiver Raum/Geradenmenge/Tafelbilder/Einführung/Textabschnitt}}
+
+{{
+inputbild
+|Perspective Projection Principle|jpg| 300px {{!}} right {{!}} 
+|Zusname=Perspective_Projection_Principle 
+|Autor=
+|Benutzer=Fantagu
+|Domäne=
+|Lizenz=CC-BY-SA-3.0
+|Bemerkung=
+}}
+
+{{Zwischenüberschrift|Nullstellen von homogenen Polynomen}}
+
+{{:Homogene Polynome/Projektive Nullstellengebilde/Zariski-Topologie/Einführung/Textabschnitt}}
+
+Zwischen dem affinen Raum {{mathl|term={{op:Affiner Raum|n+1|K}}|SZ=}} und dem projektiven Raum
+{{mathl|term={{op:Projektiver Raum|n|K}}|SZ=}} gibt es keine natürliche Abbildung. Allerdings gibt es die natürliche Abbildung
+{{
+Abbildung/display
+|name=
+|{{op:Affiner Raum|n+1|K}} \setminus\{0\} |{{op:Projektiver Raum|n|K}}
+| {{op:Zeilenvektor|x_0 |x_1 |\ldots |x_n}} | {{op:Zeilenvektor|x_0 |x_1 |\ldots |x_n}}
+|SZ=.
+}}
+Diese Abbildung ordnet einem Punkt {{math|term=\neq 0|SZ=}} die durch diesen Punkt
+{{
+Zusatz/Klammer
+|text=und den Nullpunkt|
+|ISZ=|ESZ=
+}}
+bestimmte Gerade zu. Man spricht von der {{Stichwort/-|kanonischen Abbildung|msw=Kegelabbildung (Projektiver Raum)|SZ=}} oder von der {{Stichwort/-|Kegelabbildung|SZ=.}} Das Urbild von {{mathl|term= D_+(X_i)|SZ=}} unter dieser Abbildung ist {{mathl|term= D(X_i)|SZ=.}} 
+
+{{Zwischenüberschrift|Der projektive Raum über {{math|term=\R|SZ=}} und über {{math|term={{CC}}|SZ=}}}}
+
+Wir wollen uns ein Bild über die projektiven Räume für {{mathkon|{{KRC}} {{=}}\R|und|{{KRC}} {{=}}{{CC}}|SZ=}} machen. Die 
+{{
+Zusatz/Klammer
+|text=reell|
+|ISZ=|ESZ=
+}}
+{{math|term= n|SZ=-}}dimensionale Sphäre ist
+{{
+Relationskette/display
+| S^n
+|| {{Mengebed|x \in \R^{n+1}| {{op:Norm|x}} {{=}} 1}}
+||
+||
+||
+|SZ=.
+}}
+Dabei ist {{mathl|term= {{op:Norm|x}}=\sqrt{x_0^2 {{plusdots|}} x_n^2}|SZ=}} die {{Stichwort/-|euklidische Norm|SZ=.}}
+
+{{
+inputfaktbeweis
+|Projektiver Raum/R oder C/Repräsentiert durch Sphäre/Fakt|Satz||
+|ref1=||
+}}
+
+Wir haben insgesamt Abbildungen
+{{
+Math/display|term=
+S^{n} \subset \R^{n+1} \setminus \{0\} \longrightarrow {{op:Projektiver Raum|n|\R}}
+|SZ=
+}} 
+{{
+Zusatz/Klammer
+|text=im reellen Fall|
+|ISZ=|ESZ=
+}}
+bzw.
+{{
+Math/display|term=
+S^{2n+1} \subset \R^{2n+2}  \setminus \{0\} \cong {{CC}}^{n+1} \setminus \{0\} \longrightarrow {{op:Projektiver Raum|n|{{CC}}}}
+|SZ=
+}} 
+{{
+Zusatz/Klammer
+|text=im komplexen Fall|
+|ISZ=|ESZ=.
+}}
+Nach dem vorstehenden Lemma sind die Gesamtabbildungen jeweils surjektiv. Man versieht die reell und die komplex-projektiven Räume mit der
+{{
+Definitionslink
+|Quotiententopologie|
+|Definitionsseitenname=
+Topologie/Grundbegriffe/Quotiententopologie/Definition
+|Refname=
+{{{ref|}}}
+|SZ=
+}}
+zur metrischen Topologie des reellen Vektorraumes unter dieser Abbildung, d.h. man erklärt eine Teilmenge {{mathl|term= U \subseteq {{op:Projektiver Raum|n|{{KRC}}|}}|SZ=}} für offen, wenn das Urbild in {{mathl|term={{op:Affiner Raum|n+1|{{KRC}}|}} \setminus \{0\}|SZ=}} offen ist
+{{
+Zusatz/Klammer
+|text=dies ist äquivalent dazu, dass das Urbild auf der jeweiligen Sphäre offen ist|
+|ISZ=|ESZ=.
+}}
+Mit dieser 
+{{
+Zusatz/Klammer
+|text={{Stichwort/-|metrischen|SZ=}} oder {{Stichwort/-|natürlichen|SZ=}}|
+|ISZ=|ESZ=
+}}
+Topologie auf dem projektiven Raum sind diese Abbildungen stetig. Dies hat folgende Konsequenz.
+
+{{
+inputfaktbeweis
+|Projektiver Raum/R oder C/Offen überdeckt und Mannigfaltigkeit/Fakt|Lemma||
+|ref1=||
+}}
+
+{{
+inputbild
+|Blue-sphere|png| 200px {{!}} thumb {{!}} 
+|Text=Die projektive Gerade über {{math|term={{CC}}|SZ=}} ist eine Sphäre. 
+|Autor=
+|Benutzer=Kieff
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+
+{{
+inputfaktbeweis
+|Projektiver Raum/R oder C/Kompakt/Fakt|Korollar|||||
+}}
+
+}}</text>
+      <sha1>i0jlnxlv3dgsy9zkmsojq4ne9kntwxi</sha1>
+    </revision>
+  </page>
+</mediawiki>
