@@ -101,8 +101,21 @@ closure, provenance, language residue, placeholders, Unicode dash characters,
 and secret-like text.
 
 Cumulative source coverage is now 27 lectures, 27 worksheets, 657 exercises,
-117 frozen public source solutions, and 94 reader-media positions. Next:
-build and inspect every page of the cumulative Units 1-27 PDF, verify desktop
-and mobile HTML reflow, export and replay native/common backends, package the
-reader-first checkpoint, publish it in the existing GitHub and Zenodo
-lineages, and anonymously hash every new public artifact before Unit 28.
+117 frozen public source solutions, and 94 reader-media positions. The
+cumulative reader/backend package passed all deterministic gates and is public
+in both existing lineages. Zenodo record 22104692 / DOI
+`10.5281/zenodo.22104692` and GitHub content commit
+`07b22e59c546bf9c29995cded0aff37e696b2d02`, annotated tag `unit-27`, and
+eight-asset release were anonymously read back. The GitHub receipt
+`qa/UNIT_27_GITHUB_PUBLICATION.json` is 6,687 bytes, SHA-256
+`63a25c2408388c8af35d510fc88d0e1813ef499ba05d11a2724a4f2c978da277`;
+it proves all eight release assets, raw commit HTML/PDF and public metadata,
+and Pages HTML/PDF. A bounded local browser retry was blocked by the browser's
+local-file URL policy, so no workaround was attempted; the hash-bound
+responsive receipt and matching public Pages bytes remain the controlling QA
+evidence.
+
+Next: freeze official 2012 Unit 28 authority and continue contiguous
+translation and bounded per-unit QA through Units 28–30. Then run the complete
+30-unit classical reader, backend, visual/responsive QA, release, and public
+readback cycle.

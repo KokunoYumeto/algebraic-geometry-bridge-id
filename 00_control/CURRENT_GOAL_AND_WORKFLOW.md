@@ -109,11 +109,20 @@ The deterministic eight-file reader-first Unit 27 package is public in the
 existing Zenodo concept as record 22104692 / DOI
 `10.5281/zenodo.22104692`; anonymous streaming readback matched all eight
 files by byte count and SHA-256. The sanitized receipt is
-`qa/UNIT_27_ZENODO_PUBLICATION.json`. The exact next executable action is to
-commit these frozen Unit 25–27 sources, reader, backend, controls, and Zenodo
-receipt to the existing GitHub lineage; create the annotated `unit-27` tag and
-eight-asset release; anonymously verify the release, raw commit, and Pages
-bytes; then advance to the official 2012 Unit 28 authority freeze.
+`qa/UNIT_27_ZENODO_PUBLICATION.json`. The same package is public in the
+existing GitHub lineage at content commit
+`07b22e59c546bf9c29995cded0aff37e696b2d02`, annotated tag `unit-27`, and
+release `https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-27`.
+Anonymous readback matched all eight release assets, raw-commit HTML/PDF and
+README/CITATION/LICENSE metadata, and Pages HTML/PDF. The sanitized GitHub
+receipt is `qa/UNIT_27_GITHUB_PUBLICATION.json` (6,687 bytes, SHA-256
+`63a25c2408388c8af35d510fc88d0e1813ef499ba05d11a2724a4f2c978da277`).
+A bounded in-app-browser retry was blocked by the browser's local-file URL
+policy; no workaround was attempted. The already frozen responsive receipt
+binds the identical HTML SHA-256, and public Pages readback now matches it.
+The exact next executable action is to freeze the official 2012 Unit 28
+authority and continue contiguous translation/QA through Units 28–30 before
+the complete classical-volume reader/backend/publication cycle.
 
 ## Finite workflow
 

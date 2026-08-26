@@ -50,7 +50,15 @@ historical source witnesses retain their per-component rights; no blanket
 licence is claimed for the mixed file set. Attribution, change disclosure,
 ShareAlike, exact provenance, and non-endorsement are preserved.
 
-Next executable action: reserve and bind the existing Zenodo version lineage,
-package and publish this reader-first Unit 27 checkpoint to the existing
-Zenodo and GitHub lineages, anonymously read back every public artifact, then
-freeze official 2012 Unit 28 authority and continue in source order.
+The reader-first package is now public and anonymously byte-verified in both
+existing lineages. Zenodo record 22104692 / DOI
+`10.5281/zenodo.22104692` verified all eight files. GitHub content commit
+`07b22e59c546bf9c29995cded0aff37e696b2d02`, annotated tag `unit-27`, and
+the eight-asset release verified every release file, raw-commit reader and
+metadata file, and Pages HTML/PDF. The GitHub receipt is
+`qa/UNIT_27_GITHUB_PUBLICATION.json`, 6,687 bytes, SHA-256
+`63a25c2408388c8af35d510fc88d0e1813ef499ba05d11a2724a4f2c978da277`.
+
+Next executable action: freeze the official 2012 Unit 28 authority, then
+translate and verify Units 28–30 contiguously before the complete classical
+30-unit reader/backend release and anonymous public-byte readback.
