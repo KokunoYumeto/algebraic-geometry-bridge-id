@@ -26,9 +26,9 @@ source solution (Exercise 10), and four reader-media positions.
 The interrupted bounded live replay completed before admission. It verified
 164 unique semantic identities, both official PDFs, and all four Commons media
 identities. The official lecture PDF is 106,537 bytes / 9 pages / SHA-256
-`0d040f9ac8b94511ff5b8b1bb6d818f3fb57d3ed79ac1040898b04c3a0d65609`;
+`0d040f9a5663e6d0d7451f4de864a0712e35e08e961afc66d6742dfbee065609`;
 the worksheet PDF is 45,643 bytes / 3 pages / SHA-256
-`579b29c54606d6ceeb8c2d0135e7ff6ea96e4da37e8af5e7f40e9faf57705d12`.
+`579b29f1250b346549522aadc465f7afa0c67b012b5d7ba76b4c6eb0c94a5d12`.
 
 ## Translation, mathematics, terminology, and rights
 
@@ -134,9 +134,20 @@ version after record 22104692 in the existing concept; reservation receipt
 The DOI-bound common migration receipt is PASS, 6,945 bytes, SHA-256
 `39138e4eb6dbb5dee9698605dfa73a3f572b53d19e882b3a392a12111565786d`.
 
-Remaining: create and self-check the reader-first eight-file package; publish
-to the existing Zenodo and GitHub lineages; anonymously read back every public
-artifact, raw repository metadata/reader byte, and Pages reader byte; then
-update this worklog and `00_control/CURSOR.json` and continue with Unit 29.
+The reader-first eight-file package is published and anonymously verified on
+both existing lineages. Zenodo record 22105836 matched all eight files by bytes
+and SHA-256; `qa/UNIT_28_ZENODO_PUBLICATION.json` is 4,232 bytes, SHA-256
+`c38838925c266a3b5a8d29fd2e31bbef1d0547e775b91f2ec532dc0093f9192a`.
+GitHub content commit `915558629641eb894c43ff5ce67dd935c4168711`, annotated
+tag object `9b79106e95013fee2558e30a0a11e743c34c4b87`, release `unit-28`,
+and Pages are public. Credential-free smart HTTP verifies main and the tag;
+anonymous direct downloads match all eight assets, fixed-commit raw readback
+matches HTML/PDF and README/CITATION/LICENSE, and Pages matches HTML/PDF.
+The final bounded anonymous replay passed at `2026-08-27T17:50:28Z`.
+`qa/UNIT_28_GITHUB_PUBLICATION.json` is PASS, 9,243 bytes, SHA-256
+`ba3cb54876941cc754c54921761d60f8622b144d1f4bc084770b7ce1ea90adb4`.
+
+Next: preserve all accepted Unit 28/public bytes; freeze the official 2012 Unit
+29 authority, then translate and verify Unit 29 in source order.
 
 Provenance: OpenAI Codex gpt-5.6-sol, Ultra.

@@ -1,0 +1,209 @@
+{
+  "schema": "ag-bridge-github-publication-receipt-v2",
+  "status": "PASS",
+  "verified_utc": "2026-08-27T17:50:28Z",
+  "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+  "release_manifest": {
+    "name": "ZENODO_FILE_MANIFEST-unit-28.json",
+    "bytes": 4924,
+    "sha256": "96406477167a8fdfffa20e2c434f25d9ea15f8374029e693c1ce45a2e2dae02e",
+    "through_unit": 28,
+    "planned_units": 30,
+    "full_edition_complete": false,
+    "source_course_boundary": {
+      "units_01_23": "Algebraische Kurven (Osnabrück 2025–2026)",
+      "units_24_28": "Algebraische Kurven (Osnabrück 2012)"
+    }
+  },
+  "metadata_verification": {
+    "mode": "anonymous_direct_surfaces_after_api_core_rate_limit",
+    "api_core_rate_limit": {
+      "detected": true,
+      "status_code": 403,
+      "url": "https://api.github.com/repos/KokunoYumeto/algebraic-geometry-bridge-id/branches/main",
+      "x_ratelimit_remaining": "0"
+    },
+    "smart_http": {
+      "transport": "anonymous_git_smart_http",
+      "repository_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id.git",
+      "credential_helper_disabled": true,
+      "terminal_prompt_disabled": true,
+      "main_commit": "915558629641eb894c43ff5ce67dd935c4168711",
+      "annotated_tag_object": "9b79106e95013fee2558e30a0a11e743c34c4b87",
+      "dereferenced_tag_commit": "915558629641eb894c43ff5ce67dd935c4168711"
+    },
+    "surfaces_used": [
+      "git_smart_http",
+      "github_release_tag_html",
+      "github_commit_html",
+      "fixed_release_download_urls",
+      "fixed_commit_raw_githubusercontent",
+      "github_pages"
+    ],
+    "release_tag_html": {
+      "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-28",
+      "final_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-28",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 202996,
+      "sha256": "ce8009e110e03305be16125d4a1275c7b262d8be2fd88a1504e769a2989670b5",
+      "required_markers_present": [
+        "unit-28",
+        "algebraic-geometry-bridge-id"
+      ],
+      "anonymous_readback": true
+    },
+    "commit_html": {
+      "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/commit/915558629641eb894c43ff5ce67dd935c4168711",
+      "final_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/commit/915558629641eb894c43ff5ce67dd935c4168711",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1010557,
+      "sha256": "ebf8ce2ce88289134a42ba9c31280591eaf22056336a005734c6e5c0ae447d0a",
+      "required_markers_present": [
+        "915558629641eb894c43ff5ce67dd935c4168711",
+        "algebraic-geometry-bridge-id"
+      ],
+      "anonymous_readback": true
+    }
+  },
+  "branch": {
+    "name": "main",
+    "commit": "915558629641eb894c43ff5ce67dd935c4168711",
+    "caller_pinned_commit": "915558629641eb894c43ff5ce67dd935c4168711",
+    "anonymous_api_readback": false,
+    "anonymous_smart_http_readback": true
+  },
+  "tag": {
+    "name": "unit-28",
+    "annotated_tag_object": "9b79106e95013fee2558e30a0a11e743c34c4b87",
+    "target_type": "commit",
+    "target_commit": "915558629641eb894c43ff5ce67dd935c4168711",
+    "anonymous_api_readback": false,
+    "anonymous_smart_http_readback": true
+  },
+  "release": {
+    "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-28",
+    "published_utc": null,
+    "published_utc_available_via_api": false,
+    "assets_expected": 8,
+    "assets_verified": 8,
+    "credential_used_for_readback": false,
+    "all_size_and_sha256_matches": true,
+    "files": [
+      {
+        "name": "kurva-aljabar-id-unit-28.pdf",
+        "bytes": 15820212,
+        "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/kurva-aljabar-id-unit-28.pdf",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-28.html",
+        "bytes": 23412216,
+        "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/kurva-aljabar-id-unit-28.html",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-28-source.zip",
+        "bytes": 19948358,
+        "sha256": "62c0c6c40415ad9642c5f454cdd0209b265edb9fd5bec96192950b36cc4ad957",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/kurva-aljabar-id-unit-28-source.zip",
+        "public_readback": true
+      },
+      {
+        "name": "kurva-aljabar-id-unit-28-authority-witnesses.zip",
+        "bytes": 28614767,
+        "sha256": "e290e0426d7237634626ea21e93f30fb378eb79257cd811eb86ec172a717dc95",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/kurva-aljabar-id-unit-28-authority-witnesses.zip",
+        "public_readback": true
+      },
+      {
+        "name": "BUILD_RECEIPT-unit-28.json",
+        "bytes": 43674,
+        "sha256": "5a843fdc6cb79ab3329e1f316027968e14ab2a0b765ff3505ad2af85003df5c3",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/BUILD_RECEIPT-unit-28.json",
+        "public_readback": true
+      },
+      {
+        "name": "LICENSE-unit-28.md",
+        "bytes": 4072,
+        "sha256": "f1fd4476ffeb0816f6336ccc96b5357c1b8dcb624cd34e9facac428f74c1b093",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/LICENSE-unit-28.md",
+        "public_readback": true
+      },
+      {
+        "name": "ZENODO_FILE_MANIFEST-unit-28.json",
+        "bytes": 4924,
+        "sha256": "96406477167a8fdfffa20e2c434f25d9ea15f8374029e693c1ce45a2e2dae02e",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/ZENODO_FILE_MANIFEST-unit-28.json",
+        "public_readback": true
+      },
+      {
+        "name": "MIGRATION_RECEIPT.json",
+        "bytes": 6805,
+        "sha256": "8e68aa72da21e233238a4e3cddae88d797c1950446d81e19d19095bffe8dd7d3",
+        "download_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/unit-28/MIGRATION_RECEIPT.json",
+        "public_readback": true
+      }
+    ]
+  },
+  "raw_commit_readback": {
+    "credential_used": false,
+    "commit": "915558629641eb894c43ff5ce67dd935c4168711",
+    "html": {
+      "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/915558629641eb894c43ff5ce67dd935c4168711/docs/index.html",
+      "bytes": 23412216,
+      "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10",
+      "match": true
+    },
+    "pdf": {
+      "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/915558629641eb894c43ff5ce67dd935c4168711/docs/algebraic-geometry-bridge-id-units-01-28.pdf",
+      "bytes": 15820212,
+      "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6",
+      "match": true
+    },
+    "metadata": {
+      "CITATION.cff": {
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/915558629641eb894c43ff5ce67dd935c4168711/CITATION.cff",
+        "bytes": 1003,
+        "sha256": "1eb7bc3a4f508da33db99e683d9cf5d54316209844d6cfa66c438da36bff4d18",
+        "match": true
+      },
+      "README.md": {
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/915558629641eb894c43ff5ce67dd935c4168711/README.md",
+        "bytes": 5577,
+        "sha256": "5286f9817ed3606e3659b2b4b7a7340b527552361ffc2c5a3b1b885fda747d9e",
+        "match": true
+      },
+      "LICENSE.md": {
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/915558629641eb894c43ff5ce67dd935c4168711/LICENSE.md",
+        "bytes": 4072,
+        "sha256": "f1fd4476ffeb0816f6336ccc96b5357c1b8dcb624cd34e9facac428f74c1b093",
+        "match": true
+      }
+    }
+  },
+  "pages_readback": {
+    "credential_used": false,
+    "reader": {
+      "url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/",
+      "bytes": 23412216,
+      "sha256": "b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10",
+      "match": true
+    },
+    "pdf": {
+      "url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/algebraic-geometry-bridge-id-units-01-28.pdf",
+      "bytes": 15820212,
+      "sha256": "181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6",
+      "match": true
+    }
+  },
+  "credential_handling": {
+    "public_readback_used_anonymous_requests": true,
+    "git_credential_helper_disabled_for_smart_http": true,
+    "credential_value_logged_or_persisted": false,
+    "credential_file_path_recorded": false
+  }
+}

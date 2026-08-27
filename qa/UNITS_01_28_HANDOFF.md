@@ -51,9 +51,16 @@ rights; no blanket licence is claimed for the mixed file set. Attribution,
 change disclosure, ShareAlike, exact provenance, and non-endorsement are
 preserved.
 
-The release candidate is PASS. Zenodo record 22105836 / DOI
-`10.5281/zenodo.22105836` is reserved as the next version after public record
-22104692 in the existing concept DOI `10.5281/zenodo.22059686`. The DOI-bound
-common migration receipt is frozen. Next executable action: build the exact
-eight-file reader-first package, publish it in the existing Zenodo and GitHub
-lineages, anonymously read every public byte back, then advance to Unit 29.
+The exact reader-first package is public and anonymously byte-verified in both
+existing lineages. Zenodo record 22105836 / DOI `10.5281/zenodo.22105836`
+matched all eight files. GitHub content commit
+`915558629641eb894c43ff5ce67dd935c4168711`, annotated tag object
+`9b79106e95013fee2558e30a0a11e743c34c4b87`, release `unit-28`, and Pages
+are public. Credential-free smart HTTP verifies the public refs; all eight
+release downloads, fixed-commit HTML/PDF plus README/CITATION/LICENSE, and live
+Pages HTML/PDF match the frozen bytes. The GitHub receipt is 9,243 bytes,
+SHA-256
+`ba3cb54876941cc754c54921761d60f8622b144d1f4bc084770b7ce1ea90adb4`.
+The final bounded anonymous replay passed at `2026-08-27T17:50:28Z`.
+Next executable action: preserve Unit 28 and freeze official 2012 Unit 29
+authority before translation.

@@ -2,7 +2,7 @@
 
 Status: active. Write only inside this repository's D100/O016 lane.
 Recover from this file, `00_control/CURSOR.json`, the current unit worklog,
-matching authority/rights/QA, and `qa/UNITS_01_27_HANDOFF.md`. Update them at
+matching authority/rights/QA, and `qa/UNITS_01_28_HANDOFF.md`. Update them at
 material boundaries; they—not chat, compaction, or a stale synopsis—control.
 
 ## Objective and architecture
@@ -120,9 +120,37 @@ receipt is `qa/UNIT_27_GITHUB_PUBLICATION.json` (6,687 bytes, SHA-256
 A bounded in-app-browser retry was blocked by the browser's local-file URL
 policy; no workaround was attempted. The already frozen responsive receipt
 binds the identical HTML SHA-256, and public Pages readback now matches it.
-The exact next executable action is to freeze the official 2012 Unit 28
-authority and continue contiguous translation/QA through Units 28–30 before
-the complete classical-volume reader/backend/publication cycle.
+Unit 28 is now frozen, translated, corrected, built, published, and
+anonymously verified as the current cumulative checkpoint. It preserves 19
+ordered lecture entities, all 14 exercises, the sole frozen public source
+solution (Exercise 10), 13 negative solution candidates, four media positions,
+and 44 stable source IDs. Cumulative coverage is 28 lectures, 28 worksheets,
+671 exercises, 118 public source solutions, 98 media positions, 1,483 stable
+source IDs, and 10,717 MathML nodes. The self-contained HTML is 23,412,216
+bytes (SHA-256
+`b7cef9e6c08b696bde2f875a4766e6c35e975d4fd0901e414c3896014bbd9c10`);
+the 476-page A4 PDF is 15,820,212 bytes (SHA-256
+`181b6fba2b5441fb7a5ab76a512e9d9ee2300e4201fd4632cac20a70bc703df6`).
+All-page visual, machine, protected-surface, responsive, native-backend, and
+common-adapter gates pass. The native backend has 21,358 records and preserves
+all 20,570 Unit 27 rows byte-for-byte; the common adapter validates 50,672
+virtual records and 120,703 foreign keys and reverses exactly to native bytes.
+
+The reader-first package is public in the existing Zenodo concept as record
+22105836 / DOI `10.5281/zenodo.22105836`; anonymous readback matched all eight
+files. It is also public at GitHub content commit
+`915558629641eb894c43ff5ce67dd935c4168711`, annotated tag/release `unit-28`,
+and Pages. Because the anonymous REST core limit was exhausted, the GitHub
+receipt independently proves public branch/tag identity through credential-free
+smart HTTP, the release and commit HTML surfaces, all eight fixed release
+downloads, fixed-commit HTML/PDF plus README/CITATION/LICENSE, and live Pages
+HTML/PDF. Receipt `qa/UNIT_28_GITHUB_PUBLICATION.json` is 9,243 bytes,
+SHA-256
+`ba3cb54876941cc754c54921761d60f8622b144d1f4bc084770b7ce1ea90adb4`;
+the final bounded anonymous replay passed at `2026-08-27T17:50:28Z`.
+The exact next executable action is to freeze the official 2012 Unit 29
+authority, then translate and verify Units 29–30 in source order before the
+complete classical-volume reader/backend/publication cycle.
 
 ## Finite workflow
 

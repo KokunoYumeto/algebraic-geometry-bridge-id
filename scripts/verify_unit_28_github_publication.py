@@ -217,5 +217,386 @@ generated = replace_once(
     result = verify(args.wait_seconds, args.expected_commit)''',
 )
 
+# GitHub's unauthenticated REST core limit is intentionally small.  Preserve
+# the accepted REST verification when it is available, but make a rate-limit
+# response non-fatal by switching to independent anonymous public surfaces:
+# smart-HTTP refs, fixed release downloads, fixed-commit raw bytes, public HTML,
+# and Pages.  The fallback never reads a credential and still fails closed on
+# the caller-pinned commit and every locally frozen byte identity.
+generated = replace_once(
+    generated,
+    "import json\nimport time",
+    "import json\nimport os\nimport subprocess\nimport time",
+)
+
+verify_start = generated.index(
+    "def verify(wait_seconds: int, expected_commit: str | None = None) -> dict[str, object]:"
+)
+verify_end = generated.index("\ndef self_check() -> dict:", verify_start)
+generated = generated[:verify_start] + r'''def valid_commit(value: object) -> bool:
+    return (
+        isinstance(value, str)
+        and len(value) == 40
+        and all(character in "0123456789abcdef" for character in value)
+    )
+
+
+def api_core_rate_limit_403(exc: requests.HTTPError) -> bool:
+    response = exc.response
+    if response is None or response.status_code != 403:
+        return False
+    if not response.url.startswith("https://api.github.com/"):
+        return False
+    remaining = response.headers.get("X-RateLimit-Remaining")
+    try:
+        message = response.text[:4096].lower()
+    except Exception:
+        message = ""
+    return remaining == "0" or "api rate limit exceeded" in message
+
+
+def html_metadata_surface(
+    session: requests.Session,
+    url: str,
+    required_markers: list[str],
+    label: str,
+) -> dict[str, object]:
+    response = session.get(
+        url,
+        headers={"Accept": "text/html,application/xhtml+xml"},
+        timeout=120,
+    )
+    response.raise_for_status()
+    content_type = response.headers.get("Content-Type", "")
+    if "text/html" not in content_type.lower():
+        raise RuntimeError(f"{label} did not return HTML: {content_type!r}")
+    payload = response.content
+    if len(payload) < 1024:
+        raise RuntimeError(f"{label} returned implausibly short HTML")
+    text = payload.decode(response.encoding or "utf-8", errors="replace")
+    missing = [marker for marker in required_markers if marker not in text]
+    if missing:
+        raise RuntimeError(f"{label} is missing required public markers: {missing}")
+    return {
+        "url": url,
+        "final_url": response.url,
+        "status_code": response.status_code,
+        "content_type": content_type,
+        "bytes": len(payload),
+        "sha256": hashlib.sha256(payload).hexdigest(),
+        "required_markers_present": required_markers,
+        "anonymous_readback": True,
+    }
+
+
+def anonymous_smart_http_refs(expected_commit: str) -> dict[str, object]:
+    repository_url = f"https://github.com/{OWNER}/{REPOSITORY}.git"
+    wanted = {
+        "refs/heads/main",
+        f"refs/tags/{TAG}",
+        f"refs/tags/{TAG}^{{}}",
+    }
+    environment = dict(os.environ)
+    environment.update(
+        {
+            "GIT_TERMINAL_PROMPT": "0",
+            "GCM_INTERACTIVE": "Never",
+        }
+    )
+    command = [
+        "git",
+        "-c",
+        "credential.helper=",
+        "ls-remote",
+        repository_url,
+        "refs/heads/main",
+        f"refs/tags/{TAG}",
+        f"refs/tags/{TAG}^{{}}",
+    ]
+    completed = subprocess.run(
+        command,
+        cwd=ROOT,
+        env=environment,
+        capture_output=True,
+        text=True,
+        timeout=120,
+        check=False,
+    )
+    if completed.returncode != 0:
+        raise RuntimeError(
+            "Anonymous Git smart-HTTP ref verification failed "
+            f"with exit code {completed.returncode}"
+        )
+    refs: dict[str, str] = {}
+    for raw_line in completed.stdout.splitlines():
+        parts = raw_line.split("\t", 1)
+        if len(parts) != 2 or parts[1] not in wanted:
+            continue
+        if parts[1] in refs:
+            raise RuntimeError(f"Duplicate smart-HTTP ref: {parts[1]}")
+        refs[parts[1]] = parts[0]
+    if set(refs) != wanted:
+        raise RuntimeError(f"Anonymous smart-HTTP ref inventory mismatch: {sorted(refs)}")
+    if any(not valid_commit(value) for value in refs.values()):
+        raise RuntimeError("Anonymous smart-HTTP returned an invalid object identity")
+    if refs["refs/heads/main"] != expected_commit:
+        raise RuntimeError("Anonymous smart-HTTP main does not match the pinned commit")
+    if refs[f"refs/tags/{TAG}^{{}}"] != expected_commit:
+        raise RuntimeError("Anonymous smart-HTTP annotated tag does not target the pinned commit")
+    if refs[f"refs/tags/{TAG}"] == expected_commit:
+        raise RuntimeError("Unit 28 public tag is not independently represented as an annotated tag")
+    return {
+        "transport": "anonymous_git_smart_http",
+        "repository_url": repository_url,
+        "credential_helper_disabled": True,
+        "terminal_prompt_disabled": True,
+        "main_commit": refs["refs/heads/main"],
+        "annotated_tag_object": refs[f"refs/tags/{TAG}"],
+        "dereferenced_tag_commit": refs[f"refs/tags/{TAG}^{{}}"],
+    }
+
+
+def verify(wait_seconds: int, expected_commit: str | None = None) -> dict[str, object]:
+    expected, release_manifest = load_release_contract()
+    if expected_commit is not None and not valid_commit(expected_commit):
+        raise RuntimeError(f"Invalid caller-pinned commit: {expected_commit!r}")
+    session = requests.Session()
+    session.headers.update(
+        {
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "ag-bridge-id-public-readback",
+            "Cache-Control": "no-cache",
+        }
+    )
+
+    metadata_mode = "anonymous_github_rest_api"
+    api_rate_limit: dict[str, object] | None = None
+    smart_http: dict[str, object] | None = None
+    try:
+        branch = request_json(session, f"{API}/branches/main")
+        branch_commit = (branch.get("commit") or {}).get("sha")
+        if not valid_commit(branch_commit):
+            raise RuntimeError(f"Invalid public main commit identity: {branch_commit!r}")
+        if expected_commit is not None and branch_commit != expected_commit:
+            raise RuntimeError(
+                f"Public main commit differs from caller binding: {branch_commit} != {expected_commit}"
+            )
+
+        tag_ref = request_json(session, f"{API}/git/ref/tags/{TAG}")
+        tag_object = tag_ref.get("object") or {}
+        if tag_object.get("type") != "tag" or not valid_commit(tag_object.get("sha")):
+            raise RuntimeError("Unit 28 is not an annotated tag")
+        annotated = request_json(session, f"{API}/git/tags/{tag_object['sha']}")
+        if annotated.get("object", {}).get("type") != "commit":
+            raise RuntimeError("Annotated Unit 28 tag does not target a commit")
+        if annotated.get("object", {}).get("sha") != branch_commit:
+            raise RuntimeError("Annotated Unit 28 tag targets the wrong commit")
+
+        release = request_json(session, f"{API}/releases/tags/{TAG}")
+        assets = release.get("assets")
+        if not isinstance(assets, list) or len(assets) != len(FILES):
+            raise RuntimeError("GitHub release does not expose exactly eight assets")
+        by_name = {item.get("name"): item for item in assets if isinstance(item, dict)}
+        if set(by_name) != set(FILES):
+            raise RuntimeError(f"GitHub release asset inventory mismatch: {sorted(by_name)}")
+        asset_urls = {}
+        for name in FILES:
+            direct_url = (
+                f"https://github.com/{OWNER}/{REPOSITORY}/releases/download/{TAG}/{name}"
+            )
+            if by_name[name].get("browser_download_url") != direct_url:
+                raise RuntimeError(f"GitHub API returned a noncanonical asset URL for {name}")
+            asset_urls[name] = direct_url
+        release_published_utc = release.get("published_at")
+    except requests.HTTPError as exc:
+        if not api_core_rate_limit_403(exc):
+            raise
+        if expected_commit is None:
+            raise RuntimeError(
+                "A caller-pinned commit is required for rate-limit-independent verification"
+            ) from exc
+        response = exc.response
+        api_rate_limit = {
+            "detected": True,
+            "status_code": 403,
+            "url": response.url if response is not None else None,
+            "x_ratelimit_remaining": (
+                response.headers.get("X-RateLimit-Remaining") if response is not None else None
+            ),
+        }
+        metadata_mode = "anonymous_direct_surfaces_after_api_core_rate_limit"
+        smart_http = anonymous_smart_http_refs(expected_commit)
+        branch_commit = smart_http["main_commit"]
+        tag_object = {"sha": smart_http["annotated_tag_object"], "type": "tag"}
+        asset_urls = {
+            name: f"https://github.com/{OWNER}/{REPOSITORY}/releases/download/{TAG}/{name}"
+            for name in FILES
+        }
+        release_published_utc = None
+
+    fixed_release_url = f"https://github.com/{OWNER}/{REPOSITORY}/releases/tag/{TAG}"
+    fixed_commit_url = f"https://github.com/{OWNER}/{REPOSITORY}/commit/{branch_commit}"
+    release_html = html_metadata_surface(
+        session,
+        fixed_release_url,
+        [TAG, REPOSITORY],
+        "GitHub release/tag HTML",
+    )
+    commit_html = html_metadata_surface(
+        session,
+        fixed_commit_url,
+        [branch_commit, REPOSITORY],
+        "GitHub commit HTML",
+    )
+
+    verified_assets = []
+    for name in FILES:
+        actual = readback(session, asset_urls[name])
+        verify_equal(actual, expected[name], f"GitHub release asset {name}")
+        verified_assets.append(
+            {
+                "name": name,
+                "bytes": actual["bytes"],
+                "sha256": actual["sha256"],
+                "download_url": asset_urls[name],
+                "public_readback": True,
+            }
+        )
+
+    raw_html = readback(
+        session,
+        f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{branch_commit}/docs/index.html",
+    )
+    raw_pdf = readback(
+        session,
+        f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{branch_commit}/docs/"
+        "algebraic-geometry-bridge-id-units-01-28.pdf",
+    )
+    verify_equal(raw_html, expected["kurva-aljabar-id-unit-28.html"], "raw commit HTML")
+    verify_equal(raw_pdf, expected["kurva-aljabar-id-unit-28.pdf"], "raw commit PDF")
+    raw_metadata: dict[str, dict[str, object]] = {}
+    for relative in ("CITATION.cff", "README.md", "LICENSE.md"):
+        local = repository_descriptor(relative)
+        actual = readback(
+            session,
+            f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{branch_commit}/{relative}",
+        )
+        verify_equal(actual, local, f"raw commit {relative}")
+        raw_metadata[relative] = {**actual, "match": True}
+
+    zenodo_receipt_path = ROOT / "qa" / "UNIT_28_ZENODO_PUBLICATION.json"
+    zenodo_receipt = json.loads(zenodo_receipt_path.read_text(encoding="utf-8"))
+    if not isinstance(zenodo_receipt, dict) or zenodo_receipt.get("status") != "PASS":
+        raise RuntimeError("Unit 28 Zenodo publication receipt is unavailable or not PASS")
+    zenodo_record = zenodo_receipt.get("record")
+    if not isinstance(zenodo_record, dict):
+        raise RuntimeError("Unit 28 Zenodo record identity is missing")
+    if zenodo_record.get("previous_record_id") != 22104692:
+        raise RuntimeError("Unit 28 Zenodo receipt is not the successor of record 22104692")
+    publication_doi = zenodo_record.get("doi")
+    if not isinstance(publication_doi, str) or not publication_doi.startswith("10.5281/zenodo."):
+        raise RuntimeError("Unit 28 Zenodo DOI is invalid")
+    if publication_doi == "10.5281/zenodo.22104692":
+        raise RuntimeError("Unit 28 Zenodo receipt reuses the Unit 27 DOI")
+    citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
+    if f'doi: "{publication_doi}"' not in citation_text:
+        raise RuntimeError("Public citation does not bind the Unit 28 Zenodo DOI")
+
+    deadline = time.monotonic() + wait_seconds
+    pages_html = wait_for_pages(
+        session,
+        f"{PAGES}/",
+        expected["kurva-aljabar-id-unit-28.html"],
+        deadline,
+    )
+    pages_pdf = wait_for_pages(
+        session,
+        f"{PAGES}/algebraic-geometry-bridge-id-units-01-28.pdf",
+        expected["kurva-aljabar-id-unit-28.pdf"],
+        deadline,
+    )
+
+    receipt = {
+        "schema": "ag-bridge-github-publication-receipt-v2",
+        "status": "PASS",
+        "verified_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "repository": f"https://github.com/{OWNER}/{REPOSITORY}",
+        "release_manifest": {
+            **local_descriptor(MANIFEST_NAME),
+            "through_unit": release_manifest["coverage"]["through_unit"],
+            "planned_units": release_manifest["coverage"]["planned_units"],
+            "full_edition_complete": release_manifest["coverage"]["full_edition_complete"],
+            "source_course_boundary": release_manifest["rights"]["source_course_boundary"],
+        },
+        "metadata_verification": {
+            "mode": metadata_mode,
+            "api_core_rate_limit": api_rate_limit,
+            "smart_http": smart_http,
+            "surfaces_used": [
+                "github_rest_api" if metadata_mode == "anonymous_github_rest_api" else "git_smart_http",
+                "github_release_tag_html",
+                "github_commit_html",
+                "fixed_release_download_urls",
+                "fixed_commit_raw_githubusercontent",
+                "github_pages",
+            ],
+            "release_tag_html": release_html,
+            "commit_html": commit_html,
+        },
+        "branch": {
+            "name": "main",
+            "commit": branch_commit,
+            "caller_pinned_commit": expected_commit,
+            "anonymous_api_readback": metadata_mode == "anonymous_github_rest_api",
+            "anonymous_smart_http_readback": smart_http is not None,
+        },
+        "tag": {
+            "name": TAG,
+            "annotated_tag_object": tag_object["sha"],
+            "target_type": "commit",
+            "target_commit": branch_commit,
+            "anonymous_api_readback": metadata_mode == "anonymous_github_rest_api",
+            "anonymous_smart_http_readback": smart_http is not None,
+        },
+        "release": {
+            "url": fixed_release_url,
+            "published_utc": release_published_utc,
+            "published_utc_available_via_api": release_published_utc is not None,
+            "assets_expected": len(FILES),
+            "assets_verified": len(verified_assets),
+            "credential_used_for_readback": False,
+            "all_size_and_sha256_matches": True,
+            "files": verified_assets,
+        },
+        "raw_commit_readback": {
+            "credential_used": False,
+            "commit": branch_commit,
+            "html": {**raw_html, "match": True},
+            "pdf": {**raw_pdf, "match": True},
+            "metadata": raw_metadata,
+        },
+        "pages_readback": {
+            "credential_used": False,
+            "reader": {**pages_html, "match": True},
+            "pdf": {**pages_pdf, "match": True},
+        },
+        "credential_handling": {
+            "public_readback_used_anonymous_requests": True,
+            "git_credential_helper_disabled_for_smart_http": smart_http is not None,
+            "credential_value_logged_or_persisted": False,
+            "credential_file_path_recorded": False,
+        },
+    }
+    RECEIPT.write_text(
+        json.dumps(receipt, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    reread = json.loads(RECEIPT.read_text(encoding="utf-8"))
+    if reread != receipt:
+        raise RuntimeError("GitHub publication receipt readback mismatch")
+    return receipt
+
+''' + generated[verify_end:]
+
 namespace = {"__file__": str(Path(__file__).resolve()), "__name__": "__main__"}
 exec(compile(generated, str(TEMPLATE), "exec"), namespace)
