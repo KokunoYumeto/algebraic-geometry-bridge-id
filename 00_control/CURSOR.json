@@ -1031,6 +1031,7 @@
     "package": {"manifest_path": "release/unit-28/ZENODO_FILE_MANIFEST-unit-28.json", "manifest_bytes": 4924, "manifest_sha256": "96406477167a8fdfffa20e2c434f25d9ea15f8374029e693c1ce45a2e2dae02e", "files": 8, "source_zip_entries": 628, "authority_zip_entries": 1360},
     "zenodo": {"record_id": 22105836, "doi": "10.5281/zenodo.22105836", "concept_doi": "10.5281/zenodo.22059686", "receipt_path": "qa/UNIT_28_ZENODO_PUBLICATION.json", "receipt_bytes": 4232, "receipt_sha256": "c38838925c266a3b5a8d29fd2e31bbef1d0547e775b91f2ec532dc0093f9192a", "status": "PASS", "files_verified": 8},
     "github": {"content_commit": "915558629641eb894c43ff5ce67dd935c4168711", "tag": "unit-28", "annotated_tag_object": "9b79106e95013fee2558e30a0a11e743c34c4b87", "release_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-28", "pages_url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/", "receipt_path": "qa/UNIT_28_GITHUB_PUBLICATION.json", "receipt_bytes": 9243, "receipt_sha256": "ba3cb54876941cc754c54921761d60f8622b144d1f4bc084770b7ce1ea90adb4", "status": "PASS", "verified_utc": "2026-08-27T17:50:28Z", "release_assets_verified": 8, "raw_commit_reader_files_verified": 2, "raw_commit_metadata_files_verified": 3, "pages_files_verified": 2},
+    "control_public_readback": {"commit": "9a92c358223675d4e26d773ccd0e72756efddc57", "receipt_path": "qa/UNIT_28_CONTROL_PUBLIC_READBACK.json", "receipt_bytes": 1685, "receipt_sha256": "923ec20e06119e65e3c54c8641d0fa52e21950d4386f56c74fde90f1f3602558", "status": "PASS", "verified_utc": "2026-08-27T17:56:32Z", "files_verified": 6},
     "next_executable_action": "freeze official 2012 Unit 29 authority and continue contiguous translation and bounded QA through Units 29-30 before the complete classical release"
   },
   "cumulative_units_01_27_release_working_boundary": {
@@ -1167,6 +1168,9 @@
     "github_public_readback_receipt_sha256": "ba3cb54876941cc754c54921761d60f8622b144d1f4bc084770b7ce1ea90adb4",
     "handoff": "qa/UNITS_01_28_HANDOFF.md",
     "handoff_sha256": "ec2bbb89e440742b6ce252012150d8dd22138d86c1bcb7d5f1bce9b943ac9e87",
+    "github_unit_28_control_commit": "9a92c358223675d4e26d773ccd0e72756efddc57",
+    "github_unit_28_control_public_readback_receipt": "qa/UNIT_28_CONTROL_PUBLIC_READBACK.json",
+    "github_unit_28_control_public_readback_receipt_sha256": "923ec20e06119e65e3c54c8641d0fa52e21950d4386f56c74fde90f1f3602558",
     "unit_01_state": "published_and_public_bytes_verified",
     "unit_02_state": "published_and_public_bytes_verified",
     "unit_03_state": "published_and_public_bytes_verified",
