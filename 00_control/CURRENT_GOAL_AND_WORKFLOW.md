@@ -2,7 +2,7 @@
 
 Status: active. Write only inside this repository's D100/O016 lane.
 Recover from this file, `00_control/CURSOR.json`, the current unit worklog,
-matching authority/rights/QA, and `qa/UNITS_01_28_HANDOFF.md`. Update them at
+matching authority/rights/QA, and `qa/UNITS_01_30_HANDOFF.md`. Update them at
 material boundaries; they—not chat, compaction, or a stale synopsis—control.
 
 ## Objective and architecture
@@ -38,7 +38,21 @@ view.
 
 ## Live boundary
 
-Units 1–18 are the current verified and published cumulative reader: 18 lectures, 18
+The current verified public boundary is the complete 30-unit classical volume,
+described in the final paragraphs of this section; earlier boundary paragraphs
+are retained only as historical provenance. The remaining production corpus is
+exactly 30 BGK units / 265 official-source pages, followed by the finite
+original layer. No split or second counting of the 19-unit learner route is
+planned. BGK authority has not yet been frozen inside this lane: the admitted
+course root is `Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)`,
+observed revision 1052895, and the recorded official PDF witness is 265 pages,
+2,104,862 bytes, SHA-256
+`87655cf7e96dc0eaa185ca49a374dc9e25f4b739670495f423279aa332fce66c`.
+The next action is to parameterize the classical freezer into a disjoint BGK
+authority namespace, freeze the root and Unit 1 closure, verify that PDF witness
+locally, and then translate BGK Unit 1.
+
+Units 1–18 were the earlier verified and published cumulative reader: 18 lectures, 18
 worksheets, 513 exercises, all 90 frozen public source solutions, 74 media
 positions, 1,046 source/control IDs, 7,186 MathML nodes, a 320-page A4 PDF, and
 a 13,626-record native backend. Every reader, visual, responsive, protected,
@@ -194,9 +208,13 @@ existing Zenodo concept as record 22150273 / DOI
 `10.5281/zenodo.22150273`; anonymous readback matched every file. Receipt
 `qa/UNIT_30_ZENODO_PUBLICATION.json` is 4,273 bytes, SHA-256
 `dcd2c4574081a4462627b5775480b27de4d5959e76442bc7d409979480e4bcea`.
-The exact next executable action is to publish the identical frozen package in
-the existing GitHub/Pages lineage, anonymously verify release/raw/Pages bytes,
-then freeze and translate BGK Unit 1.
+The identical package is also public at GitHub content commit
+`9ffc8932d51ad1f41c0170ab05443f19e7fa55dc`, annotated tag/release `unit-30`,
+and Pages. Anonymous readback matched all eight release assets, fixed-commit
+HTML/PDF plus metadata, and live Pages HTML/PDF; receipt
+`qa/UNIT_30_GITHUB_PUBLICATION.json` is 8,634 bytes, SHA-256
+`0e1374c3ef7bafc94430018b29d525c0e84fb5b3f1fe885fb4ac3212a8d3e12e`.
+The exact next executable action is to freeze and translate BGK Unit 1.
 
 ## Finite workflow
 

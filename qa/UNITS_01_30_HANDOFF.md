@@ -53,11 +53,18 @@ ShareAlike, exact provenance, and non-endorsement are preserved.
 
 The release candidate reports `PASS_RELEASE_READY`: 8,963 bytes, SHA-256
 `9d97e7b2fdaef25cdcc0325a65e2c03c691110e15ef98fc0e82b2c9417cb0824`.
-The deterministic eight-file reader-first payload is public in the existing
-Zenodo concept as record 22150273 / DOI `10.5281/zenodo.22150273`. Anonymous
-readback matched all eight public files by byte count and SHA-256. The
-4,273-byte sanitized publication receipt has SHA-256
+The deterministic eight-file reader-first payload is public in both existing
+lineages. Zenodo record 22150273 / DOI `10.5281/zenodo.22150273` matched all
+eight files; its 4,273-byte receipt has SHA-256
 `dcd2c4574081a4462627b5775480b27de4d5959e76442bc7d409979480e4bcea`.
-Exact next action: publish the same frozen bytes in the existing GitHub/Pages
-lineage, anonymously verify the release/raw/Pages surfaces, update this handoff
-and the durable cursor, then freeze BGK Unit 1.
+GitHub content commit `9ffc8932d51ad1f41c0170ab05443f19e7fa55dc`, annotated
+tag object `999b4a40e538f000e16297b48c680f78dfde4ebd`, release
+`unit-30`, and Pages are public. Anonymous readback matched all eight release
+assets, fixed-commit HTML/PDF plus README/CITATION/LICENSE, and live Pages
+HTML/PDF. The 8,634-byte GitHub receipt has SHA-256
+`0e1374c3ef7bafc94430018b29d525c0e84fb5b3f1fe885fb4ac3212a8d3e12e`.
+
+Exact next action: preserve this complete classical boundary and freeze BGK
+Unit 1 from the separately admitted *Bündel, Garben und Kohomologie* course.
+Do not renumber it as classical Unit 31 or count the 19-unit learner route as
+additional source units.

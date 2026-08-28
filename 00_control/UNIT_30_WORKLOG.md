@@ -2,8 +2,9 @@
 
 Status: complete source/translation boundary; authority, translation, build,
 machine, protected-surface, responsive, all-page visual, native-backend,
-strict common-adapter, deterministic packaging, and Zenodo publication gates
-PASS. GitHub/Pages publication is in progress.
+strict common-adapter, deterministic packaging, Zenodo, GitHub release/raw,
+and Pages publication gates PASS. This classical volume is complete and the
+next source boundary is BGK Unit 1.
 This is the terminal unit of the complete
 30-unit classical `Algebraische Kurven` volume, not the end of D100: the next
 source corpus is the separately frozen 30-unit `Bündel, Garben und
@@ -164,10 +165,17 @@ The package is public in the existing Zenodo concept as record 22150273 / DOI
 The 4,273-byte receipt `qa/UNIT_30_ZENODO_PUBLICATION.json` has SHA-256
 `dcd2c4574081a4462627b5775480b27de4d5959e76442bc7d409979480e4bcea`.
 
+The identical package is public at GitHub content commit
+`9ffc8932d51ad1f41c0170ab05443f19e7fa55dc`, annotated tag object
+`999b4a40e538f000e16297b48c680f78dfde4ebd`, and release `unit-30`.
+Anonymous readback matched all eight release assets, fixed-commit HTML/PDF and
+README/CITATION/LICENSE, and live Pages HTML/PDF. The 8,634-byte receipt
+`qa/UNIT_30_GITHUB_PUBLICATION.json` has SHA-256
+`0e1374c3ef7bafc94430018b29d525c0e84fb5b3f1fe885fb4ac3212a8d3e12e`.
+
 ## Exact next action
 
-Publish the identical frozen package to the existing GitHub/Pages lineage;
-anonymously verify every release asset plus fixed-commit raw and live Pages
-HTML/PDF. Then bind the publication receipt in the durable cursor and advance
-into BGK Unit 1 without reopening source selection or counting the 19-unit
-learner-route view as additional source units.
+Bind the completed public receipts in `00_control/CURSOR.json`, preserve this
+complete classical boundary, and freeze BGK Unit 1 without reopening source
+selection or counting the 19-unit learner-route view as additional source
+units.
