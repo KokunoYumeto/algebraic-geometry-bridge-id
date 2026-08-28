@@ -1,0 +1,49 @@
+{
+  "schema": "ag-bridge-control-public-readback-v1",
+  "status": "PASS",
+  "verified_utc": "2026-08-28T20:51:51.6572088Z",
+  "repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+  "commit": "f8350bdce8cd3e035d14460da5a71512f94be316",
+  "credential_used": false,
+  "mode": "anonymous_fixed_commit_raw_readback",
+  "files": [
+    {
+      "path": "00_control/CURRENT_GOAL_AND_WORKFLOW.md",
+      "bytes": 16254,
+      "sha256": "43e08069145bf8d7d800471c056a3735380bd0d509be19bb7c54302f68836165",
+      "http_status": 200,
+      "match": true
+    },
+    {
+      "path": "00_control/CURSOR.json",
+      "bytes": 128631,
+      "sha256": "78f123e2664452a3d9cbd84e32935775dac501cdf8fb177458e912320066163f",
+      "http_status": 200,
+      "match": true
+    },
+    {
+      "path": "00_control/UNIT_30_WORKLOG.md",
+      "bytes": 9731,
+      "sha256": "04cca64ece39c84e28a22a7ca3c7adfcd01d133c91f818a92464a76a29abd118",
+      "http_status": 200,
+      "match": true
+    },
+    {
+      "path": "qa/UNITS_01_30_HANDOFF.md",
+      "bytes": 4159,
+      "sha256": "11f977feae1b35194ab661a90ae19ae3d0e8be3c9a329d3aa04f7ef733897d1f",
+      "http_status": 200,
+      "match": true
+    },
+    {
+      "path": "qa/UNIT_30_GITHUB_PUBLICATION.json",
+      "bytes": 8634,
+      "sha256": "0e1374c3ef7bafc94430018b29d525c0e84fb5b3f1fe885fb4ac3212a8d3e12e",
+      "http_status": 200,
+      "match": true
+    }
+  ],
+  "files_verified": 5,
+  "all_size_and_sha256_matches": true,
+  "credential_value_logged_or_persisted": false
+}

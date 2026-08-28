@@ -1118,6 +1118,7 @@
     "package": {"manifest_path": "release/unit-30/ZENODO_FILE_MANIFEST-unit-30.json", "manifest_bytes": 4965, "manifest_sha256": "90e6ec91a6933b91bcd3a3e4475158aacf317480bc1fc46ff74c629d2474d0b8", "files": 8, "source_zip_entries": 670, "authority_zip_entries": 1473},
     "zenodo": {"record_id": 22150273, "doi": "10.5281/zenodo.22150273", "concept_doi": "10.5281/zenodo.22059686", "receipt_path": "qa/UNIT_30_ZENODO_PUBLICATION.json", "receipt_bytes": 4273, "receipt_sha256": "dcd2c4574081a4462627b5775480b27de4d5959e76442bc7d409979480e4bcea", "status": "PASS", "files_verified": 8, "verified_utc": "2026-08-28T20:38:16Z"},
     "github": {"content_commit": "9ffc8932d51ad1f41c0170ab05443f19e7fa55dc", "tag": "unit-30", "annotated_tag_object": "999b4a40e538f000e16297b48c680f78dfde4ebd", "release_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-30", "pages_url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/", "receipt_path": "qa/UNIT_30_GITHUB_PUBLICATION.json", "receipt_bytes": 8634, "receipt_sha256": "0e1374c3ef7bafc94430018b29d525c0e84fb5b3f1fe885fb4ac3212a8d3e12e", "status": "PASS", "verified_utc": "2026-08-28T20:43:19Z", "release_assets_verified": 8, "raw_commit_reader_files_verified": 2, "raw_commit_metadata_files_verified": 3, "pages_files_verified": 2},
+    "control_public_readback": {"commit": "f8350bdce8cd3e035d14460da5a71512f94be316", "receipt_path": "qa/UNIT_30_CONTROL_PUBLIC_READBACK.json", "receipt_bytes": 1528, "receipt_sha256": "3f678484906c11ae93865d92a328d5a2053f6c01393ebf0e04c9009b1b1a9142", "status": "PASS", "verified_utc": "2026-08-28T20:51:51.6572088Z", "files_verified": 5},
     "next_executable_action": "freeze the exact official BGK Unit 1 authority and translate it in source order"
   },
   "cumulative_units_01_28_release_working_boundary": {
@@ -1288,6 +1289,9 @@
     "github_unit_28_control_commit": "9a92c358223675d4e26d773ccd0e72756efddc57",
     "github_unit_28_control_public_readback_receipt": "qa/UNIT_28_CONTROL_PUBLIC_READBACK.json",
     "github_unit_28_control_public_readback_receipt_sha256": "923ec20e06119e65e3c54c8641d0fa52e21950d4386f56c74fde90f1f3602558",
+    "github_unit_30_control_commit": "f8350bdce8cd3e035d14460da5a71512f94be316",
+    "github_unit_30_control_public_readback_receipt": "qa/UNIT_30_CONTROL_PUBLIC_READBACK.json",
+    "github_unit_30_control_public_readback_receipt_sha256": "3f678484906c11ae93865d92a328d5a2053f6c01393ebf0e04c9009b1b1a9142",
     "unit_01_state": "published_and_public_bytes_verified",
     "unit_02_state": "published_and_public_bytes_verified",
     "unit_03_state": "published_and_public_bytes_verified",
