@@ -328,6 +328,95 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
             continue
         manifest = load_json(manifest_path)
         base = manifest_path.parent
+        inventory_by_path: dict[str, dict[str, Any]] = {}
+        verified_inventory: dict[str, dict[str, Any]] = {}
+        for entry in manifest.get("captured_file_inventory", []):
+            if not isinstance(entry, dict) or not all(
+                key in entry for key in ("path", "bytes", "sha256")
+            ):
+                raise SystemExit(f"Malformed captured-file inventory entry: {manifest_path}")
+            inventory_path = str(entry["path"])
+            existing_entry = inventory_by_path.get(inventory_path)
+            if existing_entry is not None and existing_entry != entry:
+                raise SystemExit(
+                    f"Conflicting captured-file inventory entries: {base / inventory_path}"
+                )
+            inventory_by_path[inventory_path] = entry
+
+        def inventory_fact(inventory_path: str) -> dict[str, Any]:
+            cached = verified_inventory.get(inventory_path)
+            if cached is not None:
+                return cached
+            entry = inventory_by_path.get(inventory_path)
+            if entry is None:
+                raise SystemExit(
+                    f"Authority capture is absent from the exact file inventory: {base / inventory_path}"
+                )
+            witness_path = base / inventory_path
+            if not witness_path.is_file():
+                raise SystemExit(f"Authority inventory witness absent: {witness_path}")
+            fact = file_fact(witness_path)
+            if fact["bytes"] != int(entry["bytes"]) or fact["sha256"] != str(entry["sha256"]):
+                raise SystemExit(f"Authority inventory witness drift: {fact['path']}")
+            verified_inventory[inventory_path] = fact
+            return fact
+
+        # Unit 30's compact freezer separates capture identities from the exact
+        # file facts in captured_file_inventory.  Recover root-page bindings
+        # from the frozen MediaWiki XML itself; this proves the identity rather
+        # than inferring it from a filename.  Closure rows are bound to their
+        # explicit capture_file below.
+        inventory_by_identity: dict[tuple[int, int], dict[str, Any]] = {}
+        for inventory_path in sorted(inventory_by_path):
+            if Path(inventory_path).suffix.casefold() != ".xml":
+                continue
+            witness = inventory_fact(inventory_path)
+            xml_path = base / inventory_path
+            try:
+                xml_root = ET.parse(xml_path).getroot()
+            except ET.ParseError as exc:
+                raise SystemExit(f"Frozen MediaWiki XML is not parseable: {xml_path}: {exc}") from exc
+            page = xml_root.find(".//{*}page")
+            if page is None:
+                continue
+            title_node = page.find("{*}title")
+            page_id_node = page.find("{*}id")
+            revision = page.find("{*}revision")
+            if title_node is None or page_id_node is None or revision is None:
+                continue
+            revision_id_node = revision.find("{*}id")
+            sha1_node = revision.find("{*}sha1")
+            timestamp_node = revision.find("{*}timestamp")
+            if revision_id_node is None or sha1_node is None:
+                continue
+            page_id = int(page_id_node.text or "0")
+            revision_id = int(revision_id_node.text or "0")
+            html_path = Path(inventory_path).with_suffix(".html").as_posix()
+            expanded_tex_path = Path(inventory_path).with_name(
+                Path(inventory_path).stem + "-expanded.tex"
+            ).as_posix()
+            item = {
+                "page_id": page_id,
+                "revision_id": revision_id,
+                "revision_sha1": str(sha1_node.text or ""),
+                "page_title": str(title_node.text or ""),
+                "timestamp": timestamp_node.text if timestamp_node is not None else None,
+                "witness": witness,
+                "api_url": manifest.get("source_api", "https://de.wikiversity.org/w/api.php"),
+                "rendered_html_sha256": (
+                    inventory_fact(html_path)["sha256"] if html_path in inventory_by_path else None
+                ),
+                "expanded_tex_sha256": (
+                    inventory_fact(expanded_tex_path)["sha256"]
+                    if expanded_tex_path in inventory_by_path
+                    else None
+                ),
+            }
+            key = (page_id, revision_id)
+            existing = inventory_by_identity.get(key)
+            if existing is None or witness["path"] < existing["witness"]["path"]:
+                inventory_by_identity[key] = item
+
         batch_by_title: dict[str, dict[str, Any]] = {}
         for node in walk_dicts(manifest):
             if not isinstance(node.get("requested_titles"), list):
@@ -362,14 +451,31 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
                         break
             if witness is None:
                 witness = batch_by_title.get(identity["page_title"])
+            capture_file = str(node.get("capture_file") or "")
+            if witness is None and capture_file in inventory_by_path:
+                witness = inventory_fact(capture_file)
+            inventory_item = inventory_by_identity.get(
+                (identity["page_id"], identity["revision_id"])
+            )
+            if witness is None and inventory_item is not None:
+                # MediaWiki export XML stores revision SHA-1 in its dump
+                # representation, while API manifests carry the hexadecimal
+                # representation.  The immutable cross-format join is the
+                # page/revision pair parsed above; the strict profile retains
+                # the manifest/native hexadecimal digest verbatim.
+                witness = inventory_item["witness"]
             if witness is None:
                 continue
             item = {
                 **identity,
                 "witness": witness,
                 "api_url": manifest.get("source_api", "https://de.wikiversity.org/w/api.php"),
-                "rendered_html_sha256": node.get("html_sha256"),
-                "expanded_tex_sha256": None,
+                "rendered_html_sha256": node.get("html_sha256") or (
+                    inventory_item.get("rendered_html_sha256") if inventory_item else None
+                ),
+                "expanded_tex_sha256": (
+                    inventory_item.get("expanded_tex_sha256") if inventory_item else None
+                ),
             }
             key = (identity["page_id"], identity["revision_id"])
             existing = index.get(key)

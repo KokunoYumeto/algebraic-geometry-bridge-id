@@ -1,0 +1,147 @@
+{
+  "schema": "ag-bridge-protected-surfaces-v6",
+  "status": "PASS",
+  "verified_date": "2026-08-28",
+  "through_unit": 30,
+  "baseline": {
+    "path": "qa/UNIT_28_PROTECTED_SURFACES.json",
+    "bytes": 2533,
+    "sha256": "d9e737e3319f62d7560cbad20737c27b80b40c27536e3dca36d4632c98f18b2e"
+  },
+  "machine_qa": {
+    "path": "qa/UNITS_01_30_MACHINE_QA.json",
+    "bytes": 4526,
+    "sha256": "55e2044bc7423ba049adf9a1153c46c2dd957f5d147a85ee8ec1dfae3a850362"
+  },
+  "units": {
+    "29": {
+      "translation_qa": {
+        "path": "qa/UNIT_29_TRANSLATION_QA.json",
+        "bytes": 6802,
+        "sha256": "7789a7a131bcf44946204f52c328e24fa96fee0c1e24383994d4485437bffb81"
+      },
+      "implementation": {
+        "path": "scripts/qa_unit29_translation.py",
+        "bytes": 21338,
+        "sha256": "cb400484aa6187c3ddba367f1ae24b6e7ed588cf0922d709134ff929313ca456"
+      },
+      "surfaces": {
+        "protected_lecture": {
+          "source": {
+            "path": "source/id-ID/lecture-29.md",
+            "bytes": 19163,
+            "sha256": "3ed412b4c719d3ac03574013d5acc2bf8316ecc9a09ef33d286433400d5da951"
+          },
+          "tokens": 7,
+          "source_missing": 0,
+          "html_missing": 0
+        },
+        "protected_worksheet": {
+          "source": {
+            "path": "source/id-ID/worksheet-29.md",
+            "bytes": 7831,
+            "sha256": "d061f5fb7132fa7e3c427f77ea3efce3dc07f4234c3cd4fa9389b03eff95d26b"
+          },
+          "tokens": 7,
+          "source_missing": 0,
+          "html_missing": 0
+        },
+        "protected_solutions": {
+          "source": {
+            "path": "source/id-ID/worksheet-29-solutions.md",
+            "bytes": 4232,
+            "sha256": "6ef42d1bdc9fab47fa0c2685b8754d3f9be14f0738c6c280f0f8ada89c6bd505"
+          },
+          "tokens": 4,
+          "source_missing": 0,
+          "html_missing": 0
+        }
+      },
+      "tokens": 18,
+      "correction_disclosures": [
+        "AGC-CORR-0126",
+        "AGC-CORR-0127",
+        "AGC-CORR-0128",
+        "AGC-CORR-0129"
+      ]
+    },
+    "30": {
+      "translation_qa": {
+        "path": "qa/UNIT_30_TRANSLATION_QA.json",
+        "bytes": 6973,
+        "sha256": "788f6cb2245c5daef6a70fad25879c35d2234e43240e83be1bca1fc32c976916"
+      },
+      "implementation": {
+        "path": "scripts/qa_unit30_translation.py",
+        "bytes": 25461,
+        "sha256": "905031f60db2bc069da1edeb06273673631fc7746d5e9df1237e24ecab17440e"
+      },
+      "surfaces": {
+        "protected_lecture": {
+          "source": {
+            "path": "source/id-ID/lecture-30.md",
+            "bytes": 16737,
+            "sha256": "08d79de14854b3df6064e328049f4b729107c7aff350a4299e5ff3faaf266e9e"
+          },
+          "tokens": 8,
+          "source_missing": 0,
+          "html_missing": 0
+        },
+        "protected_worksheet": {
+          "source": {
+            "path": "source/id-ID/worksheet-30.md",
+            "bytes": 7879,
+            "sha256": "6451395d896d6e8d4ff3e7216511309687838d163654e591989801f9e9ac12c6"
+          },
+          "tokens": 10,
+          "source_missing": 0,
+          "html_missing": 0
+        },
+        "protected_solutions": {
+          "source": {
+            "path": "source/id-ID/worksheet-30-solutions.md",
+            "bytes": 6991,
+            "sha256": "3e46d4bb540acd98d4f33bf91f0e3f08788dc1aa3637992e552eb9bdca6d9809"
+          },
+          "tokens": 6,
+          "source_missing": 0,
+          "html_missing": 0
+        }
+      },
+      "tokens": 24,
+      "correction_disclosures": [
+        "AGC-CORR-0130",
+        "AGC-CORR-0131",
+        "AGC-CORR-0132",
+        "AGC-CORR-0133",
+        "AGC-CORR-0134",
+        "AGC-CORR-0135"
+      ]
+    }
+  },
+  "protected_token_count": 42,
+  "unique_protected_token_count": 41,
+  "source_missing": 0,
+  "html_missing": 0,
+  "html_mathml_annotations": 11322,
+  "pdf_terminal_pages_checked": 36,
+  "pdf_terminal_markers": [
+    "Kuliah 29: Proyeksi dan Kurva Proyektif Terparametrisasi",
+    "Soal 29.10",
+    "Solusi Soal 29.3",
+    "Kuliah 30: Teorema Bézout",
+    "Soal 30.12",
+    "Solusi Soal 30.4",
+    "Kredit media Unit 29",
+    "Kredit media Unit 30"
+  ],
+  "checks": [
+    "accepted Unit 28 protected baseline is PASS and byte-pinned",
+    "Unit 29 and Unit 30 translation receipts and their verifier implementations are byte-pinned",
+    "all 42 selected mathematical surfaces remain in source and HTML TeX annotations",
+    "all cumulative HTML/PDF identities match machine QA",
+    "terminal PDF contains both final lectures, final exercises, public solutions, and media-credit boundaries",
+    "all ten tracked Unit 29-30 corrections remain explicitly bound"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

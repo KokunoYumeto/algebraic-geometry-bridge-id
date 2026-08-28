@@ -1,0 +1,3465 @@
+{
+  "schema": "brenner-unit-authority-freeze-v2",
+  "frozen_utc": "2026-08-28T15:08:30.925185+00:00",
+  "unit_number": 29,
+  "source_api": "https://de.wikiversity.org/w/api.php",
+  "source_course": "Kurs:Algebraische Kurven (Osnabrück 2012)",
+  "source_course_surface": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)",
+    "pageid": 50687,
+    "revid": 658236,
+    "parentid": 439529,
+    "timestamp": "2020-09-24T11:56:43Z",
+    "mediawiki_sha1": "2f2ede7249fcaa55ba17d9cd0e3d9ee9d4941f0c",
+    "wikitext_bytes": 619,
+    "api_file": "course-2012-api.json",
+    "api_bytes": 987,
+    "api_sha256": "a11566fb94a2a8a4553501b05c3bf12a46993d6a24bac5cd7c8cea7454ef143e",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=658236",
+    "xml_file": "course-2012.xml",
+    "xml_bytes": 3889,
+    "xml_sha256": "a8342cffb4f03960898f3d37b5c0d560aa8f00fc5c15cdcaa0430c34b7caf7e4",
+    "html_file": "course-2012.html",
+    "html_bytes": 22668,
+    "html_sha256": "b914b572bef3698e59a09321062e1903b828b90fee90f76f77a17a9b310bf76b",
+    "html_source": "immutable Parsoid revision endpoint",
+    "parse_api_file": "course-2012-parse-api.json",
+    "parse_api_bytes": 9599,
+    "parse_api_sha256": "7017cd9d8c04d31acf08acdb055054907266826a7d2e7e83a2cdca5ba7f7d084",
+    "template_count": 15,
+    "image_count": 2,
+    "link_count": 89,
+    "external_link_count": 0
+  },
+  "source_course_license": "CC BY-SA 4.0",
+  "source_component_license_route": {
+    "semantic_site_rights": {
+      "source": "de.wikiversity.org action=query meta=siteinfo rightsinfo",
+      "notice": "CC BY-SA 4.0",
+      "text": "Creative Commons Attribution-Share Alike 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.de",
+      "file": "site-rightsinfo-api.json",
+      "bytes": 164,
+      "sha256": "3ee9fcf0e431d5b0cbbf82482d4e30c2f76eae99a4a7e45e88e0832b4eb6eb99"
+    },
+    "official_pdf_legacy_notice": "CC BY-SA 2.0 Germany",
+    "official_pdf_current_print_version_notice": "CC BY-SA 4.0",
+    "no_blanket_relicensing_claim": true
+  },
+  "topic_heading": "Projektion weg von einem Punkt",
+  "lecture": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 29",
+    "pageid": 51996,
+    "revid": 1069408,
+    "parentid": 833971,
+    "timestamp": "2026-02-05T19:18:37Z",
+    "mediawiki_sha1": "6f0742211aeb307841634425937aad9037da51be",
+    "wikitext_bytes": 3224,
+    "api_file": "lecture-29-api.json",
+    "api_bytes": 3694,
+    "api_sha256": "b79c189588db1753cc6da41bc0bf1d4c1f33616393cde5749ad2dae8aa182387",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1069408",
+    "xml_file": "lecture-29.xml",
+    "xml_bytes": 6360,
+    "xml_sha256": "e5055632a6aa8119540cb5acccc0ba86a82b6d2bc88192b9ddd5a77aaea31d70",
+    "html_file": "lecture-29.html",
+    "html_bytes": 148608,
+    "html_sha256": "4542f1e076a18bfafe22d9cdf3762f8339f6b84a2f7b5b08e5a31d45bef4372d",
+    "html_source": "immutable Parsoid revision endpoint",
+    "parse_api_file": "lecture-29-parse-api.json",
+    "parse_api_bytes": 14080,
+    "parse_api_sha256": "9a22af3fcb88fc92eb731037d64b8a4a96bcc0d6380282accf3b08ff2851cece",
+    "template_count": 106,
+    "image_count": 2,
+    "link_count": 42,
+    "external_link_count": 0
+  },
+  "worksheet": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt 29",
+    "pageid": 50924,
+    "revid": 1052757,
+    "parentid": 793498,
+    "timestamp": "2025-08-27T18:11:31Z",
+    "mediawiki_sha1": "0e8dd5d1e5b9bf9552bdbd8f8c61c47ee2a0b726",
+    "wikitext_bytes": 1692,
+    "api_file": "worksheet-29-api.json",
+    "api_bytes": 2150,
+    "api_sha256": "c3afc41c7bfe3290bee97937d2bc66147c5edab3c37226188a7cb005817cdda5",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1052757",
+    "xml_file": "worksheet-29.xml",
+    "xml_bytes": 4871,
+    "xml_sha256": "d82d020fef6e0d4f604bda9807f1befa2b8e1392afd9fb9459dbe17461d34574",
+    "html_file": "worksheet-29.html",
+    "html_bytes": 42710,
+    "html_sha256": "9d864dbf3d96601609dfb9ee8a49e9e6ed7a5464c8f3b6335d75879404f42773",
+    "html_source": "immutable Parsoid revision endpoint",
+    "parse_api_file": "worksheet-29-parse-api.json",
+    "parse_api_bytes": 7543,
+    "parse_api_sha256": "7edeadefa0f4def8a8b54e022d7ec344bfa2e2eaf5cb5dc9782fe286defe8e72",
+    "template_count": 61,
+    "image_count": 4,
+    "link_count": 22,
+    "external_link_count": 0
+  },
+  "root_revision_contributors": {
+    "source": "de.wikiversity.org action=query prop=revisions rvprop=ids|user|timestamp|sha1",
+    "course_author": "Holger Brenner",
+    "revision_contributor_is_not_course_authorship": true,
+    "records": [
+      {
+        "kind": "lecture",
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 29",
+        "pageid": 51996,
+        "revid": 1069408,
+        "timestamp": "2026-02-05T19:18:37Z",
+        "mediawiki_sha1": "6f0742211aeb307841634425937aad9037da51be",
+        "revision_contributor": "Bocardodarapti"
+      },
+      {
+        "kind": "worksheet",
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt 29",
+        "pageid": 50924,
+        "revid": 1052757,
+        "timestamp": "2025-08-27T18:11:31Z",
+        "mediawiki_sha1": "0e8dd5d1e5b9bf9552bdbd8f8c61c47ee2a0b726",
+        "revision_contributor": "Arbota"
+      }
+    ],
+    "file": "root-revision-contributors-api.json",
+    "bytes": 539,
+    "sha256": "c2b9645e39ce9d1969ca195c34da7918898471b5eb092ce16f255a7db329e1bc"
+  },
+  "lecture_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 29/latex",
+    "pageid": 53378,
+    "revid": 806127,
+    "parentid": 796347,
+    "timestamp": "2022-09-18T07:15:22Z",
+    "mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "wikitext_bytes": 9,
+    "api_file": "lecture-29-latex-page-api.json",
+    "api_bytes": 371,
+    "api_sha256": "060a6f6b97d8cd4c7defaacb5004c6809ca2e27fb9723f654c42e74731c9d7d4",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=806127",
+    "xml_file": "lecture-29-latex-page.xml",
+    "xml_bytes": 3186,
+    "xml_sha256": "3a7b5fd482852638698b572a02346650e8cd66e7f1d196d0fcebfb31e71d2442",
+    "html_file": "lecture-29-latex-page.html",
+    "html_bytes": 32299,
+    "html_sha256": "d4c1f9feec8a6c0e115a33e36bcf583f7885f690a54cc404e76af2108af57b9c",
+    "html_source": "immutable Parsoid revision endpoint"
+  },
+  "worksheet_latex_page": {
+    "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt 29/latex",
+    "pageid": 53022,
+    "revid": 806095,
+    "parentid": 796314,
+    "timestamp": "2022-09-18T07:10:12Z",
+    "mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "wikitext_bytes": 9,
+    "api_file": "worksheet-29-latex-page-api.json",
+    "api_bytes": 374,
+    "api_sha256": "4fb420be588d3067912071e3c773223012b2f45612705bcf2d31debf2b0bcb6c",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=806095",
+    "xml_file": "worksheet-29-latex-page.xml",
+    "xml_bytes": 3189,
+    "xml_sha256": "bbcf1e46c0b4266e46c563a3cd09fd554b85784bc7657612a088babc583895d4",
+    "html_file": "worksheet-29-latex-page.html",
+    "html_bytes": 12025,
+    "html_sha256": "4ec86e779de45855b000d0495ecb6b618bc278cff9a6de45f6866a3e34795f4c",
+    "html_source": "immutable Parsoid revision endpoint"
+  },
+  "latex_capture_semantics": "Each /latex revision contains only {{Latex}}. Expanded TeX is a byte-bound dynamic capture, not an immutable standalone source revision.",
+  "derived_expanded_tex": [
+    {
+      "file": "lecture-29-expanded.tex",
+      "bytes": 23292,
+      "sha256": "7c06a1dbb12904bd5f89427955ef8bdae5781e402522cd70f09a0c6e1ef1e784"
+    },
+    {
+      "file": "worksheet-29-expanded.tex",
+      "bytes": 5439,
+      "sha256": "53a54b5b7e59be71c94d41dc791021c0b2d6165bf0b489670800b09387d560d2"
+    }
+  ],
+  "lecture_transclusion_closure": {
+    "source": "action=parse template list after recursive parser expansion",
+    "requested_template_count": 106,
+    "captured_page_count": 106,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "lecture-29-transclusions-01.json",
+        "bytes": 30125,
+        "sha256": "29bb1dcfeaa996b84777b2837b248a49fad74219b66e8438a567b412ed243982",
+        "requested_titles": [
+          "Ebene projektive Kurve/Abbildung nach P^1 über Projektion von einem Punkt/Fakt",
+          "Ebene projektive Kurve/Abbildung nach P^1 über Projektion von einem Punkt/Fakt/Beweis",
+          "Ebene projektive Kurve/Graph einer rationalen Funktion in einer Variable/Singularität im Unendlichen/Fakt",
+          "Ebene projektive Kurve/Graph einer rationalen Funktion in einer Variable/Singularität im Unendlichen/Fakt/Beweis",
+          "Ebene projektive Kurve/Graph eines Polynoms in einer Variable/Singularität im Unendlichen/Fakt",
+          "Ebene projektive Kurve/Graph eines Polynoms in einer Variable/Singularität im Unendlichen/Fakt/Beweis",
+          "Ebene projektive monomiale Kurve/Singularität/Gesamtmultiplizität/Fakt",
+          "Ebene projektive monomiale Kurve/Singularität/Gesamtmultiplizität/Fakt/Beweis",
+          "Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt",
+          "Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt/Beweis",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene algebraische Kurve/Punkt/Glatt,diskreter Bewertungsring, Multiplizität/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene projektive Kurve/Gleichung für projektiven Abschluss mit Homogenisierung/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Monomiale Kurve/Hilbert-Samuel Multiplizität ist numerische Multiplizität/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe/Aufgabereferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt/Faktreferenznummer",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesungsgestaltung",
+          "MDLUL/Abbildung",
+          "MDLUL/Ebene projektive Kurve",
+          "MDLUL/Fasern",
+          "MDLUL/Graphen (abb)"
+        ]
+      },
+      {
+        "file": "lecture-29-transclusions-02.json",
+        "bytes": 15203,
+        "sha256": "45e20fb34cac50ed977549d624cb9e80f2ab1e7b57f844dd77d66899366fb7d3",
+        "requested_titles": [
+          "MDLUL/Homogenisierung (Polynom)",
+          "MDLUL/Homogenisierung (Polynomring)",
+          "MDLUL/Homogenisierungen (Polynom)",
+          "MDLUL/Homogenisierungen (Polynomring)",
+          "MDLUL/Körper",
+          "MDLUL/Monomiale Kurve",
+          "MDLUL/Morphismus",
+          "MDLUL/Multiplizität (1)",
+          "MDLUL/Polynom in einer Variablen",
+          "MDLUL/Polynome in einer Variablen",
+          "MDLUL/algebraisch abgeschlossener Körper",
+          "MDLUL/diskreter Bewertungsring",
+          "MDLUL/ebene projektive Kurve",
+          "MDLUL/glatt (1)",
+          "MDLUL/glatte (1)",
+          "MDLUL/glatten Punkt (1)",
+          "MDLUL/glatter Punkt (1)",
+          "MDLUL/monomiale Kurve",
+          "MDLUL/projektive Abschluss",
+          "MDLUL/projektiver Abschluss",
+          "MDLUL/teilerfremd (Z)",
+          "Projektive Gerade/Rationale Funktion/z nach 1/z/Beispiel",
+          "Projektive ebene Kurve/Parametrisierung/Textabschnitt",
+          "Projektiver Raum/Projektion weg von einem Punkt/Definition",
+          "Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt"
+        ]
+      },
+      {
+        "file": "lecture-29-transclusions-03.json",
+        "bytes": 62624,
+        "sha256": "b623ddb51c252d934c141502319faff0703c89931bcc1b1e7bb109755af759ab",
+        "requested_titles": [
+          "Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt/Beweis",
+          "Vorlage:=",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Anführung",
+          "Vorlage:Aufgabelink",
+          "Vorlage:Aufzählung4",
+          "Vorlage:Beweisstruktur",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionswort",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:Faktstruktur",
+          "Vorlage:Inputbeispiel",
+          "Vorlage:Inputdefinition",
+          "Vorlage:Inputfaktbeweis",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:Kommutatives Quadrat/ru",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:Math"
+        ]
+      },
+      {
+        "file": "lecture-29-transclusions-04.json",
+        "bytes": 34632,
+        "sha256": "30fde0fc78790ebb854b4dabd09f537f64203e111804def76332db06c8340508",
+        "requested_titles": [
+          "Vorlage:Math/display",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Beispiel",
+          "Vorlage:Mathematischer Text/Beweis",
+          "Vorlage:Mathematischer Text/Definition",
+          "Vorlage:Mathematischer Text/Fakt",
+          "Vorlage:Mathematischer Textabschnitt",
+          "Vorlage:Mathkon",
+          "Vorlage:Mathl",
+          "Vorlage:Mathlk",
+          "Vorlage:Minusdots",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Affine Ebene",
+          "Vorlage:Op:Affine Gerade",
+          "Vorlage:Op:Affiner Raum",
+          "Vorlage:Op:Homogenisierung",
+          "Vorlage:Op:KSpek",
+          "Vorlage:Op:Projektive Ebene",
+          "Vorlage:Op:Projektive Gerade",
+          "Vorlage:Op:Projektiver Raum",
+          "Vorlage:Op:Zeilenvektor",
+          "Vorlage:Qed",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display"
+        ]
+      },
+      {
+        "file": "lecture-29-transclusions-05.json",
+        "bytes": 5945,
+        "sha256": "4cf29190246ca33f538ce4c6ddf462c0fe5edb3b9991d8f2b22c18a23a9795ec",
+        "requested_titles": [
+          "Vorlage:Relationskette/k",
+          "Vorlage:Stichwort/-",
+          "Vorlage:Tupel01n",
+          "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Ebene projektive Kurve/Abbildung nach P^1 über Projektion von einem Punkt/Fakt",
+        "pageid": 21213,
+        "revid": 1044623,
+        "parentid": 972682,
+        "timestamp": "2025-08-12T22:38:40Z",
+        "mediawiki_sha1": "fe858b72222d239de174b216a53ca642c1ba7de2",
+        "wikitext_bytes": 991
+      },
+      {
+        "title": "Ebene projektive Kurve/Abbildung nach P^1 über Projektion von einem Punkt/Fakt/Beweis",
+        "pageid": 21214,
+        "revid": 1112944,
+        "parentid": 1101022,
+        "timestamp": "2026-08-22T09:41:52Z",
+        "mediawiki_sha1": "bdec7b7928f9e5a88830a795bc790377f6d253a8",
+        "wikitext_bytes": 2022
+      },
+      {
+        "title": "Ebene projektive Kurve/Graph einer rationalen Funktion in einer Variable/Singularität im Unendlichen/Fakt",
+        "pageid": 20642,
+        "revid": 1102047,
+        "parentid": 1087826,
+        "timestamp": "2026-06-17T18:10:48Z",
+        "mediawiki_sha1": "c432958fea9a600e0d88b39931b6a94be78f33be",
+        "wikitext_bytes": 1615
+      },
+      {
+        "title": "Ebene projektive Kurve/Graph einer rationalen Funktion in einer Variable/Singularität im Unendlichen/Fakt/Beweis",
+        "pageid": 21155,
+        "revid": 1044278,
+        "parentid": 955061,
+        "timestamp": "2025-08-12T21:41:04Z",
+        "mediawiki_sha1": "12360ec2f94737ab321978e23d091a3d5b1c5e38",
+        "wikitext_bytes": 808
+      },
+      {
+        "title": "Ebene projektive Kurve/Graph eines Polynoms in einer Variable/Singularität im Unendlichen/Fakt",
+        "pageid": 20634,
+        "revid": 1102049,
+        "parentid": 1044651,
+        "timestamp": "2026-06-17T18:10:58Z",
+        "mediawiki_sha1": "6deb8b073f15392d3c83d1656723c615a7e8df6e",
+        "wikitext_bytes": 1685
+      },
+      {
+        "title": "Ebene projektive Kurve/Graph eines Polynoms in einer Variable/Singularität im Unendlichen/Fakt/Beweis",
+        "pageid": 20637,
+        "revid": 1101028,
+        "parentid": 1086146,
+        "timestamp": "2026-06-17T13:48:57Z",
+        "mediawiki_sha1": "1d9322acaaa53a1a01b57782b63b2716d9e01f25",
+        "wikitext_bytes": 2026
+      },
+      {
+        "title": "Ebene projektive monomiale Kurve/Singularität/Gesamtmultiplizität/Fakt",
+        "pageid": 20613,
+        "revid": 1087827,
+        "parentid": 1044659,
+        "timestamp": "2026-05-30T15:45:33Z",
+        "mediawiki_sha1": "6a7ddd0f80d1cffc7cd9dd838e2437638f741b19",
+        "wikitext_bytes": 1316
+      },
+      {
+        "title": "Ebene projektive monomiale Kurve/Singularität/Gesamtmultiplizität/Fakt/Beweis",
+        "pageid": 21156,
+        "revid": 1112868,
+        "parentid": 1067374,
+        "timestamp": "2026-08-21T18:14:57Z",
+        "mediawiki_sha1": "e582b2903c6f65a810d42190c241ef43f36193da",
+        "wikitext_bytes": 1977
+      },
+      {
+        "title": "Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt",
+        "pageid": 21215,
+        "revid": 1045850,
+        "parentid": 1028334,
+        "timestamp": "2025-08-13T02:04:00Z",
+        "mediawiki_sha1": "e634bb3711663653b373015e956a527e2c3cbae4",
+        "wikitext_bytes": 1626
+      },
+      {
+        "title": "Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt/Beweis",
+        "pageid": 21216,
+        "revid": 1101221,
+        "parentid": 1086369,
+        "timestamp": "2026-06-17T14:17:37Z",
+        "mediawiki_sha1": "acb951369f0f65a4828dee84d0b58cceb1d4a300",
+        "wikitext_bytes": 3900
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt/Faktreferenznummer",
+        "pageid": 54379,
+        "revid": 322207,
+        "parentid": 0,
+        "timestamp": "2012-07-17T11:42:06Z",
+        "mediawiki_sha1": "3fe79faf29b4e1522451c25e4fbb2e5bf110b867",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt/Faktreferenznummer",
+        "pageid": 54383,
+        "revid": 538204,
+        "parentid": 322211,
+        "timestamp": "2018-01-20T09:00:18Z",
+        "mediawiki_sha1": "8015ee98186703d744be055d50bc827bc3fc5f7a",
+        "wikitext_bytes": 46
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene algebraische Kurve/Punkt/Glatt,diskreter Bewertungsring, Multiplizität/Fakt/Faktreferenznummer",
+        "pageid": 165592,
+        "revid": 1012414,
+        "parentid": 0,
+        "timestamp": "2025-08-04T10:23:10Z",
+        "mediawiki_sha1": "7f71a3828f07b53f07c9a88e4f9dd03fd26b2239",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Ebene projektive Kurve/Gleichung für projektiven Abschluss mit Homogenisierung/Fakt/Faktreferenznummer",
+        "pageid": 54381,
+        "revid": 1012427,
+        "parentid": 322209,
+        "timestamp": "2025-08-04T10:25:20Z",
+        "mediawiki_sha1": "36252fb66e2c428dc9e78d3f3fd17848eceea782",
+        "wikitext_bytes": 50
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt/Faktreferenznummer",
+        "pageid": 54378,
+        "revid": 322206,
+        "parentid": 0,
+        "timestamp": "2012-07-17T11:38:48Z",
+        "mediawiki_sha1": "f931a61beb0acdcec9b18eb9727fcbefef1f761c",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Monomiale Kurve/Hilbert-Samuel Multiplizität ist numerische Multiplizität/Fakt/Faktreferenznummer",
+        "pageid": 54384,
+        "revid": 322212,
+        "parentid": 0,
+        "timestamp": "2012-07-17T11:51:11Z",
+        "mediawiki_sha1": "93c83f876b9e8f6609f5fd8c4bf999f44ef593d9",
+        "wikitext_bytes": 49
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe/Aufgabereferenznummer",
+        "pageid": 54380,
+        "revid": 1012418,
+        "parentid": 322208,
+        "timestamp": "2025-08-04T10:23:50Z",
+        "mediawiki_sha1": "eae0e998568a1b846687b2a0d0057d8b6f8b4e35",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe/Aufgabereferenznummer",
+        "pageid": 54377,
+        "revid": 1012419,
+        "parentid": 322205,
+        "timestamp": "2025-08-04T10:24:00Z",
+        "mediawiki_sha1": "afed796b858a18a77ff8996582e96e135fbf0dcf",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt/Faktreferenznummer",
+        "pageid": 54382,
+        "revid": 322210,
+        "parentid": 0,
+        "timestamp": "2012-07-17T11:47:34Z",
+        "mediawiki_sha1": "7b5b17bbee079b40dd0b218baa357541c3684752",
+        "wikitext_bytes": 45
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung/Fuß",
+        "pageid": 50705,
+        "revid": 658302,
+        "parentid": 304598,
+        "timestamp": "2020-09-24T12:44:08Z",
+        "mediawiki_sha1": "d3461380c9a4793724f0e9ca2fa292c17c152f91",
+        "wikitext_bytes": 983
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesungsgestaltung",
+        "pageid": 50696,
+        "revid": 658321,
+        "parentid": 612457,
+        "timestamp": "2020-09-24T12:52:38Z",
+        "mediawiki_sha1": "4cf876a058f7b13c635fd92c6f88fce10fbdea10",
+        "wikitext_bytes": 407
+      },
+      {
+        "title": "MDLUL/Abbildung",
+        "pageid": 38404,
+        "revid": 233637,
+        "parentid": 233605,
+        "timestamp": "2010-08-12T14:46:47Z",
+        "mediawiki_sha1": "d8833cbfb57ae735a64c6d611424aac1d3644955",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/Ebene projektive Kurve",
+        "pageid": 58762,
+        "revid": 342467,
+        "parentid": 0,
+        "timestamp": "2012-12-05T13:49:27Z",
+        "mediawiki_sha1": "63621b2b611ff73657d504c49b151f7759f63d64",
+        "wikitext_bytes": 124
+      },
+      {
+        "title": "MDLUL/Fasern",
+        "pageid": 38369,
+        "revid": 233308,
+        "parentid": 0,
+        "timestamp": "2010-08-11T13:08:29Z",
+        "mediawiki_sha1": "c4099ce9d04b62a84952bf725aef779037ba1fdc",
+        "wikitext_bytes": 73
+      },
+      {
+        "title": "MDLUL/Graphen (abb)",
+        "pageid": 38371,
+        "revid": 233310,
+        "parentid": 0,
+        "timestamp": "2010-08-11T13:10:01Z",
+        "mediawiki_sha1": "52e8f86622b2316985980b2239ffcfbcf1b2bc9c",
+        "wikitext_bytes": 88
+      },
+      {
+        "title": "MDLUL/Homogenisierung (Polynom)",
+        "pageid": 96657,
+        "revid": 541716,
+        "parentid": 0,
+        "timestamp": "2018-02-01T12:09:36Z",
+        "mediawiki_sha1": "e60df75c48cda7f1f49d4d0f458156301de4a251",
+        "wikitext_bytes": 141
+      },
+      {
+        "title": "MDLUL/Homogenisierung (Polynomring)",
+        "pageid": 54663,
+        "revid": 324752,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:09:17Z",
+        "mediawiki_sha1": "6b74440b4b09b514fbe9c29241bc51ce7798af35",
+        "wikitext_bytes": 145
+      },
+      {
+        "title": "MDLUL/Homogenisierungen (Polynom)",
+        "pageid": 96733,
+        "revid": 541957,
+        "parentid": 0,
+        "timestamp": "2018-02-02T18:06:39Z",
+        "mediawiki_sha1": "b8bada5c5a44ad27150e329f65465a47511793d9",
+        "wikitext_bytes": 113
+      },
+      {
+        "title": "MDLUL/Homogenisierungen (Polynomring)",
+        "pageid": 55390,
+        "revid": 343546,
+        "parentid": 327794,
+        "timestamp": "2012-12-12T14:52:42Z",
+        "mediawiki_sha1": "e1bbd25201e36cd9a88de0d5ecc2a2f8aba6e44d",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "MDLUL/Körper",
+        "pageid": 45898,
+        "revid": 267506,
+        "parentid": 0,
+        "timestamp": "2011-06-07T13:51:29Z",
+        "mediawiki_sha1": "ce01f7f216f5f8bd6b1401f9f4ae5020af5040d1",
+        "wikitext_bytes": 108
+      },
+      {
+        "title": "MDLUL/Monomiale Kurve",
+        "pageid": 61910,
+        "revid": 373375,
+        "parentid": 0,
+        "timestamp": "2013-08-09T19:38:16Z",
+        "mediawiki_sha1": "a3409a52766e7ab3a0e76767e929fb39923f9c87",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "MDLUL/Morphismus",
+        "pageid": 95103,
+        "revid": 535719,
+        "parentid": 0,
+        "timestamp": "2018-01-01T17:20:57Z",
+        "mediawiki_sha1": "fffa26b1881e3a59222a1a8e261342529f839fd3",
+        "wikitext_bytes": 111
+      },
+      {
+        "title": "MDLUL/Multiplizität (1)",
+        "pageid": 96728,
+        "revid": 542448,
+        "parentid": 541940,
+        "timestamp": "2018-02-05T15:13:33Z",
+        "mediawiki_sha1": "8cecac5f81f38e54fb30c851e73ebf44dab77686",
+        "wikitext_bytes": 147
+      },
+      {
+        "title": "MDLUL/Polynom in einer Variablen",
+        "pageid": 96732,
+        "revid": 541956,
+        "parentid": 0,
+        "timestamp": "2018-02-02T18:06:23Z",
+        "mediawiki_sha1": "e9ad56939fe560286c3c1dbd83cb4488782425b3",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "MDLUL/Polynome in einer Variablen",
+        "pageid": 96731,
+        "revid": 541955,
+        "parentid": 0,
+        "timestamp": "2018-02-02T18:05:44Z",
+        "mediawiki_sha1": "64a011597e8b7642345e4545d6b640effa482ddb",
+        "wikitext_bytes": 114
+      },
+      {
+        "title": "MDLUL/algebraisch abgeschlossener Körper",
+        "pageid": 44831,
+        "revid": 262662,
+        "parentid": 0,
+        "timestamp": "2011-04-15T18:04:08Z",
+        "mediawiki_sha1": "6d3b7f289f35f30bbbe877ed47eb8ee04c6f88e6",
+        "wikitext_bytes": 146
+      },
+      {
+        "title": "MDLUL/diskreter Bewertungsring",
+        "pageid": 51036,
+        "revid": 299637,
+        "parentid": 0,
+        "timestamp": "2012-02-09T20:37:47Z",
+        "mediawiki_sha1": "810b03da7e35f79056c23a25acf73ac6aa77538e",
+        "wikitext_bytes": 133
+      },
+      {
+        "title": "MDLUL/ebene projektive Kurve",
+        "pageid": 58761,
+        "revid": 342466,
+        "parentid": 0,
+        "timestamp": "2012-12-05T13:49:07Z",
+        "mediawiki_sha1": "34d395c0842d6162c6d0d92aef0dd737ec79b53a",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/glatt (1)",
+        "pageid": 96605,
+        "revid": 707193,
+        "parentid": 702746,
+        "timestamp": "2021-10-06T20:21:24Z",
+        "mediawiki_sha1": "b885216430b48b428e6b2d2934169ba5078338ee",
+        "wikitext_bytes": 130
+      },
+      {
+        "title": "MDLUL/glatte (1)",
+        "pageid": 96604,
+        "revid": 541397,
+        "parentid": 0,
+        "timestamp": "2018-01-30T10:25:33Z",
+        "mediawiki_sha1": "f171a8e3d42a592895152c8791ab255534a51f85",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "MDLUL/glatten Punkt (1)",
+        "pageid": 96729,
+        "revid": 541941,
+        "parentid": 0,
+        "timestamp": "2018-02-02T17:53:52Z",
+        "mediawiki_sha1": "ca048e03deedc6e6e88a0dc4bbbfdd60da2efa2a",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/glatter Punkt (1)",
+        "pageid": 96730,
+        "revid": 702733,
+        "parentid": 541942,
+        "timestamp": "2021-08-12T12:31:28Z",
+        "mediawiki_sha1": "753efe03cf44785f8c9673ff741c893188b4fe75",
+        "wikitext_bytes": 142
+      },
+      {
+        "title": "MDLUL/monomiale Kurve",
+        "pageid": 95260,
+        "revid": 536376,
+        "parentid": 0,
+        "timestamp": "2018-01-06T11:48:27Z",
+        "mediawiki_sha1": "99bd2c5238539249818ce2b34c0c88c1ab92280a",
+        "wikitext_bytes": 91
+      },
+      {
+        "title": "MDLUL/projektive Abschluss",
+        "pageid": 55386,
+        "revid": 343547,
+        "parentid": 327788,
+        "timestamp": "2012-12-12T14:52:56Z",
+        "mediawiki_sha1": "fc6a28bd8da4f425b36d7a0f75fe5e17817dbe64",
+        "wikitext_bytes": 102
+      },
+      {
+        "title": "MDLUL/projektiver Abschluss",
+        "pageid": 55387,
+        "revid": 327790,
+        "parentid": 0,
+        "timestamp": "2012-09-06T07:47:26Z",
+        "mediawiki_sha1": "25d90627860eaa53be32677bbae11b4cd19c92da",
+        "wikitext_bytes": 120
+      },
+      {
+        "title": "MDLUL/teilerfremd (Z)",
+        "pageid": 46042,
+        "revid": 268335,
+        "parentid": 0,
+        "timestamp": "2011-06-12T14:53:14Z",
+        "mediawiki_sha1": "ca2bd6e1491f7e767e27e0bd0c1ccc2713f3135f",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "Projektive Gerade/Rationale Funktion/z nach 1/z/Beispiel",
+        "pageid": 21220,
+        "revid": 1037580,
+        "parentid": 984295,
+        "timestamp": "2025-08-12T02:51:48Z",
+        "mediawiki_sha1": "5c50d57308d3c58a17419a2c1c5ffdfb62aa6c0a",
+        "wikitext_bytes": 858
+      },
+      {
+        "title": "Projektive ebene Kurve/Parametrisierung/Textabschnitt",
+        "pageid": 50948,
+        "revid": 1103250,
+        "parentid": 1092456,
+        "timestamp": "2026-06-17T21:28:46Z",
+        "mediawiki_sha1": "0f46a8fb8d9802da33ee551834daa3c1d42746c3",
+        "wikitext_bytes": 1918
+      },
+      {
+        "title": "Projektiver Raum/Projektion weg von einem Punkt/Definition",
+        "pageid": 21342,
+        "revid": 1104713,
+        "parentid": 1039132,
+        "timestamp": "2026-06-18T12:14:37Z",
+        "mediawiki_sha1": "7b8ead0e35717294cfced9b0962643034efe00eb",
+        "wikitext_bytes": 645
+      },
+      {
+        "title": "Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt",
+        "pageid": 21345,
+        "revid": 1102429,
+        "parentid": 1088456,
+        "timestamp": "2026-06-17T19:13:48Z",
+        "mediawiki_sha1": "e082f310987e4ecdaea227df06d1cb75fe5bfd19",
+        "wikitext_bytes": 1819
+      },
+      {
+        "title": "Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt/Beweis",
+        "pageid": 21346,
+        "revid": 1086952,
+        "parentid": 1047823,
+        "timestamp": "2026-05-30T13:16:06Z",
+        "mediawiki_sha1": "b027d794331c15ffe5dbbc4d43403ae4287ef693",
+        "wikitext_bytes": 1761
+      },
+      {
+        "title": "Vorlage:=",
+        "pageid": 20300,
+        "revid": 136936,
+        "parentid": 136903,
+        "timestamp": "2008-12-21T21:01:15Z",
+        "mediawiki_sha1": "51ab5591f9cca571701287fefae23cb3273c59d7",
+        "wikitext_bytes": 235
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Anführung",
+        "pageid": 17115,
+        "revid": 967517,
+        "parentid": 794630,
+        "timestamp": "2024-12-13T15:22:13Z",
+        "mediawiki_sha1": "41b3a8ea109e30edfd9cc1e199b24c79fe738038",
+        "wikitext_bytes": 253
+      },
+      {
+        "title": "Vorlage:Aufgabelink",
+        "pageid": 30300,
+        "revid": 1070423,
+        "parentid": 1069816,
+        "timestamp": "2026-02-06T14:22:11Z",
+        "mediawiki_sha1": "6b0c4bbe7084da3f232f6649820be7b5f7bae36f",
+        "wikitext_bytes": 1864
+      },
+      {
+        "title": "Vorlage:Aufzählung4",
+        "pageid": 17089,
+        "revid": 1075094,
+        "parentid": 1061906,
+        "timestamp": "2026-03-08T09:24:05Z",
+        "mediawiki_sha1": "e0b1c5fc36dee8e4be52b6edb029ba70ce7103ad",
+        "wikitext_bytes": 355
+      },
+      {
+        "title": "Vorlage:Beweisstruktur",
+        "pageid": 24025,
+        "revid": 165764,
+        "parentid": 165744,
+        "timestamp": "2009-06-13T14:14:07Z",
+        "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionswort",
+        "pageid": 23952,
+        "revid": 1107662,
+        "parentid": 1061423,
+        "timestamp": "2026-07-17T08:06:31Z",
+        "mediawiki_sha1": "f1aff98d04a0bd4a7894808a36cedfb412c7d021",
+        "wikitext_bytes": 822
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Faktstruktur",
+        "pageid": 18814,
+        "revid": 1061914,
+        "parentid": 276624,
+        "timestamp": "2025-12-08T17:03:41Z",
+        "mediawiki_sha1": "627b618e705049f2b3fd2617c9568bed098096b9",
+        "wikitext_bytes": 1379
+      },
+      {
+        "title": "Vorlage:Inputbeispiel",
+        "pageid": 11588,
+        "revid": 1074988,
+        "parentid": 1061937,
+        "timestamp": "2026-03-07T16:01:24Z",
+        "mediawiki_sha1": "c3ede97421bca4f5a97a08dedaaa9b4ddd5e6590",
+        "wikitext_bytes": 4706
+      },
+      {
+        "title": "Vorlage:Inputdefinition",
+        "pageid": 11022,
+        "revid": 1106756,
+        "parentid": 1061928,
+        "timestamp": "2026-07-12T13:31:00Z",
+        "mediawiki_sha1": "855519104da8c6681b207bb5a475d262ae77f669",
+        "wikitext_bytes": 11717
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweis",
+        "pageid": 17490,
+        "revid": 1110004,
+        "parentid": 1110003,
+        "timestamp": "2026-08-04T10:35:43Z",
+        "mediawiki_sha1": "170d71d038f2328a676563b4b9ecbeeed82a35c9",
+        "wikitext_bytes": 16503
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Kommutatives Quadrat/ru",
+        "pageid": 20106,
+        "revid": 1060225,
+        "parentid": 834434,
+        "timestamp": "2025-11-29T13:03:42Z",
+        "mediawiki_sha1": "2acd80674721334d66beb37d6a35faab1855c76f",
+        "wikitext_bytes": 1226
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beispiel",
+        "pageid": 33519,
+        "revid": 864970,
+        "parentid": 864906,
+        "timestamp": "2022-10-19T16:21:27Z",
+        "mediawiki_sha1": "46aba056083d4e975d314608d3ffc651a584f5d8",
+        "wikitext_bytes": 1603
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beweis",
+        "pageid": 33517,
+        "revid": 861548,
+        "parentid": 748239,
+        "timestamp": "2022-10-05T08:00:16Z",
+        "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+        "wikitext_bytes": 2144
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Definition",
+        "pageid": 33515,
+        "revid": 763985,
+        "parentid": 762832,
+        "timestamp": "2022-08-15T04:47:42Z",
+        "mediawiki_sha1": "63e0d410c36911e0ac432f7074f4e6ba1f0baf56",
+        "wikitext_bytes": 1585
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Fakt",
+        "pageid": 33511,
+        "revid": 1063451,
+        "parentid": 1008461,
+        "timestamp": "2025-12-30T15:41:25Z",
+        "mediawiki_sha1": "a849aa72a036768f23044c44e16a302f42de8697",
+        "wikitext_bytes": 2588
+      },
+      {
+        "title": "Vorlage:Mathematischer Textabschnitt",
+        "pageid": 33589,
+        "revid": 865046,
+        "parentid": 864983,
+        "timestamp": "2022-10-19T18:54:33Z",
+        "mediawiki_sha1": "e988d41699849e3b0bee35d6ea687aac2d34b2aa",
+        "wikitext_bytes": 986
+      },
+      {
+        "title": "Vorlage:Mathkon",
+        "pageid": 20583,
+        "revid": 1106769,
+        "parentid": 1106768,
+        "timestamp": "2026-07-12T14:38:20Z",
+        "mediawiki_sha1": "5e69b54877490fb8d057a686302e5fd6f06cae5c",
+        "wikitext_bytes": 553
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:Mathlk",
+        "pageid": 34696,
+        "revid": 1106273,
+        "parentid": 999681,
+        "timestamp": "2026-07-09T16:14:17Z",
+        "mediawiki_sha1": "c0bd3c8d0cafe2da4e68f15cb895a02b2b304588",
+        "wikitext_bytes": 710
+      },
+      {
+        "title": "Vorlage:Minusdots",
+        "pageid": 20951,
+        "revid": 426639,
+        "parentid": 141527,
+        "timestamp": "2015-06-25T17:00:12Z",
+        "mediawiki_sha1": "a33241b1f094616fee794f801559322580640416",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Affine Ebene",
+        "pageid": 20238,
+        "revid": 312883,
+        "parentid": 235396,
+        "timestamp": "2012-05-01T12:04:39Z",
+        "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+        "wikitext_bytes": 231
+      },
+      {
+        "title": "Vorlage:Op:Affine Gerade",
+        "pageid": 20276,
+        "revid": 564066,
+        "parentid": 313324,
+        "timestamp": "2018-10-29T18:00:10Z",
+        "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+        "wikitext_bytes": 232
+      },
+      {
+        "title": "Vorlage:Op:Affiner Raum",
+        "pageid": 45165,
+        "revid": 594907,
+        "parentid": 332226,
+        "timestamp": "2019-07-21T15:59:27Z",
+        "mediawiki_sha1": "4686037d6435c99c266f178f71b76faf17ef7239",
+        "wikitext_bytes": 236
+      },
+      {
+        "title": "Vorlage:Op:Homogenisierung",
+        "pageid": 54671,
+        "revid": 324764,
+        "parentid": 0,
+        "timestamp": "2012-07-28T16:32:50Z",
+        "mediawiki_sha1": "e78f4afcd81d447edb412d85d27c28e906ee7373",
+        "wikitext_bytes": 214
+      },
+      {
+        "title": "Vorlage:Op:KSpek",
+        "pageid": 19910,
+        "revid": 333622,
+        "parentid": 333620,
+        "timestamp": "2012-10-20T09:22:31Z",
+        "mediawiki_sha1": "09e61c8d20a0368c806988b5cf75ffee3dee7221",
+        "wikitext_bytes": 291
+      },
+      {
+        "title": "Vorlage:Op:Projektive Ebene",
+        "pageid": 20270,
+        "revid": 325485,
+        "parentid": 155043,
+        "timestamp": "2012-08-08T15:56:19Z",
+        "mediawiki_sha1": "8e206176d2933451de376d03a8517a69bccf893c",
+        "wikitext_bytes": 249
+      },
+      {
+        "title": "Vorlage:Op:Projektive Gerade",
+        "pageid": 20641,
+        "revid": 330399,
+        "parentid": 155046,
+        "timestamp": "2012-10-02T07:56:52Z",
+        "mediawiki_sha1": "c10b472efd49b90a039ab9a61293d2ee5a757465",
+        "wikitext_bytes": 250
+      },
+      {
+        "title": "Vorlage:Op:Projektiver Raum",
+        "pageid": 20699,
+        "revid": 321134,
+        "parentid": 155048,
+        "timestamp": "2012-07-09T19:25:28Z",
+        "mediawiki_sha1": "f557fc7da828168fa2cf4a0d1ec6019433f19569",
+        "wikitext_bytes": 260
+      },
+      {
+        "title": "Vorlage:Op:Zeilenvektor",
+        "pageid": 29723,
+        "revid": 1010936,
+        "parentid": 551775,
+        "timestamp": "2025-07-24T16:56:47Z",
+        "mediawiki_sha1": "ee73e1644fcd92d55dc3b1b4fd44c4a12b2606d4",
+        "wikitext_bytes": 536
+      },
+      {
+        "title": "Vorlage:Qed",
+        "pageid": 11116,
+        "revid": 92011,
+        "parentid": 92010,
+        "timestamp": "2008-04-20T08:14:57Z",
+        "mediawiki_sha1": "7cacc755daead99c6816a2540e477c0fe5def465",
+        "wikitext_bytes": 1564
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Relationskette/k",
+        "pageid": 85381,
+        "revid": 1106120,
+        "parentid": 972253,
+        "timestamp": "2026-07-07T08:54:28Z",
+        "mediawiki_sha1": "59744cdfaafba2bc8bce851e220c82b5c7feb58b",
+        "wikitext_bytes": 1948
+      },
+      {
+        "title": "Vorlage:Stichwort/-",
+        "pageid": 130587,
+        "revid": 794392,
+        "parentid": 794059,
+        "timestamp": "2022-08-25T11:51:53Z",
+        "mediawiki_sha1": "be66e00932c639d703256ef747f210c203d1495f",
+        "wikitext_bytes": 597
+      },
+      {
+        "title": "Vorlage:Tupel01n",
+        "pageid": 21343,
+        "revid": 541977,
+        "parentid": 200200,
+        "timestamp": "2018-02-02T20:19:49Z",
+        "mediawiki_sha1": "083c2a9deeb966dd1d0f5632215ba61187151870",
+        "wikitext_bytes": 266
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+        "pageid": 24050,
+        "revid": 790374,
+        "parentid": 790369,
+        "timestamp": "2022-08-23T11:13:50Z",
+        "mediawiki_sha1": "5dd904e06ce5855ebdf98901569dd4673f98cb29",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      }
+    ]
+  },
+  "worksheet_transclusion_closure": {
+    "source": "action=parse template list after recursive parser expansion",
+    "requested_template_count": 61,
+    "captured_page_count": 61,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "worksheet-29-transclusions-01.json",
+        "bytes": 18584,
+        "sha256": "43702d81481082cf2c80ad155068597dd78a4e114a820240eafdf3e67b9e3197",
+        "requested_titles": [
+          "Algebraische Kurve/ZX^2 ist Y^3/Charakteristik null/Singuläre Punkte und Parametrisierung/Aufgabe",
+          "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe",
+          "Kartesisches Blatt/Projektive Punkte/Aufgabe",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt/Fuß",
+          "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblattgestaltung",
+          "Lemniskate von Bernoulli/Projektiv/Abbildung auf Quadrik/Aufgabe",
+          "Lemniskate/Projektive Punkte/Aufgabe",
+          "MDLUL/Charakteristik",
+          "MDLUL/Ebene projektive Kurve",
+          "MDLUL/algebraisch abgeschlossener Körper",
+          "MDLUL/ebene projektive Kurve",
+          "MDLUL/homogene Polynome",
+          "MDLUL/homogenes Polynom",
+          "MDLUL/offene Menge",
+          "MDLUL/projektive Abschluss",
+          "MDLUL/projektiven Raum",
+          "MDLUL/projektiver Abschluss",
+          "MDLUL/projektiver Raum",
+          "Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe",
+          "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe",
+          "Projektive ebene Kurve/Schnitt mit projektiver Geraden/Algebraisch abgeschlossen/Nicht leer/Aufgabe",
+          "Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe",
+          "Tschirnhausen Kubik/Projektive Punkte/Aufgabe",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display"
+        ]
+      },
+      {
+        "file": "worksheet-29-transclusions-02.json",
+        "bytes": 49442,
+        "sha256": "2e03e9075cfafaee99689649dc8bd8765eefa77bcf72660b0abb2d124a96f37a",
+        "requested_titles": [
+          "Vorlage:Arbeitsblatt",
+          "Vorlage:Aufzählung4/a",
+          "Vorlage:CC",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionswort/enp",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:ImageNoteControl",
+          "Vorlage:Inputaufgabe",
+          "Vorlage:Inputbild",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommadots",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Makl",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Aufgabe",
+          "Vorlage:Mathl",
+          "Vorlage:N Sie",
+          "Vorlage:Op:Matrix55",
+          "Vorlage:Op:Projektive Ebene",
+          "Vorlage:Op:Projektive Gerade"
+        ]
+      },
+      {
+        "file": "worksheet-29-transclusions-03.json",
+        "bytes": 11576,
+        "sha256": "74aaae5f51f385adb8945652ebf43153f2103bbccb39622818e2d2813e057ab9",
+        "requested_titles": [
+          "Vorlage:Op:Projektiver Raum",
+          "Vorlage:Op:Spaltenvektor",
+          "Vorlage:Op:Zeilenvektor",
+          "Vorlage:Op:Zmod",
+          "Vorlage:Projektionsmatrixwegvon0n",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Tupel0n",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Verschlagworte:Definitionswort/enp",
+          "Vorlage:Zwischenüberschrift"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Algebraische Kurve/ZX^2 ist Y^3/Charakteristik null/Singuläre Punkte und Parametrisierung/Aufgabe",
+        "pageid": 16956,
+        "revid": 1043872,
+        "parentid": 1022886,
+        "timestamp": "2025-08-12T20:33:28Z",
+        "mediawiki_sha1": "c6fc454f13201cf6105865fd19ba7c5dfa16f691",
+        "wikitext_bytes": 1166
+      },
+      {
+        "title": "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe",
+        "pageid": 21302,
+        "revid": 1072843,
+        "parentid": 1041212,
+        "timestamp": "2026-02-21T09:35:16Z",
+        "mediawiki_sha1": "a2878affd52e5e91234fe225d14e384d74e5d85c",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Kartesisches Blatt/Projektive Punkte/Aufgabe",
+        "pageid": 21166,
+        "revid": 1042321,
+        "parentid": 858058,
+        "timestamp": "2025-08-12T16:21:05Z",
+        "mediawiki_sha1": "4d38e5aa034cb507a72e9c5ed210448dd6d205bf",
+        "wikitext_bytes": 636
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt/Fuß",
+        "pageid": 50735,
+        "revid": 658297,
+        "parentid": 655290,
+        "timestamp": "2020-09-24T12:43:53Z",
+        "mediawiki_sha1": "ff0e30fc3da1347da305494878a586ec399bfd51",
+        "wikitext_bytes": 978
+      },
+      {
+        "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblattgestaltung",
+        "pageid": 50697,
+        "revid": 658298,
+        "parentid": 297928,
+        "timestamp": "2020-09-24T12:43:56Z",
+        "mediawiki_sha1": "df1efbf8673fb5c85dca3fb74a687e4002ff7613",
+        "wikitext_bytes": 253
+      },
+      {
+        "title": "Lemniskate von Bernoulli/Projektiv/Abbildung auf Quadrik/Aufgabe",
+        "pageid": 21170,
+        "revid": 1043128,
+        "parentid": 985607,
+        "timestamp": "2025-08-12T18:29:36Z",
+        "mediawiki_sha1": "ea825e7dfce478fe6a6c17380060ee7a0bca3771",
+        "wikitext_bytes": 598
+      },
+      {
+        "title": "Lemniskate/Projektive Punkte/Aufgabe",
+        "pageid": 21168,
+        "revid": 1083303,
+        "parentid": 1043132,
+        "timestamp": "2026-05-29T20:45:53Z",
+        "mediawiki_sha1": "2df5915eb9529a40d7a8aa6716ecdb1bb1122124",
+        "wikitext_bytes": 571
+      },
+      {
+        "title": "MDLUL/Charakteristik",
+        "pageid": 45650,
+        "revid": 266316,
+        "parentid": 0,
+        "timestamp": "2011-05-27T16:18:14Z",
+        "mediawiki_sha1": "bfcbdf0ec1b5e836f6e957b6d3f6a221d8b6ca17",
+        "wikitext_bytes": 116
+      },
+      {
+        "title": "MDLUL/Ebene projektive Kurve",
+        "pageid": 58762,
+        "revid": 342467,
+        "parentid": 0,
+        "timestamp": "2012-12-05T13:49:27Z",
+        "mediawiki_sha1": "63621b2b611ff73657d504c49b151f7759f63d64",
+        "wikitext_bytes": 124
+      },
+      {
+        "title": "MDLUL/algebraisch abgeschlossener Körper",
+        "pageid": 44831,
+        "revid": 262662,
+        "parentid": 0,
+        "timestamp": "2011-04-15T18:04:08Z",
+        "mediawiki_sha1": "6d3b7f289f35f30bbbe877ed47eb8ee04c6f88e6",
+        "wikitext_bytes": 146
+      },
+      {
+        "title": "MDLUL/ebene projektive Kurve",
+        "pageid": 58761,
+        "revid": 342466,
+        "parentid": 0,
+        "timestamp": "2012-12-05T13:49:07Z",
+        "mediawiki_sha1": "34d395c0842d6162c6d0d92aef0dd737ec79b53a",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/homogene Polynome",
+        "pageid": 94520,
+        "revid": 532037,
+        "parentid": 0,
+        "timestamp": "2017-12-01T19:34:28Z",
+        "mediawiki_sha1": "c7ba7d378f556dc131a5b026852d510d845ba404",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/homogenes Polynom",
+        "pageid": 45638,
+        "revid": 266300,
+        "parentid": 0,
+        "timestamp": "2011-05-27T16:01:09Z",
+        "mediawiki_sha1": "a0172ad7848358bf6490ee8cb8847432399541b2",
+        "wikitext_bytes": 128
+      },
+      {
+        "title": "MDLUL/offene Menge",
+        "pageid": 39063,
+        "revid": 531413,
+        "parentid": 235749,
+        "timestamp": "2017-11-30T11:33:20Z",
+        "mediawiki_sha1": "462d94d9e6716d6aa0c9e1bda57b6f9848cc3d01",
+        "wikitext_bytes": 92
+      },
+      {
+        "title": "MDLUL/projektive Abschluss",
+        "pageid": 55386,
+        "revid": 343547,
+        "parentid": 327788,
+        "timestamp": "2012-12-12T14:52:56Z",
+        "mediawiki_sha1": "fc6a28bd8da4f425b36d7a0f75fe5e17817dbe64",
+        "wikitext_bytes": 102
+      },
+      {
+        "title": "MDLUL/projektiven Raum",
+        "pageid": 62249,
+        "revid": 373920,
+        "parentid": 0,
+        "timestamp": "2013-08-14T19:02:54Z",
+        "mediawiki_sha1": "0294d18b1942b975a7b77ebf3f7b88c86e7fa507",
+        "wikitext_bytes": 93
+      },
+      {
+        "title": "MDLUL/projektiver Abschluss",
+        "pageid": 55387,
+        "revid": 327790,
+        "parentid": 0,
+        "timestamp": "2012-09-06T07:47:26Z",
+        "mediawiki_sha1": "25d90627860eaa53be32677bbae11b4cd19c92da",
+        "wikitext_bytes": 120
+      },
+      {
+        "title": "MDLUL/projektiver Raum",
+        "pageid": 62156,
+        "revid": 443228,
+        "parentid": 373765,
+        "timestamp": "2015-12-29T14:12:28Z",
+        "mediawiki_sha1": "ed21ed8bd87a2d9336146639337a3b88586e9e59",
+        "wikitext_bytes": 149
+      },
+      {
+        "title": "Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe",
+        "pageid": 21333,
+        "revid": 1098945,
+        "parentid": 1083901,
+        "timestamp": "2026-06-15T17:15:54Z",
+        "mediawiki_sha1": "82739289f53a2c98c6b0319410e4ebeb0a290857",
+        "wikitext_bytes": 858
+      },
+      {
+        "title": "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe",
+        "pageid": 21572,
+        "revid": 1083904,
+        "parentid": 1047305,
+        "timestamp": "2026-05-29T22:23:43Z",
+        "mediawiki_sha1": "a313e73f4e0c6bcfdfbfb354200ed967160a5c53",
+        "wikitext_bytes": 480
+      },
+      {
+        "title": "Projektive ebene Kurve/Schnitt mit projektiver Geraden/Algebraisch abgeschlossen/Nicht leer/Aufgabe",
+        "pageid": 21282,
+        "revid": 847242,
+        "parentid": 785422,
+        "timestamp": "2022-09-25T21:02:14Z",
+        "mediawiki_sha1": "af4eee45b9d06c71f8780f99e66cf7c9a806030b",
+        "wikitext_bytes": 510
+      },
+      {
+        "title": "Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe",
+        "pageid": 21223,
+        "revid": 1098952,
+        "parentid": 1083918,
+        "timestamp": "2026-06-15T17:17:04Z",
+        "mediawiki_sha1": "c5f5ce2e9115bc6919c8370da4f87b5dc7da7c74",
+        "wikitext_bytes": 871
+      },
+      {
+        "title": "Tschirnhausen Kubik/Projektive Punkte/Aufgabe",
+        "pageid": 21164,
+        "revid": 787111,
+        "parentid": 541421,
+        "timestamp": "2022-08-22T13:17:34Z",
+        "mediawiki_sha1": "853a82feb307c59ab807f3d94996a00263c6ca62",
+        "wikitext_bytes": 542
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Arbeitsblatt",
+        "pageid": 28743,
+        "revid": 938901,
+        "parentid": 938893,
+        "timestamp": "2024-07-23T16:20:47Z",
+        "mediawiki_sha1": "cdd0ba6a7f93d6d5df80b0e93030ff714636e5b9",
+        "wikitext_bytes": 248
+      },
+      {
+        "title": "Vorlage:Aufzählung4/a",
+        "pageid": 53344,
+        "revid": 1007144,
+        "parentid": 428438,
+        "timestamp": "2025-07-04T10:10:22Z",
+        "mediawiki_sha1": "37e5ff2702a1bb3d15cefb68efe190e5caf006fc",
+        "wikitext_bytes": 277
+      },
+      {
+        "title": "Vorlage:CC",
+        "pageid": 103892,
+        "revid": 709639,
+        "parentid": 578068,
+        "timestamp": "2021-11-08T15:00:46Z",
+        "mediawiki_sha1": "0eceb25a2d3d11b5db027c02c8c2f33347cbac74",
+        "wikitext_bytes": 193
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionswort/enp",
+        "pageid": 23943,
+        "revid": 1067876,
+        "parentid": 794599,
+        "timestamp": "2026-01-30T10:50:53Z",
+        "mediawiki_sha1": "f7e360ecd352a56effc8af5759d9bbf376d95513",
+        "wikitext_bytes": 371
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:ImageNoteControl",
+        "pageid": 31352,
+        "revid": 200442,
+        "parentid": 200441,
+        "timestamp": "2009-12-20T10:26:01Z",
+        "mediawiki_sha1": "18862d5c418a35f12237fcf8a6ad5f33b9e4e5bb",
+        "wikitext_bytes": 421
+      },
+      {
+        "title": "Vorlage:Inputaufgabe",
+        "pageid": 18012,
+        "revid": 1074928,
+        "parentid": 1074886,
+        "timestamp": "2026-03-07T15:07:51Z",
+        "mediawiki_sha1": "7d986984e8f142ccf7bcab8075ecfc2406ab4883",
+        "wikitext_bytes": 15973
+      },
+      {
+        "title": "Vorlage:Inputbild",
+        "pageid": 17287,
+        "revid": 1074342,
+        "parentid": 1074341,
+        "timestamp": "2026-03-07T09:46:59Z",
+        "mediawiki_sha1": "7574f2aef8023c692b7abc57f24c52900da83526",
+        "wikitext_bytes": 1976
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommadots",
+        "pageid": 20923,
+        "revid": 162148,
+        "parentid": 141431,
+        "timestamp": "2009-05-30T11:19:39Z",
+        "mediawiki_sha1": "43867200f68bf96c2f4e430fd4195dfe903fbdd7",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Aufgabe",
+        "pageid": 33520,
+        "revid": 945699,
+        "parentid": 945698,
+        "timestamp": "2024-10-06T15:36:10Z",
+        "mediawiki_sha1": "e66acdf4e9f704b519f910a3ac8b123ac3aab145",
+        "wikitext_bytes": 7332
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:N Sie",
+        "pageid": 22975,
+        "revid": 1106829,
+        "parentid": 1106828,
+        "timestamp": "2026-07-13T16:36:50Z",
+        "mediawiki_sha1": "1e1bbe37a637c31bb179415b8336da2c795bc96e",
+        "wikitext_bytes": 173
+      },
+      {
+        "title": "Vorlage:Op:Matrix55",
+        "pageid": 29684,
+        "revid": 1010927,
+        "parentid": 892484,
+        "timestamp": "2025-07-24T16:23:36Z",
+        "mediawiki_sha1": "ea53962ce188549e7db1981707d626745333ea43",
+        "wikitext_bytes": 530
+      },
+      {
+        "title": "Vorlage:Op:Projektive Ebene",
+        "pageid": 20270,
+        "revid": 325485,
+        "parentid": 155043,
+        "timestamp": "2012-08-08T15:56:19Z",
+        "mediawiki_sha1": "8e206176d2933451de376d03a8517a69bccf893c",
+        "wikitext_bytes": 249
+      },
+      {
+        "title": "Vorlage:Op:Projektive Gerade",
+        "pageid": 20641,
+        "revid": 330399,
+        "parentid": 155046,
+        "timestamp": "2012-10-02T07:56:52Z",
+        "mediawiki_sha1": "c10b472efd49b90a039ab9a61293d2ee5a757465",
+        "wikitext_bytes": 250
+      },
+      {
+        "title": "Vorlage:Op:Projektiver Raum",
+        "pageid": 20699,
+        "revid": 321134,
+        "parentid": 155048,
+        "timestamp": "2012-07-09T19:25:28Z",
+        "mediawiki_sha1": "f557fc7da828168fa2cf4a0d1ec6019433f19569",
+        "wikitext_bytes": 260
+      },
+      {
+        "title": "Vorlage:Op:Spaltenvektor",
+        "pageid": 21062,
+        "revid": 1074290,
+        "parentid": 1010894,
+        "timestamp": "2026-03-06T16:46:10Z",
+        "mediawiki_sha1": "09b7c7e3823a2aee2ec1628241bf8883fed72e60",
+        "wikitext_bytes": 781
+      },
+      {
+        "title": "Vorlage:Op:Zeilenvektor",
+        "pageid": 29723,
+        "revid": 1010936,
+        "parentid": 551775,
+        "timestamp": "2025-07-24T16:56:47Z",
+        "mediawiki_sha1": "ee73e1644fcd92d55dc3b1b4fd44c4a12b2606d4",
+        "wikitext_bytes": 536
+      },
+      {
+        "title": "Vorlage:Op:Zmod",
+        "pageid": 24011,
+        "revid": 255414,
+        "parentid": 161634,
+        "timestamp": "2011-02-12T08:37:03Z",
+        "mediawiki_sha1": "9ba9be51eb87aaac340c279a46ec2bf30b5f780d",
+        "wikitext_bytes": 211
+      },
+      {
+        "title": "Vorlage:Projektionsmatrixwegvon0n",
+        "pageid": 21222,
+        "revid": 1010886,
+        "parentid": 542614,
+        "timestamp": "2025-07-24T15:42:36Z",
+        "mediawiki_sha1": "096a03d7c7ac917f5ecef617a5fc8bd9ce929d75",
+        "wikitext_bytes": 393
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Tupel0n",
+        "pageid": 21176,
+        "revid": 200198,
+        "parentid": 155039,
+        "timestamp": "2009-12-19T10:44:16Z",
+        "mediawiki_sha1": "03815ecc3d99f8888783769fec76bf2d83c7b8e9",
+        "wikitext_bytes": 252
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort/enp",
+        "pageid": 23944,
+        "revid": 1067877,
+        "parentid": 791521,
+        "timestamp": "2026-01-30T10:51:23Z",
+        "mediawiki_sha1": "deda25058c43babe54fe26dd9a32491ae8ad4862",
+        "wikitext_bytes": 593
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      }
+    ]
+  },
+  "transclusion_topology": {
+    "lecture": {
+      "parser_template_occurrences": 106,
+      "unique_exact_titles": 106,
+      "duplicate_exact_titles": [],
+      "dependencies": 106,
+      "with_root": 107,
+      "canonical_identity_rows_sha256": "87f4ba1e8fb06c51346d5d8fbb105bf2c48e7242a9de2e387906f9608380308b",
+      "canonical_identity_hash_algorithm": "SHA-256 of UTF-8 JSON rows reduced to title,pageid,revid,parentid,timestamp,mediawiki_sha1,wikitext_bytes; rows sorted by (title,pageid); ensure_ascii=false; sort_keys=true; separators=(',',':')"
+    },
+    "worksheet": {
+      "parser_template_occurrences": 61,
+      "unique_exact_titles": 61,
+      "duplicate_exact_titles": [],
+      "dependencies": 61,
+      "with_root": 62,
+      "canonical_identity_rows_sha256": "4b6d796d4888b94cfaa1c29811b60ea012118af4af993efd3fd4f23bc5f1229a",
+      "canonical_identity_hash_algorithm": "SHA-256 of UTF-8 JSON rows reduced to title,pageid,revid,parentid,timestamp,mediawiki_sha1,wikitext_bytes; rows sorted by (title,pageid); ensure_ascii=false; sort_keys=true; separators=(',',':')"
+    }
+  },
+  "solutions": {
+    "schema": "brenner-worksheet-solution-map-v2",
+    "unit": 29,
+    "worksheet": {
+      "title": "Kurs:Algebraische Kurven (Osnabrück 2012)/Arbeitsblatt 29",
+      "pageid": 50924,
+      "revid": 1052757,
+      "parentid": 793498,
+      "timestamp": "2025-08-27T18:11:31Z",
+      "mediawiki_sha1": "0e8dd5d1e5b9bf9552bdbd8f8c61c47ee2a0b726",
+      "wikitext_bytes": 1692,
+      "api_file": "worksheet-29-api.json",
+      "api_bytes": 2150,
+      "api_sha256": "c3afc41c7bfe3290bee97937d2bc66147c5edab3c37226188a7cb005817cdda5",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1052757",
+      "xml_file": "worksheet-29.xml",
+      "xml_bytes": 4871,
+      "xml_sha256": "d82d020fef6e0d4f604bda9807f1befa2b8e1392afd9fb9459dbe17461d34574",
+      "html_file": "worksheet-29.html",
+      "html_bytes": 42710,
+      "html_sha256": "9d864dbf3d96601609dfb9ee8a49e9e6ed7a5464c8f3b6335d75879404f42773",
+      "html_source": "immutable Parsoid revision endpoint",
+      "parse_api_file": "worksheet-29-parse-api.json",
+      "parse_api_bytes": 7543,
+      "parse_api_sha256": "7edeadefa0f4def8a8b54e022d7ec344bfa2e2eaf5cb5dc9782fe286defe8e72",
+      "template_count": 61,
+      "image_count": 4,
+      "link_count": 22,
+      "external_link_count": 0
+    },
+    "exercise_count": 10,
+    "solution_count": 2,
+    "candidate_api_file": "worksheet-solution-candidates-api.json",
+    "candidate_api_bytes": 4913,
+    "candidate_api_sha256": "ef235aae245054e368138eae92f2eb8089145c227c6cd20acf5c6c297432ec58",
+    "entries": [
+      {
+        "exercise_number": 1,
+        "exercise_title": "Projektive ebene Kurve/Schnitt mit projektiver Geraden/Algebraisch abgeschlossen/Nicht leer/Aufgabe",
+        "solution_title": "Projektive ebene Kurve/Schnitt mit projektiver Geraden/Algebraisch abgeschlossen/Nicht leer/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "warm-up",
+        "authored_points": 2,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21282,
+        "exercise_revid": 847242,
+        "exercise_parentid": 785422,
+        "exercise_timestamp": "2022-09-25T21:02:14Z",
+        "exercise_mediawiki_sha1": "af4eee45b9d06c71f8780f99e66cf7c9a806030b",
+        "exercise_wikitext_bytes": 510
+      },
+      {
+        "exercise_number": 2,
+        "exercise_title": "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe",
+        "solution_title": "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe/Lösung",
+        "pageid": 21303,
+        "revid": 1094621,
+        "parentid": 1089317,
+        "timestamp": "2026-06-14T16:25:59Z",
+        "mediawiki_sha1": "859801fc5d0e4bb16dd1ec72b7af1873ab2f2a4a",
+        "wikitext_bytes": 2307,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1094621",
+        "xml_file": "solution-ex02.xml",
+        "xml_bytes": 5545,
+        "xml_sha256": "2b468a1f7d9bebff884c001c3a475a212601b022896953c97e6a55026cf38f66",
+        "html_file": "solution-ex02.html",
+        "html_bytes": 18700,
+        "html_sha256": "c26d35d989ef60f0c5a6572a45d84e6628298de25d8020f01e6b5622dd873210",
+        "html_source": "immutable Parsoid revision endpoint",
+        "role": "warm-up",
+        "authored_points": 4,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": true,
+        "exercise_pageid": 21302,
+        "exercise_revid": 1072843,
+        "exercise_parentid": 1041212,
+        "exercise_timestamp": "2026-02-21T09:35:16Z",
+        "exercise_mediawiki_sha1": "a2878affd52e5e91234fe225d14e384d74e5d85c",
+        "exercise_wikitext_bytes": 1072
+      },
+      {
+        "exercise_number": 3,
+        "exercise_title": "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe",
+        "solution_title": "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe/Lösung",
+        "has_public_solution": true,
+        "resolved_title": "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe/Lösung",
+        "pageid": 21573,
+        "revid": 1090273,
+        "parentid": 959539,
+        "timestamp": "2026-05-31T12:45:13Z",
+        "mediawiki_sha1": "f0359ee4a15f70916cf5443ab14890f3ac8207dc",
+        "wikitext_bytes": 812,
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1090273",
+        "xml_file": "solution-ex03.xml",
+        "xml_bytes": 3994,
+        "xml_sha256": "50771bcf86505ee8429426f3488ef46af450a258629d4403a2bc16aa74abcaff",
+        "html_file": "solution-ex03.html",
+        "html_bytes": 5996,
+        "html_sha256": "eb46293e823eabc6cf32481cbf22c87959e852a8c39e9d5eb6cc7d056bbbe7b2",
+        "html_source": "immutable Parsoid revision endpoint",
+        "role": "warm-up",
+        "authored_points": 3,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": true,
+        "exercise_pageid": 21572,
+        "exercise_revid": 1083904,
+        "exercise_parentid": 1047305,
+        "exercise_timestamp": "2026-05-29T22:23:43Z",
+        "exercise_mediawiki_sha1": "a313e73f4e0c6bcfdfbfb354200ed967160a5c53",
+        "exercise_wikitext_bytes": 480
+      },
+      {
+        "exercise_number": 4,
+        "exercise_title": "Lemniskate/Projektive Punkte/Aufgabe",
+        "solution_title": "Lemniskate/Projektive Punkte/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "warm-up",
+        "authored_points": 3,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21168,
+        "exercise_revid": 1083303,
+        "exercise_parentid": 1043132,
+        "exercise_timestamp": "2026-05-29T20:45:53Z",
+        "exercise_mediawiki_sha1": "2df5915eb9529a40d7a8aa6716ecdb1bb1122124",
+        "exercise_wikitext_bytes": 571
+      },
+      {
+        "exercise_number": 5,
+        "exercise_title": "Algebraische Kurve/ZX^2 ist Y^3/Charakteristik null/Singuläre Punkte und Parametrisierung/Aufgabe",
+        "solution_title": "Algebraische Kurve/ZX^2 ist Y^3/Charakteristik null/Singuläre Punkte und Parametrisierung/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "warm-up",
+        "authored_points": 4,
+        "displayed_points": null,
+        "points_displayed_in_worksheet": false,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 16956,
+        "exercise_revid": 1043872,
+        "exercise_parentid": 1022886,
+        "exercise_timestamp": "2025-08-12T20:33:28Z",
+        "exercise_mediawiki_sha1": "c6fc454f13201cf6105865fd19ba7c5dfa16f691",
+        "exercise_wikitext_bytes": 1166
+      },
+      {
+        "exercise_number": 6,
+        "exercise_title": "Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe",
+        "solution_title": "Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 3,
+        "displayed_points": 3,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21333,
+        "exercise_revid": 1098945,
+        "exercise_parentid": 1083901,
+        "exercise_timestamp": "2026-06-15T17:15:54Z",
+        "exercise_mediawiki_sha1": "82739289f53a2c98c6b0319410e4ebeb0a290857",
+        "exercise_wikitext_bytes": 858
+      },
+      {
+        "exercise_number": 7,
+        "exercise_title": "Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe",
+        "solution_title": "Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 3,
+        "displayed_points": 3,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21223,
+        "exercise_revid": 1098952,
+        "exercise_parentid": 1083918,
+        "exercise_timestamp": "2026-06-15T17:17:04Z",
+        "exercise_mediawiki_sha1": "c5f5ce2e9115bc6919c8370da4f87b5dc7da7c74",
+        "exercise_wikitext_bytes": 871
+      },
+      {
+        "exercise_number": 8,
+        "exercise_title": "Tschirnhausen Kubik/Projektive Punkte/Aufgabe",
+        "solution_title": "Tschirnhausen Kubik/Projektive Punkte/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 3,
+        "displayed_points": 3,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21164,
+        "exercise_revid": 787111,
+        "exercise_parentid": 541421,
+        "exercise_timestamp": "2022-08-22T13:17:34Z",
+        "exercise_mediawiki_sha1": "853a82feb307c59ab807f3d94996a00263c6ca62",
+        "exercise_wikitext_bytes": 542
+      },
+      {
+        "exercise_number": 9,
+        "exercise_title": "Kartesisches Blatt/Projektive Punkte/Aufgabe",
+        "solution_title": "Kartesisches Blatt/Projektive Punkte/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 3,
+        "displayed_points": 3,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21166,
+        "exercise_revid": 1042321,
+        "exercise_parentid": 858058,
+        "exercise_timestamp": "2025-08-12T16:21:05Z",
+        "exercise_mediawiki_sha1": "4d38e5aa034cb507a72e9c5ed210448dd6d205bf",
+        "exercise_wikitext_bytes": 636
+      },
+      {
+        "exercise_number": 10,
+        "exercise_title": "Lemniskate von Bernoulli/Projektiv/Abbildung auf Quadrik/Aufgabe",
+        "solution_title": "Lemniskate von Bernoulli/Projektiv/Abbildung auf Quadrik/Aufgabe/Lösung",
+        "has_public_solution": false,
+        "role": "submitted",
+        "authored_points": 5,
+        "displayed_points": 5,
+        "points_displayed_in_worksheet": true,
+        "starred_in_worksheet": false,
+        "exercise_pageid": 21170,
+        "exercise_revid": 1043128,
+        "exercise_parentid": 985607,
+        "exercise_timestamp": "2025-08-12T18:29:36Z",
+        "exercise_mediawiki_sha1": "ea825e7dfce478fe6a6c17380060ee7a0bca3771",
+        "exercise_wikitext_bytes": 598
+      }
+    ],
+    "ordered_role_point_and_star_topology": {
+      "warm_up_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "submitted_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "upload_numbers": [],
+      "authored_points": {
+        "1": 2,
+        "2": 4,
+        "3": 3,
+        "4": 3,
+        "5": 4,
+        "6": 3,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 5
+      },
+      "displayed_points": {
+        "6": 3,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 5
+      },
+      "submitted_displayed_point_total": 17,
+      "starred_numbers": [
+        2,
+        3
+      ],
+      "source_api_file": "ordered-exercise-source-api.json",
+      "source_api_bytes": 10994,
+      "source_api_sha256": "a1fb321ad577c681b3df12439bc3831bc2d4b9914a2efbef9e4fd3815fe65181"
+    },
+    "negative_public_solution_evidence": {
+      "candidate_query_file": "worksheet-solution-candidates-api.json",
+      "candidate_query_bytes": 4913,
+      "candidate_query_sha256": "ef235aae245054e368138eae92f2eb8089145c227c6cd20acf5c6c297432ec58",
+      "exact_candidate_title_count": 10,
+      "positive_numbers": [
+        2,
+        3
+      ],
+      "negative_numbers": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "negative_count": 8,
+      "entries": [
+        {
+          "exercise_number": 1,
+          "attempted_solution_title": "Projektive ebene Kurve/Schnitt mit projektiver Geraden/Algebraisch abgeschlossen/Nicht leer/Aufgabe/Lösung",
+          "api_missing": true
+        },
+        {
+          "exercise_number": 4,
+          "attempted_solution_title": "Lemniskate/Projektive Punkte/Aufgabe/Lösung",
+          "api_missing": true
+        },
+        {
+          "exercise_number": 5,
+          "attempted_solution_title": "Algebraische Kurve/ZX^2 ist Y^3/Charakteristik null/Singuläre Punkte und Parametrisierung/Aufgabe/Lösung",
+          "api_missing": true
+        },
+        {
+          "exercise_number": 6,
+          "attempted_solution_title": "Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe/Lösung",
+          "api_missing": true
+        },
+        {
+          "exercise_number": 7,
+          "attempted_solution_title": "Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe/Lösung",
+          "api_missing": true
+        },
+        {
+          "exercise_number": 8,
+          "attempted_solution_title": "Tschirnhausen Kubik/Projektive Punkte/Aufgabe/Lösung",
+          "api_missing": true
+        },
+        {
+          "exercise_number": 9,
+          "attempted_solution_title": "Kartesisches Blatt/Projektive Punkte/Aufgabe/Lösung",
+          "api_missing": true
+        },
+        {
+          "exercise_number": 10,
+          "attempted_solution_title": "Lemniskate von Bernoulli/Projektiv/Abbildung auf Quadrik/Aufgabe/Lösung",
+          "api_missing": true
+        }
+      ]
+    },
+    "point_discrepancies": [],
+    "map_file": "ORDERED_EXERCISE_MAP.json",
+    "map_bytes": 13077,
+    "map_sha256": "75b07cabcb83cc12a6fd1259017f7e169c0ded461e7b7c94e65f033b71d12bc9"
+  },
+  "public_solution_transclusion_closures": [
+    {
+      "exercise_number": 2,
+      "solution_title": "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe/Lösung",
+      "solution_pageid": 21303,
+      "solution_revid": 1094621,
+      "solution_parentid": 1089317,
+      "solution_timestamp": "2026-06-14T16:25:59Z",
+      "solution_mediawiki_sha1": "859801fc5d0e4bb16dd1ec72b7af1873ab2f2a4a",
+      "solution_wikitext_bytes": 2307,
+      "direct_wrapper_dependency_titles": [],
+      "parse_api_file": "solution-ex02-parse-api.json",
+      "parse_api_bytes": 1428,
+      "parse_api_sha256": "17a0a4ed2943546e5f2e66edb7956a01ecdf6082945b906b7fbcd03efd8af96c",
+      "recursive_transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 16,
+        "captured_page_count": 16,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "solution-ex02-transclusions-01.json",
+            "bytes": 17698,
+            "sha256": "0fcc5434e2fdd504534d30dc3e424cca5995b4bcf75c9eaba20f534b5c4640ba",
+            "requested_titles": [
+              "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe",
+              "Vorlage:Aufzählung4/a",
+              "Vorlage:Makl",
+              "Vorlage:Math",
+              "Vorlage:Math/display",
+              "Vorlage:Mathematischer Text/AufgabeKategorie",
+              "Vorlage:Mathematischer Text/AufgabeKategorie2",
+              "Vorlage:Mathematischer Text/Lösung",
+              "Vorlage:Mathkor",
+              "Vorlage:Mathkor/display",
+              "Vorlage:Mathl",
+              "Vorlage:Op:Affine Ebene",
+              "Vorlage:Op:Projektive Ebene",
+              "Vorlage:Op:Zmod",
+              "Vorlage:Relationskette",
+              "Vorlage:Relationskette/display"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe",
+            "pageid": 21302,
+            "revid": 1072843,
+            "parentid": 1041212,
+            "timestamp": "2026-02-21T09:35:16Z",
+            "mediawiki_sha1": "a2878affd52e5e91234fe225d14e384d74e5d85c",
+            "wikitext_bytes": 1072
+          },
+          {
+            "title": "Vorlage:Aufzählung4/a",
+            "pageid": 53344,
+            "revid": 1007144,
+            "parentid": 428438,
+            "timestamp": "2025-07-04T10:10:22Z",
+            "mediawiki_sha1": "37e5ff2702a1bb3d15cefb68efe190e5caf006fc",
+            "wikitext_bytes": 277
+          },
+          {
+            "title": "Vorlage:Makl",
+            "pageid": 47944,
+            "revid": 1107363,
+            "parentid": 897349,
+            "timestamp": "2026-07-15T14:42:59Z",
+            "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+            "wikitext_bytes": 198
+          },
+          {
+            "title": "Vorlage:Math",
+            "pageid": 17295,
+            "revid": 1111483,
+            "parentid": 1061915,
+            "timestamp": "2026-08-14T11:15:22Z",
+            "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+            "wikitext_bytes": 450
+          },
+          {
+            "title": "Vorlage:Math/display",
+            "pageid": 24390,
+            "revid": 1106842,
+            "parentid": 1061903,
+            "timestamp": "2026-07-13T17:21:38Z",
+            "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+            "wikitext_bytes": 404
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/AufgabeKategorie",
+            "pageid": 42731,
+            "revid": 868014,
+            "parentid": 254644,
+            "timestamp": "2022-10-28T10:31:46Z",
+            "mediawiki_sha1": "b6737552eaf9a17c95b7d592b770af51e7cf500b",
+            "wikitext_bytes": 176
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/AufgabeKategorie2",
+            "pageid": 42737,
+            "revid": 868013,
+            "parentid": 868011,
+            "timestamp": "2022-10-28T10:31:16Z",
+            "mediawiki_sha1": "d9c1a14c3a5f94b2f4274904cdfa29e0d2cece64",
+            "wikitext_bytes": 177
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/Lösung",
+            "pageid": 34288,
+            "revid": 1011284,
+            "parentid": 1011283,
+            "timestamp": "2025-07-26T14:18:37Z",
+            "mediawiki_sha1": "9f0c638e9b88a4d054b36e7ee1918bd9efc5d016",
+            "wikitext_bytes": 3067
+          },
+          {
+            "title": "Vorlage:Mathkor",
+            "pageid": 22402,
+            "revid": 1107107,
+            "parentid": 1074428,
+            "timestamp": "2026-07-15T08:13:32Z",
+            "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+            "wikitext_bytes": 586
+          },
+          {
+            "title": "Vorlage:Mathkor/display",
+            "pageid": 22873,
+            "revid": 1075108,
+            "parentid": 834408,
+            "timestamp": "2026-03-08T10:25:41Z",
+            "mediawiki_sha1": "9185784de8c218cba2979df8bac3d4a1b69465d5",
+            "wikitext_bytes": 363
+          },
+          {
+            "title": "Vorlage:Mathl",
+            "pageid": 19002,
+            "revid": 1106112,
+            "parentid": 1106111,
+            "timestamp": "2026-07-07T08:34:54Z",
+            "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+            "wikitext_bytes": 666
+          },
+          {
+            "title": "Vorlage:Op:Affine Ebene",
+            "pageid": 20238,
+            "revid": 312883,
+            "parentid": 235396,
+            "timestamp": "2012-05-01T12:04:39Z",
+            "mediawiki_sha1": "948504aaf4103eca9b1968bfc0b3a60613476849",
+            "wikitext_bytes": 231
+          },
+          {
+            "title": "Vorlage:Op:Projektive Ebene",
+            "pageid": 20270,
+            "revid": 325485,
+            "parentid": 155043,
+            "timestamp": "2012-08-08T15:56:19Z",
+            "mediawiki_sha1": "8e206176d2933451de376d03a8517a69bccf893c",
+            "wikitext_bytes": 249
+          },
+          {
+            "title": "Vorlage:Op:Zmod",
+            "pageid": 24011,
+            "revid": 255414,
+            "parentid": 161634,
+            "timestamp": "2011-02-12T08:37:03Z",
+            "mediawiki_sha1": "9ba9be51eb87aaac340c279a46ec2bf30b5f780d",
+            "wikitext_bytes": 211
+          },
+          {
+            "title": "Vorlage:Relationskette",
+            "pageid": 22415,
+            "revid": 1075230,
+            "parentid": 1075122,
+            "timestamp": "2026-03-09T07:28:01Z",
+            "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+            "wikitext_bytes": 2148
+          },
+          {
+            "title": "Vorlage:Relationskette/display",
+            "pageid": 20280,
+            "revid": 1106843,
+            "parentid": 1075212,
+            "timestamp": "2026-07-13T17:25:55Z",
+            "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+            "wikitext_bytes": 2459
+          }
+        ]
+      },
+      "topology": {
+        "parser_template_occurrences": 16,
+        "unique_exact_titles": 16,
+        "duplicate_exact_titles": [],
+        "dependencies": 16,
+        "with_root": 17,
+        "canonical_identity_rows_sha256": "baafc7ca56b87391f988b7f9b03bf7a4098109451b94b2cec1817fdf0fdb0f86",
+        "canonical_identity_hash_algorithm": "SHA-256 of UTF-8 JSON rows reduced to title,pageid,revid,parentid,timestamp,mediawiki_sha1,wikitext_bytes; rows sorted by (title,pageid); ensure_ascii=false; sort_keys=true; separators=(',',':')"
+      }
+    },
+    {
+      "exercise_number": 3,
+      "solution_title": "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe/Lösung",
+      "solution_pageid": 21573,
+      "solution_revid": 1090273,
+      "solution_parentid": 959539,
+      "solution_timestamp": "2026-05-31T12:45:13Z",
+      "solution_mediawiki_sha1": "f0359ee4a15f70916cf5443ab14890f3ac8207dc",
+      "solution_wikitext_bytes": 812,
+      "direct_wrapper_dependency_titles": [],
+      "parse_api_file": "solution-ex03-parse-api.json",
+      "parse_api_bytes": 781,
+      "parse_api_sha256": "709aa343a0cecbf4805bc8dc9664abbe8b93bc29c187796170ee54fece5737f2",
+      "recursive_transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 7,
+        "captured_page_count": 7,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "solution-ex03-transclusions-01.json",
+            "bytes": 7093,
+            "sha256": "2d2e11e45a93a043169024a473d6a06a7f1383d91b7705580201163218ee7b69",
+            "requested_titles": [
+              "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe",
+              "Vorlage:Math",
+              "Vorlage:Mathematischer Text/AufgabeKategorie",
+              "Vorlage:Mathematischer Text/AufgabeKategorie2",
+              "Vorlage:Mathematischer Text/Lösung",
+              "Vorlage:Op:Affine Gerade",
+              "Vorlage:Op:Projektive Gerade"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Projektive Gerade/K-Punkte/Lokale Ringe isomorph/Aufgabe",
+            "pageid": 21572,
+            "revid": 1083904,
+            "parentid": 1047305,
+            "timestamp": "2026-05-29T22:23:43Z",
+            "mediawiki_sha1": "a313e73f4e0c6bcfdfbfb354200ed967160a5c53",
+            "wikitext_bytes": 480
+          },
+          {
+            "title": "Vorlage:Math",
+            "pageid": 17295,
+            "revid": 1111483,
+            "parentid": 1061915,
+            "timestamp": "2026-08-14T11:15:22Z",
+            "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+            "wikitext_bytes": 450
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/AufgabeKategorie",
+            "pageid": 42731,
+            "revid": 868014,
+            "parentid": 254644,
+            "timestamp": "2022-10-28T10:31:46Z",
+            "mediawiki_sha1": "b6737552eaf9a17c95b7d592b770af51e7cf500b",
+            "wikitext_bytes": 176
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/AufgabeKategorie2",
+            "pageid": 42737,
+            "revid": 868013,
+            "parentid": 868011,
+            "timestamp": "2022-10-28T10:31:16Z",
+            "mediawiki_sha1": "d9c1a14c3a5f94b2f4274904cdfa29e0d2cece64",
+            "wikitext_bytes": 177
+          },
+          {
+            "title": "Vorlage:Mathematischer Text/Lösung",
+            "pageid": 34288,
+            "revid": 1011284,
+            "parentid": 1011283,
+            "timestamp": "2025-07-26T14:18:37Z",
+            "mediawiki_sha1": "9f0c638e9b88a4d054b36e7ee1918bd9efc5d016",
+            "wikitext_bytes": 3067
+          },
+          {
+            "title": "Vorlage:Op:Affine Gerade",
+            "pageid": 20276,
+            "revid": 564066,
+            "parentid": 313324,
+            "timestamp": "2018-10-29T18:00:10Z",
+            "mediawiki_sha1": "d908cc9df2050ec732e4ee232ff56f4b8fd931a7",
+            "wikitext_bytes": 232
+          },
+          {
+            "title": "Vorlage:Op:Projektive Gerade",
+            "pageid": 20641,
+            "revid": 330399,
+            "parentid": 155046,
+            "timestamp": "2012-10-02T07:56:52Z",
+            "mediawiki_sha1": "c10b472efd49b90a039ab9a61293d2ee5a757465",
+            "wikitext_bytes": 250
+          }
+        ]
+      },
+      "topology": {
+        "parser_template_occurrences": 7,
+        "unique_exact_titles": 7,
+        "duplicate_exact_titles": [],
+        "dependencies": 7,
+        "with_root": 8,
+        "canonical_identity_rows_sha256": "efe168f6a9cec88cc0a21f4e31656747feff0f79c1d6cb30552e615ea9400cd8",
+        "canonical_identity_hash_algorithm": "SHA-256 of UTF-8 JSON rows reduced to title,pageid,revid,parentid,timestamp,mediawiki_sha1,wikitext_bytes; rows sorted by (title,pageid); ensure_ascii=false; sort_keys=true; separators=(',',':')"
+      }
+    }
+  ],
+  "source_defect_bindings": [
+    {
+      "id": "AGC-U29-SRC-001",
+      "surface": "lecture current semantic source / expanded TeX",
+      "source_text": "Bei g >= 3 ist die Multiplizität >= 2",
+      "issue": "The proof of the degree-d graph theorem switches from d to an undefined g in its final singularity criterion.",
+      "reader_handling": "Render d >= 3, label the correction visibly, and retain this exact source binding."
+    },
+    {
+      "id": "AGC-U29-SRC-002",
+      "surface": "worksheet Exercise 7 current semantic source / expanded TeX",
+      "source_text": "durch die Matrix [blank] ... (x_0,...,x_n) maps to (x_0,...,x_n)",
+      "issue": "The requested projection matrix is blank and the displayed map repeats the input vector instead of giving the projection.",
+      "reader_handling": "Preserve the unresolved source surface and disclose it; do not invent a matrix or silently repair the exercise."
+    }
+  ],
+  "source_discrepancy_bindings": [],
+  "images": {
+    "lecture": [
+      "Algebraische_Kurven_(Osnabrück_2012)Vorlesung29.pdf",
+      "Algebraische_Kurven_(Osnabrück_2012)Arbeitsblatt29.pdf"
+    ],
+    "worksheet": [
+      "Lemniscate_of_Bernoulli.svg",
+      "Tschirnhausen_cubic.png",
+      "Algebraische_Kurven_(Osnabrück_2012)Arbeitsblatt29.pdf",
+      "Algebraische_Kurven_(Osnabrück_2012)Vorlesung29.pdf"
+    ],
+    "substantive_assets": [
+      {
+        "asset_id": "br-ak-u29-media-001",
+        "reader_order": 1,
+        "source_parser_name": "Lemniscate_of_Bernoulli.svg",
+        "metadata_title": "File:Lemniscate of Bernoulli.svg",
+        "description_pageid": 4285176,
+        "description_revid": 512182780,
+        "description_parentid": 141013849,
+        "description_timestamp": "2020-11-12T15:39:26Z",
+        "description_mediawiki_sha1": "f8b8f0465e1f7c5ef3e88ad85e99456ce3d01b24",
+        "description_wikitext_bytes": 368,
+        "source_timestamp": "2010-09-18T22:36:31Z",
+        "source_bytes": 1087,
+        "source_sha1": "9c474e2a9ed86aaa7d5a700d311c13b4a05866de",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Lemniscate_of_Bernoulli.svg",
+        "selected_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Lemniscate_of_Bernoulli.svg",
+        "selected_form": "original",
+        "original_locally_archived": true,
+        "original_bytes": 1087,
+        "original_sha1": "9c474e2a9ed86aaa7d5a700d311c13b4a05866de",
+        "original_width": 800,
+        "original_height": 300,
+        "local_path": "authority/assets/Lemniscate_of_Bernoulli.svg",
+        "local_bytes": 1087,
+        "local_sha256": "3e1753bdbf9a9e0068892d1c10c445c104033e2a100d2d0b68f349fc8e1324f4",
+        "authority_witness_path": "authority/wikiversity/unit-29/assets/Lemniscate_of_Bernoulli.svg",
+        "authority_witness_bytes": 1087,
+        "authority_witness_sha256": "3e1753bdbf9a9e0068892d1c10c445c104033e2a100d2d0b68f349fc8e1324f4",
+        "width": 800,
+        "height": 300,
+        "frame_count": 1,
+        "mime": "image/svg+xml",
+        "license_short": "Public domain",
+        "license_url": "",
+        "artist": "Zorgit",
+        "credit": "Own work",
+        "attribution_required": "false",
+        "course_credit_author": "",
+        "course_credit_user": "Zorgit",
+        "course_credit_repository": "Commons",
+        "course_credit_license_label": "PD",
+        "course_credit_source_filename_label": "Lemniscate of Bernoulli.svg",
+        "html_animation_preserved": false
+      },
+      {
+        "asset_id": "br-ak-u29-media-002",
+        "reader_order": 2,
+        "source_parser_name": "Tschirnhausen_cubic.png",
+        "metadata_title": "File:Tschirnhausen cubic.png",
+        "description_pageid": 2408689,
+        "description_revid": 1134413486,
+        "description_parentid": 1124033583,
+        "description_timestamp": "2025-12-21T08:02:34Z",
+        "description_mediawiki_sha1": "457e538f54b1164ad87f7b6db252b1c4541edfee",
+        "description_wikitext_bytes": 2240,
+        "source_timestamp": "2007-07-14T16:31:30Z",
+        "source_bytes": 64767,
+        "source_sha1": "44a9bbaa597b2fce69ca491335199890546cfb3d",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Tschirnhausen_cubic.png",
+        "selected_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tschirnhausen_cubic.png/500px-Tschirnhausen_cubic.png",
+        "selected_form": "thumbnail_500px",
+        "original_locally_archived": false,
+        "original_bytes": 64767,
+        "original_sha1": "44a9bbaa597b2fce69ca491335199890546cfb3d",
+        "original_width": 1100,
+        "original_height": 1638,
+        "local_path": "authority/assets/Tschirnhausen_cubic-500.png",
+        "local_bytes": 83502,
+        "local_sha256": "f3dda9da65db9e431f25ea77eb83f51aed2eff1c191dc1206e0759561ee613c7",
+        "authority_witness_path": "authority/wikiversity/unit-29/assets/Tschirnhausen_cubic-500.png",
+        "authority_witness_bytes": 83502,
+        "authority_witness_sha256": "f3dda9da65db9e431f25ea77eb83f51aed2eff1c191dc1206e0759561ee613c7",
+        "width": 500,
+        "height": 745,
+        "frame_count": 1,
+        "mime": "image/png",
+        "license_short": "Public domain",
+        "license_url": "",
+        "artist": "Oleg Alexandrov",
+        "credit": "Own work",
+        "attribution_required": "false",
+        "course_credit_author": "",
+        "course_credit_user": "Oleg Alexandrov",
+        "course_credit_repository": "Commons",
+        "course_credit_license_label": "PD",
+        "course_credit_source_filename_label": "Tschirnhausen cubic.png",
+        "html_animation_preserved": false
+      }
+    ],
+    "reader_media_positions": 2
+  },
+  "official_pdf_witnesses": [
+    {
+      "kind": "lecture",
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2012)Vorlesung29.pdf",
+      "file_pageid": 53379,
+      "file_revid": 325148,
+      "file_parentid": 322248,
+      "file_timestamp": "2012-08-02T10:21:15Z",
+      "file_mediawiki_sha1": "dc79a72b6f301293f130cdeb82cbbd60b6debe51",
+      "file_wikitext_bytes": 72,
+      "source_timestamp": "2012-08-02T10:21:15Z",
+      "uploader": "Mgausmann",
+      "source_bytes": 84904,
+      "source_sha1": "23eed466fa4d6473efd9143cd72f2eb319eeac31",
+      "source_url": "https://upload.wikimedia.org/wikiversity/de/6/66/Algebraische_Kurven_%28Osnabr%C3%BCck_2012%29Vorlesung29.pdf",
+      "description_url": "https://de.wikiversity.org/wiki/Datei:Algebraische_Kurven_(Osnabr%C3%BCck_2012)Vorlesung29.pdf",
+      "mime": "application/pdf",
+      "media_type": "OFFICE",
+      "local_path": "authority/artifacts/lecture-29-official.pdf",
+      "local_bytes": 84904,
+      "local_sha256": "9f7082c66d493cd02a6e4f0579493ad1ba74ddec4b3777517c9ab6daa9610c6d",
+      "page_count": 6,
+      "page_text_characters": [
+        1687,
+        2007,
+        1934,
+        2125,
+        2045,
+        1265
+      ],
+      "extractable_text_characters": 11063,
+      "blank_page_numbers": [],
+      "accessibility": {
+        "encrypted": false,
+        "tagged_pdf": false,
+        "structure_tree_present": false,
+        "document_language": null,
+        "outline_or_bookmark_count": 0
+      },
+      "component_license_route": {
+        "current_print_version_notice": "CC BY-SA 4.0",
+        "current_notice_evidence": "lecture-29-file-description.html",
+        "legacy_file_notice": "CC BY-SA 2.0 Germany",
+        "legacy_notice_evidence": "lecture-29-file-description.html",
+        "embedded_pdf_label": null,
+        "interpretation": "Preserve both notices: the current print-version/course route is CC BY-SA 4.0, while the unchanged 2012 file page retains CC BY-SA 2.0 Germany."
+      }
+    },
+    {
+      "kind": "worksheet",
+      "source_file_title": "Datei:Algebraische Kurven (Osnabrück 2012)Arbeitsblatt29.pdf",
+      "file_pageid": 54374,
+      "file_revid": 325018,
+      "file_parentid": 322184,
+      "file_timestamp": "2012-07-31T14:08:29Z",
+      "file_mediawiki_sha1": "290ec63705242e2b8dccf596ed48a8d1adac9880",
+      "file_wikitext_bytes": 75,
+      "source_timestamp": "2012-07-31T14:08:29Z",
+      "uploader": "Mgausmann",
+      "source_bytes": 81522,
+      "source_sha1": "6a783df1c478e4644df12cbbe8db164d9f84076a",
+      "source_url": "https://upload.wikimedia.org/wikiversity/de/f/f8/Algebraische_Kurven_%28Osnabr%C3%BCck_2012%29Arbeitsblatt29.pdf",
+      "description_url": "https://de.wikiversity.org/wiki/Datei:Algebraische_Kurven_(Osnabr%C3%BCck_2012)Arbeitsblatt29.pdf",
+      "mime": "application/pdf",
+      "media_type": "OFFICE",
+      "local_path": "authority/artifacts/worksheet-29-official.pdf",
+      "local_bytes": 81522,
+      "local_sha256": "83986d2a9928c6e61ad7afa6d5a890e2b296c15a8706931c8c6da485b05079d2",
+      "page_count": 3,
+      "page_text_characters": [
+        1256,
+        981,
+        502
+      ],
+      "extractable_text_characters": 2739,
+      "blank_page_numbers": [],
+      "accessibility": {
+        "encrypted": false,
+        "tagged_pdf": false,
+        "structure_tree_present": false,
+        "document_language": null,
+        "outline_or_bookmark_count": 0
+      },
+      "component_license_route": {
+        "current_print_version_notice": "CC BY-SA 4.0",
+        "current_notice_evidence": "worksheet-29-file-description.html",
+        "legacy_file_notice": "CC BY-SA 2.0 Germany",
+        "legacy_notice_evidence": "worksheet-29-file-description.html",
+        "embedded_pdf_label": null,
+        "interpretation": "Preserve both notices: the current print-version/course route is CC BY-SA 4.0, while the unchanged 2012 file page retains CC BY-SA 2.0 Germany."
+      }
+    }
+  ],
+  "official_pdf_file_description_surfaces": [
+    {
+      "kind": "lecture",
+      "entry": {
+        "title": "Datei:Algebraische Kurven (Osnabrück 2012)Vorlesung29.pdf",
+        "pageid": 53379,
+        "revid": 325148,
+        "parentid": 322248,
+        "timestamp": "2012-08-02T10:21:15Z",
+        "mediawiki_sha1": "dc79a72b6f301293f130cdeb82cbbd60b6debe51",
+        "wikitext_bytes": 72,
+        "api_file": "lecture-29-file-description-api.json",
+        "api_bytes": 429,
+        "api_sha256": "6f0173844abd41a704a6539f6e333e49928927c0d33292848f3d045904d0a0a4",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=325148",
+        "xml_file": "lecture-29-file-description.xml",
+        "xml_bytes": 3332,
+        "xml_sha256": "e542e8c9037ac4138285f29ddc3e1e74f27af18f5023fa63c37599ba2a1cb01d",
+        "html_file": "lecture-29-file-description.html",
+        "html_bytes": 7049,
+        "html_sha256": "e6c070beb9c0396fd4840bcc859f042c9055d569da0c34e7c09a5fb30c2f7411",
+        "html_source": "immutable Parsoid revision endpoint",
+        "parse_api_file": "lecture-29-file-description-parse-api.json",
+        "parse_api_bytes": 807,
+        "parse_api_sha256": "f9d056c64cc42535553968c0d1c6071da38d1e3e426490501e320ee9dc47f418",
+        "template_count": 6,
+        "image_count": 3,
+        "link_count": 1,
+        "external_link_count": 2
+      },
+      "recursive_transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 6,
+        "captured_page_count": 6,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "lecture-29-file-description-transclusions-01.json",
+            "bytes": 7487,
+            "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926",
+            "requested_titles": [
+              "Vorlage:Bild-CC-by-sa-2.0-de",
+              "Vorlage:Bild-CC-by-sa/2.0/de",
+              "Vorlage:Druckversion",
+              "Vorlage:Vorlagenbox",
+              "Vorlage:Vorlagenbox/style.css",
+              "Vorlage:Wikiversitydedruckversion"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Vorlage:Bild-CC-by-sa-2.0-de",
+            "pageid": 4510,
+            "revid": 330214,
+            "parentid": 330213,
+            "timestamp": "2012-10-01T06:43:54Z",
+            "mediawiki_sha1": "65acdc08ec828073710f4eaa0094a4bd04a04814",
+            "wikitext_bytes": 1527
+          },
+          {
+            "title": "Vorlage:Bild-CC-by-sa/2.0/de",
+            "pageid": 6202,
+            "revid": 36498,
+            "parentid": 36478,
+            "timestamp": "2007-03-25T07:00:14Z",
+            "mediawiki_sha1": "de61fe1fa6e9ee0973402e0116efe27cd0faea26",
+            "wikitext_bytes": 42
+          },
+          {
+            "title": "Vorlage:Druckversion",
+            "pageid": 73594,
+            "revid": 426128,
+            "parentid": 0,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "a4a6a36a8a17880e077777ed1be61958c09dbc69",
+            "wikitext_bytes": 52
+          },
+          {
+            "title": "Vorlage:Vorlagenbox",
+            "pageid": 21080,
+            "revid": 901040,
+            "parentid": 144387,
+            "timestamp": "2023-07-02T19:30:32Z",
+            "mediawiki_sha1": "92a6d46883d47e30b559a5e4c3e91bcf16f6ba69",
+            "wikitext_bytes": 2100
+          },
+          {
+            "title": "Vorlage:Vorlagenbox/style.css",
+            "pageid": 152284,
+            "revid": 901041,
+            "parentid": 0,
+            "timestamp": "2023-07-02T19:32:09Z",
+            "mediawiki_sha1": "13d6eebc635eb45674efee4cfea4794fe40d4068",
+            "wikitext_bytes": 1066
+          },
+          {
+            "title": "Vorlage:Wikiversitydedruckversion",
+            "pageid": 25998,
+            "revid": 426127,
+            "parentid": 426118,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "4809118ef36b854dbf8c025883dae3bad32b1171",
+            "wikitext_bytes": 761
+          }
+        ]
+      }
+    },
+    {
+      "kind": "worksheet",
+      "entry": {
+        "title": "Datei:Algebraische Kurven (Osnabrück 2012)Arbeitsblatt29.pdf",
+        "pageid": 54374,
+        "revid": 325018,
+        "parentid": 322184,
+        "timestamp": "2012-07-31T14:08:29Z",
+        "mediawiki_sha1": "290ec63705242e2b8dccf596ed48a8d1adac9880",
+        "wikitext_bytes": 75,
+        "api_file": "worksheet-29-file-description-api.json",
+        "api_bytes": 435,
+        "api_sha256": "a3682630a6201c14da644560591da06089c2dfb0cd3da2894dc8ec7ca6344c73",
+        "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=325018",
+        "xml_file": "worksheet-29-file-description.xml",
+        "xml_bytes": 3341,
+        "xml_sha256": "6cbc72f727ad92df3b8af90bf7c915b1fcc015030571b0050046758024edc353",
+        "html_file": "worksheet-29-file-description.html",
+        "html_bytes": 6975,
+        "html_sha256": "8fa7e906e1bfcb7bc8611ac44762dabbdfc9af54af9a792ff82eb389f0d06f3a",
+        "html_source": "immutable Parsoid revision endpoint",
+        "parse_api_file": "worksheet-29-file-description-parse-api.json",
+        "parse_api_bytes": 813,
+        "parse_api_sha256": "8c533ee415d41fb2554457f0a4f6dd36e53473bdd0f96c341592de799091c5a8",
+        "template_count": 6,
+        "image_count": 3,
+        "link_count": 1,
+        "external_link_count": 2
+      },
+      "recursive_transclusion_closure": {
+        "source": "action=parse template list after recursive parser expansion",
+        "requested_template_count": 6,
+        "captured_page_count": 6,
+        "missing_page_count": 0,
+        "batches": [
+          {
+            "file": "worksheet-29-file-description-transclusions-01.json",
+            "bytes": 7487,
+            "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926",
+            "requested_titles": [
+              "Vorlage:Bild-CC-by-sa-2.0-de",
+              "Vorlage:Bild-CC-by-sa/2.0/de",
+              "Vorlage:Druckversion",
+              "Vorlage:Vorlagenbox",
+              "Vorlage:Vorlagenbox/style.css",
+              "Vorlage:Wikiversitydedruckversion"
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "title": "Vorlage:Bild-CC-by-sa-2.0-de",
+            "pageid": 4510,
+            "revid": 330214,
+            "parentid": 330213,
+            "timestamp": "2012-10-01T06:43:54Z",
+            "mediawiki_sha1": "65acdc08ec828073710f4eaa0094a4bd04a04814",
+            "wikitext_bytes": 1527
+          },
+          {
+            "title": "Vorlage:Bild-CC-by-sa/2.0/de",
+            "pageid": 6202,
+            "revid": 36498,
+            "parentid": 36478,
+            "timestamp": "2007-03-25T07:00:14Z",
+            "mediawiki_sha1": "de61fe1fa6e9ee0973402e0116efe27cd0faea26",
+            "wikitext_bytes": 42
+          },
+          {
+            "title": "Vorlage:Druckversion",
+            "pageid": 73594,
+            "revid": 426128,
+            "parentid": 0,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "a4a6a36a8a17880e077777ed1be61958c09dbc69",
+            "wikitext_bytes": 52
+          },
+          {
+            "title": "Vorlage:Vorlagenbox",
+            "pageid": 21080,
+            "revid": 901040,
+            "parentid": 144387,
+            "timestamp": "2023-07-02T19:30:32Z",
+            "mediawiki_sha1": "92a6d46883d47e30b559a5e4c3e91bcf16f6ba69",
+            "wikitext_bytes": 2100
+          },
+          {
+            "title": "Vorlage:Vorlagenbox/style.css",
+            "pageid": 152284,
+            "revid": 901041,
+            "parentid": 0,
+            "timestamp": "2023-07-02T19:32:09Z",
+            "mediawiki_sha1": "13d6eebc635eb45674efee4cfea4794fe40d4068",
+            "wikitext_bytes": 1066
+          },
+          {
+            "title": "Vorlage:Wikiversitydedruckversion",
+            "pageid": 25998,
+            "revid": 426127,
+            "parentid": 426118,
+            "timestamp": "2015-06-20T12:10:53Z",
+            "mediawiki_sha1": "4809118ef36b854dbf8c025883dae3bad32b1171",
+            "wikitext_bytes": 761
+          }
+        ]
+      }
+    }
+  ],
+  "media_rights_accessibility_and_discrepancies": {
+    "closure_file": "authority/ASSET_CLOSURE-unit-29.json",
+    "closure_bytes": 10549,
+    "closure_sha256": "d85f765a2ab195ed5c1ed12028c2558fcfadd227fa35ebf979267c4167e3f972",
+    "rights_file": "authority/RIGHTS-unit-29.csv",
+    "rights_bytes": 2939,
+    "rights_sha256": "4962c9a0a32e775a788f1098cf994d4e6714f67226ae30e155189778e826323c"
+  },
+  "entry_revision_recheck": {
+    "file": "final-entry-recheck-api.json",
+    "bytes": 499,
+    "sha256": "464b3c6f5038a99bf531d0973dc469bd52092dd76797ebeb33109c2971c141ad",
+    "result": "PASS"
+  },
+  "final_live_identity_replay": {
+    "result": "PASS",
+    "semantic_unique_identity_count": 150,
+    "semantic_batches": [
+      {
+        "file": "final-semantic-identity-replay-01.json",
+        "bytes": 6753,
+        "sha256": "552f62c67727998364ee62a44f24ab84117dad51ba993737047ef689a1ebde51",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-02.json",
+        "bytes": 5222,
+        "sha256": "a4cb79cdff78c1dfacd70b07b2d2e4df4050a68ff932dfb98bf268add25ef107",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-03.json",
+        "bytes": 5292,
+        "sha256": "b7e47d3d116a8873e2d2f06da3c70fd7a6d422f6b061cf398c4feb1531776411",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-04.json",
+        "bytes": 4880,
+        "sha256": "d2d0aac60bb59261e8d68d31ce9453f9e1a5afecd7151c9930bb0c9a667956c6",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-05.json",
+        "bytes": 4942,
+        "sha256": "713874c4cd59f527828705d7d5437b3d0a0b665c317af2d5f30b6f99f85c5e8a",
+        "title_count": 25
+      },
+      {
+        "file": "final-semantic-identity-replay-06.json",
+        "bytes": 4920,
+        "sha256": "aae17d354765f28b76a6906ccca5db997a458c475a3dcd30f93aac4ee2aea217",
+        "title_count": 25
+      }
+    ],
+    "local_wikiversity_pdf_identity_count": 2,
+    "local_pdf_replay_file": "final-local-pdf-identity-replay.json",
+    "local_pdf_replay_bytes": 861,
+    "local_pdf_replay_sha256": "c41dfbe42fd1e1965d9a0e1c228b284b2c7334f1a3be75413984afe1f3005855",
+    "commons_media_identity_count": 2,
+    "commons_media_replay_file": "final-commons-media-identity-replay.json",
+    "commons_media_replay_bytes": 789,
+    "commons_media_replay_sha256": "3ac54b9d08323adce2efd1ddfa277b50014ffb3e60fdeae6b3a3c4c30176b1d0",
+    "latest_solution_identity_replayed": {
+      "exercise_number": 2,
+      "revid": 1094621,
+      "timestamp": "2026-06-14T16:25:59Z",
+      "mediawiki_sha1": "859801fc5d0e4bb16dd1ec72b7af1873ab2f2a4a"
+    }
+  },
+  "files": [
+    {
+      "file": "ORDERED_EXERCISE_MAP.json",
+      "bytes": 13077,
+      "sha256": "75b07cabcb83cc12a6fd1259017f7e169c0ded461e7b7c94e65f033b71d12bc9"
+    },
+    {
+      "file": "assets/Lemniscate_of_Bernoulli.svg",
+      "bytes": 1087,
+      "sha256": "3e1753bdbf9a9e0068892d1c10c445c104033e2a100d2d0b68f349fc8e1324f4"
+    },
+    {
+      "file": "assets/Tschirnhausen_cubic-500.png",
+      "bytes": 83502,
+      "sha256": "f3dda9da65db9e431f25ea77eb83f51aed2eff1c191dc1206e0759561ee613c7"
+    },
+    {
+      "file": "commons-media-metadata-api.json",
+      "bytes": 7656,
+      "sha256": "be0a7b694b3da407c575927241b43e5a03487ab83700d6933e9b2da6df726d37"
+    },
+    {
+      "file": "course-2012-api.json",
+      "bytes": 987,
+      "sha256": "a11566fb94a2a8a4553501b05c3bf12a46993d6a24bac5cd7c8cea7454ef143e"
+    },
+    {
+      "file": "course-2012-parse-api.json",
+      "bytes": 9599,
+      "sha256": "7017cd9d8c04d31acf08acdb055054907266826a7d2e7e83a2cdca5ba7f7d084"
+    },
+    {
+      "file": "course-2012.html",
+      "bytes": 22668,
+      "sha256": "b914b572bef3698e59a09321062e1903b828b90fee90f76f77a17a9b310bf76b"
+    },
+    {
+      "file": "course-2012.xml",
+      "bytes": 3889,
+      "sha256": "a8342cffb4f03960898f3d37b5c0d560aa8f00fc5c15cdcaa0430c34b7caf7e4"
+    },
+    {
+      "file": "final-commons-media-identity-replay.json",
+      "bytes": 789,
+      "sha256": "3ac54b9d08323adce2efd1ddfa277b50014ffb3e60fdeae6b3a3c4c30176b1d0"
+    },
+    {
+      "file": "final-entry-recheck-api.json",
+      "bytes": 499,
+      "sha256": "464b3c6f5038a99bf531d0973dc469bd52092dd76797ebeb33109c2971c141ad"
+    },
+    {
+      "file": "final-local-pdf-identity-replay.json",
+      "bytes": 861,
+      "sha256": "c41dfbe42fd1e1965d9a0e1c228b284b2c7334f1a3be75413984afe1f3005855"
+    },
+    {
+      "file": "final-semantic-identity-replay-01.json",
+      "bytes": 6753,
+      "sha256": "552f62c67727998364ee62a44f24ab84117dad51ba993737047ef689a1ebde51"
+    },
+    {
+      "file": "final-semantic-identity-replay-02.json",
+      "bytes": 5222,
+      "sha256": "a4cb79cdff78c1dfacd70b07b2d2e4df4050a68ff932dfb98bf268add25ef107"
+    },
+    {
+      "file": "final-semantic-identity-replay-03.json",
+      "bytes": 5292,
+      "sha256": "b7e47d3d116a8873e2d2f06da3c70fd7a6d422f6b061cf398c4feb1531776411"
+    },
+    {
+      "file": "final-semantic-identity-replay-04.json",
+      "bytes": 4880,
+      "sha256": "d2d0aac60bb59261e8d68d31ce9453f9e1a5afecd7151c9930bb0c9a667956c6"
+    },
+    {
+      "file": "final-semantic-identity-replay-05.json",
+      "bytes": 4942,
+      "sha256": "713874c4cd59f527828705d7d5437b3d0a0b665c317af2d5f30b6f99f85c5e8a"
+    },
+    {
+      "file": "final-semantic-identity-replay-06.json",
+      "bytes": 4920,
+      "sha256": "aae17d354765f28b76a6906ccca5db997a458c475a3dcd30f93aac4ee2aea217"
+    },
+    {
+      "file": "lecture-29-api.json",
+      "bytes": 3694,
+      "sha256": "b79c189588db1753cc6da41bc0bf1d4c1f33616393cde5749ad2dae8aa182387"
+    },
+    {
+      "file": "lecture-29-expanded.tex",
+      "bytes": 23292,
+      "sha256": "7c06a1dbb12904bd5f89427955ef8bdae5781e402522cd70f09a0c6e1ef1e784"
+    },
+    {
+      "file": "lecture-29-file-description-api.json",
+      "bytes": 429,
+      "sha256": "6f0173844abd41a704a6539f6e333e49928927c0d33292848f3d045904d0a0a4"
+    },
+    {
+      "file": "lecture-29-file-description-parse-api.json",
+      "bytes": 807,
+      "sha256": "f9d056c64cc42535553968c0d1c6071da38d1e3e426490501e320ee9dc47f418"
+    },
+    {
+      "file": "lecture-29-file-description-transclusions-01.json",
+      "bytes": 7487,
+      "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926"
+    },
+    {
+      "file": "lecture-29-file-description.html",
+      "bytes": 7049,
+      "sha256": "e6c070beb9c0396fd4840bcc859f042c9055d569da0c34e7c09a5fb30c2f7411"
+    },
+    {
+      "file": "lecture-29-file-description.xml",
+      "bytes": 3332,
+      "sha256": "e542e8c9037ac4138285f29ddc3e1e74f27af18f5023fa63c37599ba2a1cb01d"
+    },
+    {
+      "file": "lecture-29-latex-page-api.json",
+      "bytes": 371,
+      "sha256": "060a6f6b97d8cd4c7defaacb5004c6809ca2e27fb9723f654c42e74731c9d7d4"
+    },
+    {
+      "file": "lecture-29-latex-page.html",
+      "bytes": 32299,
+      "sha256": "d4c1f9feec8a6c0e115a33e36bcf583f7885f690a54cc404e76af2108af57b9c"
+    },
+    {
+      "file": "lecture-29-latex-page.xml",
+      "bytes": 3186,
+      "sha256": "3a7b5fd482852638698b572a02346650e8cd66e7f1d196d0fcebfb31e71d2442"
+    },
+    {
+      "file": "lecture-29-parse-api.json",
+      "bytes": 14080,
+      "sha256": "9a22af3fcb88fc92eb731037d64b8a4a96bcc0d6380282accf3b08ff2851cece"
+    },
+    {
+      "file": "lecture-29-transclusions-01.json",
+      "bytes": 30125,
+      "sha256": "29bb1dcfeaa996b84777b2837b248a49fad74219b66e8438a567b412ed243982"
+    },
+    {
+      "file": "lecture-29-transclusions-02.json",
+      "bytes": 15203,
+      "sha256": "45e20fb34cac50ed977549d624cb9e80f2ab1e7b57f844dd77d66899366fb7d3"
+    },
+    {
+      "file": "lecture-29-transclusions-03.json",
+      "bytes": 62624,
+      "sha256": "b623ddb51c252d934c141502319faff0703c89931bcc1b1e7bb109755af759ab"
+    },
+    {
+      "file": "lecture-29-transclusions-04.json",
+      "bytes": 34632,
+      "sha256": "30fde0fc78790ebb854b4dabd09f537f64203e111804def76332db06c8340508"
+    },
+    {
+      "file": "lecture-29-transclusions-05.json",
+      "bytes": 5945,
+      "sha256": "4cf29190246ca33f538ce4c6ddf462c0fe5edb3b9991d8f2b22c18a23a9795ec"
+    },
+    {
+      "file": "lecture-29.html",
+      "bytes": 148608,
+      "sha256": "4542f1e076a18bfafe22d9cdf3762f8339f6b84a2f7b5b08e5a31d45bef4372d"
+    },
+    {
+      "file": "lecture-29.xml",
+      "bytes": 6360,
+      "sha256": "e5055632a6aa8119540cb5acccc0ba86a82b6d2bc88192b9ddd5a77aaea31d70"
+    },
+    {
+      "file": "local-pdf-file-metadata-api.json",
+      "bytes": 3601,
+      "sha256": "fdd6313aa0a146c446fd1c6effa62a8de5ffc93fc05b76737a11c2cfd92e0809"
+    },
+    {
+      "file": "ordered-exercise-source-api.json",
+      "bytes": 10994,
+      "sha256": "a1fb321ad577c681b3df12439bc3831bc2d4b9914a2efbef9e4fd3815fe65181"
+    },
+    {
+      "file": "root-revision-contributors-api.json",
+      "bytes": 539,
+      "sha256": "c2b9645e39ce9d1969ca195c34da7918898471b5eb092ce16f255a7db329e1bc"
+    },
+    {
+      "file": "site-rightsinfo-api.json",
+      "bytes": 164,
+      "sha256": "3ee9fcf0e431d5b0cbbf82482d4e30c2f76eae99a4a7e45e88e0832b4eb6eb99"
+    },
+    {
+      "file": "solution-ex02-parse-api.json",
+      "bytes": 1428,
+      "sha256": "17a0a4ed2943546e5f2e66edb7956a01ecdf6082945b906b7fbcd03efd8af96c"
+    },
+    {
+      "file": "solution-ex02-transclusions-01.json",
+      "bytes": 17698,
+      "sha256": "0fcc5434e2fdd504534d30dc3e424cca5995b4bcf75c9eaba20f534b5c4640ba"
+    },
+    {
+      "file": "solution-ex02.html",
+      "bytes": 18700,
+      "sha256": "c26d35d989ef60f0c5a6572a45d84e6628298de25d8020f01e6b5622dd873210"
+    },
+    {
+      "file": "solution-ex02.xml",
+      "bytes": 5545,
+      "sha256": "2b468a1f7d9bebff884c001c3a475a212601b022896953c97e6a55026cf38f66"
+    },
+    {
+      "file": "solution-ex03-parse-api.json",
+      "bytes": 781,
+      "sha256": "709aa343a0cecbf4805bc8dc9664abbe8b93bc29c187796170ee54fece5737f2"
+    },
+    {
+      "file": "solution-ex03-transclusions-01.json",
+      "bytes": 7093,
+      "sha256": "2d2e11e45a93a043169024a473d6a06a7f1383d91b7705580201163218ee7b69"
+    },
+    {
+      "file": "solution-ex03.html",
+      "bytes": 5996,
+      "sha256": "eb46293e823eabc6cf32481cbf22c87959e852a8c39e9d5eb6cc7d056bbbe7b2"
+    },
+    {
+      "file": "solution-ex03.xml",
+      "bytes": 3994,
+      "sha256": "50771bcf86505ee8429426f3488ef46af450a258629d4403a2bc16aa74abcaff"
+    },
+    {
+      "file": "worksheet-29-api.json",
+      "bytes": 2150,
+      "sha256": "c3afc41c7bfe3290bee97937d2bc66147c5edab3c37226188a7cb005817cdda5"
+    },
+    {
+      "file": "worksheet-29-expanded.tex",
+      "bytes": 5439,
+      "sha256": "53a54b5b7e59be71c94d41dc791021c0b2d6165bf0b489670800b09387d560d2"
+    },
+    {
+      "file": "worksheet-29-file-description-api.json",
+      "bytes": 435,
+      "sha256": "a3682630a6201c14da644560591da06089c2dfb0cd3da2894dc8ec7ca6344c73"
+    },
+    {
+      "file": "worksheet-29-file-description-parse-api.json",
+      "bytes": 813,
+      "sha256": "8c533ee415d41fb2554457f0a4f6dd36e53473bdd0f96c341592de799091c5a8"
+    },
+    {
+      "file": "worksheet-29-file-description-transclusions-01.json",
+      "bytes": 7487,
+      "sha256": "bc0806d6df36019226f62913cf2bda7ba2ca01d8fdaac7245d6790ebfdfe2926"
+    },
+    {
+      "file": "worksheet-29-file-description.html",
+      "bytes": 6975,
+      "sha256": "8fa7e906e1bfcb7bc8611ac44762dabbdfc9af54af9a792ff82eb389f0d06f3a"
+    },
+    {
+      "file": "worksheet-29-file-description.xml",
+      "bytes": 3341,
+      "sha256": "6cbc72f727ad92df3b8af90bf7c915b1fcc015030571b0050046758024edc353"
+    },
+    {
+      "file": "worksheet-29-latex-page-api.json",
+      "bytes": 374,
+      "sha256": "4fb420be588d3067912071e3c773223012b2f45612705bcf2d31debf2b0bcb6c"
+    },
+    {
+      "file": "worksheet-29-latex-page.html",
+      "bytes": 12025,
+      "sha256": "4ec86e779de45855b000d0495ecb6b618bc278cff9a6de45f6866a3e34795f4c"
+    },
+    {
+      "file": "worksheet-29-latex-page.xml",
+      "bytes": 3189,
+      "sha256": "bbcf1e46c0b4266e46c563a3cd09fd554b85784bc7657612a088babc583895d4"
+    },
+    {
+      "file": "worksheet-29-parse-api.json",
+      "bytes": 7543,
+      "sha256": "7edeadefa0f4def8a8b54e022d7ec344bfa2e2eaf5cb5dc9782fe286defe8e72"
+    },
+    {
+      "file": "worksheet-29-transclusions-01.json",
+      "bytes": 18584,
+      "sha256": "43702d81481082cf2c80ad155068597dd78a4e114a820240eafdf3e67b9e3197"
+    },
+    {
+      "file": "worksheet-29-transclusions-02.json",
+      "bytes": 49442,
+      "sha256": "2e03e9075cfafaee99689649dc8bd8765eefa77bcf72660b0abb2d124a96f37a"
+    },
+    {
+      "file": "worksheet-29-transclusions-03.json",
+      "bytes": 11576,
+      "sha256": "74aaae5f51f385adb8945652ebf43153f2103bbccb39622818e2d2813e057ab9"
+    },
+    {
+      "file": "worksheet-29.html",
+      "bytes": 42710,
+      "sha256": "9d864dbf3d96601609dfb9ee8a49e9e6ed7a5464c8f3b6335d75879404f42773"
+    },
+    {
+      "file": "worksheet-29.xml",
+      "bytes": 4871,
+      "sha256": "d82d020fef6e0d4f604bda9807f1befa2b8e1392afd9fb9459dbe17461d34574"
+    },
+    {
+      "file": "worksheet-solution-candidates-api.json",
+      "bytes": 4913,
+      "sha256": "ef235aae245054e368138eae92f2eb8089145c227c6cd20acf5c6c297432ec58"
+    }
+  ],
+  "bounded_external_files": [
+    {
+      "file": "authority/ASSET_CLOSURE-unit-29.json",
+      "bytes": 10549,
+      "sha256": "d85f765a2ab195ed5c1ed12028c2558fcfadd227fa35ebf979267c4167e3f972"
+    },
+    {
+      "file": "authority/RIGHTS-unit-29.csv",
+      "bytes": 2939,
+      "sha256": "4962c9a0a32e775a788f1098cf994d4e6714f67226ae30e155189778e826323c"
+    },
+    {
+      "file": "authority/artifacts/lecture-29-official.pdf",
+      "bytes": 84904,
+      "sha256": "9f7082c66d493cd02a6e4f0579493ad1ba74ddec4b3777517c9ab6daa9610c6d"
+    },
+    {
+      "file": "authority/artifacts/worksheet-29-official.pdf",
+      "bytes": 81522,
+      "sha256": "83986d2a9928c6e61ad7afa6d5a890e2b296c15a8706931c8c6da485b05079d2"
+    },
+    {
+      "file": "authority/assets/Lemniscate_of_Bernoulli.svg",
+      "bytes": 1087,
+      "sha256": "3e1753bdbf9a9e0068892d1c10c445c104033e2a100d2d0b68f349fc8e1324f4"
+    },
+    {
+      "file": "authority/assets/Tschirnhausen_cubic-500.png",
+      "bytes": 83502,
+      "sha256": "f3dda9da65db9e431f25ea77eb83f51aed2eff1c191dc1206e0759561ee613c7"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.17</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ebene Kurven/Schnitt und Schnittmultiplizität/Y ist X^3 und Y^2 ist X^3/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21320</id>
+    <revision>
+      <id>1112942</id>
+      <parentid>1089325</parentid>
+      <timestamp>2026-08-22T09:35:40Z</timestamp>
+      <contributor>
+        <username>Bocardodarapti</username>
+        <id>2041</id>
+      </contributor>
+      <origin>1112942</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2355" sha1="3w81iwk6wwetqixsz9537xqtdbcn0jx" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die Schnittpunkte der beiden Kurven im {{math|term= {{op:Affine Ebene|{{CC}}}} |SZ=}} sind durch {{math|term= V {{makl| Y - X^3, Y^2 - X^3 |}} |SZ=}} gegeben. Das heißt für einen Schnittpunkt {{math|term= (x,y) |SZ=}} muss gelten
+{{
+Mathkor/display|term1=
+ y = x^3
+|und|term2=
+  y^2 = x^3
+|SZ=.
+}}
+Wir setzen die erste Gleichung in die zweite ein und erhalten
+{{
+Relationskette
+| y(y-1)
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}} 
+Also ist {{math|term= y =0 |SZ=}} oder {{math|term= y =1 |SZ=.}} Folglich sind die Schnittpunkte gegeben durch 
+{{
+Math/display|term=
+\{(0,0), (1,1), ( \zeta, 1), ( \zeta^2, 1)\}
+|SZ=,
+}}
+wobei {{math|term= \zeta |SZ=}} eine primitive dritte Einheitswurzel ist. Im Nullpunkt ist der Restklassenring gleich
+{{
+Relationskette/display
+|  K[X,Y]_{(X,Y)}/ {{makl| Y-X^3,Y^2-X^3 |}} 
+|| K[X]_{(X)}/ {{makl| X^3,X^6-X^3 |}}  
+|| K[X]/ {{makl| X^3 |}} 
+||
+||
+|SZ=.
+}}
+Dieser hat die Dimension drei, sodass also die Schnittmultiplizität dort {{math|term= 3 |SZ=}} ist.
+
+Zur Bestimmung der Schnittmultiplizitäten in den drei anderen Punkten berechnen wir die partiellen Ableitungen, das ergibt einerseits
+{{
+Math/display|term=
+ {{makl| 1,-3x^2 |}} 
+|SZ=
+}}
+und andererseits
+{{
+Relationskette/display
+| (2y,-3x^2)
+|| (2,-3x^2)
+||
+||
+||
+|SZ=.
+}}
+Da {{math|term= x \neq 0 |SZ=}} ist, sind diese beiden Richtungen linear unabhängig, sodass beide Kurven in diesen Punkten glatt sind und ein transversaler Schnitt vorliegt, also Schnittmultiplizität eins.
+
+Im Projektiven müssen wir die beiden Ideale homogenisieren, d.h. wir betrachten {{math|term= V_+ {{makl| YZ^2 - X^3 |}}  |SZ=}} und {{math|term= V_+ {{makl| Y^2Z-X^3 |}} |SZ=.}} Mit {{math|term= z=0 |SZ=}} erhalten wir, dass {{math|term= x= 0 |SZ=}} sein muss, und finden also den Schnittpunkt {{math|term= (0,1,0) |SZ=.}} Eine affine Umgebung wird durch {{math|term= D_+(Y) |SZ=}} gegeben, mit den affinen Gleichungen {{math|term= Z^2-X^3 |SZ=}} und {{math|term= Z-X^3 |SZ=.}} Da dies die Ausgangsgleichungen sind, ist dort die Schnittmultiplizität wieder gleich {{math|term= 3 |SZ=.}} Die Summe der Schnittmultiplizitäten ist also {{math|term= 9 |SZ=,}} was auch dem Produkt der beiden Kurvengrade entspricht.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>3w81iwk6wwetqixsz9537xqtdbcn0jx</sha1>
+    </revision>
+  </page>
+</mediawiki>

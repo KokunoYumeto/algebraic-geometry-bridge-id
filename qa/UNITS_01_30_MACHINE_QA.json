@@ -1,0 +1,129 @@
+{
+  "schema": "ag-bridge-cumulative-reader-qa-v5",
+  "status": "PASS",
+  "verified_date": "2026-08-28",
+  "through_unit": 30,
+  "language": "id-ID",
+  "coverage": {
+    "lectures": 30,
+    "worksheets": 30,
+    "exercises": 693,
+    "public_source_solutions": 122,
+    "reader_media_positions": 101,
+    "stable_source_ids": 1554,
+    "mathml_nodes": 11322
+  },
+  "html": {
+    "path": "build/reader-id/index.html",
+    "bytes": 23805465,
+    "sha256": "1ca69127dbbf8aa86d8d3f238488686a145ad2dd99ee417c329a5bd9516ca677",
+    "ids": 2973,
+    "images": 101,
+    "embedded_images": 101,
+    "mathml_nodes": 11322,
+    "tex_annotations": 11322,
+    "internal_links": 1580,
+    "broken_internal_links": 0,
+    "remote_images": 0,
+    "missing_local_images": 0,
+    "empty_alt": 0
+  },
+  "pdf": {
+    "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-30.pdf",
+    "bytes": 16019237,
+    "sha256": "6383d3b9804a059e76dc643da5974b8809649707e177ba191a69220fa7ea0e5d",
+    "pages": 504,
+    "paper": "A4",
+    "encrypted": false,
+    "terminal_start_page": 469,
+    "terminal_pages_checked": 36,
+    "terminal_marker_pages": {
+      "Kuliah 29: Proyeksi dan Kurva Proyektif Terparametrisasi": 469,
+      "Soal 29.10": 479,
+      "Solusi Soal 29.3": 481,
+      "Kuliah 30: Teorema Bézout": 482,
+      "Soal 30.12": 491,
+      "Solusi Soal 30.4": 493,
+      "Kredit media Unit 29": 503,
+      "Kredit media Unit 30": 504
+    }
+  },
+  "build_receipt": {
+    "path": "build/reader-id/BUILD_RECEIPT.json",
+    "bytes": 45373,
+    "sha256": "1e90f2791e813319f95095b8be40b698e7dacd548f0e5e51c39be413d7846c19",
+    "input_count": 241,
+    "source_markdown_input_count": 120,
+    "output_count": 2,
+    "html_log_bytes": 0,
+    "pdf_log_bytes": 0,
+    "pdf_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pdf_warning_count": 0,
+    "pdf_warning_disposition": "The portrait Unit 29 figure is print-stage constrained; both Pandoc logs are empty."
+  },
+  "authority_units_29_30": {
+    "29": {
+      "exercises": 10,
+      "public_solutions": 2,
+      "media_positions": 2,
+      "translation_qa": {
+        "path": "qa/UNIT_29_TRANSLATION_QA.json",
+        "bytes": 6802,
+        "sha256": "7789a7a131bcf44946204f52c328e24fa96fee0c1e24383994d4485437bffb81"
+      },
+      "authority_manifest": {
+        "path": "authority/wikiversity/unit-29/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 128548,
+        "sha256": "ec3b34ad387ae827ecaa365c4def3b0550f74b629d0db3873a7cc28dc0831bc5"
+      }
+    },
+    "30": {
+      "exercises": 12,
+      "public_solutions": 2,
+      "media_positions": 1,
+      "translation_qa": {
+        "path": "qa/UNIT_30_TRANSLATION_QA.json",
+        "bytes": 6973,
+        "sha256": "788f6cb2245c5daef6a70fad25879c35d2234e43240e83be1bca1fc32c976916"
+      },
+      "authority_manifest": {
+        "path": "authority/wikiversity/unit-30/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 83295,
+        "sha256": "756ec1f9ea386b8ad0fac38086b6c97f0b94d6dc7a139dc4663911d48655bbe1"
+      }
+    }
+  },
+  "baseline_and_checkpoint_facts": [
+    {
+      "path": "qa/UNITS_01_28_MACHINE_QA.json",
+      "bytes": 3083,
+      "sha256": "c666cb1186f516cead5ebd1a16de616856c99013cd94983826c974aebbdf776f"
+    },
+    {
+      "path": "qa/UNIT_28_PROTECTED_SURFACES.json",
+      "bytes": 2533,
+      "sha256": "d9e737e3319f62d7560cbad20737c27b80b40c27536e3dca36d4632c98f18b2e"
+    },
+    {
+      "path": "qa/UNIT_29_TRANSLATION_QA.json",
+      "bytes": 6802,
+      "sha256": "7789a7a131bcf44946204f52c328e24fa96fee0c1e24383994d4485437bffb81"
+    },
+    {
+      "path": "qa/UNIT_30_TRANSLATION_QA.json",
+      "bytes": 6973,
+      "sha256": "788f6cb2245c5daef6a70fad25879c35d2234e43240e83be1bca1fc32c976916"
+    }
+  ],
+  "checks": [
+    "exact accepted Unit 28 machine/protected baselines are byte-pinned",
+    "Unit 29 and Unit 30 translation-QA receipts are PASS and byte-pinned",
+    "all build-receipt inputs and both output identities replay exactly",
+    "complete 30-unit coverage counts are inherited from the verified Unit 30 source closure",
+    "HTML IDs, MathML/TeX annotations, alternative text, internal anchors, and local image closure pass",
+    "PDF metadata, 504 A4 page geometries, encryption state, and ordered Unit 29-30 terminal markers pass",
+    "both Pandoc warning logs are empty after the portrait Unit 29 figure is constrained only in the PDF stage",
+    "no visible placeholder/error residue remains"
+  ],
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

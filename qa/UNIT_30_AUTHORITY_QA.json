@@ -1,0 +1,67 @@
+{
+  "schema": "ag-bridge-unit-authority-qa-v1",
+  "status": "PASS",
+  "unit": 30,
+  "verified_date": "2026-08-28",
+  "authority": {
+    "lecture_root_plus_dependencies": 94,
+    "worksheet_root_plus_dependencies": 64,
+    "solution_closures_with_root": {
+      "3": 13,
+      "4": 14
+    },
+    "semantic_unique_identity_count": 141,
+    "exercise_count": 12,
+    "public_solution_numbers": [
+      3,
+      4
+    ],
+    "negative_solution_count": 10,
+    "submitted_displayed_points": 37
+  },
+  "media": {
+    "positions": 1,
+    "assets": 1,
+    "public_domain_assets": 1,
+    "original_assets_locally_archived": 1,
+    "official_pdf_metadata_rows": 2,
+    "official_pdf_binaries_local": 0,
+    "invented_pdf_hashes": 0
+  },
+  "bound_artifacts": {
+    "manifest": {
+      "path": "authority/wikiversity/unit-30/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 83295,
+      "sha256": "756ec1f9ea386b8ad0fac38086b6c97f0b94d6dc7a139dc4663911d48655bbe1"
+    },
+    "freeze": {
+      "path": "authority/UNIT_30_AUTHORITY_FREEZE.md",
+      "bytes": 1960,
+      "sha256": "e743b3d3cc0f28bfd479a676360c05779aee13939b8db5710c0ae6cbb45d6d49"
+    },
+    "rights": {
+      "path": "authority/RIGHTS-unit-30.csv",
+      "bytes": 724,
+      "sha256": "8a549164ee7e165ab233fcb0cfe8bd50d4856d71f810437e7c10caa5f43d02d3"
+    },
+    "asset_closure": {
+      "path": "authority/ASSET_CLOSURE-unit-30.json",
+      "bytes": 3723,
+      "sha256": "b19821344583f9b07b6f189e49d826fe626878868f59c228c6a977303e510ea3"
+    },
+    "exercise_map": {
+      "path": "authority/wikiversity/unit-30/ORDERED_EXERCISE_MAP.json",
+      "bytes": 7720,
+      "sha256": "7b6ed646202784b0ae03782e76e751336516d2dda0ed17ecf70500ea2d7a491e"
+    }
+  },
+  "checks": {
+    "root_identity": "PASS",
+    "recursive_transclusion_closure": "PASS",
+    "exercise_solution_topology": "PASS",
+    "media_rights_and_binary_identity": "PASS",
+    "official_pdf_metadata_and_nonidentity_disclosure": "PASS",
+    "source_defect_disclosure": "PASS",
+    "no_network_calls": true
+  }
+}

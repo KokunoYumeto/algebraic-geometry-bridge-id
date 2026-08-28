@@ -22,6 +22,20 @@ and one solved permanent-tag Stacks capstone with oral-proof rubric. Napkin
 Part XX is optional evidence; Stacks pages are references, not translated
 course pages.
 
+Exact corpus accounting is 60 distinct source units and 602 official-PDF
+pages: 30 *Algebraische Kurven* units / 337 pages plus 30 BGK units / 265
+pages. The 19-unit BGK learner route is a view over those same BGK units and
+must never be counted as 19 additional translations; `D100` is a curriculum
+role identifier, not a unit count. At the complete classical Unit 30 boundary,
+the source remainder is exactly all 30 BGK units / 265 official-source pages,
+followed only by the finite original layer named above. The first course
+renders to 504 Indonesian pages; applying the same density gives a planning
+estimate of roughly 400 further reader pages for BGK, or about 900 pages for
+the two-book core. That rendered estimate creates no additional source units.
+This owner lane therefore completes the entire remaining BGK corpus directly,
+with no packet split, overlap, or double-counting of the 19-unit learner-route
+view.
+
 ## Live boundary
 
 Units 1–18 are the current verified and published cumulative reader: 18 lectures, 18
@@ -147,10 +161,42 @@ downloads, fixed-commit HTML/PDF plus README/CITATION/LICENSE, and live Pages
 HTML/PDF. Receipt `qa/UNIT_28_GITHUB_PUBLICATION.json` is 9,243 bytes,
 SHA-256
 `ba3cb54876941cc754c54921761d60f8622b144d1f4bc084770b7ce1ea90adb4`;
-the final bounded anonymous replay passed at `2026-08-27T17:50:28Z`.
-The exact next executable action is to freeze the official 2012 Unit 29
-authority, then translate and verify Units 29–30 in source order before the
-complete classical-volume reader/backend/publication cycle.
+  the final bounded anonymous replay passed at `2026-08-27T17:50:28Z`.
+
+Units 29 and 30 are now independently frozen, translated, corrected, and
+source-verified, completing the entire classical course. Cumulative source
+coverage is exactly 30 lectures, 30 worksheets, 693 exercises, all 122 frozen
+public source solutions, 101 media positions, and 1,554 stable source IDs.
+Unit 30 preserves all seven lecture entities, twelve exercises, exactly the
+two public solutions to Exercises 3 and 4, one public-domain media position,
+and 35 stable IDs. Six repairs are visibly disclosed as `AGC-CORR-0130`
+through `AGC-CORR-0135`; the Exercise 4 title/formula discrepancy is preserved
+as a separate source note. Exact identities are in
+`00_control/UNIT_29_WORKLOG.md`, `00_control/UNIT_30_WORKLOG.md`, the matching
+authority freezes, and `qa/UNIT_29_TRANSLATION_QA.json` plus
+`qa/UNIT_30_TRANSLATION_QA.json`.
+
+The deterministic complete-classical build is 504 A4 pages. Its self-contained
+HTML is 23,805,465 bytes, SHA-256
+`1ca69127dbbf8aa86d8d3f238488686a145ad2dd99ee417c329a5bd9516ca677`;
+its PDF is 16,019,237 bytes, SHA-256
+`6383d3b9804a059e76dc643da5974b8809649707e177ba191a69220fa7ea0e5d`.
+The three previously split duplicate figure captions were replaced by single
+semantic captions plus separate accessibility descriptions. Machine,
+protected-surface, responsive, all-page visual, and font gates pass across all
+504 pages and both desktop/phone layouts. The 22,752-record native backend
+preserves all 21,358 Unit 1–28 records byte-for-byte. The additive common
+adapter validates 53,953 virtual records, 8,268 strict source profiles, and
+128,541 foreign keys and reverses exactly to the native bytes.
+
+The deterministic eight-file complete-classical package is public in the
+existing Zenodo concept as record 22150273 / DOI
+`10.5281/zenodo.22150273`; anonymous readback matched every file. Receipt
+`qa/UNIT_30_ZENODO_PUBLICATION.json` is 4,273 bytes, SHA-256
+`dcd2c4574081a4462627b5775480b27de4d5959e76442bc7d409979480e4bcea`.
+The exact next executable action is to publish the identical frozen package in
+the existing GitHub/Pages lineage, anonymously verify release/raw/Pages bytes,
+then freeze and translate BGK Unit 1.
 
 ## Finite workflow
 

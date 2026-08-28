@@ -64,6 +64,8 @@ PDF_ASSET_REPLACEMENTS = {
         "authority/assets/Connected_and_disconnected_spaces2-500.png",
     "authority/assets/Concentric_Circles.svg":
         "authority/assets/Concentric_Circles-500.png",
+    "authority/assets/Lemniscate_of_Bernoulli.svg":
+        "authority/assets/Lemniscate_of_Bernoulli-250.png",
 }
 PDF_GENERATED_ASSETS = {
     "authority/assets/Soccerball.svg": {
@@ -645,6 +647,17 @@ def main() -> int:
             text = text.replace(
                 "](authority/assets/Dioklova_kisoida.png)",
                 "](authority/assets/Dioklova_kisoida.png){height=72%}",
+            )
+            # The portrait-oriented Unit 29 Commons thumbnail plus its figure
+            # caption is 11.5 pt taller than the A4 float area at Pandoc's
+            # default intrinsic size. Keep the semantic HTML/source untouched
+            # and constrain only the staged print figure, as for the two
+            # established tall-reader assets above.
+            text = text.replace(
+                "](authority/assets/Tschirnhausen_cubic-500.png)"
+                '{fig-alt="Ilustrasi merah sebuah kurva kubik bidang dengan titik ganda"}',
+                "](authority/assets/Tschirnhausen_cubic-500.png)"
+                '{height=72% fig-alt="Ilustrasi merah sebuah kurva kubik bidang dengan titik ganda"}',
             )
             pdf_source.write_text(text, encoding="utf-8", newline="\n")
             pdf_sources.append(pdf_source)

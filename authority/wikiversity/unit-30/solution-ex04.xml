@@ -1,0 +1,261 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.17</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ebene Kurven/Schnitt und Schnittmultiplizität/Y ist X^2 und Y^2 ist X^5/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21596</id>
+    <revision>
+      <id>1106652</id>
+      <parentid>1094626</parentid>
+      <timestamp>2026-07-12T10:40:58Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1106652</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3583" sha1="3dj3eg8rv47e1dm1z97rob7kkc5ffek" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Durch Addition der beiden Gleichungen erhält man für einen Schnittpunkt sofort die Bedingung
+{{
+Relationskette/display
+| 0 
+|| x-x^5
+|| x(1-x^4)
+||
+||
+|SZ=.
+}}
+Die {{math|term= x |SZ=-}}Koordinate eines Schnittpunktes ist also
+{{
+Relationskette
+| x
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}} 
+oder eine vierte Einheitswurzel, also
+{{
+Relationskette
+| x
+|| 1, -1, {{Imaginäre Einheit}} ,- {{Imaginäre Einheit}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Bei
+{{
+Relationskette
+| x
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}} 
+ergibt sich sofort
+{{
+Relationskette
+| y
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}} 
+Den Restklassenring kann man schreiben als
+{{
+Relationskette/display
+| K[X,Y]_{(X,Y)}/(X-Y^2,Y^2-X^5)
+|| K[Y]_{(Y)}/(Y^2-Y^{10})
+|| K[Y]_{Y}/(Y^2(1-Y^8))
+||
+||
+|SZ=.
+}}
+Da {{math|term= 1-Y^8 |SZ=}} in diesem lokalen Ring eine Einheit ist, handelt es sich um {{math|term= K[Y]/(Y^2) |SZ=,}} sodass sich in {{math|term= (0,0) |SZ=}} die Schnittmultiplizität {{math|term= 2 |SZ=}} ergibt.
+
+Es sei nun {{math|term= x |SZ=}} eine vierte Einheitswurzel. Wegen
+{{
+Relationskette
+| y^2
+|| x
+|| 
+|| 
+|| 
+|SZ=
+}} 
+muss {{math|term= y |SZ=}} eine achte Einheitswurzel sein. Wir bezeichnen mit {{math|term= \zeta |SZ=}} die erste primitive achte Einheitswurzel. Dann hat man die acht weiteren Schnittpunkte
+{{
+Math/display|term=
+(1,1), (1,-1), ( {{Imaginäre Einheit}}, \zeta), ( {{Imaginäre Einheit}}, -\zeta), (-1, {{Imaginäre Einheit}}), (-1,- {{Imaginäre Einheit}}), (- {{Imaginäre Einheit}}, \zeta^3), (- {{Imaginäre Einheit}}, -\zeta^3)
+|SZ=.}}
+Wir zeigen, dass in all diesen Punkte der Schnitt transversal ist und daher die Schnittmultiplizität immer eins ist. Dazu berechnen wir allgemein die partiellen Ableitungen, also
+{{
+Math/display|term=
+ {{op:Zeilenvektor| {{op:Partielle Ableitung| F |X}} | {{op:Partielle Ableitung| F |Y}} |}}   = (1,-2Y)  \text{ und } {{op:Zeilenvektor| {{op:Partielle Ableitung| G |X}} | {{op:Partielle Ableitung| G |Y}} }} = (-5X^4,2Y)
+|SZ=. }}
+In jedem der obigen acht Schnittpunkte {{mathl|term= (x,y) |SZ=}} sind wegen
+{{
+Relationskette
+| x
+|\neq| 0
+|| 
+|| 
+|| 
+|SZ=
+}} 
+beide Kurven glatt. Wegen
+{{
+Relationskette
+| x^4
+|| 1
+|| 
+|| 
+|| 
+|SZ=
+}}
+hat der Ableitungsvektor rechts die Gestalt {{mathl|term= (-5,2y) |SZ=.}} Die Richtungstangenten der beiden Kurven können also nur dann linear abhängig sein, wenn
+{{
+Relationskette
+| -2y
+|| -10y
+|| 
+|| 
+|| 
+|SZ=
+}} 
+ist, was wegen 
+{{
+Relationskette
+| y
+|\neq| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+nicht möglich ist.
+
+Betrachten wir noch die unendlich fernen Punkte. Die Homogenisierungen sind
+{{
+Relationskette 
+| \tilde{F} 
+|| XZ-Y^2 
+|| 
+|| 
+|| 
+|| 
+|SZ=,
+}} 
+sodass der einzige unendlich ferne Punkt auf
+{{
+Relationskette 
+|  \bar{C}
+|| V_+(\tilde{F}) 
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}}
+gleich {{math|term= (1,0,0) |SZ=}} ist, und
+{{
+Relationskette 
+|   \tilde{G} 
+|| Y^2Z^3-X^5
+|| 
+|| 
+|| 
+|SZ=,
+}} 
+sodass der einzige unendlich ferne Punkt auf
+{{
+Relationskette
+|  \bar{D}
+|| V_+(\tilde{G})
+|| 
+|| 
+|| 
+|SZ=
+}} 
+gleich {{math|term= (0,1,0) |SZ=}} ist. Diese Punkte sind verschieden, es gibt also keinen weiteren Schnittpunkt im Unendlichen.
+
+Die Gesamtsumme der Schnittmultiplizitäten ist demnach
+{{
+Relationskette 
+| 2+8 \cdot 1 
+|| 10
+|| 
+|| 
+|| 
+|SZ=.
+}} 
+Da die beteiligten Kurven den Grad {{math|term= 2 |SZ=}} und {{math|term= 5 |SZ=}} besitzen, stimmt das mit dem Produktgrad
+{{
+Relationskette 
+|  2 \cdot 5 
+|| 10
+|| 
+|| 
+|| 
+|SZ=
+}} 
+überein, was die Behauptung des Satzes von Bézout ist.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>3dj3eg8rv47e1dm1z97rob7kkc5ffek</sha1>
+    </revision>
+  </page>
+</mediawiki>

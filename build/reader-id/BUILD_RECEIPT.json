@@ -1,12 +1,32 @@
 {
   "schema": "ag-bridge-build-receipt-v2",
-  "built_utc": "2026-08-25T20:16:57.419315+00:00",
+  "built_utc": "2026-08-28T19:46:24.593702+00:00",
   "language": "id-ID",
-  "through_unit": 24,
-  "title": "Kurva Aljabar - Unit 1-24",
+  "through_unit": 30,
+  "title": "Kurva Aljabar - Unit 1-30",
   "pandoc": "pandoc 3.9.0.2",
   "latex": "This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5)",
   "pdf_asset_conversions": [
+    {
+      "source": "authority/assets/Soccerball.svg",
+      "source_bytes": 1311,
+      "source_sha256": "0405cfe3c75353882ffeecdbd4c8514bba49954482109c5f06f760d6a93b70e7",
+      "staged_path": "build/reader-id/Soccerball-pdf.png",
+      "bytes": 153953,
+      "sha256": "38e72257993ff7e687b50428f4923cfcf3f5e55457e6e1d34f9cb3e5e75b58b1",
+      "tool": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+      "arguments": [
+        "-background",
+        "none",
+        "-density",
+        "216",
+        "SOURCE",
+        "-resize",
+        "1200x1200",
+        "-strip",
+        "OUTPUT"
+      ]
+    },
     {
       "source": "authority/assets/Tangent_to_a_curve.svg",
       "source_bytes": 669,
@@ -150,6 +170,11 @@
       "sha256": "e468ce7742960b54b150a711c88963769980b8e4053a09ead57683fd2718ea43"
     },
     {
+      "path": "authority/assets/Blue-sphere.png",
+      "bytes": 123336,
+      "sha256": "5024f8120e040b6f5d40141cc3109c703eda56cb8cdf133d0ef0d11ee7dbb733"
+    },
+    {
       "path": "authority/assets/Cardioid.svg",
       "bytes": 214237,
       "sha256": "9c2b5539d992051331f98d54fa022e4e7ef926eeff8ab0985f4067370f24941c"
@@ -273,6 +298,11 @@
       "path": "authority/assets/Disk_1-250.png",
       "bytes": 4811,
       "sha256": "1ef50b64d023899f66bf5a0f11f2201560ad901948c476b67a00db768baa8262"
+    },
+    {
+      "path": "authority/assets/Double_torus_illustration.png",
+      "bytes": 266030,
+      "sha256": "1a7664a61899dd83245760b2842c6f1b8c2f18887bb507fdbc5405acd1d8a038"
     },
     {
       "path": "authority/assets/DoubleCone.png",
@@ -440,6 +470,11 @@
       "sha256": "89fa3b5d2f2a9af3b9dc1f74962fbf5e70b5e805e804ea09d8a0a25af2ce39f2"
     },
     {
+      "path": "authority/assets/Lemniscate_of_Bernoulli.svg",
+      "bytes": 1087,
+      "sha256": "3e1753bdbf9a9e0068892d1c10c445c104033e2a100d2d0b68f349fc8e1324f4"
+    },
+    {
       "path": "authority/assets/Limacon.png",
       "bytes": 3254,
       "sha256": "85575dc8306fb392f848c89bfe2dee19235eb3d1aba61a6ae66171f2a1e3d5a7"
@@ -458,6 +493,11 @@
       "path": "authority/assets/Lineline.jpg",
       "bytes": 2475,
       "sha256": "de30222f7a8019af95e34ebb77d17e8704ed9a39820906e5fa1136bb4cd67858"
+    },
+    {
+      "path": "authority/assets/Loewenzahn_20.jpg",
+      "bytes": 840757,
+      "sha256": "8b906e3ef135ef3b07c93cdc053ea45155bf6de0d7c6a209d1b7a0746c03f7d7"
     },
     {
       "path": "authority/assets/Logarithmic_spiral-250.png",
@@ -510,6 +550,11 @@
       "sha256": "67e66fee3a5a6ad2c9b0e0b0f76709a916a82410956f5cfb1f2f9906138b62d9"
     },
     {
+      "path": "authority/assets/Perspective_Projection_Principle.jpg",
+      "bytes": 53956,
+      "sha256": "38ced602230489102e8cd69886e3dfd609539606ac4c702d7c930b384d119a6c"
+    },
+    {
       "path": "authority/assets/Polynomialdeg4.png",
       "bytes": 2184,
       "sha256": "e1997aba85dfd5a6e240298b1a0825a67ce069f1be15b9f981fd8d879ea07d68"
@@ -518,6 +563,41 @@
       "path": "authority/assets/Portrait_Confused_With_Johannes_Kepler_1610.jpg",
       "bytes": 761776,
       "sha256": "d7a8c1984a47df396f4d0dc090b836e8073e4f2b1729636f6e871809535a7d4a"
+    },
+    {
+      "path": "authority/assets/Projektiveline1bb.jpg",
+      "bytes": 723518,
+      "sha256": "f6feb42ac3b37d3d1ed8b7826f901b88fac64c0a2fdd8245a178b18e068b61b6"
+    },
+    {
+      "path": "authority/assets/Projektiveline2bb.jpg",
+      "bytes": 777323,
+      "sha256": "40664e9c2f5f63fa03947df2bb120bc5427380cc7db8c14d39f4cc415c6beaea"
+    },
+    {
+      "path": "authority/assets/Projektiveline3bb.jpg",
+      "bytes": 808222,
+      "sha256": "ef5b0c0b0e34a7b947a946bda22d04d5ed11ecb2b88d5e0256f22dcd28e594b2"
+    },
+    {
+      "path": "authority/assets/Projektiveplane1bb.jpg",
+      "bytes": 737889,
+      "sha256": "5845a36699676293242090f7499daf7f033aed559590b2e61cdab0f4c635f23c"
+    },
+    {
+      "path": "authority/assets/Projektiveplane2bb.jpg",
+      "bytes": 789468,
+      "sha256": "784560087dcdcae0ef62505c865bd86db3ebf72a71fb674615ed6e55e2ca782d"
+    },
+    {
+      "path": "authority/assets/Projektiveplane3bb.jpg",
+      "bytes": 801410,
+      "sha256": "7a5642c90b40cae72a66b4f2cfc1804e1a0abf4a64f9d41769b1e5694b824afb"
+    },
+    {
+      "path": "authority/assets/Projektiveplane4bb.jpg",
+      "bytes": 839639,
+      "sha256": "92ad7dfff6cdf2ba0fb6b361444cfd4ed9663a5ae59b1d555604533025fdafd9"
     },
     {
       "path": "authority/assets/Quadratic_Koch.png",
@@ -560,6 +640,16 @@
       "sha256": "b4eeac37b370423b506230506a30a476681ccdc9d905f3dd3cc0cb65d0a77797"
     },
     {
+      "path": "authority/assets/Soccerball.svg",
+      "bytes": 1311,
+      "sha256": "0405cfe3c75353882ffeecdbd4c8514bba49954482109c5f06f760d6a93b70e7"
+    },
+    {
+      "path": "authority/assets/Sphere_with_three_handles.png",
+      "bytes": 398740,
+      "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+    },
+    {
       "path": "authority/assets/Steam_engine_in_action-frame-1.png",
       "bytes": 47378,
       "sha256": "fb145cb93b78fa68e47d78382b102aa3d0a0cdbcff787a69941aca9cdea7cedb"
@@ -585,9 +675,19 @@
       "sha256": "8b832ac2ee48e693929cd3dfbf5bb1f59f7635af21dc8a7ce99fcb66012e7099"
     },
     {
+      "path": "authority/assets/Torus_illustration.png",
+      "bytes": 150645,
+      "sha256": "f5c22545e3dbdf4e056c4439d63bdd41f029589893e178502d460576c44d78b7"
+    },
+    {
       "path": "authority/assets/Tschirnhausen_cubic-250.png",
       "bytes": 16235,
       "sha256": "b896dac1452de98a8638827420e217fdb45ed247b658ef816e9f9ebd169a575d"
+    },
+    {
+      "path": "authority/assets/Tschirnhausen_cubic-500.png",
+      "bytes": 83502,
+      "sha256": "f3dda9da65db9e431f25ea77eb83f51aed2eff1c191dc1206e0759561ee613c7"
     },
     {
       "path": "authority/assets/Twisted_cubic_curve.png",
@@ -605,9 +705,9 @@
       "sha256": "5a469c4675d326a753dca7801524138e64689e476d38d867070f97983f8b07d2"
     },
     {
-      "path": "source/id-ID/frontmatter-units-01-24.md",
-      "bytes": 4526,
-      "sha256": "aef9a6cd385233f1bdaae1075527d587b705e1e5b57e01c3a8bde376f0517a2c"
+      "path": "source/id-ID/frontmatter-units-01-30.md",
+      "bytes": 5332,
+      "sha256": "231f5c64b61d792513e8b9748f1979a9d6a2c5d6e858abc88a937cd54588f3fa"
     },
     {
       "path": "source/id-ID/lecture-01.md",
@@ -730,6 +830,36 @@
       "sha256": "c57dbf838e6e83f2111654b2b35a11da8a63bd4d549676f1b4cc6b25a7692a62"
     },
     {
+      "path": "source/id-ID/lecture-25.md",
+      "bytes": 16861,
+      "sha256": "7cc97947851f8e81d94f4c95ff8698be3d68883f4437a2c9ea3668984fb71916"
+    },
+    {
+      "path": "source/id-ID/lecture-26.md",
+      "bytes": 21417,
+      "sha256": "1119ca7a9079dcc2bd1712c63067d08a32f74a031d6e140334208986461d51a6"
+    },
+    {
+      "path": "source/id-ID/lecture-27.md",
+      "bytes": 24844,
+      "sha256": "81ed14c582b9b181cb9dfe1795c9f0bf95cf894f3af66935dd4912b397f446b9"
+    },
+    {
+      "path": "source/id-ID/lecture-28.md",
+      "bytes": 21279,
+      "sha256": "2a33c0e3049b0d2b140ee46b37f9fba452dca8f19c553317ddbee5c23f3768b7"
+    },
+    {
+      "path": "source/id-ID/lecture-29.md",
+      "bytes": 19163,
+      "sha256": "3ed412b4c719d3ac03574013d5acc2bf8316ecc9a09ef33d286433400d5da951"
+    },
+    {
+      "path": "source/id-ID/lecture-30.md",
+      "bytes": 16737,
+      "sha256": "08d79de14854b3df6064e328049f4b729107c7aff350a4299e5ff3faaf266e9e"
+    },
+    {
       "path": "source/id-ID/media-credits-unit-02.md",
       "bytes": 692,
       "sha256": "2d1794aadd5462eccf5574af6a875699ced4d371f5a4d44e4c19d0b489088b37"
@@ -840,14 +970,44 @@
       "sha256": "e63177d420cbb485f255dd5e54059ab4150c388391001c35ea61cb3a3085ec5e"
     },
     {
+      "path": "source/id-ID/media-credits-unit-25.md",
+      "bytes": 1856,
+      "sha256": "c6ccf54878cb00c9331d32dc4dbe36df88aea3e4962251509ace3d2b7529e9d7"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-26.md",
+      "bytes": 2446,
+      "sha256": "65abf73c3a1d2555f577d97599080b5e9baa96a80c5f7cf5674961ff0f508c16"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-27.md",
+      "bytes": 5048,
+      "sha256": "4e46a14420118be7ad665a59ae39787d6dc29d6c8ca3df1c3bffb6f01dca1e55"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-28.md",
+      "bytes": 3774,
+      "sha256": "6155b47c596d97ea0af6f50f0c451453eca43231f8f04b4ad7617f36abfa1b52"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-29.md",
+      "bytes": 2734,
+      "sha256": "757ce4a42a2bdea04e8410609e68be7b5939d636cc72e26ae40007093d5fd7ae"
+    },
+    {
+      "path": "source/id-ID/media-credits-unit-30.md",
+      "bytes": 2147,
+      "sha256": "65294a2265f27a824b6800e0470f4076bd89e424a817ddb37a612c80f96e0d6e"
+    },
+    {
       "path": "source/id-ID/media-credits.md",
       "bytes": 5005,
       "sha256": "d2e491b7b33d02b3f8cfca2a6d021d593b6d5c98c4d005d7600fe999d27295fd"
     },
     {
       "path": "source/id-ID/pdf-header.tex",
-      "bytes": 253,
-      "sha256": "e7dfc6344d5bd755e5f54f3f00b702336c179e88b4bc1df463f6951572931cc9"
+      "bytes": 290,
+      "sha256": "7f64f02162bb05c3097963b35ac427905bbb2d83c8b6ffc8caeeb873cb9a40b4"
     },
     {
       "path": "source/id-ID/reader.css",
@@ -1093,18 +1253,78 @@
       "path": "source/id-ID/worksheet-24.md",
       "bytes": 5482,
       "sha256": "8d4e1e91890d24f5724dc8c5ae8c62c50e09815f8ded388c42091e9604e41b1a"
+    },
+    {
+      "path": "source/id-ID/worksheet-25-solutions.md",
+      "bytes": 3865,
+      "sha256": "7480af475102a439bcb381911ddb32351a16505c4e5485e90ddfcd4252845fc8"
+    },
+    {
+      "path": "source/id-ID/worksheet-25.md",
+      "bytes": 9017,
+      "sha256": "b14e559e69eef11553922ff521f5619edd2d2aae7bb160e989c23a52d72aef64"
+    },
+    {
+      "path": "source/id-ID/worksheet-26-solutions.md",
+      "bytes": 3349,
+      "sha256": "4fe47d14fea117addf9256a9160d74afb0345c7ebe3adeb750ef531a609b610c"
+    },
+    {
+      "path": "source/id-ID/worksheet-26.md",
+      "bytes": 7267,
+      "sha256": "e18bae8b225872c2cb3f9dffc91af5a9d7824282a2d74af55bba0934d08acfd8"
+    },
+    {
+      "path": "source/id-ID/worksheet-27-solutions.md",
+      "bytes": 1723,
+      "sha256": "fe9b9dd6ced41c2ccbea06bd99e3dfba2708d68290c8763d1c9152cd25ab2733"
+    },
+    {
+      "path": "source/id-ID/worksheet-27.md",
+      "bytes": 5728,
+      "sha256": "2ccf9879d8bad546a21e100fec700c49b49f5fdf98aa8a598c274827700487ee"
+    },
+    {
+      "path": "source/id-ID/worksheet-28-solutions.md",
+      "bytes": 3107,
+      "sha256": "4428b2e180096f7ab719aa649f64e2caa3be03c71d1198a7c7747616b90dfbf5"
+    },
+    {
+      "path": "source/id-ID/worksheet-28.md",
+      "bytes": 7393,
+      "sha256": "fa6b7003de697739d3a03e00cb35b42119f1fff78836de536ba32584e33a361e"
+    },
+    {
+      "path": "source/id-ID/worksheet-29-solutions.md",
+      "bytes": 4232,
+      "sha256": "6ef42d1bdc9fab47fa0c2685b8754d3f9be14f0738c6c280f0f8ada89c6bd505"
+    },
+    {
+      "path": "source/id-ID/worksheet-29.md",
+      "bytes": 7831,
+      "sha256": "d061f5fb7132fa7e3c427f77ea3efce3dc07f4234c3cd4fa9389b03eff95d26b"
+    },
+    {
+      "path": "source/id-ID/worksheet-30-solutions.md",
+      "bytes": 6991,
+      "sha256": "3e46d4bb540acd98d4f33bf91f0e3f08788dc1aa3637992e552eb9bdca6d9809"
+    },
+    {
+      "path": "source/id-ID/worksheet-30.md",
+      "bytes": 7879,
+      "sha256": "6451395d896d6e8d4ff3e7216511309687838d163654e591989801f9e9ac12c6"
     }
   ],
   "outputs": [
     {
-      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-24.pdf",
-      "bytes": 8130610,
-      "sha256": "407343d0a203e25cb6d5357907da4b6a66c6a4836c5e5fcf17b4599621d1a473"
+      "path": "build/reader-id/algebraic-geometry-bridge-id-units-01-30.pdf",
+      "bytes": 16019237,
+      "sha256": "6383d3b9804a059e76dc643da5974b8809649707e177ba191a69220fa7ea0e5d"
     },
     {
       "path": "build/reader-id/index.html",
-      "bytes": 13156471,
-      "sha256": "3753f3a8dc15d8aa1916ecd461b555c3b854139e216cef18d92e6c699258d61f"
+      "bytes": 23805465,
+      "sha256": "1ca69127dbbf8aa86d8d3f238488686a145ad2dd99ee417c329a5bd9516ca677"
     }
   ]
 }

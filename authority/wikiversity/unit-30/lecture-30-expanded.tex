@@ -1,0 +1,1370 @@
+Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 30/latex
+Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 30/latex
+
+\setcounter{section}{30}
+
+
+  \zwischenueberschrift{Der Satz von Bézout}
+
+
+Wir werden in dieser Vorlesung den Satz von Bézout für die projektive Ebene beweisen, das ist die Aussage, dass für zwei projektive Kurven in der projektiven Ebene ohne gemeinsame Komponente vom Grad $m$ und $n$ die Summe über alle Schnittmultiplizitäten gleich $mn$ ist. Unsere Darstellung folgt weitgehend dem Aufbau in Fulton.
+
+
+Zu einem Polynomring $P$ und einer natürlichen Zahl $\ell$ bezeichnet $P_\ell$ im Folgenden die sogenannte $\ell$-te \stichwort {Stufe} {,} die aus allen homogenen Polynomen vom Grad $\ell$ besteht. Diese Bezeichnungsweise übernehmen wir auch für homogene Restklassenringe des Polynomrings
+\zusatzklammer {also einem Restklassenring des Polynomrings nach einem homogenen Ideal} {} {.}
+Diese Stufen werden über dem Grundkörper $K$ von allen Monomen vom Grad $\ell$ erzeugt. Insbesondere handelt es sich um endlichdimensionale $K$-Vektorräume.
+
+
+\inputfaktbeweis
+
+{Schnitttheorie von Kurven/Satz von Bézout/Dimension von Stufe im homogenen Restklassenring/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F,G
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{ = }{ P
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+zwei
+\definitionsverweis {homogene Polynome}{}{}
+vom Grad $m$ und $n$ ohne gemeinsamen nichtkonstanten Teiler.}
+
+\faktfolgerung {Dann ist
+
+
+\mathdisp {\dim_K ( P/(F,G) )_ \ell = mn \text{ für } \ell \text{ hinreichend groß}} { . }
+
+}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Wir betrachten die
+\definitionsverweis {exakte Sequenz}{}{}
+
+
+\mathdisp {0\stackrel{}{\longrightarrow} P \stackrel{\begin{pmatrix} G \\ -F   \end{pmatrix}}{\longrightarrow} P \times P\stackrel{(F,G)}{\longrightarrow} P\stackrel{}{\longrightarrow} P/(F,G)\longrightarrow 0} { . }
+
+
+Dabei steht vorne die Abbildung
+
+\mathl{H \mapsto ( GH,-FH)}{,} dann folgt die Abbildung
+
+\mathl{(A,B) \mapsto (AF+BG)}{} und schließlich die
+\definitionsverweis {Restklassenbildung}{}{.}
+All diese Abbildungen sind
+$P$-\definitionsverweis {Modulhomomorphismen}{}{.}
+Die Injektivität vorne ist klar, da $P$ ein Integritätsbereich ist. Die Exaktheit an den beiden hinteren Stellen ist klar, es bleibt noch die Exaktheit an der zweiten Stelle zu zeigen. Dort ist klar, dass die Verknüpfung die Nullabbildung ist. Es sei also
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ AF+BG
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+in $P$. Da $P$ faktoriell ist und da $F$ und $G$ teilerfremd sind, folgt aber, dass $A$ ein Vielfaches von $G$ sein muss. Dann kann man durch $G$ teilen und erhält, dass $B$ ein Vielfaches von $F$ sein muss
+\zusatzklammer {mit dem gleichen Faktor} {} {.}
+Also kommt
+
+\mathl{(A,B)}{} von links.
+
+
+Da $F$ und $G$ homogen mit fixierten Graden sind, kann man diese Sequenz einschränken auf homogene Stufen, und zwar ergibt sich dabei die exakte Sequenz
+
+
+\mathdisp {0\stackrel{}{\longrightarrow} P_{\ell-m-n}
+\stackrel{\begin{pmatrix} G \\ -F   \end{pmatrix}}{\longrightarrow} P_{\ell - m} \times P_{\ell -n}
+\stackrel{(F,G)}{\longrightarrow} P_\ell\stackrel{}{\longrightarrow}(P/(F,G))_\ell\longrightarrow 0} {  }
+
+
+\zusatzklammer {dabei sind die Stufen für negativen Index gleich $0$} {} {.}
+Die Exaktheit bleibt erhalten, da bei einem homogenen Homomorphismus die Stufen unabhängig voneinander sind. Alle beteiligten Stufen sind nun endlichdimensionale Vektorräume. Für
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \ell
+}
+
+{ \geq }{ m+n
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+sind alle Indizes nichtnegativ und daher gilt
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \dim (P_\ell)
+}
+
+{ = }{ \frac{(\ell+1)(\ell+2)}{2}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Wegen der Additivität der Vektorraumdimension bei exakten Komplexen
+\zusatzklammer {siehe
+Aufgabe 14.7} {} {}
+ergibt sich
+
+
+\mavergleichskettealigndrucklinks
+
+{\vergleichskettealigndrucklinks
+
+{ \dim_{ K } \left(    (P/(F,G))_\ell   \right)
+}
+
+{ =} { \zeilemitteil { \frac{(\ell+1)(\ell+2)}{2} -\frac{(\ell-m+1)(\ell-m+2)}{2}-\frac{(\ell-n+1)(\ell-n+2)}{2} } {+ \frac{(\ell-m-n+1)(\ell-m-n+2)}{2}} }
+
+{ =} { \zeilemitteil { \frac{2- (-m+1)(-m+2) - (-n+1)(-n+2) +(-m-n+1)(-m-n+2)}{2}
+} {} }
+
+{ =} { \zeilemitteil { \frac{2mn}{2}
+} {} }
+
+{ =} { \zeilemitteil { mn
+} {} }
+
+}
+{}{}{.}
+
+
+}
+
+
+\inputfaktbeweis
+
+{Schnitttheorie von Kurven/Satz von Bézout/Injektivität der Multiplikation mit Z im homogenen Restklassenring/Fakt}
+
+{Lemma}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F,G
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\definitionsverweis {homogene Polynome}{}{}
+ohne gemeinsame
+\zusatzklammer {projektive} {} {}
+Nullstelle auf
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ V_+(Z)
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ R
+}
+
+{ = }{ K[X,Y,Z]/(F,G)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+der zugehörige
+\definitionsverweis {Restklassenring}{}{.}}
+
+\faktfolgerung {Dann ist die Abbildung
+\maabbeledisp {} { R } { R
+} { H } { ZH
+} {,}
+injektiv.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Es sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ H
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und vorausgesetzt, das $H$ unter der angegebenen Abbildung auf $0$ geht. Das bedeutet, dass eine Gleichung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ ZH
+}
+
+{ =} { LF+MG
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+mit
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ L,M
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+vorliegt. Wir ersetzen in dieser Gleichung die Variable $Z$ durch $0$ und erhalten die Gleichung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ 0
+}
+
+{ =} { L(X,Y,0)F(X,Y,0) + M(X,Y,0)G(X,Y,0)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+in
+
+\mathl{K[X,Y]}{.} Nach der Voraussetzung, dass es keine gemeinsame projektive Nullstelle auf
+
+\mathl{V_+(Z)}{} gibt, besitzen
+\mathkor {} {F(X,Y,0)} {und} {G(X,Y,0)} {}
+in
+
+\mathl{{\mathbb A}^{2}_{ K }}{} nur den Nullpunkt
+
+\mathl{(0,0)}{} als gemeinsame Nullstelle. Daher sind diese Polynome in
+
+\mathl{K[X,Y]}{} teilerfremd. Das bedeutet, dass es ein Polynom
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ Q
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+mit
+
+
+\mathdisp {L(X,Y,0) =Q G(X,Y,0)  \text{ und } M(X,Y,0) = -Q F(X,Y,0)} {  }
+
+
+gibt. Dies wiederum heißt zurückübersetzt nach
+
+\mathl{K[X,Y,Z]}{,} dass dort
+
+
+\mathdisp {L = Q G(X,Y,0)  + Z\overline{L} \text{ und } M =- Q F(X,Y,0)  + Z \overline{M}} {  }
+
+
+gilt. Mit \mathkon  { F=F(X,Y,0)+Z \overline{F}  }  {  und  }  { G=G(X,Y,0)+Z \overline{G}   }{ } ergibt sich aus der Ausgangsgleichung
+
+
+\mavergleichskettealignhandlinks
+
+{\vergleichskettealignhandlinks
+
+{ ZH
+}
+
+{ =} { LF+MG
+}
+
+{ =} { \left(  Q G(X,Y,0) + Z \overline{L}  \right) F + \left(  -Q F(X,Y,0) + Z \overline{M}  \right) G
+}
+
+{ =} { Q \left(  G -Z \overline{G}  \right) F - Q \left(  F-Z \overline{F}  \right) G + Z \overline{L} F + Z \overline{M} G
+}
+
+{ =} { -QZ \overline{G} F + Q Z \overline{F} G + Z \overline{L} F + Z \overline{M} G
+}
+
+}
+{
+
+\vergleichskettefortsetzungalign
+
+{ =} { Z \left(  -Q \overline{G} F + Q \overline{F} G + \overline{L} F+  \overline{M} G  \right)
+}
+
+{ } {}
+
+{ } {}
+
+{ } {}
+
+}
+{}{.}
+Aus dieser Gleichung können wir $Z$ herauskürzen und erhalten eine Darstellung für $H$ als Linearkombination aus $F$ und $G$. Damit ist die Restklasse von $H$ in $R$ ebenfalls $0$.
+
+
+}
+
+
+\bild{ \begin{center}
+
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Two_cubic_curves} {png} }
+
+\end{center}
+
+\bildtext {} }
+
+
+\bildlizenz { Two cubic curves.png } {Hack} {} {Commons} {PD} {}
+
+
+Wir kommen nun zum \stichwort {Satz von Bézout } {.}
+
+
+\inputfaktbeweis
+
+{Schnitttheorie von Kurven/Satz von Bézout/Fakt}
+
+{Satz}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{F,G
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\definitionsverweis {homogene Polynome}{}{}
+vom Grad $m$ und $n$ ohne gemeinsame Komponente mit zugehörigen Kurven
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ C = V_+(F), D = V_+(G)
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}}
+
+\faktfolgerung {Dann gilt
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \sum_{ P}  \operatorname{mult} _{ { P} }  (   C ,  D  )
+}
+
+{ =} { mn
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Der Durchschnitt
+
+\mathl{C \cap D}{} besteht nur aus endlich vielen Punkten. Wir können daher
+nach Aufgabe 27.10
+annehmen, dass alle Schnittpunkte in
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ {\mathbb A}^{2}_{K}
+}
+
+{ = }{ D_+(Z)
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+liegen. Es seien \mathkon  {  \tilde{ F }   }  {  und  }  {  \tilde{ G }    }{ } die inhomogenen Polynome aus
+
+\mathl{K[X,Y]}{,} die die affinen Kurven \mathkon  { C \cap {\mathbb A}^{2}_{K}   }  {  und  }  { D \cap {\mathbb A}^{2}_{K}   }{ } beschreiben. Damit ist
+
+
+\mavergleichskettealignhandlinks
+
+{\vergleichskettealignhandlinks
+
+{ \sum_{P \in {\mathbb P}^{2}_{K} } \operatorname{mult} _{ { P} }  (   F ,  G  )
+}
+
+{ =} { \sum_{  P \in {\mathbb A}^{2}_{K}  } \operatorname{mult} _{ { P} }  (   \tilde{ F }  ,  \tilde{ G }  )
+}
+
+{ =} { \sum_{  P \in {\mathbb A}^{2}_{K}  } \dim_{ K } \left(   K[X,Y]_{{\mathfrak m}_P }/ \left(  \tilde{ F } ,\tilde{ G }  \right)   \right)
+}
+
+{ =} { \dim_{ K } \left(   K[X,Y]/ \left(  \tilde{ F } ,\tilde{ G }  \right)   \right)
+}
+
+{ } {
+}
+
+}
+{}
+{}{.}
+Dabei beruht die letzte Gleichung auf
+Satz 26.11.
+Wir wollen die $K$-Dimension dieses inhomogenen Restklassenrings mit der Dimension einer Stufe des homogenen Restklassenrings
+
+\mathl{(K[X,Y,Z]/(F,G))_\ell}{} in Verbindung bringen. Von letzterer wissen wir aufgrund von
+Lemma 30.1,
+dass sie für $\ell$ hinreichend groß gleich $mn$ ist.
+
+
+Wir wählen eine
+\definitionsverweis {Basis}{}{}
+
+
+\mathl{V_1 , \ldots , V_{mn}}{} von
+
+\mathl{(K[X,Y,Z]/(F,G))_\ell}{}
+\zusatzklammer {$\ell$ hinreichend groß und fixiert} {} {}
+und behaupten, dass die Dehomogenisierungen
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ v_i
+}
+
+{ =} { V_i(X,Y,1)
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+eine Basis von
+
+\mathl{K[X,Y]/ \left(  \tilde{ F } ,\tilde{ G }  \right)}{} bilden. Dazu sei
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ q
+}
+
+{ \in }{ K[X,Y]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+beliebig vorgegeben mit Homogenisierung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ Q
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+vom Grad $d$. Es sei $e$ so gewählt, dass
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ d+e
+}
+
+{ \geq }{ \ell
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ist. Aufgrund von
+Lemma 30.2
+sind die Abbildungen
+\zusatzklammer {
+
+\mavergleichskettek
+
+{\vergleichskettek
+
+{ \lambda
+}
+
+{ \geq }{ 1
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}} {} {}
+\maabbeledisp {} {(K[X,Y,Z]/(F,G))_\ell } { (K[X,Y,Z]/(F,G))_{\ell+\lambda}
+} { H } { Z^{\lambda} H
+} {,}
+injektiv und daher auch bijektiv, da die Dimensionen übereinstimmen. Insbesondere bilden die
+
+
+\mathbed {Z^\lambda V_i} {}
+
+ {i= 1 , \ldots , mn} {}
+
+ {} {} {} {,}
+eine Basis von
+
+\mathl{\left(  K[X,Y,Z]/(F,G)  \right)_{\ell + \lambda}}{.} Es gibt dann also eine Darstellung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ Z^{e}Q
+}
+
+{ = }{ \sum_{i = 1}^{mn} a_i Z^{d+e-\ell} V_i
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Durch Dehomogenisieren ergibt sich daraus sofort eine Darstellung für $q$.
+
+
+Zum Nachweis der
+\definitionsverweis {linearen Unabhängigkeit}{}{}
+sei
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \sum_{i=1}^{mn} a_i v_i
+}
+
+{ =} { 0
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+angenommen, sodass in
+
+\mathl{K[X,Y]}{} eine Gleichung
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \sum_{i = 1}^{mn} a_i v_i
+}
+
+{ =} { \tilde{  A  } \tilde{  F  } + \tilde{  B  } \tilde{  G  }
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{}
+vorliegt. Dabei setzen wir $\tilde{  A  } , \tilde{  B  }$ als Dehomogenisierung von zwei homogenen Polynomen
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ A,B
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+an. Somit liegen zwei Ausdrücke
+\zusatzgs {nämlich \mathlk{\sum_{i=1}^{mn} a_iV_i}{}
+\zusatzklammer {homogen vom Grad $\ell$} {} {} und \mathlk{AF+BG}{}
+\zusatzklammer {eine Summe von zwei homogenen Polynomen} {} {}} {}
+vor, deren Dehomogenisierungen übereinstimmen. Durch geeignete Wahl von
+
+\mathl{r,s,t}{} können wir annehmen, dass
+\mathkor {} {\sum_{i=1}^{mn} a_i Z^rV_i} {und} {Z^sAF +Z^t BG} {}
+\zusatzklammer {homogen sind und} {} {}
+den gleichen Grad besitzen. Nach
+Aufgabe 6.9
+ist dann bereits
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ \sum_{i = 1}^{mn} a_i Z^rV_i
+}
+
+{ =} { Z^sAF +Z^t BG
+}
+
+{ } {
+}
+
+{ } {
+}
+
+{ } {
+}
+
+}
+{}{}{.}
+Diese Gleichung bedeutet
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ \sum_{i = 1}^{mn} a_i Z^rV_i
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+in
+
+\mathl{K[X,Y,Z]/(F,G)}{,} woraus sich
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{a_i
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+ergibt.
+
+
+}
+
+
+\inputfaktbeweis
+
+{Schnitttheorie von Kurven/Satz von Bézout/Es gibt Schnittpunkt/Fakt}
+
+{Korollar}
+
+{}
+
+{
+
+
+\faktsituation {}
+
+\faktvoraussetzung {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C,D
+}
+
+{ \subset }{ {\mathbb P}^{2}_{K}
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\definitionsverweis {ebene projektive Kurven}{}{.}}
+
+\faktfolgerung {Dann ist der Durchschnitt
+
+\mathl{C \cap D}{} nicht leer.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Die Aussage stimmt, wenn $C$ und $D$ eine gemeinsame Komponente besitzen. Andernfalls folgt sie aus
+Satz 30.3.
+
+
+}
+
+
+\inputfaktbeweis
+
+{Schnitttheorie von Kurven/Satz von Bézout/Maximal mn Schnittpunkte/Fakt}
+
+{Korollar}
+
+{}
+
+{
+
+
+\faktsituation {Es sei $K$ ein
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{ F,G
+}
+
+{ \in }{ K[X,Y,Z]
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+\definitionsverweis {homogene Polynome}{}{}
+vom Grad $m$ und $n$}
+
+\faktvoraussetzung {ohne gemeinsame Komponente mit den zugehörigen Kurven
+
+
+\mathl{C=V_+(F), D=V_+(G) \subset {\mathbb P}^{2}_{K}}{.}}
+
+\faktfolgerung {Dann gibt es maximal $mn$ Schnittpunkte von $C$ und $D$.}
+
+\faktzusatz {}
+
+\faktzusatz {}
+
+
+}
+
+{
+
+
+Dies folgt direkt aus
+Satz 30.3,
+da jeder Schnittpunkt zumindest mit Schnittmultiplizität $1$ in die Summe eingeht.
+
+
+}
+
+
+\inputbeispiel{}
+
+{
+
+
+Wir betrachten die
+\definitionsverweis {Neilsche Parabel}{}{}
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{C
+}
+
+{ = }{ V_+ \left(  ZY^2-X^3  \right)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und den Kreis mit Mittelpunkt
+
+\mathl{(1,0,1)}{,} also
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{D
+}
+
+{ = }{ V_+ \left(  (X-Z)^2+Y^2-Z^2  \right)
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{.}
+Nach
+dem Satz von Bézout
+erwarten wir eine Gesamtschnittzahl von $6$. Wir berechnen die Schnittpunkte. Für
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Z
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+folgt aus der ersten Gleichung
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{X
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+und dann aus der zweiten
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Y
+}
+
+{ = }{ 0
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{,}
+sodass es keinen Schnittpunkt auf der projektiven Geraden
+
+\mathl{V_+(Z)}{} gibt. Wir betrachten daher die affinen Gleichungen \mathkon  { Y^2-X^3= 0  }  {  und  }  {  (X-1)^2+Y^2-1=0   }{ .} Wir berechnen die Schnittpunkte, indem wir
+
+
+\mavergleichskette
+
+{\vergleichskette
+
+{Y^2
+}
+
+{ = }{ 1-(X-1)^2
+}
+
+{  }{
+}
+
+{    }{
+}
+
+{   }{
+}
+
+}
+{}{}{}
+in die erste Gleichung einsetzen. Dies ergibt
+
+
+\mavergleichskettedisp
+
+{\vergleichskette
+
+{ 1-(X-1)^2-X^3
+}
+
+{ =} { -X^3-X^2+2X
+}
+
+{ =} { X \left(  -X^2 -X +2  \right)
+}
+
+{ =} { -X(X-1)(X+2)
+}
+
+{ } {}
+
+}
+{}{}{.}
+Dies führt zu den Schnittpunkten
+
+
+\mathdisp {(0,0), (1,1), (1,-1), \left(  -2,2 \sqrt{2} { \mathrm i}  \right)  , \left(  -2,-2 \sqrt{2} { \mathrm i}  \right)} { . }
+
+
+Die beiden letzten Punkte zeigen auch, dass der Satz nur über einem algebraisch abgeschlossenen Körper gilt. Es gibt also nur $5$ Schnittpunkte. Da die Neilsche Parabel im Nullpunkt eine Singularität besitzt und dieser ein Schnittpunkt ist, so muss dort die Schnittmultiplizität größer als $1$ sein. Um dies zu bestätigen betrachten wir
+
+
+\mavergleichskettealigndrucklinks
+
+{\vergleichskettealigndrucklinks
+
+{ K[X,Y]_{(X,Y)}/ \left(  Y^2-X^3,Y^2-1+(X-1)^2  \right)
+}
+
+{ =} { K[X,Y]_{(X,Y)}/ \left(  Y^2-X^3, X(X-1)(X+2)  \right)
+}
+
+{ =} { K[X,Y]_{(X,Y)}/ \left(  Y^2-X^3, X  \right)
+}
+
+{ =} { K[X,Y]_{(X,Y)}/ \left(  Y^2, X  \right)
+}
+
+{ =} { K[Y]/ \left(  Y^2  \right)
+}
+
+}
+{}{}{.}
+Dabei haben wir die Einsetzungsrechnung von oben wiederholt und dann ausgenutzt, dass \mathkon  { X-1  }  {  und  }  { X+2   }{ } Einheiten im lokalen Ring
+
+\mathl{K[X,Y]_{(X,Y)}}{} sind. Die Dimension ist also $2$ und damit muss die Schnittmultiplizität an allen anderen Schnittpunkten $1$ sein, was man auch direkt bestätigen kann.
+
+
+}

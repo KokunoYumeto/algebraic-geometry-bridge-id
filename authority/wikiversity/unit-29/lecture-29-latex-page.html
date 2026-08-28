@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/" about="//de.wikiversity.org/wiki/Spezial:Weiterleitung/revision/806127"><head prefix="mwr: //de.wikiversity.org/wiki/Spezial:Weiterleitung/"><meta charset="utf-8"/><link rel="dc:replaces" resource="mwr:revision/796347"/><meta property="mw:revisionSHA1" content="3e3nqvm6nsvokcc33v86ivll7ce6lru"/><meta property="dc:modified" content="2022-09-18T07:15:22Z"/><meta property="mw:pageNamespace" content="106"/><meta property="mw:pageId" content="53378"/><meta property="mw:htmlVersion" content="2.8.0"/><meta property="mw:html:version" content="2.8.0"/><base href="//de.wikiversity.org/wiki/"/><link rel="dc:isVersionOf" href="//de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012)/Vorlesung_29/latex"/><title>Kurs:Algebraische Kurven (Osnabrück 2012)/Vorlesung 29/latex</title><meta property="mw:jsConfigVars" content='{"wgParsoidHtmlVersion":"2.8.0"}'/><meta property="mw:moduleStyles" content="mediawiki.skinning.content.parsoid"/><link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;only=styles&amp;skin=vector"/><meta http-equiv="content-language" content="de"/><meta http-equiv="vary" content="Accept"/><meta http-equiv="x-mediawiki-render-id" content="9a30fb28-9e83-11f1-acf4-99d9cb5cbfac"/></head><body class="mw-content-ltr sitedir-ltr ltr mw-body-content mediawiki mw-parser-output parsoid-body" lang="de" dir="ltr" data-mw-parsoid-version="0.24.0.0-alpha19" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"Latex","href":"./Vorlage:Latex"},"params":{},"i":0}}]}' id="mwAg">\setcounter{section}{29}<br/><br/></p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Projektion weg von einem Punkt}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/><br/><br/>
+\inputdefinition<br/>{}<br/>{</p><span about="#mwt1">
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Die 
+\definitionsverweis {Abbildung}{}{}
+\maabbeledisp {} { {\mathbb P}^{ n }_{ K} \setminus \{ (1,0 , \ldots , 0) \}
+} { {\mathbb P}^{n-1}_{K}
+} { ( x_0 , x_1, \ldots ,  x_n)
+} { (x_1 , \ldots , x_n)
+} {,}
+heißt \definitionswort {die Projektion weg vom Punkt}{} <br/>\mathl{(1,0 , \ldots , 0)}{.}  </p>
+</div><span about="#mwt1">
+
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Diese Abbildung ist ein wohldefinierter Morphismus, der außerhalb des \stichwort {Zentrums} {} <br/>\mathl{(1,0 , \ldots , 0)}{} der Projektion definiert ist. Jedem anderen Punkt wird derjenige Punkt des <br/>\mathl{{\mathbb P}^{n-1}_{K}}{} zugeordnet, der der Geraden durch den Punkt und dem Zentrum entspricht. Daher ist die Abbildung surjektiv und jede Faser ist eine projektive Gerade ohne den Zentrumspunkt, also eine affine Gerade 
+\zusatzklammer {es liegt ein sogenanntes \stichwort {Geradenbündel} {} über dem  ${\mathbb P}^{n-1}_{K}$ vor} {} {.}
+Es handelt sich um die Fortsetzung der Kegelabbildung 
+\maabbdisp {} {{ {\mathbb A}_{ K }^{ n  } } \setminus \{0\}} { {\mathbb P}^{n-1}_{K}
+} {}
+auf den punktierten projektiven Raum. Die entsprechende Abbildung kann man zu jedem Zentrumspunkt definieren, siehe
+<a rel="mw:WikiLink" href="./Projektiver_Raum/Projektion_weg_von_beliebigem_Punkt/Matrixbeschreibung/Aufgabe" title="Projektiver Raum/Projektion weg von beliebigem Punkt/Matrixbeschreibung/Aufgabe">Aufgabe 29.7</a>.</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Abbildungen nach ${\mathbb P}^{1}_{K}$}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Der folgende Satz liefert eine neue Version
+der <a rel="mw:WikiLink" href="./Ebene_Kurven/Algebraisch_abgeschlossener_Körper/Noethersche_Normalisierung/Fakt" title="Ebene Kurven/Algebraisch abgeschlossener Körper/Noethersche Normalisierung/Fakt">Noetherschen Normalisierung</a>.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene projektive Kurve/Abbildung nach P^1 über Projektion von einem Punkt/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C
+}<br/>{ \subset }{ {\mathbb P}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+eine 
+\definitionsverweis {ebene projektive Kurve}{}{}
+vom Grad $d$.}<br/>\faktfolgerung {Dann gibt es einen surjektiven 
+\definitionsverweis {Morphismus}{}{}
+\maabbdisp {} { C } { {\mathbb P}^{1}_{K}
+} {}
+derart, dass alle 
+\definitionsverweis {Fasern}{}{}
+aus maximal $d$ Punkten bestehen.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ {\mathbb P}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Punkt, der nicht auf der Kurve liegt. Einen solchen Punkt gibt es, da der Körper insbesondere unendlich ist. Wir betrachten die 
+\definitionsverweis {Projektion weg von $P$}{}{,}
+die insgesamt einen Morphismus
+<br/>\mathdisp {C \hookrightarrow {\mathbb P}^{2}_{K} \setminus \{P\} \longrightarrow {\mathbb P}^{1}_{K}} {  }<br/>
+induziert. Die Faser dieses Morphismus über einem Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Q
+}<br/>{ \in }{ {\mathbb P}^{1}_{K} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+\zusatzklammer {der eine Richtung in
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ P
+}<br/>{ \in }{ {\mathbb P}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+repräsentiert} {} {}
+besteht genau aus den Punkten der Kurve, die auf der durch $Q$ definierten Geraden
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ G
+}<br/>{ =} { V_+(aX+bY+cZ) 
+}<br/>{ \cong} { {\mathbb P}^{1}_{K}
+}<br/>{ \subset} { {\mathbb P}^{2}_{K}
+}<br/>{ } {
+}<br/>}
+{}{}{}
+liegen. Daher wird die Faser über $Q$ auf $G$ beschrieben, indem man in der Kurvengleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ C
+}<br/>{ = }{ V_+(F)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+mittels der Geradengleichung eine Variable eliminiert. Das Ergebnis ist ein homogenes Polynom $\bar{F}$ in zwei Variablen vom Grad $d$, das nicht $0$ ist, denn sonst wäre $P$ ein Punkt der Kurve. Da wir über einem algebraisch abgeschlossenen Körper sind, besitzt dieses Polynom $\bar{F}$ mindestens eine und höchstens $d$ Nullstellen, die alle von $P$ verschieden sind. Dies ergibt die Surjektivität und die Abschätzung für die Faser.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {Körper}{}{}
+und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{C
+}<br/>{ \subset }{ {\mathbb P}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine 
+\definitionsverweis {glatte}{}{}
+irreduzible
+\definitionsverweis {ebene projektive Kurve}{}{.}
+Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{D
+}<br/>{ = }{ C \cap D_+(Z)
+}<br/>{ \cong }{ K\!-\!\operatorname{Spek}\, \left(  R  \right)
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ein affines Teilstück davon. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ q
+}<br/>{ = }{ g/h 
+}<br/>{ \in }{ Q(R)
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+eine rationale Funktion
+\zusatzklammer {mit \mathlk{g,h \in R,\, h \neq 0}{}} {} {.}}<br/>\faktfolgerung {Dann gibt es einen eindeutigen
+\definitionsverweis {Morphismus}{}{}
+\maabbdisp {\varphi} { C } { {\mathbb P}^{1}_{K}
+} {} 
+derart, dass das Diagramm
+<br/>\mathdisp {\begin{matrix} D(h) &amp; \stackrel{ g/h }{\longrightarrow} &amp;  {\mathbb A}^{1}_{K} \cong D_+(s) &amp;  \\ \downarrow &amp; &amp; \downarrow  &amp; \\  C  &amp; \stackrel{ \varphi }{\longrightarrow} &amp;  {\mathbb P}^{1}_{ K }  &amp; \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }<br/>
+kommutiert.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Wir definieren zunächst auf $D$ eine Fortsetzung 
+\maabbdisp {\varphi} { D } { {\mathbb P}^{1}_{}
+} {}
+der rationalen Funktion <br/>\mathl{g/h}{.} Es sei hierzu
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ D
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Punkt der Kurve. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ D(h)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ist nichts zu tun, sei also
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ h(P)
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.} 
+Da die Kurve glatt ist, ist nach
+<a rel="mw:WikiLink" href="./Ebene_algebraische_Kurve/Punkt/Glatt,diskreter_Bewertungsring,_Multiplizität/Fakt" title="Ebene algebraische Kurve/Punkt/Glatt,diskreter Bewertungsring, Multiplizität/Fakt">Satz 23.6</a>
+der lokale Ring $B$ der Kurve im Punkt $P$ ein 
+\definitionsverweis {diskreter Bewertungsring}{}{.}
+Daher hat der Quotient <br/>\mathl{g/h}{} dort eine Beschreibung als
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \frac{g}{h}
+}<br/>{ =} { u \pi^n
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+mit \mathkon  { u \in B^\times  }  {  und  }  { n \in \Z  }{ }
+\zusatzklammer {$\pi$ sei eine Ortsuniformisierende} {} {.}
+Es gibt eine offene Umgebung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{P
+}<br/>{ \in }{ D(\psi )
+}<br/>{ \subseteq }{ D
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+derart, dass $\pi$ und $u$ über <br/>\mathl{D( \psi)}{} definiert sind und $u$ dort eine Einheit ist. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{n
+}<br/>{ \geq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ g/h 
+}<br/>{ \in }{ R_\psi
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+und die Undefiniertheitsstelle ist also sogar als Abbildung nach <br/>\mathl{{\mathbb A}^{1}_{K}}{} \anfuehrung{hebbar}{.} Bei 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ n
+}<br/>{ \leq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist der umgekehrte Bruch
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ h/g
+}<br/>{ = }{ u^{-1} \pi^{-n}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+auf <br/>\mathl{D(\psi)}{} definiert als eine Abbildung nach <br/>\mathl{{\mathbb A}^{1}_{K}}{.} Mittels der \anfuehrung{verdrehten Einbettung}{} <br/>\mathl{{\mathbb A}^{1}_{K} \cong D_+(t) \hookrightarrow {\mathbb P}^{1}_{K}}{} erhält man eine Abbildung nach <br/>\mathl{{\mathbb P}^{1}_{K}}{.}</p>
+
+<p>Wir müssen zeigen, dass diese zwei Morphismen in die projektive Gerade dort, wo beide definiert sind, übereinstimmen. Das sind die Punkte $P$, in denen $\varphi$ weder eine Nullstelle noch einen Pol besitzt. Die Verträglichkeit folgt daraus, dass in einer offenen Umgebung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ U
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+eine Abbildung
+\maabbdisp {g/h} { U } { ({\mathbb A}^{1}_{K})^\times = {\mathbb A}^{1}_{K} \setminus \{0\} 
+} {}
+vorliegt, und dass das Diagramm
+<br/>\mathdisp {\begin{matrix}  ({\mathbb A}^{1}_{K}) ^\times  &amp; \stackrel{ i^{-1} }{\longrightarrow} &amp;  {\mathbb A}^{1}_{K} \cong D_+(t) &amp;  \\ \downarrow &amp; &amp; \downarrow  &amp; \\  {\mathbb A}^{1}_{K} \cong D_+(s)    &amp; \stackrel{  }{\longrightarrow} &amp;  {\mathbb P}^{1}_{ K }  &amp; \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }<br/>
+kommutiert. Dies ergibt einen wohldefinierten Morphismus auf dem affinen Stück $D$.</p>
+
+<p>Für einen beliebigen Punkt der projektiven Kurve $C$ und eine affine Umgebung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ D'
+}<br/>{ \subset }{ C
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+liegt die gleiche Situation vor, da
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ D_+(h) \cap D' 
+}<br/>{ \neq }{ \emptyset
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist, und somit auf einer offenen nichtleeren Menge die rationale Funktion 
+\zusatzklammer {mit anderen Zählern und Nennern} {} {}
+definiert ist. Damit lässt sich das vorhergehende Argument genauso anwenden.</p>
+
+<p>Die Eindeutigkeit folgt daraus, dass auf jeder affinen offenen Menge
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ P
+}<br/>{ \in }{ U
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+der Durchschnitt <br/>\mathl{U \cap D_+(h)}{} nicht leer ist. Ein Morphismus auf einer integren Varietät in die affine Gerade <br/>\mathl{{\mathbb A}^{1}_{K}}{} ist durch die rationale Funktion eindeutig festgelegt.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<br/><br/><br/>\inputbeispiel{}<br/>{</p><span about="#mwt1">
+
+</span><div id="Artikelinhalt" about="#mwt1">
+<p>Die Inversenbildung
+\maabbeledisp {} { {\mathbb A}^{1}_{K} \supset D(z)} { {\mathbb A}^{1}_{K} } { z } {z^{-1} } {,}
+lässt sich zu einem bijektiven Morphismus
+\maabbeledisp {} { {\mathbb P}^{1}_{K} } { {\mathbb P}^{1}_{K} } {(x,y)} {(y,x) } {,}
+fortsetzen. Dies folgt direkt aus
+<a rel="mw:WikiLink" href="./Glatte_projektive_Kurven/Rationale_Funktion_als_Morphismus_nach_P^1/Fakt" title="Glatte projektive Kurven/Rationale Funktion als Morphismus nach P^1/Fakt">Satz 29.3</a>.
+Dabei geht ein Punkt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ z
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+auf <br/>\mathl{1/z}{} und der Nullpunkt geht auf den unendlich fernen Punkt $\infty$.</p>
+</div><p about="#mwt1"><br/></p><span about="#mwt1">
+</span><p about="#mwt1">}</p><span about="#mwt1">
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Parametrisierte projektive ebene Kurven}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Sei eine rational parametrisierte Kurve <br/>\mathl{s \mapsto \left( \frac{\varphi_1(s)}{\psi(s)}, \frac{\varphi_2(s)}{ \psi(s)} \right)}{} gegeben. Wir haben in
+<a rel="mw:WikiLink" href="./Affine_Ebene/Rationale_Abbildung/Bild_ist_algebraisch/Fakt" title="Affine Ebene/Rationale Abbildung/Bild ist algebraisch/Fakt">Satz 6.11</a>
+gesehen, dass das Bild eine algebraische Gleichung erfüllt. Dabei haben wir im dortigen Beweis schon die homogenisierte Parametrisierung verwendet, die jetzt als projektive Fortsetzung wieder auftaucht.</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei
+\maabbeledisp {} { {\mathbb A}^{1}_{K} \supseteq D(\psi) } { {\mathbb A}^{2}_{K} } { s } { \left( \frac{\varphi_1(s)}{ \psi(s)}, \frac{\varphi_2(s)}{ \psi(s)} \right) 
+} {,}
+eine rationale Parametrisierung in gekürzter
+\zusatzklammer {d.h. die \mathlk{\varphi_1, \varphi_2, \psi}{} haben keinen gemeinsamen Teiler} {} {}
+Darstellung. Es sei $d$ der maximale Grad der beteiligten Polynome und es seien <br/>\mathl{\hat{ \varphi_1   }, \hat{ \varphi_2   }, \hat{  \psi  }}{} die 
+\definitionsverweis {Homogenisierungen}{}{} 
+\zusatzklammer {bezüglich der neuen Variablen $t$} {} {}
+davon. Es seien $H_i$ die Produkte dieser Homogenisierungen mit einer Potenz von $t$ derart, dass <br/>\mathl{H_1,H_2,H_3}{} alle den Grad $d$ besitzen.}<br/>\faktfolgerung {Dann definieren die <br/>\mathl{H_1,H_2,H_3}{} einen Morphismus
+\maabbeledisp {H} { {\mathbb P}^{1}_{K} } { {\mathbb P}^{2}_{K} } {(s,t)} { \left( H_1(s,t)  , \,  H_2(s,t)  , \,  H_3(s,t)                 \right)  
+} {,}
+derart, dass das Diagramm
+<br/>\mathdisp {\begin{matrix}  {\mathbb A}^{1}_{K} \supseteq D(\psi) &amp; \stackrel{  }{\longrightarrow} &amp;  {\mathbb A}^{2}_{K} \cong D_+(Z) &amp;  \\ \downarrow &amp; &amp; \downarrow  &amp; \\  {\mathbb P}^{1}_{K}  &amp; \stackrel{ H }{\longrightarrow} &amp;  {\mathbb P}^{2}_{K}  &amp; \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }<br/>
+kommutativ ist.}<br/>\faktzusatz {Dabei liegt das Bild unter $H$ auf dem projektiven Abschluss der affinen Bildkurve.}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die Abbildung $H$ ist aufgrund von
+<a rel="mw:WikiLink" href="./Projektive_Abbildung/Morphismus_durch_homogenen_Polynome_vom_gleichen_Grad/Auf_offener_Menge/Aufgabe" title="Projektive Abbildung/Morphismus durch homogenen Polynome vom gleichen Grad/Auf offener Menge/Aufgabe">Aufgabe 29.6</a>
+wohldefiniert, und zwar auf ganz <br/>\mathl{{\mathbb P}^{1}_{K}}{,} da <br/>\mathl{\varphi_1, \varphi_2, \psi}{} insgesamt teilerfremd sind. Zur Kommutativität muss man lediglich beachten, dass
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{s 
+}<br/>{ \in }{ D(\psi)
+}<br/>{ \subseteq }{ {\mathbb A}^{1}_{K}
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+einerseits über <br/>\mathl{(s,1)}{} auf
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ (H_1(s,1), H_2(s,1),H_3(s,1))
+}<br/>{ =} { \left(  \varphi_1(s)  , \,   \varphi_2(s)  , \,   \psi(s)                 \right)
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{}
+abgebildet wird und andererseits auf
+<br/>\mavergleichskettedisp<br/>{\vergleichskette<br/>{ \left( \frac { \varphi_1(s)}{ \psi(s)}, \frac{\varphi_2(s)}{ \psi(s)}  ,1 \right)
+}<br/>{ =} { \left(  \varphi_1(s)  , \,   \varphi_2(s)  , \,   \psi(s)                 \right) 
+}<br/>{ } {
+}<br/>{ } {
+}<br/>{ } {
+}<br/>}
+{}{}{.}
+Für den Zusatz sei $C$ der affine Abschluss des Bildes und
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{\bar{C}
+}<br/>{ \subset }{ {\mathbb P}^{2}_{K}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+der 
+\definitionsverweis {projektive Abschluss}{}{}
+davon. Wir betrachten das offene Komplement
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ U
+}<br/>{ = }{ {\mathbb P}^{2}_{K} \setminus \bar{C} 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}
+Da die Abbildung stetig ist, ist das Urbild <br/>\mathl{H^{-1}(U)}{} offen in <br/>\mathl{{\mathbb P}^{1}_{K}}{,} und es kann nur Punkte aus <br/>\mathl{{\mathbb P}^{1}_{K} \setminus D(\psi)}{} enthalten. Eine endliche und offene Teilmenge der projektiven Geraden muss aber leer sein.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+<meta property="mw:PageProp/noeditsection"/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene projektive Kurve/Graph eines Polynoms in einer Variable/Singularität im Unendlichen/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ F
+}<br/>{ \in }{ K[X] 
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+ein Polynom in einer Variablen vom Grad
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ d
+}<br/>{ \geq }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}}<br/>\faktfolgerung {Dann wird der 
+\definitionsverweis {projektive Abschluss}{}{}
+$C$ des 
+\definitionsverweis {Graphen}{}{}
+<br/>\mathl{V(Y-F(X))}{} durch <br/>\mathl{V \left(  YZ^{d-1} - \hat{  F   }(X,Z)  \right)}{} beschrieben, wobei <br/>\mathl{\hat{  F   } (X,Z)}{} die 
+\definitionsverweis {Homogenisierung}{}{}
+von $F$ bezeichnet. Dabei gibt es in $C$ bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+\zusatzklammer {mit
+<br/>\mavergleichskettek<br/>{\vergleichskettek<br/>{ F
+}<br/>{ = }{ aX+b
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}} {} {}
+noch den 
+\definitionsverweis {glatten Punkt}{}{}
+<br/>\mathl{(1,a ,0)}{} und bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ d
+}<br/>{ \geq }{ 2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+noch den Punkt <br/>\mathl{(0,1,0)}{,} der bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ d
+}<br/>{ \geq }{ 3
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{}
+singulär ist.}<br/>\faktzusatz {Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ \geq }{ 2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+besitzt der Punkt im Unendlichen die 
+\definitionsverweis {Multiplizität}{}{}
+<br/>\mathl{d-1}{.}}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die Gleichung für den projektiven Abschluss folgt direkt aus
+<a rel="mw:WikiLink" href="./Ebene_projektive_Kurve/Gleichung_für_projektiven_Abschluss_mit_Homogenisierung/Fakt" title="Ebene projektive Kurve/Gleichung für projektiven Abschluss mit Homogenisierung/Fakt">Korollar 28.10</a>.
+Den Schnitt von $C$ mit der projektiven Geraden <br/>\mathl{V_+(Z)}{}  im Unendlichen erhält man, wenn man in der Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Z
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+setzt. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+liegt insgesamt die Geradengleichung <br/>\mathl{V_+(Y-aX-bZ)}{} vor, und der Schnitt mit <br/>\mathl{V_+(Z)}{} legt den einzigen Punkt <br/>\mathl{(1 , a ,0)}{} fest. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ \geq }{ 2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+liegt die Kurvengleichung
+<br/>\mathdisp {V_+ \left(  YZ^{d-1} - s_dX^d -s_{d-1}X^{d-1}Z - \cdots -  s_0Z^d  \right)} {  }<br/>
+mit
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{s_d
+}<br/>{ \neq }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+vor. Setzt man
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Z
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+so bleibt <br/>\mathl{V_+ \left(  -s_dX^d  \right)}{} übrig, woraus
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{X
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+folgt. Dies entspricht dem einzigen unendlich fernen Punkt <br/>\mathl{(0,1,0)}{.}</p>
+
+<p>Für die Multiplizität betrachtet man die affine Gleichung der Kurve auf <br/>\mathl{D_+(Y)}{.} D.h. man setzt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+und erhält die affine Gleichung
+<br/>\mathdisp {V \left(  Z^{d-1} - s_dX^d -s_{d-1}X^{d-1}Z - \cdots -  s_0Z^d  \right)} { , }<br/>
+und der Punkt <br/>\mathl{(0,1,0)}{} ist in diesen Koordinaten der Nullpunkt. Daher ist die Multiplizität gleich <br/>\mathl{d-1}{} mit der einzigen durch 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Z
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+gegebenen Tangente. Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ g
+}<br/>{ \geq }{ 3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist die Multiplizität $\geq 2$ und daher liegt ein singulärer Punkt vor.</p>
+</div>
+
+}</div><span about="#mwt1">
+</span><p about="#mwt1">
+<br/>
+Dieser Satz ist so zu verstehen, dass bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ \geq }{ 2
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die $y$-Achse 
+\zusatzklammer {dafür steht der Punkt \mathlk{(0,1,0)}{}} {} {}
+\anfuehrung{asymptotisch}{} zum Graphen gehört 
+\zusatzklammer {und auch die einzige Asymptote des Graphen ist} {} {.}
+Die unendlich ferne Gerade <br/>\mathl{V_+(Z)}{} ist die 
+\zusatzklammer {einzige} {} {}
+Tangente an diesem Punkt. Die Normalisierung von $C$ ist der <br/>\mathl{{\mathbb P}^{1}_{K}}{,} und zwar ist die Normalisierungsabbildung
+nach <a rel="mw:WikiLink" href="./Rationale_Kurvenparametrisierung/Fortsetzung_auf_projektive_Gerade/Fakt" title="Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt">Satz 29.5</a>,
+angewendet auf die affine Parametrisierung des Graphen
+\maabbeledisp {} { {\mathbb A}^{1}_{K}} { {\mathbb A}^{1}_{K} \times {\mathbb A}^{1}_{K} =  {\mathbb A}^{2}_{K} \cong D_+(Z) \subset {\mathbb P}^{2}_{K}
+} { x} { (x,F(x)) = (x,F(x),1)
+} {,}
+durch
+\maabbeledisp {} {{\mathbb P}^{1}_{K}} {C \subset {\mathbb P}^{2}_{K}} { (x,t) } { \left(  xt^{d-1}, \hat{ F  }(x,t), t^d  \right) 
+} {}
+gegeben. Dabei geht der unendlich ferne Punkt <br/>\mathl{(1,0)}{} auf
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ (0,s_d,0)
+}<br/>{ = }{ (0,1,0)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{.}</p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene projektive Kurve/Graph einer rationalen Funktion in einer Variable/Singularität im Unendlichen/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es sei $K$ ein 
+\definitionsverweis {algebraisch abgeschlossener Körper}{}{}
+und seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ G,H
+}<br/>{ \in }{ K[X]
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+\definitionsverweis {Polynome in einer Variablen}{}{}
+vom Grad 
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ d , e
+}<br/>{ \geq }{ 1
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ohne gemeinsame Nullstelle. Es sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ H
+}<br/>{ \neq }{ 0
+}<br/>{  }{ 
+}<br/>{    }{ 
+}<br/>{   }{ 
+}<br/>}
+{}{}{} 
+und sei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{F(X)
+}<br/>{ = }{ G(X)/H(X)
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+die zugehörige rationale Funktion. Es seien <br/>\mathl{\hat{  G   } (X,Z)}{} und <br/>\mathl{\hat{  H   } (X,Z)}{} die zugehörigen 
+\definitionsverweis {Homogenisierungen}{}{}}<br/>\faktfolgerung {Dann wird der 
+\definitionsverweis {projektive Abschluss}{}{}
+$C$ des 
+\definitionsverweis {Graphen}{}{}
+von <br/>\mathl{F(X)}{} bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ > }{ e
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{} 
+durch
+<br/>\mathdisp {V_+ \left(  \hat{  H   } (X,Z)YZ^{d-e-1}- \hat{  G   } (X,Z)  \right)} {  }<br/>
+und bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{d
+}<br/>{ \leq }{e
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+durch
+<br/>\mathdisp {V_+ \left(  \hat{  H   } (X,Z)Y- \hat{  G   } (X,Z)Z^{e-d+1}  \right)} {  }<br/>
+beschrieben.}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>Die affine Beschreibung der Kurve ist <br/>\mathl{V(YH-G)}{.} Nach
+<a rel="mw:WikiLink" href="./Ebene_projektive_Kurve/Gleichung_für_projektiven_Abschluss_mit_Homogenisierung/Fakt" title="Ebene projektive Kurve/Gleichung für projektiven Abschluss mit Homogenisierung/Fakt">Korollar 28.10</a> wird der projektive Abschluss durch die Homogenisierung von <br/>\mathl{YH-G}{} beschrieben. Für diese ist der maximale Grad von \mathkon  { YH  }  {  und  }  {  G   }{ } ausschlaggebend, der Summand mit kleinerem Grad muss durch eine geeignete Potenz von $Z$ \anfuehrung{aufgefüllt}{} werden. Dies ergibt die angegebenen Gleichungen.</p>
+</div>
+
+}</div><span about="#mwt1"> 
+
+</span><p about="#mwt1"><br/>  <br/> <br/> <br/> <br/>  \zwischenueberschrift{Monomiale projektive Kurven}</p><span about="#mwt1">
+
+</span><p about="#mwt1">Zu einer ebenen monomialen Kurve <br/>\mathl{s \mapsto (s^{e},s^{d})=(x,y)}{} mit teilerfremden Exponenten <br/>\mathl{e >d}{} gehört nach
+<a rel="mw:WikiLink" href="./Rationale_Kurvenparametrisierung/Fortsetzung_auf_projektive_Gerade/Fakt" title="Rationale Kurvenparametrisierung/Fortsetzung auf projektive Gerade/Fakt">Satz 29.5</a>
+die monomiale projektive Kurve
+<br/>\mathdisp {(s,t) \longmapsto (s^e,s^dt^{e-d} ,t^e)} { . }<br/>
+Auf der offenen Menge <br/>\mathl{D_+(t)}{} ist dies die ursprüngliche Abbildung und auf <br/>\mathl{D_+(s)}{} ist dies die affine Abbildung
+<br/>\mathdisp {t \longmapsto (t^{e-d}, t^e)} { . }<br/></p><span about="#mwt1">
+</span><p about="#mwt1">
+<meta property="mw:PageProp/noeditsection"/><br/></p><span about="#mwt1">
+</span><div class="latex" about="#mwt1"><br/><br/><br/>\inputfaktbeweis<br/>{Ebene projektive monomiale Kurve/Singularität/Gesamtmultiplizität/Fakt}<br/>{Satz}<br/>{}<br/>{
+<div id="Artikelinhalt">
+<p>\faktsituation {}<br/>\faktvoraussetzung {Es seien
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{e
+}<br/>{ > }{ d
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+\definitionsverweis {teilerfremd}{}{.}
+Für die durch
+<br/>\mathdisp {(s,t) \longmapsto \left(  s^e  , \,  s^dt^{e-d}  , \,  t^e                 \right)} {  }<br/>
+gegebene ebene projektive 
+\definitionsverweis {monomiale Kurve}{}{}
+$C$ vom Grad $e$ gelten folgende Aussagen.}<br/>\faktfolgerung {\aufzaehlungvier{Die Kurve wird durch die homogene Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{Y^e
+}<br/>{ = }{ X^dZ^{e-d}
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+vom Grad $e$ beschrieben.
+}{Die Kurve ist 
+\definitionsverweis {glatt}{}{}
+für alle Punkte \mathkon  { \neq (0,0,1)  }  {  und  }  { \neq (1,0,0)   }{ .}
+}{Die Kurve hat im Punkt <br/>\mathl{(0,0,1)}{} die 
+\definitionsverweis {Multiplizität}{}{}
+$d$ und im Punkt <br/>\mathl{(1,0,0)}{} die Multiplizität <br/>\mathl{e-d}{.}
+}{Bei
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ e
+}<br/>{ \geq }{ 3
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist die Kurve nicht glatt.
+}}<br/>\faktzusatz {}<br/>\faktzusatz {}</p>
+</div>
+
+<p>}<br/>{</p>
+<div id="Artikelinhalt">
+<p>\aufzaehlungvier{Die affine Gleichung ist <br/>\mathl{X^d-Y^{e}}{,} und nach
+<a rel="mw:WikiLink" href="./Ebene_projektive_Kurve/Gleichung_für_projektiven_Abschluss_mit_Homogenisierung/Fakt" title="Ebene projektive Kurve/Gleichung für projektiven Abschluss mit Homogenisierung/Fakt">Korollar 28.10</a>
+wird der projektive Abschluss durch die Homogenisierung, also durch <br/>\mathl{V \left(  X^dZ^{e-d} - Y^{e}  \right)}{} beschrieben.
+}{Auf der affinen Kurve
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ V(X^{d}-Y^{e}) 
+}<br/>{ \subset }{ {\mathbb A}^{2}_{ K }
+}<br/>{ \subset }{ {\mathbb P}^{2}_{ K }
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+ist nach
+<a rel="mw:WikiLink" href="./Affine_Kurven/Monomiale_Kurvenabbildung/Ist_Normalisierung/Fakt" title="Affine Kurven/Monomiale Kurvenabbildung/Ist Normalisierung/Fakt">Satz 20.12</a>
+nur der Nullpunkt, der dem projektiven Punkt <br/>\mathl{(0,0,1)}{} entspricht, 
+\zusatzklammer {eventuell} {} {}
+nicht glatt. Die Punkte auf der Kurve außerhalb von <br/>\mathl{D_+(Z)}{} erhält man, indem man in der Gleichung
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Z
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{}
+setzt. Dies erzwingt
+<br/>\mavergleichskette<br/>{\vergleichskette<br/>{ Y
+}<br/>{ = }{ 0
+}<br/>{  }{
+}<br/>{    }{
+}<br/>{   }{
+}<br/>}
+{}{}{,}
+sodass es lediglich noch den Punkt <br/>\mathl{(1,0,0)}{} gibt.
+}{Die Multiplizität in einem Punkt ist eine lokale Eigenschaft. Der Punkt <br/>\mathl{(0,0,1)}{} entspricht dem Nullpunkt auf der affinen monomialen Kurve
+<br/>\mathl{V \left(  X^{d}-Y^e  \right)}{,} deren Multiplizität im Nullpunkt nach
+<a rel="mw:WikiLink" href="./Monomiale_Kurve/Hilbert-Samuel_Multiplizität_ist_numerische_Multiplizität/Fakt" title="Monomiale Kurve/Hilbert-Samuel Multiplizität ist numerische Multiplizität/Fakt">Korollar 23.8</a>
+gleich dem kleineren Exponenten, also gleich $d$ ist. Der Punkt <br/>\mathl{(1,0,0)}{} liegt auf <br/>\mathl{D_+(X)}{} und dort ist <br/>\mathl{V \left(  Y^{e}-Z^{e-d}  \right)}{} die affine Gleichung. Die Multiplizität ist wieder der kleinere Exponent, also gleich <br/>\mathl{e-d}{.}
+}{Folgt aus (3).
+}</p>
+</div>
+
+}</div><span about="#mwt1"> </span><link rel="mw:PageProp/Category" href="./Kategorie:Latexseite" about="#mwt1" id="mwAw"/></section></body></html>

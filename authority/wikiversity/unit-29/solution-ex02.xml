@@ -1,0 +1,184 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.17</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Ebene algebraische Kurven/Z mod 5/Einheitskreis und x^3-2y^2+3/Durchschnitt und unendlich ferne Punkte/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>21303</id>
+    <revision>
+      <id>1094621</id>
+      <parentid>1089317</parentid>
+      <timestamp>2026-06-14T16:25:59Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1094621</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2307" sha1="flse949czm8nz4y3xw78c76d8aq9cne" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung4/a
+|Wir addieren die beiden Gleichungen
+{{
+Mathkor/display|term1=
+ 2X^2+2Y^2-2 =0
+|und|term2=
+ X^3 -2Y^2+3 =0
+|SZ=
+}}
+und erhalten die Bedingung
+{{
+Relationskette/display
+| X^3+2X^2+1
+|| 0
+||
+||
+||
+|SZ=.
+}}
+Für die möglichen Werte {{math|term= x=0,1,2,3,4 |SZ=}} ergibt sich beim Einsetzen:{{math|term=  1,4,2,1,2 |SZ=.}} Diese Bedingung ist also nicht erfüllbar und daher ist der Durchschnitt der beiden Kurven in {{math|term= {{op:Affine Ebene|K}} |SZ=}} leer.
+|Es geht um die Punkte in {{mathl|term= {{op:Projektive Ebene|K|}}  |SZ=,}} die
+{{
+Relationskette
+| X^2+Y^2-Z^2
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und gleichzeitig
+{{
+Relationskette
+| Z
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+erfüllen. Dies führt zur Bedingung
+{{
+Relationskette
+| X^2+Y^2
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Die Quadrate in {{math|term= {{op:Zmod| 5|}} |SZ=}} sind {{math|term= 0,1,4 |SZ=.}} Die Lösung {{math|term= (0,0,0) |SZ=}} ist nicht erlaubt, da sie keinen projektiven Punkt repräsentiert, und man erhält die Lösungen {{math|term= (\pm 1 , \pm 2) |SZ=}} und {{math|term= (\pm 2 , \pm 1) |SZ=.}} Da wir an den projektiven Punkten interessiert sind, kann man die erste Komponente zu {{math|term= 1 |SZ=}} normieren und die zweite Komponente muss {{math|term= 2 |SZ=}} oder
+{{
+Relationskette
+| -2
+|| 3
+|| 
+|| 
+|| 
+|SZ=
+}}
+sein. Es gibt also zwei unendlich ferne Punkte
+{{
+mathkor|term1=
+ (1,2 ,0)
+|und|term2=
+ (1,3 ,0)
+|SZ=.
+}}
+|Die beiden Gleichungen 
+{{
+Relationskette
+| X^3-2Y^2Z+3Z^3 
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette
+| Z
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+führen direkt auf
+{{
+Relationskette
+| X^3
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}} 
+und damit
+{{
+Relationskette
+| X
+|| 0
+|| 
+|| 
+|| 
+|SZ=,
+}} 
+sodass der einzige unendlich ferne Punkt gleich {{math|term= (0,1,0) |SZ=}} ist.
+|Der projektive Abschluss ist nach Definition der Zariski-Abschluss.  Da {{math|term= V {{makl| X^2+Y^2-1 |}} |SZ=}} eine endliche Punktmenge ist, ist dies schon abgeschlossen und stimmt mit seinem Abschluss überein. {{mathl|term= V_+ {{makl| X^2+Y^2-Z^2 |}} |SZ=}} enthält aber nach Teil (b) zusätzliche Punkte, es ist also nicht der projektive Abschluss.
+}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=Der Einheitskreis
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>flse949czm8nz4y3xw78c76d8aq9cne</sha1>
+    </revision>
+  </page>
+</mediawiki>

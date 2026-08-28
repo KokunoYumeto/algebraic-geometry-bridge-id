@@ -1,0 +1,91 @@
+{
+  "schema": "ag-bridge-unit-authority-qa-v1",
+  "unit": 29,
+  "status": "PASS",
+  "authority_manifest": {
+    "path": "authority/wikiversity/unit-29/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 128548,
+    "sha256": "ec3b34ad387ae827ecaa365c4def3b0550f74b629d0db3873a7cc28dc0831bc5"
+  },
+  "freeze_note": {
+    "path": "authority/UNIT_29_AUTHORITY_FREEZE.md",
+    "bytes": 3828,
+    "sha256": "f95d74fa5f43f72e52204c482bcc9fdc2ad4b50e109beef4ac602b3e27e81826"
+  },
+  "authority": {
+    "course_pageid": 50687,
+    "lecture_closure_with_root": 107,
+    "worksheet_closure_with_root": 62,
+    "solution_closures_with_root": {
+      "2": 17,
+      "3": 8
+    },
+    "semantic_union": 150,
+    "canonical_sort": "case-sensitive (title,pageid)"
+  },
+  "exercises": {
+    "count": 10,
+    "public_solution_numbers": [
+      2,
+      3
+    ],
+    "negative_candidate_numbers": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "starred": [
+      2,
+      3
+    ],
+    "submitted_displayed_point_total": 17
+  },
+  "source_defects": [
+    "AGC-U29-SRC-001",
+    "AGC-U29-SRC-002"
+  ],
+  "media": {
+    "positions": 2,
+    "assets": 2,
+    "public_domain": 2,
+    "tschirnhausen_identification_warning_preserved": true,
+    "tschirnhausen_selected_form": "thumbnail_500px",
+    "tschirnhausen_selected_bytes": 83502,
+    "tschirnhausen_selected_sha256": "f3dda9da65db9e431f25ea77eb83f51aed2eff1c191dc1206e0759561ee613c7",
+    "tschirnhausen_original_locally_archived": false,
+    "tschirnhausen_original_identity_metadata_bound": true
+  },
+  "pdfs": [
+    {
+      "kind": "lecture",
+      "bytes": 84904,
+      "sha256": "9f7082c66d493cd02a6e4f0579493ad1ba74ddec4b3777517c9ab6daa9610c6d",
+      "pages": 6
+    },
+    {
+      "kind": "worksheet",
+      "bytes": 81522,
+      "sha256": "83986d2a9928c6e61ad7afa6d5a890e2b296c15a8706931c8c6da485b05079d2",
+      "pages": 3
+    }
+  ],
+  "rights": {
+    "path": "authority/RIGHTS-unit-29.csv",
+    "bytes": 2939,
+    "sha256": "4962c9a0a32e775a788f1098cf994d4e6714f67226ae30e155189778e826323c"
+  },
+  "asset_closure": {
+    "path": "authority/ASSET_CLOSURE-unit-29.json",
+    "bytes": 10549,
+    "sha256": "d85f765a2ab195ed5c1ed12028c2558fcfadd227fa35ebf979267c4167e3f972"
+  },
+  "offline_inventory_files_verified": 70,
+  "unsafe_or_duplicate_inventory_paths_accepted": 0,
+  "live_replay_witnesses_preserved": true,
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}
