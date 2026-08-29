@@ -1,0 +1,201 @@
+{
+  "schema": "ag-bridge-bgk-github-publication-receipt-v1",
+  "status": "PASS",
+  "repository": {
+    "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+    "visibility": "public",
+    "default_branch": "main",
+    "anonymous_api_readback": false,
+    "anonymous_public_web_readback": true,
+    "api_fallback_reason": "anonymous_rest_quota_exhausted",
+    "status": "PASS"
+  },
+  "content_commit": "bfcdba0f48f88295720faada442df1ffc914095c",
+  "tag": {
+    "ref": "refs/tags/bgk-unit-06",
+    "tag_object": "0fbc0661739eddb21ab57a250f4121482864ae65",
+    "target_type": "commit",
+    "content_commit": "bfcdba0f48f88295720faada442df1ffc914095c",
+    "anonymous_api_transport": false,
+    "anonymous_git_smart_http_transport": true,
+    "api_fallback_reason": "anonymous_rest_quota_exhausted",
+    "status": "PASS"
+  },
+  "release": {
+    "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/bgk-unit-06",
+    "tag": "bgk-unit-06",
+    "title": "Bundel, Berkas, dan Kohomologi — Unit 1–6, Bahasa Indonesia",
+    "published_at": "2026-08-29T17:46:04Z",
+    "draft": false,
+    "prerelease": false
+  },
+  "coverage": {
+    "classical_units_complete": 30,
+    "bgk_units_complete": 6,
+    "bgk_units_total": 30,
+    "two_course_source_units_complete": 36,
+    "two_course_source_units_total": 60
+  },
+  "anonymous_public_byte_readback": {
+    "verified_at": "2026-08-29T17:51:29Z",
+    "credential_used": false,
+    "release_assets": [
+      {
+        "name": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.pdf",
+        "bytes": 896202,
+        "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.pdf",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "02_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.html",
+        "bytes": 3272151,
+        "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/02_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.html",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "03_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_source.zip",
+        "bytes": 2466844,
+        "sha256": "c6cfaca30ff7c90541deb764c8f0523b21eefd78e48804fb5ec42ea670a5beba",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/03_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_source.zip",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_native-backend.zip",
+        "bytes": 844723,
+        "sha256": "9d2c8632d1e503689a819244110d05bc1ee6915df040725fd2b571aefaeb6b03",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_native-backend.zip",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "05_LICENSE_AND_COMPONENT_RIGHTS.md",
+        "bytes": 3331,
+        "sha256": "b904bb2fb344ba012ca6e5374defe17926ae7b6024c7471cce7e98aace2e2a55",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/05_LICENSE_AND_COMPONENT_RIGHTS.md",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "06_README.md",
+        "bytes": 2309,
+        "sha256": "ef902ab09d7b8c795cd23a35ef5856a2ed3b2ddea3a568b2e1f3e13f3de4e334",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/06_README.md",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "07_RELEASE_MANIFEST.json",
+        "bytes": 5287,
+        "sha256": "73f3fc58c1f0add8e0b2e1925f0ed725298aa97100c3eb9d4ff848acff630fe8",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/07_RELEASE_MANIFEST.json",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "08_SHA256SUMS.txt",
+        "bytes": 774,
+        "sha256": "e80494c2ea9de3cf28a1215a3418afe9da6c9828ab3e0717f8ff788ff3d34b9a",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/08_SHA256SUMS.txt",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "09_RELEASE_CANDIDATE_QA.json",
+        "bytes": 37175,
+        "sha256": "c68187d17287c4776ad74da827c18b6cff49c2e304a2469c3beba4232ba7d46f",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/09_RELEASE_CANDIDATE_QA.json",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "name": "MIGRATION_RECEIPT.json",
+        "bytes": 6966,
+        "sha256": "2f634414e965b2e392e578c2bbb6fe61ab4c0bc97a9f2e4883846fe8e85e29b7",
+        "url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/download/bgk-unit-06/MIGRATION_RECEIPT.json",
+        "public_readback": true,
+        "credential_used": false
+      }
+    ],
+    "raw_commit_files": [
+      {
+        "path": "README.md",
+        "bytes": 7208,
+        "sha256": "54e8273f06a12412fb1b5271db003909b773aecf073af9aa52025dc93f2d4db6",
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/bfcdba0f48f88295720faada442df1ffc914095c/README.md",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "path": "docs/bgk/index.html",
+        "bytes": 3272151,
+        "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9",
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/bfcdba0f48f88295720faada442df1ffc914095c/docs/bgk/index.html",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "path": "docs/bgk/bundel-berkas-dan-kohomologi-id-units-01-06.pdf",
+        "bytes": 896202,
+        "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b",
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/bfcdba0f48f88295720faada442df1ffc914095c/docs/bgk/bundel-berkas-dan-kohomologi-id-units-01-06.pdf",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "path": "qa/BGK_UNITS_01_06_ZENODO_PUBLICATION.json",
+        "bytes": 6345,
+        "sha256": "a97ac072e4d2f433fbec802c6c1ce4b13ba1a7cd449b275066ca2edee86ce4f1",
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/bfcdba0f48f88295720faada442df1ffc914095c/qa/BGK_UNITS_01_06_ZENODO_PUBLICATION.json",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "path": "backend/bgk-common-backend-v1/MIGRATION_RECEIPT.json",
+        "bytes": 6966,
+        "sha256": "2f634414e965b2e392e578c2bbb6fe61ab4c0bc97a9f2e4883846fe8e85e29b7",
+        "url": "https://raw.githubusercontent.com/KokunoYumeto/algebraic-geometry-bridge-id/bfcdba0f48f88295720faada442df1ffc914095c/backend/bgk-common-backend-v1/MIGRATION_RECEIPT.json",
+        "public_readback": true,
+        "credential_used": false
+      }
+    ],
+    "pages_files": [
+      {
+        "path": "index.html",
+        "bytes": 3272151,
+        "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9",
+        "url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/bgk/",
+        "public_readback": true,
+        "credential_used": false
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-units-01-06.pdf",
+        "bytes": 896202,
+        "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b",
+        "url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/bgk/bundel-berkas-dan-kohomologi-id-units-01-06.pdf",
+        "public_readback": true,
+        "credential_used": false
+      }
+    ],
+    "release_assets_verified": 10,
+    "raw_commit_files_verified": 5,
+    "pages_files_verified": 2,
+    "all_size_and_sha256_matches": true
+  },
+  "metadata": {
+    "language": "id-ID",
+    "reader_first": true,
+    "exact_model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+    "non_endorsement_disclosed": true,
+    "course_text_and_translation_license": "CC BY-SA 4.0",
+    "component_rights_preserved": true
+  },
+  "credential_handling": {
+    "authenticated_requests_used_for_public_readback": false,
+    "credential_value_logged_or_persisted": false
+  }
+}

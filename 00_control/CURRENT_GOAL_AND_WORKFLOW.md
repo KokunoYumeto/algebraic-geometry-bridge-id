@@ -38,54 +38,83 @@ view.
 
 ## Live boundary
 
-The current verified public boundary is the complete 30-unit classical volume,
-described in the final paragraphs of this section; earlier boundary paragraphs
-are retained only as historical provenance. The current local production
-boundary is BGK Units 1--3, and the remaining source corpus is exactly BGK
-Units 4--30 / 27 units / 215 official-PDF pages, followed by the finite
-original layer. No split or second counting of the 19-unit learner route is
-planned. The complete BGK course root is frozen at
-revision 1052895 with exactly 30 lectures, 30 worksheets, and its 265-page,
-2,104,862-byte official PDF witness (SHA-256
+The current verified public and local boundary is the complete 30-unit
+classical volume plus BGK Units 1--6. Exactly 36 of 60 source units and 421 of
+602 official-source PDF pages are complete; BGK Units 7--30 remain exactly 24
+units / 181 pages, followed only by the finite original layer. The 19-unit
+learner route remains a view over BGK and adds no translation units. The
+complete BGK course root is frozen at revision 1052895 with 30 lectures, 30
+worksheets, and its 265-page, 2,104,862-byte official PDF witness (SHA-256
 `87655cf7e96dc0eaa185ca49a374dc9e25f4b739670495f423279aa332fce66c`).
-BGK Units 1--3 are completely frozen, translated, typeset, visually and
-responsively verified, and exported to an isolated cumulative native backend.
-They preserve all 62 exercises, exactly the two public solutions to Exercises
-2.4 and 3.1, zero invented solutions, 147 cumulative source-heading IDs, all
-five backend asset records, and all component rights. Unit 3's five visible
-source treatments are ledgered as `AGC-CORR-0149`--`AGC-CORR-0153`; original
-forms remain available in notes and authority files. The deterministic reader
-is a self-contained 2,847,349-byte semantic MathML HTML file (SHA-256
-`2cb348ee10366628742e12847a46d51ba9d58adeaa65187b067ce929ab2ca623`)
-and a 50-page A4 PDF (623,876 bytes; SHA-256
-`01655c8ddb8056e03b06f09319f6f73b07daf55e709b2fffb6b83b7cf2a96800`).
-All-page dual visual inspection, embedded fonts, centered desktop main region,
-mobile reflow, local scrolling for 23 wide formulas, internal anchors, image
-alternatives, animation preservation, landmarks, and deterministic replay
-pass. The native backend has 2,370 records: all 1,556 Units 1--2 rows remain
-an exact byte prefix and Unit 3 adds 814 rows, with schema, closure, reverse
-projection, exact provenance, and zero collisions against the 22,752 classical
-IDs. The additive common adapter validates 5,692 records, 927 strict profiles,
-17 witnesses, and 13,428 foreign keys and reverses exactly to the native bytes.
-Exact identities and commands are in
-`00_control/BGK_UNIT_01_WORKLOG.md`,
-`00_control/BGK_UNIT_02_WORKLOG.md`,
-`00_control/BGK_UNIT_03_WORKLOG.md`, and the matching BGK authority,
-translation, reader, backend, and common-adapter receipts. The nine-file
-reader-first package (6,142,953 bytes) passed deterministic double replay and
-an independent 144-check binding audit. Zenodo record 22160883 / DOI
-`10.5281/zenodo.22160883` now preserves all eight prior classical files and ten
-new BGK files; anonymous readback matched all 18 public files. The validated
-BGK migration receipt is 6,949 bytes, SHA-256
-`337101c42abfda58f763a0662c4db4ec9bde509cbcc2cdfb833b2bc87966228a`.
+
+The cumulative BGK checkpoint preserves 101 exercises, exactly three public
+source solutions (Exercises 2.4, 3.1, and 5.5), 98 frozen negative solution
+results, zero invented solutions, all stable identifiers, and all component
+rights. The reader is a 3,272,151-byte self-contained semantic MathML HTML
+file (SHA-256
+`feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9`)
+and an 82-page A4 PDF (896,202 bytes; SHA-256
+`f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b`).
+All-page visual review, deterministic replay, centered desktop layout, mobile
+reflow, local scroll containment for 31 intrinsically wide math blocks, 237
+internal anchors, five image alternatives, and embedded fonts pass.
+
+The isolated native backend has 4,239 records and preserves the exact
+2,919-record Units 1--4 byte prefix. Its additive common projection validates
+10,167 records, 1,621 strict profiles, 33 witness files, and 23,900 foreign
+keys, then reverses exactly to the native bytes. The final migration receipt
+is 6,966 bytes, SHA-256
+`2f634414e965b2e392e578c2bbb6fe61ab4c0bc97a9f2e4883846fe8e85e29b7`.
+The deterministic nine-file reader-first package totals 7,528,796 bytes and
+passes its release binding audit.
+
+Zenodo record 22164552 / DOI `10.5281/zenodo.22164552` preserves the eight
+classical files plus ten current BGK files; anonymous readback matched all 18.
 The identical checkpoint is public at GitHub content commit
-`4451703816d5c8069d47da727ec0c2df75f6f97f`, annotated tag/release
-`bgk-unit-03`, and Pages `/bgk/`. Anonymous readback matched all ten release
-assets, five fixed-commit files, both Pages reader files, and the public tag
-peel. Receipt `qa/BGK_UNITS_01_03_GITHUB_PUBLICATION.json` is 8,656 bytes,
-SHA-256 `b15cf205206ea5571f6c36ced5f1a4df074a11e5281f3fe4c623a7634449babe`.
-The exact next action is to close Unit 4's complete rights/media/PDF and LaTeX
-terminal-byte reproducibility audit, then translate Unit 4 in source order.
+`bfcdba0f48f88295720faada442df1ffc914095c`, annotated tag object
+`0fbc0661739eddb21ab57a250f4121482864ae65`, tag/release `bgk-unit-06`, and
+Pages `/bgk/`. Anonymous readback matched all ten release assets, five
+fixed-commit files, both Pages files, the public repository identity, and the
+tag peel. Receipts are `qa/BGK_UNITS_01_06_ZENODO_PUBLICATION.json` (6,345
+bytes, SHA-256
+`a97ac072e4d2f433fbec802c6c1ce4b13ba1a7cd449b275066ca2edee86ce4f1`)
+and `qa/BGK_UNITS_01_06_GITHUB_PUBLICATION.json` (8,892 bytes, SHA-256
+`29cc2672a76bb2253b7b3ef767b41b122cdf7df736bfe31e6fa7f0b27567f4f1`).
+The exact next action is to freeze BGK Unit 7 authority and translate its
+lecture, worksheet, and public-solution scope in source order.
+
+## Current checkpoint (2026-08-29)
+
+The production cursor is BGK Unit 7. The complete public boundary is 36/60
+source units and 421/602 official-source pages; BGK Units 7--30 remain 24
+units / 181 pages. Unit 6 authority is frozen by
+`authority/wikiversity-bgk/unit-06/UNIT_AUTHORITY_MANIFEST.json` (107,618
+bytes, SHA-256
+`69a10e682e853c6f386afbc68438605846e5096220b21bd1e827c07633a79244`)
+and `authority/BGK_UNIT_06_AUTHORITY_FREEZE.md` (7,083 bytes, SHA-256
+`6d8c217580f71cd2840521d6f7ecbdc80415c566058f7848890011bb2d10d45c`).
+The lecture is page 109010 revision 1003728 (MediaWiki SHA-1
+`0dfea13421076e8f6486836e9fc799822bf52053`) and the worksheet is page 110211
+revision 900086 (MediaWiki SHA-1
+`619536dcd80063470e12de7a3ebb3fc9fe1aa5e5`), with 136/136 and 109/109
+transclusions. Official witnesses contribute 7 + 7 = 14 pages.
+
+The Unit 6 lecture, worksheet, and solution-scope files are 13,635 / 12,239 /
+1,848 bytes with SHA-256
+`21307095f666ac32a57ce7413d3e7bb86ba2004856f79f1aaf7c1da16a9bbdbd`,
+`b7d99b21794723411f989fe8788bc6bff324f6c545fe24630fa0424f0d5fe1e5`,
+and `29a48f9e3aef82d927f9c0b5bdd531882d894f5e0e646dfe581f2dab59cbdfd3`.
+It preserves all 19 exercises, zero public solutions, all 19 explicit negative
+solution results, 45 disjoint IDs, and five disclosed source findings.
+Translation QA is 10,661 bytes, SHA-256
+`9b2c3c3a89f5ff48432d68ac26363b78d408e86ce9abfc42ad45b88d99b4fe9e`.
+
+The cumulative reader, visual, responsive, native-backend, common-adapter,
+terminology, package, Zenodo, and GitHub gates all pass. Exact commands and
+identities are in `00_control/BGK_UNIT_06_WORKLOG.md` and the matching receipts.
+The next executable action is to freeze the official Unit 7 lecture,
+worksheet, transclusion, exercise/solution, media, rights, and PDF witnesses;
+then translate Unit 7 without changing accepted Units 1--6.
 
 Units 1–18 were the earlier verified and published cumulative reader: 18 lectures, 18
 worksheets, 513 exercises, all 90 frozen public source solutions, 74 media
@@ -249,17 +278,17 @@ and Pages. Anonymous readback matched all eight release assets, fixed-commit
 HTML/PDF plus metadata, and live Pages HTML/PDF; receipt
 `qa/UNIT_30_GITHUB_PUBLICATION.json` is 8,634 bytes, SHA-256
 `0e1374c3ef7bafc94430018b29d525c0e84fb5b3f1fe885fb4ac3212a8d3e12e`.
-The BGK Units 1--3 checkpoint is public in the same Zenodo concept as record
-22160883 / DOI `10.5281/zenodo.22160883`. Receipt
-`qa/BGK_UNITS_01_03_ZENODO_PUBLICATION.json` is 6,123 bytes, SHA-256
-`bdba910e1fda2c3f02d32d1addebf98facc5b36d8e09a6fac17e028c7bc8ca2a`,
-and proves anonymous byte equality for eight inherited classical files plus
-ten new BGK files. GitHub release `bgk-unit-03` and Pages `/bgk/` are likewise
-public; the receipt above proves all ten assets, five raw commit files, and both
-Pages files. The exact next executable action is to close the remaining Unit 4
-authority/rights reproducibility caveats and translate it in source order.
-Units 4--30 / 27 source units / 215 official-PDF pages remain, followed only by
-the finite original layer.
+The BGK Units 1--6 checkpoint is public in the same Zenodo concept as record
+22164552 / DOI `10.5281/zenodo.22164552`, GitHub release `bgk-unit-06`, and
+Pages `/bgk/`. The Zenodo receipt proves anonymous byte equality for eight
+inherited classical files plus ten current BGK files. The GitHub receipt proves
+all ten release assets, five fixed-commit files, both Pages files, public
+repository identity, and the annotated-tag peel. Units 1--6 are frozen,
+translated, typeset, visually/responsively verified, exported through the
+native and additive common backends, packaged, published, and read back. The
+exact next executable action is Unit 7 authority freeze and translation.
+BGK Units 7--30 / 24 source units / 181 official-PDF pages remain, followed
+only by the finite original layer.
 
 ## Finite workflow
 

@@ -19,7 +19,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 import requests
 
@@ -35,7 +35,10 @@ MIGRATION_RECEIPT = ROOT / "backend" / "bgk-common-backend-v1" / "MIGRATION_RECE
 ZENODO_RECEIPT = ROOT / "qa" / "BGK_UNITS_01_06_ZENODO_PUBLICATION.json"
 RECEIPT = ROOT / "qa" / "BGK_UNITS_01_06_GITHUB_PUBLICATION.json"
 API = f"https://api.github.com/repos/{OWNER}/{REPOSITORY}"
+WEB_ROOT = f"https://github.com/{OWNER}/{REPOSITORY}"
+GIT_INFO_REFS = f"{WEB_ROOT}.git/info/refs?service=git-upload-pack"
 RELEASE_URL = f"https://github.com/{OWNER}/{REPOSITORY}/releases/tag/{TAG}"
+EXPANDED_ASSETS_URL = f"{WEB_ROOT}/releases/expanded_assets/{TAG}"
 PAGES_ROOT = f"https://{OWNER.lower()}.github.io/{REPOSITORY}/bgk/"
 HEADERS = {"User-Agent": "Codex-D100-BGK-Units-01-06-public-verifier"}
 
@@ -169,13 +172,25 @@ def validate_zenodo_receipt() -> None:
             raise RuntimeError(f"Zenodo public receipt does not bind local release file: {name}")
 
 
+class AnonymousApiRateLimited(RuntimeError):
+    """The unauthenticated REST quota is exhausted; public web/Git remain usable."""
+
+
 def api_get(url: str) -> dict:
     response = requests.get(url, headers=HEADERS, timeout=180)
+    if response.status_code == 403 and response.headers.get("X-RateLimit-Remaining") == "0":
+        raise AnonymousApiRateLimited("GitHub anonymous REST quota exhausted")
     response.raise_for_status()
     value = response.json()
     if not isinstance(value, dict):
         raise RuntimeError(f"Expected GitHub API object: {url}")
     return value
+
+
+def public_get(url: str, *, headers: dict[str, str] | None = None) -> requests.Response:
+    response = requests.get(url, headers=headers or HEADERS, timeout=180)
+    response.raise_for_status()
+    return response
 
 
 def stream_fact(url: str) -> dict[str, object]:
@@ -196,47 +211,115 @@ def require_fact(label: str, actual: dict, expected: dict) -> None:
 
 
 def verify_repository() -> dict:
-    value = api_get(API)
-    if value.get("full_name") != f"{OWNER}/{REPOSITORY}" or value.get("private") is not False or value.get("visibility") != "public":
-        raise RuntimeError("Public repository identity/visibility mismatch")
-    return {
-        "url": value["html_url"],
-        "visibility": "public",
-        "default_branch": value.get("default_branch"),
-        "anonymous_api_readback": True,
-        "status": "PASS",
-    }
+    try:
+        value = api_get(API)
+        if value.get("full_name") != f"{OWNER}/{REPOSITORY}" or value.get("private") is not False or value.get("visibility") != "public":
+            raise RuntimeError("Public repository identity/visibility mismatch")
+        return {
+            "url": value["html_url"],
+            "visibility": "public",
+            "default_branch": value.get("default_branch"),
+            "anonymous_api_readback": True,
+            "status": "PASS",
+        }
+    except AnonymousApiRateLimited:
+        page = public_get(WEB_ROOT).content.decode("utf-8")
+        if (
+            f'octolytics-dimension-repository_nwo" content="{OWNER}/{REPOSITORY}"' not in page
+            or 'octolytics-dimension-repository_public" content="true"' not in page
+        ):
+            raise RuntimeError("Anonymous public repository page did not prove identity and visibility")
+        return {
+            "url": WEB_ROOT,
+            "visibility": "public",
+            "default_branch": "main",
+            "anonymous_api_readback": False,
+            "anonymous_public_web_readback": True,
+            "api_fallback_reason": "anonymous_rest_quota_exhausted",
+            "status": "PASS",
+        }
 
 
 def verify_tag(tag_object: str, content_commit: str) -> dict:
-    ref = api_get(f"{API}/git/ref/tags/{quote(TAG, safe='')}")
-    target = ref.get("object") or {}
-    if target.get("type") != "tag" or target.get("sha") != tag_object:
-        raise RuntimeError("Anonymous annotated-tag object mismatch")
-    tag = api_get(f"{API}/git/tags/{tag_object}")
-    peeled = tag.get("object") or {}
-    if peeled.get("type") != "commit" or peeled.get("sha") != content_commit:
-        raise RuntimeError("Anonymous tag peel does not match the frozen content commit")
+    try:
+        ref = api_get(f"{API}/git/ref/tags/{quote(TAG, safe='')}")
+        target = ref.get("object") or {}
+        if target.get("type") != "tag" or target.get("sha") != tag_object:
+            raise RuntimeError("Anonymous annotated-tag object mismatch")
+        tag = api_get(f"{API}/git/tags/{tag_object}")
+        peeled = tag.get("object") or {}
+        if peeled.get("type") != "commit" or peeled.get("sha") != content_commit:
+            raise RuntimeError("Anonymous tag peel does not match the frozen content commit")
+        transport = {"anonymous_api_transport": True}
+    except AnonymousApiRateLimited:
+        response = public_get(GIT_INFO_REFS, headers={**HEADERS, "Git-Protocol": "version=1"})
+        tag_ref = re.search(
+            rb"([0-9a-f]{40}) refs/tags/" + re.escape(TAG.encode("ascii")) + rb"(?:\x00|[\r\n])",
+            response.content,
+        )
+        peeled_ref = re.search(
+            rb"([0-9a-f]{40}) refs/tags/" + re.escape((TAG + "^{}").encode("ascii")) + rb"(?:\x00|[\r\n])",
+            response.content,
+        )
+        if not tag_ref or tag_ref.group(1).decode("ascii") != tag_object:
+            raise RuntimeError("Anonymous Git smart-HTTP annotated-tag object mismatch")
+        if not peeled_ref or peeled_ref.group(1).decode("ascii") != content_commit:
+            raise RuntimeError("Anonymous Git smart-HTTP tag peel mismatch")
+        transport = {
+            "anonymous_api_transport": False,
+            "anonymous_git_smart_http_transport": True,
+            "api_fallback_reason": "anonymous_rest_quota_exhausted",
+        }
     return {
         "ref": f"refs/tags/{TAG}",
         "tag_object": tag_object,
         "target_type": "commit",
         "content_commit": content_commit,
-        "anonymous_api_transport": True,
+        **transport,
         "status": "PASS",
     }
 
 
 def verify_release(release_files: dict[str, Path]) -> tuple[dict, list[dict]]:
-    release = api_get(f"{API}/releases/tags/{quote(TAG, safe='')}")
-    if (
-        release.get("tag_name") != TAG
-        or release.get("name") != EXPECTED_TITLE
-        or release.get("draft") is not False
-        or release.get("prerelease") is not False
-    ):
-        raise RuntimeError("Public GitHub release metadata mismatch")
-    assets = {item.get("name"): item for item in release.get("assets", [])}
+    try:
+        release = api_get(f"{API}/releases/tags/{quote(TAG, safe='')}")
+        if (
+            release.get("tag_name") != TAG
+            or release.get("name") != EXPECTED_TITLE
+            or release.get("draft") is not False
+            or release.get("prerelease") is not False
+        ):
+            raise RuntimeError("Public GitHub release metadata mismatch")
+        assets = {item.get("name"): item for item in release.get("assets", [])}
+    except AnonymousApiRateLimited:
+        page = public_get(RELEASE_URL).content.decode("utf-8")
+        expanded = public_get(EXPANDED_ASSETS_URL).content.decode("utf-8")
+        if EXPECTED_TITLE not in page or TAG not in page or "Pre-release" in page:
+            raise RuntimeError("Anonymous public release page metadata mismatch")
+        pattern = re.compile(
+            rf"/{re.escape(OWNER)}/{re.escape(REPOSITORY)}/releases/download/{re.escape(TAG)}/([^\"?]+)"
+        )
+        names = [unquote(name) for name in pattern.findall(expanded)]
+        if len(names) != len(set(names)):
+            raise RuntimeError("Anonymous expanded release inventory contains duplicate assets")
+        assets = {
+            name: {
+                "name": name,
+                "browser_download_url": f"{WEB_ROOT}/releases/download/{TAG}/{quote(name)}",
+            }
+            for name in names
+        }
+        published = re.search(r'<relative-time[^>]+datetime="([^"]+)"', page)
+        release = {
+            "html_url": RELEASE_URL,
+            "tag_name": TAG,
+            "name": EXPECTED_TITLE,
+            "draft": False,
+            "prerelease": False,
+            "published_at": published.group(1) if published else None,
+            "anonymous_public_web_readback": True,
+            "api_fallback_reason": "anonymous_rest_quota_exhausted",
+        }
     if set(assets) != set(release_files) or len(assets) != 10:
         raise RuntimeError(f"Public GitHub release inventory mismatch: {sorted(assets)}")
     verified = []
