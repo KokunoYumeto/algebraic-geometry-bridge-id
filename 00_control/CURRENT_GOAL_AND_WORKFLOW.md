@@ -78,9 +78,14 @@ an independent 144-check binding audit. Zenodo record 22160883 / DOI
 new BGK files; anonymous readback matched all 18 public files. The validated
 BGK migration receipt is 6,949 bytes, SHA-256
 `337101c42abfda58f763a0662c4db4ec9bde509cbcc2cdfb833b2bc87966228a`.
-The exact next action is to publish the identical checkpoint in the existing
-GitHub lineage, verify release/raw/Pages bytes anonymously, and then close the
-already frozen Unit 4 authority and rights replay before translating Unit 4.
+The identical checkpoint is public at GitHub content commit
+`4451703816d5c8069d47da727ec0c2df75f6f97f`, annotated tag/release
+`bgk-unit-03`, and Pages `/bgk/`. Anonymous readback matched all ten release
+assets, five fixed-commit files, both Pages reader files, and the public tag
+peel. Receipt `qa/BGK_UNITS_01_03_GITHUB_PUBLICATION.json` is 8,656 bytes,
+SHA-256 `b15cf205206ea5571f6c36ced5f1a4df074a11e5281f3fe4c623a7634449babe`.
+The exact next action is to close Unit 4's complete rights/media/PDF and LaTeX
+terminal-byte reproducibility audit, then translate Unit 4 in source order.
 
 Units 1–18 were the earlier verified and published cumulative reader: 18 lectures, 18
 worksheets, 513 exercises, all 90 frozen public source solutions, 74 media
@@ -249,11 +254,12 @@ The BGK Units 1--3 checkpoint is public in the same Zenodo concept as record
 `qa/BGK_UNITS_01_03_ZENODO_PUBLICATION.json` is 6,123 bytes, SHA-256
 `bdba910e1fda2c3f02d32d1addebf98facc5b36d8e09a6fac17e028c7bc8ca2a`,
 and proves anonymous byte equality for eight inherited classical files plus
-ten new BGK files. The exact next executable action is to publish and
-anonymously read back the identical GitHub release and Pages surfaces, then
-close Unit 4 authority/rights reproducibility and translate it in source order.
-Units 4--30 / 27 source units / 215 official-PDF pages remain, followed only
-by the finite original layer.
+ten new BGK files. GitHub release `bgk-unit-03` and Pages `/bgk/` are likewise
+public; the receipt above proves all ten assets, five raw commit files, and both
+Pages files. The exact next executable action is to close the remaining Unit 4
+authority/rights reproducibility caveats and translate it in source order.
+Units 4--30 / 27 source units / 215 official-PDF pages remain, followed only by
+the finite original layer.
 
 ## Finite workflow
 

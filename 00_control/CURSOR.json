@@ -3,7 +3,7 @@
   "updated": "2026-08-29",
   "lane": "O016/D100 algebraic-geometry-bridge-id",
   "language": "id-ID",
-  "status": "classical_unit_30_public_bgk_units_01_03_zenodo_public_all_18_files_verified_github_publication_next_bgk_unit_04_authority_audit",
+  "status": "classical_unit_30_public_bgk_units_01_03_public_both_lineages_all_release_raw_pages_and_zenodo_bytes_verified_next_bgk_unit_04_authority_audit",
   "durable_goal": {
     "path": "00_control/CURRENT_GOAL_AND_WORKFLOW.md",
     "characters": 18344,
@@ -36,11 +36,11 @@
   "next_source": {
     "course": "Brenner, Bündel, Garben und Kohomologie (Osnabrück 2019–2020)",
     "unit": 4,
-    "state": "unit_03_zenodo_public_github_publication_in_progress_unit_04_authority_candidate_present_awaiting_owner_replay",
+    "state": "unit_03_public_both_lineages_all_bytes_verified_unit_04_authority_candidate_present_awaiting_owner_replay",
     "remaining_source_units": 27,
     "remaining_official_pdf_pages": 215,
     "next_release_milestone": "BGK Units 01–03 cumulative checkpoint",
-    "next_executable_action": "publish the exact verified BGK Units 1-3 checkpoint in the existing GitHub lineage and anonymously match release/raw/Pages bytes; then close the prepared Unit 4 authority and rights replay before translating Unit 4"
+    "next_executable_action": "close the prepared BGK Unit 4 complete rights/media/PDF and LaTeX terminal-byte authority replay, then translate Unit 4 in source order and run bounded deterministic gates"
   },
   "bgk_unit_01_working_boundary": {
     "state": "authority_translation_reader_visual_responsive_and_native_backend_all_pass_local_checkpoint",
@@ -247,9 +247,10 @@
     "release_package": {"path": "release/bgk-units-01-03", "files": 9, "bytes": 6142953, "reader_first": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-03.pdf", "manifest_sha256": "9a43b4bc22182e1e1057e1a78af3721da604a38c362a1426ad091e53c4e9a1cd", "checksums_sha256": "3161cd342da71c0f58112004322fcef4b816403f039a91d58dc9741ef555eea8", "qa_sha256": "213aa2bf190d6a2326d5ca60cbf3330dcfa7024f1d49d6493d0f5259acf81ead", "deterministic_double_replay": true, "independent_cross_binding_checks": 144, "status": "PASS"},
     "common_backend_final": {"path": "backend/bgk-common-backend-v1/MIGRATION_RECEIPT.json", "bytes": 6949, "sha256": "337101c42abfda58f763a0662c4db4ec9bde509cbcc2cdfb833b2bc87966228a", "public_record_url": "https://zenodo.org/records/22160883", "doi": "10.5281/zenodo.22160883", "schema_valid": true, "deterministic_double_replay": true, "status": "PASS"},
     "zenodo": {"record_id": 22160883, "doi": "10.5281/zenodo.22160883", "concept_doi": "10.5281/zenodo.22059686", "previous_record_id": 22150273, "title": "Kurva Aljabar (Unit 1–30, lengkap) + Bundel, Berkas, dan Kohomologi (Unit 1–3, parsial) — Edisi Bahasa Indonesia", "version": "ak-unit-30+bgk-unit-03", "inherited_classical_files_verified": 8, "new_bgk_files_verified": 10, "total_public_files_verified": 18, "receipt_path": "qa/BGK_UNITS_01_03_ZENODO_PUBLICATION.json", "receipt_bytes": 6123, "receipt_sha256": "bdba910e1fda2c3f02d32d1addebf98facc5b36d8e09a6fac17e028c7bc8ca2a", "status": "PASS_ALL_PUBLIC_BYTES_ANONYMOUSLY_VERIFIED"},
+    "github": {"content_commit": "4451703816d5c8069d47da727ec0c2df75f6f97f", "tag": "bgk-unit-03", "annotated_tag_object": "16ec60a49aee4588879e56c703c32a527881f617", "release_url": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/bgk-unit-03", "pages_url": "https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/bgk/", "receipt_path": "qa/BGK_UNITS_01_03_GITHUB_PUBLICATION.json", "receipt_bytes": 8656, "receipt_sha256": "b15cf205206ea5571f6c36ced5f1a4df074a11e5281f3fe4c623a7634449babe", "release_assets_verified": 10, "raw_commit_files_verified": 5, "pages_files_verified": 2, "status": "PASS_ALL_PUBLIC_BYTES_ANONYMOUSLY_VERIFIED"},
     "worklog": {"path": "00_control/BGK_UNIT_03_WORKLOG.md", "bytes": 7015, "sha256": "4a01f0e10d53fd94f3ccc3837e89d5571d37bcee5eb117869deb4eb293818f37"},
-    "publication_state": "zenodo_published_all_18_files_anonymously_verified_github_publication_in_progress",
-    "next_executable_action": "publish the exact BGK Units 1-3 checkpoint to the existing GitHub lineage, verify release/raw/Pages bytes anonymously, persist the GitHub receipt, then close Unit 4 authority and rights replay and translate Unit 4"
+    "publication_state": "published_both_lineages_all_zenodo_release_raw_commit_and_pages_bytes_anonymously_verified",
+    "next_executable_action": "close Unit 4 complete authority/rights/media/PDF and LaTeX terminal-byte reproducibility; then translate Unit 4 in source order and run bounded deterministic gates"
   },
   "unit_03_authority": {
     "lecture_revid": 1052207,

@@ -111,15 +111,34 @@ publication into the existing lineages is the next transaction. This file,
   `10140e1baaac0cd44b591b31d5da4d2df94908fdd561abd13f3f43948fe87d07`).
   It reverses exactly to the native SHA-256 and preserves the complete
   classical regression baseline. Receipt: 2,142 bytes, SHA-256
-  `022797ef4b4479649a001ca66161c4c2769ddcb2672de996fe0d73f7b917e2c3`.
+  `873c2e35d90b6d397bf85b36403ff003badb081b34b2ea92b948fb73b92d671d`.
+
+## Release and public preservation
+
+- The nine-file reader-first package totals 6,142,953 bytes. Its manifest is
+  SHA-256 `9a43b4bc22182e1e1057e1a78af3721da604a38c362a1426ad091e53c4e9a1cd`;
+  its release QA is SHA-256
+  `213aa2bf190d6a2326d5ca60cbf3330dcfa7024f1d49d6493d0f5259acf81ead`.
+  Two deterministic replays and an independent 144-check audit pass.
+- Zenodo record `22160883`, DOI `10.5281/zenodo.22160883`, remains in concept
+  `10.5281/zenodo.22059686`. It preserves all eight complete-classical files
+  and adds ten BGK files. Anonymous readback matched all 18. Receipt:
+  `qa/BGK_UNITS_01_03_ZENODO_PUBLICATION.json`, 6,123 bytes, SHA-256
+  `bdba910e1fda2c3f02d32d1addebf98facc5b36d8e09a6fac17e028c7bc8ca2a`.
+- GitHub content commit `4451703816d5c8069d47da727ec0c2df75f6f97f`,
+  annotated tag/release `bgk-unit-03`, and Pages `/bgk/` are public. Anonymous
+  readback matched ten release assets, five fixed-commit files, and both Pages
+  files. Receipt: `qa/BGK_UNITS_01_03_GITHUB_PUBLICATION.json`, 8,656 bytes,
+  SHA-256 `b15cf205206ea5571f6c36ced5f1a4df074a11e5281f3fe4c623a7634449babe`.
+- Final BGK common-backend receipt: 6,949 bytes, SHA-256
+  `337101c42abfda58f763a0662c4db4ec9bde509cbcc2cdfb833b2bc87966228a`.
 
 ## Cursor and next executable action
 
 Exactly 27 BGK source units / 215 official-PDF pages remain: Units 4–30. The
-19-unit learner route is a subset of these same units and adds no work. First,
-package and publish this verified Units 1–3 checkpoint into the existing
-GitHub and Zenodo lineages, emit the final public-identity migration receipt,
-and anonymously compare every public byte. Then admit the already-next Unit 4
-authority freeze, translate Unit 4 in source order, and continue directly.
+19-unit learner route is a subset of these same units and adds no work. Units
+1–3 are now public and verified in both lineages. Next, close Unit 4's complete
+rights/media/PDF and LaTeX terminal-byte reproducibility audit, translate Unit
+4 in source order, and continue directly.
 
 Model provenance: OpenAI Codex gpt-5.6-sol, Ultra.
