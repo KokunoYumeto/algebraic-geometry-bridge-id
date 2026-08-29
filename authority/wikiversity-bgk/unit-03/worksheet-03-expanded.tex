@@ -1,0 +1,816 @@
+\setcounter{section}{3}
+
+
+
+
+
+
+
+
+Das
+\definitionswort {Kroneckerprodukt}{}
+zu Matrizen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A
+}
+{ =} { \left(  a_{ij}  \right)_{1 \leq i \leq m,\, 1 \leq j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B
+}
+{ =} { \left(  b_{k \ell }  \right)_{1 \leq k \leq p,\, 1 \leq \ell \leq r}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist durch
+
+\mathdisp {\left(  a_{ij} \cdot b_{k \ell}  \right)_{1 \leq i \leq m,\,     1 \leq  k \leq p;\,   1 \leq j \leq n,     \, 1 \leq \ell \leq r   }} {  }
+
+gegeben.
+
+
+
+
+
+
+
+\inputaufgabegibtloesung
+{}
+{
+
+
+
+
+
+Berechne das
+\definitionsverweis {Kroneckerprodukt}{}{}
+der beiden Matrizen
+\mathkor {} {\begin{pmatrix}  3   &   -4  \\  5  &  -2 \end{pmatrix}} {und} {\begin{pmatrix}  -2  &   7   \\  6  &  3 \end{pmatrix}} {.}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A
+}
+{ =} { \left(  a_{ij}  \right)_{1 \leq i \leq m,\, 1 \leq j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B
+}
+{ =} { \left(  b_{k \ell }  \right)_{1 \leq  k \leq p,\, 1 \leq \ell \leq r}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\definitionsverweis {Matrizen}{}{}
+mit den zugehörigen
+\definitionsverweis {linearen Abbildungen}{}{}
+\maabb {A} {K^n  } { K^m
+} {}
+bzw.
+\maabb {B} {K^r } { K^p
+} {.}
+Zeige, dass das
+\definitionsverweis {Tensorprodukt}{}{}
+dieser linearen Abbildungen bezüglich der Basen
+
+\mathbed {e_j \otimes e_\ell} {}
+ {1 \leq j \leq n,\, 1 \leq \ell \leq r} {}
+ {} {} {} {,}
+von
+\mathl{K^n \otimes K^r}{} und
+
+\mathbed {e_i \otimes e_k} {}
+ {1 \leq i \leq m,\, 1 \leq  k \leq p} {}
+ {} {} {} {,}
+von
+\mathl{K^m \otimes K^p}{} durch das
+\definitionsverweis {Kroneckerprodukt}{}{}
+von $A$ und $B$ beschrieben wird.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass das
+\definitionsverweis {Tensorprodukt}{}{}
+des
+\definitionsverweis {Möbiusbandes}{}{}
+mit sich selbst ein triviales Geradenbündel ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {{ \mathcal  F   }} {und} {{ \mathcal  G   }} {}
+\definitionsverweis {Prägarben}{}{}
+auf dem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Zeige, dass durch
+\mathl{U \mapsto { \mathcal  F   }  \left(   U   \right) \times { \mathcal  G   }  \left(   U   \right)}{} mit den natürlichen
+\definitionsverweis {Produktabbildungen}{}{}
+eine Prägarbe auf $X$ gegeben ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $I$ eine Indexmenge und sei
+
+\mathbed {{ \mathcal  F   }_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+eine Familie von
+\definitionsverweis {Prägarben}{}{}
+auf dem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Zeige, dass durch
+\mathl{U \mapsto \prod_{i \in I} { \mathcal F_i   }  \left(   U   \right)}{} mit den natürlichen
+\definitionsverweis {Produktabbildungen}{}{}
+eine Prägarbe auf $X$ gegeben ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Interpretiere
+
+Beispiel 3.8
+
+im Sinne von
+
+Beispiel 3.12
+.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabb {p} { V } { X
+} {}
+ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+vom Rang $m$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Zeige, dass zu jeder offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+auf der $V$ trivial ist, die zugehörige
+\definitionsverweis {Prägarbe}{}{}
+der
+\definitionsverweis {stetigen Schnitte}{}{}
+isomorph
+\zusatzklammer {in welchem Sinn} {?} {}
+zu
+\mathl{C^0(U,\R)^m}{} ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass die
+\definitionsverweis {Gruppen}{}{}
+
+\mathl{(\R,+)}{,}
+\mathl{(\R \setminus \{0\}, \cdot)}{,}
+\mathl{( {\mathbb C} ,+)}{,}
+\mathl{( {\mathbb C}  \setminus \{0\}, \cdot)}{,}
+\mathl{(\R^n,+)}{,}
+\mathl{(S^1,\text{ mit der Winkeladdition} )}{,} die
+\definitionsverweis {allgemeine lineare Gruppe}{}{}
+
+\mathl{\operatorname{GL}_{  n   } \! \left(  \R  \right)}{} bzw.
+\mathl{\operatorname{GL}_{  n   } \! \left(   {\mathbb C}   \right)}{}
+\definitionsverweis {topologische Gruppen}{}{}
+sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $G$ eine
+\definitionsverweis {topologische Gruppe}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{H
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Untergruppe}{}{.}
+Zeige, dass auf jedem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ die
+\definitionsverweis {Prägarbe}{}{}
+$C^0(-,H)$ eine
+\definitionsverweis {Unterprägarbe}{}{}
+von $C^0(-,G)$ ist.
+
+
+
+
+
+}
+{} {}
+
+
+
+
+
+
+
+Eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+$G$, die zugleich eine
+\definitionsverweis {Gruppe}{}{}
+ist, für die die Inversenabbildung und die Gruppenverknüpfung
+\definitionsverweis {differenzierbare Abbildungen}{}{}
+sind, heißt
+\zusatzklammer {reelle} {} {}
+\definitionswort {Lie-Gruppe}{.}
+
+
+
+
+
+
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass die
+\definitionsverweis {Gruppen}{}{}
+
+\mathl{(\R,+)}{,}
+\mathl{(\R \setminus \{0\}, \cdot)}{,}
+\mathl{( {\mathbb C} ,+)}{,}
+\mathl{( {\mathbb C}  \setminus \{0\}, \cdot)}{,}
+\mathl{(\R^n,+)}{,}
+\mathl{(S^1,\text{ mit der Winkeladdition} )}{,} die
+\definitionsverweis {allgemeine lineare Gruppe}{}{}
+
+\mathl{\operatorname{GL}_{  n   } \! \left(  \R  \right)}{} bzw.
+\mathl{\operatorname{GL}_{  n   } \! \left(   {\mathbb C}   \right)}{}
+\definitionsverweis {Lie-Gruppen}{}{}
+sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass das
+\definitionsverweis {Tangentialbündel}{}{}
+auf einer
+\definitionsverweis {Lie-Gruppe}{}{}
+\definitionsverweis {trivial}{}{}
+ist.
+
+
+
+
+
+}
+{} {Tipp: Zeige, dass man den Tangentialraum am neutralen Element in sinnvoller Weise in die anderen Tangentialräume transportieren kann.}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $I$ eine
+\definitionsverweis {gerichtete Indexmenge}{}{}
+und sei $M_i$,
+\mathl{i \in I}{,} ein
+\definitionsverweis {gerichtetes System}{}{}
+von Mengen. Es sei $N$ eine weitere Menge und zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei eine Abbildung
+\maabbdisp {\psi_i} { M_i } { N
+} {}
+mit der Eigenschaft gegeben, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \psi_i
+}
+{ = }{ \psi_j \circ \varphi_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist für alle
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \preccurlyeq }{ j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {wobei $\varphi_{ij}$ die Abbildungen des Systems bezeichnen} {} {.}
+Beweise die universelle Eigenschaft des
+\definitionsverweis {Kolimes}{}{,}
+nämlich, dass es eine eindeutig bestimmte Abbildung
+\maabbdisp {\psi} { \operatorname{colim}\,_{i \in I} M_i  } { N
+} {}
+derart gibt, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \psi_i
+}
+{ = }{ \psi  \circ j_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, wobei
+\mathl{j_i:M_i \rightarrow \operatorname{colim}\,_{i \in I} M_i}{} die natürlichen Abbildungen sind.
+
+Zeige ferner, dass falls $M_i$ ein gerichtetes System von Gruppen und falls $N$ ebenfalls eine Gruppe ist und alle $\psi_i$ Gruppenhomomorphismen sind, dass dann auch $\psi$ ein Gruppenhomomorphismus ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $I$ eine
+\definitionsverweis {gerichtete Indexmenge}{}{}
+und sei $G_i$,
+\mathl{i \in I}{,} ein
+\definitionsverweis {gerichtetes System}{}{}
+von kommutativen Gruppen. Zeige, dass der
+\definitionsverweis {Kolimes}{}{}
+eine kommutative Gruppe ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $R$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{S
+}
+{ \subseteq }{ R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {multiplikatives System}{}{.}
+Auf $S$ betrachten wir folgende
+\zusatzklammer {partielle} {} {}
+\definitionsverweis {Ordnung}{}{,}
+und zwar sagen wir
+
+\mavergleichskette
+{\vergleichskette
+{f
+}
+{ \preccurlyeq }{g
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+falls $f$ eine Potenz von $g$ teilt
+\zusatzklammer {und wir identifizieren zwei Elemente, wenn diese Relation in beide Richtungen vorliegt} {} {.}
+Zeige, dass die kommutativen Ringe
+
+\mathdisp {R_f, \, f \in S} { , }
+
+ein
+\definitionsverweis {gerichtetes System}{}{}
+bilden, und dass für den
+\definitionsverweis {Kolimes}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \operatorname{colim}_{f \in S} R_f
+}
+{ =} { R_S
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass der
+\definitionsverweis {Halm}{}{}
+des
+\definitionsverweis {Tangentialbündels}{}{}
+einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+in einem Punkt nur von der Dimension der Mannigfaltigkeit
+\zusatzklammer {in diesem Punkt} {} {}
+abhängt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {{ \mathcal  F   }} {und} {{ \mathcal  G   }} {}
+\definitionsverweis {Prägarben}{}{}
+auf dem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ und
+\mathl{{ \mathcal  F   } \times { \mathcal  G   }}{} ihre Produktprägarbe. Zeige, dass für den
+\definitionsverweis {Halm}{}{}
+in jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  { \mathcal  F   } \times { \mathcal  G   }   \right)_P
+}
+{ =} { { \mathcal  F   }_P \times { \mathcal  G   }_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und seien
+\mathl{{ \mathcal  F   } , { \mathcal  G   } , { \mathcal  H   }}{}
+\definitionsverweis {Prägarben}{}{}
+auf $X$. Zeige die folgenden Aussagen.
+\aufzaehlungdrei{Die Identität
+\maabbdisp {} { { \mathcal  F   } } { { \mathcal  F   }
+} {}
+ist ein
+\definitionsverweis {Homomorphismus von Prägarben}{}{.}
+}{Wenn
+\maabb {\varphi} { { \mathcal F  } } { { \mathcal G  }
+} {}
+und
+\maabb {\psi} { { \mathcal G  } } { { \mathcal H  }
+} {}
+Homomorphismen von Prägarben sind, so ist auch die Verknüpfung
+\mathl{\psi \circ \varphi}{} ein Homomorphismus von Prägarben.
+}{Zu einer
+\definitionsverweis {Unterprägarbe}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ { \mathcal F  }
+}
+{ \subseteq }{ { \mathcal G  }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die natürliche Inklusion ein Homomorphismus von Prägraben.
+}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $I$ eine Indexmenge und sei
+
+\mathbed {{ \mathcal  F   }_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+eine Familie von
+\definitionsverweis {Prägarben}{}{}
+auf dem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit der Produktprägarbe
+\mathl{\prod_{i \in I} { \mathcal F_i   }}{.} Es sei ${ \mathcal  G   }$ eine weitere Prägarbe auf $X$. Zeige, dass ein
+\definitionsverweis {Prägarbenmorphismus}{}{}
+\maabbdisp {\psi} { { \mathcal  G   } } { \prod_{i \in I} { \mathcal F_i   }
+} {}
+das gleiche ist wie eine Familie von Prägarbenmorphismen
+\maabbdisp {\psi_i} { { \mathcal  G   } } { { \mathcal F_i   }
+} {.}
+
+
+
+
+
+}
+{} {}

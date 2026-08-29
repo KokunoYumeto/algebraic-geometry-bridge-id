@@ -1,0 +1,93 @@
+{
+  "schema": "ag-bridge-bgk-unit-reader-qa-v1",
+  "unit": 1,
+  "language": "id-ID",
+  "status": "PASS",
+  "build_receipt": {
+    "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+    "bytes": 2946,
+    "sha256": "fe94f9c64592214c3b8fd9500c7506506374036a805f568f5d7ff59166d4858b"
+  },
+  "outputs": {
+    "html": {
+      "path": "build/reader-bgk-id/index.html",
+      "bytes": 318215,
+      "sha256": "b36367d724ff2ac91f893f2ec07907a36e74cd5ab8d07e2d689a234dd7f7c447",
+      "mathml_nodes_browser": 357,
+      "stable_heading_anchors": 37,
+      "embedded_images": 1,
+      "rights_bound_alt": "Diagram bundel tangen dengan ruang tangen sebagai serat di atas setiap titik manifold"
+    },
+    "pdf": {
+      "path": "build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-unit-01.pdf",
+      "bytes": 244200,
+      "sha256": "5e8529a77ad987dc1b7bc81bd621fc261f595f91e844a335cfd2b4799de5ad42",
+      "pages_pypdf": 18,
+      "pages_poppler": 18,
+      "page_size": "A4",
+      "normalized_trailer_id": "296b0e4a24f68654c2e4dc8f1fab1853"
+    }
+  },
+  "deterministic_replay": {
+    "status": "PASS",
+    "first_html_sha256": "b36367d724ff2ac91f893f2ec07907a36e74cd5ab8d07e2d689a234dd7f7c447",
+    "second_html_sha256": "b36367d724ff2ac91f893f2ec07907a36e74cd5ab8d07e2d689a234dd7f7c447",
+    "first_pdf_sha256": "5e8529a77ad987dc1b7bc81bd621fc261f595f91e844a335cfd2b4799de5ad42",
+    "second_pdf_sha256": "5e8529a77ad987dc1b7bc81bd621fc261f595f91e844a335cfd2b4799de5ad42",
+    "note": "The builder replaces LuaTeX's sole random trailer ID with a fixed-width content-derived ID; all other generated PDF bytes were already identical."
+  },
+  "pdf_visual_review": {
+    "renderer": "Poppler pdftoppm",
+    "rasterized_pages": 18,
+    "reviewed_pages": "1-18",
+    "representative_full_resolution_pages": [1, 5, 6, 11, 13, 18],
+    "checks": {
+      "clipped_text": 0,
+      "overlapping_text_or_math": 0,
+      "broken_glyphs": 0,
+      "unreadable_formulas": 0,
+      "broken_links_or_literal_builder_markup": 0,
+      "diagram_centered": true,
+      "diagram_caption_legible": true,
+      "page_numbers_present": true,
+      "section_transitions_legible": true
+    }
+  },
+  "responsive_html_review": {
+    "browser": "Codex in-app Chromium",
+    "desktop": {
+      "viewport": "1280x720",
+      "document_horizontal_overflow": false,
+      "body_left_margin_px": 20.44,
+      "body_right_margin_px": 20.56,
+      "toc_width_px": 972,
+      "toc_centered": true
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "document_client_width_px": 375,
+      "body_width_px": 375.11,
+      "body_padding_px": 16,
+      "document_horizontal_overflow": false,
+      "toc_left_px": 16,
+      "toc_right_px": 359.11,
+      "image_left_px": 56,
+      "image_right_px": 319.10,
+      "image_centered": true,
+      "display_math_blocks": 103,
+      "display_math_blocks_with_internal_scroll": 12,
+      "wide_math_contained_by_internal_scroll": true
+    },
+    "viewport_override_reset": true
+  },
+  "builder": {
+    "path": "scripts/build_bgk_reader.py",
+    "bytes": 10702,
+    "sha256": "33bf1f9f1bb1b40297a66c5d69807c34b515101d61a5ea5dedf72330b76521ab"
+  },
+  "translation_qa": {
+    "path": "qa/BGK_UNIT_01_TRANSLATION_QA.json",
+    "bytes": 3595,
+    "sha256": "c1b815046172ebe42c07d3e1780c1ea4ccc9b510bb5da5430f90c1445fc9612a"
+  }
+}

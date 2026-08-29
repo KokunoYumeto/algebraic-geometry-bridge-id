@@ -1,0 +1,178 @@
+{
+  "schema": "ag-bridge-bgk-unit-translation-qa-v1",
+  "unit": 2,
+  "language": "id-ID",
+  "status": "PASS",
+  "authority": [
+    {
+      "path": "authority/wikiversity-bgk/unit-02/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 106216,
+      "sha256": "a348b56811fe98266feff9108a21a436a9b8f07a343321feab7d9fbb3b75e64d"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/lecture-02.xml",
+      "bytes": 7132,
+      "sha256": "9e5823b1031d2d8877147923324a95a78ff255d00a840745fe6a83dddb749670"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/lecture-02-expanded.tex",
+      "bytes": 20219,
+      "sha256": "ae973e45a0aa3228ac31a61dd71b995d7872bfaaf8adca164bd97bd045f000b3"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/worksheet-02.xml",
+      "bytes": 6169,
+      "sha256": "b7d96a8bfc59545c18c4dbbe2bb3f6e3b4aa112a45d9a41e7a8f86de15113e1e"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/worksheet-02-expanded.tex",
+      "bytes": 13510,
+      "sha256": "6aaed409db9e572b53def3dd35c3b9a5cb6d4467d8d5c3a4360ac6b24d78ccdd"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/ORDERED_EXERCISE_MAP.json",
+      "bytes": 9332,
+      "sha256": "4e0633e8c35ea5a2fddd0b63a0bb67fdd6af93f11a55f3a2eae10eae0d25a10a"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/worksheet-solution-candidates-api.json",
+      "bytes": 4604,
+      "sha256": "5051d800bed72fe432757012033319ca30c14503254f16d0d385f9a0a3c82ad2"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/solution-ex04.xml",
+      "bytes": 4546,
+      "sha256": "6f326a59a4289d17ac6aee485706faa81d641d994ddda72bd463053eec4b71b1"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-02/solution-ex04.html",
+      "bytes": 8387,
+      "sha256": "8cf7b19c9693b1817e5699b32703545716fb35dfa713b9f6129758dbe0bf0e7f"
+    }
+  ],
+  "media_and_rights": [
+    {
+      "path": "authority/ASSET_CLOSURE-bgk-unit-02.json",
+      "bytes": 12436,
+      "sha256": "902522f5a7231d562dc09f30bbd13b76ed5c087b17fd533b7d5cc71c0fd4844d"
+    },
+    {
+      "path": "authority/RIGHTS-bgk-unit-02.csv",
+      "bytes": 5766,
+      "sha256": "bc85cef5f20150941f3a6492c67702bcddd3d23bdd6ac5939c0148e5d57dc9f6"
+    },
+    {
+      "path": "authority/commons-imageinfo-bgk-unit-02.json",
+      "bytes": 16255,
+      "sha256": "d35c85d8e57594b709d5a771a4322c27eb34ebac16f3244de9f5572bd465b5ea"
+    },
+    {
+      "path": "source/id-ID/media-credits-bgk-unit-02.md",
+      "bytes": 1943,
+      "sha256": "cec28c3bd197ffb7aabadfa0d67ddf8945cc7899834c4470780618ca60008158"
+    }
+  ],
+  "translation_files": [
+    {
+      "path": "source/id-ID/bgk/frontmatter-bgk-units-01-02.md",
+      "bytes": 3634,
+      "sha256": "fcc4e32f33bc886b415e77c337af9507fc3789a5e27fc1bd72999ad975b11cac"
+    },
+    {
+      "path": "source/id-ID/bgk/lecture-02.md",
+      "bytes": 16648,
+      "sha256": "317fe26b62230198c445f630aba95124bd9ac10d8b3f677ebc395630379b2d81"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-02.md",
+      "bytes": 14314,
+      "sha256": "65d5f040639d8e5b9afa87477d13f3cb96d79c6e52b54662fdb6d814d38ed51d"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-02-solutions.md",
+      "bytes": 4299,
+      "sha256": "8344276b9d613ef5ac55fabf82dafadb9b3385c93492b8508bdfd70a2b0ac12e"
+    }
+  ],
+  "pandoc": [
+    {
+      "path": "source/id-ID/bgk/frontmatter-bgk-units-01-02.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 1,
+      "heading_nodes": 2
+    },
+    {
+      "path": "source/id-ID/bgk/lecture-02.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 180,
+      "heading_nodes": 20
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-02.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 111,
+      "heading_nodes": 28
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-02-solutions.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 28,
+      "heading_nodes": 2
+    }
+  ],
+  "counts": {
+    "source_exercises": 27,
+    "translated_exercises": 27,
+    "source_public_solutions": 1,
+    "translated_public_solutions": 1,
+    "negative_solution_candidates": 26,
+    "invented_solutions": 0,
+    "heading_ids": 52,
+    "heading_id_collisions": 0,
+    "lecture_numbered_entities": 12,
+    "visible_source_anomaly_notes": 7,
+    "correction_ledger_rows_added": 7,
+    "terminology_rows_added": 9,
+    "terminology_rows_reused": 1,
+    "media_positions": 3,
+    "cross_reference_occurrences": 27,
+    "missing_cross_reference_targets": 0
+  },
+  "correction_ids": [
+    "AGC-CORR-0142",
+    "AGC-CORR-0143",
+    "AGC-CORR-0144",
+    "AGC-CORR-0145",
+    "AGC-CORR-0146",
+    "AGC-CORR-0147",
+    "AGC-CORR-0148"
+  ],
+  "terminology_ids": [
+    "AGT-0290",
+    "AGT-0291",
+    "AGT-0292",
+    "AGT-0293",
+    "AGT-0294",
+    "AGT-0295",
+    "AGT-0296",
+    "AGT-0297",
+    "AGT-0298",
+    "AGT-0241"
+  ],
+  "checks": [
+    "frozen_authority_hashes",
+    "pandoc_ast_all_four_files",
+    "ordered_27_exercise_map",
+    "exact_public_solution_2_4_and_26_negative_candidates",
+    "no_invented_solutions",
+    "disjoint_unit_and_classical_stable_ids",
+    "lecture_numbering_2_1_through_2_12",
+    "corrected_formula_and_index_witnesses",
+    "seven_visible_source_anomaly_disclosures",
+    "rights_bound_media_order_paths_alt_and_hashes",
+    "append_only_correction_and_terminology_ledgers",
+    "closed_cross_references",
+    "exact_model_provenance_and_nonendorsement",
+    "no_placeholders_german_prose_or_invisible_controls"
+  ]
+}

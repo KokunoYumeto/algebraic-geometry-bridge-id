@@ -1,0 +1,900 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><div style="margin:-1.0em; border:3px solid green; padding: 1.5em; font-align:font-size:100%"><span style="font-size: 1.0em">
+<div class="chapter"> <div class="nextChapter" style="display:inline;"><div class="nextChapter" style="display:inline;"><div class="nextChapter" style="display:inline;">
+<div class="floatleft"></div>
+<p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Lineare Konstruktionen von Vektorbündeln</em></big></dd></dl>
+<p>Für Vektorräume gibt es eine Vielzahl von Konstruktionen wie die direkte Summe, das Tensorprodukt, den Dualraum. Wir wollen für Vektorbündel entsprechende Konstruktionen einführen, die faserweise mit den Konstruktionen aus der linearen Algebra übereinstimmen, aber auch die Abhängigkeit der Fasern von der Basis mitberücksichtigen. Wir werden dabei mit Verklebungsdaten für Vektorbündel arbeiten und die Tatsache heranziehen, dass es zu zwei Vektorbündeln auf einem topologischen Raum <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> stets eine 
+(hinreichende feine)
+offene Überdeckung von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> gibt, bezüglich der beide Bündel Trivialisierungen besitzen. Insbesondere kann man sich auf den Fall zurückziehen, wo beide Bündel durch Matrixbeschreibungen gegeben sind. Die Konstruktionen spielen sich dann auf der Ebene von Matrixmanipulationen ab.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition"><a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Direkte_Summe/Definition" title="Reelle Vektorbündel/Topologischer Raum/Direkte Summe/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Direkte_Summe/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Direkte_Summe/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu 
+<a href="/wiki/Topologischer_Raum/Reelles_Vektorb%C3%BCndel/Definition" title="Topologischer Raum/Reelles Vektorbündel/Definition">reellen Vektorbündeln</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>
+auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> mit Trivialisierungen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>E</mi><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup></mstyle></mrow></math> </dd></dl>
+<p>und
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>F</mi><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msup></mstyle></mrow></math> </dd></dl>
+<p>nennt man das Vektorbündel zum 
+<a href="/wiki/Topologisches_reelles_Vektorb%C3%BCndel/Verklebungsdatum/Definition" title="Topologisches reelles Vektorbündel/Verklebungsdatum/Definition">Verklebungsdatum</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">=</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msup><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>und
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub></mstyle></mrow></math> </dd></dl>
+<p>mit
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo>,</mo><mi>w</mi><mo stretchy="false">)</mo><mo stretchy="false">:=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>x</mi><mo>,</mo><mspace width="0.167em"></mspace><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">(</mo><msubsup><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msubsup><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>v</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo><mo>,</mo><mspace width="0.167em"></mspace><msub><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">(</mo><msubsup><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msubsup><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>w</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>die
+<em>direkte Summe</em> 
+der Vektorbündel
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>.
+Es wird mit <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi><mo stretchy="false">⊕</mo><mi>F</mi></mstyle></mrow></math> bezeichnet.  
+</p>
+</div>
+</div></div>
+<p>Wenn <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> durch die Matrixbeschreibung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">⟶</mo><msub><mo data-mjx-texclass="OP" mathvariant="normal">GL</mo><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msub><mspace width="-0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>und <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math> durch die Matrixbeschreibung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ψ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">⟶</mo><msub><mi data-mjx-texclass="OP" mathvariant="normal">GL</mi><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msub><mspace width="-0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p>so erhält man die Matrixbeschreibung von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi><mo stretchy="false">⊕</mo><mi>F</mi></mstyle></mrow></math>, indem man die beiden Matrizen diagonal zu einer <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">+</mo><mi>n</mi><mo stretchy="false">)</mo><mo stretchy="false">×</mo><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">+</mo><mi>n</mi><mo stretchy="false">)</mo></mstyle></mrow></math>-Matrix zusammensetzt und mit Nullen auffüllt.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_2"><a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Tensorprodukt/Definition" title="Reelle Vektorbündel/Topologischer Raum/Tensorprodukt/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Tensorprodukt/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Tensorprodukt/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu 
+<a href="/wiki/Topologischer_Raum/Reelles_Vektorb%C3%BCndel/Definition" title="Topologischer Raum/Reelles Vektorbündel/Definition">reellen Vektorbündeln</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>
+auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> mit Trivialisierungen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>E</mi><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup></mstyle></mrow></math> </dd></dl>
+<p>und
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>F</mi><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msup></mstyle></mrow></math> </dd></dl>
+<p>nennt man das Vektorbündel zum 
+<a href="/wiki/Topologisches_reelles_Vektorb%C3%BCndel/Verklebungsdatum/Definition" title="Topologisches reelles Vektorbündel/Verklebungsdatum/Definition">Verklebungsdatum</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">=</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup><mo stretchy="false">⊗</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>und
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub></mstyle></mrow></math> </dd></dl>
+<p>mit
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false">:=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">∘</mo><msubsup><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msubsup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">⊗</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msub><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">∘</mo><msubsup><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msubsup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>(dabei wird für jeden Basispunkt das 
+<a href="/wiki/Lineare_Abbildungen/Tensorprodukt/Definition" title="Lineare Abbildungen/Tensorprodukt/Definition">Tensorprodukt der linearen Abbildungen</a>
+genommen)
+das
+<em>Tensorprodukt</em> 
+der Vektorbündel
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>.
+Es wird mit <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi><mo stretchy="false">⊗</mo><mi>F</mi></mstyle></mrow></math> bezeichnet.  
+</p>
+</div>
+</div></div>
+<p>Bei gegebenen Matrixbeschreibungen erhält man die Matrixbeschreibung des Tensorproduktes durch das sogenannte
+<a href="/wiki/Matrizen/Kroneckerprodukt/Definition" title="Matrizen/Kroneckerprodukt/Definition">Kroneckerprodukt</a>.
+Dabei wird jeder Eintrag der einen Matrix mit jedem Eintrag der anderen Matrix multipliziert.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_3"><a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/%C3%84u%C3%9Feres_Produkt/Definition" title="Reelle Vektorbündel/Topologischer Raum/Äußeres Produkt/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/%C3%84u%C3%9Feres_Produkt/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/%C3%84u%C3%9Feres_Produkt/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu einem
+<a href="/wiki/Topologischer_Raum/Reelles_Vektorb%C3%BCndel/Definition" title="Topologischer Raum/Reelles Vektorbündel/Definition">reellen Vektorbündel</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> vom Rang <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>m</mi></mstyle></mrow></math> auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> mit Trivialisierungen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>E</mi><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup></mstyle></mrow></math> </dd></dl>
+<p>und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>r</mi><mo stretchy="false">∈</mo><mrow data-mjx-texclass="ORD"><mi>ℕ</mi></mrow></mstyle></mrow></math>&#160;
+nennt man das Vektorbündel zum 
+<a href="/wiki/Topologisches_reelles_Vektorb%C3%BCndel/Verklebungsdatum/Definition" title="Topologisches reelles Vektorbündel/Verklebungsdatum/Definition">Verklebungsdatum</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">=</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mover><mo movablelimits="false" stretchy="false">⋀</mo><mrow data-mjx-texclass="ORD"><mi>r</mi></mrow></mover><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>und
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub></mstyle></mrow></math> </dd></dl>
+<p>mit
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false">:=</mo><mover><mo movablelimits="false" stretchy="false">⋀</mo><mrow data-mjx-texclass="ORD"><mi>r</mi></mrow></mover><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">∘</mo><msubsup><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msubsup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>(dabei wird für jeden Basispunkt das <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>r</mi></mstyle></mrow></math>-te 
+<a href="/wiki/Dachprodukt/Kanonische_Abbildung_zu_linearer_Abbildung/Existenz/Fakt" title="Dachprodukt/Kanonische Abbildung zu linearer Abbildung/Existenz/Fakt">äußere Produkt der linearen Abbildungen</a>
+genommen)
+das <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>r</mi></mstyle></mrow></math>-te 
+<em>äußere Produkt</em> 
+des Vektorbündels <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math>. Es wird mit <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mover><mo movablelimits="false" stretchy="false">⋀</mo><mrow data-mjx-texclass="ORD"><mi>r</mi></mrow></mover><mi>E</mi></mstyle></mrow></math> bezeichnet.  
+</p>
+</div>
+</div></div>
+<p>Bei einer gegebenen Matrixbeschreibung von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> erhält man die Matrixbeschreibung des <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>r</mi></mstyle></mrow></math>-ten äußeren Produktes, indem man sämtliche 
+<a href="/wiki/Determinante/Rekursiv/Definition" title="Determinante/Rekursiv/Definition">Determinanten</a>
+der
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>r</mi><mo stretchy="false">×</mo><mi>r</mi></mstyle></mrow></math>-<a href="/wiki/Matrix/K%C3%B6rper/Untermatrix/Definition" title="Matrix/Körper/Untermatrix/Definition">Untermatrizen</a>
+zu einer Matrix zusammenfasst.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_4"><a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Determinantenb%C3%BCndel/Definition" title="Reelle Vektorbündel/Topologischer Raum/Determinantenbündel/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Determinantenb%C3%BCndel/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Determinantenb%C3%BCndel/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu einem
+<a href="/wiki/Topologischer_Raum/Reelles_Vektorb%C3%BCndel/Definition" title="Topologischer Raum/Reelles Vektorbündel/Definition">reellen Vektorbündel</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> vom Rang <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>m</mi></mstyle></mrow></math> auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> nennt man das <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>m</mi></mstyle></mrow></math>-te 
+<a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/%C3%84u%C3%9Feres_Produkt/Definition" title="Reelle Vektorbündel/Topologischer Raum/Äußeres Produkt/Definition">äußere Produkt</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mover><mo movablelimits="false" stretchy="false">⋀</mo><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></mover><mi>E</mi></mstyle></mrow></math> das
+<em>Determinantenbündel</em> 
+von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math>. Es wird mit <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo>det</mo><mo>&#x2061;</mo><mi>E</mi></mstyle></mrow></math> bezeichnet.  
+</p>
+</div>
+</div></div>
+<p>Das Determinantenbündel ist ein Geradenbündel. Die Matrixbeschreibung ist durch die Determinante gegeben.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_5"><a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Homomorphismenb%C3%BCndel/Definition" title="Reelle Vektorbündel/Topologischer Raum/Homomorphismenbündel/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Homomorphismenb%C3%BCndel/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Homomorphismenb%C3%BCndel/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu 
+<a href="/wiki/Topologischer_Raum/Reelles_Vektorb%C3%BCndel/Definition" title="Topologischer Raum/Reelles Vektorbündel/Definition">reellen Vektorbündeln</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>
+auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> mit Trivialisierungen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>E</mi><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup></mstyle></mrow></math> </dd></dl>
+<p>und
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>F</mi><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msup></mstyle></mrow></math> </dd></dl>
+<p>nennt man das Vektorbündel zum 
+<a href="/wiki/Topologisches_reelles_Vektorb%C3%BCndel/Verklebungsdatum/Definition" title="Topologisches reelles Vektorbündel/Verklebungsdatum/Definition">Verklebungsdatum</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">=</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">×</mo><msub><mo data-mjx-texclass="OP" mathvariant="normal">Hom</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow></mrow></msub><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>m</mi></mrow></msup><mo>,</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>und
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub><mo stretchy="false">⟶</mo><msub><mi>G</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><msub><mo stretchy="false" lspace="0" rspace="0">|</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∩</mo><msub><mi>U</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mrow></mrow></msub></mstyle></mrow></math> </dd></dl>
+<p>mit
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>θ</mi><mo stretchy="false">)</mo><mo stretchy="false">:=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msub><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">∘</mo><msubsup><mi>β</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msubsup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">∘</mo><mi>θ</mi><mo stretchy="false">∘</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><msub><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∘</mo><msubsup><mi>α</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msubsup><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>die
+<em>Homomorphismenbündel</em> 
+der Vektorbündel
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>.
+Es wird mit <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo data-mjx-texclass="OP" mathvariant="normal">Hom</mo><mo>&#x2061;</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>E</mi><mo>,</mo><mi>F</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> bezeichnet.  
+</p>
+</div>
+</div></div>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_6"><a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Duales_B%C3%BCndel/Definition" title="Reelle Vektorbündel/Topologischer Raum/Duales Bündel/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Duales_B%C3%BCndel/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Duales_B%C3%BCndel/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu einem
+<a href="/wiki/Topologischer_Raum/Reelles_Vektorb%C3%BCndel/Definition" title="Topologischer Raum/Reelles Vektorbündel/Definition">reellen Vektorbündel</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math> auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> nennt man das 
+<a href="/wiki/Reelle_Vektorb%C3%BCndel/Topologischer_Raum/Homomorphismenb%C3%BCndel/Definition" title="Reelle Vektorbündel/Topologischer Raum/Homomorphismenbündel/Definition">Homomorphismenbündel</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo data-mjx-texclass="OP" mathvariant="normal">Hom</mo><mo>&#x2061;</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>E</mi><mo>,</mo><mi>X</mi><mo stretchy="false">×</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> das
+<em>duale Bündel</em> 
+von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>E</mi></mstyle></mrow></math>. Es wird mit <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msup><mi>E</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">∗</mo></mrow></msup></mstyle></mrow></math> bezeichnet.  
+</p>
+</div>
+</div></div> 
+<p>Auf einer Mannigfaltigkeit ist das duale Bündel zum Tangentialbündel das sogenannte <em>Kotangentialbündel</em>.
+</p><p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Prägarben</em></big></dd></dl>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_7"><a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ein 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischer Raum</a>.
+Unter einer
+<em>Prägarbe</em>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> versteht man eine Zuordnung, die jeder 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offenen Menge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+eine Menge <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> und zu je zwei offenen Mengen
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi></mstyle></mrow></math>&#160;
+eine 
+<a href="/wiki/Theorie_der_Abbildungen/Abbildung/Definition" title="Theorie der Abbildungen/Abbildung/Definition">Abbildung</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>V</mi><mo>,</mo><mi>U</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>V</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">⟶</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>zuordnet, wobei diese Zuordnung die beiden folgenden Bedingungen erfüllen muss.
+</p>
+<ol>
+<li>Zu
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">=</mo><mi>V</mi></mstyle></mrow></math>&#160;
+ist
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>U</mi></mrow></mrow></msub><mo stretchy="false">=</mo><msub><mi data-mjx-texclass="OP" mathvariant="normal">Id</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mrow></mrow></msub><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+</li>
+<li>Zu offenen Mengen
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi><mo stretchy="false">⊆</mo><mi>W</mi><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>ist stets
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>W</mi><mo>,</mo><mi>U</mi></mrow></mrow></msub><mo stretchy="false">=</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>V</mi><mo>,</mo><mi>U</mi></mrow></mrow></msub><mo stretchy="false">∘</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>W</mi><mo>,</mo><mi>V</mi></mrow></mrow></msub><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+</li>
+</ol>  
+</div>
+</div></div>
+<p>Die Abbildungen <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>V</mi><mo>,</mo><mi>U</mi></mrow></mrow></msub></mstyle></mrow></math> heißen dabei <em>Restriktionsabbildungen</em>. Die Mengen <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> nennt man auch die Auswertung der Prägarbe an der offenen Menge <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math>. 
+</p><p>Grundbeispiele für Prägarben
+(und Garben)
+sind die folgenden Konstruktionen.
+</p>
+<br clear="left" /><div class="remark">
+<div class="mw-heading mw-heading2"><h2 id="Beispiel"><a href="/wiki/Topologischer_Raum/Werteraum/Pr%C3%A4garbe_der_stetigen_Funktionen/Beispiel" title="Topologischer Raum/Werteraum/Prägarbe der stetigen Funktionen/Beispiel">Beispiel </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Topologischer_Raum/Werteraum/Pr%C3%A4garbe_der_stetigen_Funktionen/Beispiel&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Topologischer_Raum/Werteraum/Pr%C3%A4garbe_der_stetigen_Funktionen/Beispiel&amp;action=edit">&#160;</a></span></h2></div>
+<div class="remark-content">
+<div id="Artikelinhalt">
+<p>Es seien
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Z</mi></mstyle></mrow></math>
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologische Räume</a>.
+Jeder offenen Teilmenge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+kann man die Menge der auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math> definierten 
+<a href="/wiki/Metrische_R%C3%A4ume/Abbildung/Stetigkeit_in_einem_Punkt/Definition" title="Metrische Räume/Abbildung/Stetigkeit in einem Punkt/Definition">stetigen Abbildungen</a>
+nach <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Z</mi></mstyle></mrow></math> zuordnen, also 
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msup><mi>C</mi><mrow data-mjx-texclass="ORD"><mn>0</mn></mrow></msup><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mi>Z</mi><mo stretchy="false">)</mo><mo stretchy="false">=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mi>φ</mi><mo stretchy="false">:</mo><mi>U</mi><mo stretchy="false">→</mo><mi>Z</mi><mo stretchy="false">∣</mo><mi>φ</mi><mrow data-mjx-texclass="ORD"><mtext>&#xA0;stetig</mtext></mrow><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+<p>Da man eine stetige Abbildung
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>φ</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>U</mi><mo stretchy="false">→</mo><mi>Z</mi></mstyle></mrow></math>
+auf jede
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offene Teilmenge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">⊆</mo><mi>U</mi></mstyle></mrow></math>&#160;
+einschränken kann und da man zu
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi><mo stretchy="false">⊆</mo><mi>W</mi></mstyle></mrow></math>&#160;
+die Einschränkung von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>W</mi></mstyle></mrow></math> auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math> in einem Schritt oder in zwei Schritten machen kann, erhält man eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>.
+</p>
+</div><br />
+</div></div>
+<p>Ein Spezialfall hiervon wird im folgenden Beispiel formuliert, in dem eine zusätzliche Struktur, nämlich ein <em>beringter Raum</em> vorliegt. 
+</p>
+<br clear="left" /><div class="remark">
+<div class="mw-heading mw-heading2"><h2 id="Beispiel_2"><a href="/wiki/Topologischer_Raum/Pr%C3%A4garbe_der_stetigen_Funktionen/Beispiel" title="Topologischer Raum/Prägarbe der stetigen Funktionen/Beispiel">Beispiel </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Topologischer_Raum/Pr%C3%A4garbe_der_stetigen_Funktionen/Beispiel&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Topologischer_Raum/Pr%C3%A4garbe_der_stetigen_Funktionen/Beispiel&amp;action=edit">&#160;</a></span></h2></div>
+<div class="remark-content">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ein
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischer Raum</a>.
+Jeder offenen Teilmenge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+kann man die Menge der auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math> definierten reellwertigen stetigen Funktionen zuordnen, also 
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒞</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">=</mo><msup><mi>C</mi><mrow data-mjx-texclass="ORD"><mn>0</mn></mrow></msup><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mi>f</mi><mo stretchy="false">:</mo><mi>U</mi><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo stretchy="false">∣</mo><mi>f</mi><mrow data-mjx-texclass="ORD"><mtext>&#xA0;stetig</mtext></mrow><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+<p>Da man eine stetige Funktion
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>U</mi><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow></mstyle></mrow></math>
+auf jede
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offene Teilmenge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">⊆</mo><mi>U</mi></mstyle></mrow></math>&#160;
+einschränken kann, erhält man eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>.
+</p>
+</div><br />
+</div></div>
+<br clear="left" /><div class="remark">
+<div class="mw-heading mw-heading2"><h2 id="Beispiel_3"><a href="/wiki/Differenzierbare_Mannigfaltigkeit/Pr%C3%A4garbe_der_differenzierbaren_Funktionen/Beispiel" title="Differenzierbare Mannigfaltigkeit/Prägarbe der differenzierbaren Funktionen/Beispiel">Beispiel </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Differenzierbare_Mannigfaltigkeit/Pr%C3%A4garbe_der_differenzierbaren_Funktionen/Beispiel&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Differenzierbare_Mannigfaltigkeit/Pr%C3%A4garbe_der_differenzierbaren_Funktionen/Beispiel&amp;action=edit">&#160;</a></span></h2></div>
+<div class="remark-content">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> eine
+<a href="/wiki/Differenzierbare_Mannigfaltigkeit/Reell/C%5Ek/Erg%C3%A4nzungsstrukturen/Definition" title="Differenzierbare Mannigfaltigkeit/Reell/C^k/Ergänzungsstrukturen/Definition">differenzierbare Mannigfaltigkeit</a>.
+Jeder offenen Teilmenge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+kann man die Menge der auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math> definierten reellwertigen 
+<a href="/wiki/Differenzierbare_Mannigfaltigkeit/Differenzierbare_Abbildung/Definition" title="Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildung/Definition">differenzierbaren Funktionen</a>
+zuordnen, also 
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒞</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">=</mo><msup><mi>C</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msup><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mi>f</mi><mo stretchy="false">:</mo><mi>U</mi><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo stretchy="false">∣</mo><mi>f</mi><mrow data-mjx-texclass="ORD"><mtext>&#xA0;stetig differenzierbar</mtext></mrow><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+<p>Da man eine differenzierbare Funktion
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>f</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>U</mi><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow></mstyle></mrow></math>
+auf jede
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offene Teilmenge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">⊆</mo><mi>U</mi></mstyle></mrow></math>&#160;
+einschränken kann, erhält man eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>.
+</p>
+</div><br />
+</div></div>
+<br clear="left" /><div class="remark">
+<div class="mw-heading mw-heading2"><h2 id="Beispiel_4"><a href="/wiki/Topologischer_Raum/Konstante_Pr%C3%A4garbe/Beispiel" title="Topologischer Raum/Konstante Prägarbe/Beispiel">Beispiel </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Topologischer_Raum/Konstante_Pr%C3%A4garbe/Beispiel&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Topologischer_Raum/Konstante_Pr%C3%A4garbe/Beispiel&amp;action=edit">&#160;</a></span></h2></div>
+<div class="remark-content">
+<div id="Artikelinhalt">
+<p>Auf einem 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> und zu einer fixierten Menge <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>M</mi></mstyle></mrow></math> ist die Zuordnung, die jeder 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offenen Menge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+die Menge <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>M</mi></mstyle></mrow></math> und jeder Inklusion die Identität auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>M</mi></mstyle></mrow></math> zuordnet, eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>,
+die die <em>konstante Prägarbe</em> heißt.
+</p>
+</div><br />
+</div></div>
+<p>Im folgenden Beispiel denke man an ein Vektorbündel über der Basis <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math>.
+</p>
+<br clear="left" /><div class="remark">
+<div class="mw-heading mw-heading2"><h2 id="Beispiel_5"><a href="/wiki/Stetige_Abbildung/Pr%C3%A4garbe_der_stetigen_Schnitte/Beispiel" title="Stetige Abbildung/Prägarbe der stetigen Schnitte/Beispiel">Beispiel </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Stetige_Abbildung/Pr%C3%A4garbe_der_stetigen_Schnitte/Beispiel&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Stetige_Abbildung/Pr%C3%A4garbe_der_stetigen_Schnitte/Beispiel&amp;action=edit">&#160;</a></span></h2></div>
+<div class="remark-content">
+<div id="Artikelinhalt">
+<p>Es seien
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Y</mi></mstyle></mrow></math>
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologische Räume</a>
+und es sei
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>p</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mi>Y</mi><mo stretchy="false">⟶</mo><mi>X</mi></mstyle></mrow></math> </dd></dl>
+<p>eine fixierte 
+<a href="/wiki/Metrische_R%C3%A4ume/Abbildung/Stetigkeit_in_einem_Punkt/Definition" title="Metrische Räume/Abbildung/Stetigkeit in einem Punkt/Definition">stetige Abbildung</a>.
+Diese Situation induziert  für jede offene Teilmenge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+eine stetige Abbildung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Y</mi><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>U</mi></mrow></msub><mo stretchy="false">=</mo><msup><mi>p</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo><mo stretchy="false">⟶</mo><mi>U</mi><mo stretchy="false">.</mo></mstyle></mrow></math> </dd></dl>
+<p>Somit kann man zu <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math>  die Menge der auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math> definierten 
+<a href="/wiki/Stetige_Abbildung/Stetiger_Schnitt/Definition" title="Stetige Abbildung/Stetiger Schnitt/Definition">stetigen Schnitte</a>
+zu 
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msup><mi>p</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo><mo stretchy="false">→</mo><mi>U</mi></mstyle></mrow></math>
+zuordnen, also 
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>S</mi><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mi>Y</mi><mo stretchy="false">)</mo><mo stretchy="false">=</mo><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mi>s</mi><mo stretchy="false">:</mo><mi>U</mi><mo stretchy="false">→</mo><msup><mi>p</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo><mo stretchy="false">∣</mo><mi>s</mi><mrow data-mjx-texclass="ORD"><mtext>&#xA0;stetiger Schnitt zu&#xA0;</mtext></mrow><mi>p</mi><mo data-mjx-texclass="CLOSE">}</mo></mrow><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+<p>Da man einen stetigen Schnitt auf jede
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offene Teilmenge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">⊆</mo><mi>U</mi></mstyle></mrow></math>&#160;
+einschränken kann, wobei der Bildbereich entsprechend auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msup><mi>p</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msup><mo stretchy="false">(</mo><mi>V</mi><mo stretchy="false">)</mo></mstyle></mrow></math> eingeschränkt wird, erhält man eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>.
+</p>
+</div><br />
+</div></div>
+<p>Aufgrund dieses wichtigen Beispiels nennt man ein Element
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi><mo stretchy="false">∈</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+auch einen <em>Schnitt</em> der Prägarbe <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> über <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math>. Für die Einschränkung eines Schnittes auf eine kleinere offene Menge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">⊆</mo><mi>U</mi></mstyle></mrow></math>&#160;
+schreibt man auch suggestiver
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>V</mi></mrow></msub><mo stretchy="false">=</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>V</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_8"><a href="/wiki/Pr%C3%A4garbe/Unterpr%C3%A4garbe/Definition" title="Prägarbe/Unterprägarbe/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Unterpr%C3%A4garbe/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Unterpr%C3%A4garbe/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu einer
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> heißt eine Prägarbe <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math> eine
+<em>Unterprägarbe</em> 
+von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math>, wenn
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">⊆</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+für jede 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offene Teilmenge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+ist.  
+</p>
+</div>
+</div></div>
+<p>Da differenzierbare Funktionen auf einer Mannigfaltigkeit insbesondere stetig sind, bildet die Prägarbe der differenzierbaren Funktionen eine Untergarbe der Prägarbe der stetigen reellwertigen Funktionen. 
+</p><p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Prägarben mit Strukturen</em></big></dd></dl>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_9"><a href="/wiki/Pr%C3%A4garbe/Gruppe/Definition" title="Prägarbe/Gruppe/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Gruppe/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Gruppe/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> heißt
+<em>Prägarbe von Gruppen</em>, 
+wenn zu jeder 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offenen Menge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+die Menge <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> eine
+<a href="/wiki/Gruppentheorie/Gruppe/Definition" title="Gruppentheorie/Gruppe/Definition">Gruppe</a>
+und zu jeder Inklusion
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi></mstyle></mrow></math>&#160;
+die Restriktionsabbildung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>V</mi><mo>,</mo><mi>U</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>V</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">⟶</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>ein
+<a href="/wiki/Gruppenhomomorphismus/Definition" title="Gruppenhomomorphismus/Definition">Gruppenhomomorphismus</a>
+ist.  
+</p>
+</div>
+</div></div>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_10"><a href="/wiki/Pr%C3%A4garbe/Kommutativer_Ring/Definition" title="Prägarbe/Kommutativer Ring/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Kommutativer_Ring/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Kommutativer_Ring/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> heißt
+<em>Prägarbe von kommutativen Ringen</em>, 
+wenn zu jeder 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">offenen Menge</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+die Menge <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> ein
+<a href="/wiki/Kommutative_Ringtheorie/Kommutativer_Ring/Definition" title="Kommutative Ringtheorie/Kommutativer Ring/Definition">kommutativer Ring</a>
+und zu jeder Inklusion
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi></mstyle></mrow></math>&#160;
+die Restriktionsabbildung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>V</mi><mo>,</mo><mi>U</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>V</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">⟶</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>ein
+<a href="/wiki/Ringtheorie/Ringhomomorphismus/Definition" title="Ringtheorie/Ringhomomorphismus/Definition">Ringhomomorphismus</a>
+ist.  
+</p>
+</div>
+</div></div>
+<div class="remark">
+<div class="mw-heading mw-heading2"><h2 id="Bemerkung"><a href="/wiki/Pr%C3%A4garbe/Kontravarianter_Funktor/Bemerkung" title="Prägarbe/Kontravarianter Funktor/Bemerkung">Bemerkung </a> <a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Kontravarianter_Funktor/Bemerkung&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Kontravarianter_Funktor/Bemerkung&amp;action=edit">&#160;</a></h2></div>
+<div class="remark-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Eine
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> auf einem
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mi>X</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒯</mi></mrow><mo stretchy="false">)</mo></mstyle></mrow></math> kann man als einen
+<a href="/wiki/Kategorien/Kontravarianter_Funktor/Definition" title="Kategorien/Kontravarianter Funktor/Definition">kontravarianten Funktor</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒯</mi></mrow><mo stretchy="false">⟶</mo><mi data-mjx-texclass="OP" mathvariant="normal">MEN</mi></mstyle></mrow></math> </dd></dl>
+<p>auffassen, wobei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒯</mi></mrow></mstyle></mrow></math> im Sinne von
+<a href="/wiki/Topologischer_Raum/Offene_Teilmengen/Kategorie/Beispiel" title="Topologischer Raum/Offene Teilmengen/Kategorie/Beispiel">Beispiel Anhang 1.11</a>
+als Kategorie aufgefasst wird. Eine Prägarbe von kommutativen Gruppen ist entsprechend ein kontravarianter Funktor in die 
+<a href="/wiki/Kommutative_Gruppen/Kategorie/Beispiel" title="Kommutative Gruppen/Kategorie/Beispiel">Kategorie der kommutativen Gruppen</a>,
+eine Prägarbe von kommutativen Ringen ist ein kontravarianter Funktor in die 
+<a href="/wiki/Kommutative_Ring/Ringhomomorphismen/Kategorie/Beispiel" title="Kommutative Ring/Ringhomomorphismen/Kategorie/Beispiel">Kategorie der kommutativen Ringe</a>,
+usw.
+</p>
+</div> 
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_11"><a href="/wiki/Topologische_Gruppe/Definition" title="Topologische Gruppe/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Topologische_Gruppe/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Topologische_Gruppe/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Eine
+<em>topologische Gruppe</em> 
+ist eine
+<a href="/wiki/Gruppentheorie/Gruppe/Definition" title="Gruppentheorie/Gruppe/Definition">Gruppe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi></mstyle></mrow></math>, die zugleich ein
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischer Raum</a>
+ist derart, dass die Verknüpfung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo stretchy="false">×</mo><mi>G</mi><mo stretchy="false">⟶</mo><mi>G</mi><mo>,</mo><mspace width="0.167em"></mspace><mo stretchy="false">(</mo><mi>g</mi><mo>,</mo><mi>h</mi><mo stretchy="false">)</mo><mo stretchy="false">⟼</mo><mi>g</mi><mo stretchy="false">∘</mo><mi>h</mi><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p>und die Inversenbildung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi><mo stretchy="false">⟶</mo><mi>G</mi><mo>,</mo><mspace width="0.167em"></mspace><mi>g</mi><mo stretchy="false">⟼</mo><msup><mi>g</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mo stretchy="false">−</mo><mn>1</mn></mrow></mrow></msup><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p><a href="/wiki/Topologie/Stetige_Abbildung_zwischen_topologischen_R%C3%A4umen/Definition" title="Topologie/Stetige Abbildung zwischen topologischen Räumen/Definition">stetige Abbildungen</a>
+sind.  
+</p>
+</div>
+</div></div>
+<p>Topologische Gruppen sind <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo>,</mo><mo stretchy="false">+</mo><mo stretchy="false">)</mo></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo stretchy="false">∖</mo><mo fence="false" stretchy="false">{</mo><mn>0</mn><mo fence="false" stretchy="false">}</mo><mo>,</mo><mo stretchy="false">⋅</mo><mo stretchy="false">)</mo></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mrow data-mjx-texclass="ORD"><mi>ℂ</mi></mrow><mo>,</mo><mo stretchy="false">+</mo><mo stretchy="false">)</mo></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mrow data-mjx-texclass="ORD"><mi>ℂ</mi></mrow><mo stretchy="false">∖</mo><mo fence="false" stretchy="false">{</mo><mn>0</mn><mo fence="false" stretchy="false">}</mo><mo>,</mo><mo stretchy="false">⋅</mo><mo stretchy="false">)</mo></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><msup><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msup><mo>,</mo><mo stretchy="false">+</mo><mo stretchy="false">)</mo></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><msup><mi>S</mi><mrow data-mjx-texclass="ORD"><mn>1</mn></mrow></msup><mo>,</mo><mrow data-mjx-texclass="ORD"><mtext>&#xA0;mit der Winkeladdition</mtext></mrow><mo stretchy="false">)</mo></mstyle></mrow></math>, die 
+<a href="/wiki/Allgemeine_lineare_Gruppe/Vektorraum/Definition" title="Allgemeine lineare Gruppe/Vektorraum/Definition">allgemeine lineare Gruppe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mo data-mjx-texclass="OP" mathvariant="normal">GL</mo><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msub><mspace width="-0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mrow data-mjx-texclass="ORD"><mi>ℝ</mi></mrow><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math> bzw. <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi data-mjx-texclass="OP" mathvariant="normal">GL</mi><mrow data-mjx-texclass="ORD"><mi>n</mi></mrow></msub><mspace width="-0.167em"></mspace><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mrow data-mjx-texclass="ORD"><mi>ℂ</mi></mrow><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>, ein
+<a href="/wiki/Komplexe_Zahlen/Gitter/Eindimensionaler_Torus/Definition" title="Komplexe Zahlen/Gitter/Eindimensionaler Torus/Definition">komplexer Torus</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi>ℂ</mi></mrow><mo lspace="0" rspace="0">/</mo><mi>Γ</mi></mstyle></mrow></math> zu einem 
+<a href="/wiki/Komplexe_Zahlen/Reelles_Gitter/Definition" title="Komplexe Zahlen/Reelles Gitter/Definition">Gitter</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>Γ</mi><mo stretchy="false">⊆</mo><mrow data-mjx-texclass="ORD"><mi>ℂ</mi></mrow></mstyle></mrow></math>.&#160;
+Man kann jede Gruppe mit der
+<a href="/wiki/Topologie/Diskret/Definition" title="Topologie/Diskret/Definition">diskreten Topologie</a>
+zu einer topologischen Gruppe machen.
+</p><p>Zu einem topologischen Raum <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ist die Mengen der stetigen Abbildungen von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> in eine topologische Gruppe <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>G</mi></mstyle></mrow></math> mit der natürlichen Verknüpfung selbst eine Gruppe. Die Einschränkung auf eine offene Teilmenge von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ist dabei ein Gruppenhomomorphismus. Daher ist die Zuordnung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">↦</mo><msup><mi>C</mi><mrow data-mjx-texclass="ORD"><mn>0</mn></mrow></msup><mo stretchy="false">(</mo><mi>U</mi><mo>,</mo><mi>G</mi><mo stretchy="false">)</mo></mstyle></mrow></math> </dd></dl>
+<p>eine
+<a href="/wiki/Pr%C3%A4garbe/Gruppe/Definition" title="Prägarbe/Gruppe/Definition">Prägarbe von Gruppen</a>
+auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math>. 
+</p><p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Halme von Prägarben</em></big></dd></dl>
+<p>Eine grundliegende Idee von Vektorbündeln und Prägarben ist, lokale und globale Eigenschaften von geometrischen Objekten sinnvoll zu trennen und ihr Wechselspiel zu verstehen. Eine lokale Eigenschaft ist beispielsweise eine, die auf  „kleinen“ offenen Mengen gilt. Oft möchte man aber kleine offene Mengen durch noch kleinere offene Mengen ersetzen, insbesondere, um das Verhalten in einer beliebig kleinen Umgebung eines Punktes verstehen zu können. Dafür führen wir die folgenden Konzepte ein.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_12"><a href="/wiki/Topologie/Topologischer_Filter/Definition" title="Topologie/Topologischer Filter/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Topologie/Topologischer_Filter/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Topologie/Topologischer_Filter/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ein
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischer Raum</a>.
+Ein System <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math> aus offenen Teilmengen von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> heißt <em>Filter</em>, wenn folgende Eigenschaften gelten
+(<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo>,</mo><mi>V</mi></mstyle></mrow></math> seien offen).
+</p>
+<ol>
+<li> &#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>.&#160;
+</li>
+<li>Mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>&#160; 
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi></mstyle></mrow></math>&#160;
+ist auch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>.&#160;
+</li>
+<li>Mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>&#160;
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>V</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>&#160;
+ist auch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">∩</mo><mi>V</mi><mo stretchy="false">∈</mo><mi>F</mi></mstyle></mrow></math>.&#160;
+</li>
+</ol>  
+</div>
+</div></div>
+<p>Die wichtigsten Filter sind für und die Umgebungsfilter zu einer Punkt, der aus allen offenen Mengen eines fixierten Punktes besteht.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_13"><a href="/wiki/Ordnungstheorie/Gerichtete_Menge/Definition" title="Ordnungstheorie/Gerichtete Menge/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Ordnungstheorie/Gerichtete_Menge/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Ordnungstheorie/Gerichtete_Menge/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Eine
+<a href="/wiki/Ordnungstheorie/Geordnete_Menge/Definition" title="Ordnungstheorie/Geordnete Menge/Definition">geordnete Menge</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mi>I</mi><mo>,</mo><mo stretchy="false">≼</mo><mo stretchy="false">)</mo></mstyle></mrow></math> heißt <em>gerichtet geordnet</em> oder <em>gerichtet</em>, wenn es zu jedem
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>&#160; 
+ein 
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>k</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>&#160;
+mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>&#160; 
+gibt.  
+</p>
+</div>
+</div></div>
+<p>Wir fassen einen 
+<a href="/wiki/Topologie/Topologischer_Filter/Definition" title="Topologie/Topologischer Filter/Definition">topologischen Filter</a>
+als eine durch die Inklusion geordnete Menge auf. Aus der Durchschnittseigenschaft eines Filters ergibt sich, dass eine gerichtete Menge vorliegt
+(Es ist dabei „<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">≼</mo><mo stretchy="false">=</mo><mo stretchy="false">⊇</mo></mstyle></mrow></math>“).
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_14"><a href="/wiki/Geordnetes_und_gerichtetes_System/Von_Mengen/Definition" title="Geordnetes und gerichtetes System/Von Mengen/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Geordnetes_und_gerichtetes_System/Von_Mengen/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Geordnetes_und_gerichtetes_System/Von_Mengen/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">(</mo><mi>I</mi><mo>,</mo><mo stretchy="false">≼</mo><mo stretchy="false">)</mo></mstyle></mrow></math> eine
+<a href="/wiki/Ordnungstheorie/Geordnete_Menge/Definition" title="Ordnungstheorie/Geordnete Menge/Definition">geordnete Indexmenge</a>.
+Eine Familie
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo>,</mo><mspace width="0.167em"></mspace><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p>von Mengen nennt man ein <em>geordnetes System von Mengen</em>, wenn folgende Eigenschaften erfüllt sind.
+</p>
+<ol>
+<li>Zu <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">≼</mo><mi>j</mi></mstyle></mrow></math> gibt es eine Abbildung
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">→</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mstyle></mrow></math>.
+</li>
+<li>Zu
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">≼</mo><mi>j</mi></mstyle></mrow></math>&#160;
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>&#160; 
+ist
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">=</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>j</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">∘</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>j</mi></mrow></mrow></msub></mstyle></mrow></math>.&#160;
+</li>
+</ol>
+<p>Ist die Indexmenge zusätzlich
+<a href="/wiki/Ordnungstheorie/Gerichtete_Menge/Definition" title="Ordnungstheorie/Gerichtete Menge/Definition">gerichtet</a>,
+so spricht man von einem <em>gerichteten System von Mengen</em>.  
+</p>
+</div>
+</div></div>
+<p>Wenn die beteiligten Mengen <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math> allesamt Gruppen 
+(Ringe)
+sind und alle Abbildungen zwischen ihnen Gruppenhomorphismen 
+(Ringhomomorphismen),
+so spricht man von einem geordneten bzw. gerichteten System von Gruppen 
+(Ringen). 
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_15"><a href="/wiki/Geordnetes_System/Von_Mengen/Kolimes/Definition" title="Geordnetes System/Von Mengen/Kolimes/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Geordnetes_System/Von_Mengen/Kolimes/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Geordnetes_System/Von_Mengen/Kolimes/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es sei
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>, 
+ein
+<a href="/wiki/Geordnetes_und_gerichtetes_System/Von_Mengen/Definition" title="Geordnetes und gerichtetes System/Von Mengen/Definition">gerichtetes System von Mengen</a>.
+Dann nennt man
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo data-mjx-texclass="OP" mathvariant="normal">colim</mo><mo>&#x2061;</mo><msub><mspace width="0.167em"></mspace><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi></mrow></mrow></msub><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">=</mo><munder><mo movablelimits="false" stretchy="false">⨄</mo><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mo stretchy="false">∈</mo><mi>I</mi></mrow></mrow></munder><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo lspace="0" rspace="0">/</mo><mo stretchy="false">∼</mo><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>den <em>Kolimes</em>
+(oder <em>direkten</em> oder <em>induktiven Limes</em>)
+des Systems. Dabei bezeichnet <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mo stretchy="false">∼</mo></mstyle></mrow></math> die 
+<a href="/wiki/Mengen/%C3%84quivalenzrelation/Definition" title="Mengen/Äquivalenzrelation/Definition">Äquivalenzrelation</a>,
+bei der zwei Elemente
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>m</mi><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math>&#160; 
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>n</mi><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mstyle></mrow></math>&#160;
+als äquivalent erklärt werden, wenn es ein
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>k</mi><mo stretchy="false">∈</mo><mi>I</mi></mstyle></mrow></math>&#160;
+mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>&#160; 
+und mit
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo><mo stretchy="false">=</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>j</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>gibt.  
+</p>
+</div>
+</div></div>
+<p>Bei dieser Definition ist insbesondere ein Element
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math>&#160;
+äquivalent zu seinem Bild
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>i</mi><mi>k</mi></mrow></mrow></msub><mo stretchy="false">(</mo><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">)</mo><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>k</mi></mrow></msub></mstyle></mrow></math>&#160;
+für alle
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>.&#160;
+Wenn ein gerichtetes System von Gruppen
+(Ringen)
+vorliegt, so kann man auf dem soeben eingeführten Kolimes der Mengen auch eine Gruppenstruktur
+(Ringstruktur)
+definieren. Dies beruht darauf, dass zwei Elemente in diesem Kolimes, die durch
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>i</mi></mrow></msub></mstyle></mrow></math>&#160;
+und
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub><mo stretchy="false">∈</mo><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>j</mi></mrow></msub></mstyle></mrow></math>&#160;
+repräsentiert seien, mit ihren Bildern in <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>M</mi><mrow data-mjx-texclass="ORD"><mi>k</mi></mrow></msub></mstyle></mrow></math> 
+(<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>i</mi><mo>,</mo><mi>j</mi><mo stretchy="false">≼</mo><mi>k</mi></mstyle></mrow></math>)
+identifiziert werden können. Dann kann man dort die Gruppenverknüpfung erklären, siehe
+<a href="/wiki/Gerichtetes_System/Von_kommutativen_Gruppen/Kolimes_ist_kommutative_Gruppe/Aufgabe" title="Gerichtetes System/Von kommutativen Gruppen/Kolimes ist kommutative Gruppe/Aufgabe">Aufgabe 3.13</a>.
+Unser Hauptbeispiel für ein gerichtetes System ist das durch einen topologischen Filter gerichtete System zu einer
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math>, also das System 
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo>,</mo><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi><mo stretchy="false">.</mo></mstyle></mrow></math> </dd></dl> 
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_16"><a href="/wiki/Pr%C3%A4garbe/Punkt/Halm/Definition" title="Prägarbe/Punkt/Halm/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Punkt/Halm/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Punkt/Halm/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu einer
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> auf einem 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> und einem Punkt
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>X</mi></mstyle></mrow></math>&#160;
+nennt man
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">:=</mo><mi data-mjx-texclass="OP" mathvariant="normal">colim</mi><mo>&#x2061;</mo><msub><mspace width="0.167em"></mspace><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mrow></mrow></msub><mi>Γ</mi><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>den
+<em>Halm</em>
+der Prägarbe im Punkt <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math>.  
+</p>
+</div>
+</div></div>
+<p>Insbesondere gibt es zu jedem Schnitt
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi><mo stretchy="false">∈</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo></mstyle></mrow></math>&#160; 
+und jedem Punkt
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>&#160; 
+ein eindeutig definiertes Element
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">∈</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math>,&#160;
+das der Keim von <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi></mstyle></mrow></math> im Punkt <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi></mstyle></mrow></math> heißt. Die Abbildung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo><mo stretchy="false">⟶</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo>,</mo><mspace width="0.167em"></mspace><mi>s</mi><mo stretchy="false">⟼</mo><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo>,</mo></mstyle></mrow></math> </dd></dl>
+<p>heißt <em>Restriktionsabbildung</em> und wird mit <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub></mstyle></mrow></math> bezeichnet. Zu
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>V</mi><mo stretchy="false">⊆</mo><mi>U</mi></mstyle></mrow></math>&#160;
+kommutiert das Diagramm
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mo data-mjx-texclass="OPEN"></mo><mtable><mtr><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo></mtd><mtd><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="REL"><mover><mrow data-mjx-texclass="OP"><mo stretchy="false" lspace="0" rspace="0">⟶</mo></mrow><mrow data-mjx-texclass="ORD"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>V</mi></mrow></mrow></msub></mrow></mover></mrow></mrow></mtd><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>V</mi><mo stretchy="false">)</mo></mtd><mtd></mtd></mtr><mtr><mtd></mtd><mtd><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mo stretchy="false">↘</mo></mtd><mtd><mo stretchy="false">↓</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>V</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace></mtd><mtd></mtd></mtr><mtr><mtd></mtd><mtd></mtd><mtd><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mtd><mtd><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mo stretchy="false">.</mo></mtd></mtr></mtable><mo fence="true" stretchy="true" symmetric="true" data-mjx-texclass="CLOSE"></mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>Etwas allgemeiner ist die folgende Definition.
+</p>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_17"><a href="/wiki/Pr%C3%A4garbe/Topologischer_Filter/Halm/Definition" title="Prägarbe/Topologischer Filter/Halm/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Topologischer_Filter/Halm/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Topologischer_Filter/Halm/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Zu einer
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarbe</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math> auf einem 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> und einem
+<a href="/wiki/Topologie/Topologischer_Filter/Definition" title="Topologie/Topologischer Filter/Definition">topologischen Filter</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math> nennt man
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mrow data-mjx-texclass="ORD"><mi>F</mi></mrow></msub><mo stretchy="false">:=</mo><mi data-mjx-texclass="OP" mathvariant="normal">colim</mi><mo>&#x2061;</mo><msub><mspace width="0.167em"></mspace><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo stretchy="false">∈</mo><mi>F</mi></mrow></mrow></msub><mi>Γ</mi><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mo data-mjx-texclass="CLOSE">)</mo></mrow><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>den
+<em>Halm</em>
+der Prägarbe im Filter <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>F</mi></mstyle></mrow></math>.  
+</p>
+</div>
+</div></div>  
+<p><br clear="left" /> <br />
+</p>
+<dl><dd><big><em>Homomorphismen von Prägarben</em></big></dd></dl>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_18"><a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Definition" title="Prägarbe/Homomorphismus/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Homomorphismus/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Homomorphismus/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Es seien
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> und  <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math>
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarben</a>
+auf einem topologischen Raum <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math>. Ein
+<em>Morphismus von Prägarben</em>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>φ</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">⟶</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math> </dd></dl>
+<p>ist eine Familie von Abbildungen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>U</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo><mo stretchy="false">⟶</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo></mstyle></mrow></math> </dd></dl>
+<p>für jede offene Menge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+derart, dass zu jeder offenen Inklusion
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>V</mi></mstyle></mrow></math>&#160;
+das Diagramm
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mo data-mjx-texclass="OPEN"></mo><mtable><mtr><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo></mtd><mtd><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="REL"><mover><mrow data-mjx-texclass="OP"><mo stretchy="false" lspace="0" rspace="0">⟶</mo></mrow><mrow data-mjx-texclass="ORD"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>U</mi></mrow></msub></mrow></mover></mrow></mrow></mtd><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo></mtd><mtd></mtd></mtr><mtr><mtd><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>V</mi></mrow></mrow></msub><mo stretchy="false">↓</mo></mtd><mtd></mtd><mtd><mo stretchy="false">↓</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>V</mi></mrow></mrow></msub><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace></mtd><mtd></mtd></mtr><mtr><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>V</mi><mo stretchy="false">)</mo></mtd><mtd><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="REL"><mover><mrow data-mjx-texclass="OP"><mo stretchy="false" lspace="0" rspace="0">⟶</mo></mrow><mrow data-mjx-texclass="ORD"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>V</mi></mrow></msub></mrow></mover></mrow></mrow></mtd><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mo stretchy="false">(</mo><mi>V</mi><mo stretchy="false">)</mo></mtd><mtd><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace></mtd></mtr></mtable><mo fence="true" stretchy="true" symmetric="true" data-mjx-texclass="CLOSE"></mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>kommutiert.  
+</p>
+</div>
+</div></div>
+<br clear="left" /><div class="definition">
+<div class="mw-heading mw-heading2"><h2 id="Definition_19"><a href="/wiki/Pr%C3%A4garbe/Isomorphismus/Definition" title="Prägarbe/Isomorphismus/Definition">Definition </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Isomorphismus/Definition&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Isomorphismus/Definition&amp;action=edit">&#160;</a></span></h2></div>
+<div class="definition-content" style="font-style:normal;">
+<div id="Artikelinhalt">
+<p>Ein 
+<a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Definition" title="Prägarbe/Homomorphismus/Definition">Morphismus von Prägarben</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>φ</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math>
+auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> heißt 
+<em>Isomorphismus</em>, 
+wenn für jede offene Teilmenge
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>&#160;
+eine Bijektion
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>
+vorliegt.  
+</p>
+</div>
+</div></div>
+<p><br />
+</p>
+<br clear="left" /><div class="factproof">
+<div class="mw-heading mw-heading2"><h2 id="Lemma"><a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Verkn%C3%BCpfung/Fakt" title="Prägarbe/Homomorphismus/Verknüpfung/Fakt">Lemma </a></h2></div>
+<div class="content" style="font-style:italic;">
+<div id="Artikelinhalt">
+<p>Es sei <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math> ein
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischer Raum</a>
+und seien <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mo>,</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℋ</mi></mrow></mstyle></mrow></math> 
+<a href="/wiki/Pr%C3%A4garbe/Definition" title="Prägarbe/Definition">Prägarben</a>
+auf <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math>.   
+</p><p><b> Dann gelten folgende Aussagen.
+</b></p><b>
+<ol>
+<li>Die Identität
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">⟶</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow></mstyle></mrow></math> </dd></dl>
+<p>ist ein
+<a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Definition" title="Prägarbe/Homomorphismus/Definition">Morphismus von Prägarben</a>.
+</p>
+</li>
+<li>Wenn
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>φ</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math>
+und
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>ψ</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mo stretchy="false">→</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℋ</mi></mrow></mstyle></mrow></math>
+Morphismen von Prägarben sind, so ist auch die Verknüpfung <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>ψ</mi><mo stretchy="false">∘</mo><mi>φ</mi></mstyle></mrow></math> ein Morphismus von Prägarben.
+</li>
+<li>Zu einer 
+<a href="/wiki/Pr%C3%A4garbe/Unterpr%C3%A4garbe/Definition" title="Prägarbe/Unterprägarbe/Definition">Unterprägarbe</a>
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">⊆</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math>&#160;
+ist die natürliche Inklusion ein Morphismus von Prägraben.
+</li>
+</ol> </b>
+</div>
+</div>
+<div class="mw-heading mw-heading3"><h3 id="Beweis">Beweis</h3></div>
+<div class="content">
+<div style="margin-right:1.2em;text-align:justify;">Siehe
+<a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Verkn%C3%BCpfung/Fakt/Beweis/Aufgabe" title="Prägarbe/Homomorphismus/Verknüpfung/Fakt/Beweis/Aufgabe">Aufgabe 3.17</a>.<div class="floatright" style="position:relative; bottom:1.2em; right:-1.2em;"><math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>◻</mi></mstyle></mrow></math></div></div>
+</div></div>
+<p><br />
+</p>
+<br clear="left" /><div class="factproof">
+<h2 id="Lemma_2" class="mw-html-heading"> <a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Halm/Fakt" title="Prägarbe/Homomorphismus/Halm/Fakt">Lemma </a> <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Homomorphismus/Halm/Fakt&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Homomorphismus/Halm/Fakt&amp;action=edit">&#160;</a></span></h2>
+<div class="content" style="font-style:italic;">
+<div id="Artikelinhalt">
+<p>Ein
+<a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Definition" title="Prägarbe/Homomorphismus/Definition">Morphismus von Prägarben</a>
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>φ</mi><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">⟶</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow></mstyle></mrow></math> </dd></dl>
+<p>auf einem 
+<a href="/wiki/Topologie/Topologischer_Raum/Definition" title="Topologie/Topologischer Raum/Definition">topologischen Raum</a>
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>X</mi></mstyle></mrow></math>   
+</p><p><b> definiert für jeden Punkt
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>X</mi></mstyle></mrow></math>&#160; 
+eine Abbildung
+</b></p><b>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false" data-mjx-texclass="PUNCT">:</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">⟶</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math> </dd></dl>
+</b><p><b>zwischen den 
+<a href="/wiki/Pr%C3%A4garbe/Punkt/Halm/Definition" title="Prägarbe/Punkt/Halm/Definition">Halmen</a>,
+die mit den 
+<a href="/wiki/Pr%C3%A4garbe/Punkt/Halm/Definition" title="Prägarbe/Punkt/Halm/Definition">Restriktionsabbildungen</a>
+verträglich sind. </b>
+</p><p>Das heißt, dass zu
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi></mstyle></mrow></math>&#160; 
+die Diagramme
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mrow data-mjx-texclass="ORD"><mo data-mjx-texclass="OPEN"></mo><mtable><mtr><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo></mtd><mtd><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="REL"><mover><mrow data-mjx-texclass="OP"><mo stretchy="false" lspace="0" rspace="0">⟶</mo></mrow><mrow data-mjx-texclass="ORD"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>U</mi></mrow></msub></mrow></mover></mrow></mrow></mtd><mtd><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mo stretchy="false">(</mo><mi>U</mi><mo stretchy="false">)</mo></mtd><mtd></mtd></mtr><mtr><mtd><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mo stretchy="false">↓</mo></mtd><mtd></mtd><mtd><mo stretchy="false">↓</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace></mtd><mtd></mtd></mtr><mtr><mtd><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mtd><mtd><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="REL"><mover><mrow data-mjx-texclass="OP"><mo stretchy="false" lspace="0" rspace="0">⟶</mo></mrow><mrow data-mjx-texclass="ORD"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mrow></mover></mrow></mrow></mtd><mtd><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">𝒢</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mtd><mtd><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace><mspace width="-0.167em"></mspace></mtd></mtr></mtable><mo fence="true" stretchy="true" symmetric="true" data-mjx-texclass="CLOSE"></mo></mrow></mstyle></mrow></math> </dd></dl>
+<p>kommutativ sind.
+</p>
+</div>
+</div>
+<h3 id="Beweis_2" class="mw-html-heading"> <a href="/wiki/Pr%C3%A4garbe/Homomorphismus/Halm/Fakt/Beweis" title="Prägarbe/Homomorphismus/Halm/Fakt/Beweis">Beweis</a>  <span class="noprint"><a class="external text" data-mw-original-href="//de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Homomorphismus/Halm/Fakt/Beweis&amp;action=edit" href="https://de.wikiversity.org/w/index.php?title=Pr%C3%A4garbe/Homomorphismus/Halm/Fakt/Beweis&amp;action=edit">&#160;</a></span> </h3> 
+<div class="content">
+<div style="margin-right:1.2em;text-align:justify;"><div id="Artikelinhalt">
+<p>Es sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi><mo stretchy="false">∈</mo><msub><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math>.&#160;
+Das bedeutet, dass es eine offene Umgebung
+<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math>, <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>U</mi><mo stretchy="false">⊆</mo><mi>X</mi></mstyle></mrow></math>,
+und ein
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi><mo stretchy="false">∈</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>U</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mo stretchy="false">=</mo><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math>&#160;
+gibt. Wir setzen
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mo stretchy="false">:=</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mo stretchy="false">(</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>U</mi></mrow></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>an und müssen zeigen, dass dies wohldefiniert, also unabhängig vom gewählten Repräsentanten <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi></mstyle></mrow></math> 
+(und <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>U</mi></mstyle></mrow></math>)
+ist. Sei
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>t</mi><mo stretchy="false">∈</mo><mrow data-mjx-texclass="ORD"><mi data-mjx-variant="-tex-calligraphic">ℱ</mi></mrow><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>V</mi><mo data-mjx-texclass="CLOSE">)</mo></mrow></mstyle></mrow></math>&#160;
+ein weiterer Repräsentant. Wegen
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>s</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub><mo stretchy="false">=</mo><msub><mi>t</mi><mrow data-mjx-texclass="ORD"><mi>P</mi></mrow></msub></mstyle></mrow></math>&#160;
+gibt es eine offene Umgebung
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>P</mi><mo stretchy="false">∈</mo><mi>W</mi><mo stretchy="false">⊆</mo><mi>U</mi><mo stretchy="false">∩</mo><mi>V</mi><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>mit
+&#160;<math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>s</mi><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub><mo stretchy="false">=</mo><mi>t</mi><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub></mstyle></mrow></math>.&#160;
+Somit ist
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>U</mi></mrow></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub><mo stretchy="false">=</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>s</mi><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">=</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mi>t</mi><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub><mo data-mjx-texclass="CLOSE">)</mo></mrow><mo stretchy="false">=</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>V</mi></mrow></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><msub><mo stretchy="false">|</mo><mrow data-mjx-texclass="ORD"><mi>W</mi></mrow></msub><mspace width="0.167em"></mspace></mstyle></mrow></math></dd></dl>
+<p>und somit ist erst recht
+</p>
+<dl><dd> <math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>U</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mo stretchy="false">(</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>U</mi></mrow></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo><mo stretchy="false">=</mo><msub><mi>ρ</mi><mrow data-mjx-texclass="ORD"><mrow data-mjx-texclass="ORD"><mi>V</mi><mo>,</mo><mi>P</mi></mrow></mrow></msub><mo stretchy="false">(</mo><msub><mi>φ</mi><mrow data-mjx-texclass="ORD"><mi>V</mi></mrow></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo stretchy="false">)</mo><mspace width="0.167em"></mspace><mo stretchy="false">.</mo></mstyle></mrow></math></dd></dl>
+</div><div class="floatright" style="position:relative; bottom:1.2em; right:-1.2em;"><math class="mwe-math-element mwe-math-element-inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="ORD"><mstyle displaystyle="true" scriptlevel="0"><mi>◻</mi></mstyle></mrow></math></div></div>
+</div></div>  
+<p><br clear="all" />
+</p>
+<table class="prettytable center kursnavigation" style="margin-top:0;">
+
+<tbody><tr style="text-align:center;">
+<th style="text-align:center;background-color:lightgray;"><a href="/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)/Vorlesung_2" title="Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 2">&lt;&lt;</a> | <a href="/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)" title="Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)">Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)</a> | <a href="/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)/Vorlesung_4" title="Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 4">&gt;&gt;</a><br />
+<p><a href="//upload.wikimedia.org/wikipedia/commons/b/b1/B%C3%BCndel%2C_Garben_und_Kohomologie_%28Osnabr%C3%BCck_2019-2020%29Vorlesung3.pdf?utm_source=de.wikiversity.org&amp;utm_campaign=index&amp;utm_content=original" class="internal" title="Bündel, Garben und Kohomologie (Osnabrück 2019-2020)Vorlesung3.pdf">PDF-Version dieser Vorlesung</a>
+</p><p><a href="/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)/Arbeitsblatt_3" title="Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt 3">Arbeitsblatt zur Vorlesung</a>
+(<a href="//upload.wikimedia.org/wikipedia/commons/c/c3/B%C3%BCndel%2C_Garben_und_Kohomologie_%28Osnabr%C3%BCck_2019-2020%29Arbeitsblatt3.pdf?utm_source=de.wikiversity.org&amp;utm_campaign=index&amp;utm_content=original" class="internal" title="Bündel, Garben und Kohomologie (Osnabrück 2019-2020)Arbeitsblatt3.pdf">PDF</a>)
+</p>
+</th></tr></tbody></table>
+</div></div></div>
+</div> </div></div></span></div>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐7845465fdf‐pcjpv
+Cached time: 20260822145224
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [no‐toc]
+CPU time usage: 0.827 seconds
+Real time usage: 1.257 seconds
+Preprocessor visited node count: 33306/1000000
+Revision size: 2429/2097152 bytes
+Post‐expand include size: 647092/2097152 bytes
+Template argument size: 219030/2097152 bytes
+Highest expansion depth: 42/100
+Expensive parser function count: 47/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9792/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1037.649      1 Kurs:Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)/Vorlesungsgestaltung
+100.00% 1037.649      1 -total
+ 99.58% 1033.337      1 Vorlage:Umrahmung/grün
+ 99.35% 1030.916      1 Vorlage:Kapitelnummer
+ 92.00%  954.622      7 Vorlage:Mathematischer_Textabschnitt
+ 46.79%  485.475     19 Vorlage:Inputdefinition
+ 36.16%  375.168     19 Vorlage:Mathematischer_Text/Definition
+ 35.57%  369.053     94 Vorlage:Definitionslink
+ 33.88%  351.561     94 Vorlage:Definitionslink_in_Kurs
+ 30.07%  312.005     92 Vorlage:Mathematische_Standardverlinkung
+-->
+
+<!-- Render ID 15b98671-9e39-11f1-ba23-d90cdeb456f7 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:109005:|#|:idhash:canonical and timestamp 20260822145224 and revision id 793623. Rendering was triggered because: page_view
+ -->
+</div>

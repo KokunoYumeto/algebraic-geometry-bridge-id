@@ -267,18 +267,46 @@ def walk_dicts(value: Any) -> Iterable[dict[str, Any]]:
             yield from walk_dicts(child)
 
 
-def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
+def is_bgk_native_lane(native_manifest: dict[str, Any]) -> bool:
+    """Distinguish the isolated BGK native lane without inspecting record payloads."""
+
+    schema = str(native_manifest.get("schema", "")).casefold()
+    scope = str(native_manifest.get("scope", "")).casefold()
+    return "bgk" in schema or scope.startswith("bgk ")
+
+
+def authority_source_layout(native_manifest: dict[str, Any]) -> dict[str, Any]:
+    """Return the frozen authority layout belonging to one native lane."""
+
+    if is_bgk_native_lane(native_manifest):
+        return {
+            "manifest_root": ROOT / "authority" / "wikiversity-bgk",
+            "inventory_key": "files",
+            "inventory_path_key": "file",
+            "legacy_dirs": (),
+        }
+    return {
+        "manifest_root": ROOT / "authority" / "wikiversity",
+        "inventory_key": "captured_file_inventory",
+        "inventory_path_key": "path",
+        "legacy_dirs": (
+            ROOT / "authority" / "wikiversity",
+            ROOT / "authority" / "wikiversity" / "worksheet-01-solutions",
+        ),
+    }
+
+
+def authority_index(native_manifest: dict[str, Any]) -> dict[tuple[int, int], dict[str, Any]]:
     """Index referenced MediaWiki pages to exact frozen local witness bytes."""
 
+    through_unit = int(native_manifest["through_unit"])
+    bgk_lane = is_bgk_native_lane(native_manifest)
+    layout = authority_source_layout(native_manifest)
     index: dict[tuple[int, int], dict[str, Any]] = {}
 
     # Unit 1 predates the per-unit JSON manifest but its exact MediaWiki XML
     # exports are frozen. Parse only these two known task-local directories.
-    legacy_dirs = [
-        ROOT / "authority" / "wikiversity",
-        ROOT / "authority" / "wikiversity" / "worksheet-01-solutions",
-    ]
-    for legacy_dir in legacy_dirs:
+    for legacy_dir in layout["legacy_dirs"]:
         if not legacy_dir.is_dir():
             continue
         for xml_path in sorted(legacy_dir.glob("*.xml")):
@@ -309,6 +337,7 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
                 "revision_id": revision_id,
                 "revision_sha1": str(sha1_node.text or ""),
                 "page_title": str(title_node.text or ""),
+                "authority_unit": 1,
                 "timestamp": timestamp_node.text if timestamp_node is not None else None,
                 "witness": fact,
                 "api_url": "https://de.wikiversity.org/w/api.php",
@@ -318,9 +347,7 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
 
     for unit_number in range(1, through_unit + 1):
         manifest_path = (
-            ROOT
-            / "authority"
-            / "wikiversity"
+            layout["manifest_root"]
             / f"unit-{unit_number:02d}"
             / "UNIT_AUTHORITY_MANIFEST.json"
         )
@@ -330,12 +357,14 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
         base = manifest_path.parent
         inventory_by_path: dict[str, dict[str, Any]] = {}
         verified_inventory: dict[str, dict[str, Any]] = {}
-        for entry in manifest.get("captured_file_inventory", []):
+        inventory_key = str(layout["inventory_key"])
+        inventory_path_key = str(layout["inventory_path_key"])
+        for entry in manifest.get(inventory_key, []):
             if not isinstance(entry, dict) or not all(
-                key in entry for key in ("path", "bytes", "sha256")
+                key in entry for key in (inventory_path_key, "bytes", "sha256")
             ):
                 raise SystemExit(f"Malformed captured-file inventory entry: {manifest_path}")
-            inventory_path = str(entry["path"])
+            inventory_path = str(entry[inventory_path_key])
             existing_entry = inventory_by_path.get(inventory_path)
             if existing_entry is not None and existing_entry != entry:
                 raise SystemExit(
@@ -400,6 +429,7 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
                 "revision_id": revision_id,
                 "revision_sha1": str(sha1_node.text or ""),
                 "page_title": str(title_node.text or ""),
+                "authority_unit": unit_number,
                 "timestamp": timestamp_node.text if timestamp_node is not None else None,
                 "witness": witness,
                 "api_url": manifest.get("source_api", "https://de.wikiversity.org/w/api.php"),
@@ -434,6 +464,17 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
 
         for node in walk_dicts(manifest):
             identity = normalize_page_identity(node)
+            if identity is None and bgk_lane and node.get("solution_title"):
+                identity = normalize_page_identity(
+                    {
+                        "pageid": node.get("pageid"),
+                        "revid": node.get("revid"),
+                        "mediawiki_sha1": node.get("mediawiki_sha1"),
+                        "title": node.get("solution_title"),
+                        "oldid_url": node.get("oldid_url"),
+                        "timestamp": node.get("timestamp"),
+                    }
+                )
             if identity is None:
                 continue
             witness: dict[str, Any] | None = None
@@ -468,6 +509,7 @@ def authority_index(through_unit: int) -> dict[tuple[int, int], dict[str, Any]]:
                 continue
             item = {
                 **identity,
+                "authority_unit": unit_number,
                 "witness": witness,
                 "api_url": manifest.get("source_api", "https://de.wikiversity.org/w/api.php"),
                 "rendered_html_sha256": node.get("html_sha256") or (
@@ -497,6 +539,143 @@ def page_identity_from_native(record: dict[str, Any]) -> dict[str, Any] | None:
     # their broader worksheet provenance).
     candidates.sort(key=lambda item: (bool(item.get("oldid_url")), len(item.get("page_title", ""))))
     return candidates[-1]
+
+
+def bgk_authority_lookups(
+    profiles_by_page: dict[tuple[int, int], dict[str, Any]],
+) -> tuple[
+    dict[tuple[int, str], dict[str, Any]],
+    dict[tuple[int, str], dict[str, Any]],
+]:
+    """Index BGK witnesses by frozen unit/title and by course-document root."""
+
+    by_unit_title: dict[tuple[int, str], dict[str, Any]] = {}
+    document_roots: dict[tuple[int, str], dict[str, Any]] = {}
+    for witness in profiles_by_page.values():
+        authority_unit = int(witness.get("authority_unit") or 0)
+        page_title = str(witness.get("page_title") or "")
+        if authority_unit < 1 or not page_title:
+            continue
+        title_key = (authority_unit, page_title)
+        existing = by_unit_title.get(title_key)
+        if existing is not None and (
+            existing["page_id"],
+            existing["revision_id"],
+            existing["revision_sha1"],
+        ) != (
+            witness["page_id"],
+            witness["revision_id"],
+            witness["revision_sha1"],
+        ):
+            raise SystemExit(
+                "Conflicting BGK authority revisions for frozen unit/title: "
+                f"unit {authority_unit}, {page_title}"
+            )
+        by_unit_title[title_key] = witness
+
+        root_match = re.search(r"/(Vorlesung|Arbeitsblatt) ([0-9]+)$", page_title)
+        if root_match is None or int(root_match.group(2)) != authority_unit:
+            continue
+        role = "lecture" if root_match.group(1) == "Vorlesung" else "worksheet"
+        root_key = (authority_unit, role)
+        existing_root = document_roots.get(root_key)
+        if existing_root is not None and (
+            existing_root["page_id"],
+            existing_root["revision_id"],
+        ) != (witness["page_id"], witness["revision_id"]):
+            raise SystemExit(
+                "Conflicting BGK course-root authority: "
+                f"unit {authority_unit}, {role}"
+            )
+        document_roots[root_key] = witness
+    return by_unit_title, document_roots
+
+
+def identity_from_authority_witness(
+    witness: dict[str, Any], identity_strategy: str
+) -> dict[str, Any]:
+    return {
+        "page_id": int(witness["page_id"]),
+        "revision_id": int(witness["revision_id"]),
+        "revision_sha1": str(witness["revision_sha1"]),
+        "page_title": str(witness["page_title"]),
+        "identity_strategy": identity_strategy,
+    }
+
+
+def bgk_page_identity_from_native(
+    record: dict[str, Any],
+    profiles_by_page: dict[tuple[int, int], dict[str, Any]],
+    profiles_by_unit_title: dict[tuple[int, str], dict[str, Any]],
+    document_roots: dict[tuple[int, str], dict[str, Any]],
+) -> dict[str, Any] | None:
+    """Bind BGK translated content to its exact frozen MediaWiki witness.
+
+    The native backend deliberately remains unchanged. Exercises already
+    carry their exact transcluded source title, the sole public solution
+    carries its complete page identity, and lecture/worksheet units and
+    segments inherit only their containing course-root page.
+    """
+
+    entity_class = str(record.get("entity_class") or "")
+    payload = record.get("payload") or {}
+    path = str(record.get("path") or "")
+    path_match = re.fullmatch(
+        r"source/id-ID/bgk/(lecture|worksheet)-([0-9]{2})(?:-solutions)?\.md",
+        path,
+    )
+    if path_match is None:
+        return None
+    role = path_match.group(1)
+    authority_unit = int(path_match.group(2))
+
+    if entity_class == "solution":
+        identity = normalize_page_identity(
+            {
+                "pageid": payload.get("source_pageid"),
+                "revid": payload.get("source_revid"),
+                "mediawiki_sha1": payload.get("source_mediawiki_sha1"),
+                "title": payload.get("source_solution_title"),
+            }
+        )
+        if identity is None:
+            raise SystemExit(
+                f"BGK solution lacks complete frozen source identity: {record['stable_id']}"
+            )
+        witness = profiles_by_page.get((identity["page_id"], identity["revision_id"]))
+        if witness is None:
+            return identity
+        if (
+            witness["revision_sha1"] != identity["revision_sha1"]
+            or witness["page_title"] != identity["page_title"]
+            or int(witness.get("authority_unit") or 0) != authority_unit
+        ):
+            raise SystemExit(
+                f"BGK solution identity disagrees with authority: {record['stable_id']}"
+            )
+        identity["identity_strategy"] = "native_id"
+        return identity
+
+    if entity_class == "exercise":
+        source_entity = str(payload.get("source_entity") or "")
+        if not source_entity:
+            raise SystemExit(f"BGK exercise lacks source_entity: {record['stable_id']}")
+        witness = profiles_by_unit_title.get((authority_unit, source_entity))
+        if witness is None:
+            raise SystemExit(
+                "BGK exercise source title is absent from its frozen authority closure: "
+                f"{record['stable_id']} -> {source_entity}"
+            )
+        return identity_from_authority_witness(witness, "native_id")
+
+    if entity_class not in {"unit", "segment"} or path.endswith("-solutions.md"):
+        return None
+    witness = document_roots.get((authority_unit, role))
+    if witness is None:
+        raise SystemExit(
+            f"BGK {role} root is absent from frozen authority unit {authority_unit}"
+        )
+    return identity_from_authority_witness(witness, "structural_path")
 
 
 def native_extension(record: dict[str, Any], ordinal: int) -> dict[str, Any]:
@@ -569,6 +748,35 @@ def first_nonempty(*values: Any, default: str = "") -> str:
     return default
 
 
+def native_lane_variant(native_manifest: dict[str, Any]) -> dict[str, str]:
+    """Return stable adapter identities for the classical or BGK native lane."""
+    if is_bgk_native_lane(native_manifest):
+        return {
+            "scope_slug": "algebraic-geometry-bridge-id-bgk",
+            "editorial_resource": "resource.bgk-id.editorial-layer",
+            "editorial_rights": "rights.bgk-id.derivative.cc-by-sa-4.0",
+            "migration_prefix": "ag-bridge-id-bgk",
+            "native_dataset_id": "algebraic-geometry-bridge-id-bgk-native-backend",
+        }
+    return {
+        "scope_slug": "algebraic-geometry-bridge-id",
+        "editorial_resource": "resource.algebraic-geometry-bridge-id.editorial-layer",
+        "editorial_rights": "rights.derivative-editorial.cc-by-sa-4.0",
+        "migration_prefix": "ag-bridge-id",
+        "native_dataset_id": "algebraic-geometry-bridge-id-native-backend",
+    }
+
+
+def correction_affected_native_ids(record: dict[str, Any]) -> list[str]:
+    """Read either native correction topology without changing its payload."""
+    payload = record.get("payload") or {}
+    affected = [str(value) for value in list(payload.get("affected_unit_ids") or []) if value]
+    if affected:
+        return affected
+    parent_id = record.get("parent_id")
+    return [str(parent_id)] if parent_id else []
+
+
 def build_dataset(
     native_records: list[dict[str, Any]],
     native_manifest: dict[str, Any],
@@ -583,6 +791,12 @@ def build_dataset(
         raise SystemExit(f"Unsupported native entity classes: {unsupported}")
 
     through_unit = int(native_manifest["through_unit"])
+    adapter_recorded_at = first_nonempty(
+        native_manifest.get("generated_from_build_utc"),
+        native_manifest.get("generated_from_authority_utc"),
+    )
+    if not adapter_recorded_at:
+        raise SystemExit("Native manifest lacks a deterministic generation timestamp")
     target_id_by_native = {
         record["stable_id"]: common_id(PRIMARY_TYPE[record["entity_class"]], record["stable_id"])
         for record in native_records
@@ -596,7 +810,7 @@ def build_dataset(
             affected
             for record in native_records
             if record["entity_class"] == "correction"
-            for affected in list((record.get("payload") or {}).get("affected_unit_ids") or [])
+            for affected in correction_affected_native_ids(record)
             if affected not in target_id_by_native
         }
     )
@@ -613,8 +827,9 @@ def build_dataset(
             raise SystemExit(f"Native foreign key has no target mapping: {native_id}")
         return result
 
-    editorial_resource_native = "resource.algebraic-geometry-bridge-id.editorial-layer"
-    editorial_rights_native = "rights.derivative-editorial.cc-by-sa-4.0"
+    lane_variant = native_lane_variant(native_manifest)
+    editorial_resource_native = lane_variant["editorial_resource"]
+    editorial_rights_native = lane_variant["editorial_rights"]
     if editorial_resource_native not in target_id_by_native or editorial_rights_native not in target_id_by_native:
         raise SystemExit("Native editorial resource/rights anchors are absent")
     editorial_resource_id = resolve(editorial_resource_native, allow_none=False)
@@ -643,17 +858,23 @@ def build_dataset(
     profile_eligible = 0
     profile_bound = 0
     profile_missing: list[str] = []
+    bgk_profiles_by_unit_title: dict[tuple[int, str], dict[str, Any]] = {}
+    bgk_document_roots: dict[tuple[int, str], dict[str, Any]] = {}
+    if is_bgk_native_lane(native_manifest):
+        bgk_profiles_by_unit_title, bgk_document_roots = bgk_authority_lookups(
+            profiles_by_page
+        )
 
     def add(record: dict[str, Any]) -> None:
         tables[TABLE_FOR_TYPE[record["record_type"]]].append(record)
 
     # One adapter-only unit expresses the explicit whole-lane scope already
     # present in every terminology record. It is not reader content.
-    scope_key = "adapter.scope.algebraic-geometry-bridge-id.whole-lane"
+    scope_key = f"adapter.scope.{lane_variant['scope_slug']}.whole-lane"
     scope_unit = derived_base(
         "unit",
         scope_key,
-        native_manifest["generated_from_build_utc"],
+        adapter_recorded_at,
         "workflow.o016-d100.algebraic-geometry-bridge-id",
         source_native_id="00_control/TERMINOLOGY.csv",
         status="derived",
@@ -678,13 +899,13 @@ def build_dataset(
         referenced = derived_base(
             "unit",
             stable_key,
-            native_manifest["generated_from_build_utc"],
+            adapter_recorded_at,
             "workflow.o016-d100.algebraic-geometry-bridge-id",
             source_native_id=stable_key,
             status="referenced_not_materialized_in_native_backend",
         )
         referenced["extensions"]["ag-bridge.derivation-basis"] = (
-            "explicit affected_unit_ids value in the frozen native correction ledger"
+            "explicit affected identifier in the frozen native correction topology"
         )
         referenced.update(
             {
@@ -926,7 +1147,7 @@ def build_dataset(
                 }
             )
         elif entity == "correction":
-            affected = list(payload.get("affected_unit_ids") or [])
+            affected = correction_affected_native_ids(native)
             if not affected:
                 raise SystemExit(f"Correction has no affected native ID: {native['stable_id']}")
             common.update(
@@ -985,6 +1206,13 @@ def build_dataset(
         # Promote a complete, locally witnessed MediaWiki identity into the
         # frozen strict source-format profile without altering native data.
         page_identity = page_identity_from_native(native)
+        if page_identity is None and is_bgk_native_lane(native_manifest):
+            page_identity = bgk_page_identity_from_native(
+                native,
+                profiles_by_page,
+                bgk_profiles_by_unit_title,
+                bgk_document_roots,
+            )
         if page_identity is not None:
             profile_eligible += 1
             witness = profiles_by_page.get((page_identity["page_id"], page_identity["revision_id"]))
@@ -1001,7 +1229,8 @@ def build_dataset(
                     "profile_version": "1.0.0",
                     "authority_file_revision_id": file_revision_id,
                     "authority_path": witness_fact["path"],
-                    "identity_strategy": "native_id" if native.get("source_local_id") else "structural_path",
+                    "identity_strategy": page_identity.get("identity_strategy")
+                    or ("native_id" if native.get("source_local_id") else "structural_path"),
                     "page_id": page_identity["page_id"],
                     "revision_id": page_identity["revision_id"],
                     "revision_sha1": page_identity["revision_sha1"],
@@ -1117,7 +1346,7 @@ def build_dataset(
     for native in native_records:
         if native["entity_class"] != "correction":
             continue
-        affected = list((native.get("payload") or {}).get("affected_unit_ids") or [])
+        affected = correction_affected_native_ids(native)
         for index, affected_native in enumerate(affected, 1):
             relation_key = f"{native['stable_id']}|applies-to|{index:03d}|{affected_native}"
             relation = derived_base(
@@ -1130,7 +1359,7 @@ def build_dataset(
             )
             relation.update(
                 {
-                    "assertion_method": "native correction affected_unit_ids",
+                    "assertion_method": "native correction affected identifier",
                     "confidence": "asserted",
                     "edition_id": resolve(native.get("edition_id")),
                     "from_id": resolve(native["stable_id"], allow_none=False),
@@ -1146,7 +1375,7 @@ def build_dataset(
     for table in TABLES:
         tables[table].sort(key=lambda record: (record["stable_key"], record["id"]))
 
-    dataset_key = "algebraic-geometry-bridge-id.common-backend-v1"
+    dataset_key = f"{lane_variant['scope_slug']}.common-backend-v1"
     dataset = {
         "$schema": "schema/backend-v1.schema.json",
         "dataset_id": common_id("dataset", dataset_key),
@@ -1378,13 +1607,14 @@ def migration_receipt(
     native_records_path = native_backend / "records.jsonl"
     table_counts = {name: len(dataset["tables"][name]) for name in TABLES}
     public_file_facts = [file_fact(path) for path in public_files]
+    variant = native_lane_variant(native_manifest)
     return {
         "schema_name": "interlanguage-math-modular-backend-migration-receipt",
         "schema_version": "1.0.0",
-        "migration_id": f"ag-bridge-id-units-01-{int(native_manifest['through_unit']):02d}-common-backend-v1",
+        "migration_id": f"{variant['migration_prefix']}-units-01-{int(native_manifest['through_unit']):02d}-common-backend-v1",
         "migration_mode": "additive zero-copy adapter",
         "source": {
-            "dataset_id": "algebraic-geometry-bridge-id-native-backend",
+            "dataset_id": variant["native_dataset_id"],
             "dataset_version": native_manifest.get("schema_version"),
             "schema_name": native_manifest.get("schema"),
             "record_schema_version": native_manifest.get("record_schema_version"),
@@ -1541,7 +1771,7 @@ def main() -> int:
     ):
         raise SystemExit("Native records.jsonl hash does not match its manifest")
 
-    profiles = authority_index(int(native_manifest["through_unit"]))
+    profiles = authority_index(native_manifest)
     dataset_a, details_a = build_dataset(native_records, native_manifest, profiles, profile_schema)
     dataset_b, details_b = build_dataset(native_records, native_manifest, profiles, profile_schema)
     if dataset_a != dataset_b or details_a != details_b:
@@ -1585,19 +1815,33 @@ def main() -> int:
         raise SystemExit("--public-record-url is required when emitting the frozen receipt")
     through = int(native_manifest["through_unit"])
     unit_label = f"01_{through:02d}"
-    final_evidence_paths = [
-        ROOT / "build" / "reader-id" / "BUILD_RECEIPT.json",
-        ROOT / "qa" / f"UNITS_{unit_label}_MACHINE_QA.json",
-        ROOT / "qa" / f"UNITS_{unit_label}_VISUAL_QA.json",
-        ROOT / "qa" / f"UNITS_{unit_label}_RESPONSIVE_QA.json",
-        ROOT / "qa" / f"UNIT_{through:02d}_PROTECTED_SURFACES.json",
-        ROOT / "qa" / f"UNITS_{unit_label}_BACKEND_QA.json",
-        manifest_path,
-    ]
+    if is_bgk_native_lane(native_manifest):
+        # BGK uses one cumulative reader receipt and one consolidated reader-QA
+        # receipt.  The latter closes machine, PDF visual, responsive HTML,
+        # accessibility, formula/ID, link, media, and source-order checks, so it
+        # replaces the five classical-volume receipts without weakening the
+        # final-evidence gate.
+        final_evidence_paths = [
+            ROOT / "build" / "reader-bgk-id" / "BUILD_RECEIPT.json",
+            ROOT / "qa" / f"BGK_UNITS_{unit_label}_READER_QA.json",
+            ROOT / "qa" / f"BGK_UNITS_{unit_label}_BACKEND_QA.json",
+            ROOT / "qa" / f"BGK_UNITS_{unit_label}_COMMON_ADAPTER_PREFLIGHT_QA.json",
+            manifest_path,
+        ]
+    else:
+        final_evidence_paths = [
+            ROOT / "build" / "reader-id" / "BUILD_RECEIPT.json",
+            ROOT / "qa" / f"UNITS_{unit_label}_MACHINE_QA.json",
+            ROOT / "qa" / f"UNITS_{unit_label}_VISUAL_QA.json",
+            ROOT / "qa" / f"UNITS_{unit_label}_RESPONSIVE_QA.json",
+            ROOT / "qa" / f"UNIT_{through:02d}_PROTECTED_SURFACES.json",
+            ROOT / "qa" / f"UNITS_{unit_label}_BACKEND_QA.json",
+            manifest_path,
+        ]
     replay_evidence = receipt_evidence(final_evidence_paths)
-    for path in final_evidence_paths[1:6]:
+    for path in final_evidence_paths[1:-1]:
         if not status_is_pass(path):
-            raise SystemExit(f"Final Unit {through} QA evidence is not PASS: {path}")
+            raise SystemExit(f"Final boundary QA evidence is not PASS: {path}")
     term_receipt = terminology_receipt(
         int(native_manifest["through_unit"]),
         sha256_bytes(stream_a),

@@ -1,0 +1,102 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.17</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 1</title>
+    <ns>106</ns>
+    <id>109003</id>
+    <revision>
+      <id>1069568</id>
+      <parentid>793601</parentid>
+      <timestamp>2026-02-06T07:06:14Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1069568</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2136" sha1="cw6bs781cepdfmls6z5g54yctoj9uz4" xml:space="preserve">{{Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesungsgestaltung|1|
+
+{{Zwischenüberschrift|Parameterabhängige lineare Gleichungssysteme}}
+
+{{:Lineares Gleichungssystem/Parameter/Vektorbündel/Textabschnitt|}} 
+
+In
+{{
+Beispiellink
+|Präwort=||Beispielseitenname=
+Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel
+|Nr=
+|SZ=
+}}
+und in
+{{
+Beispiellink
+|Präwort=||Beispielseitenname=
+Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel
+|Nr=
+|SZ=
+}}
+liegen sogenannte globale polynomiale Trivialisierungen vor, das gegebene komplizierte geometrische Objekt lässt sich also mit Hilfe von polynomialen Funktionen in das einfache Objekt {{mathl|term=P \times \R|SZ=,}} wobei {{math|term=P|SZ=}} den Basisraum bezeichnet, übersetzen. Dagegen war eine solche globale Trivialisierung in
+{{
+Beispiellink
+|Präwort=||Beispielseitenname=
+Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel
+|Nr=
+|SZ=
+}}
+nicht möglich, obwohl dort auf den drei angegebenen offenen Teilmengen des Basisraumes lokal Trivialisierung existieren. Solche geometrischen Objekte nennt man Vektorbündel.
+
+{{Zwischenüberschrift|Reelle Vektorbündel}}
+
+{{:Topologischer Raum/Reelles Vektorbündel/Einführung/Textabschnitt|zusatz1=In den obigen Beispielen ist {{math|term=X|SZ=}} der relevante Parameterraum, also der Ort der Parameter, für die die Lösungsräume die minimale Dimension haben. Diese Dimension ist der Rang {{math|term=r|SZ=}} der vorstehenden Definition, also {{math|term=1,2,1|SZ=.}} Im ersten und im dritten Beispiel besteht die offene Überdeckung allein aus dem Basisraum selbst, diese Bündel haben eine globale Trivialisierung, im zweiten Beispiel liegt eine offene Überdeckung mit drei offenen Mengen vor, über der die Trivialisierungen angegeben wurden.}} 
+
+{{Zwischenüberschrift|Das Tangentialbündel auf einer Mannigfaltigkeit}}
+
+Wir besprechen ein weiteres besonders wichtigens Vektorbündel, das es auf jeder Mannigfaltigkeit gibt, das Tangentialbündel.
+
+{{:Mannigfaltigkeit/Tangentialbündel/Beispiel für reelle Vektorbündel/Einführung/Textabschnitt|}} 
+
+}}</text>
+      <sha1>cw6bs781cepdfmls6z5g54yctoj9uz4</sha1>
+    </revision>
+  </page>
+</mediawiki>

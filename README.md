@@ -1,30 +1,36 @@
-# Kurva Aljabar - Edisi Bahasa Indonesia
+# Kurva Aljabar + Bundel, Berkas, dan Kohomologi — Edisi Bahasa Indonesia
 
-Edisi Bahasa Indonesia independen dari *Algebraische Kurven* karya Holger
-Brenner. Unit 1–23 mengikuti kursus resmi *Osnabrück 2025–2026*, sedangkan
-Unit 24–30 mengikuti kuliah dan lembar kerja resmi *Osnabrück 2012*. Kedua
-batas sumber dibekukan dan dilabeli secara terpisah. Nama repositori berakhiran
-`-id`, dokumen menyatakan bahasa `id-ID`, dan judul kerja dipertahankan agar
-edisi serta bahasanya mudah ditemukan.
+Edisi Bahasa Indonesia independen dari dua kursus Holger Brenner:
+*Algebraische Kurven* serta *Bündel, Garben und Kohomologie*. Untuk volume
+pertama, Unit 1–23 mengikuti kursus resmi *Osnabrück 2025–2026* dan Unit
+24–30 mengikuti kuliah dan lembar kerja resmi *Osnabrück 2012*. Volume kedua
+mengikuti kursus resmi *Osnabrück 2019–2020*. Semua batas sumber dibekukan dan
+dilabeli secara terpisah. Nama repositori berakhiran `-id`, dokumen menyatakan
+bahasa `id-ID`, dan judul kerja dipertahankan agar edisi serta bahasanya mudah
+ditemukan.
 
-Status saat ini: **edisi klasik lengkap, 30 dari 30 unit, terverifikasi**.
-Edisi ini memuat 30 kuliah, 30 lembar kerja dengan seluruh 693 soal, semua 122
-solusi publik yang tersedia pada revisi sumber yang dibekukan, 101 posisi media
-beserta atribusi per komponen, HTML mandiri, PDF A4 504 halaman, dan backend ID
-stabil dengan 22.752 rekaman. Program jembatan dua-kursus yang lebih luas tetap
-berlanjut dengan *Bündel, Garben und Kohomologie*; hal itu tidak mengurangi
-kelengkapan volume *Algebraische Kurven* ini.
+Status saat ini: **volume klasik lengkap 30/30; volume BGK terverifikasi sampai
+Unit 3/30**. Secara keseluruhan 33 dari 60 unit sumber telah selesai. Volume
+klasik memuat seluruh 693 soal, 122 solusi publik, 101 posisi media, HTML
+mandiri, PDF A4 504 halaman, dan backend 22.752 rekaman. Checkpoint BGK memuat
+62 soal, tepat dua solusi publik yang tersedia (60 solusi yang tidak tersedia
+tidak diciptakan), HTML mandiri, PDF A4 50 halaman, dan backend 2.370 rekaman.
 
 ## Baca
 
 - [Pembaca web di GitHub Pages](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/)
+- [Pembaca BGK Unit 1–3 di GitHub Pages](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/bgk/)
 - [Repositori edisi dan bahasa ini](https://github.com/KokunoYumeto/algebraic-geometry-bridge-id)
 - [Edisi klasik lengkap di Zenodo](https://doi.org/10.5281/zenodo.22150273)
+- [Rilis gabungan: klasik lengkap + BGK Unit 1–3](https://doi.org/10.5281/zenodo.22160883)
 - [Konsep Zenodo yang memuat semua versi](https://doi.org/10.5281/zenodo.22059686)
 - `build/reader-id/index.html`: pembaca HTML kumulatif mandiri
 - `build/reader-id/algebraic-geometry-bridge-id-units-01-30.pdf`: PDF A4 lengkap
+- `build/reader-bgk-id/index.html`: pembaca HTML BGK Unit 1–3
+- `build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-03.pdf`: PDF A4 BGK
 - [Sumber resmi 2025-2026 di Wikiversity](https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026))
 - [Sumber resmi 2012 di Wikiversity](https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012))
+- [Sumber resmi BGK di Wikiversity](https://de.wikiversity.org/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020))
 
 HTML adalah permukaan akses utama: dokumen menyatakan `id-ID`, memakai struktur
 judul semantik, teks alternatif pada semua 101 gambar, 11.322 simpul MathML,
@@ -55,6 +61,13 @@ lokal. PDF adalah permukaan cetak dan tidak diklaim sebagai PDF bertag.
   replay backend ganda, sedangkan
   [`backend/common-backend-v1/MIGRATION_RECEIPT.json`](backend/common-backend-v1/MIGRATION_RECEIPT.json)
   merekam adaptor virtual aditif tanpa mengganti backend asli atau pembaca.
+- [`authority/wikiversity-bgk/unit-01`](authority/wikiversity-bgk/unit-01)
+  sampai [`unit-03`](authority/wikiversity-bgk/unit-03),
+  [`qa/BGK_UNITS_01_03_READER_QA.json`](qa/BGK_UNITS_01_03_READER_QA.json), dan
+  [`backend/bgk-units-01-03/MANIFEST.json`](backend/bgk-units-01-03/MANIFEST.json)
+  menutup sumber, hak komponen, pembaca, dan backend checkpoint BGK.
+- [`backend/bgk-common-backend-v1/MIGRATION_RECEIPT.json`](backend/bgk-common-backend-v1/MIGRATION_RECEIPT.json)
+  mengikat proyeksi backend BGK ke identitas publik tanpa mengganti model asli.
 - [`00_control/CORRECTIONS.csv`](00_control/CORRECTIONS.csv) dan
   [`00_control/TERMINOLOGY.csv`](00_control/TERMINOLOGY.csv) membuat adaptasi,
   koreksi, dan keputusan istilah dapat diaudit.
@@ -69,6 +82,10 @@ python scripts/qa_protected_surfaces_unit_30.py
 python scripts/export_backend_units_01_30.py
 python scripts/qa_backend_units_01_30.py
 python scripts/generate_common_backend_v1_receipts.py --native-backend backend/units-01-30 --preflight
+python scripts/build_bgk_reader.py
+python scripts/export_backend_bgk_units_01_03.py
+python scripts/qa_backend_bgk_units_01_03.py
+python scripts/generate_common_backend_v1_receipts.py --native-backend backend/bgk-units-01-03 --preflight
 ```
 
 Gerbang visual merasterkan seluruh 504 halaman, mengikat setiap PNG menurut

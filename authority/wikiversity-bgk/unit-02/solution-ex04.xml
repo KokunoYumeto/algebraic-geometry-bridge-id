@@ -1,0 +1,134 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.17</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Stetiges Vektorfeld/S^2/Nur eine Nullstelle/Aufgabe/Lösung</title>
+    <ns>0</ns>
+    <id>77727</id>
+    <revision>
+      <id>1096699</id>
+      <parentid>1095681</parentid>
+      <timestamp>2026-06-15T09:32:35Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1096699</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1367" sha1="br9klab5t1a48vuryjvnygo7d24mexx" xml:space="preserve">{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir betrachten auf dem {{math|term= \R^2 |SZ=}} das stetige Vektorfeld {{math|term= F |SZ=,}} das durch
+{{
+Relationskette/display
+|F(x,y)
+|| {{op:Bruch| 1| x^2+y^2}}  e_1
+||
+||
+||
+|SZ=
+}}
+gegeben sei. Dieses hat keine Nullstelle und ist stetig. Wir transportieren dieses Vektorfeld mittels der stereographischen Projektion auf
+{{
+Relationskette
+|  \R^2 
+| \cong| S^2 \setminus \{N\}
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und ergänzen es im Nordpol durch den Wert
+{{
+Relationskette
+| 0
+| \in |  T_NS^2
+||
+||
+||
+|SZ=.
+}} 
+Wir behaupten, dass dieses Vektorfeld stetig ist. Dazu sei {{mathl|term= P_n |SZ=}} sei eine Folge auf {{math|term= S^2 |SZ=,}} die gegen {{math|term= N |SZ=}} konvergiert. Dabei können wir direkt annehmen, dass alle
+{{
+Relationskette
+|P_n
+|\neq|N
+||
+||
+||
+|SZ=
+}}
+sind. Das Kartenbild dieser Folge ist
+{{
+Relationskette/display
+|P'_n
+|| (x_n,y_n)
+||
+||
+||
+|SZ=,
+}}
+und da {{math|term= P_n |SZ=}} gegen den Nordpol konvergiert, divergiert {{mathl|term=  {{op:Betrag|P_n'|}} |SZ=}} bestimmt gegen {{math|term= \infty|SZ=.}} Daher konvergiert die Folge 
+{{
+Relationskette/display
+| F(P'_n)
+|| F(x_n , y_n)
+|| {{op:Bruch| 1| x^2+y^2}} e_1
+||
+||
+|SZ=
+}}
+gegen {{math|term= 0 |SZ=.}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}</text>
+      <sha1>br9klab5t1a48vuryjvnygo7d24mexx</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -1,0 +1,376 @@
+{
+  "schema": "brenner-bgk-unit-commons-media-metadata-v1",
+  "unit": 2,
+  "source_api": "https://commons.wikimedia.org/w/api.php",
+  "request_parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": 2,
+    "prop": "imageinfo|revisions",
+    "iiprop": "url|size|mime|sha1|timestamp|user|mediatype|extmetadata",
+    "iiurlwidth": 500,
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "File:Hairy_ball_one_pole.jpg|File:Inclusion-exclusion.svg|File:Fiddler_crab_mobius_strip.gif|File:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)Vorlesung2.pdf|File:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)Arbeitsblatt2.pdf"
+  },
+  "source_api_response_bytes": 21422,
+  "source_api_response_sha256": "4bc1dc7a556afeadde8b2f04347ec85522d4be716d479c3ea892c376a0ecc661",
+  "records": [
+    {
+      "resource_title": "File:Hairy_ball_one_pole.jpg",
+      "metadata_title": "File:Hairy ball one pole.jpg",
+      "pageid": 8257798,
+      "description_revision": {
+        "revid": 732706988,
+        "timestamp": "2023-02-15T09:40:20Z",
+        "mediawiki_sha1": "a55081001ff13221b31e663db300ead8b9a626fe",
+        "wikitext_bytes": 770,
+        "wikitext_sha256": "dc35f1aff328cdfea96010f498b8133e7009521094f19247de28bdb3a66b51f8",
+        "wikitext": "== {{int:filedesc}} ==\n{{Information\n|Description={{en|1=Illustration of the [[:w:en:Hairy ball theorem]] - a continuous tangent vector field on the sphere with only one pole}}\n{{de|1=Veranschaulichung des [[:w:de:Satz vom Igel|Satzes vom Igel]] - ein stetiges tangentiales Vektorfeld auf der Kugeloberfläche mit nur einem Pol}}\n|Source={{own}}\n|Author=[[User:RokerHRO|RokerHRO]]\n|Date=2009-10-25\n|Permission=\n|other_versions=[[:File:Hairy ball one pole animated.gif]]\n}}\nThe imagemap is made using Xfig, transformed into a spherical map by a self-written program and rendered on the surface of a sphere by POV-Ray. :-)\n\n== {{int:license-header}} ==\n{{self|GFDL|cc-by-sa-3.0,2.5,2.0,1.0}}\n\n[[Category:Hairy ball theorem]]\n[[Category:Created with Persistence of Vision]]"
+      },
+      "imageinfo": {
+        "description_url": "https://commons.wikimedia.org/wiki/File:Hairy_ball_one_pole.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hairy_ball_one_pole.jpg",
+        "original_bytes": 487635,
+        "original_sha1": "3d134983812e719b602395eaf316b50f388ed43e",
+        "original_width": 2048,
+        "original_height": 2048,
+        "mime": "image/jpeg",
+        "media_type": "BITMAP",
+        "timestamp": "2009-10-25T10:12:49Z",
+        "uploader": "RokerHRO",
+        "artist": "RokerHRO",
+        "credit": "Own work",
+        "license_short": "CC BY-SA 3.0",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution_required": "true",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2009-10-25 10:12:49",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Hairy ball one pole",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Hairy ball theorem|Self-published work|Created with Persistence of Vision",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Illustration of the <a href=\"https://en.wikipedia.org/wiki/en:Hairy_ball_theorem\" class=\"extiw\" title=\"w:en:Hairy ball theorem\">w:en:Hairy ball theorem</a> - a continuous tangent vector field on the sphere with only one pole",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2009-10-25",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:RokerHRO\" title=\"User:RokerHRO\">RokerHRO</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "extmetadata_canonical_json_sha256": "992750c096a07c7c58354318e954f74b2f40bea58bfeec8ce54621147d7ddc11"
+      },
+      "selection": {
+        "selected_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hairy_ball_one_pole.jpg/500px-Hairy_ball_one_pole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "selected_form": "official Commons 500px JPEG thumbnail",
+        "local_path": "authority/assets/bgk-hairy-ball-one-pole-500.jpg",
+        "local_bytes": 88725,
+        "local_sha256": "9acff198931002a3980f2bf299bae1e69d99bb25e60b08815259ddc8b7223d5b",
+        "local_width": 500,
+        "local_height": 500,
+        "frame_count": 1,
+        "pdf_local_path": "",
+        "pdf_local_bytes": "",
+        "pdf_local_sha256": ""
+      }
+    },
+    {
+      "resource_title": "File:Inclusion-exclusion.svg",
+      "metadata_title": "File:Inclusion-exclusion.svg",
+      "pageid": 1318417,
+      "description_revision": {
+        "revid": 1037733694,
+        "timestamp": "2025-05-29T20:53:35Z",
+        "mediawiki_sha1": "892b1af75f486631b8f0043fa86f303056a42fd5",
+        "wikitext_bytes": 284,
+        "wikitext_sha256": "46e114a75fcff87428bf064d9a3b6d0e200be269db53dd4a1fcdae46d2af4b67",
+        "wikitext": "== {{int:filedesc}} ==\n{{Information\n |description = {{en|Inclusion/exclusion for three sets}}\n |date = 2006\n |source ={{unknown}}\n |author = {{unknown}}\n|other fields={{Igen|Inkscape|+|%|s=d}}\n}}\n\n== {{int:license-header}} ==\n{{PD-shape}}\n\n[[Category:Venn diagrams of intersections]]"
+      },
+      "imageinfo": {
+        "description_url": "https://commons.wikimedia.org/wiki/File:Inclusion-exclusion.svg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Inclusion-exclusion.svg",
+        "original_bytes": 6804,
+        "original_sha1": "cc9ef91306f4db7a1658720eb4310e255b0b6943",
+        "original_width": 500,
+        "original_height": 400,
+        "mime": "image/svg+xml",
+        "media_type": "DRAWING",
+        "timestamp": "2006-10-28T21:59:06Z",
+        "uploader": "Chris-martin",
+        "artist": "Unknown Unknown",
+        "credit": "Unknown Unknown",
+        "license_short": "Public domain",
+        "usage_terms": "Public domain",
+        "license_url": "",
+        "attribution_required": "false",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2006-10-28 21:59:06",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Inclusion-exclusion",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "PD shape|Translation possible - SVG|Valid SVG created with Inkscape:Diagrams|Template Unknown (unspecified)|Venn diagrams of intersections",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Inclusion/exclusion for three sets",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2006",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Unknown<span style=\"display: none;\">Unknown </span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown<span style=\"display: none;\">Unknown </span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "extmetadata_canonical_json_sha256": "5fbc38a077eb25ef78dd298556981ee2ea5cccbca465b05d03de4dfc4cc2d8a1"
+      },
+      "selection": {
+        "selected_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Inclusion-exclusion.svg/500px-Inclusion-exclusion.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "selected_form": "official Commons 500px PNG rendering of SVG",
+        "local_path": "authority/assets/bgk-inclusion-exclusion-500.png",
+        "local_bytes": 40604,
+        "local_sha256": "c1582293a450680f6b45d5eeb603f1be30ec2e0dafe0381ff4661737a37d7e62",
+        "local_width": 500,
+        "local_height": 400,
+        "frame_count": 1,
+        "pdf_local_path": "",
+        "pdf_local_bytes": "",
+        "pdf_local_sha256": ""
+      }
+    },
+    {
+      "resource_title": "File:Fiddler_crab_mobius_strip.gif",
+      "metadata_title": "File:Fiddler crab mobius strip.gif",
+      "pageid": 64091384,
+      "description_revision": {
+        "revid": 1252053587,
+        "timestamp": "2026-07-25T22:02:15Z",
+        "mediawiki_sha1": "436cd7b0d46abf613240ac263c3a76cc9f8f760a",
+        "wikitext_bytes": 464,
+        "wikitext_sha256": "c995dc5c076a65cb1cc92e69f47bf5568a3581d79f20d020ff5988909eb72461",
+        "wikitext": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=A chiral object (a fiddler crab) that exists within a space with the topology of a mobius strip traversing that space, becoming its own mirror image}}\n|date=2017-11-15\n|source={{own}}\n|author=[[User:Hamishtodd1|Hamishtodd1]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Moebius strip plots]]\n[[Category:Animations of topology]]\n[[Category:Animated GIF files]]"
+      },
+      "imageinfo": {
+        "description_url": "https://commons.wikimedia.org/wiki/File:Fiddler_crab_mobius_strip.gif",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Fiddler_crab_mobius_strip.gif",
+        "original_bytes": 1557242,
+        "original_sha1": "3b839b0399284006c6cbc7d23d3ef75aa00f58d5",
+        "original_width": 317,
+        "original_height": 489,
+        "mime": "image/gif",
+        "media_type": "BITMAP",
+        "timestamp": "2017-11-15T20:16:20Z",
+        "uploader": "Hamishtodd1",
+        "artist": "Hamishtodd1",
+        "credit": "Own work",
+        "license_short": "CC BY-SA 4.0",
+        "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2017-11-15 20:16:20",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Fiddler crab mobius strip",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Animated GIF files|Self-published work|Moebius strip plots|Animations of topology",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "A chiral object (a fiddler crab) that exists within a space with the topology of a mobius strip traversing that space, becoming its own mirror image",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2017-11-15",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hamishtodd1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hamishtodd1 (page does not exist)\">Hamishtodd1</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        },
+        "extmetadata_canonical_json_sha256": "5e7ebe6f000ef9d8e803c68e088cfd6d9194d32d456588379c68791db46f4f5f"
+      },
+      "selection": {
+        "selected_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Fiddler_crab_mobius_strip.gif",
+        "selected_form": "byte-exact Commons original GIF",
+        "local_path": "authority/assets/bgk-fiddler-crab-mobius-strip.gif",
+        "local_bytes": 1557242,
+        "local_sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a",
+        "local_width": 317,
+        "local_height": 489,
+        "frame_count": 24,
+        "pdf_local_path": "authority/assets/bgk-fiddler-crab-mobius-strip-frame-001.png",
+        "pdf_local_bytes": 154363,
+        "pdf_local_sha256": "3d4f517d20a1a323629bf92eafee8f391caee3856020262ed693735727ed4d02"
+      }
+    }
+  ]
+}

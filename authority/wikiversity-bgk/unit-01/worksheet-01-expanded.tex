@@ -1,0 +1,614 @@
+\setcounter{section}{1}
+
+
+In der folgenden Aufgabe verwenden wir die Schreibweise
+
+\mavergleichskette
+{\vergleichskette
+{D(r)
+}
+{ = }{ \left\{ (r,s,t) \in \R^3  \mid  r \neq 0        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Bestimme zum
+\definitionsverweis {Vektorbündel}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{L
+}
+{ =} { \left\{ (r,s,t,u,v,w)  \mid  ru+sv+tw = 0 , \, (r,s,t) \neq (0,0,0)       \right\}
+}
+{ \subseteq} { \R^3 \setminus \{0,0,0\} \times \R^3
+}
+{ \longrightarrow} { \R^3 \setminus \{0,0,0\}
+}
+{ } {
+}
+}
+{}{}{}
+lineare Trivialisierungen oberhalb von
+\mathl{D(r)}{,}
+\mathl{D(s)}{} und
+\mathl{D(t)}{,} also von $r,s,t$ abhängige Basen oberhalb von $D(r)$ usw. Bestimme die Basiswechselabbildungen auf
+
+\mavergleichskette
+{\vergleichskette
+{D(rs)
+}
+{ = }{ D(r) \cap D(s)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Bestimme zum
+\definitionsverweis {Vektorbündel}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{L
+}
+{ =} { \left\{ (r,s,t,u,v,w)  \mid  ru+sv+tw = 0 , \, (r,s,t) \neq (0,0,0)       \right\}
+}
+{ \subseteq} { \R^3 \setminus \{0,0,0\} \times \R^3
+}
+{ \longrightarrow} { \R^3 \setminus \{0,0,0\}
+}
+{ } {
+}
+}
+{}{}{}
+diejenigen Parameter
+\mathl{(r,s,t)}{,} für die der Vektor $\left(  3   , \,   7  , \,   4                 \right)$ zur Faser
+\mathl{L_{(r,s,t)}}{} gehört.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass in
+
+Beispiel 1.2
+
+auf
+\mathl{D(r)}{} durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{u(r,s,t)
+}
+{ =} { { \frac{   t  }{ r } } \begin{pmatrix}  s  \\ -r\\  0   \end{pmatrix}  - { \frac{   s  }{ r } } \begin{pmatrix}  t  \\ 0 \\  -r   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ein
+\zusatzklammer {von den Parametern abhängiger} {} {}
+Vektor im Lösungsraum definiert ist, der auf ganz $\R^3$ polynomial fortsetzbar ist, obwohl die Koeffizientenfunktionen
+\mathkor {} {{ \frac{   t  }{ r } }} {und} {- { \frac{   s  }{ r } }} {}
+nur auf $D(r)$ definiert sind und nicht fortsetzbar sind. Ist
+\mathl{u(r,s,t)}{} überall Teil einer Basis?
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Bestimme in
+
+Beispiel 1.3
+
+die Parameter, für die der Lösungsraum
+\mathl{L_{(a,b,c,d,e,f)}}{} ein-, zwei- oder dreidimensional ist. Sind diese Mengen offen oder abgeschlossen?
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass über einem beliebigen Körper $K$  zu
+\definitionsverweis {linear unabhängigen}{}{}
+Vektoren
+\mathkor {} {u= \begin{pmatrix}  a  \\ b \\ c   \end{pmatrix}} {und} {v= \begin{pmatrix}  d  \\ e \\ f   \end{pmatrix}} {}
+die Familie bestehend aus
+\mathl{u,v}{} und dem
+\definitionsverweis {Kreuzprodukt}{}{}
+
+\mathl{\begin{pmatrix}  a  \\ b \\ c   \end{pmatrix}  \times \begin{pmatrix}  d  \\ e \\ f   \end{pmatrix}}{} keine
+\definitionsverweis {Basis}{}{}
+des $K^3$ bilden muss.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Betrachte den
+\definitionsverweis {topologischen Raum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{Y
+}
+{ \defeq} { \left\{ (s,t,u,v) \in \R^4  \mid  su+tv = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit der Projektion
+\maabbeledisp {p} { Y } { \R^2 \setminus \{ (0,0) \} = X
+} {(s,t,u,v)} { (s,t)
+} {.}
+\aufzaehlungvier{Zeige, dass jede Faser von $p$
+\definitionsverweis {homöomorph}{}{}
+zu einer reellen Geraden ist.
+}{Zeige, dass durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(s,t)
+}
+{ =} {(s,t,u(s,t),v(s,t))
+}
+{ =} { \left( s,t, { \frac{   s  }{ s^2+t^2 } } , { \frac{   t  }{ s^2+t^2 } }  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine stetige Abbildung
+\maabb {\varphi} { X} { Y
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p \circ \varphi
+}
+{ =} {
+\operatorname{Id}_{  X  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben ist.
+}{Definiere einen
+\definitionsverweis {Homöomorphismus}{}{}
+zwischen
+\mathkor {} {Y} {und} {X \times \R} {.}
+}{Zeige, dass es keine polynomiale Abbildung
+\maabb {\psi} { X } { Y
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p \circ \psi
+}
+{ =} {
+\operatorname{Id}_{  X  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt.
+}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+über einem Punkt
+\zusatzklammer {also einem einpunktigen topologischen Raum} {} {}
+das gleiche ist wie ein reeller endlichdimensionaler Vektorraum.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabb {p} { V } { X
+} {}
+ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+über einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Zeige, dass $V$ genau dann ein
+\definitionsverweis {Hausdorffraum}{}{}
+ist, wenn $X$ ein Hausdorffraum ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}
+Zeige, dass man die
+\definitionsverweis {Identität}{}{}
+\maabb {\operatorname{Id}_{  X  }} { X } { X
+} {}
+als ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+vom
+\definitionsverweis {Rang}{}{}
+$0$ auffassen kann.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}
+Zeige, dass ein
+\definitionsverweis {Homomorphismus}{}{}
+der
+\zusatzklammer {trivialen} {} {}
+Vektorbündel
+\maabbdisp {\varphi} {X \times \R^n } { X \times \R^m
+} {}
+das gleiche ist wie eine
+$m \times n$-\definitionsverweis {Matrix}{}{,}
+der Einträge stetige Funktionen von $X$ nach $\R$ sind.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und
+\maabb {f} { U } { \R^m
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{.}
+Zeige, dass durch das
+\definitionsverweis {totale Differential}{}{}
+in der Form
+\maabbeledisp {} { U \times \R^n } { U \times \R^m
+} { (x,v)} { (x, \left(D f \right)_{ x} (v) )
+} {,}
+ein Homomorphismus des Vektorbündels
+\mathl{U \times \R^n}{} in das Vektorbündel
+\mathl{U \times \R^m}{}  gegeben ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass es eine
+\definitionsverweis {Homöomorphie}{}{}
+des
+\definitionsverweis {Tangentialbündels}{}{}
+
+\mathl{T_{S^1 }}{} der
+$1$-\definitionsverweis {Sphäre}{}{}
+$S^1$ mit dem
+\definitionsverweis {Produkt}{}{}
+$S^1 \times \R$ gibt.
+
+
+
+
+
+}
+{} {}
+Was hat die vorstehende Aufgabe mit
+
+Beispiel 1.1
+
+zu tun?
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Man gebe ein Beispiel einer differenzierbaren Kurve
+\maabbdisp {\gamma} { [0,1[} { S^1
+} {}
+derart, dass der
+\definitionsverweis {Grenzwert}{}{}
+
+\mathl{\operatorname{lim}_{   t  \rightarrow  1   } \,  \gamma(t)}{} existiert, dass aber der Grenzwert
+\mathl{\operatorname{lim}_{   t  \rightarrow  1   } \, ( \gamma(t), T_t (\gamma ) (1))}{} in
+\mathl{TS^1}{} nicht existiert.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass die Abbildung
+\maabbeledisp {} {TS^1} { \R^2
+} {( (a,b),t (-b,a))} { (a,b) + t (-b,a)
+} {,}
+für jeden Punkt
+\mathl{(x,y) \in \R^2}{} außerhalb der Einheitskreisscheibe zwei Urbildpunkte, auf dem Einheitskreis einen Urbildpunkt und innerhalb der offenen Einheitskreisscheibe keinen Urbildpunkt besitzt. Man interpretiere dies geometrisch.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Man gebe ein Beispiel einer
+\definitionsverweis {injektiven}{}{}
+\definitionsverweis {differenzierbaren Abbildung}{}{}
+\maabbdisp {\varphi} { M } { N
+} {}
+zwischen zwei
+\definitionsverweis {differenzierbaren Mannigfaltigkeiten}{}{}
+\mathkor {} {M} {und} {N} {}
+derart, dass die zugehörige
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T(\varphi)} {TM} {TN
+} {}
+nicht injektiv ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Man gebe ein Beispiel einer
+\definitionsverweis {surjektiven}{}{}
+\definitionsverweis {differenzierbaren Abbildung}{}{}
+\maabbdisp {\varphi} { M } { N
+} {}
+zwischen zwei
+\definitionsverweis {differenzierbaren Mannigfaltigkeiten}{}{}
+\mathkor {} {M} {und} {N} {}
+derart, dass die zugehörige
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T(\varphi)} {TM} {TN
+} {}
+nicht surjektiv ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{} und es sei
+\maabb {\varphi} { M } { N
+} {} eine
+\definitionsverweis {differenzierbare Abbildung}{}{.} Zeige, dass die zugehörige
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T(\varphi)} {TM} {TN
+} {}
+\definitionsverweis {stetig}{}{}
+ist.
+
+
+
+
+
+}
+{} {}

@@ -1,0 +1,210 @@
+{
+  "schema": "ag-bridge-bgk-unit-authority-qa-v1",
+  "unit": 3,
+  "status": "PASS_COMPLETE_AUTHORITY_SOLUTION_PDF_AND_ZERO_MEDIA_RIGHTS",
+  "course": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+  "course_root_authority": {
+    "path": "authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+    "bytes": 34279,
+    "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8",
+    "lecture_and_worksheet_rows_match_unit_manifest": true
+  },
+  "manifest": {
+    "path": "authority/wikiversity-bgk/unit-03/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 114385,
+    "sha256": "60270cc7ba74a4ed744687ae18c3887eca8a2fff6bce48a819be102d4a619a5a",
+    "first_complete_resume_sha256": "60270cc7ba74a4ed744687ae18c3887eca8a2fff6bce48a819be102d4a619a5a",
+    "second_complete_resume_sha256": "60270cc7ba74a4ed744687ae18c3887eca8a2fff6bce48a819be102d4a619a5a",
+    "deterministic_resume_replay": true,
+    "manifest_file_records_verified": 34
+  },
+  "capture_identity": {
+    "path": "authority/wikiversity-bgk/unit-03/CAPTURE_IDENTITY.json",
+    "bytes": 672,
+    "sha256": "40bcc9bddd531378a104e10f18ed17addfa1814931f768e28032fb26a12fe6b9"
+  },
+  "lecture": {
+    "pageid": 109005,
+    "revid": 793623,
+    "timestamp": "2022-08-25T06:25:18Z",
+    "mediawiki_sha1": "065d606279906a405645b5b97abf2e3c027e2b4c",
+    "latex_pageid": 110012,
+    "latex_revid": 807069,
+    "latex_mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "transclusions_requested": 166,
+    "transclusions_captured": 166,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 32229,
+    "expanded_tex_sha256": "04989737d12bf8ac77127e60f193e6ac2c19201d4f5d66221f8c5e1de85a87eb"
+  },
+  "worksheet": {
+    "pageid": 109057,
+    "revid": 619301,
+    "timestamp": "2020-02-17T10:29:54Z",
+    "mediawiki_sha1": "a6abf3d53e491ec12c798e96f3dfeec8b84de8c7",
+    "latex_pageid": 117158,
+    "latex_revid": 807039,
+    "latex_mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "transclusions_requested": 102,
+    "transclusions_captured": 102,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 10838,
+    "expanded_tex_sha256": "08f9268af226916ef212041a50d430ca5fcf71df2c5a57ab5adb36183e2a4b2a"
+  },
+  "exercise_solution_closure": {
+    "ordered_exercises": 18,
+    "public_solutions": 1,
+    "negative_solution_candidates": 17,
+    "public_solution_exercise": 1,
+    "ordered_map_bytes": 6410,
+    "ordered_map_sha256": "5242db043a773e412806fd066ed831fe6ebbdc7d16a35af8070ff1ce7398901f",
+    "candidate_evidence_bytes": 2535,
+    "candidate_evidence_sha256": "fead1cd2cfe79eb6dd0141474b4b0921986b32238bea7c2c6ba8fd8670942e64",
+    "solution_pageid": 125430,
+    "solution_revid": 1095037,
+    "solution_timestamp": "2026-06-14T17:35:09Z",
+    "solution_mediawiki_sha1": "90a739d79baeba74076567320f1f5ad1b1ecb897",
+    "solution_xml_bytes": 3739,
+    "solution_xml_sha256": "cf9dff1014aa7f7f749f84660d4c4a4785bbc0ddfcf657cc2413c1eb91ef149b",
+    "solution_html_bytes": 5398,
+    "solution_html_sha256": "0e4ce7ff74ef14d54ce440c717e12a369a9201a9fb365579484a1839d0ab1ad1",
+    "displayed_kronecker_product_arithmetic_checked": true
+  },
+  "official_pdfs": [
+    {
+      "kind": "lecture",
+      "pages_poppler": 11,
+      "pages_pypdf": 11,
+      "bytes": 99337,
+      "sha256": "f418f7acb52670e0d274528450101c93f7dacdef880f99d4aa0e80ac920da884",
+      "commons_description_pageid": 84172014,
+      "commons_description_revid": 1016827077,
+      "commons_description_mediawiki_sha1": "84aee2507041decd4509ae13b30a3a3d2ff1733c",
+      "commons_license": "CC BY-SA 4.0",
+      "embedded_license": "CC-by-sa 3.0",
+      "embedded_rights_page_text_sha256": "bf84acb7d59009155546f2d7c0afeff2d719ed7024739e7ffb0dedd0bd502710",
+      "license_surfaces_preserved_separately": true
+    },
+    {
+      "kind": "worksheet",
+      "pages_poppler": 5,
+      "pages_pypdf": 5,
+      "bytes": 57918,
+      "sha256": "615cfac501c1397cab86e7a4a000adae7587161b7cf7b2fd28f9bd6df7c7993c",
+      "commons_description_pageid": 87502750,
+      "commons_description_revid": 1016826585,
+      "commons_description_mediawiki_sha1": "9536d4e4bd3ef291354666347190de3edce86966",
+      "commons_license": "CC BY-SA 4.0",
+      "embedded_license": "CC-by-sa 3.0",
+      "embedded_rights_page_text_sha256": "5725a5ce3bfed455cde5c9c131fd2636a1451d8e782ceebbd049eaaf4af11186",
+      "license_surfaces_preserved_separately": true
+    }
+  ],
+  "visual_pdf_review": {
+    "renderer": "Poppler pdftoppm",
+    "lecture_pages_reviewed": [1, 11],
+    "worksheet_pages_reviewed": [1, 5],
+    "titles_numbering_formulas_exercises_and_rights_pages_legible": true,
+    "selected_reader_assets_reviewed": 0,
+    "selected_reader_assets_expected": 0
+  },
+  "parse_images": {
+    "unique_names": 2,
+    "official_pdf_witnesses": 2,
+    "substantive_reader_media": 0,
+    "caption_and_alt_status": "not applicable: no substantive reader media"
+  },
+  "media_rights_closure": {
+    "metadata_path": "authority/commons-imageinfo-bgk-unit-03.json",
+    "metadata_bytes": 7060,
+    "metadata_sha256": "52411bf83dcc0c8999d35b6952dee76025e4685f4321cd5b76234111e61204b1",
+    "rights_path": "authority/RIGHTS-bgk-unit-03.csv",
+    "rights_bytes": 1051,
+    "rights_sha256": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d",
+    "closure_path": "authority/ASSET_CLOSURE-bgk-unit-03.json",
+    "closure_bytes": 6063,
+    "closure_sha256": "618a916073604a94387f04d87565c222be65a5c180ce690342742ae63858ea15",
+    "credits_path": "source/id-ID/media-credits-bgk-unit-03.md",
+    "credits_bytes": 666,
+    "credits_sha256": "bc08510f635abba677ac1cc5a18ddb4a3519284e83f1d2f17605989736c9f0a2",
+    "deterministic_resume_replays": 3,
+    "all_replay_hashes_identical": true
+  },
+  "source_anomalies_requiring_visible_treatment": [
+    {
+      "id": "AGC-BGK-U03-SRC-001",
+      "source_title": "Prägarbe/Homomorphismus/Definition",
+      "pageid": 100670,
+      "revid": 1091418,
+      "mediawiki_sha1": "25b6caefa95fbc4e3d70e4832d8b145f1ef8e196",
+      "issue": "The naturality square is vertically reversed for U subset V and uses rho_U,V instead of contravariant restrictions rho_V,U.",
+      "required_reader_treatment": "Render the mathematically correct contravariant square and disclose the source correction."
+    },
+    {
+      "id": "AGC-BGK-U03-SRC-002",
+      "source_title": "Prägarbe/Unterprägarbe/Definition",
+      "pageid": 109063,
+      "revid": 1091422,
+      "mediawiki_sha1": "02b66c6c21c80ca97e38baeb45bafdaba70ad814",
+      "issue": "The definition requires only pointwise subset inclusion and omits compatibility with restriction maps.",
+      "required_reader_treatment": "State the restriction-map compatibility explicitly and disclose the clarification."
+    },
+    {
+      "id": "AGC-BGK-U03-SRC-003",
+      "source_title": "Gerichtetes System/Topologischer Filter/Kolimes/Einführung/Textabschnitt",
+      "pageid": 111689,
+      "revid": 1102983,
+      "mediawiki_sha1": "cffff538f143a33b9de57f53f5b38ae8bf35e25b",
+      "issue": "The neighbourhood-filter sentence is grammatically corrupted and incomplete.",
+      "required_reader_treatment": "Translate the contextually determined statement about neighbourhood filters and disclose the reconstruction."
+    },
+    {
+      "id": "AGC-BGK-U03-SRC-004",
+      "source_titles": [
+        "Prägarbe/Homomorphismus/Verknüpfung/Fakt",
+        "Prägarbe/Homomorphismus/Verknüpfung/Fakt/Beweis/Aufgabe"
+      ],
+      "pageids": [100679, 111590],
+      "revids": [1088434, 1083988],
+      "mediawiki_sha1s": [
+        "be8a8bd2ff653f8b100675f6a0c1b7c4146cb732",
+        "77a0ec93f04c8cdf0e03053bf1d79e921f5fa248"
+      ],
+      "issue": "Both surfaces say Prägraben, an evident typo for Prägarben.",
+      "required_reader_treatment": "Use the correct term for presheaves and record the source typo once."
+    },
+    {
+      "id": "AGC-BGK-U03-SRC-005",
+      "source_title": "Mannigfaltigkeit/Tangentialbündel/Halm/Gleich/Aufgabe",
+      "pageid": 111691,
+      "revid": 845017,
+      "mediawiki_sha1": "924f865986857dd9f2a725493b386fd163da405e",
+      "issue": "Exercise 3.15 calls a stalk an object of the tangent bundle rather than of its presheaf of sections.",
+      "required_reader_treatment": "Clarify that the intended object is the stalk of the presheaf of continuous tangent-bundle sections and disclose the clarification."
+    }
+  ],
+  "rights_boundary": {
+    "semantic_course_surface": "CC BY-SA 4.0",
+    "embedded_official_pdf_notice": "CC BY-SA 3.0",
+    "component_media_positions": 0,
+    "blanket_relicensing_claim": false
+  },
+  "scripts": [
+    {
+      "path": "scripts/freeze_brenner_bgk_unit.py",
+      "bytes": 16424,
+      "sha256": "4c20e83e74bce77315af5effa82a35b0cac96ee81b5e408d7180416a11e86355"
+    },
+    {
+      "path": "scripts/freeze_bgk_no_image_unit_rights.py",
+      "bytes": 11639,
+      "sha256": "9acf6f41f173d0382b6004a4c110240f26054c00f5149bbb3872a10c732b82c3"
+    }
+  ],
+  "summary": {
+    "path": "authority/BGK_UNIT_03_AUTHORITY_FREEZE.md",
+    "bytes": 6671,
+    "sha256": "f54b45c2aa7ae0832560e2f97613f128c9a957460f88dd0a3f1b633a6dc42c36"
+  },
+  "next": "translate Unit 3 independently from this authority, preserving all 18 exercises and the single public solution while treating the five frozen source anomalies visibly"
+}

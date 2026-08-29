@@ -1,0 +1,90 @@
+{
+  "schema": "ag-bridge-bgk-unit-authority-qa-v1",
+  "unit": 2,
+  "status": "PASS_TEXT_EXERCISE_SOLUTION_AND_PDF_AUTHORITY",
+  "course": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+  "manifest": {
+    "path": "authority/wikiversity-bgk/unit-02/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 106216,
+    "sha256": "a348b56811fe98266feff9108a21a436a9b8f07a343321feab7d9fbb3b75e64d",
+    "second_resume_replay_sha256": "a348b56811fe98266feff9108a21a436a9b8f07a343321feab7d9fbb3b75e64d",
+    "deterministic_resume_replay": true
+  },
+  "lecture": {
+    "pageid": 109004,
+    "revid": 1019972,
+    "timestamp": "2025-08-09T13:35:26Z",
+    "mediawiki_sha1": "d666b90510ef490f9a1d545df6394ebc55d5dcc5",
+    "transclusions_requested": 116,
+    "transclusions_captured": 116,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 20219,
+    "expanded_tex_sha256": "ae973e45a0aa3228ac31a61dd71b995d7872bfaaf8adca164bd97bd045f000b3"
+  },
+  "worksheet": {
+    "pageid": 109933,
+    "revid": 602852,
+    "timestamp": "2019-11-07T19:47:37Z",
+    "mediawiki_sha1": "2b4d2f17b77698aee7b936476560869c442ab30f",
+    "transclusions_requested": 113,
+    "transclusions_captured": 113,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 13510,
+    "expanded_tex_sha256": "6aaed409db9e572b53def3dd35c3b9a5cb6d4467d8d5c3a4360ac6b24d78ccdd"
+  },
+  "exercise_solution_closure": {
+    "ordered_exercises": 27,
+    "public_solutions": 1,
+    "negative_solution_candidates": 26,
+    "public_solution_exercise": 4,
+    "ordered_map_sha256": "4e0633e8c35ea5a2fddd0b63a0bb67fdd6af93f11a55f3a2eae10eae0d25a10a",
+    "candidate_evidence_sha256": "5051d800bed72fe432757012033319ca30c14503254f16d0d385f9a0a3c82ad2",
+    "solution_pageid": 77727,
+    "solution_revid": 1096699,
+    "solution_mediawiki_sha1": "64a726dc965e322b03e5eb0797f109cb45ab5125",
+    "solution_xml_sha256": "6f326a59a4289d17ac6aee485706faa81d641d994ddda72bd463053eec4b71b1",
+    "solution_html_sha256": "8cf7b19c9693b1817e5699b32703545716fb35dfa713b9f6129758dbe0bf0e7f"
+  },
+  "official_pdfs": [
+    {
+      "kind": "lecture",
+      "pages_poppler": 9,
+      "bytes": 421840,
+      "sha256": "b898d226f1b680d4fe08873402847c9580d05aca8ca430ea8e6cca466cbbc391"
+    },
+    {
+      "kind": "worksheet",
+      "pages_poppler": 7,
+      "bytes": 62885,
+      "sha256": "afb4cdbe2c089d7d26ba66be112a2222b84e0e1e5f862960a3707fb20708f6b2"
+    }
+  ],
+  "visual_pdf_review": {
+    "renderer": "Poppler pdftoppm",
+    "lecture_pages_reviewed": [1, 9],
+    "worksheet_pages_reviewed": [1, 7],
+    "titles_numbering_formulas_exercises_and_rights_pages_legible": true
+  },
+  "parse_images": {
+    "unique_names": 5,
+    "official_pdf_witnesses": 2,
+    "substantive_reader_media_pending_separate_closure": 3,
+    "substantive_names": [
+      "Hairy_ball_one_pole.jpg",
+      "Inclusion-exclusion.svg",
+      "Fiddler_crab_mobius_strip.gif"
+    ]
+  },
+  "rights_boundary": {
+    "semantic_course_surface": "CC BY-SA 4.0",
+    "embedded_official_pdf_notice": "CC BY-SA 3.0",
+    "component_media_rights": "separate closure required before reader admission",
+    "blanket_relicensing_claim": false
+  },
+  "summary": {
+    "path": "authority/BGK_UNIT_02_AUTHORITY_FREEZE.md",
+    "bytes": 3421,
+    "sha256": "f0942526a7e9669aa918820a587c82ee10e81de8a0622e583a66520ada606f4b"
+  },
+  "next": "complete substantive media rights and translate all 27 exercises plus the single frozen public solution"
+}

@@ -40,17 +40,47 @@ view.
 
 The current verified public boundary is the complete 30-unit classical volume,
 described in the final paragraphs of this section; earlier boundary paragraphs
-are retained only as historical provenance. The remaining production corpus is
-exactly 30 BGK units / 265 official-source pages, followed by the finite
+are retained only as historical provenance. The current local production
+boundary is BGK Units 1--3, and the remaining source corpus is exactly BGK
+Units 4--30 / 27 units / 215 official-PDF pages, followed by the finite
 original layer. No split or second counting of the 19-unit learner route is
-planned. BGK authority has not yet been frozen inside this lane: the admitted
-course root is `Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)`,
-observed revision 1052895, and the recorded official PDF witness is 265 pages,
-2,104,862 bytes, SHA-256
-`87655cf7e96dc0eaa185ca49a374dc9e25f4b739670495f423279aa332fce66c`.
-The next action is to parameterize the classical freezer into a disjoint BGK
-authority namespace, freeze the root and Unit 1 closure, verify that PDF witness
-locally, and then translate BGK Unit 1.
+planned. The complete BGK course root is frozen at
+revision 1052895 with exactly 30 lectures, 30 worksheets, and its 265-page,
+2,104,862-byte official PDF witness (SHA-256
+`87655cf7e96dc0eaa185ca49a374dc9e25f4b739670495f423279aa332fce66c`).
+BGK Units 1--3 are completely frozen, translated, typeset, visually and
+responsively verified, and exported to an isolated cumulative native backend.
+They preserve all 62 exercises, exactly the two public solutions to Exercises
+2.4 and 3.1, zero invented solutions, 147 cumulative source-heading IDs, all
+five backend asset records, and all component rights. Unit 3's five visible
+source treatments are ledgered as `AGC-CORR-0149`--`AGC-CORR-0153`; original
+forms remain available in notes and authority files. The deterministic reader
+is a self-contained 2,847,349-byte semantic MathML HTML file (SHA-256
+`2cb348ee10366628742e12847a46d51ba9d58adeaa65187b067ce929ab2ca623`)
+and a 50-page A4 PDF (623,876 bytes; SHA-256
+`01655c8ddb8056e03b06f09319f6f73b07daf55e709b2fffb6b83b7cf2a96800`).
+All-page dual visual inspection, embedded fonts, centered desktop main region,
+mobile reflow, local scrolling for 23 wide formulas, internal anchors, image
+alternatives, animation preservation, landmarks, and deterministic replay
+pass. The native backend has 2,370 records: all 1,556 Units 1--2 rows remain
+an exact byte prefix and Unit 3 adds 814 rows, with schema, closure, reverse
+projection, exact provenance, and zero collisions against the 22,752 classical
+IDs. The additive common adapter validates 5,692 records, 927 strict profiles,
+17 witnesses, and 13,428 foreign keys and reverses exactly to the native bytes.
+Exact identities and commands are in
+`00_control/BGK_UNIT_01_WORKLOG.md`,
+`00_control/BGK_UNIT_02_WORKLOG.md`,
+`00_control/BGK_UNIT_03_WORKLOG.md`, and the matching BGK authority,
+translation, reader, backend, and common-adapter receipts. The nine-file
+reader-first package (6,142,953 bytes) passed deterministic double replay and
+an independent 144-check binding audit. Zenodo record 22160883 / DOI
+`10.5281/zenodo.22160883` now preserves all eight prior classical files and ten
+new BGK files; anonymous readback matched all 18 public files. The validated
+BGK migration receipt is 6,949 bytes, SHA-256
+`337101c42abfda58f763a0662c4db4ec9bde509cbcc2cdfb833b2bc87966228a`.
+The exact next action is to publish the identical checkpoint in the existing
+GitHub lineage, verify release/raw/Pages bytes anonymously, and then close the
+already frozen Unit 4 authority and rights replay before translating Unit 4.
 
 Units 1–18 were the earlier verified and published cumulative reader: 18 lectures, 18
 worksheets, 513 exercises, all 90 frozen public source solutions, 74 media
@@ -214,7 +244,16 @@ and Pages. Anonymous readback matched all eight release assets, fixed-commit
 HTML/PDF plus metadata, and live Pages HTML/PDF; receipt
 `qa/UNIT_30_GITHUB_PUBLICATION.json` is 8,634 bytes, SHA-256
 `0e1374c3ef7bafc94430018b29d525c0e84fb5b3f1fe885fb4ac3212a8d3e12e`.
-The exact next executable action is to freeze and translate BGK Unit 1.
+The BGK Units 1--3 checkpoint is public in the same Zenodo concept as record
+22160883 / DOI `10.5281/zenodo.22160883`. Receipt
+`qa/BGK_UNITS_01_03_ZENODO_PUBLICATION.json` is 6,123 bytes, SHA-256
+`bdba910e1fda2c3f02d32d1addebf98facc5b36d8e09a6fac17e028c7bc8ca2a`,
+and proves anonymous byte equality for eight inherited classical files plus
+ten new BGK files. The exact next executable action is to publish and
+anonymously read back the identical GitHub release and Pages surfaces, then
+close Unit 4 authority/rights reproducibility and translate it in source order.
+Units 4--30 / 27 source units / 215 official-PDF pages remain, followed only
+by the finite original layer.
 
 ## Finite workflow
 

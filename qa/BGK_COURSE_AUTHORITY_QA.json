@@ -1,0 +1,62 @@
+{
+  "schema": "ag-bridge-bgk-course-authority-qa-v1",
+  "status": "PASS",
+  "verified_date": "2026-08-28",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "course": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+    "pageid": 108997,
+    "revid": 1052895,
+    "mediawiki_sha1": "e881e7c53531765849865454d4d0c643c2066c6d",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1052895"
+  },
+  "surface": {
+    "lectures_expected": 30,
+    "lectures_captured": 30,
+    "worksheets_expected": 30,
+    "worksheets_captured": 30,
+    "distinct_source_units": 30,
+    "learner_route_is_non_additive_view": true
+  },
+  "official_pdf": {
+    "path": "authority/artifacts/bgk-course-official.pdf",
+    "bytes": 2104862,
+    "pages": 265,
+    "page_size_points": "612 x 792",
+    "sha256": "87655cf7e96dc0eaa185ca49a374dc9e25f4b739670495f423279aa332fce66c",
+    "mediawiki_sha1": "23a5fff126d0f01bf560f9227ed6a3e4973c5a97",
+    "pypdf_page_count_match": true,
+    "poppler_page_count_match": true,
+    "visual_pages_checked": [1, 133, 265],
+    "visual_result": "PASS"
+  },
+  "rights": {
+    "semantic_course_text": "CC BY-SA 4.0",
+    "commons_pdf_metadata": "CC BY-SA 4.0",
+    "embedded_pdf_page_265_notice": "CC BY-SA 3.0",
+    "resolution": "preserve both component notices; no blanket relicensing claim",
+    "unit_media_rights_still_require_per-component_freeze": true
+  },
+  "bound_artifacts": {
+    "manifest": {
+      "path": "authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+      "bytes": 34279,
+      "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8"
+    },
+    "freezer": {
+      "path": "scripts/freeze_bgk_course_root.py",
+      "bytes": 9939,
+      "sha256": "c6c0c67657bf646be8db02ef8b5a39813793f78c3edee1794d889d470a51f37c"
+    }
+  },
+  "checks": {
+    "root_identity": "PASS",
+    "thirty_lecture_thirty_worksheet_closure": "PASS",
+    "official_pdf_identity": "PASS",
+    "pdf_visual_witness": "PASS",
+    "deterministic_double_replay_manifest_sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8",
+    "rights_discrepancy_disclosed": "PASS",
+    "classical_authority_namespace_untouched": true
+  },
+  "next_executable_action": "freeze BGK Unit 1 into authority/wikiversity-bgk/unit-01 and then translate it"
+}

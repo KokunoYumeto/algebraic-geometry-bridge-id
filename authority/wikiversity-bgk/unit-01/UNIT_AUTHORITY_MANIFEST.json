@@ -1,0 +1,2711 @@
+{
+  "schema": "brenner-bgk-unit-authority-freeze-v1",
+  "frozen_utc": "2026-08-28T21:01:19.412745+00:00",
+  "unit_number": 1,
+  "source_identity": {
+    "project": "German Wikiversity",
+    "course_title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+    "source_namespace_label": "Kurs",
+    "captured_namespace_ids": {
+      "lecture": 106,
+      "worksheet": 106,
+      "lecture_latex": 106,
+      "worksheet_latex": 106
+    },
+    "source_api": "https://de.wikiversity.org/w/api.php",
+    "lecture_title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 1",
+    "worksheet_title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt 1"
+  },
+  "storage_identity": {
+    "authority_namespace": "authority/wikiversity-bgk",
+    "unit_directory": "authority/wikiversity-bgk/unit-01",
+    "artifact_prefix": "bgk"
+  },
+  "source_api": "https://de.wikiversity.org/w/api.php",
+  "lecture": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 1",
+    "pageid": 109003,
+    "revid": 1069568,
+    "parentid": 793601,
+    "timestamp": "2026-02-06T07:06:14Z",
+    "mediawiki_sha1": "6e619f166a640629f33e73ac518faff6daff2810",
+    "wikitext_bytes": 2136,
+    "api_file": "lecture-01-api.json",
+    "api_bytes": 2554,
+    "api_sha256": "96fcd336d5518a0a0bed9e041670dc9dc5de6e712a44313bfaddc935a7570bdb",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1069568",
+    "xml_file": "lecture-01.xml",
+    "xml_bytes": 5329,
+    "xml_sha256": "68d7783afc1c1353c3298638f150095dad79c2424c356bc09bc50c023ab86392",
+    "html_file": "lecture-01.html",
+    "html_bytes": 150565,
+    "html_sha256": "9bf8fcc4e7cf783da1f450c1529e9e2bdfe26fde87c30efde9d4fbc7e21031b3",
+    "html_source": "reused_frozen_file",
+    "parse_api_file": "lecture-01-parse-api.json",
+    "parse_api_bytes": 16460,
+    "parse_api_sha256": "27dc45bd62ed184097ef94c107784be5de961d1fd1d7722d6f668503821e86a1",
+    "template_count": 125,
+    "image_count": 3,
+    "link_count": 46,
+    "external_link_count": 0
+  },
+  "worksheet": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt 1",
+    "pageid": 110204,
+    "revid": 1069465,
+    "parentid": 991888,
+    "timestamp": "2026-02-05T20:48:01Z",
+    "mediawiki_sha1": "a2c9deb62e10eb9942aac56cde2e33aed04823fd",
+    "wikitext_bytes": 2213,
+    "api_file": "worksheet-01-api.json",
+    "api_bytes": 2735,
+    "api_sha256": "f3f36c3962dbde96dd983181695399d79b3d43d4b88966e7a7978249631318b7",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1069465",
+    "xml_file": "worksheet-01.xml",
+    "xml_bytes": 5366,
+    "xml_sha256": "95e392e04115c0dcfc94eebc28bfdbdbdfc1cda3c46d6f008d7d1324b3e81095",
+    "html_file": "worksheet-01.html",
+    "html_bytes": 51374,
+    "html_sha256": "9a5da5ca3e5f042c6b24664c74f95a06bde30491f4c923cea792e34b3b5ed747",
+    "html_source": "reused_frozen_file",
+    "parse_api_file": "worksheet-01-parse-api.json",
+    "parse_api_bytes": 14505,
+    "parse_api_sha256": "ca7b324edf33bd247788a120aa0a1affe612bb9e040375a4015e78a20265ff30",
+    "template_count": 92,
+    "image_count": 2,
+    "link_count": 47,
+    "external_link_count": 0
+  },
+  "lecture_latex_page": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 1/latex",
+    "pageid": 110010,
+    "revid": 807047,
+    "parentid": 799278,
+    "timestamp": "2022-09-18T09:47:29Z",
+    "mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "wikitext_bytes": 9,
+    "api_file": "lecture-01-latex-page-api.json",
+    "api_bytes": 388,
+    "api_sha256": "287c70e667c61eabaf719d5626ecec09c78a717324b4576cc8597fdc404dbe47",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=807047",
+    "xml_file": "lecture-01-latex-page.xml",
+    "xml_bytes": 3203,
+    "xml_sha256": "cc781515e325fd747ba38ef6c94fdf1a2e41796592be6653b5e20a9c9f1e4826",
+    "html_file": "lecture-01-latex-page.html",
+    "html_bytes": 39868,
+    "html_sha256": "79da54278bc83cef427f77ccaf48b59695a3f4725824b034c20af261e934c795",
+    "html_source": "reused_frozen_file"
+  },
+  "worksheet_latex_page": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt 1/latex",
+    "pageid": 117156,
+    "revid": 807017,
+    "parentid": 799248,
+    "timestamp": "2022-09-18T09:38:19Z",
+    "mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "wikitext_bytes": 9,
+    "api_file": "worksheet-01-latex-page-api.json",
+    "api_bytes": 391,
+    "api_sha256": "5ac0660c4656360c9da1114c9762d48afcb8ef0c078ec8a2ae3ff25456ca85c7",
+    "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=807017",
+    "xml_file": "worksheet-01-latex-page.xml",
+    "xml_bytes": 3206,
+    "xml_sha256": "0660951cb841168c72729b14071a2edbf08db93e75854b97eae3c03dbc517ec7",
+    "html_file": "worksheet-01-latex-page.html",
+    "html_bytes": 12259,
+    "html_sha256": "10e353d835f2b3319721213c9d9790d0376511131e1532329fa16d610598a9ca",
+    "html_source": "reused_frozen_file"
+  },
+  "derived_expanded_tex": [
+    {
+      "file": "lecture-01-expanded.tex",
+      "bytes": 32790,
+      "sha256": "7b22065d36d75d01385aabd97edd6e5416f817e1ebf96af9543023242135c77d"
+    },
+    {
+      "file": "worksheet-01-expanded.tex",
+      "bytes": 8269,
+      "sha256": "566b4211d5b25be90256a24567f0c448a6cc9fe23aec74c4fde8c6922cba2d97"
+    }
+  ],
+  "lecture_transclusion_closure": {
+    "requested_template_count": 125,
+    "captured_page_count": 125,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "lecture-01-transclusions-01.json",
+        "bytes": 39906,
+        "sha256": "7e3f461382d2b60f87554b0bc392b82eb052a4220a9ba32952a22e60243a9689",
+        "requested_titles": [
+          "Differenzierbare Mannigfaltigkeit/Karte/Tangentialbündel/Naheliegende Topologie/Beispiel",
+          "Differenzierbare Mannigfaltigkeit/Tangentialbündel/Definition",
+          "Differenzierbare Mannigfaltigkeit/Tangentialbündel/Mit Topologie/Definition",
+          "Differenzierbare Mannigfaltigkeit/Tangentialbündel/Tangentialabbildung/Definition",
+          "Kurs:Analysis (Osnabrück 2014-2016)/Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt/Faktreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt/Faktreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/K^3/Kreuzprodukt/Eigenschaften/Fakt/Faktreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel/Beispielreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Satz vom Igel/Bemerkung/Bemerkungreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Sphäre/Satz vom Igel/Fakt/Faktreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung/Fuß",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesungsgestaltung",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+          "Kurs:Lineare Algebra (Osnabrück 2024-2025)/K^3/Kreuzprodukt/Eigenschaften/Fakt/Faktreferenznummer",
+          "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel",
+          "Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel",
+          "Lineares Gleichungssystem/Parameter/Vektorbündel/Textabschnitt",
+          "Mannigfaltigkeit/Tangentialbündel/Beispiel für reelle Vektorbündel/Einführung/Textabschnitt",
+          "MDLUL/Basis (vr)",
+          "MDLUL/Determinante",
+          "MDLUL/differenzierbare Abbildung (Mannigfaltigkeit)",
+          "MDLUL/differenzierbare Mannigfaltigkeit",
+          "MDLUL/differenzierbare Mannigfaltigkeiten",
+          "MDLUL/Dimension (Mfk)"
+        ]
+      },
+      {
+        "file": "lecture-01-transclusions-02.json",
+        "bytes": 9620,
+        "sha256": "5f6f7f8165997ce53d822de59afd04588fb551b16de2e2df43a5c934cd0adda9",
+        "requested_titles": [
+          "MDLUL/dimensionaler (vr)",
+          "MDLUL/Einschränkung",
+          "MDLUL/euklidische Topologie",
+          "MDLUL/euklidischen Topologie",
+          "MDLUL/Faser",
+          "MDLUL/Hausdorff-Eigenschaft",
+          "MDLUL/Homomorphismus von Vektorbündeln",
+          "MDLUL/Homöomorphismen",
+          "MDLUL/Isomorphismus",
+          "MDLUL/Karte",
+          "MDLUL/Kreuzprodukt",
+          "MDLUL/linear",
+          "MDLUL/lineare Gleichung",
+          "MDLUL/linearen Isomorphismus",
+          "MDLUL/linearer Isomorphismus",
+          "MDLUL/offen (metrisch)",
+          "MDLUL/offene Menge",
+          "MDLUL/offene Überdeckung",
+          "MDLUL/offenen Menge",
+          "MDLUL/Produkt von topologischen Räumen",
+          "MDLUL/Produkttopologie",
+          "MDLUL/reelle Vektorbündel",
+          "MDLUL/reellen Intervall",
+          "MDLUL/reeller Vektorraum",
+          "MDLUL/reelles Intervall"
+        ]
+      },
+      {
+        "file": "lecture-01-transclusions-03.json",
+        "bytes": 21876,
+        "sha256": "2820b78b9963cfa1eb4e679ca8cb413014d7c808fd9721ad55b7e9a05833c889",
+        "requested_titles": [
+          "MDLUL/reelles Vektorbündel",
+          "MDLUL/stetige Abbildung",
+          "MDLUL/stetigen Abbildung",
+          "MDLUL/Tangentialabbildungen (Punkt)",
+          "MDLUL/Tangentialbündel",
+          "MDLUL/Tangentialraum",
+          "MDLUL/Topologie",
+          "MDLUL/topologischen Raum",
+          "MDLUL/topologischer Raum",
+          "Topologischer Raum/Reelle Vektorbündel/Homomorphismus/Definition",
+          "Topologischer Raum/Reelle Vektorbündel/Isomorphismus/Definition",
+          "Topologischer Raum/Reelles Vektorbündel/Definition",
+          "Topologischer Raum/Reelles Vektorbündel/Einführung/Textabschnitt",
+          "Topologischer Raum/Reelles Vektorbündel/Einschränkung/Fakt",
+          "Topologischer Raum/Reelles Vektorbündel/Einschränkung/Fakt/Beweis",
+          "Vorlage:=",
+          "Vorlage:Abbildung",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Analysis/Standardkurs2",
+          "Vorlage:Anführung",
+          "Vorlage:Beispiellink",
+          "Vorlage:Bemerkungslink"
+        ]
+      },
+      {
+        "file": "lecture-01-transclusions-04.json",
+        "bytes": 68044,
+        "sha256": "70f91c1805ce90d496b2848b7140737fa4f41871f89093acf233cc5640c24729",
+        "requested_titles": [
+          "Vorlage:Beweisstruktur",
+          "Vorlage:CC",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Definitionswort",
+          "Vorlage:Drucktrenn",
+          "Vorlage:Einrückung",
+          "Vorlage:Faktlink",
+          "Vorlage:Faktstruktur",
+          "Vorlage:ImageNoteControl",
+          "Vorlage:Inputbeispiel",
+          "Vorlage:Inputbild",
+          "Vorlage:Inputdefinition",
+          "Vorlage:Inputfaktbeweis",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Kommutatives Dreieck/ru",
+          "Vorlage:Lineare Algebra/Standardkurs",
+          "Vorlage:Makl",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Beispiel",
+          "Vorlage:Mathematischer Text/Beweis",
+          "Vorlage:Mathematischer Text/Definition",
+          "Vorlage:Mathematischer Text/Fakt"
+        ]
+      },
+      {
+        "file": "lecture-01-transclusions-05.json",
+        "bytes": 33205,
+        "sha256": "a7894b57cc79a34437bf50943df233de390473d707bf005fc2e1add8cd6ed10e",
+        "requested_titles": [
+          "Vorlage:Mathematischer Textabschnitt",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathkor/display",
+          "Vorlage:Mathl",
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Mengebed",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Bruch",
+          "Vorlage:Op:Matrix33",
+          "Vorlage:Op:Spaltenvektor",
+          "Vorlage:Op:Zeilentupel",
+          "Vorlage:Op:Zeilenvektor",
+          "Vorlage:Qed",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Relationskette/k",
+          "Vorlage:Stichwort",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+          "Vorlage:Verschlagworte:Stichwort",
+          "Vorlage:Zusatz/Klammer",
+          "Vorlage:Zwischenüberschrift",
+          "Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Differenzierbare Mannigfaltigkeit/Karte/Tangentialbündel/Naheliegende Topologie/Beispiel",
+        "pageid": 39840,
+        "revid": 1035260,
+        "parentid": 1024505,
+        "timestamp": "2025-08-11T20:23:58Z",
+        "mediawiki_sha1": "7c468e74ed7485be21808c9aa71749ae717895d8",
+        "wikitext_bytes": 1730
+      },
+      {
+        "title": "Differenzierbare Mannigfaltigkeit/Tangentialbündel/Definition",
+        "pageid": 37742,
+        "revid": 974819,
+        "parentid": 961931,
+        "timestamp": "2025-01-20T21:59:28Z",
+        "mediawiki_sha1": "b80cfc6075efd47c1e1f359bada4d391818bd4ec",
+        "wikitext_bytes": 644
+      },
+      {
+        "title": "Differenzierbare Mannigfaltigkeit/Tangentialbündel/Mit Topologie/Definition",
+        "pageid": 39838,
+        "revid": 1035957,
+        "parentid": 1026445,
+        "timestamp": "2025-08-11T22:20:06Z",
+        "mediawiki_sha1": "2257507f8217af041cc18c0bf402aecfd477f375",
+        "wikitext_bytes": 1235
+      },
+      {
+        "title": "Differenzierbare Mannigfaltigkeit/Tangentialbündel/Tangentialabbildung/Definition",
+        "pageid": 37750,
+        "revid": 1035962,
+        "parentid": 974829,
+        "timestamp": "2025-08-11T22:20:56Z",
+        "mediawiki_sha1": "df215f32a7e79f488de1aad0931b76707e906402",
+        "wikitext_bytes": 1015
+      },
+      {
+        "title": "Kurs:Analysis (Osnabrück 2014-2016)/Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt/Faktreferenznummer",
+        "pageid": 76051,
+        "revid": 433599,
+        "parentid": 0,
+        "timestamp": "2015-09-01T09:58:06Z",
+        "mediawiki_sha1": "d52764acc795c4d8460a99ceba3a5d51c2b31753",
+        "wikitext_bytes": 46
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt/Faktreferenznummer",
+        "pageid": 109556,
+        "revid": 713977,
+        "parentid": 596666,
+        "timestamp": "2021-12-04T11:01:28Z",
+        "mediawiki_sha1": "5b37225a7c9f3428e2fce2f9ee2fafa91e3b2f18",
+        "wikitext_bytes": 68
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/K^3/Kreuzprodukt/Eigenschaften/Fakt/Faktreferenznummer",
+        "pageid": 109305,
+        "revid": 596039,
+        "parentid": 0,
+        "timestamp": "2019-08-01T21:10:22Z",
+        "mediawiki_sha1": "b9c3e7fcdfa0dc306ec6a7c57f97df0a7c08e414",
+        "wikitext_bytes": 74
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel/Beispielreferenznummer",
+        "pageid": 111533,
+        "revid": 601724,
+        "parentid": 0,
+        "timestamp": "2019-10-28T15:06:23Z",
+        "mediawiki_sha1": "7af800e70c74ef53618205f214879cd57e738a63",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Satz vom Igel/Bemerkung/Bemerkungreferenznummer",
+        "pageid": 116489,
+        "revid": 619786,
+        "parentid": 0,
+        "timestamp": "2020-02-18T10:21:40Z",
+        "mediawiki_sha1": "aaf6008b69091ffff40af5fc59c9d281fcbfafaa",
+        "wikitext_bytes": 49
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+        "pageid": 111532,
+        "revid": 601723,
+        "parentid": 0,
+        "timestamp": "2019-10-28T15:06:13Z",
+        "mediawiki_sha1": "64c3aaab9f5ace2347e0f9fd09d777bc1f3ca1af",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Sphäre/Satz vom Igel/Fakt/Faktreferenznummer",
+        "pageid": 111633,
+        "revid": 602179,
+        "parentid": 0,
+        "timestamp": "2019-11-01T14:21:40Z",
+        "mediawiki_sha1": "14486cf0e3d216cd0cd3b2dca9b9df2cb326affb",
+        "wikitext_bytes": 44
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung/Fuß",
+        "pageid": 109006,
+        "revid": 658293,
+        "parentid": 595329,
+        "timestamp": "2020-09-24T12:40:46Z",
+        "mediawiki_sha1": "2bd72466e996bba3ffac7e3769ba2e65f9c6ff61",
+        "wikitext_bytes": 1112
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesungsgestaltung",
+        "pageid": 109001,
+        "revid": 658294,
+        "parentid": 595325,
+        "timestamp": "2020-09-24T12:40:48Z",
+        "mediawiki_sha1": "3db403906b35d399a3434f8a446abeec0c8bd2b5",
+        "wikitext_bytes": 432
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+        "pageid": 111529,
+        "revid": 601712,
+        "parentid": 0,
+        "timestamp": "2019-10-28T14:44:29Z",
+        "mediawiki_sha1": "90f9d03064d05fc516b087415c2b98bf6967d1fc",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Lineare Algebra (Osnabrück 2024-2025)/K^3/Kreuzprodukt/Eigenschaften/Fakt/Faktreferenznummer",
+        "pageid": 158881,
+        "revid": 942174,
+        "parentid": 0,
+        "timestamp": "2024-08-27T12:23:15Z",
+        "mediawiki_sha1": "b77ffb4939f008d83ffcce569a056eb19ab5f4c2",
+        "wikitext_bytes": 46
+      },
+      {
+        "title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel",
+        "pageid": 109277,
+        "revid": 1112441,
+        "parentid": 1100038,
+        "timestamp": "2026-08-21T15:05:50Z",
+        "mediawiki_sha1": "65b74ff1f85c9c79fa1e23637df63be58e110e4a",
+        "wikitext_bytes": 8895
+      },
+      {
+        "title": "Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel",
+        "pageid": 109273,
+        "revid": 1085144,
+        "parentid": 1036873,
+        "timestamp": "2026-05-30T07:40:22Z",
+        "mediawiki_sha1": "72c2445ad04cb1f28dd53ae4473c327e347d58b0",
+        "wikitext_bytes": 3387
+      },
+      {
+        "title": "Lineares Gleichungssystem/Parameter/Vektorbündel/Textabschnitt",
+        "pageid": 109272,
+        "revid": 1103135,
+        "parentid": 1092375,
+        "timestamp": "2026-06-17T21:11:36Z",
+        "mediawiki_sha1": "4f155582889e3c39a15a68b0bf8f28af82a1052d",
+        "wikitext_bytes": 4679
+      },
+      {
+        "title": "Mannigfaltigkeit/Tangentialbündel/Beispiel für reelle Vektorbündel/Einführung/Textabschnitt",
+        "pageid": 110242,
+        "revid": 1112787,
+        "parentid": 1109843,
+        "timestamp": "2026-08-21T17:18:47Z",
+        "mediawiki_sha1": "dd5e213213496ffb688c33d695e8e461cb57b7bd",
+        "wikitext_bytes": 5459
+      },
+      {
+        "title": "MDLUL/Basis (vr)",
+        "pageid": 38882,
+        "revid": 415544,
+        "parentid": 235260,
+        "timestamp": "2015-04-02T14:32:24Z",
+        "mediawiki_sha1": "18341e7e2117dd457b50ea9fcfe06fadcd60136f",
+        "wikitext_bytes": 78
+      },
+      {
+        "title": "MDLUL/Determinante",
+        "pageid": 58373,
+        "revid": 341788,
+        "parentid": 341780,
+        "timestamp": "2012-11-30T13:05:36Z",
+        "mediawiki_sha1": "ecaee70fb540efc3b4f7dd3edef6c0d79b750c69",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/differenzierbare Abbildung (Mannigfaltigkeit)",
+        "pageid": 39714,
+        "revid": 237528,
+        "parentid": 237527,
+        "timestamp": "2010-08-31T20:44:38Z",
+        "mediawiki_sha1": "ed1479f91c6b767a1757b8e38ba0b29d2c39c2db",
+        "wikitext_bytes": 157
+      },
+      {
+        "title": "MDLUL/differenzierbare Mannigfaltigkeit",
+        "pageid": 39633,
+        "revid": 237152,
+        "parentid": 0,
+        "timestamp": "2010-08-25T07:56:11Z",
+        "mediawiki_sha1": "6905a65b6bb738009e7e3fb76923c598c7539af8",
+        "wikitext_bytes": 150
+      },
+      {
+        "title": "MDLUL/differenzierbare Mannigfaltigkeiten",
+        "pageid": 39702,
+        "revid": 237515,
+        "parentid": 237514,
+        "timestamp": "2010-08-31T20:30:23Z",
+        "mediawiki_sha1": "9918e9b87a2e4c94b6d25345a3de54551b4c2a4f",
+        "wikitext_bytes": 152
+      },
+      {
+        "title": "MDLUL/Dimension (Mfk)",
+        "pageid": 39634,
+        "revid": 237153,
+        "parentid": 0,
+        "timestamp": "2010-08-25T07:57:12Z",
+        "mediawiki_sha1": "464f67f3e354d4f8c727f728c1ea619f5ff180cb",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/dimensionaler (vr)",
+        "pageid": 39752,
+        "revid": 237587,
+        "parentid": 0,
+        "timestamp": "2010-09-01T10:21:00Z",
+        "mediawiki_sha1": "c84011085e657c157f3f843ea311b2b7bceaea0f",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/Einschränkung",
+        "pageid": 38994,
+        "revid": 235618,
+        "parentid": 0,
+        "timestamp": "2010-08-18T13:16:31Z",
+        "mediawiki_sha1": "5636e0a3754c65743ce99a89baa0cd0a093c762f",
+        "wikitext_bytes": 104
+      },
+      {
+        "title": "MDLUL/euklidische Topologie",
+        "pageid": 109270,
+        "revid": 595896,
+        "parentid": 0,
+        "timestamp": "2019-07-26T07:24:19Z",
+        "mediawiki_sha1": "86729c4522513f0a9c4ac4897d423b7294fd8f16",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "MDLUL/euklidischen Topologie",
+        "pageid": 109269,
+        "revid": 595895,
+        "parentid": 0,
+        "timestamp": "2019-07-26T07:23:16Z",
+        "mediawiki_sha1": "18ec49b79b8c2223aa4664377c9c5f559db47c76",
+        "wikitext_bytes": 104
+      },
+      {
+        "title": "MDLUL/Faser",
+        "pageid": 38445,
+        "revid": 233748,
+        "parentid": 0,
+        "timestamp": "2010-08-12T16:47:22Z",
+        "mediawiki_sha1": "0a4981b287c1385eccbb615c59b9b5cf319099a8",
+        "wikitext_bytes": 72
+      },
+      {
+        "title": "MDLUL/Hausdorff-Eigenschaft",
+        "pageid": 39721,
+        "revid": 237538,
+        "parentid": 0,
+        "timestamp": "2010-08-31T20:59:28Z",
+        "mediawiki_sha1": "e0715abe21e567e30c8117baaeec7e1ce1f04ed7",
+        "wikitext_bytes": 101
+      },
+      {
+        "title": "MDLUL/Homomorphismus von Vektorbündeln",
+        "pageid": 110006,
+        "revid": 597537,
+        "parentid": 0,
+        "timestamp": "2019-08-23T14:32:01Z",
+        "mediawiki_sha1": "9d0183827a41cc5329a56a4008408632462537a0",
+        "wikitext_bytes": 148
+      },
+      {
+        "title": "MDLUL/Homöomorphismen",
+        "pageid": 40223,
+        "revid": 239946,
+        "parentid": 0,
+        "timestamp": "2010-10-01T10:14:22Z",
+        "mediawiki_sha1": "3e9afa46adef76e2589855aa91c501eeaa4fb82d",
+        "wikitext_bytes": 99
+      },
+      {
+        "title": "MDLUL/Isomorphismus",
+        "pageid": 39751,
+        "revid": 237586,
+        "parentid": 0,
+        "timestamp": "2010-09-01T10:19:56Z",
+        "mediawiki_sha1": "60705146eca36c697b6b58e1364e870ad9034b77",
+        "wikitext_bytes": 104
+      },
+      {
+        "title": "MDLUL/Karte",
+        "pageid": 39626,
+        "revid": 237145,
+        "parentid": 0,
+        "timestamp": "2010-08-25T07:45:16Z",
+        "mediawiki_sha1": "e2ff6a9b3b74b2d9abc5866c4567f858128454cf",
+        "wikitext_bytes": 92
+      },
+      {
+        "title": "MDLUL/Kreuzprodukt",
+        "pageid": 76129,
+        "revid": 433702,
+        "parentid": 0,
+        "timestamp": "2015-09-01T18:48:06Z",
+        "mediawiki_sha1": "7fca9e29c578553c122a7d7d07054592cb5ae209",
+        "wikitext_bytes": 96
+      },
+      {
+        "title": "MDLUL/linear",
+        "pageid": 38368,
+        "revid": 233307,
+        "parentid": 0,
+        "timestamp": "2010-08-11T13:00:56Z",
+        "mediawiki_sha1": "13cf6e303e9be7a71414dd3955e1716fa82ea242",
+        "wikitext_bytes": 83
+      },
+      {
+        "title": "MDLUL/lineare Gleichung",
+        "pageid": 54133,
+        "revid": 320766,
+        "parentid": 0,
+        "timestamp": "2012-07-06T15:48:20Z",
+        "mediawiki_sha1": "f8f08523830e80116c1ef881ed99221c942936d0",
+        "wikitext_bytes": 149
+      },
+      {
+        "title": "MDLUL/linearen Isomorphismus",
+        "pageid": 109261,
+        "revid": 595885,
+        "parentid": 0,
+        "timestamp": "2019-07-26T07:03:39Z",
+        "mediawiki_sha1": "a12d895671d7c1f0d5fa0bb302eeb6498800da99",
+        "wikitext_bytes": 105
+      },
+      {
+        "title": "MDLUL/linearer Isomorphismus",
+        "pageid": 45953,
+        "revid": 267589,
+        "parentid": 0,
+        "timestamp": "2011-06-07T16:39:50Z",
+        "mediawiki_sha1": "1cec93c8b34217117ac2c28ef6c525ea4112accb",
+        "wikitext_bytes": 122
+      },
+      {
+        "title": "MDLUL/offen (metrisch)",
+        "pageid": 40229,
+        "revid": 239952,
+        "parentid": 0,
+        "timestamp": "2010-10-01T10:29:13Z",
+        "mediawiki_sha1": "92bbe9f0418e71d499a3112d43c6845abdb6acbc",
+        "wikitext_bytes": 104
+      },
+      {
+        "title": "MDLUL/offene Menge",
+        "pageid": 39063,
+        "revid": 531413,
+        "parentid": 235749,
+        "timestamp": "2017-11-30T11:33:20Z",
+        "mediawiki_sha1": "462d94d9e6716d6aa0c9e1bda57b6f9848cc3d01",
+        "wikitext_bytes": 92
+      },
+      {
+        "title": "MDLUL/offene Überdeckung",
+        "pageid": 41295,
+        "revid": 243139,
+        "parentid": 0,
+        "timestamp": "2010-10-30T14:57:50Z",
+        "mediawiki_sha1": "8325524162b7311fe9d44bea642a8105349d826f",
+        "wikitext_bytes": 109
+      },
+      {
+        "title": "MDLUL/offenen Menge",
+        "pageid": 39113,
+        "revid": 726695,
+        "parentid": 235852,
+        "timestamp": "2022-02-09T13:38:49Z",
+        "mediawiki_sha1": "f7f37ae305c8686403962c541ff8eac99402afd3",
+        "wikitext_bytes": 86
+      },
+      {
+        "title": "MDLUL/Produkt von topologischen Räumen",
+        "pageid": 40231,
+        "revid": 239954,
+        "parentid": 0,
+        "timestamp": "2010-10-01T10:33:17Z",
+        "mediawiki_sha1": "a0787bd0badb59bb4449ebd0975b7602d1b6bca1",
+        "wikitext_bytes": 135
+      },
+      {
+        "title": "MDLUL/Produkttopologie",
+        "pageid": 41020,
+        "revid": 241903,
+        "parentid": 0,
+        "timestamp": "2010-10-22T09:25:44Z",
+        "mediawiki_sha1": "4254418ccf78265bd55df7523fab386187feb116",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/reelle Vektorbündel",
+        "pageid": 109976,
+        "revid": 597496,
+        "parentid": 0,
+        "timestamp": "2019-08-23T11:55:33Z",
+        "mediawiki_sha1": "3f2d06c6de958ffb9c91a4a33d84bafe3a888a15",
+        "wikitext_bytes": 102
+      },
+      {
+        "title": "MDLUL/reellen Intervall",
+        "pageid": 40230,
+        "revid": 276876,
+        "parentid": 239953,
+        "timestamp": "2011-08-27T14:45:56Z",
+        "mediawiki_sha1": "87eb8c93efd57477be2b0422d73efae0b78f7590",
+        "wikitext_bytes": 95
+      },
+      {
+        "title": "MDLUL/reeller Vektorraum",
+        "pageid": 54507,
+        "revid": 323605,
+        "parentid": 0,
+        "timestamp": "2012-07-22T13:37:16Z",
+        "mediawiki_sha1": "847a1f634135d6887ddb80fb9653aa3bf3ec9123",
+        "wikitext_bytes": 89
+      },
+      {
+        "title": "MDLUL/reelles Intervall",
+        "pageid": 38950,
+        "revid": 276874,
+        "parentid": 235555,
+        "timestamp": "2011-08-27T14:42:45Z",
+        "mediawiki_sha1": "1cdf09e68601d5b48bd8da85cba8312be25274a5",
+        "wikitext_bytes": 106
+      },
+      {
+        "title": "MDLUL/reelles Vektorbündel",
+        "pageid": 109268,
+        "revid": 595894,
+        "parentid": 0,
+        "timestamp": "2019-07-26T07:22:48Z",
+        "mediawiki_sha1": "c964aba832c86325d54aa615f782c3e977e6cd8c",
+        "wikitext_bytes": 122
+      },
+      {
+        "title": "MDLUL/stetige Abbildung",
+        "pageid": 38911,
+        "revid": 235467,
+        "parentid": 0,
+        "timestamp": "2010-08-18T07:04:06Z",
+        "mediawiki_sha1": "f8ab2a5d9cac1ca2387e9e65238114b898ef00fd",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "MDLUL/stetigen Abbildung",
+        "pageid": 39603,
+        "revid": 237113,
+        "parentid": 0,
+        "timestamp": "2010-08-25T06:39:55Z",
+        "mediawiki_sha1": "f546cd176945957fd8c431f21544294ce3126645",
+        "wikitext_bytes": 122
+      },
+      {
+        "title": "MDLUL/Tangentialabbildungen (Punkt)",
+        "pageid": 39725,
+        "revid": 237547,
+        "parentid": 0,
+        "timestamp": "2010-09-01T08:44:07Z",
+        "mediawiki_sha1": "6b0a26be5e6b52ceb8f71ff70d6a2c3047ad0b89",
+        "wikitext_bytes": 136
+      },
+      {
+        "title": "MDLUL/Tangentialbündel",
+        "pageid": 39724,
+        "revid": 237973,
+        "parentid": 237546,
+        "timestamp": "2010-09-11T13:21:12Z",
+        "mediawiki_sha1": "809326bc174462083a98b711edc91a43f8e17ddf",
+        "wikitext_bytes": 134
+      },
+      {
+        "title": "MDLUL/Tangentialraum",
+        "pageid": 39720,
+        "revid": 237537,
+        "parentid": 0,
+        "timestamp": "2010-08-31T20:57:07Z",
+        "mediawiki_sha1": "20eb59fff1057cee84fe9b0ba907e48782beddc7",
+        "wikitext_bytes": 137
+      },
+      {
+        "title": "MDLUL/Topologie",
+        "pageid": 39723,
+        "revid": 237545,
+        "parentid": 0,
+        "timestamp": "2010-09-01T08:43:02Z",
+        "mediawiki_sha1": "812a213ada5f0302303e034c664f3f14dea8b444",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/topologischen Raum",
+        "pageid": 41180,
+        "revid": 242819,
+        "parentid": 0,
+        "timestamp": "2010-10-28T07:19:47Z",
+        "mediawiki_sha1": "4348e46d8aa3db6186bb1a97b25b7ed03c3a7d77",
+        "wikitext_bytes": 98
+      },
+      {
+        "title": "MDLUL/topologischer Raum",
+        "pageid": 39382,
+        "revid": 236417,
+        "parentid": 0,
+        "timestamp": "2010-08-21T06:04:58Z",
+        "mediawiki_sha1": "723c7b7dad4d4fceb6574033f392cd02313ba501",
+        "wikitext_bytes": 98
+      },
+      {
+        "title": "Topologischer Raum/Reelle Vektorbündel/Homomorphismus/Definition",
+        "pageid": 110003,
+        "revid": 1104814,
+        "parentid": 1039928,
+        "timestamp": "2026-06-18T12:30:47Z",
+        "mediawiki_sha1": "ee86e17e7bbf696f3ea4d2d083bc6f84c95847d3",
+        "wikitext_bytes": 1034
+      },
+      {
+        "title": "Topologischer Raum/Reelle Vektorbündel/Isomorphismus/Definition",
+        "pageid": 110005,
+        "revid": 1039930,
+        "parentid": 963094,
+        "timestamp": "2025-08-12T09:22:27Z",
+        "mediawiki_sha1": "3145986218d4e5908576e10ac77c6b25da69fd49",
+        "wikitext_bytes": 943
+      },
+      {
+        "title": "Topologischer Raum/Reelles Vektorbündel/Definition",
+        "pageid": 109256,
+        "revid": 1091592,
+        "parentid": 1039932,
+        "timestamp": "2026-06-01T09:20:05Z",
+        "mediawiki_sha1": "c1a7259abb8feddd06541e124fd88458b616a66f",
+        "wikitext_bytes": 1452
+      },
+      {
+        "title": "Topologischer Raum/Reelles Vektorbündel/Einführung/Textabschnitt",
+        "pageid": 109262,
+        "revid": 1019797,
+        "parentid": 1009549,
+        "timestamp": "2025-08-09T13:01:16Z",
+        "mediawiki_sha1": "78330ad09f6d2b1f019cdde521c1cc9c0d187e21",
+        "wikitext_bytes": 1799
+      },
+      {
+        "title": "Topologischer Raum/Reelles Vektorbündel/Einschränkung/Fakt",
+        "pageid": 109266,
+        "revid": 1049911,
+        "parentid": 978690,
+        "timestamp": "2025-08-13T13:17:31Z",
+        "mediawiki_sha1": "91923c66c52416b1823b696e684f2961f3a49d9c",
+        "wikitext_bytes": 813
+      },
+      {
+        "title": "Topologischer Raum/Reelles Vektorbündel/Einschränkung/Fakt/Beweis",
+        "pageid": 109275,
+        "revid": 1112677,
+        "parentid": 1087190,
+        "timestamp": "2026-08-21T16:30:58Z",
+        "mediawiki_sha1": "b0f546f1df94cf7fb379caa6d3e01a2bf540c231",
+        "wikitext_bytes": 511
+      },
+      {
+        "title": "Vorlage:=",
+        "pageid": 20300,
+        "revid": 136936,
+        "parentid": 136903,
+        "timestamp": "2008-12-21T21:01:15Z",
+        "mediawiki_sha1": "51ab5591f9cca571701287fefae23cb3273c59d7",
+        "wikitext_bytes": 235
+      },
+      {
+        "title": "Vorlage:Abbildung",
+        "pageid": 22825,
+        "revid": 834813,
+        "parentid": 831449,
+        "timestamp": "2022-09-24T09:18:56Z",
+        "mediawiki_sha1": "365fba0c32ba421147738a7191e667e4f45f5cf9",
+        "wikitext_bytes": 361
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element",
+        "pageid": 146804,
+        "revid": 834774,
+        "parentid": 0,
+        "timestamp": "2022-09-24T09:09:45Z",
+        "mediawiki_sha1": "a10994eb018217546f4702b0cd2eafaa8526ad04",
+        "wikitext_bytes": 336
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Analysis/Standardkurs2",
+        "pageid": 135275,
+        "revid": 713963,
+        "parentid": 0,
+        "timestamp": "2021-12-04T10:53:08Z",
+        "mediawiki_sha1": "07c03e9fddcae34b054b33b68c436dfecfc3bfb3",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "Vorlage:Anführung",
+        "pageid": 17115,
+        "revid": 967517,
+        "parentid": 794630,
+        "timestamp": "2024-12-13T15:22:13Z",
+        "mediawiki_sha1": "41b3a8ea109e30edfd9cc1e199b24c79fe738038",
+        "wikitext_bytes": 253
+      },
+      {
+        "title": "Vorlage:Beispiellink",
+        "pageid": 41670,
+        "revid": 1070422,
+        "parentid": 1069819,
+        "timestamp": "2026-02-06T14:20:40Z",
+        "mediawiki_sha1": "2699aa7c9cc51e7953958fcbe0fe30bd41dbf02f",
+        "wikitext_bytes": 1793
+      },
+      {
+        "title": "Vorlage:Bemerkungslink",
+        "pageid": 47988,
+        "revid": 1110680,
+        "parentid": 1110678,
+        "timestamp": "2026-08-09T12:37:19Z",
+        "mediawiki_sha1": "39c4efc5688413b07e82b3dbaa57d1a28316c7da",
+        "wikitext_bytes": 1789
+      },
+      {
+        "title": "Vorlage:Beweisstruktur",
+        "pageid": 24025,
+        "revid": 165764,
+        "parentid": 165744,
+        "timestamp": "2009-06-13T14:14:07Z",
+        "mediawiki_sha1": "c0808807c8451a0144a88218c3a790c74d831b60",
+        "wikitext_bytes": 215
+      },
+      {
+        "title": "Vorlage:CC",
+        "pageid": 103892,
+        "revid": 709639,
+        "parentid": 578068,
+        "timestamp": "2021-11-08T15:00:46Z",
+        "mediawiki_sha1": "0eceb25a2d3d11b5db027c02c8c2f33347cbac74",
+        "wikitext_bytes": 193
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Definitionswort",
+        "pageid": 23952,
+        "revid": 1107662,
+        "parentid": 1061423,
+        "timestamp": "2026-07-17T08:06:31Z",
+        "mediawiki_sha1": "f1aff98d04a0bd4a7894808a36cedfb412c7d021",
+        "wikitext_bytes": 822
+      },
+      {
+        "title": "Vorlage:Drucktrenn",
+        "pageid": 169679,
+        "revid": 1073199,
+        "parentid": 0,
+        "timestamp": "2026-02-24T14:17:08Z",
+        "mediawiki_sha1": "7b15634ab69c147b7ff06ddd5d901e7363d65017",
+        "wikitext_bytes": 164
+      },
+      {
+        "title": "Vorlage:Einrückung",
+        "pageid": 17054,
+        "revid": 1075085,
+        "parentid": 1075084,
+        "timestamp": "2026-03-08T09:06:57Z",
+        "mediawiki_sha1": "cf97605fced3af5f0f879735c9c1fca99a0b158d",
+        "wikitext_bytes": 285
+      },
+      {
+        "title": "Vorlage:Faktlink",
+        "pageid": 18917,
+        "revid": 1070424,
+        "parentid": 1070386,
+        "timestamp": "2026-02-06T14:24:46Z",
+        "mediawiki_sha1": "f27d5b28c8a41f34212f555e862510fc00d4f2be",
+        "wikitext_bytes": 2111
+      },
+      {
+        "title": "Vorlage:Faktstruktur",
+        "pageid": 18814,
+        "revid": 1061914,
+        "parentid": 276624,
+        "timestamp": "2025-12-08T17:03:41Z",
+        "mediawiki_sha1": "627b618e705049f2b3fd2617c9568bed098096b9",
+        "wikitext_bytes": 1379
+      },
+      {
+        "title": "Vorlage:ImageNoteControl",
+        "pageid": 31352,
+        "revid": 200442,
+        "parentid": 200441,
+        "timestamp": "2009-12-20T10:26:01Z",
+        "mediawiki_sha1": "18862d5c418a35f12237fcf8a6ad5f33b9e4e5bb",
+        "wikitext_bytes": 421
+      },
+      {
+        "title": "Vorlage:Inputbeispiel",
+        "pageid": 11588,
+        "revid": 1074988,
+        "parentid": 1061937,
+        "timestamp": "2026-03-07T16:01:24Z",
+        "mediawiki_sha1": "c3ede97421bca4f5a97a08dedaaa9b4ddd5e6590",
+        "wikitext_bytes": 4706
+      },
+      {
+        "title": "Vorlage:Inputbild",
+        "pageid": 17287,
+        "revid": 1074342,
+        "parentid": 1074341,
+        "timestamp": "2026-03-07T09:46:59Z",
+        "mediawiki_sha1": "7574f2aef8023c692b7abc57f24c52900da83526",
+        "wikitext_bytes": 1976
+      },
+      {
+        "title": "Vorlage:Inputdefinition",
+        "pageid": 11022,
+        "revid": 1106756,
+        "parentid": 1061928,
+        "timestamp": "2026-07-12T13:31:00Z",
+        "mediawiki_sha1": "855519104da8c6681b207bb5a475d262ae77f669",
+        "wikitext_bytes": 11717
+      },
+      {
+        "title": "Vorlage:Inputfaktbeweis",
+        "pageid": 17490,
+        "revid": 1110004,
+        "parentid": 1110003,
+        "timestamp": "2026-08-04T10:35:43Z",
+        "mediawiki_sha1": "170d71d038f2328a676563b4b9ecbeeed82a35c9",
+        "wikitext_bytes": 16503
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Kommutatives Dreieck/ru",
+        "pageid": 20258,
+        "revid": 971696,
+        "parentid": 923695,
+        "timestamp": "2025-01-15T11:35:44Z",
+        "mediawiki_sha1": "a2feda87f1ee09373f92646a3ca6c15852d5a3b5",
+        "wikitext_bytes": 517
+      },
+      {
+        "title": "Vorlage:Lineare Algebra/Standardkurs",
+        "pageid": 79065,
+        "revid": 941964,
+        "parentid": 535889,
+        "timestamp": "2024-08-27T11:45:52Z",
+        "mediawiki_sha1": "9ea976a9a11bec51362dd1e836e43a64bf1b942a",
+        "wikitext_bytes": 135
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beispiel",
+        "pageid": 33519,
+        "revid": 864970,
+        "parentid": 864906,
+        "timestamp": "2022-10-19T16:21:27Z",
+        "mediawiki_sha1": "46aba056083d4e975d314608d3ffc651a584f5d8",
+        "wikitext_bytes": 1603
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Beweis",
+        "pageid": 33517,
+        "revid": 861548,
+        "parentid": 748239,
+        "timestamp": "2022-10-05T08:00:16Z",
+        "mediawiki_sha1": "2f63f25192c8fb0aa9e70a83528c31aa83abf543",
+        "wikitext_bytes": 2144
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Definition",
+        "pageid": 33515,
+        "revid": 763985,
+        "parentid": 762832,
+        "timestamp": "2022-08-15T04:47:42Z",
+        "mediawiki_sha1": "63e0d410c36911e0ac432f7074f4e6ba1f0baf56",
+        "wikitext_bytes": 1585
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Fakt",
+        "pageid": 33511,
+        "revid": 1063451,
+        "parentid": 1008461,
+        "timestamp": "2025-12-30T15:41:25Z",
+        "mediawiki_sha1": "a849aa72a036768f23044c44e16a302f42de8697",
+        "wikitext_bytes": 2588
+      },
+      {
+        "title": "Vorlage:Mathematischer Textabschnitt",
+        "pageid": 33589,
+        "revid": 865046,
+        "parentid": 864983,
+        "timestamp": "2022-10-19T18:54:33Z",
+        "mediawiki_sha1": "e988d41699849e3b0bee35d6ea687aac2d34b2aa",
+        "wikitext_bytes": 986
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathkor/display",
+        "pageid": 22873,
+        "revid": 1075108,
+        "parentid": 834408,
+        "timestamp": "2026-03-08T10:25:41Z",
+        "mediawiki_sha1": "9185784de8c218cba2979df8bac3d4a1b69465d5",
+        "wikitext_bytes": 363
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Mengebed",
+        "pageid": 19920,
+        "revid": 1106268,
+        "parentid": 604716,
+        "timestamp": "2026-07-09T15:57:00Z",
+        "mediawiki_sha1": "bb1821bdbec724ce06ccc446f906e7bea290f2b3",
+        "wikitext_bytes": 667
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Bruch",
+        "pageid": 23180,
+        "revid": 599751,
+        "parentid": 332211,
+        "timestamp": "2019-09-28T11:03:08Z",
+        "mediawiki_sha1": "8af543c27bfd9fbe3cbe30a57b812c1c6c329cd5",
+        "wikitext_bytes": 223
+      },
+      {
+        "title": "Vorlage:Op:Matrix33",
+        "pageid": 24489,
+        "revid": 1011728,
+        "parentid": 1010914,
+        "timestamp": "2025-07-31T13:12:32Z",
+        "mediawiki_sha1": "27b862b506dee1d730a668fdb0ee3b9213c77eb0",
+        "wikitext_bytes": 566
+      },
+      {
+        "title": "Vorlage:Op:Spaltenvektor",
+        "pageid": 21062,
+        "revid": 1074290,
+        "parentid": 1010894,
+        "timestamp": "2026-03-06T16:46:10Z",
+        "mediawiki_sha1": "09b7c7e3823a2aee2ec1628241bf8883fed72e60",
+        "wikitext_bytes": 781
+      },
+      {
+        "title": "Vorlage:Op:Zeilentupel",
+        "pageid": 85461,
+        "revid": 1010956,
+        "parentid": 480016,
+        "timestamp": "2025-07-24T17:08:47Z",
+        "mediawiki_sha1": "b2c2144f6d3ca602d56b6dccd85b7423984e73a7",
+        "wikitext_bytes": 430
+      },
+      {
+        "title": "Vorlage:Op:Zeilenvektor",
+        "pageid": 29723,
+        "revid": 1010936,
+        "parentid": 551775,
+        "timestamp": "2025-07-24T16:56:47Z",
+        "mediawiki_sha1": "ee73e1644fcd92d55dc3b1b4fd44c4a12b2606d4",
+        "wikitext_bytes": 536
+      },
+      {
+        "title": "Vorlage:Qed",
+        "pageid": 11116,
+        "revid": 92011,
+        "parentid": 92010,
+        "timestamp": "2008-04-20T08:14:57Z",
+        "mediawiki_sha1": "7cacc755daead99c6816a2540e477c0fe5def465",
+        "wikitext_bytes": 1564
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Relationskette/k",
+        "pageid": 85381,
+        "revid": 1106120,
+        "parentid": 972253,
+        "timestamp": "2026-07-07T08:54:28Z",
+        "mediawiki_sha1": "59744cdfaafba2bc8bce851e220c82b5c7feb58b",
+        "wikitext_bytes": 1948
+      },
+      {
+        "title": "Vorlage:Stichwort",
+        "pageid": 23961,
+        "revid": 1067874,
+        "parentid": 1061532,
+        "timestamp": "2026-01-30T10:47:00Z",
+        "mediawiki_sha1": "ceca7248a5c70c86413f4880b4f90f88611c4063",
+        "wikitext_bytes": 685
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Definitionswort eingelesene Verwendung",
+        "pageid": 24050,
+        "revid": 790374,
+        "parentid": 790369,
+        "timestamp": "2022-08-23T11:13:50Z",
+        "mediawiki_sha1": "5dd904e06ce5855ebdf98901569dd4673f98cb29",
+        "wikitext_bytes": 608
+      },
+      {
+        "title": "Vorlage:Verschlagworte:Stichwort",
+        "pageid": 24184,
+        "revid": 1067875,
+        "parentid": 794079,
+        "timestamp": "2026-01-30T10:49:46Z",
+        "mediawiki_sha1": "bc938285eaf43311874531de8d3c26bb3b14e5de",
+        "wikitext_bytes": 842
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Vorlage:Zwischenüberschrift",
+        "pageid": 17116,
+        "revid": 1061933,
+        "parentid": 794603,
+        "timestamp": "2025-12-08T18:32:44Z",
+        "mediawiki_sha1": "9015959aafcf497352986e62d0796cc27a7d5c4f",
+        "wikitext_bytes": 416
+      },
+      {
+        "title": "Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel",
+        "pageid": 109304,
+        "revid": 1085563,
+        "parentid": 1038693,
+        "timestamp": "2026-05-30T08:47:12Z",
+        "mediawiki_sha1": "977797381b99a58d4d6047dbb737ff028b913ce3",
+        "wikitext_bytes": 2679
+      }
+    ]
+  },
+  "worksheet_transclusion_closure": {
+    "requested_template_count": 92,
+    "captured_page_count": 92,
+    "missing_page_count": 0,
+    "batches": [
+      {
+        "file": "worksheet-01-transclusions-01.json",
+        "bytes": 19388,
+        "sha256": "5162a5a168fe3c8973c50a6f40a28ba3c5a8415f85afcc3e73bdd66a36afa2fc",
+        "requested_titles": [
+          "Affin-lineares Bündel/R^2/Fasern/Aufgabe",
+          "Einheitssphäre/Untermannigfaltigkeit/Tangentialabbildung/Aufgabe",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt/Fuß",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblattgestaltung",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel/Beispielreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+          "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+          "Körper/Kreuzprodukt/Keine Basis/Aufgabe",
+          "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Fortsetzungsfunktion/Aufgabe",
+          "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Vektorzugehörigkeit/Aufgabe",
+          "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Übergangsabbildungen/Aufgabe",
+          "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung nicht injektiv/Beispiel/Aufgabe",
+          "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung nicht surjektiv/Beispiel/Aufgabe",
+          "Mannigfaltigkeit/Tangentialabbildung/Stetig/Aufgabe",
+          "MDLUL/Basis (vr)",
+          "MDLUL/differenzierbare Abbildung (Mfk)",
+          "MDLUL/differenzierbare Mannigfaltigkeiten",
+          "MDLUL/differenzierbaren Abbildung (Mfk)",
+          "MDLUL/differenzierbaren Mannigfaltigkeiten",
+          "MDLUL/Grenzwert (reelle Funktion)",
+          "MDLUL/Hausdorffraum",
+          "MDLUL/Homomorphismus (Vektorbündel)",
+          "MDLUL/homöomorph",
+          "MDLUL/Homöomorphie",
+          "MDLUL/Homöomorphismus"
+        ]
+      },
+      {
+        "file": "worksheet-01-transclusions-02.json",
+        "bytes": 11956,
+        "sha256": "ef68fdc0864d184fc31bd3ea593a2d9e88a68182e268b834b5d7557823afcbf3",
+        "requested_titles": [
+          "MDLUL/Identität",
+          "MDLUL/injektiven",
+          "MDLUL/Kreuzprodukt",
+          "MDLUL/Linear unabhängig",
+          "MDLUL/linear unabhängigen",
+          "MDLUL/Matrix",
+          "MDLUL/offen (mr)",
+          "MDLUL/Produkt (Raum)",
+          "MDLUL/Rang (Vektorbündel)",
+          "MDLUL/reelles Vektorbündel",
+          "MDLUL/Sphäre",
+          "MDLUL/stetig",
+          "MDLUL/stetig differenzierbare Abbildung",
+          "MDLUL/surjektiven",
+          "MDLUL/Tangentialabbildung",
+          "MDLUL/Tangentialbündels",
+          "MDLUL/topologischen Raum",
+          "MDLUL/topologischer Raum",
+          "MDLUL/totale Differential",
+          "MDLUL/totales Differential",
+          "MDLUL/Vektorbündel (topologisch)",
+          "Reelles Vektorbündel/Ein Punkt/Aufgabe",
+          "Reelles Vektorbündel/Hausdorff/Aufgabe",
+          "Reelles Vektorbündel/Identität/Aufgabe",
+          "S^1/Weg/Tangentialbündel/Basiskonvergenz/Beispiel/Aufgabe"
+        ]
+      },
+      {
+        "file": "worksheet-01-transclusions-03.json",
+        "bytes": 50374,
+        "sha256": "0a1ba0355d6d8672e3c440c822c99530b50acedaa3323cfc6f21ba62216f7802",
+        "requested_titles": [
+          "Stetige differenzierbare Abbildung/Totales Differential/Vektorbündelhomomorphismus/Aufgabe",
+          "Tangentialbündel/S^1/Trivial/Aufgabe",
+          "Triviale Bündel/Homomorphismus/Matrixbeschreibung/Aufgabe",
+          "Vorlage:=",
+          "Vorlage:Abbildung",
+          "Vorlage:Abbildung mit Element/display",
+          "Vorlage:Abbildung ohne Element",
+          "Vorlage:Abbildung ohne Element/display",
+          "Vorlage:Abbildung/display",
+          "Vorlage:Arbeitsblatt",
+          "Vorlage:Aufzählung4",
+          "Vorlage:Beispiellink",
+          "Vorlage:Defeq",
+          "Vorlage:Definitionslink",
+          "Vorlage:Definitionslink in Kurs",
+          "Vorlage:Inputaufgabe",
+          "Vorlage:Kapitelnummer",
+          "Vorlage:Makl",
+          "Vorlage:ManSie",
+          "Vorlage:Math",
+          "Vorlage:Math/display",
+          "Vorlage:Mathematische Standardverlinkung",
+          "Vorlage:Mathematischer Text/Aufgabe",
+          "Vorlage:Mathkor",
+          "Vorlage:Mathl"
+        ]
+      },
+      {
+        "file": "worksheet-01-transclusions-04.json",
+        "bytes": 20101,
+        "sha256": "98aadde8c4538c6bf5f5f368f5462bbf5fb1e3cfe5a2d20e4a2294cae60efff2",
+        "requested_titles": [
+          "Vorlage:MDLULSiehe",
+          "Vorlage:MDLULZiel",
+          "Vorlage:Mengebed",
+          "Vorlage:N Sie",
+          "Vorlage:Nummer im Kurs",
+          "Vorlage:Nummer im KursKurs",
+          "Vorlage:Op:Bruch",
+          "Vorlage:Op:Funktionslimes",
+          "Vorlage:Op:Identität",
+          "Vorlage:Op:Spaltenvektor",
+          "Vorlage:Op:Totales Differential",
+          "Vorlage:Op:Zeilenvektor",
+          "Vorlage:Relationskette",
+          "Vorlage:Relationskette/display",
+          "Vorlage:Umrahmung/grün",
+          "Vorlage:Zusatz/Klammer",
+          "Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Stratifizierung/Aufgabe"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "title": "Affin-lineares Bündel/R^2/Fasern/Aufgabe",
+        "pageid": 111564,
+        "revid": 1082177,
+        "parentid": 1040370,
+        "timestamp": "2026-05-29T17:38:12Z",
+        "mediawiki_sha1": "cd1507610a46eae382876c024aabdb96fdc447de",
+        "wikitext_bytes": 1441
+      },
+      {
+        "title": "Einheitssphäre/Untermannigfaltigkeit/Tangentialabbildung/Aufgabe",
+        "pageid": 69306,
+        "revid": 811153,
+        "parentid": 781759,
+        "timestamp": "2022-09-18T21:55:27Z",
+        "mediawiki_sha1": "be06892dd060f72b6e664dc886cee628b4356891",
+        "wikitext_bytes": 715
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt/Fuß",
+        "pageid": 110202,
+        "revid": 658287,
+        "parentid": 598042,
+        "timestamp": "2020-09-24T12:40:15Z",
+        "mediawiki_sha1": "f34c8259364f7385a5155d4039e53f4ef16a5f0c",
+        "wikitext_bytes": 1117
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblattgestaltung",
+        "pageid": 110205,
+        "revid": 658288,
+        "parentid": 598039,
+        "timestamp": "2020-09-24T12:40:18Z",
+        "mediawiki_sha1": "3479aae6068adbb5b0f8a58bf370ce947707f3a3",
+        "wikitext_bytes": 433
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel/Beispielreferenznummer",
+        "pageid": 111533,
+        "revid": 601724,
+        "parentid": 0,
+        "timestamp": "2019-10-28T15:06:23Z",
+        "mediawiki_sha1": "7af800e70c74ef53618205f214879cd57e738a63",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+        "pageid": 111532,
+        "revid": 601723,
+        "parentid": 0,
+        "timestamp": "2019-10-28T15:06:13Z",
+        "mediawiki_sha1": "64c3aaab9f5ace2347e0f9fd09d777bc1f3ca1af",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel/Beispielreferenznummer",
+        "pageid": 111529,
+        "revid": 601712,
+        "parentid": 0,
+        "timestamp": "2019-10-28T14:44:29Z",
+        "mediawiki_sha1": "90f9d03064d05fc516b087415c2b98bf6967d1fc",
+        "wikitext_bytes": 48
+      },
+      {
+        "title": "Körper/Kreuzprodukt/Keine Basis/Aufgabe",
+        "pageid": 111592,
+        "revid": 1083281,
+        "parentid": 1042827,
+        "timestamp": "2026-05-29T20:42:13Z",
+        "mediawiki_sha1": "6f1541a4edeaac77f2f5711e2d95740ecf2b161d",
+        "wikitext_bytes": 763
+      },
+      {
+        "title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Fortsetzungsfunktion/Aufgabe",
+        "pageid": 111579,
+        "revid": 1098459,
+        "parentid": 1083348,
+        "timestamp": "2026-06-15T15:57:44Z",
+        "mediawiki_sha1": "344b3e6c550779c3bdd8a7a18a0d2ab5bd4c221f",
+        "wikitext_bytes": 1041
+      },
+      {
+        "title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Vektorzugehörigkeit/Aufgabe",
+        "pageid": 111562,
+        "revid": 1098460,
+        "parentid": 1083349,
+        "timestamp": "2026-06-15T15:57:54Z",
+        "mediawiki_sha1": "545bcd74abc8d2d5d54eb07823077a0d261e4b22",
+        "wikitext_bytes": 711
+      },
+      {
+        "title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Übergangsabbildungen/Aufgabe",
+        "pageid": 111498,
+        "revid": 1106508,
+        "parentid": 1098461,
+        "timestamp": "2026-07-12T09:24:51Z",
+        "mediawiki_sha1": "a7a9d5542fd89bc61d4819359ed52b018c2bafc9",
+        "wikitext_bytes": 863
+      },
+      {
+        "title": "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung nicht injektiv/Beispiel/Aufgabe",
+        "pageid": 42165,
+        "revid": 1044113,
+        "parentid": 844984,
+        "timestamp": "2025-08-12T21:13:36Z",
+        "mediawiki_sha1": "cc204130e6b78165a4fb173c2fe05a3415db31b8",
+        "wikitext_bytes": 759
+      },
+      {
+        "title": "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung nicht surjektiv/Beispiel/Aufgabe",
+        "pageid": 42161,
+        "revid": 1044125,
+        "parentid": 844993,
+        "timestamp": "2025-08-12T21:15:36Z",
+        "mediawiki_sha1": "3b39cd94ac9810db313ee997de0aee634f97003d",
+        "wikitext_bytes": 762
+      },
+      {
+        "title": "Mannigfaltigkeit/Tangentialabbildung/Stetig/Aufgabe",
+        "pageid": 39846,
+        "revid": 1044149,
+        "parentid": 853110,
+        "timestamp": "2025-08-12T21:19:36Z",
+        "mediawiki_sha1": "ab64a741fe175f2ed4f688e7cd3c1c1dc1c6c5a1",
+        "wikitext_bytes": 689
+      },
+      {
+        "title": "MDLUL/Basis (vr)",
+        "pageid": 38882,
+        "revid": 415544,
+        "parentid": 235260,
+        "timestamp": "2015-04-02T14:32:24Z",
+        "mediawiki_sha1": "18341e7e2117dd457b50ea9fcfe06fadcd60136f",
+        "wikitext_bytes": 78
+      },
+      {
+        "title": "MDLUL/differenzierbare Abbildung (Mfk)",
+        "pageid": 39688,
+        "revid": 237492,
+        "parentid": 0,
+        "timestamp": "2010-08-31T20:03:37Z",
+        "mediawiki_sha1": "7c7d887b14889a657dbaed0ef4f298953bd87076",
+        "wikitext_bytes": 144
+      },
+      {
+        "title": "MDLUL/differenzierbare Mannigfaltigkeiten",
+        "pageid": 39702,
+        "revid": 237515,
+        "parentid": 237514,
+        "timestamp": "2010-08-31T20:30:23Z",
+        "mediawiki_sha1": "9918e9b87a2e4c94b6d25345a3de54551b4c2a4f",
+        "wikitext_bytes": 152
+      },
+      {
+        "title": "MDLUL/differenzierbaren Abbildung (Mfk)",
+        "pageid": 42164,
+        "revid": 251378,
+        "parentid": 0,
+        "timestamp": "2011-01-08T15:28:17Z",
+        "mediawiki_sha1": "7179fcde3f680b2228dcc596665ab9f862404384",
+        "wikitext_bytes": 145
+      },
+      {
+        "title": "MDLUL/differenzierbaren Mannigfaltigkeiten",
+        "pageid": 41135,
+        "revid": 242699,
+        "parentid": 0,
+        "timestamp": "2010-10-27T07:38:49Z",
+        "mediawiki_sha1": "11d2018886185ee33615337e341a1ce7df0e649d",
+        "wikitext_bytes": 153
+      },
+      {
+        "title": "MDLUL/Grenzwert (reelle Funktion)",
+        "pageid": 150948,
+        "revid": 892338,
+        "parentid": 0,
+        "timestamp": "2023-03-27T11:44:52Z",
+        "mediawiki_sha1": "5ee2abc545bab2eefa6ddcfb0a38bfc09b0a8e17",
+        "wikitext_bytes": 116
+      },
+      {
+        "title": "MDLUL/Hausdorffraum",
+        "pageid": 61887,
+        "revid": 373339,
+        "parentid": 0,
+        "timestamp": "2013-08-09T17:09:43Z",
+        "mediawiki_sha1": "45695d8f5d992a3876bc05e15b186003e58ad975",
+        "wikitext_bytes": 102
+      },
+      {
+        "title": "MDLUL/Homomorphismus (Vektorbündel)",
+        "pageid": 111561,
+        "revid": 601838,
+        "parentid": 0,
+        "timestamp": "2019-10-28T20:54:14Z",
+        "mediawiki_sha1": "8778d67b515807d7d39b5857971ec5e7c36af67d",
+        "wikitext_bytes": 145
+      },
+      {
+        "title": "MDLUL/homöomorph",
+        "pageid": 39613,
+        "revid": 237129,
+        "parentid": 0,
+        "timestamp": "2010-08-25T07:21:26Z",
+        "mediawiki_sha1": "da1aa70e630fcf9d37f5807586e95b5d3404e328",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/Homöomorphie",
+        "pageid": 39617,
+        "revid": 237135,
+        "parentid": 0,
+        "timestamp": "2010-08-25T07:27:58Z",
+        "mediawiki_sha1": "8e68b40465171d259c3f52b90ed7dc17a72408f5",
+        "wikitext_bytes": 96
+      },
+      {
+        "title": "MDLUL/Homöomorphismus",
+        "pageid": 39686,
+        "revid": 241721,
+        "parentid": 237489,
+        "timestamp": "2010-10-21T14:09:56Z",
+        "mediawiki_sha1": "3ccdb0617e7e1eb51ce704353b0fed0c349361fb",
+        "wikitext_bytes": 94
+      },
+      {
+        "title": "MDLUL/Identität",
+        "pageid": 39629,
+        "revid": 237148,
+        "parentid": 0,
+        "timestamp": "2010-08-25T07:50:37Z",
+        "mediawiki_sha1": "6da1303c420b4fa2834013d5a8889322af4508b7",
+        "wikitext_bytes": 82
+      },
+      {
+        "title": "MDLUL/injektiven",
+        "pageid": 42166,
+        "revid": 251381,
+        "parentid": 0,
+        "timestamp": "2011-01-08T15:30:12Z",
+        "mediawiki_sha1": "69ef4c4adfc6ad600121d8f485e825653cbbb895",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "MDLUL/Kreuzprodukt",
+        "pageid": 76129,
+        "revid": 433702,
+        "parentid": 0,
+        "timestamp": "2015-09-01T18:48:06Z",
+        "mediawiki_sha1": "7fca9e29c578553c122a7d7d07054592cb5ae209",
+        "wikitext_bytes": 96
+      },
+      {
+        "title": "MDLUL/Linear unabhängig",
+        "pageid": 58970,
+        "revid": 342772,
+        "parentid": 0,
+        "timestamp": "2012-12-06T14:42:53Z",
+        "mediawiki_sha1": "154e1d28c427dadb25eb6ad24bcaf3349c2823d8",
+        "wikitext_bytes": 113
+      },
+      {
+        "title": "MDLUL/linear unabhängigen",
+        "pageid": 58972,
+        "revid": 343753,
+        "parentid": 342774,
+        "timestamp": "2012-12-13T13:30:47Z",
+        "mediawiki_sha1": "79cc11390bdd720014b418099b64071b9560373f",
+        "wikitext_bytes": 99
+      },
+      {
+        "title": "MDLUL/Matrix",
+        "pageid": 38569,
+        "revid": 234523,
+        "parentid": 0,
+        "timestamp": "2010-08-16T13:10:58Z",
+        "mediawiki_sha1": "08943dc9847ad7d96cfbfb2dfa572cb4415963a4",
+        "wikitext_bytes": 74
+      },
+      {
+        "title": "MDLUL/offen (mr)",
+        "pageid": 59122,
+        "revid": 620688,
+        "parentid": 343894,
+        "timestamp": "2020-02-21T12:22:31Z",
+        "mediawiki_sha1": "c5c23797b2a23dcb00715816b8e4bb738ecaf991",
+        "wikitext_bytes": 107
+      },
+      {
+        "title": "MDLUL/Produkt (Raum)",
+        "pageid": 42122,
+        "revid": 251204,
+        "parentid": 0,
+        "timestamp": "2011-01-06T20:49:42Z",
+        "mediawiki_sha1": "e67af7c2bfed5f12bd23ce87c519d119c5e24fcb",
+        "wikitext_bytes": 104
+      },
+      {
+        "title": "MDLUL/Rang (Vektorbündel)",
+        "pageid": 111576,
+        "revid": 601898,
+        "parentid": 0,
+        "timestamp": "2019-10-29T10:13:33Z",
+        "mediawiki_sha1": "ead9c297ebc7700f2b2c69df759b0c3a86815aa6",
+        "wikitext_bytes": 121
+      },
+      {
+        "title": "MDLUL/reelles Vektorbündel",
+        "pageid": 109268,
+        "revid": 595894,
+        "parentid": 0,
+        "timestamp": "2019-07-26T07:22:48Z",
+        "mediawiki_sha1": "c964aba832c86325d54aa615f782c3e977e6cd8c",
+        "wikitext_bytes": 122
+      },
+      {
+        "title": "MDLUL/Sphäre",
+        "pageid": 42251,
+        "revid": 252620,
+        "parentid": 0,
+        "timestamp": "2011-01-14T19:49:05Z",
+        "mediawiki_sha1": "e8d6cf4a6ca1303aa182b4b01385fee01d815a47",
+        "wikitext_bytes": 96
+      },
+      {
+        "title": "MDLUL/stetig",
+        "pageid": 38783,
+        "revid": 740367,
+        "parentid": 235108,
+        "timestamp": "2022-05-23T15:15:09Z",
+        "mediawiki_sha1": "3e29c9d3333307c60cbb26b00a4b875856b16bcd",
+        "wikitext_bytes": 130
+      },
+      {
+        "title": "MDLUL/stetig differenzierbare Abbildung",
+        "pageid": 38373,
+        "revid": 640362,
+        "parentid": 237157,
+        "timestamp": "2020-06-17T15:06:00Z",
+        "mediawiki_sha1": "1238125a174baa067c174da5141fc84122c9cd86",
+        "wikitext_bytes": 151
+      },
+      {
+        "title": "MDLUL/surjektiven",
+        "pageid": 42163,
+        "revid": 251377,
+        "parentid": 0,
+        "timestamp": "2011-01-08T15:27:26Z",
+        "mediawiki_sha1": "118cc4d8e977e2f46ed7921a2c9fb221924b95fe",
+        "wikitext_bytes": 82
+      },
+      {
+        "title": "MDLUL/Tangentialabbildung",
+        "pageid": 39711,
+        "revid": 896740,
+        "parentid": 237524,
+        "timestamp": "2023-05-21T15:21:52Z",
+        "mediawiki_sha1": "05fa272b975f47b31db4f6e4b7c2e38910de3142",
+        "wikitext_bytes": 142
+      },
+      {
+        "title": "MDLUL/Tangentialbündels",
+        "pageid": 42121,
+        "revid": 251203,
+        "parentid": 0,
+        "timestamp": "2011-01-06T20:49:04Z",
+        "mediawiki_sha1": "7ed8f93af0fae212eef92f723b11b0d3f5498a9d",
+        "wikitext_bytes": 135
+      },
+      {
+        "title": "MDLUL/topologischen Raum",
+        "pageid": 41180,
+        "revid": 242819,
+        "parentid": 0,
+        "timestamp": "2010-10-28T07:19:47Z",
+        "mediawiki_sha1": "4348e46d8aa3db6186bb1a97b25b7ed03c3a7d77",
+        "wikitext_bytes": 98
+      },
+      {
+        "title": "MDLUL/topologischer Raum",
+        "pageid": 39382,
+        "revid": 236417,
+        "parentid": 0,
+        "timestamp": "2010-08-21T06:04:58Z",
+        "mediawiki_sha1": "723c7b7dad4d4fceb6574033f392cd02313ba501",
+        "wikitext_bytes": 98
+      },
+      {
+        "title": "MDLUL/totale Differential",
+        "pageid": 59229,
+        "revid": 343266,
+        "parentid": 0,
+        "timestamp": "2012-12-11T13:26:26Z",
+        "mediawiki_sha1": "6ee6f3cd67701edecb9b42c49e561b199e0b6578",
+        "wikitext_bytes": 100
+      },
+      {
+        "title": "MDLUL/totales Differential",
+        "pageid": 38878,
+        "revid": 918304,
+        "parentid": 538380,
+        "timestamp": "2023-11-15T09:34:50Z",
+        "mediawiki_sha1": "f24980140f6ffd6ec042b17345977a8b91e4c761",
+        "wikitext_bytes": 126
+      },
+      {
+        "title": "MDLUL/Vektorbündel (topologisch)",
+        "pageid": 111563,
+        "revid": 601842,
+        "parentid": 0,
+        "timestamp": "2019-10-28T21:03:08Z",
+        "mediawiki_sha1": "2079c0db6468ea0be7b07984eb436f77620a4556",
+        "wikitext_bytes": 128
+      },
+      {
+        "title": "Reelles Vektorbündel/Ein Punkt/Aufgabe",
+        "pageid": 111573,
+        "revid": 847786,
+        "parentid": 759258,
+        "timestamp": "2022-09-25T22:32:59Z",
+        "mediawiki_sha1": "83cbb67eb89c91bc2bcac1b9529fef682438ea55",
+        "wikitext_bytes": 494
+      },
+      {
+        "title": "Reelles Vektorbündel/Hausdorff/Aufgabe",
+        "pageid": 111574,
+        "revid": 1048829,
+        "parentid": 853327,
+        "timestamp": "2025-08-13T10:16:37Z",
+        "mediawiki_sha1": "8f822a75b7cee9f32e3756d9aa12a8dcdf433769",
+        "wikitext_bytes": 613
+      },
+      {
+        "title": "Reelles Vektorbündel/Identität/Aufgabe",
+        "pageid": 111575,
+        "revid": 1084162,
+        "parentid": 1048832,
+        "timestamp": "2026-05-29T23:06:44Z",
+        "mediawiki_sha1": "b281c9566b4b09ae8f6718e112e4ffe599591180",
+        "wikitext_bytes": 648
+      },
+      {
+        "title": "S^1/Weg/Tangentialbündel/Basiskonvergenz/Beispiel/Aufgabe",
+        "pageid": 69378,
+        "revid": 1099359,
+        "parentid": 1084434,
+        "timestamp": "2026-06-15T18:23:45Z",
+        "mediawiki_sha1": "a199226fc27a031d41c53651ea9b858e5d5ad28f",
+        "wikitext_bytes": 674
+      },
+      {
+        "title": "Stetige differenzierbare Abbildung/Totales Differential/Vektorbündelhomomorphismus/Aufgabe",
+        "pageid": 111558,
+        "revid": 1099320,
+        "parentid": 1049852,
+        "timestamp": "2026-06-15T18:17:35Z",
+        "mediawiki_sha1": "8250fa2381b063a3035293cbff37efde55c50198",
+        "wikitext_bytes": 874
+      },
+      {
+        "title": "Tangentialbündel/S^1/Trivial/Aufgabe",
+        "pageid": 42084,
+        "revid": 1113676,
+        "parentid": 1084439,
+        "timestamp": "2026-08-27T06:36:32Z",
+        "mediawiki_sha1": "e4d4844b6f785e6f708b8a6c0422e44863376f2d",
+        "wikitext_bytes": 633
+      },
+      {
+        "title": "Triviale Bündel/Homomorphismus/Matrixbeschreibung/Aufgabe",
+        "pageid": 111559,
+        "revid": 1015138,
+        "parentid": 900232,
+        "timestamp": "2025-08-08T16:36:08Z",
+        "mediawiki_sha1": "df71f7d6c7962f01d2393bb2941e5ac82ef4060f",
+        "wikitext_bytes": 784
+      },
+      {
+        "title": "Vorlage:=",
+        "pageid": 20300,
+        "revid": 136936,
+        "parentid": 136903,
+        "timestamp": "2008-12-21T21:01:15Z",
+        "mediawiki_sha1": "51ab5591f9cca571701287fefae23cb3273c59d7",
+        "wikitext_bytes": 235
+      },
+      {
+        "title": "Vorlage:Abbildung",
+        "pageid": 22825,
+        "revid": 834813,
+        "parentid": 831449,
+        "timestamp": "2022-09-24T09:18:56Z",
+        "mediawiki_sha1": "365fba0c32ba421147738a7191e667e4f45f5cf9",
+        "wikitext_bytes": 361
+      },
+      {
+        "title": "Vorlage:Abbildung mit Element/display",
+        "pageid": 146803,
+        "revid": 1061939,
+        "parentid": 1061938,
+        "timestamp": "2025-12-08T18:46:33Z",
+        "mediawiki_sha1": "7e9f3ce8c4cad33dec4f0b4581f57a90b9f68ba4",
+        "wikitext_bytes": 767
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element",
+        "pageid": 146804,
+        "revid": 834774,
+        "parentid": 0,
+        "timestamp": "2022-09-24T09:09:45Z",
+        "mediawiki_sha1": "a10994eb018217546f4702b0cd2eafaa8526ad04",
+        "wikitext_bytes": 336
+      },
+      {
+        "title": "Vorlage:Abbildung ohne Element/display",
+        "pageid": 20308,
+        "revid": 1073593,
+        "parentid": 834636,
+        "timestamp": "2026-02-25T11:28:50Z",
+        "mediawiki_sha1": "078e752388eb277ecf366c572a4d6ea0c4f6dc5e",
+        "wikitext_bytes": 353
+      },
+      {
+        "title": "Vorlage:Abbildung/display",
+        "pageid": 20640,
+        "revid": 834794,
+        "parentid": 834789,
+        "timestamp": "2022-09-24T09:15:53Z",
+        "mediawiki_sha1": "1066cb1e9383a5d44735adf27b33f883063fd418",
+        "wikitext_bytes": 377
+      },
+      {
+        "title": "Vorlage:Arbeitsblatt",
+        "pageid": 28743,
+        "revid": 938901,
+        "parentid": 938893,
+        "timestamp": "2024-07-23T16:20:47Z",
+        "mediawiki_sha1": "cdd0ba6a7f93d6d5df80b0e93030ff714636e5b9",
+        "wikitext_bytes": 248
+      },
+      {
+        "title": "Vorlage:Aufzählung4",
+        "pageid": 17089,
+        "revid": 1075094,
+        "parentid": 1061906,
+        "timestamp": "2026-03-08T09:24:05Z",
+        "mediawiki_sha1": "e0b1c5fc36dee8e4be52b6edb029ba70ce7103ad",
+        "wikitext_bytes": 355
+      },
+      {
+        "title": "Vorlage:Beispiellink",
+        "pageid": 41670,
+        "revid": 1070422,
+        "parentid": 1069819,
+        "timestamp": "2026-02-06T14:20:40Z",
+        "mediawiki_sha1": "2699aa7c9cc51e7953958fcbe0fe30bd41dbf02f",
+        "wikitext_bytes": 1793
+      },
+      {
+        "title": "Vorlage:Defeq",
+        "pageid": 47560,
+        "revid": 1106131,
+        "parentid": 276401,
+        "timestamp": "2026-07-07T09:13:23Z",
+        "mediawiki_sha1": "8897b1f0a31e5c451c472ad9e5e653bbe7041559",
+        "wikitext_bytes": 188
+      },
+      {
+        "title": "Vorlage:Definitionslink",
+        "pageid": 18918,
+        "revid": 1106945,
+        "parentid": 1106944,
+        "timestamp": "2026-07-14T06:47:02Z",
+        "mediawiki_sha1": "ddafe7b3e8022697a4c763d41161755c516a51f0",
+        "wikitext_bytes": 2427
+      },
+      {
+        "title": "Vorlage:Definitionslink in Kurs",
+        "pageid": 56582,
+        "revid": 1106948,
+        "parentid": 1106946,
+        "timestamp": "2026-07-14T06:49:12Z",
+        "mediawiki_sha1": "3ecc232cb77191f88f36039bc36929d796b161a4",
+        "wikitext_bytes": 1072
+      },
+      {
+        "title": "Vorlage:Inputaufgabe",
+        "pageid": 18012,
+        "revid": 1074928,
+        "parentid": 1074886,
+        "timestamp": "2026-03-07T15:07:51Z",
+        "mediawiki_sha1": "7d986984e8f142ccf7bcab8075ecfc2406ab4883",
+        "wikitext_bytes": 15973
+      },
+      {
+        "title": "Vorlage:Kapitelnummer",
+        "pageid": 15376,
+        "revid": 507060,
+        "parentid": 507059,
+        "timestamp": "2017-07-03T19:00:56Z",
+        "mediawiki_sha1": "0c35ec75e05cacfa6acf845644b9361064dc7b4d",
+        "wikitext_bytes": 4102
+      },
+      {
+        "title": "Vorlage:Makl",
+        "pageid": 47944,
+        "revid": 1107363,
+        "parentid": 897349,
+        "timestamp": "2026-07-15T14:42:59Z",
+        "mediawiki_sha1": "a66def2ff2c28f3ff55abb194ac06dde3d356c44",
+        "wikitext_bytes": 198
+      },
+      {
+        "title": "Vorlage:ManSie",
+        "pageid": 22977,
+        "revid": 154703,
+        "parentid": 154702,
+        "timestamp": "2009-05-02T07:51:29Z",
+        "mediawiki_sha1": "ac241a6dd0ce0be7df949462f1a96974f855b890",
+        "wikitext_bytes": 186
+      },
+      {
+        "title": "Vorlage:Math",
+        "pageid": 17295,
+        "revid": 1111483,
+        "parentid": 1061915,
+        "timestamp": "2026-08-14T11:15:22Z",
+        "mediawiki_sha1": "40077966a32486397178b113f317ce3440a06fe2",
+        "wikitext_bytes": 450
+      },
+      {
+        "title": "Vorlage:Math/display",
+        "pageid": 24390,
+        "revid": 1106842,
+        "parentid": 1061903,
+        "timestamp": "2026-07-13T17:21:38Z",
+        "mediawiki_sha1": "fc81c2dec38516c24d734e7d3ce7530c3da1016c",
+        "wikitext_bytes": 404
+      },
+      {
+        "title": "Vorlage:Mathematische Standardverlinkung",
+        "pageid": 24157,
+        "revid": 908016,
+        "parentid": 908008,
+        "timestamp": "2023-07-30T18:02:04Z",
+        "mediawiki_sha1": "974758abddcc99464c27abb4acdde8ef6386124a",
+        "wikitext_bytes": 1255
+      },
+      {
+        "title": "Vorlage:Mathematischer Text/Aufgabe",
+        "pageid": 33520,
+        "revid": 945699,
+        "parentid": 945698,
+        "timestamp": "2024-10-06T15:36:10Z",
+        "mediawiki_sha1": "e66acdf4e9f704b519f910a3ac8b123ac3aab145",
+        "wikitext_bytes": 7332
+      },
+      {
+        "title": "Vorlage:Mathkor",
+        "pageid": 22402,
+        "revid": 1107107,
+        "parentid": 1074428,
+        "timestamp": "2026-07-15T08:13:32Z",
+        "mediawiki_sha1": "95be675aee9f09e761b4a62dcb6cdeeed819e9fe",
+        "wikitext_bytes": 586
+      },
+      {
+        "title": "Vorlage:Mathl",
+        "pageid": 19002,
+        "revid": 1106112,
+        "parentid": 1106111,
+        "timestamp": "2026-07-07T08:34:54Z",
+        "mediawiki_sha1": "69b03425dbd17fd67bcf5becf6386af67defcbe4",
+        "wikitext_bytes": 666
+      },
+      {
+        "title": "Vorlage:MDLULSiehe",
+        "pageid": 43218,
+        "revid": 255837,
+        "parentid": 0,
+        "timestamp": "2011-02-15T21:52:46Z",
+        "mediawiki_sha1": "e0ba59d137815a85d0e95be72abc909ca9876fed",
+        "wikitext_bytes": 80
+      },
+      {
+        "title": "Vorlage:MDLULZiel",
+        "pageid": 38329,
+        "revid": 233198,
+        "parentid": 0,
+        "timestamp": "2010-08-11T09:57:45Z",
+        "mediawiki_sha1": "74aad562fb0e3916f1900bbae3a75125628ebcb1",
+        "wikitext_bytes": 79
+      },
+      {
+        "title": "Vorlage:Mengebed",
+        "pageid": 19920,
+        "revid": 1106268,
+        "parentid": 604716,
+        "timestamp": "2026-07-09T15:57:00Z",
+        "mediawiki_sha1": "bb1821bdbec724ce06ccc446f906e7bea290f2b3",
+        "wikitext_bytes": 667
+      },
+      {
+        "title": "Vorlage:N Sie",
+        "pageid": 22975,
+        "revid": 1106829,
+        "parentid": 1106828,
+        "timestamp": "2026-07-13T16:36:50Z",
+        "mediawiki_sha1": "1e1bbe37a637c31bb179415b8336da2c795bc96e",
+        "wikitext_bytes": 173
+      },
+      {
+        "title": "Vorlage:Nummer im Kurs",
+        "pageid": 30162,
+        "revid": 1109586,
+        "parentid": 1067863,
+        "timestamp": "2026-07-29T10:08:26Z",
+        "mediawiki_sha1": "7b789f654a9bb14a6a7356e1015595fbfe705c8d",
+        "wikitext_bytes": 5749
+      },
+      {
+        "title": "Vorlage:Nummer im KursKurs",
+        "pageid": 44735,
+        "revid": 262242,
+        "parentid": 0,
+        "timestamp": "2011-04-11T20:53:24Z",
+        "mediawiki_sha1": "10410cdde5ffae89d3b98cb0e9627f4690afecd1",
+        "wikitext_bytes": 62
+      },
+      {
+        "title": "Vorlage:Op:Bruch",
+        "pageid": 23180,
+        "revid": 599751,
+        "parentid": 332211,
+        "timestamp": "2019-09-28T11:03:08Z",
+        "mediawiki_sha1": "8af543c27bfd9fbe3cbe30a57b812c1c6c329cd5",
+        "wikitext_bytes": 223
+      },
+      {
+        "title": "Vorlage:Op:Funktionslimes",
+        "pageid": 31753,
+        "revid": 510673,
+        "parentid": 510672,
+        "timestamp": "2017-07-13T20:22:04Z",
+        "mediawiki_sha1": "76e6be83b8a753a4f3f727dc514686aae3f97e44",
+        "wikitext_bytes": 332
+      },
+      {
+        "title": "Vorlage:Op:Identität",
+        "pageid": 29868,
+        "revid": 511245,
+        "parentid": 330122,
+        "timestamp": "2017-07-14T11:23:25Z",
+        "mediawiki_sha1": "4241282f05661e09aee557554a3fb836d00f6945",
+        "wikitext_bytes": 247
+      },
+      {
+        "title": "Vorlage:Op:Spaltenvektor",
+        "pageid": 21062,
+        "revid": 1074290,
+        "parentid": 1010894,
+        "timestamp": "2026-03-06T16:46:10Z",
+        "mediawiki_sha1": "09b7c7e3823a2aee2ec1628241bf8883fed72e60",
+        "wikitext_bytes": 781
+      },
+      {
+        "title": "Vorlage:Op:Totales Differential",
+        "pageid": 33758,
+        "revid": 639891,
+        "parentid": 510679,
+        "timestamp": "2020-06-16T20:18:41Z",
+        "mediawiki_sha1": "edfe75360bd7d2c76114f9a8aac703ea5c2b5da1",
+        "wikitext_bytes": 392
+      },
+      {
+        "title": "Vorlage:Op:Zeilenvektor",
+        "pageid": 29723,
+        "revid": 1010936,
+        "parentid": 551775,
+        "timestamp": "2025-07-24T16:56:47Z",
+        "mediawiki_sha1": "ee73e1644fcd92d55dc3b1b4fd44c4a12b2606d4",
+        "wikitext_bytes": 536
+      },
+      {
+        "title": "Vorlage:Relationskette",
+        "pageid": 22415,
+        "revid": 1075230,
+        "parentid": 1075122,
+        "timestamp": "2026-03-09T07:28:01Z",
+        "mediawiki_sha1": "662cbd2d2130204300708b70dada8d1d92b22a7a",
+        "wikitext_bytes": 2148
+      },
+      {
+        "title": "Vorlage:Relationskette/display",
+        "pageid": 20280,
+        "revid": 1106843,
+        "parentid": 1075212,
+        "timestamp": "2026-07-13T17:25:55Z",
+        "mediawiki_sha1": "2f4eb507e3e6314bf88f8a723c79bb4783d26c31",
+        "wikitext_bytes": 2459
+      },
+      {
+        "title": "Vorlage:Umrahmung/grün",
+        "pageid": 35233,
+        "revid": 972109,
+        "parentid": 372081,
+        "timestamp": "2025-01-19T13:13:32Z",
+        "mediawiki_sha1": "94ed1234ef3a346dae561e82270ba7e0feb68171",
+        "wikitext_bytes": 196
+      },
+      {
+        "title": "Vorlage:Zusatz/Klammer",
+        "pageid": 23027,
+        "revid": 1061520,
+        "parentid": 794601,
+        "timestamp": "2025-12-06T14:05:03Z",
+        "mediawiki_sha1": "553a6cbef73c578435f9d56adc2816caa614f908",
+        "wikitext_bytes": 286
+      },
+      {
+        "title": "Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Stratifizierung/Aufgabe",
+        "pageid": 111528,
+        "revid": 905186,
+        "parentid": 858978,
+        "timestamp": "2023-07-09T13:40:41Z",
+        "mediawiki_sha1": "4d90bf8d5a3a8cfdbfe032071d2996ff3f7be100",
+        "wikitext_bytes": 581
+      }
+    ]
+  },
+  "solutions": {
+    "worksheet": {
+      "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt 1",
+      "pageid": 110204,
+      "revid": 1069465,
+      "parentid": 991888,
+      "timestamp": "2026-02-05T20:48:01Z",
+      "mediawiki_sha1": "a2c9deb62e10eb9942aac56cde2e33aed04823fd",
+      "wikitext_bytes": 2213,
+      "api_file": "worksheet-01-api.json",
+      "api_bytes": 2735,
+      "api_sha256": "f3f36c3962dbde96dd983181695399d79b3d43d4b88966e7a7978249631318b7",
+      "oldid_url": "https://de.wikiversity.org/w/index.php?oldid=1069465",
+      "xml_file": "worksheet-01.xml",
+      "xml_bytes": 5366,
+      "xml_sha256": "95e392e04115c0dcfc94eebc28bfdbdbdfc1cda3c46d6f008d7d1324b3e81095",
+      "html_file": "worksheet-01.html",
+      "html_bytes": 51374,
+      "html_sha256": "9a5da5ca3e5f042c6b24664c74f95a06bde30491f4c923cea792e34b3b5ed747",
+      "html_source": "reused_frozen_file",
+      "parse_api_file": "worksheet-01-parse-api.json",
+      "parse_api_bytes": 14505,
+      "parse_api_sha256": "ca7b324edf33bd247788a120aa0a1affe612bb9e040375a4015e78a20265ff30",
+      "template_count": 92,
+      "image_count": 2,
+      "link_count": 47,
+      "external_link_count": 0
+    },
+    "exercise_count": 17,
+    "solution_count": 0,
+    "candidate_api_file": "worksheet-solution-candidates-api.json",
+    "candidate_api_bytes": 1899,
+    "candidate_api_sha256": "89db963b3ae3fdff32a8a16317c249849ea6d59ea1b3a19686c9beb382633bc2",
+    "entries": [
+      {
+        "exercise_number": 1,
+        "exercise_title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Übergangsabbildungen/Aufgabe",
+        "solution_title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Übergangsabbildungen/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 2,
+        "exercise_title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Vektorzugehörigkeit/Aufgabe",
+        "solution_title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Vektorzugehörigkeit/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 3,
+        "exercise_title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Fortsetzungsfunktion/Aufgabe",
+        "solution_title": "Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Fortsetzungsfunktion/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 4,
+        "exercise_title": "Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Stratifizierung/Aufgabe",
+        "solution_title": "Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Stratifizierung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 5,
+        "exercise_title": "Körper/Kreuzprodukt/Keine Basis/Aufgabe",
+        "solution_title": "Körper/Kreuzprodukt/Keine Basis/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 6,
+        "exercise_title": "Affin-lineares Bündel/R^2/Fasern/Aufgabe",
+        "solution_title": "Affin-lineares Bündel/R^2/Fasern/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 7,
+        "exercise_title": "Reelles Vektorbündel/Ein Punkt/Aufgabe",
+        "solution_title": "Reelles Vektorbündel/Ein Punkt/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 8,
+        "exercise_title": "Reelles Vektorbündel/Hausdorff/Aufgabe",
+        "solution_title": "Reelles Vektorbündel/Hausdorff/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 9,
+        "exercise_title": "Reelles Vektorbündel/Identität/Aufgabe",
+        "solution_title": "Reelles Vektorbündel/Identität/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 10,
+        "exercise_title": "Triviale Bündel/Homomorphismus/Matrixbeschreibung/Aufgabe",
+        "solution_title": "Triviale Bündel/Homomorphismus/Matrixbeschreibung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 11,
+        "exercise_title": "Stetige differenzierbare Abbildung/Totales Differential/Vektorbündelhomomorphismus/Aufgabe",
+        "solution_title": "Stetige differenzierbare Abbildung/Totales Differential/Vektorbündelhomomorphismus/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 12,
+        "exercise_title": "Tangentialbündel/S^1/Trivial/Aufgabe",
+        "solution_title": "Tangentialbündel/S^1/Trivial/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 13,
+        "exercise_title": "S^1/Weg/Tangentialbündel/Basiskonvergenz/Beispiel/Aufgabe",
+        "solution_title": "S^1/Weg/Tangentialbündel/Basiskonvergenz/Beispiel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 14,
+        "exercise_title": "Einheitssphäre/Untermannigfaltigkeit/Tangentialabbildung/Aufgabe",
+        "solution_title": "Einheitssphäre/Untermannigfaltigkeit/Tangentialabbildung/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 15,
+        "exercise_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung nicht injektiv/Beispiel/Aufgabe",
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung nicht injektiv/Beispiel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 16,
+        "exercise_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung nicht surjektiv/Beispiel/Aufgabe",
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung nicht surjektiv/Beispiel/Aufgabe/Lösung",
+        "has_public_solution": false
+      },
+      {
+        "exercise_number": 17,
+        "exercise_title": "Mannigfaltigkeit/Tangentialabbildung/Stetig/Aufgabe",
+        "solution_title": "Mannigfaltigkeit/Tangentialabbildung/Stetig/Aufgabe/Lösung",
+        "has_public_solution": false
+      }
+    ],
+    "map_file": "ORDERED_EXERCISE_MAP.json",
+    "map_bytes": 6111,
+    "map_sha256": "21244128b357d5fc35d5a8dc7129c27e091a781594516c4f6db87e9202b162ba"
+  },
+  "images": {
+    "lecture": [
+      "Tangent_bundle.svg",
+      "Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)Vorlesung1.pdf",
+      "Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)Arbeitsblatt1.pdf"
+    ],
+    "worksheet": [
+      "Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)Arbeitsblatt1.pdf",
+      "Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)Vorlesung1.pdf"
+    ]
+  },
+  "official_pdf_witnesses": [
+    {
+      "kind": "lecture",
+      "source_file_title": "Datei:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)Vorlesung1.pdf",
+      "pageid": null,
+      "image_timestamp": "2020-02-26T15:09:31Z",
+      "mediawiki_sha1": "8bcd0e8509cf10a5b5413bc5d942a74d208d4dd9",
+      "source_bytes": 128370,
+      "mime": "application/pdf",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/B%C3%BCndel%2C_Garben_und_Kohomologie_%28Osnabr%C3%BCck_2019-2020%29Vorlesung1.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://commons.wikimedia.org/wiki/File:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)Vorlesung1.pdf",
+      "local_path": "authority/artifacts/bgk-lecture-01-official.pdf",
+      "local_bytes": 128370,
+      "local_sha256": "be4103eb7f4631f300c8f5f895de82094d0cd5ffac603eff9d5c7b77aef3d3ce"
+    },
+    {
+      "kind": "worksheet",
+      "source_file_title": "Datei:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)Arbeitsblatt1.pdf",
+      "pageid": null,
+      "image_timestamp": "2020-02-27T13:30:11Z",
+      "mediawiki_sha1": "8de74a3ac277123acc5ff9a64d362569bf18c284",
+      "source_bytes": 53425,
+      "mime": "application/pdf",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/B%C3%BCndel%2C_Garben_und_Kohomologie_%28Osnabr%C3%BCck_2019-2020%29Arbeitsblatt1.pdf?utm_source=de.wikiversity.org&utm_campaign=imageinfo&utm_content=original",
+      "description_url": "https://commons.wikimedia.org/wiki/File:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)Arbeitsblatt1.pdf",
+      "local_path": "authority/artifacts/bgk-worksheet-01-official.pdf",
+      "local_bytes": 53425,
+      "local_sha256": "0f65dad0173f0ad40d22cf5f255f9379aca90a090d0c54cc268379f8628ee70a"
+    }
+  ],
+  "files": [
+    {
+      "file": "CAPTURE_IDENTITY.json",
+      "bytes": 672,
+      "sha256": "0731e57a2b1a76af33fe8f1d6880ab6ad7b44a30e6e4a650ba3da50e125adeee"
+    },
+    {
+      "file": "lecture-01-api.json",
+      "bytes": 2554,
+      "sha256": "96fcd336d5518a0a0bed9e041670dc9dc5de6e712a44313bfaddc935a7570bdb"
+    },
+    {
+      "file": "lecture-01-expanded.tex",
+      "bytes": 32790,
+      "sha256": "7b22065d36d75d01385aabd97edd6e5416f817e1ebf96af9543023242135c77d"
+    },
+    {
+      "file": "lecture-01-latex-page-api.json",
+      "bytes": 388,
+      "sha256": "287c70e667c61eabaf719d5626ecec09c78a717324b4576cc8597fdc404dbe47"
+    },
+    {
+      "file": "lecture-01-latex-page.html",
+      "bytes": 39868,
+      "sha256": "79da54278bc83cef427f77ccaf48b59695a3f4725824b034c20af261e934c795"
+    },
+    {
+      "file": "lecture-01-latex-page.xml",
+      "bytes": 3203,
+      "sha256": "cc781515e325fd747ba38ef6c94fdf1a2e41796592be6653b5e20a9c9f1e4826"
+    },
+    {
+      "file": "lecture-01-parse-api.json",
+      "bytes": 16460,
+      "sha256": "27dc45bd62ed184097ef94c107784be5de961d1fd1d7722d6f668503821e86a1"
+    },
+    {
+      "file": "lecture-01-transclusions-01.json",
+      "bytes": 39906,
+      "sha256": "7e3f461382d2b60f87554b0bc392b82eb052a4220a9ba32952a22e60243a9689"
+    },
+    {
+      "file": "lecture-01-transclusions-02.json",
+      "bytes": 9620,
+      "sha256": "5f6f7f8165997ce53d822de59afd04588fb551b16de2e2df43a5c934cd0adda9"
+    },
+    {
+      "file": "lecture-01-transclusions-03.json",
+      "bytes": 21876,
+      "sha256": "2820b78b9963cfa1eb4e679ca8cb413014d7c808fd9721ad55b7e9a05833c889"
+    },
+    {
+      "file": "lecture-01-transclusions-04.json",
+      "bytes": 68044,
+      "sha256": "70f91c1805ce90d496b2848b7140737fa4f41871f89093acf233cc5640c24729"
+    },
+    {
+      "file": "lecture-01-transclusions-05.json",
+      "bytes": 33205,
+      "sha256": "a7894b57cc79a34437bf50943df233de390473d707bf005fc2e1add8cd6ed10e"
+    },
+    {
+      "file": "lecture-01.html",
+      "bytes": 150565,
+      "sha256": "9bf8fcc4e7cf783da1f450c1529e9e2bdfe26fde87c30efde9d4fbc7e21031b3"
+    },
+    {
+      "file": "lecture-01.xml",
+      "bytes": 5329,
+      "sha256": "68d7783afc1c1353c3298638f150095dad79c2424c356bc09bc50c023ab86392"
+    },
+    {
+      "file": "official-pdfs-api.json",
+      "bytes": 1974,
+      "sha256": "94bc672b4a09ef0d0124e09b540ab426fd2b3fb1c68db46d68b54c184f9561dd"
+    },
+    {
+      "file": "ORDERED_EXERCISE_MAP.json",
+      "bytes": 6111,
+      "sha256": "21244128b357d5fc35d5a8dc7129c27e091a781594516c4f6db87e9202b162ba"
+    },
+    {
+      "file": "worksheet-01-api.json",
+      "bytes": 2735,
+      "sha256": "f3f36c3962dbde96dd983181695399d79b3d43d4b88966e7a7978249631318b7"
+    },
+    {
+      "file": "worksheet-01-expanded.tex",
+      "bytes": 8269,
+      "sha256": "566b4211d5b25be90256a24567f0c448a6cc9fe23aec74c4fde8c6922cba2d97"
+    },
+    {
+      "file": "worksheet-01-latex-page-api.json",
+      "bytes": 391,
+      "sha256": "5ac0660c4656360c9da1114c9762d48afcb8ef0c078ec8a2ae3ff25456ca85c7"
+    },
+    {
+      "file": "worksheet-01-latex-page.html",
+      "bytes": 12259,
+      "sha256": "10e353d835f2b3319721213c9d9790d0376511131e1532329fa16d610598a9ca"
+    },
+    {
+      "file": "worksheet-01-latex-page.xml",
+      "bytes": 3206,
+      "sha256": "0660951cb841168c72729b14071a2edbf08db93e75854b97eae3c03dbc517ec7"
+    },
+    {
+      "file": "worksheet-01-parse-api.json",
+      "bytes": 14505,
+      "sha256": "ca7b324edf33bd247788a120aa0a1affe612bb9e040375a4015e78a20265ff30"
+    },
+    {
+      "file": "worksheet-01-transclusions-01.json",
+      "bytes": 19388,
+      "sha256": "5162a5a168fe3c8973c50a6f40a28ba3c5a8415f85afcc3e73bdd66a36afa2fc"
+    },
+    {
+      "file": "worksheet-01-transclusions-02.json",
+      "bytes": 11956,
+      "sha256": "ef68fdc0864d184fc31bd3ea593a2d9e88a68182e268b834b5d7557823afcbf3"
+    },
+    {
+      "file": "worksheet-01-transclusions-03.json",
+      "bytes": 50374,
+      "sha256": "0a1ba0355d6d8672e3c440c822c99530b50acedaa3323cfc6f21ba62216f7802"
+    },
+    {
+      "file": "worksheet-01-transclusions-04.json",
+      "bytes": 20101,
+      "sha256": "98aadde8c4538c6bf5f5f368f5462bbf5fb1e3cfe5a2d20e4a2294cae60efff2"
+    },
+    {
+      "file": "worksheet-01.html",
+      "bytes": 51374,
+      "sha256": "9a5da5ca3e5f042c6b24664c74f95a06bde30491f4c923cea792e34b3b5ed747"
+    },
+    {
+      "file": "worksheet-01.xml",
+      "bytes": 5366,
+      "sha256": "95e392e04115c0dcfc94eebc28bfdbdbdfc1cda3c46d6f008d7d1324b3e81095"
+    },
+    {
+      "file": "worksheet-solution-candidates-api.json",
+      "bytes": 1899,
+      "sha256": "89db963b3ae3fdff32a8a16317c249849ea6d59ea1b3a19686c9beb382633bc2"
+    }
+  ]
+}

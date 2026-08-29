@@ -1,0 +1,98 @@
+{
+  "schema": "ag-bridge-bgk-unit-authority-qa-v1",
+  "status": "PASS",
+  "unit": 1,
+  "verified_date": "2026-08-28",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "authority": {
+    "lecture_pageid": 109003,
+    "lecture_revid": 1069568,
+    "lecture_mediawiki_sha1": "6e619f166a640629f33e73ac518faff6daff2810",
+    "worksheet_pageid": 110204,
+    "worksheet_revid": 1069465,
+    "worksheet_mediawiki_sha1": "a2c9deb62e10eb9942aac56cde2e33aed04823fd",
+    "lecture_root_plus_dependencies": 126,
+    "worksheet_root_plus_dependencies": 93,
+    "worksheet_exercises": 17,
+    "public_source_solutions": 0,
+    "negative_solution_candidates": 17
+  },
+  "pdf_witnesses": {
+    "lecture": {
+      "path": "authority/artifacts/bgk-lecture-01-official.pdf",
+      "bytes": 128370,
+      "pages": 13,
+      "sha256": "be4103eb7f4631f300c8f5f895de82094d0cd5ffac603eff9d5c7b77aef3d3ce"
+    },
+    "worksheet": {
+      "path": "authority/artifacts/bgk-worksheet-01-official.pdf",
+      "bytes": 53425,
+      "pages": 5,
+      "sha256": "0f65dad0173f0ad40d22cf5f255f9379aca90a090d0c54cc268379f8628ee70a"
+    },
+    "visual_pages_checked": {
+      "lecture": [1, 7, 13],
+      "worksheet": [1, 5]
+    },
+    "visual_result": "PASS"
+  },
+  "media": {
+    "reader_positions": 1,
+    "asset_path": "authority/assets/bgk-tangent-bundle-500.png",
+    "asset_bytes": 109428,
+    "asset_sha256": "768dd5ac37c85fad14c6ede7ddc45988341c03924d5f7e33e9f7223dd9896578",
+    "asset_license": "Public domain / {{PD-self}}",
+    "source_inline_label": "PD",
+    "reported_dimensions": "500x1204",
+    "decoded_dimensions": "500x1284",
+    "dimension_discrepancy_preserved": true
+  },
+  "rights": {
+    "semantic_text_and_translation": "CC BY-SA 4.0",
+    "commons_pdf_metadata": "CC BY-SA 4.0",
+    "embedded_pdf_final_page_notice": "CC BY-SA 3.0",
+    "resolution": "preserve both PDF component notices; no blanket relicensing claim"
+  },
+  "bound_artifacts": {
+    "manifest": {
+      "path": "authority/wikiversity-bgk/unit-01/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 97184,
+      "sha256": "ad271f5ad69f9990dbe3082c22f8c52b7a4c58494c8f6614350078535d4f2ba1"
+    },
+    "exercise_map": {
+      "path": "authority/wikiversity-bgk/unit-01/ORDERED_EXERCISE_MAP.json",
+      "bytes": 6111,
+      "sha256": "21244128b357d5fc35d5a8dc7129c27e091a781594516c4f6db87e9202b162ba"
+    },
+    "rights": {
+      "path": "authority/RIGHTS-bgk-unit-01.csv",
+      "bytes": 2426,
+      "sha256": "531f261e77454f43abb2100022aa50ed6e0537683da2d45163e9bd75412037d9"
+    },
+    "asset_closure": {
+      "path": "authority/ASSET_CLOSURE-bgk-unit-01.json",
+      "bytes": 5748,
+      "sha256": "dcae12b926bfc620ca3ea6d71dc05a322ee9fa57a8b83420ba83e5bbdb96c6fa"
+    },
+    "unit_freezer": {
+      "path": "scripts/freeze_brenner_bgk_unit.py",
+      "bytes": 16102,
+      "sha256": "82ff9c75438a57cfc7b6ad4093589e7edb0df181e28a5298392fdcf5b09a9dcc"
+    },
+    "media_freezer": {
+      "path": "scripts/freeze_bgk_single_image_unit_media.py",
+      "bytes": 24102,
+      "sha256": "b48837102b36547bf4e9077eef2a4eba6e57ef88c87de38c6c83de0c3ada7d61"
+    }
+  },
+  "checks": {
+    "course_and_storage_identity": "PASS",
+    "root_revision_and_recursive_closure": "PASS",
+    "ordered_exercise_and_solution_topology": "PASS",
+    "official_pdf_identity_and_visual_witness": "PASS",
+    "media_binary_and_component_rights": "PASS",
+    "deterministic_double_replay_manifest_sha256": "ad271f5ad69f9990dbe3082c22f8c52b7a4c58494c8f6614350078535d4f2ba1",
+    "classical_authority_namespace_untouched": true
+  },
+  "next_executable_action": "translate BGK Unit 1 and run translation/math/rights QA"
+}

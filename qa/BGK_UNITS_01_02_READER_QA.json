@@ -1,0 +1,116 @@
+{
+  "schema": "ag-bridge-bgk-cumulative-reader-qa-v1",
+  "through_unit": 2,
+  "language": "id-ID",
+  "status": "PASS",
+  "build_receipt": {
+    "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+    "bytes": 4938,
+    "sha256": "aff0d30da72942538851629695bc5742a3e481c5f9da1f1e2a2b8dcd058c18f1"
+  },
+  "outputs": {
+    "html": {
+      "path": "build/reader-bgk-id/index.html",
+      "bytes": 2701882,
+      "sha256": "2223059ff8faf23caa88cb14a365cf3e737fb32e36a017ec33d1a20a9f48aa14",
+      "mathml_nodes_browser": 677,
+      "stable_heading_anchors": 87,
+      "internal_links": 85,
+      "broken_internal_links": 0,
+      "embedded_images": 4,
+      "images_with_empty_alt": 0,
+      "embedded_original_gif": {
+        "bytes": 1557242,
+        "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a",
+        "frames_from_frozen_asset": 24
+      }
+    },
+    "pdf": {
+      "path": "build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-02.pdf",
+      "bytes": 534650,
+      "sha256": "8b85a8e025a349a1e68ba4ac7c9fe196f898e264bc8f7ec0eaab22bd6ecd3dae",
+      "pages_pypdf": 36,
+      "pages_poppler": 36,
+      "page_size_points": [595.276, 841.89],
+      "page_size": "A4",
+      "encrypted": false,
+      "fonts_embedded": true,
+      "normalized_trailer_id": "95e2a0e6ea408df3341890ec5db3ab66",
+      "animated_gif_substitution": {
+        "path": "authority/assets/bgk-fiddler-crab-mobius-strip-frame-001.png",
+        "bytes": 154363,
+        "sha256": "3d4f517d20a1a323629bf92eafee8f391caee3856020262ed693735727ed4d02"
+      }
+    }
+  },
+  "deterministic_replay": {
+    "status": "PASS",
+    "first_html_sha256": "2223059ff8faf23caa88cb14a365cf3e737fb32e36a017ec33d1a20a9f48aa14",
+    "second_html_sha256": "2223059ff8faf23caa88cb14a365cf3e737fb32e36a017ec33d1a20a9f48aa14",
+    "first_pdf_sha256": "8b85a8e025a349a1e68ba4ac7c9fe196f898e264bc8f7ec0eaab22bd6ecd3dae",
+    "second_pdf_sha256": "8b85a8e025a349a1e68ba4ac7c9fe196f898e264bc8f7ec0eaab22bd6ecd3dae",
+    "pdf_trailer_id_normalized_fixed_width": true
+  },
+  "pdf_visual_review": {
+    "renderer": "Poppler pdftoppm",
+    "rasterized_pages": 36,
+    "reviewed_pages": "1-36",
+    "representative_full_resolution_pages": [1, 20, 22, 23, 25, 26, 31, 34, 35, 36],
+    "checks": {
+      "clipped_text": 0,
+      "overlapping_text_or_math": 0,
+      "broken_glyphs": 0,
+      "unreadable_formulas": 0,
+      "broken_links_or_literal_builder_markup": 0,
+      "all_four_images_centered": true,
+      "gif_first_frame_companion_legible": true,
+      "source_correction_notes_legible": true,
+      "page_numbers_present": true,
+      "section_transitions_legible": true,
+      "ending_credits_complete": true
+    }
+  },
+  "responsive_html_review": {
+    "browser": "Codex in-app Chromium",
+    "console_errors_or_warnings": 0,
+    "desktop": {
+      "viewport": "1280x720",
+      "document_client_width_px": 1265,
+      "document_horizontal_overflow": false,
+      "body_width_px": 1224,
+      "body_left_margin_px": 20.44,
+      "body_right_margin_px": 20.56,
+      "content_centered": true,
+      "out_of_viewport_elements": 0
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "document_client_width_px": 375,
+      "document_horizontal_overflow": false,
+      "body_width_px": 375.11,
+      "body_padding_px": 16,
+      "all_four_images_center_delta_px_max": 0.06,
+      "images_centered": true,
+      "display_math_blocks": 198,
+      "display_math_blocks_with_internal_scroll": 15,
+      "wide_math_contained_by_overflow_x_auto": true,
+      "corrected_lemma_visible_and_readable": true
+    },
+    "viewport_override_reset": true
+  },
+  "builder": {
+    "path": "scripts/build_bgk_reader.py",
+    "bytes": 13081,
+    "sha256": "6ef241ce58b6ea102cfdcb5539e55f098a59042ed927f32aa58d8f615c9e1e0f"
+  },
+  "translation_qa": {
+    "path": "qa/BGK_UNIT_02_TRANSLATION_QA.json",
+    "bytes": 5489,
+    "sha256": "285b29c9b4d9ebd938b1106f5b84e2fd6ad3509edbad79f66ebe10d29b42ffee"
+  },
+  "media_closure": {
+    "path": "authority/ASSET_CLOSURE-bgk-unit-02.json",
+    "bytes": 12436,
+    "sha256": "902522f5a7231d562dc09f30bbd13b76ed5c087b17fd533b7d5cc71c0fd4844d"
+  }
+}

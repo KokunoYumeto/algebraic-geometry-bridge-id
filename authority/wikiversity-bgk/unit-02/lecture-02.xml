@@ -1,0 +1,202 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikiversity</sitename>
+    <dbname>dewikiversity</dbname>
+    <base>https://de.wikiversity.org/wiki/Hauptseite</base>
+    <generator>MediaWiki 1.47.0-wmf.17</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikiversity</namespace>
+      <namespace key="5" case="first-letter">Wikiversity Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="106" case="first-letter">Kurs</namespace>
+      <namespace key="107" case="first-letter">Kurs Diskussion</namespace>
+      <namespace key="108" case="first-letter">Projekt</namespace>
+      <namespace key="109" case="first-letter">Projekt Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+      <namespace key="1728" case="first-letter">Veranstaltung</namespace>
+      <namespace key="1729" case="first-letter">Veranstaltung Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 2</title>
+    <ns>106</ns>
+    <id>109004</id>
+    <revision>
+      <id>1019972</id>
+      <parentid>991567</parentid>
+      <timestamp>2025-08-09T13:35:26Z</timestamp>
+      <contributor>
+        <username>Arbota</username>
+        <id>36910</id>
+      </contributor>
+      <minor/>
+      <comment>Ersetzung</comment>
+      <origin>1019972</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3939" sha1="p1lm9ueyc0r4elnmfu319c2qa9niz0l" xml:space="preserve">{{Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesungsgestaltung|2|
+
+{{Zwischenüberschrift|Schnitte}}
+
+{{
+inputdefinition
+|Stetige Abbildung/Stetiger Schnitt/Definition||
+}}
+Man denke bei {{math|term= Y|SZ=}} beispielsweise an ein Vektorbündel über {{math|term= X|SZ=.}} Einen Schnitt kann es nur geben, wenn {{math|term= p|SZ=}} surjektiv ist, was bei einem Vektorbündel stets der Fall ist. Gelegentlich identifiziert man einen Schnitt mit seinem Bild, was problemlos ist, da ein Schnitt stets injektiv ist. Eine besondere Rolle spielt der {{Stichwort|Nullschnitt|SZ=,}} der jedem Basispunkt {{math|term= P|SZ=}} den Nullpunkt im Vektorraum {{math|term= V_P |SZ=}} zuordnet. Für Tangentialbündel haben Schnitte einen eigenen Namen.
+
+{{
+inputdefinition
+|Differenzierbare Mannigfaltigkeit/Zeitunabhängig/Vektorfeld/Definition||
+}}
+
+{{Zwischenüberschrift|Der Satz vom Igel}}
+
+{{
+inputbild
+|Hairy_ball_one_pole|jpg|230px {{!}} right {{!}} 
+|Text=
+|Autor=
+|Benutzer=RokerHRO
+|Domäne=
+|Lizenz=CC-by-sa 3.0
+|Bemerkung=
+}}
+{{
+inputfakt
+|Sphäre/Satz vom Igel/Fakt|Satz||
+||
+}}
+
+Insbesondere ist das Tangentialbündel der {{math|term=2|SZ=-}}Sphäre nicht trivial. Es gibt verschiedene Interpretationen für diesen Satz. Beispielsweise besagt er, dass es auf der Erdoberfläche stets einen Punkt gibt, in dem Windstille herrscht 
+{{
+Zusatz/Klammer
+|text=die momentane horizontale Windrichtung ist ein stetiges Vektorfeld|
+|ISZ=|ESZ=,
+}}
+oder, dass man die Stacheln eines Igels nicht alle an den Igel flach anlegen kann.
+
+{{
+inputbemerkung
+|Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Satz vom Igel/Bemerkung||
+}}
+
+{{Zwischenüberschrift|Verklebungsdaten für topologische Räume}}
+
+Ein Vektorbündel
+{{
+Abbildung
+|name=
+|V|X
+||
+|SZ=
+}}
+{{Anführung|setzt}} sich aus den trivialen Vektorbündeln
+{{
+Abbildung
+|name=
+|V {{|}}_{ U_i }| U_i
+||
+|SZ=
+}}
+zu einer offenen Überdeckung von {{math|term= X|SZ=}} zusammen, wobei die genaue Zusammensetzung eben das Vektorbündel ausmacht. Die Art der Zusammensetzung kann man übersichtlich mit Verklebungsdaten beschreiben. Dafür brauchen wir zunächst generell Verklebungsdaten für topologische Räume. Die grundlegende Fragestellung dahinter ist einfach, was man von einer offenen Überdeckung
+{{
+Relationskette
+|X
+|| \bigcup_{i \in I} U_i
+||
+||
+||
+|SZ=
+}}
+wissen muss, um den Raum {{math|term= X|SZ=}} rekonstruieren zu können. Die kurze Antwort ist, dass man die {{math|term= U_i |SZ=}} kennen muss, die Zweierdurchschnitte {{mathl|term= U_i \cap U_j |SZ=,}} und zwar sowohl als Teilmenge in {{math|term= U_i |SZ=}} als auch in {{math|term= U_j |SZ=}} und wie diese zu identifizieren sind, und dann noch eine Kompatibilitätsbedingung für diese Identifizierungen, die auf je drei Teilmengen Bezug nimmt.
+{{
+inputbild
+|Inclusion-exclusion|svg|230px {{!}} right {{!}} 
+|Text=
+|Autor=
+|Benutzer=Burn~commonswiki
+|Domäne=
+|Lizenz=CC-by-sa 3.0
+|Bemerkung=
+}}
+{{
+inputdefinition
+|Topologischer Raum/Verklebungsdatum/Definition||
+}}
+
+{{
+inputfaktbeweis
+|Topologischer Raum/Verklebungsdatum/Existenz/Fakt|Lemma||
+||
+}}
+
+{{
+inputfaktbeweisaufgabe
+|Topologischer Raum/Verklebungsdatum/Stetige Abbildung/Fakt|Lemma||
+||
+}}
+
+{{Zwischenüberschrift|Verklebungsdaten für Vektorbündel}}
+
+{{
+inputdefinition
+|Topologisches reelles Vektorbündel/Verklebungsdatum/Definition||
+}}
+
+{{
+inputbemerkung
+|Verklebungsdatum/Vektorbündel/Trivialisierungen/Bemerkung||
+}}
+
+{{
+inputfaktbeweis
+|Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt|Lemma||
+||
+}}
+
+{{
+inputbild
+|Fiddler_crab_mobius_strip|gif|230px {{!}} right {{!}} 
+|Text=
+|Autor=
+|Benutzer=Hamishtodd1
+|Domäne=
+|Lizenz=CC-by-sa 4.0
+|Bemerkung=
+}}
+{{
+inputbeispiel
+|Möbiusband/Verklebungsdatum/Beispiel||
+}}
+
+Wir geben eine direkte algebraische Realisierung des Möbiusbandes im {{math|term=\R^4|SZ=}} an.
+{{
+inputbeispiel
+|Möbiusband/Algebraische Realisierung/Verklebungsdatum/Beispiel||
+}}
+
+
+}}</text>
+      <sha1>p1lm9ueyc0r4elnmfu319c2qa9niz0l</sha1>
+    </revision>
+  </page>
+</mediawiki>

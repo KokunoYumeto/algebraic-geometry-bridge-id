@@ -1,0 +1,152 @@
+{
+  "schema": "ag-bridge-bgk-cumulative-reader-qa-v1",
+  "through_unit": 3,
+  "language": "id-ID",
+  "reviewed_date": "2026-08-29",
+  "status": "PASS",
+  "build_receipt": {
+    "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+    "bytes": 6260,
+    "sha256": "6231b460e6de7db904f8056f4746e4c74def88fbeaf7764a4a45d8d774797f99"
+  },
+  "outputs": {
+    "html": {
+      "path": "build/reader-bgk-id/index.html",
+      "bytes": 2847349,
+      "sha256": "2cb348ee10366628742e12847a46d51ba9d58adeaa65187b067ce929ab2ca623",
+      "mathml_nodes_browser": 1044,
+      "stable_heading_anchors": 147,
+      "internal_links_including_skip_link": 141,
+      "broken_internal_links": 0,
+      "duplicate_ids": 0,
+      "embedded_images": 4,
+      "images_with_empty_alt": 0,
+      "main_landmarks": 1,
+      "embedded_original_gif": {
+        "bytes": 1557242,
+        "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a",
+        "frames_from_frozen_asset": 24
+      }
+    },
+    "pdf": {
+      "path": "build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-03.pdf",
+      "bytes": 623876,
+      "sha256": "01655c8ddb8056e03b06f09319f6f73b07daf55e709b2fffb6b83b7cf2a96800",
+      "pages_pypdf": 50,
+      "pages_poppler": 50,
+      "page_size_points": [595.276, 841.89],
+      "page_size": "A4",
+      "encrypted": false,
+      "suspect_objects": false,
+      "forms": false,
+      "javascript": false,
+      "fonts_embedded_and_subset": 13,
+      "fonts_with_unicode_maps": 12,
+      "font_without_unicode_map": "MSAM10",
+      "link_annotations_within_page_bounds": 148,
+      "tagged_pdf": false,
+      "accessibility_note": "The primary accessible surface is the semantic HTML with id-ID language, landmarks, MathML, alt text, scalable viewport, and contained scrollable wide equations; this PDF is not tagged.",
+      "animated_gif_substitution": {
+        "path": "authority/assets/bgk-fiddler-crab-mobius-strip-frame-001.png",
+        "bytes": 154363,
+        "sha256": "3d4f517d20a1a323629bf92eafee8f391caee3856020262ed693735727ed4d02"
+      }
+    }
+  },
+  "deterministic_replay": {
+    "status": "PASS",
+    "first_html_sha256": "2cb348ee10366628742e12847a46d51ba9d58adeaa65187b067ce929ab2ca623",
+    "second_html_sha256": "2cb348ee10366628742e12847a46d51ba9d58adeaa65187b067ce929ab2ca623",
+    "first_pdf_sha256": "01655c8ddb8056e03b06f09319f6f73b07daf55e709b2fffb6b83b7cf2a96800",
+    "second_pdf_sha256": "01655c8ddb8056e03b06f09319f6f73b07daf55e709b2fffb6b83b7cf2a96800",
+    "first_receipt_sha256": "6231b460e6de7db904f8056f4746e4c74def88fbeaf7764a4a45d8d774797f99",
+    "second_receipt_sha256": "6231b460e6de7db904f8056f4746e4c74def88fbeaf7764a4a45d8d774797f99",
+    "pdf_unchanged_by_html_landmark_reflow": true,
+    "pdf_trailer_id_normalized_fixed_width": true,
+    "receipt_timestamp_pinned_to_source_date_epoch": true
+  },
+  "pdf_visual_review": {
+    "renderer": "Poppler pdftoppm",
+    "rasterized_pages": 50,
+    "reviewed_pages": "1-50",
+    "representative_full_resolution_pages": [1, 2, 3, 4, 13, 21, 23, 27, 35, 36, 37, 40, 42, 45, 46, 48, 49, 50],
+    "independent_second_audit": "PASS_ALL_50_PAGES_AT_144_DPI",
+    "checks": {
+      "clipped_text": 0,
+      "overlapping_text_or_math": 0,
+      "broken_glyphs": 0,
+      "unreadable_formulas": 0,
+      "unintended_blank_pages": 0,
+      "broken_links_or_literal_builder_markup": 0,
+      "all_four_images_centered": true,
+      "gif_first_frame_companion_legible": true,
+      "source_correction_notes_legible": true,
+      "page_27_hollow_square_verified_as_explicit_qed_symbol": true,
+      "page_numbers_present": true,
+      "section_transitions_legible": true,
+      "ending_solution_and_credits_complete": true
+    }
+  },
+  "responsive_html_review": {
+    "browser": "Codex in-app Chromium",
+    "console_errors_or_warnings": 0,
+    "semantic_surface": {
+      "html_lang": "id-ID",
+      "scalable_viewport": true,
+      "header_landmarks": 1,
+      "navigation_landmarks": 1,
+      "main_landmarks": 1,
+      "skip_link_target_exists": true,
+      "all_images_have_nonempty_alt": true,
+      "exact_model_provenance_occurrences": 1
+    },
+    "desktop": {
+      "viewport": "1280x720",
+      "document_client_width_px": 1265,
+      "document_horizontal_overflow": false,
+      "body_width_px": 1224,
+      "body_left_margin_px": 20.44,
+      "body_right_margin_px": 20.56,
+      "main_width_px": 972,
+      "main_left_px": 146.44,
+      "main_right_px": 1118.44,
+      "content_centered": true,
+      "out_of_viewport_elements": 0
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "document_client_width_px": 375,
+      "document_horizontal_overflow": false,
+      "body_width_px": 375.11,
+      "body_padding_px": 16,
+      "main_width_px": 343.11,
+      "main_left_px": 16,
+      "main_right_px": 359.11,
+      "images_centered_and_scaled": true,
+      "display_math_blocks_with_internal_scroll": 23,
+      "wide_math_contained_by_overflow_x_auto": true,
+      "unit_3_heading_and_opening_text_visible_and_readable": true
+    },
+    "viewport_override_reset": true
+  },
+  "builder": {
+    "path": "scripts/build_bgk_reader.py",
+    "bytes": 14399,
+    "sha256": "10a96cc77ddb925a0e16fe7c368a60e83b38f46bf333a5588f5777c78d5a20c6"
+  },
+  "reader_css": {
+    "path": "source/id-ID/reader.css",
+    "bytes": 2038,
+    "sha256": "7a0572eee2ded0142b5e057447d573c2ea09bf349822e863a9b8c145f73c02c8"
+  },
+  "translation_qa": {
+    "path": "qa/BGK_UNIT_03_TRANSLATION_QA.json",
+    "bytes": 5916,
+    "sha256": "8bde479b506421bddcdab21c9c0e3fb1c2027fc27d029dce87258cb29e30e6f0"
+  },
+  "media_closure": {
+    "path": "authority/ASSET_CLOSURE-bgk-unit-03.json",
+    "bytes": 6063,
+    "sha256": "618a916073604a94387f04d87565c222be65a5c180ce690342742ae63858ea15"
+  }
+}

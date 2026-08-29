@@ -1,0 +1,923 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{1}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Parameterabhängige lineare Gleichungssysteme}
+</p><p>Wir betrachten die reelle 
+\definitionsverweis {lineare Gleichung}{}{}
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ 7u-5v+2w
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Die Lösungsmenge 
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{L
+}<br />{ =} { \left\{ (u,v,w) \in \R^3  \mid   7u-5v+2w = 0         \right\}  
+}<br />{ \subset} { \R^3
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+ist ein zweidimensionaler reeller Untervektorraum des $\R^3$. Das Lösen einer solchen linearen Gleichung bedeutet u.A. eine
+\definitionsverweis {Basis}{}{}
+für $L$ anzugeben, im vorliegenden Fall ist beispielsweise
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{L
+}<br />{ =} { \langle \begin{pmatrix}  5 \\ 7\\  0   \end{pmatrix}, \begin{pmatrix}  2 \\ 0\\  -7   \end{pmatrix} \rangle
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Die Lösungsmethoden sind hierbei weitgehend
+\zusatzklammer {siehe unten für Einschränkungen zu dieser Behauptung} {} {}
+unabhängig von den konkreten Koeffizienten der linearen Gleichung. Wenn man statt konkreter Zahlen die Koeffizienten in irgendeiner funktionalen Weise von Parametern abhängen lässt, so kann man sich fragen, inwiefern der Lösungsraum mit diesen Parametern variiert. Betrachten wir beispielsweise die von einem Parameter $s$ abhängige lineare Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ 7u-5v+ \left(  s^2-3s-10  \right)  w
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Zu jedem $s$ hängt der Lösungsraum $L_s$  von $s$ ab, er ist nach wie vor ein zweidimensionaler Untervektorraum 
+<br />\mavergleichskette<br />{\vergleichskette<br />{L_s
+}<br />{ \subset }{\R^3
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+der Lösungsraum ist eine mit $s$ wandernde Ebene im Raum. Man kann sich fragen, für welche $s$ der Vektor <br />\mathl{\begin{pmatrix}  5 \\ -3\\  8   \end{pmatrix}}{} eine Lösung ist, also zu $L_s$ gehört. Oder, ob es verschiedene Parameter $s,t$ gibt, für die die Lösungsräume übereinstimmen, also
+<br />\mavergleichskette<br />{\vergleichskette<br />{L_s
+}<br />{ = }{L_t
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+als Untervektorräume des $\R^3$ gilt. Oder, ob es stets eine Basis des Lösungsraumes der Form <br />\mathl{\langle \begin{pmatrix} a \\b\\  0   \end{pmatrix}, \begin{pmatrix} c \\ 0\\ d   \end{pmatrix} \rangle}{} wie oben gibt. Oder, ob es stets einen Lösungsvektor der Form $\begin{pmatrix}  1 \\ 0\\ e   \end{pmatrix}$ gibt. Wir erinnern daran, dass der Lösungsalgorithmus für lineare Gleichungssysteme
+\zusatzklammer {also die Gaußelimination} {} {}
+dann verzweigt, wenn gewisse Koeffizienten $0$ sind bzw. im Verlauf des Algorithmus $0$ werden. Die Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ 7u-5v+ 0  w
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+besitzt den Lösungsraum
+<br />\mathl{\langle \begin{pmatrix}  5 \\ 7\\  0   \end{pmatrix}, \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix} \rangle}{}
+und enthält keinen Vektor der Form <br />\mathl{\begin{pmatrix}  1 \\ 0\\ e   \end{pmatrix}}{.} Da
+<br />\mavergleichskette<br />{\vergleichskette<br />{s
+}<br />{ = }{ -2,5
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+Nullstellen des quadratischen Polynoms <br />\mathl{s^2-3s-10}{} sind, wird in der obigen parametrisierten Gleichung für diese Parameterwerte die Gleichung zu
+<br />\mavergleichskette<br />{\vergleichskette<br />{ 7u-5v+ 0  w
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und daher besitzt für diese beiden Werte der Lösungsraum $L_s$ keinen Vektor der Form <br />\mathl{\begin{pmatrix}  1 \\ 0\\ e   \end{pmatrix}}{.} Für alle anderen Parameterwerte besitzt der Lösungsraum den Vektor <br />\mathl{\begin{pmatrix}  1 \\ 0\\  - { \frac{   7 }{ s^2-3s-10 } }   \end{pmatrix}}{.} Ein gewisser Aspekt des Lösungsraumes hängt also selbst wieder funktional von dem Parameter ab.
+</p><p>Es ist naheliegend, die Abhängigkeit einer linearen Gleichung oder eines linearen Gleichungssystems von Parametern in zwei Schritten zu untersuchen. Im ersten Schritt setzt man die Koeffizienten der Gleichungen selbst als Variablen
+\zusatzklammer {universelle Parameter} {} {}
+an und studiert, wie die Lösungsräume mit diesen Parametern variieren. Insbesondere möchte man qualitative Sprünge im Verhalten der Lösungsräume verstehen. In einem zweiten Schritt stellt man zusätzliche mehr oder weniger restriktive Bedingungen an die universellen Parameter oder man lässt diese funktional von anderen Parametern abhängen. 
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten die allgemeine reelle lineare Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{su +tv
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+in den Variablen $u,v$ und den Parametern <br />\mathl{s,t}{,} die als unbestimmte Koeffizienten der linearen Gleichung dienen. Wir möchten den Lösungsraum
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{L_{(s,t)}
+}<br />{ =} { \left\{ (u,v)  \mid  su+tv = 0         \right\}  
+}<br />{ \subseteq} { \R^2
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+in Abhängigkeit von den Parametern <br />\mathl{(s,t)}{} verstehen. Ein Extremfall liegt bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{(s,t)
+}<br />{ = }{(0,0)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+vor, dann ist die Gleichung für beliebige <br />\mathl{(u,v)}{} erfüllt und der Lösungsraum ist der volle zweidimensionale $\R^2$. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{(s,t)
+}<br />{ \neq }{(0,0)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist der Lösungsraum eindimensional, und ein Basisvektor für diese Lösungsgerade ist durch <br />\mathl{\begin{pmatrix}  t  \\ -s   \end{pmatrix}}{} gegeben. Insbesondere kann man den Lösungsraum über dem Parameterraum <br />\mathl{\R^2 \setminus \{(0,0)\}}{} pauschal beschreiben, es ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ L_{(s,t)}
+}<br />{ =} { \left\{ c \begin{pmatrix}  t  \\ -s   \end{pmatrix}   \mid  c \in \R         \right\}   
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Eine kompaktere Interpretation dieses Sachverhaltes ergibt sich, wenn man den Gesamtlösungsraum der Gleichung als
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{L
+}<br />{ =} { \left\{ (s,t,u,v)  \mid  su+tv = 0         \right\} 
+}<br />{ \subseteq} { \R^4
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+ansetzt. Man beachte, dass $L$ kein linearer Untervektorraum des $\R^4$ ist. Der Lösungsraum zu einem speziellen Parameterwert $(s,t)$ ergibt sich daraus, wenn man $L$  mit den affinen Ebenen <br />\mathl{(s,t) \times \R^2}{} schneidet. Unter der Gesamtabbildung <br />\mathl{p=p_{s,t}}{} 
+<br />\mathdisp {L \longrightarrow \R^2 \times \R^2  \stackrel{p_{s,t} }{\longrightarrow} \R^2, \, (s,t,u,v) \longmapsto, (s,t)} { , }<br />
+ist $L_{(s,t)}$ die 
+\definitionsverweis {Faser}{}{}
+zu <br />\mathl{(s,t)}{.} Im Gesamtlösungsraum ist die Variation der Lösungsgeraden in Abhängigkeit vom Parameter und die Degenerierung zu einer Lösungsebene über dem Nullpunkt sichtbar. Das Verhalten außerhalb des Parameternullpunktes wird durch die eingeschränkte Abbildung
+\maabbdisp {} {L' = L \setminus \left(  \R^2 \times (0,0)  \right) =  p^{-1} \left(  \R^2 \setminus \{(0,0)\}   \right) } {\R^2 \setminus \{(0,0)\}
+} {}
+beschrieben. Jede Faser dieser eingeschränkten Projektion ist der eindimensionale Lösungsraum. Ferner gibt es eine bijektive Abbildung
+\maabbeledisp {} { \left(  \R^2 \setminus \{(0,0)\}  \right) \times \R } { L'  
+} {(s,t;c)} { (s,t, ct,-cs)
+} {,}
+die für jeden Parameter <br />\mathl{(s,t)}{} linear ist. Links steht ein direktes Produkt aus dem Basisraum <br />\mathl{\R^2 \times (0,0)}{} und der Faser $\R$, die unabhängig vom Basispunkt ist, und rechts steht eine Familie von variierenden Geraden im $\R^2$, doch die angegebene Bijektion zeigt, dass man das eine in das andere übersetzen kann.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten die allgemeine reelle lineare Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ru +sv +tw
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+in den Variablen $u,v,w$ und den Parametern <br />\mathl{r, s,t}{,} die als unbestimmte Koeffizienten der lineare Gleichung dienen. Wir möchten den Lösungsraum
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{L_{(r,s,t)}
+}<br />{ =} { \left\{ (u,v,w)  \mid  ru+sv +tw = 0         \right\}  
+}<br />{ \subseteq} { \R^3
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+in Abhängigkeit von den Parametern <br />\mathl{(r,s,t)}{} verstehen. Ein Extremfall liegt bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{(r,s,t)
+}<br />{ = }{(0,0,0)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+vor, dann ist der Lösungsraum der volle $\R^3$. Bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{(r,s,t)
+}<br />{ \neq }{(0,0,0)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist der Lösungsraum zweidimensional. Wir schließen den Nullpunkt als Parameter aus und betrachten den Gesamtlösungsraum der Gleichung
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{L
+}<br />{ =} { \left\{ (r,s,t,u,v,w)  \mid  ru+sv+tw = 0 , \, (r,s,t) \neq (0,0,0)       \right\} 
+}<br />{ \subseteq} { \R^3 \setminus \{0,0,0\} \times \R^3
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+zusammen mit der Projektion $p$ auf <br />\mathl{\R^3 \setminus \{(0,0,0)\}}{.} Die Faser unter $p$  zu einem speziellen Parameterwert <br />\mathl{(r,s,t)}{} ist der Lösungsraum <br />\mathl{L_{(r,s,t)}}{} zu der durch dieses Parametertupel definierten Gleichung.
+</p><p>Kann man in diesem Beispiel eine Basis für den jeweiligen Lösungsraum angeben, die in einer übersichtlichen, rechnerischen, algebraischen Weise von den Parametern  abhängt? Da wir den Nullpunkt rausgeworfen haben, gilt
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \R^3 \setminus \{0,0,0\} 
+}<br />{ =} { \left\{ (r,s,t)  \mid  r \neq 0        \right\}  \cup \left\{ (r,s,t)  \mid  s \neq 0        \right\}  \cup \left\{ (r,s,t)  \mid  t \neq 0        \right\}  
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+man kann also den Basisraum als eine Vereinigung von drei offenen Mengen schreiben. Wenn man das Verhalten über einer solchen offenen Menge betrachtet, sagen wir über die durch
+<br />\mavergleichskette<br />{\vergleichskette<br />{r
+}<br />{ \neq }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gegebene, so kann man darüber eine Basis angeben, nämlich durch
+<br />\mathdisp {\left(  s   , \,   -r  , \,   0                 \right) \text{   und } \left(  t   , \,   0  , \,   -r                 \right)} { . }<br />
+Dabei sichert
+<br />\mavergleichskette<br />{\vergleichskette<br />{r
+}<br />{ \neq }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+dass die beiden Vektoren linear unabhängig sind. Die beiden Lösungsvektoren sind sogar überall wohldefinierte Lösungen, verlieren aber bei
+<br />\mavergleichskette<br />{\vergleichskette<br />{r
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ihre lineare Unabhängikeit und bilden also nicht überall eine Basis. Aber jedenfalls ist
+\maabbeledisp {} { \left\{ (r,s,t)  \mid  r \neq 0        \right\}  \times \R^2  } { L \vert_{ \left\{ (r,s,t)  \mid  r \neq 0        \right\}    } 
+} {(r,s,t;c,d)} { c \left(  s   , \,   -r  , \,   0                 \right)  +d \left(  t   , \,   0  , \,   -r                 \right)
+} {,}
+eine rechnerisch einfache Bijektion zwischen dem Produktraum der Basis und dem $\R^2$ einerseits und dem Lösungsraum oberhalb von <br />\mathl{\left\{ (r,s,t)  \mid  r \neq 0        \right\}}{.} 
+</p><p>Wir fragen uns, ob es möglich ist, global, also auf ganz <br />\mathl{\R^3 \setminus \{ \left(  0   , \,   0  , \,   0                 \right) \}}{,} eine mit dem Basisraum variiende Basis des Lösungsraums anzugeben. Gefragt ist also nach der Existenz von zwei Funktionen
+\mathkor {} {u(r,s,t)} {und} {v(r,s,t)} {}
+mit Werten im $\R^3$ und der Eigenschaft, dass sie stets eine Basis des Lösungsraumes bilden
+\zusatzklammer {und insbesondere zum Lösungsraum gehören} {} {.}
+Ohne jede weitere Bedingung an
+\mathkor {} {u} {und} {v} {}
+ist dies möglich, da man ja durch eine Fallunterscheidung solche Funktionen definieren kann. Aber schon wenn man fordert, dass die beiden Funktionen stetig sein sollen, ist dies nicht mehr möglich. Wegen der Stetigkeit sind die Funktionen
+\mathkor {} {u} {und} {v} {}
+bereits auf der offenen Teilmenge
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{U
+}<br />{ =} { \left\{ (r,s,t)  \mid  r \neq 0        \right\}  
+}<br />{ \subseteq} { \R^3 \setminus \{ \left(  0   , \,   0  , \,   0                 \right) \}
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+festgelegt, da man jeden Punkt aus $\R^3$ durch eine Folge aus der offenen Menge $U$ approximieren kann. Mit der oben angegebenen Basis oberhalb dieser Menge kann man jedenfalls
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ u
+}<br />{ =} { \alpha(r,s,t) \begin{pmatrix}  s  \\ -r\\  0   \end{pmatrix} + \beta(r,s,t) \begin{pmatrix}  t  \\ 0 \\  -r   \end{pmatrix} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ v
+}<br />{ =} { \gamma(r,s,t) \begin{pmatrix}  s  \\ -r\\  0   \end{pmatrix} + \delta(r,s,t) \begin{pmatrix}  t  \\ 0 \\  -r   \end{pmatrix} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit stetigen reellwertigen Funktionen $\alpha, \beta, \gamma, \delta$ auf der offenen Menge $U$ schreiben. Wir können nicht erwarten, dass diese Funktionen auf dem ganzen $\R^3$ definiert sind, weshalb im stetigen Fall die Argumentation komplizierter werden würde. Das Resultat wird sich aus
+<a href="/wiki/Sph%C3%A4re/Satz_vom_Igel/Fakt" title="Sphäre/Satz vom Igel/Fakt">Satz 2.3</a>
+ergeben, siehe
+<a href="/wiki/Lineare_Gleichung/Drei_Variablen/Parameter/Trivialisierungen/Satz_vom_Igel/Bemerkung" title="Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Satz vom Igel/Bemerkung">Bemerkung 2.4</a>.
+Daher beschränken wir uns auf den Fall, dass diese Funktionen rationale Funktionen sind, in deren Nenner eine Potenz von $r$ vorkommen kann
+\zusatzklammer {das sind die rationalen Funktionen auf $U$} {} {.}
+Betrachten wir
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{u
+}<br />{ =} { \alpha \begin{pmatrix}  s  \\ -r\\  0   \end{pmatrix}  + \beta \begin{pmatrix}  t  \\ 0 \\  -r   \end{pmatrix} 
+}<br />{ =} { { \frac{   P  }{ r^m } } \begin{pmatrix}  s  \\ -r\\  0   \end{pmatrix}  + { \frac{   Q  }{ r^n } } \begin{pmatrix}  t  \\ 0 \\  -r   \end{pmatrix} 
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit Polynomen
+\mathkor {} {P} {und} {Q} {,}
+wobei der Faktor $r$ rausgekürzt sei. Da $u$ insgesamt auf ganz $\R^3$ definiert ist, kann $m$ 
+\zusatzklammer {ebenso $n$} {} {}
+höchstens $1$ sein
+\zusatzklammer {sonst hätte $u$ einen Pol} {} {.}
+Die erste Zeile führt
+\zusatzklammer {bei
+<br />\mavergleichskettek<br />{\vergleichskettek<br />{m
+}<br />{ = }{ n
+}<br />{ = }{ 1
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}} {} {}
+auf eine polynomiale Gleichung der Form
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ rN+ sP+tQ 
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit Polynomen
+<br />\mavergleichskette<br />{\vergleichskette<br />{N,P,Q
+}<br />{ \in }{ \R[r,s,t]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+In diesem Fall ist
+\zusatzklammer {Stichwort Koszul-Auflösung} {} {}
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{(N,P,Q)
+}<br />{ =} { A (-s,r,0)+ B(t,0,-r) +C(0,t,-s)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit Polynomen
+<br />\mavergleichskette<br />{\vergleichskette<br />{A,B,C
+}<br />{ \in }{ \R[r,s,t]
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Entsprechend ergibt sich für $v$ eine Darstellung mit <br />\mathl{(N',P',Q')}{} bzw. <br />\mathl{(A',B',C')}{.} Wir betrachten die Abbildung
+\maabbeledisp {\varphi} {X \times \R^3} { L \subseteq X \times \R^3
+} {(r,s,t; a,b,c )} { (r,s,t; a(-s,r,0)+ b(t,0,-r) + c(0,t,-s)  )
+} {.}
+Unter dieser Abbildung werden die Polynomtupel <br />\mathl{(A,B,C)}{} bzw. <br />\mathl{(A',B',C')}{}
+\zusatzklammer {die wir als Abbildungen
+\maabb {} { X } { X \times \R^3
+} {}
+auffassen} {} {}
+auf
+\mathkor {} {u} {bzw.} {v} {}
+abgebildet. Da diese nach Voraussetzung in jedem Punkt eine Basis der zugehörigen Faser  von $L$ bilden, sind 
+\mathkor {} {(A,B,C)} {und} {(A',B',C')} {}
+in jedem Punkt linear unahängig. Das Tupel <br />\mathl{(t,s,-r)}{} wird unter $\varphi$ in jedem Punkt auf $0$
+\zusatzklammer {in der Faser} {} {}
+abgebildet. Daher bilden die <br />\mathl{(A,B,C),\, (A',B',C')}{} und <br />\mathl{(t,s,-r)}{} in jedem Punkt eine Basis von $\R^3$, da <br />\mathl{(t,s,-r)}{} in keinem Punkt als Linearkombination von
+\mathkor {} {(A,B,C)} {und} {(A',B',C')} {}
+geschrieben werden kann. Die
+\definitionsverweis {Determinante}{}{}
+der Matrix
+<br />\mathdisp {\begin{pmatrix}  A   &amp;   B  &amp;  C  \\  A' &amp; B' &amp; C' \\ t  &amp;  s  &amp;  -r \end{pmatrix}} {  }<br />
+ist aber eine Linearkombination der Variablen <br />\mathl{r,s,t}{} im Polynomring. Daher ist dies keine Einheit im Polynomring. Im reellen Fall kann man daraus noch nicht schließen, dass die Determinante eine reelle Nullstelle in $X$ hat 
+\zusatzklammer {wenn die Determinante beispielsweise die Form <br />\mathl{r^2+s^2+t^2}{} besitzt} {} {.}
+Wenn man aber statt mit $\R$ mit ${\mathbb C}$ arbeitet, so ändert sich an der algebraischen Argumentation nichts und man kann folgern, dass die Determinante in
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ X_{\mathbb C}
+}<br />{ =} { {\mathbb C}^3 \setminus \{ (0,0,0)\}
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+Nullstellen besitzt und daher nicht überall eine Basis vorliegen kann.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten das allgemeine reelle lineare Gleichungssystem
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ au +bv +cw
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+und
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ du +ev +fw
+}<br />{ =} { 0
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+in den Variablen $u,v,w$ und den Parametern <br />\mathl{a, b,c,d,e,f}{,} die als unbestimmte Koeffizienten des linearen Gleichungssystems dienen. Wenn die Parameter hinreichend allgemein sind, genauer, wenn zwischen den beiden Gleichungen keine lineare Relation besteht, so ist der Lösungsraum
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{L_{(a, b,c,d,e,f)}
+}<br />{ =} { \left\{ (u,v,w)  \mid  au+bv +cw = 0 \text{ und } du+ev +fw = 0         \right\}  
+}<br />{ \subseteq} { \R^3 
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+jeweils eine Gerade im $\R^3$. Die Parameter definieren also unter dieser Bedingung eine Familie von variierenden Geraden im $\R^3$. Der relevante
+\zusatzklammer {für die Geradenfamilie} {} {}
+Parameterraum ist
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{P
+}<br />{ =} { \left\{  \left(  a   , \,   b  , \,   c , \,   d   , \,   e  , \,   f    \right)   \mid   \left(  a   , \,   b  , \,  c          \right) \text{ und } \left(  d   , \,   e  , \,  f          \right) \text{ linear unabhängig}         \right\}  
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+es liegt insgesamt der totale Lösungsraum
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ L
+}<br />{ =} { \left\{  \left(  a   , \,   b  , \,   c , \,   d   , \,   e  , \,   f   , \,   u    , \,   v , \,   w   \right)   \mid  au +bv+cw = 0 \text{ und } du +ev+fw = 0         \right\}  
+}<br />{ \subseteq} { P \times \R^3
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+mit der Projektion auf $P$ vor.
+</p><p>Kann man diese Gerade bzw. ein Basiselement dafür in Abhängigkeit der Parameter global angeben? Wenn man die beiden zu erfüllenden Gleichungen als Orthogonalitätsrelationen betrachtet, so geht es um einen nichttrivialen Vektor, der auf beiden Bedingungsvektoren
+\mathkor {} {\begin{pmatrix}  a  \\b \\ c   \end{pmatrix}} {und} {\begin{pmatrix}  e  \\f \\ g   \end{pmatrix}} {}
+senkrecht steht. Diese Eigenschaft erfüllt bekanntlich das 
+\definitionsverweis {Kreuzprodukt}{}{}
+der beiden Vektoren, also <br />\mathl{\begin{pmatrix} bf-c e   \\ -a f + c d \\  ae -b d   \end{pmatrix}}{} 
+\zusatzklammer {siehe
+<a href="/wiki/K%5E3/Kreuzprodukt/Eigenschaften/Fakt" title="K^3/Kreuzprodukt/Eigenschaften/Fakt">Lemma 33.3 (Lineare Algebra (Osnabrück 2024-2025))</a>
+für die relevanten Eigenschaften des Kreuzproduktes} {} {.}
+</p><p>Insgesamt liegt also eine Bijektion
+\maabbeledisp {} {P \times \R} { L
+} { \left(  a   , \,   b  , \,   c , \,   d   , \,   e  , \,   f   , \,   s        \right) } { \left(  a   , \,   b  , \,   c , \,   d   , \,   e  , \,   f   , \,   s(bf-ce)    , \,  s(-af+ce) , \,  s(ae-bd)   \right)
+} {,}
+vor.
+</p>
+</div><p><br />
+</p><p>}  
+</p><p>In
+<a href="/wiki/Lineare_Gleichung/Zwei_Variablen/Parameter/Trivialisierung/Beispiel" title="Lineare Gleichung/Zwei Variablen/Parameter/Trivialisierung/Beispiel">Beispiel 1.1</a>
+und in
+<a href="/wiki/Zwei_lineare_Gleichungen/Drei_Variablen/Parameter/Trivialisierung/Beispiel" title="Zwei lineare Gleichungen/Drei Variablen/Parameter/Trivialisierung/Beispiel">Beispiel 1.3</a>
+liegen sogenannte globale polynomiale Trivialisierungen vor, das gegebene komplizierte geometrische Objekt lässt sich also mit Hilfe von polynomialen Funktionen in das einfache Objekt <br />\mathl{P \times \R}{,} wobei $P$ den Basisraum bezeichnet, übersetzen. Dagegen war eine solche globale Trivialisierung in
+<a href="/wiki/Lineare_Gleichung/Drei_Variablen/Parameter/Trivialisierungen/Beispiel" title="Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Beispiel">Beispiel 1.2</a>
+nicht möglich, obwohl dort auf den drei angegebenen offenen Teilmengen des Basisraumes lokal Trivialisierung existieren. Solche geometrischen Objekte nennt man Vektorbündel.
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Reelle Vektorbündel}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{r
+}<br />{ \in }{\N
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Ein
+\definitionswort {reelles Vektorbündel}{} 
+$V$ vom
+\definitionswort {Rang}{}
+$r$ ist ein topologischer Raum zusammen mit einer 
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabb {p} { V } { X
+} {}
+derart, dass jede
+\definitionsverweis {Faser}{}{}
+$p^{-1}(x)$ ein
+$r$-\definitionsverweis {dimensionaler}{}{}
+\definitionsverweis {reeller Vektorraum}{}{}
+ist und dass es eine 
+\definitionsverweis {offene Überdeckung}{}{}
+<br />\mavergleichskette<br />{\vergleichskette<br />{X
+}<br />{ = }{ \bigcup_{i \in I} U_i
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+\definitionsverweis {Homöomorphismen}{}{}
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+über $U_i$ gibt, die in jeder Faser einen
+\definitionsverweis {linearen Isomorphismus}{}{}
+\maabbdisp {\left(  \varphi_i  \right)_x} {p^{-1} (x) } { \R^r
+} {}
+induzieren.  
+</p>
+</div>
+<p>}
+</p><p>Dabei nennt man $V$ auch den \stichwort {Totalraum} {} und $X$ den \stichwort {Basisraum} {} des Vektorbündels. Für die Faser schreibt man oft auch 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V_x
+}<br />{ = }{ p^{-1} (x)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+In den obigen Beispielen ist $X$ der relevante Parameterraum, also der Ort der Parameter, für die die Lösungsräume die minimale Dimension haben. Diese Dimension ist der Rang $r$ der vorstehenden Definition, also $1,2,1$. Im ersten und im dritten Beispiel besteht die offene Überdeckung allein aus dem Basisraum selbst, diese Bündel haben eine globale Trivialisierung, im zweiten Beispiel liegt eine offene Überdeckung mit drei offenen Mengen vor, über der die Trivialisierungen angegeben wurden.
+In der Homöomorphie
+\maabb {} { p^{-1}(U) } { U \times \R^r
+} {}
+ist die rechte Seite mit der
+\definitionsverweis {Produkttopologie}{}{}
+und der $\R^r$ mit der natürlichen 
+\definitionsverweis {euklidischen Topologie}{}{}
+und <br />\mathl{p^{-1}(U)}{} ist mit der induzierten Topologie von $V$ versehen. Somit tragen alle Fasern $V_x$ die natürliche Topologie eines endlichdimensionalen reellen Vektorraumes. Mit Homöomorphismus über $U$ ist gemeint, dass das Diagramm
+<br />\mathdisp {\begin{matrix} p^{-1}(U)  &amp; \stackrel{  }{\longrightarrow} &amp;  U \times \R^n   &amp; \\ &amp;  \searrow &amp; \downarrow &amp; \\ &amp; &amp; U  &amp; \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }<br /> 
+kommutiert. Das Produkt <br />\mathl{X \times \R^r}{} ist ein Vektorbündel, das das \stichwort {triviale Vektorbündel} {} heißt.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Topologischer Raum/Reelles Vektorbündel/Einschränkung/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei
+\maabb {p} { V } { X
+} {}
+ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+über einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$.}<br />\faktfolgerung {Dann ist zu jeder 
+\definitionsverweis {offenen Menge}{}{}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ W
+}<br />{ \subseteq }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+die 
+\definitionsverweis {Einschränkung}{}{}
+\maabbdisp {} {p^{-1} (W)} {W
+} {}
+ebenfalls ein Vektorbündel.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Dies ist klar, man muss einfach nur die faserweise linearen Homöomorphismen
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+zu
+\maabbdisp {\varphi_i \vert_{W \cap U_i }} {p^{-1} \left(  W \cap U_i  \right) } { \left(  W \cap U_i  \right)  \times \R^r
+} {}
+einschränken.
+</p>
+</div>
+}</div>
+<p><br />
+Die Einschränkung eines Vektorbündels auf die $U_i$ ist trivial. Lokal ist also jedes Vektorbündel trivial.
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {E} {und} {F} {}
+\definitionsverweis {reelle Vektorbündel}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Ein
+\definitionswort {Homomorphismus von Vektorbündeln}{}
+\maabb {\varphi} { E } { F
+} {}
+ist eine 
+\definitionsverweis {stetige Abbildung}{}{}
+über $X$ derart, dass für jeden Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ x
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+die induzierte Abbildung
+\maabbdisp {\varphi_x} { E_x} {F_x
+} {}
+$\R$-\definitionsverweis {linear}{}{}
+ist.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {E} {und} {F} {}
+\definitionsverweis {reelle Vektorbündel}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Ein
+\definitionsverweis {Homomorphismus von Vektorbündeln}{}{}
+\maabb {\varphi} { E } { F
+} {}
+heißt
+\definitionsverweis {Isomorphismus}{}{,}
+wenn es einen Homomophismus
+\maabb {\psi} { F } { E
+} {}
+gibt, der verknüpft mit $\varphi$
+\zusatzklammer {in beiden Reihenfolgen} {} {} die Identität ergibt.  
+</p>
+</div>
+<p>}  
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Das Tangentialbündel auf einer Mannigfaltigkeit}
+</p><p>Wir besprechen ein weiteres besonders wichtigens Vektorbündel, das es auf jeder Mannigfaltigkeit gibt, das Tangentialbündel.
+</p><p>Zu jedem Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+einer Mannigfaltigkeit gehört der
+\definitionsverweis {Tangentialraum}{}{}
+<br />\mathl{T_PM}{.} Der Tangentialraum ist ein $n$-dimensionaler Vektorraum, wobei $n$ die Dimension der Mannigfaltigkeit ist. Seine Elemente sind die Tangentenvektoren, das sind \anfuehrung{infinitesimale Richtungen}{} an diesem Punkt. Solche Tangen\-ten-Richtungen an zwei verschiedenen Punkten haben zunächst einmal nichts miteinander zu tun, da ihre präzise Definition jeweils nur von beliebig kleinen offenen Umgebungen der Punkte abhängt, und da diese aufgrund der 
+\definitionsverweis {Hausdorff-Eigenschaft}{}{}
+disjunkt gewählt werden können.
+</p><p>Dem steht radikal die Vorstellung gegenüber, die sich mit einer offenen Menge 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ \subseteq }{ \R^n
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+verbindet. Dort kann man für jeden Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Q
+}<br />{ \in }{ V
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+den Tangentialraum <br />\mathl{T_QV}{} mit dem umgebenden Vektorraum $\R^n$ in natürlicher Weise identifizieren, indem man dem Vektor 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ v
+}<br />{ \in }{ \R^n
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+den Tangentenvektor zuordnet, der durch die lineare Kurve <br />\mathl{t \mapsto Q+tv}{} definiert wird. Da diese Identifizierung für jeden Punkt gilt, besteht zwischen den Tangentialräumen zu
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ Q
+}<br />{ \in} { V
+}<br />{ \subseteq} { \R^n
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+eine direkte Parallelität.
+</p><p>Da eine Mannigfaltigkeit durch offene Mengen überdeckt wird, die diffeomorph zu offenen Mengen in einem euklidischen Raum sind, liegt die Vermutung nahe, dass die verschiedenen Tangentialräume doch nicht völlig isoliert dastehen. Das Konzept des \stichwort {Tangentialbündels} {} vereinigt alle Tangentialräume und ermöglicht es, die lokale Verbundenheit der Tangentialräume wiederzuspiegeln.
+</p><p><br /><br /><br /><br /><br />\bild{ \begin{center}<br />\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tangent_bundle} {svg} }<br />\end{center} <br />\bildtext {Zwei Visualisierungen des Tangentialbündels einer Kreislinie. Oben wird zu jedem Punkt $P$  des Kreises der Tangentialraum an den Kreis \anfuehrung{tangential}{} angelegt und als eindimensionaler affiner Unterraum im umgebenden $\R^2$ realisiert. Diese Einbettung führt zu Überschneidungen, die es im Tangentialbündel aber nicht gibt, da der Basispunkt $P$ mitbedacht werden muss. Unten werden zu jedem Punkt des Kreises die Tangentialräume parallel angeordnet und es ergibt sich ein Zylinder.} }<br /><br />\bildlizenz { Tangent bundle.svg } {} {Oleg Alexandrov} {Commons} {PD} {}<br /> <br />
+</p><p><br />
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Dann nennt man die Menge
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{TM
+}<br />{ =} {\biguplus_{P \in M} T_PM
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{,}
+versehen mit der Projektionsabbildung
+\maabbeledisp {\pi} {TM} {M
+} {(P,v)} {P
+} {,}
+das \definitionswort {Tangentialbündel}{} von $M$.  
+</p>
+</div>
+<p>}
+</p><p>Ein Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{ u
+}<br />{ \in }{ TM
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+in einem Tangentialbündel besitzt also stets einen \stichwort {Basispunkt} {}
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und ist ein Element im Tangentialraum <br />\mathl{T_PM}{.} Man schreibt einen solchen Punkt zumeist als <br />\mathl{(P,v)}{} mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ P
+}<br />{ \in }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und 
+<br />\mavergleichskette<br />{\vergleichskette<br />{ v
+}<br />{ \in }{ T_PM
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Für eine offene Menge
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ \subseteq }{ \R^n
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ TV
+}<br />{ = }{ V \times \R^n
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+also ein Produktraum. Dies gilt im Allgemeinen nicht für eine beliebige Mannigfaltigkeit. Das Tangentialbündel bringt zunächst einmal nur die verschiedenen Tangentialräume disjunkt zusammen, ohne dass verschiedene Tangentialräume miteinander identifiziert würden; allerdings entsteht durch die Topologie, die wir auf dem Tangentialbündel gleich einführen werden, eine zusätzliche \anfuehrung{Nachbarschaftsstruktur}{} zwischen den Tangentialräumen.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es seien
+\mathkor {} {TM} {und} {TN} {}
+die zugehörigen
+\definitionsverweis {Tangentialbündel}{}{.}
+Dann versteht man unter der \definitionswort {Tangentialabbildung}{}
+\maabbdisp {T (\varphi)} {TM} {TN
+} {}
+die disjunkte Vereinigung der 
+\definitionsverweis {Tangentialabbildungen}{}{}
+in den einzelnen Punkten, also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ T (\varphi) 
+}<br />{ =} { \biguplus_{P \in M} T_P(\varphi)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $M$ eine 
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {\alpha} { U } { V
+} {}
+eine 
+\definitionsverweis {Karte}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ V
+}<br />{ \subseteq }{ \R^n
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{}
+\definitionsverweis {offen}{}{.}
+Dann induziert die Karte eine natürliche Bijektion
+\maabbeledisp {T \left(  \alpha^{-1}  \right)} {TV =  V \times \R^n } { TU
+} {(Q,v)} { \left(  \alpha^{-1}(Q) ,[s \mapsto \alpha^{-1}( Q+ sv) ]  \right)
+} {.}
+Dabei bewegt sich
+<br />\mavergleichskette<br />{\vergleichskette<br />{ s
+}<br />{ \in }{ I
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+in einem 
+\definitionsverweis {reellen Intervall}{}{}
+derart, dass
+<br />\mavergleichskette<br />{\vergleichskette<br />{ Q+sv
+}<br />{ \in }{ V
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist
+\zusatzklammer {vergleiche
+<a href="/wiki/Differenzierbare_Mannigfaltigkeit/Differenzierbare_Kurve/Tangentialklassen_und_R%5En_unter_Karte/Fakt" title="Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt">Lemma 77.5 (Analysis (Osnabrück 2014-2016))</a>} {} {.}
+Da <br />\mathl{V \times \R^n}{} ein
+\definitionsverweis {Produkt von topologischen Räumen}{}{}
+ist, ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ T V
+}<br />{ = }{ V \times \R^n
+}<br />{  }{ 
+}<br />{    }{ 
+}<br />{   }{ 
+}<br />}
+{}{}{} 
+selbst ein 
+\definitionsverweis {topologischer Raum}{}{,}
+und es liegt nahe, diese Topologie auf $TU$ zu übertragen und daraus insgesamt eine Topologie auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ zu konstruieren.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+der
+\definitionsverweis {Dimension}{}{}
+$n$ und
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ TM
+}<br />{ =} {\biguplus_{P \in M} T_P M
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+das
+\definitionsverweis {Tangentialbündel}{}{,}
+versehen mit der Projektionsabbildung
+\maabbeledisp {\pi} { TM } { M
+} { (P,v) } { P
+} {.}
+Das \definitionswort {Tangentialbündel}{} wird mit derjenigen
+\definitionsverweis {Topologie}{}{}
+versehen, bei der eine Teilmenge
+<br />\mavergleichskette<br />{\vergleichskette<br />{ W
+}<br />{ \subseteq }{ TM
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+genau dann offen ist, wenn für jede 
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V 
+} {}
+die Menge <br />\mathl{(T(\alpha)) \left(  W \cap \pi^{-1}(U)  \right)}{} offen in <br />\mathl{V \times \R^n}{} ist.  
+</p>
+</div>
+<p>}
+</p><p>Insbesondere ist für jede offene Menge
+<br />\mavergleichskette<br />{\vergleichskette<br />{ U
+}<br />{ \subseteq }{ M
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+das Urbild
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \pi^{-1}(U)
+}<br />{ = }{TU
+}<br />{ \subseteq }{TM
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+offen, d.h. die Projektion $\pi$ ist stetig. Mit diesen Festlegungen ist das Tangentialbündel einer differenzierbaren Mannigfaltigkeit ein reelles Vektorbündel. Wenn
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ M
+}<br />{ =} { \bigcup_{i \in I} U_i
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+eine offene Überdeckung der Mannigfaltigkeit ist, bei der die $U_i$ homöomorph zu offenen Teilmengen $V_i$  des $\R^n$ sind, so liefern die Karten
+\maabbdisp {\alpha_i} { U_i } { V_i
+} {}
+direkt Trivialisierungen
+<br />\mathdisp {TM \vert_{U_i} =TU_i \stackrel{T(\alpha_i)} {\longrightarrow } TV_i = V_i \times \R^n} { . }<br />
+Erstaunlich viele Eigenschaften einer Mannigfaltigkeit schlagen sich in Eigenschaften ihres Tangentialbündels nieder. Es ist möglich, dass das Tangentialbündel trivial ist, obwohl $M$ nicht homöomorph zu einer offenen Teilmenge des $\R^n$ ist. 
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐fdcd4f779‐l7j88
+Cached time: 20260826061523
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.178 seconds
+Real time usage: 0.270 seconds
+Preprocessor visited node count: 14625/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 504862/2097152 bytes
+Template argument size: 152489/2097152 bytes
+Highest expansion depth: 33/100
+Expensive parser function count: 7/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  254.277      1 Vorlage:Latex
+100.00%  254.277      1 -total
+ 99.45%  252.889      1 Kurs:Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)/Vorlesung_1
+ 98.17%  249.625      1 Kurs:Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)/Vorlesungsgestaltung
+ 97.24%  247.262      1 Vorlage:Kapitelnummer
+ 89.63%  227.918      3 Vorlage:Mathematischer_Textabschnitt
+ 42.58%  108.268      1 Lineares_Gleichungssystem/Parameter/Vektorbündel/Textabschnitt
+ 38.50%   97.903      4 Vorlage:Inputbeispiel
+ 33.06%   84.054      1 Topologischer_Raum/Reelles_Vektorbündel/Einführung/Textabschnitt
+ 32.64%   82.986      4 Vorlage:Mathematischer_Text/Beispiel
+-->
+
+<!-- Render ID 856b9646-a115-11f1-ace5-7d57dab59f05 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:110010:|#|:idhash:canonical and timestamp 20260826061523 and revision id 807047. Rendering was triggered because: page_view
+ -->
+</div>

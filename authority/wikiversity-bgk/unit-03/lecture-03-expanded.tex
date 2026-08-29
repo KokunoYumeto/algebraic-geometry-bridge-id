@@ -1,0 +1,2350 @@
+\setcounter{section}{3}
+
+
+
+
+
+
+  \zwischenueberschrift{Lineare Konstruktionen von Vektorbündeln}
+
+Für Vektorräume gibt es eine Vielzahl von Konstruktionen wie die direkte Summe, das Tensorprodukt, den Dualraum. Wir wollen für Vektorbündel entsprechende Konstruktionen einführen, die faserweise mit den Konstruktionen aus der linearen Algebra übereinstimmen, aber auch die Abhängigkeit der Fasern von der Basis mitberücksichtigen. Wir werden dabei mit Verklebungsdaten für Vektorbündel arbeiten und die Tatsache heranziehen, dass es zu zwei Vektorbündeln auf einem topologischen Raum $X$ stets eine
+\zusatzklammer {hinreichende feine} {} {}
+offene Überdeckung von $X$ gibt, bezüglich der beide Bündel Trivialisierungen besitzen. Insbesondere kann man sich auf den Fall zurückziehen, wo beide Bündel durch Matrixbeschreibungen gegeben sind. Die Konstruktionen spielen sich dann auf der Ebene von Matrixmanipulationen ab.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu
+\definitionsverweis {reellen Vektorbündeln}{}{}
+\mathkor {} {E} {und} {F} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \R^m \times \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij} (x,v,w)
+}
+{ \defeq} { \left(  x   , \,   \alpha_j (\alpha_i^{-1} (x,v))  , \,   \beta_j (\beta_i^{-1} (x,w))                 \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionswort {direkte Summe}{}
+der Vektorbündel
+\mathkor {} {E} {und} {F} {.}
+Es wird mit
+\mathl{E \oplus F}{} bezeichnet.
+
+
+
+
+
+}
+
+Wenn $E$ durch die Matrixbeschreibung
+\maabbdisp {\varphi_{ij}} { U_i \cap U_j } { \operatorname{GL}_{ m  } \! \left(  \R  \right)
+} {}
+und $F$ durch die Matrixbeschreibung
+\maabbdisp {\psi_{ij}} { U_i \cap U_j } { \operatorname{GL}_{ n  } \! \left(  \R  \right)
+} {,}
+so erhält man die Matrixbeschreibung von
+\mathl{E \oplus F}{,} indem man die beiden Matrizen diagonal zu einer
+\mathl{(m+n) \times (m+n)}{-}Matrix zusammensetzt und mit Nullen auffüllt.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu
+\definitionsverweis {reellen Vektorbündeln}{}{}
+\mathkor {} {E} {und} {F} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \left(  \R^m  \otimes  \R^n  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij}
+}
+{ \defeq} { \left(  \alpha_j \circ \alpha_i^{-1}  \right)   \otimes \left(  \beta_j  \circ \beta_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {dabei wird für jeden Basispunkt das
+\definitionsverweis {Tensorprodukt der linearen Abbildungen}{}{}
+genommen} {} {}
+das
+\definitionswort {Tensorprodukt}{}
+der Vektorbündel
+\mathkor {} {E} {und} {F} {.}
+Es wird mit
+\mathl{E \otimes F}{} bezeichnet.
+
+
+
+
+
+}
+
+Bei gegebenen Matrixbeschreibungen erhält man die Matrixbeschreibung des Tensorproduktes durch das sogenannte
+\definitionsverweis {Kroneckerprodukt}{}{.}
+Dabei wird jeder Eintrag der einen Matrix mit jedem Eintrag der anderen Matrix multipliziert.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einem
+\definitionsverweis {reellen Vektorbündel}{}{}
+$E$ vom Rang $m$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \left(   \bigwedge^r \R^m   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij}
+}
+{ \defeq} {  \bigwedge^r \left(  \alpha_j \circ \alpha_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {dabei wird für jeden Basispunkt das $r$-te
+\definitionsverweis {äußere Produkt der linearen Abbildungen}{}{}
+genommen} {} {}
+das $r$-te
+\definitionswort {äußere Produkt}{}
+des Vektorbündels $E$. Es wird mit
+\mathl{\bigwedge^r E}{} bezeichnet.
+
+
+
+
+
+}
+Bei einer gegebenen Matrixbeschreibung von $E$ erhält man die Matrixbeschreibung des $r$-ten äußeren Produktes, indem man sämtliche
+\definitionsverweis {Determinanten}{}{}
+der
+$r \times r$-\definitionsverweis {Untermatrizen}{}{}
+zu einer Matrix zusammenfasst.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einem
+\definitionsverweis {reellen Vektorbündel}{}{}
+$E$ vom Rang $m$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ nennt man das $m$-te
+\definitionsverweis {äußere Produkt}{}{}
+
+\mathl{\bigwedge^m E}{} das
+\definitionswort {Determinantenbündel}{}
+von $E$. Es wird mit
+\mathl{\det  E}{} bezeichnet.
+
+
+
+
+
+}
+Das Determinantenbündel ist ein Geradenbündel. Die Matrixbeschreibung ist durch die Determinante gegeben.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu
+\definitionsverweis {reellen Vektorbündeln}{}{}
+\mathkor {} {E} {und} {F} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times  \operatorname{Hom}_{ \R } \left(   \R^m , \R^n   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij} (\theta)
+}
+{ \defeq} { \left(  \beta_j  \circ \beta_i^{-1}  \right)    \circ \theta \circ \left(  \alpha_i \circ \alpha_j^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionswort {Homomorphismenbündel}{}
+der Vektorbündel
+\mathkor {} {E} {und} {F} {.}
+Es wird mit
+\mathl{\operatorname{Hom} \left(    E ,  F  \right)}{} bezeichnet.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einem
+\definitionsverweis {reellen Vektorbündel}{}{}
+$E$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ nennt man das
+\definitionsverweis {Homomorphismenbündel}{}{}
+
+\mathl{\operatorname{Hom} \left(    E ,  X \times \R  \right)}{} das
+\definitionswort {duale Bündel}{}
+von $E$. Es wird mit
+\mathl{E ^*}{} bezeichnet.
+
+
+
+
+
+}
+
+Auf einer Mannigfaltigkeit ist das duale Bündel zum Tangentialbündel das sogenannte \stichwort {Kotangentialbündel} {.}
+
+
+
+
+
+  \zwischenueberschrift{Prägarben}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}
+Unter einer
+\definitionswort {Prägarbe}{}
+${ \mathcal F  }$ auf $X$ versteht man eine Zuordnung, die jeder
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Menge ${ \mathcal  F   }  \left(   U   \right)$ und zu je zwei offenen Mengen
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Abbildung}{}{}
+\maabbdisp {\rho_{V,U}} { { \mathcal  F   }  \left(   V   \right)   } { { \mathcal  F   }  \left(   U   \right)
+} {}
+zuordnet, wobei diese Zuordnung die beiden folgenden Bedingungen erfüllen muss.
+\aufzaehlungzwei {Zu
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \rho_{U,U}
+}
+{ =} {
+\operatorname{Id}_{  { \mathcal  F   }  \left(   U   \right)  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+} {Zu offenen Mengen
+
+\mavergleichskettedisp
+{\vergleichskette
+{U
+}
+{ \subseteq} { V
+}
+{ \subseteq} { W
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist stets
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \rho_{W,U}
+}
+{ =} { \rho_{V,U} \circ  \rho_{W,V}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}
+
+
+
+
+
+}
+
+Die Abbildungen $\rho_{V,U}$ heißen dabei \stichwort {Restriktionsabbildungen} {.} Die Mengen
+\mathl{{ \mathcal F  }  \left(  U   \right)}{} nennt man auch die Auswertung der Prägarbe an der offenen Menge $U$.
+
+Grundbeispiele für Prägarben
+\zusatzklammer {und Garben} {} {}
+sind die folgenden Konstruktionen.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {X} {und} {Z} {}
+\definitionsverweis {topologische Räume}{}{.}
+Jeder offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man die Menge der auf $U$ definierten
+\definitionsverweis {stetigen Abbildungen}{}{}
+nach $Z$ zuordnen, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ C^0 (U,Z)
+}
+{ =} { \left\{  \varphi:U \rightarrow Z  \mid   \varphi \text{ stetig}         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da man eine stetige Abbildung
+\maabb {\varphi} { U } { Z
+} {}
+auf jede
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einschränken kann und da man zu
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ V
+}
+{ \subseteq }{ W
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Einschränkung von $W$ auf $U$ in einem Schritt oder in zwei Schritten machen kann, erhält man eine
+\definitionsverweis {Prägarbe}{}{.}
+
+
+
+
+
+}
+
+Ein Spezialfall hiervon wird im folgenden Beispiel formuliert, in dem eine zusätzliche Struktur, nämlich ein \stichwort {beringter Raum} {} vorliegt.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}
+Jeder offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man die Menge der auf $U$ definierten reellwertigen stetigen Funktionen zuordnen, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \mathcal  C   }  \left(   U   \right)
+}
+{ =} { C^0 (U,\R)
+}
+{ =} { \left\{  f:U \rightarrow \R  \mid  f \text{ stetig}         \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da man eine stetige Funktion
+\maabb {f} { U } { \R
+} {}
+auf jede
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einschränken kann, erhält man eine
+\definitionsverweis {Prägarbe}{}{.}
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Jeder offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man die Menge der auf $U$ definierten reellwertigen
+\definitionsverweis {differenzierbaren Funktionen}{}{}
+zuordnen, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \mathcal  C   }  \left(   U   \right)
+}
+{ =} { C^1 (U,\R)
+}
+{ =} { \left\{  f:U \rightarrow \R  \mid  f \text{ stetig differenzierbar}         \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da man eine differenzierbare Funktion
+\maabb {f} { U } { \R
+} {}
+auf jede
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einschränken kann, erhält man eine
+\definitionsverweis {Prägarbe}{}{.}
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ und zu einer fixierten Menge $M$ ist die Zuordnung, die jeder
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Menge $M$ und jeder Inklusion die Identität auf $M$ zuordnet, eine
+\definitionsverweis {Prägarbe}{}{,}
+die die \stichwort {konstante Prägarbe} {} heißt.
+
+
+
+
+
+}
+
+Im folgenden Beispiel denke man an ein Vektorbündel über der Basis $X$.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {topologische Räume}{}{}
+und es sei
+\maabbdisp {p} { Y } { X
+} {}
+eine fixierte
+\definitionsverweis {stetige Abbildung}{}{.}
+Diese Situation induziert  für jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine stetige Abbildung
+\maabbdisp {} {Y \vert_U = p^{-1}(U) } { U
+} {.}
+Somit kann man zu $U$  die Menge der auf $U$ definierten
+\definitionsverweis {stetigen Schnitte}{}{}
+zu
+\maabb {} { p^{-1}(U) } { U
+} {}
+zuordnen, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ S (U,Y)
+}
+{ =} { \left\{  s:U \rightarrow p^{-1}(U)  \mid   s \text{ stetiger Schnitt zu } p         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da man einen stetigen Schnitt auf jede
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einschränken kann, wobei der Bildbereich entsprechend auf
+\mathl{p^{-1}(V)}{} eingeschränkt wird, erhält man eine
+\definitionsverweis {Prägarbe}{}{.}
+
+
+
+
+
+}
+
+Aufgrund dieses wichtigen Beispiels nennt man ein Element
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ \in }{ { \mathcal F  }  \left(  U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auch einen \stichwort {Schnitt} {} der Prägarbe
+\mathl{{ \mathcal F  }}{} über $U$. Für die Einschränkung eines Schnittes auf eine kleinere offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+schreibt man auch suggestiver
+
+\mavergleichskettedisp
+{\vergleichskette
+{ s \vert_V
+}
+{ =} { \rho_{U,V} (s)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  F   }$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ heißt eine Prägarbe ${ \mathcal  G   }$ eine
+\definitionswort {Unterprägarbe}{}
+von ${ \mathcal  F   }$, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ { \mathcal  G   }  \left(   U   \right)
+}
+{ \subseteq }{ { \mathcal  F   }  \left(   U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für jede
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+
+
+
+
+
+}
+
+Da differenzierbare Funktionen auf einer Mannigfaltigkeit insbesondere stetig sind, bildet die Prägarbe der differenzierbaren Funktionen eine Untergarbe der Prägarbe der stetigen reellwertigen Funktionen.
+
+
+
+
+
+  \zwischenueberschrift{Prägarben mit Strukturen}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Eine
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  F   }$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ heißt
+\definitionswort {Prägarbe von Gruppen}{,}
+wenn zu jeder
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Menge ${ \mathcal  F   }  \left(   U   \right)$ eine
+\definitionsverweis {Gruppe}{}{}
+und zu jeder Inklusion
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Restriktionsabbildung
+\maabbdisp {\rho_{V,U}} { { \mathcal  F   }  \left(   V   \right) } { { \mathcal  F   }  \left(   U   \right)
+} {}
+ein
+\definitionsverweis {Gruppenhomomorphismus}{}{}
+ist.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Eine
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  F   }$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ heißt
+\definitionswort {Prägarbe von kommutativen Ringen}{,}
+wenn zu jeder
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Menge ${ \mathcal  F   }  \left(   U   \right)$ ein
+\definitionsverweis {kommutativer Ring}{}{}
+und zu jeder Inklusion
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Restriktionsabbildung
+\maabbdisp {\rho_{V,U}} { { \mathcal  F   }  \left(   V   \right) } { { \mathcal  F   }  \left(   U   \right)
+} {}
+ein
+\definitionsverweis {Ringhomomorphismus}{}{}
+ist.
+
+
+
+
+
+}
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+Eine
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal F  }$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+
+\mathl{(X, {\mathcal T})}{} kann man als einen
+\definitionsverweis {kontravarianten Funktor}{}{}
+\maabbdisp {{ \mathcal  F   }} { {\mathcal T}} { \operatorname{MEN}
+} {}
+auffassen, wobei $\mathcal T$ im Sinne von
+
+Beispiel Anhang 1.11
+
+als Kategorie aufgefasst wird. Eine Prägarbe von kommutativen Gruppen ist entsprechend ein kontravarianter Funktor in die
+\definitionsverweis {Kategorie der kommutativen Gruppen}{}{,}
+eine Prägarbe von kommutativen Ringen ist ein kontravarianter Funktor in die
+\definitionsverweis {Kategorie der kommutativen Ringe}{}{,}
+usw.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Eine
+\definitionswort {topologische Gruppe}{}
+ist eine
+\definitionsverweis {Gruppe}{}{}
+$G$, die zugleich ein
+\definitionsverweis {topologischer Raum}{}{}
+ist derart, dass die Verknüpfung
+\maabbeledisp {} {G \times G} {G
+} {(g,h)} {g \circ h
+} {,}
+und die Inversenbildung
+\maabbeledisp {} { G } { G
+} { g } {g^{-1}
+} {,}
+\definitionsverweis {stetige Abbildungen}{}{}
+sind.
+
+
+
+
+
+}
+
+Topologische Gruppen sind
+\mathl{(\R,+)}{,}
+\mathl{(\R \setminus \{0\}, \cdot)}{,}
+\mathl{( {\mathbb C} ,+)}{,}
+\mathl{( {\mathbb C}  \setminus \{0\}, \cdot)}{,}
+\mathl{(\R^n,+)}{,}
+\mathl{(S^1,\text{ mit der Winkeladdition} )}{,} die
+\definitionsverweis {allgemeine lineare Gruppe}{}{}
+
+\mathl{\operatorname{GL}_{ n  } \! \left(  \R  \right)}{} bzw.
+\mathl{\operatorname{GL}_{ n  } \! \left(   {\mathbb C}  \right)}{,} ein
+\definitionsverweis {komplexer Torus}{}{}
+${\mathbb C}/\Gamma$ zu einem
+\definitionsverweis {Gitter}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma
+}
+{ \subseteq }{ {\mathbb C}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Man kann jede Gruppe mit der
+\definitionsverweis {diskreten Topologie}{}{}
+zu einer topologischen Gruppe machen.
+
+Zu einem topologischen Raum $X$ ist die Mengen der stetigen Abbildungen von $X$ in eine topologische Gruppe $G$ mit der natürlichen Verknüpfung selbst eine Gruppe. Die Einschränkung auf eine offene Teilmenge von $X$ ist dabei ein Gruppenhomomorphismus. Daher ist die Zuordnung
+
+\mathdisp {U \mapsto C^0(U,G)} {  }
+
+eine
+\definitionsverweis {Prägarbe von Gruppen}{}{}
+auf $X$.
+
+
+
+
+
+  \zwischenueberschrift{Halme von Prägarben}
+
+Eine grundliegende Idee von Vektorbündeln und Prägarben ist, lokale und globale Eigenschaften von geometrischen Objekten sinnvoll zu trennen und ihr Wechselspiel zu verstehen. Eine lokale Eigenschaft ist beispielsweise eine, die auf  \anfuehrung{kleinen}{} offenen Mengen gilt. Oft möchte man aber kleine offene Mengen durch noch kleinere offene Mengen ersetzen, insbesondere, um das Verhalten in einer beliebig kleinen Umgebung eines Punktes verstehen zu können. Dafür führen wir die folgenden Konzepte ein.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}
+Ein System $F$ aus offenen Teilmengen von $X$ heißt \definitionswort {Filter}{,} wenn folgende Eigenschaften gelten
+\zusatzklammer {\mathlk{U,V}{} seien offen} {} {.}
+\aufzaehlungdrei{
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Mit
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist auch
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Mit
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist auch
+
+\mavergleichskette
+{\vergleichskette
+{U \cap V
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+
+
+
+
+}
+Die wichtigsten Filter sind für und die Umgebungsfilter zu einer Punkt, der aus allen offenen Mengen eines fixierten Punktes besteht.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Eine
+\definitionsverweis {geordnete Menge}{}{}
+$(I, \preccurlyeq)$ heißt \definitionswort {gerichtet geordnet}{} oder \definitionswort {gerichtet}{,} wenn es zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ i,j
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{  i,j
+}
+{ \preccurlyeq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt.
+
+
+
+
+
+}
+
+Wir fassen einen
+\definitionsverweis {topologischen Filter}{}{}
+als eine durch die Inklusion geordnete Menge auf. Aus der Durchschnittseigenschaft eines Filters ergibt sich, dass eine gerichtete Menge vorliegt
+\zusatzklammer {Es ist dabei \anfuehrung{\mathlk{\preccurlyeq= \supseteq}{}}{}} {} {.}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $(I,  \preccurlyeq)$ eine
+\definitionsverweis {geordnete Indexmenge}{}{.}
+Eine Familie
+
+\mathdisp {M_i, \, i \in I} { , }
+
+von Mengen nennt man ein \definitionswort {geordnetes System von Mengen}{,} wenn folgende Eigenschaften erfüllt sind.
+\aufzaehlungzwei {Zu
+\mathl{i \preccurlyeq j}{} gibt es eine Abbildung
+\maabb {\varphi_{ij}} {M_i } { M_j
+} {.}
+} {Zu
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \preccurlyeq }{ j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \preccurlyeq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_{ik}
+}
+{ = }{ \varphi_{jk} \circ  \varphi_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+Ist die Indexmenge zusätzlich
+\definitionsverweis {gerichtet}{}{,}
+so spricht man von einem \definitionswort {gerichteten System von Mengen}{.}
+
+
+
+
+
+}
+
+Wenn die beteiligten Mengen $M_i$ allesamt Gruppen
+\zusatzklammer {Ringe} {} {}
+sind und alle Abbildungen zwischen ihnen Gruppenhomorphismen
+\zusatzklammer {Ringhomomorphismen} {} {,}
+so spricht man von einem geordneten bzw. gerichteten System von Gruppen
+\zusatzklammer {Ringen} {} {.}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei
+
+\mathbed {M_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+ein
+\definitionsverweis {gerichtetes System von Mengen}{}{.}
+Dann nennt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \operatorname{colim}\,_{i \in I} M_i
+}
+{ =} { \biguplus_{i \in I} M_i / \sim
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+den \definitionswort {Kolimes}{}
+\zusatzklammer {oder \definitionswort {direkten}{} oder \definitionswort {induktiven Limes}{}} {} {}
+des Systems. Dabei bezeichnet $\sim$ die
+\definitionsverweis {Äquivalenzrelation}{}{,}
+bei der zwei Elemente
+
+\mavergleichskette
+{\vergleichskette
+{ m
+}
+{ \in }{ M_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ M_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als äquivalent erklärt werden, wenn es ein
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ i,j
+}
+{ \preccurlyeq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ik} (m)
+}
+{ =} { \varphi_{jk} (n)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt.
+
+
+
+
+
+}
+
+Bei dieser Definition ist insbesondere ein Element
+
+\mavergleichskette
+{\vergleichskette
+{s_i
+}
+{ \in }{ M_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+äquivalent zu seinem Bild
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_{ik}(s_i)
+}
+{ \in }{ M_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{i
+}
+{ \preccurlyeq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wenn ein gerichtetes System von Gruppen
+\zusatzklammer {Ringen} {} {}
+vorliegt, so kann man auf dem soeben eingeführten Kolimes der Mengen auch eine Gruppenstruktur
+\zusatzklammer {Ringstruktur} {} {}
+definieren. Dies beruht darauf, dass zwei Elemente in diesem Kolimes, die durch
+
+\mavergleichskette
+{\vergleichskette
+{s_i
+}
+{ \in }{ M_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{s_j
+}
+{ \in }{ M_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+repräsentiert seien, mit ihren Bildern in
+\mathl{M_k}{}
+\zusatzklammer {\mathlk{i,j \preccurlyeq k}{}} {} {}
+identifiziert werden können. Dann kann man dort die Gruppenverknüpfung erklären, siehe
+
+Aufgabe 3.13
+.
+Unser Hauptbeispiel für ein gerichtetes System ist das durch einen topologischen Filter gerichtete System zu einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal F  }$ auf $X$, also das System
+
+\mathbeddisp {{ \mathcal F  }  \left(  U   \right)} {}
+ {U \in F} {}
+ {} {} {} {.}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  F   }$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ und einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nennt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \mathcal  F   }_P
+}
+{ \defeq} { \operatorname{colim}\,_{P \in U } \Gamma   \left(   U ,  { \mathcal  F   }   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+den
+\definitionswort {Halm}{}
+der Prägarbe im Punkt $P$.
+
+
+
+
+
+}
+
+Insbesondere gibt es zu jedem Schnitt
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ { \mathcal F  } (U)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein eindeutig definiertes Element
+
+\mavergleichskette
+{\vergleichskette
+{ s_P
+}
+{ \in }{ { \mathcal F  }_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+das der Keim von $s$ im Punkt $P$ heißt. Die Abbildung
+\maabbeledisp {} { { \mathcal F  } (U) } { { \mathcal F  }_P
+} {s} {s_P
+} {,}
+heißt \stichwort {Restriktionsabbildung} {} und wird mit
+\mathl{\rho_{U,P}}{} bezeichnet. Zu
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{V
+}
+{ \subseteq }{U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kommutiert das Diagramm
+
+\mathdisp {\begin{matrix} { \mathcal F  } (U)   & \stackrel{ \rho_{U,V} }{\longrightarrow} &  { \mathcal F  } (V)   & \\ & \!\!\! \!\! \rho_{U,P} \searrow & \downarrow \rho_{V,P} \!\!\! \!\! & \\ & &  { \mathcal F  }_P   & \!\!\!\!\! \!\!\! . \\ \end{matrix}} {  }
+
+
+Etwas allgemeiner ist die folgende Definition.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  G   }$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ und einem
+\definitionsverweis {topologischen Filter}{}{}
+$F$ nennt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \mathcal  G   }_F
+}
+{ \defeq} { \operatorname{colim}\,_{U\in F } \Gamma   \left(   U ,  { \mathcal  G   }  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+den
+\definitionswort {Halm}{}
+der Prägarbe im Filter $F$.
+
+
+
+
+
+}
+
+
+
+
+
+  \zwischenueberschrift{Homomorphismen von Prägarben}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {{ \mathcal  F   }} {und} {{ \mathcal  G   }} {}
+\definitionsverweis {Prägarben}{}{}
+auf einem topologischen Raum $X$. Ein
+\definitionswort {Morphismus von Prägarben}{}
+\maabbdisp {\varphi} { { \mathcal  F   }  } { { \mathcal  G   }
+} {}
+ist eine Familie von Abbildungen
+\maabbdisp {\varphi_U} { { \mathcal  F   } (U) } { { \mathcal  G   } (U)
+} {}
+für jede offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass zu jeder offenen Inklusion
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Diagramm
+
+\mathdisp {\begin{matrix}
+
+
+
+{ \mathcal  F   } (U)  & \stackrel{ \varphi_U }{\longrightarrow} &  { \mathcal  G   }(U)  &  \\ \!\!\!\!\! \rho_{U,V} \downarrow & & \downarrow \rho_{U,V} \!\!\!\!\!  & \\  { \mathcal  F   } (V)  & \stackrel{ \varphi_V }{\longrightarrow} &  { \mathcal  G   }(V)
+& \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+
+
+
+kommutiert.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Ein
+\definitionsverweis {Morphismus von Prägarben}{}{}
+\maabb {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+auf $X$ heißt
+\definitionswort {Isomorphismus}{,}
+wenn für jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Bijektion
+\maabb {} { { \mathcal  F   }  \left(   U   \right) } { { \mathcal  G   }  \left(   U   \right)
+} {}
+vorliegt.
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Prägarbe/Homomorphismus/Verknüpfung/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und seien
+\mathl{{ \mathcal  F   } , { \mathcal  G   } , { \mathcal  H   }}{}
+\definitionsverweis {Prägarben}{}{}
+auf $X$.}
+\faktfolgerung {Dann gelten folgende Aussagen.
+\aufzaehlungdrei{Die Identität
+\maabbdisp {} { { \mathcal  F   } } { { \mathcal  F   }
+} {}
+ist ein
+\definitionsverweis {Morphismus von Prägarben}{}{.}
+}{Wenn
+\maabb {\varphi} { { \mathcal F  } } { { \mathcal G  }
+} {}
+und
+\maabb {\psi} { { \mathcal G  } } { { \mathcal H  }
+} {}
+Morphismen von Prägarben sind, so ist auch die Verknüpfung
+\mathl{\psi \circ \varphi}{} ein Morphismus von Prägarben.
+}{Zu einer
+\definitionsverweis {Unterprägarbe}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ { \mathcal F  }
+}
+{ \subseteq }{ { \mathcal G  }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die natürliche Inklusion ein Morphismus von Prägraben.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+ }
+{ Siehe
+Aufgabe 3.17
+. }
+
+
+
+
+
+
+\inputfaktbeweis
+{Prägarbe/Homomorphismus/Halm/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Ein
+\definitionsverweis {Morphismus von Prägarben}{}{}
+\maabbdisp {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$}
+\faktfolgerung {definiert für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Abbildung
+\maabbdisp {\varphi_P} { { \mathcal  F   }_P } { { \mathcal  G   }_P
+} {}
+zwischen den
+\definitionsverweis {Halmen}{}{,}
+die mit den
+\definitionsverweis {Restriktionsabbildungen}{}{}
+verträglich sind.}
+\faktzusatz {Das heißt, dass zu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Diagramme
+
+\mathdisp {\begin{matrix}
+
+
+
+{ \mathcal  F   } (U)  & \stackrel{ \varphi_U }{\longrightarrow} &  { \mathcal  G   } (U) &  \\ \!\!\!\!\! \rho_{U,P} \downarrow & & \downarrow \rho_{U,P} \!\!\!\!\!  & \\  { \mathcal  F   }_P  & \stackrel{ \varphi_P }{\longrightarrow} &  { \mathcal  G   }_P
+& \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+
+
+
+kommutativ sind.}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ { \mathcal  F   }_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Das bedeutet, dass es eine offene Umgebung
+
+\mathbed {U} {}
+ {P \in U \subseteq X} {}
+ {} {} {} {,}
+und ein
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ { \mathcal  F   }  \left(   U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \rho_{U,P} (s)
+}
+{ = }{ s_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt. Wir setzen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_P(s)
+}
+{ \defeq} { \rho_{U,P} (\varphi_U (s))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+an und müssen zeigen, dass dies wohldefiniert, also unabhängig vom gewählten Repräsentanten $s$
+\zusatzklammer {und $U$} {} {}
+ist. Sei
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ { \mathcal  F   }  \left(   V   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein weiterer Repräsentant. Wegen
+
+\mavergleichskette
+{\vergleichskette
+{ s_P
+}
+{ = }{ t_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es eine offene Umgebung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ \in} { W
+}
+{ \subseteq} { U \cap V
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ s \vert_W
+}
+{ = }{ t \vert_W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Somit ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_U(s) \vert_W
+}
+{ =} { \varphi_W \left(  s \vert_W  \right)
+}
+{ =} { \varphi_W \left(  t \vert_W  \right)
+}
+{ =} { \varphi_V(t) \vert_W
+}
+{ } {
+}
+}
+{}{}{}
+und somit ist erst recht
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \rho_{U,P} (\varphi_U (s))
+}
+{ =} { \rho_{V,P} (\varphi_V (t))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+
+
+}

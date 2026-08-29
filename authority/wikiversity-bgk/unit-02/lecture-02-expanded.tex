@@ -1,0 +1,1431 @@
+\setcounter{section}{2}
+
+
+
+
+
+
+  \zwischenueberschrift{Schnitte}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {topologische Räume}{}{}
+und es sei
+\maabbdisp {p} { Y } { X
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{.}
+Unter einem
+\definitionswort {stetigen Schnitt}{}
+zu $p$ versteht man eine stetige Abbildung
+\maabb {s} { X } { Y
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{  p \circ s
+}
+{ =} {
+\operatorname{Id}_{  X  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+Man denke bei $Y$ beispielsweise an ein Vektorbündel über $X$. Einen Schnitt kann es nur geben, wenn $p$ surjektiv ist, was bei einem Vektorbündel stets der Fall ist. Gelegentlich identifiziert man einen Schnitt mit seinem Bild, was problemlos ist, da ein Schnitt stets injektiv ist. Eine besondere Rolle spielt der \stichwort {Nullschnitt} {,} der jedem Basispunkt $P$ den Nullpunkt im Vektorraum $V_P$ zuordnet. Für Tangentialbündel haben Schnitte einen eigenen Namen.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine Abbildung
+\maabbdisp {F} { M } { TM
+} {}
+mit der Eigenschaft, dass
+
+\mavergleichskette
+{\vergleichskette
+{ F(P)
+}
+{ \in }{  T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, heißt
+\zusatzklammer {zeitunabhängiges} {} {}
+\definitionswort {Vektorfeld}{.}
+
+
+
+
+
+}
+
+
+
+
+
+  \zwischenueberschrift{Der Satz vom Igel}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Hairy_ball_one_pole} {jpg} }
+\end{center}
+\bildtext {} }
+\bildlizenz { Hairy_ball_one_pole.jpg } {} {RokerHRO} {Commons} {CC-by-sa 3.0} {}
+
+
+
+\inputfakt{Sphäre/Satz vom Igel/Fakt}{Satz}{}
+{
+
+
+
+
+
+\faktsituation {Auf der
+$2$-\definitionsverweis {Sphäre}{}{}}
+\faktfolgerung {besitzt jedes
+\definitionsverweis {stetige}{}{}
+\definitionsverweis {Vektorfeld}{}{}
+\maabb {f} {S^2} {TS^2
+} {}
+zumindest eine Nullstelle.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+
+Insbesondere ist das Tangentialbündel der $2$-Sphäre nicht trivial. Es gibt verschiedene Interpretationen für diesen Satz. Beispielsweise besagt er, dass es auf der Erdoberfläche stets einen Punkt gibt, in dem Windstille herrscht
+\zusatzklammer {die momentane horizontale Windrichtung ist ein stetiges Vektorfeld} {} {,}
+oder, dass man die Stacheln eines Igels nicht alle an den Igel flach anlegen kann.
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+Mit
+dem
+Satz vom Igel
+
+können wir begründen, dass das Vektorbündel $L$ über
+\mathl{\R^3 \setminus \{(0,0,0)\}}{} aus
+
+Beispiel 1.2
+
+keine stetige Trivialisierung besitzt. Zunächst ist
+
+\mavergleichskette
+{\vergleichskette
+{S^2
+}
+{ \subset }{\R^3 \setminus \{(0,0,0)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Teilmenge, sodass wir $L$ auf $S^2$ einschränken können. Wenn $L$ selbst trivial wäre, so wäre auch diese Einschränkung trivial. Die Einschränkung des Bündels $L$ auf die Einheitssphäre ist aber das Tangentialbündel der Einheitssphäre, da die Bedingung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ru+sv+tw
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als Orthogonalitätsrelation aufgefasst werden kann und der
+\zusatzklammer {extrinsische} {} {}
+Tangentialraum an einen Ortspunkt
+\mathl{(r,s,t)}{} der Sphäre durch diese Orthogonalitätsrelation festgelegt ist. Wenn das Tangentialbündel trivial wäre, so würde es eine stetige Vektorfelder
+\mathkor {} {u} {und} {v} {}
+geben, die in jedem Punkt der Sphäre eine Basis des Tangentialraumes bildeten. Der Satz vom Igel sagt aber, dass sogar jedes Vektorfeld eine Nullstelle hat, und $0$ kann nicht Teil einer Basis sein.
+
+
+
+
+
+}
+
+
+
+
+
+  \zwischenueberschrift{Verklebungsdaten für topologische Räume}
+
+Ein Vektorbündel
+\maabb {} {V} {X
+} {}
+\anfuehrung{setzt}{} sich aus den trivialen Vektorbündeln
+\maabb {} {V {{|}}_{ U_i }} { U_i
+} {}
+zu einer offenen Überdeckung von $X$ zusammen, wobei die genaue Zusammensetzung eben das Vektorbündel ausmacht. Die Art der Zusammensetzung kann man übersichtlich mit Verklebungsdaten beschreiben. Dafür brauchen wir zunächst generell Verklebungsdaten für topologische Räume. Die grundlegende Fragestellung dahinter ist einfach, was man von einer offenen Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+wissen muss, um den Raum $X$ rekonstruieren zu können. Die kurze Antwort ist, dass man die $U_i$ kennen muss, die Zweierdurchschnitte
+\mathl{U_i \cap U_j}{,} und zwar sowohl als Teilmenge in $U_i$ als auch in $U_j$ und wie diese zu identifizieren sind, und dann noch eine Kompatibilitätsbedingung für diese Identifizierungen, die auf je drei Teilmengen Bezug nimmt.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Inclusion-exclusion} {svg} }
+\end{center}
+\bildtext {} }
+\bildlizenz { Inclusion-exclusion.svg } {} {Burn~commonswiki} {Commons} {CC-by-sa 3.0} {}
+
+
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Unter einem
+\definitionswort {Verklebungsdatum}{}
+für
+\definitionsverweis {topologische Räume}{}{}
+versteht man den folgenden Datensatz.
+\aufzaehlungvier{Eine Familie
+
+\mathbed {U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+von topologischen Räumen.
+}{Für jedes Paar
+\mathl{(i,j)}{} eine
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{U_{ij}
+}
+{ \subseteq }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{U_{ii}
+}
+{ = }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+}{Für jedes Paar
+\mathl{(i,j)}{} einen
+\definitionsverweis {Homöomorphismus}{}{}
+\maabbdisp {\varphi_{ji}} {U_{ij}} { U_{ji}
+} {}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ \varphi_{ii}
+}
+{ = }{
+\operatorname{Id}_{ U_i  }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+}{Für Indizes
+
+\mavergleichskette
+{\vergleichskette
+{ i,j,k
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die
+\definitionswort {Kozykelbedingung}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{kj} \circ \varphi_{ji}
+}
+{ =} { \varphi_{ki}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als Abbildung von
+\mathl{U_{ik} \cap U_{ij}}{} nach
+\mathl{U_{k}}{} erfüllt.
+}
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Topologischer Raum/Verklebungsdatum/Existenz/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei ein
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mathbed {U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+für
+\definitionsverweis {topologische Räume}{}{}
+gegeben.}
+\faktfolgerung {Dann gibt es einen eindeutig bestimmten topologischen Raum $X$, eine offene Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} V_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\definitionsverweis {Homöomorphismen}{}{}
+\maabb {\psi_i} {U_i } { V_i
+} {}
+derart, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i \left(  U_{ij}  \right)
+}
+{ =} { V_i \cap V_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i \vert_{U_{ij} }
+}
+{ =} { \psi_j \vert_{U_{ji} }  \circ   \varphi_{ji}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es sei $Y$ die disjunkte Vereinigung der $U_i$. Wir definieren auf $Y$ eine
+\definitionsverweis {Äquivalenzrelation}{}{}
+$\sim$, wobei wir Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ x_i
+}
+{ \in }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ x_j
+}
+{ \in }{ U_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als äquivalent ansehen, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ x_i
+}
+{ \in }{ U_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ x_j
+}
+{ \in }{ U_{ji}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_{ji} (x_i)
+}
+{ = }{ x_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Die Eigenschaften einer Äquivalenzrelation sind dabei durch die Kozykelbedingung gesichert, siehe
+
+Aufgabe 2.14
+.
+Wir setzen
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ \defeq} { Y/ \sim
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und versehen $X$ mit der
+\definitionsverweis {Quotiententopologie}{}{.}
+Die Verknüpfungen
+
+\mathdisp {U_i \longrightarrow Y \longrightarrow X} {  }
+
+sind die $\psi_i$, und $V_i$ sind die Bilder dieser Abbildungen. Daher liegen Homöomorphismen
+\maabb {\psi_i} {U_i } { V_i
+} {}
+vor. Dabei ist zu
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i (x)
+}
+{ \in} { V_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+genau dann, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, da genau in diesem Fall $x$ mit
+\mathl{\varphi_{ij}(x)}{} identifiziert wird. Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ \psi_i(U_{ij})
+}
+{ = }{ V_i \cap V_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Kommutativität des Diagramms
+
+\mathdisp {\begin{matrix} U_{ij}   & \stackrel{ \varphi_{ji} }{\longrightarrow} &  U_{ji}   & \\ & \!\!\! \!\! \psi_i \searrow & \downarrow \psi_j \!\!\! \!\! & \\ & &  V_i \cap V_j   & \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }
+
+folgt ebenso.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Topologischer Raum/Verklebungsdatum/Stetige Abbildung/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei ein
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mathbed {U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+für
+\definitionsverweis {topologische Räume}{}{}
+gegeben. Es sei $Z$ ein weiterer topologischer Raum und es seien
+\definitionsverweis {stetige Abbildungen}{}{}
+
+\maabbdisp {\theta_i} {U_i } { Z
+} {}
+gegeben,}
+\faktvoraussetzung {die die Bedingung
+
+\mavergleichskette
+{\vergleichskette
+{ \theta_i \vert_{U_{ij} }
+}
+{ = }{ \left(  \theta_j \vert_{U_{ji} }  \right)  \circ \varphi_{ji}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+erfüllen.}
+\faktfolgerung {Dann gibt es eine eindeutig bestimmte stetige Abbildung
+\maabbdisp {\theta} { X } { Z
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \left(  \psi_i  \right)^{-1} \circ \theta \vert_{V_i }
+}
+{ = }{ \theta_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $X$ den durch die Verklebungsdaten festgelegten topologischen Raum
+\zusatzklammer {siehe
+
+Lemma 2.6
+,
+auch für die Notation} {} {}
+bezeichnen.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+ }
+{ Siehe
+Aufgabe 2.18
+. }
+
+
+
+
+
+
+
+
+  \zwischenueberschrift{Verklebungsdaten für Vektorbündel}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Unter einem
+\definitionswort {Verklebungsdatum}{}
+für ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+vom Rang $r$ über einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ versteht man den folgenden Datensatz.
+\aufzaehlungvier{Eine
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Eine Familie
+
+\mathbed {E_i \rightarrow U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+von reellen Vektorbündeln vom Rang $r$.
+}{Für jedes Paar
+\mathl{(i,j)}{} einen
+\definitionsverweis {Isomorphismus von Vektorbündeln}{}{}
+\maabbdisp {\varphi_{ji}} { E_i {{|}}_{U_i \cap U_j }
+} { E_{j} {{|}}_{U_i \cap U_j }
+} {}
+über
+\mathl{U_i \cap U_j}{.}
+}{Für Indizes
+
+\mavergleichskette
+{\vergleichskette
+{ i,j,k
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die
+\definitionswort {Kozykelbedingung}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{kj} \circ \varphi_{ji}
+}
+{ =} { \varphi_{ki}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als Abbildung von
+\mathl{E_{i} {{|}}_{U_i \cap U_j \cap U_k }}{} nach
+\mathl{E_{k}  {{|}}_{U_i \cap U_j \cap U_k }}{} erfüllt.
+}
+
+
+
+
+
+}
+
+\inputbemerkung
+{}
+{
+
+
+
+
+
+Typischerweise sind in der
+
+Definition 2.8
+
+die Vektorbündel aus (2) triviale Vektorbündel auf $U_i$, also
+
+\mavergleichskette
+{\vergleichskette
+{E_i
+}
+{ = }{ \R^r \times U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Isomorphismen aus (3) sind dann einfach durch bijektive lineare Abbildungen
+\maabb {\varphi_{ji}} { \R^r} { \R^r
+} {}
+gegeben, die stetig vom Basispunkt aus
+\mathl{U_i \cap U_j}{} abhängen. Diese kann man kompakt durch stetige Abbildungen
+\maabbdisp {\varphi_{ji}} {U_i \cap U_j } { \operatorname{GL}_{  r   } \! \left(  \R  \right)
+} {}
+in die
+\definitionsverweis {allgemeine lineare Gruppe}{}{}
+beschreiben. Den Basispunkten wird also in stetiger Weise eine
+\definitionsverweis {invertierbare}{}{}
+$r \times r$-\definitionsverweis {Matrix}{}{}
+zugeordnet, wobei die Stetigkeit bedeutet, dass sämtliche Matrixeinträge stetige Funktionen sind. Man spricht von einer \stichwort {Matrixbeschreibung} {} des Bündels. Die Kozykelbedingung bleibt bestehen.
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei ein
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mathbed {E_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+über einem
+\definitionsverweis {topologischen Raum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben.}
+\faktfolgerung {Dann gibt es ein eindeutig bestimmtes reelles Vektorbündel
+\maabb {} { E } { X
+} {}
+und
+\definitionsverweis {Isomorphismen}{}{}
+\maabb {\psi_i} {E_i } { E \vert_{U_i }
+} {}
+derart, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i \vert_{ E_i {{ |}}_{ U_{i} \cap U_j } }
+}
+{ =} { \psi_j \vert_{ E_j {{ |}}_{ U_{i} \cap U_j } }  \circ \varphi_{ji}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Existenz eines topologischen Raumes $E$ mit den besagten Eigenschaften ergibt sich aus
+
+Lemma 2.6
+
+\zusatzklammer {zu verkleben sind die offenen Mengen
+
+\mavergleichskettek
+{\vergleichskettek
+{W_{ij}
+}
+{ \defeq }{ E_i \vert_{U_i \cap U_j }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+und die Existenz der stetigen Abbildung nach $X$ aus
+
+Lemma 2.7
+.
+Dabei gibt es eine wohldefinierte Vektorraumstruktur auf jeder Faser $E_x$, die von $E_i$ zu einer beliebigen offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+herrührt. Die Unabhängigkeit beruht darauf, dass für
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_i \cap U_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach Voraussetzung ein Vektorbündelisomorphismus
+\maabbdisp {\varphi_{ij}} {E_i \vert_{U_i \cap U_j } } { E_j \vert_{U_i \cap U_j }
+} {}
+vorliegt, der einen
+\definitionsverweis {Vektorraumisomorphismus}{}{}
+\maabbdisp {} { \left(  E_i  \right)_x } { \left(  E_j  \right)_x
+} {}
+induziert.
+
+
+
+
+}
+
+
+
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesunggif {Fiddler_crab_mobius_strip} {gif} }
+\end{center}
+\bildtext {} }
+\bildlizenz { Fiddler_crab_mobius_strip.gif } {} {Hamishtodd1} {Commons} {CC-by-sa 4.0} {}
+
+
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten auf der eindimensionalen Sphäre
+
+\mavergleichskettedisp
+{\vergleichskette
+{S^1
+}
+{ =} { \left\{ (x,y) \in \R^2  \mid   x^2+y^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{S^1
+}
+{ = }{ U \cup V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{S^1 \setminus \{(0,1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{S^1 \setminus \{(0,-1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Darauf beschreiben wir ein
+\definitionsverweis {Verklebungdatum}{}{}
+für ein reelles Vektorbündel vom Rang $1$. Die beiden offenen Mengen sind
+\definitionsverweis {homöomorph}{}{}
+zur reellen Geraden. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{U \cap V
+}
+{ =} { S^1 \setminus \{(0,1), (0,-1)  \}
+}
+{ =} { \left\{ (x,y) \in  S^1   \mid   x \neq 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+und dies ist nicht
+\definitionsverweis {zusammenhängend}{}{,}
+sondern homöomorph zu zwei disjunkten reellen offenen Halbgeraden
+\zusatzklammer {bzw. Geraden} {} {.}
+Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{L
+}
+{ = }{ U \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ = }{ V \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir legen einen
+\definitionsverweis {Isomorphismus}{}{}
+\maabbdisp {\varphi} {L \vert_{U \cap V} } { M\vert_{U \cap V}
+} {}
+durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(x,y,t)
+}
+{ \defeq} { \begin{cases}  (x,y,t) \text{ für } x > 0 \, , \\  (x,y,-t) \text{ für } x < 0  \,  \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+fest. Man beachte, dass $\varphi$ stetig ist, da die beiden funktionalen Ausdrücke für zueinander disjunkte offene Teilmengen gelten. Auf der einen Hälfte wird identisch abgebildet, auf der anderen Hälfte wird umgeklappt. Im Sinne von
+
+Bemerkung 2.9
+
+liegt die stetige
+\zusatzklammer {konstante} {} {}
+Matrixbeschreibung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi (x,y)
+}
+{ \defeq} { \begin{cases}  (1) \text{ für } x > 0 \, , \\  (-1) \text{ für } x < 0  \, , \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf
+\mathl{U \cap V}{} vor. Da nur zwei offene Mengen vorliegen, ist die Kozykelbedingung automatisch erfüllt. Dieses Verklebungsdatum definiert nach
+
+Lemma 2.10
+
+ein reelles Vektorbündel vom Rang $1$ auf der Sphäre, das \stichwort {Möbiusband} {} heißt.
+
+
+
+
+
+}
+
+Wir geben eine direkte algebraische Realisierung des Möbiusbandes im $\R^4$ an.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten
+
+\mavergleichskettedisp
+{\vergleichskette
+{Y
+}
+{ \defeq} { \left\{ (x,y,z,w) \in \R^4  \mid   x^2+y^2 = 1 , \, (1-y)z = xw   , \,  xz = (1+y)w    \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zusammen mit der natürlichen Projektion auf die eindimensionalen Sphäre
+
+\mavergleichskettedisp
+{\vergleichskette
+{S^1
+}
+{ =} { \left\{ (x,y) \in \R^2  \mid   x^2+y^2 = 1        \right\}
+}
+{ =} { U \cup V
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{S^1 \setminus \{(0,1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{S^1 \setminus \{(0,-1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir behaupten, dass $Y$ ein Vektorbündel vom Rang $1$ ist, das isomorph zum Möbiusband ist. Auf $U$ ist
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ \neq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher kann man die zweite Gleichung nach $z$ auflösen, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{z
+}
+{ =} { { \frac{   x  }{  1-y } }  w
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Damit ist die dritte Gleichung wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ xz
+}
+{ =} { { \frac{   x  }{  1-y } } x w
+}
+{ =} { { \frac{   x^2 }{  1-y } }  w
+}
+{ =} { { \frac{   1-y^2 }{  1-y } }  w
+}
+{ =} { (1+y) w
+}
+}
+{}{}{}
+automatisch erfüllt. Entsprechend gilt auf $V$ die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ w
+}
+{ =} { { \frac{   x  }{  1+y } } z
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und die andere Gleichung ist automatisch erfüllt. Daher ist $Y$ auf $U$ bzw. auf $V$ ein triviales Vektorbündel vom Rang $1$ mit der Variablen
+\mathkor {} {w} {bzw.} {z} {.}
+Die Übergangsabbildung auf
+\mathl{U \cap V}{} ist durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   x  }{  1-y } }
+}
+{ =} { { \frac{   1+y }{  x } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben, eine Matrixbeschreibung dieses Bündels ist also
+\mathl{\left(  { \frac{   x  }{  1-y } }  \right)}{.} Diese Matrix hängt, im Gegensatz zur konstanten Matrix aus
+
+Beispiel 2.11
+
+explizit von
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (x,y)
+}
+{ \in} { U \cap V
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ab. Dennoch sind die beiden Vektorbündel zueinander isomorph. Dazu verwenden wir
+
+Aufgabe 2.21
+
+und betrachten die beiden stetigen Funktionen
+\mathl{\sqrt{1-t}}{} auf $U$ und
+\mathl{\sqrt{1+t}}{} auf $V$, die beide nullstellenfrei sind.
+
+Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   1  }{  \sqrt{1+y} } }  \cdot { \frac{   x  }{  1-y } } \cdot \sqrt{1-y}
+}
+{ =} { { \frac{   1  }{  \sqrt{1+y} } }  \cdot { \frac{   x  }{  \sqrt{ 1-y}  } }
+}
+{ =} { { \frac{   x  }{  \sqrt{ 1-y^2}  } }
+}
+{ =} { { \frac{   x  }{  \sqrt{x^2}  } }
+}
+{ =} { { \frac{   x  }{  \betrag {  x  }  } }
+}
+}
+{
+\vergleichskettefortsetzung
+{ =} { \pm 1
+}
+{ } {
+}
+{ } {}
+{ } {}
+}{}{,}
+abhängig vom Vorzeichen von $x$. Daher sind die Bündel isomorph.
+
+
+
+
+
+}

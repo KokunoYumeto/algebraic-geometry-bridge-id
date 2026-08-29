@@ -25,6 +25,20 @@ body {
   box-shadow: 0 0.3rem 1.6rem rgb(24 35 52 / 12%);
 }
 
+.skip-link {
+  position: absolute;
+  z-index: 10;
+  inset-block-start: 0.5rem;
+  inset-inline-start: -10000px;
+  padding: 0.55rem 0.8rem;
+  background: var(--paper);
+  border: 2px solid var(--accent);
+}
+
+.skip-link:focus {
+  inset-inline-start: 0.5rem;
+}
+
 main, #TOC {
   max-width: 54rem;
   margin-inline: auto;
