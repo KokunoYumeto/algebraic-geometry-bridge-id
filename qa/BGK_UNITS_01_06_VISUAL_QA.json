@@ -1,0 +1,864 @@
+{
+  "schema": "ag-bridge-bgk-visual-qa-v1",
+  "through_unit": 6,
+  "status": "PASS",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "pdf": {
+    "path": "build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-06.pdf",
+    "bytes": 896202,
+    "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b",
+    "pages_rendered": 82,
+    "pages_visually_reviewed": 82,
+    "unintended_blank_pages": 0,
+    "clipping_overlap_bad_glyph_or_broken_equation_observed": false,
+    "paper": "A4",
+    "render_dpi": 110,
+    "page_pixel_dimensions": {
+      "width": 910,
+      "height": 1287
+    }
+  },
+  "bound_machine_qa": {
+    "path": "qa/BGK_UNITS_01_06_READER_QA.json",
+    "bytes": 6369,
+    "sha256": "8c40f147451888e3ab4c2da95d164388c4f5725d37e121f020842da9488e250c"
+  },
+  "bound_responsive_qa": {
+    "path": "qa/BGK_UNITS_01_06_RESPONSIVE_QA.json",
+    "bytes": 16164,
+    "sha256": "755494a526f1d23e81ec797859a12dd9fb6bcea639b5dc53fada4136d7a5b0f0"
+  },
+  "page_rasters": [
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-01.png",
+      "bytes": 132935,
+      "sha256": "f4df4f25aaa0fd244b874f6f1fad190528ec6fcafce9eaa7bf193f1eb72d8f74",
+      "page": 1,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03746851
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-02.png",
+      "bytes": 166447,
+      "sha256": "bd697ac8468e26163af1412b7fda6d7d9edfbc9de716f21f2d53af4e3c2dabc8",
+      "page": 2,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04504385
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-03.png",
+      "bytes": 173582,
+      "sha256": "13847bde0ea15f32e04c9e99b2a777d9a9e8e0204eec72280062f067e74f996f",
+      "page": 3,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04606078
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-04.png",
+      "bytes": 172230,
+      "sha256": "b8c037d47500678dbf46f6c3e02dec1e5b709bfc8456f882b79d149c5bbeed2d",
+      "page": 4,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04710162
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-05.png",
+      "bytes": 217108,
+      "sha256": "90abebaa89a8048bfab0e00e73e3dd4b70cd3e7b8ceb2be3c86ea06c71dd55f7",
+      "page": 5,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.06479247
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-06.png",
+      "bytes": 213838,
+      "sha256": "54a4e5f174893c84677ae87d8e2c527132123ff6db2b81c44460d6e1c7bbfc0f",
+      "page": 6,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.07684965
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-07.png",
+      "bytes": 117755,
+      "sha256": "25f0aafd84af7c0cf383a26e61c56cd7469a7552ac4b5e0d3046204bb80eb29f",
+      "page": 7,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03722858
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-08.png",
+      "bytes": 165294,
+      "sha256": "f86ae1aa8f321805ede6415bec45272006f0b497bb42f10f9fd0078df985bd2e",
+      "page": 8,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05468719
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-09.png",
+      "bytes": 210143,
+      "sha256": "48d7ff5b5b6d32d1843df27914869e4fce99951b69481e7b6ac23b3e5955dc67",
+      "page": 9,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.06897462
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-10.png",
+      "bytes": 145305,
+      "sha256": "e75be081731babb782071e424e45cf2b828a9c3befa40e445836851531053775",
+      "page": 10,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04556042
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-11.png",
+      "bytes": 149690,
+      "sha256": "656ae07945e4bf72491d0da20ae5d9d1142d06ebc0ea3827420129dfa5b9b4ff",
+      "page": 11,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04686254
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-12.png",
+      "bytes": 174425,
+      "sha256": "2a905aac6c49f23d32ba26822c8e48c5852c447ff20a7d36f5df571a24b8cec7",
+      "page": 12,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05351657
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-13.png",
+      "bytes": 132185,
+      "sha256": "a6f0179ad1edd2fc23d87200c20cb1ccbd8c0d6731ce0c6bbb34cc8793d0385e",
+      "page": 13,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03846837
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-14.png",
+      "bytes": 202659,
+      "sha256": "102e0572415c2eebd43646585ae1d07e3ed6e5645304afe6df3dde377c473ebb",
+      "page": 14,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.06748636
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-15.png",
+      "bytes": 82591,
+      "sha256": "cea447a168daaf1b8647553f3895fbc4cbd82d42cdd666c95d39a73f292ae38f",
+      "page": 15,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03844361
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-16.png",
+      "bytes": 135959,
+      "sha256": "dc0a0248cc0b056a89c50cff87a5cdcff614fed8be069fef7c48224ad9c58541",
+      "page": 16,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0412041
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-17.png",
+      "bytes": 96946,
+      "sha256": "f88d52489fea316ecf6de94c8b3ec733a4fdd1c907818a614615c0dce61c23d8",
+      "page": 17,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02897103
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-18.png",
+      "bytes": 108071,
+      "sha256": "d781abf0cfbfdb059a98caa5c69b7e3d91500519cf2aee5826f0ebba0e47ef7c",
+      "page": 18,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03147707
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-19.png",
+      "bytes": 120300,
+      "sha256": "aa05e38f2348e891e93b2d06ad501d347cac01391673ca0669278cd8ac37c0ef",
+      "page": 19,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03536037
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-20.png",
+      "bytes": 81332,
+      "sha256": "16ea16c965941707728cc79b377af2f00a19cbab4be9f0dbfb910025d56a0d8a",
+      "page": 20,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02281735
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-21.png",
+      "bytes": 20844,
+      "sha256": "a5892ff35dca32cf037310ae6a405e0ddaed6ae422402c7920e4e7f1ac720aa4",
+      "page": 21,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.00454161
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-22.png",
+      "bytes": 185502,
+      "sha256": "42e937d92b80471e26b6206c49e8571a6663946872f27d26b34084234737653c",
+      "page": 22,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05970611
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-23.png",
+      "bytes": 552672,
+      "sha256": "fd7c7bd95e13c08538c1fa436ae2deaeb0686e2ae366d737f2d1899fa2c357c2",
+      "page": 23,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.33057626
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-24.png",
+      "bytes": 169589,
+      "sha256": "7daadcc83e029781ea16e58423dc95c493596afa48f591762677904324433026",
+      "page": 24,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05447117
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-25.png",
+      "bytes": 105812,
+      "sha256": "8cf46ab9bcbba4238e67ee9dc59c3d2df1b04c15f9bf8ae7095546db2394384d",
+      "page": 25,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.21346261
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-26.png",
+      "bytes": 114705,
+      "sha256": "233defba24ace5f39f5f882a8b5841039fc92a08890207f3aa889c2a4c1915e8",
+      "page": 26,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03280139
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-27.png",
+      "bytes": 115109,
+      "sha256": "002606249a047bfefaf2f77dea217581130a35c9f8cd129ad9c5ad7f2f3e5837",
+      "page": 27,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03212685
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-28.png",
+      "bytes": 136327,
+      "sha256": "dfb6137880ba30679fb97170a9f5b2ff67756702a090cc451ba97dc50122bcc9",
+      "page": 28,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04057054
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-29.png",
+      "bytes": 514861,
+      "sha256": "8d430fd0dc0f827135ceac7c8bcc56aa51080ed027f68c7183a0b18ac88f57cb",
+      "page": 29,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.15824432
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-30.png",
+      "bytes": 117020,
+      "sha256": "5d504428f09d5caed13c3e35bf155e99d7370049af6d9ee08f34e67864851909",
+      "page": 30,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03477121
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-31.png",
+      "bytes": 140713,
+      "sha256": "83acafacd0d392bd26620bb9a8fa3ad723b87a965908640a13d0ad0bd2b7947f",
+      "page": 31,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04398081
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-32.png",
+      "bytes": 126576,
+      "sha256": "f13790e547f1b7b828d91b4a32a613429996dcdd33384d5b4e32ce99698c9b0c",
+      "page": 32,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03953824
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-33.png",
+      "bytes": 124307,
+      "sha256": "ab9d4da35bdd3274dfe349bd7668ca089e13f842393406a74255978efca4f4cf",
+      "page": 33,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.037343
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-34.png",
+      "bytes": 116614,
+      "sha256": "d1a5ba432e4cb423fc3d4bff0f37b3b7749c34c173bab86cb2f162972e3e5537",
+      "page": 34,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03372952
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-35.png",
+      "bytes": 99923,
+      "sha256": "8f4791523b728cdbb29c53de0f11f47fb1a5894b3a0c28964f7c505b24b0d573",
+      "page": 35,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02868328
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-36.png",
+      "bytes": 148729,
+      "sha256": "53e0821bb04f82452cb70c39096fe81f49f7016c3a1f14cb0f72ad73b3baa965",
+      "page": 36,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04590196
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-37.png",
+      "bytes": 18272,
+      "sha256": "d9e5f37e0ce73b0edd927a02ad2c5c4a3f1a21ee86779fc2741321887105e87d",
+      "page": 37,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0039055
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-38.png",
+      "bytes": 218615,
+      "sha256": "8737c18aeea7dae335cfd9cbcb3363662f7098614d2627d20673bce351ef87fe",
+      "page": 38,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.06972173
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-39.png",
+      "bytes": 185952,
+      "sha256": "d3fc6d45f9fb71bd37affcf156278ad4d24ef1fb4a1f44abf18b92b6a6468fa8",
+      "page": 39,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.06155639
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-40.png",
+      "bytes": 142535,
+      "sha256": "d97812f7fbdda230fcb1cb57b284104fb676f10e9213b9db7dc824496b6fce44",
+      "page": 40,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04352827
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-41.png",
+      "bytes": 117812,
+      "sha256": "ddce26e2a535803afeea5db81de23132f2cdbbeb0cfe1736f48c0abc93dc66b0",
+      "page": 41,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03218832
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-42.png",
+      "bytes": 173283,
+      "sha256": "cda794f23a0e25027bca21495c159acbb98fa6d3932a2d1c7c8a5c0e37257fb1",
+      "page": 42,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05441225
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-43.png",
+      "bytes": 176397,
+      "sha256": "6b91a1bb409847efebe5e184431e3dad4c570b1f356302d83a8434ba79470340",
+      "page": 43,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05448398
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-44.png",
+      "bytes": 171033,
+      "sha256": "e230ecdc983baf06f5eb2295cdd47caaf79b4aa2ee9bcb226f113506f2f7fe53",
+      "page": 44,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05541979
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-45.png",
+      "bytes": 162900,
+      "sha256": "944a5134b38b867e85a911565ef75937ae9869e340defda14fb5425fb404f1fc",
+      "page": 45,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04901167
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-46.png",
+      "bytes": 136744,
+      "sha256": "f432fded33ddb84d62411c06f96ac852ea02217264e1db0ca6fef87c3cdffc59",
+      "page": 46,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0383087
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-47.png",
+      "bytes": 127506,
+      "sha256": "4026c9c84857b9164f18daa9c26d8a220c152e56e6db740edeb5efb0c8faa422",
+      "page": 47,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03612627
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-48.png",
+      "bytes": 92599,
+      "sha256": "b2a7a5b9df5cb5a8365a5c717ddaa77cff725b278ac095e06bccbfa0e1b48d4d",
+      "page": 48,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0264445
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-49.png",
+      "bytes": 131544,
+      "sha256": "0c04d951e063a4cbc281625e89923079d858bda3afb1674329c50f9077073dbf",
+      "page": 49,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03924879
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-50.png",
+      "bytes": 143397,
+      "sha256": "4842d2ee8715c895006af4211dc3d900e13c0e8541080962216968dd83e3ff61",
+      "page": 50,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04515228
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-51.png",
+      "bytes": 96231,
+      "sha256": "5a2abc4bab414b20c113e2d5d8993ab3547ccf44206a88766f86ad7023dc9f35",
+      "page": 51,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02785334
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-52.png",
+      "bytes": 155615,
+      "sha256": "ca9641f15d49bbda938499e0010e3a7ee753c6d492bedc4e4c4435f767022375",
+      "page": 52,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04661919
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-53.png",
+      "bytes": 842393,
+      "sha256": "aa81f3399e33f6e9e63dd8a61976212d3df9a7947a275d330d628c2d21d78336",
+      "page": 53,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.33869464
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-54.png",
+      "bytes": 145783,
+      "sha256": "123da243071823fe4620deb395b4b5c70b267122554187d7d6cc894009f2df86",
+      "page": 54,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04768906
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-55.png",
+      "bytes": 105601,
+      "sha256": "97d59f0de7e6f87704195b2adf90f0a0156d6750faaf744656f2233aae749746",
+      "page": 55,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02783968
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-56.png",
+      "bytes": 131978,
+      "sha256": "90716e26bdfa69eed1d82176e14f92c0e7a49a6efb4e91410d3b03c3b8dc3a24",
+      "page": 56,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03920865
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-57.png",
+      "bytes": 155250,
+      "sha256": "0ab8369a2581c6ed59311d4bc649cb2ec8c046f64b60aabffb43dda5a714f9be",
+      "page": 57,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04930881
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-58.png",
+      "bytes": 159509,
+      "sha256": "b75e184365e5132d838e13742553efd5a00c24964ca52870b0ae041f3ed06feb",
+      "page": 58,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04930113
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-59.png",
+      "bytes": 104609,
+      "sha256": "83be45059bb7e9fa098491522eda8104f45c583577984880952ac1d3254a2661",
+      "page": 59,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02891468
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-60.png",
+      "bytes": 121230,
+      "sha256": "4253aec4214e17895940ba4a58c436a909eed482af0549cdf7f69e17359b9ec6",
+      "page": 60,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03600929
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-61.png",
+      "bytes": 84721,
+      "sha256": "6d8b27b321e8f8142ce2c06e828f9d2e5ad306cde19a5ce638b17fb9e27f3cdd",
+      "page": 61,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02367803
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-62.png",
+      "bytes": 197672,
+      "sha256": "7495df23b41511239a2bf9256c378f1834c4c5dd5612c383a3e2b2e404be6582",
+      "page": 62,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.06203028
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-63.png",
+      "bytes": 116442,
+      "sha256": "8d9e74fc813c428587f7234020567ce4170971fc1f04852b127ce26a616175cd",
+      "page": 63,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03248034
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-64.png",
+      "bytes": 124714,
+      "sha256": "4e232b21441ca953ddf627f9bbf901aa8eb375db30ce14e96c5c0a343d81eb5c",
+      "page": 64,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0360443
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-65.png",
+      "bytes": 143098,
+      "sha256": "7a4aadd6697da38ae94d1246f20ca8cccaf31cf4bab4fefe80f0cfabc8b95bf8",
+      "page": 65,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04067727
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-66.png",
+      "bytes": 140966,
+      "sha256": "24fb82fef84234428738862fde376044f8c3cecbed8417bac0eaf3aef956648d",
+      "page": 66,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04114945
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-67.png",
+      "bytes": 83317,
+      "sha256": "4c734a90aebf43eae3dfd6c40fd698e5c2700c08f3226872bf042d8a384efbd6",
+      "page": 67,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02102854
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-68.png",
+      "bytes": 103499,
+      "sha256": "b54982ecead5dcefce74d42dc1c3c4e745eb76bb82f4aadc38255b9eff163bcc",
+      "page": 68,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.02996576
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-69.png",
+      "bytes": 131607,
+      "sha256": "75cdcd73ea715e23d0d5a44c1578382872685109b3626590e0e8fff4dd554d77",
+      "page": 69,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03989344
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-70.png",
+      "bytes": 78712,
+      "sha256": "4875907ed88ac218396be009d2c95e2d1fe9794f09bdcbb07c3d5af1fef93843",
+      "page": 70,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0193755
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-71.png",
+      "bytes": 71751,
+      "sha256": "c6d1c6f48f0ff278fc106fe2a1b22a28f0a8eeda121131d45f35859e28bb55df",
+      "page": 71,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.01819121
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-72.png",
+      "bytes": 122852,
+      "sha256": "ea45027d686afba76c67a422d18b50e0d887cb0e66cd9ded5ff2fff6cdaeaf75",
+      "page": 72,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03579754
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-73.png",
+      "bytes": 146785,
+      "sha256": "40424a6fc063046d3fe66c45cbb34927afa3124f29fee84d4a264874a552b78d",
+      "page": 73,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04479708
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-74.png",
+      "bytes": 129951,
+      "sha256": "742a12c138b1da63a8ed2e3887462c156ac510b9295ef0330a7c9942f9804ca7",
+      "page": 74,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03817379
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-75.png",
+      "bytes": 195336,
+      "sha256": "190f4479802acae48d5e7c35b825eb516e4e29297634c0058384539211dfb68a",
+      "page": 75,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.06021158
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-76.png",
+      "bytes": 141639,
+      "sha256": "02a36d5c80b2e4c63f67f9042aeb9c9c89de584dac9e896bd64cdf7b9456c8c0",
+      "page": 76,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0413612
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-77.png",
+      "bytes": 157560,
+      "sha256": "57008c46a2330114c0068bd811872cb4cb033715333c7958291a107268e6a1b2",
+      "page": 77,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04758062
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-78.png",
+      "bytes": 114781,
+      "sha256": "57bb321e11e0ded0431c9fb4f8b9c62cb69c6227dac204969e2fdae65b3b8e08",
+      "page": 78,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03187496
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-79.png",
+      "bytes": 143520,
+      "sha256": "0cccbeae3b56140b4cd0368a71a5b57c45d2942379b369b6e35699d37143176c",
+      "page": 79,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.04289642
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-80.png",
+      "bytes": 124473,
+      "sha256": "af55e49156b9b01f56baac0cac9fb0035c83d1dd754cb440b26ca6435dd70d2e",
+      "page": 80,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.03677775
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-81.png",
+      "bytes": 126987,
+      "sha256": "67d3054300231315f66c9839ea70a87cd2a018971a7bfc5b5c96d81214e47e72",
+      "page": 81,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.0380201
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/page-82.png",
+      "bytes": 170477,
+      "sha256": "cc1aa2c4bb9bf18f0b499e47da43ed0fafe90eaba99459fbd0ca8ba41ee8a79c",
+      "page": 82,
+      "width_px": 910,
+      "height_px": 1287,
+      "visible_ink_fraction_gray_lt_248": 0.05453521
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/contact-01-20.png",
+      "bytes": 1711274,
+      "sha256": "2c01d6610542779934bdae93edf582dac19368a6fcd1b7794b2e5ff0d8a69b29",
+      "pages": [
+        1,
+        20
+      ]
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/contact-21-40.png",
+      "bytes": 1568312,
+      "sha256": "1b916d18aa372eb1cd793c3336e62bae772cd3f0d33f971f5946d36d2238a132",
+      "pages": [
+        21,
+        40
+      ]
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/contact-41-60.png",
+      "bytes": 1599433,
+      "sha256": "cee19f452d288e967a5986266554634dad137503454be6a920d01af4b8cdf452",
+      "pages": [
+        41,
+        60
+      ]
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/contact-61-80.png",
+      "bytes": 1417751,
+      "sha256": "19d3ef5a93b39e0da47a9f420392e7be38203788612a146e526489149667b7a3",
+      "pages": [
+        61,
+        80
+      ]
+    },
+    {
+      "path": "tmp/pdfs/bgk-units-01-06-20260829/contact-81-82.png",
+      "bytes": 175826,
+      "sha256": "7241366953654e42692558385ed3fed57cb7088c4b48cffdddbe15e0262a0292",
+      "pages": [
+        81,
+        82
+      ]
+    }
+  ],
+  "review": {
+    "contact_sheets_reviewed_in_full": [
+      "pages 1-20",
+      "pages 21-40",
+      "pages 41-60",
+      "pages 61-80",
+      "pages 81-82"
+    ],
+    "full_size_pages_reviewed": [
+      5,
+      6,
+      76,
+      77,
+      81,
+      82
+    ],
+    "frontmatter_scope_correction_pages_rechecked": [
+      5,
+      6
+    ],
+    "unit_06_terminology_correction_page_rechecked": 76,
+    "final_unit_06_formula_and_source_note_pages_rechecked": [
+      77,
+      81,
+      82
+    ],
+    "checks": {
+      "all_pages_present_and_legible": "PASS",
+      "page_sequence_and_transitions": "PASS",
+      "headings_paragraphs_math_and_notes_not_clipped": "PASS",
+      "figures_and_captions_visible": "PASS",
+      "no_overlap_or_broken_glyphs": "PASS",
+      "corrected_three_solution_and_ninety_eight_negative_scope_visible": "PASS",
+      "corrected_functor_spelling_visible": "PASS",
+      "desktop_centering_mobile_reflow_and_local_math_scroll": "PASS"
+    }
+  },
+  "defect_counts": {
+    "visible_clipping": 0,
+    "visible_overlap": 0,
+    "visible_broken_glyph": 0,
+    "visible_broken_equation": 0,
+    "unintended_blank_page": 0,
+    "document_level_mobile_overflow": 0,
+    "total": 0
+  }
+}

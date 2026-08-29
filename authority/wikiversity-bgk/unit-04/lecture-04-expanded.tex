@@ -1,0 +1,1800 @@
+\setcounter{section}{4}
+
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Triticum spelta - shock (aka)} {jpg} }
+\end{center}
+\bildtext {} }
+\bildlizenz { Triticum spelta - shock (aka).jpg } {} {Aka} {Commons} {CC-by-sa 2.5} {}
+
+
+
+
+
+
+
+  \zwischenueberschrift{Garben}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}
+Unter einer
+\definitionswort {Garbe}{}
+${ \mathcal F  }$ auf $X$ versteht man eine
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal F  }$ auf $X$, die die folgenden Eigenschaften erfüllt.
+\aufzaehlungzwei {Zu jeder
+\definitionsverweis {offenen Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \bigcup_{ i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und Elementen
+
+\mavergleichskette
+{\vergleichskette
+{s,t
+}
+{ \in }{ { \mathcal  F   }  \left(   U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \rho_{U, U_i } (s )
+}
+{ = }{\rho_{U, U_i } (t )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{i
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ = }{t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+} {Zu jeder offenen Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \bigcup_{ i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und Elementen
+
+\mavergleichskette
+{\vergleichskette
+{s_i
+}
+{ \in }{ { \mathcal  F   }  \left(   U_i    \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{  \rho_{U_i, U_i \cap U_j } \left(  s_i  \right)
+}
+{ = }{  \rho_{U_j, U_i \cap U_j } \left(  s_j  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{i,j
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es ein
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ \in }{ { \mathcal  F   }  \left(   U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{s_i
+}
+{ = }{ \rho_{U, U_i } (s)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{i
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+
+
+
+
+}
+
+Diese Eigenschaften nennt man die Serreschen Bedingungen. Die erste fordert, dass man die Übereinstimmung von Schnitten lokal auf einer offenen Überdeckung überprüfen kann, die zweite fordert, dass zusammenpassende lokale Schnitte von einem globalen Schnitt herkommen. Für die leere Menge ist
+\mathl{{ \mathcal F  }  \left(   \emptyset   \right)}{} einelementig, was mengentheoretisch aus den Eigenschaften folgt, wenn man die Überdeckung der leeren Menge mit der leeren Indexmenge betrachtet. Stellvertretend für viele ähnliche Beispiele zeigen wir, dass die Prägarbe der Schnitte zu
+\maabb {p} {Y} {X
+} {}
+eine Garbe auf $X$ ist.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir knüpfen an
+
+Beispiel 3.12
+
+an, d.h. es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {topologische Räume}{}{}
+und es sei
+\maabbdisp {p} { Y } { X
+} {}
+eine fixierte
+\definitionsverweis {stetige Abbildung}{}{,}
+und es sei
+
+\mathdisp {U \mapsto  S (U,Y) = \left\{  s:U \rightarrow p^{-1}(U)  \mid   s \text{ stetiger Schnitt zu } p         \right\}} {  }
+
+die
+\definitionsverweis {Prägarbe}{}{}
+der stetigen Schnitte in $Y$. Dies ist eine Garbe. Die erste Serresche Bedingung ist erfüllt, da zwei Schnitte übereinstimmen, wenn sie in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den gleichen Wert haben, was bei einer offenen Überdeckung lokal getestet werden kann. Die zweite Serresche Bedingung ist erfüllt, da man zu einer Familie von stetigen verträglichen Schnitten
+\maabbdisp {s_i} {U_i } { Y \vert_{U_i }
+} {}
+direkt einen Schnitt
+\maabbdisp {s} { U } { Y \vert_U
+} {}
+definieren kann, der diese simultan fortsetzt. Die Stetigkeit folgt, da diese lokal getestet werden kann.
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Zu einer
+\definitionsverweis {topologischen Gruppe}{}{}
+$G$ und einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ ist durch
+\mathl{U \mapsto C^0(U,G)}{} eine
+\definitionsverweis {Garbe}{}{}
+gegeben, die Garbe der stetigen Abbildungen mit Werten in $G$. Es handelt sich um eine Garbe von Gruppen. Die Garbeneigenschaften beruhen darauf, dass die Gleichheit von stetigen Abbildungen punktweise getestet werden kann und dass sich stetige Abbildungen, die auf offenen Mengen definiert sind und auf den Durchschnitten übereinstimmen, zu einer globalen stetigen Abbildung fortsetzen.
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Garbe/Schnitte/Gleichheit/Lokaler Test/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei ${ \mathcal  F   }$ eine
+\definitionsverweis {Garbe}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Es seien Schnitte
+
+\mavergleichskette
+{\vergleichskette
+{ s,t
+}
+{ \in }{ { \mathcal  F   }  \left(   X    \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben,}
+\faktvoraussetzung {die
+
+\mavergleichskette
+{\vergleichskette
+{s_P
+}
+{ = }{t_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in den
+\definitionsverweis {Halmen}{}{}
+${ \mathcal  F   }_P$ für alle Punkte
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+erfüllen.}
+\faktfolgerung {Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ = }{t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Aufgrund der Veraussetzung gibt es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Umgebung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U_P
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \rho_{X, U_P } (s )
+}
+{ =} {\rho_{X, U_P } (t )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist. Somit ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{P \in X} U_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und aus der ersten Garbeneigenschaft folgt
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ = }{t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+}
+
+
+
+
+
+
+  \zwischenueberschrift{Garbenmorpismen}
+
+Ein Garbenmorphismus ist einfach ein
+\definitionsverweis {Prägarbenmorphismus}{}{}
+zwischen Garben. Dennoch gibt es einige gewichtige Besonderheiten, die sich auf Surjektivität, Bild, lokaler Isomorphietest beziehen.
+
+
+
+
+
+\inputfaktbeweis
+{Garbenmorphismus/Injektiv/Halm/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+\maabb {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+ein
+\definitionsverweis {Garbenmorphismus}{}{.}}
+\faktfolgerung {Dann sind die folgenden Aussagen äquivalent:
+\aufzaehlungzwei { \maabbdisp {\varphi_U} { { \mathcal  F   }  \left(   U   \right) } { { \mathcal  G   }  \left(   U   \right)
+} {}
+ist
+\definitionsverweis {injektiv}{}{}
+für jede offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+} {Die
+\definitionsverweis {Halmabbildungen}{}{}
+\maabbdisp {\varphi_P} { { \mathcal  F   }_P } { { \mathcal  G   }_P
+} {}
+sind injektiv für alle Punkte
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {s_P} {und} {t_P} {}
+Keime aus ${ \mathcal  F   }_P$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_P(s_P)
+}
+{ = }{ \varphi_P(t_P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir können davon ausgehen, dass beide durch Schnitte
+
+\mavergleichskette
+{\vergleichskette
+{ s,t
+}
+{ \in }{ { \mathcal  F   }  \left(   U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf einer offenen Umgebung $U$ von $P$ repräsentiert werden. Aufgrund der Gleichheit im Halm zu ${ \mathcal  G   }$ gibt es eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_{U'} (s)
+}
+{ = }{ \varphi_{U'} (t)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in
+\mathl{{ \mathcal  G   }  \left(   U'   \right)}{.} Aus der Voraussetzung folgt
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ = }{ t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in ${ \mathcal  F   }  \left(   U'   \right)$ und damit auch im Halm zu $P$.
+
+Zum Beweis der Rückrichtung seien Schnitte
+
+\mavergleichskette
+{\vergleichskette
+{s,t
+}
+{ \in }{ { \mathcal  F   }  \left(   U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(s)
+}
+{ = }{ \varphi(t)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in ${ \mathcal  G   }  \left(   U   \right)$ gegeben. Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(s)_P
+}
+{ = }{ \varphi(t)_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in jedem Halm ${ \mathcal  G   }_P$ zu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und damit nach Voraussetzung
+\zusatzklammer {unter Verwendung von
+
+Lemma 3.27
+} {} {}
+auch
+
+\mavergleichskette
+{\vergleichskette
+{ s_P
+}
+{ = }{ t_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in jedem Halm ${ \mathcal  F   }_P$. Aus
+
+Lemma 4.4
+
+folgt
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ = }{t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Garben/Homomorphismus/Isomorphismus/Lokaler Test/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+\maabb {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+ein
+\definitionsverweis {Garbenmorphismus}{}{.}}
+\faktfolgerung {Dann ist $\varphi$ genau dann ein
+\definitionsverweis {Garbenisomorphismus}{}{,}
+wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Halmabbildung}{}{}
+\maabbdisp {\varphi_P} { { \mathcal  F   }_P } { { \mathcal  G   }_P
+} {}
+ein Isomorphismus ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Die Hinrichtung ist trivial. Für die Rückrichtung ist zu zeigen, dass
+\maabbdisp {} { { \mathcal  F   }  \left(   U   \right) } { { \mathcal  G   }  \left(   U   \right)
+} {}
+für jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bijektiv ist. Ohne Einschränkung sei
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Injektivität ergibt sich aus
+
+Lemma 4.5
+.
+Zum Nachweis der Surjektivität sei nun
+
+\mavergleichskette
+{\vergleichskette
+{t
+}
+{ \in }{ { \mathcal  G   }  \left(   X   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vorgegeben. Zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es ein eindeutiges
+
+\mavergleichskettedisp
+{\vergleichskette
+{s_P
+}
+{ \in} { { \mathcal  F   }_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_P(s_P)
+}
+{ =} { t_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jedes $s_P$ wird repräsentiert durch ein
+
+\mavergleichskettedisp
+{\vergleichskette
+{r_{P}
+}
+{ \in} { { \mathcal  F   }  \left(   U_P    \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $U_P$ eine offene Umgebung von $P$ bezeichnet. Dabei hat
+\mathl{\varphi(r_{P})}{} die Eigenschaft, dass es im Halm ${ \mathcal  G   }_P$ mit $t_P$ übereinstimmt. Daher gibt es eine eventuell kleinere offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ V_P
+}
+{ \subseteq }{ U_P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+auf der
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi \left(  r_P  \right) \vert_{V_P }
+}
+{ = }{ t\vert_{V_P }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt. Wir ersetzen $U_P$ durch $V_P$ und haben eine offene Überdeckung
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{P \in X} V_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und Schnitte
+
+\mavergleichskettedisp
+{\vergleichskette
+{r_P
+}
+{ \in} { { \mathcal  F   }  \left(   V_P    \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die jeweils auf
+\mathl{t \vert_{V_P }}{} abbilden. Wir betrachten zwei Schnitte
+\mathkor {} {r_P} {und} {r_Q} {}
+auf dem Durchschnitt
+\mathl{V_P \cap V_Q}{.} Für einen Punkt
+
+\mavergleichskettedisp
+{\vergleichskette
+{Z
+}
+{ \in} { V_P \cap V_Q
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{(r_P)_Z
+}
+{ = }{(r_Q)_Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+da beide unter der bijektiven Abbildung $\varphi_Z$  auf $t_Z$ abgebildet werden. Nach
+
+Lemma 4.4
+
+folgt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ r_P \vert_{ V_P \cap V_Q }
+}
+{ =} { r_Q \vert_{ V_P \cap V_Q }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit gibt es aufgrund der zweiten Garbeneigenschaft ein globales Element
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{ { \mathcal  F   }  \left(   X   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{r \vert_{V_P }
+}
+{ =} { r_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $P$. Wegen der ersten Garbeneigenschaft ist
+
+\mavergleichskette
+{\vergleichskette
+{\varphi(r)
+}
+{ = }{t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+da dies auf den $V_P$ gilt.
+
+
+
+
+}
+
+
+
+Diese Aussage gilt weder für Prägarben
+\zusatzklammer {man betrachte beispielsweise eine Vergarbung einer Prägarbe} {} {}
+noch ohne die Voraussetzung, dass es überhaupt einen Homomorphismus gibt. Zwei Garben, die halmweise zueinander isomorph sind, müssen nicht isomorph sein. Wichtige Beispiele dazu sind lokal freie Garben, die lokal isomorph zu freien Garben sind, aber im Allgemeinen selbst nicht frei sind.
+
+Es ist auf den ersten Blick sicher überraschend und vielleicht auch enttäuschend, dass sich bei einem Garbenmorphismus die Surjektivität auf der Ebene der offenen Mengen und auf der Halmebene unterscheiden. Was aber zunächst wie ein Defizit aussieht, ist in Wirklichkeit eine Stärke der Garbentheorie, da sich in der globalen Nichtsurjektivität von halmweise surjektiven Morphismen topologische Eigenschaften des zugrunde liegenden Raumes widerspiegeln.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Ein
+\definitionsverweis {Garbenmorphismus}{}{}
+\maabb {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+zwischen
+\definitionsverweis {Garben}{}{}
+auf einem
+\definitionsverweis {topologischer Raum}{}{}
+$X$ heißt
+\definitionswort {surjektiv}{,}
+wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Halmabbildung}{}{}
+\maabbdisp {\varphi_P} { { \mathcal  F   }_P } { { \mathcal  G   }_P
+} {}
+\definitionsverweis {surjektiv}{}{}
+ist.
+
+
+
+
+
+}
+
+Diese Eigenschaft ist deutlich schwächer als die Eigenschaft, dass auf jeder offenen Menge eine surjektive Abbildung vorliegt.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Wir betrachten den
+\definitionsverweis {stetigen}{}{}
+\definitionsverweis {Gruppenhomomorphismus}{}{}
+\maabbeledisp {\varphi} {\R} {S^1
+} { t } { \left(  \cos  t   , \,   \sin  t                   \right)
+} {,}
+also die periodische
+\definitionsverweis {trigonometrische Parametrisierung}{}{}
+des Einheitskreises. Dies induziert einen
+\definitionsverweis {Garbenmorphismus}{}{}
+\maabbdisp {} { C^0(-, \R)} { C^0(- , S^1)
+} {}
+auf jedem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Einer stetigen reellwertigen Funktion
+\maabb {f} { U } { \R
+} {}
+auf
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+wird die Hintereinanderschaltung
+\maabbdisp {\varphi \circ f} { U } { S^1
+} {}
+zugeordnet. Dieser Garbenmorphismus ist
+\definitionsverweis {surjektiv}{}{,}
+da $\varphi$ lokal umkehrbar ist. Er ist aber im Allgemeinen nicht auf jeder offenen Teilmenge surjektiv. Wenn beispielsweise
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, so besitzt die Identität auf $S^1$ keine stetige Liftung nach $\R$
+
+
+
+
+
+}
+
+
+
+
+
+\inputfaktbeweis
+{Topologischer Raum/Garben/Morphismen/Garbe/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Zu
+\definitionsverweis {Garben}{}{}
+\mathkor {} {{ \mathcal  F   }} {und} {{ \mathcal  G   }} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$}
+\faktfolgerung {ist die Zuordnung
+
+\mathdisp {U \longmapsto \operatorname{Mor}  \left(    { \mathcal  F   } \vert_U  , { \mathcal  G   } \vert_U  \right)} {  }
+
+selbst eine Garbe.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Da ein Garbenmorphismus
+\maabbdisp {\varphi} { { \mathcal  F   } \vert_U  } { { \mathcal  G   } \vert_U
+} {}
+eine Abbildung
+\maabbdisp {} { \Gamma   \left(   V ,  { \mathcal  F   }   \right) } { \Gamma   \left(   V ,  { \mathcal  G   }   \right)
+} {}
+für jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beinhaltet, gibt es unmittelbar eine Einschränkung
+\maabbdisp {\varphi \vert_V} { { \mathcal  F   } \vert_V  } { { \mathcal  G   } \vert_V
+} {.}
+Das bedeutet, dass
+
+\mathdisp {U \longmapsto \operatorname{Mor}  \left(    { \mathcal  F   } \vert_U  , { \mathcal  G   } \vert_U  \right)} {  }
+
+eine
+\definitionsverweis {Prägarbe}{}{}
+ist. Zum Nachweis der Garbeneigenschaften sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{U
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Überdeckung}{}{.}
+Es seien
+\maabbdisp {\varphi, \psi} { { \mathcal  F   } \vert_U  } { { \mathcal  G   } \vert_U
+} {}
+Garbenmorphismen derart, dass die Einschränkungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_i
+}
+{ =} { \varphi \vert_{U_i }
+}
+{ =} { \psi \vert_{U_i }
+}
+{ =} { \psi_i
+}
+{ } {
+}
+}
+{}{}{}
+übereinstimmen. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ \in }{ \Gamma   \left(   U ,  { \mathcal  F   }   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den Einschränkungen
+
+\mavergleichskette
+{\vergleichskette
+{s_i
+}
+{ \defeq }{ s \vert_{U_i }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es ist dann
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(s_i)
+}
+{ =} { \psi(s_i)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit stimmen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(s), \psi(s)
+}
+{ \in} { \Gamma   \left(   U ,  { \mathcal  G   }   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+lokal überein und damit stimmen sie wegen der Garbeneigenschaft auch direkt überein.
+
+Zum Nachweis der zweiten Garbeneigenschaft seien Garbenmorphismen
+\maabbdisp {\varphi_i} { { \mathcal  F   } \vert_{U_i }  } { { \mathcal  G   } \vert_{U_i }
+} {}
+gegeben, die die Verträglichkeitsbedingung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_i \vert_{U_i \cap U_j }
+}
+{ =} { \varphi_j \vert_{U_i \cap U_j }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+erfüllen. Es ist die Existenz eines Garbenmorphismus
+\maabbdisp {\varphi} { { \mathcal  F   } \vert_U  } { { \mathcal  G   } \vert_U
+} {}
+nachzuweisen, dessen Einschränkungen die vorgegebenen $\varphi_i$ ergibt. Es sei hierzu wieder
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ \in }{ \Gamma   \left(   U ,  { \mathcal  F   }   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{t_i
+}
+{ =} { \varphi_i \left(  s \vert_{U_i }   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  s \vert_{ U_i }  \right) \vert_{U_i \cap U_j }
+}
+{ =} { \left(  s\vert_{ U_j }  \right) \vert_{U_i \cap U_j }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(  t_i  \right) \vert_{U_i \cap U_j }
+}
+{ =} { \left(  \varphi_i \left(  s \vert_{U_i }   \right)  \right) \vert_{U_i \cap U_j }
+}
+{ =} { \left(  \varphi_i \vert_{U_i \cap U_j } \left(  s \vert_{U_i \cap U_j  }   \right)  \right)
+}
+{ =} { \left(  \varphi_j \vert_{U_i \cap U_j } \left(  s \vert_{U_i \cap U_j  }   \right)  \right)
+}
+{ =} { \left(  \varphi_j \left(  s \vert_{U_j }   \right)  \right) \vert_{U_i \cap U_j }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \left(  t_j  \right) \vert_{U_i \cap U_j }
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}
+und somit bilden die $t_i$ eine verträgliche Familie von Schnitten. Daher gibt es eine eindeutig bestimmtes Element
+
+\mavergleichskette
+{\vergleichskette
+{t
+}
+{ \in }{ \Gamma   \left(   U ,  { \mathcal  G   }   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{t_i
+}
+{ = }{ t \vert_{U_i }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Festlegung
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(s)
+}
+{ \defeq }{t
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ergibt somit eine Abbildung
+\maabbdisp {\varphi} { \Gamma   \left(   U ,  { \mathcal  F   }   \right) } { \Gamma   \left(   U ,  { \mathcal  G   }   \right)
+} {,}
+deren Einschränkungen die vorgegebenen $\varphi_i$ sind.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Topologischer Raum/Garben/Überdeckung/Morphismus/Konstruktion/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Überdeckung}{}{}
+eines
+\definitionsverweis {topologischen Raumes}{}{}
+$X$ und es seien
+\mathkor {} {{ \mathcal  F   }} {und} {{ \mathcal  G   }} {}
+\definitionsverweis {Garben}{}{}
+auf $X$. Zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{i
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei ein
+\definitionsverweis {Garbenmorphismus}{}{}
+\maabbdisp {\alpha_i} { { \mathcal F  } \vert_{U_i }  } { { \mathcal G  } \vert_{U_i }
+} {}
+gegeben, der}
+\faktvoraussetzung {
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha_i \vert_{U_i \cap U_j }
+}
+{ =} { \alpha_j \vert_{U_i \cap U_j }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i,j$ erfüllt.}
+\faktfolgerung {Dann gibt es einen eindeutigen Garbenmorphismus
+\maabbdisp {\alpha} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha \vert_{U_i }
+}
+{ = }{ \alpha_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Dies folgt direkt aus
+
+Lemma 4.9
+.
+
+
+
+
+}
+
+
+
+
+
+
+\inputfaktbeweis
+{Topologischer Raum/Garben/Morphismen/Gleichheitstest in Halmen/Fakt}
+{Korollar}
+{}
+{
+
+
+
+\faktsituation {Es seien
+\mathkor {} {{ \mathcal  F   }} {und} {{ \mathcal  G   }} {}
+\definitionsverweis {Garben}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ und es seien
+\maabbdisp {\alpha, \beta} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+\definitionsverweis {Garbenmorphismen}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ = }{ \beta
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_p
+}
+{ = }{ \beta_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt.}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+Dies folgt direkt aus
+
+Lemma 4.9
+
+und
+
+Lemma 4.4
+.
+
+
+
+
+}

@@ -1512,7 +1512,11 @@ def status_is_pass(path: Path) -> bool:
         value.get("validation", {}).get("result") if isinstance(value, dict) else None,
     ]
     normalized = {str(candidate).lower() for candidate in candidates if candidate is not None}
-    return bool(normalized & {"pass", "passed", "ok", "success"})
+    return any(
+        candidate in {"pass", "passed", "ok", "success"}
+        or candidate.startswith("pass_")
+        for candidate in normalized
+    )
 
 
 def terminology_receipt(

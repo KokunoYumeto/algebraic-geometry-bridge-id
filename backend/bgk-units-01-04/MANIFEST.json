@@ -1,0 +1,412 @@
+{
+  "schema": "ag-bridge-bgk-native-backend-export-manifest-v1",
+  "schema_version": "1.0.0",
+  "record_schema_version": "1.0.0",
+  "generated_from_authority_utc": "2026-08-29T00:22:29.066179+00:00",
+  "through_unit": 4,
+  "scope": "BGK cumulative Units 1--4; namespace separate from classical Units 1--30",
+  "encoding": "UTF-8",
+  "serialization": "append-only canonical JSON Lines with CRLF; exact Units 1--3 files are byte prefixes",
+  "record_count": 2919,
+  "units_01_03_baseline_record_count": 2370,
+  "unit4_added_record_count": 549,
+  "counts": {
+    "artifact": 85,
+    "asset": 6,
+    "concept": 53,
+    "correction": 23,
+    "course": 1,
+    "edition": 8,
+    "exercise": 71,
+    "program": 1,
+    "qa_event": 11,
+    "relation": 1462,
+    "resource": 6,
+    "rights": 11,
+    "segment": 1099,
+    "solution": 2,
+    "term": 60,
+    "unit": 20
+  },
+  "source_heading_id_count": 180,
+  "unit4_source_heading_id_count": 33,
+  "source_heading_namespace": "br-bgk-2019-*",
+  "exercise_count": 71,
+  "unit4_exercise_count": 9,
+  "public_solution_count": 2,
+  "public_solution_ids": [
+    "br-bgk-2019-w02-ex04-solution",
+    "br-bgk-2019-w03-ex01-solution"
+  ],
+  "component_asset_count": 6,
+  "unit4_component_asset_count": 1,
+  "unit4_referenced_term_count": 22,
+  "unit4_added_terminology_qa_count": 9,
+  "unit4_reused_terminology_qa_count": 13,
+  "unit4_appended_term_record_count": 9,
+  "unit4_correction_count": 5,
+  "files": [
+    {
+      "path": "backend/bgk-units-01-04/record.schema.json",
+      "bytes": 3093,
+      "sha256": "fba5c3ae2417b115394fee2c3ab6cad58e3da7d7d03af66089507a44d6b98156"
+    },
+    {
+      "path": "backend/bgk-units-01-04/records.jsonl",
+      "bytes": 3275124,
+      "sha256": "f72ec15d7d036df7272d043968b888a61cffae8475ef8ce7206dbf1bcb3aeb04"
+    },
+    {
+      "path": "backend/bgk-units-01-04/artifact.jsonl",
+      "bytes": 81749,
+      "sha256": "5360901c9ca2149ced7158e498f62709078d85685fb8bd5a499006a51d72e0fb"
+    },
+    {
+      "path": "backend/bgk-units-01-04/asset.jsonl",
+      "bytes": 7774,
+      "sha256": "1355c762fc343ddb1cc6db0ebfc11fc3bc83cbab90c8c40fb34b554f2b64c19f"
+    },
+    {
+      "path": "backend/bgk-units-01-04/concept.jsonl",
+      "bytes": 45386,
+      "sha256": "a0212fab9313b646b4a1ba1424c0d88db842093fbc58b282a24ebd9569619b48"
+    },
+    {
+      "path": "backend/bgk-units-01-04/correction.jsonl",
+      "bytes": 43491,
+      "sha256": "2989d6f37570853dd3929699e2b904688ec4f757a71facc67964ddf8fe0b451b"
+    },
+    {
+      "path": "backend/bgk-units-01-04/course.jsonl",
+      "bytes": 1135,
+      "sha256": "84603b760d2fcb71012051568a4f48a941df5df07c85b1fe2a2a95f4a8b82245"
+    },
+    {
+      "path": "backend/bgk-units-01-04/edition.jsonl",
+      "bytes": 9150,
+      "sha256": "ba18b1b412d4d60415908ca23d17f4f5e10a55e33b6f815b5d85974e0feb2860"
+    },
+    {
+      "path": "backend/bgk-units-01-04/exercise.jsonl",
+      "bytes": 171045,
+      "sha256": "a719b851d4888e81d1ebd475ae63b3e4fae39b6aac818fb7914ef7bb2e8d37ae"
+    },
+    {
+      "path": "backend/bgk-units-01-04/program.jsonl",
+      "bytes": 787,
+      "sha256": "abace5a33e244ef86d7d52eb7ae93c2ce5fa036e66734c80409ec73e5170018f"
+    },
+    {
+      "path": "backend/bgk-units-01-04/qa_event.jsonl",
+      "bytes": 11540,
+      "sha256": "103f3150d93993fa2e106bc354888d4c8f8e67b4a578605852f136b201c2bca3"
+    },
+    {
+      "path": "backend/bgk-units-01-04/relation.jsonl",
+      "bytes": 1316342,
+      "sha256": "cbac9e56a670f99edfa882fd3faa9dac0c929eeb5c55d9febb72dfca0cff1eb1"
+    },
+    {
+      "path": "backend/bgk-units-01-04/resource.jsonl",
+      "bytes": 5840,
+      "sha256": "3f485f1fa89113261412735f7490759e0b83db56caabc1edf51d3906181f14d1"
+    },
+    {
+      "path": "backend/bgk-units-01-04/rights.jsonl",
+      "bytes": 27065,
+      "sha256": "6b85cf2a793d468b68ace8fbd5536a32e243a7e9f68aca04d35e415fcbfe1dff"
+    },
+    {
+      "path": "backend/bgk-units-01-04/segment.jsonl",
+      "bytes": 1427871,
+      "sha256": "9368e7144da87e9be3a075dcc5bddf4cd37f39ebb0d2d306f8fb6e3f759e166c"
+    },
+    {
+      "path": "backend/bgk-units-01-04/solution.jsonl",
+      "bytes": 8345,
+      "sha256": "b1a63067d115ea9e5ab07d9eff7deee1e1fb51d423a259c9165dd1350b93de50"
+    },
+    {
+      "path": "backend/bgk-units-01-04/term.jsonl",
+      "bytes": 74003,
+      "sha256": "865706b54341f22bd415c979df6df7c79f5d94a79b3699cc5f15a798bcd64506"
+    },
+    {
+      "path": "backend/bgk-units-01-04/unit.jsonl",
+      "bytes": 43601,
+      "sha256": "3874d496d9b4aaeea74d0901cd7096262eb762ebfff6f640a86dcc8d78a1b324"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "backend/bgk-units-01-03/MANIFEST.json",
+      "bytes": 13964,
+      "sha256": "2ccea7a804737c7f7e5a65bb8398e836a36cd31f3aec1a4cf6a4d1117bed0c02"
+    },
+    {
+      "path": "qa/BGK_UNITS_01_03_BACKEND_QA.json",
+      "bytes": 4124,
+      "sha256": "7308f881141cfaabb0f3f82e5f97a45ad2c2216386ad95252c71cfa50d38562d"
+    },
+    {
+      "path": "backend/bgk-units-01-03/record.schema.json",
+      "bytes": 3093,
+      "sha256": "cced112eb29fd695fcab272469a66cb0bdd62556c01d6e31649249ef00e460fb"
+    },
+    {
+      "path": "backend/bgk-units-01-03/records.jsonl",
+      "bytes": 2658393,
+      "sha256": "b1a1f655d98af07a05b70108c41b9a9e865fb45f069dc1f5f93e545b1576cace"
+    },
+    {
+      "path": "backend/bgk-units-01-03/artifact.jsonl",
+      "bytes": 58247,
+      "sha256": "000357a399b844600fb5d68f6233131ceeec8b1b8b94abe2d9ad1900dff5281b"
+    },
+    {
+      "path": "backend/bgk-units-01-03/asset.jsonl",
+      "bytes": 6553,
+      "sha256": "5e5009e30aa2533e3854b50c272d1459131292573db0d510dc6968f695b289ab"
+    },
+    {
+      "path": "backend/bgk-units-01-03/concept.jsonl",
+      "bytes": 39270,
+      "sha256": "3d8a2117e3ccfa1d206acaa7942604afd2cfeb0cb40f8da33c1c7b19dac842a0"
+    },
+    {
+      "path": "backend/bgk-units-01-03/correction.jsonl",
+      "bytes": 34219,
+      "sha256": "be2d731db5db6eede39b104f7f5e3ab9ba8e452a7eddc7a6168b06f58eb90aef"
+    },
+    {
+      "path": "backend/bgk-units-01-03/course.jsonl",
+      "bytes": 1135,
+      "sha256": "84603b760d2fcb71012051568a4f48a941df5df07c85b1fe2a2a95f4a8b82245"
+    },
+    {
+      "path": "backend/bgk-units-01-03/edition.jsonl",
+      "bytes": 6734,
+      "sha256": "be2cb5e368b39726a2fe89cd16f7efa5107fd2634833464ebf4924cfd95795ce"
+    },
+    {
+      "path": "backend/bgk-units-01-03/exercise.jsonl",
+      "bytes": 149374,
+      "sha256": "8ff715217054d13c84ccf9e5f1db14b4b496d5e8ba600ff0042c6f7ad26d9ee7"
+    },
+    {
+      "path": "backend/bgk-units-01-03/program.jsonl",
+      "bytes": 787,
+      "sha256": "abace5a33e244ef86d7d52eb7ae93c2ce5fa036e66734c80409ec73e5170018f"
+    },
+    {
+      "path": "backend/bgk-units-01-03/qa_event.jsonl",
+      "bytes": 7218,
+      "sha256": "0a3c437e933d1d2905aac67200c2b649ba6c309aeb128db3bc2a6783693afd1e"
+    },
+    {
+      "path": "backend/bgk-units-01-03/relation.jsonl",
+      "bytes": 1064868,
+      "sha256": "a7ac73886044d53ed1be3de8c02616b65305fedc44a325a8ee3e1e465e10948e"
+    },
+    {
+      "path": "backend/bgk-units-01-03/resource.jsonl",
+      "bytes": 4846,
+      "sha256": "dcfab10afaf9912fd7fee7c486ff46edf6c3e45b6541161e7dfe446b54a873f4"
+    },
+    {
+      "path": "backend/bgk-units-01-03/rights.jsonl",
+      "bytes": 22303,
+      "sha256": "7ef739cdba77f098929dcaffdef34ed7881fd0b27ba5b6efaaa7d11d64ba0dc7"
+    },
+    {
+      "path": "backend/bgk-units-01-03/segment.jsonl",
+      "bytes": 1160008,
+      "sha256": "8b72553e597e2e848e1a7561f6ed1d5b2145a60e373bc2434d4662808ab2699b"
+    },
+    {
+      "path": "backend/bgk-units-01-03/solution.jsonl",
+      "bytes": 8345,
+      "sha256": "b1a63067d115ea9e5ab07d9eff7deee1e1fb51d423a259c9165dd1350b93de50"
+    },
+    {
+      "path": "backend/bgk-units-01-03/term.jsonl",
+      "bytes": 62476,
+      "sha256": "176aa2975424e756d3b23419ece1ff6b6ddc39cfca794c422c35eed219dc367a"
+    },
+    {
+      "path": "backend/bgk-units-01-03/unit.jsonl",
+      "bytes": 32010,
+      "sha256": "a8792a4cab0214db7991bc921153c727868031def321662fd7635f9e5b953b08"
+    },
+    {
+      "path": "source/id-ID/bgk/frontmatter-bgk-units-01-04.md",
+      "bytes": 4029,
+      "sha256": "8eff29e7d764fb04c1577a17b4babbd3dc8e680999315a35f5fca645e1c30f11"
+    },
+    {
+      "path": "source/id-ID/bgk/lecture-04.md",
+      "bytes": 14153,
+      "sha256": "d85d039317df0d8d176b0c9db4b582e54e351d1bdf40083d5b5d9e6480e87f18"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-04.md",
+      "bytes": 6079,
+      "sha256": "77e20f9f7e9fea2052277292df8ae81f0ecf9c69e756d2fb561c281290d41269"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-04-solutions.md",
+      "bytes": 1687,
+      "sha256": "7e7d0842ba56a1d541577c2be4cef44afb5bee15529aa67cbfef99f0e086dfd0"
+    },
+    {
+      "path": "authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+      "bytes": 34279,
+      "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 74511,
+      "sha256": "3f26616ff7e9f4ac0d5bb0e64ad8435fefc18e32e4c91b16d780d4346498f680"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/ORDERED_EXERCISE_MAP.json",
+      "bytes": 3554,
+      "sha256": "a53d958595d6fd0aac34f8ea6562204dda96b44a375e68b33d93d92e63485dcf"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/worksheet-solution-candidates-api.json",
+      "bytes": 842,
+      "sha256": "1eb1be9dc5b34a5cc19719ddaf57cd918df880b0b28c74f52ab62ab25d33b52f"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/official-pdfs-api.json",
+      "bytes": 1973,
+      "sha256": "404e72c02c5498eebfb841660cd2227cf0694e024d8ceca89d23739cc2f182d7"
+    },
+    {
+      "path": "authority/BGK_UNIT_04_AUTHORITY_FREEZE.md",
+      "bytes": 9405,
+      "sha256": "e0082362603d963a331f9f687164600ae499d45ee1ff8488dfd498f2ccd0ed0e"
+    },
+    {
+      "path": "authority/RIGHTS-bgk-unit-04.csv",
+      "bytes": 2392,
+      "sha256": "620791467ec9ce4b87edde9efb7760359c6acc8a203435863a6d37cc79fd5132"
+    },
+    {
+      "path": "authority/ASSET_CLOSURE-bgk-unit-04.json",
+      "bytes": 5875,
+      "sha256": "2de02cc0d3d6018f42925b72b41e1661f3e9e305a07486f584c6e17c2c2fd0b3"
+    },
+    {
+      "path": "authority/commons-imageinfo-bgk-unit-04.json",
+      "bytes": 17843,
+      "sha256": "2a43864e163ad727c4c03ea62e7dc5ba45b2262a2ad19cc226b3f8a1bc56dddf"
+    },
+    {
+      "path": "source/id-ID/media-credits-bgk-unit-04.md",
+      "bytes": 650,
+      "sha256": "9d57b9c693fa327d008a191345e5a1f0ff58e87230e1b9ac16209ed46d178282"
+    },
+    {
+      "path": "qa/BGK_UNIT_04_AUTHORITY_QA.json",
+      "bytes": 13521,
+      "sha256": "94a997fd7e1be998512f6450d70bedc1c300e3b45882991a0350f4e44ae59428"
+    },
+    {
+      "path": "qa/BGK_UNIT_04_TRANSLATION_QA.json",
+      "bytes": 5661,
+      "sha256": "f06586dbb166c7d305fbf29c77bd5831d4f119057296789a0ee9c0f1871b5817"
+    },
+    {
+      "path": "qa/BGK_UNITS_01_04_READER_QA.json",
+      "bytes": 3741,
+      "sha256": "7fb3b518daf33afe71252fb01a73e382bd1d3e41de9752a0fc58124c797fe840"
+    },
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 51230,
+      "sha256": "db567eb87fa30247e747fe15c3c3b9fd0ef64bb55f4f776286b35491ad11c421"
+    },
+    {
+      "path": "00_control/CORRECTIONS.csv",
+      "bytes": 98843,
+      "sha256": "fe486065197a2839a0e341f4634154d47bb9a63db10ac3fa0c6e1ee00645edde"
+    },
+    {
+      "path": "authority/artifacts/bgk-lecture-04-official.pdf",
+      "bytes": 243533,
+      "sha256": "9e6dd93da57ae35f96568fc717442ac4c6fb209733527143068c34f32248d222"
+    },
+    {
+      "path": "authority/artifacts/bgk-worksheet-04-official.pdf",
+      "bytes": 31057,
+      "sha256": "082b49c71d075c7bd137ff66ce20d1ec3a76fe2368e1a2c2f0141e774e270ed9"
+    },
+    {
+      "path": "authority/assets/bgk-u04-triticum-spelta.jpg",
+      "bytes": 100723,
+      "sha256": "1050547eae3e7855001791da54dc8cd957b324cf38e5ef5b0955b4a596b0da7b"
+    },
+    {
+      "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+      "bytes": 7666,
+      "sha256": "7b3230d851f721350d830d5d61a8d1d2f86622186c91fa3991b78a61cfb31fba"
+    },
+    {
+      "path": "build/reader-bgk-id/index.html",
+      "bytes": 3062967,
+      "sha256": "ca9d860f1b0dd68d18ffe4017efbf755ed7819aa0727d4194f880863bcd1609b"
+    },
+    {
+      "path": "build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-04.pdf",
+      "bytes": 774444,
+      "sha256": "26db50d9ca0fc0b343e67025b1d2d6f17393703f30df586da03db059a0d02ea0"
+    },
+    {
+      "path": "backend/units-01-30/records.jsonl",
+      "bytes": 36390971,
+      "sha256": "dfdaebfa185c09b5e96ee4834b8b52f1c52329477eae0b48c5e8950b1b228dd7"
+    },
+    {
+      "path": "scripts/export_backend_bgk_units_01_04.py",
+      "bytes": 37735,
+      "sha256": "f2864bab7f98b7ecc8e0d39c4708bdc7518c3e31b9aa50400f40f969666a7eb6"
+    },
+    {
+      "path": "scripts/qa_backend_bgk_units_01_04.py",
+      "bytes": 15385,
+      "sha256": "dc2ea2b195d1a99fbe2fb6d5c408fdf80b6ccbf4e96aad0bea8f783ac4663b09"
+    }
+  ],
+  "units_01_03_immutable_baseline": {
+    "manifest_path": "backend/bgk-units-01-03/MANIFEST.json",
+    "manifest_sha256": "2ccea7a804737c7f7e5a65bb8398e836a36cd31f3aec1a4cf6a4d1117bed0c02",
+    "records_path": "backend/bgk-units-01-03/records.jsonl",
+    "records_sha256": "b1a1f655d98af07a05b70108c41b9a9e865fb45f069dc1f5f93e545b1576cace",
+    "record_count": 2370,
+    "records_byte_prefix_identity": true,
+    "class_projection_byte_prefix_identity": true
+  },
+  "classical_collision_baseline": {
+    "path": "backend/units-01-30/records.jsonl",
+    "bytes": 36390971,
+    "sha256": "dfdaebfa185c09b5e96ee4834b8b52f1c52329477eae0b48c5e8950b1b228dd7",
+    "stable_id_count": 22752,
+    "intersection_count": 0
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "validation": {
+    "unique_stable_ids": true,
+    "parent_rights_concept_and_relation_endpoint_closure": true,
+    "records_exact_set_union_of_class_projections": true,
+    "units_01_03_records_and_class_projections_are_exact_byte_prefixes": true,
+    "source_heading_ids_preserved": true,
+    "br_bgk_2019_namespace_disjoint_from_classical": true,
+    "exact_71_exercise_two_public_solution_closure": true,
+    "exact_unit4_terminology_and_correction_ledger_closure": true,
+    "all_unit4_records_carry_exact_model_provenance": true,
+    "authority_translation_reader_one_media_and_component_rights_bound": true,
+    "deterministic_double_replay_required": true
+  }
+}

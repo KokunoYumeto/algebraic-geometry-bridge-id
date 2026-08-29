@@ -1,0 +1,839 @@
+\setcounter{section}{6}
+
+
+
+
+
+
+
+
+Es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {topologische Räume}{}{.}
+Eine
+\definitionsverweis {stetige Abbildung}{}{}
+\maabbdisp {p} { Y } { X
+} {}
+heißt
+\definitionswort {Überlagerung}{,}
+wenn es eine
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{\bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine Familie
+\definitionsverweis {diskreter}{}{}
+topologischer Räume
+
+\mathbed {F_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+derart gibt, dass
+\mathl{p^{-1}(U_i)}{}
+\definitionsverweis {homöomorph}{}{}
+zu
+\mathl{U_i \times F_i}{}
+\zusatzklammer {versehen mit der
+\definitionsverweis {Produkttopologie}{}{}} {} {}
+ist, wobei die Homöomorphien mit den Abbildungen nach $U_i$ verträglich sind.
+
+
+
+
+
+
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass die Abbildung
+\maabbeledisp {} {\R } { S^1
+} { t } { \left(  \cos  t , \sin  t  \right)
+} {,}
+eine
+\definitionsverweis {Überlagerung}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass die Abbildung
+\maabbeledisp {} { {\mathbb C} } { {\mathbb C} ^{\times} = {\mathbb C} \setminus \{0\}
+} { z } { \exp  z
+} {,}
+eine
+\definitionsverweis {Überlagerung}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Zeige, dass es bei einer
+\definitionsverweis {Überlagerung}{}{}
+\maabb {p} { Y } { X
+} {}
+zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Umgebung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einen
+\definitionsverweis {stetigen Schnitt}{}{}
+\maabb {s} { U } { p^{-1}(U)
+} {}
+zu $p$ gibt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {F} {und} {H} {}
+kommutative
+\definitionsverweis {topologische Gruppen}{}{}
+und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ = }{ F \times H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ihre
+\definitionsverweis {Produktgruppe}{}{}
+\zusatzklammer {versehen mit der
+\definitionsverweis {Produkttopologie}{}{}} {} {}
+und es sei
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  F   \, \stackrel{  }{ \longrightarrow}   \,  G   \, \stackrel{  }{\longrightarrow} \,  H \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+die zugehörige kurze exakte Sequenz. Zeige, dass zu jedem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ eine
+\definitionsverweis {kurze exakte Garbensequenz}{}{}
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, C^0(-,F)  \, \stackrel{  }{ \longrightarrow}   \, C^0(-,G)  \, \stackrel{  }{\longrightarrow} \, C^0(-,H) \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+vorliegt, für die die globale Auswertung hinten stets surjektiv ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabb {\varphi} { X } { Y
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{,}
+
+\mathl{Q \in Y}{} ein Punkt und ${ \mathcal  F   }$ eine
+\definitionsverweis {Prägarbe}{}{}
+auf $X$. Zeige, dass der
+\definitionsverweis {Halm}{}{}
+der
+\definitionsverweis {vorgeschobenen Prägarbe}{}{}
+
+\mathl{\varphi_* { \mathcal  F   }}{} im Punkt $Q$ gleich
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \operatorname{colim}\,_{Q \in V } { \mathcal  F   } \left(  \varphi^{-1}(V)  \right)
+}
+{ =} { \operatorname{colim}\,_{ \left\{  U \subseteq X  \mid  \text{ es gibt } Q \in V \text{ mit } \varphi^{-1}(V) \subseteq U         \right\}  } { \mathcal  F   } \left(  U   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabb {\varphi} { X } { Y
+} {}
+einer
+\definitionsverweis {stetige Abbildung}{}{}
+und ${ \mathcal  G   }$ eine
+\definitionsverweis {Garbe}{}{}
+auf $Y$. Zeige, dass der
+\definitionsverweis {Halm}{}{}
+der
+\definitionsverweis {zurückgezogenen Garbe}{}{}
+in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gleich dem Halm von ${ \mathcal  G   }$ in
+\mathl{\varphi(P)}{} ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ eine Menge mit zwei Topologien
+\mathkor {} {\tau_1} {und} {\tau_2} {}
+derart, dass die Identität
+\maabbdisp {\varphi} {X_1 = (X, \tau_1)} {X_2 =  (X, \tau_2)
+} {}
+\definitionsverweis {stetig}{}{}
+ist, die erste Topologie ist also eine Verfeinerung der zweiten Topologie. Es sei
+\mathl{{ \mathcal  F   }_1}{} eine
+\definitionsverweis {Garbe}{}{}
+auf $X_1$ und
+\mathl{{ \mathcal  F   }_2}{} eine Garbe auf $X_2$. Bestimme $\varphi_* { \mathcal  F   }_1$ und $\varphi^{-1} { \mathcal  F   }_2$. Wie sieht es aus, wenn $\tau_1$ die
+\definitionsverweis {diskrete Topologie}{}{}
+und $\tau_2$ die
+\definitionsverweis {Klumpentopologie}{}{}
+ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+\maabb {\varphi} { X } { \{ P \}
+} {}
+die konstante Abbildung. Es sei ${ \mathcal  F   }$ eine
+\definitionsverweis {Garbe}{}{}
+auf $X$. Bestimme $\varphi_* { \mathcal  F   }$.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt mit der zugehörigen Abbildung
+\maabb {i} {\{P\}} {X
+} {.}
+Es sei ${ \mathcal  F   }$ eine
+\definitionsverweis {Garbe von kommutativen Gruppen}{}{}
+auf $\{P\}$. Beschreibe die Garbe
+\mathl{i_* { \mathcal  F   }}{} auf den offenen Mengen von $X$. Wie sehen die Halme von
+\mathl{i_* { \mathcal  F   }}{} aus, wenn $P$ ein abgeschlossener Punkt ist?
+
+
+
+
+
+}
+{} {Vergleiche auch
+
+Aufgabe 4.9
+}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+\maabb {\varphi} { X } { \{ P \}
+} {}
+die konstante Abbildung. Es sei ${ \mathcal  G   }$ eine
+\definitionsverweis {Garbe}{}{}
+auf $\{P \}$. Bestimme $\varphi^{-1} { \mathcal  G   }$.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabb {\varphi} { X } { Y
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{}
+zwischen den
+\definitionsverweis {topologischen Räumen}{}{}
+\mathkor {} {X} {und} {Y} {}
+und es sei ${ \mathcal  F   }$ eine
+\definitionsverweis {Garbe}{}{}
+auf $X$. Zeige, dass es einen natürlichen
+\definitionsverweis {Garbenmorphismen}{}{}
+\maabbdisp {} { \varphi^{-1}(  \varphi_* { \mathcal  F   }) } { { \mathcal  F   }
+} {}
+auf $X$ gibt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabb {\varphi} { X } { Y
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{}
+zwischen den
+\definitionsverweis {topologischen Räumen}{}{}
+\mathkor {} {X} {und} {Y} {}
+und es sei ${ \mathcal  G   }$ eine
+\definitionsverweis {Garbe}{}{}
+auf $Y$. Zeige, dass es einen natürlichen
+\definitionsverweis {Garbenmorphismen}{}{}
+\maabbdisp {} { { \mathcal  G   } } { \varphi_*(  \varphi^{-1} { \mathcal  G   })
+} {}
+auf $Y$ gibt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei
+\maabb {\varphi} { X } { Y
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{}
+zwischen den
+\definitionsverweis {topologischen Räumen}{}{}
+\mathkor {} {X} {und} {Y} {.}
+Es sei ${ \mathcal  F   }$ eine
+\definitionsverweis {Garbe}{}{}
+auf $X$ und ${ \mathcal  G   }$ eine Garbe auf $Y$. Zeige, dass es eine natürliche Bijektion zwischen den
+\definitionsverweis {Garbenmorphismen}{}{}
+
+\maabbdisp {\psi} { \varphi^{-1} { \mathcal  G   } } { { \mathcal  F   }
+} {}
+auf $X$ und den Garbenmorphismen
+\maabbdisp {\theta} { { \mathcal  G   } } { \varphi_* { \mathcal  F   }
+} {}
+auf $Y$ gibt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathl{L_1,L_2,M}{} Mengen und
+\maabbdisp {p_1} {L_1 } { M
+} {}
+und
+\maabbdisp {p_2} {L_2 } { M
+} {}
+Abbildungen. Wir definieren
+
+\mavergleichskettedisp
+{\vergleichskette
+{L_1 \times_M L_2
+}
+{ \defeq} { \left\{ (x_1,x_2)  \mid   p_1(x_1) = p_2(x_2)         \right\}
+}
+{ \subseteq} { L_1 \times L_2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\aufzaehlungzwei {Zeige, dass es ein kommutatives Diagramm
+
+
+
+\mathdisp {\begin{matrix} L_1 \times_M L_2  & \stackrel{  }{\longrightarrow} &  L_1  &  \\ \downarrow & & \downarrow  & \\  L_2  & \stackrel{  }{\longrightarrow} &  M & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+
+
+
+gibt.
+} {Es sei $T$ eine weitere Menge und
+\maabb {\psi_1} { T } { L_1
+} {}
+und
+\maabb {\psi_2} { T } { L_2
+} {}
+Abbildungen mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p_1 \circ \psi_1
+}
+{ =} { p_2 \circ \psi_2
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Zeige, dass es eine eindeutig bestimmte Abbildung
+\maabbdisp {\psi} { T } { L_1 \times_M L_2
+} {}
+derart gibt, dass die Projektionen auf
+\mathkor {} {L_1} {bzw.} {L_2} {}
+mit $\psi_1,\psi_2$ übereinstimmen.
+}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathl{L_1,L_2,M}{}
+\definitionsverweis {topologische Räume}{}{}
+und
+\maabbdisp {p_1} {L_1 } { M
+} {}
+und
+\maabbdisp {p_2} {L_2 } { M
+} {}
+\definitionsverweis {stetige Abbildungen}{}{.}
+Wir definieren
+
+\mavergleichskettedisp
+{\vergleichskette
+{L_1 \times_M L_2
+}
+{ \defeq} { \left\{ (x_1,x_2)  \mid   p_1(x_1) = p_2(x_2)         \right\}
+}
+{ \subseteq} { L_1 \times L_2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit der
+\definitionsverweis {induzierten Topologie}{}{.}
+\aufzaehlungzwei {Zeige, dass es ein kommutatives Diagramm
+
+
+
+\mathdisp {\begin{matrix} L_1 \times_M L_2  & \stackrel{  }{\longrightarrow} &  L_1  &  \\ \downarrow & & \downarrow  & \\  L_2  & \stackrel{  }{\longrightarrow} &  M & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+
+
+
+mit stetigen Abbildungen gibt.
+} {Es sei $T$ ein weiterer topologischer Raum und
+\maabb {\psi_1} { T } { L_1
+} {}
+und
+\maabb {\psi_2} { T } { L_2
+} {}
+stetige Abbildungen mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p_1 \circ \psi_1
+}
+{ =} { p_2 \circ \psi_2
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Zeige, dass es eine eindeutig bestimmte stetige Abbildung
+\maabbdisp {\psi} { T } { L_1 \times_M L_2
+} {}
+derart gibt, dass die Projektionen auf
+\mathkor {} {L_1} {bzw.} {L_2} {}
+mit $\psi_1,\psi_2$ übereinstimmen.
+}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {topologische Räume}{}{}
+und
+\maabb {\varphi} { Y } { X
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{.}
+Es sei
+\maabb {p} { V } { X
+} {}
+ein
+\definitionsverweis {Vektorbündel}{}{}
+über $X$. Zeige, dass
+\mathl{Y \times_X V}{}
+\zusatzklammer {siehe
+
+Aufgabe 6.15
+} {} {}
+ein Vektorbündel über $Y$ ist.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und seien
+\maabb {p} { V } { X
+} {}
+und
+\maabb {q} { W } { X
+} {}
+\definitionsverweis {Vektorbündel}{}{}
+über $X$. Zeige, dass
+\mathl{V \times_X W}{}
+\zusatzklammer {siehe
+
+Aufgabe 6.15
+} {} {}
+ein Vektorbündel über $X$ ist, das mit der
+\definitionsverweis {direkten Summe von Vektorbündeln}{}{}
+über $X$ übereinstimmt.
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {X,Y} {und} {Z} {}
+\definitionsverweis {topologische Räume}{}{}
+und seien
+\maabb {\varphi} { Y } { X
+} {}
+und
+\maabb {p} { Z } { X
+} {}
+\definitionsverweis {stetige Abbildungen}{}{.}
+Es sei
+\maabbdisp {p_Y} {Y \times_XZ } { Y
+} {.}
+Zeige, dass ein
+\definitionsverweis {stetiger Schnitt}{}{}
+\maabb {s} { Y } { Y \times_XZ
+} {}
+das gleiche ist wie eine stetige Abbildung
+\maabb {t} { Y } { Z
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ p \circ t
+}
+{ = }{ \varphi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+
+
+
+
+Es seien
+\mathkor {} {X,Y} {und} {Z} {}
+\definitionsverweis {topologische Räume}{}{}
+und seien
+\maabb {\varphi} { Y } { X
+} {}
+und
+\maabb {p} { Z } { X
+} {}
+\definitionsverweis {stetige Abbildungen}{}{.}
+Es sei
+\maabb {p_Y} {Y \times_XZ } { Y
+} {.}
+Es sei ${ \mathcal  G   }$ die
+\definitionsverweis {Garbe der stetigen Schnitte}{}{}
+zu $p$ auf $X$. Zeige, dass der
+\definitionsverweis {Rückzug}{}{}
+$\varphi^*{ \mathcal  G   }$ mit der Garbe der Schnitte zu $p_Y$ übereinstimmt.
+
+
+
+
+
+}
+{} {}

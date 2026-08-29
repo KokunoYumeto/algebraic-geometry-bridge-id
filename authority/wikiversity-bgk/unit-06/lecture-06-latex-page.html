@@ -1,0 +1,760 @@
+<div class="mw-content-ltr mw-parser-output" lang="de" dir="ltr"><p>\setcounter{section}{6}<br /><br />
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Exaktheit}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{,}
+es seien ${ \mathcal  F   }_n$
+\definitionsverweis {Garben}{}{}
+von
+\definitionsverweis {kommutativen Gruppen}{}{}
+auf $X$ und es seien
+\maabb {\varphi_n} { { \mathcal  F   }_{n-1} } { { \mathcal  F   }_n 
+} {}
+\definitionsverweis {Homomorphismen}{}{.}
+Man sagt, dass ein
+\definitionswort {Garbenkomplex}{}
+vorliegt, wenn
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \operatorname{bild} \varphi_{n} 
+}<br />{ \subseteq} { \operatorname{kern} \varphi_{n+1} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gilt.  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und es sei ${ \mathcal  F   }_\bullet$ ein
+\definitionsverweis {Komplex}{}{}
+von
+\definitionsverweis {Garben}{}{}
+von
+\definitionsverweis {kommutativen Gruppen}{}{}
+auf $X$. Man sagt, dass der Komplex
+\definitionswort {exakt}{}
+ist, wenn
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \operatorname{bild} \varphi_{n} 
+}<br />{ =} { \operatorname{kern} \varphi_{n+1} 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+für alle
+<br />\mavergleichskette<br />{\vergleichskette<br />{n
+}<br />{ \in }{\Z
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gilt.  
+</p>
+</div>
+<p>}
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Garbe/Gruppen/Exaktheit/Charakterisierungen/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und es sei
+<br />\mathdisp {{ \mathcal  F   }  \stackrel{  }{\longrightarrow }  { \mathcal  G   }  \stackrel{   }{\longrightarrow }   { \mathcal  H   }} {  }<br /> 
+ein
+\definitionsverweis {Komplex}{}{}
+von
+\definitionsverweis {Garben von kommutativen Gruppen}{}{}
+auf $X$.}<br />\faktfolgerung {Dann ist der Komplex genau dann
+\definitionsverweis {exakt}{}{,}
+wenn für jeden Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+der Komplex
+<br />\mathdisp {{ \mathcal  F   }_P  \stackrel{  }{\longrightarrow }  { \mathcal  G   }_P  \stackrel{   }{\longrightarrow }   { \mathcal  H   }_P} {  }<br /> 
+\definitionsverweis {exakt}{}{}
+ist.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir benennen die Situation mit
+<br />\mathdisp {{ \mathcal  F   }  \stackrel{ \alpha }{\longrightarrow }  { \mathcal  G   }  \stackrel{  \beta }{\longrightarrow }   { \mathcal  H   }} { . }<br /> 
+Nach
+<a href="/wiki/Topologischer_Raum/Garben/Morphismen/Gleichheitstest_in_Halmen/Fakt" title="Topologischer Raum/Garben/Morphismen/Gleichheitstest in Halmen/Fakt">Korollar 4.11</a>
+liegt ein 
+\definitionsverweis {Garbenkomplex}{}{}
+genau dann vor, wenn sämtliche Halmabbildungen 
+\definitionsverweis {Komplexe}{}{}
+sind. Es sei der Komplex exakt, also
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \operatorname{bild} \alpha 
+}<br />{ =} { \operatorname{kern} \beta 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+fixiert und sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{s
+}<br />{ \in }{ { \mathcal  G   }_P
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \beta_P(s)
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dann gibt es eine offene Umgebung $U$ von $P$ auf der $s$ durch einen Schnitt $s$ repräsentiert wird und eine kleinere offene Umgebung
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ \subseteq }{ U
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,} 
+worauf
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \beta_V(s \vert_V )
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ist. Das Element
+\zusatzklammer {wir nennen die Einschränkung wieder $s$} {} {}
+<br />\mavergleichskette<br />{\vergleichskette<br />{s
+}<br />{ \in }{ { \mathcal  G   }  \left(   V   \right)  
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gehört also zum Kern von $\beta_V$ und daher zum 
+\zusatzklammer {Garben} {-} {}Bild von $\alpha$. D.h. es gibt eine offene Umgebung
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{ W
+}<br />{ \subseteq }{ V
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{,}
+auf der $s$ im Bild von
+\maabbdisp {\alpha_W} { { \mathcal  F   }  \left(   W   \right)  } { { \mathcal  G   }  \left(   W   \right)
+} {}
+liegt. Daher liegt auch der Keim $s$ im Bild von $\alpha_P$.
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Ein
+\definitionsverweis {exakter}{}{}
+\definitionsverweis {Komplex}{}{}
+<br />\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  { \mathcal  F   }   \, \stackrel{  }{ \longrightarrow}   \,  { \mathcal  G   }   \, \stackrel{  }{\longrightarrow} \,  { \mathcal  H   }  \,\stackrel{  } {\longrightarrow}  \, 0} {  }<br /> 
+von
+\definitionsverweis {Garben von kommutativen Gruppen}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ heißt
+\definitionswort {kurze exakte Sequenz}{.}  
+</p>
+</div>
+<p>}
+Hierbei ist insbesondere die vordere Abbildung injektiv und die hintere Abbildung
+\zusatzklammer {Garben} {} {-}surjektiv.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Topologische Gruppen/Kommutativ/Kurze exakte Sequenz/Lokal stetiger Schnitt/Garbensequenz/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei
+<br />\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  F   \, \stackrel{  }{ \longrightarrow}   \,  G   \, \stackrel{  }{\longrightarrow} \,  H \,\stackrel{  } {\longrightarrow}  \, 0} {  }<br /> 
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von kommutativen
+\definitionsverweis {topologischen Gruppen}{}{}
+\zusatzklammer {mit stetigen Gruppenhomomorphismen} {} {.}}<br />\faktvoraussetzung {Es trage $F$ die 
+\definitionsverweis {induzierte Topologie}{}{}
+von $G$ und die Surjektion 
+\maabb {p} { G } { H
+} {}
+habe die Eigenschaft, dass es zu jedem Element
+<br />\mavergleichskette<br />{\vergleichskette<br />{h
+}<br />{ \in }{ H
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine offene Umgebung
+<br />\mavergleichskette<br />{\vergleichskette<br />{h
+}<br />{ \in }{ W
+}<br />{ \subseteq }{ H
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und einen 
+\definitionsverweis {stetigen Schnitt}{}{}
+zu $p$ gibt.}<br />\faktfolgerung {Dann ist für jeden
+\definitionsverweis {topologischen Raum}{}{}
+$X$ die zugehörige Sequenz der Garben der stetigen Abbildungen in diese Gruppen, also
+<br />\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, C^0(-,F)  \, \stackrel{  }{ \longrightarrow}   \, C^0(-,G)    \, \stackrel{  }{\longrightarrow} \,  C^0(-,H)   \,\stackrel{  } {\longrightarrow}  \, 0} { , }<br /> 
+ebenfalls
+\definitionsverweis {exakt}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es ist klar, dass ein 
+\definitionsverweis {Komplex}{}{}
+von 
+\definitionsverweis {Garben von kommutativen Gruppen}{}{}
+auf $X$ vorliegt. Die Injektivität links ist ebenfalls klar. Zur Exaktheit in der Mitte: Wenn zu einer offenen Menge
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \subseteq }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+eine stetige Abbildung
+\maabb {\varphi} { U } { G
+} {}
+die Eigenschaft besitzt, dass <br />\mathl{p \circ \varphi}{} die Nullabbildung ist, so liegt das Bild von $\varphi$ in $F$. Da $F$ die 
+\definitionsverweis {induzierte Topologie}{}{}
+von $G$ trägt, ist auch die Abbildung
+\maabb {\varphi} { U } { F
+} {}
+stetig. Zur Garbensurjektivität rechts: Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+ein Punkt und
+\maabbdisp {\psi} { V} {H
+} {}
+eine auf einer offenen Umgebung von $P$ definierte stetige Abbildung nach $H$. Es sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{ \psi(P)
+}<br />{ = }{ h
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Nach Voraussetzung gibt es eine offene Umgebung
+<br />\mavergleichskette<br />{\vergleichskette<br />{h
+}<br />{ \in }{ W
+}<br />{ \subseteq }{ H
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und einen Schnitt
+\maabb {s} { W} {G
+} {}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ p \circ s
+}<br />{ = }{ 
+\operatorname{Id}_{  W  } 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Wir betrachten
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{U
+}<br />{ \defeq} { V \cap \psi^{-1}(W)
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Dann ist <br />\mathl{s \circ \psi}{} 
+\zusatzklammer {eingeschränkt auf $U$} {} {}
+ein stetiger Schnitt von $G$, der unter $p$ auf $\psi$ abgebildet wird.
+</p>
+</div>
+}</div>
+<p><br />
+<br /><br /><br />\inputbeispiel{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Wir betrachten die kurze exakte \stichwort {Exponentialsequenz} {} 
+<br />\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  2 \pi { \mathrm i}\Z  \, \stackrel{  }{ \longrightarrow}   \,  {\mathbb C}    \, \stackrel{ \operatorname{exp} }{\longrightarrow} \,  {\mathbb C} ^{\times}  \,\stackrel{  } {\longrightarrow}  \, 0} {  }<br /> 
+von
+\definitionsverweis {topologischen Gruppen}{}{.}
+Die Exaktheit in der Mitte beruht auf
+<a href="/wiki/Komplexe_Exponentialfunktion/Periodizit%C3%A4tseigenschaften/Fakt" title="Komplexe Exponentialfunktion/Periodizitätseigenschaften/Fakt">Satz 21.5 (Analysis (Osnabrück 2021-2023))&#160; (2)</a>,
+die Homomorphieeigenschaft beruht auf
+der <a href="/wiki/Exponentialreihe/Komplex/Funktionalgleichung/Fakt" title="Exponentialreihe/Komplex/Funktionalgleichung/Fakt">Funktionalgleichung der Exponentialfunktion</a>
+und die
+\definitionsverweis {komplexe Exponentialfunktion}{}{}
+bildet nach
+<a href="/wiki/Komplexe_Zahlen/Polarkoordinaten/Fakt" title="Komplexe Zahlen/Polarkoordinaten/Fakt">Satz 21.6 (Analysis (Osnabrück 2021-2023))</a>
+surjektiv auf ${\mathbb C} \setminus \{0\}$ ab
+\zusatzklammer {sie ist eine
+\definitionsverweis {Überlagerung}{}{,}
+siehe
+<a href="/wiki/Komplexe_Exponentalfunktion/%C3%9Cberlagerung/Beispiel" title="Komplexe Exponentalfunktion/Überlagerung/Beispiel">Beispiel 21.3 (Funktionentheorie (Osnabrück 2023-2024))</a>} {} {.}
+Da es lokal einen Logarithmus gibt, sind die Voraussetzungen von
+<a href="/wiki/Topologische_Gruppen/Kommutativ/Kurze_exakte_Sequenz/Lokal_stetiger_Schnitt/Garbensequenz/Fakt" title="Topologische Gruppen/Kommutativ/Kurze exakte Sequenz/Lokal stetiger Schnitt/Garbensequenz/Fakt">Lemma 6.5</a>
+erfüllt. Somit gibt es zu jedem topologischen Raum $X$ eine 
+\definitionsverweis {kurze exakte Garbensequenz}{}{}
+<br />\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, C^0(-, \Z)  \, \stackrel{  }{ \longrightarrow}   \, C^0(-, {\mathbb C} )    \, \stackrel{  }{\longrightarrow} \,  C^0(-, {\mathbb C} ^{\times} )   \,\stackrel{  } {\longrightarrow}  \, 0} { , }<br />
+die die 
+\zusatzklammer {stetige komplexe} {} {}
+\stichwort {Exponentialsequenz} {} heißt. Links steht die lokal konstante Garbe mit Werten in $\Z$, in der Mitte die Garbe der komplexwertigen stetigen Funktionen und rechts die Garbe der nullstellenfreien komplexwertigen stetigen Funktionen. Wenn man  
+<br />\mavergleichskette<br />{\vergleichskette<br />{X 
+}<br />{ = }{ {\mathbb C} ^{\times}
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+setzt, so ist die globale Auswertung der hinteren Abbildung nicht surjektiv, da die Identität nicht im Bild liegt.
+</p>
+</div><p><br />
+</p><p>}
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Globale Auswertung}
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Garbe/Kommutative Gruppen/Komplex/Globale Auswertung/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}}<br />\faktvoraussetzung {und sei
+<br />\mathdisp {{ \mathcal  F   } \stackrel{d}{\longrightarrow } { \mathcal  G   } \stackrel{d'}{\longrightarrow} { \mathcal  H   }} {  }<br />
+ein 
+\definitionsverweis {Komplex}{}{}
+von 
+\definitionsverweis {Garbenhomomorphismen}{}{}
+von
+\definitionsverweis {Garben}{}{}
+von 
+\definitionsverweis {kommutativen Gruppen}{}{}
+auf $X$.}<br />\faktfolgerung {Dann ist auch
+<br />\mathdisp {\Gamma   \left(   X ,  { \mathcal  F   }   \right) \longrightarrow \Gamma   \left(   X ,  { \mathcal  G   }   \right) \longrightarrow \Gamma   \left(   X ,  { \mathcal  H   }   \right)} {  }<br />
+ein Komplex.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Die Voraussetzung bedeutet einfach, dass <br />\mathl{d' \circ d}{} die Nullabbildung ist. Dann ist insbesondere die globale Auswertung die Nullabbildung.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Garbe/Kommutative Gruppen/Linksexakt/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{.}}<br />\faktvoraussetzung {Es sei
+<br />\mathdisp {0 \longrightarrow { \mathcal  F   } \stackrel{d}{ \longrightarrow } { \mathcal  G   } \stackrel{d'}{\longrightarrow } { \mathcal  H   }} {  }<br />
+ein exakter Komplex von 
+\definitionsverweis {Garbenhomomorphismen}{}{}
+von
+\definitionsverweis {Garben}{}{}
+von 
+\definitionsverweis {kommutativen Gruppen}{}{}
+auf $X$.}<br />\faktfolgerung {Dann ist auch der Komplex
+<br />\mathdisp {0 \longrightarrow \Gamma   \left(   X ,  { \mathcal  F   }   \right) \longrightarrow \Gamma   \left(   X ,  { \mathcal  G   }   \right) \longrightarrow \Gamma   \left(   X ,  { \mathcal  H   }   \right)} {  }<br />
+exakt.}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Dass ein Komplex vorliegt ist klar nach
+<a href="/wiki/Garbe/Kommutative_Gruppen/Komplex/Globale_Auswertung/Fakt" title="Garbe/Kommutative Gruppen/Komplex/Globale Auswertung/Fakt">Lemma 6.7</a>.
+Die Exaktheit bedeutet, dass für jeden Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+der Komplex
+<br />\mathdisp {0 \longrightarrow { \mathcal  F   }_P \longrightarrow { \mathcal  G   }_P \longrightarrow { \mathcal  H   }_P} {  }<br />
+der Halme exakt ist. Sei
+<br />\mavergleichskette<br />{\vergleichskette<br />{s
+}<br />{ \in }{ \Gamma   \left(   X ,  { \mathcal  F   }   \right) 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+und
+<br />\mavergleichskette<br />{\vergleichskette<br />{ d(s)
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+in <br />\mathl{\Gamma   \left(   X ,  { \mathcal  G   }   \right)}{.} Dann ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ d(s)_P
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+in jedem Punkt und somit ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ s_P
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+für jeden Punkt. Also ist
+<br />\mavergleichskette<br />{\vergleichskette<br />{ s
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+nach
+<a href="/wiki/Garbe/Schnitte/Gleichheit/Lokaler_Test/Fakt" title="Garbe/Schnitte/Gleichheit/Lokaler Test/Fakt">Lemma 4.4</a>
+und die linke Abbildung ist injektiv. Es sei nun
+<br />\mavergleichskette<br />{\vergleichskette<br />{ t
+}<br />{ \in }{ \Gamma   \left(   X ,  { \mathcal  G   }   \right) 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ d'(t)
+}<br />{ = }{ 0
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+in <br />\mathl{\Gamma   \left(   X ,  { \mathcal  H   }   \right)}{.} Die Exaktheit in den Halmen bedeutet, dass für jeden Punkt $P$ der Keim $t_P$ zu <br />\mathl{{ \mathcal  F   }_P}{} gehört. Daraus folgt mit
+<a href="/wiki/Garbe/Untergarbe/Halmweise_Zugeh%C3%B6rigkeit/Aufgabe" title="Garbe/Untergarbe/Halmweise Zugehörigkeit/Aufgabe">Aufgabe 5.5</a>,
+dass $t$ selbst zu ${ \mathcal  F   }$ gehört.
+</p>
+</div>
+}</div>
+<p><br />
+Die vorstehende Aussage bedeutet, dass die globale Auswertung einer Garbe von abelschen Gruppen ein 
+\zusatzklammer {kovarianter, additiver} {} {} 
+\definitionsverweis {linksexakter Funktor}{}{}
+ist.
+</p><p><br />  <br /> <br /> <br /> <br />  \zwischenueberschrift{Rückzug und Vorschub}
+</p><p>Bisher haben wir nur Garben und ihre Beziehungen untereinander auf einem gegebenen topologischen Raum behandelt. Wir betrachten nun den Fall, wo topologische Räume durch eine stetige Abbildung miteinander verbunden sind.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zu einer 
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabbdisp {\varphi} { X } { Y
+} {}
+und einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  F   }$ auf $X$ nennt man die durch
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ \left(  \varphi_*  \right) { \mathcal  F   }  (U)
+}<br />{ \defeq} { { \mathcal  F   } \left(  \varphi^{-1}(U)  \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+gegebene Prägarbe auf $Y$ die unter $\varphi$ 
+\definitionswort {vorgeschobene Prägarbe}{.}  
+</p>
+</div>
+<p>}
+Da zu offenen Mengen
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ \subseteq }{W
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+auch
+<br />\mavergleichskette<br />{\vergleichskette<br />{\varphi^{-1}(V)
+}<br />{ \subseteq }{\varphi^{-1}(W)
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gilt, hat man natürliche Restriktionsabbildungen und erhält somit in der Tat eine Prägarbe.
+</p><p><br />
+</p>
+<div class="latex"><br /><br /><br />\inputfaktbeweis<br />{Stetige Abbildung/Garbe/Vorschub/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Zu einer 
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabbdisp {\varphi} { X } { Y
+} {}
+und einer
+\definitionsverweis {Garbe}{}{}
+${ \mathcal  F   }$ auf $X$ ist die
+\definitionsverweis {vorgeschobene Prägarbe}{}{}
+<br />\mathl{\varphi_* { \mathcal  F   }}{}}<br />\faktfolgerung {eine
+\definitionsverweis {Garbe}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+<p>}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Es sei
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{V
+}<br />{ =} { \bigcup_{i \in I} V_i
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{}
+eine offene Überdeckung einer offenen Menge
+<br />\mavergleichskette<br />{\vergleichskette<br />{V
+}<br />{ \subseteq }{ Y
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{.}
+Dann bilden die
+<br />\mathbed {\varphi^{-1} (V_i)} {} <br /> {i \in I} {} <br /> {} {} {} {,}
+eine offene Überdeckung von $\varphi^{-1}(V)$. Es seien <br />\mathl{s,t \in \varphi_*{ \mathcal F  }(V)}{} mit
+<br />\mavergleichskette<br />{\vergleichskette<br />{ s \vert_{V_i \cap V_j }
+}<br />{ = }{ t \vert_{V_i \cap V_j }
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gegeben. Dies bedeutet unmittelbar <br />\mathl{s,t \in { \mathcal F  } \left(  \varphi^{-1}(V)  \right)}{} und
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ s\vert_{  \varphi^{-1}(V_i) \cap  \varphi^{-1}(V_j)  }
+}<br />{ =} { s\vert_{  \varphi^{-1}(V_i \cap V_j)  }
+}<br />{ =} { t\vert_{  \varphi^{-1}(V_i \cap V_j)  }
+}<br />{ =} { t\vert_{  \varphi^{-1}(V_i) \cap  \varphi^{-1}(V_j)  }
+}<br />{ } {
+}<br />}
+{}{}{.}
+Daher ist 
+\zusatzklammer {nach der ersten Garbeneigenschaft von ${ \mathcal  F   }$} {} {}
+<br />\mavergleichskette<br />{\vergleichskette<br />{s
+}<br />{ = }{t
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+in ${ \mathcal  F   } \left(  \varphi^{-1} (V)   \right)$, also
+<br />\mavergleichskette<br />{\vergleichskette<br />{s
+}<br />{ = }{t
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+in $\varphi_* { \mathcal  F   }  (V)$.
+</p><p>Es seien nun <br />\mathl{s_i \in { \mathcal  F   }  (V_i)}{} mit
+<br />\mavergleichskettedisp<br />{\vergleichskette<br />{ s_i \vert_{V_i \cap V_j }
+}<br />{ =} { s_j\vert_{V_i \cap V_j }
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}
+Dies bedeutet zurückübersetzt nach $X$ unmittelbar, dass kompatible Schnitte in <br />\mathl{{ \mathcal  F   } \left(  \varphi^{-1}(V_i)   \right)}{} vorliegen, denen ein Schnitt in
+<br />\mavergleichskette<br />{\vergleichskette<br />{ { \mathcal  F   } \left(  \varphi^{-1}(V)   \right) 
+}<br />{ = }{ \varphi_* { \mathcal  F   }  (V) 
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+entspricht.
+</p>
+</div>
+}</div>
+<p><br />
+</p>
+<div class="latex">\inputfaktbeweis<br />{Stetige Abbildung/Prägarbe/Vorschub/Halme/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Zu einer 
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabbdisp {\varphi} { X } { Y
+} {,}
+einem Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{Q
+}<br />{ \in }{ Y
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{} 
+und einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  F   }$ auf $X$ ist der
+\definitionsverweis {Halm}{}{}
+der
+\definitionsverweis {vorgeschobenen Prägarbe}{}{}
+<br />\mathl{\varphi_* { \mathcal  F   }}{} im Punkt $Q$ gleich}<br />\faktfolgerung {<br />\mavergleichskettedisphandlinks<br />{\vergleichskettedisphandlinks<br />{ \operatorname{colim}\,_{Q \in V } { \mathcal  F   } \left(  \varphi^{-1}(V)  \right) 
+}<br />{ =} { \operatorname{colim}\,_{ \left\{  U \subseteq X  \mid  \text{ es gibt eine offene Umgebung } Q \in V \text{ mit } \varphi^{-1}(V) \subseteq U         \right\}  } { \mathcal  F   } \left(  U   \right) 
+}<br />{ } {
+}<br />{ } {
+}<br />{ } {
+}<br />}
+{}{}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+ }<br />{ Siehe <a href="/wiki/Stetige_Abbildung/Pr%C3%A4garbe/Vorschub/Halme/Fakt/Beweis/Aufgabe" title="Stetige Abbildung/Prägarbe/Vorschub/Halme/Fakt/Beweis/Aufgabe">Aufgabe 6.5</a>. }</div>
+<p>Der Halm der vorgeschobenen Prägarbe ist also der Halm der Ausgangsgarbe in einem Filter
+\zusatzklammer {nämlich dem Urbildfilter des Umgebungsfilters <br />\mathl{U(Q)}{}} {} {,}
+aber im Allgemeinen nicht in einem Punkt.
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zu einer 
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabbdisp {\varphi} { X } { Y
+} {}
+und einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  G   }$ auf $Y$ nennt man auf einer offenen Menge
+<br />\mavergleichskette<br />{\vergleichskette<br />{U
+}<br />{ \subseteq }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+durch
+<br />\mathdisp {\operatorname{colim}_{  { \mathcal  G   }  \left(   V   \right)  }\, V \subseteq Y,\, U \subseteq \varphi^{-1} (V)} {  }<br />
+gegebene Prägarbe auf $X$ die unter $\varphi$ 
+\definitionswort {zurückgezogene Prägarbe}{.}  
+</p>
+</div>
+<p>}
+</p><p><br /><br /><br />
+\inputdefinition<br />{}<br />{
+</p>
+<div id="Artikelinhalt">
+<p>Zu einer 
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabb {\varphi} { X } { Y
+} {}
+und einer
+\definitionsverweis {Garbe}{}{}
+${ \mathcal  G   }$ auf $Y$ nennt man die
+\definitionsverweis {Vergarbung}{}{}
+der
+\definitionsverweis {zurückgezogenen Prägarbe}{}{}
+die
+\definitionswort {zurückgezogene Garbe}{.}  
+</p>
+</div>
+<p>}
+Sie wird mit $\varphi^{-1} { \mathcal G  }$ bezeichnet.
+</p><p><br />
+</p>
+<div class="latex">\inputfaktbeweis<br />{Stetige Abbildung/Garbe/Rückzug/Halme/Fakt}<br />{Lemma}<br />{}<br />{
+<div id="Artikelinhalt">
+<p>\faktsituation {Zu einer 
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabb {\varphi} { X } { Y
+} {}
+und einer
+\definitionsverweis {Garbe}{}{}
+${ \mathcal  G   }$ auf $Y$}<br />\faktfolgerung {ist der
+\definitionsverweis {Halm}{}{}
+der
+\definitionsverweis {zurückgezogenen Garbe}{}{}
+in einem Punkt
+<br />\mavergleichskette<br />{\vergleichskette<br />{P
+}<br />{ \in }{ X
+}<br />{  }{
+}<br />{    }{
+}<br />{   }{
+}<br />}
+{}{}{}
+gleich dem Halm von ${ \mathcal  G   }$ in <br />\mathl{\varphi(P)}{.}}<br />\faktzusatz {}<br />\faktzusatz {}
+</p>
+</div>
+ }<br />{ Siehe <a href="/wiki/Stetige_Abbildung/Garbe/R%C3%BCckzug/Halme/Fakt/Beweis/Aufgabe" title="Stetige Abbildung/Garbe/Rückzug/Halme/Fakt/Beweis/Aufgabe">Aufgabe 6.6</a>. }</div> 
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐6c4c7cb5c5‐54znc
+Cached time: 20260827031859
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.354 seconds
+Real time usage: 0.568 seconds
+Preprocessor visited node count: 14277/1000000
+Revision size: 9/2097152 bytes
+Post‐expand include size: 397860/2097152 bytes
+Template argument size: 104612/2097152 bytes
+Highest expansion depth: 33/100
+Expensive parser function count: 10/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  539.081      1 Vorlage:Latex
+100.00%  539.081      1 -total
+ 99.61%  537.003      1 Kurs:Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)/Vorlesung_6
+ 97.91%  527.796      1 Kurs:Bündel,_Garben_und_Kohomologie_(Osnabrück_2019-2020)/Vorlesungsgestaltung
+ 97.43%  525.232      1 Vorlage:Kapitelnummer
+ 50.33%  271.304      5 Vorlage:Inputfaktbeweis
+ 22.08%  119.054      1 Stetige_Abbildung/Prägarben/Rückzug_und_Vorschub/Einführung/Textabschnitt
+ 20.98%  113.099      1 Vorlage:Mathematischer_Textabschnitt
+ 20.37%  109.786      5 Vorlage:Mathematischer_Text/Beweis
+ 19.61%  105.690      5 Vorlage:Beweisstruktur
+-->
+
+<!-- Render ID 0b471542-a1c6-11f1-aea8-0380d8384043 -->
+
+<!-- Saved in parser cache with key dewikiversity:pcache:110014:|#|:idhash:canonical and timestamp 20260827031859 and revision id 807073. Rendering was triggered because: page_view
+ -->
+</div>

@@ -1,0 +1,156 @@
+{
+  "schema": "ag-bridge-bgk-release-manifest-v1",
+  "title": "Bundel, Berkas, dan Kohomologi — Unit 1–6, Bahasa Indonesia",
+  "language": "id-ID",
+  "status": "partial_coherent_checkpoint",
+  "source_course_units": 30,
+  "included_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "included_unit_count": 6,
+  "remaining_unit_count": 24,
+  "classical_course": {
+    "work": "Algebraische Kurven",
+    "status": "complete_separate_30_unit_volume",
+    "included_in_this_payload": false
+  },
+  "reader": {
+    "primary_file": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.pdf",
+    "pdf_pages": 82,
+    "html_file": "02_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.html",
+    "exercises": 101,
+    "public_source_solutions": 3,
+    "documented_absent_source_solutions": 98
+  },
+  "backend": {
+    "native_records": 4239,
+    "native_archive": "04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_native-backend.zip",
+    "common_backend_preflight": "PASS",
+    "final_migration_receipt": "separate_asset_after_existing_lineage_reservation"
+  },
+  "license": "CC BY-SA 4.0 for course text/translation; per-component media rights preserved",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "deterministic_inputs": {
+    "source_fingerprint": "ddeb8a66ccfb39aac03a6608b94fb79bdcb17a3f1483b67bb455ccc6461e7056",
+    "backend_fingerprint": "24e3445a1dbb82099d6c4edf43287308015758ff761445125f91b8b93c9aacd7"
+  },
+  "files": [
+    {
+      "path": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.pdf",
+      "bytes": 896202,
+      "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b"
+    },
+    {
+      "path": "02_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.html",
+      "bytes": 3272151,
+      "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9"
+    },
+    {
+      "path": "03_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_source.zip",
+      "bytes": 2466844,
+      "sha256": "c6cfaca30ff7c90541deb764c8f0523b21eefd78e48804fb5ec42ea670a5beba"
+    },
+    {
+      "path": "04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_native-backend.zip",
+      "bytes": 844723,
+      "sha256": "9d2c8632d1e503689a819244110d05bc1ee6915df040725fd2b571aefaeb6b03"
+    },
+    {
+      "path": "05_LICENSE_AND_COMPONENT_RIGHTS.md",
+      "bytes": 3331,
+      "sha256": "b904bb2fb344ba012ca6e5374defe17926ae7b6024c7471cce7e98aace2e2a55"
+    },
+    {
+      "path": "06_README.md",
+      "bytes": 2309,
+      "sha256": "ef902ab09d7b8c795cd23a35ef5856a2ed3b2ddea3a568b2e1f3e13f3de4e334"
+    }
+  ],
+  "qa_bindings": [
+    {
+      "path": "qa/BGK_UNITS_01_06_READER_QA.json",
+      "bytes": 6369,
+      "sha256": "8c40f147451888e3ab4c2da95d164388c4f5725d37e121f020842da9488e250c"
+    },
+    {
+      "path": "qa/BGK_UNITS_01_06_VISUAL_QA.json",
+      "bytes": 28173,
+      "sha256": "3c8ed7f411124cbeb3dbaeead04b768606caa4d0789a41235b52df80806b2c68"
+    },
+    {
+      "path": "qa/BGK_UNITS_01_06_BACKEND_QA.json",
+      "bytes": 4164,
+      "sha256": "9ea9da9846590730d34ef4dc69749d0538972fef52b0f964fcefdfe9fbc80214"
+    },
+    {
+      "path": "qa/BGK_UNITS_01_06_COMMON_ADAPTER_PREFLIGHT_QA.json",
+      "bytes": 6011,
+      "sha256": "204045f5b43ca0e695e6706ac7f5884063ac0835c6e29ae4b6cd1e65fe33f246"
+    },
+    {
+      "path": "qa/BGK_UNIT_01_AUTHORITY_QA.json",
+      "bytes": 3657,
+      "sha256": "2c42a091e5d9e12f8078839e8c520a0c258676548a392986e5452f521b2cb5a0"
+    },
+    {
+      "path": "qa/BGK_UNIT_02_AUTHORITY_QA.json",
+      "bytes": 3444,
+      "sha256": "56b4dec14089b86721ca8dfc7ec95c1593619d30433529f912e1f498aae0ef92"
+    },
+    {
+      "path": "qa/BGK_UNIT_03_AUTHORITY_QA.json",
+      "bytes": 9345,
+      "sha256": "fa6e5b308880eb09b8edce0c8ced383029748308dbe04698fefe051f9335b2bb"
+    },
+    {
+      "path": "qa/BGK_UNIT_04_AUTHORITY_QA.json",
+      "bytes": 13521,
+      "sha256": "94a997fd7e1be998512f6450d70bedc1c300e3b45882991a0350f4e44ae59428"
+    },
+    {
+      "path": "qa/BGK_UNIT_05_AUTHORITY_QA.json",
+      "bytes": 13621,
+      "sha256": "ecb9560bcbf866043e7c6602f2852dc21cc5aeadfae6fa889048ed89fc12408f"
+    },
+    {
+      "path": "qa/BGK_UNIT_06_AUTHORITY_QA.json",
+      "bytes": 6217,
+      "sha256": "c22f362a9b1bc71d4f8497ac06e8f1264935977a7d43584178c941de613306ed"
+    },
+    {
+      "path": "qa/BGK_UNIT_01_TRANSLATION_QA.json",
+      "bytes": 3595,
+      "sha256": "c1b815046172ebe42c07d3e1780c1ea4ccc9b510bb5da5430f90c1445fc9612a"
+    },
+    {
+      "path": "qa/BGK_UNIT_02_TRANSLATION_QA.json",
+      "bytes": 5489,
+      "sha256": "285b29c9b4d9ebd938b1106f5b84e2fd6ad3509edbad79f66ebe10d29b42ffee"
+    },
+    {
+      "path": "qa/BGK_UNIT_03_TRANSLATION_QA.json",
+      "bytes": 5916,
+      "sha256": "8bde479b506421bddcdab21c9c0e3fb1c2027fc27d029dce87258cb29e30e6f0"
+    },
+    {
+      "path": "qa/BGK_UNIT_04_TRANSLATION_QA.json",
+      "bytes": 5661,
+      "sha256": "f06586dbb166c7d305fbf29c77bd5831d4f119057296789a0ee9c0f1871b5817"
+    },
+    {
+      "path": "qa/BGK_UNIT_05_TRANSLATION_QA.json",
+      "bytes": 6137,
+      "sha256": "95735e6853026cd7c6a4eea0ccd9d53dfdd22d25cea017ae3297cc9c35668f68"
+    },
+    {
+      "path": "qa/BGK_UNIT_06_TRANSLATION_QA.json",
+      "bytes": 10661,
+      "sha256": "9b2c3c3a89f5ff48432d68ac26363b78d408e86ce9abfc42ad45b88d99b4fe9e"
+    }
+  ]
+}

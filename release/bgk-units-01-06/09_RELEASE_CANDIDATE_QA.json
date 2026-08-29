@@ -1,0 +1,785 @@
+{
+  "schema": "ag-bridge-bgk-release-candidate-qa-v1",
+  "status": "PASS",
+  "title": "Bundel, Berkas, dan Kohomologi — Unit 1–6, Bahasa Indonesia",
+  "language": "id-ID",
+  "scope_truth": {
+    "bgk_units_complete": 6,
+    "bgk_units_total": 30,
+    "bgk_units_remaining": 24,
+    "classical_course_is_complete_and_separate": true,
+    "classical_files_touched": false
+  },
+  "reader_first": {
+    "lexicographically_first_file": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06.pdf",
+    "pdf_pages": 82,
+    "reader_qa_status": "PASS"
+  },
+  "deterministic_double_replay": {
+    "status": "PASS",
+    "payload_file_count": 6,
+    "all_payload_bytes_identical": true,
+    "source_input_fingerprint": "ddeb8a66ccfb39aac03a6608b94fb79bdcb17a3f1483b67bb455ccc6461e7056",
+    "backend_input_fingerprint": "24e3445a1dbb82099d6c4edf43287308015758ff761445125f91b8b93c9aacd7",
+    "source_zip_sha256_first": "c6cfaca30ff7c90541deb764c8f0523b21eefd78e48804fb5ec42ea670a5beba",
+    "source_zip_sha256_second": "c6cfaca30ff7c90541deb764c8f0523b21eefd78e48804fb5ec42ea670a5beba",
+    "backend_zip_sha256_first": "9d2c8632d1e503689a819244110d05bc1ee6915df040725fd2b571aefaeb6b03",
+    "backend_zip_sha256_second": "9d2c8632d1e503689a819244110d05bc1ee6915df040725fd2b571aefaeb6b03"
+  },
+  "source_archive": {
+    "file": "03_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_source.zip",
+    "bytes": 2466844,
+    "sha256": "c6cfaca30ff7c90541deb764c8f0523b21eefd78e48804fb5ec42ea670a5beba",
+    "entry_count": 105,
+    "uncompressed_bytes": 3520224,
+    "entries": [
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/BGK_UNIT_01_WORKLOG.md",
+        "bytes": 6506,
+        "sha256": "f5e03c2cb7b0144c6ca29f8492f35d4fd646e726583b32d56259db85ed381340"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/BGK_UNIT_02_WORKLOG.md",
+        "bytes": 8811,
+        "sha256": "248015520f3912ca27193816447ffaa43afa4f316bbb0776cc79dc2128e7c486"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/BGK_UNIT_03_WORKLOG.md",
+        "bytes": 8142,
+        "sha256": "1b96cb478f74acd770987a1292817c1339a724f0426d9e6f1e365bd25f1f369c"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/BGK_UNIT_04_WORKLOG.md",
+        "bytes": 7411,
+        "sha256": "51717aa2e5e425d3f286e57676a97720a6651786171d1d834e370b2ad10d3ee9"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/BGK_UNIT_05_WORKLOG.md",
+        "bytes": 7193,
+        "sha256": "6d83de5175659f6c70da32f5d004fda07fa49f51192b8d7c99da4b18736c43fc"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/BGK_UNIT_06_WORKLOG.md",
+        "bytes": 8045,
+        "sha256": "376f84a9b961188f903f57e4f0c01fdbf74f3cda30023dce7d36698c28705ed5"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/CORRECTIONS.csv",
+        "bytes": 103784,
+        "sha256": "23a2f4afa6955ecd729e1716dfa19610b7c0b728668b694f27af5aad409242b7"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/00_control/TERMINOLOGY.csv",
+        "bytes": 54358,
+        "sha256": "eee5c52af4122e4a2ae4e14c8ef4df76302e388075ea73fb72e7a92fce80fc06"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/AUTHORITY_POINTERS.json",
+        "bytes": 18506,
+        "sha256": "32ea692208a2019c92a79433864e3846a85166f6a4587f66169a68fc5a456b7e"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/LICENSE_AND_COMPONENT_RIGHTS.md",
+        "bytes": 3331,
+        "sha256": "b904bb2fb344ba012ca6e5374defe17926ae7b6024c7471cce7e98aace2e2a55"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/README.md",
+        "bytes": 670,
+        "sha256": "5bbbba4a820dc607157d1f6d9392e8c51444ec134dea42e4128668339a2a7b99"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/SOURCE_INVENTORY.json",
+        "bytes": 24126,
+        "sha256": "a3a5d010e683c50460b2cd1ad2f0f8d38c9749c9742e5812ff3e3e40f939637c"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/ASSET_CLOSURE-bgk-unit-01.json",
+        "bytes": 5748,
+        "sha256": "dcae12b926bfc620ca3ea6d71dc05a322ee9fa57a8b83420ba83e5bbdb96c6fa"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/ASSET_CLOSURE-bgk-unit-02.json",
+        "bytes": 12436,
+        "sha256": "902522f5a7231d562dc09f30bbd13b76ed5c087b17fd533b7d5cc71c0fd4844d"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/ASSET_CLOSURE-bgk-unit-03.json",
+        "bytes": 6063,
+        "sha256": "618a916073604a94387f04d87565c222be65a5c180ce690342742ae63858ea15"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/ASSET_CLOSURE-bgk-unit-04.json",
+        "bytes": 5875,
+        "sha256": "2de02cc0d3d6018f42925b72b41e1661f3e9e305a07486f584c6e17c2c2fd0b3"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/ASSET_CLOSURE-bgk-unit-05.json",
+        "bytes": 6060,
+        "sha256": "c1e2145df10a647b185cbdb79f4d8d215a253604242fb694aa057b08cf3c34a3"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/ASSET_CLOSURE-bgk-unit-06.json",
+        "bytes": 6061,
+        "sha256": "9efa26ce4f4d0c0f95af36b7bba1efef15b55af9dcbd7533353e20c64f8f83b3"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/BGK_UNIT_01_AUTHORITY_FREEZE.md",
+        "bytes": 3219,
+        "sha256": "c00a9941b0939f3c979f7024bc52a066218494d53f283bf967ea90f50ff799d9"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/BGK_UNIT_02_AUTHORITY_FREEZE.md",
+        "bytes": 3421,
+        "sha256": "f0942526a7e9669aa918820a587c82ee10e81de8a0622e583a66520ada606f4b"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/BGK_UNIT_03_AUTHORITY_FREEZE.md",
+        "bytes": 6671,
+        "sha256": "f54b45c2aa7ae0832560e2f97613f128c9a957460f88dd0a3f1b633a6dc42c36"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/BGK_UNIT_04_AUTHORITY_FREEZE.md",
+        "bytes": 9405,
+        "sha256": "e0082362603d963a331f9f687164600ae499d45ee1ff8488dfd498f2ccd0ed0e"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/BGK_UNIT_05_AUTHORITY_FREEZE.md",
+        "bytes": 8596,
+        "sha256": "56d3783752608ab329972d9dd1d4390cbb08a8721fe83b24f976c881d7172f91"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/BGK_UNIT_06_AUTHORITY_FREEZE.md",
+        "bytes": 7083,
+        "sha256": "6d8c217580f71cd2840521d6f7ecbdc80415c566058f7848890011bb2d10d45c"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/RIGHTS-bgk-unit-01.csv",
+        "bytes": 2426,
+        "sha256": "531f261e77454f43abb2100022aa50ed6e0537683da2d45163e9bd75412037d9"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/RIGHTS-bgk-unit-02.csv",
+        "bytes": 5766,
+        "sha256": "bc85cef5f20150941f3a6492c67702bcddd3d23bdd6ac5939c0148e5d57dc9f6"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/RIGHTS-bgk-unit-03.csv",
+        "bytes": 1051,
+        "sha256": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/RIGHTS-bgk-unit-04.csv",
+        "bytes": 2392,
+        "sha256": "620791467ec9ce4b87edde9efb7760359c6acc8a203435863a6d37cc79fd5132"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/RIGHTS-bgk-unit-05.csv",
+        "bytes": 1051,
+        "sha256": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/RIGHTS-bgk-unit-06.csv",
+        "bytes": 1051,
+        "sha256": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/assets/bgk-fiddler-crab-mobius-strip-frame-001.png",
+        "bytes": 154363,
+        "sha256": "3d4f517d20a1a323629bf92eafee8f391caee3856020262ed693735727ed4d02"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/assets/bgk-fiddler-crab-mobius-strip.gif",
+        "bytes": 1557242,
+        "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/assets/bgk-hairy-ball-one-pole-500.jpg",
+        "bytes": 88725,
+        "sha256": "9acff198931002a3980f2bf299bae1e69d99bb25e60b08815259ddc8b7223d5b"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/assets/bgk-inclusion-exclusion-500.png",
+        "bytes": 40604,
+        "sha256": "c1582293a450680f6b45d5eeb603f1be30ec2e0dafe0381ff4661737a37d7e62"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/assets/bgk-tangent-bundle-500.png",
+        "bytes": 109428,
+        "sha256": "768dd5ac37c85fad14c6ede7ddc45988341c03924d5f7e33e9f7223dd9896578"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/assets/bgk-u04-triticum-spelta.jpg",
+        "bytes": 100723,
+        "sha256": "1050547eae3e7855001791da54dc8cd957b324cf38e5ef5b0955b4a596b0da7b"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+        "bytes": 34279,
+        "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-01/ORDERED_EXERCISE_MAP.json",
+        "bytes": 6111,
+        "sha256": "21244128b357d5fc35d5a8dc7129c27e091a781594516c4f6db87e9202b162ba"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-01/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 97184,
+        "sha256": "ad271f5ad69f9990dbe3082c22f8c52b7a4c58494c8f6614350078535d4f2ba1"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-01/worksheet-solution-candidates-api.json",
+        "bytes": 1899,
+        "sha256": "89db963b3ae3fdff32a8a16317c249849ea6d59ea1b3a19686c9beb382633bc2"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-02/ORDERED_EXERCISE_MAP.json",
+        "bytes": 9332,
+        "sha256": "4e0633e8c35ea5a2fddd0b63a0bb67fdd6af93f11a55f3a2eae10eae0d25a10a"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-02/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 106216,
+        "sha256": "a348b56811fe98266feff9108a21a436a9b8f07a343321feab7d9fbb3b75e64d"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-02/worksheet-solution-candidates-api.json",
+        "bytes": 4604,
+        "sha256": "5051d800bed72fe432757012033319ca30c14503254f16d0d385f9a0a3c82ad2"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-03/ORDERED_EXERCISE_MAP.json",
+        "bytes": 6410,
+        "sha256": "5242db043a773e412806fd066ed831fe6ebbdc7d16a35af8070ff1ce7398901f"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-03/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 114385,
+        "sha256": "60270cc7ba74a4ed744687ae18c3887eca8a2fff6bce48a819be102d4a619a5a"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-03/worksheet-solution-candidates-api.json",
+        "bytes": 2535,
+        "sha256": "fead1cd2cfe79eb6dd0141474b4b0921986b32238bea7c2c6ba8fd8670942e64"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-04/ORDERED_EXERCISE_MAP.json",
+        "bytes": 3554,
+        "sha256": "a53d958595d6fd0aac34f8ea6562204dda96b44a375e68b33d93d92e63485dcf"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-04/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 74511,
+        "sha256": "3f26616ff7e9f4ac0d5bb0e64ad8435fefc18e32e4c91b16d780d4346498f680"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-04/worksheet-solution-candidates-api.json",
+        "bytes": 842,
+        "sha256": "1eb1be9dc5b34a5cc19719ddaf57cd918df880b0b28c74f52ab62ab25d33b52f"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-05/ORDERED_EXERCISE_MAP.json",
+        "bytes": 4769,
+        "sha256": "b6bf28ef883ac91c07d0c50526ff655b2bcf7fc1b0d45773f0543092d463cadf"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-05/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 78720,
+        "sha256": "328774ffd66341ba8841b86935037a043067202dd10916d3e0be5082faeac35e"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-05/worksheet-solution-candidates-api.json",
+        "bytes": 3127,
+        "sha256": "8b7b0d65fa6670632c96c8ab95b48b732576ebc3db80007ce281c78fb9875d51"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-06/ORDERED_EXERCISE_MAP.json",
+        "bytes": 6302,
+        "sha256": "ea15e1f79b4dfc0928fe132eb83e8d20d10fbc84837de153da2b4e345e5a04a0"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-06/UNIT_AUTHORITY_MANIFEST.json",
+        "bytes": 107618,
+        "sha256": "69a10e682e853c6f386afbc68438605846e5096220b21bd1e827c07633a79244"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/authority/wikiversity-bgk/unit-06/worksheet-solution-candidates-api.json",
+        "bytes": 1940,
+        "sha256": "d735bc437898b9f33e90a163164dd5bab85c534b080c632aedb441fbef9acf55"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/build/reader-bgk-id/BUILD_RECEIPT.json",
+        "bytes": 10118,
+        "sha256": "e69b24950f0d7ede5cf8c33b6bec32298c08555758936193e1bb4a002844937b"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNITS_01_06_READER_QA.json",
+        "bytes": 6369,
+        "sha256": "8c40f147451888e3ab4c2da95d164388c4f5725d37e121f020842da9488e250c"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNITS_01_06_VISUAL_QA.json",
+        "bytes": 28173,
+        "sha256": "3c8ed7f411124cbeb3dbaeead04b768606caa4d0789a41235b52df80806b2c68"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_01_AUTHORITY_QA.json",
+        "bytes": 3657,
+        "sha256": "2c42a091e5d9e12f8078839e8c520a0c258676548a392986e5452f521b2cb5a0"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_01_TRANSLATION_QA.json",
+        "bytes": 3595,
+        "sha256": "c1b815046172ebe42c07d3e1780c1ea4ccc9b510bb5da5430f90c1445fc9612a"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_02_AUTHORITY_QA.json",
+        "bytes": 3444,
+        "sha256": "56b4dec14089b86721ca8dfc7ec95c1593619d30433529f912e1f498aae0ef92"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_02_TRANSLATION_QA.json",
+        "bytes": 5489,
+        "sha256": "285b29c9b4d9ebd938b1106f5b84e2fd6ad3509edbad79f66ebe10d29b42ffee"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_03_AUTHORITY_QA.json",
+        "bytes": 9345,
+        "sha256": "fa6e5b308880eb09b8edce0c8ced383029748308dbe04698fefe051f9335b2bb"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_03_TRANSLATION_QA.json",
+        "bytes": 5916,
+        "sha256": "8bde479b506421bddcdab21c9c0e3fb1c2027fc27d029dce87258cb29e30e6f0"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_04_AUTHORITY_QA.json",
+        "bytes": 13521,
+        "sha256": "94a997fd7e1be998512f6450d70bedc1c300e3b45882991a0350f4e44ae59428"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_04_TRANSLATION_QA.json",
+        "bytes": 5661,
+        "sha256": "f06586dbb166c7d305fbf29c77bd5831d4f119057296789a0ee9c0f1871b5817"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_05_AUTHORITY_QA.json",
+        "bytes": 13621,
+        "sha256": "ecb9560bcbf866043e7c6602f2852dc21cc5aeadfae6fa889048ed89fc12408f"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_05_TRANSLATION_QA.json",
+        "bytes": 6137,
+        "sha256": "95735e6853026cd7c6a4eea0ccd9d53dfdd22d25cea017ae3297cc9c35668f68"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_06_AUTHORITY_QA.json",
+        "bytes": 6217,
+        "sha256": "c22f362a9b1bc71d4f8497ac06e8f1264935977a7d43584178c941de613306ed"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/qa/BGK_UNIT_06_TRANSLATION_QA.json",
+        "bytes": 10661,
+        "sha256": "9b2c3c3a89f5ff48432d68ac26363b78d408e86ce9abfc42ad45b88d99b4fe9e"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/build_bgk_reader.py",
+        "bytes": 14399,
+        "sha256": "10a96cc77ddb925a0e16fe7c368a60e83b38f46bf333a5588f5777c78d5a20c6"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/qa_bgk_unit_01_translation.py",
+        "bytes": 8081,
+        "sha256": "2c0209e677c4c2e91b40486adde62dd2281ca1690de43702d8c3bd3aa96fac69"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/qa_bgk_unit_02_translation.py",
+        "bytes": 14276,
+        "sha256": "cc14406ed12d945521b7cb5e948f789aa064a92c2c74c5e5c9c445b21dba7c41"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/qa_bgk_unit_03_translation.py",
+        "bytes": 17219,
+        "sha256": "a6cbd5b598ca06bff99f901a90fbca05322d7b0608ea95a476cae8225c0117e2"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/qa_bgk_unit_04_translation.py",
+        "bytes": 16239,
+        "sha256": "d5a2d43efe00b1f4df29b769e80d9200ea347aaa05038042d297833c27637453"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/qa_bgk_unit_05_translation.py",
+        "bytes": 14865,
+        "sha256": "3d774417312c65f08da5a5a555514d04b69daa8b5fcae63df5f87591504098d1"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/qa_bgk_unit_06_translation.py",
+        "bytes": 15743,
+        "sha256": "44c577e538cadcea816863f6e4529b7712ba02ff9e82478265db5b752427618f"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/scripts/qa_bgk_units_01_06_reader.py",
+        "bytes": 30760,
+        "sha256": "e3155a43f1ed33b6b3193c2e75e799161070f047302a29ad368c24941195cfc9"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/frontmatter-bgk-units-01-06.md",
+        "bytes": 3589,
+        "sha256": "05c79eecb7f8849c8aa2f1c6df14150537d8bf40b2eb09023ffccfa1c2e69357"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/lecture-01.md",
+        "bytes": 26365,
+        "sha256": "ec8d58667fc732c63a5985942b46c7166856d07df48d97d2a79ab68065318658"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/lecture-02.md",
+        "bytes": 16648,
+        "sha256": "317fe26b62230198c445f630aba95124bd9ac10d8b3f677ebc395630379b2d81"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/lecture-03.md",
+        "bytes": 22547,
+        "sha256": "0cac47a253ca37827228be00ad668fc86b0008a721f7e02e0cb3a71cb91324c7"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/lecture-04.md",
+        "bytes": 14153,
+        "sha256": "d85d039317df0d8d176b0c9db4b582e54e351d1bdf40083d5b5d9e6480e87f18"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/lecture-05.md",
+        "bytes": 16159,
+        "sha256": "bd2a9242bce613ad95f3d7c99bdcb5d94c007722673c9c1facef57833725b22c"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/lecture-06.md",
+        "bytes": 13635,
+        "sha256": "21307095f666ac32a57ce7413d3e7bb86ba2004856f79f1aaf7c1da16a9bbdbd"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-01-solutions.md",
+        "bytes": 1685,
+        "sha256": "26f41e58dbb471de0a710c2bb7463f887834ce1994f6d53c94a8eeac807b8bb5"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-01.md",
+        "bytes": 9574,
+        "sha256": "b5434601ae3ea24f7b580d59bad2b992383b840c7a2bdcdb4cbbfb92a40de7e9"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-02-solutions.md",
+        "bytes": 4299,
+        "sha256": "8344276b9d613ef5ac55fabf82dafadb9b3385c93492b8508bdfd70a2b0ac12e"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-02.md",
+        "bytes": 14314,
+        "sha256": "65d5f040639d8e5b9afa87477d13f3cb96d79c6e52b54662fdb6d814d38ed51d"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-03-solutions.md",
+        "bytes": 2855,
+        "sha256": "cd8a198c37ddc1f13065757ca82316b3b9fe4cb4df72817d696198885a0a7dc3"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-03.md",
+        "bytes": 10621,
+        "sha256": "a8a350e115b678f5f65bec81ac5eedafc34ad6e5b43b84d18fabf255e20d2de4"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-04-solutions.md",
+        "bytes": 1687,
+        "sha256": "7e7d0842ba56a1d541577c2be4cef44afb5bee15529aa67cbfef99f0e086dfd0"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-04.md",
+        "bytes": 6079,
+        "sha256": "77e20f9f7e9fea2052277292df8ae81f0ecf9c69e756d2fb561c281290d41269"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-05-solutions.md",
+        "bytes": 3693,
+        "sha256": "9045107729977f6f3169b198e603a19bf0072d23ada39b8f4b06655e421c2c9b"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-05.md",
+        "bytes": 6303,
+        "sha256": "0acb297084d14bd202bffcce31fe760d04ed2017a58565233cea78aa9d2f8932"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-06-solutions.md",
+        "bytes": 1848,
+        "sha256": "29a48f9e3aef82d927f9c0b5bdd531882d894f5e0e646dfe581f2dab59cbdfd3"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/bgk/worksheet-06.md",
+        "bytes": 12239,
+        "sha256": "b7d99b21794723411f989fe8788bc6bff324f6c545fe24630fa0424f0d5fe1e5"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/media-credits-bgk-unit-01.md",
+        "bytes": 825,
+        "sha256": "3f605e4ae91aa8d5684847fc2c4e3075b912edeaadf37e809deebf0151110b57"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/media-credits-bgk-unit-02.md",
+        "bytes": 1943,
+        "sha256": "cec28c3bd197ffb7aabadfa0d67ddf8945cc7899834c4470780618ca60008158"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/media-credits-bgk-unit-03.md",
+        "bytes": 666,
+        "sha256": "bc08510f635abba677ac1cc5a18ddb4a3519284e83f1d2f17605989736c9f0a2"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/media-credits-bgk-unit-04.md",
+        "bytes": 650,
+        "sha256": "9d57b9c693fa327d008a191345e5a1f0ff58e87230e1b9ac16209ed46d178282"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/media-credits-bgk-unit-05.md",
+        "bytes": 666,
+        "sha256": "c2e2db42f0ad4479c84ab0c00b1cb72f3fafd2e6e0ce291d32cbc03e10fcdf9e"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/media-credits-bgk-unit-06.md",
+        "bytes": 666,
+        "sha256": "0d5b052a4346e8a56770798f3882417eaae2ea7e815f1947c289d9785e1c2af7"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/pdf-header.tex",
+        "bytes": 290,
+        "sha256": "7f64f02162bb05c3097963b35ac427905bbb2d83c8b6ffc8caeeb873cb9a40b4"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-source/source/id-ID/reader.css",
+        "bytes": 2038,
+        "sha256": "7a0572eee2ded0142b5e057447d573c2ea09bf349822e863a9b8c145f73c02c8"
+      }
+    ]
+  },
+  "backend_archive": {
+    "file": "04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-06_native-backend.zip",
+    "bytes": 844723,
+    "sha256": "9d2c8632d1e503689a819244110d05bc1ee6915df040725fd2b571aefaeb6b03",
+    "entry_count": 33,
+    "uncompressed_bytes": 9870547,
+    "entries": [
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/BACKEND_INVENTORY.json",
+        "bytes": 7897,
+        "sha256": "bb8ebcfe0880e8af76ab3e452dede20dcb75ee6b738f0fe1684c3d3ca3a32dc7"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/LICENSE_AND_COMPONENT_RIGHTS.md",
+        "bytes": 3331,
+        "sha256": "b904bb2fb344ba012ca6e5374defe17926ae7b6024c7471cce7e98aace2e2a55"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/README.md",
+        "bytes": 458,
+        "sha256": "b2532a3771932dcd38dfe19235d9ef63fe8a6b67651820c8724580cf8fea14a4"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/MANIFEST.json",
+        "bytes": 25100,
+        "sha256": "35438f7b9a1c3a833f5f6090041d3ee125fcbbc28c5ef5660579362ac2292e06"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/artifact.jsonl",
+        "bytes": 153908,
+        "sha256": "976791d1558bd699da8dc34dc4f0ebda91518e4d84977a6fa4e5c99d99d5241c"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/asset.jsonl",
+        "bytes": 7774,
+        "sha256": "1355c762fc343ddb1cc6db0ebfc11fc3bc83cbab90c8c40fb34b554f2b64c19f"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/concept.jsonl",
+        "bytes": 62782,
+        "sha256": "3653458b26ef2bdcd2248681449b46442bf26e3c940940b34ca76a25b96abe5f"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/correction.jsonl",
+        "bytes": 63247,
+        "sha256": "8ee4680806b91b32597d84067ab757c788c5cb5a0577e8da4b1af297a5b353da"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/course.jsonl",
+        "bytes": 1135,
+        "sha256": "84603b760d2fcb71012051568a4f48a941df5df07c85b1fe2a2a95f4a8b82245"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/edition.jsonl",
+        "bytes": 12778,
+        "sha256": "68c734b5408280f134755d931ad2ae958191f6d814ea2f3eeb439769b10f2d2e"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/exercise.jsonl",
+        "bytes": 246080,
+        "sha256": "8a6bf38821f48dffde7c6aa970ad817edb4d666e6dcdb526edfb061755937cda"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/program.jsonl",
+        "bytes": 787,
+        "sha256": "abace5a33e244ef86d7d52eb7ae93c2ce5fa036e66734c80409ec73e5170018f"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/qa_event.jsonl",
+        "bytes": 18968,
+        "sha256": "f5da06eb31e67e9dc64f30ac86b9123ce2b896f1961eda346556fbc8a0324b94"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/record.schema.json",
+        "bytes": 3093,
+        "sha256": "b3ef353403e73e32fc3580898db7a2c66b09f3fa684edd423e03384420621f07"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/records.jsonl",
+        "bytes": 4762198,
+        "sha256": "23e326a4a6c33abb1a4a0b10b91a673a74b056d8eb48e15a7681310d07c86986"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/relation.jsonl",
+        "bytes": 1923248,
+        "sha256": "b5ff0cbccf57d582e9c0f05d231aaf4fde0a8e8cbc5dadb58ff75925f3c8f1a8"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/resource.jsonl",
+        "bytes": 7828,
+        "sha256": "11b4581345ed4779f4ffeaac10ff3ff04f2ca8ea03de50728b1f2f8c12abc5fb"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/rights.jsonl",
+        "bytes": 36641,
+        "sha256": "43510ffaf4bd520cc182143d70628743754b97266ee33ca674d3ca3b7b4d0421"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/segment.jsonl",
+        "bytes": 2056247,
+        "sha256": "99fe8193758af80d12cb8b6bd5da340331958aac542e16204ed2f2df86282f79"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/solution.jsonl",
+        "bytes": 12809,
+        "sha256": "ffb88021ac235f8c5f6daef6319ec9ed354dead454f191c1620d21244aaa12f6"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/term.jsonl",
+        "bytes": 99091,
+        "sha256": "e66a00ec56168f888846708fc5c8a149e9751763d84e42785c034c9c8a5f4568"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/bgk-units-01-06/unit.jsonl",
+        "bytes": 58875,
+        "sha256": "7ff3c9a1365549c689594e11ce2c3af89bddd5a434821ac7fba105d73103d60d"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/common-backend-v1-contract/README.md",
+        "bytes": 1899,
+        "sha256": "db0dce92b7c0d084833c74d3ed6a628129bb0824a668dd734069950337ab8a71"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/common-backend-v1-contract/UPSTREAM_MANIFEST.json",
+        "bytes": 1941,
+        "sha256": "f2cb90502f9765be56b8a1cacf29a959548b98528fe656ce1c4e561dce486255"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/common-backend-v1-contract/upstream/MIGRATION_HANDOFF_V1.v0.42.0.md",
+        "bytes": 5320,
+        "sha256": "83de5379aa08f25fb3fb2774ed8bde99eca76e9a6ba80da9ccf2ee211e5e3a7a"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/common-backend-v1-contract/upstream/backend-migration-receipt-v1.v0.42.0.schema.json",
+        "bytes": 2563,
+        "sha256": "0147b14972dd562805b3b5f76fac453a9f32a6d298827d3f588316d4a8f5ffe0"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/common-backend-v1-contract/upstream/backend-v1.v0.41.0.schema.json",
+        "bytes": 126423,
+        "sha256": "3de8d107b1c75db0f8d60c42ef7e3488bc3fcc93f72e955def71a771475cf2b2"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/backend/common-backend-v1-contract/upstream/source-format-profile-v1.v0.41.0.schema.json",
+        "bytes": 12228,
+        "sha256": "2bb1429c36236329be94d58205b6123a0266a1e111277e3d303692ca8430e271"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/qa/BGK_UNITS_01_06_BACKEND_QA.json",
+        "bytes": 4164,
+        "sha256": "9ea9da9846590730d34ef4dc69749d0538972fef52b0f964fcefdfe9fbc80214"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/qa/BGK_UNITS_01_06_COMMON_ADAPTER_PREFLIGHT_QA.json",
+        "bytes": 6011,
+        "sha256": "204045f5b43ca0e695e6706ac7f5884063ac0835c6e29ae4b6cd1e65fe33f246"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/scripts/export_backend_bgk_units_01_06.py",
+        "bytes": 44367,
+        "sha256": "229a6534af1b8f731d65c895862c44724a0dd86201a9bdee0a38e8b1815760b0"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/scripts/generate_common_backend_v1_receipts.py",
+        "bytes": 85260,
+        "sha256": "4e0f74c3e3829e7cdbfc00d4edc33168a1b1dd25c8e7fefca0dc4b6906649dee"
+      },
+      {
+        "path": "bundel-berkas-dan-kohomologi-id-ID-units-01-06-native-backend/scripts/qa_backend_bgk_units_01_06.py",
+        "bytes": 16096,
+        "sha256": "ad6925d8c8a6318eeabfe7b36a7fdcc38d57ab115a29e5d359910c1bcb43dc76"
+      }
+    ]
+  },
+  "exact_gate_hashes": {
+    "reader_qa": {
+      "path": "qa/BGK_UNITS_01_06_READER_QA.json",
+      "bytes": 6369,
+      "sha256": "8c40f147451888e3ab4c2da95d164388c4f5725d37e121f020842da9488e250c"
+    },
+    "visual_qa": {
+      "path": "qa/BGK_UNITS_01_06_VISUAL_QA.json",
+      "bytes": 28173,
+      "sha256": "3c8ed7f411124cbeb3dbaeead04b768606caa4d0789a41235b52df80806b2c68"
+    },
+    "backend_qa": {
+      "path": "qa/BGK_UNITS_01_06_BACKEND_QA.json",
+      "bytes": 4164,
+      "sha256": "9ea9da9846590730d34ef4dc69749d0538972fef52b0f964fcefdfe9fbc80214"
+    },
+    "common_adapter_qa": {
+      "path": "qa/BGK_UNITS_01_06_COMMON_ADAPTER_PREFLIGHT_QA.json",
+      "bytes": 6011,
+      "sha256": "204045f5b43ca0e695e6706ac7f5884063ac0835c6e29ae4b6cd1e65fe33f246"
+    }
+  },
+  "checks": {
+    "reader_receipt_outputs_and_all_page_visual_qa_bound": true,
+    "all_six_unit_authority_and_translation_qas_pass": true,
+    "native_manifest_and_declared_backend_files_byte_bound": true,
+    "common_backend_lossless_preflight_bound": true,
+    "source_archive_crc_and_entry_hashes_valid": true,
+    "backend_archive_crc_and_entry_hashes_valid": true,
+    "license_and_component_rights_included": true,
+    "exact_model_provenance_included": true,
+    "credential_pattern_hits": 0,
+    "forbidden_visible_umbrella_label_hits": 0,
+    "raw_authority_dumps_included": false,
+    "official_pdf_witnesses_included": false,
+    "public_state_mutated": false
+  },
+  "manifest": {
+    "path": "07_RELEASE_MANIFEST.json",
+    "bytes": 5287,
+    "sha256": "73f3fc58c1f0add8e0b2e1925f0ed725298aa97100c3eb9d4ff848acff630fe8"
+  },
+  "checksums": {
+    "path": "08_SHA256SUMS.txt",
+    "bytes": 774,
+    "sha256": "e80494c2ea9de3cf28a1215a3418afe9da6c9828ab3e0717f8ff788ff3d34b9a"
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

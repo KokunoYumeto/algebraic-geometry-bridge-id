@@ -1,0 +1,211 @@
+{
+  "boundary": "cumulative Units 1--6",
+  "changed_paths": [
+    "source/id-ID/lecture-01.md",
+    "source/id-ID/lecture-02.md",
+    "source/id-ID/lecture-03.md",
+    "source/id-ID/lecture-04.md",
+    "source/id-ID/lecture-05.md",
+    "source/id-ID/lecture-06.md",
+    "source/id-ID/lecture-07.md",
+    "source/id-ID/worksheet-01-solutions.md",
+    "source/id-ID/worksheet-01.md",
+    "source/id-ID/worksheet-02-solutions.md",
+    "source/id-ID/worksheet-02.md",
+    "source/id-ID/worksheet-03-solutions.md",
+    "source/id-ID/worksheet-03.md",
+    "source/id-ID/worksheet-04-solutions.md",
+    "source/id-ID/worksheet-04.md",
+    "source/id-ID/worksheet-05-solutions.md",
+    "source/id-ID/worksheet-05.md",
+    "source/id-ID/worksheet-06.md",
+    "source/id-ID/worksheet-07.md"
+  ],
+  "credentials_recorded": false,
+  "credit_preservation": {
+    "human_contributor_credits_preserved": true,
+    "model_identification_additive_only": true,
+    "source_author_credits_preserved": true
+  },
+  "decisions": [
+    {
+      "basis": "Both representative Indonesian primary PDFs use lapangan and neither uses medan.",
+      "concept": "field",
+      "from": "medan",
+      "occurrences": 117,
+      "to": "lapangan"
+    },
+    {
+      "basis": "The supporting Indonesian commutative-algebra paper explicitly uses gelanggang faktor for quotient rings.",
+      "concept": "quotient ring",
+      "from": "gelanggang hasil bagi",
+      "occurrences": 22,
+      "to": "gelanggang faktor"
+    }
+  ],
+  "evidence": [
+    {
+      "bytes": 8933,
+      "path": "qa/TERMINOLOGY_MIGRATION_UNIT_07.json",
+      "sha256": "d290dff2d248ece69202ac1ebbe7cb386c280e46ce8f2f868ec6bfdbfba27de3"
+    },
+    {
+      "bytes": 7616,
+      "path": "authority/terminology-id-arxiv/TERMINOLOGY_QA_REPORT.md",
+      "sha256": "379478bd8ad2cfb82a2df22208b51a63c438b1cc0d86bec46d43f7573ed6d1f9"
+    },
+    {
+      "bytes": 10227,
+      "path": "authority/terminology-id-arxiv/SOURCE_MANIFEST.json",
+      "sha256": "ee90cac811cf13acb7db45fa067e404b8a474c12518a37d2b693edf8fc133a36"
+    },
+    {
+      "bytes": 3567,
+      "path": "00_control/TERMINOLOGY_QA_20260822.md",
+      "sha256": "5cb7118a1afa20043cd4cf8233c22ca5d69603fbda3eb83f8f48b4cce50f8ccd"
+    }
+  ],
+  "fallback_sources": [
+    {
+      "authors": [
+        "S. Nurmalasari",
+        "S. Guritman",
+        "B. P. Silalahi"
+      ],
+      "doi": "10.29244/jmap.16.2.13-26",
+      "language": "id-ID",
+      "license_evidence": "No named license appears in the PDF or article record. The journal's current official open-access policy enumerates reader rights, but no retroactive Creative Commons license is inferred.",
+      "local_evidence_path": "authority/terminology-id-arxiv/ipb-2017-hyperelliptic-curves-id.pdf",
+      "official_record_url": "https://journal.ipb.ac.id/index.php/jmap/article/view/20016",
+      "pdf_bytes": 408458,
+      "pdf_sha256": "c251f619bf97d0ab5f9a905ee2cc5b5038d2d7425d12d54aca606893e76c1150",
+      "redistributed": false,
+      "role": "primary_same_field",
+      "title": "Penyusunan Algoritme Operasi Grup yang Dibangkitkan oleh Kurva Hipereliptik y^2+xy=x^5+x^2+x atas Lapangan F_2^97"
+    },
+    {
+      "authors": [
+        "Qharnida Khariani",
+        "Amir Kamal Amir",
+        "Nur Erawaty"
+      ],
+      "doi": "10.20956/jmsk.v11i1.3431",
+      "language": "id-ID",
+      "license_evidence": "The article-level OJS record states CC BY 4.0; the same page's footer states CC BY-NC 4.0. Conflict preserved without choosing one.",
+      "local_evidence_path": "authority/terminology-id-arxiv/unhas-2014-prime-maximal-ideals-polynomial-ring-id.pdf",
+      "official_record_url": "https://journal.unhas.ac.id/index.php/jmsk/article/view/3431",
+      "pdf_bytes": 307931,
+      "pdf_sha256": "18cfdbe1d8cad27eda19a6dab1e9d258ef4f7874407d3746a8cbd6bfbbdef16a",
+      "redistributed": false,
+      "role": "supporting_commutative_algebra",
+      "title": "Ideal Prima dan Ideal Maksimal pada Gelanggang Polinomial"
+    }
+  ],
+  "files_changed": 19,
+  "files_examined": 21,
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "publication_payload": {
+    "authority_fallback_pdfs_included": false,
+    "reason": "local terminology evidence only; rights are absent or conflicting"
+  },
+  "replay_validation": {
+    "common_backend_record_count": 10167,
+    "common_backend_virtual_records_jsonl_sha256": "505e386794750902497e1847333bb153402d4da544ab19e4424ee6a6471b36ae",
+    "evidence": [
+      {
+        "bytes": 10118,
+        "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+        "sha256": "e69b24950f0d7ede5cf8c33b6bec32298c08555758936193e1bb4a002844937b"
+      },
+      {
+        "bytes": 6369,
+        "path": "qa/BGK_UNITS_01_06_READER_QA.json",
+        "sha256": "8c40f147451888e3ab4c2da95d164388c4f5725d37e121f020842da9488e250c"
+      },
+      {
+        "bytes": 4164,
+        "path": "qa/BGK_UNITS_01_06_BACKEND_QA.json",
+        "sha256": "9ea9da9846590730d34ef4dc69749d0538972fef52b0f964fcefdfe9fbc80214"
+      },
+      {
+        "bytes": 6011,
+        "path": "qa/BGK_UNITS_01_06_COMMON_ADAPTER_PREFLIGHT_QA.json",
+        "sha256": "204045f5b43ca0e695e6706ac7f5884063ac0835c6e29ae4b6cd1e65fe33f246"
+      },
+      {
+        "bytes": 25100,
+        "path": "backend/bgk-units-01-06/MANIFEST.json",
+        "sha256": "35438f7b9a1c3a833f5f6090041d3ee125fcbbc28c5ef5660579362ac2292e06"
+      }
+    ],
+    "result": "pass"
+  },
+  "retained_terms_and_glossary_decisions": {
+    "control_record": {
+      "bytes": 3567,
+      "path": "00_control/TERMINOLOGY_QA_20260822.md",
+      "sha256": "5cb7118a1afa20043cd4cf8233c22ca5d69603fbda3eb83f8f48b4cce50f8ccd"
+    },
+    "migration_post_counts": {
+      "gelanggang_faktor": 22,
+      "lapangan": 117,
+      "medan": 0,
+      "quotient_ring_old": 0
+    }
+  },
+  "schema_name": "ag-bridge-terminology-qa-receipt",
+  "schema_version": "1.0.0",
+  "search": {
+    "api_status": "HTTP 429 during the bounded check; no API result was treated as evidence",
+    "authority": "Official arXiv search pages and official arXiv API only",
+    "decision": "No suitable Indonesian-language arXiv record with a downloadable TeX/e-print source package was found in this bounded search; use documented primary-PDF fallback",
+    "queries": [
+      {
+        "outcome": "7 results; inspected as irrelevant non-Indonesian matches, chiefly the surname Aljabar",
+        "query": "aljabar",
+        "url": "https://arxiv.org/search/?query=aljabar&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "0 results",
+        "query": "gelanggang",
+        "url": "https://arxiv.org/search/?query=gelanggang&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "0 results",
+        "query": "\"kurva aljabar\"",
+        "url": "https://arxiv.org/search/?query=%22kurva+aljabar%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "0 results",
+        "query": "\"kurva hipereliptik\"",
+        "url": "https://arxiv.org/search/?query=%22kurva+hipereliptik%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "0 results",
+        "query": "\"ideal prima\"",
+        "url": "https://arxiv.org/search/?query=%22ideal+prima%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "0 results",
+        "query": "\"varietas afin\"",
+        "url": "https://arxiv.org/search/?query=%22varietas+afin%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "48 broad non-Indonesian matches; result page contained no Indonesia, Bahasa, or Kurva marker",
+        "query": "polinomial",
+        "url": "https://arxiv.org/search/?query=polinomial&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "HTTP 429; not scored as zero",
+        "query": "lapangan",
+        "url": "https://arxiv.org/search/?query=lapangan&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      },
+      {
+        "outcome": "HTTP 429; not scored as zero",
+        "query": "\"geometri aljabar\"",
+        "url": "https://arxiv.org/search/?query=%22geometri+aljabar%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50"
+      }
+    ]
+  },
+  "status": "pass"
+}

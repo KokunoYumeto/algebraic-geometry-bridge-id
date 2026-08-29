@@ -1,0 +1,285 @@
+{
+  "schema": "ag-bridge-bgk-unit-authority-qa-v1",
+  "unit": 4,
+  "status": "PASS_COMPLETE_SEMANTIC_AUTHORITY_SOLUTION_PDF_MEDIA_RIGHTS_AND_TERMINAL_LATEX_WITNESSES",
+  "verified_date": "2026-08-29",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "course": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+  "course_root_authority": {
+    "path": "authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+    "bytes": 34279,
+    "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8",
+    "lecture_and_worksheet_rows_match_unit_manifest": true
+  },
+  "manifest": {
+    "path": "authority/wikiversity-bgk/unit-04/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 74511,
+    "sha256": "3f26616ff7e9f4ac0d5bb0e64ad8435fefc18e32e4c91b16d780d4346498f680",
+    "first_complete_resume_sha256": "3f26616ff7e9f4ac0d5bb0e64ad8435fefc18e32e4c91b16d780d4346498f680",
+    "second_complete_resume_sha256": "3f26616ff7e9f4ac0d5bb0e64ad8435fefc18e32e4c91b16d780d4346498f680",
+    "deterministic_double_resume_replay": true,
+    "manifest_file_records_declared": 28,
+    "manifest_file_records_verified": 28,
+    "manifest_file_record_failures": 0
+  },
+  "capture_identity": {
+    "path": "authority/wikiversity-bgk/unit-04/CAPTURE_IDENTITY.json",
+    "bytes": 672,
+    "sha256": "e01b79080b4354a0a82f86d0ee47cdfa2afe00c52d2b0a8d4ce3e5196397054e"
+  },
+  "lecture": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 4",
+    "pageid": 109008,
+    "revid": 1003714,
+    "timestamp": "2025-06-08T15:26:17Z",
+    "mediawiki_sha1": "8eceb7ac307706e0858ffa278bd9d1235574a596",
+    "latex_pageid": 110116,
+    "latex_revid": 807071,
+    "latex_timestamp": "2022-09-18T09:51:29Z",
+    "latex_mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "transclusions_requested": 106,
+    "transclusions_captured": 106,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 22669,
+    "expanded_tex_sha256": "4dc55e0810888863946316396cff73ce5ef1a1bb9b46864b64b3ed80ba3a8ea1"
+  },
+  "worksheet": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt 4",
+    "pageid": 110209,
+    "revid": 1003857,
+    "timestamp": "2025-06-10T09:15:51Z",
+    "mediawiki_sha1": "879b20dfad7b078a205c00bf5e341035b8307f8e",
+    "latex_pageid": 117159,
+    "latex_revid": 807041,
+    "latex_timestamp": "2022-09-18T09:46:19Z",
+    "latex_mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "transclusions_requested": 60,
+    "transclusions_captured": 60,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 4953,
+    "expanded_tex_sha256": "7af2dce83605791269ba4fc1d5351100411b0a8081920cce8f1241724249f974"
+  },
+  "latex_terminal_boundary": {
+    "latex_page_wikitext": "{{Latex}}",
+    "wrapper_template_observed": "Vorlage:Latex",
+    "wrapper_template_captured": false,
+    "wrapper_is_semantic_rebuild_input": false,
+    "semantic_rebuild_authority": "lecture and worksheet root revisions plus the complete 106-page and 60-page captured semantic transclusion closures",
+    "lecture_terminal_witnesses": {
+      "api_sha256": "c9f93a56c7f226299968a956bd353ed0d98d042d2592863dc45b6699cd61ffe2",
+      "xml_sha256": "db0070156c3a4eea7711f41fe3a36b070c729d1db7d59a6c0d23732ba1d37ba1",
+      "html_sha256": "db4f291de0d53302fe36dcb805e7c0264fd3923a0342251cab777ea0eb67685b",
+      "expanded_tex_sha256": "4dc55e0810888863946316396cff73ce5ef1a1bb9b46864b64b3ed80ba3a8ea1"
+    },
+    "worksheet_terminal_witnesses": {
+      "api_sha256": "64b97d1e384d38c2b7f64666374dffc0848219e9cdbea493b6c0d126fb3cd475",
+      "xml_sha256": "cb310a05229f3c596e83821b344950ba38d13dd3c11e6364a9a76da3446470ce",
+      "html_sha256": "5c84cfaab17134d64c6b3303578ac7172dba20062f48c9d8bba103418f499783",
+      "expanded_tex_sha256": "7af2dce83605791269ba4fc1d5351100411b0a8081920cce8f1241724249f974"
+    },
+    "normalized_visible_html_text_matches_expanded_tex": true,
+    "reproducibility_claim": "terminal-byte witnesses only; no recursive wrapper-template reconstruction is claimed"
+  },
+  "exercise_solution_closure": {
+    "ordered_exercises": 9,
+    "public_solutions": 0,
+    "negative_solution_candidates": 9,
+    "invented_solutions_allowed": false,
+    "ordered_map_path": "authority/wikiversity-bgk/unit-04/ORDERED_EXERCISE_MAP.json",
+    "ordered_map_bytes": 3554,
+    "ordered_map_sha256": "a53d958595d6fd0aac34f8ea6562204dda96b44a375e68b33d93d92e63485dcf",
+    "candidate_evidence_path": "authority/wikiversity-bgk/unit-04/worksheet-solution-candidates-api.json",
+    "candidate_evidence_bytes": 842,
+    "candidate_evidence_sha256": "1eb1be9dc5b34a5cc19719ddaf57cd918df880b0b28c74f52ab62ab25d33b52f"
+  },
+  "official_pdfs": [
+    {
+      "kind": "lecture",
+      "path": "authority/artifacts/bgk-lecture-04-official.pdf",
+      "pages_poppler": 7,
+      "pages_pypdf": 7,
+      "page_box_points": [612, 792],
+      "bytes": 243533,
+      "sha256": "9e6dd93da57ae35f96568fc717442ac4c6fb209733527143068c34f32248d222",
+      "byte_level_sha1": "0540e1e061cfe5cfea50ff58008fc939b425276e",
+      "mediawiki_sha1_match": true,
+      "commons_description_pageid": 84355069,
+      "commons_description_revid": 1016827104,
+      "commons_description_mediawiki_sha1": "0fbc9ca8825a0de8542ae2f44ceff203e1f0a268",
+      "commons_license": "CC BY-SA 4.0",
+      "embedded_license": "CC-by-sa 3.0",
+      "embedded_rights_page_text_sha256": "66b2ad8ff676d6e308c59dcdd1d0acaea15b3aa233d04bd01e885798ef08a881",
+      "license_surfaces_preserved_separately": true
+    },
+    {
+      "kind": "worksheet",
+      "path": "authority/artifacts/bgk-worksheet-04-official.pdf",
+      "pages_poppler": 3,
+      "pages_pypdf": 3,
+      "page_box_points": [612, 792],
+      "bytes": 31057,
+      "sha256": "082b49c71d075c7bd137ff66ce20d1ec3a76fe2368e1a2c2f0141e774e270ed9",
+      "byte_level_sha1": "2c5f529da3b2b51d56b8000bede1651bae12aab3",
+      "mediawiki_sha1_match": true,
+      "commons_description_pageid": 87502846,
+      "commons_description_revid": 1016826605,
+      "commons_description_mediawiki_sha1": "eb0c8a9045ac707e50280f9d83494c02c26669cb",
+      "commons_license": "CC BY-SA 4.0",
+      "embedded_license": "CC-by-sa 3.0",
+      "embedded_rights_page_text_sha256": "a63594658a724b743a6e7516d05d7f731953369bcbf77e0b9cef9de563ccdfa7",
+      "license_surfaces_preserved_separately": true,
+      "source_blank_page": 2,
+      "blank_page_render_mean": 1,
+      "blank_page_render_standard_deviation": 0
+    }
+  ],
+  "visual_pdf_review": {
+    "renderer": "Poppler pdftoppm",
+    "lecture_pages_reviewed": [1, 2, 3, 4, 5, 6, 7],
+    "worksheet_pages_reviewed": [1, 2, 3],
+    "titles_numbering_formulas_exercises_image_and_rights_pages_legible": true,
+    "clipping_overlap_or_broken_glyphs_observed": false,
+    "worksheet_page_2_confirmed_intentionally_blank_in_source_bytes": true
+  },
+  "bounded_owner_replay": {
+    "verified_date": "2026-08-29",
+    "referenced_pdf_media_rights_asset_and_credits_hashes_recomputed": true,
+    "pypdf_and_poppler_page_counts_and_boxes_match": true,
+    "all_ten_pages_visually_reviewed": true,
+    "worksheet_page_2_intentionally_blank": true,
+    "wheat_asset_reopened_dimensions": [500, 410],
+    "component_attribution_and_cc_by_sa_2_5_match_frozen_commons_evidence": true,
+    "mismatches": 0
+  },
+  "parse_images": {
+    "unique_names": 3,
+    "official_pdf_witnesses": 2,
+    "substantive_reader_media": 1,
+    "substantive_resource_title": "File:Triticum spelta - shock (aka).jpg"
+  },
+  "media_rights_closure": {
+    "metadata_path": "authority/commons-imageinfo-bgk-unit-04.json",
+    "metadata_bytes": 17843,
+    "metadata_sha256": "2a43864e163ad727c4c03ea62e7dc5ba45b2262a2ad19cc226b3f8a1bc56dddf",
+    "rights_path": "authority/RIGHTS-bgk-unit-04.csv",
+    "rights_bytes": 2392,
+    "rights_sha256": "620791467ec9ce4b87edde9efb7760359c6acc8a203435863a6d37cc79fd5132",
+    "closure_path": "authority/ASSET_CLOSURE-bgk-unit-04.json",
+    "closure_bytes": 5875,
+    "closure_sha256": "2de02cc0d3d6018f42925b72b41e1661f3e9e305a07486f584c6e17c2c2fd0b3",
+    "credits_path": "source/id-ID/media-credits-bgk-unit-04.md",
+    "credits_bytes": 650,
+    "credits_sha256": "9d57b9c693fa327d008a191345e5a1f0ff58e87230e1b9ac16209ed46d178282",
+    "asset_path": "authority/assets/bgk-u04-triticum-spelta.jpg",
+    "asset_bytes": 100723,
+    "asset_sha256": "1050547eae3e7855001791da54dc8cd957b324cf38e5ef5b0955b4a596b0da7b",
+    "asset_dimensions": [500, 410],
+    "original_dimensions": [2500, 2048],
+    "original_bytes": 2854138,
+    "original_sha1": "8d705b4510e60aa92932e5bd7070dcdbcf171bdc",
+    "description_pageid": 2873357,
+    "description_revid": 1225798501,
+    "description_timestamp": "2026-06-04T15:06:33Z",
+    "description_mediawiki_sha1": "f1fb443acb0ab107de1b70ed27ebeb48415f182a",
+    "creator": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "source_inline_label": "CC-by-sa 2.5",
+    "label_format_variation_only": true,
+    "license_discrepancy_present": false,
+    "deterministic_resume_replays": 2,
+    "all_replay_hashes_identical": true
+  },
+  "source_anomalies_requiring_reader_treatment": [
+    {
+      "id": "AGC-BGK-U04-SRC-001",
+      "source_title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 4",
+      "pageid": 109008,
+      "revid": 1003714,
+      "mediawiki_sha1": "8eceb7ac307706e0858ffa278bd9d1235574a596",
+      "issue": "The heading Garbenmorpismen is a typo for Garbenmorphismen.",
+      "required_reader_treatment": "Use the correct term for sheaf morphisms and record the source typo."
+    },
+    {
+      "id": "AGC-BGK-U04-SRC-002",
+      "source_title": "Topologischer Raum/Garben/Morphismen/Garbe/Fakt/Beweis",
+      "pageid": 109520,
+      "revid": 1112675,
+      "mediawiki_sha1": "0b3734fdb9cb6552602b585fe837a473096d6b22",
+      "issue": "The Hom-sheaf proof checks and constructs only the map on sections over U, not the complete family on every open V subseteq U or its restriction compatibility.",
+      "required_reader_treatment": "State the standard completion on every V using the cover by V intersection U_i and verify naturality; disclose the clarification."
+    },
+    {
+      "id": "AGC-BGK-U04-SRC-003",
+      "source_title": "Hausdorffraum/Konstante Prägarbe/Keine Garbe/Aufgabe",
+      "pageid": 111897,
+      "revid": 1098181,
+      "mediawiki_sha1": "1ef282d42bf84eaf1653c6d128326805dda9e34d",
+      "issue": "The exercise assumes only that M is nonempty; its conclusion fails when M is a singleton.",
+      "required_reader_treatment": "Require M to contain at least two elements and disclose the missing source hypothesis."
+    },
+    {
+      "id": "AGC-BGK-U04-SRC-004",
+      "source_title": "Topologischer Raum/Garben/Morphismen/Gleichheitstest in Halmen/Fakt",
+      "pageid": 110249,
+      "revid": 1049893,
+      "mediawiki_sha1": "346f0e525acc77499a99fbe676bfcf8220c9b87c",
+      "issue": "The displayed stalk equality uses alpha_p on one side and beta_P on the other.",
+      "required_reader_treatment": "Use the consistently quantified index P: alpha_P equals beta_P."
+    },
+    {
+      "id": "AGC-BGK-U04-SRC-005",
+      "source_title": "Wolkenkratzergarbe/Gruppe/Garbeneigenschaft/Aufgabe",
+      "pageid": 139888,
+      "revid": 1081969,
+      "mediawiki_sha1": "8142855ff106a5da9990c7f6fc336c85309ca7dd",
+      "issue": "The final instruction contains the double typo Besitmme die Halm.",
+      "required_reader_treatment": "Render the intended instruction Bestimme die Halme and record the typo."
+    }
+  ],
+  "rights_boundary": {
+    "semantic_course_surface": "CC BY-SA 4.0",
+    "wheat_image_component": "CC BY-SA 2.5",
+    "commons_official_pdf_metadata": "CC BY-SA 4.0",
+    "embedded_official_pdf_notice": "CC-by-sa 3.0",
+    "blanket_relicensing_claim": false,
+    "non_endorsement_preserved": true
+  },
+  "scripts": [
+    {
+      "path": "scripts/freeze_brenner_bgk_unit.py",
+      "bytes": 16424,
+      "sha256": "4c20e83e74bce77315af5effa82a35b0cac96ee81b5e408d7180416a11e86355"
+    },
+    {
+      "path": "scripts/freeze_bgk_single_image_unit_media.py",
+      "bytes": 24102,
+      "sha256": "b48837102b36547bf4e9077eef2a4eba6e57ef88c87de38c6c83de0c3ada7d61"
+    },
+    {
+      "path": "scripts/freeze_bgk_unit04_media.py",
+      "bytes": 4986,
+      "sha256": "b054bb12c17c2821e4fadf7ba5feb7bc5ad1e46324d6542867754512845dd329"
+    }
+  ],
+  "summary": {
+    "path": "authority/BGK_UNIT_04_AUTHORITY_FREEZE.md",
+    "bytes": 9405,
+    "sha256": "e0082362603d963a331f9f687164600ae499d45ee1ff8488dfd498f2ccd0ed0e"
+  },
+  "checks": {
+    "course_and_storage_identity": "PASS",
+    "semantic_root_revision_and_recursive_transclusion_closure": "PASS",
+    "latex_witness_terminal_byte_boundary": "PASS_NO_WRAPPER_TEMPLATE_REBUILD_CLAIM",
+    "ordered_exercise_and_solution_topology": "PASS",
+    "official_pdf_byte_identity_and_all_page_visual_review": "PASS",
+    "substantive_media_binary_accessibility_and_component_rights": "PASS",
+    "deterministic_authority_double_replay": "PASS",
+    "deterministic_media_double_replay": "PASS",
+    "source_anomaly_audit": "PASS_5_FROZEN_FINDINGS",
+    "translation_files_touched": false,
+    "reader_backend_control_logbook_files_touched": false,
+    "git_used": false,
+    "upstream_contacted": false
+  },
+  "next": "translate BGK Unit 4 independently from this authority, preserving all nine exercises, zero public solutions, the one licensed media position, and visible treatment of the five frozen source anomalies"
+}

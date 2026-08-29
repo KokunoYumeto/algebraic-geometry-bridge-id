@@ -1,0 +1,191 @@
+{
+  "schema": "ag-bridge-bgk-unit-translation-qa-v1",
+  "unit": 5,
+  "language": "id-ID",
+  "status": "PASS",
+  "authority": [
+    {
+      "path": "authority/wikiversity-bgk/unit-05/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 78720,
+      "sha256": "328774ffd66341ba8841b86935037a043067202dd10916d3e0be5082faeac35e"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/lecture-05.xml",
+      "bytes": 4870,
+      "sha256": "edc881b76f88954eeceb7fa0a1902791218e064b947adee9e01119969c21c237"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/lecture-05-expanded.tex",
+      "bytes": 17843,
+      "sha256": "d5d29f43c3209ccf8c8f80290ba3e44e800552807d4975ae0e78cb2dcd73735f"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/worksheet-05.xml",
+      "bytes": 4411,
+      "sha256": "89e545b88502d4e9f4bd19c8ca79a68cf86a480aca360f4d0c3740589366a7f5"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/worksheet-05-expanded.tex",
+      "bytes": 6490,
+      "sha256": "af4235ab3c393b02ad8f081f8f8fb17c24067fa07af63ec7f9bb3f17e1526b86"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/lecture-05-latex-page-api.json",
+      "bytes": 388,
+      "sha256": "f1f399219ce3bb9372e97a235db196fbe4237da3f33ebfc3f031285f62384eab"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/worksheet-05-latex-page-api.json",
+      "bytes": 391,
+      "sha256": "7de690f0ce79cb0ac2aecea072ea8d035bf7dba46af5ec0bda1434c290a6ae78"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/solution-ex05.xml",
+      "bytes": 4856,
+      "sha256": "95fa2f0799fb9bfbfe0d9475a42c061ea805618e25e31560a6004da4672c5c86"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/solution-ex05.html",
+      "bytes": 9298,
+      "sha256": "04c72e340da0acd5220449d60b5bc1d18e30d2808f549600b5288910de26d406"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/ORDERED_EXERCISE_MAP.json",
+      "bytes": 4769,
+      "sha256": "b6bf28ef883ac91c07d0c50526ff655b2bcf7fc1b0d45773f0543092d463cadf"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/worksheet-solution-candidates-api.json",
+      "bytes": 3127,
+      "sha256": "8b7b0d65fa6670632c96c8ab95b48b732576ebc3db80007ce281c78fb9875d51"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-05/official-pdfs-api.json",
+      "bytes": 1972,
+      "sha256": "870f061afcbdc878e8fcfa1cb239adca56573f753f1115a0c94f20b7a634b295"
+    }
+  ],
+  "media_and_rights": [
+    {
+      "path": "authority/ASSET_CLOSURE-bgk-unit-05.json",
+      "bytes": 6060,
+      "sha256": "c1e2145df10a647b185cbdb79f4d8d215a253604242fb694aa057b08cf3c34a3"
+    },
+    {
+      "path": "authority/RIGHTS-bgk-unit-05.csv",
+      "bytes": 1051,
+      "sha256": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d"
+    },
+    {
+      "path": "authority/commons-imageinfo-bgk-unit-05.json",
+      "bytes": 7059,
+      "sha256": "09fff01c6ed1a153c4970265001b0251c705e51142ca022a9c7260cfff74edf2"
+    },
+    {
+      "path": "source/id-ID/media-credits-bgk-unit-05.md",
+      "bytes": 666,
+      "sha256": "c2e2db42f0ad4479c84ab0c00b1cb72f3fafd2e6e0ce291d32cbc03e10fcdf9e"
+    },
+    {
+      "path": "authority/artifacts/bgk-lecture-05-official.pdf",
+      "bytes": 74961,
+      "sha256": "85be007896876a0717ef5eddfe64ed919aeb6559dce44ec2828ffe2b1d755085"
+    },
+    {
+      "path": "authority/artifacts/bgk-worksheet-05-official.pdf",
+      "bytes": 38216,
+      "sha256": "206418f092c563128b3dbf893b8547dc6db727773d4e4ec88e07140886d79113"
+    }
+  ],
+  "translation_files": [
+    {
+      "path": "source/id-ID/bgk/lecture-05.md",
+      "bytes": 16159,
+      "sha256": "bd2a9242bce613ad95f3d7c99bdcb5d94c007722673c9c1facef57833725b22c"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-05.md",
+      "bytes": 6303,
+      "sha256": "0acb297084d14bd202bffcce31fe760d04ed2017a58565233cea78aa9d2f8932"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-05-solutions.md",
+      "bytes": 3693,
+      "sha256": "9045107729977f6f3169b198e603a19bf0072d23ada39b8f4b06655e421c2c9b"
+    }
+  ],
+  "pandoc": [
+    {
+      "path": "source/id-ID/bgk/lecture-05.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 153,
+      "heading_nodes": 15,
+      "image_nodes": 0
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-05.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 57,
+      "heading_nodes": 12,
+      "image_nodes": 0
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-05-solutions.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 25,
+      "heading_nodes": 2,
+      "image_nodes": 0
+    }
+  ],
+  "counts": {
+    "source_exercises": 11,
+    "translated_exercises": 11,
+    "source_public_solutions": 1,
+    "translated_public_solutions": 1,
+    "negative_solution_candidates": 10,
+    "invented_solutions": 0,
+    "lecture_numbered_entities": 9,
+    "proof_positions": 2,
+    "heading_ids": 29,
+    "heading_id_collisions": 0,
+    "source_anomaly_classes": 6,
+    "visible_anomaly_note_placements": 5,
+    "correction_ledger_rows_added": 6,
+    "terminology_rows_added": 10,
+    "reader_media_positions": 0
+  },
+  "correction_ids": [
+    "AGC-CORR-0159",
+    "AGC-CORR-0160",
+    "AGC-CORR-0161",
+    "AGC-CORR-0162",
+    "AGC-CORR-0163",
+    "AGC-CORR-0164"
+  ],
+  "terminology_ids_added": [
+    "AGT-0324",
+    "AGT-0325",
+    "AGT-0326",
+    "AGT-0327",
+    "AGT-0328",
+    "AGT-0329",
+    "AGT-0330",
+    "AGT-0331",
+    "AGT-0332",
+    "AGT-0333"
+  ],
+  "checks": [
+    "frozen_authority_and_transclusion_hashes",
+    "ordered_eleven_exercise_map_and_one_public_solution",
+    "no_invented_solutions_and_negative_scope_disclosure",
+    "lecture_numbering_and_two_source_proof_positions",
+    "source_order_and_formula_witnesses",
+    "six_correction_classes_with_visible_treatment",
+    "append_only_correction_and_terminology_ledgers",
+    "disjoint_bgk_stable_ids",
+    "zero_reader_media_bound_to_official_pdf_rights_evidence",
+    "pandoc_ast_all_three_files",
+    "exact_model_provenance_license_and_nonendorsement",
+    "no_placeholders_german_prose_malformed_math_backticks_or_invisible_controls"
+  ]
+}

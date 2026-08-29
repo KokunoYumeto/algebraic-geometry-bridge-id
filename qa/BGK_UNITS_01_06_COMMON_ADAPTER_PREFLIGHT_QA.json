@@ -1,0 +1,147 @@
+{
+  "adapter": {
+    "bytes": 85260,
+    "mode": "additive zero-copy adapter",
+    "native_records_mutated": false,
+    "path": "scripts/generate_common_backend_v1_receipts.py",
+    "sha256": "4e0f74c3e3829e7cdbfc00d4edc33168a1b1dd25c8e7fefca0dc4b6906649dee",
+    "syntax_parse": "PASS"
+  },
+  "checks": {
+    "accepted_classical_regression_replayed_and_unchanged": true,
+    "adapter_and_contract_identities_match": true,
+    "all_foreign_keys_closed": true,
+    "common_schema_valid": true,
+    "deterministic_double_preflight": true,
+    "final_migration_receipt_deferred_until_zenodo_reservation_exists": true,
+    "final_qa_evidence_identities_and_statuses_match": true,
+    "frozen_native_input_identities_match": true,
+    "lossless_native_round_trip": true,
+    "strict_profiles_valid": true,
+    "witnesses_bound": true
+  },
+  "classical_regression": {
+    "accepted_baseline": {
+      "accepted_common_records": 53953,
+      "accepted_lossless_reverse_sha256": "dfdaebfa185c09b5e96ee4834b8b52f1c52329477eae0b48c5e8950b1b228dd7",
+      "accepted_virtual_sha256": "b0a9d21a0ad8b7ce30323f78af3aa9509da663a61d32ee915239dcea9a71ba2c",
+      "native_backend": "backend/units-01-30",
+      "native_records": 22752,
+      "native_records_sha256": "dfdaebfa185c09b5e96ee4834b8b52f1c52329477eae0b48c5e8950b1b228dd7",
+      "status": "PASS_UNCHANGED_ACCEPTED_BASELINE"
+    },
+    "accepted_control": {
+      "bytes": 2266,
+      "path": "qa/BGK_UNITS_01_04_COMMON_ADAPTER_PREFLIGHT_QA.json",
+      "sha256": "4034ad13ab0efa3385c7392f0a8d69954b0c6cf3dfcabc9004412eef0f7e6de5"
+    },
+    "current_adapter": {
+      "bytes": 85260,
+      "path": "scripts/generate_common_backend_v1_receipts.py",
+      "sha256": "4e0f74c3e3829e7cdbfc00d4edc33168a1b1dd25c8e7fefca0dc4b6906649dee"
+    },
+    "current_result": {
+      "common_records": 53953,
+      "foreign_keys_checked": 128541,
+      "native_records": 22752,
+      "reverse_sha256": "dfdaebfa185c09b5e96ee4834b8b52f1c52329477eae0b48c5e8950b1b228dd7",
+      "status": "PASS",
+      "strict_profile_witness_files": 60,
+      "strict_profiles": 8268,
+      "virtual_bytes": 86479768,
+      "virtual_sha256": "b0a9d21a0ad8b7ce30323f78af3aa9509da663a61d32ee915239dcea9a71ba2c"
+    },
+    "double_preflight_stdout_identical": true,
+    "double_preflight_stdout_sha256": "aa08600f463d3e5d41be07d3e262a11ffcda0609da0ab3dc702773c33527dae0",
+    "method": "two deterministic replays against the exact accepted classical Units 01-30 native backend",
+    "status": "PASS_UNCHANGED_ACCEPTED_BASELINE"
+  },
+  "common_projection": {
+    "common_records": 10167,
+    "double_preflight_stdout_identical": true,
+    "double_preflight_stdout_sha256": "ad5521a4aa5e720ff029637c8055eff5f14f7443e97f3a7f0463d8ff8f301a04",
+    "foreign_keys_checked": 23900,
+    "lossless_reverse_sha256": "23e326a4a6c33abb1a4a0b10b91a673a74b056d8eb48e15a7681310d07c86986",
+    "native_records": 4239,
+    "stdout_normalization": "CRLF normalized to LF before byte comparison",
+    "strict_profile_witness_files": 33,
+    "strict_profiles": 1621,
+    "virtual_bytes": 14274006,
+    "virtual_sha256": "505e386794750902497e1847333bb153402d4da544ab19e4424ee6a6471b36ae"
+  },
+  "contract": [
+    {
+      "bytes": 126423,
+      "path": "backend/common-backend-v1-contract/upstream/backend-v1.v0.41.0.schema.json",
+      "sha256": "3de8d107b1c75db0f8d60c42ef7e3488bc3fcc93f72e955def71a771475cf2b2"
+    },
+    {
+      "bytes": 12228,
+      "path": "backend/common-backend-v1-contract/upstream/source-format-profile-v1.v0.41.0.schema.json",
+      "sha256": "2bb1429c36236329be94d58205b6123a0266a1e111277e3d303692ca8430e271"
+    },
+    {
+      "bytes": 2563,
+      "path": "backend/common-backend-v1-contract/upstream/backend-migration-receipt-v1.v0.42.0.schema.json",
+      "sha256": "0147b14972dd562805b3b5f76fac453a9f32a6d298827d3f588316d4a8f5ffe0"
+    },
+    {
+      "bytes": 5320,
+      "path": "backend/common-backend-v1-contract/upstream/MIGRATION_HANDOFF_V1.v0.42.0.md",
+      "sha256": "83de5379aa08f25fb3fb2774ed8bde99eca76e9a6ba80da9ccf2ee211e5e3a7a"
+    }
+  ],
+  "credentials_recorded": false,
+  "final_qa_evidence": [
+    {
+      "bytes": 4164,
+      "path": "qa/BGK_UNITS_01_06_BACKEND_QA.json",
+      "sha256": "9ea9da9846590730d34ef4dc69749d0538972fef52b0f964fcefdfe9fbc80214",
+      "status": "PASS"
+    },
+    {
+      "bytes": 6369,
+      "path": "qa/BGK_UNITS_01_06_READER_QA.json",
+      "sha256": "8c40f147451888e3ab4c2da95d164388c4f5725d37e121f020842da9488e250c",
+      "status": "PASS_MACHINE_READER_82_A4_PAGES"
+    },
+    {
+      "bytes": 28173,
+      "path": "qa/BGK_UNITS_01_06_VISUAL_QA.json",
+      "sha256": "3c8ed7f411124cbeb3dbaeead04b768606caa4d0789a41235b52df80806b2c68",
+      "status": "PASS"
+    },
+    {
+      "bytes": 16164,
+      "path": "qa/BGK_UNITS_01_06_RESPONSIVE_QA.json",
+      "sha256": "755494a526f1d23e81ec797859a12dd9fb6bcea639b5dc53fada4136d7a5b0f0",
+      "status": "PASS"
+    }
+  ],
+  "language": "id-ID",
+  "migration_receipt": {
+    "emitted": false,
+    "reason": "Public Zenodo record identity has not yet been reserved."
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "native_backend": {
+    "manifest_bytes": 25100,
+    "manifest_sha256": "35438f7b9a1c3a833f5f6090041d3ee125fcbbc28c5ef5660579362ac2292e06",
+    "native_qa_bytes": 4164,
+    "native_qa_path": "qa/BGK_UNITS_01_06_BACKEND_QA.json",
+    "native_qa_sha256": "9ea9da9846590730d34ef4dc69749d0538972fef52b0f964fcefdfe9fbc80214",
+    "path": "backend/bgk-units-01-06",
+    "records": 4239,
+    "records_bytes": 4762198,
+    "records_sha256": "23e326a4a6c33abb1a4a0b10b91a673a74b056d8eb48e15a7681310d07c86986"
+  },
+  "preflight_driver": {
+    "bytes": 15208,
+    "path": "scripts/qa_common_backend_bgk_units_01_06.py",
+    "sha256": "2a4cad4963a61ee252d985c97bc6058cf8f59358bf617ab6847bae61dfcf2745"
+  },
+  "schema": "ag-bridge-common-backend-v1-preflight-qa-v1",
+  "scope": "BGK Units 01-06 cumulative native backend",
+  "status": "PASS",
+  "verification_date": "2026-08-29"
+}

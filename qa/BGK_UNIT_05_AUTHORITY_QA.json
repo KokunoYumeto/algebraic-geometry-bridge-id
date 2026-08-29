@@ -1,0 +1,289 @@
+{
+  "schema": "ag-bridge-bgk-unit-authority-qa-v1",
+  "unit": 5,
+  "status": "PASS_COMPLETE_SEMANTIC_AUTHORITY_ONE_SOLUTION_PDF_RIGHTS_ZERO_MEDIA_AND_TERMINAL_LATEX_WITNESSES",
+  "verified_date": "2026-08-29",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "course": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+  "course_root_authority": {
+    "path": "authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+    "bytes": 34279,
+    "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8",
+    "lecture_and_worksheet_rows_match_unit_manifest": true
+  },
+  "manifest": {
+    "path": "authority/wikiversity-bgk/unit-05/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 78720,
+    "sha256": "328774ffd66341ba8841b86935037a043067202dd10916d3e0be5082faeac35e",
+    "first_complete_resume_sha256": "328774ffd66341ba8841b86935037a043067202dd10916d3e0be5082faeac35e",
+    "second_complete_resume_sha256": "328774ffd66341ba8841b86935037a043067202dd10916d3e0be5082faeac35e",
+    "deterministic_double_resume_replay": true,
+    "manifest_file_records_declared": 30,
+    "manifest_file_records_verified": 30,
+    "manifest_file_record_failures": 0
+  },
+  "capture_identity": {
+    "path": "authority/wikiversity-bgk/unit-05/CAPTURE_IDENTITY.json",
+    "bytes": 672,
+    "sha256": "6da189a35c244dd920c72805d807ed639472d34a30ac7f8825857539142dcf15"
+  },
+  "lecture": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Vorlesung 5",
+    "pageid": 109009,
+    "revid": 1003725,
+    "timestamp": "2025-06-08T15:27:50Z",
+    "mediawiki_sha1": "1697741995f2c7537d0b38edc16fe8df38024e13",
+    "latex_pageid": 110013,
+    "latex_revid": 807072,
+    "latex_timestamp": "2022-09-18T09:51:39Z",
+    "latex_mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "transclusions_requested": 105,
+    "transclusions_captured": 105,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 17843,
+    "expanded_tex_sha256": "d5d29f43c3209ccf8c8f80290ba3e44e800552807d4975ae0e78cb2dcd73735f"
+  },
+  "worksheet": {
+    "title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/Arbeitsblatt 5",
+    "pageid": 110210,
+    "revid": 619386,
+    "timestamp": "2020-02-17T12:38:11Z",
+    "mediawiki_sha1": "7ea9208cb3444aa48e23d1acbe66e27672d28d27",
+    "latex_pageid": 117160,
+    "latex_revid": 807042,
+    "latex_timestamp": "2022-09-18T09:46:39Z",
+    "latex_mediawiki_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+    "transclusions_requested": 68,
+    "transclusions_captured": 68,
+    "missing_transclusions": 0,
+    "expanded_tex_bytes": 6490,
+    "expanded_tex_sha256": "af4235ab3c393b02ad8f081f8f8fb17c24067fa07af63ec7f9bb3f17e1526b86"
+  },
+  "latex_terminal_boundary": {
+    "latex_page_wikitext": "{{Latex}}",
+    "wrapper_template_observed": "Vorlage:Latex",
+    "wrapper_template_captured": false,
+    "wrapper_is_semantic_rebuild_input": false,
+    "semantic_rebuild_authority": "lecture and worksheet root revisions plus the complete 105-page and 68-page captured semantic transclusion closures",
+    "lecture_terminal_witnesses": {
+      "api_sha256": "f1f399219ce3bb9372e97a235db196fbe4237da3f33ebfc3f031285f62384eab",
+      "xml_sha256": "8f6343fd02c1a65759b9d5acf4417347de5857936840c8d923d7932736800317",
+      "html_sha256": "89d188ce7ca74956ffc51f5110ebfed61f4312a65f0962eef31bea200e4ec61d",
+      "expanded_tex_sha256": "d5d29f43c3209ccf8c8f80290ba3e44e800552807d4975ae0e78cb2dcd73735f"
+    },
+    "worksheet_terminal_witnesses": {
+      "api_sha256": "7de690f0ce79cb0ac2aecea072ea8d035bf7dba46af5ec0bda1434c290a6ae78",
+      "xml_sha256": "0e45aa4dff74f48d96b9ac26204b72ee50aef8516eda73a6880950f3e0b57f77",
+      "html_sha256": "d8dcbbaf83c44cdc0d6a95462787d309a67fc8b1610b3ed99bd9992fef374787",
+      "expanded_tex_sha256": "af4235ab3c393b02ad8f081f8f8fb17c24067fa07af63ec7f9bb3f17e1526b86"
+    },
+    "normalized_visible_html_text_matches_expanded_tex": true,
+    "reproducibility_claim": "terminal-byte witnesses only; no recursive wrapper-template reconstruction is claimed"
+  },
+  "exercise_solution_closure": {
+    "ordered_exercises": 11,
+    "public_solutions": 1,
+    "public_solution_numbers": [5],
+    "negative_solution_candidates": 10,
+    "negative_solution_numbers": [1, 2, 3, 4, 6, 7, 8, 9, 10, 11],
+    "invented_solutions_allowed": false,
+    "ordered_map_path": "authority/wikiversity-bgk/unit-05/ORDERED_EXERCISE_MAP.json",
+    "ordered_map_bytes": 4769,
+    "ordered_map_sha256": "b6bf28ef883ac91c07d0c50526ff655b2bcf7fc1b0d45773f0543092d463cadf",
+    "candidate_evidence_path": "authority/wikiversity-bgk/unit-05/worksheet-solution-candidates-api.json",
+    "candidate_evidence_bytes": 3127,
+    "candidate_evidence_sha256": "8b7b0d65fa6670632c96c8ab95b48b732576ebc3db80007ce281c78fb9875d51",
+    "solution": {
+      "pageid": 116432,
+      "revid": 1112696,
+      "timestamp": "2026-08-21T16:35:52Z",
+      "mediawiki_sha1": "0d2b14ff95268801b6ec1fdea9771b8e505725c8",
+      "xml_bytes": 4856,
+      "xml_sha256": "95fa2f0799fb9bfbfe0d9475a42c061ea805618e25e31560a6004da4672c5c86",
+      "html_bytes": 9298,
+      "html_sha256": "04c72e340da0acd5220449d60b5bc1d18e30d2808f549600b5288910de26d406"
+    }
+  },
+  "official_pdfs": [
+    {
+      "kind": "lecture",
+      "path": "authority/artifacts/bgk-lecture-05-official.pdf",
+      "pages_poppler": 7,
+      "pages_pypdf": 7,
+      "page_box_points": [612, 792],
+      "bytes": 74961,
+      "sha256": "85be007896876a0717ef5eddfe64ed919aeb6559dce44ec2828ffe2b1d755085",
+      "byte_level_sha1": "aa3f1db610cd20113f5e42455d6fc7af228a1187",
+      "mediawiki_sha1_match": true,
+      "commons_description_pageid": 84355243,
+      "commons_description_revid": 1016827118,
+      "commons_description_mediawiki_sha1": "a0cef8ffa132164258b37618d03eea7c83dd61ec",
+      "commons_license": "CC BY-SA 4.0",
+      "embedded_license": "CC-by-sa 3.0",
+      "embedded_rights_page_text_bytes": 487,
+      "embedded_rights_page_text_sha256": "29eb66636c906d116724d90a2a602689744b3a9eec9df97ce4fdae0246d8e44b",
+      "license_surfaces_preserved_separately": true,
+      "source_blank_page": 6,
+      "blank_page_render_mean": 1,
+      "blank_page_render_standard_deviation": 0
+    },
+    {
+      "kind": "worksheet",
+      "path": "authority/artifacts/bgk-worksheet-05-official.pdf",
+      "pages_poppler": 3,
+      "pages_pypdf": 3,
+      "page_box_points": [612, 792],
+      "bytes": 38216,
+      "sha256": "206418f092c563128b3dbf893b8547dc6db727773d4e4ec88e07140886d79113",
+      "byte_level_sha1": "481ffdfa65d20b7e760a76ca6519d50d202332a6",
+      "mediawiki_sha1_match": true,
+      "commons_description_pageid": 87502885,
+      "commons_description_revid": 1016826625,
+      "commons_description_mediawiki_sha1": "08aac7c92e0d641b4b31a8ab5a73deb239f4cc25",
+      "commons_license": "CC BY-SA 4.0",
+      "embedded_license": "CC-by-sa 3.0",
+      "embedded_rights_page_text_bytes": 487,
+      "embedded_rights_page_text_sha256": "a63594658a724b743a6e7516d05d7f731953369bcbf77e0b9cef9de563ccdfa7",
+      "license_surfaces_preserved_separately": true
+    }
+  ],
+  "visual_pdf_review": {
+    "renderer": "Poppler pdftoppm",
+    "lecture_pages_reviewed": [1, 2, 3, 4, 5, 6, 7],
+    "worksheet_pages_reviewed": [1, 2, 3],
+    "titles_numbering_formulas_exercises_and_rights_pages_legible": true,
+    "clipping_overlap_or_broken_glyphs_observed": false,
+    "lecture_page_6_confirmed_intentionally_blank_in_source_bytes": true
+  },
+  "bounded_owner_replay": {
+    "verified_date": "2026-08-29",
+    "all_manifest_file_records_recomputed": true,
+    "referenced_pdf_rights_closure_and_credits_hashes_recomputed": true,
+    "pypdf_and_poppler_page_counts_and_boxes_match": true,
+    "all_ten_pages_visually_reviewed": true,
+    "lecture_page_6_intentionally_blank": true,
+    "mismatches": 0
+  },
+  "parse_images": {
+    "unique_names": 2,
+    "official_pdf_witnesses": 2,
+    "substantive_reader_media": 0
+  },
+  "media_rights_closure": {
+    "metadata_path": "authority/commons-imageinfo-bgk-unit-05.json",
+    "metadata_bytes": 7059,
+    "metadata_sha256": "09fff01c6ed1a153c4970265001b0251c705e51142ca022a9c7260cfff74edf2",
+    "rights_path": "authority/RIGHTS-bgk-unit-05.csv",
+    "rights_bytes": 1051,
+    "rights_sha256": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d",
+    "closure_path": "authority/ASSET_CLOSURE-bgk-unit-05.json",
+    "closure_bytes": 6060,
+    "closure_sha256": "c1e2145df10a647b185cbdb79f4d8d215a253604242fb694aa057b08cf3c34a3",
+    "credits_path": "source/id-ID/media-credits-bgk-unit-05.md",
+    "credits_bytes": 666,
+    "credits_sha256": "c2e2db42f0ad4479c84ab0c00b1cb72f3fafd2e6e0ce291d32cbc03e10fcdf9e",
+    "reader_media_positions": 0,
+    "deterministic_resume_replays": 2,
+    "all_replay_hashes_identical": true
+  },
+  "source_anomalies_requiring_reader_treatment": [
+    {
+      "id": "AGC-BGK-U05-SRC-001",
+      "source_title": "Prägarbe/Vergarbung/Definition",
+      "pageid": 100623,
+      "revid": 1091423,
+      "mediawiki_sha1": "06739a4accdc43b7cd6b4867f832ef77c27a5b9b",
+      "issue": "The local set V is not explicitly required to be open although F(V) and the neighbourhood role require it.",
+      "required_reader_treatment": "State that V is an open neighbourhood and record the omitted qualifier."
+    },
+    {
+      "id": "AGC-BGK-U05-SRC-002",
+      "source_title": "Topologischer Raum/Matrix/Kerngarbe/Beispiel",
+      "pageid": 111991,
+      "revid": 1085478,
+      "mediawiki_sha1": "dff15617a57a4b91aa7d6d824b59f868ba5f8100",
+      "issue": "M:X to Mat(C0(X,R)) is type-inconsistent with the pointwise matrix-valued description.",
+      "required_reader_treatment": "Preserve the formula and disclose the type-correct alternatives M:X to Mat(R) or M in Mat(C0(X,R))."
+    },
+    {
+      "id": "AGC-BGK-U05-SRC-003",
+      "source_title": "Topologischer Raum/Matrix/Kerngarbe/Beispiel",
+      "pageid": 111991,
+      "revid": 1085478,
+      "mediawiki_sha1": "dff15617a57a4b91aa7d6d824b59f868ba5f8100",
+      "issue": "The concrete real example uses undefined K in Mat_1x3(K).",
+      "required_reader_treatment": "Preserve the formula and identify R as the contextually intended scalar field."
+    },
+    {
+      "id": "AGC-BGK-U05-SRC-004",
+      "source_title": "Garbe von Gruppen/Untergarbe/Quotientengarbe/Explizite Beschreibung/Fakt/Beweis",
+      "pageid": 114556,
+      "revid": 1112614,
+      "mediawiki_sha1": "b3a7ddd0f1211d0458d8411d3050553e5e9d96c4",
+      "issue": "The proof treats section g_i as an element of stalk F_P.",
+      "required_reader_treatment": "Use the well-typed germ relation (g_i)_P in F_P and disclose the repair."
+    },
+    {
+      "id": "AGC-BGK-U05-SRC-005",
+      "source_title": "Garbe/Untergarbe/Halmweise Zugehörigkeit/Aufgabe/Lösung",
+      "pageid": 116432,
+      "revid": 1112696,
+      "mediawiki_sha1": "0d2b14ff95268801b6ec1fdea9771b8e505725c8",
+      "issue": "The solution says local sections restrict to the germ t_P.",
+      "required_reader_treatment": "State that the local section's germ at P equals t_P and disclose the clarification."
+    },
+    {
+      "id": "AGC-BGK-U05-SRC-006",
+      "source_title": "Prägarbe/Vergarbung/Fakt",
+      "pageid": 100658,
+      "revid": 1102409,
+      "mediawiki_sha1": "9d444c7d8d7256f5207a5a890a853acd231f18f2",
+      "issue": "The German phrase die natürliche Morphismus has the wrong article.",
+      "required_reader_treatment": "Translate normally and preserve the source-typo record."
+    }
+  ],
+  "scope_clarifications": {
+    "topological_group_example": "The construction is valid for arbitrary topological groups although the preceding definition is phrased for commutative group sheaves.",
+    "quotient_stalk_equality": "Retained as the source's conventional identification rather than treated as an error."
+  },
+  "rights_boundary": {
+    "semantic_course_surface": "CC BY-SA 4.0",
+    "commons_official_pdf_metadata": "CC BY-SA 4.0",
+    "embedded_official_pdf_notice": "CC-by-sa 3.0",
+    "blanket_relicensing_claim": false,
+    "non_endorsement_preserved": true
+  },
+  "scripts": [
+    {
+      "path": "scripts/freeze_brenner_bgk_unit.py",
+      "bytes": 16424,
+      "sha256": "4c20e83e74bce77315af5effa82a35b0cac96ee81b5e408d7180416a11e86355"
+    },
+    {
+      "path": "scripts/freeze_bgk_no_image_unit_rights.py",
+      "bytes": 11639,
+      "sha256": "9acf6f41f173d0382b6004a4c110240f26054c00f5149bbb3872a10c732b82c3"
+    }
+  ],
+  "summary": {
+    "path": "authority/BGK_UNIT_05_AUTHORITY_FREEZE.md",
+    "bytes": 8596,
+    "sha256": "56d3783752608ab329972d9dd1d4390cbb08a8721fe83b24f976c881d7172f91"
+  },
+  "checks": {
+    "course_and_storage_identity": "PASS",
+    "semantic_root_revision_and_recursive_transclusion_closure": "PASS",
+    "latex_witness_terminal_byte_boundary": "PASS_NO_WRAPPER_TEMPLATE_REBUILD_CLAIM",
+    "ordered_exercise_and_solution_topology": "PASS_EXACTLY_ONE_PUBLIC_SOLUTION",
+    "official_pdf_byte_identity_and_all_page_visual_review": "PASS",
+    "substantive_media_and_component_rights": "PASS_ZERO_READER_MEDIA",
+    "deterministic_authority_double_replay": "PASS",
+    "deterministic_media_double_replay": "PASS",
+    "source_anomaly_audit": "PASS_6_FROZEN_FINDINGS",
+    "translation_files_touched": false,
+    "reader_backend_control_logbook_files_touched": false,
+    "git_used": false,
+    "upstream_contacted": false
+  },
+  "next": "translate BGK Unit 5 independently from this authority, preserving all eleven exercises, exactly one public solution, zero substantive media, and visible treatment of the six frozen source findings"
+}

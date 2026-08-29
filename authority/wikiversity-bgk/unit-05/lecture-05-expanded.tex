@@ -1,0 +1,1116 @@
+\setcounter{section}{5}
+
+
+
+
+
+
+  \zwischenueberschrift{Vergarbung}
+
+Man kann einer Prägarbe in kanonischer Weise eine Garbe zuordnen, ihre \stichwort {Vergarbung} {.}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einer
+\definitionsverweis {Prägarbe}{}{}
+${ \mathcal  F   }$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ nennt man die durch
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \widetilde{  { \mathcal  F   }  } (U)
+}
+{ \defeq} { \left\{  \left(  s_P  \right)_{P \in U} \in \prod_{P \in U} { \mathcal  F   }_P   \mid   \text{ für alle } P \in U \text{ gibt es } P \in V \subseteq U \text{ und } t \in { \mathcal  F   }  \left(   V   \right) \text{ mit } s_Q = t_Q \text{ in } { \mathcal  F   }_Q \text{ für alle } Q \in V         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und die natürlichen Restriktionsabbildungen gegebene Prägarbe die
+\definitionswort {Vergarbung}{}
+von ${ \mathcal  F   }$.
+
+
+
+
+
+}
+Die in dieser Definition auftretende Bedingung, dass die Schnitte die gleichen Keime in den Halmen definieren, nennt man auch die \stichwort {Kompatibilitätsbedingung} {.}
+
+
+
+
+
+\inputfaktbeweis
+{Prägarbe/Vergarbung/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei ${ \mathcal  F   }$ eine
+\definitionsverweis {Prägarbe}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ und $\widetilde{  { \mathcal  F   }  }$ die
+\definitionsverweis {Vergarbung}{}{}
+zu ${ \mathcal  F   }$. Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungfuenf{Es gibt einen natürlichen
+\definitionsverweis {Prägarben-Morphismus}{}{}
+\maabbdisp {} { { \mathcal  F   } } { \widetilde{  { \mathcal  F   }  }
+} {,}
+der durch
+\maabbeledisp {} { { \mathcal  F   } (U)  } { \widetilde{  { \mathcal  F   }  } (U)
+} { s } { \left(  s_P  \right)_{P \in U}
+} {,}
+gegeben ist.
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \widetilde{  { \mathcal  F   }  }_P
+}
+{ \cong} { { \mathcal  F   }_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Die Vergarbung ist eine
+\definitionsverweis {Garbe}{}{.}
+}{Wenn ${ \mathcal  F   }$ eine Garbe ist, so ist die natürliche Morphismus
+\maabb {} { { \mathcal  F   }  } { \widetilde{  { \mathcal  F   }  }
+} {}
+ein
+\definitionsverweis {Isomorphismus}{}{.}
+}{Zu jedem Prägarben-Morphismus
+\maabbdisp {\psi} { { \mathcal  F   }  } { { \mathcal  G   }
+} {}
+in eine Garbe ${ \mathcal  G   }$ gibt es eine eindeutige Faktorisierung
+\maabbdisp {\tilde{\psi}} { \widetilde{  { \mathcal  F   }  } } { { \mathcal  G   }
+} {.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+\aufzaehlungfuenf{Ein Element
+\mathl{s \in { \mathcal  F   } (U)}{} definiert ein Tupel
+\mathl{s_P, P \in U}{,} das direkt die Kompatibilitätsbedingung erfüllt. Somit gibt es eine wohldefinierte Abbildung
+\maabbdisp {\varphi_U} { { \mathcal  F   }  \left(   U   \right) } { \widetilde{  { \mathcal  F   }  } (U)
+} {.}
+Zu
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt das kommutative Diagramm
+
+\mathdisp {\begin{matrix}
+
+
+
+{ \mathcal  F   } (U)  & \stackrel{ \varphi_U }{\longrightarrow} &  \prod_{P \in U} { \mathcal  F   }_P  &  \\ \!\!\!\!\! \rho_{U,V} \downarrow & & \downarrow  & \\  { \mathcal  F   } (V)  & \stackrel{ \varphi_V }{\longrightarrow} &  \prod_{P \in V} { \mathcal  F   }_P
+& \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+
+
+
+vor. Die Kommutativität beruht darauf, dass die Keime zu einem Schnitt im Halm eines Punktes nur von den offenen Umgebungen des Punktes abhängen.
+}{Wegen (1) und
+
+Lemma 3.27
+
+hat man eine natürliche Abbildung
+\maabbdisp {} { { \mathcal  F   }_P } { \widetilde{  { \mathcal  F   }  }_P
+} {.}
+Zum Nachweis der Surjektivität sei
+\mathl{s \in \widetilde{  { \mathcal  F   }  }_P}{} gegeben, und $s$ sei repräsentiert durch
+\mathl{s' \in \widetilde{  { \mathcal  F   }  } (U)}{.} Dies wird in einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+von $P$ durch ein Element
+
+\mavergleichskettedisp
+{\vergleichskette
+{s^{\prime \prime}
+}
+{ \in} { { \mathcal  F   }  \left(   V   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+repräsentiert. Dann ist der Keim
+\mathl{s^{\prime \prime}_P \in { \mathcal  F   }_P}{} direkt ein Urbild von $s$.
+
+Zum Nachweis der Injektivität seien
+\mathl{s,t \in { \mathcal  F   }_P}{} mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(s)_P
+}
+{ = }{ \varphi(t)_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Wir können annehmen, dass
+\mathkor {} {s} {und} {t} {}
+als Schnitte von ${ \mathcal  F   }$ auf der gleichen offenen Menge $U$ gegeben sind. Die Gleichheit im Halm der Vergarbung besagt, dass es eine offene Menge
+\mathl{P \in V}{} mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (s_Q)_{Q \in V}
+}
+{ =} { (t_Q)_{Q \in V}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt. Dann ist insbesondere
+
+\mavergleichskette
+{\vergleichskette
+{ s_P
+}
+{ = }{ t_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ U
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine offene Überdeckung und seien
+\mathl{s,t \in \Gamma (U, \widetilde{  { \mathcal  F   }  } )}{} Schnitte mit
+
+\mavergleichskette
+{\vergleichskette
+{ s \vert_{U_i }
+}
+{ = }{ t \vert_{U_i }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $i$. Dann gilt insbesondere
+
+\mavergleichskettedisp
+{\vergleichskette
+{ s_P
+}
+{ =} { t_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für jeden Punkt
+\mathl{P\in U}{,} da ja jeder Punkt $P \in U$ in einem der $U_i$ enthalten ist. Somit gilt insbesondere Gleichheit im Produkt der Halme und dies bedeutet die Gleichheit in der Vergarbung.
+
+Es seien nun Schnitte
+
+\mavergleichskettedisp
+{\vergleichskette
+{s_i
+}
+{ \in} { \widetilde{  { \mathcal  F   }  } (U_i)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ { s_i } \vert_{U_i \cap U_j }
+}
+{ = }{ { s_j } \vert_{U_i \cap U_j }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Dies bedeutet zunächst, dass es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einen eindeutigen Keim $s_P$ gibt, der durch eines der $s_i$ festgelegt ist. Das Tupel
+\mathl{s_P, \, P \in U}{,} erfüllt dann aber direkt die Kompatibilitätsbedingung.
+}{Nach (1) hat man einen Prägarben-Morphismus
+\maabbdisp {} { { \mathcal  F   } } { \widetilde{  { \mathcal  F   }  }
+} {}
+der nach (2) halmweise bijektiv ist. Nach Voraussetzung liegt links und nach (3) liegt rechts eine Garbe vor. Also ist nach
+
+Lemma 4.6
+
+die Abbildung ein Isomorphismus.
+}{Siehe
+
+Aufgabe 5.2
+.
+}
+
+
+
+
+}
+
+
+
+
+
+
+  \zwischenueberschrift{Homomorphismen von Garben von Gruppen}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und seien
+\mathkor {} {{ \mathcal  F   }} {und} {{ \mathcal  G   }} {}
+\definitionsverweis {Garben von kommutativen Gruppen}{}{}
+auf $X$. Ein
+\definitionsverweis {Garbenmorphismus}{}{}
+\maabb {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+heißt
+\definitionswort {Homomorphismus von Garben kommutativer Gruppen}{,}
+wenn für jede
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Abbildung
+\maabbdisp {\varphi_U} { { \mathcal  F   }  \left(   U   \right) } { { \mathcal  G   }  \left(   U   \right)
+} {}
+ein
+\definitionsverweis {Gruppenhomomorphismus}{}{}
+ist.
+
+
+
+
+
+}
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Zu einem
+\definitionsverweis {stetigen}{}{}
+\definitionsverweis {Gruppenhomomorphismus}{}{}
+\maabb {\varphi} { F } { G
+} {}
+zwischen
+\definitionsverweis {topologischen Gruppen}{}{}
+\mathkor {} {F} {und} {G} {}
+wird auf jedem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ ein
+\definitionsverweis {Homomorphismus von Garben von Gruppen}{}{}
+festgelegt, indem auf jeder offenen Teilmenge $U$ die Zuordnung
+\maabbeledisp {} {C^0(U,F) } { C^0(U,G)
+} { f } { \varphi \circ f
+} {,}
+betrachtet wird.
+
+
+
+
+
+}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und es sei
+\maabb {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+ein
+\definitionsverweis {Homomorphismus}{}{}
+von
+\definitionsverweis {Garben}{}{}
+von
+\definitionsverweis {kommutativen Gruppen}{}{.}
+Dann nennt man die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \operatorname{kern} \varphi  \right) (U)
+}
+{ \defeq} { \operatorname{kern} \varphi_U
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definierte
+\definitionsverweis {Untergarbe}{}{}
+von ${ \mathcal  F   }$
+die
+\definitionswort {Kerngarbe}{}
+zu $\varphi$.
+
+
+
+
+
+}
+
+Es handelt sich dabei genauer um eine Untergarbe von kommutativen Gruppen, d.h. für jede offene Teilmenge liegt eine Untergruppe von ${ \mathcal F  }$ vor, siehe
+
+Aufgabe 5.6
+.
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und es sei
+\maabb {\varphi} { { \mathcal  F   } } { { \mathcal  G   }
+} {}
+ein
+\definitionsverweis {Homomorphismus}{}{}
+von
+\definitionsverweis {Garben}{}{}
+von
+\definitionsverweis {kommutativen Gruppen}{}{.}
+Dann nennt man die
+\definitionsverweis {Vergarbung}{}{}
+der durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \operatorname{bild} \varphi  \right) (U)
+}
+{ \defeq} { \operatorname{bild} \varphi_U
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegebenen
+\definitionsverweis {Prägarbe}{}{}
+die
+\definitionswort {Bildgarbe}{}
+zu $\varphi$.
+
+
+
+
+
+}
+
+Die Bildgarbe ist nach
+
+Lemma 5.2  (5)
+
+in natürlicher Weise eine
+\definitionsverweis {Untergarbe}{}{}
+von ${ \mathcal G  }$, und zwar eine Untergarbe von kommutativen Gruppen. Sie wird mit
+\mathl{\operatorname{bild} \varphi}{} bezeichnet.
+
+\inputbeispiel{}
+{
+
+
+
+
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+\maabbdisp {\varphi} {X \times \R^n } { X \times \R^m
+} {}
+ein
+\definitionsverweis {Homomorphismus}{}{}
+zwischen trivialen Vektorbündeln. Dieser wird durch eine stetige Abbildung
+\maabbdisp {M} { X } { \operatorname{Mat}_{ m \times n } (C^0(X, \R))
+} {}
+beschrieben, d.h. jedem Punkt wird in stetiger Weise eine Matrix zugeordnet, die für diesen Punkt eine lineare Abbildung von $\R^n$ nach $\R^m$ beschreibt. Dies kann man unmittelbar als Homomorphismus von Garben von Gruppen auf $X$  auffassen, nämlich als
+\maabbeledisp {} { C^0(-,\R)^n } { C^0(-,\R)^m
+} { \begin{pmatrix} f_1  \\ \vdots\\  f_n   \end{pmatrix}  } { M \begin{pmatrix} f_1  \\ \vdots \\  f_n   \end{pmatrix}
+} {.}
+Diese Abbildung ist der Garbenmorphismus auf der Ebene der Schnitte in den Bündeln. In
+
+Beispiel 1.2
+
+liegt zu
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Abbildung
+\maabbeledisp {\varphi} { \R^3 \times \R^3} { \R^3 \times \R
+} {(r,s,t;u,v,w)} {(r,s,t;ru +sv+ tw)
+} {,}
+bzw.
+\maabbeledisp {M} {\R^3} { \operatorname{Mat}_{ 1 \times 3 } (K)
+} {(r,s,t)} { (r,s,t)
+} {,}
+vor.
+
+Die Kerngarbe besteht über $U$ einfach aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \operatorname{kern} \varphi  \right) (U)
+}
+{ =} { \left\{  \begin{pmatrix} f_1  \\ \vdots\\  f_n   \end{pmatrix} \in C^0(U,\R)^n   \mid   M \begin{pmatrix} f_1  \\ \vdots\\  f_n   \end{pmatrix} =  0         \right\}
+}
+{ \subseteq} { C^0(U,\R)^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+
+
+
+}
+
+
+
+
+
+  \zwischenueberschrift{Die Quotientengarbe}
+
+
+\inputdefinition
+{}
+{
+
+
+
+
+
+Zu einer
+\definitionsverweis {Garbe}{}{}
+${ \mathcal  G   }$ von
+\definitionsverweis {kommutativen Gruppen}{}{}
+und einer
+\definitionsverweis {Untergarbe}{}{}
+von Gruppen
+
+\mavergleichskette
+{\vergleichskette
+{ { \mathcal  F   }
+}
+{ \subseteq }{ { \mathcal  G   }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nennt man die
+\definitionsverweis {Vergarbung}{}{}
+der
+\definitionsverweis {Prägarbe}{}{}
+
+\mathl{U \mapsto { \mathcal  G   }  \left(   U    \right)/ { \mathcal  F   }  \left(   U    \right)}{} die
+\definitionswort {Quotientengarbe}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ { \mathcal  F   }
+}
+{ \subseteq }{ { \mathcal  G   }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+
+
+
+
+}
+
+Die Quotientengarbe wird mit ${ \mathcal G  }/ { \mathcal F  }$ bezeichnet. Da vergarbt wird, muss nicht unbedingt
+
+\mavergleichskette
+{\vergleichskette
+{ \left(  { \mathcal G  }/ { \mathcal F  }  \right) (U)
+}
+{ = }{ { \mathcal G  }  \left(  U   \right)/ { \mathcal F  }  \left(  U   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gelten. Es gilt aber
+
+\mavergleichskette
+{\vergleichskette
+{ \left(  { \mathcal G  }/ { \mathcal F  }  \right)_P
+}
+{ = }{ { \mathcal G  }_P/ { \mathcal F  }_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+siehe
+
+Aufgabe 5.11
+.
+
+
+
+
+
+\inputfaktbeweis
+{Garbe von Gruppen/Untergarbe/Quotientengarbe/Explizite Beschreibung/Fakt}
+{Lemma}
+{}
+{
+
+
+
+\faktsituation {Es sei ${ \mathcal  G   }$ eine
+\definitionsverweis {Garbe}{}{}
+von
+\definitionsverweis {kommutativen Gruppen}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ { \mathcal  F   }
+}
+{ \subseteq }{ { \mathcal  G   }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einer
+\definitionsverweis {Untergarbe}{}{}
+von Gruppen mit der
+\definitionsverweis {Quotientengarbe}{}{}
+
+\mathl{{ \mathcal  G   }/ { \mathcal  F   }}{.}}
+\faktuebergang {Dann gelten die folgenden Aussagen.}
+\faktfolgerung {\aufzaehlungdrei{Jedes Element
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ \in }{ \Gamma   \left(   X ,  { \mathcal  G   }/ { \mathcal  F   }  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+wird repräsentiert durch eine Familie
+
+\mathbed {(U_i, g_i)} {}
+ {i \in I} {}
+ {} {} {} {,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Überdeckung ist und
+
+\mavergleichskette
+{\vergleichskette
+{g_i
+}
+{ \in }{ \Gamma   \left(  U_i ,  { \mathcal  G   }   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Schnitte sind mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{g_i \vert_{U_i \cap U_j } - g_j \vert_{U_i \cap U_j }
+}
+{ \in} { \Gamma   \left(  U_i \cap U_j ,  { \mathcal  F   }   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+und jede solche Familie liegt ein Element in
+\mathl{\Gamma   \left(   X ,  { \mathcal  G   }/ { \mathcal  F   }   \right)}{} fest.
+}{Zwei solche Familien
+\mathkor {} {(U_i, g_i)} {} {(U_i, h_i)} {}
+\zusatzklammer {also zur gleichen Überdeckung} {} {}
+definieren genau dann das gleiche Element in
+\mathl{\Gamma   \left(   X ,  { \mathcal  G   }/ { \mathcal  F   }   \right)}{,} wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{g_i -h_i
+}
+{ \in} { \Gamma   \left(  U_i ,  { \mathcal  F   }   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i$ ist.
+}{Zwei Familien
+\mathkor {} {(U_i, g_i)} {und} {(V_j, h_j)} {}
+definieren genau dann das gleiche Element in
+\mathl{\Gamma   \left(   X ,  { \mathcal  G   }/ { \mathcal  F   }   \right)}{,} wenn auf einer
+\zusatzklammer {jeder} {} {}
+gemeinsamen Verfeinerung der beiden Überdeckungen die Differenzen zu ${ \mathcal  F   }$ gehören.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+
+
+
+
+}
+{
+
+
+
+
+
+\aufzaehlungdrei{
+Der Garbenhomomorphismus
+\maabb {} { { \mathcal  G   } } { { \mathcal  G   } /{ \mathcal  F   }
+} {}
+ist
+\definitionsverweis {surjektiv}{}{}
+und daher gibt es zu einem Schnitt
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ \in }{ \Gamma   \left(   X ,  { \mathcal  G   }/ { \mathcal  F   }  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+lokal Urbilder in ${ \mathcal  G   }$. D.h. es gibt eine offene Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und Elemente
+
+\mavergleichskette
+{\vergleichskette
+{g_i
+}
+{ \in }{ \Gamma   \left(  U_i ,  { \mathcal  G   }   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die auf
+\mathl{s \vert_{U_i }}{} abbilden. Somit bildet
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_i \vert_{U_i \cap U_j } - g_j \vert_{U_i \cap U_j }
+}
+{ \in} { \Gamma   \left(  U_i \cap U_j ,  { \mathcal  G   }   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf $0$ ab und daher gehört diese Differenz zum Kern, also zu ${ \mathcal  F   }$. Wenn umgekehrt eine solche Familie gegeben ist, so definiert dies über die Vergarbungsabbildung Restklassen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [g_i]
+}
+{ \in} { \Gamma   \left(   U_i ,  { \mathcal  G   } / { \mathcal  F   }   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dabei ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [g_i]\vert_{U_i \cap U_j } - [g_j]\vert_{U_i \cap U_j }
+}
+{ =} { [ g_i\vert_{U_i \cap U_j } - g_j\vert_{U_i \cap U_j } ]
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und somit sind diese Klassen verträglich und definieren einen globalen Schnitt der Quotientengarbe.
+}{Es seien die Familien
+\mathkor {} {(U_i, g_i)} {und} {(U_i, h_i)} {}
+gegeben. Durch Übergang zu den Differenzen können wir annehmen, dass
+
+\mavergleichskette
+{\vergleichskette
+{h_i
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Es ist dann zu zeigen, dass
+\mathl{(U_i, g_i)}{} genau dann das Nullelement in der Quotientengarbe definiert, wenn alle $g_i$ zu $\Gamma   \left(  U_i ,  { \mathcal  F   }   \right)$ gehören. Wenn die $g_i$ überall das Nullelement definieren, so gilt dies auch in den Halmen und somit gilt, dass
+
+\mavergleichskette
+{\vergleichskette
+{g_i
+}
+{ \in }{ { \mathcal  F   }_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt. Damit ist
+
+\mavergleichskette
+{\vergleichskette
+{g_i
+}
+{ \in }{ \Gamma   \left(  U_i ,  { \mathcal  F   }   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Rückrichtung ist klar.
+}{Die Gleichheit von Schnitten einer Garbe kann man lokal auf einer beliebigen offenen Überdeckung testen. Daher folgt dies aus (2) und daraus, dass man die Zugehörigkeit zu einer Untergarbe ebenfalls lokal testen kann.
+}
+
+
+
+
+}

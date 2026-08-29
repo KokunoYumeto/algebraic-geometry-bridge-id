@@ -1,0 +1,103 @@
+{
+  "schema": "ag-bridge-bgk-cumulative-reader-qa-v1",
+  "through_unit": 4,
+  "language": "id-ID",
+  "status": "PASS_ALL_60_PAGES_DESKTOP_AND_MOBILE",
+  "verified_date": "2026-08-29",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "translation_gate": {
+    "path": "qa/BGK_UNIT_04_TRANSLATION_QA.json",
+    "bytes": 5661,
+    "sha256": "f06586dbb166c7d305fbf29c77bd5831d4f119057296789a0ee9c0f1871b5817",
+    "status": "PASS"
+  },
+  "builder": {
+    "path": "scripts/build_bgk_reader.py",
+    "bytes": 14399,
+    "sha256": "10a96cc77ddb925a0e16fe7c368a60e83b38f46bf333a5588f5777c78d5a20c6",
+    "command": "python scripts/build_bgk_reader.py --through 4",
+    "deterministic_consecutive_replays": 2,
+    "all_output_bytes_identical": true
+  },
+  "build_receipt": {
+    "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+    "bytes": 7666,
+    "sha256": "7b3230d851f721350d830d5d61a8d1d2f86622186c91fa3991b78a61cfb31fba",
+    "source_date_epoch": "1787875200",
+    "pandoc": "pandoc 3.9.0.2",
+    "latex": "LuaHBTeX 1.25.7 (MiKTeX 26.5)"
+  },
+  "html": {
+    "path": "build/reader-bgk-id/index.html",
+    "bytes": 3062967,
+    "sha256": "ca9d860f1b0dd68d18ffe4017efbf755ed7819aa0727d4194f880863bcd1609b",
+    "self_contained": true,
+    "mathml_nodes": 1274,
+    "block_math_nodes": 340,
+    "images": 5,
+    "images_missing_alt": 0,
+    "heading_and_landmark_ids": 348,
+    "duplicate_ids": 0,
+    "broken_internal_anchors": 0,
+    "main_landmarks": 1,
+    "skip_links": 1,
+    "unit_4_lecture_ids": 20,
+    "unit_4_worksheet_and_solution_scope_ids": 11,
+    "unit_4_exercise_ids": 9,
+    "desktop_1280_by_720": {
+      "document_level_horizontal_overflow": false,
+      "main_width_px": 972,
+      "main_left_margin_px": 146.4444,
+      "main_right_margin_px": 146.5556,
+      "centering_delta_px": 0.1112
+    },
+    "mobile_390_by_844": {
+      "document_level_horizontal_overflow": false,
+      "main_width_px": 343.1111,
+      "main_left_margin_px": 16,
+      "main_right_margin_px": 15.8889,
+      "centering_delta_px": 0.1112,
+      "wide_math_nodes_with_local_overflow_x": 24,
+      "all_five_images_within_main_region": true,
+      "unit_4_start_and_exercise_4_9_visually_reviewed": true
+    }
+  },
+  "pdf": {
+    "path": "build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-04.pdf",
+    "bytes": 774444,
+    "sha256": "26db50d9ca0fc0b343e67025b1d2d6f17393703f30df586da03db059a0d02ea0",
+    "pages_poppler": 60,
+    "pages_pypdf": 60,
+    "page_size": "A4",
+    "page_box_points": [595.276, 841.89],
+    "encrypted": false,
+    "tagged": false,
+    "fonts": 13,
+    "fonts_embedded": 13,
+    "fonts_subset": 13,
+    "link_annotations": 176,
+    "out_of_bounds_link_annotations": 0,
+    "renderer": "Poppler pdftoppm 110 dpi",
+    "pages_rendered": 60,
+    "pages_visually_reviewed": 60,
+    "unit_4_pages_individually_reviewed": [50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60],
+    "lowest_ink_page": 35,
+    "lowest_ink_page_confirmed_intentional_end_of_worksheet": true,
+    "unintended_blank_pages": 0,
+    "clipping_overlap_bad_glyph_or_broken_equation_observed": false,
+    "semantic_accessibility_surface": "the HTML reader is primary because this deterministic PDF is untagged"
+  },
+  "checks": [
+    "exact_cumulative_source_and_build_receipt_binding",
+    "deterministic_double_replay",
+    "all_page_pdf_render_and_visual_review",
+    "embedded_fonts_and_in_bounds_links",
+    "self_contained_semantic_mathml_html",
+    "unique_ids_and_closed_internal_anchors",
+    "complete_image_alternatives",
+    "centered_desktop_main_region",
+    "mobile_reflow_without_document_overflow",
+    "local_horizontal_scrolling_for_wide_math",
+    "unit_4_image_lecture_exercises_solution_scope_and_credits_visible"
+  ]
+}

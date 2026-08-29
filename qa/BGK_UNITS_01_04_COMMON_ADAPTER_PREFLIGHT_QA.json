@@ -1,0 +1,52 @@
+{
+  "schema": "ag-bridge-common-backend-v1-preflight-qa-v1",
+  "scope": "BGK Units 01-04 cumulative native backend",
+  "language": "id-ID",
+  "status": "PASS",
+  "adapter": {
+    "path": "scripts/generate_common_backend_v1_receipts.py",
+    "bytes": 85170,
+    "sha256": "c058be10693c824339666cdf480e247851a2a0f3ca1f633824d40318be769568"
+  },
+  "native_backend": {
+    "path": "backend/bgk-units-01-04",
+    "records": 2919,
+    "records_bytes": 3275124,
+    "records_sha256": "f72ec15d7d036df7272d043968b888a61cffae8475ef8ce7206dbf1bcb3aeb04",
+    "manifest_bytes": 14494,
+    "manifest_sha256": "a72b3b274fa1fc1d21459b8de9e76c4c0d4cb949c14eb09df62bef9f9c3ac357",
+    "native_qa_path": "qa/BGK_UNITS_01_04_BACKEND_QA.json",
+    "native_qa_bytes": 4532,
+    "native_qa_sha256": "3473c17b988669337d4dbdb9042689b4ea7e5350d931bce32d08d0baae0cc7ef"
+  },
+  "common_projection": {
+    "common_records": 7011,
+    "strict_profiles": 1134,
+    "strict_profile_witness_files": 22,
+    "foreign_keys_checked": 16517,
+    "virtual_bytes": 9838994,
+    "virtual_sha256": "2e0f6205584c1f3bd7e7d30cc9cad52c004cd05d68fb28a107112ed91394f8cb",
+    "lossless_reverse_sha256": "f72ec15d7d036df7272d043968b888a61cffae8475ef8ce7206dbf1bcb3aeb04",
+    "double_preflight_stdout_identical": true,
+    "double_preflight_stdout_sha256": "5bef3d24a078d5e72d606faf4c89d0af0748a4835828ea0551749ed9118f2366"
+  },
+  "classical_regression": {
+    "native_backend": "backend/units-01-30",
+    "native_records": 22752,
+    "native_records_sha256": "dfdaebfa185c09b5e96ee4834b8b52f1c52329477eae0b48c5e8950b1b228dd7",
+    "accepted_common_records": 53953,
+    "accepted_virtual_sha256": "b0a9d21a0ad8b7ce30323f78af3aa9509da663a61d32ee915239dcea9a71ba2c",
+    "accepted_lossless_reverse_sha256": "dfdaebfa185c09b5e96ee4834b8b52f1c52329477eae0b48c5e8950b1b228dd7",
+    "status": "PASS_UNCHANGED_ACCEPTED_BASELINE"
+  },
+  "checks": {
+    "common_schema_valid": true,
+    "strict_profiles_valid": true,
+    "witnesses_bound": true,
+    "all_foreign_keys_closed": true,
+    "lossless_native_round_trip": true,
+    "classical_native_baseline_unchanged": true,
+    "final_migration_receipt_deferred_to_substantial_public_release_boundary": true
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+}

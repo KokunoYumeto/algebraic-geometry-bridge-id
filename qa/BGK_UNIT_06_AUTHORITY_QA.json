@@ -1,0 +1,161 @@
+{
+  "schema": "ag-bridge-bgk-unit-authority-qa-v1",
+  "unit": 6,
+  "status": "PASS_COMPLETE_SEMANTIC_AUTHORITY_ZERO_SOLUTIONS_PDF_RIGHTS_ZERO_MEDIA",
+  "verified_date": "2026-08-29",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "source": {
+    "course": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+    "lecture_pageid": 109010,
+    "lecture_revid": 1003728,
+    "lecture_timestamp": "2025-06-08T15:29:32Z",
+    "lecture_mediawiki_sha1": "0dfea13421076e8f6486836e9fc799822bf52053",
+    "worksheet_pageid": 110211,
+    "worksheet_revid": 900086,
+    "worksheet_timestamp": "2023-06-27T11:07:09Z",
+    "worksheet_mediawiki_sha1": "619536dcd80063470e12de7a3ebb3fc9fe1aa5e5",
+    "lecture_transclusions": 136,
+    "worksheet_transclusions": 109,
+    "latex_lecture_revid": 807073,
+    "latex_worksheet_revid": 807043,
+    "expanded_lecture_tex": {
+      "path": "authority/wikiversity-bgk/unit-06/lecture-06-expanded.tex",
+      "bytes": 19454,
+      "sha256": "0bdf28cb69d063b1782b7b42eb2212241e109f66ba382368dcd8e782d5ae829d"
+    },
+    "expanded_worksheet_tex": {
+      "path": "authority/wikiversity-bgk/unit-06/worksheet-06-expanded.tex",
+      "bytes": 11703,
+      "sha256": "0de1911162df14c38fa00755cf67583fbdd9b101134314e6d47a546922e875c1"
+    }
+  },
+  "manifest": {
+    "path": "authority/wikiversity-bgk/unit-06/UNIT_AUTHORITY_MANIFEST.json",
+    "bytes": 107618,
+    "sha256": "69a10e682e853c6f386afbc68438605846e5096220b21bd1e827c07633a79244",
+    "declared_files": 31,
+    "all_file_records_recomputed": true,
+    "first_resume_sha256": "69a10e682e853c6f386afbc68438605846e5096220b21bd1e827c07633a79244",
+    "second_resume_sha256": "69a10e682e853c6f386afbc68438605846e5096220b21bd1e827c07633a79244",
+    "deterministic_double_resume": true
+  },
+  "exercise_solution_closure": {
+    "ordered_exercises": 19,
+    "public_solutions": 0,
+    "negative_solution_candidates": 19,
+    "invented_solutions": 0,
+    "map": {
+      "path": "authority/wikiversity-bgk/unit-06/ORDERED_EXERCISE_MAP.json",
+      "bytes": 6302,
+      "sha256": "ea15e1f79b4dfc0928fe132eb83e8d20d10fbc84837de153da2b4e345e5a04a0"
+    },
+    "candidate_evidence": {
+      "path": "authority/wikiversity-bgk/unit-06/worksheet-solution-candidates-api.json",
+      "bytes": 1940,
+      "sha256": "d735bc437898b9f33e90a163164dd5bab85c534b080c632aedb441fbef9acf55"
+    }
+  },
+  "official_pdfs": [
+    {
+      "kind": "lecture",
+      "path": "authority/artifacts/bgk-lecture-06-official.pdf",
+      "bytes": 89016,
+      "sha256": "55fbef2b5d9eae950ac7ab064a8029f2e2932c49280a98a4a7ec6ed16262c75d",
+      "pages_poppler": 7,
+      "pages_pypdf": 7,
+      "page_box_points": [
+        612,
+        792
+      ],
+      "blank_page_6": true,
+      "embedded_rights_page": 7,
+      "embedded_license": "CC-by-sa 3.0"
+    },
+    {
+      "kind": "worksheet",
+      "path": "authority/artifacts/bgk-worksheet-06-official.pdf",
+      "bytes": 61587,
+      "sha256": "7b4f4569e7ab749a9e6affac715592316c109507d91971fd1c7b82cefaa825b5",
+      "pages_poppler": 7,
+      "pages_pypdf": 7,
+      "page_box_points": [
+        612,
+        792
+      ],
+      "blank_page_6": true,
+      "embedded_rights_page": 7,
+      "embedded_license": "CC-by-sa 3.0"
+    }
+  ],
+  "media_rights_closure": {
+    "reader_media_positions": 0,
+    "metadata": {
+      "path": "authority/commons-imageinfo-bgk-unit-06.json",
+      "bytes": 7059,
+      "sha256": "681014a0999f21f8ae99a31ae35003e215dc34a7604bbe35b6a18dbf7598d619"
+    },
+    "rights": {
+      "path": "authority/RIGHTS-bgk-unit-06.csv",
+      "bytes": 1051,
+      "sha256": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d"
+    },
+    "credits": {
+      "path": "source/id-ID/media-credits-bgk-unit-06.md",
+      "bytes": 666,
+      "sha256": "0d5b052a4346e8a56770798f3882417eaae2ea7e815f1947c289d9785e1c2af7"
+    },
+    "closure": {
+      "path": "authority/ASSET_CLOSURE-bgk-unit-06.json",
+      "bytes": 6061,
+      "sha256": "9efa26ce4f4d0c0f95af36b7bba1efef15b55af9dcbd7533353e20c64f8f83b3"
+    },
+    "deterministic_rights_replays": 2,
+    "rights_hash_replay": "87f9d56b1300a56ca68e4aa8f50e3d50ab622d7a4d05221089d49e1dba35981d"
+  },
+  "source_anomalies": [
+    {
+      "id": "AGC-BGK-U06-SRC-001",
+      "scope": "worksheet Exercise 6.6",
+      "issue": "German source prints 'einer stetige Abbildung'; grammatical form is 'eine stetige Abbildung'."
+    },
+    {
+      "id": "AGC-BGK-U06-SRC-002",
+      "scope": "worksheet Exercises 6.14 and 6.15",
+      "issue": "Fiber-product defining display uses φ₁, φ₂ although the maps are named p₁, p₂."
+    },
+    {
+      "id": "AGC-BGK-U06-SRC-003",
+      "scope": "worksheet Exercise 6.15",
+      "issue": "German source prints 'eine weiterer topologischer Raum'; grammatical form is 'ein weiterer topologischer Raum'."
+    },
+    {
+      "id": "AGC-BGK-U06-SRC-004",
+      "scope": "lecture Example 6.6",
+      "issue": "The terminal PDF cites Analysis 2014–2016 while the current semantic TeX witness cites 2021–2023; both source surfaces are retained."
+    },
+    {
+      "id": "AGC-BGK-U06-SRC-005",
+      "scope": "lecture Lemma 6.10 proof",
+      "issue": "The source writes s_i in F(V_i) although V_i is open in Y and F is a presheaf on X; the translated proof uses F(phi^{-1}(V_i))."
+    }
+  ],
+  "rights_boundary": {
+    "semantic_course_surface": "CC BY-SA 4.0",
+    "commons_pdf_metadata": "CC BY-SA 4.0",
+    "embedded_pdf_notice": "CC-by-sa 3.0",
+    "blanket_relicensing_claim": false,
+    "non_endorsement_preserved": true
+  },
+  "checks": {
+    "source_identity": "PASS",
+    "semantic_transclusion_closure": "PASS",
+    "latex_terminal_witnesses": "PASS_NO_WRAPPER_REBUILD_CLAIM",
+    "ordered_exercises_and_zero_public_solutions": "PASS",
+    "official_pdf_byte_identity_and_visual_review": "PASS_ALL_14_PAGES",
+    "component_rights_and_zero_reader_media": "PASS",
+    "deterministic_authority_replay": "PASS",
+    "source_anomaly_audit": "PASS_5_FINDINGS",
+    "git_used": false,
+    "upstream_contacted": false
+  }
+}

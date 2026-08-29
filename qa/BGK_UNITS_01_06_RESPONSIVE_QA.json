@@ -1,0 +1,708 @@
+{
+  "schema": "ag-bridge-bgk-responsive-qa-v1",
+  "through_unit": 6,
+  "status": "PASS",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "target": "http://127.0.0.1:18765/index.html",
+  "html": {
+    "path": "build/reader-bgk-id/index.html",
+    "bytes": 3272151,
+    "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9"
+  },
+  "reader_machine_qa": {
+    "path": "qa/BGK_UNITS_01_06_READER_QA.json",
+    "bytes": 6369,
+    "sha256": "8c40f147451888e3ab4c2da95d164388c4f5725d37e121f020842da9488e250c"
+  },
+  "desktop": {
+    "name": "desktop",
+    "width": 1280,
+    "height": 720,
+    "screenshotPath": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\algebraic-geometry-bridge-id\\tmp\\html-qa\\bgk-unit-06\\desktop-cdp-final.png",
+    "title": "Bundel, Berkas, dan Kohomologi - Unit 1-6",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 720,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "bodyScrollWidth": 1224,
+      "documentHorizontalOverflow": false
+    },
+    "main": {
+      "left": 146.5,
+      "right": 1118.5,
+      "width": 972,
+      "centeringDelta": 0
+    },
+    "counts": {
+      "main": 1,
+      "skipLinks": 1,
+      "mathml": 1829,
+      "blockMath": 497,
+      "images": 5,
+      "missingAlt": 0,
+      "ids": 492,
+      "duplicateIds": 0,
+      "anchors": 237,
+      "brokenAnchors": 0,
+      "headings": 255,
+      "outsideViewportNodes": 0,
+      "unprotectedOutsideViewportNodes": 0,
+      "localHorizontalScrollNodes": 0
+    },
+    "outsideViewportNodes": [],
+    "localHorizontalScrollNodes": []
+  },
+  "mobile": {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "screenshotPath": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\algebraic-geometry-bridge-id\\tmp\\html-qa\\bgk-unit-06\\mobile-cdp-final.png",
+    "title": "Bundel, Berkas, dan Kohomologi - Unit 1-6",
+    "viewport": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "bodyScrollWidth": 375,
+      "documentHorizontalOverflow": false
+    },
+    "main": {
+      "left": 16,
+      "right": 359,
+      "width": 343,
+      "centeringDelta": 0
+    },
+    "counts": {
+      "main": 1,
+      "skipLinks": 1,
+      "mathml": 1829,
+      "blockMath": 497,
+      "images": 5,
+      "missingAlt": 0,
+      "ids": 492,
+      "duplicateIds": 0,
+      "anchors": 237,
+      "brokenAnchors": 0,
+      "headings": 255,
+      "outsideViewportNodes": 377,
+      "unprotectedOutsideViewportNodes": 0,
+      "localHorizontalScrollNodes": 31
+    },
+    "outsideViewportNodes": [
+      {
+        "tag": "mrow",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 423.83,
+        "width": 407.83,
+        "protectedByLocalScroll": true,
+        "text": "L′=L\\({(0,0)}×ℝ2)=p−1(ℝ2\\{(0,0)})→ℝ2\\{(0,0)}."
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 371.17,
+        "right": 377.17,
+        "width": 6,
+        "protectedByLocalScroll": true,
+        "text": "{"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 377.17,
+        "right": 384.17,
+        "width": 7,
+        "protectedByLocalScroll": true,
+        "text": "("
+      },
+      {
+        "tag": "mn",
+        "id": null,
+        "classes": "",
+        "left": 384.17,
+        "right": 393.17,
+        "width": 9,
+        "protectedByLocalScroll": true,
+        "text": "0"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 393.17,
+        "right": 396.17,
+        "width": 3,
+        "protectedByLocalScroll": true,
+        "text": ","
+      },
+      {
+        "tag": "mn",
+        "id": null,
+        "classes": "",
+        "left": 398.83,
+        "right": 407.83,
+        "width": 9,
+        "protectedByLocalScroll": true,
+        "text": "0"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 407.83,
+        "right": 414.83,
+        "width": 7,
+        "protectedByLocalScroll": true,
+        "text": ")"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 414.83,
+        "right": 420.83,
+        "width": 6,
+        "protectedByLocalScroll": true,
+        "text": "}"
+      },
+      {
+        "tag": "mi",
+        "id": null,
+        "classes": "",
+        "left": 420.83,
+        "right": 423.83,
+        "width": 3,
+        "protectedByLocalScroll": true,
+        "text": "."
+      },
+      {
+        "tag": "mtable",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 424.16,
+        "width": 408.16,
+        "protectedByLocalScroll": true,
+        "text": "L={(r,s,t,u,v,w)|ru+sv+tw=0,(r,s,t)≠(0,0,0)}⊆(ℝ3\\{(0,0,0)})×ℝ3,"
+      },
+      {
+        "tag": "mtr",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 424.16,
+        "width": 408.16,
+        "protectedByLocalScroll": true,
+        "text": "L={(r,s,t,u,v,w)|ru+sv+tw=0,(r,s,t)≠(0,0,0)}"
+      },
+      {
+        "tag": "mtd",
+        "id": null,
+        "classes": "",
+        "left": 52.27,
+        "right": 424.16,
+        "width": 371.89,
+        "protectedByLocalScroll": true,
+        "text": "{(r,s,t,u,v,w)|ru+sv+tw=0,(r,s,t)≠(0,0,0)}"
+      },
+      {
+        "tag": "mrow",
+        "id": null,
+        "classes": "",
+        "left": 52.27,
+        "right": 417.77,
+        "width": 365.5,
+        "protectedByLocalScroll": true,
+        "text": "{(r,s,t,u,v,w)|ru+sv+tw=0,(r,s,t)≠(0,0,0)}"
+      },
+      {
+        "tag": "mn",
+        "id": null,
+        "classes": "",
+        "left": 376.11,
+        "right": 385.11,
+        "width": 9,
+        "protectedByLocalScroll": true,
+        "text": "0"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 385.11,
+        "right": 388.11,
+        "width": 3,
+        "protectedByLocalScroll": true,
+        "text": ","
+      },
+      {
+        "tag": "mn",
+        "id": null,
+        "classes": "",
+        "left": 390.77,
+        "right": 399.77,
+        "width": 9,
+        "protectedByLocalScroll": true,
+        "text": "0"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 399.77,
+        "right": 406.77,
+        "width": 7,
+        "protectedByLocalScroll": true,
+        "text": ")"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 406.77,
+        "right": 417.77,
+        "width": 11,
+        "protectedByLocalScroll": true,
+        "text": "}"
+      },
+      {
+        "tag": "mtr",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 424.16,
+        "width": 408.16,
+        "protectedByLocalScroll": true,
+        "text": "⊆(ℝ3\\{(0,0,0)})×ℝ3,"
+      },
+      {
+        "tag": "mtd",
+        "id": null,
+        "classes": "",
+        "left": 52.27,
+        "right": 424.16,
+        "width": 371.89,
+        "protectedByLocalScroll": true,
+        "text": "⊆(ℝ3\\{(0,0,0)})×ℝ3,"
+      },
+      {
+        "tag": "mrow",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 494.69,
+        "width": 478.69,
+        "protectedByLocalScroll": true,
+        "text": "ℝ3\\{(0,0,0)}={(r,s,t)∣r≠0}∪{(r,s,t)∣s≠0}∪{(r,s,t)∣t≠0}."
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 369.08,
+        "right": 380.08,
+        "width": 11,
+        "protectedByLocalScroll": true,
+        "text": "∪"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 383.63,
+        "right": 389.63,
+        "width": 6,
+        "protectedByLocalScroll": true,
+        "text": "{"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 389.63,
+        "right": 396.63,
+        "width": 7,
+        "protectedByLocalScroll": true,
+        "text": "("
+      },
+      {
+        "tag": "mi",
+        "id": null,
+        "classes": "",
+        "left": 396.63,
+        "right": 404.63,
+        "width": 8,
+        "protectedByLocalScroll": true,
+        "text": "r"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 404.63,
+        "right": 407.63,
+        "width": 3,
+        "protectedByLocalScroll": true,
+        "text": ","
+      },
+      {
+        "tag": "mi",
+        "id": null,
+        "classes": "",
+        "left": 410.28,
+        "right": 417.28,
+        "width": 7,
+        "protectedByLocalScroll": true,
+        "text": "s"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 417.28,
+        "right": 420.28,
+        "width": 3,
+        "protectedByLocalScroll": true,
+        "text": ","
+      },
+      {
+        "tag": "mi",
+        "id": null,
+        "classes": "",
+        "left": 422.94,
+        "right": 428.94,
+        "width": 6,
+        "protectedByLocalScroll": true,
+        "text": "t"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 428.94,
+        "right": 435.94,
+        "width": 7,
+        "protectedByLocalScroll": true,
+        "text": ")"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 440.38,
+        "right": 445.38,
+        "width": 5,
+        "protectedByLocalScroll": true,
+        "text": "∣"
+      },
+      {
+        "tag": "mi",
+        "id": null,
+        "classes": "",
+        "left": 449.81,
+        "right": 455.81,
+        "width": 6,
+        "protectedByLocalScroll": true,
+        "text": "t"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 460.25,
+        "right": 472.25,
+        "width": 12,
+        "protectedByLocalScroll": true,
+        "text": "≠"
+      },
+      {
+        "tag": "mn",
+        "id": null,
+        "classes": "",
+        "left": 476.69,
+        "right": 485.69,
+        "width": 9,
+        "protectedByLocalScroll": true,
+        "text": "0"
+      },
+      {
+        "tag": "mo",
+        "id": null,
+        "classes": "",
+        "left": 485.69,
+        "right": 491.69,
+        "width": 6,
+        "protectedByLocalScroll": true,
+        "text": "}"
+      },
+      {
+        "tag": "mi",
+        "id": null,
+        "classes": "",
+        "left": 491.69,
+        "right": 494.69,
+        "width": 3,
+        "protectedByLocalScroll": true,
+        "text": "."
+      },
+      {
+        "tag": "mtable",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 443.7,
+        "width": 427.7,
+        "protectedByLocalScroll": true,
+        "text": "φ:X×ℝ3→L⊆X×ℝ3,(r,s,t;a,b,c)↦(r,s,t;a(−s,r,0)+b(t,0,−r)+c(0,t,−s))."
+      },
+      {
+        "tag": "mtr",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 443.7,
+        "width": 427.7,
+        "protectedByLocalScroll": true,
+        "text": "φ:X×ℝ3→L⊆X×ℝ3,"
+      },
+      {
+        "tag": "mtd",
+        "id": null,
+        "classes": "",
+        "left": 111.67,
+        "right": 443.7,
+        "width": 332.03,
+        "protectedByLocalScroll": true,
+        "text": "→L⊆X×ℝ3,"
+      },
+      {
+        "tag": "mtr",
+        "id": null,
+        "classes": "",
+        "left": 16,
+        "right": 443.7,
+        "width": 427.7,
+        "protectedByLocalScroll": true,
+        "text": "(r,s,t;a,b,c)↦(r,s,t;a(−s,r,0)+b(t,0,−r)+c(0,t,−s))."
+      }
+    ],
+    "localHorizontalScrollNodes": [
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 408
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 408
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 479
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 428
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 503
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 377
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 489
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 491
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 390
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 412
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 412
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 303,
+        "scrollWidth": 363
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 471
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 365
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 507
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 422
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 351
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 389
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 358
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 380
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 358
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 358
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 453
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 379
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 616
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 387
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 303,
+        "scrollWidth": 336
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 451
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 455
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 348
+      },
+      {
+        "tag": "math",
+        "id": null,
+        "clientWidth": 343,
+        "scrollWidth": 345
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "path": "tmp/html-qa/bgk-unit-06/desktop-cdp-final.png",
+      "bytes": 82109,
+      "sha256": "c074ff3d116d917db5afe8421131d0153b6202c8a0496675ca8578fde35d599d"
+    },
+    {
+      "path": "tmp/html-qa/bgk-unit-06/mobile-cdp-final.png",
+      "bytes": 60990,
+      "sha256": "40a4dc4f04a67cee24811a5ada88a69fd2e7e64cdd673a8c99f7c826794fbd65"
+    },
+    {
+      "path": "tmp/html-qa/bgk-unit-06/mobile-unit6-ex15-cdp-final.png",
+      "bytes": 64871,
+      "sha256": "490e86863d7327d767859f4ed51bfb51558e2c9c5eb7304cee460609888b5639"
+    }
+  ],
+  "checks": {
+    "desktop_centered_and_page_filling": true,
+    "mobile_reflow_without_document_overflow": true,
+    "wide_math_uses_bounded_local_scroll": true,
+    "no_unprotected_content_outside_viewport": true,
+    "skip_link_landmark_alt_id_and_anchor_closure": true,
+    "unit_06_exercise_15_mobile_surface_captured": true
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "ag-bridge-bgk-unit-translation-qa-v1",
+  "unit": 4,
+  "language": "id-ID",
+  "status": "PASS",
+  "authority": [
+    {
+      "path": "authority/wikiversity-bgk/unit-04/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 74511,
+      "sha256": "3f26616ff7e9f4ac0d5bb0e64ad8435fefc18e32e4c91b16d780d4346498f680"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/lecture-04.xml",
+      "bytes": 3831,
+      "sha256": "008241be410fe252da296e8332fa11c1db08960ff84eaac3c073564007d5845a"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/lecture-04-expanded.tex",
+      "bytes": 22669,
+      "sha256": "4dc55e0810888863946316396cff73ce5ef1a1bb9b46864b64b3ed80ba3a8ea1"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/worksheet-04.xml",
+      "bytes": 4219,
+      "sha256": "3e205caf77b5388ff6a0aa2bb1fa3643e354ce4ccc7e5e19d2dc7f6e29daca8a"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/worksheet-04-expanded.tex",
+      "bytes": 4953,
+      "sha256": "7af2dce83605791269ba4fc1d5351100411b0a8081920cce8f1241724249f974"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/ORDERED_EXERCISE_MAP.json",
+      "bytes": 3554,
+      "sha256": "a53d958595d6fd0aac34f8ea6562204dda96b44a375e68b33d93d92e63485dcf"
+    },
+    {
+      "path": "authority/wikiversity-bgk/unit-04/worksheet-solution-candidates-api.json",
+      "bytes": 842,
+      "sha256": "1eb1be9dc5b34a5cc19719ddaf57cd918df880b0b28c74f52ab62ab25d33b52f"
+    }
+  ],
+  "media_and_rights": [
+    {
+      "path": "authority/ASSET_CLOSURE-bgk-unit-04.json",
+      "bytes": 5875,
+      "sha256": "2de02cc0d3d6018f42925b72b41e1661f3e9e305a07486f584c6e17c2c2fd0b3"
+    },
+    {
+      "path": "authority/RIGHTS-bgk-unit-04.csv",
+      "bytes": 2392,
+      "sha256": "620791467ec9ce4b87edde9efb7760359c6acc8a203435863a6d37cc79fd5132"
+    },
+    {
+      "path": "authority/commons-imageinfo-bgk-unit-04.json",
+      "bytes": 17843,
+      "sha256": "2a43864e163ad727c4c03ea62e7dc5ba45b2262a2ad19cc226b3f8a1bc56dddf"
+    },
+    {
+      "path": "source/id-ID/media-credits-bgk-unit-04.md",
+      "bytes": 650,
+      "sha256": "9d57b9c693fa327d008a191345e5a1f0ff58e87230e1b9ac16209ed46d178282"
+    },
+    {
+      "path": "authority/assets/bgk-u04-triticum-spelta.jpg",
+      "bytes": 100723,
+      "sha256": "1050547eae3e7855001791da54dc8cd957b324cf38e5ef5b0955b4a596b0da7b"
+    }
+  ],
+  "translation_files": [
+    {
+      "path": "source/id-ID/bgk/frontmatter-bgk-units-01-04.md",
+      "bytes": 4029,
+      "sha256": "8eff29e7d764fb04c1577a17b4babbd3dc8e680999315a35f5fca645e1c30f11"
+    },
+    {
+      "path": "source/id-ID/bgk/lecture-04.md",
+      "bytes": 14153,
+      "sha256": "d85d039317df0d8d176b0c9db4b582e54e351d1bdf40083d5b5d9e6480e87f18"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-04.md",
+      "bytes": 6079,
+      "sha256": "77e20f9f7e9fea2052277292df8ae81f0ecf9c69e756d2fb561c281290d41269"
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-04-solutions.md",
+      "bytes": 1687,
+      "sha256": "7e7d0842ba56a1d541577c2be4cef44afb5bee15529aa67cbfef99f0e086dfd0"
+    }
+  ],
+  "pandoc": [
+    {
+      "path": "source/id-ID/bgk/frontmatter-bgk-units-01-04.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 0,
+      "heading_nodes": 2,
+      "image_nodes": 0
+    },
+    {
+      "path": "source/id-ID/bgk/lecture-04.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 182,
+      "heading_nodes": 20,
+      "image_nodes": 1
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-04.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 48,
+      "heading_nodes": 10,
+      "image_nodes": 0
+    },
+    {
+      "path": "source/id-ID/bgk/worksheet-04-solutions.md",
+      "pandoc_ast_parse": "PASS",
+      "math_nodes": 0,
+      "heading_nodes": 1,
+      "image_nodes": 0
+    }
+  ],
+  "counts": {
+    "source_exercises": 9,
+    "translated_exercises": 9,
+    "source_public_solutions": 0,
+    "translated_public_solutions": 0,
+    "negative_solution_candidates": 9,
+    "invented_solutions": 0,
+    "lecture_numbered_entities": 11,
+    "heading_ids": 33,
+    "heading_id_collisions": 0,
+    "source_anomaly_classes": 5,
+    "visible_anomaly_note_placements": 5,
+    "correction_ledger_rows_added": 5,
+    "terminology_rows_added": 9,
+    "terminology_rows_reused": 13,
+    "reader_media_positions": 1
+  },
+  "correction_ids": [
+    "AGC-CORR-0154",
+    "AGC-CORR-0155",
+    "AGC-CORR-0156",
+    "AGC-CORR-0157",
+    "AGC-CORR-0158"
+  ],
+  "terminology_ids_added": [
+    "AGT-0315",
+    "AGT-0316",
+    "AGT-0317",
+    "AGT-0318",
+    "AGT-0319",
+    "AGT-0320",
+    "AGT-0321",
+    "AGT-0322",
+    "AGT-0323"
+  ],
+  "terminology_ids_reused": [
+    "AGT-0072",
+    "AGT-0088",
+    "AGT-0089",
+    "AGT-0090",
+    "AGT-0098",
+    "AGT-0100",
+    "AGT-0102",
+    "AGT-0103",
+    "AGT-0105",
+    "AGT-0277",
+    "AGT-0290",
+    "AGT-0306",
+    "AGT-0312"
+  ],
+  "checks": [
+    "frozen_authority_and_transclusion_hashes",
+    "ordered_nine_exercise_map_and_nine_negative_solution_candidates",
+    "no_invented_solutions",
+    "lecture_numbering_4_1_through_4_11_and_six_proofs",
+    "source_order_and_formula_witnesses",
+    "five_corrected_source_anomaly_classes_with_five_visible_notes",
+    "complete_hom_sheaf_construction_for_every_open_subset_and_naturality",
+    "append_only_correction_and_terminology_ledgers",
+    "disjoint_bgk_and_classical_stable_ids",
+    "one_reader_media_position_bound_to_cc_by_sa_2_5_component_rights",
+    "pandoc_ast_all_four_files",
+    "exact_model_provenance_license_and_nonendorsement",
+    "no_placeholders_german_prose_malformed_math_backticks_or_invisible_controls"
+  ]
+}

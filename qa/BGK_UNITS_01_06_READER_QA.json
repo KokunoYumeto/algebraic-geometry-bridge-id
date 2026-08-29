@@ -1,0 +1,187 @@
+{
+  "schema": "ag-bridge-bgk-cumulative-reader-machine-qa-v1",
+  "through_unit": 6,
+  "language": "id-ID",
+  "verified_date": "2026-08-29",
+  "status": "PASS_MACHINE_READER_82_A4_PAGES",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "translation_gates": {
+    "unit_05": {
+      "path": "qa/BGK_UNIT_05_TRANSLATION_QA.json",
+      "bytes": 6137,
+      "sha256": "95735e6853026cd7c6a4eea0ccd9d53dfdd22d25cea017ae3297cc9c35668f68",
+      "status": "PASS"
+    },
+    "unit_06": {
+      "path": "qa/BGK_UNIT_06_TRANSLATION_QA.json",
+      "bytes": 10661,
+      "sha256": "9b2c3c3a89f5ff48432d68ac26363b78d408e86ce9abfc42ad45b88d99b4fe9e",
+      "status": "PASS"
+    },
+    "translation_files_cross_bound_to_build_receipt": 6
+  },
+  "exercise_solution_closure": {
+    "exercises_by_unit": {
+      "unit_01": 17,
+      "unit_02": 27,
+      "unit_03": 18,
+      "unit_04": 9,
+      "unit_05": 11,
+      "unit_06": 19
+    },
+    "total_exercises": 101,
+    "public_solution_ids": [
+      "2.4",
+      "3.1",
+      "5.5"
+    ],
+    "public_solutions": 3,
+    "negative_solution_checks": 98,
+    "invented_solutions": 0,
+    "frontmatter_html_pypdf_and_poppler_disclosures_match": true
+  },
+  "builder": {
+    "path": "scripts/build_bgk_reader.py",
+    "bytes": 14399,
+    "sha256": "10a96cc77ddb925a0e16fe7c368a60e83b38f46bf333a5588f5777c78d5a20c6",
+    "command": "python scripts/build_bgk_reader.py --through 6",
+    "source_date_epoch": "1787875200",
+    "pandoc": "pandoc 3.9.0.2",
+    "latex": "This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5)"
+  },
+  "build_receipt": {
+    "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+    "bytes": 10118,
+    "sha256": "e69b24950f0d7ede5cf8c33b6bec32298c08555758936193e1bb4a002844937b",
+    "input_records_replayed": 52,
+    "output_records_replayed": 2,
+    "all_input_and_output_bytes_match": true
+  },
+  "deterministic_frozen_byte_replay": {
+    "status": "PASS_TWO_INDEPENDENT_READS_MATCH_RECEIPT_BOUND_IDENTITIES",
+    "scope": "non-mutating byte replay of the frozen artifacts; no build or visual claim",
+    "observations_per_artifact": 2,
+    "artifacts": {
+      "html": {
+        "first": {
+          "bytes": 3272151,
+          "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9"
+        },
+        "second": {
+          "bytes": 3272151,
+          "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9"
+        },
+        "identical": true
+      },
+      "pdf": {
+        "first": {
+          "bytes": 896202,
+          "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b"
+        },
+        "second": {
+          "bytes": 896202,
+          "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b"
+        },
+        "identical": true
+      },
+      "build_receipt": {
+        "first": {
+          "bytes": 10118,
+          "sha256": "e69b24950f0d7ede5cf8c33b6bec32298c08555758936193e1bb4a002844937b"
+        },
+        "second": {
+          "bytes": 10118,
+          "sha256": "e69b24950f0d7ede5cf8c33b6bec32298c08555758936193e1bb4a002844937b"
+        },
+        "identical": true
+      }
+    },
+    "normalized_pdf_trailer_id": "85f46ebc2256d17c65a4e0e71b4bab23",
+    "normalized_pdf_trailer_id_recomputed_from_zeroed_content": "85f46ebc2256d17c65a4e0e71b4bab23",
+    "normalized_pdf_trailer_id_occurrences": 1
+  },
+  "html": {
+    "path": "build/reader-bgk-id/index.html",
+    "bytes": 3272151,
+    "sha256": "feb45d21d6168feaedf35719fdcb0b7f5532687846041d9fd75573c6d66fc5e9",
+    "self_contained": true,
+    "html_lang": "id-ID",
+    "scalable_viewport": true,
+    "embedded_style_tags": 2,
+    "remote_fetch_sources": 0,
+    "mathml_nodes": 1829,
+    "block_math_nodes": 497,
+    "all_ids": 492,
+    "explicit_source_ids": 254,
+    "heading_nodes": 255,
+    "heading_nodes_with_ids": 254,
+    "duplicate_ids": 0,
+    "hrefs": 247,
+    "internal_anchors": 237,
+    "broken_internal_anchors": 0,
+    "images": 5,
+    "embedded_data_images": 5,
+    "images_missing_alt": 0,
+    "header_landmarks": 1,
+    "navigation_landmarks": 1,
+    "main_landmarks": 1,
+    "skip_links": 1,
+    "unit_05_ids": 29,
+    "unit_06_ids": 45,
+    "exact_model_provenance_occurrences": 1
+  },
+  "pdf": {
+    "path": "build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-06.pdf",
+    "bytes": 896202,
+    "sha256": "f89a622f15acab90f683fb2a0b72a150363fc71d0f41f971c48b8c8ee43c2c9b",
+    "pages_pypdf": 82,
+    "pages_poppler": 82,
+    "page_size": "A4",
+    "page_box_points": [
+      0.0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "page_box_variants": 1,
+    "encrypted": false,
+    "tagged": false,
+    "forms": false,
+    "javascript": false,
+    "extractable_text_pages": 82,
+    "pypdf_extracted_text_characters": 140233,
+    "minimum_page_text_characters": 76,
+    "pdftotext_bytes": 214187,
+    "pdftotext_sha256": "567027cbae2ba3980c4f36740aae08a3f996ddb0dab7cb116d09251107e9c3ff",
+    "font_rows": 14,
+    "fonts_embedded": 14,
+    "fonts_subset": 14,
+    "fonts_with_unicode_map": 13,
+    "type_3_fonts": 0,
+    "link_annotations": 247,
+    "out_of_bounds_link_annotations": 0,
+    "semantic_accessibility_surface": "Self-contained id-ID HTML with landmarks, MathML, alt text, and scalable viewport is primary; this deterministic PDF is untagged."
+  },
+  "visual_review": {
+    "included": false,
+    "reason": "This receipt contains machine-verifiable facts only; the canonical owner binds the separate all-82-page raster review."
+  },
+  "qa_script": {
+    "path": "scripts/qa_bgk_units_01_06_reader.py",
+    "bytes": 30760,
+    "sha256": "e3155a43f1ed33b6b3193c2e75e799161070f047302a29ad368c24941195cfc9"
+  },
+  "check_families": [
+    "unit_05_and_unit_06_translation_gate_hash_binding",
+    "101_exercises_3_exact_public_solutions_and_98_negative_checks",
+    "all_52_build_inputs_and_2_outputs_exact_receipt_replay",
+    "two_independent_frozen_byte_observations_and_content_derived_pdf_id",
+    "self_contained_id_ID_mathml_html_with_closed_ids_anchors_and_alt_text",
+    "header_navigation_main_and_skip_link_landmarks",
+    "82_A4_pages_in_pypdf_and_poppler",
+    "complete_pypdf_and_poppler_text_extraction_with_boundary_markers",
+    "all_fonts_embedded_subset_and_no_type_3_fonts",
+    "all_247_pdf_link_annotations_within_page_bounds",
+    "no_forms_javascript_encryption_or_blank_text_pages"
+  ]
+}
