@@ -1,0 +1,138 @@
+{
+  "backend": {
+    "common_backend_preflight": "PASS",
+    "final_migration_receipt": "separate reserved-DOI-bound asset",
+    "native_archive": "04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30_native-backend.zip",
+    "native_records": 21686
+  },
+  "backend_archive": {
+    "content_fingerprint": "8c5b9ef5c17aebc9adbb5844111126b6ddc703c4639e563c90bb596330245a68",
+    "entry_count": 32,
+    "uncompressed_bytes": 51853443
+  },
+  "build_receipt": {
+    "bytes": 65375,
+    "path": "build/reader-bgk-id/BUILD_RECEIPT.json",
+    "sha256": "6951cb9061fdda2370851401ae262fa66641a0b54a6d493318e640a822415e5b"
+  },
+  "exact_gate_hashes": {
+    "backend_qa": {
+      "bytes": 23621,
+      "path": "qa/BGK_UNITS_01_30_BACKEND_QA.json",
+      "sha256": "aade2774e4ba457904d9e338db889f2917444d7e9b21d803224f018ffaa50d18"
+    },
+    "common_adapter_qa": {
+      "bytes": 6457,
+      "path": "qa/BGK_UNITS_01_30_COMMON_ADAPTER_PREFLIGHT_QA.json",
+      "sha256": "91c1a92dfcd5dfd19d862472298354ff160e156b41b6ecb7b77806ffb586491c"
+    },
+    "reader_qa": {
+      "bytes": 12321,
+      "path": "qa/BGK_UNITS_01_30_READER_QA.json",
+      "sha256": "ae0856f912da8b74c768237e78a1e28b98ee5b7852b64db5d538353547db0aaa"
+    },
+    "responsive_qa": {
+      "bytes": 3029,
+      "path": "qa/BGK_UNITS_01_30_RESPONSIVE_QA.json",
+      "sha256": "71cb68898f9abdfb628c0a30cdf4954ccad54fb1367c4a5a32534eea8ea6dab7"
+    },
+    "visual_qa": {
+      "bytes": 142327,
+      "path": "qa/BGK_UNITS_01_30_VISUAL_QA.json",
+      "sha256": "fbffba872629d879ff4cb059f923ac035be8956702153cfeedfec15abea9454a"
+    }
+  },
+  "files": [
+    {
+      "bytes": 2943071,
+      "path": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30.pdf",
+      "sha256": "9b387ac9f337b2cfd212b72f604f5d6306618e0764f8083f91a63ed0a8a4d23f"
+    },
+    {
+      "bytes": 6836993,
+      "path": "02_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30.html",
+      "sha256": "7dc2920e2624de63e36d66a8af51345ad3714c76cbae48c11f3e4daeb6331453"
+    },
+    {
+      "bytes": 4091343,
+      "path": "03_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30_source.zip",
+      "sha256": "e97a0666983f88a41d803ab96618ec25ee502a36a3fffe4949b6389a68080bfd"
+    },
+    {
+      "bytes": 4155074,
+      "path": "04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30_native-backend.zip",
+      "sha256": "380855725797427c34f0600517a123e97cd721e3c3a3cd939466cea1dcb63e4a"
+    },
+    {
+      "bytes": 3738,
+      "path": "05_LICENSE_AND_COMPONENT_RIGHTS.md",
+      "sha256": "9697fd80cab2b700eb7efca45a33c1b9bfbde237a2f4b0d5a869dee8af74d116"
+    },
+    {
+      "bytes": 1562,
+      "path": "06_README.md",
+      "sha256": "9c54db472d9494b8cf5aee1d357958c4331721e403caae83b48e7ca9b2b5072f"
+    }
+  ],
+  "full_d100_lane_complete": false,
+  "included_unit_count": 30,
+  "included_units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "language": "id-ID",
+  "license": "CC BY-SA 4.0 course text/translation; component media rights preserved",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "native_manifest": {
+    "bytes": 124051,
+    "path": "backend/bgk-units-01-30/MANIFEST.json",
+    "sha256": "a01c84343e69f9ad262d73d0614d6df5b8a02c5ce3eca74eb18a796e8e00a3bc"
+  },
+  "original_bridge_mastery_capstone": "pending",
+  "reader": {
+    "documented_absent_source_solutions": 470,
+    "exercises": 495,
+    "html_file": "02_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30.html",
+    "pdf_pages": 380,
+    "primary_file": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30.pdf",
+    "public_source_solutions": 25
+  },
+  "remaining_unit_count": 0,
+  "schema": "ag-bridge-bgk-release-manifest-v2",
+  "source_archive": {
+    "content_fingerprint": "9ddff588880845d53b8fa5e772fca500174d4806c49b6440a861da7f965a5e03",
+    "entry_count": 383,
+    "uncompressed_bytes": 8918027
+  },
+  "source_course_units": 30,
+  "status": "complete_bgk_course_original_bridge_pending",
+  "title": "Bundel, Berkas, dan Kohomologi - Unit 1-30, Bahasa Indonesia"
+}

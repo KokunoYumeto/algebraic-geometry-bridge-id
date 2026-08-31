@@ -1,0 +1,75 @@
+{
+  "backend_archive": {
+    "content_fingerprint": "8c5b9ef5c17aebc9adbb5844111126b6ddc703c4639e563c90bb596330245a68",
+    "entry_count": 32,
+    "uncompressed_bytes": 51853443
+  },
+  "checks": {
+    "all_thirty_unit_authority_translation_gates": true,
+    "credential_pattern_hits": 0,
+    "exact_reader_machine_visual_responsive_backend_common_gates": true,
+    "official_pdf_witnesses_included": false,
+    "per_component_licenses_preserved": true,
+    "raw_authority_dumps_included": false,
+    "reader_build_inputs_included": true,
+    "zip_crc_inventory_entry_bytes": true
+  },
+  "checksums": {
+    "bytes": 774,
+    "path": "08_SHA256SUMS.txt",
+    "sha256": "99e54c63d077ab11de14e94e11d0211abd1c1fefe1ae9045897b51a60e3bd106"
+  },
+  "deterministic_double_replay_required_by_writer": true,
+  "exact_gate_hashes": {
+    "backend_qa": {
+      "bytes": 23621,
+      "path": "qa/BGK_UNITS_01_30_BACKEND_QA.json",
+      "sha256": "aade2774e4ba457904d9e338db889f2917444d7e9b21d803224f018ffaa50d18"
+    },
+    "common_adapter_qa": {
+      "bytes": 6457,
+      "path": "qa/BGK_UNITS_01_30_COMMON_ADAPTER_PREFLIGHT_QA.json",
+      "sha256": "91c1a92dfcd5dfd19d862472298354ff160e156b41b6ecb7b77806ffb586491c"
+    },
+    "reader_qa": {
+      "bytes": 12321,
+      "path": "qa/BGK_UNITS_01_30_READER_QA.json",
+      "sha256": "ae0856f912da8b74c768237e78a1e28b98ee5b7852b64db5d538353547db0aaa"
+    },
+    "responsive_qa": {
+      "bytes": 3029,
+      "path": "qa/BGK_UNITS_01_30_RESPONSIVE_QA.json",
+      "sha256": "71cb68898f9abdfb628c0a30cdf4954ccad54fb1367c4a5a32534eea8ea6dab7"
+    },
+    "visual_qa": {
+      "bytes": 142327,
+      "path": "qa/BGK_UNITS_01_30_VISUAL_QA.json",
+      "sha256": "fbffba872629d879ff4cb059f923ac035be8956702153cfeedfec15abea9454a"
+    }
+  },
+  "manifest": {
+    "bytes": 4148,
+    "path": "07_RELEASE_MANIFEST.json",
+    "sha256": "8d0ad2d2c4d9bb4fea5e2580e9e62475344cb62a8526c860e2b09e46ae2b7974"
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "reader_first": {
+    "lexicographically_first_file": "01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30.pdf",
+    "pdf_pages": 380
+  },
+  "schema": "ag-bridge-bgk-release-candidate-qa-v2",
+  "scope_truth": {
+    "bgk_units_complete": 30,
+    "bgk_units_remaining": 0,
+    "bgk_units_total": 30,
+    "full_d100_lane_complete": false,
+    "original_bridge_mastery_capstone": "pending"
+  },
+  "source_archive": {
+    "content_fingerprint": "9ddff588880845d53b8fa5e772fca500174d4806c49b6440a861da7f965a5e03",
+    "entry_count": 383,
+    "uncompressed_bytes": 8918027
+  },
+  "status": "PASS",
+  "through_unit": 30
+}

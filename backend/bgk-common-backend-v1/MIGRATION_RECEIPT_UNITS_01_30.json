@@ -1,0 +1,225 @@
+{
+  "coverage": {
+    "native_ids_preserved": 21686,
+    "native_records": 21686,
+    "strict_source_profile_witness_files": 161,
+    "strict_source_profiles_bound": 7936,
+    "strict_source_profiles_eligible": 7936,
+    "strict_source_profiles_missing": 0,
+    "through_unit": 30
+  },
+  "credentials_recorded": false,
+  "materialization": {
+    "mode": "zero-copy virtual adapter",
+    "native_backend_unchanged": true,
+    "reader_unchanged": true,
+    "target_records_materialized": false,
+    "virtual_stream_assembled_twice": true
+  },
+  "migration_id": "ag-bridge-id-bgk-units-01-30-common-backend-v1",
+  "migration_mode": "additive zero-copy adapter",
+  "public_artifacts": [
+    {
+      "concept_doi": "10.5281/zenodo.22059686",
+      "doi": "10.5281/zenodo.22211418",
+      "files": [
+        {
+          "bytes": 2943071,
+          "path": "release/bgk-units-01-30/01_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30.pdf",
+          "sha256": "9b387ac9f337b2cfd212b72f604f5d6306618e0764f8083f91a63ed0a8a4d23f"
+        },
+        {
+          "bytes": 6836993,
+          "path": "release/bgk-units-01-30/02_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30.html",
+          "sha256": "7dc2920e2624de63e36d66a8af51345ad3714c76cbae48c11f3e4daeb6331453"
+        },
+        {
+          "bytes": 4091343,
+          "path": "release/bgk-units-01-30/03_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30_source.zip",
+          "sha256": "e97a0666983f88a41d803ab96618ec25ee502a36a3fffe4949b6389a68080bfd"
+        },
+        {
+          "bytes": 4155074,
+          "path": "release/bgk-units-01-30/04_Bundel-Berkas-dan-Kohomologi_id-ID_Units-01-30_native-backend.zip",
+          "sha256": "380855725797427c34f0600517a123e97cd721e3c3a3cd939466cea1dcb63e4a"
+        },
+        {
+          "bytes": 3738,
+          "path": "release/bgk-units-01-30/05_LICENSE_AND_COMPONENT_RIGHTS.md",
+          "sha256": "9697fd80cab2b700eb7efca45a33c1b9bfbde237a2f4b0d5a869dee8af74d116"
+        },
+        {
+          "bytes": 1562,
+          "path": "release/bgk-units-01-30/06_README.md",
+          "sha256": "9c54db472d9494b8cf5aee1d357958c4331721e403caae83b48e7ca9b2b5072f"
+        },
+        {
+          "bytes": 4148,
+          "path": "release/bgk-units-01-30/07_RELEASE_MANIFEST.json",
+          "sha256": "8d0ad2d2c4d9bb4fea5e2580e9e62475344cb62a8526c860e2b09e46ae2b7974"
+        },
+        {
+          "bytes": 774,
+          "path": "release/bgk-units-01-30/08_SHA256SUMS.txt",
+          "sha256": "99e54c63d077ab11de14e94e11d0211abd1c1fefe1ae9045897b51a60e3bd106"
+        },
+        {
+          "bytes": 2604,
+          "path": "release/bgk-units-01-30/09_RELEASE_CANDIDATE_QA.json",
+          "sha256": "235c6ce4c1e6a23d0ae28c86777582cb4a18f0a0f4cc886bbaa7dc7b2611fe21"
+        }
+      ],
+      "publication_uri": "https://zenodo.org/records/22211418",
+      "receipt_public_readback_required_by_release_workflow": true,
+      "repository": "Zenodo"
+    }
+  ],
+  "schema_name": "interlanguage-math-modular-backend-migration-receipt",
+  "schema_version": "1.0.0",
+  "source": {
+    "dataset_id": "algebraic-geometry-bridge-id-bgk-native-backend",
+    "dataset_version": "1.0.0",
+    "manifest": {
+      "bytes": 124051,
+      "path": "backend/bgk-units-01-30/MANIFEST.json",
+      "sha256": "a01c84343e69f9ad262d73d0614d6df5b8a02c5ce3eca74eb18a796e8e00a3bc"
+    },
+    "record_count": 21686,
+    "record_schema_version": "1.0.0",
+    "records_jsonl": {
+      "bytes": 25645808,
+      "path": "backend/bgk-units-01-30/records.jsonl",
+      "sha256": "9fc848bcac695dd3293fe9296a5f59d19d3c428a0c8eb52f1a6106d5b2a8ae66"
+    },
+    "schema_name": "ag-bridge-bgk-native-backend-export-manifest-v1",
+    "scope": "BGK cumulative Units 1--30; namespace separate from classical Units 1--30",
+    "serialization": "append-only canonical JSON Lines with CRLF; exact Units 1--12 files are byte prefixes",
+    "tables": {
+      "artifact": 594,
+      "asset": 9,
+      "concept": 620,
+      "correction": 212,
+      "course": 1,
+      "edition": 39,
+      "exercise": 495,
+      "program": 1,
+      "qa_event": 102,
+      "relation": 10847,
+      "resource": 32,
+      "rights": 40,
+      "segment": 7504,
+      "solution": 25,
+      "term": 629,
+      "unit": 536
+    },
+    "through_unit": 30
+  },
+  "tables": {
+    "accessibility": 0,
+    "aliases": 0,
+    "alignments": 0,
+    "artifact_members": 0,
+    "artifacts": 594,
+    "asset_revisions": 9,
+    "assets": 9,
+    "build_recipes": 0,
+    "concepts": 620,
+    "correction_bindings": 0,
+    "correction_claims": 0,
+    "corrections": 212,
+    "courses": 1,
+    "editions": 39,
+    "experiments": 0,
+    "file_revisions": 161,
+    "files": 161,
+    "interactives": 0,
+    "module_members": 0,
+    "modules": 0,
+    "occurrences": 0,
+    "placeholders": 0,
+    "programs": 1,
+    "qa_events": 102,
+    "relations": 11059,
+    "release_snapshots": 0,
+    "resources": 32,
+    "rights": 40,
+    "rights_assignments": 21686,
+    "rights_rule_members": 0,
+    "rights_rules": 0,
+    "route_members": 0,
+    "routes": 0,
+    "segment_variants": 7504,
+    "segments": 7504,
+    "term_variants": 0,
+    "terms": 629,
+    "units": 1057
+  },
+  "target": {
+    "dataset_id": "urn:uuid:1a168c3e-e884-50d3-bfe5-cc419c0bae09",
+    "dataset_version": "units-01-30.native-1.0.0",
+    "record_count": 51420,
+    "schema_name": "interlanguage-math-modular-backend",
+    "schema_sha256": "3de8d107b1c75db0f8d60c42ef7e3488bc3fcc93f72e955def71a771475cf2b2",
+    "schema_version": "1.0.0",
+    "virtual_dataset_json_sha256": "7d131db5560c5e0b5d6093fd7469090ec80a0f94982eaa25d314d5a8dbf18c7b",
+    "virtual_records_jsonl_bytes": 73852748,
+    "virtual_records_jsonl_sha256": "2cf68d843b0298119b6e0b9ad38f7207c44238c64124a68163c4ebafd8638b08"
+  },
+  "transformation": {
+    "adapter": "scripts/generate_common_backend_v1_receipts.py",
+    "edition_commit_sha_ambiguity": "common schema requires 40-hex commit_sha for non-VCS editions; zero sentinel is explicitly qualified in extensions and native revision evidence remains authoritative",
+    "identity_formula": "UUIDv5(namespace, record_type|stable_key)",
+    "identity_namespace": "7790e70a-ae6d-5cf3-b7f5-c53d7d4c0fbd",
+    "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+    "native_id_policy": "every native stable_id is preserved verbatim as stable_key",
+    "native_payload_policy": "complete native record preserved in ag-bridge.native-record extension",
+    "reader_or_native_mutation": false,
+    "segment_policy": "locale-neutral segment plus localized segment_variant",
+    "source_profile_policy": "complete locally witnessed MediaWiki identities promoted to strict interlanguage.source-profile; all native provenance retained losslessly",
+    "upstream_contract": {
+      "backend_schema": {
+        "bytes": 126423,
+        "path": "backend/common-backend-v1-contract/upstream/backend-v1.v0.41.0.schema.json",
+        "sha256": "3de8d107b1c75db0f8d60c42ef7e3488bc3fcc93f72e955def71a771475cf2b2",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.41.0/schemas/backend-v1.schema.json"
+      },
+      "handoff": {
+        "bytes": 5320,
+        "path": "backend/common-backend-v1-contract/upstream/MIGRATION_HANDOFF_V1.v0.42.0.md",
+        "sha256": "83de5379aa08f25fb3fb2774ed8bde99eca76e9a6ba80da9ccf2ee211e5e3a7a",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.42.0/backend/MIGRATION_HANDOFF_V1.md"
+      },
+      "migration_receipt_schema": {
+        "bytes": 2563,
+        "path": "backend/common-backend-v1-contract/upstream/backend-migration-receipt-v1.v0.42.0.schema.json",
+        "sha256": "0147b14972dd562805b3b5f76fac453a9f32a6d298827d3f588316d4a8f5ffe0",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.42.0/schemas/backend-migration-receipt-v1.schema.json"
+      },
+      "source_format_profile_schema": {
+        "bytes": 12228,
+        "path": "backend/common-backend-v1-contract/upstream/source-format-profile-v1.v0.41.0.schema.json",
+        "sha256": "2bb1429c36236329be94d58205b6123a0266a1e111277e3d303692ca8430e271",
+        "url": "https://github.com/KokunoYumeto/program-matematika-indonesia/blob/v0.41.0/schemas/profiles/source-format-profile-v1.schema.json"
+      }
+    }
+  },
+  "validation": {
+    "canonical_jsonl": true,
+    "deterministic_double_replay": true,
+    "foreign_key_closure": true,
+    "foreign_keys_checked": 121167,
+    "global_id_uniqueness": true,
+    "lossless_native_reverse": true,
+    "native_reverse_bytes": 25645808,
+    "native_reverse_sha256": "9fc848bcac695dd3293fe9296a5f59d19d3c428a0c8eb52f1a6106d5b2a8ae66",
+    "result": "pass",
+    "schema_draft": "2020-12",
+    "strict_target_schema": true,
+    "terminology_qa_receipt": {
+      "bytes": 8423,
+      "path": "qa/BGK_UNITS_01_30_TERMINOLOGY_QA_RECEIPT.json",
+      "result": "pass",
+      "sha256": "331ecbddd41beefa4ed3ddb5991442df25dbb3a43ddcb1bf205010e1c76b4045"
+    }
+  }
+}
