@@ -1,0 +1,83 @@
+{
+  "schema": "d100-en-reader-qa-v1",
+  "status": "PASS",
+  "language": "en",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "scope": "Release gate binding the complete responsive, visual, machine, HTML, PDF and source-integration QA evidence for the English D100 reader.",
+  "source_receipts": [
+    {
+      "path": "qa/english/reader-qa-en-v1/MACHINE_QA.json",
+      "bytes": 4725619,
+      "sha256": "51e6dc9127a0e00175ddfdd0447d06f138c883b73d09b1d27980f56279646dfa"
+    },
+    {
+      "path": "qa/english/reader-qa-en-v1/RESPONSIVE_QA.json",
+      "bytes": 24445597,
+      "sha256": "8baf24a2524cc41535c11a9fb89abb51a14f71dbca4eec41f71788a7ccdc3ac6"
+    },
+    {
+      "path": "qa/english/reader-qa-en-v1/VISUAL_QA.json",
+      "bytes": 567540,
+      "sha256": "116f94a09032f1a1fea4e0c1adb22aca6a4002be9c10b16d42d7f0600190160f"
+    }
+  ],
+  "artifact_facts": [
+    {
+      "path": "qa/english/TRANSLATION_INTEGRATION_QA.json",
+      "bytes": 472141,
+      "sha256": "62f51cdebcca6f44619eddb8e4e9a51f06a938adc6e37fa99486cc37c7b6d606"
+    },
+    {
+      "path": "build/english/html-en-v6/build-receipt.json",
+      "bytes": 925607,
+      "sha256": "9422e40244698087774c1bbbf86f44b8cc87df0df64836b1bdd73f92893a08b2"
+    },
+    {
+      "path": "build/english/pdf/DOUBLE_BUILD_all.json",
+      "bytes": 6948,
+      "sha256": "548403d98178b7a614b3407b1f6a24de928f3d6bc932daf7ee69f9b3e9468ac5"
+    },
+    {
+      "path": "build/english/html-en-v6/ak.html",
+      "bytes": 4915565,
+      "sha256": "92e0db157501daff37b452d5e77220b66a6c16d99fdd09784364cc752dcd46e5"
+    },
+    {
+      "path": "build/english/html-en-v6/bgk.html",
+      "bytes": 4343251,
+      "sha256": "cfc5289c2cf05e489d5cfbeb4ba4f7358edfdef81a805642a1dc9d488ca1a3aa"
+    },
+    {
+      "path": "build/english/html-en-v6/companion.html",
+      "bytes": 1487123,
+      "sha256": "f49a5bfb33757c63591dd05e794f855938c5f98f1d4e130f67cc1a63aa16d549"
+    },
+    {
+      "path": "build/english/html-en-v6/index.html",
+      "bytes": 1120,
+      "sha256": "d316fafa4e8ca49006ad5051d5b950d0029756d63c5642269826d8f0a890f019"
+    },
+    {
+      "path": "build/english/pdf/ak/replay-a/algebraic-curves-en-units-01-30.pdf",
+      "bytes": 16029193,
+      "sha256": "547a0e8f5185cd133edac64cac42ecb7590947ff74d45efe0eb66db7c0a62b46"
+    },
+    {
+      "path": "build/english/pdf/bgk/replay-a/bundles-sheaves-cohomology-en-units-01-30.pdf",
+      "bytes": 2953314,
+      "sha256": "dffad20f1945c6f0183414cd88fa29e34e230dac14b7fae429ad09c96be4c0f1"
+    },
+    {
+      "path": "build/english/pdf/companion/replay-a/varieties-to-schemes-editorial-companion-en.pdf",
+      "bytes": 808762,
+      "sha256": "9272957782c4c8cf7c1b2a12c7edbf445db64270e0a62a37688b9301d925b6a2"
+    }
+  ],
+  "checks": [
+    "all 274 reviewed English source targets are bound by the integration receipt",
+    "desktop, tablet and phone HTML rendering passed",
+    "all 974 PDF pages were machine-rendered and visually inspected",
+    "the three deterministic PDF replays are byte-identical and the TeX mutex was released",
+    "all named release-reader artifacts match the exact bytes and SHA-256 identities above"
+  ]
+}

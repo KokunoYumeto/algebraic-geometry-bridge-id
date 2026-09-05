@@ -1,0 +1,357 @@
+{
+  "schema": "ag-bridge-english-release-metadata-contract-v1",
+  "contract_id": "RELEASE_METADATA_EN",
+  "status": "metadata_preparation_complete",
+  "prepared_at_utc": "2026-09-05T01:13:12Z",
+  "publication_state": "not_published",
+  "work": {
+    "title": "Algebraic Geometry: Curves, Sheaves and Schemes — Independent English Edition",
+    "short_title": "Algebraic Geometry — Independent English Edition",
+    "lead": "An independent English edition of two complete algebraic-geometry courses by Holger Brenner, accompanied by an original editorial bridge from varieties to schemes.",
+    "version": "en-v1.0.0",
+    "github_tag": "en-v1.0.0",
+    "publication_type": "book",
+    "publication_date": "2026-09-05",
+    "keywords": [
+      "algebraic geometry",
+      "algebraic curves",
+      "schemes",
+      "sheaves",
+      "cohomology",
+      "open textbook",
+      "English"
+    ]
+  },
+  "language": {
+    "label": "English",
+    "bcp47": "en",
+    "iso_639_3": "eng",
+    "zenodo_value": "eng"
+  },
+  "coverage": {
+    "component_count": 3,
+    "course_units": 60,
+    "course_lectures": 60,
+    "course_worksheets": 60,
+    "course_exercises": 1188,
+    "public_source_solutions": 147,
+    "official_source_pdf_pages": 602,
+    "companion_mastery_items": 57,
+    "companion_new_editorial_solutions": 44,
+    "companion_linked_public_source_solutions": 13,
+    "companion_integrative_problems": 12,
+    "companion_capstones": 1,
+    "claim_boundary": "Complete coverage is claimed only for the two named 30-unit courses and the defined editorial companion. No additional course, source solution or curriculum is implied."
+  },
+  "components": [
+    {
+      "id": "algebraic_curves",
+      "release_title": "Algebraic Curves — Units 1–30",
+      "source_title": "Algebraische Kurven",
+      "source_author": "Holger Brenner",
+      "description": "Thirty lectures and thirty worksheets containing 693 exercises and all 122 public solutions available at the frozen source boundary. Units 1–23 follow the 2025–2026 course; Units 24–30 follow the separately frozen 2012 course and are not presented as an official continuation of the newer course.",
+      "coverage": {
+        "units": 30,
+        "lectures": 30,
+        "worksheets": 30,
+        "exercises": 693,
+        "public_source_solutions": 122
+      },
+      "edition_status": "independently_reviewed_complete",
+      "frontmatter": {
+        "path": "source/en/frontmatter-units-01-30.md",
+        "bytes": 5595,
+        "sha256": "71dac4e0503f5239adf11bd78e4c20711a6d2426b254be71d1ed707c369b9e45"
+      }
+    },
+    {
+      "id": "bundles_sheaves_cohomology",
+      "release_title": "Bundles, Sheaves and Cohomology — Units 1–30",
+      "source_title": "Bündel, Garben und Kohomologie (Osnabrück 2019–2020)",
+      "source_author": "Holger Brenner",
+      "description": "Thirty lectures and thirty worksheets containing all 495 source exercises, the 25 public solutions available at the frozen boundary, and 470 documented negative solution-search results. Eight available reader-media positions and the disclosed missing Unit 8 source image retain component-specific rights.",
+      "coverage": {
+        "units": 30,
+        "lectures": 30,
+        "worksheets": 30,
+        "exercises": 495,
+        "public_source_solutions": 25,
+        "documented_negative_solution_results": 470
+      },
+      "edition_status": "independently_reviewed_complete",
+      "frontmatter": {
+        "path": "source/en/bgk/frontmatter-bgk-units-01-30.md",
+        "bytes": 7591,
+        "sha256": "2ef0efefe227e932244f679ac251e85785df6f02bfa5a015c017bbf3da79c011"
+      }
+    },
+    {
+      "id": "editorial_companion",
+      "release_title": "Original Editorial Companion: From Varieties to Schemes",
+      "description": "An independently written bridge with 57 mastery items, including 44 new editorial solutions and 13 linked public source solutions, followed by 12 solved integrative problems and one capstone. It does not add source-course units or assign the new material to the source author.",
+      "coverage": {
+        "mastery_items": 57,
+        "new_editorial_solutions": 44,
+        "linked_public_source_solutions": 13,
+        "integrative_problems": 12,
+        "capstones": 1,
+        "prerequisite_bridges": 1
+      },
+      "edition_status": "independently_reviewed_complete",
+      "frontmatter": {
+        "path": "source/en/bridge/frontmatter.md",
+        "bytes": 8715,
+        "sha256": "6a9af35cd8d143c242010e105332142286f865bc07d5b6039cbf40bf37702d7a"
+      }
+    }
+  ],
+  "authorship_and_contributor_roles": [
+    {
+      "name": "Brenner, Holger",
+      "display_name": "Holger Brenner",
+      "roles": [
+        "source author of Algebraische Kurven",
+        "source author of Bündel, Garben und Kohomologie",
+        "author of the attributed source statements and source solutions"
+      ],
+      "excluded_roles": [
+        "English translator",
+        "author of the new editorial companion material",
+        "endorser of this edition"
+      ],
+      "zenodo_mapping": "creator, with the source-author boundary stated in the description"
+    },
+    {
+      "name": "OpenAI Codex",
+      "roles": [
+        "AI-assisted English translation",
+        "checking and edition production",
+        "independent authorship assistance for the companion's new editorial explanations, solutions, integrative problems and capstone"
+      ],
+      "zenodo_mapping": "contributor: Other",
+      "provenance": "OpenAI Codex gpt-5.6-sol, Ultra."
+    },
+    {
+      "name": "The Stacks Project Authors",
+      "roles": [
+        "authors of downstream references used by the editorial companion"
+      ],
+      "excluded_roles": [
+        "source-course authors",
+        "endorsers of this edition"
+      ],
+      "zenodo_mapping": "contributor: Other"
+    },
+    {
+      "name": "Credited Wikiversity contributors",
+      "roles": [
+        "revision, included-page and public-solution contributions exactly as recorded in the frozen authority records"
+      ],
+      "zenodo_mapping": "collective acknowledgement in description and component-rights file; do not flatten component roles into blanket authorship"
+    }
+  ],
+  "model_provenance": {
+    "exact_statement": "OpenAI Codex gpt-5.6-sol, Ultra.",
+    "scope": "translation, checking, edition production and the independently written editorial companion material",
+    "boundary": "Tool and production provenance does not replace source-author, source-contributor, media-creator or downstream-reference credit and does not claim human review."
+  },
+  "licensing": {
+    "zenodo_license_field": "other-open",
+    "zenodo_license_reason": "The release is open but contains text, code, media and witness components with different controlling licences; no single repository-wide licence applies.",
+    "text": {
+      "algebraic_curves_units_01_23_source": "CC BY-SA 4.0",
+      "algebraic_curves_units_24_30_frozen_semantic_components": "CC BY-SA 4.0",
+      "algebraic_curves_english_translation_and_editorial_text": "CC BY-SA 4.0",
+      "bundles_sheaves_cohomology_frozen_semantic_course_text": "CC BY-SA 4.0",
+      "bundles_sheaves_cohomology_english_translation": "CC BY-SA 4.0",
+      "original_companion_editorial_text_and_english_translation": "CC BY-SA 4.0",
+      "cc_by_sa_4_0_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "official_pdf_components": {
+      "algebraic_curves_2012_units_24_30": {
+        "current_print_course_route": "CC BY-SA 4.0",
+        "legacy_file_notice": "CC BY-SA 2.0 Germany",
+        "resolution": "Preserve both component notices; do not equate the historical PDF bytes with the later semantic revisions and do not make a blanket relicensing claim."
+      },
+      "bundles_sheaves_cohomology_course_pdf": {
+        "current_commons_metadata": "CC BY-SA 4.0",
+        "visible_pdf_page_265_notice": "CC BY-SA 3.0",
+        "resolution": "Preserve both records and make no blanket relicensing claim."
+      }
+    },
+    "reader_media": {
+      "rule": "Every media asset retains its recorded creator, uploader or source-contributor role, source URL, selected form, attribution requirement and per-component licence. The final component-rights file must reproduce the controlling per-unit ledger facts.",
+      "observed_licence_vocabulary_across_60_rights_ledgers": [
+        "CC BY 2.5",
+        "CC BY 3.0",
+        "CC BY-SA 2.0 de",
+        "CC BY-SA 2.5",
+        "CC BY-SA 3.0",
+        "CC BY-SA 4.0",
+        "CC0",
+        "GFDL 1.2",
+        "GPL",
+        "Public domain"
+      ],
+      "unit_01_classical_ledger": {
+        "path": "authority/RIGHTS.csv",
+        "bytes": 15187,
+        "sha256": "4b8274d40f472882da8ba4b5bca50b015c101010556bc8bfbea58819be32875e",
+        "component_rows": 23,
+        "licence_short_names": [
+          "CC BY 2.5",
+          "CC BY-SA 3.0",
+          "GPL",
+          "Public domain"
+        ]
+      },
+      "blanket_relicense_claim": false
+    },
+    "repository_code": {
+      "licence": "MIT",
+      "scope": "Repository-authored build, export, QA and packaging code under scripts/ unless a file states otherwise.",
+      "boundary": "The MIT licence does not relicense course text, translations, backend content, source witnesses or third-party media."
+    },
+    "controlling_notice": {
+      "path": "LICENSE.md",
+      "bytes": 4211,
+      "sha256": "8347bd5073795530f208b8f6fd4d932ba6cc42b63996a4a534bf2412ab678d95"
+    },
+    "original_companion_rights": {
+      "path": "release/original-bridge-corr1/05_ORIGINAL_BRIDGE_LICENSE_AND_CREDITS_corr1.md",
+      "bytes": 4658,
+      "sha256": "b2a21e8c5b1d7a6bf801121eefc341ac4817d24f6dbe98fbb85a7f2d258ba611"
+    }
+  },
+  "non_endorsement": "This independent English edition is not an official publication of Holger Brenner, the University of Osnabrück, Wikiversity, the Wikimedia Foundation, The Stacks Project or OpenAI, and does not imply their endorsement or their authorship or human review of the translation and new editorial material.",
+  "sources_and_revisions": {
+    "algebraic_curves_2025_2026": {
+      "scope": "Units 1–23",
+      "course_url": "https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)",
+      "unit_authority_manifest_pattern": "authority/wikiversity/unit-{NN}/UNIT_AUTHORITY_MANIFEST.json",
+      "revision_rule": "Each lecture, worksheet, included page and available solution is bound by its frozen per-unit authority manifest; the release metadata must not substitute a live-page claim for those revisions.",
+      "source_licence_declaration": {
+        "revision": 1073083,
+        "url": "https://de.wikiversity.org/wiki/Holger_Brenner/Lizenzerkl%C3%A4rung?oldid=1073083"
+      }
+    },
+    "algebraic_curves_2012": {
+      "scope": "Units 24–30",
+      "course_title": "Kurs:Algebraische Kurven (Osnabrück 2012)",
+      "course_pageid": 50687,
+      "course_revision": 658236,
+      "course_revision_url": "https://de.wikiversity.org/w/index.php?oldid=658236",
+      "unit_root_revisions": [
+        {"unit": 24, "lecture_revision": 933672, "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=933672", "worksheet_revision": 793492, "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=793492"},
+        {"unit": 25, "lecture_revision": 793525, "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=793525", "worksheet_revision": 793493, "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=793493"},
+        {"unit": 26, "lecture_revision": 793526, "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=793526", "worksheet_revision": 793494, "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=793494"},
+        {"unit": 27, "lecture_revision": 1052572, "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=1052572", "worksheet_revision": 793496, "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=793496"},
+        {"unit": 28, "lecture_revision": 1052516, "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=1052516", "worksheet_revision": 793497, "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=793497"},
+        {"unit": 29, "lecture_revision": 1069408, "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=1069408", "worksheet_revision": 1052757, "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=1052757"},
+        {"unit": 30, "lecture_revision": 1112650, "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=1112650", "worksheet_revision": 1112597, "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=1112597"}
+      ],
+      "unit_30": {
+        "lecture_url": "https://de.wikiversity.org/w/index.php?oldid=1112650",
+        "worksheet_url": "https://de.wikiversity.org/w/index.php?oldid=1112597",
+        "public_solution_revisions": [1112942, 1106652],
+        "manifest": {
+          "path": "authority/wikiversity/unit-30/UNIT_AUTHORITY_MANIFEST.json",
+          "bytes": 84418,
+          "sha256": "b990783fda97e721cc415740671e75c749400c408481ab88f4afd68f286d8b8a"
+        }
+      }
+    },
+    "bundles_sheaves_cohomology": {
+      "scope": "Units 1–30",
+      "course_title": "Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)",
+      "course_pageid": 108997,
+      "course_revision": 1052895,
+      "course_mediawiki_sha1": "e881e7c53531765849865454d4d0c643c2066c6d",
+      "course_revision_url": "https://de.wikiversity.org/w/index.php?oldid=1052895",
+      "unit_revision_rows": 60,
+      "manifest": {
+        "path": "authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+        "bytes": 34279,
+        "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8"
+      }
+    },
+    "editorial_companion": {
+      "content_origin": "independent editorial material",
+      "chief_source_course_revision_url": "https://de.wikiversity.org/w/index.php?oldid=1052895",
+      "downstream_reference_url": "https://stacks.math.columbia.edu/",
+      "downstream_revision_rule": "Use the permanent Stacks Project tags already recorded in the companion; do not represent Stacks as a translated source course."
+    }
+  },
+  "open_access": {
+    "access_right": "open",
+    "embargo": false,
+    "public_downloads_required": true,
+    "prior_public_versions_remain_public": true,
+    "anonymous_post_publication_file_readback_required": true
+  },
+  "lineage_routing": {
+    "github": {
+      "existing_repository": "https://github.com/KokunoYumeto/algebraic-geometry-bridge-id",
+      "default_branch": "main",
+      "release_tag": "en-v1.0.0",
+      "release_title": "Algebraic Geometry: Curves, Sheaves and Schemes — Independent English Edition (en-v1.0.0)",
+      "draft": false,
+      "prerelease": false,
+      "create_new_repository": false,
+      "routing_evidence": {
+        "path": "qa/BGK_UNITS_01_30_GITHUB_PUBLICATION.json",
+        "bytes": 13127,
+        "sha256": "e1ab7901962133c55d43e9491f6b9b8824fcb77cafb21242ca6d8a9955ba80ab"
+      }
+    },
+    "zenodo": {
+      "route": "create a new version in the existing concept lineage; do not create a new concept record",
+      "concept_doi": "10.5281/zenodo.22059686",
+      "predecessor_record_id": 22237442,
+      "predecessor_doi": "10.5281/zenodo.22237442",
+      "predecessor_url": "https://zenodo.org/records/22237442",
+      "predecessor_version": "ak-unit-30-corr1+bgk-unit-30-corr1+bridge-corr1",
+      "target_version": "en-v1.0.0",
+      "target_record_id": null,
+      "target_doi": null,
+      "access_right": "open",
+      "publication_type": "book",
+      "language": "eng",
+      "license": "other-open",
+      "inherit_predecessor_files": true,
+      "preserve_inherited_public_files_byte_for_byte": true,
+      "routing_evidence": {
+        "path": "qa/ORIGINAL_BRIDGE_CORR1_ZENODO_PUBLICATION.json",
+        "bytes": 14351,
+        "sha256": "b6e5d3f80dcb13a7201c31c75f0a03b462eb408b281089d34224dfe084402cab"
+      }
+    }
+  },
+  "reader_first_release_files": [
+    {"order": 1, "name": "01_Algebraic-Curves_en_Units-01-30.pdf", "kind": "reader_pdf", "component": "algebraic_curves", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 2, "name": "02_Algebraic-Curves_en_Units-01-30.html", "kind": "reader_html", "component": "algebraic_curves", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 3, "name": "03_Bundles-Sheaves-and-Cohomology_en_Units-01-30.pdf", "kind": "reader_pdf", "component": "bundles_sheaves_cohomology", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 4, "name": "04_Bundles-Sheaves-and-Cohomology_en_Units-01-30.html", "kind": "reader_html", "component": "bundles_sheaves_cohomology", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 5, "name": "05_From-Varieties-to-Schemes_Original-Editorial-Companion_en.pdf", "kind": "reader_pdf", "component": "editorial_companion", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 6, "name": "06_From-Varieties-to-Schemes_Original-Editorial-Companion_en_html.zip", "kind": "reader_html_bundle", "component": "editorial_companion", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 7, "name": "07_English-Edition_source.zip", "kind": "resumable_source", "component": "all", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 8, "name": "08_English-Edition_native-backend.zip", "kind": "native_backend", "component": "all", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 9, "name": "09_LICENSE_AND_COMPONENT_RIGHTS.md", "kind": "rights_notice", "component": "all", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 10, "name": "10_README.md", "kind": "reader_start_here", "component": "all", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 11, "name": "11_RELEASE_MANIFEST.json", "kind": "release_manifest", "component": "all", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 12, "name": "12_SHA256SUMS.txt", "kind": "checksums", "component": "all", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"},
+    {"order": 13, "name": "13_RELEASE_CANDIDATE_QA.json", "kind": "qa_receipt", "component": "all", "required": true, "bytes": null, "sha256": null, "binding_status": "pending_final_artifact"}
+  ],
+  "final_hash_binding": {
+    "placeholder_rule": "Null byte counts and SHA-256 values mean that no final artifact identity is claimed during metadata preparation. Do not replace them with zeroes, estimates or build-tree identities.",
+    "required_binding": "Before publication, every required release file must have a non-zero byte count and a lowercase 64-hex SHA-256 computed from the exact upload bytes.",
+    "cross_checks": [
+      "release manifest filename, byte count and SHA-256",
+      "checksum-file SHA-256",
+      "local candidate bytes",
+      "GitHub release-asset readback",
+      "Zenodo anonymous public-byte readback"
+    ],
+    "publication_gate": "Metadata preparation is not publication authority or build evidence. Publication may proceed only after deterministic English build, QA, duplicate checks and complete final hash binding pass."
+  }
+}

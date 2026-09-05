@@ -1,0 +1,164 @@
+{
+  "schema": "ag-bridge-english-release-metadata-review-v1",
+  "review_id": "RELEASE_METADATA_REVIEW",
+  "status": "PASS",
+  "completed_at_utc": "2026-09-05T01:13:12Z",
+  "scope": "Offline preparation and validation of English release metadata only; no build, publication or source-text change.",
+  "contract": {
+    "path": "00_control/english/RELEASE_METADATA_EN.json",
+    "bytes": 19690,
+    "sha256": "0327ac0b490599b44508c7d17b958e1db98a64b3b329ef8a2fdcb103d2eb6260"
+  },
+  "validation_sources": [
+    {
+      "path": "source/en/frontmatter-units-01-30.md",
+      "bytes": 5595,
+      "sha256": "71dac4e0503f5239adf11bd78e4c20711a6d2426b254be71d1ed707c369b9e45",
+      "use": "classical title, coverage, source split, authorship, licences, non-endorsement and Unit 24–30 revisions"
+    },
+    {
+      "path": "source/en/bgk/frontmatter-bgk-units-01-30.md",
+      "bytes": 7591,
+      "sha256": "2ef0efefe227e932244f679ac251e85785df6f02bfa5a015c017bbf3da79c011",
+      "use": "BGK title, coverage, solution counts, media boundary, course-root revision, licences and non-endorsement"
+    },
+    {
+      "path": "source/en/bridge/frontmatter.md",
+      "bytes": 8715,
+      "sha256": "6a9af35cd8d143c242010e105332142286f865bc07d5b6039cbf40bf37702d7a",
+      "use": "companion title, independently reviewed status, scope, AI-assisted authorship, source-role separation, downstream reference and rights"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 4211,
+      "sha256": "8347bd5073795530f208b8f6fd4d932ba6cc42b63996a4a534bf2412ab678d95",
+      "use": "text, PDF-component, media and repository-code licence boundaries"
+    },
+    {
+      "path": "authority/RIGHTS.csv",
+      "bytes": 15187,
+      "sha256": "4b8274d40f472882da8ba4b5bca50b015c101010556bc8bfbea58819be32875e",
+      "use": "23 classical Unit 1 reader-media rows and their exact attribution/licence fields"
+    },
+    {
+      "path": "authority/wikiversity-bgk/course/COURSE_AUTHORITY_MANIFEST.json",
+      "bytes": 34279,
+      "sha256": "ea0bf346e261db8ed80b7565f7746e95c79e0c376d25d9fbce5d96879dff7dd8",
+      "use": "BGK course-root oldid, 60 lecture/worksheet revision rows, official PDF identity and 4.0/3.0 rights boundary"
+    },
+    {
+      "path": "authority/wikiversity/unit-30/UNIT_AUTHORITY_MANIFEST.json",
+      "bytes": 84418,
+      "sha256": "b990783fda97e721cc415740671e75c749400c408481ab88f4afd68f286d8b8a",
+      "use": "2012 course root, Unit 30 lecture/worksheet/solution oldids, PDF notices, media ledger and semantic boundary"
+    },
+    {
+      "path": "release/original-bridge-corr1/05_ORIGINAL_BRIDGE_LICENSE_AND_CREDITS_corr1.md",
+      "bytes": 4658,
+      "sha256": "b2a21e8c5b1d7a6bf801121eefc341ac4817d24f6dbe98fbb85a7f2d258ba611",
+      "use": "original companion authorship, source/reference attribution, CC BY-SA 4.0 text rights and no-blanket-relicensing boundary"
+    },
+    {
+      "path": "qa/BGK_UNITS_01_30_GITHUB_PUBLICATION.json",
+      "bytes": 13127,
+      "sha256": "e1ab7901962133c55d43e9491f6b9b8824fcb77cafb21242ca6d8a9955ba80ab",
+      "use": "existing public GitHub repository route"
+    },
+    {
+      "path": "qa/ORIGINAL_BRIDGE_CORR1_ZENODO_PUBLICATION.json",
+      "bytes": 14351,
+      "sha256": "b6e5d3f80dcb13a7201c31c75f0a03b462eb408b281089d34224dfe084402cab",
+      "use": "existing Zenodo concept lineage and latest predecessor record"
+    }
+  ],
+  "checks": [
+    {
+      "id": "json-syntax-and-contract-identity",
+      "result": "PASS",
+      "evidence": "The contract parses as JSON and its live size and SHA-256 equal the recorded 19,690 bytes and 0327ac0b490599b44508c7d17b958e1db98a64b3b329ef8a2fdcb103d2eb6260."
+    },
+    {
+      "id": "work-title-lead-version-tag",
+      "result": "PASS",
+      "evidence": "The exact work title and concise lead identify the subject and independent English edition; version and GitHub tag are both en-v1.0.0. The excluded legacy label occurs nowhere as a standalone token."
+    },
+    {
+      "id": "identity-minimisation",
+      "result": "PASS",
+      "evidence": "No commissioning user's personal identity is recorded. The repository owner appears only inside the required existing-repository URL and is not assigned an authorship role."
+    },
+    {
+      "id": "three-component-coverage",
+      "result": "PASS",
+      "evidence": "Exactly three components are described. Arithmetic agrees with the current frontmatter: 60 course units, 60 lectures, 60 worksheets, 1,188 exercises and 147 public source solutions; the companion contains 57 mastery items (44 new plus 13 linked source solutions), 12 integrative problems and one capstone."
+    },
+    {
+      "id": "component-status-boundary",
+      "result": "PASS",
+      "evidence": "All three component frontmatters are recorded as independently_reviewed_complete. Build, final artifact binding and publication remain separate gates."
+    },
+    {
+      "id": "authorship-and-contributor-roles",
+      "result": "PASS",
+      "evidence": "Holger Brenner's source authorship, OpenAI Codex's translation/production and independent companion roles, credited Wikiversity revision/source-solution contributions, and The Stacks Project Authors' downstream-reference role remain separate. No source author is assigned the English translation or new editorial material."
+    },
+    {
+      "id": "model-provenance",
+      "result": "PASS",
+      "evidence": "The exact statement OpenAI Codex gpt-5.6-sol, Ultra. is present with a scope and a no-human-review/no-credit-substitution boundary."
+    },
+    {
+      "id": "text-and-component-rights",
+      "result": "PASS",
+      "evidence": "CC BY-SA 4.0 is assigned only to the applicable semantic source text, English translations and original companion text. The 2012 PDF 4.0/2.0 Germany routes and BGK PDF 4.0/visible 3.0 records are both preserved. Repository-authored code remains MIT; media remain per-component; Zenodo uses other-open; no blanket relicense is claimed."
+    },
+    {
+      "id": "rights-ledger-vocabulary",
+      "result": "PASS",
+      "evidence": "A bounded offline scan found 60 RIGHTS ledgers and 109 component rows. Their non-empty licence-short vocabulary is exactly CC BY 2.5, CC BY 3.0, CC BY-SA 2.0 de, CC BY-SA 2.5, CC BY-SA 3.0, CC BY-SA 4.0, CC0, GFDL 1.2, GPL and Public domain. The top-level ledger independently matches 23 rows and the four contract-recorded values."
+    },
+    {
+      "id": "non-endorsement",
+      "result": "PASS",
+      "evidence": "The contract disclaims official-publication, endorsement, translation/new-material authorship and human-review implications for all named upstream and model parties without diminishing their actual source or reference credits."
+    },
+    {
+      "id": "source-url-and-revision-binding",
+      "result": "PASS",
+      "evidence": "The contract records the current and 2012 classical source routes, licence declaration oldid 1073083, exact late-unit lecture/worksheet oldids, the Unit 30 oldids and manifest, BGK course-root oldid 1052895 and its 60-row manifest, and the companion's BGK/Stacks reference boundary."
+    },
+    {
+      "id": "language-and-open-access",
+      "result": "PASS",
+      "evidence": "English is recorded as BCP 47 en and ISO 639-3 eng. Access is open, unembargoed and publicly downloadable; prior versions remain public and anonymous post-publication readback is required."
+    },
+    {
+      "id": "existing-lineage-routing",
+      "result": "PASS",
+      "evidence": "GitHub targets the existing public algebraic-geometry-bridge-id repository with tag en-v1.0.0 and no new repository. Zenodo targets a new version of concept DOI 10.5281/zenodo.22059686 after record 22237442, inherits predecessor files byte-for-byte, and forbids creating a duplicate concept record."
+    },
+    {
+      "id": "reader-first-filenames",
+      "result": "PASS",
+      "evidence": "All 13 filenames are unique and ordered 1–13. The first six are the two course PDF/HTML readers and companion PDF/HTML bundle; source, backend, rights, README, manifest, checksums and QA follow."
+    },
+    {
+      "id": "final-hash-placeholders",
+      "result": "PASS",
+      "evidence": "All 13 final byte and SHA-256 fields are null with pending_final_artifact status. The contract forbids invented zero, estimated or build-tree identities and requires exact upload-byte binding plus GitHub and Zenodo readback before publication."
+    },
+    {
+      "id": "write-and-operation-boundary",
+      "result": "PASS",
+      "evidence": "Only RELEASE_METADATA_EN.json and this review receipt were created. No source/en file or other control was edited, and no publication, network, Git, build or TeX operation was performed."
+    }
+  ],
+  "remaining_placeholders": {
+    "count": 13,
+    "fields_per_file": ["bytes", "sha256"],
+    "reason": "Final release artifacts do not yet exist in this metadata-only task.",
+    "resolution": "Bind exact final upload-byte identities after deterministic English build and QA; this is an executable artifact gate, not missing metadata."
+  },
+  "errors": [],
+  "terminal_conclusion": "PASS: the English release metadata contract is complete, internally consistent, source-bound and ready for later final-artifact hash binding. This receipt does not claim a build or publication."
+}

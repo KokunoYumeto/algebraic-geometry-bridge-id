@@ -1,0 +1,18 @@
+\usepackage{pifont}
+\usepackage{xurl}
+\usepackage{float}
+\usepackage{seqsplit}
+% The English corpus preserves Unicode author-attribution names (including
+% Greek letters); Latin Modern's text face omits some of those glyphs.
+\setmainfont{Libertinus Serif}
+\newcommand{\sourceblackstar}{\ding{72}}
+% Preserve long source identifiers while allowing line breaks in print.
+\let\englishoriginaltexttt\texttt
+\renewcommand{\texttt}[1]{\englishoriginaltexttt{\seqsplit{#1}}}
+\emergencystretch=2em
+\makeatletter
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+  {-3.25ex\@plus -1ex \@minus -.2ex}%
+  {1.5ex \@plus .2ex}%
+  {\normalfont\normalsize\bfseries}}
+\makeatother

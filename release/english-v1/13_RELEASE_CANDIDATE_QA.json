@@ -1,0 +1,185 @@
+{
+  "archives": {
+    "backend": {
+      "archive_kind": "backend",
+      "archive_prefix": "english-backend",
+      "content_fingerprint": "56b79c678ce0003d6fefe3ea91a60c9c3e4e2b96091927956bcea885f38fcdef",
+      "double_in_memory_replay": true,
+      "file_count": 12,
+      "inventory": {
+        "bytes": 4003,
+        "path": "INVENTORY.json",
+        "sha256": "4e337d86234a2d0a6c37365e787ed19436f1c95e3240fd167da1ea03ce1bb2d6"
+      },
+      "uncompressed_bytes": 129864252,
+      "zip_member_count": 13
+    },
+    "offline_html": {
+      "archive_kind": "offline_html",
+      "archive_prefix": "english-offline-html",
+      "content_fingerprint": "7a35ac75d9b483ab6834c172b6b58bd1d53b61df50b24caecc39914ccc0d9891",
+      "double_in_memory_replay": true,
+      "file_count": 468,
+      "inventory": {
+        "bytes": 163616,
+        "path": "INVENTORY.json",
+        "sha256": "7535e7f625288bfc1b97fccec21cb115e4b62a22688d6f2fb0ec9a16e40f00b0"
+      },
+      "uncompressed_bytes": 30305236,
+      "zip_member_count": 469
+    },
+    "source_control_rights": {
+      "archive_kind": "source_control_rights",
+      "archive_prefix": "english-source-control-rights",
+      "content_fingerprint": "87d5d2414c59698f4b3be1d6f532b0dc626f179f36a5d1fe468cf1cf4184814a",
+      "double_in_memory_replay": true,
+      "file_count": 357,
+      "inventory": {
+        "bytes": 110051,
+        "path": "INVENTORY.json",
+        "sha256": "43cd0e51e2672dc30ee2bb23146fa0eefd1dc4634b1c9dff41fd3fc08c14876d"
+      },
+      "uncompressed_bytes": 3500828,
+      "zip_member_count": 358
+    }
+  },
+  "binding_document": {
+    "bytes": 201151,
+    "path": "00_control/english/RELEASE_BINDINGS_EN_V2.json",
+    "sha256": "7a66e27e49e10a125703cd6b4a7c9782c4f53fa6c67056db6ec37a8c5847af18"
+  },
+  "checks": {
+    "backend_required_surfaces_and_json_parse": true,
+    "compact_resumable_source_control_rights_archive": true,
+    "complete_offline_html_local_resource_closure": true,
+    "deterministic_zip_timestamp_order_permissions": true,
+    "double_in_memory_replay_required_before_write": true,
+    "exact_274_source_closure": true,
+    "exact_component_rights_notice_preserved": true,
+    "exact_model_provenance_bound": true,
+    "exact_three_pdf_readers_and_six_reader_first_files": true,
+    "exclusive_fresh_child_no_overwrite_writer": true,
+    "integration_html_pdf_backend_visual_responsive_receipts": true,
+    "path_traversal_symlink_secret_profile_title_guards": true,
+    "strict_sub_500_mb_payload_gate": true
+  },
+  "checksum_policy": {
+    "covers": [
+      "01_Algebraic-Curves_en_Units-01-30.pdf",
+      "02_Algebraic-Curves_en_Units-01-30.html",
+      "03_Bundles-Sheaves-and-Cohomology_en_Units-01-30.pdf",
+      "04_Bundles-Sheaves-and-Cohomology_en_Units-01-30.html",
+      "05_From-Varieties-to-Schemes_Original-Editorial-Companion_en.pdf",
+      "06_From-Varieties-to-Schemes_Original-Editorial-Companion_en_html.zip",
+      "07_English-Edition_source.zip",
+      "08_English-Edition_native-backend.zip",
+      "09_LICENSE_AND_COMPONENT_RIGHTS.md",
+      "10_README.md",
+      "11_RELEASE_MANIFEST.json",
+      "13_RELEASE_CANDIDATE_QA.json"
+    ],
+    "excludes_only_itself_to_avoid_a_hash_cycle": true,
+    "file": "12_SHA256SUMS.txt"
+  },
+  "component_rights": {
+    "notice": {
+      "bytes": 4211,
+      "path": "09_LICENSE_AND_COMPONENT_RIGHTS.md",
+      "sha256": "8347bd5073795530f208b8f6fd4d932ba6cc42b63996a4a534bf2412ab678d95"
+    },
+    "required_ledger_count": 60,
+    "required_ledgers_present": true
+  },
+  "language": "en",
+  "manifest": {
+    "bytes": 12351,
+    "path": "11_RELEASE_MANIFEST.json",
+    "sha256": "17f18005670f02a02211886b185d42a0040552e6f07d5f012c3e58384a781800"
+  },
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra.",
+  "qa_receipts": {
+    "backend_qa": {
+      "bound_target_count": 11,
+      "bytes": 2662,
+      "path": "qa/english/release-bindings-en-v1.0.0-r2/BACKEND_QA_BINDING.json",
+      "schema": "d100-en-release-backend-qa-binding-v1",
+      "sha256": "9b1280f18c2d4c3fb7c9ea41d1cf51d6fd1967083788494cd9cb95244cb51e66",
+      "status": "PASS"
+    },
+    "html_qa": {
+      "bound_target_count": 470,
+      "bytes": 95253,
+      "path": "qa/english/release-bindings-en-v1.0.0-r2/HTML_QA_BINDING.json",
+      "schema": "d100-en-release-html-qa-binding-v1",
+      "sha256": "62f66d3cf5d9fb29029703b0d7ffa99283726346600842312daef4a4a646d014",
+      "status": "PASS"
+    },
+    "integration_qa": {
+      "bound_target_count": 274,
+      "bytes": 46214,
+      "path": "qa/english/release-bindings-en-v1.0.0-r2/INTEGRATION_QA_BINDING.json",
+      "schema": "d100-en-release-integration-qa-binding-v1",
+      "sha256": "242265683f1af4399d769de04d552dd1c84f29d34bedf0f3d18e3eb513190f8a",
+      "status": "PASS"
+    },
+    "pdf_qa": {
+      "bound_target_count": 3,
+      "bytes": 1297,
+      "path": "qa/english/release-bindings-en-v1.0.0-r2/PDF_QA_BINDING.json",
+      "schema": "d100-en-release-pdf-qa-binding-v1",
+      "sha256": "a206d8eb0bc69d84d46c24713239843ee6350c0f03845d1e4b0d4739e6df0f19",
+      "status": "PASS"
+    },
+    "responsive_qa": {
+      "bound_target_count": 6,
+      "bytes": 5078,
+      "path": "qa/english/release-bindings-en-v1.0.0-r2/RESPONSIVE_QA_BINDING.json",
+      "schema": "d100-en-release-responsive-qa-binding-v1",
+      "sha256": "fbdc9f7aa1605bf48baa5666fa76f77c36992083c5bd60cf319a100af59dfeed",
+      "status": "PASS"
+    },
+    "visual_qa": {
+      "bound_target_count": 3,
+      "bytes": 1090,
+      "path": "qa/english/release-bindings-en-v1.0.0-r2/VISUAL_QA_BINDING.json",
+      "schema": "d100-en-release-visual-qa-binding-v1",
+      "sha256": "4efab4f2b285aeeb5fdba11db86c5cef02ac8bc9132f2ac6fa78d1d94f227cf9",
+      "status": "PASS"
+    }
+  },
+  "reader_first": [
+    "01_Algebraic-Curves_en_Units-01-30.pdf",
+    "02_Algebraic-Curves_en_Units-01-30.html",
+    "03_Bundles-Sheaves-and-Cohomology_en_Units-01-30.pdf",
+    "04_Bundles-Sheaves-and-Cohomology_en_Units-01-30.html",
+    "05_From-Varieties-to-Schemes_Original-Editorial-Companion_en.pdf",
+    "06_From-Varieties-to-Schemes_Original-Editorial-Companion_en_html.zip"
+  ],
+  "reader_pdfs": [
+    "01_Algebraic-Curves_en_Units-01-30.pdf",
+    "03_Bundles-Sheaves-and-Cohomology_en_Units-01-30.pdf",
+    "05_From-Varieties-to-Schemes_Original-Editorial-Companion_en.pdf"
+  ],
+  "release_id": "en-v1.0.0",
+  "release_metadata": {
+    "contract": {
+      "bytes": 19690,
+      "path": "00_control/english/RELEASE_METADATA_EN.json",
+      "sha256": "0327ac0b490599b44508c7d17b958e1db98a64b3b329ef8a2fdcb103d2eb6260"
+    },
+    "filenames_and_order_exact": true,
+    "review": {
+      "bytes": 9287,
+      "path": "qa/english/RELEASE_METADATA_REVIEW.json",
+      "sha256": "1ebc4d8452fc18535ba7119dd896d66784c381ce8f3d8c57425cb1dcfa167eae"
+    }
+  },
+  "schema": "d100-en-release-candidate-qa-v1",
+  "source_closure": {
+    "actual": 274,
+    "exact_order_and_identity": true,
+    "expected": 274,
+    "sha256": "d5fbda10c76ee68267fa1b20af42113fce3aaad3d3b9561dba440b7ea8e1f1b5"
+  },
+  "status": "PASS_RELEASE_CANDIDATE_NOT_PUBLISHED"
+}
