@@ -1,0 +1,90 @@
+{
+  "schema": "interlanguage-federated-reader-navigation-qa-v1",
+  "role_id": "D100",
+  "status": "pass",
+  "pages_source": {
+    "branch": "main",
+    "path": "/docs"
+  },
+  "config": {
+    "path": "source/federated-navigation/d100-reader-navigation-v1.json",
+    "bytes": 1420,
+    "sha256": "9cca17cf4044e441c6de01e4dd6a213d291b0123d0a2f79ff03bafe0366224dc"
+  },
+  "script": {
+    "path": "scripts/apply_federated_reader_navigation.py",
+    "bytes": 15753,
+    "sha256": "3d6c78caf264d47f730dfa4a598f9c8c91e25580cd37ad3e5fb92868f80827e4"
+  },
+  "published_html_count": 6,
+  "expected_links_per_document": 5,
+  "documents": [
+    {
+      "path": "docs/index.html",
+      "bytes": 23808146,
+      "sha256": "d9aebfade01203e7b0c20cf468d544365f6a51fcf994ba8419ee28e93ec83b89",
+      "central_links": 2,
+      "original_links": 3,
+      "marker_count": 1
+    },
+    {
+      "path": "docs/bgk/index.html",
+      "bytes": 6839675,
+      "sha256": "8f27972340bbe1dddd45294db6a637c64656cfa1b27d4bd4d54632c84ec3e886",
+      "central_links": 2,
+      "original_links": 3,
+      "marker_count": 1
+    },
+    {
+      "path": "docs/en/index.html",
+      "bytes": 3803,
+      "sha256": "ed6f100773b9e00f4d28531acc26827742b965425bda2199ff1eebf7c94a0b2f",
+      "central_links": 2,
+      "original_links": 3,
+      "marker_count": 1
+    },
+    {
+      "path": "docs/en/ak.html",
+      "bytes": 4918247,
+      "sha256": "f2c60312a8200b5de1c7ed34163e3d4830b78133a31897297343cde363702bf2",
+      "central_links": 2,
+      "original_links": 3,
+      "marker_count": 1
+    },
+    {
+      "path": "docs/en/bgk.html",
+      "bytes": 4345933,
+      "sha256": "db36486ecf47c1c78afe3420f0086dae23c5a25b5d9195083be0c326e0506330",
+      "central_links": 2,
+      "original_links": 3,
+      "marker_count": 1
+    },
+    {
+      "path": "docs/en/companion.html",
+      "bytes": 1489805,
+      "sha256": "191304c22816f30507aa6989186927b47d05b127c6e8b29bd4310b3cc7919df2",
+      "central_links": 2,
+      "original_links": 3,
+      "marker_count": 1
+    }
+  ],
+  "english_public_closure": {
+    "status": "pass",
+    "file_count_excluding_inventory": 473,
+    "html_tree": {
+      "bytes": 31077956,
+      "closure_sha256": "a5ff79eb37706ce3f5056bf6b7280bde3b2396be71ffc6fdde330cba1b877412",
+      "file_count": 469
+    },
+    "public_manifest": {
+      "path": "docs/en/public-manifest.json",
+      "bytes": 4393,
+      "sha256": "7825fa105e93ccae054fec8ae663aa49b6facfe73cb5cbfa833b57e51e4e0866"
+    },
+    "sha256_inventory": {
+      "path": "docs/en/sha256-inventory.json",
+      "bytes": 83610,
+      "sha256": "b7df169f200787aa94295f63b0cbec2def54d999564bdd9f79848da0944634f2"
+    }
+  }
+}

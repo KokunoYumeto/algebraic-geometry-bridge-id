@@ -96,7 +96,18 @@ python scripts/export_backend_bgk_units_01_30.py
 python scripts/qa_backend_bgk_units_01_30.py
 python scripts/qa_common_backend_bgk_units_01_30.py
 python scripts/generate_common_backend_v1_receipts.py --native-backend backend/bgk-units-01-30 --preflight
+python scripts/apply_federated_reader_navigation.py --apply --report qa/FEDERATED_NAVIGATION_QA.json
+python scripts/apply_federated_reader_navigation.py --check
 ```
+
+Gerbang navigasi federasi terakhir wajib dijalankan setelah setiap penyegaran
+berkas `docs/**/*.html`. Gerbang itu menyisipkan bilah dwibahasa yang dapat
+diakses ke semua pembaca GitHub Pages, menghubungkan setiap dokumen kembali ke
+entri D100 pada program pusat, dan mempertahankan tautan langsung ke ketiga
+sumber resmi Wikiversity. Daftar HTML yang dipublikasikan dibekukan dalam
+`source/federated-navigation/d100-reader-navigation-v1.json`; berkas HTML baru
+yang belum didaftarkan membuat pemeriksaan gagal alih-alih diterbitkan tanpa
+jalur kembali.
 
 Gerbang visual merasterkan seluruh 504 halaman klasik dan seluruh 380 halaman
 BGK, mengikat setiap PNG menurut ukuran dan SHA-256, lalu memeriksa lembar

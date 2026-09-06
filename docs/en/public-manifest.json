@@ -20,10 +20,20 @@
     }
   ],
   "entrypoint": "index.html",
+  "federated_navigation": {
+    "central_links_per_document": 2,
+    "config": "source/federated-navigation/d100-reader-navigation-v1.json",
+    "english_html_count": 4,
+    "historical_build_receipt_preserved": "build-receipt.json",
+    "original_source_links_per_document": 3,
+    "published_html_count": 6,
+    "role_id": "D100",
+    "status": "PASS"
+  },
   "generator": "scripts/english/stage_docs_en.py",
   "html_tree": {
-    "bytes": 31067227,
-    "closure_sha256": "b3280485a41236908e19406e9f3ed0d0f9b32ae9733803893e31c724be031474",
+    "bytes": 31077956,
+    "closure_sha256": "a5ff79eb37706ce3f5056bf6b7280bde3b2396be71ffc6fdde330cba1b877412",
     "directories": [
       "assets",
       "assets/authority",
@@ -37,7 +47,8 @@
       "sources/source/en/bridge"
     ],
     "file_count": 469,
-    "preserved_byte_for_byte": true
+    "postprocessed_navigation": true,
+    "preserved_byte_for_byte": false
   },
   "inventory": {
     "algorithm": "sha256",

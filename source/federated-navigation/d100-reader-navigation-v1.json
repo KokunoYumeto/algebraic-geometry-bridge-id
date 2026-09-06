@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema": "interlanguage-federated-reader-navigation-v1",
+  "role_id": "D100",
+  "central_program": {
+    "id": {
+      "label": "Program Matematika Indonesia",
+      "url": "https://kokunoyumeto.github.io/program-matematika-indonesia/id/#course-D100",
+      "hreflang": "id"
+    },
+    "en": {
+      "label": "Indonesian Mathematics Program",
+      "url": "https://kokunoyumeto.github.io/program-matematika-indonesia/en/#course-D100",
+      "hreflang": "en"
+    }
+  },
+  "original_sources": [
+    {
+      "label": "Kurva Aljabar 2025–2026 / Algebraic Curves 2025–2026",
+      "url": "https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026)",
+      "hreflang": "de"
+    },
+    {
+      "label": "Kurva Aljabar 2012 / Algebraic Curves 2012",
+      "url": "https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012)",
+      "hreflang": "de"
+    },
+    {
+      "label": "Bundel, Berkas, dan Kohomologi / Bundles, Sheaves and Cohomology",
+      "url": "https://de.wikiversity.org/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020)",
+      "hreflang": "de"
+    }
+  ],
+  "published_html_root": "docs",
+  "published_html_files": [
+    "docs/index.html",
+    "docs/bgk/index.html",
+    "docs/en/index.html",
+    "docs/en/ak.html",
+    "docs/en/bgk.html",
+    "docs/en/companion.html"
+  ]
+}
