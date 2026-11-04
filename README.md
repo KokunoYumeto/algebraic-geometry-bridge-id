@@ -1,87 +1,43 @@
-# Kurva Aljabar + Bundel, Berkas, dan Kohomologi — Edisi Bahasa Indonesia
+# Kurva Aljabar dan Bundel, Berkas, dan Kohomologi: terjemahan Bahasa Indonesia kursus Holger Brenner
 
-Edisi Bahasa Indonesia independen dari dua kursus Holger Brenner:
-*Algebraische Kurven* serta *Bündel, Garben und Kohomologie*. Untuk volume
-pertama, Unit 1–23 mengikuti kursus resmi *Osnabrück 2025–2026* dan Unit
-24–30 mengikuti kuliah dan lembar kerja resmi *Osnabrück 2012*. Volume kedua
-mengikuti kursus resmi *Osnabrück 2019–2020*. Semua batas sumber dibekukan dan
-dilabeli secara terpisah. Nama repositori berakhiran `-id`, dokumen menyatakan
-bahasa `id-ID`, dan judul kerja dipertahankan agar edisi serta bahasanya mudah
-ditemukan.
+Terjemahan Bahasa Indonesia yang lengkap dari dua kursus Wikiversity Jerman karya Holger Brenner: *Algebraische
+Kurven* (30 unit; Unit 1–23 dari kursus Osnabrück 2025–2026, Unit 24–30 dari kuliah dan lembar kerja Osnabrück 2012)
+dan *Bündel, Garben und Kohomologie* (30 unit, Osnabrück 2019–2020), sebagai pembaca HTML, PDF A4, sumber, dan backend
+stabil. Repositori ini juga memuat edisi bahasa Inggris kedua kursus.
 
-Status saat ini: **volume klasik lengkap 30/30 dan volume BGK lengkap 30/30**.
-Seluruh 60 dari 60 unit sumber dan 602 halaman PDF sumber resmi telah selesai.
-Lapisan pendamping orisinal—jembatan skema/kohomologi, latihan penguasaan,
-masalah integratif, dan tugas akhir—belum termasuk dalam rilis ini. Volume
-klasik memuat seluruh 693 soal, 122 solusi publik, 101 posisi media, HTML
-mandiri, PDF A4 504 halaman, dan backend 22.752 rekaman. Volume BGK memuat
-seluruh 495 soal, tepat 25 solusi publik yang tersedia (470 solusi yang tidak
-tersedia tidak diciptakan), HTML mandiri, PDF A4 380 halaman, dan backend
-21.686 rekaman.
+[Baca Kurva Aljabar](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/) · [Baca Bundel, Berkas, dan Kohomologi](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/bgk/) · [English edition](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/en/)
 
-## Baca
+## Cara pembuatan
 
-- [Pembaca web di GitHub Pages](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/)
-- [Pembaca BGK lengkap di GitHub Pages](https://kokunoyumeto.github.io/algebraic-geometry-bridge-id/bgk/)
-- [Repositori edisi dan bahasa ini](https://github.com/KokunoYumeto/algebraic-geometry-bridge-id)
-- [Edisi klasik lengkap di Zenodo](https://doi.org/10.5281/zenodo.22150273)
-- [Rilis gabungan: kedua volume sumber lengkap](https://doi.org/10.5281/zenodo.22211418)
-- [Konsep Zenodo yang memuat semua versi](https://doi.org/10.5281/zenodo.22059686)
-- `build/reader-id/index.html`: pembaca HTML kumulatif mandiri
-- `build/reader-id/algebraic-geometry-bridge-id-units-01-30.pdf`: PDF A4 lengkap
-- `build/reader-bgk-id/index.html`: pembaca HTML BGK Unit 1–30
-- `build/reader-bgk-id/bundel-berkas-dan-kohomologi-id-units-01-30.pdf`: PDF A4 BGK
-- [Sumber resmi 2025-2026 di Wikiversity](https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2025-2026))
-- [Sumber resmi 2012 di Wikiversity](https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_(Osnabr%C3%BCck_2012))
-- [Sumber resmi BGK di Wikiversity](https://de.wikiversity.org/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_(Osnabr%C3%BCck_2019-2020))
+Terjemahan dan penataan ulang dikerjakan oleh AI: OpenAI Codex gpt-5.6-sol, Ultra. Revisi kuliah dan lembar kerja,
+transklusi, urutan soal, solusi publik, dan PDF resmi sumber dibekukan di `authority/wikiversity/` dan
+`authority/wikiversity-bgk/`; hak setiap posisi media dicatat di `authority/RIGHTS*.csv`, sedangkan adaptasi, koreksi,
+dan keputusan istilah dicatat di [`00_control/CORRECTIONS.csv`](00_control/CORRECTIONS.csv) dan
+[`00_control/TERMINOLOGY.csv`](00_control/TERMINOLOGY.csv). Pemeriksaan merasterkan seluruh 504 halaman Kurva Aljabar
+dan 380 halaman BGK, menguji kedua pembaca di desktop dan telepon (matematika, tautan internal, teks alternatif, jalur
+aset, log konsol), dan memutar ulang backend secara ganda; hasilnya ada di [`qa/`](qa/).
 
-HTML adalah permukaan akses utama: kedua dokumen menyatakan `id-ID`, memakai
-struktur judul semantik, dan ber-reflow pada telepon tanpa luapan halaman.
-Volume klasik mempunyai teks alternatif pada 101 gambar, 11.322 simpul MathML,
-dan 1.580 tautan internal yang lengkap. Volume BGK mempunyai 9.466 simpul
-MathML dan 2.563 ID HTML unik; penutupan jangkar, alternatif media, dan reflow
-desktop/telepon telah lulus pemeriksaan deterministik. Blok matematika yang
-terlalu lebar dapat digulir secara lokal tanpa meluapkan dokumen. PDF adalah
-permukaan cetak dan tidak diklaim sebagai PDF bertag.
+## Status
 
-## Otoritas dan reproduksibilitas
+Kedua volume lengkap. Kurva Aljabar: 30/30 unit, seluruh 693 soal, 122 solusi publik, 101 posisi media, PDF 504 halaman,
+backend 22.752 rekaman. Bundel, Berkas, dan Kohomologi: 30/30 unit, seluruh 495 soal, 25 solusi publik yang tersedia di
+sumber (solusi yang tidak tersedia tidak diciptakan), PDF 380 halaman, backend 21.686 rekaman. Lapisan pendamping
+orisinal (jembatan skema dan kohomologi, latihan penguasaan, masalah integratif, dan tugas akhir) belum ada dalam
+Bahasa Indonesia; edisi bahasa Inggris memuat pendamping orisinal *From Varieties to Schemes*. PDF tidak bertag; HTML
+adalah permukaan akses utama. Masih mungkin ada kesalahan.
 
-- `authority/wikiversity/unit-01` sampai `unit-30` mengikat revisi kuliah dan
-  lembar kerja, seluruh transklusi, peta urutan soal, solusi publik, serta PDF
-  resmi yang dipakai sebagai saksi build.
-- `authority/RIGHTS.csv` dan `authority/RIGHTS-unit-02.csv` sampai
-  `authority/RIGHTS-unit-30.csv` memisahkan hak setiap posisi media dan aset.
-- [`build/reader-id/BUILD_RECEIPT.json`](build/reader-id/BUILD_RECEIPT.json)
-  mengikat seluruh masukan dan keluaran pembaca.
-- [`qa/UNITS_01_30_MACHINE_QA.json`](qa/UNITS_01_30_MACHINE_QA.json),
-  [`qa/UNITS_01_30_VISUAL_QA.json`](qa/UNITS_01_30_VISUAL_QA.json),
-  [`qa/UNITS_01_30_VISUAL_PAGE_MANIFEST.json`](qa/UNITS_01_30_VISUAL_PAGE_MANIFEST.json),
-  [`qa/UNITS_01_30_RESPONSIVE_QA.json`](qa/UNITS_01_30_RESPONSIVE_QA.json), dan
-  [`qa/UNIT_30_PROTECTED_SURFACES.json`](qa/UNIT_30_PROTECTED_SURFACES.json)
-  merekam gerbang pembaca, semua 504 raster halaman, reflow desktop/seluler,
-  matematika, struktur soal-solusi, hak, serta koreksi terlacak.
-- [`backend/units-01-30/MANIFEST.json`](backend/units-01-30/MANIFEST.json)
-  mengikat 22.752 rekaman deterministik; seluruh 21.358 rekaman baseline Unit
-  1–28 dipertahankan byte demi byte.
-- [`qa/UNITS_01_30_BACKEND_QA.json`](qa/UNITS_01_30_BACKEND_QA.json) mengikat
-  replay backend ganda, sedangkan
-  [`backend/common-backend-v1/MIGRATION_RECEIPT.json`](backend/common-backend-v1/MIGRATION_RECEIPT.json)
-  merekam adaptor virtual aditif tanpa mengganti backend asli atau pembaca.
-- [`authority/wikiversity-bgk/unit-01`](authority/wikiversity-bgk/unit-01)
-  sampai [`unit-30`](authority/wikiversity-bgk/unit-30),
-  [`qa/BGK_UNITS_01_30_READER_QA.json`](qa/BGK_UNITS_01_30_READER_QA.json),
-  [`qa/BGK_UNITS_01_30_VISUAL_QA.json`](qa/BGK_UNITS_01_30_VISUAL_QA.json),
-  [`qa/BGK_UNITS_01_30_RESPONSIVE_QA.json`](qa/BGK_UNITS_01_30_RESPONSIVE_QA.json), dan
-  [`backend/bgk-units-01-30/MANIFEST.json`](backend/bgk-units-01-30/MANIFEST.json)
-  menutup sumber, hak komponen, pembaca, seluruh 380 halaman, dan backend BGK.
-- [`backend/bgk-common-backend-v1/MIGRATION_RECEIPT_UNITS_01_30.json`](backend/bgk-common-backend-v1/MIGRATION_RECEIPT_UNITS_01_30.json)
-  mengikat proyeksi backend BGK ke identitas publik tanpa mengganti model asli.
-- [`00_control/CORRECTIONS.csv`](00_control/CORRECTIONS.csv) dan
-  [`00_control/TERMINOLOGY.csv`](00_control/TERMINOLOGY.csv) membuat adaptasi,
-  koreksi, dan keputusan istilah dapat diaudit.
+## Isi
 
-Bangun dan periksa ulang dengan Python 3, Pandoc 3.9+, LuaLaTeX, Poppler,
-ImageMagick, `pypdf`, `Pillow`, dan `jsonschema`:
+- Rilis [unit-30](https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/unit-30) (Kurva Aljabar lengkap: PDF, HTML, sumber, saksi sumber),
+  [bgk-unit-30](https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/bgk-unit-30) (Bundel, Berkas, dan Kohomologi lengkap: PDF, HTML, sumber, backend), dan
+  [en-v1.0.0](https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases/tag/en-v1.0.0) (edisi bahasa Inggris: kedua volume, pendamping *From Varieties to Schemes*, sumber,
+  backend); checkpoint yang lebih awal tetap tersedia di [rilis GitHub](https://github.com/KokunoYumeto/algebraic-geometry-bridge-id/releases).
+- `build/reader-id/` dan `build/reader-bgk-id/`: pembaca HTML mandiri dan PDF A4 kedua volume; `docs/`: situs Pages.
+- `authority/`, `backend/`, `qa/`, `00_control/`, `scripts/`, `source/`: sumber yang dibekukan, backend, pemeriksaan,
+  kontrol, skrip, dan sumber terjemahan.
+
+Bangun dan periksa ulang dengan Python 3, Pandoc 3.9+, LuaLaTeX, Poppler, ImageMagick, `pypdf`, `Pillow`, dan
+`jsonschema`:
 
 ```powershell
 python scripts/build_reader.py --through 30
@@ -100,35 +56,21 @@ python scripts/apply_federated_reader_navigation.py --apply --report qa/FEDERATE
 python scripts/apply_federated_reader_navigation.py --check
 ```
 
-Gerbang navigasi federasi terakhir wajib dijalankan setelah setiap penyegaran
-berkas `docs/**/*.html`. Gerbang itu menyisipkan bilah dwibahasa yang dapat
-diakses ke semua pembaca GitHub Pages, menghubungkan setiap dokumen kembali ke
-entri D100 pada program pusat, dan mempertahankan tautan langsung ke ketiga
-sumber resmi Wikiversity. Daftar HTML yang dipublikasikan dibekukan dalam
-`source/federated-navigation/d100-reader-navigation-v1.json`; berkas HTML baru
-yang belum didaftarkan membuat pemeriksaan gagal alih-alih diterbitkan tanpa
-jalur kembali.
+Setelah setiap penyegaran `docs/**/*.html`, jalankan gerbang navigasi
+(`scripts/apply_federated_reader_navigation.py --check`); berkas HTML yang belum terdaftar di
+`source/federated-navigation/d100-reader-navigation-v1.json` membuat pemeriksaan gagal.
 
-Gerbang visual merasterkan seluruh 504 halaman klasik dan seluruh 380 halaman
-BGK, mengikat setiap PNG menurut ukuran dan SHA-256, lalu memeriksa lembar
-kontak dan halaman berisiko pada resolusi penuh. Gerbang browser menguji
-desktop dan telepon untuk kedua pembaca, termasuk matematika, tautan internal,
-teks alternatif, blok matematika yang dapat digulir secara lokal, jalur aset,
-dan log konsol.
+## Sumber dan atribusi
 
-## Hubungan, perubahan, dan hak
+- Holger Brenner, [*Algebraische Kurven (Osnabrück 2025-2026)*](https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_%28Osnabr%C3%BCck_2025-2026%29),
+  [*Algebraische Kurven (Osnabrück 2012)*](https://de.wikiversity.org/wiki/Kurs:Algebraische_Kurven_%28Osnabr%C3%BCck_2012%29)
+  dan [*Bündel, Garben und Kohomologie (Osnabrück 2019-2020)*](https://de.wikiversity.org/wiki/Kurs:B%C3%BCndel,_Garben_und_Kohomologie_%28Osnabr%C3%BCck_2019-2020%29),
+  Wikiversity Jerman, beserta kontributor sumber dan pencipta media yang dicatat di `authority/`.
+- Edisi ini bukan terbitan resmi Holger Brenner, Universitas Osnabrück, Wikiversity, atau Wikimedia Foundation dan tidak
+  menyiratkan dukungan mereka.
 
-Edisi ini menerjemahkan dan menata ulang materi sumber. Ini bukan terbitan
-resmi Holger Brenner, Universitas Osnabrück, Wikiversity, Wikimedia Foundation,
-atau pihak lain, dan tidak menyiratkan dukungan mereka. Produksi dibantu oleh
-**OpenAI Codex gpt-5.6-sol, Ultra.** Pekerjaan dilakukan atas arahan pengguna;
-provenance alat tidak menggantikan kredit Holger Brenner, kontributor sumber,
-atau kontributor manusia.
+## Lisensi
 
-Teks sumber dan terjemahan berada di bawah CC BY-SA 4.0. Saksi PDF resmi Unit
-24–30 mempertahankan pemberitahuan komponen jalur kursus CC BY-SA 4.0 dan
-berkas CC BY-SA 2.0 Germany. Media pihak ketiga mempertahankan pencipta, sumber, dan
-lisensi komponennya masing-masing; tidak ada klaim lisensi tunggal untuk
-seluruh payload campuran. Lisensi MIT untuk skrip tidak melisensikan ulang
-teks, saksi sumber, atau media. Lihat [LICENSE.md](LICENSE.md) untuk pemisahan
-hak yang mengikat.
+Teks sumber dan terjemahannya tersedia menurut CC BY-SA 4.0. Saksi PDF resmi Unit 24–30 mempertahankan pemberitahuan
+CC BY-SA 4.0 dan CC BY-SA 2.0 Germany; media pihak ketiga mempertahankan pencipta, sumber, dan lisensinya masing-masing;
+skrip berlisensi MIT. Lihat [LICENSE.md](LICENSE.md).
